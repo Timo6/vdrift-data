@@ -1,0 +1,311 @@
+drive = RWD
+
+[ steering ]
+max-angle = 33.19
+
+[ engine ]
+position = 0.86, 0.0, -0.21
+mass = 150.0
+max-power = 1.80e5
+peak-engine-rpm = 6500.0
+rpm-limit = 8000.0
+inertia = 0.25
+idle = 0.02
+start-rpm = 1000
+stall-rpm = 350
+fuel-consumption = 1e-9
+torque-friction = 0.0003
+torque-curve-00 = 1000, 207.70
+torque-curve-01 = 2000, 252.14
+torque-curve-02 = 2250, 258.45
+torque-curve-03 = 2500, 262.22
+torque-curve-04 = 3000, 267.20
+torque-curve-05 = 3500, 270.98
+torque-curve-06 = 4000, 277.18
+torque-curve-07 = 4500, 285.25
+torque-curve-08 = 5000, 293.34
+torque-curve-09 = 5500, 296.83
+torque-curve-10 = 6000, 290.04
+torque-curve-11 = 6250, 285.65
+torque-curve-12 = 6500, 278.18
+torque-curve-13 = 6750, 270.48
+torque-curve-14 = 7000, 264.78
+torque-curve-15 = 7500, 255.09
+torque-curve-16 = 8000, 231.98
+
+[ clutch ]
+sliding = 0.27
+radius = 0.1
+area = 0.75
+max-pressure = 22000.0
+
+[ transmission ]
+gears = 5
+gear-ratio-r = -3.39
+gear-ratio-1 = 3.483
+gear-ratio-2 = 2.015
+gear-ratio-3 = 1.39
+gear-ratio-4 = 1.00
+gear-ratio-5 = 0.862
+shift-delay = 0.06
+
+[ differential ]
+final-drive = 4.100
+anti-slip = 600.0
+
+[ fuel-tank ]
+position = -0.8, -0.1, -0.26
+capacity = 76.0
+volume = 76.0
+fuel-density = 1.0
+
+[ suspension-front ]
+spring-constant = 49131.9
+bounce = 2588
+rebound = 2612
+travel = 0.19
+max-compression-velocity = 10.0
+camber = -1.33
+caster = 6.12
+toe = 0.5
+anti-roll = 8000.0
+
+[ suspension-rear ]
+spring-constant = 50137.3
+bounce = 2788
+rebound = 2912
+travel = 0.19
+max-compression-velocity = 10.0
+camber = -0.45
+caster = 0.28
+toe = 0.0
+anti-roll = 6000.0
+
+[ tire-front ]
+radius = 0.29
+rolling-resistance = 1.3e-2, 6.5e-6
+rotational-inertia = 10.0
+tread = 0.0
+# Lateral force
+a0=1.6
+a1=-38
+a2=1201
+a3=1914
+a4=8.7
+a5=0.014
+a6=-0.24
+a7=1.0
+a8=-0.03
+a9=-0.0013
+a10=-0.15
+a111=-8.5
+a112=-0.29
+a12=17.8
+a13=-2.4
+# Longitudinal force
+b0=1.7
+b1=-80
+b2=1571
+b3=23.3
+b4=300
+b5=0
+b6=0.0068
+b7=0.055
+b8=-0.024
+b9=0.014
+b10=0.26
+b11=-86
+b12=350
+# Aligning moment
+c0=2.3
+c1=-3.8
+c2=-3.14
+c3=-1.16
+c4=-7.2
+c5=0.0
+c6=0.0
+c7=0.044
+c8=-0.58
+c9=0.18
+c10=0.043
+c11=0.048
+c12=-0.0035
+c13=-0.18
+c14=0.14
+c15=-1.029
+c16=0.27
+c17=-1.1
+
+[ tire-rear ]
+radius = 0.2935
+rolling-resistance = 1.3e-2, 6.5e-6
+rotational-inertia = 10.0
+tread = 0.0
+# Lateral force
+a0=1.6
+a1=-40
+a2=1241
+a3=1914
+a4=8.9
+a5=0.014
+a6=-0.24
+a7=1.0
+a8=-0.04
+a9=-0.0013
+a10=-0.15
+a111=-8.5
+a112=-0.29
+a12=17.8
+a13=-2.4
+# Longitudinal force
+b0=1.7
+b1=-80
+b2=1571
+b3=23.3
+b4=300
+b5=0
+b6=0.0068
+b7=0.055
+b8=-0.024
+b9=0.014
+b10=0.26
+b11=-86
+b12=350
+# Aligning moment
+c0=2.3
+c1=-3.8
+c2=-3.14
+c3=-1.16
+c4=-7.2
+c5=0.0
+c6=0.0
+c7=0.044
+c8=-0.58
+c9=0.18
+c10=0.043
+c11=0.048
+c12=-0.0035
+c13=-0.18
+c14=0.14
+c15=-1.029
+c16=0.27
+c17=-1.1
+
+[ brakes-front ]
+friction = 0.73
+max-pressure = 3.5e6
+bias = 0.62
+radius = 0.14
+area = 0.015
+
+[ brakes-rear ]
+friction = 0.73
+max-pressure = 3.5e6
+bias = 0.38
+radius = 0.14
+area = 0.015
+handbrake = 1.0
+
+[ driver ]
+position = -0.45, 0.3, -0.10
+mass = 90.0
+view-position = -0.45, 0.3, 0.3
+
+[ drag ]
+position = 0.0, 0.0, 0.2
+frontal-area = 2
+drag-coefficient = 0.3
+
+[ wing-front ]
+position = 1.9, 0.0, 0.60
+frontal-area = 0.2
+drag-coefficient = 0.0
+surface-area = 0.3
+lift-coefficient = -0.5
+efficiency = 0.95
+
+[ wing-rear ]
+position = -2.14, 0.0, 0.37
+frontal-area = 0.05
+drag-coefficient = 0.0
+surface-area = 0.5
+lift-coefficient = -2
+efficiency = 0.95
+
+[ wheel-FR ]
+position = 1.26, -0.77, -0.48
+roll-height = 0.29
+mass = 20.0
+restitution = 0.1
+
+[ suspension-FR ]
+position = 1.26, -0.72, -0.02
+hinge = 0,0,0
+
+[ wheel-FL ]
+position = 1.26, 0.77, -0.48
+roll-height = 0.29
+mass = 20.0
+restitution = 0.1
+
+[ suspension-FL ]
+position = 1.26, 0.72, -0.02
+hinge = 0,0,0
+
+[ wheel-RR ]
+position = -1.26, -0.77, -0.48
+roll-height = 0.29
+mass = 20.0
+restitution = 0.1
+
+[ suspension-RR ]
+position = -1.26, -0.72, -0.02
+hinge = -0.85,0,0
+
+[ wheel-RL ]
+position = -1.26, 0.77, -0.48
+roll-height = 0.29
+mass = 20.0
+restitution = 0.1
+
+[ suspension-RL ]
+position = -1.26, 0.72, -0.02
+hinge = -0.85,0,0
+
+[ contact-points ]
+# used to find the bounds of the car (for collisions)
+# also play into the weight distribution and balance
+mass = 0.05
+position-00 = 1.96, 0.37, -0.24
+position-01 = 1.96, -0.37, -0.24
+position-02 = 1.52, 0.83, 0.16
+position-03 = 1.52, -0.83, 0.16
+position-04 = -0.10, 0.89, -0.24
+position-05 = -0.10, -0.89, -0.24
+position-06 = -2.18, -0.83, -0.10
+position-07 = -2.18, 0.83, -0.10
+
+# these are used to calculate the weight distribution and balance
+[ particle-00 ]
+mass = 28.0
+position = -1.28, 0.0, -0.36
+
+[ particle-01 ]
+mass = 60.0
+position = 0.11, 0.0, -0.36
+
+[ particle-02 ]
+mass = 250.0
+position = -1.7, 0.39, 0.0
+
+[ particle-03 ]
+mass = 250.0
+position = -1.7, -0.39, 0.0
+
+[ particle-04 ]
+mass = 203.0
+position = 1.32, 0.39, -0.07
+
+[ particle-05 ]
+mass = 203.0
+position = 1.32, -0.39, -0.07

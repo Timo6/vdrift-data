@@ -1,0 +1,9 @@
+
+[ CT ]
+sector 0 = 125.456009
+sector 1 = 77.560005
+
+[ last ]
+car = CT
+sector 0 = 134.408005
+sector 1 = 87.940002

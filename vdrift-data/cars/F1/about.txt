@@ -1,0 +1,6 @@
+F1
+Model by ..
+Import settings and some textures by Dick Maurer.
+
+Car settings modded by Cotharyus. HP and torque should be consistant with 2006 V8 specs, top speed 200 mph. This model's settins are probly due some more tweaking.
+

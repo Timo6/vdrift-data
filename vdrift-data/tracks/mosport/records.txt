@@ -1,0 +1,28 @@
+
+[ C7 ]
+sector 1 = 40.296001
+
+[ CT ]
+sector 0 = 92.720001
+sector 1 = 37.892002
+
+[ F1 ]
+sector 0 = 74.488007
+sector 1 = 28.672001
+
+[ M8 ]
+sector 0 = 117.856003
+sector 1 = 45.056004
+
+[ TL2 ]
+sector 0 = 125.328003
+sector 1 = 51.824001
+
+[ XS ]
+sector 0 = 119.992004
+sector 1 = 46.620003
+
+[ last ]
+car = TL2
+sector 0 = 125.328003
+sector 1 = 51.824001

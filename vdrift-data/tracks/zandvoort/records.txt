@@ -1,0 +1,9 @@
+
+[ TL2 ]
+sector 0 = 222.052017
+sector 1 = 83.140007
+
+[ last ]
+car = TL2
+sector 0 = 222.052017
+sector 1 = 83.140007
