@@ -1,0 +1,10 @@
+cull faces = on
+lap sequences = 2
+non-treaded friction coefficient = 1.000000
+treaded friction coefficient = 0.900000
+start position 0 = 36.503513,-4.935669,-107.212479
+start orientation-xyz 0 = 0.001018,-0.937365,0.002960
+start orientation-w 0 = 0.348335
+lap sequence 0 = 0.000000,1008.000000,0.000000
+lap sequence 1 = 0.000000,843.000000,0.000000
+
