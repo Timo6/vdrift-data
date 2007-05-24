@@ -1,5 +1,5 @@
 name = Main
-widgets = 7
+widgets = 8
 background = box.png
 dialog = false
 
@@ -37,7 +37,7 @@ name = SingleRaceButton
 text = Single Race
 tip = Start a race.
 action = SingleRace
-center = 0.5, 0.4
+center = 0.5, 0.39
 color = 0.0, 0.0, 0.8
 width = auto
 height = auto
@@ -49,11 +49,11 @@ cancel = 0
 
 [ widget-03 ]
 type = button
-name = NetworkGameButton
-text = Network Game
-tip = Start a network game.
-action = NetworkGame
-center = 0.5, 0.5
+name = AutoXButton
+text = Auto-X
+tip = Play Auto-X.
+action = AutoX
+center = 0.5, 0.48
 color = 0.0, 0.0, 0.8
 width = auto
 height = auto
@@ -65,11 +65,11 @@ cancel = 0
 
 [ widget-04 ]
 type = button
-name = ReplaysButton
-text = Replays
-tip = Play back recorded games.
-action = Replays
-center = 0.5, 0.6
+name = NetworkGameButton
+text = Network Game
+tip = Start a network game.
+action = NetworkGame
+center = 0.5, 0.57
 color = 0.0, 0.0, 0.8
 width = auto
 height = auto
@@ -81,11 +81,11 @@ cancel = 0
 
 [ widget-05 ]
 type = button
-name = OptionsButton
-text = Options
-tip = Configure your display, sound and controls.
-action = Options
-center = 0.5, 0.7
+name = ReplaysButton
+text = Replays
+tip = Play back recorded games.
+action = Replays
+center = 0.5, 0.66
 color = 0.0, 0.0, 0.8
 width = auto
 height = auto
@@ -97,11 +97,27 @@ cancel = 0
 
 [ widget-06 ]
 type = button
+name = OptionsButton
+text = Options
+tip = Configure your display, sound and controls.
+action = Options
+center = 0.5, 0.75
+color = 0.0, 0.0, 0.8
+width = auto
+height = auto
+fontsize = 7
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-07 ]
+type = button
 name = QuitButton
 text = Quit
 tip = Quit VDrift.
 action = QuitConfirm
-center = 0.5, 0.8
+center = 0.5, 0.84
 color = 0.8, 0.0, 0.0
 width = auto
 height = auto
