@@ -32,19 +32,3 @@ gravel.png
 5.0
 20.0
 
-# Road cone
-Roadcone.joe
-Roadcone.png
-1
-0
-0
-0
-0
-0
-0
-0
-0.7
-1.0
-5.0
-20.0
-
