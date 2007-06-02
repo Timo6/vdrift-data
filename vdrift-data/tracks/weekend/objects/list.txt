@@ -2274,22 +2274,6 @@ statoil07.tga.png
 1.0
 0.0
 
-#entry 142
-butikk06.dof-00.joe
-grus01.tga.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
 #entry 143
 butikk07.dof-00.joe
 tak01.tga.png
@@ -2325,22 +2309,6 @@ metall03.tga.png
 #entry 145
 butikk10.dof-00.joe
 mur03.tga.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 146
-collide01.dof-00.joe
-.png
 1
 0
 0
@@ -2418,22 +2386,6 @@ ferge01.bmp.png
 1.0
 0.0
 
-#entry 151
-ferge01.dof-04.joe
-metall02.tga.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
 #entry 152
 ferge01.dof-05.joe
 ferge02.bmp.png
@@ -2453,22 +2405,6 @@ ferge02.bmp.png
 #entry 153
 ferge01.dof-06.joe
 ferge01.bmp.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 154
-ferge01.dof-07.joe
-skorst01.tga.png
 1
 0
 0
@@ -2546,22 +2482,6 @@ ferge01.bmp.png
 1.0
 0.0
 
-#entry 159
-ferge02.dof-04.joe
-metall02.tga.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
 #entry 160
 ferge02.dof-05.joe
 ferge02.bmp.png
@@ -2581,22 +2501,6 @@ ferge02.bmp.png
 #entry 161
 ferge02.dof-06.joe
 ferge01.bmp.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 162
-ferge02.dof-07.joe
-skorst01.tga.png
 1
 0
 0

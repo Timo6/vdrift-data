@@ -1,7 +1,7 @@
 drive = RWD
 
 [ steering ]
-max-angle = 33.19
+max-angle = 55.19
 
 [ engine ]
 position = 1.42, 0.0, -0.24
@@ -12,7 +12,7 @@ rpm-limit = 7000.0
 inertia = 0.25
 idle = 0.02
 start-rpm = 1000
-stall-rpm = 400
+stall-rpm = -400
 fuel-consumption = 1e-9
 torque-friction = 0.0003
 torque-curve-00 = 1000, 176.26
@@ -38,7 +38,6 @@ torque-curve-19 = 6500, 206.08
 torque-curve-20 = 6750, 197.95
 torque-curve-21 = 7000, 196.59
 
-
 [ clutch ]
 sliding = 0.27
 radius = 0.15
@@ -60,144 +59,144 @@ final-drive = 3.25
 anti-slip = 600.0
 
 [ fuel-tank ]
-position = -0.26, -0.17, -0.56 
+position = -0.26, -0.17, -0.56
 capacity = 0.0492
 volume = 0.0492
 fuel-density = 730.0
 
 [ suspension-front ]
-spring-constant = 102000
-#spring-constant = 72000
-bounce = 11050
-#bounce = 7500
-rebound = 10700
-#rebound = 5000
+spring-constant = 162000
+bounce = 7050
+rebound = 9500
 travel = 0.32
 max-compression-velocity = 10.0
-camber = -1.33
-caster = 6.12
-toe = 0.0
-anti-roll = 15000
+camber = -2.00
+caster = 8.00
+toe = 0.2
+anti-roll = 7000
 
 [ suspension-rear ]
-spring-constant = 98000
-#spring-constant = 68000
-bounce = 10000
-#bounce = 7500
+spring-constant = 293000
+bounce = 5000
 rebound = 9992.14
-#rebound = 5000
 travel = 0.32
 max-compression-velocity = 10.0
-camber = -0.45
+camber = -3.00
 caster = 0.28
 toe = 0.0
-anti-roll = 7000
+anti-roll = 15000
 
 [ tire-front ]
 radius = 0.3032
 rolling-resistance = 8.0e-3, 6.5e-6
 rotational-inertia = 10.0
 tread = 0.0
-# Lateral force
-a0=1.55
-a1=-40
-a2=1700
-a3=3200
-a4=7.2
-a5=0.014
-a6=-0.24
-a7=1.0
-a8=-0.03
-a9=-0.0013
-a10=-0.15
-a111=-8.5
-a112=-0.29
-a12=17.8
+ a0=1.1
+a1=-46
+a2=1845
+a3=1095
+a4=13
+a5=0.013
+a6=-0.14
+a7=0.14
+a8=0.019
+a9=-0.019
+a10=-0.18
+a111=-11
+a112=-0.021
+a12=0.48
+a13=10.2
 a13=-2.4
-# Longitudinal force
-b0=1.65
-b1=-80
-b2=1800
-b3=23.3
-b4=390
-b5=0.05
-b6=0
-b7=0.055
-b8=-0.024
-b9=0.014
-b10=0.26
-# Aligning moment
-c0=2.2
-c1=-4.1
-c2=-4.2
-c3=-1.8
-c4=-9.1
-c5=0.0225
-c6=0
-c7=0.044
-c8=-0.58
-c9=0.18
-c10=0.043
-c11=0.048
-c12=-0.0035
-c13=-0.18
-c14=0.14
-c15=-1.029
-c16=0.27
-c17=-1.1
+
+b0=1.35326
+b1=-90.00000
+b2=1745.00000
+b3=23.30000
+b4=400.00000
+b5=0.00000
+b6=0.00680
+b7=0.05500
+b8=-0.02400
+b9=0.01400
+b10=0.26000
+b11=-86
+b12=350
+
+c0=2.10000
+c1=-3.90000
+c2=-3.90000
+c3=-1.26000
+c4=-8.20000
+c5=0.02500
+c6=0.00000
+c7=0.04400
+c8=-0.58000
+c9=0.18000
+c10=0.04300
+c11=0.04800
+c12=-0.00350
+c13=-0.18000
+c14=0.14000
+c15=-1.02900
+c16=0.27000
+c17=-1.10000
+
 
 [ tire-rear ]
 radius = 0.3032
 rolling-resistance = 8.0e-3, 6.5e-6
 rotational-inertia = 10.0
 tread = 0.0
-# Lateral force
-a0=1.55
-a1=-55
-a2=1950
-a3=3200
-a4=7.2
-a5=0.014
-a6=-0.24
-a7=1.0
-a8=-0.03
-a9=-0.0013
-a10=-0.15
-a111=-8.5
-a112=-0.29
-a12=17.8
+a0=1.1
+a1=-46
+a2=1845
+a3=1095
+a4=13
+a5=0.013
+a6=-0.14
+a7=0.14
+a8=0.019
+a9=-0.019
+a10=-0.18
+a111=-11
+a112=-0.021
+a12=0.48
+a13=10.2
 a13=-2.4
-# Longitudinal force
-b0=1.65
-b1=-110
-b2=1800
-b3=23.3
-b4=410
-b5=0.075
-b6=0
-b7=0.055
-b8=-0.024
-b9=0.014
-b10=0.26
-# Aligning moment
-c0=2.2
-c1=-4.3
-c2=-4.4
-c3=-1.9
-c4=-9.6
-c5=0.0225
-c6=0
-c7=0.044
-c8=-0.58
-c9=0.18
-c10=0.043
-c11=0.048
-c12=-0.0035
-c13=-0.18
-c14=0.14
-c15=-1.029
-c16=0.27
-c17=-1.1
+
+b0=1.35326
+b1=-90.00000
+b2=1745.00000
+b3=23.30000
+b4=400.00000
+b5=0.00000
+b6=0.00680
+b7=0.05500
+b8=-0.02400
+b9=0.01400
+b10=0.26000
+b11=-86
+b12=350
+
+c0=2.10000
+c1=-3.90000
+c2=-3.90000
+c3=-1.26000
+c4=-8.20000
+c5=0.02500
+c6=0.00000
+c7=0.04400
+c8=-0.58000
+c9=0.18000
+c10=0.04300
+c11=0.04800
+c12=-0.00350
+c13=-0.18000
+c14=0.14000
+c15=-1.02900
+c16=0.27000
+c17=-1.10000
+
 
 [ brakes-front ]
 friction = 0.73
@@ -208,11 +207,11 @@ area = 0.015
 
 [ brakes-rear ]
 friction = 0.73
-max-pressure = 2.5e6
+max-pressure = 3.5e6
 bias = 0.39
 radius = 0.14
 area = 0.015
-handbrake = 1.0
+handbrake = 4.0
 
 [ driver ]
 position = 0, 0.37, -0.03
@@ -327,4 +326,3 @@ position = 1.6, 0.45, -0.13
 [ particle-05 ]
 mass = 200.0
 position = 1.6, -0.45, -0.13
- 
