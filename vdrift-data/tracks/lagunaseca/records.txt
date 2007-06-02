@@ -1,9 +1,9 @@
 
 [ G4 ]
 sector 0 = 139.179993
-sector 1 = 87.332001
+sector 1 = 75.860001
 
 [ last ]
 car = G4
 sector 0 = 139.179993
-sector 1 = 87.332001
+sector 1 = 75.860001
