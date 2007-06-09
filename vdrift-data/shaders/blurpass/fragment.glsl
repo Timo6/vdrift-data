@@ -1,8 +1,10 @@
-uniform sampler2D tu0_2D;
+uniform sampler2DRect tu0_2DRect;
 uniform sampler2D tu1_2D;
 uniform float blurfactor;
-uniform float screenratio;
-uniform float screenratio_over2;
+//uniform float screenratio;
+//uniform float screenratio_over2;
+uniform float screenw;
+uniform float screenh;
 uniform float samples;
 uniform float sm1inv;
 uniform float w;
@@ -19,11 +21,13 @@ void main()
 	vel2 = vel2 * blurfactor;
 	//vel2 = vel2 * 0.0;
 	vel2 = clamp(vel2, -0.1, 0.1);
+	vel2.x *= screenw;
+	vel2.y *= screenh;
 	//vel2 = vec2(0.1,0.0);
 	
-	//vec2 t = vec2(0.5,0.5) + vec2(0.5,0.5) * (newpos2.xy);
-	//t = t * vec2(1.0,0.75);
-	vec2 t = vec2(0.5,screenratio_over2) + vec2(0.5,0.375) * (newpos2.xy); //TODO:  0.5,0.375 is related to the screen ratio, replace it w/ actual values passed from the CPU
+	//vec2 t = vec2(0.5,screenratio_over2) + vec2(0.5,0.375) * (newpos2.xy); //TODO:  0.5,0.375 is related to the screen ratio, replace it w/ actual values passed from the CPU
+	vec2 screenover2 = vec2(screenw,screenh)*0.5;
+	vec2 t = screenover2 + screenover2 * (newpos2.xy);
 	
 	//const float samples = 8.0;
 	//const float sm1inv = 1.0/(8.0-1.0); //= 1.0/(samples-1.0);
@@ -60,8 +64,9 @@ void main()
 		//a = a + texture2D(tu0_2D,t+vel2*ds-vel2*0.5)*w;
 		vec2 tc = t+vel2*(ds-0.5);
 		//tc.y = min(0.749,tc.y); //TODO:  0.749 is related to the screen ratio, replace it w/ actual values passed from the CPU
-		tc.y = min(screenratio,tc.y);
-		a = a + texture2D(tu0_2D,tc)*w;
+		//tc.y = min(screenratio,tc.y);
+		//tc.y = min(screenh,tc.y);
+		a = a + texture2DRect(tu0_2DRect,tc)*w;
 		//a = a + texture2D(tu0_2D,t+vel2*ds-vel2)*w;
 	}
 	

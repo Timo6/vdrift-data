@@ -24,7 +24,8 @@ void main()
 	float specval = max(dot(refnorm, lightposition),0.0);
 	//vec3 specular = vec3(pow(specval,4.0)*0.2);
 	float gloss = tu1_2D_val.r;
-	vec3 specular = vec3((pow(specval,128.0)*0.4+pow(specval,4.0)*0.2)*gloss);
+	//vec3 specular = vec3(pow(specval,4.0)*0.6*gloss);
+	vec3 specular = vec3(specval*0.5*gloss);
 	//vec3 specular = vec3(pow(specval,16.0)*0.2);
 	
 	//vec3 reflight = reflect(lightposition,normal);
