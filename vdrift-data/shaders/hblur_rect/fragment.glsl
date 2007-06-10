@@ -2,6 +2,7 @@ uniform sampler2DRect tu0_2DRect;
 varying vec2 texcoord_2d;
 uniform float screenw;
 uniform float screenh;
+uniform float blurfactorx;
 
 void main()
 {
@@ -29,13 +30,33 @@ void main()
 	final += 0.09375 * texture2DRect(tu0_2DRect, tc + vec2(2.0*d, 0.0) );
 	final += 0.015625 * texture2DRect(tu0_2DRect, tc + vec2(3.0*d, 0.0) );*/
 	
-	const float samples = 8.0;
+	/*final += 0.02763056 * texture2DRect(tu0_2DRect, tc + vec2(-4.0, 0.0) );
+	final += 0.06628226 * texture2DRect(tu0_2DRect, tc + vec2(-3.0, 0.0) );
+	final += 0.12383157 * texture2DRect(tu0_2DRect, tc + vec2(-2.0, 0.0) );
+	final += 0.18017387 * texture2DRect(tu0_2DRect, tc + vec2(-1.0, 0.0) );
+	final += 0.20416374 * texture2DRect(tu0_2DRect, tc + vec2(0.0, 0.0) );
+	final += 0.18017387 * texture2DRect(tu0_2DRect, tc + vec2(1.0, 0.0) );
+	final += 0.12383157 * texture2DRect(tu0_2DRect, tc + vec2(2.0, 0.0) );
+	final += 0.06628226 * texture2DRect(tu0_2DRect, tc + vec2(3.0, 0.0) );
+	final += 0.02763056 * texture2DRect(tu0_2DRect, tc + vec2(4.0, 0.0) );*/
+	
+	final += 0.08167442 * texture2DRect(tu0_2DRect, tc + vec2(-4.0, 0.0)*blurfactorx );
+	final += 0.10164545 * texture2DRect(tu0_2DRect, tc + vec2(-3.0, 0.0)*blurfactorx );
+	final += 0.11883558 * texture2DRect(tu0_2DRect, tc + vec2(-2.0, 0.0)*blurfactorx );
+	final += 0.13051535 * texture2DRect(tu0_2DRect, tc + vec2(-1.0, 0.0)*blurfactorx );
+	final += 0.13465835 * texture2DRect(tu0_2DRect, tc + vec2(0.0, 0.0) );
+	final += 0.13051535 * texture2DRect(tu0_2DRect, tc + vec2(1.0, 0.0)*blurfactorx );
+	final += 0.11883558 * texture2DRect(tu0_2DRect, tc + vec2(2.0, 0.0)*blurfactorx );
+	final += 0.10164545 * texture2DRect(tu0_2DRect, tc + vec2(3.0, 0.0)*blurfactorx );
+	final += 0.08167442 * texture2DRect(tu0_2DRect, tc + vec2(4.0, 0.0)*blurfactorx );
+	
+	/*const float samples = 8.0;
 	const float sinv = 1.0 / samples;
 	
 	for (float i = -4.0; i < 5.0; i++)
 	{
 		final += sinv * texture2DRect(tu0_2DRect, tc + vec2(i, 0.0) );
-	}
+	}*/
 	
 	gl_FragColor = final;
 }

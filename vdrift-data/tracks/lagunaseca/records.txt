@@ -1,9 +1,15 @@
 
+[ CO ]
+sector 1 = 73.800003
+
 [ G4 ]
 sector 0 = 139.179993
 sector 1 = 75.860001
 
+[ XS ]
+sector 1 = 83.167999
+
 [ last ]
-car = G4
-sector 0 = 139.179993
-sector 1 = 75.860001
+car = XS
+sector 0 = 0.000000
+sector 1 = 83.167999
