@@ -1,5 +1,5 @@
 uniform sampler2DRect tu0_2DRect;
-uniform sampler2D tu1_2D;
+//uniform sampler2D tu1_2D;
 uniform float blurfactor;
 //uniform float screenratio;
 //uniform float screenratio_over2;
@@ -17,52 +17,27 @@ void main()
 	vec3 newpos2 = newpos.xyz / newpos.w;
 	vec3 oldpos2 = oldpos.xyz / oldpos.w;
 	vec2 vel2 = newpos2.xy - oldpos2.xy;
-	//vel2 = vel2 * 0.25;
 	vel2 = vel2 * blurfactor;
-	//vel2 = vel2 * 0.0;
 	vel2 = clamp(vel2, -0.1, 0.1);
 	//vel2 = vec2(0.1,0.0);
 	vel2.x *= screenw;
 	vel2.y *= screenh;
 	
-	//vec2 t = vec2(0.5,screenratio_over2) + vec2(0.5,0.375) * (newpos2.xy); //TODO:  0.5,0.375 is related to the screen ratio, replace it w/ actual values passed from the CPU
 	vec2 screenover2 = vec2(screenw,screenh)*0.5;
 	vec2 t = screenover2 + screenover2 * (newpos2.xy);
 	
-	//const float samples = 8.0;
-	//const float sm1inv = 1.0/(8.0-1.0); //= 1.0/(samples-1.0);
-	//const float w = 0.125; //= 1.0 / samples;
 	vec4 a = vec4(0.0,0.0,0.0,0.0);
-	//float mynoise = texture2D(tu1_2D,t*10.0).r;
-	//float mynoise = (texture2D(tu1_2D,t*5.0).r-0.5)*2.0;
-	//float mynoise = texture2D(tu1_2D,t).r;
-	//float mynoise = texture2D(tu1_2D,newpos2.xy*5.0).r;
+
+	//vec2 noiset = vec2(t.x/screenw,t.y/screenh);
+	//float mynoise = (texture2D(tu1_2D,noiset).r-0.5)*0.5;
 	
 	for (float i = 0.0; i < samples; i++)
 	{
-		//float ds = i / (samples - 1.0);
-		//float ds = (i+noise1(t.x+i+vel2.x)) / (samples - 1.0);
-		//vec2 mynoise = texture2D(tu1_2D,t+vec2(i,i)+vel2+normal.xy+eyespacenormal.xy).rg;
-		//float mynoise = texture2D(tu1_2D,t+vec2(i,i)+vel2+normal.xy+eyespacenormal.xy).r;
-		//float mynoise = texture2D(tu1_2D,(t+vec2(i,i)+vel2+normal.xy+eyespacenormal.xy)*5.0).r;
-		//float mynoise = texture2D(tu1_2D,(t)*10.0).r;
-		//float mynoise = texture2D(tu1_2D,(t+vec2(i,i))*5.0).r;
-		//float ds = (i+(mynoise-0.5)*2.0) / (samples - 1.0);
-		//float ds = (i+mynoise) / (samples - 1.0);
 		//float ds = (i+mynoise) * (sm1inv);
 		float ds = i * sm1inv;
-		//a = a + texture2D(tu0_2D,t+vel2*ds-vel2*0.5)*w;
 		vec2 tc = t+vel2*(ds-0.5);
-		//tc.y = min(0.749,tc.y); //TODO:  0.749 is related to the screen ratio, replace it w/ actual values passed from the CPU
-		//tc.y = min(screenratio,tc.y);
-		//tc.y = min(screenh,tc.y);
-		a = a + texture2DRect(tu0_2DRect,tc)*w;
-		//a = a + texture2D(tu0_2D,t+vel2*ds-vel2)*w;
+		a += texture2DRect(tu0_2DRect,tc)*w;
 	}
 	
-	//gl_FragColor = vec4(vel2,0,1);
 	gl_FragColor = a;
-	//gl_FragColor = vec4(vec3(1.0,1.0,1.0)*noise1(1.0),1.0);
-	//gl_FragColor = texture2D(tu1_2D,t+vec2(i,i)+vel2*10.0);
-	//gl_FragColor = texture2D(tu1_2D,t+vec2(i,i)+vel2+normal.xy+eyespacenormal.xy);
 }

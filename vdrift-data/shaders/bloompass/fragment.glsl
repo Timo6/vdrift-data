@@ -16,7 +16,7 @@ void main()
 	vec3 blurred = tu1_2D_val.rgb;
 	
 	//vec3 final = orig * blurred;
-	float blurred_grey = (blurred.r+blurred.g+blurred.b)*0.333;
+	float blurred_grey = (blurred.r*0.25+blurred.g*0.5+blurred.b*0.25)*0.8+0.2;
 	blurred = vec3(blurred_grey,blurred_grey,blurred_grey);
 	vec3 final = orig*(orig + 2.0*blurred*(1.0-orig)); //"OVERLAY"
 	//vec3 final = blurred;

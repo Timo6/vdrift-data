@@ -10,7 +10,7 @@ void main()
 	tc.x *= screenw;
 	tc.y *= screenh;
 	
-	vec4 tu0_2D_val = texture2DRect(tu0_2DRect, tc);
+	//vec4 tu0_2D_val = texture2DRect(tu0_2DRect, tc);
 	
 	vec4 final = vec4(0.0, 0.0, 0.0, 0.0);
 
@@ -44,16 +44,16 @@ void main()
 	final += 0.10164545 * texture2DRect(tu0_2DRect, tc + vec2(-3.0, 0.0)*blurfactorx );
 	final += 0.11883558 * texture2DRect(tu0_2DRect, tc + vec2(-2.0, 0.0)*blurfactorx );
 	final += 0.13051535 * texture2DRect(tu0_2DRect, tc + vec2(-1.0, 0.0)*blurfactorx );
-	final += 0.13465835 * texture2DRect(tu0_2DRect, tc + vec2(0.0, 0.0) );
+	final += 0.13465835 * texture2DRect(tu0_2DRect, tc );
 	final += 0.13051535 * texture2DRect(tu0_2DRect, tc + vec2(1.0, 0.0)*blurfactorx );
 	final += 0.11883558 * texture2DRect(tu0_2DRect, tc + vec2(2.0, 0.0)*blurfactorx );
 	final += 0.10164545 * texture2DRect(tu0_2DRect, tc + vec2(3.0, 0.0)*blurfactorx );
 	final += 0.08167442 * texture2DRect(tu0_2DRect, tc + vec2(4.0, 0.0)*blurfactorx );
 	
-	/*const float samples = 8.0;
+	/*const float samples = 20.0;
 	const float sinv = 1.0 / samples;
 	
-	for (float i = -4.0; i < 5.0; i++)
+	for (float i = -10.0; i < 11.0; i++)
 	{
 		final += sinv * texture2DRect(tu0_2DRect, tc + vec2(i, 0.0) );
 	}*/
