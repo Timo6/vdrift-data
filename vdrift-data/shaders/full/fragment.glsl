@@ -4,18 +4,22 @@ uniform sampler2D tu0_2D;
 uniform sampler2D tu1_2D;
 //uniform sampler2DShadow tu2_2D;
 uniform sampler2DRect tu2_2DRect;
-varying vec4 projshadow;
 
 uniform float screenw;
 uniform float screenh;
 
 varying vec3 eyecoords;
 varying vec3 eyespacenormal;
+uniform vec3 eyelightposition;
+//varying vec4 ecpos;
 
 uniform vec3 lightposition;
+//varying vec3 halfvector;
 
 void main()
 {
+	vec3 normnormal = normalize(normal);
+	
 	vec4 tu0_2D_val = texture2D(tu0_2D, texcoord_2d);
 	vec4 tu1_2D_val = texture2D(tu1_2D, texcoord_2d);
 	
@@ -69,26 +73,31 @@ void main()
 	vec3 texcolor = tu0_2D_val.rgb;
 	vec3 ambient = texcolor;
 	//vec3 diffuse = texcolor*clamp((dot(normal,lightposition)+1.0)*0.7,0.0,1.0);
-	float difdot = max(dot(normal,lightposition),0.0);
+	float difdot = max(dot(normnormal,lightposition),0.0);
 	//notshadow *= min(difdot*10.0,1.0);
 	//notshadow *= 1.0-difdot;
 	difdot *= notshadow;
 	vec3 diffuse = texcolor*difdot;
-	vec3 refnorm = normalize(reflect(eyecoords,eyespacenormal));
+	vec3 refnorm = normalize(reflect(normalize(eyecoords),normalize(eyespacenormal)));
+	//vec3 refnorm = normalize(reflect(normalize(ecpos.xyz/ecpos.w),normalize(eyespacenormal)));
 	//vec3 halfvec = normalize(eyecoords + lightposition);
 	//vec3 specular = vec3(pow(clamp(dot(refnorm,lightposition),0.0,1.0),8.0)*0.2);
-	float specval = max(dot(refnorm, lightposition),0.0);
+	float specval = max(dot(refnorm, normalize(eyelightposition)),0.0);
 	//vec3 specular = vec3(pow(specval,4.0)*0.2);
+	
+	//float specval = max(dot(normnormal, normalize(halfvector)),0.0);
+	
 	float gloss = tu1_2D_val.r;
 	vec3 specular = vec3((pow(specval,128.0)*0.4+pow(specval,4.0)*0.2)*gloss);
-	//vec3 specular = vec3(pow(specval,16.0)*0.2);
+	//vec3 specular = vec3(pow(specval,128.0)*1.0);
 	
 	//vec3 reflight = reflect(lightposition,normal);
 	//vec3 specular = vec3(max(dot(eyecoords, reflight),0.0));
 	
+	gl_FragColor.rgb = ambient*0.5 + diffuse*1.0 + specular*notshadow;
+	
 	//gl_FragColor.rgb = diffuse;
 	//gl_FragColor.rgb = texture2DRect(tu2_2DRect, gl_FragCoord.xy).rgb;
-	gl_FragColor.rgb = ambient*0.5 + diffuse*1.0 + specular*notshadow;
 	//gl_FragColor.rgb = vec3(1,1,1)*(projshadow.z/projshadow.w);
 	//gl_FragColor.rgb = projshadow.xyz/projshadow.w;
 	//gl_FragColor = texture2DProj(tu2_2D,projshadow);
