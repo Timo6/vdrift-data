@@ -33,7 +33,8 @@ void main()
 	//halfvector = normalize(normalize(viewvector.xyz/viewvector.w)+lightposition);
 	
 	//set the normal, eyespace normal, and eyespace position
-	normal = (mat3(gl_TextureMatrix[1]) * gl_NormalMatrix) * gl_Normal;
+	//normal = (mat3(gl_TextureMatrix[1]) * gl_NormalMatrix) * gl_Normal;
+	normal = (mat3(gl_TextureMatrix[1][0].xyz,gl_TextureMatrix[1][1].xyz,gl_TextureMatrix[1][2].xyz) * gl_NormalMatrix) * gl_Normal;
 	//normal = mat3(gl_TextureMatrix[1]) * (gl_NormalMatrix * gl_Normal);
 	//normal = vec3(gl_TextureMatrix[1] * (gl_ModelViewProjectionMatrix * gl_Vertex));
 	//normal = gl_NormalMatrix * gl_Normal;

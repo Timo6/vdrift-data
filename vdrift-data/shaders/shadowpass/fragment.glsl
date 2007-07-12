@@ -17,35 +17,35 @@ void main()
 {
 	float alpha = texture2D(tu3_2D, texcoord_2d).a;
 	
-	vec3 shadowcoords[4];
+	vec3 shadowcoords[3];
 	shadowcoords[0] = projshadow_0.xyz;
 	shadowcoords[1] = projshadow_1.xyz;
 	shadowcoords[2] = projshadow_2.xyz;
 	//shadowcoords[3] = projshadow_3.xyz;
-	sampler2DShadow samp[4];
-	samp[0] = tu0_2D;
-	samp[1] = tu1_2D;
-	samp[2] = tu2_2D;
 	//samp[3] = tu3_2D;
-	float notshadow[4];
+	float notshadow[3];
 	
 	/*notshadow[0] = shadow2DProj(tu0_2D, projshadow_0).r;
 	notshadow[1] = shadow2DProj(tu1_2D, projshadow_1).r;
 	notshadow[2] = shadow2DProj(tu2_2D, projshadow_2).r;
 	notshadow[3] = shadow2DProj(tu3_2D, projshadow_3).r;*/
 	
-	const float ep = 0.0009765;
+	notshadow[0] = shadow2D(tu0_2D, shadowcoords[0]).r;
+	notshadow[1] = shadow2D(tu1_2D, shadowcoords[1]).r;
+	notshadow[2] = shadow2D(tu2_2D, shadowcoords[2]).r;
+	
+	/*const float ep = 0.0009765;
 	for (int i = 0; i < 3; i++)
 	{
 		notshadow[i] = shadow2D(samp[i], shadowcoords[i]).r;
 		
 		//2X2 PCF
-		/*notshadow[i] += shadow2D(samp[i], shadowcoords[i]+vec3(ep,ep,0.0)).r;
-		notshadow[i] += shadow2D(samp[i], shadowcoords[i]+vec3(ep,-ep,0.0)).r;
-		notshadow[i] += shadow2D(samp[i], shadowcoords[i]+vec3(-ep,-ep,0.0)).r;
-		notshadow[i] += shadow2D(samp[i], shadowcoords[i]+vec3(-ep,ep,0.0)).r;
-		notshadow[i] *= 0.25;*/
-	}
+		//notshadow[i] += shadow2D(samp[i], shadowcoords[i]+vec3(ep,ep,0.0)).r;
+		//notshadow[i] += shadow2D(samp[i], shadowcoords[i]+vec3(ep,-ep,0.0)).r;
+		//notshadow[i] += shadow2D(samp[i], shadowcoords[i]+vec3(-ep,-ep,0.0)).r;
+		//notshadow[i] += shadow2D(samp[i], shadowcoords[i]+vec3(-ep,ep,0.0)).r;
+		//notshadow[i] *= 0.25;
+	}*/
 	
 	//float notshadow = shadow2D(tu2_2D, projshadow).r;
 	/*float notshadow = 0.0;
@@ -127,7 +127,7 @@ void main()
 	const float bound = 1.0;
 	const float fade = 10.0;
 	//const float fade = 2.0;
-	float effect[4];
+	float effect[3];
 	
 	for (int i = 0; i < 3; ++i)
 	//for (int i = 3; i < 4; ++i)
