@@ -2,8 +2,8 @@ varying vec2 texcoord_2d;
 varying vec3 normal;
 varying vec3 eyespacenormal;
 varying vec3 eyecoords;
-//varying vec4 ecpos;
-//varying vec3 eyelightposition;
+varying vec4 ecpos;
+varying vec3 eyelightposition;
 //uniform mat4 light_modelviewproj;
 //varying vec4 projshadow;
 //varying vec3 halfvector;
@@ -43,10 +43,10 @@ void main()
 	//normal = (gl_ModelViewMatrix * norm4).xyz;
 	
 	eyespacenormal = normalize(gl_NormalMatrix * gl_Normal);
-	vec4 ecpos = gl_ModelViewMatrix * gl_Vertex;
+	ecpos = gl_ModelViewMatrix * gl_Vertex;
 	eyecoords = vec3(ecpos) / ecpos.w;
 	eyecoords = normalize(eyecoords);
-	//eyelightposition = mat3(gl_TextureMatrix[1]) * lightposition;
+	eyelightposition = mat3(gl_TextureMatrix[1]) * lightposition;
 	
 	//eyecoords = (gl_ModelViewMatrix * gl_Vertex).xyz;
 	

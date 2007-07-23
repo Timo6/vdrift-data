@@ -11,7 +11,7 @@ uniform float screenh;
 varying vec3 eyecoords;
 varying vec3 eyespacenormal;
 uniform vec3 eyelightposition;
-//varying vec4 ecpos;
+varying vec4 ecpos;
 
 uniform vec3 lightposition;
 //varying vec3 halfvector;
@@ -78,21 +78,19 @@ void main()
 	//notshadow *= 1.0-difdot;
 	difdot *= notshadow;
 	vec3 diffuse = texcolor*difdot;
-	vec3 refnorm = normalize(reflect(normalize(eyecoords),normalize(eyespacenormal)));
-	//vec3 refnorm = normalize(reflect(normalize(ecpos.xyz/ecpos.w),normalize(eyespacenormal)));
-	//vec3 halfvec = normalize(eyecoords + lightposition);
-	//vec3 specular = vec3(pow(clamp(dot(refnorm,lightposition),0.0,1.0),8.0)*0.2);
-	float specval = max(dot(refnorm, normalize(eyelightposition)),0.0);
-	//vec3 specular = vec3(pow(specval,4.0)*0.2);
-	
-	//float specval = max(dot(normnormal, normalize(halfvector)),0.0);
 	
 	float gloss = tu1_2D_val.r;
-	vec3 specular = vec3((pow(specval,128.0)*0.4+pow(specval,4.0)*0.2)*gloss);
-	//vec3 specular = vec3(pow(specval,128.0)*1.0);
 	
-	//vec3 reflight = reflect(lightposition,normal);
-	//vec3 specular = vec3(max(dot(eyecoords, reflight),0.0));
+	//vec3 L = normalize(lightposition - vec3(ecpos));
+	vec3 L = normalize(eyelightposition);
+	vec3 V = vec3(normalize(-ecpos));
+	vec3 halfvec = normalize(L + V);
+	float specval = max(dot(halfvec, normalize(eyespacenormal)),0.0);
+	
+	/*vec3 refnorm = normalize(reflect(normalize(eyecoords),normalize(eyespacenormal)));
+	float specval = max(dot(refnorm, normalize(eyelightposition)),0.0);*/
+	
+	vec3 specular = vec3((pow(specval,128.0)*0.4+pow(specval,4.0)*0.2)*gloss);
 	
 	gl_FragColor.rgb = ambient*0.5 + diffuse*1.0 + specular*notshadow;
 	
