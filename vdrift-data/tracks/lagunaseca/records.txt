@@ -12,4 +12,4 @@ sector 1 = 83.167999
 [ last ]
 car = XS
 sector 0 = 0.000000
-sector 1 = 102.024002
+sector 1 = 87.667999

@@ -9,6 +9,12 @@ varying vec3 eyelightposition;
 //varying vec3 halfvector;
 uniform vec3 lightposition;
 
+varying vec4 projshadow_0;
+varying vec4 projshadow_1;
+
+uniform mat4 light_matrix_0;
+uniform mat4 light_matrix_1;
+
 void main()
 {
 	//transform the vertex
@@ -20,6 +26,9 @@ void main()
 	//projshadow = gl_TextureMatrix[2] * (gl_TextureMatrix[1] * gl_Position);
 	//projshadow = gl_TextureMatrix[2] * ((gl_TextureMatrix[1] * gl_ModelViewMatrix) * gl_Vertex);
 	//projshadow = gl_TextureMatrix[2] * (gl_TextureMatrix[1] * (gl_ModelViewMatrix * gl_Vertex));
+	
+	projshadow_0 = light_matrix_0 * (gl_TextureMatrix[1] * (gl_ModelViewMatrix * gl_Vertex));
+	projshadow_1 = light_matrix_1 * (gl_TextureMatrix[1] * (gl_ModelViewMatrix * gl_Vertex));
 	
 	//set the color
 	gl_FrontColor = gl_Color;
