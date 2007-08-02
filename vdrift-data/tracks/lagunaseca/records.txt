@@ -6,10 +6,13 @@ sector 1 = 73.800003
 sector 0 = 139.179993
 sector 1 = 75.860001
 
+[ GT ]
+sector 1 = 103.264000
+
 [ XS ]
 sector 1 = 83.167999
 
 [ last ]
-car = XS
+car = GT
 sector 0 = 0.000000
-sector 1 = 86.636002
+sector 1 = 103.264000

@@ -1,3 +1,5 @@
+#extension GL_ARB_texture_rectangle : enable
+
 uniform sampler2DRect tu0_2DRect;
 uniform sampler2DRect tu1_2DRect;
 varying vec2 texcoord_2d;

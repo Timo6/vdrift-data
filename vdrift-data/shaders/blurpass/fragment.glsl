@@ -1,3 +1,5 @@
+#extension GL_ARB_texture_rectangle : enable
+
 uniform sampler2DRect tu0_2DRect;
 //uniform sampler2D tu1_2D;
 uniform float blurfactor;

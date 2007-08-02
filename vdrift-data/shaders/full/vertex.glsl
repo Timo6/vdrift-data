@@ -55,7 +55,8 @@ void main()
 	ecpos = gl_ModelViewMatrix * gl_Vertex;
 	eyecoords = vec3(ecpos) / ecpos.w;
 	eyecoords = normalize(eyecoords);
-	eyelightposition = mat3(gl_TextureMatrix[1]) * lightposition;
+	//eyelightposition = mat3(gl_TextureMatrix[1]) * lightposition;
+	eyelightposition = (gl_TextureMatrix[1] * vec4(lightposition.x,lightposition.y,lightposition.z,0)).xyz;
 	
 	//eyecoords = (gl_ModelViewMatrix * gl_Vertex).xyz;
 	
