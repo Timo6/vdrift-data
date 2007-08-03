@@ -357,7 +357,7 @@ logocam.bmp.png
 #entry 22
 board11.dof-00.joe
 tsd.bmp.png
-1
+0
 0
 0
 0
@@ -2005,7 +2005,7 @@ rd1aa.bmp.png
 #entry 125
 fire01.dof-00.joe
 fire.bmp.png
-1
+0
 0
 0
 0
@@ -2021,7 +2021,7 @@ fire.bmp.png
 #entry 126
 fire02.dof-00.joe
 fire.bmp.png
-1
+0
 0
 0
 0
@@ -2037,7 +2037,7 @@ fire.bmp.png
 #entry 127
 fire03.dof-00.joe
 fire.bmp.png
-1
+0
 0
 0
 0
@@ -2053,7 +2053,7 @@ fire.bmp.png
 #entry 128
 fire04.dof-00.joe
 fire.bmp.png
-1
+0
 0
 0
 0
@@ -2069,7 +2069,7 @@ fire.bmp.png
 #entry 129
 fire05.dof-00.joe
 fire.bmp.png
-1
+0
 0
 0
 0
@@ -2085,7 +2085,7 @@ fire.bmp.png
 #entry 130
 fire06.dof-00.joe
 fire.bmp.png
-1
+0
 0
 0
 0
@@ -2101,7 +2101,7 @@ fire.bmp.png
 #entry 131
 fire07.dof-00.joe
 fire.bmp.png
-1
+0
 0
 0
 0
@@ -2117,7 +2117,7 @@ fire.bmp.png
 #entry 132
 fire08.dof-00.joe
 fire.bmp.png
-1
+0
 0
 0
 0
@@ -2133,7 +2133,7 @@ fire.bmp.png
 #entry 133
 fire09.dof-00.joe
 fire.bmp.png
-1
+0
 0
 0
 0
@@ -2293,7 +2293,7 @@ windb.bmp.png
 #entry 143
 glassw.dof-00.joe
 winda.bmp.png
-1
+0
 0
 0
 0
@@ -2309,7 +2309,7 @@ winda.bmp.png
 #entry 144
 glassw01.dof-00.joe
 winda.bmp.png
-1
+0
 0
 0
 0
@@ -4693,7 +4693,7 @@ fncei.bmp.png
 #entry 293
 mbox01.dof-01.joe
 mbox.bmp.png
-1
+0
 0
 0
 0
@@ -4741,7 +4741,7 @@ fncei.bmp.png
 #entry 296
 mbox02.dof-01.joe
 mbox.bmp.png
-1
+0
 0
 0
 0
@@ -4773,7 +4773,7 @@ shrub.bmp.png
 #entry 298
 mbox03.dof-00.joe
 mbox.bmp.png
-1
+0
 0
 0
 0
@@ -4821,7 +4821,7 @@ people01.bmp.png
 #entry 301
 mbox04.dof-00.joe
 mbox.bmp.png
-1
+0
 0
 0
 0
@@ -4853,7 +4853,7 @@ fncei.bmp.png
 #entry 303
 mbox05.dof-00.joe
 mbox.bmp.png
-1
+0
 0
 0
 0
@@ -4901,7 +4901,7 @@ people01.bmp.png
 #entry 306
 mbox06.dof-00.joe
 mbox.bmp.png
-1
+0
 0
 0
 0
@@ -4949,7 +4949,7 @@ people01.bmp.png
 #entry 309
 mbox07.dof-00.joe
 mbox.bmp.png
-1
+0
 0
 0
 0
@@ -4965,7 +4965,7 @@ mbox.bmp.png
 #entry 310
 mbox08.dof-00.joe
 mbox.bmp.png
-1
+0
 0
 0
 0
@@ -4981,7 +4981,7 @@ mbox.bmp.png
 #entry 311
 mbox09.dof-00.joe
 mbox.bmp.png
-1
+0
 0
 0
 0
@@ -5493,7 +5493,7 @@ pits.bmp.png
 #entry 343
 refl03.dof-01.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -5509,7 +5509,7 @@ xrw1a.bmp.png
 #entry 344
 refl03.dof-02.joe
 tsd.bmp.png
-1
+0
 0
 0
 0
@@ -5557,7 +5557,7 @@ fncei.bmp.png
 #entry 347
 scene01.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -5621,7 +5621,7 @@ scorebrd.bmp.png
 #entry 351
 scorebrd.dof-01.joe
 tsd.bmp.png
-1
+0
 0
 0
 0
@@ -5765,10 +5765,10 @@ twall.bmp.png
 #entry 360
 shadow03.dof-00.joe
 shad.bmp.png
+0
+0
+0
 1
-0
-0
-0
 2.0
 0
 0
@@ -5781,10 +5781,10 @@ shad.bmp.png
 #entry 361
 shadow04.dof-00.joe
 shad.bmp.png
+0
+0
+0
 1
-0
-0
-0
 2.0
 0
 0
@@ -5797,10 +5797,10 @@ shad.bmp.png
 #entry 362
 shadow05.dof-00.joe
 shad.bmp.png
+0
+0
+0
 1
-0
-0
-0
 2.0
 0
 0
@@ -5861,7 +5861,7 @@ shrub.bmp.png
 #entry 366
 sign01.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -5893,7 +5893,7 @@ pits.bmp.png
 #entry 368
 sign01.dof-02.joe
 tsd.bmp.png
-1
+0
 0
 0
 0
@@ -5909,7 +5909,7 @@ tsd.bmp.png
 #entry 369
 sign02.dof-00.joe
 tsd.bmp.png
-1
+0
 0
 0
 0
@@ -5925,7 +5925,7 @@ tsd.bmp.png
 #entry 370
 sign02.dof-01.joe
 tsc.bmp.png
-1
+0
 0
 0
 0
@@ -5941,7 +5941,7 @@ tsc.bmp.png
 #entry 371
 sign03.dof-00.joe
 ts.bmp.png
-1
+0
 0
 0
 0
@@ -5957,7 +5957,7 @@ ts.bmp.png
 #entry 372
 sign03.dof-01.joe
 tsd.bmp.png
-1
+0
 0
 0
 0
@@ -5973,7 +5973,7 @@ tsd.bmp.png
 #entry 373
 sign04.dof-00.joe
 tsa.bmp.png
-1
+0
 0
 0
 0
@@ -5989,7 +5989,7 @@ tsa.bmp.png
 #entry 374
 sign04.dof-01.joe
 tsd.bmp.png
-1
+0
 0
 0
 0
@@ -6005,7 +6005,7 @@ tsd.bmp.png
 #entry 375
 sign05.dof-00.joe
 tsc.bmp.png
-1
+0
 0
 0
 0
@@ -6021,7 +6021,7 @@ tsc.bmp.png
 #entry 376
 sign05.dof-01.joe
 tsd.bmp.png
-1
+0
 0
 0
 0
@@ -6037,7 +6037,7 @@ tsd.bmp.png
 #entry 377
 sign06.dof-00.joe
 ts.bmp.png
-1
+0
 0
 0
 0
@@ -6053,7 +6053,7 @@ ts.bmp.png
 #entry 378
 sign06.dof-01.joe
 tsd.bmp.png
-1
+0
 0
 0
 0
@@ -6069,7 +6069,7 @@ tsd.bmp.png
 #entry 379
 sign07.dof-00.joe
 tsa.bmp.png
-1
+0
 0
 0
 0
@@ -6085,7 +6085,7 @@ tsa.bmp.png
 #entry 380
 sign07.dof-01.joe
 tsd.bmp.png
-1
+0
 0
 0
 0
@@ -6101,7 +6101,7 @@ tsd.bmp.png
 #entry 381
 sign08.dof-00.joe
 tsc.bmp.png
-1
+0
 0
 0
 0
@@ -6117,7 +6117,7 @@ tsc.bmp.png
 #entry 382
 sign08.dof-01.joe
 tsd.bmp.png
-1
+0
 0
 0
 0
@@ -6133,7 +6133,7 @@ tsd.bmp.png
 #entry 383
 sign09.dof-00.joe
 tsc.bmp.png
-1
+0
 0
 0
 0
@@ -6149,7 +6149,7 @@ tsc.bmp.png
 #entry 384
 sign09.dof-01.joe
 tsd.bmp.png
-1
+0
 0
 0
 0
@@ -6165,7 +6165,7 @@ tsd.bmp.png
 #entry 385
 sign10.dof-00.joe
 tsd.bmp.png
-1
+0
 0
 0
 0
@@ -6181,7 +6181,7 @@ tsd.bmp.png
 #entry 386
 sign10.dof-01.joe
 ts.bmp.png
-1
+0
 0
 0
 0
@@ -6197,7 +6197,7 @@ ts.bmp.png
 #entry 387
 sign11.dof-00.joe
 tsa.bmp.png
-1
+0
 0
 0
 0
@@ -6213,7 +6213,7 @@ tsa.bmp.png
 #entry 388
 sign11.dof-01.joe
 tsd.bmp.png
-1
+0
 0
 0
 0
@@ -6229,7 +6229,7 @@ tsd.bmp.png
 #entry 389
 sign12.dof-00.joe
 tsa.bmp.png
-1
+0
 0
 0
 0
@@ -6245,7 +6245,7 @@ tsa.bmp.png
 #entry 390
 sign12.dof-01.joe
 tsd.bmp.png
-1
+0
 0
 0
 0
@@ -6261,7 +6261,7 @@ tsd.bmp.png
 #entry 391
 sign13.dof-00.joe
 ts.bmp.png
-1
+0
 0
 0
 0
@@ -6277,7 +6277,7 @@ ts.bmp.png
 #entry 392
 sign13.dof-01.joe
 tsd.bmp.png
-1
+0
 0
 0
 0
@@ -10133,7 +10133,7 @@ conca.bmp.png
 #entry 633
 van01.dof-02.joe
 mhside.bmp.png
-1
+0
 0
 0
 0
@@ -10149,7 +10149,7 @@ mhside.bmp.png
 #entry 634
 van01.dof-03.joe
 mhfr.bmp.png
-1
+0
 0
 0
 0
@@ -10165,7 +10165,7 @@ mhfr.bmp.png
 #entry 635
 wall01.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10181,7 +10181,7 @@ xrw1a.bmp.png
 #entry 636
 wall02.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10197,7 +10197,7 @@ xrw1a.bmp.png
 #entry 637
 wall03.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10213,7 +10213,7 @@ xrw1a.bmp.png
 #entry 638
 wall04.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10245,7 +10245,7 @@ fncei.bmp.png
 #entry 640
 wall05.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10277,7 +10277,7 @@ fncei.bmp.png
 #entry 642
 wall06.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10309,7 +10309,7 @@ fncei.bmp.png
 #entry 644
 wall07.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10357,7 +10357,7 @@ xrw1b.bmp.png
 #entry 647
 wall08.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10405,7 +10405,7 @@ twall.bmp.png
 #entry 650
 wall10.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10437,7 +10437,7 @@ fncei.bmp.png
 #entry 652
 wall11.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10469,7 +10469,7 @@ xrw1b.bmp.png
 #entry 654
 wall12.dof-01.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10501,7 +10501,7 @@ fncei.bmp.png
 #entry 656
 wall13.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10533,7 +10533,7 @@ fncei.bmp.png
 #entry 658
 wall14.dof-01.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10549,7 +10549,7 @@ xrw1a.bmp.png
 #entry 659
 wall15.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10581,7 +10581,7 @@ fncei.bmp.png
 #entry 661
 wall16.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10597,7 +10597,7 @@ xrw1a.bmp.png
 #entry 662
 wall17.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10613,7 +10613,7 @@ xrw1a.bmp.png
 #entry 663
 wall18.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10645,7 +10645,7 @@ fncei.bmp.png
 #entry 665
 wall19.dof-01.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10661,7 +10661,7 @@ xrw1a.bmp.png
 #entry 666
 wall20.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10693,7 +10693,7 @@ fncei.bmp.png
 #entry 668
 wall21.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10725,7 +10725,7 @@ fncei.bmp.png
 #entry 670
 wall22.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10773,7 +10773,7 @@ fncei.bmp.png
 #entry 673
 wall23.dof-01.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10789,7 +10789,7 @@ xrw1a.bmp.png
 #entry 674
 wall24.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10805,7 +10805,7 @@ xrw1a.bmp.png
 #entry 675
 wall25.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10821,7 +10821,7 @@ xrw1a.bmp.png
 #entry 676
 wall26.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10837,7 +10837,7 @@ xrw1a.bmp.png
 #entry 677
 wall27.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10853,7 +10853,7 @@ xrw1a.bmp.png
 #entry 678
 wall28.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10869,7 +10869,7 @@ xrw1a.bmp.png
 #entry 679
 wall29.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10885,7 +10885,7 @@ xrw1a.bmp.png
 #entry 680
 wall30.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10901,7 +10901,7 @@ xrw1a.bmp.png
 #entry 681
 wall31.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10917,7 +10917,7 @@ xrw1a.bmp.png
 #entry 682
 wall32.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10949,7 +10949,7 @@ fncei.bmp.png
 #entry 684
 wall33.dof-01.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10965,7 +10965,7 @@ xrw1a.bmp.png
 #entry 685
 wall34.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10981,7 +10981,7 @@ xrw1a.bmp.png
 #entry 686
 wall35.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -10997,7 +10997,7 @@ xrw1a.bmp.png
 #entry 687
 wall36.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11013,7 +11013,7 @@ xrw1a.bmp.png
 #entry 688
 wall37.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11029,7 +11029,7 @@ xrw1a.bmp.png
 #entry 689
 wall38.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11045,7 +11045,7 @@ xrw1a.bmp.png
 #entry 690
 wall39.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11061,7 +11061,7 @@ xrw1a.bmp.png
 #entry 691
 wall40.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11093,7 +11093,7 @@ fncei.bmp.png
 #entry 693
 wall41.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11109,7 +11109,7 @@ xrw1a.bmp.png
 #entry 694
 wall42.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11125,7 +11125,7 @@ xrw1a.bmp.png
 #entry 695
 wall43.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11173,7 +11173,7 @@ fncei.bmp.png
 #entry 698
 wall44.dof-01.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11205,7 +11205,7 @@ fncei.bmp.png
 #entry 700
 wall45.dof-01.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11237,7 +11237,7 @@ fncei.bmp.png
 #entry 702
 wall46.dof-01.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11253,7 +11253,7 @@ xrw1a.bmp.png
 #entry 703
 wall47.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11269,7 +11269,7 @@ xrw1a.bmp.png
 #entry 704
 wall48.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11285,7 +11285,7 @@ xrw1a.bmp.png
 #entry 705
 wall49.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11333,7 +11333,7 @@ tire.bmp.png
 #entry 708
 wall51.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11349,7 +11349,7 @@ xrw1a.bmp.png
 #entry 709
 wall52.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11365,7 +11365,7 @@ xrw1a.bmp.png
 #entry 710
 wall53.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11381,7 +11381,7 @@ xrw1a.bmp.png
 #entry 711
 wall54.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11397,7 +11397,7 @@ xrw1a.bmp.png
 #entry 712
 wall55.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11413,7 +11413,7 @@ xrw1a.bmp.png
 #entry 713
 wall56.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11429,7 +11429,7 @@ xrw1a.bmp.png
 #entry 714
 wall57.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11445,7 +11445,7 @@ xrw1a.bmp.png
 #entry 715
 wall58.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11493,7 +11493,7 @@ fncei.bmp.png
 #entry 718
 wall59.dof-01.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11509,7 +11509,7 @@ xrw1a.bmp.png
 #entry 719
 wall60.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11525,7 +11525,7 @@ xrw1a.bmp.png
 #entry 720
 wall61.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11557,7 +11557,7 @@ fncei.bmp.png
 #entry 722
 wall62.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11589,7 +11589,7 @@ fncei.bmp.png
 #entry 724
 wall63.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11621,7 +11621,7 @@ fncei.bmp.png
 #entry 726
 wall64.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11637,7 +11637,7 @@ xrw1a.bmp.png
 #entry 727
 wall65.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11669,7 +11669,7 @@ fncei.bmp.png
 #entry 729
 wall66.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11701,7 +11701,7 @@ fncei.bmp.png
 #entry 731
 wall67.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11733,7 +11733,7 @@ fncei.bmp.png
 #entry 733
 wall68.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11765,7 +11765,7 @@ fncei.bmp.png
 #entry 735
 wall69.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11781,7 +11781,7 @@ xrw1a.bmp.png
 #entry 736
 wall70.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11813,7 +11813,7 @@ fncei.bmp.png
 #entry 738
 wall71.dof-01.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11845,7 +11845,7 @@ fncei.bmp.png
 #entry 740
 wall72.dof-01.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
@@ -11861,7 +11861,7 @@ xrw1a.bmp.png
 #entry 741
 wall73.dof-00.joe
 xrw1a.bmp.png
-1
+0
 0
 0
 0
