@@ -1,18 +1,17 @@
 varying vec2 texcoord_2d;
 varying vec3 normal;
-uniform sampler2D tu0_2D;
-uniform sampler2D tu1_2D;
-uniform sampler2DShadow tu2_2D;
-uniform sampler2DShadow tu3_2D;
+uniform sampler2D tu0_2D; //diffuse map
+uniform sampler2D tu1_2D; //misc map (includes gloss on R channel, ...
+uniform sampler2DShadow tu4_2D; //close shadow map
+uniform sampler2DShadow tu5_2D; //far shadow map
+uniform samplerCube tu2_cube; //reflection map
 //uniform sampler2DRect tu2_2DRect;
 
-uniform float screenw;
-uniform float screenh;
-
-varying vec3 eyecoords;
+//varying vec3 eyecoords;
 varying vec3 eyespacenormal;
 uniform vec3 eyelightposition;
 varying vec4 ecpos;
+varying vec3 viewdir;
 
 uniform vec3 lightposition;
 //varying vec3 halfvector;
@@ -31,8 +30,8 @@ void main()
 	//shadowcoords[0] = (light_matrix_0 * (gl_TextureMatrix[1] * (gl_ModelViewMatrix * gl_FragCoord))).xyz;
 	//shadowcoords[1] = (light_matrix_1 * (gl_TextureMatrix[1] * (gl_ModelViewMatrix * gl_FragCoord))).xyz;
 	float notshadow[2];
-	notshadow[0] = shadow2D(tu2_2D, shadowcoords[0]).r;
-	notshadow[1] = shadow2D(tu3_2D, shadowcoords[1]).r;
+	notshadow[0] = shadow2D(tu4_2D, shadowcoords[0]).r;
+	notshadow[1] = shadow2D(tu5_2D, shadowcoords[1]).r;
 	
 	const float bound = 1.0;
 	const float fade = 10.0;
@@ -71,7 +70,6 @@ void main()
 	vec4 tu1_2D_val = texture2D(tu1_2D, texcoord_2d);
 	
 	vec3 texcolor = tu0_2D_val.rgb;
-	vec3 ambient = texcolor;
 	//vec3 diffuse = texcolor*clamp((dot(normal,lightposition)+1.0)*0.7,0.0,1.0);
 	float difdot = max(dot(normnormal,lightposition),0.0);
 	//notshadow *= min(difdot*10.0,1.0);
@@ -79,20 +77,35 @@ void main()
 	difdot *= notshadowfinal;
 	vec3 diffuse = texcolor*difdot;
 	
+	/*vec3 lightmapdir = mix(-lightposition,normal,notshadowfinal);
+	vec3 ambient = texcolor * textureCube(tu3_cube, lightmapdir).rgb;*/
+	vec3 ambient = texcolor;
+	
 	float gloss = tu1_2D_val.r;
 	
 	//vec3 L = normalize(lightposition - vec3(ecpos));
 	vec3 L = normalize(eyelightposition);
 	vec3 V = vec3(normalize(-ecpos));
 	vec3 halfvec = normalize(L + V);
-	float specval = max(dot(halfvec, normalize(eyespacenormal)),0.0);
+	vec3 eyespacenormal_norm = normalize(eyespacenormal);
+	float specval = max(dot(halfvec, eyespacenormal_norm),0.0);
 	
 	/*vec3 refnorm = normalize(reflect(normalize(eyecoords),normalize(eyespacenormal)));
 	float specval = max(dot(refnorm, normalize(eyelightposition)),0.0);*/
 	
-	vec3 specular = vec3((pow(specval,128.0)*0.4+pow(specval,4.0)*0.2)*gloss);
+	vec3 specular_sun = vec3((pow(specval,128.0)*0.4+pow(specval,4.0)*0.2)*gloss);
+	//vec3 refmapdir = reflect(eyespacenormal_norm,halfvec);
+	vec3 refmapdir = reflect(viewdir,normnormal);
+	vec3 specular_environment = textureCube(tu2_cube, refmapdir).rgb*gloss;
 	
-	gl_FragColor.rgb = ambient*0.5 + diffuse*1.0 + specular*notshadowfinal;
+	float invgloss = (1.0-gloss);
+	
+	gl_FragColor.rgb = ambient*0.5*max(1.0,invgloss) + diffuse*0.8*max(0.7,invgloss) + specular_sun*notshadowfinal + specular_environment*max(0.5,notshadowfinal);
+	//gl_FragColor.rgb = ambient*0.8 + diffuse*0.5 + specular_sun*notshadowfinal + specular_environment*notshadowfinal;
+	//gl_FragColor.rgb = ambient*1.0 + specular_sun*notshadowfinal + specular_environment*notshadowfinal;
+	
+	//gl_FragColor.rgb = specular_environment;
+	//gl_FragColor.rgb = viewdir;
 	
 	//gl_FragColor.rgb = diffuse;
 	//gl_FragColor.rgb = texture2DRect(tu2_2DRect, gl_FragCoord.xy).rgb;
