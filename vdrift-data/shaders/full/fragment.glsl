@@ -5,6 +5,7 @@ uniform sampler2D tu1_2D; //misc map (includes gloss on R channel, ...
 uniform sampler2DShadow tu4_2D; //close shadow map
 uniform sampler2DShadow tu5_2D; //far shadow map
 uniform samplerCube tu2_cube; //reflection map
+uniform sampler2D tu6_2D; //additive map (for brake lights)
 //uniform sampler2DRect tu2_2DRect;
 
 //varying vec3 eyecoords;
@@ -68,6 +69,7 @@ void main()
 	
 	vec4 tu0_2D_val = texture2D(tu0_2D, texcoord_2d);
 	vec4 tu1_2D_val = texture2D(tu1_2D, texcoord_2d);
+	vec4 tu6_2D_val = texture2D(tu6_2D, texcoord_2d);
 	
 	vec3 texcolor = tu0_2D_val.rgb;
 	//vec3 diffuse = texcolor*clamp((dot(normal,lightposition)+1.0)*0.7,0.0,1.0);
@@ -100,7 +102,7 @@ void main()
 	
 	float invgloss = (1.0-gloss);
 	
-	gl_FragColor.rgb = ambient*0.5*max(1.0,invgloss) + diffuse*0.8*max(0.7,invgloss) + specular_sun*notshadowfinal + specular_environment*max(0.5,notshadowfinal);
+	gl_FragColor.rgb = ambient*0.5 + diffuse*0.8*max(0.7,invgloss) + specular_sun*notshadowfinal + specular_environment*max(0.5,notshadowfinal) + tu6_2D_val.rgb;
 	//gl_FragColor.rgb = ambient*0.8 + diffuse*0.5 + specular_sun*notshadowfinal + specular_environment*notshadowfinal;
 	//gl_FragColor.rgb = ambient*1.0 + specular_sun*notshadowfinal + specular_environment*notshadowfinal;
 	
