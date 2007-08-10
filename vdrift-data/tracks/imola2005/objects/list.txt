@@ -11626,13 +11626,13 @@ grassedge4.dds.png
 0
 0
 2.0
-0
+0.03
 0
 1
-1.0
+0.7
 0.9
-1.0
-0.0
+5.0
+20.0
 
 #entry 727
 kerb0192_rmbl4.dof-00.joe
@@ -11706,13 +11706,13 @@ grassedge4.dds.png
 0
 0
 2.0
-0
+0.03
 0
 1
-1.0
+0.7
 0.9
-1.0
-0.0
+5.0
+20.0
 
 #entry 732
 kerb0194_grassedge4.dof-00.joe
@@ -11722,13 +11722,13 @@ grassedge4.dds.png
 0
 0
 2.0
-0
+0.03
 0
 1
-1.0
+0.7
 0.9
-1.0
-0.0
+5.0
+20.0
 
 #entry 733
 kerb0195_rmbl4.dof-00.joe
@@ -12474,13 +12474,13 @@ grassedge4.dds.png
 0
 0
 2.0
-0
+0.03
 0
 1
-1.0
+0.7
 0.9
-1.0
-0.0
+5.0
+20.0
 
 #entry 780
 kerb0211_grassedge5.dof-00.joe
@@ -12490,13 +12490,13 @@ grassedge5.dds.png
 0
 0
 2.0
-0
+0.03
 0
 1
-1.0
+0.7
 0.9
-1.0
-0.0
+5.0
+20.0
 
 #entry 781
 kerb0211_rmbl4.dof-00.joe
