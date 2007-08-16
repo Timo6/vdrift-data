@@ -7,4 +7,4 @@ start orientation-xyz 0 = 0.001968,-0.080503,-0.000119
 start orientation-w 0 = 0.996752
 lap sequence 0 = 0.000000,0.000000,0.000000
 lap sequence 1 = 0.000000,487.000000,0.000000
-
+vertical tracking skyboxes = no
