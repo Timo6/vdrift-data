@@ -1,5 +1,9 @@
 
+[ AX2 ]
+sector 1 = 118.272003
+
 [ CO ]
+sector 0 = 151.268005
 sector 1 = 73.800003
 
 [ G4 ]
@@ -13,6 +17,6 @@ sector 1 = 103.264000
 sector 1 = 83.167999
 
 [ last ]
-car = GT
-sector 0 = 0.000000
-sector 1 = 103.264000
+car = CO
+sector 0 = 151.268005
+sector 1 = 83.603996

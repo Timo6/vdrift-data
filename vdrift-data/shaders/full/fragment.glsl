@@ -95,10 +95,11 @@ void main()
 	/*vec3 refnorm = normalize(reflect(normalize(eyecoords),normalize(eyespacenormal)));
 	float specval = max(dot(refnorm, normalize(eyelightposition)),0.0);*/
 	
+	float env_factor = 1.0-max(0.0,eyespacenormal_norm.z);
 	vec3 specular_sun = vec3((pow(specval,128.0)*0.4+pow(specval,4.0)*0.2)*gloss);
 	//vec3 refmapdir = reflect(eyespacenormal_norm,halfvec);
 	vec3 refmapdir = reflect(viewdir,normnormal);
-	vec3 specular_environment = textureCube(tu2_cube, refmapdir).rgb*gloss;
+	vec3 specular_environment = textureCube(tu2_cube, refmapdir).rgb*gloss*env_factor;
 	
 	float invgloss = (1.0-gloss);
 	
@@ -121,6 +122,7 @@ void main()
 	//gl_FragColor.rgb = vec3(specular);
 	//gl_FragColor.rgb = vec3(dot(lightposition,normal));
 	//gl_FragColor.rgb = vec3(normal.y);
+	//gl_FragColor.rgb = vec3(env_factor,env_factor,env_factor);
 	
 	gl_FragColor.a = tu0_2D_val.a*gl_Color.a;
 }
