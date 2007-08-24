@@ -95,7 +95,7 @@ void main()
 	/*vec3 refnorm = normalize(reflect(normalize(eyecoords),normalize(eyespacenormal)));
 	float specval = max(dot(refnorm, normalize(eyelightposition)),0.0);*/
 	
-	float env_factor = 1.0-max(0.0,eyespacenormal_norm.z);
+	float env_factor = 1.0-max(0.0,eyespacenormal_norm.z*0.9);
 	vec3 specular_sun = vec3((pow(specval,128.0)*0.4+pow(specval,4.0)*0.2)*gloss);
 	//vec3 refmapdir = reflect(eyespacenormal_norm,halfvec);
 	vec3 refmapdir = reflect(viewdir,normnormal);
