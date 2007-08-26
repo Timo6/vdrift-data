@@ -18,21 +18,7 @@ skyfade.bmp.png
 5.0
 20.0
 
-#entry 1
-cone000.dof-00.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 2
 cone000.dof-01.joe
@@ -66,21 +52,7 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 4
-cone001.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 5
 cone002.dof-00.joe
@@ -98,21 +70,7 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 6
-cone002.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 7
 cone003.dof-00.joe
@@ -130,21 +88,7 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 8
-cone003.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 9
 cone004.dof-00.joe
@@ -162,21 +106,7 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 10
-cone004.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 11
 cone005.dof-00.joe
@@ -194,21 +124,7 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 12
-cone005.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 13
 cone006.dof-00.joe
@@ -226,21 +142,6 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 14
-cone006.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
 
 #entry 15
 cone007.dof-00.joe
@@ -258,21 +159,6 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 16
-cone007.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
 
 #entry 17
 cone008.dof-00.joe
@@ -290,21 +176,7 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 18
-cone008.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 19
 cone009.dof-00.joe
@@ -322,21 +194,7 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 20
-cone009.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 21
 cone010.dof-00.joe
@@ -354,21 +212,7 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 22
-cone010.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 23
 cone011.dof-00.joe
@@ -386,21 +230,7 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 24
-cone011.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 25
 cone012.dof-00.joe
@@ -418,21 +248,7 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 26
-cone012.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 27
 cone013.dof-00.joe
@@ -450,21 +266,7 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 28
-cone013.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 29
 cone014.dof-00.joe
@@ -482,21 +284,7 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 30
-cone014.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 31
 cone015.dof-00.joe
@@ -514,21 +302,7 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 32
-cone015.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 33
 cone016.dof-00.joe
@@ -546,21 +320,7 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 34
-cone016.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 35
 cone017.dof-00.joe
@@ -578,21 +338,7 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 36
-cone017.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 37
 cone018.dof-00.joe
@@ -610,21 +356,7 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 38
-cone018.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 39
 cone019.dof-00.joe
@@ -642,21 +374,7 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 40
-cone019.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 41
 cone020.dof-00.joe
@@ -674,21 +392,7 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 42
-cone020.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 43
 cone021.dof-00.joe
@@ -706,21 +410,7 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 44
-cone021.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 45
 cone022.dof-00.joe
@@ -738,21 +428,7 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 46
-cone022.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 47
 cone023.dof-00.joe
@@ -770,21 +446,7 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 48
-cone023.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 49
 cone024.dof-00.joe
@@ -802,21 +464,6 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 50
-cone024.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
 
 #entry 51
 cone025.dof-00.joe
@@ -834,21 +481,7 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 52
-cone025.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 53
 cone026.dof-00.joe
@@ -866,21 +499,6 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 54
-cone026.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
 
 #entry 55
 cone027.dof-00.joe
@@ -898,21 +516,7 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 56
-cone027.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 57
 cone028.dof-00.joe
@@ -930,37 +534,9 @@ conea.bmp.png
 5.0
 20.0
 
-#entry 58
-cone028.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
 
-#entry 59
-cone10.dof-00.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
+
 
 #entry 60
 fnce01.dof-00.joe
@@ -3234,21 +2810,7 @@ grasas.bmp.png
 5.0
 20.0
 
-#entry 202
-sida05.dof-04.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 203
 sida05.dof-05.joe
@@ -3426,21 +2988,7 @@ tsc.bmp.png
 5.0
 20.0
 
-#entry 214
-sida07.dof-05.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 215
 sida08.dof-00.joe
@@ -4178,21 +3726,7 @@ tireat.bmp.png
 5.0
 20.0
 
-#entry 261
-sida15.dof-03.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 262
 sida16.dof-00.joe
@@ -5074,21 +4608,7 @@ grasshdb.bmp.png
 5.0
 20.0
 
-#entry 317
-sida24.dof-11.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 318
 sida24.dof-12.joe
@@ -5490,21 +5010,6 @@ sprdg.bmp.png
 5.0
 20.0
 
-#entry 343
-sida29.dof-10.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
 
 #entry 344
 sida30.dof-00.joe
@@ -5778,21 +5283,7 @@ tsa.bmp.png
 5.0
 20.0
 
-#entry 361
-sida301.dof-09.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 362
 sida31.dof-00.joe
@@ -6322,21 +5813,6 @@ cmnta.bmp.png
 5.0
 20.0
 
-#entry 395
-sida340.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
 
 #entry 396
 sida340.dof-02.joe
@@ -6461,22 +5937,6 @@ grasshdb.bmp.png
 0.03
 0
 1
-0.7
-1.0
-5.0
-20.0
-
-#entry 404
-sida35.dof-07.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
 0.7
 1.0
 5.0
@@ -6994,21 +6454,7 @@ dirtc.bmp.png
 5.0
 20.0
 
-#entry 437
-sida41.dof-06.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 438
 sida41.dof-07.joe
@@ -7458,21 +6904,6 @@ tsb.bmp.png
 5.0
 20.0
 
-#entry 466
-sida42.dof-04.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
 
 #entry 467
 sida422.dof-00.joe
@@ -8018,22 +7449,6 @@ cwalat.bmp.png
 5.0
 20.0
 
-#entry 501
-sida47.dof-03.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
-
 #entry 502
 sida48.dof-00.joe
 grasa.bmp.png
@@ -8210,21 +7625,7 @@ tenth.bmp.png
 5.0
 20.0
 
-#entry 513
-sida48.dof-11.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 514
 sida48.dof-12.joe
@@ -8290,21 +7691,7 @@ dirtc.bmp.png
 5.0
 20.0
 
-#entry 518
-sida49.dof-03.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 519
 sida50.dof-00.joe
@@ -8594,21 +7981,6 @@ dirtc.bmp.png
 5.0
 20.0
 
-#entry 537
-sida53.dof-05.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
 
 #entry 538
 sida54.dof-00.joe
@@ -8818,21 +8190,6 @@ cwalat.bmp.png
 5.0
 20.0
 
-#entry 551
-sida58.dof-03.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
 
 #entry 552
 sida59.dof-00.joe
@@ -9362,21 +8719,6 @@ dirtc.bmp.png
 5.0
 20.0
 
-#entry 585
-sida66.dof-06.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
 
 #entry 586
 sida67.dof-00.joe
@@ -9565,22 +8907,6 @@ grasa.bmp.png
 0.03
 0
 1
-0.7
-1.0
-5.0
-20.0
-
-#entry 598
-sida89.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
 0.7
 1.0
 5.0
@@ -9906,21 +9232,7 @@ lita.bmp.png
 5.0
 20.0
 
-#entry 619
-sidb02.dof-10.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 620
 sidb02.dof-11.joe
@@ -10146,21 +9458,6 @@ tentb.bmp.png
 5.0
 20.0
 
-#entry 634
-sidb03.dof-12.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
 
 #entry 635
 sidb04.dof-00.joe
@@ -10277,22 +9574,6 @@ bldgh.bmp.png
 #entry 642
 sidb04.dof-07.joe
 bldgg.bmp.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
-
-#entry 643
-sidb05.dof-00.joe
-.png
 1
 0
 0
@@ -10594,21 +9875,7 @@ pplf.bmp.png
 5.0
 20.0
 
-#entry 662
-sidb10.dof-08.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 663
 sidb10.dof-09.joe
@@ -11122,21 +10389,7 @@ pplf.bmp.png
 5.0
 20.0
 
-#entry 695
-sidb21.dof-06.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 696
 sidb22.dof-00.joe
@@ -11298,21 +10551,7 @@ vrv2r.bmp.png
 5.0
 20.0
 
-#entry 706
-sidb22.dof-10.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 707
 sidb223.dof-00.joe
@@ -11474,21 +10713,6 @@ vrv2r.bmp.png
 5.0
 20.0
 
-#entry 717
-sidb223.dof-10.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
 
 #entry 718
 sidb32.dof-00.joe
@@ -11682,21 +10906,7 @@ pplf.bmp.png
 5.0
 20.0
 
-#entry 730
-sidb33.dof-08.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 731
 sidb34.dof-00.joe
@@ -12114,21 +11324,6 @@ pplf.bmp.png
 5.0
 20.0
 
-#entry 757
-sidb432.dof-06.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
 
 #entry 758
 sidb44.dof-00.joe
@@ -12290,21 +11485,7 @@ vrv2r.bmp.png
 5.0
 20.0
 
-#entry 768
-sidb44.dof-10.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 769
 sidb443.dof-00.joe
@@ -12498,21 +11679,7 @@ vrv2r.bmp.png
 5.0
 20.0
 
-#entry 781
-sidb443.dof-12.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 782
 sidb448.dof-00.joe
@@ -12674,21 +11841,6 @@ pplg.bmp.png
 5.0
 20.0
 
-#entry 792
-sidb448.dof-10.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
 
 #entry 793
 sidb50.dof-00.joe
@@ -13074,21 +12226,6 @@ vrv2r.bmp.png
 5.0
 20.0
 
-#entry 817
-sidb543.dof-12.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
 
 #entry 818
 sidb55.dof-00.joe
@@ -13266,21 +12403,6 @@ vrv2r.bmp.png
 5.0
 20.0
 
-#entry 829
-sidb55.dof-11.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
 
 #entry 830
 sidb55.dof-12.joe
@@ -13570,21 +12692,6 @@ vrv2r.bmp.png
 5.0
 20.0
 
-#entry 848
-sidb60.dof-10.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
 
 #entry 849
 sidb63.dof-00.joe
@@ -13810,21 +12917,6 @@ vrv2r.bmp.png
 5.0
 20.0
 
-#entry 863
-sidb63.dof-14.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
 
 #entry 864
 sidb65.dof-00.joe
@@ -14306,21 +13398,7 @@ pplf.bmp.png
 5.0
 20.0
 
-#entry 894
-sidb84.dof-10.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 895
 sidb84.dof-11.joe
@@ -14482,37 +13560,8 @@ vrv2r.bmp.png
 5.0
 20.0
 
-#entry 905
-sidb90.dof-08.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
 
-#entry 906
-sidc01.dof-00.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 907
 sidc01.dof-01.joe
@@ -14578,21 +13627,6 @@ cartfr.bmp.png
 5.0
 20.0
 
-#entry 911
-sidc02.dof-02.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
 
 #entry 912
 sidc03.dof-00.joe
@@ -14626,21 +13660,7 @@ cartfr.bmp.png
 5.0
 20.0
 
-#entry 914
-sidc03.dof-02.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 915
 sidc03.dof-03.joe
@@ -14722,21 +13742,7 @@ vrv2r.bmp.png
 5.0
 20.0
 
-#entry 920
-sidc04.dof-02.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 921
 sidc04.dof-03.joe
@@ -14850,21 +13856,7 @@ peopwal.bmp.png
 5.0
 20.0
 
-#entry 928
-sidc09.dof-05.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 929
 sidc12.dof-00.joe
@@ -15042,21 +14034,6 @@ ambb.bmp.png
 5.0
 20.0
 
-#entry 940
-sidc13.dof-06.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
 
 #entry 941
 sidc14.dof-00.joe
@@ -15330,21 +14307,7 @@ peopwal.bmp.png
 5.0
 20.0
 
-#entry 958
-sidc21.dof-11.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 959
 sidc22.dof-00.joe
@@ -15394,21 +14357,7 @@ peopwal.bmp.png
 5.0
 20.0
 
-#entry 962
-sidc22.dof-03.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 963
 sidc223.dof-00.joe
@@ -15490,21 +14439,7 @@ peopwal.bmp.png
 5.0
 20.0
 
-#entry 968
-sidc223.dof-05.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 969
 sidc31.dof-00.joe
@@ -15666,21 +14601,7 @@ peopwal.bmp.png
 5.0
 20.0
 
-#entry 979
-sidc32.dof-03.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 980
 sidc33.dof-00.joe
@@ -15874,21 +14795,7 @@ peopwal.bmp.png
 5.0
 20.0
 
-#entry 992
-sidc34.dof-09.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 993
 sidc40.dof-00.joe
@@ -16066,21 +14973,7 @@ peopwal.bmp.png
 5.0
 20.0
 
-#entry 1004
-sidc430.dof-05.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 1005
 sidc431.dof-00.joe
@@ -16226,21 +15119,7 @@ peopwal.bmp.png
 5.0
 20.0
 
-#entry 1014
-sidc431.dof-09.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 1015
 sidc44.dof-00.joe
@@ -16306,21 +15185,6 @@ peopwal.bmp.png
 5.0
 20.0
 
-#entry 1019
-sidc44.dof-04.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
 
 #entry 1020
 sidc445.dof-00.joe
@@ -16466,21 +15330,7 @@ tenti.bmp.png
 5.0
 20.0
 
-#entry 1029
-sidc445.dof-09.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 1030
 sidc45.dof-00.joe
@@ -16498,21 +15348,7 @@ tenth.bmp.png
 5.0
 20.0
 
-#entry 1031
-sidc45.dof-01.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 1032
 sidc50.dof-00.joe
@@ -16802,21 +15638,7 @@ vrv2r.bmp.png
 5.0
 20.0
 
-#entry 1050
-sidc55.dof-08.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 1051
 sidc554.dof-00.joe
@@ -16882,21 +15704,7 @@ pot.bmp.png
 5.0
 20.0
 
-#entry 1055
-sidc554.dof-04.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 1056
 sidc60.dof-00.joe
@@ -16962,21 +15770,7 @@ pot.bmp.png
 5.0
 20.0
 
-#entry 1060
-sidc60.dof-04.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 1061
 sidc65.dof-00.joe
@@ -17202,21 +15996,7 @@ peopwal.bmp.png
 5.0
 20.0
 
-#entry 1075
-sidc84.dof-06.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 1076
 sidc87.dof-00.joe
@@ -17554,21 +16334,7 @@ peopwal.bmp.png
 5.0
 20.0
 
-#entry 1097
-sidc90.dof-08.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 1098
 sidc90.dof-09.joe
@@ -17634,21 +16400,7 @@ peopwal.bmp.png
 5.0
 20.0
 
-#entry 1102
-sidc91.dof-03.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 1103
 sign000.dof-00.joe
@@ -25906,21 +24658,7 @@ roada.bmp.png
 1.0
 0.0
 
-#entry 1619
-trk412.dof-06.joe
-.png
-1
-0
-0
-0
-2.0
-0.03
-0
-0
-0.7
-1.0
-5.0
-20.0
+
 
 #entry 1620
 trk413.dof-00.joe
