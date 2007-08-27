@@ -14,6 +14,10 @@ sector 1 = 28.672001
 sector 0 = 117.856003
 sector 1 = 45.056004
 
+[ TC ]
+sector 0 = 89.796005
+sector 1 = 36.092003
+
 [ TL2 ]
 sector 0 = 125.328003
 sector 1 = 51.824001
@@ -23,6 +27,6 @@ sector 0 = 119.992004
 sector 1 = 46.620003
 
 [ last ]
-car = F1
-sector 0 = 0.000000
-sector 1 = 64.991997
+car = TC
+sector 0 = 89.916008
+sector 1 = 36.092003
