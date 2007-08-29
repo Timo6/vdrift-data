@@ -19,4 +19,4 @@ lap sequence 1 = 0.000000,844.000000,0.000000
 start position 4 = -518.770691,-6.395040,505.164368
 start orientation-xyz 4 = -0.024972,0.708370,0.025651
 start orientation-w 4 = 0.704933
-
+vertical tracking skyboxes = on
