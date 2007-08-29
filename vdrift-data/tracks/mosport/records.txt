@@ -1,4 +1,9 @@
 
+[ <<<<<<< .mine ]
+car = TC
+sector 0 = 89.916008
+sector 1 = 36.092003
+
 [ C7 ]
 sector 1 = 40.296001
 
@@ -9,6 +14,14 @@ sector 1 = 37.892002
 [ F1 ]
 sector 0 = 74.488007
 sector 1 = 28.672001
+
+[ GT ]
+sector 0 = 118.512009
+sector 1 = 42.760002
+
+[ GTR ]
+sector 0 = 102.116005
+sector 1 = 41.480003
 
 [ M8 ]
 sector 0 = 117.856003
@@ -27,6 +40,6 @@ sector 0 = 119.992004
 sector 1 = 46.620003
 
 [ last ]
-car = TC
-sector 0 = 89.916008
-sector 1 = 36.092003
+car = GTR
+sector 0 = 102.116005
+sector 1 = 41.480003
