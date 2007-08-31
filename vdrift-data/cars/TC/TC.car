@@ -95,10 +95,10 @@ tread = 0.7
 # Lateral force
 a0=1.55
 a1=-40
-a2=1700
+a2=1650
 a3=3200
 a4=7.2
-a5=0.014
+a5=0.028
 a6=-0.24
 a7=1.0
 a8=-0.03
@@ -194,16 +194,16 @@ c16=0.27
 c17=-1.1
 
 [ brakes-front ]
-friction = 0.73
+friction = 0.75
 max-pressure = 2.5e6
-bias = 0.61
+bias = 0.60
 radius = 0.17
 area = 0.015
 
 [ brakes-rear ]
-friction = 0.73
+friction = 0.75
 max-pressure = 2.5e6
-bias = 0.39
+bias = 0.40
 radius = 0.14
 area = 0.015
 handbrake = 1.1
