@@ -61,25 +61,19 @@ fuel-density = 1.0
 
 [ suspension-front ]
 spring-constant = 102000
-#spring-constant = 72000
 bounce = 11050
-#bounce = 7500
 rebound = 10700
-#rebound = 5000
 travel = 0.32
 max-compression-velocity = 10.0
 camber = -1.33
 caster = 6.12
-toe = 0.0
+toe = -0.3
 anti-roll = 5000
 
 [ suspension-rear ]
-spring-constant = 98000
-#spring-constant = 68000
+spring-constant = 99000
 bounce = 10000
-#bounce = 7500
 rebound = 9992.14
-#rebound = 5000
 travel = 0.32
 max-compression-velocity = 10.0
 camber = -0.45
@@ -91,7 +85,7 @@ anti-roll = 17000
 radius = 0.325
 rolling-resistance = 1.3e-2, 6.5e-6
 rotational-inertia = 10.0
-tread = 0.7
+tread = 0.3
 # Lateral force
 a0=1.55
 a1=-40
@@ -144,7 +138,7 @@ c17=-1.1
 radius = 0.340
 rolling-resistance = 1.3e-2, 6.5e-6
 rotational-inertia = 10.0
-tread = 0.7
+tread = 0.3
 # Lateral force
 a0=1.55
 a1=-55

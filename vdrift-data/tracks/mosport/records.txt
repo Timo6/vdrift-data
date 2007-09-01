@@ -28,8 +28,8 @@ sector 0 = 117.856003
 sector 1 = 45.056004
 
 [ TC ]
-sector 0 = 87.856003
-sector 1 = 35.564003
+sector 0 = 87.400002
+sector 1 = 34.956001
 
 [ TL2 ]
 sector 0 = 125.328003
@@ -40,6 +40,6 @@ sector 0 = 119.992004
 sector 1 = 46.620003
 
 [ last ]
-car = GTR
-sector 0 = 106.136002
-sector 1 = 41.812000
+car = TC
+sector 0 = 87.400002
+sector 1 = 35.728001
