@@ -80,7 +80,7 @@ max-compression-velocity = 10.0
 camber = -0.45
 caster = 0.28
 toe = 0.2
-anti-roll = 10000.0
+anti-roll = 12000.0
 
 [ tire-front ]
 radius = 0.34
@@ -88,7 +88,7 @@ rolling-resistance = 1.3e-2, 6.5e-6
 rotational-inertia = 10.0
 tread = 0.0
 # Lateral force
-a0=1.3
+a0=1.4
 a1=-39
 a2=1216
 a3=1632
@@ -119,7 +119,7 @@ b11=0
 b12=0
 # Aligning moment
 c0=2.46
-c1=-2.77
+c1=-1.77
 c2=-2.9
 c3=-0
 c4=-3.6
@@ -220,19 +220,19 @@ drag-coefficient = 0.3
 
 [ wing-front ]
 position = 2.34, 0, -0.6
-frontal-area = 0.2
+frontal-area = 0.1
 drag-coefficient = 0
-surface-area = 0.3
-lift-coefficient = -0.5
-efficiency = 0.95
+surface-area = 0.1
+lift-coefficient = -0.7
+efficiency = 0.99
 
 [ wing-rear ]
 position = -2.14, 0, 0.37
 frontal-area = 0.2
 drag-coefficient = 0
-surface-area = 0.5
-lift-coefficient = -1.0
-efficiency = 0.95
+surface-area = 0.3
+lift-coefficient = -1.2
+efficiency = 0.99
 
 [ wheel-FR ]
 position = 1.45, -0.86, -0.48

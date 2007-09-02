@@ -1,0 +1,24 @@
+
+[ CT ]
+sector 0 = 85.084007
+sector 1 = 45.544003
+
+[ GTR ]
+sector 0 = 97.860008
+sector 1 = 52.388004
+
+[ NS ]
+sector 0 = 100.648003
+sector 1 = 56.968002
+
+[ RS2 ]
+sector 1 = 78.904007
+
+[ XS ]
+sector 0 = 110.332008
+sector 1 = 63.712002
+
+[ last ]
+car = GTR
+sector 0 = 99.488007
+sector 1 = 53.504002

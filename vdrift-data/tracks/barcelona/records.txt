@@ -7,7 +7,11 @@ sector 1 = 75.444000
 sector 0 = 125.456009
 sector 1 = 77.560005
 
+[ GTR ]
+sector 0 = 151.832001
+sector 1 = 99.280006
+
 [ last ]
-car = AX2
-sector 0 = 126.356003
-sector 1 = 83.428001
+car = GTR
+sector 0 = 151.832001
+sector 1 = 99.280006
