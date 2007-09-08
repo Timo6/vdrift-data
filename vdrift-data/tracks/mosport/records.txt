@@ -4,6 +4,10 @@ car = TC
 sector 0 = 89.916008
 sector 1 = 36.092003
 
+[ AX2 ]
+sector 0 = 77.292007
+sector 1 = 29.004002
+
 [ C7 ]
 sector 1 = 40.296001
 
@@ -40,6 +44,6 @@ sector 0 = 119.992004
 sector 1 = 46.620003
 
 [ last ]
-car = TC
-sector 0 = 87.400002
-sector 1 = 35.728001
+car = GTR
+sector 0 = 100.964005
+sector 1 = 41.284000

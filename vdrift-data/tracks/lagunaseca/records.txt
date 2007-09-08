@@ -1,6 +1,7 @@
 
 [ AX2 ]
-sector 1 = 118.272003
+sector 0 = 86.116005
+sector 1 = 50.660004
 
 [ CO ]
 sector 0 = 151.268005
@@ -17,6 +18,6 @@ sector 1 = 103.264000
 sector 1 = 83.167999
 
 [ last ]
-car = CO
-sector 0 = 151.268005
-sector 1 = 83.603996
+car = AX2
+sector 0 = 86.116005
+sector 1 = 51.800003
