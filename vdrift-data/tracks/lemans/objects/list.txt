@@ -7394,22 +7394,6 @@ crnf.bmp.png
 1.0
 0.0
 
-#entry 462
-crane01.dof-03.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
 #entry 463
 crane01.dof-04.joe
 crna.bmp.png
@@ -31458,22 +31442,6 @@ alusheet.bmp.png
 1.0
 0.0
 
-#entry 1966
-pitbld02.dof-00.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
 #entry 1967
 pitbld02.dof-01.joe
 stairsp.bmp.png
@@ -31522,22 +31490,6 @@ winda.bmp.png
 1.0
 0.0
 
-#entry 1970
-pitbld02.dof-04.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
 #entry 1971
 pitbld03.dof-00.joe
 spots.bmp.png
@@ -31573,38 +31525,6 @@ fencepit.bmp.png
 #entry 1973
 pitbld03.dof-02.joe
 people02.bmp.png
-1
-0
-0
-0
-1.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 1974
-pitbld03.dof-03.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 1975
-pitbld03.dof-04.joe
-.png
 1
 0
 0
@@ -33490,22 +33410,6 @@ rolex2.bmp.png
 1.0
 0.0
 
-#entry 2093
-podium.dof-07.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
 #entry 2094
 podium.dof-08.joe
 podium6.bmp.png
@@ -33525,22 +33429,6 @@ podium6.bmp.png
 #entry 2095
 podium.dof-09.joe
 podium7.bmp.png
-1
-0
-0
-0
-1.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2096
-podium.dof-10.joe
-.png
 1
 0
 0
@@ -35122,22 +35010,6 @@ polshad.bmp.png
 1.0
 0.0
 
-#entry 2195
-pylon0.dof-00.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
 #entry 2196
 pylon0.dof-01.joe
 pylon.bmp.png
@@ -35173,22 +35045,6 @@ pylon2.bmp.png
 #entry 2198
 pylon0.dof-03.joe
 pwrwire.bmp.png
-1
-0
-0
-0
-1.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2199
-pylon1.dof-00.joe
-.png
 1
 0
 0
@@ -35250,22 +35106,6 @@ pwrwire.bmp.png
 1.0
 0.0
 
-#entry 2203
-pylon2.dof-00.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
 #entry 2204
 pylon2.dof-01.joe
 pylon.bmp.png
@@ -35301,22 +35141,6 @@ pylon2.bmp.png
 #entry 2206
 pylon2.dof-03.joe
 pwrwire.bmp.png
-1
-0
-0
-0
-1.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2207
-pylon3.dof-00.joe
-.png
 1
 0
 0
@@ -35378,22 +35202,6 @@ pwrwire.bmp.png
 1.0
 0.0
 
-#entry 2211
-pylon4.dof-00.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
 #entry 2212
 pylon4.dof-01.joe
 pylon.bmp.png
@@ -35429,22 +35237,6 @@ pylon2.bmp.png
 #entry 2214
 pylon4.dof-03.joe
 pwrwire.bmp.png
-1
-0
-0
-0
-1.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2215
-pylon5.dof-00.joe
-.png
 1
 0
 0
