@@ -1,0 +1,7 @@
+
+[ AX2 ]
+sector 0 = 0.004000
+
+[ last ]
+car = AX2
+sector 0 = 0.004000
