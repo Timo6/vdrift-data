@@ -130,22 +130,6 @@ bka.bmp.png
 1.0
 0.0
 
-#entry 8
-announcer01.dof-02.joe
-clouda.bmp.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
 #entry 9
 announcer01.dof-03.joe
 bkd.bmp.png
@@ -226,22 +210,6 @@ bka.bmp.png
 1.0
 0.0
 
-#entry 14
-announcer02.dof-02.joe
-clouda.bmp.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
 #entry 15
 announcer02.dof-03.joe
 bkd.bmp.png
@@ -317,22 +285,6 @@ bka.bmp.png
 0
 0
 0
-1.0
-0.9
-1.0
-0.0
-
-#entry 20
-announcer03.dof-02.joe
-clouda.bmp.png
-1
-0
-0
-0
-1.0
-0
-0
-1
 1.0
 0.9
 1.0
@@ -18226,22 +18178,6 @@ gsbarsb.bmp.png
 1.0
 0.0
 
-#entry 1139
-ptferrari.dof-00.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
 #entry 1140
 ptferrari.dof-01.joe
 stlit.bmp.png
@@ -18261,22 +18197,6 @@ stlit.bmp.png
 #entry 1141
 ptferrari.dof-02.joe
 fncpost.bmp.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1142
-ptferrari.dof-03.joe
-.png
 1
 0
 0
@@ -18338,22 +18258,6 @@ ptentb.bmp.png
 1.0
 0.0
 
-#entry 1146
-ptfrextra.dof-01.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
 #entry 1147
 ptfrextra.dof-02.joe
 fncpost.bmp.png
@@ -18402,22 +18306,6 @@ stlit.bmp.png
 1.0
 0.0
 
-#entry 1150
-ptjordextra.dof-01.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
 #entry 1151
 ptjordextra.dof-02.joe
 ptentb.bmp.png
@@ -18450,22 +18338,6 @@ fncpost.bmp.png
 1.0
 0.0
 
-#entry 1153
-ptlit01.dof-00.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
 #entry 1154
 ptlit01.dof-01.joe
 rmbld.bmp.png
@@ -18482,54 +18354,6 @@ rmbld.bmp.png
 1.0
 0.0
 
-#entry 1155
-ptlit01.dof-02.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1156
-ptlit01.dof-03.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1157
-ptlit02.dof-00.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
 #entry 1158
 ptlit02.dof-01.joe
 rmbld.bmp.png
@@ -18539,38 +18363,6 @@ rmbld.bmp.png
 0
 2.0
 0.03
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1159
-ptlit02.dof-02.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1160
-ptmcextra.dof-00.joe
-.png
-1
-0
-0
-0
-1.0
-0
 0
 1
 1.0
@@ -18645,182 +18437,6 @@ grda.bmp.png
 #entry 1165
 ptmcextra.dof-05.joe
 ptenta.bmp.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1166
-ptmcextra.dof-06.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1167
-ptmcextra.dof-07.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1168
-ptmcextra.dof-08.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1169
-ptmcextra.dof-09.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1170
-ptmcextra.dof-10.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1171
-ptmcextra.dof-11.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1172
-ptmcextra.dof-12.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1173
-ptmcextra.dof-13.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1174
-ptmcextra.dof-14.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1175
-ptmcextra.dof-15.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1176
-ptmclaren.dof-00.joe
-.png
 1
 0
 0
@@ -18930,38 +18546,6 @@ stlit.bmp.png
 1.0
 0.0
 
-#entry 1183
-ptwilliams.dof-01.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1184
-ptwilliams.dof-02.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
 #entry 1185
 ptwilliams.dof-03.joe
 fncpost.bmp.png
@@ -18997,150 +18581,6 @@ ptenta.bmp.png
 #entry 1187
 ptwilliams.dof-05.joe
 ptentb.bmp.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1188
-ptwilliams.dof-06.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1189
-ptwilliams.dof-07.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1190
-ptwilliams.dof-08.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1191
-ptwilliams.dof-09.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1192
-ptwilliams.dof-10.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1193
-ptwilliams.dof-11.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1194
-ptwilliams.dof-12.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1195
-ptwilliams.dof-13.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1196
-ptwilliams.dof-14.joe
-.png
 1
 0
 0
@@ -26002,22 +25442,6 @@ bldnb.bmp.png
 1.0
 0.0
 
-#entry 1625
-stlite.dof-00.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
 #entry 1626
 stlite.dof-01.joe
 rmbld.bmp.png
@@ -26027,70 +25451,6 @@ rmbld.bmp.png
 0
 2.0
 0.03
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1627
-stlite.dof-02.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1628
-stlite.dof-03.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1629
-stlite.dof-04.joe
-.png
-1
-0
-0
-0
-1.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 1630
-stlite.dof-05.joe
-.png
-1
-0
-0
-0
-1.0
-0
 0
 1
 1.0
@@ -44763,22 +44123,6 @@ rmbld.bmp.png
 0
 2.0
 0.03
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 2798
-turnsgn.dof-01.joe
-.png
-1
-0
-0
-0
-1.0
-0
 0
 1
 1.0
