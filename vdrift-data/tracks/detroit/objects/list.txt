@@ -1752,7 +1752,7 @@ fnce02.bmp.png
 0
 0
 0
-1
+0
 1.0
 0
 0
@@ -3320,7 +3320,7 @@ fnce02.bmp.png
 0
 0
 0
-1
+0
 1.0
 0
 0
@@ -3976,7 +3976,7 @@ fnce03.bmp.png
 0
 0
 0
-1
+0
 1.0
 0
 0
@@ -5544,7 +5544,7 @@ fnce04.bmp.png
 0
 0
 0
-1
+0
 1.0
 0
 0
@@ -5560,7 +5560,7 @@ fnce01.tga.png
 0
 0
 0
-1
+0
 1.0
 0
 0
@@ -5576,7 +5576,7 @@ fnce01.tga.png
 0
 0
 0
-1
+0
 1.0
 0
 0
@@ -5608,7 +5608,7 @@ fnce04.bmp.png
 0
 0
 0
-1
+0
 1.0
 0
 0
@@ -15896,7 +15896,7 @@ fnce01.tga.png
 0
 0
 0
-1
+0
 1.0
 0
 0
@@ -15976,7 +15976,7 @@ fnce01.tga.png
 0
 0
 0
-1
+0
 1.0
 0
 0
@@ -16056,7 +16056,7 @@ fnce01.tga.png
 0
 0
 0
-1
+0
 1.0
 0
 0
@@ -16136,7 +16136,7 @@ fnce01.tga.png
 0
 0
 0
-1
+0
 1.0
 0
 0
@@ -19618,7 +19618,7 @@ water.bmp.png
 1.0
 0.0
 
-#entry 1233
+#entry 1226
 skyboxi.dof-00.joe
 cloudb.bmp.png
 0
@@ -19634,7 +19634,7 @@ cloudb.bmp.png
 1.0
 0.0
 
-#entry 1234
+#entry 1227
 skyboxi.dof-01.joe
 cloudc.bmp.png
 0
@@ -19650,7 +19650,7 @@ cloudc.bmp.png
 1.0
 0.0
 
-#entry 1235
+#entry 1228
 sod.dof-00.joe
 fistofjoe.bmp.png
 1
@@ -19666,7 +19666,7 @@ fistofjoe.bmp.png
 1.0
 0.0
 
-#entry 1236
+#entry 1229
 sod.dof-01.joe
 concw.bmp.png
 1
@@ -19682,7 +19682,7 @@ concw.bmp.png
 1.0
 0.0
 
-#entry 1237
+#entry 1230
 spiritbd.dof-00.joe
 concsdwk.bmp.png
 1
@@ -19698,7 +19698,7 @@ concsdwk.bmp.png
 1.0
 0.0
 
-#entry 1238
+#entry 1231
 spiritbd.dof-01.joe
 sodbackdrop.bmp.png
 1
@@ -19714,7 +19714,7 @@ sodbackdrop.bmp.png
 1.0
 0.0
 
-#entry 1239
+#entry 1232
 staircase.dof-00.joe
 concw.bmp.png
 1
@@ -19730,7 +19730,7 @@ concw.bmp.png
 1.0
 0.0
 
-#entry 1240
+#entry 1233
 staircase.dof-01.joe
 concsdwk.bmp.png
 1
@@ -19746,7 +19746,7 @@ concsdwk.bmp.png
 1.0
 0.0
 
-#entry 1241
+#entry 1234
 staircase.dof-02.joe
 bldg01-b.bmp.png
 1
@@ -19762,7 +19762,7 @@ bldg01-b.bmp.png
 1.0
 0.0
 
-#entry 1242
+#entry 1235
 staircase.dof-03.joe
 bldg01-a.bmp.png
 1
@@ -19778,7 +19778,7 @@ bldg01-a.bmp.png
 1.0
 0.0
 
-#entry 1248
+#entry 1236
 stgrid.dof-00.joe
 grid.bmp.png
 0
@@ -19794,7 +19794,7 @@ grid.bmp.png
 1.0
 0.0
 
-#entry 1249
+#entry 1237
 stlite.dof-00.joe
 stlit01.bmp.png
 1
@@ -19810,7 +19810,7 @@ stlit01.bmp.png
 1.0
 0.0
 
-#entry 1250
+#entry 1238
 stlite.dof-01.joe
 smblack.bmp.png
 1
@@ -19826,7 +19826,7 @@ smblack.bmp.png
 1.0
 0.0
 
-#entry 1251
+#entry 1239
 stlite.dof-02.joe
 stlit01.bmp.png
 1
@@ -19842,7 +19842,7 @@ stlit01.bmp.png
 1.0
 0.0
 
-#entry 1252
+#entry 1240
 stlite.dof-03.joe
 stlit01.bmp.png
 1
@@ -19858,7 +19858,7 @@ stlit01.bmp.png
 1.0
 0.0
 
-#entry 1253
+#entry 1241
 stlite.dof-04.joe
 stlit01.bmp.png
 1
@@ -19874,7 +19874,7 @@ stlit01.bmp.png
 1.0
 0.0
 
-#entry 1254
+#entry 1242
 stlite.dof-05.joe
 stlit01.bmp.png
 1
@@ -19890,7 +19890,7 @@ stlit01.bmp.png
 1.0
 0.0
 
-#entry 1255
+#entry 1243
 streetlamp01.dof-00.joe
 lampbrwn.bmp.png
 1
@@ -19906,7 +19906,7 @@ lampbrwn.bmp.png
 1.0
 0.0
 
-#entry 1256
+#entry 1244
 streetlamp01.dof-01.joe
 lampwht.bmp.png
 1
@@ -19922,7 +19922,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1257
+#entry 1245
 streetlamp02.dof-00.joe
 lampbrwn.bmp.png
 1
@@ -19938,7 +19938,7 @@ lampbrwn.bmp.png
 1.0
 0.0
 
-#entry 1258
+#entry 1246
 streetlamp02.dof-01.joe
 lampwht.bmp.png
 1
@@ -19954,7 +19954,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1259
+#entry 1247
 tires01.dof-00.joe
 twall01.bmp.png
 1
@@ -19970,7 +19970,7 @@ twall01.bmp.png
 1.0
 0.0
 
-#entry 1260
+#entry 1248
 tires01.dof-01.joe
 twall02.bmp.png
 1
@@ -19986,7 +19986,7 @@ twall02.bmp.png
 1.0
 0.0
 
-#entry 1261
+#entry 1249
 tires01.dof-02.joe
 twall01.bmp.png
 1
@@ -20002,7 +20002,7 @@ twall01.bmp.png
 1.0
 0.0
 
-#entry 1262
+#entry 1250
 tires02.dof-00.joe
 twall01.bmp.png
 1
@@ -20018,7 +20018,7 @@ twall01.bmp.png
 1.0
 0.0
 
-#entry 1263
+#entry 1251
 tires02.dof-01.joe
 twall02.bmp.png
 1
@@ -20034,7 +20034,7 @@ twall02.bmp.png
 1.0
 0.0
 
-#entry 1264
+#entry 1252
 tires02.dof-02.joe
 twall01.bmp.png
 1
@@ -20050,7 +20050,7 @@ twall01.bmp.png
 1.0
 0.0
 
-#entry 1265
+#entry 1253
 tires03.dof-00.joe
 twall01.bmp.png
 1
@@ -20066,7 +20066,7 @@ twall01.bmp.png
 1.0
 0.0
 
-#entry 1266
+#entry 1254
 tires03.dof-01.joe
 twall02.bmp.png
 1
@@ -20082,7 +20082,7 @@ twall02.bmp.png
 1.0
 0.0
 
-#entry 1267
+#entry 1255
 tires03.dof-02.joe
 twall01.bmp.png
 1
@@ -20098,7 +20098,7 @@ twall01.bmp.png
 1.0
 0.0
 
-#entry 1268
+#entry 1256
 tires04.dof-00.joe
 twall01.bmp.png
 1
@@ -20114,7 +20114,7 @@ twall01.bmp.png
 1.0
 0.0
 
-#entry 1269
+#entry 1257
 tires04.dof-01.joe
 twall02.bmp.png
 1
@@ -20130,7 +20130,7 @@ twall02.bmp.png
 1.0
 0.0
 
-#entry 1270
+#entry 1258
 tires04.dof-02.joe
 twall01.bmp.png
 1
@@ -20146,7 +20146,7 @@ twall01.bmp.png
 1.0
 0.0
 
-#entry 1271
+#entry 1259
 tires05.dof-00.joe
 twall01.bmp.png
 1
@@ -20162,7 +20162,7 @@ twall01.bmp.png
 1.0
 0.0
 
-#entry 1272
+#entry 1260
 tires05.dof-01.joe
 twall02.bmp.png
 1
@@ -20178,7 +20178,7 @@ twall02.bmp.png
 1.0
 0.0
 
-#entry 1273
+#entry 1261
 tires05.dof-02.joe
 twall01.bmp.png
 1
@@ -20194,7 +20194,7 @@ twall01.bmp.png
 1.0
 0.0
 
-#entry 1274
+#entry 1262
 tires06.dof-00.joe
 twall01.bmp.png
 1
@@ -20210,7 +20210,7 @@ twall01.bmp.png
 1.0
 0.0
 
-#entry 1275
+#entry 1263
 tires06.dof-01.joe
 twall02.bmp.png
 1
@@ -20226,7 +20226,7 @@ twall02.bmp.png
 1.0
 0.0
 
-#entry 1276
+#entry 1264
 tires06.dof-02.joe
 twall01.bmp.png
 1
@@ -20242,7 +20242,7 @@ twall01.bmp.png
 1.0
 0.0
 
-#entry 1277
+#entry 1265
 tires07.dof-00.joe
 twall01.bmp.png
 1
@@ -20258,7 +20258,7 @@ twall01.bmp.png
 1.0
 0.0
 
-#entry 1278
+#entry 1266
 tires07.dof-01.joe
 twall02.bmp.png
 1
@@ -20274,7 +20274,7 @@ twall02.bmp.png
 1.0
 0.0
 
-#entry 1279
+#entry 1267
 tires07.dof-02.joe
 twall01.bmp.png
 1
@@ -20290,7 +20290,7 @@ twall01.bmp.png
 1.0
 0.0
 
-#entry 1280
+#entry 1268
 tires08.dof-00.joe
 twall01.bmp.png
 1
@@ -20306,7 +20306,7 @@ twall01.bmp.png
 1.0
 0.0
 
-#entry 1281
+#entry 1269
 tires08.dof-01.joe
 twall02.bmp.png
 1
@@ -20322,7 +20322,7 @@ twall02.bmp.png
 1.0
 0.0
 
-#entry 1282
+#entry 1270
 tires08.dof-02.joe
 twall01.bmp.png
 1
@@ -20338,7 +20338,7 @@ twall01.bmp.png
 1.0
 0.0
 
-#entry 1283
+#entry 1271
 tires09.dof-00.joe
 twall01.bmp.png
 1
@@ -20354,7 +20354,7 @@ twall01.bmp.png
 1.0
 0.0
 
-#entry 1284
+#entry 1272
 tires09.dof-01.joe
 twall02.bmp.png
 1
@@ -20370,7 +20370,7 @@ twall02.bmp.png
 1.0
 0.0
 
-#entry 1285
+#entry 1273
 tires09.dof-02.joe
 twall01.bmp.png
 1
@@ -20386,7 +20386,7 @@ twall01.bmp.png
 1.0
 0.0
 
-#entry 1286
+#entry 1274
 tires10.dof-00.joe
 twall01.bmp.png
 1
@@ -20402,7 +20402,7 @@ twall01.bmp.png
 1.0
 0.0
 
-#entry 1287
+#entry 1275
 tires10.dof-01.joe
 twall02.bmp.png
 1
@@ -20418,7 +20418,7 @@ twall02.bmp.png
 1.0
 0.0
 
-#entry 1288
+#entry 1276
 tires10.dof-02.joe
 twall01.bmp.png
 1
@@ -20434,7 +20434,7 @@ twall01.bmp.png
 1.0
 0.0
 
-#entry 1289
+#entry 1277
 tires11.dof-00.joe
 twall01.bmp.png
 1
@@ -20450,7 +20450,7 @@ twall01.bmp.png
 1.0
 0.0
 
-#entry 1290
+#entry 1278
 tires11.dof-01.joe
 twall02.bmp.png
 1
@@ -20466,7 +20466,7 @@ twall02.bmp.png
 1.0
 0.0
 
-#entry 1291
+#entry 1279
 tires11.dof-02.joe
 twall01.bmp.png
 1
@@ -20482,7 +20482,7 @@ twall01.bmp.png
 1.0
 0.0
 
-#entry 1292
+#entry 1280
 track01.dof-00.joe
 road03.bmp.png
 1
@@ -20498,7 +20498,7 @@ road03.bmp.png
 1.0
 0.0
 
-#entry 1293
+#entry 1281
 track01.dof-01.joe
 rmbl01.bmp.png
 1
@@ -20514,7 +20514,7 @@ rmbl01.bmp.png
 1.0
 0.0
 
-#entry 1294
+#entry 1282
 track01.dof-02.joe
 cmwla.bmp.png
 1
@@ -20530,7 +20530,7 @@ cmwla.bmp.png
 1.0
 0.0
 
-#entry 1295
+#entry 1283
 track01.dof-03.joe
 concsdwk.bmp.png
 1
@@ -20546,7 +20546,7 @@ concsdwk.bmp.png
 1.0
 0.0
 
-#entry 1296
+#entry 1284
 track01.dof-04.joe
 cmwlford.bmp.png
 1
@@ -20562,13 +20562,13 @@ cmwlford.bmp.png
 1.0
 0.0
 
-#entry 1297
+#entry 1285
 track01.dof-05.joe
 fnce01.tga.png
 0
 0
 0
-1
+0
 1.0
 0
 0
@@ -20578,7 +20578,7 @@ fnce01.tga.png
 1.0
 0.0
 
-#entry 1298
+#entry 1286
 track01.dof-06.joe
 grass.bmp.png
 1
@@ -20594,7 +20594,7 @@ grass.bmp.png
 1.0
 0.0
 
-#entry 1299
+#entry 1287
 track01.dof-07.joe
 cmwla.bmp.png
 1
@@ -20610,7 +20610,7 @@ cmwla.bmp.png
 1.0
 0.0
 
-#entry 1300
+#entry 1288
 track01.dof-08.joe
 road02.bmp.png
 1
@@ -20626,7 +20626,7 @@ road02.bmp.png
 1.0
 0.0
 
-#entry 1301
+#entry 1289
 track01.dof-09.joe
 concw.bmp.png
 1
@@ -20642,7 +20642,7 @@ concw.bmp.png
 1.0
 0.0
 
-#entry 1302
+#entry 1290
 track01.dof-10.joe
 road01.bmp.png
 1
@@ -20658,7 +20658,7 @@ road01.bmp.png
 1.0
 0.0
 
-#entry 1303
+#entry 1291
 track01.dof-11.joe
 grdrold2.bmp.png
 1
@@ -20674,7 +20674,7 @@ grdrold2.bmp.png
 1.0
 0.0
 
-#entry 1304
+#entry 1292
 track02.dof-00.joe
 road01.bmp.png
 1
@@ -20690,7 +20690,7 @@ road01.bmp.png
 1.0
 0.0
 
-#entry 1305
+#entry 1293
 track02.dof-01.joe
 cmwla.bmp.png
 1
@@ -20706,7 +20706,7 @@ cmwla.bmp.png
 1.0
 0.0
 
-#entry 1306
+#entry 1294
 track02.dof-02.joe
 concsdwk.bmp.png
 1
@@ -20722,13 +20722,13 @@ concsdwk.bmp.png
 1.0
 0.0
 
-#entry 1307
+#entry 1295
 track02.dof-03.joe
 fnce01.tga.png
 0
 0
 0
-1
+0
 1.0
 0
 0
@@ -20738,7 +20738,7 @@ fnce01.tga.png
 1.0
 0.0
 
-#entry 1308
+#entry 1296
 track02.dof-04.joe
 road03.bmp.png
 1
@@ -20754,7 +20754,7 @@ road03.bmp.png
 1.0
 0.0
 
-#entry 1309
+#entry 1297
 track02.dof-05.joe
 grate.bmp.png
 1
@@ -20770,7 +20770,7 @@ grate.bmp.png
 1.0
 0.0
 
-#entry 1310
+#entry 1298
 track03.dof-00.joe
 road01.bmp.png
 1
@@ -20786,7 +20786,7 @@ road01.bmp.png
 1.0
 0.0
 
-#entry 1311
+#entry 1299
 track03.dof-01.joe
 cmwla.bmp.png
 1
@@ -20802,13 +20802,13 @@ cmwla.bmp.png
 1.0
 0.0
 
-#entry 1312
+#entry 1300
 track03.dof-02.joe
 fnce01.tga.png
 0
 0
 0
-1
+0
 1.0
 0
 0
@@ -20818,7 +20818,7 @@ fnce01.tga.png
 1.0
 0.0
 
-#entry 1313
+#entry 1301
 track03.dof-03.joe
 concsdwk.bmp.png
 1
@@ -20834,7 +20834,7 @@ concsdwk.bmp.png
 1.0
 0.0
 
-#entry 1314
+#entry 1302
 track03.dof-04.joe
 road03.bmp.png
 1
@@ -20850,7 +20850,7 @@ road03.bmp.png
 1.0
 0.0
 
-#entry 1315
+#entry 1303
 track03.dof-05.joe
 rmbl01.bmp.png
 1
@@ -20866,7 +20866,7 @@ rmbl01.bmp.png
 1.0
 0.0
 
-#entry 1316
+#entry 1304
 track04.dof-00.joe
 road01.bmp.png
 1
@@ -20882,7 +20882,7 @@ road01.bmp.png
 1.0
 0.0
 
-#entry 1317
+#entry 1305
 track04.dof-01.joe
 cmwla.bmp.png
 1
@@ -20898,7 +20898,7 @@ cmwla.bmp.png
 1.0
 0.0
 
-#entry 1318
+#entry 1306
 track04.dof-02.joe
 concsdwk.bmp.png
 1
@@ -20914,13 +20914,13 @@ concsdwk.bmp.png
 1.0
 0.0
 
-#entry 1319
+#entry 1307
 track04.dof-03.joe
 fnce01.tga.png
 0
 0
 0
-1
+0
 1.0
 0
 0
@@ -20930,7 +20930,7 @@ fnce01.tga.png
 1.0
 0.0
 
-#entry 1320
+#entry 1308
 track04.dof-04.joe
 cmwla.bmp.png
 1
@@ -20946,7 +20946,7 @@ cmwla.bmp.png
 1.0
 0.0
 
-#entry 1321
+#entry 1309
 track04.dof-05.joe
 road03.bmp.png
 1
@@ -20962,7 +20962,7 @@ road03.bmp.png
 1.0
 0.0
 
-#entry 1322
+#entry 1310
 track04.dof-06.joe
 grass.bmp.png
 1
@@ -20978,7 +20978,7 @@ grass.bmp.png
 1.0
 0.0
 
-#entry 1323
+#entry 1311
 track04.dof-07.joe
 mtlgray.bmp.png
 1
@@ -20994,7 +20994,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1324
+#entry 1312
 track05.dof-00.joe
 road03.bmp.png
 1
@@ -21010,7 +21010,7 @@ road03.bmp.png
 1.0
 0.0
 
-#entry 1325
+#entry 1313
 track05.dof-01.joe
 road04.bmp.png
 1
@@ -21026,7 +21026,7 @@ road04.bmp.png
 1.0
 0.0
 
-#entry 1326
+#entry 1314
 track05.dof-02.joe
 concsdwk.bmp.png
 1
@@ -21042,7 +21042,7 @@ concsdwk.bmp.png
 1.0
 0.0
 
-#entry 1327
+#entry 1315
 track05.dof-03.joe
 grass.bmp.png
 1
@@ -21058,7 +21058,7 @@ grass.bmp.png
 1.0
 0.0
 
-#entry 1328
+#entry 1316
 track05.dof-04.joe
 road06.bmp.png
 1
@@ -21074,7 +21074,7 @@ road06.bmp.png
 1.0
 0.0
 
-#entry 1329
+#entry 1317
 track05.dof-05.joe
 road01.bmp.png
 1
@@ -21090,13 +21090,13 @@ road01.bmp.png
 1.0
 0.0
 
-#entry 1330
+#entry 1318
 track05.dof-06.joe
 fnce01.tga.png
 0
 0
 0
-1
+0
 1.0
 0
 0
@@ -21106,7 +21106,7 @@ fnce01.tga.png
 1.0
 0.0
 
-#entry 1331
+#entry 1319
 track05.dof-07.joe
 cmwla.bmp.png
 1
@@ -21122,7 +21122,7 @@ cmwla.bmp.png
 1.0
 0.0
 
-#entry 1332
+#entry 1320
 track06.dof-00.joe
 road06.bmp.png
 1
@@ -21138,7 +21138,7 @@ road06.bmp.png
 1.0
 0.0
 
-#entry 1333
+#entry 1321
 track06.dof-01.joe
 cmwla.bmp.png
 1
@@ -21154,13 +21154,13 @@ cmwla.bmp.png
 1.0
 0.0
 
-#entry 1334
+#entry 1322
 track06.dof-02.joe
 fnce01.tga.png
 0
 0
 0
-1
+0
 1.0
 0
 0
@@ -21170,7 +21170,7 @@ fnce01.tga.png
 1.0
 0.0
 
-#entry 1335
+#entry 1323
 track06.dof-03.joe
 road01.bmp.png
 1
@@ -21186,7 +21186,7 @@ road01.bmp.png
 1.0
 0.0
 
-#entry 1336
+#entry 1324
 track07.dof-00.joe
 road06.bmp.png
 1
@@ -21202,7 +21202,7 @@ road06.bmp.png
 1.0
 0.0
 
-#entry 1337
+#entry 1325
 track07.dof-01.joe
 road01.bmp.png
 1
@@ -21218,7 +21218,7 @@ road01.bmp.png
 1.0
 0.0
 
-#entry 1338
+#entry 1326
 track07.dof-02.joe
 cmwla.bmp.png
 1
@@ -21234,7 +21234,7 @@ cmwla.bmp.png
 1.0
 0.0
 
-#entry 1339
+#entry 1327
 track07.dof-03.joe
 logorent.bmp.png
 1
@@ -21250,13 +21250,13 @@ logorent.bmp.png
 1.0
 0.0
 
-#entry 1340
+#entry 1328
 track07.dof-04.joe
 fnce01.tga.png
 0
 0
 0
-1
+0
 1.0
 0
 0
@@ -21266,7 +21266,7 @@ fnce01.tga.png
 1.0
 0.0
 
-#entry 1341
+#entry 1329
 track07.dof-05.joe
 concsdwk.bmp.png
 1
@@ -21282,7 +21282,7 @@ concsdwk.bmp.png
 1.0
 0.0
 
-#entry 1342
+#entry 1330
 track07.dof-06.joe
 grass.bmp.png
 1
@@ -21298,7 +21298,7 @@ grass.bmp.png
 1.0
 0.0
 
-#entry 1343
+#entry 1331
 track08.dof-00.joe
 road01.bmp.png
 1
@@ -21314,7 +21314,7 @@ road01.bmp.png
 1.0
 0.0
 
-#entry 1344
+#entry 1332
 track08.dof-01.joe
 cmwla.bmp.png
 1
@@ -21330,13 +21330,13 @@ cmwla.bmp.png
 1.0
 0.0
 
-#entry 1345
+#entry 1333
 track08.dof-02.joe
 fnce01.tga.png
 0
 0
 0
-1
+0
 1.0
 0
 0
@@ -21346,7 +21346,7 @@ fnce01.tga.png
 1.0
 0.0
 
-#entry 1346
+#entry 1334
 track08.dof-03.joe
 concsdwk.bmp.png
 1
@@ -21362,7 +21362,7 @@ concsdwk.bmp.png
 1.0
 0.0
 
-#entry 1347
+#entry 1335
 track08.dof-04.joe
 road03.bmp.png
 1
@@ -21378,7 +21378,7 @@ road03.bmp.png
 1.0
 0.0
 
-#entry 1348
+#entry 1336
 track08.dof-05.joe
 grate.bmp.png
 1
@@ -21394,7 +21394,7 @@ grate.bmp.png
 1.0
 0.0
 
-#entry 1349
+#entry 1337
 track08.dof-06.joe
 brdg01us.bmp.png
 1
@@ -21410,7 +21410,7 @@ brdg01us.bmp.png
 1.0
 0.0
 
-#entry 1350
+#entry 1338
 track08.dof-07.joe
 grass.bmp.png
 1
@@ -21426,7 +21426,7 @@ grass.bmp.png
 1.0
 0.0
 
-#entry 1351
+#entry 1339
 track08.dof-08.joe
 mtlgreen.bmp.png
 1
@@ -21442,13 +21442,13 @@ mtlgreen.bmp.png
 1.0
 0.0
 
-#entry 1352
+#entry 1340
 track08.dof-09.joe
 fnce03.bmp.png
 0
 0
 0
-1
+0
 1.0
 0
 0
@@ -21458,7 +21458,7 @@ fnce03.bmp.png
 1.0
 0.0
 
-#entry 1353
+#entry 1341
 track08.dof-10.joe
 concw.bmp.png
 1
@@ -21474,7 +21474,7 @@ concw.bmp.png
 1.0
 0.0
 
-#entry 1354
+#entry 1342
 track09.dof-00.joe
 road03.bmp.png
 1
@@ -21490,7 +21490,7 @@ road03.bmp.png
 1.0
 0.0
 
-#entry 1355
+#entry 1343
 track09.dof-01.joe
 cmwla.bmp.png
 1
@@ -21506,7 +21506,7 @@ cmwla.bmp.png
 1.0
 0.0
 
-#entry 1356
+#entry 1344
 track09.dof-02.joe
 concsdwk.bmp.png
 1
@@ -21522,13 +21522,13 @@ concsdwk.bmp.png
 1.0
 0.0
 
-#entry 1357
+#entry 1345
 track09.dof-03.joe
 fnce01.tga.png
 0
 0
 0
-1
+0
 1.0
 0
 0
@@ -21538,7 +21538,7 @@ fnce01.tga.png
 1.0
 0.0
 
-#entry 1358
+#entry 1346
 track09.dof-04.joe
 road01.bmp.png
 1
@@ -21554,7 +21554,7 @@ road01.bmp.png
 1.0
 0.0
 
-#entry 1359
+#entry 1347
 track09.dof-05.joe
 mtlgreen.bmp.png
 1
@@ -21570,7 +21570,7 @@ mtlgreen.bmp.png
 1.0
 0.0
 
-#entry 1360
+#entry 1348
 track09.dof-06.joe
 tun01.bmp.png
 1
@@ -21586,13 +21586,13 @@ tun01.bmp.png
 1.0
 0.0
 
-#entry 1361
+#entry 1349
 track09.dof-07.joe
 fnce02.bmp.png
 0
 0
 0
-1
+0
 1.0
 0
 0
@@ -21602,7 +21602,7 @@ fnce02.bmp.png
 1.0
 0.0
 
-#entry 1362
+#entry 1350
 track09.dof-08.joe
 tun02.bmp.png
 1
@@ -21618,7 +21618,7 @@ tun02.bmp.png
 1.0
 0.0
 
-#entry 1363
+#entry 1351
 track09.dof-09.joe
 tun01.bmp.png
 1
@@ -21634,7 +21634,7 @@ tun01.bmp.png
 1.0
 0.0
 
-#entry 1364
+#entry 1352
 track09.dof-10.joe
 grass.bmp.png
 1
@@ -21650,7 +21650,7 @@ grass.bmp.png
 1.0
 0.0
 
-#entry 1365
+#entry 1353
 track09.dof-11.joe
 mtlgray.bmp.png
 1
@@ -21666,7 +21666,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1366
+#entry 1354
 trafficpole01.dof-00.joe
 mtlgray.bmp.png
 1
@@ -21682,7 +21682,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1367
+#entry 1355
 trafficpole01.dof-01.joe
 signgriswold.bmp.png
 1
@@ -21698,7 +21698,7 @@ signgriswold.bmp.png
 1.0
 0.0
 
-#entry 1368
+#entry 1356
 trafficpole01.dof-02.joe
 lampwht.bmp.png
 1
@@ -21714,7 +21714,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1369
+#entry 1357
 trafficpole01.dof-03.joe
 trfclgty.bmp.png
 1
@@ -21730,7 +21730,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1370
+#entry 1358
 trafficpole01.dof-04.joe
 trafficlight.bmp.png
 1
@@ -21746,7 +21746,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1371
+#entry 1359
 trafficpole02.dof-00.joe
 mtlgray.bmp.png
 1
@@ -21762,7 +21762,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1372
+#entry 1360
 trafficpole02.dof-01.joe
 lampwht.bmp.png
 1
@@ -21778,7 +21778,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1373
+#entry 1361
 trafficpole02.dof-02.joe
 trfclgty.bmp.png
 1
@@ -21794,7 +21794,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1374
+#entry 1362
 trafficpole02.dof-03.joe
 trafficlight.bmp.png
 1
@@ -21810,7 +21810,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1375
+#entry 1363
 trafficpole03.dof-00.joe
 mtlgray.bmp.png
 1
@@ -21826,7 +21826,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1376
+#entry 1364
 trafficpole03.dof-01.joe
 signjfrsn.bmp.png
 1
@@ -21842,7 +21842,7 @@ signjfrsn.bmp.png
 1.0
 0.0
 
-#entry 1377
+#entry 1365
 trafficpole03.dof-02.joe
 lampwht.bmp.png
 1
@@ -21858,7 +21858,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1378
+#entry 1366
 trafficpole03.dof-03.joe
 trfclgty.bmp.png
 1
@@ -21874,7 +21874,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1379
+#entry 1367
 trafficpole03.dof-04.joe
 trafficlight.bmp.png
 1
@@ -21890,7 +21890,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1380
+#entry 1368
 trafficpole04.dof-00.joe
 mtlgray.bmp.png
 1
@@ -21906,7 +21906,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1381
+#entry 1369
 trafficpole04.dof-01.joe
 signwoodward.bmp.png
 1
@@ -21922,7 +21922,7 @@ signwoodward.bmp.png
 1.0
 0.0
 
-#entry 1382
+#entry 1370
 trafficpole04.dof-02.joe
 lampwht.bmp.png
 1
@@ -21938,7 +21938,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1383
+#entry 1371
 trafficpole04.dof-03.joe
 trfclgty.bmp.png
 1
@@ -21954,7 +21954,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1384
+#entry 1372
 trafficpole04.dof-04.joe
 trafficlight.bmp.png
 1
@@ -21970,7 +21970,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1385
+#entry 1373
 trafficpole05.dof-00.joe
 mtlgray.bmp.png
 1
@@ -21986,7 +21986,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1386
+#entry 1374
 trafficpole05.dof-01.joe
 lampwht.bmp.png
 1
@@ -22002,7 +22002,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1387
+#entry 1375
 trafficpole05.dof-02.joe
 trfclgty.bmp.png
 1
@@ -22018,7 +22018,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1388
+#entry 1376
 trafficpole05.dof-03.joe
 trafficlight.bmp.png
 1
@@ -22034,7 +22034,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1389
+#entry 1377
 trafficpole06.dof-00.joe
 mtlgray.bmp.png
 1
@@ -22050,7 +22050,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1390
+#entry 1378
 trafficpole06.dof-01.joe
 signlarned.bmp.png
 1
@@ -22066,7 +22066,7 @@ signlarned.bmp.png
 1.0
 0.0
 
-#entry 1391
+#entry 1379
 trafficpole06.dof-02.joe
 lampwht.bmp.png
 1
@@ -22082,7 +22082,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1392
+#entry 1380
 trafficpole06.dof-03.joe
 trfclgty.bmp.png
 1
@@ -22098,7 +22098,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1393
+#entry 1381
 trafficpole06.dof-04.joe
 trafficlight.bmp.png
 1
@@ -22114,7 +22114,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1394
+#entry 1382
 trafficpole07.dof-00.joe
 mtlgray.bmp.png
 1
@@ -22130,7 +22130,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1395
+#entry 1383
 trafficpole07.dof-01.joe
 signlarned.bmp.png
 1
@@ -22146,7 +22146,7 @@ signlarned.bmp.png
 1.0
 0.0
 
-#entry 1396
+#entry 1384
 trafficpole07.dof-02.joe
 lampwht.bmp.png
 1
@@ -22162,7 +22162,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1397
+#entry 1385
 trafficpole07.dof-03.joe
 trfclgty.bmp.png
 1
@@ -22178,7 +22178,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1398
+#entry 1386
 trafficpole07.dof-04.joe
 trafficlight.bmp.png
 1
@@ -22194,7 +22194,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1399
+#entry 1387
 trafficpole08.dof-00.joe
 mtlgray.bmp.png
 1
@@ -22210,7 +22210,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1400
+#entry 1388
 trafficpole08.dof-01.joe
 lampwht.bmp.png
 1
@@ -22226,7 +22226,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1401
+#entry 1389
 trafficpole08.dof-02.joe
 flagrw.bmp.png
 1
@@ -22242,7 +22242,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1402
+#entry 1390
 trafficpole09.dof-00.joe
 mtlgray.bmp.png
 1
@@ -22258,7 +22258,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1403
+#entry 1391
 trafficpole09.dof-01.joe
 lampwht.bmp.png
 1
@@ -22274,7 +22274,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1404
+#entry 1392
 trafficpole09.dof-02.joe
 flagrw.bmp.png
 1
@@ -22290,7 +22290,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1405
+#entry 1393
 trafficpole09.dof-03.joe
 signlodge03.bmp.png
 1
@@ -22306,7 +22306,7 @@ signlodge03.bmp.png
 1.0
 0.0
 
-#entry 1406
+#entry 1394
 trafficpole10.dof-00.joe
 mtlgray.bmp.png
 1
@@ -22322,7 +22322,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1407
+#entry 1395
 trafficpole10.dof-01.joe
 lampwht.bmp.png
 1
@@ -22338,7 +22338,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1408
+#entry 1396
 trafficpole10.dof-02.joe
 flagrw.bmp.png
 1
@@ -22354,7 +22354,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1409
+#entry 1397
 trafficpole11.dof-00.joe
 mtlgray.bmp.png
 1
@@ -22370,7 +22370,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1410
+#entry 1398
 trafficpole11.dof-01.joe
 lampwht.bmp.png
 1
@@ -22386,7 +22386,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1411
+#entry 1399
 trafficpole11.dof-02.joe
 flagrw.bmp.png
 1
@@ -22402,7 +22402,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1412
+#entry 1400
 trafficpole12.dof-00.joe
 mtlgray.bmp.png
 1
@@ -22418,7 +22418,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1413
+#entry 1401
 trafficpole12.dof-01.joe
 lampwht.bmp.png
 1
@@ -22434,7 +22434,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1414
+#entry 1402
 trafficpole12.dof-02.joe
 flagrw.bmp.png
 1
@@ -22450,7 +22450,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1415
+#entry 1403
 trafficpole13.dof-00.joe
 mtlgray.bmp.png
 1
@@ -22466,7 +22466,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1416
+#entry 1404
 trafficpole13.dof-01.joe
 lampwht.bmp.png
 1
@@ -22482,7 +22482,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1417
+#entry 1405
 trafficpole13.dof-02.joe
 flagrw.bmp.png
 1
@@ -22498,7 +22498,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1418
+#entry 1406
 trafficpole14.dof-00.joe
 mtlgray.bmp.png
 1
@@ -22514,7 +22514,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1419
+#entry 1407
 trafficpole14.dof-01.joe
 lampwht.bmp.png
 1
@@ -22530,7 +22530,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1420
+#entry 1408
 trafficpole14.dof-02.joe
 flagrw.bmp.png
 1
@@ -22546,7 +22546,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1421
+#entry 1409
 trafficpole15.dof-00.joe
 mtlgray.bmp.png
 1
@@ -22562,7 +22562,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1422
+#entry 1410
 trafficpole15.dof-01.joe
 lampwht.bmp.png
 1
@@ -22578,7 +22578,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1423
+#entry 1411
 trafficpole15.dof-02.joe
 flagrw.bmp.png
 1
@@ -22594,7 +22594,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1424
+#entry 1412
 trafficpole16.dof-00.joe
 mtlgray.bmp.png
 1
@@ -22610,7 +22610,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1425
+#entry 1413
 trafficpole16.dof-01.joe
 lampwht.bmp.png
 1
@@ -22626,7 +22626,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1426
+#entry 1414
 trafficpole16.dof-02.joe
 flagrw.bmp.png
 1
@@ -22642,7 +22642,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1427
+#entry 1415
 trafficpole17.dof-00.joe
 mtlgray.bmp.png
 1
@@ -22658,7 +22658,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1428
+#entry 1416
 trafficpole17.dof-01.joe
 lampwht.bmp.png
 1
@@ -22674,7 +22674,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1429
+#entry 1417
 trafficpole17.dof-02.joe
 flagrw.bmp.png
 1
@@ -22690,7 +22690,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1430
+#entry 1418
 trafficpole18.dof-00.joe
 mtlgray.bmp.png
 1
@@ -22706,7 +22706,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1431
+#entry 1419
 trafficpole18.dof-01.joe
 lampwht.bmp.png
 1
@@ -22722,7 +22722,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1432
+#entry 1420
 trafficpole18.dof-02.joe
 flagrw.bmp.png
 1
@@ -22738,7 +22738,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1433
+#entry 1421
 trafficpole19.dof-00.joe
 mtlgray.bmp.png
 1
@@ -22754,7 +22754,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1434
+#entry 1422
 trafficpole19.dof-01.joe
 lampwht.bmp.png
 1
@@ -22770,7 +22770,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1435
+#entry 1423
 trafficpole19.dof-02.joe
 flagrw.bmp.png
 1
@@ -22786,7 +22786,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1436
+#entry 1424
 trafficpole20.dof-00.joe
 mtlgray.bmp.png
 1
@@ -22802,7 +22802,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1437
+#entry 1425
 trafficpole20.dof-01.joe
 lampwht.bmp.png
 1
@@ -22818,7 +22818,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1438
+#entry 1426
 trafficpole20.dof-02.joe
 trfclgty.bmp.png
 1
@@ -22834,7 +22834,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1439
+#entry 1427
 trafficpole20.dof-03.joe
 trafficlight.bmp.png
 1
@@ -22850,7 +22850,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1440
+#entry 1428
 trafficpole21.dof-00.joe
 mtlgray.bmp.png
 1
@@ -22866,7 +22866,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1441
+#entry 1429
 trafficpole21.dof-01.joe
 lampwht.bmp.png
 1
@@ -22882,7 +22882,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1442
+#entry 1430
 trafficpole21.dof-02.joe
 trfclgty.bmp.png
 1
@@ -22898,7 +22898,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1443
+#entry 1431
 trafficpole21.dof-03.joe
 trafficlight.bmp.png
 1
@@ -22914,7 +22914,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1444
+#entry 1432
 trafficpole22.dof-00.joe
 mtlgray.bmp.png
 1
@@ -22930,7 +22930,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1445
+#entry 1433
 trafficpole22.dof-01.joe
 signgriswold.bmp.png
 1
@@ -22946,7 +22946,7 @@ signgriswold.bmp.png
 1.0
 0.0
 
-#entry 1446
+#entry 1434
 trafficpole22.dof-02.joe
 lampwht.bmp.png
 1
@@ -22962,7 +22962,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1447
+#entry 1435
 trafficpole22.dof-03.joe
 trfclgty.bmp.png
 1
@@ -22978,7 +22978,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1448
+#entry 1436
 trafficpole22.dof-04.joe
 trafficlight.bmp.png
 1
@@ -22994,7 +22994,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1449
+#entry 1437
 trafficpole23.dof-00.joe
 mtlgray.bmp.png
 1
@@ -23010,7 +23010,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1450
+#entry 1438
 trafficpole23.dof-01.joe
 lampwht.bmp.png
 1
@@ -23026,7 +23026,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1451
+#entry 1439
 trafficpole23.dof-02.joe
 trfclgty.bmp.png
 1
@@ -23042,7 +23042,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1452
+#entry 1440
 trafficpole23.dof-03.joe
 trafficlight.bmp.png
 1
@@ -23058,7 +23058,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1453
+#entry 1441
 trafficpole24.dof-00.joe
 mtlgray.bmp.png
 1
@@ -23074,7 +23074,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1454
+#entry 1442
 trafficpole24.dof-01.joe
 lampwht.bmp.png
 1
@@ -23090,7 +23090,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1455
+#entry 1443
 trafficpole24.dof-02.joe
 trfclgty.bmp.png
 1
@@ -23106,7 +23106,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1456
+#entry 1444
 trafficpole24.dof-03.joe
 trafficlight.bmp.png
 1
@@ -23122,7 +23122,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1457
+#entry 1445
 trafficpole25.dof-00.joe
 mtlgray.bmp.png
 1
@@ -23138,7 +23138,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1458
+#entry 1446
 trafficpole25.dof-01.joe
 trfclgty.bmp.png
 1
@@ -23154,7 +23154,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1459
+#entry 1447
 trafficpole25.dof-02.joe
 trafficlight.bmp.png
 1
@@ -23170,7 +23170,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1460
+#entry 1448
 trafficpole26.dof-00.joe
 mtlgray.bmp.png
 1
@@ -23186,7 +23186,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1461
+#entry 1449
 trafficpole26.dof-01.joe
 trfclgty.bmp.png
 1
@@ -23202,7 +23202,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1462
+#entry 1450
 trafficpole26.dof-02.joe
 trafficlight.bmp.png
 1
@@ -23218,7 +23218,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1463
+#entry 1451
 trafficpole27.dof-00.joe
 mtlgray.bmp.png
 1
@@ -23234,7 +23234,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1464
+#entry 1452
 trafficpole27.dof-01.joe
 trfclgty.bmp.png
 1
@@ -23250,7 +23250,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1465
+#entry 1453
 trafficpole27.dof-02.joe
 trafficlight.bmp.png
 1
@@ -23266,7 +23266,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1466
+#entry 1454
 trafficpole28.dof-00.joe
 mtlgray.bmp.png
 1
@@ -23282,7 +23282,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1467
+#entry 1455
 trafficpole28.dof-01.joe
 trfclgty.bmp.png
 1
@@ -23298,7 +23298,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1468
+#entry 1456
 trafficpole28.dof-02.joe
 trafficlight.bmp.png
 1
@@ -23314,7 +23314,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1469
+#entry 1457
 trafficpole29.dof-00.joe
 mtlgray.bmp.png
 1
@@ -23330,7 +23330,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1470
+#entry 1458
 trafficpole29.dof-01.joe
 lampwht.bmp.png
 1
@@ -23346,7 +23346,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1471
+#entry 1459
 trafficpole29.dof-02.joe
 flagrw.bmp.png
 1
@@ -23362,7 +23362,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1472
+#entry 1460
 trafficpole30.dof-00.joe
 mtlgray.bmp.png
 1
@@ -23378,7 +23378,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1473
+#entry 1461
 trafficpole30.dof-01.joe
 lampwht.bmp.png
 1
@@ -23394,7 +23394,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1474
+#entry 1462
 trafficpole30.dof-02.joe
 flagrw.bmp.png
 1
@@ -23410,7 +23410,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1475
+#entry 1463
 trafficpole31.dof-00.joe
 mtlgray.bmp.png
 1
@@ -23426,7 +23426,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1476
+#entry 1464
 trafficpole31.dof-01.joe
 lampwht.bmp.png
 1
@@ -23442,7 +23442,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1477
+#entry 1465
 trafficpole31.dof-02.joe
 flagrw.bmp.png
 1
@@ -23458,7 +23458,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1478
+#entry 1466
 trafficpole32.dof-00.joe
 mtlgray.bmp.png
 1
@@ -23474,7 +23474,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1479
+#entry 1467
 trafficpole32.dof-01.joe
 lampwht.bmp.png
 1
@@ -23490,7 +23490,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1480
+#entry 1468
 trafficpole32.dof-02.joe
 flagrw.bmp.png
 1
@@ -23506,7 +23506,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1481
+#entry 1469
 trafficpole34.dof-00.joe
 mtlgray.bmp.png
 1
@@ -23522,7 +23522,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1482
+#entry 1470
 trafficpole34.dof-01.joe
 lampwht.bmp.png
 1
@@ -23538,7 +23538,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1483
+#entry 1471
 trafficpole34.dof-02.joe
 trfclgty.bmp.png
 1
@@ -23554,7 +23554,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1484
+#entry 1472
 trafficpole34.dof-03.joe
 trafficlight.bmp.png
 1
@@ -23570,7 +23570,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1485
+#entry 1473
 trafficpole35.dof-00.joe
 mtlgray.bmp.png
 1
@@ -23586,7 +23586,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1486
+#entry 1474
 trafficpole35.dof-01.joe
 signlarned.bmp.png
 1
@@ -23602,7 +23602,7 @@ signlarned.bmp.png
 1.0
 0.0
 
-#entry 1487
+#entry 1475
 trafficpole35.dof-02.joe
 lampwht.bmp.png
 1
@@ -23618,7 +23618,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1488
+#entry 1476
 trafficpole35.dof-03.joe
 trfclgty.bmp.png
 1
@@ -23634,7 +23634,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1489
+#entry 1477
 trafficpole35.dof-04.joe
 trafficlight.bmp.png
 1
@@ -23650,7 +23650,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1490
+#entry 1478
 trafficpole36.dof-00.joe
 mtlgray.bmp.png
 1
@@ -23666,7 +23666,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1491
+#entry 1479
 trafficpole36.dof-01.joe
 signlarned.bmp.png
 1
@@ -23682,7 +23682,7 @@ signlarned.bmp.png
 1.0
 0.0
 
-#entry 1492
+#entry 1480
 trafficpole36.dof-02.joe
 lampwht.bmp.png
 1
@@ -23698,7 +23698,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1493
+#entry 1481
 trafficpole36.dof-03.joe
 trfclgty.bmp.png
 1
@@ -23714,7 +23714,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1494
+#entry 1482
 trafficpole36.dof-04.joe
 trafficlight.bmp.png
 1
@@ -23730,7 +23730,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1495
+#entry 1483
 trafficpole37.dof-00.joe
 mtlgray.bmp.png
 1
@@ -23746,7 +23746,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1496
+#entry 1484
 trafficpole37.dof-01.joe
 lampwht.bmp.png
 1
@@ -23762,7 +23762,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1497
+#entry 1485
 trafficpole37.dof-02.joe
 trfclgty.bmp.png
 1
@@ -23778,7 +23778,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1498
+#entry 1486
 trafficpole37.dof-03.joe
 trafficlight.bmp.png
 1
@@ -23794,7 +23794,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1499
+#entry 1487
 trafficpole38.dof-00.joe
 mtlgray.bmp.png
 1
@@ -23810,7 +23810,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1500
+#entry 1488
 trafficpole38.dof-01.joe
 lampwht.bmp.png
 1
@@ -23826,7 +23826,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1501
+#entry 1489
 trafficpole38.dof-02.joe
 trfclgty.bmp.png
 1
@@ -23842,7 +23842,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1502
+#entry 1490
 trafficpole38.dof-03.joe
 trafficlight.bmp.png
 1
@@ -23858,7 +23858,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1503
+#entry 1491
 trafficpole39.dof-00.joe
 mtlgray.bmp.png
 1
@@ -23874,7 +23874,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1504
+#entry 1492
 trafficpole39.dof-01.joe
 lampwht.bmp.png
 1
@@ -23890,7 +23890,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1505
+#entry 1493
 trafficpole39.dof-02.joe
 trfclgty.bmp.png
 1
@@ -23906,7 +23906,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1506
+#entry 1494
 trafficpole39.dof-03.joe
 trafficlight.bmp.png
 1
@@ -23922,7 +23922,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1507
+#entry 1495
 trafficpole40.dof-00.joe
 mtlgray.bmp.png
 1
@@ -23938,7 +23938,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1508
+#entry 1496
 trafficpole40.dof-01.joe
 lampwht.bmp.png
 1
@@ -23954,7 +23954,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1509
+#entry 1497
 trafficpole40.dof-02.joe
 flagrw.bmp.png
 1
@@ -23970,7 +23970,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1510
+#entry 1498
 trafficpole41.dof-00.joe
 mtlgray.bmp.png
 1
@@ -23986,7 +23986,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1511
+#entry 1499
 trafficpole41.dof-01.joe
 lampwht.bmp.png
 1
@@ -24002,7 +24002,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1512
+#entry 1500
 trafficpole42.dof-00.joe
 mtlgray.bmp.png
 1
@@ -24018,7 +24018,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1513
+#entry 1501
 trafficpole42.dof-01.joe
 lampwht.bmp.png
 1
@@ -24034,7 +24034,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1514
+#entry 1502
 trafficpole42.dof-02.joe
 flagrw.bmp.png
 1
@@ -24050,7 +24050,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1515
+#entry 1503
 trafficpole43.dof-00.joe
 mtlgray.bmp.png
 1
@@ -24066,7 +24066,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1516
+#entry 1504
 trafficpole43.dof-01.joe
 lampwht.bmp.png
 1
@@ -24082,7 +24082,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1517
+#entry 1505
 trafficpole43.dof-02.joe
 flagrw.bmp.png
 1
@@ -24098,7 +24098,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1518
+#entry 1506
 trafficpole44.dof-00.joe
 mtlgray.bmp.png
 1
@@ -24114,7 +24114,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1519
+#entry 1507
 trafficpole44.dof-01.joe
 lampwht.bmp.png
 1
@@ -24130,7 +24130,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1520
+#entry 1508
 trafficpole44.dof-02.joe
 flagrw.bmp.png
 1
@@ -24146,7 +24146,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1521
+#entry 1509
 trafficpole45.dof-00.joe
 mtlgray.bmp.png
 1
@@ -24162,7 +24162,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1522
+#entry 1510
 trafficpole45.dof-01.joe
 lampwht.bmp.png
 1
@@ -24178,7 +24178,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1523
+#entry 1511
 trafficpole45.dof-02.joe
 flagrw.bmp.png
 1
@@ -24194,7 +24194,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1524
+#entry 1512
 trafficpole46.dof-00.joe
 mtlgray.bmp.png
 1
@@ -24210,7 +24210,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1525
+#entry 1513
 trafficpole46.dof-01.joe
 trfclgty.bmp.png
 1
@@ -24226,7 +24226,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1526
+#entry 1514
 trafficpole46.dof-02.joe
 trafficlight.bmp.png
 1
@@ -24242,7 +24242,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1527
+#entry 1515
 trafficpole47.dof-00.joe
 mtlgray.bmp.png
 1
@@ -24258,7 +24258,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1528
+#entry 1516
 trafficpole47.dof-01.joe
 trfclgty.bmp.png
 1
@@ -24274,7 +24274,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1529
+#entry 1517
 trafficpole47.dof-02.joe
 trafficlight.bmp.png
 1
@@ -24290,7 +24290,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1530
+#entry 1518
 trafficpole48.dof-00.joe
 mtlgray.bmp.png
 1
@@ -24306,7 +24306,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1531
+#entry 1519
 trafficpole48.dof-01.joe
 lampwht.bmp.png
 1
@@ -24322,7 +24322,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1532
+#entry 1520
 trafficpole48.dof-02.joe
 flagrw.bmp.png
 1
@@ -24338,7 +24338,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1533
+#entry 1521
 trafficpole49.dof-00.joe
 mtlgray.bmp.png
 1
@@ -24354,7 +24354,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1534
+#entry 1522
 trafficpole49.dof-01.joe
 lampwht.bmp.png
 1
@@ -24370,7 +24370,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1535
+#entry 1523
 trafficpole49.dof-02.joe
 flagrw.bmp.png
 1
@@ -24386,7 +24386,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1536
+#entry 1524
 trafficpole50.dof-00.joe
 mtlgray.bmp.png
 1
@@ -24402,7 +24402,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1537
+#entry 1525
 trafficpole50.dof-01.joe
 lampwht.bmp.png
 1
@@ -24418,7 +24418,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1538
+#entry 1526
 trafficpole50.dof-02.joe
 flagrw.bmp.png
 1
@@ -24434,7 +24434,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1539
+#entry 1527
 trafficpole51.dof-00.joe
 mtlgray.bmp.png
 1
@@ -24450,7 +24450,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1540
+#entry 1528
 trafficpole51.dof-01.joe
 lampwht.bmp.png
 1
@@ -24466,7 +24466,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1541
+#entry 1529
 trafficpole51.dof-02.joe
 trfclgty.bmp.png
 1
@@ -24482,7 +24482,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1542
+#entry 1530
 trafficpole51.dof-03.joe
 trafficlight.bmp.png
 1
@@ -24498,7 +24498,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1543
+#entry 1531
 trafficpole52.dof-00.joe
 mtlgray.bmp.png
 1
@@ -24514,7 +24514,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1544
+#entry 1532
 trafficpole52.dof-01.joe
 lampwht.bmp.png
 1
@@ -24530,7 +24530,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1545
+#entry 1533
 trafficpole52.dof-02.joe
 flagrw.bmp.png
 1
@@ -24546,7 +24546,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1546
+#entry 1534
 trafficpole53.dof-00.joe
 mtlgray.bmp.png
 1
@@ -24562,7 +24562,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1547
+#entry 1535
 trafficpole53.dof-01.joe
 lampwht.bmp.png
 1
@@ -24578,7 +24578,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1548
+#entry 1536
 trafficpole53.dof-02.joe
 flagrw.bmp.png
 1
@@ -24594,7 +24594,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1549
+#entry 1537
 trafficpole54.dof-00.joe
 mtlgray.bmp.png
 1
@@ -24610,7 +24610,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1550
+#entry 1538
 trafficpole54.dof-01.joe
 lampwht.bmp.png
 1
@@ -24626,7 +24626,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1551
+#entry 1539
 trafficpole54.dof-02.joe
 flagrw.bmp.png
 1
@@ -24642,7 +24642,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1552
+#entry 1540
 trafficpole55.dof-00.joe
 mtlgray.bmp.png
 1
@@ -24658,7 +24658,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1553
+#entry 1541
 trafficpole55.dof-01.joe
 lampwht.bmp.png
 1
@@ -24674,7 +24674,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1554
+#entry 1542
 trafficpole55.dof-02.joe
 flagrw.bmp.png
 1
@@ -24690,7 +24690,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1555
+#entry 1543
 trafficpole56.dof-00.joe
 mtlgray.bmp.png
 1
@@ -24706,7 +24706,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1556
+#entry 1544
 trafficpole56.dof-01.joe
 lampwht.bmp.png
 1
@@ -24722,7 +24722,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1557
+#entry 1545
 trafficpole56.dof-02.joe
 trfclgty.bmp.png
 1
@@ -24738,7 +24738,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1558
+#entry 1546
 trafficpole56.dof-03.joe
 trafficlight.bmp.png
 1
@@ -24754,7 +24754,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1559
+#entry 1547
 trafficpole57.dof-00.joe
 mtlgray.bmp.png
 1
@@ -24770,7 +24770,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1560
+#entry 1548
 trafficpole57.dof-01.joe
 lampwht.bmp.png
 1
@@ -24786,7 +24786,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1561
+#entry 1549
 trafficpole57.dof-02.joe
 trfclgty.bmp.png
 1
@@ -24802,7 +24802,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1562
+#entry 1550
 trafficpole57.dof-03.joe
 trafficlight.bmp.png
 1
@@ -24818,7 +24818,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1563
+#entry 1551
 trafficpole58.dof-00.joe
 mtlgray.bmp.png
 1
@@ -24834,7 +24834,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1564
+#entry 1552
 trafficpole58.dof-01.joe
 lampwht.bmp.png
 1
@@ -24850,7 +24850,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1565
+#entry 1553
 trafficpole58.dof-02.joe
 trfclgty.bmp.png
 1
@@ -24866,7 +24866,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1566
+#entry 1554
 trafficpole58.dof-03.joe
 trafficlight.bmp.png
 1
@@ -24882,7 +24882,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1567
+#entry 1555
 trafficpole59.dof-00.joe
 mtlgray.bmp.png
 1
@@ -24898,7 +24898,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1568
+#entry 1556
 trafficpole59.dof-01.joe
 lampwht.bmp.png
 1
@@ -24914,7 +24914,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1569
+#entry 1557
 trafficpole59.dof-02.joe
 trfclgty.bmp.png
 1
@@ -24930,7 +24930,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1570
+#entry 1558
 trafficpole59.dof-03.joe
 trafficlight.bmp.png
 1
@@ -24946,7 +24946,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1571
+#entry 1559
 trafficpole61.dof-00.joe
 mtlgray.bmp.png
 1
@@ -24962,7 +24962,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1572
+#entry 1560
 trafficpole61.dof-01.joe
 lampwht.bmp.png
 1
@@ -24978,7 +24978,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1573
+#entry 1561
 trafficpole61.dof-02.joe
 flagrw.bmp.png
 1
@@ -24994,7 +24994,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1574
+#entry 1562
 trafficpole61.dof-03.joe
 trfclgty.bmp.png
 1
@@ -25010,7 +25010,7 @@ trfclgty.bmp.png
 1.0
 0.0
 
-#entry 1575
+#entry 1563
 trafficpole61.dof-04.joe
 trafficlight.bmp.png
 1
@@ -25026,7 +25026,7 @@ trafficlight.bmp.png
 1.0
 0.0
 
-#entry 1576
+#entry 1564
 trafficpole62.dof-00.joe
 mtlgray.bmp.png
 1
@@ -25042,7 +25042,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1577
+#entry 1565
 trafficpole62.dof-01.joe
 lampwht.bmp.png
 1
@@ -25058,7 +25058,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1578
+#entry 1566
 trafficpole62.dof-02.joe
 flagrw.bmp.png
 1
@@ -25074,7 +25074,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1579
+#entry 1567
 trafficpole63.dof-00.joe
 mtlgray.bmp.png
 1
@@ -25090,7 +25090,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1580
+#entry 1568
 trafficpole63.dof-01.joe
 lampwht.bmp.png
 1
@@ -25106,7 +25106,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1581
+#entry 1569
 trafficpole63.dof-02.joe
 flagrw.bmp.png
 1
@@ -25122,7 +25122,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1582
+#entry 1570
 trafficpole64.dof-00.joe
 mtlgray.bmp.png
 1
@@ -25138,7 +25138,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1583
+#entry 1571
 trafficpole64.dof-01.joe
 lampwht.bmp.png
 1
@@ -25154,7 +25154,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1584
+#entry 1572
 trafficpole64.dof-02.joe
 flagrw.bmp.png
 1
@@ -25170,7 +25170,7 @@ flagrw.bmp.png
 1.0
 0.0
 
-#entry 1585
+#entry 1573
 trafficpole65.dof-00.joe
 mtlgray.bmp.png
 1
@@ -25186,7 +25186,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1586
+#entry 1574
 trafficpole65.dof-01.joe
 lampwht.bmp.png
 1
@@ -25202,7 +25202,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1587
+#entry 1575
 trafficpole66.dof-00.joe
 mtlgray.bmp.png
 1
@@ -25218,7 +25218,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1588
+#entry 1576
 trafficpole66.dof-01.joe
 lampwht.bmp.png
 1
@@ -25234,7 +25234,7 @@ lampwht.bmp.png
 1.0
 0.0
 
-#entry 1589
+#entry 1577
 trafficpole66.dof-02.joe
 logopark.bmp.png
 1
@@ -25250,7 +25250,7 @@ logopark.bmp.png
 1.0
 0.0
 
-#entry 1590
+#entry 1578
 tree44.dof-00.joe
 tree02.bmp.png
 1
@@ -25266,7 +25266,7 @@ tree02.bmp.png
 1.0
 0.0
 
-#entry 1591
+#entry 1579
 tree45.dof-00.joe
 tree02.bmp.png
 1
@@ -25282,7 +25282,7 @@ tree02.bmp.png
 1.0
 0.0
 
-#entry 1592
+#entry 1580
 udmcsign.dof-00.joe
 logoudmc.bmp.png
 1
@@ -25298,7 +25298,7 @@ logoudmc.bmp.png
 1.0
 0.0
 
-#entry 1593
+#entry 1581
 watertwr01.dof-00.joe
 mtlgray.bmp.png
 1
@@ -25314,7 +25314,7 @@ mtlgray.bmp.png
 1.0
 0.0
 
-#entry 1594
+#entry 1582
 windsor.dof-00.joe
 windsor06.bmp.png
 0
@@ -25330,7 +25330,7 @@ windsor06.bmp.png
 1.0
 0.0
 
-#entry 1595
+#entry 1583
 windsor.dof-01.joe
 windsor05.bmp.png
 0
@@ -25346,7 +25346,7 @@ windsor05.bmp.png
 1.0
 0.0
 
-#entry 1596
+#entry 1584
 windsor.dof-02.joe
 windsor04.bmp.png
 0
@@ -25362,7 +25362,7 @@ windsor04.bmp.png
 1.0
 0.0
 
-#entry 1597
+#entry 1585
 windsor.dof-03.joe
 windsor03.bmp.png
 0
@@ -25378,7 +25378,7 @@ windsor03.bmp.png
 1.0
 0.0
 
-#entry 1598
+#entry 1586
 windsor.dof-04.joe
 windsor02.bmp.png
 0
@@ -25394,7 +25394,7 @@ windsor02.bmp.png
 1.0
 0.0
 
-#entry 1599
+#entry 1587
 windsor.dof-05.joe
 windsor01.bmp.png
 0
