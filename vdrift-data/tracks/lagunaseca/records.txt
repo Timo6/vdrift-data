@@ -19,5 +19,5 @@ sector 1 = 83.167999
 
 [ last ]
 car = AX2
-sector 0 = 86.116005
-sector 1 = 51.800003
+sector 0 = 113.704002
+sector 1 = 70.543999
