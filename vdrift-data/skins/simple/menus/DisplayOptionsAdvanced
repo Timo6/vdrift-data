@@ -1,5 +1,5 @@
 name = DisplayOptionsAdvanced
-widgets = 12
+widgets = 14
 background = box.png
 dialog = false
 
@@ -88,8 +88,8 @@ cancel = 0
 
 [ widget-06 ]
 type = toggle
-name = CarShadowsToggle
-setting = display.car_shadows
+name = ShadowsToggle
+setting = display.shadows
 values = options
 center = 0.5, 0.45
 width = auto
@@ -101,9 +101,9 @@ default = 0
 cancel = 0
 
 [ widget-07 ]
-type = floatwheel
-name = FOVWheel
-setting = display.FOV
+type = toggle
+name = ShadersToggle
+setting = display.shaders
 values = options
 center = 0.5, 0.49
 width = auto
@@ -115,9 +115,9 @@ default = 0
 cancel = 0
 
 [ widget-08 ]
-type = intwheel
-name = LightingWheel
-setting = display.lighting
+type = toggle
+name = MotionBlurToggle
+setting = display.motionblur
 values = options
 center = 0.5, 0.53
 width = auto
@@ -129,9 +129,9 @@ default = 0
 cancel = 0
 
 [ widget-09 ]
-type = intwheel
-name = ReflectionsWheel
-setting = display.reflections
+type = floatwheel
+name = FOVWheel
+setting = display.FOV
 values = options
 center = 0.5, 0.57
 width = auto
@@ -143,6 +143,34 @@ default = 0
 cancel = 0
 
 [ widget-10 ]
+type = intwheel
+name = LightingWheel
+setting = display.lighting
+values = options
+center = 0.5, 0.61
+width = auto
+height = auto
+fontsize = 6
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-11 ]
+type = intwheel
+name = ReflectionsWheel
+setting = display.reflections
+values = options
+center = 0.5, 0.65
+width = auto
+height = auto
+fontsize = 6
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-12 ]
 type = button
 name = DisplayOptionsAdvancedOKButton
 text = OK
@@ -158,7 +186,7 @@ selected = 0
 default = 1
 cancel = 0
 
-[ widget-11 ]
+[ widget-13 ]
 type = button
 name = DisplayOptionsAdvancedCancelButton
 text = Cancel

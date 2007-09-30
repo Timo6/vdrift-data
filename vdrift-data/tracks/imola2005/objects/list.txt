@@ -20760,7 +20760,7 @@ treewalla.dds.png
 0
 0
 0
-0
+1
 2.0
 0
 0
@@ -20776,7 +20776,7 @@ treewalla.dds.png
 0
 0
 0
-0
+1
 2.0
 0
 0
@@ -20792,7 +20792,7 @@ treewalla.dds.png
 0
 0
 0
-0
+1
 2.0
 0
 0
@@ -20808,7 +20808,7 @@ treewalla.dds.png
 0
 0
 0
-0
+1
 2.0
 0
 0
@@ -20824,7 +20824,7 @@ treewalla.dds.png
 0
 0
 0
-0
+1
 2.0
 0
 0
@@ -20840,7 +20840,7 @@ treewalla.dds.png
 0
 0
 0
-0
+1
 2.0
 0
 0
@@ -20856,7 +20856,7 @@ treewalla.dds.png
 0
 0
 0
-0
+1
 2.0
 0
 0
@@ -20872,7 +20872,7 @@ treewalla.dds.png
 0
 0
 0
-0
+1
 2.0
 0
 0
@@ -20888,7 +20888,7 @@ treewalla.dds.png
 0
 0
 0
-0
+1
 2.0
 0
 0
@@ -20904,7 +20904,7 @@ treewalla.dds.png
 0
 0
 0
-0
+1
 2.0
 0
 0
@@ -20920,7 +20920,7 @@ treewalla.dds.png
 0
 0
 0
-0
+1
 2.0
 0
 0
@@ -20936,7 +20936,7 @@ treewalla.dds.png
 0
 0
 0
-0
+1
 2.0
 0
 0
@@ -35650,7 +35650,7 @@ trackedgeblend1.dds.png
 5.0
 20.0
 
-#entry 2238
+#entry 2228
 truc0504_obj_truckb.dof-00.joe
 obj_trucka_black.dds.png
 1
@@ -35666,7 +35666,7 @@ obj_trucka_black.dds.png
 1.0
 0.0
 
-#entry 2239
+#entry 2229
 truc0504_obj_truckc.dof-00.joe
 obj_trucka_yellow.dds.png
 1
@@ -35682,7 +35682,7 @@ obj_trucka_yellow.dds.png
 1.0
 0.0
 
-#entry 2240
+#entry 2230
 truc0504_obj_truckd.dof-00.joe
 obj_trucka_bms.dds.png
 1
@@ -35698,7 +35698,7 @@ obj_trucka_bms.dds.png
 1.0
 0.0
 
-#entry 2241
+#entry 2231
 truc0504_obj_trucke.dof-00.joe
 obj_trucka_freisinger.dds.png
 1
@@ -35714,7 +35714,7 @@ obj_trucka_freisinger.dds.png
 1.0
 0.0
 
-#entry 2242
+#entry 2232
 truc0504_obj_truckf.dof-00.joe
 obj_trucka_grey.dds.png
 1
@@ -35730,7 +35730,7 @@ obj_trucka_grey.dds.png
 1.0
 0.0
 
-#entry 2243
+#entry 2233
 truc0504_obj_truckg.dof-00.joe
 obj_trucka_jmb.dds.png
 1
@@ -35746,7 +35746,7 @@ obj_trucka_jmb.dds.png
 1.0
 0.0
 
-#entry 2244
+#entry 2234
 truc0504_obj_truckh.dof-00.joe
 obj_trucka_blue.dds.png
 1
@@ -35762,7 +35762,7 @@ obj_trucka_blue.dds.png
 1.0
 0.0
 
-#entry 2245
+#entry 2235
 truc0504_obj_trucki.dof-00.joe
 obj_trucka_black.dds.png
 1
@@ -35778,7 +35778,7 @@ obj_trucka_black.dds.png
 1.0
 0.0
 
-#entry 2246
+#entry 2236
 truc0504_obj_truckk.dof-00.joe
 obj_trucka_freisinger.dds.png
 1
@@ -35794,7 +35794,7 @@ obj_trucka_freisinger.dds.png
 1.0
 0.0
 
-#entry 2247
+#entry 2237
 turn0505_obj_truckb01.dof-00.joe
 obj_truckb_red.dds.png
 1
@@ -35810,7 +35810,7 @@ obj_truckb_red.dds.png
 1.0
 0.0
 
-#entry 2248
+#entry 2238
 turn0505_obj_truckb02.dof-00.joe
 obj_truckb_redwhite.dds.png
 1
@@ -35826,7 +35826,7 @@ obj_truckb_redwhite.dds.png
 1.0
 0.0
 
-#entry 2249
+#entry 2239
 turn0505_obj_truckb03.dof-00.joe
 obj_truckb_white.dds.png
 1
@@ -35842,7 +35842,7 @@ obj_truckb_white.dds.png
 1.0
 0.0
 
-#entry 2250
+#entry 2240
 turn0505_obj_truckb04.dof-00.joe
 obj_truckb_yellow.dds.png
 1
@@ -35858,7 +35858,7 @@ obj_truckb_yellow.dds.png
 1.0
 0.0
 
-#entry 2251
+#entry 2241
 turn0506_preto.dof-00.joe
 preto.dds.png
 1
@@ -35874,7 +35874,7 @@ preto.dds.png
 1.0
 0.0
 
-#entry 2252
+#entry 2242
 turn0506_tlight.dof-00.joe
 tlight.dds.png
 1
@@ -35890,7 +35890,7 @@ tlight.dds.png
 1.0
 0.0
 
-#entry 2253
+#entry 2243
 turn0506_tlight1.dof-00.joe
 tlight1.dds.png
 1
@@ -35906,7 +35906,7 @@ tlight1.dds.png
 1.0
 0.0
 
-#entry 2254
+#entry 2244
 turn0506_yellow_metal.dof-00.joe
 yellow_metal.dds.png
 1
@@ -35922,7 +35922,7 @@ yellow_metal.dds.png
 1.0
 0.0
 
-#entry 2255
+#entry 2245
 turn0507_metal01.dof-00.joe
 metal01.dds.png
 1
@@ -35938,7 +35938,7 @@ metal01.dds.png
 1.0
 0.0
 
-#entry 2256
+#entry 2246
 turn0507_preto.dof-00.joe
 preto.dds.png
 1
@@ -35954,7 +35954,7 @@ preto.dds.png
 1.0
 0.0
 
-#entry 2257
+#entry 2247
 turn0507_tlight.dof-00.joe
 tlight.dds.png
 1
@@ -35970,7 +35970,7 @@ tlight.dds.png
 1.0
 0.0
 
-#entry 2258
+#entry 2248
 turn0507_tlight1.dof-00.joe
 tlight1.dds.png
 1
@@ -35986,7 +35986,7 @@ tlight1.dds.png
 1.0
 0.0
 
-#entry 2259
+#entry 2249
 turn0507_tlight2.dof-00.joe
 tlight2.dds.png
 1
@@ -36002,7 +36002,7 @@ tlight2.dds.png
 1.0
 0.0
 
-#entry 2260
+#entry 2250
 turn0508_metal01.dof-00.joe
 metal01.dds.png
 1
@@ -36018,7 +36018,7 @@ metal01.dds.png
 1.0
 0.0
 
-#entry 2261
+#entry 2251
 turn0508_preto.dof-00.joe
 preto.dds.png
 1
@@ -36034,7 +36034,7 @@ preto.dds.png
 1.0
 0.0
 
-#entry 2262
+#entry 2252
 turn0508_tlight.dof-00.joe
 tlight.dds.png
 1
@@ -36050,7 +36050,7 @@ tlight.dds.png
 1.0
 0.0
 
-#entry 2263
+#entry 2253
 turn0508_tlight1.dof-00.joe
 tlight1.dds.png
 1
@@ -36066,7 +36066,7 @@ tlight1.dds.png
 1.0
 0.0
 
-#entry 2264
+#entry 2254
 turn0508_tlight2.dof-00.joe
 tlight2.dds.png
 1
@@ -36082,7 +36082,7 @@ tlight2.dds.png
 1.0
 0.0
 
-#entry 2265
+#entry 2255
 turn0509_preto.dof-00.joe
 preto.dds.png
 1
@@ -36098,7 +36098,7 @@ preto.dds.png
 1.0
 0.0
 
-#entry 2266
+#entry 2256
 turn0509_tlight.dof-00.joe
 tlight.dds.png
 1
@@ -36114,7 +36114,7 @@ tlight.dds.png
 1.0
 0.0
 
-#entry 2267
+#entry 2257
 turn0509_tlight1.dof-00.joe
 tlight1.dds.png
 1
@@ -36130,7 +36130,7 @@ tlight1.dds.png
 1.0
 0.0
 
-#entry 2268
+#entry 2258
 turn0509_yellow_metal.dof-00.joe
 yellow_metal.dds.png
 1
@@ -36146,7 +36146,7 @@ yellow_metal.dds.png
 1.0
 0.0
 
-#entry 2269
+#entry 2259
 turn0510_preto.dof-00.joe
 preto.dds.png
 1
@@ -36162,7 +36162,7 @@ preto.dds.png
 1.0
 0.0
 
-#entry 2270
+#entry 2260
 turn0510_tlight.dof-00.joe
 tlight.dds.png
 1
@@ -36178,7 +36178,7 @@ tlight.dds.png
 1.0
 0.0
 
-#entry 2271
+#entry 2261
 turn0510_tlight1.dof-00.joe
 tlight1.dds.png
 1
@@ -36194,7 +36194,7 @@ tlight1.dds.png
 1.0
 0.0
 
-#entry 2272
+#entry 2262
 turn0510_tlight2.dof-00.joe
 tlight2.dds.png
 1
@@ -36210,7 +36210,7 @@ tlight2.dds.png
 1.0
 0.0
 
-#entry 2273
+#entry 2263
 tyre0511_metal01.dof-00.joe
 metal01.dds.png
 1
@@ -36226,7 +36226,7 @@ metal01.dds.png
 1.0
 0.0
 
-#entry 2274
+#entry 2264
 tyre0511_preto.dof-00.joe
 preto.dds.png
 1
@@ -36242,7 +36242,7 @@ preto.dds.png
 1.0
 0.0
 
-#entry 2275
+#entry 2265
 tyre0511_tlight.dof-00.joe
 tlight.dds.png
 1
@@ -36258,7 +36258,7 @@ tlight.dds.png
 1.0
 0.0
 
-#entry 2276
+#entry 2266
 tyre0511_tlight1.dof-00.joe
 tlight1.dds.png
 1
@@ -36274,7 +36274,7 @@ tlight1.dds.png
 1.0
 0.0
 
-#entry 2277
+#entry 2267
 tyre0511_tlight2.dof-00.joe
 tlight2.dds.png
 1
@@ -36290,7 +36290,7 @@ tlight2.dds.png
 1.0
 0.0
 
-#entry 2278
+#entry 2268
 tyre0512_twallcover.dof-00.joe
 twallcover.dds.png
 1
@@ -36306,7 +36306,7 @@ twallcover.dds.png
 1.0
 0.0
 
-#entry 2279
+#entry 2269
 tyre0512_twallcover1.dof-00.joe
 twallcover1.dds.png
 1
@@ -36322,7 +36322,7 @@ twallcover1.dds.png
 1.0
 0.0
 
-#entry 2280
+#entry 2270
 tyre0512_twallcover2.dof-00.joe
 twallcover2.dds.png
 1
@@ -36338,7 +36338,7 @@ twallcover2.dds.png
 1.0
 0.0
 
-#entry 2281
+#entry 2271
 tyre0513_twallcover.dof-00.joe
 twallcover.dds.png
 1
@@ -36354,7 +36354,7 @@ twallcover.dds.png
 1.0
 0.0
 
-#entry 2282
+#entry 2272
 tyre0513_twallcover1.dof-00.joe
 twallcover1.dds.png
 1
@@ -36370,7 +36370,7 @@ twallcover1.dds.png
 1.0
 0.0
 
-#entry 2283
+#entry 2273
 tyre0513_twallcover2.dof-00.joe
 twallcover2.dds.png
 1
@@ -36386,7 +36386,7 @@ twallcover2.dds.png
 1.0
 0.0
 
-#entry 2284
+#entry 2274
 tyre0514_twallcover.dof-00.joe
 twallcover.dds.png
 1
@@ -36402,7 +36402,7 @@ twallcover.dds.png
 1.0
 0.0
 
-#entry 2285
+#entry 2275
 tyre0514_twallcover1.dof-00.joe
 twallcover1.dds.png
 1
@@ -36418,7 +36418,7 @@ twallcover1.dds.png
 1.0
 0.0
 
-#entry 2286
+#entry 2276
 tyre0514_twallcover2.dof-00.joe
 twallcover2.dds.png
 1
@@ -36434,7 +36434,7 @@ twallcover2.dds.png
 1.0
 0.0
 
-#entry 2287
+#entry 2277
 tyre0515_twallcover.dof-00.joe
 twallcover.dds.png
 1
@@ -36450,7 +36450,7 @@ twallcover.dds.png
 1.0
 0.0
 
-#entry 2288
+#entry 2278
 tyre0515_twallcover1.dof-00.joe
 twallcover1.dds.png
 1
@@ -36466,7 +36466,7 @@ twallcover1.dds.png
 1.0
 0.0
 
-#entry 2289
+#entry 2279
 tyre0515_twallcover2.dof-00.joe
 twallcover2.dds.png
 1
@@ -36482,7 +36482,7 @@ twallcover2.dds.png
 1.0
 0.0
 
-#entry 2290
+#entry 2280
 tyre0516_twallcover.dof-00.joe
 twallcover.dds.png
 1
@@ -36498,7 +36498,7 @@ twallcover.dds.png
 1.0
 0.0
 
-#entry 2291
+#entry 2281
 tyre0516_twallcover1.dof-00.joe
 twallcover1.dds.png
 1
@@ -36514,7 +36514,7 @@ twallcover1.dds.png
 1.0
 0.0
 
-#entry 2292
+#entry 2282
 tyre0516_twallcover2.dof-00.joe
 twallcover2.dds.png
 1
@@ -36530,7 +36530,7 @@ twallcover2.dds.png
 1.0
 0.0
 
-#entry 2293
+#entry 2283
 tyre0517_twallcover.dof-00.joe
 twallcover.dds.png
 1
@@ -36546,7 +36546,7 @@ twallcover.dds.png
 1.0
 0.0
 
-#entry 2294
+#entry 2284
 tyre0517_twallcover1.dof-00.joe
 twallcover1.dds.png
 1
@@ -36562,7 +36562,7 @@ twallcover1.dds.png
 1.0
 0.0
 
-#entry 2295
+#entry 2285
 tyre0517_twallcover2.dof-00.joe
 twallcover2.dds.png
 1
@@ -36578,7 +36578,7 @@ twallcover2.dds.png
 1.0
 0.0
 
-#entry 2296
+#entry 2286
 tyre0518_twallcover.dof-00.joe
 twallcover.dds.png
 1
@@ -36594,7 +36594,7 @@ twallcover.dds.png
 1.0
 0.0
 
-#entry 2297
+#entry 2287
 tyre0518_twallcover1.dof-00.joe
 twallcover1.dds.png
 1
@@ -36610,7 +36610,7 @@ twallcover1.dds.png
 1.0
 0.0
 
-#entry 2298
+#entry 2288
 tyre0518_twallcover2.dof-00.joe
 twallcover2.dds.png
 1
@@ -36626,7 +36626,7 @@ twallcover2.dds.png
 1.0
 0.0
 
-#entry 2299
+#entry 2289
 tyre0519_twallcover.dof-00.joe
 twallcover.dds.png
 1
@@ -36642,7 +36642,7 @@ twallcover.dds.png
 1.0
 0.0
 
-#entry 2300
+#entry 2290
 tyre0519_twallcover1.dof-00.joe
 twallcover1.dds.png
 1
@@ -36658,7 +36658,7 @@ twallcover1.dds.png
 1.0
 0.0
 
-#entry 2301
+#entry 2291
 tyre0519_twallcover2.dof-00.joe
 twallcover2.dds.png
 1
@@ -36674,7 +36674,7 @@ twallcover2.dds.png
 1.0
 0.0
 
-#entry 2302
+#entry 2292
 tyre0520_twalla.dof-00.joe
 tyrewalla.dds.png
 1
@@ -36690,7 +36690,7 @@ tyrewalla.dds.png
 1.0
 0.0
 
-#entry 2303
+#entry 2293
 tyre0520_twallb.dof-00.joe
 tyrewallb.dds.png
 1
@@ -36706,7 +36706,7 @@ tyrewallb.dds.png
 1.0
 0.0
 
-#entry 2304
+#entry 2294
 tyre0521_twalla.dof-00.joe
 tyrewalla.dds.png
 1
@@ -36722,7 +36722,7 @@ tyrewalla.dds.png
 1.0
 0.0
 
-#entry 2305
+#entry 2295
 tyre0521_twallb.dof-00.joe
 tyrewallb.dds.png
 1
@@ -36738,7 +36738,7 @@ tyrewallb.dds.png
 1.0
 0.0
 
-#entry 2306
+#entry 2296
 tyre0522_twalla.dof-00.joe
 tyrewalla.dds.png
 1
@@ -36754,7 +36754,7 @@ tyrewalla.dds.png
 1.0
 0.0
 
-#entry 2307
+#entry 2297
 tyre0522_twallb.dof-00.joe
 tyrewallb.dds.png
 1
@@ -36770,7 +36770,7 @@ tyrewallb.dds.png
 1.0
 0.0
 
-#entry 2308
+#entry 2298
 wall0523_twalla.dof-00.joe
 tyrewalla.dds.png
 1
@@ -36786,7 +36786,7 @@ tyrewalla.dds.png
 1.0
 0.0
 
-#entry 2309
+#entry 2299
 wall0523_twallb.dof-00.joe
 tyrewallb.dds.png
 1
@@ -36802,7 +36802,7 @@ tyrewallb.dds.png
 1.0
 0.0
 
-#entry 2310
+#entry 2300
 wall0524_cwallcement0.dof-00.joe
 cement01.dds.png
 1
@@ -36818,7 +36818,7 @@ cement01.dds.png
 1.0
 0.0
 
-#entry 2311
+#entry 2301
 wall0524_cwalllwallbl.dof-00.joe
 wallblue01.dds.png
 1
@@ -36834,7 +36834,7 @@ wallblue01.dds.png
 1.0
 0.0
 
-#entry 2312
+#entry 2302
 wall0524_cwallpitwall.dof-00.joe
 pitwall1.dds.png
 1
@@ -36850,7 +36850,7 @@ pitwall1.dds.png
 1.0
 0.0
 
-#entry 2313
+#entry 2303
 wall0525_cwallcem.dof-00.joe
 cement01.dds.png
 1
@@ -36866,7 +36866,7 @@ cement01.dds.png
 1.0
 0.0
 
-#entry 2314
+#entry 2304
 wall0525_cwallcement0.dof-00.joe
 cement01.dds.png
 1
@@ -36882,7 +36882,7 @@ cement01.dds.png
 1.0
 0.0
 
-#entry 2315
+#entry 2305
 wall0525_cwalllwa.dof-00.joe
 wallblue01.dds.png
 1
@@ -36898,7 +36898,7 @@ wallblue01.dds.png
 1.0
 0.0
 
-#entry 2316
+#entry 2306
 wall0525_cwalllwallbl.dof-00.joe
 wallblue01.dds.png
 1
@@ -36914,7 +36914,7 @@ wallblue01.dds.png
 1.0
 0.0
 
-#entry 2317
+#entry 2307
 wall0525_cwallpit.dof-00.joe
 pitwall1.dds.png
 1
@@ -36930,7 +36930,7 @@ pitwall1.dds.png
 1.0
 0.0
 
-#entry 2318
+#entry 2308
 wall0525_cwallpitwall.dof-00.joe
 pitwall1.dds.png
 1
