@@ -7,6 +7,10 @@ sector 1 = 50.660004
 sector 0 = 151.268005
 sector 1 = 73.800003
 
+[ F1 ]
+sector 0 = 122.744003
+sector 1 = 77.564003
+
 [ G4 ]
 sector 0 = 139.179993
 sector 1 = 75.860001
@@ -18,6 +22,6 @@ sector 1 = 103.264000
 sector 1 = 83.167999
 
 [ last ]
-car = AX2
-sector 0 = 96.767998
-sector 1 = 60.000000
+car = F1
+sector 0 = 122.744003
+sector 1 = 77.564003
