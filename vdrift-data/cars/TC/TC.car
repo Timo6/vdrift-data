@@ -1,7 +1,7 @@
 drive = AWD
 
 [ steering ]
-max-angle = 27.0
+max-angle = 33.0
 
 [ engine ]
 position = 1.42, 0.0, -0.24
