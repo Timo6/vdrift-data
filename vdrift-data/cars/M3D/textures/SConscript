@@ -21,5 +21,5 @@ env.Distribute (bin_dir, src)
 #--------------------#
 # Install data files #
 #--------------------#
-install = env.Install(Dir(env.subst('$data_directory/cars/M3/textures')), src)
+install = env.Install(Dir(env.subst('$data_directory/cars/M3D/textures')), src)
 env.Alias('install', install)

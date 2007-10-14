@@ -10,7 +10,7 @@ import glob
 #---------#
 src = ["about.txt",
        "engine.wav",
-       "M3.car",
+       "M3D.car",
        glob.glob("*.joe")]
 
 #---------------------------------#
@@ -25,7 +25,7 @@ env.Distribute (bin_dir, src)
 # Install data files #
 #--------------------#
 Export(['env', 'src_dir', 'bin_dir'])
-install = env.Install(Dir(env.subst('$data_directory/cars/M3')), src)
+install = env.Install(Dir(env.subst('$data_directory/cars/M3D')), src)
 env.Alias('install', install)
 
 SConscript("textures/SConscript")
