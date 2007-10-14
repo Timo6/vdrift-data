@@ -1,13 +1,21 @@
 
+[ AX2 ]
+sector 0 = 108.996002
+sector 1 = 52.068001
+
 [ GTR ]
 sector 0 = 141.216003
 sector 1 = 74.776001
+
+[ M3D ]
+sector 0 = 199.624008
+sector 1 = 94.076004
 
 [ TL2 ]
 sector 0 = 213.112015
 sector 1 = 90.308006
 
 [ last ]
-car = GTR
-sector 0 = 141.216003
-sector 1 = 74.776001
+car = M3D
+sector 0 = 288.852020
+sector 1 = 100.004005

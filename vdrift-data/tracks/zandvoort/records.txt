@@ -1,4 +1,8 @@
 
+[ AX2 ]
+sector 0 = 105.616005
+sector 1 = 46.204002
+
 [ GTR ]
 sector 0 = 145.508011
 sector 1 = 64.968002
@@ -8,6 +12,6 @@ sector 0 = 222.052017
 sector 1 = 83.140007
 
 [ last ]
-car = GTR
-sector 0 = 145.508011
-sector 1 = 64.968002
+car = AX2
+sector 0 = 108.732002
+sector 1 = 49.828003

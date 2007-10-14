@@ -1,7 +1,15 @@
 
+[ AX2 ]
+sector 0 = 105.404007
+sector 1 = 50.368004
+
 [ C7 ]
 sector 0 = 217.972015
 sector 1 = 81.160004
+
+[ GTR ]
+sector 0 = 131.400009
+sector 1 = 61.460003
 
 [ T73 ]
 sector 0 = 154.332001
@@ -23,6 +31,6 @@ sector 0 = 146.792007
 sector 1 = 66.844002
 
 [ last ]
-car = T73
-sector 0 = 155.724014
-sector 1 = 73.428001
+car = AX2
+sector 0 = 108.136002
+sector 1 = 50.368004

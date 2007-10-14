@@ -4,4 +4,4 @@ sector 0 = 0.000000
 
 [ last ]
 car = AX2
-sector 0 = 0.000000
+sector 0 = 0.004000

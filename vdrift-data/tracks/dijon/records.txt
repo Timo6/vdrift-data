@@ -1,4 +1,9 @@
 
+[ <<<<<<< .mine ]
+car = AX2
+sector 0 = 78.744003
+sector 1 = 45.619999
+
 [ AX2 ]
 sector 0 = 78.744003
 sector 1 = 45.619999
@@ -10,6 +15,10 @@ sector 1 = 45.544003
 [ GTR ]
 sector 0 = 97.860008
 sector 1 = 52.388004
+
+[ M3D ]
+sector 0 = 185.052002
+sector 1 = 101.172005
 
 [ NS ]
 sector 0 = 100.648003
@@ -23,6 +32,6 @@ sector 0 = 110.332008
 sector 1 = 63.712002
 
 [ last ]
-car = AX2
-sector 0 = 78.744003
-sector 1 = 45.619999
+car = M3D
+sector 0 = 185.052002
+sector 1 = 101.172005

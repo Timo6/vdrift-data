@@ -1,7 +1,7 @@
 
 [ AX2 ]
-sector 0 = 86.116005
-sector 1 = 50.660004
+sector 0 = 83.792007
+sector 1 = 49.856003
 
 [ CO ]
 sector 0 = 151.268005
@@ -18,10 +18,20 @@ sector 1 = 75.860001
 [ GT ]
 sector 1 = 103.264000
 
+[ GTR ]
+sector 0 = 119.984009
+sector 1 = 72.628006
+
 [ XS ]
 sector 1 = 83.167999
 
 [ last ]
+<<<<<<< .mine
+car = AX2
+sector 0 = 83.792007
+sector 1 = 51.536003
+=======
 car = F1
 sector 0 = 122.744003
 sector 1 = 77.564003
+>>>>>>> .r93
