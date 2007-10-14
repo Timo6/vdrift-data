@@ -6,7 +6,7 @@ max-angle = 55.19
 [ engine ]
 position = 1.42, 0.0, -0.24
 mass = 180.0
-max-power = 1.46e5
+max-power = 248318
 peak-engine-rpm = 6750.0
 rpm-limit = 7000.0
 inertia = 0.25
@@ -199,14 +199,14 @@ c17=-1.10000
 
 
 [ brakes-front ]
-friction = 0.73
+friction = 0.83
 max-pressure = 2.5e6
 bias = 0.61
 radius = 0.17
 area = 0.015
 
 [ brakes-rear ]
-friction = 0.73
+friction = 0.83
 max-pressure = 3.5e6
 bias = 0.39
 radius = 0.14
