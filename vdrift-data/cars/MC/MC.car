@@ -6,7 +6,7 @@ max-angle = 33.19
 [ engine ]
 position = 0.95, 0.0, -0.12
 mass = 150.0
-max-power = 0.86e5
+max-power = 128260
 peak-engine-rpm = 4500.0
 rpm-limit = 6000.0
 inertia = 0.18
@@ -15,17 +15,17 @@ start-rpm = 1000
 stall-rpm = 350
 fuel-consumption = 1e-9
 torque-friction = 0.00025
-torque-curve-00 = 1000, 130.0
-torque-curve-01 = 2000, 133.14
-torque-curve-02 = 2200, 137.07
-torque-curve-03 = 2700, 140.78
-torque-curve-04 = 3000, 143.50
-torque-curve-05 = 3500, 145.89
-torque-curve-06 = 4000, 148.50
-torque-curve-07 = 4500, 150.07
-torque-curve-08 = 5200, 148.19
-torque-curve-09 = 5800, 146.83
-torque-curve-10 = 6000, 140.12
+torque-curve-00 = 1000, 140.0
+torque-curve-01 = 2000, 153.14
+torque-curve-02 = 2200, 167.07
+torque-curve-03 = 2700, 170.78
+torque-curve-04 = 3000, 183.50
+torque-curve-05 = 3500, 195.89
+torque-curve-06 = 4000, 210.50
+torque-curve-07 = 4500, 200.07
+torque-curve-08 = 5200, 198.19
+torque-curve-09 = 5800, 186.83
+torque-curve-10 = 6000, 170.12
 
 [ clutch ]
 sliding = 0.27
@@ -34,17 +34,18 @@ area = 0.75
 max-pressure = 12000.0
 
 [ transmission ]
-gears = 5
+gears = 6
 gear-ratio-r = -3.8
-gear-ratio-1 = 3.417
-gear-ratio-2 = 1.947
-gear-ratio-3 = 1.333
-gear-ratio-4 = 1.054
-gear-ratio-5 = 0.845
+gear-ratio-1 = 4.17
+gear-ratio-2 = 2.62
+gear-ratio-3 = 2.03
+gear-ratio-4 = 1.59
+gear-ratio-5 = 1.24
+gear-ratio-6 = 1.04
 shift-delay = 0.08
 
 [ differential ]
-final-drive = 3.87
+final-drive = 2.74
 anti-slip = 600.0
 
 [ fuel-tank ]
@@ -186,15 +187,15 @@ c16=0.27
 c17=-1.1
 
 [ brakes-front ]
-friction = 0.73
-max-pressure = 2.0e6
+friction = 0.93
+max-pressure = 2.1e6
 bias = 0.57
 radius = 0.14
 area = 0.015
 
 [ brakes-rear ]
-friction = 0.73
-max-pressure = 2.0e6
+friction = 0.93
+max-pressure = 2.1e6
 bias = 0.43
 radius = 0.14
 area = 0.015
