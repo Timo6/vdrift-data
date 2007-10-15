@@ -70,7 +70,7 @@ travel = 0.15
 max-compression-velocity = 10.0
 camber = -1.33
 caster = 6.12
-toe = 0.5
+toe = -0.5
 anti-roll = 9500.0
 
 [ suspension-rear ]
@@ -143,10 +143,10 @@ radius = 0.2935
 rolling-resistance = 1.3e-2, 6.5e-6
 rotational-inertia = 10.0
 # Lateral force
-a0=1.6
-a1=-40
-a2=1271
-a3=1904
+a0=1.5
+a1=-45
+a2=1391
+a3=1974
 a4=8.7
 a5=0.014
 a6=-0.24
@@ -193,14 +193,14 @@ c16=0.27
 c17=-1.1
 
 [ brakes-front ]
-friction = 1.03
+friction = 1.53
 max-pressure = 2.0e6
 bias = 0.57
 radius = 0.14
 area = 0.015
 
 [ brakes-rear ]
-friction = 1.03
+friction = 1.53
 max-pressure = 2.0e6
 bias = 0.43
 radius = 0.14
@@ -222,7 +222,7 @@ position = 1.9, 0.0, 0.60
 frontal-area = 0.2
 drag-coefficient = 0.0
 surface-area = 0.3
-lift-coefficient = -0.5
+lift-coefficient = -1.5
 efficiency = 0.95
 
 [ wing-rear ]
@@ -230,7 +230,7 @@ position = -2.14, 0.0, 0.37
 frontal-area = 0.05
 drag-coefficient = 0.0
 surface-area = 0.5
-lift-coefficient = -2.5
+lift-coefficient = -3.5
 efficiency = 0.95
 
 [ wheel-FR ]
