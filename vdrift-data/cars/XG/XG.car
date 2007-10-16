@@ -65,11 +65,8 @@ fuel-density = 730.0
 
 [ suspension-front ]
 spring-constant = 102000
-#spring-constant = 72000
 bounce = 11050
-#bounce = 7500
 rebound = 10700
-#rebound = 5000
 travel = 0.32
 max-compression-velocity = 10.0
 camber = -1.33
@@ -79,11 +76,8 @@ anti-roll = 15000
 
 [ suspension-rear ]
 spring-constant = 98000
-#spring-constant = 68000
 bounce = 10000
-#bounce = 7500
 rebound = 9992.14
-#rebound = 5000
 travel = 0.32
 max-compression-velocity = 10.0
 camber = -0.45
@@ -198,14 +192,14 @@ c16=0.27
 c17=-1.1
 
 [ brakes-front ]
-friction = 0.73
+friction = 0.93
 max-pressure = 2.5e6
 bias = 0.61
 radius = 0.17
 area = 0.015
 
 [ brakes-rear ]
-friction = 0.73
+friction = 0.93
 max-pressure = 2.5e6
 bias = 0.39
 radius = 0.14
