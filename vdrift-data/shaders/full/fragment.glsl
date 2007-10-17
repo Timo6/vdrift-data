@@ -10,7 +10,7 @@ uniform sampler2D tu6_2D; //additive map (for brake lights)
 
 //varying vec3 eyecoords;
 varying vec3 eyespacenormal;
-uniform vec3 eyelightposition;
+varying vec3 eyelightposition;
 varying vec4 ecpos;
 varying vec3 viewdir;
 
