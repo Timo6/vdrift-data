@@ -32,6 +32,13 @@ torque-curve-13 = 6750, 270.48
 torque-curve-14 = 7000, 264.78
 torque-curve-15 = 7500, 255.09
 torque-curve-16 = 8000, 231.98
+pitch-soundmap-1000 = 1kbehind
+pitch-soundmap-2000 = 2kbehind
+pitch-soundmap-3000 = 3kbehind
+pitch-soundmap-4000 = 4kbehind
+pitch-soundmap-5000 = 5kbehind
+pitch-soundmap-6000 = 6kbehind
+pitch-soundmap-7000 = 7kbehind
 
 [ clutch ]
 sliding = 0.27
