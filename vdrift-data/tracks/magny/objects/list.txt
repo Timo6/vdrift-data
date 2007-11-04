@@ -21859,22 +21859,6 @@ sky.tga.png
 0.0
 
 #entry 1366
-smal0230_bka.dof-00.joe
-bkb.tga.png
-1
-0
-1
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 1367
 smal0231_146.dof-00.joe
 logovod.tga.png
 1
@@ -21890,7 +21874,7 @@ logovod.tga.png
 1.0
 0.0
 
-#entry 1368
+#entry 1367
 smal0231_263.dof-00.joe
 263.tga.png
 1
@@ -21906,7 +21890,7 @@ smal0231_263.dof-00.joe
 1.0
 0.0
 
-#entry 1369
+#entry 1368
 smal0231_265.dof-00.joe
 265.tga.png
 0
@@ -21922,7 +21906,7 @@ smal0231_265.dof-00.joe
 1.0
 0.0
 
-#entry 1370
+#entry 1369
 smal0231_266.dof-00.joe
 266.tga.png
 0
@@ -21938,7 +21922,7 @@ smal0231_266.dof-00.joe
 1.0
 0.0
 
-#entry 1371
+#entry 1370
 smal0232_255.dof-00.joe
 logotoyota.tga.png
 1
@@ -21954,7 +21938,7 @@ logotoyota.tga.png
 1.0
 0.0
 
-#entry 1372
+#entry 1371
 smal0232_263.dof-00.joe
 263.tga.png
 1
@@ -21970,7 +21954,7 @@ smal0232_263.dof-00.joe
 1.0
 0.0
 
-#entry 1373
+#entry 1372
 smal0232_264.dof-00.joe
 264.tga.png
 1
@@ -21986,7 +21970,7 @@ smal0232_264.dof-00.joe
 1.0
 0.0
 
-#entry 1374
+#entry 1373
 smal0232_265.dof-00.joe
 265.tga.png
 0
@@ -22002,7 +21986,7 @@ smal0232_265.dof-00.joe
 1.0
 0.0
 
-#entry 1375
+#entry 1374
 smal0232_266.dof-00.joe
 266.tga.png
 0
@@ -22018,7 +22002,7 @@ smal0232_266.dof-00.joe
 1.0
 0.0
 
-#entry 1376
+#entry 1375
 smal0232_267.dof-00.joe
 logotoyota.tga.png
 1
@@ -22034,7 +22018,7 @@ logotoyota.tga.png
 1.0
 0.0
 
-#entry 1377
+#entry 1376
 smal0232_271.dof-00.joe
 271.tga.png
 1
@@ -22050,7 +22034,7 @@ smal0232_271.dof-00.joe
 1.0
 0.0
 
-#entry 1378
+#entry 1377
 smal0233_255.dof-00.joe
 logotoyota.tga.png
 1
@@ -22066,7 +22050,7 @@ logotoyota.tga.png
 1.0
 0.0
 
-#entry 1379
+#entry 1378
 smal0233_263.dof-00.joe
 263.tga.png
 1
@@ -22082,7 +22066,7 @@ smal0233_263.dof-00.joe
 1.0
 0.0
 
-#entry 1380
+#entry 1379
 smal0233_265.dof-00.joe
 265.tga.png
 0
@@ -22098,7 +22082,7 @@ smal0233_265.dof-00.joe
 1.0
 0.0
 
-#entry 1381
+#entry 1380
 smal0233_266.dof-00.joe
 266.tga.png
 0
@@ -22114,7 +22098,7 @@ smal0233_266.dof-00.joe
 1.0
 0.0
 
-#entry 1382
+#entry 1381
 smal0233_270.dof-00.joe
 vsign100.tga.png
 1
@@ -22130,7 +22114,7 @@ vsign100.tga.png
 1.0
 0.0
 
-#entry 1383
+#entry 1382
 smal0234_255.dof-00.joe
 logotoyota.tga.png
 1
@@ -22146,7 +22130,7 @@ logotoyota.tga.png
 1.0
 0.0
 
-#entry 1384
+#entry 1383
 smal0234_263.dof-00.joe
 263.tga.png
 1
@@ -22162,7 +22146,7 @@ smal0234_263.dof-00.joe
 1.0
 0.0
 
-#entry 1385
+#entry 1384
 smal0234_265.dof-00.joe
 265.tga.png
 0
@@ -22178,7 +22162,7 @@ smal0234_265.dof-00.joe
 1.0
 0.0
 
-#entry 1386
+#entry 1385
 smal0234_266.dof-00.joe
 266.tga.png
 0
@@ -22194,7 +22178,7 @@ smal0234_266.dof-00.joe
 1.0
 0.0
 
-#entry 1387
+#entry 1386
 smal0234_269.dof-00.joe
 vsign200.tga.png
 1
@@ -22210,7 +22194,7 @@ vsign200.tga.png
 1.0
 0.0
 
-#entry 1388
+#entry 1387
 smal0235_255.dof-00.joe
 logotoyota.tga.png
 1
@@ -22226,7 +22210,7 @@ logotoyota.tga.png
 1.0
 0.0
 
-#entry 1389
+#entry 1388
 smal0235_263.dof-00.joe
 263.tga.png
 1
@@ -22242,7 +22226,7 @@ smal0235_263.dof-00.joe
 1.0
 0.0
 
-#entry 1390
+#entry 1389
 smal0235_264.dof-00.joe
 264.tga.png
 1
@@ -22258,7 +22242,7 @@ smal0235_264.dof-00.joe
 1.0
 0.0
 
-#entry 1391
+#entry 1390
 smal0235_265.dof-00.joe
 265.tga.png
 0
@@ -22274,7 +22258,7 @@ smal0235_265.dof-00.joe
 1.0
 0.0
 
-#entry 1392
+#entry 1391
 smal0235_266.dof-00.joe
 266.tga.png
 0
@@ -22290,7 +22274,7 @@ smal0235_266.dof-00.joe
 1.0
 0.0
 
-#entry 1393
+#entry 1392
 smal0235_267.dof-00.joe
 logotoyota.tga.png
 1
@@ -22306,7 +22290,7 @@ logotoyota.tga.png
 1.0
 0.0
 
-#entry 1394
+#entry 1393
 smal0235_271.dof-00.joe
 271.tga.png
 1
@@ -22322,7 +22306,7 @@ smal0235_271.dof-00.joe
 1.0
 0.0
 
-#entry 1395
+#entry 1394
 smal0235_273.dof-00.joe
 144b.tga.png
 1
@@ -22338,7 +22322,7 @@ smal0235_273.dof-00.joe
 1.0
 0.0
 
-#entry 1396
+#entry 1395
 smal0236_255.dof-00.joe
 logotoyota.tga.png
 1
@@ -22354,7 +22338,7 @@ logotoyota.tga.png
 1.0
 0.0
 
-#entry 1397
+#entry 1396
 smal0236_263.dof-00.joe
 263.tga.png
 1
@@ -22370,7 +22354,7 @@ smal0236_263.dof-00.joe
 1.0
 0.0
 
-#entry 1398
+#entry 1397
 smal0236_264.dof-00.joe
 264.tga.png
 1
@@ -22386,7 +22370,7 @@ smal0236_264.dof-00.joe
 1.0
 0.0
 
-#entry 1399
+#entry 1398
 smal0236_265.dof-00.joe
 265.tga.png
 0
@@ -22402,7 +22386,7 @@ smal0236_265.dof-00.joe
 1.0
 0.0
 
-#entry 1400
+#entry 1399
 smal0236_266.dof-00.joe
 266.tga.png
 0
@@ -22418,7 +22402,7 @@ smal0236_266.dof-00.joe
 1.0
 0.0
 
-#entry 1401
+#entry 1400
 smal0236_267.dof-00.joe
 logotoyota.tga.png
 1
@@ -22434,7 +22418,7 @@ logotoyota.tga.png
 1.0
 0.0
 
-#entry 1402
+#entry 1401
 smal0236_268.dof-00.joe
 144b.tga.png
 1
@@ -22450,7 +22434,7 @@ smal0236_268.dof-00.joe
 1.0
 0.0
 
-#entry 1403
+#entry 1402
 smal0236_270.dof-00.joe
 vsign100.tga.png
 1
@@ -22466,7 +22450,7 @@ vsign100.tga.png
 1.0
 0.0
 
-#entry 1404
+#entry 1403
 smal0236_272.dof-00.joe
 272.tga.png
 1
@@ -22482,7 +22466,7 @@ smal0236_272.dof-00.joe
 1.0
 0.0
 
-#entry 1405
+#entry 1404
 smal0236_273.dof-00.joe
 144b.tga.png
 1
@@ -22498,7 +22482,7 @@ smal0236_273.dof-00.joe
 1.0
 0.0
 
-#entry 1406
+#entry 1405
 smal0237_255.dof-00.joe
 logotoyota.tga.png
 1
@@ -22514,7 +22498,7 @@ logotoyota.tga.png
 1.0
 0.0
 
-#entry 1407
+#entry 1406
 smal0237_263.dof-00.joe
 263.tga.png
 1
@@ -22530,7 +22514,7 @@ smal0237_263.dof-00.joe
 1.0
 0.0
 
-#entry 1408
+#entry 1407
 smal0237_265.dof-00.joe
 265.tga.png
 0
@@ -22546,7 +22530,7 @@ smal0237_265.dof-00.joe
 1.0
 0.0
 
-#entry 1409
+#entry 1408
 smal0237_266.dof-00.joe
 266.tga.png
 0
@@ -22562,7 +22546,7 @@ smal0237_266.dof-00.joe
 1.0
 0.0
 
-#entry 1410
+#entry 1409
 smal0237_270.dof-00.joe
 vsign100.tga.png
 1
@@ -22578,7 +22562,7 @@ vsign100.tga.png
 1.0
 0.0
 
-#entry 1411
+#entry 1410
 smal0237_271.dof-00.joe
 271.tga.png
 1
@@ -22594,7 +22578,7 @@ smal0237_271.dof-00.joe
 1.0
 0.0
 
-#entry 1412
+#entry 1411
 smal0237_272.dof-00.joe
 272.tga.png
 1
@@ -22610,7 +22594,7 @@ smal0237_272.dof-00.joe
 1.0
 0.0
 
-#entry 1413
+#entry 1412
 smal0238_263.dof-00.joe
 263.tga.png
 1
@@ -22626,7 +22610,7 @@ smal0238_263.dof-00.joe
 1.0
 0.0
 
-#entry 1414
+#entry 1413
 smal0238_264.dof-00.joe
 264.tga.png
 1
@@ -22642,7 +22626,7 @@ smal0238_264.dof-00.joe
 1.0
 0.0
 
-#entry 1415
+#entry 1414
 smal0238_265.dof-00.joe
 265.tga.png
 0
@@ -22658,7 +22642,7 @@ smal0238_265.dof-00.joe
 1.0
 0.0
 
-#entry 1416
+#entry 1415
 smal0238_266.dof-00.joe
 266.tga.png
 0
@@ -22674,7 +22658,7 @@ smal0238_266.dof-00.joe
 1.0
 0.0
 
-#entry 1417
+#entry 1416
 smal0238_267.dof-00.joe
 logotoyota.tga.png
 1
@@ -22690,7 +22674,7 @@ logotoyota.tga.png
 1.0
 0.0
 
-#entry 1418
+#entry 1417
 smal0239_255.dof-00.joe
 logotoyota.tga.png
 1
@@ -22706,7 +22690,7 @@ logotoyota.tga.png
 1.0
 0.0
 
-#entry 1419
+#entry 1418
 smal0239_263.dof-00.joe
 263.tga.png
 1
@@ -22722,7 +22706,7 @@ smal0239_263.dof-00.joe
 1.0
 0.0
 
-#entry 1420
+#entry 1419
 smal0239_265.dof-00.joe
 265.tga.png
 0
@@ -22738,7 +22722,7 @@ smal0239_265.dof-00.joe
 1.0
 0.0
 
-#entry 1421
+#entry 1420
 smal0239_266.dof-00.joe
 266.tga.png
 0
@@ -22754,7 +22738,7 @@ smal0239_266.dof-00.joe
 1.0
 0.0
 
-#entry 1422
+#entry 1421
 smal0239_271.dof-00.joe
 271.tga.png
 1
@@ -22770,7 +22754,7 @@ smal0239_271.dof-00.joe
 1.0
 0.0
 
-#entry 1423
+#entry 1422
 star0240_255.dof-00.joe
 logotoyota.tga.png
 1
@@ -22786,7 +22770,7 @@ logotoyota.tga.png
 1.0
 0.0
 
-#entry 1424
+#entry 1423
 star0240_263.dof-00.joe
 263.tga.png
 1
@@ -22802,7 +22786,7 @@ star0240_263.dof-00.joe
 1.0
 0.0
 
-#entry 1425
+#entry 1424
 star0240_265.dof-00.joe
 265.tga.png
 0
@@ -22818,7 +22802,7 @@ star0240_265.dof-00.joe
 1.0
 0.0
 
-#entry 1426
+#entry 1425
 star0240_266.dof-00.joe
 266.tga.png
 0
@@ -22834,7 +22818,7 @@ star0240_266.dof-00.joe
 1.0
 0.0
 
-#entry 1427
+#entry 1426
 star0240_269.dof-00.joe
 vsign200.tga.png
 1
@@ -22850,7 +22834,7 @@ vsign200.tga.png
 1.0
 0.0
 
-#entry 1428
+#entry 1427
 star0240_270.dof-00.joe
 vsign100.tga.png
 1
@@ -22866,7 +22850,7 @@ vsign100.tga.png
 1.0
 0.0
 
-#entry 1429
+#entry 1428
 star0240_271.dof-00.joe
 271.tga.png
 1
@@ -22882,7 +22866,7 @@ star0240_271.dof-00.joe
 1.0
 0.0
 
-#entry 1430
+#entry 1429
 star0240_275.dof-00.joe
 275.tga.png
 1
@@ -22898,7 +22882,7 @@ star0240_275.dof-00.joe
 1.0
 0.0
 
-#entry 1431
+#entry 1430
 star0241_grltglowa.dof-00.joe
 grnglow.tga.png
 1
@@ -22914,7 +22898,7 @@ grnglow.tga.png
 1.0
 0.0
 
-#entry 1432
+#entry 1431
 star0241_rdltglowa.dof-00.joe
 rdglow.tga.png
 1
@@ -22930,7 +22914,7 @@ rdglow.tga.png
 1.0
 0.0
 
-#entry 1433
+#entry 1432
 star0241_rdltglowb.dof-00.joe
 rdglow.tga.png
 1
@@ -22946,7 +22930,7 @@ rdglow.tga.png
 1.0
 0.0
 
-#entry 1434
+#entry 1433
 star0241_rdltglowc.dof-00.joe
 rdglow.tga.png
 1
@@ -22962,7 +22946,7 @@ rdglow.tga.png
 1.0
 0.0
 
-#entry 1435
+#entry 1434
 star0241_rdltglowd.dof-00.joe
 rdglow.tga.png
 1
@@ -22978,7 +22962,7 @@ rdglow.tga.png
 1.0
 0.0
 
-#entry 1436
+#entry 1435
 trac0242_grlta.dof-00.joe
 grlt.tga.png
 1
@@ -22994,7 +22978,7 @@ grlt.tga.png
 1.0
 0.0
 
-#entry 1437
+#entry 1436
 trac0242_lighta.dof-00.joe
 lighta.tga.png
 1
@@ -23010,7 +22994,7 @@ lighta.tga.png
 1.0
 0.0
 
-#entry 1438
+#entry 1437
 trac0242_lpole.dof-00.joe
 lpole.tga.png
 1
@@ -23026,7 +23010,7 @@ lpole.tga.png
 1.0
 0.0
 
-#entry 1439
+#entry 1438
 trac0242_rdlta.dof-00.joe
 rdlt.tga.png
 1
@@ -23042,7 +23026,7 @@ rdlt.tga.png
 1.0
 0.0
 
-#entry 1440
+#entry 1439
 trac0242_rdltb.dof-00.joe
 rdlt.tga.png
 1
@@ -23058,7 +23042,7 @@ rdlt.tga.png
 1.0
 0.0
 
-#entry 1441
+#entry 1440
 trac0242_rdltc.dof-00.joe
 rdlt.tga.png
 1
@@ -23074,7 +23058,7 @@ rdlt.tga.png
 1.0
 0.0
 
-#entry 1442
+#entry 1441
 trac0242_rdltd.dof-00.joe
 rdlt.tga.png
 1
@@ -23090,7 +23074,7 @@ rdlt.tga.png
 1.0
 0.0
 
-#entry 1443
+#entry 1442
 trac0243_grdr02.dof-00.joe
 365.tga.png
 1
@@ -23106,7 +23090,7 @@ trac0243_grdr02.dof-00.joe
 1.0
 0.0
 
-#entry 1444
+#entry 1443
 trac0243_road01.dof-00.joe
 road1.tga.png
 1
@@ -23122,7 +23106,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1445
+#entry 1444
 trac0243_wall13.dof-00.joe
 logoallianz.tga.png
 1
@@ -23138,7 +23122,7 @@ logoallianz.tga.png
 1.0
 0.0
 
-#entry 1446
+#entry 1445
 trac0244_grdr02.dof-00.joe
 365.tga.png
 1
@@ -23154,7 +23138,7 @@ trac0244_grdr02.dof-00.joe
 1.0
 0.0
 
-#entry 1447
+#entry 1446
 trac0244_rmbl01.dof-00.joe
 rmbl1.tga.png
 1
@@ -23170,7 +23154,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1448
+#entry 1447
 trac0244_rmbl02.dof-00.joe
 rmbl1.tga.png
 1
@@ -23186,7 +23170,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1449
+#entry 1448
 trac0244_rmbl03.dof-00.joe
 rmbl1.tga.png
 1
@@ -23202,7 +23186,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1450
+#entry 1449
 trac0244_road01.dof-00.joe
 road1.tga.png
 1
@@ -23218,7 +23202,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1451
+#entry 1450
 trac0245_grdr02.dof-00.joe
 365.tga.png
 1
@@ -23234,7 +23218,7 @@ trac0245_grdr02.dof-00.joe
 1.0
 0.0
 
-#entry 1452
+#entry 1451
 trac0245_rmbl01.dof-00.joe
 rmbl1.tga.png
 1
@@ -23250,7 +23234,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1453
+#entry 1452
 trac0245_rmbl02.dof-00.joe
 rmbl1.tga.png
 1
@@ -23266,7 +23250,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1454
+#entry 1453
 trac0245_rmbl03.dof-00.joe
 rmbl1.tga.png
 1
@@ -23282,7 +23266,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1455
+#entry 1454
 trac0245_road01.dof-00.joe
 road1.tga.png
 1
@@ -23298,7 +23282,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1456
+#entry 1455
 trac0246_grdr02.dof-00.joe
 365.tga.png
 1
@@ -23314,7 +23298,7 @@ trac0246_grdr02.dof-00.joe
 1.0
 0.0
 
-#entry 1457
+#entry 1456
 trac0246_rmbl01.dof-00.joe
 rmbl1.tga.png
 1
@@ -23330,7 +23314,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1458
+#entry 1457
 trac0246_rmbl02.dof-00.joe
 rmbl1.tga.png
 1
@@ -23346,7 +23330,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1459
+#entry 1458
 trac0246_rmbl03.dof-00.joe
 rmbl1.tga.png
 1
@@ -23362,7 +23346,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1460
+#entry 1459
 trac0246_road01.dof-00.joe
 road1.tga.png
 1
@@ -23378,7 +23362,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1461
+#entry 1460
 trac0246_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -23394,7 +23378,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1462
+#entry 1461
 trac0247_384.dof-00.joe
 384.tga.png
 1
@@ -23410,7 +23394,7 @@ trac0247_384.dof-00.joe
 1.0
 0.0
 
-#entry 1463
+#entry 1462
 trac0247_grdr02.dof-00.joe
 365.tga.png
 1
@@ -23426,7 +23410,7 @@ trac0247_grdr02.dof-00.joe
 1.0
 0.0
 
-#entry 1464
+#entry 1463
 trac0247_rmbl01.dof-00.joe
 rmbl1.tga.png
 1
@@ -23442,7 +23426,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1465
+#entry 1464
 trac0247_rmbl02.dof-00.joe
 rmbl1.tga.png
 1
@@ -23458,7 +23442,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1466
+#entry 1465
 trac0247_rmbl03.dof-00.joe
 rmbl1.tga.png
 1
@@ -23474,7 +23458,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1467
+#entry 1466
 trac0247_road01.dof-00.joe
 road1.tga.png
 1
@@ -23490,7 +23474,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1468
+#entry 1467
 trac0247_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -23506,7 +23490,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1469
+#entry 1468
 trac0247_wall01.dof-00.joe
 379.tga.png
 1
@@ -23522,7 +23506,7 @@ trac0247_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1470
+#entry 1469
 trac0248_384.dof-00.joe
 384.tga.png
 1
@@ -23538,7 +23522,7 @@ trac0248_384.dof-00.joe
 1.0
 0.0
 
-#entry 1471
+#entry 1470
 trac0248_grdr01.dof-00.joe
 385.tga.png
 1
@@ -23554,7 +23538,7 @@ trac0248_grdr01.dof-00.joe
 1.0
 0.0
 
-#entry 1472
+#entry 1471
 trac0248_rmbl01.dof-00.joe
 rmbl1.tga.png
 1
@@ -23570,7 +23554,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1473
+#entry 1472
 trac0248_rmbl02.dof-00.joe
 rmbl1.tga.png
 1
@@ -23586,7 +23570,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1474
+#entry 1473
 trac0248_rmbl03.dof-00.joe
 rmbl1.tga.png
 1
@@ -23602,7 +23586,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1475
+#entry 1474
 trac0248_road01.dof-00.joe
 road1.tga.png
 1
@@ -23618,7 +23602,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1476
+#entry 1475
 trac0248_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -23634,7 +23618,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1477
+#entry 1476
 trac0248_wall01.dof-00.joe
 379.tga.png
 1
@@ -23650,7 +23634,7 @@ trac0248_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1478
+#entry 1477
 trac0249_road01.dof-00.joe
 road1.tga.png
 1
@@ -23666,7 +23650,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1479
+#entry 1478
 trac0249_wall01.dof-00.joe
 379.tga.png
 1
@@ -23682,7 +23666,7 @@ trac0249_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1480
+#entry 1479
 trac0249_wall02.dof-00.joe
 386.tga.png
 1
@@ -23698,7 +23682,7 @@ trac0249_wall02.dof-00.joe
 1.0
 0.0
 
-#entry 1481
+#entry 1480
 trac0250_road01.dof-00.joe
 road1.tga.png
 1
@@ -23714,7 +23698,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1482
+#entry 1481
 trac0250_wall01.dof-00.joe
 379.tga.png
 1
@@ -23730,7 +23714,7 @@ trac0250_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1483
+#entry 1482
 trac0250_wall02.dof-00.joe
 386.tga.png
 1
@@ -23746,7 +23730,7 @@ trac0250_wall02.dof-00.joe
 1.0
 0.0
 
-#entry 1484
+#entry 1483
 trac0251_road01.dof-00.joe
 road1.tga.png
 1
@@ -23762,7 +23746,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1485
+#entry 1484
 trac0251_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -23778,7 +23762,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1486
+#entry 1485
 trac0251_wall01.dof-00.joe
 379.tga.png
 1
@@ -23794,7 +23778,7 @@ trac0251_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1487
+#entry 1486
 trac0252_rmbl01.dof-00.joe
 rmbl1.tga.png
 1
@@ -23810,7 +23794,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1488
+#entry 1487
 trac0252_rmbl02.dof-00.joe
 rmbl1.tga.png
 1
@@ -23826,7 +23810,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1489
+#entry 1488
 trac0252_rmbl03.dof-00.joe
 rmbl1.tga.png
 1
@@ -23842,7 +23826,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1490
+#entry 1489
 trac0252_road01.dof-00.joe
 road1.tga.png
 1
@@ -23858,7 +23842,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1491
+#entry 1490
 trac0252_wall01.dof-00.joe
 379.tga.png
 1
@@ -23874,7 +23858,7 @@ trac0252_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1492
+#entry 1491
 trac0252_wall13.dof-00.joe
 logoallianz.tga.png
 1
@@ -23890,7 +23874,7 @@ logoallianz.tga.png
 1.0
 0.0
 
-#entry 1493
+#entry 1492
 trac0253_rmbl01.dof-00.joe
 rmbl1.tga.png
 1
@@ -23906,7 +23890,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1494
+#entry 1493
 trac0253_rmbl02.dof-00.joe
 rmbl1.tga.png
 1
@@ -23922,7 +23906,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1495
+#entry 1494
 trac0253_rmbl03.dof-00.joe
 rmbl1.tga.png
 1
@@ -23938,7 +23922,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1496
+#entry 1495
 trac0253_road01.dof-00.joe
 road1.tga.png
 1
@@ -23954,7 +23938,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1497
+#entry 1496
 trac0254_rmbl01.dof-00.joe
 rmbl1.tga.png
 1
@@ -23970,7 +23954,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1498
+#entry 1497
 trac0254_rmbl02.dof-00.joe
 rmbl1.tga.png
 1
@@ -23986,7 +23970,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1499
+#entry 1498
 trac0254_road01.dof-00.joe
 road1.tga.png
 1
@@ -24002,7 +23986,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1500
+#entry 1499
 trac0254_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -24018,7 +24002,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1501
+#entry 1500
 trac0255_384.dof-00.joe
 384.tga.png
 1
@@ -24034,7 +24018,7 @@ trac0255_384.dof-00.joe
 1.0
 0.0
 
-#entry 1502
+#entry 1501
 trac0255_rmbl01.dof-00.joe
 rmbl1.tga.png
 1
@@ -24050,7 +24034,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1503
+#entry 1502
 trac0255_rmbl02.dof-00.joe
 rmbl1.tga.png
 1
@@ -24066,7 +24050,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1504
+#entry 1503
 trac0255_rmbl03.dof-00.joe
 rmbl1.tga.png
 1
@@ -24082,7 +24066,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1505
+#entry 1504
 trac0255_road01.dof-00.joe
 road1.tga.png
 1
@@ -24098,7 +24082,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1506
+#entry 1505
 trac0255_wall02.dof-00.joe
 386.tga.png
 1
@@ -24114,7 +24098,7 @@ trac0255_wall02.dof-00.joe
 1.0
 0.0
 
-#entry 1507
+#entry 1506
 trac0256_384.dof-00.joe
 384.tga.png
 1
@@ -24130,7 +24114,7 @@ trac0256_384.dof-00.joe
 1.0
 0.0
 
-#entry 1508
+#entry 1507
 trac0256_rmbl01.dof-00.joe
 rmbl1.tga.png
 1
@@ -24146,7 +24130,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1509
+#entry 1508
 trac0256_rmbl02.dof-00.joe
 rmbl1.tga.png
 1
@@ -24162,7 +24146,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1510
+#entry 1509
 trac0256_rmbl03.dof-00.joe
 rmbl1.tga.png
 1
@@ -24178,7 +24162,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1511
+#entry 1510
 trac0256_road01.dof-00.joe
 road1.tga.png
 1
@@ -24194,7 +24178,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1512
+#entry 1511
 trac0256_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -24210,7 +24194,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1513
+#entry 1512
 trac0257_road01.dof-00.joe
 road1.tga.png
 1
@@ -24226,7 +24210,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1514
+#entry 1513
 trac0257_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -24242,7 +24226,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1515
+#entry 1514
 trac0257_wall01.dof-00.joe
 379.tga.png
 1
@@ -24258,7 +24242,7 @@ trac0257_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1516
+#entry 1515
 trac0258_grdr02.dof-00.joe
 365.tga.png
 1
@@ -24274,7 +24258,7 @@ trac0258_grdr02.dof-00.joe
 1.0
 0.0
 
-#entry 1517
+#entry 1516
 trac0258_rmbl01.dof-00.joe
 rmbl1.tga.png
 1
@@ -24290,7 +24274,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1518
+#entry 1517
 trac0258_rmbl02.dof-00.joe
 rmbl1.tga.png
 1
@@ -24306,7 +24290,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1519
+#entry 1518
 trac0258_rmbl03.dof-00.joe
 rmbl1.tga.png
 1
@@ -24322,7 +24306,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1520
+#entry 1519
 trac0258_road01.dof-00.joe
 road1.tga.png
 1
@@ -24338,7 +24322,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1521
+#entry 1520
 trac0258_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -24354,7 +24338,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1522
+#entry 1521
 trac0258_wall01.dof-00.joe
 379.tga.png
 1
@@ -24370,7 +24354,7 @@ trac0258_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1523
+#entry 1522
 trac0258_wall11.dof-00.joe
 383.tga.png
 1
@@ -24386,7 +24370,7 @@ trac0258_wall11.dof-00.joe
 1.0
 0.0
 
-#entry 1524
+#entry 1523
 trac0259_rmbl01.dof-00.joe
 rmbl1.tga.png
 1
@@ -24402,7 +24386,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1525
+#entry 1524
 trac0259_rmbl02.dof-00.joe
 rmbl1.tga.png
 1
@@ -24418,7 +24402,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1526
+#entry 1525
 trac0259_rmbl03.dof-00.joe
 rmbl1.tga.png
 1
@@ -24434,7 +24418,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1527
+#entry 1526
 trac0259_road01.dof-00.joe
 road1.tga.png
 1
@@ -24450,7 +24434,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1528
+#entry 1527
 trac0259_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -24466,7 +24450,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1529
+#entry 1528
 trac0260_382.dof-00.joe
 logovod.tga.png
 1
@@ -24482,7 +24466,7 @@ logovod.tga.png
 1.0
 0.0
 
-#entry 1530
+#entry 1529
 trac0260_road01.dof-00.joe
 road1.tga.png
 1
@@ -24498,7 +24482,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1531
+#entry 1530
 trac0260_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -24514,7 +24498,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1532
+#entry 1531
 trac0261_rmbl01.dof-00.joe
 rmbl1.tga.png
 1
@@ -24530,7 +24514,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1533
+#entry 1532
 trac0261_rmbl02.dof-00.joe
 rmbl1.tga.png
 1
@@ -24546,7 +24530,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1534
+#entry 1533
 trac0261_rmbl03.dof-00.joe
 rmbl1.tga.png
 1
@@ -24562,7 +24546,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1535
+#entry 1534
 trac0261_road01.dof-00.joe
 road1.tga.png
 1
@@ -24578,7 +24562,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1536
+#entry 1535
 trac0261_wall01.dof-00.joe
 379.tga.png
 1
@@ -24594,7 +24578,7 @@ trac0261_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1537
+#entry 1536
 trac0262_rmbl01.dof-00.joe
 rmbl1.tga.png
 1
@@ -24610,7 +24594,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1538
+#entry 1537
 trac0262_rmbl02.dof-00.joe
 rmbl1.tga.png
 1
@@ -24626,7 +24610,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1539
+#entry 1538
 trac0262_rmbl03.dof-00.joe
 rmbl1.tga.png
 1
@@ -24642,7 +24626,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1540
+#entry 1539
 trac0262_road01.dof-00.joe
 road1.tga.png
 1
@@ -24658,7 +24642,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1541
+#entry 1540
 trac0262_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -24674,7 +24658,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1542
+#entry 1541
 trac0263_grdr02.dof-00.joe
 365.tga.png
 1
@@ -24690,7 +24674,7 @@ trac0263_grdr02.dof-00.joe
 1.0
 0.0
 
-#entry 1543
+#entry 1542
 trac0263_road01.dof-00.joe
 road1.tga.png
 1
@@ -24706,7 +24690,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1544
+#entry 1543
 trac0263_roadgridnew.dof-00.joe
 road2.tga.png
 1
@@ -24722,7 +24706,7 @@ road2.tga.png
 1.0
 0.0
 
-#entry 1545
+#entry 1544
 trac0263_roadpits.dof-00.joe
 450.tga.png
 1
@@ -24738,7 +24722,7 @@ trac0263_roadpits.dof-00.joe
 1.0
 0.0
 
-#entry 1546
+#entry 1545
 trac0263_wall13.dof-00.joe
 logoallianz.tga.png
 1
@@ -24754,7 +24738,7 @@ logoallianz.tga.png
 1.0
 0.0
 
-#entry 1547
+#entry 1546
 trac0263_wall14.dof-00.joe
 244.tga.png
 1
@@ -24770,7 +24754,7 @@ trac0263_wall14.dof-00.joe
 1.0
 0.0
 
-#entry 1548
+#entry 1547
 trac0264_rmbl01.dof-00.joe
 rmbl1.tga.png
 1
@@ -24786,7 +24770,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1549
+#entry 1548
 trac0264_rmbl02.dof-00.joe
 rmbl1.tga.png
 1
@@ -24802,7 +24786,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1550
+#entry 1549
 trac0264_rmbl03.dof-00.joe
 rmbl1.tga.png
 1
@@ -24818,7 +24802,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1551
+#entry 1550
 trac0264_road01.dof-00.joe
 road1.tga.png
 1
@@ -24834,7 +24818,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1552
+#entry 1551
 trac0264_roadgridnew.dof-00.joe
 road2.tga.png
 1
@@ -24850,7 +24834,7 @@ road2.tga.png
 1.0
 0.0
 
-#entry 1553
+#entry 1552
 trac0264_roadpits.dof-00.joe
 450.tga.png
 1
@@ -24866,7 +24850,7 @@ trac0264_roadpits.dof-00.joe
 1.0
 0.0
 
-#entry 1554
+#entry 1553
 trac0264_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -24882,7 +24866,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1555
+#entry 1554
 trac0264_wall01.dof-00.joe
 379.tga.png
 1
@@ -24898,7 +24882,7 @@ trac0264_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1556
+#entry 1555
 trac0264_wall13.dof-00.joe
 logoallianz.tga.png
 1
@@ -24914,7 +24898,7 @@ logoallianz.tga.png
 1.0
 0.0
 
-#entry 1557
+#entry 1556
 trac0264_wall14.dof-00.joe
 244.tga.png
 1
@@ -24930,7 +24914,7 @@ trac0264_wall14.dof-00.joe
 1.0
 0.0
 
-#entry 1558
+#entry 1557
 trac0265_rmbl01.dof-00.joe
 rmbl1.tga.png
 1
@@ -24946,7 +24930,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1559
+#entry 1558
 trac0265_rmbl02.dof-00.joe
 rmbl1.tga.png
 1
@@ -24962,7 +24946,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1560
+#entry 1559
 trac0265_rmbl03.dof-00.joe
 rmbl1.tga.png
 1
@@ -24978,7 +24962,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1561
+#entry 1560
 trac0265_road01.dof-00.joe
 road1.tga.png
 1
@@ -24994,7 +24978,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1562
+#entry 1561
 trac0265_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -25010,7 +24994,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1563
+#entry 1562
 trac0265_wall14.dof-00.joe
 244.tga.png
 1
@@ -25026,7 +25010,7 @@ trac0265_wall14.dof-00.joe
 1.0
 0.0
 
-#entry 1564
+#entry 1563
 trac0266_grdr02.dof-00.joe
 365.tga.png
 1
@@ -25042,7 +25026,7 @@ trac0266_grdr02.dof-00.joe
 1.0
 0.0
 
-#entry 1565
+#entry 1564
 trac0266_rmbl01.dof-00.joe
 rmbl1.tga.png
 1
@@ -25058,7 +25042,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1566
+#entry 1565
 trac0266_rmbl02.dof-00.joe
 rmbl1.tga.png
 1
@@ -25074,7 +25058,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1567
+#entry 1566
 trac0266_road01.dof-00.joe
 road1.tga.png
 1
@@ -25090,7 +25074,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1568
+#entry 1567
 trac0266_wall01.dof-00.joe
 379.tga.png
 1
@@ -25106,7 +25090,7 @@ trac0266_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1569
+#entry 1568
 trac0267_rmbl01.dof-00.joe
 rmbl1.tga.png
 1
@@ -25122,7 +25106,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1570
+#entry 1569
 trac0267_rmbl02.dof-00.joe
 rmbl1.tga.png
 1
@@ -25138,7 +25122,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1571
+#entry 1570
 trac0267_rmbl03.dof-00.joe
 rmbl1.tga.png
 1
@@ -25154,7 +25138,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1572
+#entry 1571
 trac0267_road01.dof-00.joe
 road1.tga.png
 1
@@ -25170,7 +25154,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1573
+#entry 1572
 trac0267_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -25186,7 +25170,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1574
+#entry 1573
 trac0267_wall01.dof-00.joe
 379.tga.png
 1
@@ -25202,7 +25186,7 @@ trac0267_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1575
+#entry 1574
 trac0268_grdr02.dof-00.joe
 365.tga.png
 1
@@ -25218,7 +25202,7 @@ trac0268_grdr02.dof-00.joe
 1.0
 0.0
 
-#entry 1576
+#entry 1575
 trac0268_rmbl01.dof-00.joe
 rmbl1.tga.png
 1
@@ -25234,7 +25218,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1577
+#entry 1576
 trac0268_rmbl02.dof-00.joe
 rmbl1.tga.png
 1
@@ -25250,7 +25234,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1578
+#entry 1577
 trac0268_rmbl03.dof-00.joe
 rmbl1.tga.png
 1
@@ -25266,7 +25250,7 @@ rmbl1.tga.png
 1.0
 0.0
 
-#entry 1579
+#entry 1578
 trac0268_road01.dof-00.joe
 road1.tga.png
 1
@@ -25282,7 +25266,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1580
+#entry 1579
 trac0268_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -25298,7 +25282,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1581
+#entry 1580
 trac0268_wall01.dof-00.joe
 379.tga.png
 1
@@ -25314,7 +25298,7 @@ trac0268_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1582
+#entry 1581
 trac0269_412.dof-00.joe
 412.tga.png
 1
@@ -25330,7 +25314,7 @@ trac0269_412.dof-00.joe
 1.0
 0.0
 
-#entry 1583
+#entry 1582
 trac0269_grass13.dof-00.joe
 grass01a.tga.png
 1
@@ -25346,7 +25330,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1584
+#entry 1583
 trac0269_rdcp06.dof-00.joe
 roadgreen19.tga.png
 1
@@ -25362,7 +25346,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1585
+#entry 1584
 trac0269_road01.dof-00.joe
 road1.tga.png
 1
@@ -25378,7 +25362,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1586
+#entry 1585
 trac0269_road02.dof-00.joe
 rmbl4d.tga.png
 1
@@ -25394,7 +25378,7 @@ rmbl4d.tga.png
 1.0
 0.0
 
-#entry 1587
+#entry 1586
 trac0269_roadpitlane.dof-00.joe
 roada.tga.png
 1
@@ -25410,7 +25394,7 @@ roada.tga.png
 1.0
 0.0
 
-#entry 1588
+#entry 1587
 trac0269_wall14.dof-00.joe
 244.tga.png
 1
@@ -25426,7 +25410,7 @@ trac0269_wall14.dof-00.joe
 1.0
 0.0
 
-#entry 1589
+#entry 1588
 trac0270_382.dof-00.joe
 logovod.tga.png
 1
@@ -25442,7 +25426,7 @@ logovod.tga.png
 1.0
 0.0
 
-#entry 1590
+#entry 1589
 trac0270_412.dof-00.joe
 412.tga.png
 1
@@ -25458,7 +25442,7 @@ trac0270_412.dof-00.joe
 1.0
 0.0
 
-#entry 1591
+#entry 1590
 trac0270_grass01.dof-00.joe
 grass01a.tga.png
 1
@@ -25474,7 +25458,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1592
+#entry 1591
 trac0270_grass02.dof-00.joe
 grass01a.tga.png
 1
@@ -25490,7 +25474,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1593
+#entry 1592
 trac0270_grass03.dof-00.joe
 grass01a.tga.png
 1
@@ -25506,7 +25490,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1594
+#entry 1593
 trac0270_grass04.dof-00.joe
 grass01a.tga.png
 1
@@ -25522,7 +25506,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1595
+#entry 1594
 trac0270_grdr02.dof-00.joe
 365.tga.png
 1
@@ -25538,7 +25522,7 @@ trac0270_grdr02.dof-00.joe
 1.0
 0.0
 
-#entry 1596
+#entry 1595
 trac0270_road02.dof-00.joe
 rmbl4d.tga.png
 1
@@ -25554,7 +25538,7 @@ rmbl4d.tga.png
 1.0
 0.0
 
-#entry 1597
+#entry 1596
 trac0270_roadpitlane.dof-00.joe
 roada.tga.png
 1
@@ -25570,7 +25554,7 @@ roada.tga.png
 1.0
 0.0
 
-#entry 1598
+#entry 1597
 trac0270_wall01.dof-00.joe
 379.tga.png
 1
@@ -25586,7 +25570,7 @@ trac0270_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1599
+#entry 1598
 trac0270_wall06.dof-00.joe
 381.tga.png
 1
@@ -25602,7 +25586,7 @@ trac0270_wall06.dof-00.joe
 1.0
 0.0
 
-#entry 1600
+#entry 1599
 trac0270_wall13.dof-00.joe
 logoallianz.tga.png
 1
@@ -25618,7 +25602,7 @@ logoallianz.tga.png
 1.0
 0.0
 
-#entry 1601
+#entry 1600
 trac0271_382.dof-00.joe
 logovod.tga.png
 1
@@ -25634,7 +25618,7 @@ logovod.tga.png
 1.0
 0.0
 
-#entry 1602
+#entry 1601
 trac0271_grass01.dof-00.joe
 grass01a.tga.png
 1
@@ -25650,7 +25634,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1603
+#entry 1602
 trac0271_grass02.dof-00.joe
 grass01a.tga.png
 1
@@ -25666,7 +25650,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1604
+#entry 1603
 trac0271_grass03.dof-00.joe
 grass01a.tga.png
 1
@@ -25682,7 +25666,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1605
+#entry 1604
 trac0271_grass04.dof-00.joe
 grass01a.tga.png
 1
@@ -25698,7 +25682,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1606
+#entry 1605
 trac0271_grass05.dof-00.joe
 grass01a.tga.png
 1
@@ -25714,7 +25698,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1607
+#entry 1606
 trac0271_grass06.dof-00.joe
 grass01a.tga.png
 1
@@ -25730,7 +25714,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1608
+#entry 1607
 trac0271_grass07.dof-00.joe
 grass01a.tga.png
 1
@@ -25746,7 +25730,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1609
+#entry 1608
 trac0271_grdr02.dof-00.joe
 365.tga.png
 1
@@ -25762,7 +25746,7 @@ trac0271_grdr02.dof-00.joe
 1.0
 0.0
 
-#entry 1610
+#entry 1609
 trac0271_grvl01.dof-00.joe
 graveltrap.tga.png
 1
@@ -25778,7 +25762,7 @@ graveltrap.tga.png
 40.0
 200.0
 
-#entry 1611
+#entry 1610
 trac0271_road02.dof-00.joe
 rmbl4d.tga.png
 1
@@ -25794,7 +25778,7 @@ rmbl4d.tga.png
 1.0
 0.0
 
-#entry 1612
+#entry 1611
 trac0271_wall01.dof-00.joe
 379.tga.png
 1
@@ -25810,7 +25794,7 @@ trac0271_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1613
+#entry 1612
 trac0272_grass01.dof-00.joe
 grass01a.tga.png
 1
@@ -25826,7 +25810,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1614
+#entry 1613
 trac0272_grass02.dof-00.joe
 grass01a.tga.png
 1
@@ -25842,7 +25826,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1615
+#entry 1614
 trac0272_grass03.dof-00.joe
 grass01a.tga.png
 1
@@ -25858,7 +25842,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1616
+#entry 1615
 trac0272_grass04.dof-00.joe
 grass01a.tga.png
 1
@@ -25874,7 +25858,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1617
+#entry 1616
 trac0272_grass05.dof-00.joe
 grass01a.tga.png
 1
@@ -25890,7 +25874,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1618
+#entry 1617
 trac0272_grass07.dof-00.joe
 grass01a.tga.png
 1
@@ -25906,7 +25890,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1619
+#entry 1618
 trac0272_grdr02.dof-00.joe
 365.tga.png
 1
@@ -25922,7 +25906,7 @@ trac0272_grdr02.dof-00.joe
 1.0
 0.0
 
-#entry 1620
+#entry 1619
 trac0272_grvl01.dof-00.joe
 graveltrap.tga.png
 1
@@ -25938,7 +25922,7 @@ graveltrap.tga.png
 40.0
 200.0
 
-#entry 1621
+#entry 1620
 trac0272_rdcp01.dof-00.joe
 roadgreen19.tga.png
 1
@@ -25954,7 +25938,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1622
+#entry 1621
 trac0272_rdcp06.dof-00.joe
 roadgreen19.tga.png
 1
@@ -25970,7 +25954,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1623
+#entry 1622
 trac0272_road02.dof-00.joe
 rmbl4d.tga.png
 1
@@ -25986,7 +25970,7 @@ rmbl4d.tga.png
 1.0
 0.0
 
-#entry 1624
+#entry 1623
 trac0273_grass05.dof-00.joe
 grass01a.tga.png
 1
@@ -26002,7 +25986,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1625
+#entry 1624
 trac0273_grass12.dof-00.joe
 grass01a.tga.png
 1
@@ -26018,7 +26002,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1626
+#entry 1625
 trac0273_grvl01.dof-00.joe
 graveltrap.tga.png
 1
@@ -26034,7 +26018,7 @@ graveltrap.tga.png
 40.0
 200.0
 
-#entry 1627
+#entry 1626
 trac0273_rdcp01.dof-00.joe
 roadgreen19.tga.png
 1
@@ -26050,7 +26034,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1628
+#entry 1627
 trac0273_rdcp02.dof-00.joe
 373.tga.png
 1
@@ -26066,7 +26050,7 @@ trac0273_rdcp02.dof-00.joe
 1.0
 0.0
 
-#entry 1629
+#entry 1628
 trac0273_road02.dof-00.joe
 rmbl4d.tga.png
 1
@@ -26082,7 +26066,7 @@ rmbl4d.tga.png
 1.0
 0.0
 
-#entry 1630
+#entry 1629
 trac0274_384.dof-00.joe
 384.tga.png
 1
@@ -26098,7 +26082,7 @@ trac0274_384.dof-00.joe
 1.0
 0.0
 
-#entry 1631
+#entry 1630
 trac0274_grass01.dof-00.joe
 grass01a.tga.png
 1
@@ -26114,7 +26098,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1632
+#entry 1631
 trac0274_grass02.dof-00.joe
 grass01a.tga.png
 1
@@ -26130,7 +26114,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1633
+#entry 1632
 trac0274_grass03.dof-00.joe
 grass01a.tga.png
 1
@@ -26146,7 +26130,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1634
+#entry 1633
 trac0274_grass05.dof-00.joe
 grass01a.tga.png
 1
@@ -26162,7 +26146,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1635
+#entry 1634
 trac0274_grass12.dof-00.joe
 grass01a.tga.png
 1
@@ -26178,7 +26162,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1636
+#entry 1635
 trac0274_grvl01.dof-00.joe
 graveltrap.tga.png
 1
@@ -26194,7 +26178,7 @@ graveltrap.tga.png
 40.0
 200.0
 
-#entry 1637
+#entry 1636
 trac0274_rdcp01.dof-00.joe
 roadgreen19.tga.png
 1
@@ -26210,7 +26194,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1638
+#entry 1637
 trac0274_rdcp02.dof-00.joe
 373.tga.png
 1
@@ -26226,7 +26210,7 @@ trac0274_rdcp02.dof-00.joe
 1.0
 0.0
 
-#entry 1639
+#entry 1638
 trac0274_rdcp03.dof-00.joe
 roadgreen19.tga.png
 1
@@ -26242,7 +26226,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1640
+#entry 1639
 trac0274_rdcp06.dof-00.joe
 roadgreen19.tga.png
 1
@@ -26258,7 +26242,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1641
+#entry 1640
 trac0274_road02.dof-00.joe
 rmbl4d.tga.png
 1
@@ -26274,7 +26258,7 @@ rmbl4d.tga.png
 1.0
 0.0
 
-#entry 1642
+#entry 1641
 trac0274_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -26290,7 +26274,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1643
+#entry 1642
 trac0274_wall01.dof-00.joe
 379.tga.png
 1
@@ -26306,7 +26290,7 @@ trac0274_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1644
+#entry 1643
 trac0275_384.dof-00.joe
 384.tga.png
 1
@@ -26322,7 +26306,7 @@ trac0275_384.dof-00.joe
 1.0
 0.0
 
-#entry 1645
+#entry 1644
 trac0275_grass01.dof-00.joe
 grass01a.tga.png
 1
@@ -26338,7 +26322,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1646
+#entry 1645
 trac0275_grass02.dof-00.joe
 grass01a.tga.png
 1
@@ -26354,7 +26338,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1647
+#entry 1646
 trac0275_grass03.dof-00.joe
 grass01a.tga.png
 1
@@ -26370,7 +26354,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1648
+#entry 1647
 trac0275_grass04.dof-00.joe
 grass01a.tga.png
 1
@@ -26386,7 +26370,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1649
+#entry 1648
 trac0275_grass05.dof-00.joe
 grass01a.tga.png
 1
@@ -26402,7 +26386,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1650
+#entry 1649
 trac0275_grass08.dof-00.joe
 grass01a.tga.png
 1
@@ -26418,7 +26402,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1651
+#entry 1650
 trac0275_grdr01.dof-00.joe
 385.tga.png
 1
@@ -26434,7 +26418,7 @@ trac0275_grdr01.dof-00.joe
 1.0
 0.0
 
-#entry 1652
+#entry 1651
 trac0275_grvl01.dof-00.joe
 graveltrap.tga.png
 1
@@ -26450,7 +26434,7 @@ graveltrap.tga.png
 40.0
 200.0
 
-#entry 1653
+#entry 1652
 trac0275_rdcp01.dof-00.joe
 roadgreen19.tga.png
 1
@@ -26466,7 +26450,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1654
+#entry 1653
 trac0275_rdcp06.dof-00.joe
 roadgreen19.tga.png
 1
@@ -26482,7 +26466,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1655
+#entry 1654
 trac0275_road02.dof-00.joe
 rmbl4d.tga.png
 1
@@ -26498,7 +26482,7 @@ rmbl4d.tga.png
 1.0
 0.0
 
-#entry 1656
+#entry 1655
 trac0275_roadpitlane.dof-00.joe
 roada.tga.png
 1
@@ -26514,7 +26498,7 @@ roada.tga.png
 1.0
 0.0
 
-#entry 1657
+#entry 1656
 trac0275_wall01.dof-00.joe
 379.tga.png
 1
@@ -26530,7 +26514,7 @@ trac0275_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1658
+#entry 1657
 trac0276_384.dof-00.joe
 384.tga.png
 1
@@ -26546,7 +26530,7 @@ trac0276_384.dof-00.joe
 1.0
 0.0
 
-#entry 1659
+#entry 1658
 trac0276_grass01.dof-00.joe
 grass01a.tga.png
 1
@@ -26562,7 +26546,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1660
+#entry 1659
 trac0276_grass02.dof-00.joe
 grass01a.tga.png
 1
@@ -26578,7 +26562,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1661
+#entry 1660
 trac0276_grass03.dof-00.joe
 grass01a.tga.png
 1
@@ -26594,7 +26578,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1662
+#entry 1661
 trac0276_grass04.dof-00.joe
 grass01a.tga.png
 1
@@ -26610,7 +26594,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1663
+#entry 1662
 trac0276_grass08.dof-00.joe
 grass01a.tga.png
 1
@@ -26626,7 +26610,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1664
+#entry 1663
 trac0276_grass09.dof-00.joe
 grass01a.tga.png
 1
@@ -26642,7 +26626,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1665
+#entry 1664
 trac0276_grdr01.dof-00.joe
 385.tga.png
 1
@@ -26658,7 +26642,7 @@ trac0276_grdr01.dof-00.joe
 1.0
 0.0
 
-#entry 1666
+#entry 1665
 trac0276_grdr02.dof-00.joe
 365.tga.png
 1
@@ -26674,7 +26658,7 @@ trac0276_grdr02.dof-00.joe
 1.0
 0.0
 
-#entry 1667
+#entry 1666
 trac0276_grvl01.dof-00.joe
 graveltrap.tga.png
 1
@@ -26690,7 +26674,7 @@ graveltrap.tga.png
 40.0
 200.0
 
-#entry 1668
+#entry 1667
 trac0276_rdcp01.dof-00.joe
 roadgreen19.tga.png
 1
@@ -26706,7 +26690,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1669
+#entry 1668
 trac0276_rdcp06.dof-00.joe
 roadgreen19.tga.png
 1
@@ -26722,7 +26706,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1670
+#entry 1669
 trac0276_road02.dof-00.joe
 rmbl4d.tga.png
 1
@@ -26738,7 +26722,7 @@ rmbl4d.tga.png
 1.0
 0.0
 
-#entry 1671
+#entry 1670
 trac0276_roadpitlane.dof-00.joe
 roada.tga.png
 1
@@ -26754,7 +26738,7 @@ roada.tga.png
 1.0
 0.0
 
-#entry 1672
+#entry 1671
 trac0276_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -26770,7 +26754,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1673
+#entry 1672
 trac0276_wall01.dof-00.joe
 379.tga.png
 1
@@ -26786,7 +26770,7 @@ trac0276_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1674
+#entry 1673
 trac0277_grass01.dof-00.joe
 grass01a.tga.png
 1
@@ -26802,7 +26786,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1675
+#entry 1674
 trac0277_grass02.dof-00.joe
 grass01a.tga.png
 1
@@ -26818,7 +26802,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1676
+#entry 1675
 trac0277_grass03.dof-00.joe
 grass01a.tga.png
 1
@@ -26834,7 +26818,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1677
+#entry 1676
 trac0277_grass04.dof-00.joe
 grass01a.tga.png
 1
@@ -26850,7 +26834,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1678
+#entry 1677
 trac0277_grdr02.dof-00.joe
 365.tga.png
 1
@@ -26866,7 +26850,7 @@ trac0277_grdr02.dof-00.joe
 1.0
 0.0
 
-#entry 1679
+#entry 1678
 trac0277_road02.dof-00.joe
 rmbl4d.tga.png
 1
@@ -26882,7 +26866,7 @@ rmbl4d.tga.png
 1.0
 0.0
 
-#entry 1680
+#entry 1679
 trac0277_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -26898,7 +26882,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1681
+#entry 1680
 trac0277_wall01.dof-00.joe
 379.tga.png
 1
@@ -26914,7 +26898,7 @@ trac0277_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1682
+#entry 1681
 trac0277_wall03.dof-00.joe
 387.tga.png
 1
@@ -26930,7 +26914,7 @@ trac0277_wall03.dof-00.joe
 1.0
 0.0
 
-#entry 1683
+#entry 1682
 trac0277_wall04.dof-00.joe
 logoallianz.tga.png
 1
@@ -26946,7 +26930,7 @@ logoallianz.tga.png
 1.0
 0.0
 
-#entry 1684
+#entry 1683
 trac0278_grass01.dof-00.joe
 grass01a.tga.png
 1
@@ -26962,7 +26946,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1685
+#entry 1684
 trac0278_grass02.dof-00.joe
 grass01a.tga.png
 1
@@ -26978,7 +26962,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1686
+#entry 1685
 trac0278_grass03.dof-00.joe
 grass01a.tga.png
 1
@@ -26994,7 +26978,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1687
+#entry 1686
 trac0278_grass04.dof-00.joe
 grass01a.tga.png
 1
@@ -27010,7 +26994,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1688
+#entry 1687
 trac0278_grass07.dof-00.joe
 grass01a.tga.png
 1
@@ -27026,7 +27010,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1689
+#entry 1688
 trac0278_grdr02.dof-00.joe
 365.tga.png
 1
@@ -27042,7 +27026,7 @@ trac0278_grdr02.dof-00.joe
 1.0
 0.0
 
-#entry 1690
+#entry 1689
 trac0278_grvl01.dof-00.joe
 graveltrap.tga.png
 1
@@ -27058,7 +27042,7 @@ graveltrap.tga.png
 40.0
 200.0
 
-#entry 1691
+#entry 1690
 trac0278_road02.dof-00.joe
 rmbl4d.tga.png
 1
@@ -27074,7 +27058,7 @@ rmbl4d.tga.png
 1.0
 0.0
 
-#entry 1692
+#entry 1691
 trac0278_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -27090,7 +27074,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1693
+#entry 1692
 trac0278_wall01.dof-00.joe
 379.tga.png
 1
@@ -27106,7 +27090,7 @@ trac0278_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1694
+#entry 1693
 trac0278_wall04.dof-00.joe
 logoallianz.tga.png
 1
@@ -27122,7 +27106,7 @@ logoallianz.tga.png
 1.0
 0.0
 
-#entry 1695
+#entry 1694
 trac0278_wall05.dof-00.joe
 logobrdg.tga.png
 1
@@ -27138,7 +27122,7 @@ logobrdg.tga.png
 1.0
 0.0
 
-#entry 1696
+#entry 1695
 trac0278_wall06.dof-00.joe
 381.tga.png
 1
@@ -27154,7 +27138,7 @@ trac0278_wall06.dof-00.joe
 1.0
 0.0
 
-#entry 1697
+#entry 1696
 trac0278_wall11.dof-00.joe
 383.tga.png
 1
@@ -27170,7 +27154,7 @@ trac0278_wall11.dof-00.joe
 1.0
 0.0
 
-#entry 1698
+#entry 1697
 trac0279_397.dof-00.joe
 144b.tga.png
 1
@@ -27186,7 +27170,7 @@ trac0279_397.dof-00.joe
 1.0
 0.0
 
-#entry 1699
+#entry 1698
 trac0279_grass01.dof-00.joe
 grass01a.tga.png
 1
@@ -27202,7 +27186,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1700
+#entry 1699
 trac0279_grass02.dof-00.joe
 grass01a.tga.png
 1
@@ -27218,7 +27202,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1701
+#entry 1700
 trac0279_grass03.dof-00.joe
 grass01a.tga.png
 1
@@ -27234,7 +27218,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1702
+#entry 1701
 trac0279_grass04.dof-00.joe
 grass01a.tga.png
 1
@@ -27250,7 +27234,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1703
+#entry 1702
 trac0279_grass05.dof-00.joe
 grass01a.tga.png
 1
@@ -27266,7 +27250,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1704
+#entry 1703
 trac0279_grass13.dof-00.joe
 grass01a.tga.png
 1
@@ -27282,7 +27266,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1705
+#entry 1704
 trac0279_grdr02.dof-00.joe
 365.tga.png
 1
@@ -27298,7 +27282,7 @@ trac0279_grdr02.dof-00.joe
 1.0
 0.0
 
-#entry 1706
+#entry 1705
 trac0279_grvl01.dof-00.joe
 graveltrap.tga.png
 1
@@ -27314,7 +27298,7 @@ graveltrap.tga.png
 40.0
 200.0
 
-#entry 1707
+#entry 1706
 trac0279_rdcp03.dof-00.joe
 roadgreen19.tga.png
 1
@@ -27330,7 +27314,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1708
+#entry 1707
 trac0279_road02.dof-00.joe
 rmbl4d.tga.png
 1
@@ -27346,7 +27330,7 @@ rmbl4d.tga.png
 1.0
 0.0
 
-#entry 1709
+#entry 1708
 trac0279_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -27362,7 +27346,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1710
+#entry 1709
 trac0279_wall07.dof-00.joe
 393.tga.png
 1
@@ -27378,7 +27362,7 @@ trac0279_wall07.dof-00.joe
 1.0
 0.0
 
-#entry 1711
+#entry 1710
 trac0279_wall08.dof-00.joe
 logobrdg.tga.png
 1
@@ -27394,7 +27378,7 @@ logobrdg.tga.png
 1.0
 0.0
 
-#entry 1712
+#entry 1711
 trac0279_wall11.dof-00.joe
 383.tga.png
 1
@@ -27410,7 +27394,7 @@ trac0279_wall11.dof-00.joe
 1.0
 0.0
 
-#entry 1713
+#entry 1712
 trac0280_268.dof-00.joe
 144b.tga.png
 1
@@ -27426,7 +27410,7 @@ trac0280_268.dof-00.joe
 1.0
 0.0
 
-#entry 1714
+#entry 1713
 trac0280_grass01.dof-00.joe
 grass01a.tga.png
 1
@@ -27442,7 +27426,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1715
+#entry 1714
 trac0280_grass02.dof-00.joe
 grass01a.tga.png
 1
@@ -27458,7 +27442,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1716
+#entry 1715
 trac0280_grass03.dof-00.joe
 grass01a.tga.png
 1
@@ -27474,7 +27458,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1717
+#entry 1716
 trac0280_grass04.dof-00.joe
 grass01a.tga.png
 1
@@ -27490,7 +27474,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1718
+#entry 1717
 trac0280_grass05.dof-00.joe
 grass01a.tga.png
 1
@@ -27506,7 +27490,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1719
+#entry 1718
 trac0280_grass12.dof-00.joe
 grass01a.tga.png
 1
@@ -27522,7 +27506,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1720
+#entry 1719
 trac0280_grvl01.dof-00.joe
 graveltrap.tga.png
 1
@@ -27538,7 +27522,7 @@ graveltrap.tga.png
 40.0
 200.0
 
-#entry 1721
+#entry 1720
 trac0280_rdcp01.dof-00.joe
 roadgreen19.tga.png
 1
@@ -27554,7 +27538,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1722
+#entry 1721
 trac0280_rdcp04.dof-00.joe
 375.tga.png
 1
@@ -27570,7 +27554,7 @@ trac0280_rdcp04.dof-00.joe
 1.0
 0.0
 
-#entry 1723
+#entry 1722
 trac0280_rdcp06.dof-00.joe
 roadgreen19.tga.png
 1
@@ -27586,7 +27570,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1724
+#entry 1723
 trac0280_road02.dof-00.joe
 rmbl4d.tga.png
 1
@@ -27602,7 +27586,7 @@ rmbl4d.tga.png
 1.0
 0.0
 
-#entry 1725
+#entry 1724
 trac0280_roadpitlane.dof-00.joe
 roada.tga.png
 1
@@ -27618,7 +27602,7 @@ roada.tga.png
 1.0
 0.0
 
-#entry 1726
+#entry 1725
 trac0280_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -27634,7 +27618,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1727
+#entry 1726
 trac0280_wall01.dof-00.joe
 379.tga.png
 1
@@ -27650,7 +27634,7 @@ trac0280_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1728
+#entry 1727
 trac0280_wall07.dof-00.joe
 393.tga.png
 1
@@ -27666,7 +27650,7 @@ trac0280_wall07.dof-00.joe
 1.0
 0.0
 
-#entry 1729
+#entry 1728
 trac0281_268.dof-00.joe
 144b.tga.png
 1
@@ -27682,7 +27666,7 @@ trac0281_268.dof-00.joe
 1.0
 0.0
 
-#entry 1730
+#entry 1729
 trac0281_382.dof-00.joe
 logovod.tga.png
 1
@@ -27698,7 +27682,7 @@ logovod.tga.png
 1.0
 0.0
 
-#entry 1731
+#entry 1730
 trac0281_grass01.dof-00.joe
 grass01a.tga.png
 1
@@ -27714,7 +27698,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1732
+#entry 1731
 trac0281_grass02.dof-00.joe
 grass01a.tga.png
 1
@@ -27730,7 +27714,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1733
+#entry 1732
 trac0281_grass03.dof-00.joe
 grass01a.tga.png
 1
@@ -27746,7 +27730,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1734
+#entry 1733
 trac0281_grass04.dof-00.joe
 grass01a.tga.png
 1
@@ -27762,7 +27746,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1735
+#entry 1734
 trac0281_grass05.dof-00.joe
 grass01a.tga.png
 1
@@ -27778,7 +27762,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1736
+#entry 1735
 trac0281_grass07.dof-00.joe
 grass01a.tga.png
 1
@@ -27794,7 +27778,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1737
+#entry 1736
 trac0281_grass08.dof-00.joe
 grass01a.tga.png
 1
@@ -27810,7 +27794,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1738
+#entry 1737
 trac0281_grass09.dof-00.joe
 grass01a.tga.png
 1
@@ -27826,7 +27810,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1739
+#entry 1738
 trac0281_grdr02.dof-00.joe
 365.tga.png
 1
@@ -27842,7 +27826,7 @@ trac0281_grdr02.dof-00.joe
 1.0
 0.0
 
-#entry 1740
+#entry 1739
 trac0281_grvl01.dof-00.joe
 graveltrap.tga.png
 1
@@ -27858,7 +27842,7 @@ graveltrap.tga.png
 40.0
 200.0
 
-#entry 1741
+#entry 1740
 trac0281_rdcp03.dof-00.joe
 roadgreen19.tga.png
 1
@@ -27874,7 +27858,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1742
+#entry 1741
 trac0281_road02.dof-00.joe
 rmbl4d.tga.png
 1
@@ -27890,7 +27874,7 @@ rmbl4d.tga.png
 1.0
 0.0
 
-#entry 1743
+#entry 1742
 trac0281_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -27906,7 +27890,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1744
+#entry 1743
 trac0281_wall01.dof-00.joe
 379.tga.png
 1
@@ -27922,7 +27906,7 @@ trac0281_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1745
+#entry 1744
 trac0281_wall02.dof-00.joe
 386.tga.png
 1
@@ -27938,7 +27922,7 @@ trac0281_wall02.dof-00.joe
 1.0
 0.0
 
-#entry 1746
+#entry 1745
 trac0281_wall03.dof-00.joe
 387.tga.png
 1
@@ -27954,7 +27938,7 @@ trac0281_wall03.dof-00.joe
 1.0
 0.0
 
-#entry 1747
+#entry 1746
 trac0282_384.dof-00.joe
 384.tga.png
 1
@@ -27970,7 +27954,7 @@ trac0282_384.dof-00.joe
 1.0
 0.0
 
-#entry 1748
+#entry 1747
 trac0282_grass01.dof-00.joe
 grass01a.tga.png
 1
@@ -27986,7 +27970,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1749
+#entry 1748
 trac0282_grass02.dof-00.joe
 grass01a.tga.png
 1
@@ -28002,7 +27986,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1750
+#entry 1749
 trac0282_grass03.dof-00.joe
 grass01a.tga.png
 1
@@ -28018,7 +28002,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1751
+#entry 1750
 trac0282_grass04.dof-00.joe
 grass01a.tga.png
 1
@@ -28034,7 +28018,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1752
+#entry 1751
 trac0282_grass05.dof-00.joe
 grass01a.tga.png
 1
@@ -28050,7 +28034,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1753
+#entry 1752
 trac0282_grass06.dof-00.joe
 grass01a.tga.png
 1
@@ -28066,7 +28050,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1754
+#entry 1753
 trac0282_grass07.dof-00.joe
 grass01a.tga.png
 1
@@ -28082,7 +28066,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1755
+#entry 1754
 trac0282_grass12.dof-00.joe
 grass01a.tga.png
 1
@@ -28098,7 +28082,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1756
+#entry 1755
 trac0282_grvl01.dof-00.joe
 graveltrap.tga.png
 1
@@ -28114,7 +28098,7 @@ graveltrap.tga.png
 40.0
 200.0
 
-#entry 1757
+#entry 1756
 trac0282_rdcp01.dof-00.joe
 roadgreen19.tga.png
 1
@@ -28130,7 +28114,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1758
+#entry 1757
 trac0282_road02.dof-00.joe
 rmbl4d.tga.png
 1
@@ -28146,7 +28130,7 @@ rmbl4d.tga.png
 1.0
 0.0
 
-#entry 1759
+#entry 1758
 trac0282_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -28162,7 +28146,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1760
+#entry 1759
 trac0282_wall01.dof-00.joe
 379.tga.png
 1
@@ -28178,7 +28162,7 @@ trac0282_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1761
+#entry 1760
 trac0282_wall02.dof-00.joe
 386.tga.png
 1
@@ -28194,7 +28178,7 @@ trac0282_wall02.dof-00.joe
 1.0
 0.0
 
-#entry 1762
+#entry 1761
 trac0282_wall03.dof-00.joe
 387.tga.png
 1
@@ -28210,7 +28194,7 @@ trac0282_wall03.dof-00.joe
 1.0
 0.0
 
-#entry 1763
+#entry 1762
 trac0283_396.dof-00.joe
 396.tga.png
 1
@@ -28226,7 +28210,7 @@ trac0283_396.dof-00.joe
 1.0
 0.0
 
-#entry 1764
+#entry 1763
 trac0283_401.dof-00.joe
 401.tga.png
 1
@@ -28242,7 +28226,7 @@ trac0283_401.dof-00.joe
 1.0
 0.0
 
-#entry 1765
+#entry 1764
 trac0283_402.dof-00.joe
 402.tga.png
 1
@@ -28258,7 +28242,7 @@ trac0283_402.dof-00.joe
 1.0
 0.0
 
-#entry 1766
+#entry 1765
 trac0283_412.dof-00.joe
 412.tga.png
 1
@@ -28274,7 +28258,7 @@ trac0283_412.dof-00.joe
 1.0
 0.0
 
-#entry 1767
+#entry 1766
 trac0283_grass01.dof-00.joe
 grass01a.tga.png
 1
@@ -28290,7 +28274,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1768
+#entry 1767
 trac0283_grass04.dof-00.joe
 grass01a.tga.png
 1
@@ -28306,7 +28290,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1769
+#entry 1768
 trac0283_grass05.dof-00.joe
 grass01a.tga.png
 1
@@ -28322,7 +28306,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1770
+#entry 1769
 trac0283_grass06.dof-00.joe
 grass01a.tga.png
 1
@@ -28338,7 +28322,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1771
+#entry 1770
 trac0283_grass07.dof-00.joe
 grass01a.tga.png
 1
@@ -28354,7 +28338,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1772
+#entry 1771
 trac0283_grass13.dof-00.joe
 grass01a.tga.png
 1
@@ -28370,7 +28354,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1773
+#entry 1772
 trac0283_grvl01.dof-00.joe
 graveltrap.tga.png
 1
@@ -28386,7 +28370,7 @@ graveltrap.tga.png
 40.0
 200.0
 
-#entry 1774
+#entry 1773
 trac0283_rdcp01.dof-00.joe
 roadgreen19.tga.png
 1
@@ -28402,7 +28386,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1775
+#entry 1774
 trac0283_rdcp05.dof-00.joe
 377.tga.png
 1
@@ -28418,7 +28402,7 @@ trac0283_rdcp05.dof-00.joe
 1.0
 0.0
 
-#entry 1776
+#entry 1775
 trac0283_rdcp06.dof-00.joe
 roadgreen19.tga.png
 1
@@ -28434,7 +28418,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1777
+#entry 1776
 trac0283_road02.dof-00.joe
 rmbl4d.tga.png
 1
@@ -28450,7 +28434,7 @@ rmbl4d.tga.png
 1.0
 0.0
 
-#entry 1778
+#entry 1777
 trac0283_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -28466,7 +28450,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1779
+#entry 1778
 trac0283_twall02.dof-00.joe
 413.tga.png
 1
@@ -28482,7 +28466,7 @@ trac0283_twall02.dof-00.joe
 1.0
 0.0
 
-#entry 1780
+#entry 1779
 trac0283_wall01.dof-00.joe
 379.tga.png
 1
@@ -28498,7 +28482,7 @@ trac0283_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1781
+#entry 1780
 trac0283_wall04.dof-00.joe
 logoallianz.tga.png
 1
@@ -28514,7 +28498,7 @@ logoallianz.tga.png
 1.0
 0.0
 
-#entry 1782
+#entry 1781
 trac0283_wall05.dof-00.joe
 logobrdg.tga.png
 1
@@ -28530,7 +28514,7 @@ logobrdg.tga.png
 1.0
 0.0
 
-#entry 1783
+#entry 1782
 trac0283_wall09.dof-00.joe
 403.tga.png
 1
@@ -28546,7 +28530,7 @@ trac0283_wall09.dof-00.joe
 1.0
 0.0
 
-#entry 1784
+#entry 1783
 trac0283_wall10.dof-00.joe
 logoallianz.tga.png
 1
@@ -28562,7 +28546,7 @@ logoallianz.tga.png
 1.0
 0.0
 
-#entry 1785
+#entry 1784
 trac0283_wall11.dof-00.joe
 383.tga.png
 1
@@ -28578,7 +28562,7 @@ trac0283_wall11.dof-00.joe
 1.0
 0.0
 
-#entry 1786
+#entry 1785
 trac0283_wall12.dof-00.joe
 400.tga.png
 1
@@ -28594,7 +28578,7 @@ trac0283_wall12.dof-00.joe
 1.0
 0.0
 
-#entry 1787
+#entry 1786
 trac0283_wall14.dof-00.joe
 244.tga.png
 1
@@ -28610,7 +28594,7 @@ trac0283_wall14.dof-00.joe
 1.0
 0.0
 
-#entry 1788
+#entry 1787
 trac0283_wall15.dof-00.joe
 398.tga.png
 1
@@ -28626,7 +28610,7 @@ trac0283_wall15.dof-00.joe
 1.0
 0.0
 
-#entry 1789
+#entry 1788
 trac0284_395.dof-00.joe
 logobrdg.tga.png
 1
@@ -28642,7 +28626,7 @@ logobrdg.tga.png
 1.0
 0.0
 
-#entry 1790
+#entry 1789
 trac0284_396.dof-00.joe
 396.tga.png
 1
@@ -28658,7 +28642,7 @@ trac0284_396.dof-00.joe
 1.0
 0.0
 
-#entry 1791
+#entry 1790
 trac0284_grass01.dof-00.joe
 grass01a.tga.png
 1
@@ -28674,7 +28658,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1792
+#entry 1791
 trac0284_grass02.dof-00.joe
 grass01a.tga.png
 1
@@ -28690,7 +28674,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1793
+#entry 1792
 trac0284_grass03.dof-00.joe
 grass01a.tga.png
 1
@@ -28706,7 +28690,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1794
+#entry 1793
 trac0284_grass04.dof-00.joe
 grass01a.tga.png
 1
@@ -28722,7 +28706,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1795
+#entry 1794
 trac0284_grvl01.dof-00.joe
 graveltrap.tga.png
 1
@@ -28738,7 +28722,7 @@ graveltrap.tga.png
 40.0
 200.0
 
-#entry 1796
+#entry 1795
 trac0284_rdcp01.dof-00.joe
 roadgreen19.tga.png
 1
@@ -28754,7 +28738,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1797
+#entry 1796
 trac0284_rdcp05.dof-00.joe
 377.tga.png
 1
@@ -28770,7 +28754,7 @@ trac0284_rdcp05.dof-00.joe
 1.0
 0.0
 
-#entry 1798
+#entry 1797
 trac0284_road02.dof-00.joe
 rmbl4d.tga.png
 1
@@ -28786,7 +28770,7 @@ rmbl4d.tga.png
 1.0
 0.0
 
-#entry 1799
+#entry 1798
 trac0284_wall01.dof-00.joe
 379.tga.png
 1
@@ -28802,7 +28786,7 @@ trac0284_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1800
+#entry 1799
 trac0284_wall15.dof-00.joe
 398.tga.png
 1
@@ -28818,7 +28802,7 @@ trac0284_wall15.dof-00.joe
 1.0
 0.0
 
-#entry 1801
+#entry 1800
 trac0285_grass01.dof-00.joe
 grass01a.tga.png
 1
@@ -28834,7 +28818,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1802
+#entry 1801
 trac0285_grass02.dof-00.joe
 grass01a.tga.png
 1
@@ -28850,7 +28834,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1803
+#entry 1802
 trac0285_grass03.dof-00.joe
 grass01a.tga.png
 1
@@ -28866,7 +28850,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1804
+#entry 1803
 trac0285_grass04.dof-00.joe
 grass01a.tga.png
 1
@@ -28882,7 +28866,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1805
+#entry 1804
 trac0285_grass05.dof-00.joe
 grass01a.tga.png
 1
@@ -28898,7 +28882,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1806
+#entry 1805
 trac0285_grass08.dof-00.joe
 grass01a.tga.png
 1
@@ -28914,7 +28898,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1807
+#entry 1806
 trac0285_grass09.dof-00.joe
 grass01a.tga.png
 1
@@ -28930,7 +28914,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1808
+#entry 1807
 trac0285_grass13.dof-00.joe
 grass01a.tga.png
 1
@@ -28946,7 +28930,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1809
+#entry 1808
 trac0285_grdr02.dof-00.joe
 365.tga.png
 1
@@ -28962,7 +28946,7 @@ trac0285_grdr02.dof-00.joe
 1.0
 0.0
 
-#entry 1810
+#entry 1809
 trac0285_grvl01.dof-00.joe
 graveltrap.tga.png
 1
@@ -28978,7 +28962,7 @@ graveltrap.tga.png
 40.0
 200.0
 
-#entry 1811
+#entry 1810
 trac0285_road02.dof-00.joe
 rmbl4d.tga.png
 1
@@ -28994,7 +28978,7 @@ rmbl4d.tga.png
 1.0
 0.0
 
-#entry 1812
+#entry 1811
 trac0285_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -29010,7 +28994,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1813
+#entry 1812
 trac0285_wall01.dof-00.joe
 379.tga.png
 1
@@ -29026,7 +29010,7 @@ trac0285_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1814
+#entry 1813
 trac0286_382.dof-00.joe
 logovod.tga.png
 1
@@ -29042,7 +29026,7 @@ logovod.tga.png
 1.0
 0.0
 
-#entry 1815
+#entry 1814
 trac0286_384.dof-00.joe
 384.tga.png
 1
@@ -29058,7 +29042,7 @@ trac0286_384.dof-00.joe
 1.0
 0.0
 
-#entry 1816
+#entry 1815
 trac0286_grass01.dof-00.joe
 grass01a.tga.png
 1
@@ -29074,7 +29058,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1817
+#entry 1816
 trac0286_grass02.dof-00.joe
 grass01a.tga.png
 1
@@ -29090,7 +29074,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1818
+#entry 1817
 trac0286_grass03.dof-00.joe
 grass01a.tga.png
 1
@@ -29106,7 +29090,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1819
+#entry 1818
 trac0286_grass04.dof-00.joe
 grass01a.tga.png
 1
@@ -29122,7 +29106,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1820
+#entry 1819
 trac0286_grass14.dof-00.joe
 144b.tga.png
 1
@@ -29138,7 +29122,7 @@ trac0286_grass14.dof-00.joe
 1.0
 0.0
 
-#entry 1821
+#entry 1820
 trac0286_grdr02.dof-00.joe
 365.tga.png
 1
@@ -29154,7 +29138,7 @@ trac0286_grdr02.dof-00.joe
 1.0
 0.0
 
-#entry 1822
+#entry 1821
 trac0286_rdcp03.dof-00.joe
 roadgreen19.tga.png
 1
@@ -29170,7 +29154,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1823
+#entry 1822
 trac0286_road02.dof-00.joe
 rmbl4d.tga.png
 1
@@ -29186,7 +29170,7 @@ rmbl4d.tga.png
 1.0
 0.0
 
-#entry 1824
+#entry 1823
 trac0286_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -29202,7 +29186,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1825
+#entry 1824
 trac0286_wall01.dof-00.joe
 379.tga.png
 1
@@ -29218,7 +29202,7 @@ trac0286_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1826
+#entry 1825
 trac0286_wall03.dof-00.joe
 387.tga.png
 1
@@ -29234,7 +29218,7 @@ trac0286_wall03.dof-00.joe
 1.0
 0.0
 
-#entry 1827
+#entry 1826
 trac0287_grass01.dof-00.joe
 grass01a.tga.png
 1
@@ -29250,7 +29234,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1828
+#entry 1827
 trac0287_grass02.dof-00.joe
 grass01a.tga.png
 1
@@ -29266,7 +29250,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1829
+#entry 1828
 trac0287_grass03.dof-00.joe
 grass01a.tga.png
 1
@@ -29282,7 +29266,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1830
+#entry 1829
 trac0287_grass04.dof-00.joe
 grass01a.tga.png
 1
@@ -29298,7 +29282,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1831
+#entry 1830
 trac0287_grass05.dof-00.joe
 grass01a.tga.png
 1
@@ -29314,7 +29298,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1832
+#entry 1831
 trac0287_grass06.dof-00.joe
 grass01a.tga.png
 1
@@ -29330,7 +29314,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1833
+#entry 1832
 trac0287_grass08.dof-00.joe
 grass01a.tga.png
 1
@@ -29346,7 +29330,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1834
+#entry 1833
 trac0287_grass09.dof-00.joe
 grass01a.tga.png
 1
@@ -29362,7 +29346,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1835
+#entry 1834
 trac0287_grvl01.dof-00.joe
 graveltrap.tga.png
 1
@@ -29378,7 +29362,7 @@ graveltrap.tga.png
 40.0
 200.0
 
-#entry 1836
+#entry 1835
 trac0287_road02.dof-00.joe
 rmbl4d.tga.png
 1
@@ -29394,7 +29378,7 @@ rmbl4d.tga.png
 1.0
 0.0
 
-#entry 1837
+#entry 1836
 trac0287_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -29410,7 +29394,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1838
+#entry 1837
 trac0287_wall01.dof-00.joe
 379.tga.png
 1
@@ -29426,7 +29410,7 @@ trac0287_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1839
+#entry 1838
 trac0287_wall03.dof-00.joe
 387.tga.png
 1
@@ -29442,7 +29426,7 @@ trac0287_wall03.dof-00.joe
 1.0
 0.0
 
-#entry 1840
+#entry 1839
 trac0288_384.dof-00.joe
 384.tga.png
 1
@@ -29458,7 +29442,7 @@ trac0288_384.dof-00.joe
 1.0
 0.0
 
-#entry 1841
+#entry 1840
 trac0288_390.dof-00.joe
 logotoyota.tga.png
 1
@@ -29474,7 +29458,7 @@ logotoyota.tga.png
 1.0
 0.0
 
-#entry 1842
+#entry 1841
 trac0288_395.dof-00.joe
 logobrdg.tga.png
 1
@@ -29490,7 +29474,7 @@ logobrdg.tga.png
 1.0
 0.0
 
-#entry 1843
+#entry 1842
 trac0288_grass01.dof-00.joe
 grass01a.tga.png
 1
@@ -29506,7 +29490,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1844
+#entry 1843
 trac0288_grass02.dof-00.joe
 grass01a.tga.png
 1
@@ -29522,7 +29506,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1845
+#entry 1844
 trac0288_grass03.dof-00.joe
 grass01a.tga.png
 1
@@ -29538,7 +29522,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1846
+#entry 1845
 trac0288_grass04.dof-00.joe
 grass01a.tga.png
 1
@@ -29554,7 +29538,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1847
+#entry 1846
 trac0288_grass05.dof-00.joe
 grass01a.tga.png
 1
@@ -29570,7 +29554,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1848
+#entry 1847
 trac0288_grass06.dof-00.joe
 grass01a.tga.png
 1
@@ -29586,7 +29570,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1849
+#entry 1848
 trac0288_grass07.dof-00.joe
 grass01a.tga.png
 1
@@ -29602,7 +29586,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1850
+#entry 1849
 trac0288_grass12.dof-00.joe
 grass01a.tga.png
 1
@@ -29618,7 +29602,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1851
+#entry 1850
 trac0288_grvl01.dof-00.joe
 graveltrap.tga.png
 1
@@ -29634,7 +29618,7 @@ graveltrap.tga.png
 40.0
 200.0
 
-#entry 1852
+#entry 1851
 trac0288_rdcp01.dof-00.joe
 roadgreen19.tga.png
 1
@@ -29650,7 +29634,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1853
+#entry 1852
 trac0288_road02.dof-00.joe
 rmbl4d.tga.png
 1
@@ -29666,7 +29650,7 @@ rmbl4d.tga.png
 1.0
 0.0
 
-#entry 1854
+#entry 1853
 trac0288_wall01.dof-00.joe
 379.tga.png
 1
@@ -29682,7 +29666,7 @@ trac0288_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1855
+#entry 1854
 trac0288_wall03.dof-00.joe
 387.tga.png
 1
@@ -29698,7 +29682,7 @@ trac0288_wall03.dof-00.joe
 1.0
 0.0
 
-#entry 1856
+#entry 1855
 trac0288_wall04.dof-00.joe
 logoallianz.tga.png
 1
@@ -29714,7 +29698,7 @@ logoallianz.tga.png
 1.0
 0.0
 
-#entry 1857
+#entry 1856
 trac0288_wall05.dof-00.joe
 logobrdg.tga.png
 1
@@ -29730,7 +29714,7 @@ logobrdg.tga.png
 1.0
 0.0
 
-#entry 1858
+#entry 1857
 trac0289_grass01.dof-00.joe
 grass01a.tga.png
 1
@@ -29746,7 +29730,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1859
+#entry 1858
 trac0289_grass02.dof-00.joe
 grass01a.tga.png
 1
@@ -29762,7 +29746,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1860
+#entry 1859
 trac0289_grass03.dof-00.joe
 grass01a.tga.png
 1
@@ -29778,7 +29762,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1861
+#entry 1860
 trac0289_grass04.dof-00.joe
 grass01a.tga.png
 1
@@ -29794,7 +29778,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1862
+#entry 1861
 trac0289_grass05.dof-00.joe
 grass01a.tga.png
 1
@@ -29810,7 +29794,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1863
+#entry 1862
 trac0289_grass08.dof-00.joe
 grass01a.tga.png
 1
@@ -29826,7 +29810,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1864
+#entry 1863
 trac0289_grass09.dof-00.joe
 grass01a.tga.png
 1
@@ -29842,7 +29826,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1865
+#entry 1864
 trac0289_grass13.dof-00.joe
 grass01a.tga.png
 1
@@ -29858,7 +29842,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1866
+#entry 1865
 trac0289_grvl01.dof-00.joe
 graveltrap.tga.png
 1
@@ -29874,7 +29858,7 @@ graveltrap.tga.png
 40.0
 200.0
 
-#entry 1867
+#entry 1866
 trac0289_rdcp03.dof-00.joe
 roadgreen19.tga.png
 1
@@ -29890,7 +29874,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1868
+#entry 1867
 trac0289_road01.dof-00.joe
 road1.tga.png
 1
@@ -29906,7 +29890,7 @@ road1.tga.png
 1.0
 0.0
 
-#entry 1869
+#entry 1868
 trac0289_road02.dof-00.joe
 rmbl4d.tga.png
 1
@@ -29922,7 +29906,7 @@ rmbl4d.tga.png
 1.0
 0.0
 
-#entry 1870
+#entry 1869
 trac0289_roadpitlane.dof-00.joe
 roada.tga.png
 1
@@ -29938,7 +29922,7 @@ roada.tga.png
 1.0
 0.0
 
-#entry 1871
+#entry 1870
 trac0290_384.dof-00.joe
 384.tga.png
 1
@@ -29954,7 +29938,7 @@ trac0290_384.dof-00.joe
 1.0
 0.0
 
-#entry 1872
+#entry 1871
 trac0290_391.dof-00.joe
 391.tga.png
 1
@@ -29970,7 +29954,7 @@ trac0290_391.dof-00.joe
 1.0
 0.0
 
-#entry 1873
+#entry 1872
 trac0290_grass01.dof-00.joe
 grass01a.tga.png
 1
@@ -29986,7 +29970,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1874
+#entry 1873
 trac0290_grass02.dof-00.joe
 grass01a.tga.png
 1
@@ -30002,7 +29986,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1875
+#entry 1874
 trac0290_grass03.dof-00.joe
 grass01a.tga.png
 1
@@ -30018,7 +30002,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1876
+#entry 1875
 trac0290_grass04.dof-00.joe
 grass01a.tga.png
 1
@@ -30034,7 +30018,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1877
+#entry 1876
 trac0290_grass05.dof-00.joe
 grass01a.tga.png
 1
@@ -30050,7 +30034,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1878
+#entry 1877
 trac0290_grass12.dof-00.joe
 grass01a.tga.png
 1
@@ -30066,7 +30050,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1879
+#entry 1878
 trac0290_grvl01.dof-00.joe
 graveltrap.tga.png
 1
@@ -30082,7 +30066,7 @@ graveltrap.tga.png
 40.0
 200.0
 
-#entry 1880
+#entry 1879
 trac0290_rdcp01.dof-00.joe
 roadgreen19.tga.png
 1
@@ -30098,7 +30082,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1881
+#entry 1880
 trac0290_rdcp03.dof-00.joe
 roadgreen19.tga.png
 1
@@ -30114,7 +30098,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1882
+#entry 1881
 trac0290_rdcp04.dof-00.joe
 375.tga.png
 1
@@ -30130,7 +30114,7 @@ trac0290_rdcp04.dof-00.joe
 1.0
 0.0
 
-#entry 1883
+#entry 1882
 trac0290_road02.dof-00.joe
 rmbl4d.tga.png
 1
@@ -30146,7 +30130,7 @@ rmbl4d.tga.png
 1.0
 0.0
 
-#entry 1884
+#entry 1883
 trac0290_roadpitlane.dof-00.joe
 roada.tga.png
 1
@@ -30162,7 +30146,7 @@ roada.tga.png
 1.0
 0.0
 
-#entry 1885
+#entry 1884
 trac0290_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -30178,7 +30162,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1886
+#entry 1885
 trac0290_wall01.dof-00.joe
 379.tga.png
 1
@@ -30194,7 +30178,7 @@ trac0290_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1887
+#entry 1886
 trac0290_wall04.dof-00.joe
 logoallianz.tga.png
 1
@@ -30210,7 +30194,7 @@ logoallianz.tga.png
 1.0
 0.0
 
-#entry 1888
+#entry 1887
 trac0291_390.dof-00.joe
 logotoyota.tga.png
 1
@@ -30226,7 +30210,7 @@ logotoyota.tga.png
 1.0
 0.0
 
-#entry 1889
+#entry 1888
 trac0291_grass01.dof-00.joe
 grass01a.tga.png
 1
@@ -30242,7 +30226,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1890
+#entry 1889
 trac0291_grass02.dof-00.joe
 grass01a.tga.png
 1
@@ -30258,7 +30242,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1891
+#entry 1890
 trac0291_grass03.dof-00.joe
 grass01a.tga.png
 1
@@ -30274,7 +30258,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1892
+#entry 1891
 trac0291_grass04.dof-00.joe
 grass01a.tga.png
 1
@@ -30290,7 +30274,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1893
+#entry 1892
 trac0291_grass05.dof-00.joe
 grass01a.tga.png
 1
@@ -30306,7 +30290,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1894
+#entry 1893
 trac0291_grvl01.dof-00.joe
 graveltrap.tga.png
 1
@@ -30322,7 +30306,7 @@ graveltrap.tga.png
 40.0
 200.0
 
-#entry 1895
+#entry 1894
 trac0291_rdcp03.dof-00.joe
 roadgreen19.tga.png
 1
@@ -30338,7 +30322,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1896
+#entry 1895
 trac0291_road02.dof-00.joe
 rmbl4d.tga.png
 1
@@ -30354,7 +30338,7 @@ rmbl4d.tga.png
 1.0
 0.0
 
-#entry 1897
+#entry 1896
 trac0291_roadpitlane.dof-00.joe
 roada.tga.png
 1
@@ -30370,7 +30354,7 @@ roada.tga.png
 1.0
 0.0
 
-#entry 1898
+#entry 1897
 trac0291_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -30386,7 +30370,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1899
+#entry 1898
 trac0291_wall01.dof-00.joe
 379.tga.png
 1
@@ -30402,7 +30386,7 @@ trac0291_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1900
+#entry 1899
 trac0291_wall06.dof-00.joe
 381.tga.png
 1
@@ -30418,7 +30402,7 @@ trac0291_wall06.dof-00.joe
 1.0
 0.0
 
-#entry 1901
+#entry 1900
 trac0291_wall13.dof-00.joe
 logoallianz.tga.png
 1
@@ -30434,7 +30418,7 @@ logoallianz.tga.png
 1.0
 0.0
 
-#entry 1902
+#entry 1901
 trac0292_384.dof-00.joe
 384.tga.png
 1
@@ -30450,7 +30434,7 @@ trac0292_384.dof-00.joe
 1.0
 0.0
 
-#entry 1903
+#entry 1902
 trac0292_392.dof-00.joe
 392.tga.png
 1
@@ -30466,7 +30450,7 @@ trac0292_392.dof-00.joe
 1.0
 0.0
 
-#entry 1904
+#entry 1903
 trac0292_grass02.dof-00.joe
 grass01a.tga.png
 1
@@ -30482,7 +30466,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1905
+#entry 1904
 trac0292_grass03.dof-00.joe
 grass01a.tga.png
 1
@@ -30498,7 +30482,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1906
+#entry 1905
 trac0292_grass07.dof-00.joe
 grass01a.tga.png
 1
@@ -30514,7 +30498,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1907
+#entry 1906
 trac0292_grass08.dof-00.joe
 grass01a.tga.png
 1
@@ -30530,7 +30514,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1908
+#entry 1907
 trac0292_grvl01.dof-00.joe
 graveltrap.tga.png
 1
@@ -30546,7 +30530,7 @@ graveltrap.tga.png
 40.0
 200.0
 
-#entry 1909
+#entry 1908
 trac0292_road02.dof-00.joe
 rmbl4d.tga.png
 1
@@ -30562,7 +30546,7 @@ rmbl4d.tga.png
 1.0
 0.0
 
-#entry 1910
+#entry 1909
 trac0292_road04.dof-00.joe
 144b.tga.png
 1
@@ -30578,7 +30562,7 @@ trac0292_road04.dof-00.joe
 1.0
 0.0
 
-#entry 1911
+#entry 1910
 trac0292_roadpitlane.dof-00.joe
 roada.tga.png
 1
@@ -30594,7 +30578,7 @@ roada.tga.png
 1.0
 0.0
 
-#entry 1912
+#entry 1911
 trac0292_twall01.dof-00.joe
 tyrewall4.tga.png
 1
@@ -30610,7 +30594,7 @@ tyrewall4.tga.png
 1.0
 0.0
 
-#entry 1913
+#entry 1912
 trac0292_wall01.dof-00.joe
 379.tga.png
 1
@@ -30626,7 +30610,7 @@ trac0292_wall01.dof-00.joe
 1.0
 0.0
 
-#entry 1914
+#entry 1913
 vide0293_391.dof-00.joe
 391.tga.png
 1
@@ -30642,7 +30626,7 @@ vide0293_391.dof-00.joe
 1.0
 0.0
 
-#entry 1915
+#entry 1914
 vide0293_grass03.dof-00.joe
 grass01a.tga.png
 1
@@ -30658,7 +30642,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1916
+#entry 1915
 vide0293_grass04.dof-00.joe
 grass01a.tga.png
 1
@@ -30674,7 +30658,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1917
+#entry 1916
 vide0293_grass05.dof-00.joe
 grass01a.tga.png
 1
@@ -30690,7 +30674,7 @@ grass01a.tga.png
 5.0
 20.0
 
-#entry 1918
+#entry 1917
 vide0293_grvl01.dof-00.joe
 graveltrap.tga.png
 1
@@ -30706,7 +30690,7 @@ graveltrap.tga.png
 40.0
 200.0
 
-#entry 1919
+#entry 1918
 vide0293_rdcp03.dof-00.joe
 roadgreen19.tga.png
 1
@@ -30722,7 +30706,7 @@ roadgreen19.tga.png
 1.0
 0.0
 
-#entry 1920
+#entry 1919
 vide0293_road02.dof-00.joe
 rmbl4d.tga.png
 1
@@ -30738,7 +30722,7 @@ rmbl4d.tga.png
 1.0
 0.0
 
-#entry 1921
+#entry 1920
 vide0293_roadpitlane.dof-00.joe
 roada.tga.png
 1
@@ -30754,7 +30738,7 @@ roada.tga.png
 1.0
 0.0
 
-#entry 1922
+#entry 1921
 vide0294_292.dof-00.joe
 292.tga.png
 1
@@ -30770,7 +30754,7 @@ vide0294_292.dof-00.joe
 1.0
 0.0
 
-#entry 1923
+#entry 1922
 vide0294_293.dof-00.joe
 293.tga.png
 1
@@ -30786,7 +30770,7 @@ vide0294_293.dof-00.joe
 1.0
 0.0
 
-#entry 1924
+#entry 1923
 vide0294_294.dof-00.joe
 294.tga.png
 1
@@ -30802,7 +30786,7 @@ vide0294_294.dof-00.joe
 1.0
 0.0
 
-#entry 1925
+#entry 1924
 vide0294_295.dof-00.joe
 295.tga.png
 1
@@ -30818,7 +30802,7 @@ vide0294_295.dof-00.joe
 1.0
 0.0
 
-#entry 1926
+#entry 1925
 vide0294_296.dof-00.joe
 296.tga.png
 1
@@ -30834,7 +30818,7 @@ vide0294_296.dof-00.joe
 1.0
 0.0
 
-#entry 1927
+#entry 1926
 vide0294_297.dof-00.joe
 297.tga.png
 1
@@ -30850,7 +30834,7 @@ vide0294_297.dof-00.joe
 1.0
 0.0
 
-#entry 1928
+#entry 1927
 vide0294_298.dof-00.joe
 298.tga.png
 1
@@ -30866,7 +30850,7 @@ vide0294_298.dof-00.joe
 1.0
 0.0
 
-#entry 1929
+#entry 1928
 vide0294_299.dof-00.joe
 299.tga.png
 0
@@ -30882,7 +30866,7 @@ vide0294_299.dof-00.joe
 1.0
 0.0
 
-#entry 1930
+#entry 1929
 vide0294_305.dof-00.joe
 305.tga.png
 1
@@ -30898,7 +30882,7 @@ vide0294_305.dof-00.joe
 1.0
 0.0
 
-#entry 1931
+#entry 1930
 vide0294_306.dof-00.joe
 306.tga.png
 1
@@ -30914,7 +30898,7 @@ vide0294_306.dof-00.joe
 1.0
 0.0
 
-#entry 1932
+#entry 1931
 vide0294_307.dof-00.joe
 307.tga.png
 1
@@ -30930,7 +30914,7 @@ vide0294_307.dof-00.joe
 1.0
 0.0
 
-#entry 1933
+#entry 1932
 vide0294_308.dof-00.joe
 308.tga.png
 1
@@ -30946,7 +30930,7 @@ vide0294_308.dof-00.joe
 1.0
 0.0
 
-#entry 1934
+#entry 1933
 vide0294_309.dof-00.joe
 309.tga.png
 1
@@ -30962,7 +30946,7 @@ vide0294_309.dof-00.joe
 1.0
 0.0
 
-#entry 1935
+#entry 1934
 vide0294_310.dof-00.joe
 310.tga.png
 1
@@ -30978,7 +30962,7 @@ vide0294_310.dof-00.joe
 1.0
 0.0
 
-#entry 1936
+#entry 1935
 vide0294_311.dof-00.joe
 311.tga.png
 1
@@ -30994,7 +30978,7 @@ vide0294_311.dof-00.joe
 1.0
 0.0
 
-#entry 1937
+#entry 1936
 vide0294_312.dof-00.joe
 312.tga.png
 1
@@ -31010,7 +30994,7 @@ vide0294_312.dof-00.joe
 1.0
 0.0
 
-#entry 1938
+#entry 1937
 vide0294_313.dof-00.joe
 313.tga.png
 1
@@ -31026,7 +31010,7 @@ vide0294_313.dof-00.joe
 1.0
 0.0
 
-#entry 1939
+#entry 1938
 vide0294_314.dof-00.joe
 314.tga.png
 1
@@ -31042,7 +31026,7 @@ vide0294_314.dof-00.joe
 1.0
 0.0
 
-#entry 1940
+#entry 1939
 vide0294_315.dof-00.joe
 315.tga.png
 1
@@ -31058,7 +31042,7 @@ vide0294_315.dof-00.joe
 1.0
 0.0
 
-#entry 1941
+#entry 1940
 vide0295_292.dof-00.joe
 292.tga.png
 1
@@ -31074,7 +31058,7 @@ vide0295_292.dof-00.joe
 1.0
 0.0
 
-#entry 1942
+#entry 1941
 vide0295_305.dof-00.joe
 305.tga.png
 1
@@ -31090,7 +31074,7 @@ vide0295_305.dof-00.joe
 1.0
 0.0
 
-#entry 1943
+#entry 1942
 vide0295_306.dof-00.joe
 306.tga.png
 1
@@ -31106,7 +31090,7 @@ vide0295_306.dof-00.joe
 1.0
 0.0
 
-#entry 1944
+#entry 1943
 vide0295_307.dof-00.joe
 307.tga.png
 1
@@ -31122,7 +31106,7 @@ vide0295_307.dof-00.joe
 1.0
 0.0
 
-#entry 1945
+#entry 1944
 vide0295_308.dof-00.joe
 308.tga.png
 1
@@ -31138,7 +31122,7 @@ vide0295_308.dof-00.joe
 1.0
 0.0
 
-#entry 1946
+#entry 1945
 vide0295_309.dof-00.joe
 309.tga.png
 1
@@ -31154,7 +31138,7 @@ vide0295_309.dof-00.joe
 1.0
 0.0
 
-#entry 1947
+#entry 1946
 vide0295_310.dof-00.joe
 310.tga.png
 1
@@ -31170,7 +31154,7 @@ vide0295_310.dof-00.joe
 1.0
 0.0
 
-#entry 1948
+#entry 1947
 vide0295_311.dof-00.joe
 311.tga.png
 1
@@ -31186,7 +31170,7 @@ vide0295_311.dof-00.joe
 1.0
 0.0
 
-#entry 1949
+#entry 1948
 vide0295_312.dof-00.joe
 312.tga.png
 1
@@ -31202,7 +31186,7 @@ vide0295_312.dof-00.joe
 1.0
 0.0
 
-#entry 1950
+#entry 1949
 vide0295_313.dof-00.joe
 313.tga.png
 1
@@ -31218,7 +31202,7 @@ vide0295_313.dof-00.joe
 1.0
 0.0
 
-#entry 1951
+#entry 1950
 vide0295_314.dof-00.joe
 314.tga.png
 1
@@ -31234,7 +31218,7 @@ vide0295_314.dof-00.joe
 1.0
 0.0
 
-#entry 1952
+#entry 1951
 vide0295_315.dof-00.joe
 315.tga.png
 1
@@ -31250,7 +31234,7 @@ vide0295_315.dof-00.joe
 1.0
 0.0
 
-#entry 1953
+#entry 1952
 vide0296_292.dof-00.joe
 292.tga.png
 1
@@ -31266,7 +31250,7 @@ vide0296_292.dof-00.joe
 1.0
 0.0
 
-#entry 1954
+#entry 1953
 vide0296_305.dof-00.joe
 305.tga.png
 1
@@ -31282,7 +31266,7 @@ vide0296_305.dof-00.joe
 1.0
 0.0
 
-#entry 1955
+#entry 1954
 vide0296_306.dof-00.joe
 306.tga.png
 1
@@ -31298,7 +31282,7 @@ vide0296_306.dof-00.joe
 1.0
 0.0
 
-#entry 1956
+#entry 1955
 vide0296_307.dof-00.joe
 307.tga.png
 1
@@ -31314,7 +31298,7 @@ vide0296_307.dof-00.joe
 1.0
 0.0
 
-#entry 1957
+#entry 1956
 vide0296_308.dof-00.joe
 308.tga.png
 1
@@ -31330,7 +31314,7 @@ vide0296_308.dof-00.joe
 1.0
 0.0
 
-#entry 1958
+#entry 1957
 vide0296_309.dof-00.joe
 309.tga.png
 1
@@ -31346,7 +31330,7 @@ vide0296_309.dof-00.joe
 1.0
 0.0
 
-#entry 1959
+#entry 1958
 vide0296_310.dof-00.joe
 310.tga.png
 1
@@ -31362,7 +31346,7 @@ vide0296_310.dof-00.joe
 1.0
 0.0
 
-#entry 1960
+#entry 1959
 vide0296_311.dof-00.joe
 311.tga.png
 1
@@ -31378,7 +31362,7 @@ vide0296_311.dof-00.joe
 1.0
 0.0
 
-#entry 1961
+#entry 1960
 vide0296_312.dof-00.joe
 312.tga.png
 1
@@ -31394,7 +31378,7 @@ vide0296_312.dof-00.joe
 1.0
 0.0
 
-#entry 1962
+#entry 1961
 vide0296_313.dof-00.joe
 313.tga.png
 1
@@ -31410,7 +31394,7 @@ vide0296_313.dof-00.joe
 1.0
 0.0
 
-#entry 1963
+#entry 1962
 vide0296_314.dof-00.joe
 314.tga.png
 1
@@ -31426,7 +31410,7 @@ vide0296_314.dof-00.joe
 1.0
 0.0
 
-#entry 1964
+#entry 1963
 vide0296_315.dof-00.joe
 315.tga.png
 1
@@ -31442,7 +31426,7 @@ vide0296_315.dof-00.joe
 1.0
 0.0
 
-#entry 1965
+#entry 1964
 vide0297_292.dof-00.joe
 292.tga.png
 1
@@ -31458,7 +31442,7 @@ vide0297_292.dof-00.joe
 1.0
 0.0
 
-#entry 1966
+#entry 1965
 vide0297_305.dof-00.joe
 305.tga.png
 1
@@ -31474,7 +31458,7 @@ vide0297_305.dof-00.joe
 1.0
 0.0
 
-#entry 1967
+#entry 1966
 vide0297_306.dof-00.joe
 306.tga.png
 1
@@ -31490,7 +31474,7 @@ vide0297_306.dof-00.joe
 1.0
 0.0
 
-#entry 1968
+#entry 1967
 vide0297_307.dof-00.joe
 307.tga.png
 1
@@ -31506,7 +31490,7 @@ vide0297_307.dof-00.joe
 1.0
 0.0
 
-#entry 1969
+#entry 1968
 vide0297_308.dof-00.joe
 308.tga.png
 1
@@ -31522,7 +31506,7 @@ vide0297_308.dof-00.joe
 1.0
 0.0
 
-#entry 1970
+#entry 1969
 vide0297_309.dof-00.joe
 309.tga.png
 1
@@ -31538,7 +31522,7 @@ vide0297_309.dof-00.joe
 1.0
 0.0
 
-#entry 1971
+#entry 1970
 vide0297_310.dof-00.joe
 310.tga.png
 1
@@ -31554,7 +31538,7 @@ vide0297_310.dof-00.joe
 1.0
 0.0
 
-#entry 1972
+#entry 1971
 vide0297_311.dof-00.joe
 311.tga.png
 1
@@ -31570,7 +31554,7 @@ vide0297_311.dof-00.joe
 1.0
 0.0
 
-#entry 1973
+#entry 1972
 vide0297_312.dof-00.joe
 312.tga.png
 1
@@ -31586,7 +31570,7 @@ vide0297_312.dof-00.joe
 1.0
 0.0
 
-#entry 1974
+#entry 1973
 vide0297_313.dof-00.joe
 313.tga.png
 1
@@ -31602,7 +31586,7 @@ vide0297_313.dof-00.joe
 1.0
 0.0
 
-#entry 1975
+#entry 1974
 vide0297_314.dof-00.joe
 314.tga.png
 1
@@ -31618,7 +31602,7 @@ vide0297_314.dof-00.joe
 1.0
 0.0
 
-#entry 1976
+#entry 1975
 vide0297_315.dof-00.joe
 315.tga.png
 1
@@ -31634,7 +31618,7 @@ vide0297_315.dof-00.joe
 1.0
 0.0
 
-#entry 1977
+#entry 1976
 vide0298_292.dof-00.joe
 292.tga.png
 1
@@ -31650,7 +31634,7 @@ vide0298_292.dof-00.joe
 1.0
 0.0
 
-#entry 1978
+#entry 1977
 vide0298_293.dof-00.joe
 293.tga.png
 1
@@ -31666,7 +31650,7 @@ vide0298_293.dof-00.joe
 1.0
 0.0
 
-#entry 1979
+#entry 1978
 vide0298_294.dof-00.joe
 294.tga.png
 1
@@ -31682,7 +31666,7 @@ vide0298_294.dof-00.joe
 1.0
 0.0
 
-#entry 1980
+#entry 1979
 vide0298_295.dof-00.joe
 295.tga.png
 1
@@ -31698,7 +31682,7 @@ vide0298_295.dof-00.joe
 1.0
 0.0
 
-#entry 1981
+#entry 1980
 vide0298_296.dof-00.joe
 296.tga.png
 1
@@ -31714,7 +31698,7 @@ vide0298_296.dof-00.joe
 1.0
 0.0
 
-#entry 1982
+#entry 1981
 vide0298_297.dof-00.joe
 297.tga.png
 1
@@ -31730,7 +31714,7 @@ vide0298_297.dof-00.joe
 1.0
 0.0
 
-#entry 1983
+#entry 1982
 vide0298_298.dof-00.joe
 298.tga.png
 1
@@ -31746,7 +31730,7 @@ vide0298_298.dof-00.joe
 1.0
 0.0
 
-#entry 1984
+#entry 1983
 vide0298_299.dof-00.joe
 299.tga.png
 0
@@ -31762,7 +31746,7 @@ vide0298_299.dof-00.joe
 1.0
 0.0
 
-#entry 1985
+#entry 1984
 wall0299_292.dof-00.joe
 292.tga.png
 1
@@ -31778,7 +31762,7 @@ wall0299_292.dof-00.joe
 1.0
 0.0
 
-#entry 1986
+#entry 1985
 wall0299_293.dof-00.joe
 293.tga.png
 1
@@ -31794,7 +31778,7 @@ wall0299_293.dof-00.joe
 1.0
 0.0
 
-#entry 1987
+#entry 1986
 wall0299_294.dof-00.joe
 294.tga.png
 1
@@ -31810,7 +31794,7 @@ wall0299_294.dof-00.joe
 1.0
 0.0
 
-#entry 1988
+#entry 1987
 wall0299_295.dof-00.joe
 295.tga.png
 1
@@ -31826,7 +31810,7 @@ wall0299_295.dof-00.joe
 1.0
 0.0
 
-#entry 1989
+#entry 1988
 wall0299_296.dof-00.joe
 296.tga.png
 1
@@ -31842,7 +31826,7 @@ wall0299_296.dof-00.joe
 1.0
 0.0
 
-#entry 1990
+#entry 1989
 wall0299_297.dof-00.joe
 297.tga.png
 1
@@ -31858,7 +31842,7 @@ wall0299_297.dof-00.joe
 1.0
 0.0
 
-#entry 1991
+#entry 1990
 wall0299_298.dof-00.joe
 298.tga.png
 1
@@ -31874,7 +31858,7 @@ wall0299_298.dof-00.joe
 1.0
 0.0
 
-#entry 1992
+#entry 1991
 wall0299_299.dof-00.joe
 299.tga.png
 0
@@ -31890,7 +31874,7 @@ wall0299_299.dof-00.joe
 1.0
 0.0
 
-#entry 1993
+#entry 1992
 wall0300_243.dof-00.joe
 243.tga.png
 1
@@ -31906,7 +31890,7 @@ wall0300_243.dof-00.joe
 1.0
 0.0
 
-#entry 1994
+#entry 1993
 wall0300_251.dof-00.joe
 251.tga.png
 1
@@ -31922,7 +31906,7 @@ wall0300_251.dof-00.joe
 1.0
 0.0
 
-#entry 1995
+#entry 1994
 wall0300_252.dof-00.joe
 logobrdg.tga.png
 1
@@ -31938,7 +31922,7 @@ logobrdg.tga.png
 1.0
 0.0
 
-#entry 1996
+#entry 1995
 wall0301_044.dof-00.joe
 044.tga.png
 0
@@ -31954,7 +31938,7 @@ wall0301_044.dof-00.joe
 1.0
 0.0
 
-#entry 1997
+#entry 1996
 wall0301_045.dof-00.joe
 045.tga.png
 1
@@ -31970,7 +31954,7 @@ wall0301_045.dof-00.joe
 1.0
 0.0
 
-#entry 1998
+#entry 1997
 wall0301_414.dof-00.joe
 414.tga.png
 0
@@ -31986,7 +31970,7 @@ wall0301_414.dof-00.joe
 1.0
 0.0
 
-#entry 1999
+#entry 1998
 wall0301_414001.dof-00.joe
 414.tga.png
 0
@@ -31997,6 +31981,2582 @@ wall0301_414001.dof-00.joe
 0
 0
 1
+1.0
+0.9
+1.0
+0.0
+
+#entry 1999
+horizon_00.dof-00.joe
+447.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2000
+horizon_01.dof-00.joe
+416.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2001
+horizon_02.dof-00.joe
+417.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2002
+horizon_03.dof-00.joe
+418.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2003
+horizon_04.dof-00.joe
+419.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2004
+horizon_05.dof-00.joe
+420.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2005
+horizon_06.dof-00.joe
+421.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2006
+horizon_07.dof-00.joe
+422.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2007
+horizon_08.dof-00.joe
+423.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2008
+horizon_09.dof-00.joe
+424.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2009
+horizon_10.dof-00.joe
+425.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2010
+horizon_11.dof-00.joe
+426.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2011
+horizon_12.dof-00.joe
+427.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2012
+horizon_13.dof-00.joe
+428.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2013
+horizon_14.dof-00.joe
+429.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2014
+horizon_15.dof-00.joe
+430.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2015
+horizon_16.dof-00.joe
+431.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2016
+horizon_17.dof-00.joe
+432.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2017
+horizon_18.dof-00.joe
+433.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2018
+horizon_19.dof-00.joe
+434.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2019
+horizon_20.dof-00.joe
+435.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2020
+horizon_21.dof-00.joe
+436.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2021
+horizon_22.dof-00.joe
+437.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2022
+horizon_23.dof-00.joe
+438.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2023
+horizon_24.dof-00.joe
+439.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2024
+horizon_25.dof-00.joe
+440.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2025
+horizon_26.dof-00.joe
+441.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2026
+horizon_27.dof-00.joe
+442.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2027
+horizon_28.dof-00.joe
+443.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2028
+horizon_29.dof-00.joe
+444.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2029
+horizon_30.dof-00.joe
+445.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2030
+horizon_31.dof-00.joe
+446.tga.png
+1
+1
+1
+0
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2031
+shadow01.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2032
+shadow02.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2033
+shadow03.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2034
+shadow04.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2035
+shadow05.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2036
+shadow06.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2037
+shadow07.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2038
+shadow08.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2039
+shadow09.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2040
+shadow10.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2041
+shadow11.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2042
+shadow12.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2043
+shadow13.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2044
+shadow14.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2045
+shadow15.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2046
+shadow16.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2047
+shadow17.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2048
+shadow18.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2049
+shadow19.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2050
+shadow20.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2051
+shadow21.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2052
+shadow22.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2053
+shadow23.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2054
+shadow24.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2055
+shadow25.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2056
+shadow26.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2057
+shadow27.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2058
+shadow28.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2059
+shadow29.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2060
+shadow30.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2061
+shadow31.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2062
+shadow32.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2063
+shadow33.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2064
+shadow34.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2065
+shadow35.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2066
+shadow36.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2067
+shadow37.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2068
+shadow38.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2069
+shadow39.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2070
+shadow40.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2071
+shadow41.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2072
+shadow42.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2073
+shadow43.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2074
+shadow44.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2075
+shadow45.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2076
+shadow46.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2077
+shadow47.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2078
+shadow48.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2079
+shadow49.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2080
+shadow50.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2081
+shadow51.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2082
+shadow52.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2083
+shadow53.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2084
+shadow54.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2085
+shadow55.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2086
+shadow56.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2087
+shadow57.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2088
+shadow58.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2089
+shadow59.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2090
+shadow60.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2091
+shadow61.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2092
+shadow62.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2093
+shadow63.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2094
+shadow64.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2095
+shadow65.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2096
+shadow66.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2097
+shadow68.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2098
+shadow69.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2099
+shadow70.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2100
+shadow71.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2101
+shadow72.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2102
+shadow73.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2103
+shadow74.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2104
+shadow75.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2105
+shadow76.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2106
+shadow77.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2107
+shadow78.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2108
+shadow79.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2109
+shadow80.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2110
+shadow81.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2111
+shadow82.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2112
+shadow83.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2113
+shadow84.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2114
+shadow85.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2115
+shadow86.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2116
+shadow87.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2117
+shadow_bridge02.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2118
+shadow_bridge03.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2119
+shadow_bridge04.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2120
+shadow_bridge1.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2121
+shadow_bridge_mobil_left.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2122
+shadow_bridge_mobil_mid.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2123
+shadow_bridge_mobil_right.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2124
+shadow_bridgestone_left.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2125
+shadow_bridgestone_mid.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2126
+shadow_bridgestone_right.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2127
+shadow_deutsche_left.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2128
+shadow_deutsche_mid.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2129
+shadow_deutsche_right.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2130
+shadow_lboard_100_01.dof-00.joe
+449.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2131
+shadow_lboard_100_01.dof-01.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2132
+shadow_lboard_200_01.dof-00.joe
+449.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2133
+shadow_lboard_200_01.dof-01.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2134
+shadow_lboard_200_02.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2135
+shadow_lboard_200_03.dof-00.joe
+449.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2136
+shadow_lboard_200_03.dof-01.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2137
+shadow_lboard_200_04.dof-00.joe
+449.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2138
+shadow_lboard_200_04.dof-01.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2139
+shadow_lboard_200_05.dof-00.joe
+449.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2140
+shadow_lboard_200_05.dof-01.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2141
+shadow_lboard_200_06.dof-00.joe
+449.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2142
+shadow_lboard_200_06.dof-01.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2143
+shadow_lboard_200_07.dof-00.joe
+449.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2144
+shadow_lboard_200_07.dof-01.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2145
+shadow_lboard_200_08.dof-00.joe
+449.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2146
+shadow_lboard_200_08.dof-01.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2147
+shadow_lboard_200_09.dof-00.joe
+449.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2148
+shadow_lboard_200_09.dof-01.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2149
+shadow_lboard_mobil.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2150
+shadow_lboard_mobil01.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2151
+shadow_lboard_mobil02.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2152
+shadow_lboard_mobil03.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2153
+shadow_lboard_mobil04.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2154
+shadow_siemens.dof-00.joe
+449.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2155
+shadow_siemens.dof-01.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2156
+shadow_vodabridge.dof-00.joe
+449.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2157
+shadow_vodabridge.dof-01.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2158
+shadow_vodafone_mid.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 2159
+shadow_vodafone_right.dof-00.joe
+448.tga.png
+0
+0
+0
+1
+2.0
+0
+0
+0
 1.0
 0.9
 1.0
