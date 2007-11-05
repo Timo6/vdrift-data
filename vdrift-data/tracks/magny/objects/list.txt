@@ -3653,7 +3653,7 @@ fbui0050_350.dof-00.joe
 #entry 228
 fbui0050_351.dof-00.joe
 351.tga.png
-1
+0
 0
 0
 0
@@ -4200,7 +4200,7 @@ fenc0064_168.dof-00.joe
 0
 0
 0
-0
+1
 2.0
 0
 0
@@ -4261,7 +4261,7 @@ fenc0066_248.dof-00.joe
 #entry 266
 fenc0066_466.dof-00.joe
 466.tga.png
-1
+0
 0
 0
 0
@@ -5173,10 +5173,10 @@ line0082_264.dof-00.joe
 #entry 323
 line0083_linewhite.dof-00.joe
 linewhite.tga.png
+0
+0
+0
 1
-0
-0
-0
 2.0
 0
 0
@@ -7957,7 +7957,7 @@ misc0096_137.dof-00.joe
 #entry 497
 misc0096_260.dof-00.joe
 260.tga.png
-1
+0
 0
 0
 0
@@ -10901,7 +10901,7 @@ nbui0113_327.dof-00.joe
 #entry 681
 nbui0113_328.dof-00.joe
 328.tga.png
-1
+0
 0
 0
 0
@@ -11125,7 +11125,7 @@ nbui0115_327.dof-00.joe
 #entry 695
 nbui0115_328.dof-00.joe
 328.tga.png
-1
+0
 0
 0
 0
@@ -11173,7 +11173,7 @@ nbui0116_327.dof-00.joe
 #entry 698
 nbui0116_328.dof-00.joe
 328.tga.png
-1
+0
 0
 0
 0
@@ -11221,7 +11221,7 @@ nbui0117_327.dof-00.joe
 #entry 701
 nbui0117_328.dof-00.joe
 328.tga.png
-1
+0
 0
 0
 0
@@ -11816,7 +11816,7 @@ nbui0122_047.dof-00.joe
 0
 0
 0
-0
+1
 2.0
 0
 0
@@ -11864,7 +11864,7 @@ nbui0123_047.dof-00.joe
 0
 0
 0
-0
+1
 2.0
 0
 0
@@ -15973,7 +15973,7 @@ nsta0174_327.dof-00.joe
 #entry 998
 nsta0174_328.dof-00.joe
 328.tga.png
-1
+0
 0
 0
 0
@@ -18357,7 +18357,7 @@ plat0209_303.dof-00.joe
 #entry 1147
 plat0209_304.dof-00.joe
 304.tga.png
-1
+0
 0
 0
 0
@@ -18437,7 +18437,7 @@ plat0210_303.dof-00.joe
 #entry 1152
 plat0210_304.dof-00.joe
 304.tga.png
-1
+0
 0
 0
 0
@@ -18453,7 +18453,7 @@ plat0210_304.dof-00.joe
 #entry 1153
 plat0211_316.dof-00.joe
 316.tga.png
-1
+0
 0
 0
 0
@@ -18501,7 +18501,7 @@ plat0211_318.dof-00.joe
 #entry 1156
 plat0211_319.dof-00.joe
 319.tga.png
-1
+0
 0
 0
 0
@@ -18517,7 +18517,7 @@ plat0211_319.dof-00.joe
 #entry 1157
 plat0212_316.dof-00.joe
 316.tga.png
-1
+0
 0
 0
 0
@@ -18565,7 +18565,7 @@ plat0212_318.dof-00.joe
 #entry 1160
 plat0212_319.dof-00.joe
 319.tga.png
-1
+0
 0
 0
 0
@@ -18645,7 +18645,7 @@ requ0213_303.dof-00.joe
 #entry 1165
 requ0213_304.dof-00.joe
 304.tga.png
-1
+0
 0
 0
 0
@@ -30885,7 +30885,7 @@ vide0294_305.dof-00.joe
 #entry 1930
 vide0294_306.dof-00.joe
 306.tga.png
-1
+0
 0
 0
 0
@@ -30901,7 +30901,7 @@ vide0294_306.dof-00.joe
 #entry 1931
 vide0294_307.dof-00.joe
 307.tga.png
-1
+0
 0
 0
 0
@@ -30933,7 +30933,7 @@ vide0294_308.dof-00.joe
 #entry 1933
 vide0294_309.dof-00.joe
 309.tga.png
-1
+0
 0
 0
 0
@@ -31029,7 +31029,7 @@ vide0294_314.dof-00.joe
 #entry 1939
 vide0294_315.dof-00.joe
 315.tga.png
-1
+0
 0
 0
 0
@@ -31077,7 +31077,7 @@ vide0295_305.dof-00.joe
 #entry 1942
 vide0295_306.dof-00.joe
 306.tga.png
-1
+0
 0
 0
 0
@@ -31093,7 +31093,7 @@ vide0295_306.dof-00.joe
 #entry 1943
 vide0295_307.dof-00.joe
 307.tga.png
-1
+0
 0
 0
 0
@@ -31125,7 +31125,7 @@ vide0295_308.dof-00.joe
 #entry 1945
 vide0295_309.dof-00.joe
 309.tga.png
-1
+0
 0
 0
 0
@@ -31221,7 +31221,7 @@ vide0295_314.dof-00.joe
 #entry 1951
 vide0295_315.dof-00.joe
 315.tga.png
-1
+0
 0
 0
 0
@@ -31269,7 +31269,7 @@ vide0296_305.dof-00.joe
 #entry 1954
 vide0296_306.dof-00.joe
 306.tga.png
-1
+0
 0
 0
 0
@@ -31285,7 +31285,7 @@ vide0296_306.dof-00.joe
 #entry 1955
 vide0296_307.dof-00.joe
 307.tga.png
-1
+0
 0
 0
 0
@@ -31317,7 +31317,7 @@ vide0296_308.dof-00.joe
 #entry 1957
 vide0296_309.dof-00.joe
 309.tga.png
-1
+0
 0
 0
 0
@@ -31413,7 +31413,7 @@ vide0296_314.dof-00.joe
 #entry 1963
 vide0296_315.dof-00.joe
 315.tga.png
-1
+0
 0
 0
 0
@@ -31461,7 +31461,7 @@ vide0297_305.dof-00.joe
 #entry 1966
 vide0297_306.dof-00.joe
 306.tga.png
-1
+0
 0
 0
 0
@@ -31477,7 +31477,7 @@ vide0297_306.dof-00.joe
 #entry 1967
 vide0297_307.dof-00.joe
 307.tga.png
-1
+0
 0
 0
 0
@@ -31509,7 +31509,7 @@ vide0297_308.dof-00.joe
 #entry 1969
 vide0297_309.dof-00.joe
 309.tga.png
-1
+0
 0
 0
 0
@@ -31605,7 +31605,7 @@ vide0297_314.dof-00.joe
 #entry 1975
 vide0297_315.dof-00.joe
 315.tga.png
-1
+0
 0
 0
 0
