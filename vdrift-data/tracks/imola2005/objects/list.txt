@@ -23731,6 +23731,22 @@ sky.tga.png
 0.0
 
 #entry 1483
+spea0349_bka.dof-00.joe
+bkb.dds.png
+0
+1
+1
+1
+2.0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
+
+#entry 1484
 spea0350_speaker.dof-00.joe
 speaker.dds.png
 1
@@ -23746,7 +23762,7 @@ speaker.dds.png
 1.0
 0.0
 
-#entry 1484
+#entry 1485
 spea0350_spkrbrakt.dof-00.joe
 spkerbrkt.dds.png
 1
@@ -23762,7 +23778,7 @@ spkerbrkt.dds.png
 1.0
 0.0
 
-#entry 1485
+#entry 1486
 spea0350_spkrpole.dof-00.joe
 spkerpole.dds.png
 1
@@ -23778,7 +23794,7 @@ spkerpole.dds.png
 1.0
 0.0
 
-#entry 1486
+#entry 1487
 stai0351_speaker.dof-00.joe
 speaker.dds.png
 1
@@ -23794,7 +23810,7 @@ speaker.dds.png
 1.0
 0.0
 
-#entry 1487
+#entry 1488
 stai0351_spkrbrakt.dof-00.joe
 spkerbrkt.dds.png
 1
@@ -23810,7 +23826,7 @@ spkerbrkt.dds.png
 1.0
 0.0
 
-#entry 1488
+#entry 1489
 stai0351_spkrpole.dof-00.joe
 spkerpole.dds.png
 1
@@ -23826,7 +23842,7 @@ spkerpole.dds.png
 1.0
 0.0
 
-#entry 1489
+#entry 1490
 stai0352_grass_seats.dof-00.joe
 grass_seats.dds.png
 1
@@ -23842,7 +23858,7 @@ grass_seats.dds.png
 1.0
 0.0
 
-#entry 1490
+#entry 1491
 stai0352_grass_stairs.dof-00.joe
 grass_stairs.dds.png
 1
@@ -23858,7 +23874,7 @@ grass_stairs.dds.png
 1.0
 0.0
 
-#entry 1491
+#entry 1492
 stai0352_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -23874,7 +23890,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1492
+#entry 1493
 stan0353_grass_seats.dof-00.joe
 grass_seats.dds.png
 1
@@ -23890,7 +23906,7 @@ grass_seats.dds.png
 1.0
 0.0
 
-#entry 1493
+#entry 1494
 stan0353_grass_stairs.dof-00.joe
 grass_stairs.dds.png
 1
@@ -23906,7 +23922,7 @@ grass_stairs.dds.png
 1.0
 0.0
 
-#entry 1494
+#entry 1495
 stan0354_crowdsta.dof-00.joe
 crowdstanding06.dds.png
 0
@@ -23922,7 +23938,7 @@ crowdstanding06.dds.png
 1.0
 0.0
 
-#entry 1495
+#entry 1496
 stan0354_crowdsta001.dof-00.joe
 crowdstanding01.dds.png
 0
@@ -23938,7 +23954,7 @@ crowdstanding01.dds.png
 1.0
 0.0
 
-#entry 1496
+#entry 1497
 stan0354_crowdsta002.dof-00.joe
 crowdstanding02.dds.png
 0
@@ -23954,7 +23970,7 @@ crowdstanding02.dds.png
 1.0
 0.0
 
-#entry 1497
+#entry 1498
 stan0354_crowdsta003.dof-00.joe
 crowdstanding03.dds.png
 0
@@ -23970,7 +23986,7 @@ crowdstanding03.dds.png
 1.0
 0.0
 
-#entry 1498
+#entry 1499
 stan0354_crowdstandin.dof-00.joe
 crowdstanding04.dds.png
 0
@@ -23986,7 +24002,7 @@ crowdstanding04.dds.png
 1.0
 0.0
 
-#entry 1499
+#entry 1500
 stan0355_crowdsta.dof-00.joe
 crowdstanding05.dds.png
 0
@@ -24002,7 +24018,7 @@ crowdstanding05.dds.png
 1.0
 0.0
 
-#entry 1500
+#entry 1501
 stan0355_crowdsta001.dof-00.joe
 crowdstanding06.dds.png
 0
@@ -24018,7 +24034,7 @@ crowdstanding06.dds.png
 1.0
 0.0
 
-#entry 1501
+#entry 1502
 stan0355_crowdsta002.dof-00.joe
 crowdstanding07.dds.png
 0
@@ -24034,7 +24050,7 @@ crowdstanding07.dds.png
 1.0
 0.0
 
-#entry 1502
+#entry 1503
 stan0355_crowdsta003.dof-00.joe
 crowdstanding01.dds.png
 0
@@ -24050,7 +24066,7 @@ crowdstanding01.dds.png
 1.0
 0.0
 
-#entry 1503
+#entry 1504
 stan0355_crowdsta004.dof-00.joe
 crowdstanding02.dds.png
 0
@@ -24066,7 +24082,7 @@ crowdstanding02.dds.png
 1.0
 0.0
 
-#entry 1504
+#entry 1505
 stan0355_crowdsta005.dof-00.joe
 crowdstanding03.dds.png
 0
@@ -24082,7 +24098,7 @@ crowdstanding03.dds.png
 1.0
 0.0
 
-#entry 1505
+#entry 1506
 stan0355_crowdstandin.dof-00.joe
 crowdstanding04.dds.png
 0
@@ -24098,7 +24114,7 @@ crowdstanding04.dds.png
 1.0
 0.0
 
-#entry 1506
+#entry 1507
 stan0356_crowdsta.dof-00.joe
 crowdstanding05.dds.png
 0
@@ -24114,7 +24130,7 @@ crowdstanding05.dds.png
 1.0
 0.0
 
-#entry 1507
+#entry 1508
 stan0356_crowdsta001.dof-00.joe
 crowdstanding06.dds.png
 0
@@ -24130,7 +24146,7 @@ crowdstanding06.dds.png
 1.0
 0.0
 
-#entry 1508
+#entry 1509
 stan0356_crowdsta002.dof-00.joe
 crowdstanding07.dds.png
 0
@@ -24146,7 +24162,7 @@ crowdstanding07.dds.png
 1.0
 0.0
 
-#entry 1509
+#entry 1510
 stan0356_crowdsta003.dof-00.joe
 crowdstanding01.dds.png
 0
@@ -24162,7 +24178,7 @@ crowdstanding01.dds.png
 1.0
 0.0
 
-#entry 1510
+#entry 1511
 stan0356_crowdsta004.dof-00.joe
 crowdstanding02.dds.png
 0
@@ -24178,7 +24194,7 @@ crowdstanding02.dds.png
 1.0
 0.0
 
-#entry 1511
+#entry 1512
 stan0356_crowdsta005.dof-00.joe
 crowdstanding03.dds.png
 0
@@ -24194,7 +24210,7 @@ crowdstanding03.dds.png
 1.0
 0.0
 
-#entry 1512
+#entry 1513
 stan0356_crowdstandin.dof-00.joe
 crowdstanding04.dds.png
 0
@@ -24210,7 +24226,7 @@ crowdstanding04.dds.png
 1.0
 0.0
 
-#entry 1513
+#entry 1514
 stan0357_crowdsta.dof-00.joe
 crowdstanding05.dds.png
 0
@@ -24226,7 +24242,7 @@ crowdstanding05.dds.png
 1.0
 0.0
 
-#entry 1514
+#entry 1515
 stan0357_crowdsta001.dof-00.joe
 crowdstanding06.dds.png
 0
@@ -24242,7 +24258,7 @@ crowdstanding06.dds.png
 1.0
 0.0
 
-#entry 1515
+#entry 1516
 stan0357_crowdsta002.dof-00.joe
 crowdstanding07.dds.png
 0
@@ -24258,7 +24274,7 @@ crowdstanding07.dds.png
 1.0
 0.0
 
-#entry 1516
+#entry 1517
 stan0357_crowdsta003.dof-00.joe
 crowdstanding01.dds.png
 0
@@ -24274,7 +24290,7 @@ crowdstanding01.dds.png
 1.0
 0.0
 
-#entry 1517
+#entry 1518
 stan0357_crowdsta004.dof-00.joe
 crowdstanding02.dds.png
 0
@@ -24290,7 +24306,7 @@ crowdstanding02.dds.png
 1.0
 0.0
 
-#entry 1518
+#entry 1519
 stan0357_crowdsta005.dof-00.joe
 crowdstanding03.dds.png
 0
@@ -24306,7 +24322,7 @@ crowdstanding03.dds.png
 1.0
 0.0
 
-#entry 1519
+#entry 1520
 stan0357_crowdstandin.dof-00.joe
 crowdstanding04.dds.png
 0
@@ -24322,7 +24338,7 @@ crowdstanding04.dds.png
 1.0
 0.0
 
-#entry 1520
+#entry 1521
 stan0358_crowdsta.dof-00.joe
 crowdstanding05.dds.png
 0
@@ -24338,7 +24354,7 @@ crowdstanding05.dds.png
 1.0
 0.0
 
-#entry 1521
+#entry 1522
 stan0358_crowdsta001.dof-00.joe
 crowdstanding06.dds.png
 0
@@ -24354,7 +24370,7 @@ crowdstanding06.dds.png
 1.0
 0.0
 
-#entry 1522
+#entry 1523
 stan0358_crowdsta002.dof-00.joe
 crowdstanding07.dds.png
 0
@@ -24370,7 +24386,7 @@ crowdstanding07.dds.png
 1.0
 0.0
 
-#entry 1523
+#entry 1524
 stan0358_crowdsta003.dof-00.joe
 crowdstanding01.dds.png
 0
@@ -24386,7 +24402,7 @@ crowdstanding01.dds.png
 1.0
 0.0
 
-#entry 1524
+#entry 1525
 stan0358_crowdsta004.dof-00.joe
 crowdstanding02.dds.png
 0
@@ -24402,7 +24418,7 @@ crowdstanding02.dds.png
 1.0
 0.0
 
-#entry 1525
+#entry 1526
 stan0358_crowdsta005.dof-00.joe
 crowdstanding03.dds.png
 0
@@ -24418,7 +24434,7 @@ crowdstanding03.dds.png
 1.0
 0.0
 
-#entry 1526
+#entry 1527
 stan0358_crowdstandin.dof-00.joe
 crowdstanding04.dds.png
 0
@@ -24434,7 +24450,7 @@ crowdstanding04.dds.png
 1.0
 0.0
 
-#entry 1527
+#entry 1528
 stan0359_crowdsta.dof-00.joe
 crowdstanding05.dds.png
 0
@@ -24450,7 +24466,7 @@ crowdstanding05.dds.png
 1.0
 0.0
 
-#entry 1528
+#entry 1529
 stan0359_crowdsta001.dof-00.joe
 crowdstanding06.dds.png
 0
@@ -24466,7 +24482,7 @@ crowdstanding06.dds.png
 1.0
 0.0
 
-#entry 1529
+#entry 1530
 stan0359_crowdsta002.dof-00.joe
 crowdstanding07.dds.png
 0
@@ -24482,7 +24498,7 @@ crowdstanding07.dds.png
 1.0
 0.0
 
-#entry 1530
+#entry 1531
 stan0359_crowdsta003.dof-00.joe
 crowdstanding01.dds.png
 0
@@ -24498,7 +24514,7 @@ crowdstanding01.dds.png
 1.0
 0.0
 
-#entry 1531
+#entry 1532
 stan0359_crowdsta004.dof-00.joe
 crowdstanding02.dds.png
 0
@@ -24514,7 +24530,7 @@ crowdstanding02.dds.png
 1.0
 0.0
 
-#entry 1532
+#entry 1533
 stan0359_crowdsta005.dof-00.joe
 crowdstanding03.dds.png
 0
@@ -24530,7 +24546,7 @@ crowdstanding03.dds.png
 1.0
 0.0
 
-#entry 1533
+#entry 1534
 stan0359_crowdstandin.dof-00.joe
 crowdstanding04.dds.png
 0
@@ -24546,7 +24562,7 @@ crowdstanding04.dds.png
 1.0
 0.0
 
-#entry 1534
+#entry 1535
 stan0360_stand01a.dof-00.joe
 stand01a.dds.png
 1
@@ -24562,7 +24578,7 @@ stand01a.dds.png
 1.0
 0.0
 
-#entry 1535
+#entry 1536
 stan0360_stand01b.dof-00.joe
 stand01b.dds.png
 1
@@ -24578,7 +24594,7 @@ stand01b.dds.png
 1.0
 0.0
 
-#entry 1536
+#entry 1537
 stan0360_stand01c.dof-00.joe
 stand01c.dds.png
 1
@@ -24594,7 +24610,7 @@ stand01c.dds.png
 1.0
 0.0
 
-#entry 1537
+#entry 1538
 stan0360_stand01d.dof-00.joe
 stand01d.dds.png
 1
@@ -24610,7 +24626,7 @@ stand01d.dds.png
 1.0
 0.0
 
-#entry 1538
+#entry 1539
 stan0360_stand01e.dof-00.joe
 stand01e.dds.png
 0
@@ -24626,7 +24642,7 @@ stand01e.dds.png
 1.0
 0.0
 
-#entry 1539
+#entry 1540
 stan0360_stand01f.dof-00.joe
 stand01f.dds.png
 0
@@ -24642,7 +24658,7 @@ stand01f.dds.png
 1.0
 0.0
 
-#entry 1540
+#entry 1541
 stan0360_stand01g.dof-00.joe
 stand01g.dds.png
 1
@@ -24658,7 +24674,7 @@ stand01g.dds.png
 1.0
 0.0
 
-#entry 1541
+#entry 1542
 stan0360_stand01h.dof-00.joe
 stand01h.dds.png
 0
@@ -24674,7 +24690,7 @@ stand01h.dds.png
 1.0
 0.0
 
-#entry 1542
+#entry 1543
 stan0360_stand01i.dof-00.joe
 stand01i.dds.png
 1
@@ -24690,7 +24706,7 @@ stand01i.dds.png
 1.0
 0.0
 
-#entry 1543
+#entry 1544
 stan0360_stand01k.dof-00.joe
 stand01k.dds.png
 1
@@ -24706,7 +24722,7 @@ stand01k.dds.png
 1.0
 0.0
 
-#entry 1544
+#entry 1545
 stan0360_stand01m.dof-00.joe
 stand01l.dds.png
 1
@@ -24722,7 +24738,7 @@ stand01l.dds.png
 1.0
 0.0
 
-#entry 1545
+#entry 1546
 stan0360_tentmetal.dof-00.joe
 tentmetal.dds.png
 1
@@ -24738,7 +24754,7 @@ tentmetal.dds.png
 1.0
 0.0
 
-#entry 1546
+#entry 1547
 stan0361_stand01l.dof-00.joe
 stand01l.dds.png
 1
@@ -24754,7 +24770,7 @@ stand01l.dds.png
 1.0
 0.0
 
-#entry 1547
+#entry 1548
 stan0362_concg.dof-00.joe
 concg.dds.png
 1
@@ -24770,7 +24786,7 @@ concg.dds.png
 1.0
 0.0
 
-#entry 1548
+#entry 1549
 stan0362_garage05.dof-00.joe
 garage05.dds.png
 1
@@ -24786,7 +24802,7 @@ garage05.dds.png
 1.0
 0.0
 
-#entry 1549
+#entry 1550
 stan0362_metal01.dof-00.joe
 metal01.dds.png
 1
@@ -24802,7 +24818,7 @@ metal01.dds.png
 1.0
 0.0
 
-#entry 1550
+#entry 1551
 stan0362_stand01f.dof-00.joe
 stand01f.dds.png
 0
@@ -24818,7 +24834,7 @@ stand01f.dds.png
 1.0
 0.0
 
-#entry 1551
+#entry 1552
 stan0362_stand02a.dof-00.joe
 stand02a.dds.png
 0
@@ -24834,7 +24850,7 @@ stand02a.dds.png
 1.0
 0.0
 
-#entry 1552
+#entry 1553
 stan0362_stand02c.dof-00.joe
 stand02c.dds.png
 1
@@ -24850,7 +24866,7 @@ stand02c.dds.png
 1.0
 0.0
 
-#entry 1553
+#entry 1554
 stan0362_stand02d.dof-00.joe
 stand02d.dds.png
 0
@@ -24866,7 +24882,7 @@ stand02d.dds.png
 1.0
 0.0
 
-#entry 1554
+#entry 1555
 stan0362_stand02e.dof-00.joe
 stand02e.dds.png
 1
@@ -24882,7 +24898,7 @@ stand02e.dds.png
 1.0
 0.0
 
-#entry 1555
+#entry 1556
 stan0362_stand02f.dof-00.joe
 stand02f.dds.png
 1
@@ -24898,7 +24914,7 @@ stand02f.dds.png
 1.0
 0.0
 
-#entry 1556
+#entry 1557
 stan0362_stand02g.dof-00.joe
 stand02g.dds.png
 1
@@ -24914,7 +24930,7 @@ stand02g.dds.png
 1.0
 0.0
 
-#entry 1557
+#entry 1558
 stan0362_stand02h.dof-00.joe
 stand02h.dds.png
 1
@@ -24930,7 +24946,7 @@ stand02h.dds.png
 1.0
 0.0
 
-#entry 1558
+#entry 1559
 stan0362_stand02i.dof-00.joe
 stand02i.dds.png
 1
@@ -24946,7 +24962,7 @@ stand02i.dds.png
 1.0
 0.0
 
-#entry 1559
+#entry 1560
 stan0362_stand02k.dof-00.joe
 stand02k.dds.png
 1
@@ -24962,7 +24978,7 @@ stand02k.dds.png
 1.0
 0.0
 
-#entry 1560
+#entry 1561
 stan0362_stand02l.dof-00.joe
 stand02l.dds.png
 1
@@ -24978,7 +24994,7 @@ stand02l.dds.png
 1.0
 0.0
 
-#entry 1561
+#entry 1562
 stan0362_stand02m.dof-00.joe
 stand02m.dds.png
 1
@@ -24994,7 +25010,7 @@ stand02m.dds.png
 1.0
 0.0
 
-#entry 1562
+#entry 1563
 stan0362_stand02n.dof-00.joe
 stand02n.dds.png
 1
@@ -25010,7 +25026,7 @@ stand02n.dds.png
 1.0
 0.0
 
-#entry 1563
+#entry 1564
 stan0362_stand02o.dof-00.joe
 stand02o.dds.png
 1
@@ -25026,7 +25042,7 @@ stand02o.dds.png
 1.0
 0.0
 
-#entry 1564
+#entry 1565
 stan0362_stand02stair.dof-00.joe
 stand02r.dds.png
 1
@@ -25042,7 +25058,7 @@ stand02r.dds.png
 1.0
 0.0
 
-#entry 1565
+#entry 1566
 stan0363_concg.dof-00.joe
 concg.dds.png
 1
@@ -25058,7 +25074,7 @@ concg.dds.png
 1.0
 0.0
 
-#entry 1566
+#entry 1567
 stan0363_stand01e.dof-00.joe
 stand01e.dds.png
 0
@@ -25074,7 +25090,7 @@ stand01e.dds.png
 1.0
 0.0
 
-#entry 1567
+#entry 1568
 stan0363_stand01g.dof-00.joe
 stand01g.dds.png
 1
@@ -25090,7 +25106,7 @@ stand01g.dds.png
 1.0
 0.0
 
-#entry 1568
+#entry 1569
 stan0363_stand01h.dof-00.joe
 stand01h.dds.png
 0
@@ -25106,7 +25122,7 @@ stand01h.dds.png
 1.0
 0.0
 
-#entry 1569
+#entry 1570
 stan0363_stand02c.dof-00.joe
 stand02c.dds.png
 1
@@ -25122,7 +25138,7 @@ stand02c.dds.png
 1.0
 0.0
 
-#entry 1570
+#entry 1571
 stan0363_stand02stair.dof-00.joe
 stand02r.dds.png
 1
@@ -25138,7 +25154,7 @@ stand02r.dds.png
 1.0
 0.0
 
-#entry 1571
+#entry 1572
 stan0363_stand03stair.dof-00.joe
 stand03stairs.dds.png
 1
@@ -25154,7 +25170,7 @@ stand03stairs.dds.png
 1.0
 0.0
 
-#entry 1572
+#entry 1573
 stan0364_concg.dof-00.joe
 concg.dds.png
 1
@@ -25170,7 +25186,7 @@ concg.dds.png
 1.0
 0.0
 
-#entry 1573
+#entry 1574
 stan0364_stand01e.dof-00.joe
 stand01e.dds.png
 0
@@ -25186,7 +25202,7 @@ stand01e.dds.png
 1.0
 0.0
 
-#entry 1574
+#entry 1575
 stan0364_stand01g.dof-00.joe
 stand01g.dds.png
 1
@@ -25202,7 +25218,7 @@ stand01g.dds.png
 1.0
 0.0
 
-#entry 1575
+#entry 1576
 stan0364_stand01h.dof-00.joe
 stand01h.dds.png
 0
@@ -25218,7 +25234,7 @@ stand01h.dds.png
 1.0
 0.0
 
-#entry 1576
+#entry 1577
 stan0364_stand02c.dof-00.joe
 stand02c.dds.png
 1
@@ -25234,7 +25250,7 @@ stand02c.dds.png
 1.0
 0.0
 
-#entry 1577
+#entry 1578
 stan0364_stand02stair.dof-00.joe
 stand02r.dds.png
 1
@@ -25250,7 +25266,7 @@ stand02r.dds.png
 1.0
 0.0
 
-#entry 1578
+#entry 1579
 stan0364_stand03stair.dof-00.joe
 stand03stairs.dds.png
 1
@@ -25266,7 +25282,7 @@ stand03stairs.dds.png
 1.0
 0.0
 
-#entry 1579
+#entry 1580
 stan0365_concg.dof-00.joe
 concg.dds.png
 1
@@ -25282,7 +25298,7 @@ concg.dds.png
 1.0
 0.0
 
-#entry 1580
+#entry 1581
 stan0365_stand01e.dof-00.joe
 stand01e.dds.png
 0
@@ -25298,7 +25314,7 @@ stand01e.dds.png
 1.0
 0.0
 
-#entry 1581
+#entry 1582
 stan0365_stand01g.dof-00.joe
 stand01g.dds.png
 1
@@ -25314,7 +25330,7 @@ stand01g.dds.png
 1.0
 0.0
 
-#entry 1582
+#entry 1583
 stan0365_stand01h.dof-00.joe
 stand01h.dds.png
 0
@@ -25330,7 +25346,7 @@ stand01h.dds.png
 1.0
 0.0
 
-#entry 1583
+#entry 1584
 stan0365_stand02c.dof-00.joe
 stand02c.dds.png
 1
@@ -25346,7 +25362,7 @@ stand02c.dds.png
 1.0
 0.0
 
-#entry 1584
+#entry 1585
 stan0365_stand02stair.dof-00.joe
 stand02r.dds.png
 1
@@ -25362,7 +25378,7 @@ stand02r.dds.png
 1.0
 0.0
 
-#entry 1585
+#entry 1586
 stan0365_stand03stair.dof-00.joe
 stand03stairs.dds.png
 1
@@ -25378,7 +25394,7 @@ stand03stairs.dds.png
 1.0
 0.0
 
-#entry 1586
+#entry 1587
 stan0366_concg.dof-00.joe
 concg.dds.png
 1
@@ -25394,7 +25410,7 @@ concg.dds.png
 1.0
 0.0
 
-#entry 1587
+#entry 1588
 stan0366_stand01f.dof-00.joe
 stand01f.dds.png
 0
@@ -25410,7 +25426,7 @@ stand01f.dds.png
 1.0
 0.0
 
-#entry 1588
+#entry 1589
 stan0366_stand01g.dof-00.joe
 stand01g.dds.png
 1
@@ -25426,7 +25442,7 @@ stand01g.dds.png
 1.0
 0.0
 
-#entry 1589
+#entry 1590
 stan0366_stand01h.dof-00.joe
 stand01h.dds.png
 0
@@ -25442,7 +25458,7 @@ stand01h.dds.png
 1.0
 0.0
 
-#entry 1590
+#entry 1591
 stan0366_stand01k.dof-00.joe
 stand01k.dds.png
 1
@@ -25458,7 +25474,7 @@ stand01k.dds.png
 1.0
 0.0
 
-#entry 1591
+#entry 1592
 stan0366_stand03stair.dof-00.joe
 stand03stairs.dds.png
 1
@@ -25474,7 +25490,7 @@ stand03stairs.dds.png
 1.0
 0.0
 
-#entry 1592
+#entry 1593
 stan0366_wall_back.dof-00.joe
 wall_back.dds.png
 1
@@ -25490,7 +25506,7 @@ wall_back.dds.png
 1.0
 0.0
 
-#entry 1593
+#entry 1594
 stan0366_wall_front.dof-00.joe
 wall_front.dds.png
 1
@@ -25506,7 +25522,7 @@ wall_front.dds.png
 1.0
 0.0
 
-#entry 1594
+#entry 1595
 stan0367_concg.dof-00.joe
 concg.dds.png
 1
@@ -25522,7 +25538,7 @@ concg.dds.png
 1.0
 0.0
 
-#entry 1595
+#entry 1596
 stan0367_stand01f.dof-00.joe
 stand01f.dds.png
 0
@@ -25538,7 +25554,7 @@ stand01f.dds.png
 1.0
 0.0
 
-#entry 1596
+#entry 1597
 stan0367_stand01g.dof-00.joe
 stand01g.dds.png
 1
@@ -25554,7 +25570,7 @@ stand01g.dds.png
 1.0
 0.0
 
-#entry 1597
+#entry 1598
 stan0367_stand01h.dof-00.joe
 stand01h.dds.png
 0
@@ -25570,7 +25586,7 @@ stand01h.dds.png
 1.0
 0.0
 
-#entry 1598
+#entry 1599
 stan0367_stand01k.dof-00.joe
 stand01k.dds.png
 1
@@ -25586,7 +25602,7 @@ stand01k.dds.png
 1.0
 0.0
 
-#entry 1599
+#entry 1600
 stan0367_stand03stair.dof-00.joe
 stand03stairs.dds.png
 1
@@ -25602,7 +25618,7 @@ stand03stairs.dds.png
 1.0
 0.0
 
-#entry 1600
+#entry 1601
 stan0367_wall_back.dof-00.joe
 wall_back.dds.png
 1
@@ -25618,7 +25634,7 @@ wall_back.dds.png
 1.0
 0.0
 
-#entry 1601
+#entry 1602
 stan0367_wall_front.dof-00.joe
 wall_front.dds.png
 1
@@ -25634,7 +25650,7 @@ wall_front.dds.png
 1.0
 0.0
 
-#entry 1602
+#entry 1603
 stan0368_concg.dof-00.joe
 concg.dds.png
 1
@@ -25650,7 +25666,7 @@ concg.dds.png
 1.0
 0.0
 
-#entry 1603
+#entry 1604
 stan0368_garage05.dof-00.joe
 garage05.dds.png
 1
@@ -25666,7 +25682,7 @@ garage05.dds.png
 1.0
 0.0
 
-#entry 1604
+#entry 1605
 stan0368_stand01g.dof-00.joe
 stand01g.dds.png
 1
@@ -25682,7 +25698,7 @@ stand01g.dds.png
 1.0
 0.0
 
-#entry 1605
+#entry 1606
 stan0368_stand01h.dof-00.joe
 stand01h.dds.png
 0
@@ -25698,7 +25714,7 @@ stand01h.dds.png
 1.0
 0.0
 
-#entry 1606
+#entry 1607
 stan0368_stand01k.dof-00.joe
 stand01k.dds.png
 1
@@ -25714,7 +25730,7 @@ stand01k.dds.png
 1.0
 0.0
 
-#entry 1607
+#entry 1608
 stan0368_stand02a.dof-00.joe
 stand02a.dds.png
 0
@@ -25730,7 +25746,7 @@ stand02a.dds.png
 1.0
 0.0
 
-#entry 1608
+#entry 1609
 stan0368_standgate01.dof-00.joe
 standgate01.dds.png
 1
@@ -25746,7 +25762,7 @@ standgate01.dds.png
 1.0
 0.0
 
-#entry 1609
+#entry 1610
 stan0369_concg.dof-00.joe
 concg.dds.png
 1
@@ -25762,7 +25778,7 @@ concg.dds.png
 1.0
 0.0
 
-#entry 1610
+#entry 1611
 stan0369_garage05.dof-00.joe
 garage05.dds.png
 1
@@ -25778,7 +25794,7 @@ garage05.dds.png
 1.0
 0.0
 
-#entry 1611
+#entry 1612
 stan0369_stand01g.dof-00.joe
 stand01g.dds.png
 1
@@ -25794,7 +25810,7 @@ stand01g.dds.png
 1.0
 0.0
 
-#entry 1612
+#entry 1613
 stan0369_stand01h.dof-00.joe
 stand01h.dds.png
 0
@@ -25810,7 +25826,7 @@ stand01h.dds.png
 1.0
 0.0
 
-#entry 1613
+#entry 1614
 stan0369_stand01k.dof-00.joe
 stand01k.dds.png
 1
@@ -25826,7 +25842,7 @@ stand01k.dds.png
 1.0
 0.0
 
-#entry 1614
+#entry 1615
 stan0369_stand02a.dof-00.joe
 stand02a.dds.png
 0
@@ -25842,7 +25858,7 @@ stand02a.dds.png
 1.0
 0.0
 
-#entry 1615
+#entry 1616
 stan0369_standa01h.dof-00.joe
 standa01h.dds.png
 0
@@ -25858,7 +25874,7 @@ standa01h.dds.png
 1.0
 0.0
 
-#entry 1616
+#entry 1617
 stan0369_standa02a.dof-00.joe
 standa02a.dds.png
 0
@@ -25874,7 +25890,7 @@ standa02a.dds.png
 1.0
 0.0
 
-#entry 1617
+#entry 1618
 stan0369_standgate01.dof-00.joe
 standgate01.dds.png
 1
@@ -25890,7 +25906,7 @@ standgate01.dds.png
 1.0
 0.0
 
-#entry 1618
+#entry 1619
 stan0369_wallgreen.dof-00.joe
 wallgreen.dds.png
 1
@@ -25906,7 +25922,7 @@ wallgreen.dds.png
 1.0
 0.0
 
-#entry 1619
+#entry 1620
 stan0370_a18_structur.dof-00.joe
 a18_structure.dds.png
 0
@@ -25922,7 +25938,7 @@ a18_structure.dds.png
 1.0
 0.0
 
-#entry 1620
+#entry 1621
 stan0370_stair.dof-00.joe
 stairs.dds.png
 0
@@ -25938,7 +25954,7 @@ stairs.dds.png
 1.0
 0.0
 
-#entry 1621
+#entry 1622
 stan0370_standrail01.dof-00.joe
 standrail01.dds.png
 0
@@ -25954,7 +25970,7 @@ standrail01.dds.png
 1.0
 0.0
 
-#entry 1622
+#entry 1623
 stan0370_standrail02.dof-00.joe
 standrail02.dds.png
 0
@@ -25970,7 +25986,7 @@ standrail02.dds.png
 1.0
 0.0
 
-#entry 1623
+#entry 1624
 stan0370_standrail03.dof-00.joe
 standrail03.dds.png
 1
@@ -25986,7 +26002,7 @@ standrail03.dds.png
 1.0
 0.0
 
-#entry 1624
+#entry 1625
 star0371_concg.dof-00.joe
 concg.dds.png
 1
@@ -26002,7 +26018,7 @@ concg.dds.png
 1.0
 0.0
 
-#entry 1625
+#entry 1626
 star0371_stand01e.dof-00.joe
 stand01e.dds.png
 0
@@ -26018,7 +26034,7 @@ stand01e.dds.png
 1.0
 0.0
 
-#entry 1626
+#entry 1627
 star0371_stand01g.dof-00.joe
 stand01g.dds.png
 1
@@ -26034,7 +26050,7 @@ stand01g.dds.png
 1.0
 0.0
 
-#entry 1627
+#entry 1628
 star0371_stand01h.dof-00.joe
 stand01h.dds.png
 0
@@ -26050,7 +26066,7 @@ stand01h.dds.png
 1.0
 0.0
 
-#entry 1628
+#entry 1629
 star0371_stand02c.dof-00.joe
 stand02c.dds.png
 1
@@ -26066,7 +26082,7 @@ stand02c.dds.png
 1.0
 0.0
 
-#entry 1629
+#entry 1630
 star0371_stand02stair.dof-00.joe
 stand02r.dds.png
 1
@@ -26082,7 +26098,7 @@ stand02r.dds.png
 1.0
 0.0
 
-#entry 1630
+#entry 1631
 star0371_stand03stair.dof-00.joe
 stand03stairs.dds.png
 1
@@ -26098,7 +26114,7 @@ stand03stairs.dds.png
 1.0
 0.0
 
-#entry 1631
+#entry 1632
 tent0372_grltglowa.dof-00.joe
 grnglow.dds.png
 0
@@ -26114,7 +26130,7 @@ grnglow.dds.png
 1.0
 0.0
 
-#entry 1632
+#entry 1633
 tent0372_rdltglowa.dof-00.joe
 rdglow.dds.png
 1
@@ -26130,7 +26146,7 @@ rdglow.dds.png
 1.0
 0.0
 
-#entry 1633
+#entry 1634
 tent0372_rdltglowb.dof-00.joe
 rdglow.dds.png
 1
@@ -26146,7 +26162,7 @@ rdglow.dds.png
 1.0
 0.0
 
-#entry 1634
+#entry 1635
 tent0372_rdltglowc.dof-00.joe
 rdglow.dds.png
 1
@@ -26162,7 +26178,7 @@ rdglow.dds.png
 1.0
 0.0
 
-#entry 1635
+#entry 1636
 tent0372_rdltglowd.dof-00.joe
 rdglow.dds.png
 1
@@ -26178,7 +26194,7 @@ rdglow.dds.png
 1.0
 0.0
 
-#entry 1636
+#entry 1637
 tent0373_cwallgarage0.dof-00.joe
 garage08.dds.png
 0
@@ -26194,7 +26210,7 @@ garage08.dds.png
 1.0
 0.0
 
-#entry 1637
+#entry 1638
 tent0373_tentmetal.dof-00.joe
 tentmetal.dds.png
 1
@@ -26210,7 +26226,7 @@ tentmetal.dds.png
 1.0
 0.0
 
-#entry 1638
+#entry 1639
 tent0373_tenttop01.dof-00.joe
 tenttop01.dds.png
 1
@@ -26226,7 +26242,7 @@ tenttop01.dds.png
 1.0
 0.0
 
-#entry 1639
+#entry 1640
 tent0373_tentwindow1.dof-00.joe
 tentwindow1.dds.png
 0
@@ -26242,7 +26258,7 @@ tentwindow1.dds.png
 1.0
 0.0
 
-#entry 1640
+#entry 1641
 tent0373_tentwindow2.dof-00.joe
 tentwindow2.dds.png
 0
@@ -26258,7 +26274,7 @@ tentwindow2.dds.png
 1.0
 0.0
 
-#entry 1641
+#entry 1642
 terr0374_cwallgarage0.dof-00.joe
 garage08.dds.png
 0
@@ -26274,7 +26290,7 @@ garage08.dds.png
 1.0
 0.0
 
-#entry 1642
+#entry 1643
 terr0374_cwallgarage1.dof-00.joe
 garage10.dds.png
 0
@@ -26290,7 +26306,7 @@ garage10.dds.png
 1.0
 0.0
 
-#entry 1643
+#entry 1644
 terr0374_tentmetal.dof-00.joe
 tentmetal.dds.png
 1
@@ -26306,7 +26322,7 @@ tentmetal.dds.png
 1.0
 0.0
 
-#entry 1644
+#entry 1645
 terr0374_tenttop01.dof-00.joe
 tenttop01.dds.png
 1
@@ -26322,7 +26338,7 @@ tenttop01.dds.png
 1.0
 0.0
 
-#entry 1645
+#entry 1646
 terr0374_tentwindow1.dof-00.joe
 tentwindow1.dds.png
 0
@@ -26338,7 +26354,7 @@ tentwindow1.dds.png
 1.0
 0.0
 
-#entry 1646
+#entry 1647
 terr0374_tentwindow2.dof-00.joe
 tentwindow2.dds.png
 0
@@ -26354,7 +26370,7 @@ tentwindow2.dds.png
 1.0
 0.0
 
-#entry 1647
+#entry 1648
 terr0375_grassterra.dof-00.joe
 grassterra.dds.png
 1
@@ -26370,7 +26386,7 @@ grassterra.dds.png
 1.0
 0.0
 
-#entry 1648
+#entry 1649
 terr0375_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -26386,7 +26402,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1649
+#entry 1650
 terr0375_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -26402,7 +26418,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1650
+#entry 1651
 terr0376_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -26418,7 +26434,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1651
+#entry 1652
 terr0376_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -26434,7 +26450,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1652
+#entry 1653
 terr0376_grassvc.dof-00.joe
 grassvc.dds.png
 1
@@ -26450,7 +26466,7 @@ grassvc.dds.png
 1.0
 0.0
 
-#entry 1653
+#entry 1654
 terr0376_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -26466,7 +26482,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1654
+#entry 1655
 terr0377_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -26482,7 +26498,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1655
+#entry 1656
 terr0377_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -26498,7 +26514,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1656
+#entry 1657
 terr0377_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -26514,7 +26530,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1657
+#entry 1658
 terr0378_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -26530,7 +26546,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1658
+#entry 1659
 terr0378_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -26546,7 +26562,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1659
+#entry 1660
 terr0379_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -26562,7 +26578,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1660
+#entry 1661
 terr0379_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -26578,7 +26594,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1661
+#entry 1662
 terr0380_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -26594,7 +26610,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1662
+#entry 1663
 terr0380_roadgar.dof-00.joe
 garagefloor.dds.png
 1
@@ -26610,7 +26626,7 @@ garagefloor.dds.png
 1.0
 0.0
 
-#entry 1663
+#entry 1664
 terr0380_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -26626,7 +26642,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1664
+#entry 1665
 terr0381_roadgar.dof-00.joe
 garagefloor.dds.png
 1
@@ -26642,7 +26658,7 @@ garagefloor.dds.png
 1.0
 0.0
 
-#entry 1665
+#entry 1666
 terr0381_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -26658,7 +26674,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1666
+#entry 1667
 terr0381_roadpit_park.dof-00.joe
 roadpit_park.dds.png
 1
@@ -26674,7 +26690,7 @@ roadpit_park.dds.png
 1.0
 0.0
 
-#entry 1667
+#entry 1668
 terr0382_cement01.dof-00.joe
 cement01.dds.png
 1
@@ -26690,7 +26706,7 @@ cement01.dds.png
 1.0
 0.0
 
-#entry 1668
+#entry 1669
 terr0382_grassterra.dof-00.joe
 grassterra.dds.png
 1
@@ -26706,7 +26722,7 @@ grassterra.dds.png
 1.0
 0.0
 
-#entry 1669
+#entry 1670
 terr0382_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -26722,7 +26738,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1670
+#entry 1671
 terr0382_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -26738,7 +26754,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1671
+#entry 1672
 terr0382_greenwater.dof-00.joe
 greenwater.dds.png
 1
@@ -26754,7 +26770,7 @@ greenwater.dds.png
 1.0
 0.0
 
-#entry 1672
+#entry 1673
 terr0382_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -26770,7 +26786,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1673
+#entry 1674
 terr0383_grassterra.dof-00.joe
 grassterra.dds.png
 1
@@ -26786,7 +26802,7 @@ grassterra.dds.png
 1.0
 0.0
 
-#entry 1674
+#entry 1675
 terr0383_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -26802,7 +26818,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1675
+#entry 1676
 terr0383_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -26818,7 +26834,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1676
+#entry 1677
 terr0383_grassvc.dof-00.joe
 grassvc.dds.png
 1
@@ -26834,7 +26850,7 @@ grassvc.dds.png
 1.0
 0.0
 
-#entry 1677
+#entry 1678
 terr0383_greenwater.dof-00.joe
 greenwater.dds.png
 1
@@ -26850,7 +26866,7 @@ greenwater.dds.png
 1.0
 0.0
 
-#entry 1678
+#entry 1679
 terr0383_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -26866,7 +26882,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1679
+#entry 1680
 terr0383_wallwhite.dof-00.joe
 wallwhite.dds.png
 1
@@ -26882,7 +26898,7 @@ wallwhite.dds.png
 1.0
 0.0
 
-#entry 1680
+#entry 1681
 terr0384_grassterra.dof-00.joe
 grassterra.dds.png
 1
@@ -26898,7 +26914,7 @@ grassterra.dds.png
 1.0
 0.0
 
-#entry 1681
+#entry 1682
 terr0384_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -26914,7 +26930,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1682
+#entry 1683
 terr0384_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -26930,7 +26946,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1683
+#entry 1684
 terr0384_greenwater.dof-00.joe
 greenwater.dds.png
 1
@@ -26946,7 +26962,7 @@ greenwater.dds.png
 1.0
 0.0
 
-#entry 1684
+#entry 1685
 terr0384_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -26962,7 +26978,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1685
+#entry 1686
 terr0384_wallwhite.dof-00.joe
 wallwhite.dds.png
 1
@@ -26978,7 +26994,7 @@ wallwhite.dds.png
 1.0
 0.0
 
-#entry 1686
+#entry 1687
 terr0385_grassterra.dof-00.joe
 grassterra.dds.png
 1
@@ -26994,7 +27010,7 @@ grassterra.dds.png
 1.0
 0.0
 
-#entry 1687
+#entry 1688
 terr0385_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -27010,7 +27026,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1688
+#entry 1689
 terr0385_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -27026,7 +27042,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1689
+#entry 1690
 terr0385_greenwater.dof-00.joe
 greenwater.dds.png
 1
@@ -27042,7 +27058,7 @@ greenwater.dds.png
 1.0
 0.0
 
-#entry 1690
+#entry 1691
 terr0385_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -27058,7 +27074,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1691
+#entry 1692
 terr0386_grassterra.dof-00.joe
 grassterra.dds.png
 1
@@ -27074,7 +27090,7 @@ grassterra.dds.png
 1.0
 0.0
 
-#entry 1692
+#entry 1693
 terr0386_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -27090,7 +27106,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1693
+#entry 1694
 terr0386_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -27106,7 +27122,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1694
+#entry 1695
 terr0386_greenwater.dof-00.joe
 greenwater.dds.png
 1
@@ -27122,7 +27138,7 @@ greenwater.dds.png
 1.0
 0.0
 
-#entry 1695
+#entry 1696
 terr0386_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -27138,7 +27154,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1696
+#entry 1697
 terr0387_grassterra.dof-00.joe
 grassterra.dds.png
 1
@@ -27154,7 +27170,7 @@ grassterra.dds.png
 1.0
 0.0
 
-#entry 1697
+#entry 1698
 terr0387_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -27170,7 +27186,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1698
+#entry 1699
 terr0387_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -27186,7 +27202,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1699
+#entry 1700
 terr0387_grassvc.dof-00.joe
 grassvc.dds.png
 1
@@ -27202,7 +27218,7 @@ grassvc.dds.png
 1.0
 0.0
 
-#entry 1700
+#entry 1701
 terr0387_greenwater.dof-00.joe
 greenwater.dds.png
 1
@@ -27218,7 +27234,7 @@ greenwater.dds.png
 1.0
 0.0
 
-#entry 1701
+#entry 1702
 terr0387_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -27234,7 +27250,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1702
+#entry 1703
 terr0388_grassterra.dof-00.joe
 grassterra.dds.png
 1
@@ -27250,7 +27266,7 @@ grassterra.dds.png
 1.0
 0.0
 
-#entry 1703
+#entry 1704
 terr0388_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -27266,7 +27282,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1704
+#entry 1705
 terr0388_greenwater.dof-00.joe
 greenwater.dds.png
 1
@@ -27282,7 +27298,7 @@ greenwater.dds.png
 1.0
 0.0
 
-#entry 1705
+#entry 1706
 terr0388_roadgar.dof-00.joe
 garagefloor.dds.png
 1
@@ -27298,7 +27314,7 @@ garagefloor.dds.png
 1.0
 0.0
 
-#entry 1706
+#entry 1707
 terr0388_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -27314,7 +27330,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1707
+#entry 1708
 terr0388_wallwhite.dof-00.joe
 wallwhite.dds.png
 1
@@ -27330,7 +27346,7 @@ wallwhite.dds.png
 1.0
 0.0
 
-#entry 1708
+#entry 1709
 terr0389_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -27346,7 +27362,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1709
+#entry 1710
 terr0389_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -27362,7 +27378,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1710
+#entry 1711
 terr0389_roadpit_park.dof-00.joe
 roadpit_park.dds.png
 1
@@ -27378,7 +27394,7 @@ roadpit_park.dds.png
 1.0
 0.0
 
-#entry 1711
+#entry 1712
 terr0389_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -27394,7 +27410,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1712
+#entry 1713
 terr0389_roadt1.dof-00.joe
 roadt1.dds.png
 1
@@ -27410,7 +27426,7 @@ roadt1.dds.png
 1.0
 0.0
 
-#entry 1713
+#entry 1714
 terr0390_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -27426,7 +27442,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1714
+#entry 1715
 terr0390_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -27442,7 +27458,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1715
+#entry 1716
 terr0390_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -27458,7 +27474,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1716
+#entry 1717
 terr0391_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -27474,7 +27490,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1717
+#entry 1718
 terr0391_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -27490,7 +27506,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1718
+#entry 1719
 terr0391_grassvc.dof-00.joe
 grassvc.dds.png
 1
@@ -27506,7 +27522,7 @@ grassvc.dds.png
 1.0
 0.0
 
-#entry 1719
+#entry 1720
 terr0391_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -27522,7 +27538,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1720
+#entry 1721
 terr0392_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -27538,7 +27554,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1721
+#entry 1722
 terr0392_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -27554,7 +27570,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1722
+#entry 1723
 terr0393_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -27570,7 +27586,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1723
+#entry 1724
 terr0393_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -27586,7 +27602,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1724
+#entry 1725
 terr0393_grassvc.dof-00.joe
 grassvc.dds.png
 1
@@ -27602,7 +27618,7 @@ grassvc.dds.png
 1.0
 0.0
 
-#entry 1725
+#entry 1726
 terr0394_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -27618,7 +27634,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1726
+#entry 1727
 terr0394_grassvc.dof-00.joe
 grassvc.dds.png
 1
@@ -27634,7 +27650,7 @@ grassvc.dds.png
 1.0
 0.0
 
-#entry 1727
+#entry 1728
 terr0395_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -27650,7 +27666,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1728
+#entry 1729
 terr0395_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -27666,7 +27682,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1729
+#entry 1730
 terr0395_grassvc.dof-00.joe
 grassvc.dds.png
 1
@@ -27682,7 +27698,7 @@ grassvc.dds.png
 1.0
 0.0
 
-#entry 1730
+#entry 1731
 terr0396_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -27698,7 +27714,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1731
+#entry 1732
 terr0396_grassvc.dof-00.joe
 grassvc.dds.png
 1
@@ -27714,7 +27730,7 @@ grassvc.dds.png
 1.0
 0.0
 
-#entry 1732
+#entry 1733
 terr0397_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -27730,7 +27746,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1733
+#entry 1734
 terr0398_grassterra.dof-00.joe
 grassterra.dds.png
 1
@@ -27746,7 +27762,7 @@ grassterra.dds.png
 1.0
 0.0
 
-#entry 1734
+#entry 1735
 terr0398_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -27762,7 +27778,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1735
+#entry 1736
 terr0398_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -27778,7 +27794,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1736
+#entry 1737
 terr0399_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -27794,7 +27810,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1737
+#entry 1738
 terr0400_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -27810,7 +27826,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1738
+#entry 1739
 terr0401_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -27826,7 +27842,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1739
+#entry 1740
 terr0401_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -27842,7 +27858,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1740
+#entry 1741
 terr0402_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -27858,7 +27874,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1741
+#entry 1742
 terr0402_grassvc.dof-00.joe
 grassvc.dds.png
 1
@@ -27874,7 +27890,7 @@ grassvc.dds.png
 1.0
 0.0
 
-#entry 1742
+#entry 1743
 terr0402_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -27890,7 +27906,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1743
+#entry 1744
 terr0403_grassterra.dof-00.joe
 grassterra.dds.png
 1
@@ -27906,7 +27922,7 @@ grassterra.dds.png
 1.0
 0.0
 
-#entry 1744
+#entry 1745
 terr0403_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -27922,7 +27938,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1745
+#entry 1746
 terr0403_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -27938,7 +27954,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1746
+#entry 1747
 terr0403_grassvc.dof-00.joe
 grassvc.dds.png
 1
@@ -27954,7 +27970,7 @@ grassvc.dds.png
 1.0
 0.0
 
-#entry 1747
+#entry 1748
 terr0403_hillstairs.dof-00.joe
 hillstairs.dds.png
 1
@@ -27970,7 +27986,7 @@ hillstairs.dds.png
 1.0
 0.0
 
-#entry 1748
+#entry 1749
 terr0404_grassterra.dof-00.joe
 grassterra.dds.png
 1
@@ -27986,7 +28002,7 @@ grassterra.dds.png
 1.0
 0.0
 
-#entry 1749
+#entry 1750
 terr0404_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -28002,7 +28018,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1750
+#entry 1751
 terr0404_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -28018,7 +28034,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1751
+#entry 1752
 terr0404_grassvc.dof-00.joe
 grassvc.dds.png
 1
@@ -28034,7 +28050,7 @@ grassvc.dds.png
 1.0
 0.0
 
-#entry 1752
+#entry 1753
 terr0404_graywall.dof-00.joe
 graywall.dds.png
 1
@@ -28050,7 +28066,7 @@ graywall.dds.png
 1.0
 0.0
 
-#entry 1753
+#entry 1754
 terr0404_hillstairs.dof-00.joe
 hillstairs.dds.png
 1
@@ -28066,7 +28082,7 @@ hillstairs.dds.png
 1.0
 0.0
 
-#entry 1754
+#entry 1755
 terr0404_rail02.dof-00.joe
 rail02.dds.png
 0
@@ -28082,7 +28098,7 @@ rail02.dds.png
 1.0
 0.0
 
-#entry 1755
+#entry 1756
 terr0404_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -28098,7 +28114,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1756
+#entry 1757
 terr0405_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -28114,7 +28130,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1757
+#entry 1758
 terr0405_graywall.dof-00.joe
 graywall.dds.png
 1
@@ -28130,7 +28146,7 @@ graywall.dds.png
 1.0
 0.0
 
-#entry 1758
+#entry 1759
 terr0405_hillstairs.dof-00.joe
 hillstairs.dds.png
 1
@@ -28146,7 +28162,7 @@ hillstairs.dds.png
 1.0
 0.0
 
-#entry 1759
+#entry 1760
 terr0405_rail02.dof-00.joe
 rail02.dds.png
 0
@@ -28162,7 +28178,7 @@ rail02.dds.png
 1.0
 0.0
 
-#entry 1760
+#entry 1761
 terr0405_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -28178,7 +28194,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1761
+#entry 1762
 terr0406_cement01.dof-00.joe
 cement01.dds.png
 1
@@ -28194,7 +28210,7 @@ cement01.dds.png
 1.0
 0.0
 
-#entry 1762
+#entry 1763
 terr0406_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -28210,7 +28226,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1763
+#entry 1764
 terr0406_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -28226,7 +28242,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1764
+#entry 1765
 terr0407_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -28242,7 +28258,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1765
+#entry 1766
 terr0407_hillstairs.dof-00.joe
 hillstairs.dds.png
 1
@@ -28258,7 +28274,7 @@ hillstairs.dds.png
 1.0
 0.0
 
-#entry 1766
+#entry 1767
 terr0407_rodos.dof-00.joe
 rodos.dds.png
 1
@@ -28274,7 +28290,7 @@ rodos.dds.png
 1.0
 0.0
 
-#entry 1767
+#entry 1768
 terr0408_cement01.dof-00.joe
 cement01.dds.png
 1
@@ -28290,7 +28306,7 @@ cement01.dds.png
 1.0
 0.0
 
-#entry 1768
+#entry 1769
 terr0408_concwall.dof-00.joe
 concwall.dds.png
 1
@@ -28306,7 +28322,7 @@ concwall.dds.png
 1.0
 0.0
 
-#entry 1769
+#entry 1770
 terr0408_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -28322,7 +28338,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1770
+#entry 1771
 terr0408_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -28338,7 +28354,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1771
+#entry 1772
 terr0409_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -28354,7 +28370,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1772
+#entry 1773
 terr0409_graywall.dof-00.joe
 graywall.dds.png
 1
@@ -28370,7 +28386,7 @@ graywall.dds.png
 1.0
 0.0
 
-#entry 1773
+#entry 1774
 terr0409_hillstairs.dof-00.joe
 hillstairs.dds.png
 1
@@ -28386,7 +28402,7 @@ hillstairs.dds.png
 1.0
 0.0
 
-#entry 1774
+#entry 1775
 terr0409_rail02.dof-00.joe
 rail02.dds.png
 0
@@ -28402,7 +28418,7 @@ rail02.dds.png
 1.0
 0.0
 
-#entry 1775
+#entry 1776
 terr0409_wallwhite.dof-00.joe
 wallwhite.dds.png
 1
@@ -28418,7 +28434,7 @@ wallwhite.dds.png
 1.0
 0.0
 
-#entry 1776
+#entry 1777
 terr0410_concwall.dof-00.joe
 concwall.dds.png
 1
@@ -28434,7 +28450,7 @@ concwall.dds.png
 1.0
 0.0
 
-#entry 1777
+#entry 1778
 terr0410_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -28450,7 +28466,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1778
+#entry 1779
 terr0410_mosaico1.dof-00.joe
 mosaico1.dds.png
 1
@@ -28466,7 +28482,7 @@ mosaico1.dds.png
 1.0
 0.0
 
-#entry 1779
+#entry 1780
 terr0410_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -28482,7 +28498,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1780
+#entry 1781
 terr0411_concwall.dof-00.joe
 concwall.dds.png
 1
@@ -28498,7 +28514,7 @@ concwall.dds.png
 1.0
 0.0
 
-#entry 1781
+#entry 1782
 terr0411_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -28514,7 +28530,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1782
+#entry 1783
 terr0411_mosaico1.dof-00.joe
 mosaico1.dds.png
 1
@@ -28530,7 +28546,7 @@ mosaico1.dds.png
 1.0
 0.0
 
-#entry 1783
+#entry 1784
 terr0411_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -28546,7 +28562,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1784
+#entry 1785
 terr0412_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -28562,7 +28578,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1785
+#entry 1786
 terr0412_mosaico1.dof-00.joe
 mosaico1.dds.png
 1
@@ -28578,7 +28594,7 @@ mosaico1.dds.png
 1.0
 0.0
 
-#entry 1786
+#entry 1787
 terr0412_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -28594,7 +28610,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1787
+#entry 1788
 terr0413_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -28610,7 +28626,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1788
+#entry 1789
 terr0413_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -28626,7 +28642,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1789
+#entry 1790
 terr0414_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -28642,7 +28658,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1790
+#entry 1791
 terr0415_cement01.dof-00.joe
 cement01.dds.png
 1
@@ -28658,7 +28674,7 @@ cement01.dds.png
 1.0
 0.0
 
-#entry 1791
+#entry 1792
 terr0415_grassterra.dof-00.joe
 grassterra.dds.png
 1
@@ -28674,7 +28690,7 @@ grassterra.dds.png
 1.0
 0.0
 
-#entry 1792
+#entry 1793
 terr0415_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -28690,7 +28706,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1793
+#entry 1794
 terr0415_grassvc.dof-00.joe
 grassvc.dds.png
 1
@@ -28706,7 +28722,7 @@ grassvc.dds.png
 1.0
 0.0
 
-#entry 1794
+#entry 1795
 terr0415_roadgar.dof-00.joe
 garagefloor.dds.png
 1
@@ -28722,7 +28738,7 @@ garagefloor.dds.png
 1.0
 0.0
 
-#entry 1795
+#entry 1796
 terr0415_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -28738,7 +28754,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1796
+#entry 1797
 terr0416_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -28754,7 +28770,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1797
+#entry 1798
 terr0416_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -28770,7 +28786,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1798
+#entry 1799
 terr0416_grassvc.dof-00.joe
 grassvc.dds.png
 1
@@ -28786,7 +28802,7 @@ grassvc.dds.png
 1.0
 0.0
 
-#entry 1799
+#entry 1800
 terr0416_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -28802,7 +28818,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1800
+#entry 1801
 terr0417_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -28818,7 +28834,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1801
+#entry 1802
 terr0417_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -28834,7 +28850,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1802
+#entry 1803
 terr0417_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -28850,7 +28866,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1803
+#entry 1804
 terr0418_grassterra.dof-00.joe
 grassterra.dds.png
 1
@@ -28866,7 +28882,7 @@ grassterra.dds.png
 1.0
 0.0
 
-#entry 1804
+#entry 1805
 terr0418_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -28882,7 +28898,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1805
+#entry 1806
 terr0419_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -28898,7 +28914,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1806
+#entry 1807
 terr0419_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -28914,7 +28930,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1807
+#entry 1808
 terr0420_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -28930,7 +28946,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1808
+#entry 1809
 terr0420_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -28946,7 +28962,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1809
+#entry 1810
 terr0421_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -28962,7 +28978,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1810
+#entry 1811
 terr0421_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -28978,7 +28994,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1811
+#entry 1812
 terr0421_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -28994,7 +29010,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1812
+#entry 1813
 terr0422_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -29010,7 +29026,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1813
+#entry 1814
 terr0422_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -29026,7 +29042,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1814
+#entry 1815
 terr0423_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -29042,7 +29058,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1815
+#entry 1816
 terr0423_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -29058,7 +29074,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1816
+#entry 1817
 terr0423_wallwhite.dof-00.joe
 wallwhite.dds.png
 1
@@ -29074,7 +29090,7 @@ wallwhite.dds.png
 1.0
 0.0
 
-#entry 1817
+#entry 1818
 terr0424_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -29090,7 +29106,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1818
+#entry 1819
 terr0424_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -29106,7 +29122,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1819
+#entry 1820
 terr0425_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -29122,7 +29138,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1820
+#entry 1821
 terr0425_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -29138,7 +29154,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1821
+#entry 1822
 terr0426_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -29154,7 +29170,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1822
+#entry 1823
 terr0426_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -29170,7 +29186,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1823
+#entry 1824
 terr0426_grassvc.dof-00.joe
 grassvc.dds.png
 1
@@ -29186,7 +29202,7 @@ grassvc.dds.png
 1.0
 0.0
 
-#entry 1824
+#entry 1825
 terr0426_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -29202,7 +29218,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1825
+#entry 1826
 terr0427_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -29218,7 +29234,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1826
+#entry 1827
 terr0427_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -29234,7 +29250,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1827
+#entry 1828
 terr0427_wallwhite.dof-00.joe
 wallwhite.dds.png
 1
@@ -29250,7 +29266,7 @@ wallwhite.dds.png
 1.0
 0.0
 
-#entry 1828
+#entry 1829
 terr0428_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -29266,7 +29282,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1829
+#entry 1830
 terr0428_grassvc.dof-00.joe
 grassvc.dds.png
 1
@@ -29282,7 +29298,7 @@ grassvc.dds.png
 1.0
 0.0
 
-#entry 1830
+#entry 1831
 terr0429_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -29298,7 +29314,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1831
+#entry 1832
 terr0429_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -29314,7 +29330,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1832
+#entry 1833
 terr0429_grassvc.dof-00.joe
 grassvc.dds.png
 1
@@ -29330,7 +29346,7 @@ grassvc.dds.png
 1.0
 0.0
 
-#entry 1833
+#entry 1834
 terr0430_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -29346,7 +29362,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1834
+#entry 1835
 terr0430_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -29362,7 +29378,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1835
+#entry 1836
 terr0430_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -29378,7 +29394,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1836
+#entry 1837
 terr0431_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -29394,7 +29410,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1837
+#entry 1838
 terr0431_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -29410,7 +29426,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1838
+#entry 1839
 terr0431_wallwhite.dof-00.joe
 wallwhite.dds.png
 1
@@ -29426,7 +29442,7 @@ wallwhite.dds.png
 1.0
 0.0
 
-#entry 1839
+#entry 1840
 terr0432_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -29442,7 +29458,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1840
+#entry 1841
 terr0432_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -29458,7 +29474,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1841
+#entry 1842
 terr0433_football.dof-00.joe
 football.dds.png
 1
@@ -29474,7 +29490,7 @@ football.dds.png
 1.0
 0.0
 
-#entry 1842
+#entry 1843
 terr0433_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -29490,7 +29506,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1843
+#entry 1844
 terr0433_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -29506,7 +29522,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1844
+#entry 1845
 terr0434_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -29522,7 +29538,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1845
+#entry 1846
 terr0434_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -29538,7 +29554,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1846
+#entry 1847
 terr0434_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -29554,7 +29570,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1847
+#entry 1848
 terr0434_wall_bricks.dof-00.joe
 wall_bricks.dds.png
 1
@@ -29570,7 +29586,7 @@ wall_bricks.dds.png
 1.0
 0.0
 
-#entry 1848
+#entry 1849
 terr0435_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -29586,7 +29602,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1849
+#entry 1850
 terr0435_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -29602,7 +29618,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1850
+#entry 1851
 terr0436_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -29618,7 +29634,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1851
+#entry 1852
 terr0436_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -29634,7 +29650,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1852
+#entry 1853
 terr0436_wallwhite.dof-00.joe
 wallwhite.dds.png
 1
@@ -29650,7 +29666,7 @@ wallwhite.dds.png
 1.0
 0.0
 
-#entry 1853
+#entry 1854
 terr0437_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -29666,7 +29682,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1854
+#entry 1855
 terr0437_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -29682,7 +29698,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1855
+#entry 1856
 terr0437_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -29698,7 +29714,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1856
+#entry 1857
 terr0437_wall_bricks.dof-00.joe
 wall_bricks.dds.png
 1
@@ -29714,7 +29730,7 @@ wall_bricks.dds.png
 1.0
 0.0
 
-#entry 1857
+#entry 1858
 terr0438_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -29730,7 +29746,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1858
+#entry 1859
 terr0438_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -29746,7 +29762,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1859
+#entry 1860
 terr0438_grassvc.dof-00.joe
 grassvc.dds.png
 1
@@ -29762,7 +29778,7 @@ grassvc.dds.png
 1.0
 0.0
 
-#entry 1860
+#entry 1861
 terr0438_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -29778,7 +29794,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1861
+#entry 1862
 terr0439_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -29794,7 +29810,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1862
+#entry 1863
 terr0439_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -29810,7 +29826,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1863
+#entry 1864
 terr0439_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -29826,7 +29842,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1864
+#entry 1865
 terr0440_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -29842,7 +29858,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1865
+#entry 1866
 terr0440_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -29858,7 +29874,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1866
+#entry 1867
 terr0440_grassvc.dof-00.joe
 grassvc.dds.png
 1
@@ -29874,7 +29890,7 @@ grassvc.dds.png
 1.0
 0.0
 
-#entry 1867
+#entry 1868
 terr0441_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -29890,7 +29906,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1868
+#entry 1869
 terr0441_grassvb.dof-00.joe
 grassvb.dds.png
 1
@@ -29906,7 +29922,7 @@ grassvb.dds.png
 1.0
 0.0
 
-#entry 1869
+#entry 1870
 terr0441_grassvc.dof-00.joe
 grassvc.dds.png
 1
@@ -29922,7 +29938,7 @@ grassvc.dds.png
 1.0
 0.0
 
-#entry 1870
+#entry 1871
 trac0442_grassterra.dof-00.joe
 grassterra.dds.png
 1
@@ -29938,7 +29954,7 @@ grassterra.dds.png
 1.0
 0.0
 
-#entry 1871
+#entry 1872
 trac0442_grassva.dof-00.joe
 grassva.dds.png
 1
@@ -29954,7 +29970,7 @@ grassva.dds.png
 1.0
 0.0
 
-#entry 1872
+#entry 1873
 trac0442_grassvc.dof-00.joe
 grassvc.dds.png
 1
@@ -29970,7 +29986,7 @@ grassvc.dds.png
 1.0
 0.0
 
-#entry 1873
+#entry 1874
 trac0442_greenwater.dof-00.joe
 greenwater.dds.png
 1
@@ -29986,7 +30002,7 @@ greenwater.dds.png
 1.0
 0.0
 
-#entry 1874
+#entry 1875
 trac0442_roadpit.dof-00.joe
 roadpitplain.dds.png
 1
@@ -30002,7 +30018,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1875
+#entry 1876
 trac0442_wallwhite.dof-00.joe
 wallwhite.dds.png
 1
@@ -30018,7 +30034,7 @@ wallwhite.dds.png
 1.0
 0.0
 
-#entry 1876
+#entry 1877
 trac0443_b3road.dof-00.joe
 road.dds.png
 1
@@ -30034,7 +30050,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 1877
+#entry 1878
 trac0443_drain.dof-00.joe
 drain.dds.png
 1
@@ -30050,7 +30066,7 @@ drain.dds.png
 1.0
 0.0
 
-#entry 1878
+#entry 1879
 trac0443_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -30066,7 +30082,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1879
+#entry 1880
 trac0443_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -30082,7 +30098,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1880
+#entry 1881
 trac0443_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -30098,7 +30114,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1881
+#entry 1882
 trac0443_roadgrd1.dof-00.joe
 roadgrd1.dds.png
 1
@@ -30114,7 +30130,7 @@ roadgrd1.dds.png
 1.0
 0.0
 
-#entry 1882
+#entry 1883
 trac0443_roadgrd2.dof-00.joe
 roadgrd2.dds.png
 1
@@ -30130,7 +30146,7 @@ roadgrd2.dds.png
 1.0
 0.0
 
-#entry 1883
+#entry 1884
 trac0443_roadpita.dof-00.joe
 roadpitarrow1.dds.png
 1
@@ -30146,7 +30162,7 @@ roadpitarrow1.dds.png
 1.0
 0.0
 
-#entry 1884
+#entry 1885
 trac0443_roadpitarrow.dof-00.joe
 roadpitarrow.dds.png
 1
@@ -30162,7 +30178,7 @@ roadpitarrow.dds.png
 1.0
 0.0
 
-#entry 1885
+#entry 1886
 trac0443_roadpitcemen.dof-00.joe
 roadpitcement.dds.png
 1
@@ -30178,7 +30194,7 @@ roadpitcement.dds.png
 2.0
 0.0
 
-#entry 1886
+#entry 1887
 trac0443_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -30194,7 +30210,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1887
+#entry 1888
 trac0443_roadpity.dof-00.joe
 roadpityellow1.dds.png
 1
@@ -30210,7 +30226,7 @@ roadpityellow1.dds.png
 1.0
 0.0
 
-#entry 1888
+#entry 1889
 trac0443_roadpityello.dof-00.joe
 roadpityellow.dds.png
 1
@@ -30226,7 +30242,7 @@ roadpityellow.dds.png
 1.0
 0.0
 
-#entry 1889
+#entry 1890
 trac0444_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -30242,7 +30258,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1890
+#entry 1891
 trac0444_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -30258,7 +30274,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1891
+#entry 1892
 trac0444_road.dof-00.joe
 road.dds.png
 1
@@ -30274,7 +30290,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 1892
+#entry 1893
 trac0444_road2.dof-00.joe
 road2.dds.png
 1
@@ -30290,7 +30306,7 @@ road2.dds.png
 1.0
 0.0
 
-#entry 1893
+#entry 1894
 trac0444_road3.dof-00.joe
 road3.dds.png
 1
@@ -30306,7 +30322,7 @@ road3.dds.png
 1.0
 0.0
 
-#entry 1894
+#entry 1895
 trac0444_road4.dof-00.joe
 road4.dds.png
 1
@@ -30322,7 +30338,7 @@ road4.dds.png
 1.0
 0.0
 
-#entry 1895
+#entry 1896
 trac0444_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -30338,7 +30354,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1896
+#entry 1897
 trac0444_roadpityello.dof-00.joe
 roadpityellow1.dds.png
 1
@@ -30354,7 +30370,7 @@ roadpityellow1.dds.png
 1.0
 0.0
 
-#entry 1897
+#entry 1898
 trac0445_b2road.dof-00.joe
 road.dds.png
 1
@@ -30370,7 +30386,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 1898
+#entry 1899
 trac0445_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -30386,7 +30402,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1899
+#entry 1900
 trac0445_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -30402,7 +30418,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1900
+#entry 1901
 trac0445_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -30418,7 +30434,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1901
+#entry 1902
 trac0445_road.dof-00.joe
 road.dds.png
 1
@@ -30434,7 +30450,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 1902
+#entry 1903
 trac0445_road2.dof-00.joe
 road2.dds.png
 1
@@ -30450,7 +30466,7 @@ road2.dds.png
 1.0
 0.0
 
-#entry 1903
+#entry 1904
 trac0446_b1road.dof-00.joe
 road.dds.png
 1
@@ -30466,7 +30482,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 1904
+#entry 1905
 trac0446_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -30482,7 +30498,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1905
+#entry 1906
 trac0446_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -30498,7 +30514,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1906
+#entry 1907
 trac0446_grassc.dof-00.joe
 grass_m.dds.png
 1
@@ -30514,7 +30530,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1907
+#entry 1908
 trac0446_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -30530,7 +30546,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1908
+#entry 1909
 trac0446_road.dof-00.joe
 road.dds.png
 1
@@ -30546,7 +30562,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 1909
+#entry 1910
 trac0446_road2.dof-00.joe
 road2.dds.png
 1
@@ -30562,7 +30578,7 @@ road2.dds.png
 1.0
 0.0
 
-#entry 1910
+#entry 1911
 trac0446_road3.dof-00.joe
 road3.dds.png
 1
@@ -30578,7 +30594,7 @@ road3.dds.png
 1.0
 0.0
 
-#entry 1911
+#entry 1912
 trac0447_b1road.dof-00.joe
 road.dds.png
 1
@@ -30594,7 +30610,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 1912
+#entry 1913
 trac0447_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -30610,7 +30626,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1913
+#entry 1914
 trac0447_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -30626,7 +30642,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1914
+#entry 1915
 trac0447_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -30642,7 +30658,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1915
+#entry 1916
 trac0447_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -30658,7 +30674,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1916
+#entry 1917
 trac0447_rmblx4.dof-00.joe
 rmblx4.dds.png
 1
@@ -30674,7 +30690,7 @@ rmblx4.dds.png
 10.0
 50.0
 
-#entry 1917
+#entry 1918
 trac0447_road.dof-00.joe
 road.dds.png
 1
@@ -30690,7 +30706,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 1918
+#entry 1919
 trac0447_road2.dof-00.joe
 road2.dds.png
 1
@@ -30706,7 +30722,7 @@ road2.dds.png
 1.0
 0.0
 
-#entry 1919
+#entry 1920
 trac0447_road3.dof-00.joe
 road3.dds.png
 1
@@ -30722,7 +30738,7 @@ road3.dds.png
 1.0
 0.0
 
-#entry 1920
+#entry 1921
 trac0447_roadgrd1.dof-00.joe
 roadgrd1.dds.png
 1
@@ -30738,7 +30754,7 @@ roadgrd1.dds.png
 1.0
 0.0
 
-#entry 1921
+#entry 1922
 trac0447_roadgridblen.dof-00.joe
 roadgridblend.dds.png
 1
@@ -30754,7 +30770,7 @@ roadgridblend.dds.png
 1.0
 0.0
 
-#entry 1922
+#entry 1923
 trac0447_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -30770,7 +30786,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1923
+#entry 1924
 trac0447_roadpityello.dof-00.joe
 roadpityellow1.dds.png
 1
@@ -30786,7 +30802,7 @@ roadpityellow1.dds.png
 1.0
 0.0
 
-#entry 1924
+#entry 1925
 trac0448_b1road.dof-00.joe
 road.dds.png
 1
@@ -30802,7 +30818,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 1925
+#entry 1926
 trac0448_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -30818,7 +30834,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1926
+#entry 1927
 trac0448_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -30834,7 +30850,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1927
+#entry 1928
 trac0448_grassc.dof-00.joe
 grass_m.dds.png
 1
@@ -30850,7 +30866,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1928
+#entry 1929
 trac0448_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -30866,7 +30882,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1929
+#entry 1930
 trac0448_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -30882,7 +30898,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1930
+#entry 1931
 trac0448_road.dof-00.joe
 road.dds.png
 1
@@ -30898,7 +30914,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 1931
+#entry 1932
 trac0448_road3.dof-00.joe
 road3.dds.png
 1
@@ -30914,7 +30930,7 @@ road3.dds.png
 1.0
 0.0
 
-#entry 1932
+#entry 1933
 trac0448_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -30930,7 +30946,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1933
+#entry 1934
 trac0449_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -30946,7 +30962,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1934
+#entry 1935
 trac0449_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -30962,7 +30978,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1935
+#entry 1936
 trac0449_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -30978,7 +30994,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1936
+#entry 1937
 trac0449_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -30994,7 +31010,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1937
+#entry 1938
 trac0449_road.dof-00.joe
 road.dds.png
 1
@@ -31010,7 +31026,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 1938
+#entry 1939
 trac0449_road2.dof-00.joe
 road2.dds.png
 1
@@ -31026,7 +31042,7 @@ road2.dds.png
 1.0
 0.0
 
-#entry 1939
+#entry 1940
 trac0449_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -31042,7 +31058,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1940
+#entry 1941
 trac0450_b2road.dof-00.joe
 road.dds.png
 1
@@ -31058,7 +31074,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 1941
+#entry 1942
 trac0450_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -31074,7 +31090,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1942
+#entry 1943
 trac0450_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -31090,7 +31106,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1943
+#entry 1944
 trac0450_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -31106,7 +31122,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1944
+#entry 1945
 trac0450_road.dof-00.joe
 road.dds.png
 1
@@ -31122,7 +31138,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 1945
+#entry 1946
 trac0450_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -31138,7 +31154,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1946
+#entry 1947
 trac0450_sando.dof-00.joe
 sand.dds.png
 1
@@ -31154,7 +31170,7 @@ sand.dds.png
 40.0
 200.0
 
-#entry 1947
+#entry 1948
 trac0451_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -31170,7 +31186,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1948
+#entry 1949
 trac0451_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -31186,7 +31202,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1949
+#entry 1950
 trac0451_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -31202,7 +31218,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1950
+#entry 1951
 trac0451_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -31218,7 +31234,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1951
+#entry 1952
 trac0451_road.dof-00.joe
 road.dds.png
 1
@@ -31234,7 +31250,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 1952
+#entry 1953
 trac0451_road2.dof-00.joe
 road2.dds.png
 1
@@ -31250,7 +31266,7 @@ road2.dds.png
 1.0
 0.0
 
-#entry 1953
+#entry 1954
 trac0451_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -31266,7 +31282,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1954
+#entry 1955
 trac0451_sando.dof-00.joe
 sand.dds.png
 1
@@ -31282,7 +31298,7 @@ sand.dds.png
 40.0
 200.0
 
-#entry 1955
+#entry 1956
 trac0452_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -31298,7 +31314,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1956
+#entry 1957
 trac0452_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -31314,7 +31330,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1957
+#entry 1958
 trac0452_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -31330,7 +31346,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1958
+#entry 1959
 trac0452_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -31346,7 +31362,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1959
+#entry 1960
 trac0452_rmblconcave.dof-00.joe
 rmblconcave.dds.png
 1
@@ -31362,7 +31378,7 @@ rmblconcave.dds.png
 1.0
 0.0
 
-#entry 1960
+#entry 1961
 trac0452_road.dof-00.joe
 road.dds.png
 1
@@ -31378,7 +31394,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 1961
+#entry 1962
 trac0452_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -31394,7 +31410,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1962
+#entry 1963
 trac0452_sando.dof-00.joe
 sand.dds.png
 1
@@ -31410,7 +31426,7 @@ sand.dds.png
 40.0
 200.0
 
-#entry 1963
+#entry 1964
 trac0453_b1road.dof-00.joe
 road.dds.png
 1
@@ -31426,7 +31442,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 1964
+#entry 1965
 trac0453_b1road3.dof-00.joe
 road3.dds.png
 1
@@ -31442,7 +31458,7 @@ road3.dds.png
 1.0
 0.0
 
-#entry 1965
+#entry 1966
 trac0453_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -31458,7 +31474,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1966
+#entry 1967
 trac0453_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -31474,7 +31490,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1967
+#entry 1968
 trac0453_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -31490,7 +31506,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1968
+#entry 1969
 trac0453_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -31506,7 +31522,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1969
+#entry 1970
 trac0453_road.dof-00.joe
 road.dds.png
 1
@@ -31522,7 +31538,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 1970
+#entry 1971
 trac0453_road4.dof-00.joe
 road4.dds.png
 1
@@ -31538,7 +31554,7 @@ road4.dds.png
 1.0
 0.0
 
-#entry 1971
+#entry 1972
 trac0453_sando.dof-00.joe
 sand.dds.png
 1
@@ -31554,7 +31570,7 @@ sand.dds.png
 40.0
 200.0
 
-#entry 1972
+#entry 1973
 trac0454_b1road.dof-00.joe
 road.dds.png
 1
@@ -31570,7 +31586,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 1973
+#entry 1974
 trac0454_b1road3.dof-00.joe
 road3.dds.png
 1
@@ -31586,7 +31602,7 @@ road3.dds.png
 1.0
 0.0
 
-#entry 1974
+#entry 1975
 trac0454_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -31602,7 +31618,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1975
+#entry 1976
 trac0454_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -31618,7 +31634,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1976
+#entry 1977
 trac0454_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -31634,7 +31650,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1977
+#entry 1978
 trac0454_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -31650,7 +31666,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1978
+#entry 1979
 trac0454_road.dof-00.joe
 road.dds.png
 1
@@ -31666,7 +31682,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 1979
+#entry 1980
 trac0454_road2.dof-00.joe
 road2.dds.png
 1
@@ -31682,7 +31698,7 @@ road2.dds.png
 1.0
 0.0
 
-#entry 1980
+#entry 1981
 trac0454_sando.dof-00.joe
 sand.dds.png
 1
@@ -31698,7 +31714,7 @@ sand.dds.png
 40.0
 200.0
 
-#entry 1981
+#entry 1982
 trac0455_b2road.dof-00.joe
 road.dds.png
 1
@@ -31714,7 +31730,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 1982
+#entry 1983
 trac0455_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -31730,7 +31746,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1983
+#entry 1984
 trac0455_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -31746,7 +31762,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1984
+#entry 1985
 trac0455_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -31762,7 +31778,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1985
+#entry 1986
 trac0455_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -31778,7 +31794,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1986
+#entry 1987
 trac0455_rmblconcave.dof-00.joe
 rmblconcave.dds.png
 1
@@ -31794,7 +31810,7 @@ rmblconcave.dds.png
 1.0
 0.0
 
-#entry 1987
+#entry 1988
 trac0455_rmblconcaved.dof-00.joe
 rmblconcavedrain.dds.png
 1
@@ -31810,7 +31826,7 @@ rmblconcavedrain.dds.png
 1.0
 0.0
 
-#entry 1988
+#entry 1989
 trac0455_road.dof-00.joe
 road.dds.png
 1
@@ -31826,7 +31842,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 1989
+#entry 1990
 trac0455_road2.dof-00.joe
 road2.dds.png
 1
@@ -31842,7 +31858,7 @@ road2.dds.png
 1.0
 0.0
 
-#entry 1990
+#entry 1991
 trac0455_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -31858,7 +31874,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 1991
+#entry 1992
 trac0456_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -31874,7 +31890,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1992
+#entry 1993
 trac0456_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -31890,7 +31906,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1993
+#entry 1994
 trac0456_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -31906,7 +31922,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1994
+#entry 1995
 trac0456_road.dof-00.joe
 road.dds.png
 1
@@ -31922,7 +31938,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 1995
+#entry 1996
 trac0457_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -31938,7 +31954,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1996
+#entry 1997
 trac0457_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -31954,7 +31970,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1997
+#entry 1998
 trac0457_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -31970,7 +31986,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 1998
+#entry 1999
 trac0457_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -31986,7 +32002,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 1999
+#entry 2000
 trac0457_road.dof-00.joe
 road.dds.png
 1
@@ -32002,7 +32018,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2000
+#entry 2001
 trac0457_road4.dof-00.joe
 road4.dds.png
 1
@@ -32018,7 +32034,7 @@ road4.dds.png
 1.0
 0.0
 
-#entry 2001
+#entry 2002
 trac0457_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -32034,7 +32050,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 2002
+#entry 2003
 trac0458_b2road.dof-00.joe
 road.dds.png
 1
@@ -32050,7 +32066,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2003
+#entry 2004
 trac0458_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -32066,7 +32082,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2004
+#entry 2005
 trac0458_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -32082,7 +32098,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2005
+#entry 2006
 trac0458_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -32098,7 +32114,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2006
+#entry 2007
 trac0458_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -32114,7 +32130,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2007
+#entry 2008
 trac0458_road.dof-00.joe
 road.dds.png
 1
@@ -32130,7 +32146,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2008
+#entry 2009
 trac0458_road2.dof-00.joe
 road2.dds.png
 1
@@ -32146,7 +32162,7 @@ road2.dds.png
 1.0
 0.0
 
-#entry 2009
+#entry 2010
 trac0458_roadpatch.dof-00.joe
 roadpatch.dds.png
 1
@@ -32162,7 +32178,7 @@ roadpatch.dds.png
 1.0
 0.0
 
-#entry 2010
+#entry 2011
 trac0459_b1road.dof-00.joe
 road.dds.png
 1
@@ -32178,7 +32194,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2011
+#entry 2012
 trac0459_b1road3.dof-00.joe
 road3.dds.png
 1
@@ -32194,7 +32210,7 @@ road3.dds.png
 1.0
 0.0
 
-#entry 2012
+#entry 2013
 trac0459_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -32210,7 +32226,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2013
+#entry 2014
 trac0459_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -32226,7 +32242,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2014
+#entry 2015
 trac0459_grassc.dof-00.joe
 grass_m.dds.png
 1
@@ -32242,7 +32258,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2015
+#entry 2016
 trac0459_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -32258,7 +32274,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2016
+#entry 2017
 trac0459_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -32274,7 +32290,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2017
+#entry 2018
 trac0459_road.dof-00.joe
 road.dds.png
 1
@@ -32290,7 +32306,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2018
+#entry 2019
 trac0459_road2.dof-00.joe
 road2.dds.png
 1
@@ -32306,7 +32322,7 @@ road2.dds.png
 1.0
 0.0
 
-#entry 2019
+#entry 2020
 trac0459_roadgreen.dof-00.joe
 roadgreen.dds.png
 1
@@ -32322,7 +32338,7 @@ roadgreen.dds.png
 1.0
 0.0
 
-#entry 2020
+#entry 2021
 trac0459_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -32338,7 +32354,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 2021
+#entry 2022
 trac0460_b1road.dof-00.joe
 road.dds.png
 1
@@ -32354,7 +32370,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2022
+#entry 2023
 trac0460_b1road3.dof-00.joe
 road3.dds.png
 1
@@ -32370,7 +32386,7 @@ road3.dds.png
 1.0
 0.0
 
-#entry 2023
+#entry 2024
 trac0460_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -32386,7 +32402,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2024
+#entry 2025
 trac0460_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -32402,7 +32418,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2025
+#entry 2026
 trac0460_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -32418,7 +32434,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2026
+#entry 2027
 trac0460_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -32434,7 +32450,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2027
+#entry 2028
 trac0460_road.dof-00.joe
 road.dds.png
 1
@@ -32450,7 +32466,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2028
+#entry 2029
 trac0461_b3road.dof-00.joe
 road.dds.png
 1
@@ -32466,7 +32482,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2029
+#entry 2030
 trac0461_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -32482,7 +32498,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2030
+#entry 2031
 trac0461_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -32498,7 +32514,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2031
+#entry 2032
 trac0461_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -32514,7 +32530,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2032
+#entry 2033
 trac0461_rmblconcave.dof-00.joe
 rmblconcave.dds.png
 1
@@ -32530,7 +32546,7 @@ rmblconcave.dds.png
 1.0
 0.0
 
-#entry 2033
+#entry 2034
 trac0461_rmblconcaved.dof-00.joe
 rmblconcavedrain.dds.png
 1
@@ -32546,7 +32562,7 @@ rmblconcavedrain.dds.png
 1.0
 0.0
 
-#entry 2034
+#entry 2035
 trac0461_road.dof-00.joe
 road.dds.png
 1
@@ -32562,7 +32578,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2035
+#entry 2036
 trac0461_road4.dof-00.joe
 road4.dds.png
 1
@@ -32578,7 +32594,7 @@ road4.dds.png
 1.0
 0.0
 
-#entry 2036
+#entry 2037
 trac0462_drain.dof-00.joe
 drain.dds.png
 1
@@ -32594,7 +32610,7 @@ drain.dds.png
 1.0
 0.0
 
-#entry 2037
+#entry 2038
 trac0462_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -32610,7 +32626,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2038
+#entry 2039
 trac0462_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -32626,7 +32642,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2039
+#entry 2040
 trac0462_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -32642,7 +32658,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2040
+#entry 2041
 trac0462_rmblconcave.dof-00.joe
 rmblconcave.dds.png
 1
@@ -32658,7 +32674,7 @@ rmblconcave.dds.png
 1.0
 0.0
 
-#entry 2041
+#entry 2042
 trac0462_rmblconcaved.dof-00.joe
 rmblconcavedrain.dds.png
 1
@@ -32674,7 +32690,7 @@ rmblconcavedrain.dds.png
 1.0
 0.0
 
-#entry 2042
+#entry 2043
 trac0462_rmbli.dof-00.joe
 rmbli.dds.png
 1
@@ -32690,7 +32706,7 @@ rmbli.dds.png
 5.0
 20.0
 
-#entry 2043
+#entry 2044
 trac0462_road.dof-00.joe
 road.dds.png
 1
@@ -32706,7 +32722,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2044
+#entry 2045
 trac0462_road2.dof-00.joe
 road2.dds.png
 1
@@ -32722,7 +32738,7 @@ road2.dds.png
 1.0
 0.0
 
-#entry 2045
+#entry 2046
 trac0462_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -32738,7 +32754,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 2046
+#entry 2047
 trac0462_roadwhite.dof-00.joe
 roadwhite.dds.png
 1
@@ -32754,7 +32770,7 @@ roadwhite.dds.png
 1.0
 0.0
 
-#entry 2047
+#entry 2048
 trac0462_sando.dof-00.joe
 sand.dds.png
 1
@@ -32770,7 +32786,7 @@ sand.dds.png
 40.0
 200.0
 
-#entry 2048
+#entry 2049
 trac0463_b1road.dof-00.joe
 road.dds.png
 1
@@ -32786,7 +32802,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2049
+#entry 2050
 trac0463_b1road3.dof-00.joe
 road3.dds.png
 1
@@ -32802,7 +32818,7 @@ road3.dds.png
 1.0
 0.0
 
-#entry 2050
+#entry 2051
 trac0463_drain.dof-00.joe
 drain.dds.png
 1
@@ -32818,7 +32834,7 @@ drain.dds.png
 1.0
 0.0
 
-#entry 2051
+#entry 2052
 trac0463_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -32834,7 +32850,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2052
+#entry 2053
 trac0463_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -32850,7 +32866,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2053
+#entry 2054
 trac0463_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -32866,7 +32882,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2054
+#entry 2055
 trac0463_rmblconcave.dof-00.joe
 rmblconcave.dds.png
 1
@@ -32882,7 +32898,7 @@ rmblconcave.dds.png
 1.0
 0.0
 
-#entry 2055
+#entry 2056
 trac0463_rmblconcaved.dof-00.joe
 rmblconcavedrain.dds.png
 1
@@ -32898,7 +32914,7 @@ rmblconcavedrain.dds.png
 1.0
 0.0
 
-#entry 2056
+#entry 2057
 trac0463_rmbli.dof-00.joe
 rmbli.dds.png
 1
@@ -32914,7 +32930,7 @@ rmbli.dds.png
 5.0
 20.0
 
-#entry 2057
+#entry 2058
 trac0463_road.dof-00.joe
 road.dds.png
 1
@@ -32930,7 +32946,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2058
+#entry 2059
 trac0463_road2.dof-00.joe
 road2.dds.png
 1
@@ -32946,7 +32962,7 @@ road2.dds.png
 1.0
 0.0
 
-#entry 2059
+#entry 2060
 trac0463_road4.dof-00.joe
 road4.dds.png
 1
@@ -32962,7 +32978,7 @@ road4.dds.png
 1.0
 0.0
 
-#entry 2060
+#entry 2061
 trac0463_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -32978,7 +32994,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 2061
+#entry 2062
 trac0463_roadwhite.dof-00.joe
 roadwhite.dds.png
 1
@@ -32994,7 +33010,7 @@ roadwhite.dds.png
 1.0
 0.0
 
-#entry 2062
+#entry 2063
 trac0463_sando.dof-00.joe
 sand.dds.png
 1
@@ -33010,7 +33026,7 @@ sand.dds.png
 40.0
 200.0
 
-#entry 2063
+#entry 2064
 trac0464_b1road.dof-00.joe
 road.dds.png
 1
@@ -33026,7 +33042,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2064
+#entry 2065
 trac0464_b2road.dof-00.joe
 road.dds.png
 1
@@ -33042,7 +33058,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2065
+#entry 2066
 trac0464_b3road.dof-00.joe
 road.dds.png
 1
@@ -33058,7 +33074,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2066
+#entry 2067
 trac0464_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -33074,7 +33090,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2067
+#entry 2068
 trac0464_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -33090,7 +33106,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2068
+#entry 2069
 trac0464_grassc.dof-00.joe
 grass_m.dds.png
 1
@@ -33106,7 +33122,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2069
+#entry 2070
 trac0464_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -33122,7 +33138,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2070
+#entry 2071
 trac0464_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -33138,7 +33154,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2071
+#entry 2072
 trac0464_rmblconcave.dof-00.joe
 rmblconcave.dds.png
 1
@@ -33154,7 +33170,7 @@ rmblconcave.dds.png
 1.0
 0.0
 
-#entry 2072
+#entry 2073
 trac0464_rmblconcaved.dof-00.joe
 rmblconcavedrain.dds.png
 1
@@ -33170,7 +33186,7 @@ rmblconcavedrain.dds.png
 1.0
 0.0
 
-#entry 2073
+#entry 2074
 trac0464_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -33186,7 +33202,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 2074
+#entry 2075
 trac0464_roadwhite.dof-00.joe
 roadwhite.dds.png
 1
@@ -33202,7 +33218,7 @@ roadwhite.dds.png
 1.0
 0.0
 
-#entry 2075
+#entry 2076
 trac0464_sando.dof-00.joe
 sand.dds.png
 1
@@ -33218,7 +33234,7 @@ sand.dds.png
 40.0
 200.0
 
-#entry 2076
+#entry 2077
 trac0465_b2road.dof-00.joe
 road.dds.png
 1
@@ -33234,7 +33250,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2077
+#entry 2078
 trac0465_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -33250,7 +33266,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2078
+#entry 2079
 trac0465_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -33266,7 +33282,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2079
+#entry 2080
 trac0465_grassc.dof-00.joe
 grass_m.dds.png
 1
@@ -33282,7 +33298,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2080
+#entry 2081
 trac0465_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -33298,7 +33314,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2081
+#entry 2082
 trac0465_rmblconcave.dof-00.joe
 rmblconcave.dds.png
 1
@@ -33314,7 +33330,7 @@ rmblconcave.dds.png
 1.0
 0.0
 
-#entry 2082
+#entry 2083
 trac0465_rmblconcaved.dof-00.joe
 rmblconcavedrain.dds.png
 1
@@ -33330,7 +33346,7 @@ rmblconcavedrain.dds.png
 1.0
 0.0
 
-#entry 2083
+#entry 2084
 trac0465_road.dof-00.joe
 road.dds.png
 1
@@ -33346,7 +33362,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2084
+#entry 2085
 trac0465_road3.dof-00.joe
 road3.dds.png
 1
@@ -33362,7 +33378,7 @@ road3.dds.png
 1.0
 0.0
 
-#entry 2085
+#entry 2086
 trac0465_sando.dof-00.joe
 sand.dds.png
 1
@@ -33378,7 +33394,7 @@ sand.dds.png
 40.0
 200.0
 
-#entry 2086
+#entry 2087
 trac0466_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -33394,7 +33410,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2087
+#entry 2088
 trac0466_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -33410,7 +33426,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2088
+#entry 2089
 trac0466_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -33426,7 +33442,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2089
+#entry 2090
 trac0466_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -33442,7 +33458,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2090
+#entry 2091
 trac0466_rmblconcave.dof-00.joe
 rmblconcave.dds.png
 1
@@ -33458,7 +33474,7 @@ rmblconcave.dds.png
 1.0
 0.0
 
-#entry 2091
+#entry 2092
 trac0466_rmblconcaved.dof-00.joe
 rmblconcavedrain.dds.png
 1
@@ -33474,7 +33490,7 @@ rmblconcavedrain.dds.png
 1.0
 0.0
 
-#entry 2092
+#entry 2093
 trac0466_road.dof-00.joe
 road.dds.png
 1
@@ -33490,7 +33506,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2093
+#entry 2094
 trac0466_road4.dof-00.joe
 road4.dds.png
 1
@@ -33506,7 +33522,7 @@ road4.dds.png
 1.0
 0.0
 
-#entry 2094
+#entry 2095
 trac0466_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -33522,7 +33538,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 2095
+#entry 2096
 trac0466_sando.dof-00.joe
 sand.dds.png
 1
@@ -33538,7 +33554,7 @@ sand.dds.png
 40.0
 200.0
 
-#entry 2096
+#entry 2097
 trac0467_b2road.dof-00.joe
 road.dds.png
 1
@@ -33554,7 +33570,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2097
+#entry 2098
 trac0467_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -33570,7 +33586,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2098
+#entry 2099
 trac0467_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -33586,7 +33602,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2099
+#entry 2100
 trac0467_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -33602,7 +33618,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2100
+#entry 2101
 trac0467_road.dof-00.joe
 road.dds.png
 1
@@ -33618,7 +33634,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2101
+#entry 2102
 trac0467_road2.dof-00.joe
 road2.dds.png
 1
@@ -33634,7 +33650,7 @@ road2.dds.png
 1.0
 0.0
 
-#entry 2102
+#entry 2103
 trac0467_sando.dof-00.joe
 sand.dds.png
 1
@@ -33650,7 +33666,7 @@ sand.dds.png
 40.0
 200.0
 
-#entry 2103
+#entry 2104
 trac0468_b2road.dof-00.joe
 road.dds.png
 1
@@ -33666,7 +33682,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2104
+#entry 2105
 trac0468_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -33682,7 +33698,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2105
+#entry 2106
 trac0468_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -33698,7 +33714,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2106
+#entry 2107
 trac0468_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -33714,7 +33730,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2107
+#entry 2108
 trac0468_road.dof-00.joe
 road.dds.png
 1
@@ -33730,7 +33746,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2108
+#entry 2109
 trac0468_road3.dof-00.joe
 road3.dds.png
 1
@@ -33746,7 +33762,7 @@ road3.dds.png
 1.0
 0.0
 
-#entry 2109
+#entry 2110
 trac0468_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -33762,7 +33778,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 2110
+#entry 2111
 trac0468_sando.dof-00.joe
 sand.dds.png
 1
@@ -33778,7 +33794,7 @@ sand.dds.png
 40.0
 200.0
 
-#entry 2111
+#entry 2112
 trac0469_b1road.dof-00.joe
 road.dds.png
 1
@@ -33794,7 +33810,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2112
+#entry 2113
 trac0469_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -33810,7 +33826,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2113
+#entry 2114
 trac0469_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -33826,7 +33842,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2114
+#entry 2115
 trac0469_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -33842,7 +33858,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2115
+#entry 2116
 trac0469_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -33858,7 +33874,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2116
+#entry 2117
 trac0469_road.dof-00.joe
 road.dds.png
 1
@@ -33874,7 +33890,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2117
+#entry 2118
 trac0469_road2.dof-00.joe
 road2.dds.png
 1
@@ -33890,7 +33906,7 @@ road2.dds.png
 1.0
 0.0
 
-#entry 2118
+#entry 2119
 trac0469_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -33906,7 +33922,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 2119
+#entry 2120
 trac0470_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -33922,7 +33938,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2120
+#entry 2121
 trac0470_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -33938,7 +33954,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2121
+#entry 2122
 trac0470_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -33954,7 +33970,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2122
+#entry 2123
 trac0470_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -33970,7 +33986,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2123
+#entry 2124
 trac0470_road.dof-00.joe
 road.dds.png
 1
@@ -33986,7 +34002,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2124
+#entry 2125
 trac0470_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -34002,7 +34018,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 2125
+#entry 2126
 trac0471_drain.dof-00.joe
 drain.dds.png
 1
@@ -34018,7 +34034,7 @@ drain.dds.png
 1.0
 0.0
 
-#entry 2126
+#entry 2127
 trac0471_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -34034,7 +34050,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2127
+#entry 2128
 trac0471_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -34050,7 +34066,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2128
+#entry 2129
 trac0471_roadgrd1.dof-00.joe
 roadgrd1.dds.png
 1
@@ -34066,7 +34082,7 @@ roadgrd1.dds.png
 1.0
 0.0
 
-#entry 2129
+#entry 2130
 trac0471_roadpitarrow.dof-00.joe
 roadpitarrow1.dds.png
 1
@@ -34082,7 +34098,7 @@ roadpitarrow1.dds.png
 1.0
 0.0
 
-#entry 2130
+#entry 2131
 trac0471_roadpitcemen.dof-00.joe
 roadpitcement.dds.png
 1
@@ -34098,7 +34114,7 @@ roadpitcement.dds.png
 2.0
 0.0
 
-#entry 2131
+#entry 2132
 trac0471_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -34114,7 +34130,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 2132
+#entry 2133
 trac0471_roadpityello.dof-00.joe
 roadpityellow.dds.png
 1
@@ -34130,7 +34146,7 @@ roadpityellow.dds.png
 1.0
 0.0
 
-#entry 2133
+#entry 2134
 trac0472_b2road.dof-00.joe
 road.dds.png
 1
@@ -34146,7 +34162,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2134
+#entry 2135
 trac0472_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -34162,7 +34178,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2135
+#entry 2136
 trac0472_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -34178,7 +34194,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2136
+#entry 2137
 trac0472_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -34194,7 +34210,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2137
+#entry 2138
 trac0472_road.dof-00.joe
 road.dds.png
 1
@@ -34210,7 +34226,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2138
+#entry 2139
 trac0472_road3.dof-00.joe
 road3.dds.png
 1
@@ -34226,7 +34242,7 @@ road3.dds.png
 1.0
 0.0
 
-#entry 2139
+#entry 2140
 trac0472_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -34242,7 +34258,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 2140
+#entry 2141
 trac0473_b1road.dof-00.joe
 road.dds.png
 1
@@ -34258,7 +34274,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2141
+#entry 2142
 trac0473_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -34274,7 +34290,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2142
+#entry 2143
 trac0473_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -34290,7 +34306,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2143
+#entry 2144
 trac0473_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -34306,7 +34322,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2144
+#entry 2145
 trac0473_road.dof-00.joe
 road.dds.png
 1
@@ -34322,7 +34338,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2145
+#entry 2146
 trac0473_road2.dof-00.joe
 road2.dds.png
 1
@@ -34338,7 +34354,7 @@ road2.dds.png
 1.0
 0.0
 
-#entry 2146
+#entry 2147
 trac0473_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -34354,7 +34370,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 2147
+#entry 2148
 trac0473_sando.dof-00.joe
 sand.dds.png
 1
@@ -34370,7 +34386,7 @@ sand.dds.png
 40.0
 200.0
 
-#entry 2148
+#entry 2149
 trac0474_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -34386,7 +34402,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2149
+#entry 2150
 trac0474_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -34402,7 +34418,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2150
+#entry 2151
 trac0474_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -34418,7 +34434,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2151
+#entry 2152
 trac0474_road.dof-00.joe
 road.dds.png
 1
@@ -34434,7 +34450,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2152
+#entry 2153
 trac0474_road4.dof-00.joe
 road4.dds.png
 1
@@ -34450,7 +34466,7 @@ road4.dds.png
 1.0
 0.0
 
-#entry 2153
+#entry 2154
 trac0474_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -34466,7 +34482,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 2154
+#entry 2155
 trac0474_sando.dof-00.joe
 sand.dds.png
 1
@@ -34482,7 +34498,7 @@ sand.dds.png
 40.0
 200.0
 
-#entry 2155
+#entry 2156
 trac0475_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -34498,7 +34514,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2156
+#entry 2157
 trac0475_grassc.dof-00.joe
 grass_m.dds.png
 1
@@ -34514,7 +34530,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2157
+#entry 2158
 trac0475_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -34530,7 +34546,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2158
+#entry 2159
 trac0475_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -34546,7 +34562,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2159
+#entry 2160
 trac0475_road.dof-00.joe
 road.dds.png
 1
@@ -34562,7 +34578,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2160
+#entry 2161
 trac0475_road2.dof-00.joe
 road2.dds.png
 1
@@ -34578,7 +34594,7 @@ road2.dds.png
 1.0
 0.0
 
-#entry 2161
+#entry 2162
 trac0475_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -34594,7 +34610,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 2162
+#entry 2163
 trac0475_sando.dof-00.joe
 sand.dds.png
 1
@@ -34610,7 +34626,7 @@ sand.dds.png
 40.0
 200.0
 
-#entry 2163
+#entry 2164
 trac0476_b1road.dof-00.joe
 road.dds.png
 1
@@ -34626,7 +34642,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2164
+#entry 2165
 trac0476_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -34642,7 +34658,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2165
+#entry 2166
 trac0476_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -34658,7 +34674,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2166
+#entry 2167
 trac0476_grassc.dof-00.joe
 grass_m.dds.png
 1
@@ -34674,7 +34690,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2167
+#entry 2168
 trac0476_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -34690,7 +34706,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2168
+#entry 2169
 trac0476_road.dof-00.joe
 road.dds.png
 1
@@ -34706,7 +34722,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2169
+#entry 2170
 trac0476_road3.dof-00.joe
 road3.dds.png
 1
@@ -34722,7 +34738,7 @@ road3.dds.png
 1.0
 0.0
 
-#entry 2170
+#entry 2171
 trac0476_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -34738,7 +34754,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 2171
+#entry 2172
 trac0477_b3road.dof-00.joe
 road.dds.png
 1
@@ -34754,7 +34770,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2172
+#entry 2173
 trac0477_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -34770,7 +34786,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2173
+#entry 2174
 trac0477_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -34786,7 +34802,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2174
+#entry 2175
 trac0477_road.dof-00.joe
 road.dds.png
 1
@@ -34802,7 +34818,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2175
+#entry 2176
 trac0477_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -34818,7 +34834,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 2176
+#entry 2177
 trac0477_sando.dof-00.joe
 sand.dds.png
 1
@@ -34834,7 +34850,7 @@ sand.dds.png
 40.0
 200.0
 
-#entry 2177
+#entry 2178
 trac0478_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -34850,7 +34866,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2178
+#entry 2179
 trac0478_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -34866,7 +34882,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2179
+#entry 2180
 trac0478_grassc.dof-00.joe
 grass_m.dds.png
 1
@@ -34882,7 +34898,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2180
+#entry 2181
 trac0478_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -34898,7 +34914,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2181
+#entry 2182
 trac0478_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -34914,7 +34930,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2182
+#entry 2183
 trac0478_road.dof-00.joe
 road.dds.png
 1
@@ -34930,7 +34946,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2183
+#entry 2184
 trac0478_road2.dof-00.joe
 road2.dds.png
 1
@@ -34946,7 +34962,7 @@ road2.dds.png
 1.0
 0.0
 
-#entry 2184
+#entry 2185
 trac0478_road4.dof-00.joe
 road4.dds.png
 1
@@ -34962,7 +34978,7 @@ road4.dds.png
 1.0
 0.0
 
-#entry 2185
+#entry 2186
 trac0478_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -34978,7 +34994,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 2186
+#entry 2187
 trac0478_sando.dof-00.joe
 sand.dds.png
 1
@@ -34994,7 +35010,7 @@ sand.dds.png
 40.0
 200.0
 
-#entry 2187
+#entry 2188
 trac0479_b2road.dof-00.joe
 road.dds.png
 1
@@ -35010,7 +35026,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2188
+#entry 2189
 trac0479_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -35026,7 +35042,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2189
+#entry 2190
 trac0479_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -35042,7 +35058,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2190
+#entry 2191
 trac0479_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -35058,7 +35074,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2191
+#entry 2192
 trac0479_road.dof-00.joe
 road.dds.png
 1
@@ -35074,7 +35090,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2192
+#entry 2193
 trac0479_road2.dof-00.joe
 road2.dds.png
 1
@@ -35090,7 +35106,7 @@ road2.dds.png
 1.0
 0.0
 
-#entry 2193
+#entry 2194
 trac0479_road4.dof-00.joe
 road4.dds.png
 1
@@ -35106,7 +35122,7 @@ road4.dds.png
 1.0
 0.0
 
-#entry 2194
+#entry 2195
 trac0479_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -35122,7 +35138,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 2195
+#entry 2196
 trac0479_sando.dof-00.joe
 sand.dds.png
 1
@@ -35138,7 +35154,7 @@ sand.dds.png
 40.0
 200.0
 
-#entry 2196
+#entry 2197
 trac0480_b1road.dof-00.joe
 road.dds.png
 1
@@ -35154,7 +35170,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2197
+#entry 2198
 trac0480_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -35170,7 +35186,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2198
+#entry 2199
 trac0480_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -35186,7 +35202,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2199
+#entry 2200
 trac0480_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -35202,7 +35218,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2200
+#entry 2201
 trac0480_road.dof-00.joe
 road.dds.png
 1
@@ -35218,7 +35234,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2201
+#entry 2202
 trac0480_road4.dof-00.joe
 road4.dds.png
 1
@@ -35234,7 +35250,7 @@ road4.dds.png
 1.0
 0.0
 
-#entry 2202
+#entry 2203
 trac0480_sando.dof-00.joe
 sand.dds.png
 1
@@ -35250,7 +35266,7 @@ sand.dds.png
 40.0
 200.0
 
-#entry 2203
+#entry 2204
 trac0481_b1road.dof-00.joe
 road.dds.png
 1
@@ -35266,7 +35282,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2204
+#entry 2205
 trac0481_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -35282,7 +35298,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2205
+#entry 2206
 trac0481_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -35298,7 +35314,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2206
+#entry 2207
 trac0481_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -35314,7 +35330,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2207
+#entry 2208
 trac0481_grasse.dof-00.joe
 grass_t.dds.png
 1
@@ -35330,7 +35346,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2208
+#entry 2209
 trac0481_road.dof-00.joe
 road.dds.png
 1
@@ -35346,7 +35362,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2209
+#entry 2210
 trac0481_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -35362,7 +35378,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 2210
+#entry 2211
 trac0482_grassa.dof-00.joe
 grass_t.dds.png
 1
@@ -35378,7 +35394,7 @@ grass_t.dds.png
 5.0
 20.0
 
-#entry 2211
+#entry 2212
 trac0482_grassb.dof-00.joe
 grass_m.dds.png
 1
@@ -35394,7 +35410,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2212
+#entry 2213
 trac0482_grassd.dof-00.joe
 grass_m.dds.png
 1
@@ -35410,7 +35426,7 @@ grass_m.dds.png
 5.0
 20.0
 
-#entry 2213
+#entry 2214
 trac0482_road.dof-00.joe
 road.dds.png
 1
@@ -35426,7 +35442,7 @@ road.dds.png
 1.0
 0.0
 
-#entry 2214
+#entry 2215
 trac0482_road4.dof-00.joe
 road4.dds.png
 1
@@ -35442,7 +35458,7 @@ road4.dds.png
 1.0
 0.0
 
-#entry 2215
+#entry 2216
 trac0482_roadpitplain.dof-00.joe
 roadpitplain.dds.png
 1
@@ -35458,7 +35474,7 @@ roadpitplain.dds.png
 2.0
 0.0
 
-#entry 2216
+#entry 2217
 trac0483_trackedgeble.dof-00.joe
 trackedgeblend1.dds.png
 0
@@ -35474,7 +35490,7 @@ trackedgeblend1.dds.png
 5.0
 20.0
 
-#entry 2217
+#entry 2218
 trac0484_trackedgeble.dof-00.joe
 trackedgeblend1.dds.png
 0
@@ -35490,7 +35506,7 @@ trackedgeblend1.dds.png
 5.0
 20.0
 
-#entry 2218
+#entry 2219
 trac0485_trackedgeble.dof-00.joe
 trackedgeblend1.dds.png
 0
@@ -35506,7 +35522,7 @@ trackedgeblend1.dds.png
 5.0
 20.0
 
-#entry 2219
+#entry 2220
 trac0486_trackedgeble.dof-00.joe
 trackedgeblend1.dds.png
 0
@@ -35522,7 +35538,7 @@ trackedgeblend1.dds.png
 5.0
 20.0
 
-#entry 2220
+#entry 2221
 trac0487_trackedgeble.dof-00.joe
 trackedgeblend1.dds.png
 0
@@ -35538,7 +35554,7 @@ trackedgeblend1.dds.png
 5.0
 20.0
 
-#entry 2221
+#entry 2222
 trac0488_trackedgeble.dof-00.joe
 trackedgeblend1.dds.png
 0
@@ -35554,7 +35570,7 @@ trackedgeblend1.dds.png
 5.0
 20.0
 
-#entry 2222
+#entry 2223
 trac0489_trackedgeble.dof-00.joe
 trackedgeblend1.dds.png
 0
@@ -35570,7 +35586,7 @@ trackedgeblend1.dds.png
 5.0
 20.0
 
-#entry 2223
+#entry 2224
 trac0490_trackedgeble.dof-00.joe
 trackedgeblend1.dds.png
 0
@@ -35586,7 +35602,7 @@ trackedgeblend1.dds.png
 5.0
 20.0
 
-#entry 2224
+#entry 2225
 trac0491_trackedgeble.dof-00.joe
 trackedgeblend1.dds.png
 0
@@ -35602,7 +35618,7 @@ trackedgeblend1.dds.png
 5.0
 20.0
 
-#entry 2225
+#entry 2226
 trac0492_trackedgeble.dof-00.joe
 trackedgeblend1.dds.png
 0
@@ -35618,7 +35634,7 @@ trackedgeblend1.dds.png
 5.0
 20.0
 
-#entry 2226
+#entry 2227
 tree0493_trackedgeble.dof-00.joe
 trackedgeblend1.dds.png
 0
@@ -35634,7 +35650,7 @@ trackedgeblend1.dds.png
 5.0
 20.0
 
-#entry 2227
+#entry 2228
 truc0504_obj_truckb.dof-00.joe
 obj_trucka_black.dds.png
 1
@@ -35650,7 +35666,7 @@ obj_trucka_black.dds.png
 1.0
 0.0
 
-#entry 2228
+#entry 2229
 truc0504_obj_truckc.dof-00.joe
 obj_trucka_yellow.dds.png
 1
@@ -35666,7 +35682,7 @@ obj_trucka_yellow.dds.png
 1.0
 0.0
 
-#entry 2229
+#entry 2230
 truc0504_obj_truckd.dof-00.joe
 obj_trucka_bms.dds.png
 1
@@ -35682,7 +35698,7 @@ obj_trucka_bms.dds.png
 1.0
 0.0
 
-#entry 2230
+#entry 2231
 truc0504_obj_trucke.dof-00.joe
 obj_trucka_freisinger.dds.png
 1
@@ -35698,7 +35714,7 @@ obj_trucka_freisinger.dds.png
 1.0
 0.0
 
-#entry 2231
+#entry 2232
 truc0504_obj_truckf.dof-00.joe
 obj_trucka_grey.dds.png
 1
@@ -35714,7 +35730,7 @@ obj_trucka_grey.dds.png
 1.0
 0.0
 
-#entry 2232
+#entry 2233
 truc0504_obj_truckg.dof-00.joe
 obj_trucka_jmb.dds.png
 1
@@ -35730,7 +35746,7 @@ obj_trucka_jmb.dds.png
 1.0
 0.0
 
-#entry 2233
+#entry 2234
 truc0504_obj_truckh.dof-00.joe
 obj_trucka_blue.dds.png
 1
@@ -35746,7 +35762,7 @@ obj_trucka_blue.dds.png
 1.0
 0.0
 
-#entry 2234
+#entry 2235
 truc0504_obj_trucki.dof-00.joe
 obj_trucka_black.dds.png
 1
@@ -35762,7 +35778,7 @@ obj_trucka_black.dds.png
 1.0
 0.0
 
-#entry 2235
+#entry 2236
 truc0504_obj_truckk.dof-00.joe
 obj_trucka_freisinger.dds.png
 1
@@ -35778,7 +35794,7 @@ obj_trucka_freisinger.dds.png
 1.0
 0.0
 
-#entry 2236
+#entry 2237
 turn0505_obj_truckb01.dof-00.joe
 obj_truckb_red.dds.png
 1
@@ -35794,7 +35810,7 @@ obj_truckb_red.dds.png
 1.0
 0.0
 
-#entry 2237
+#entry 2238
 turn0505_obj_truckb02.dof-00.joe
 obj_truckb_redwhite.dds.png
 1
@@ -35810,7 +35826,7 @@ obj_truckb_redwhite.dds.png
 1.0
 0.0
 
-#entry 2238
+#entry 2239
 turn0505_obj_truckb03.dof-00.joe
 obj_truckb_white.dds.png
 1
@@ -35826,7 +35842,7 @@ obj_truckb_white.dds.png
 1.0
 0.0
 
-#entry 2239
+#entry 2240
 turn0505_obj_truckb04.dof-00.joe
 obj_truckb_yellow.dds.png
 1
@@ -35842,7 +35858,7 @@ obj_truckb_yellow.dds.png
 1.0
 0.0
 
-#entry 2240
+#entry 2241
 turn0506_preto.dof-00.joe
 preto.dds.png
 1
@@ -35858,7 +35874,7 @@ preto.dds.png
 1.0
 0.0
 
-#entry 2241
+#entry 2242
 turn0506_tlight.dof-00.joe
 tlight.dds.png
 1
@@ -35874,7 +35890,7 @@ tlight.dds.png
 1.0
 0.0
 
-#entry 2242
+#entry 2243
 turn0506_tlight1.dof-00.joe
 tlight1.dds.png
 1
@@ -35890,7 +35906,7 @@ tlight1.dds.png
 1.0
 0.0
 
-#entry 2243
+#entry 2244
 turn0506_yellow_metal.dof-00.joe
 yellow_metal.dds.png
 1
@@ -35906,7 +35922,7 @@ yellow_metal.dds.png
 1.0
 0.0
 
-#entry 2244
+#entry 2245
 turn0507_metal01.dof-00.joe
 metal01.dds.png
 1
@@ -35922,7 +35938,7 @@ metal01.dds.png
 1.0
 0.0
 
-#entry 2245
+#entry 2246
 turn0507_preto.dof-00.joe
 preto.dds.png
 1
@@ -35938,7 +35954,7 @@ preto.dds.png
 1.0
 0.0
 
-#entry 2246
+#entry 2247
 turn0507_tlight.dof-00.joe
 tlight.dds.png
 1
@@ -35954,7 +35970,7 @@ tlight.dds.png
 1.0
 0.0
 
-#entry 2247
+#entry 2248
 turn0507_tlight1.dof-00.joe
 tlight1.dds.png
 1
@@ -35970,7 +35986,7 @@ tlight1.dds.png
 1.0
 0.0
 
-#entry 2248
+#entry 2249
 turn0507_tlight2.dof-00.joe
 tlight2.dds.png
 1
@@ -35986,7 +36002,7 @@ tlight2.dds.png
 1.0
 0.0
 
-#entry 2249
+#entry 2250
 turn0508_metal01.dof-00.joe
 metal01.dds.png
 1
@@ -36002,7 +36018,7 @@ metal01.dds.png
 1.0
 0.0
 
-#entry 2250
+#entry 2251
 turn0508_preto.dof-00.joe
 preto.dds.png
 1
@@ -36018,7 +36034,7 @@ preto.dds.png
 1.0
 0.0
 
-#entry 2251
+#entry 2252
 turn0508_tlight.dof-00.joe
 tlight.dds.png
 1
@@ -36034,7 +36050,7 @@ tlight.dds.png
 1.0
 0.0
 
-#entry 2252
+#entry 2253
 turn0508_tlight1.dof-00.joe
 tlight1.dds.png
 1
@@ -36050,7 +36066,7 @@ tlight1.dds.png
 1.0
 0.0
 
-#entry 2253
+#entry 2254
 turn0508_tlight2.dof-00.joe
 tlight2.dds.png
 1
@@ -36066,7 +36082,7 @@ tlight2.dds.png
 1.0
 0.0
 
-#entry 2254
+#entry 2255
 turn0509_preto.dof-00.joe
 preto.dds.png
 1
@@ -36082,7 +36098,7 @@ preto.dds.png
 1.0
 0.0
 
-#entry 2255
+#entry 2256
 turn0509_tlight.dof-00.joe
 tlight.dds.png
 1
@@ -36098,7 +36114,7 @@ tlight.dds.png
 1.0
 0.0
 
-#entry 2256
+#entry 2257
 turn0509_tlight1.dof-00.joe
 tlight1.dds.png
 1
@@ -36114,7 +36130,7 @@ tlight1.dds.png
 1.0
 0.0
 
-#entry 2257
+#entry 2258
 turn0509_yellow_metal.dof-00.joe
 yellow_metal.dds.png
 1
@@ -36130,7 +36146,7 @@ yellow_metal.dds.png
 1.0
 0.0
 
-#entry 2258
+#entry 2259
 turn0510_preto.dof-00.joe
 preto.dds.png
 1
@@ -36146,7 +36162,7 @@ preto.dds.png
 1.0
 0.0
 
-#entry 2259
+#entry 2260
 turn0510_tlight.dof-00.joe
 tlight.dds.png
 1
@@ -36162,7 +36178,7 @@ tlight.dds.png
 1.0
 0.0
 
-#entry 2260
+#entry 2261
 turn0510_tlight1.dof-00.joe
 tlight1.dds.png
 1
@@ -36178,7 +36194,7 @@ tlight1.dds.png
 1.0
 0.0
 
-#entry 2261
+#entry 2262
 turn0510_tlight2.dof-00.joe
 tlight2.dds.png
 1
@@ -36194,7 +36210,7 @@ tlight2.dds.png
 1.0
 0.0
 
-#entry 2262
+#entry 2263
 tyre0511_metal01.dof-00.joe
 metal01.dds.png
 1
@@ -36210,7 +36226,7 @@ metal01.dds.png
 1.0
 0.0
 
-#entry 2263
+#entry 2264
 tyre0511_preto.dof-00.joe
 preto.dds.png
 1
@@ -36226,7 +36242,7 @@ preto.dds.png
 1.0
 0.0
 
-#entry 2264
+#entry 2265
 tyre0511_tlight.dof-00.joe
 tlight.dds.png
 1
@@ -36242,7 +36258,7 @@ tlight.dds.png
 1.0
 0.0
 
-#entry 2265
+#entry 2266
 tyre0511_tlight1.dof-00.joe
 tlight1.dds.png
 1
@@ -36258,7 +36274,7 @@ tlight1.dds.png
 1.0
 0.0
 
-#entry 2266
+#entry 2267
 tyre0511_tlight2.dof-00.joe
 tlight2.dds.png
 1
@@ -36274,7 +36290,7 @@ tlight2.dds.png
 1.0
 0.0
 
-#entry 2267
+#entry 2268
 tyre0512_twallcover.dof-00.joe
 twallcover.dds.png
 1
@@ -36290,7 +36306,7 @@ twallcover.dds.png
 1.0
 0.0
 
-#entry 2268
+#entry 2269
 tyre0512_twallcover1.dof-00.joe
 twallcover1.dds.png
 1
@@ -36306,7 +36322,7 @@ twallcover1.dds.png
 1.0
 0.0
 
-#entry 2269
+#entry 2270
 tyre0512_twallcover2.dof-00.joe
 twallcover2.dds.png
 1
@@ -36322,7 +36338,7 @@ twallcover2.dds.png
 1.0
 0.0
 
-#entry 2270
+#entry 2271
 tyre0513_twallcover.dof-00.joe
 twallcover.dds.png
 1
@@ -36338,7 +36354,7 @@ twallcover.dds.png
 1.0
 0.0
 
-#entry 2271
+#entry 2272
 tyre0513_twallcover1.dof-00.joe
 twallcover1.dds.png
 1
@@ -36354,7 +36370,7 @@ twallcover1.dds.png
 1.0
 0.0
 
-#entry 2272
+#entry 2273
 tyre0513_twallcover2.dof-00.joe
 twallcover2.dds.png
 1
@@ -36370,7 +36386,7 @@ twallcover2.dds.png
 1.0
 0.0
 
-#entry 2273
+#entry 2274
 tyre0514_twallcover.dof-00.joe
 twallcover.dds.png
 1
@@ -36386,7 +36402,7 @@ twallcover.dds.png
 1.0
 0.0
 
-#entry 2274
+#entry 2275
 tyre0514_twallcover1.dof-00.joe
 twallcover1.dds.png
 1
@@ -36402,7 +36418,7 @@ twallcover1.dds.png
 1.0
 0.0
 
-#entry 2275
+#entry 2276
 tyre0514_twallcover2.dof-00.joe
 twallcover2.dds.png
 1
@@ -36418,7 +36434,7 @@ twallcover2.dds.png
 1.0
 0.0
 
-#entry 2276
+#entry 2277
 tyre0515_twallcover.dof-00.joe
 twallcover.dds.png
 1
@@ -36434,7 +36450,7 @@ twallcover.dds.png
 1.0
 0.0
 
-#entry 2277
+#entry 2278
 tyre0515_twallcover1.dof-00.joe
 twallcover1.dds.png
 1
@@ -36450,7 +36466,7 @@ twallcover1.dds.png
 1.0
 0.0
 
-#entry 2278
+#entry 2279
 tyre0515_twallcover2.dof-00.joe
 twallcover2.dds.png
 1
@@ -36466,7 +36482,7 @@ twallcover2.dds.png
 1.0
 0.0
 
-#entry 2279
+#entry 2280
 tyre0516_twallcover.dof-00.joe
 twallcover.dds.png
 1
@@ -36482,7 +36498,7 @@ twallcover.dds.png
 1.0
 0.0
 
-#entry 2280
+#entry 2281
 tyre0516_twallcover1.dof-00.joe
 twallcover1.dds.png
 1
@@ -36498,7 +36514,7 @@ twallcover1.dds.png
 1.0
 0.0
 
-#entry 2281
+#entry 2282
 tyre0516_twallcover2.dof-00.joe
 twallcover2.dds.png
 1
@@ -36514,7 +36530,7 @@ twallcover2.dds.png
 1.0
 0.0
 
-#entry 2282
+#entry 2283
 tyre0517_twallcover.dof-00.joe
 twallcover.dds.png
 1
@@ -36530,7 +36546,7 @@ twallcover.dds.png
 1.0
 0.0
 
-#entry 2283
+#entry 2284
 tyre0517_twallcover1.dof-00.joe
 twallcover1.dds.png
 1
@@ -36546,7 +36562,7 @@ twallcover1.dds.png
 1.0
 0.0
 
-#entry 2284
+#entry 2285
 tyre0517_twallcover2.dof-00.joe
 twallcover2.dds.png
 1
@@ -36562,7 +36578,7 @@ twallcover2.dds.png
 1.0
 0.0
 
-#entry 2285
+#entry 2286
 tyre0518_twallcover.dof-00.joe
 twallcover.dds.png
 1
@@ -36578,7 +36594,7 @@ twallcover.dds.png
 1.0
 0.0
 
-#entry 2286
+#entry 2287
 tyre0518_twallcover1.dof-00.joe
 twallcover1.dds.png
 1
@@ -36594,7 +36610,7 @@ twallcover1.dds.png
 1.0
 0.0
 
-#entry 2287
+#entry 2288
 tyre0518_twallcover2.dof-00.joe
 twallcover2.dds.png
 1
@@ -36610,7 +36626,7 @@ twallcover2.dds.png
 1.0
 0.0
 
-#entry 2288
+#entry 2289
 tyre0519_twallcover.dof-00.joe
 twallcover.dds.png
 1
@@ -36626,7 +36642,7 @@ twallcover.dds.png
 1.0
 0.0
 
-#entry 2289
+#entry 2290
 tyre0519_twallcover1.dof-00.joe
 twallcover1.dds.png
 1
@@ -36642,7 +36658,7 @@ twallcover1.dds.png
 1.0
 0.0
 
-#entry 2290
+#entry 2291
 tyre0519_twallcover2.dof-00.joe
 twallcover2.dds.png
 1
@@ -36658,7 +36674,7 @@ twallcover2.dds.png
 1.0
 0.0
 
-#entry 2291
+#entry 2292
 tyre0520_twalla.dof-00.joe
 tyrewalla.dds.png
 1
@@ -36674,7 +36690,7 @@ tyrewalla.dds.png
 1.0
 0.0
 
-#entry 2292
+#entry 2293
 tyre0520_twallb.dof-00.joe
 tyrewallb.dds.png
 1
@@ -36690,7 +36706,7 @@ tyrewallb.dds.png
 1.0
 0.0
 
-#entry 2293
+#entry 2294
 tyre0521_twalla.dof-00.joe
 tyrewalla.dds.png
 1
@@ -36706,7 +36722,7 @@ tyrewalla.dds.png
 1.0
 0.0
 
-#entry 2294
+#entry 2295
 tyre0521_twallb.dof-00.joe
 tyrewallb.dds.png
 1
@@ -36722,7 +36738,7 @@ tyrewallb.dds.png
 1.0
 0.0
 
-#entry 2295
+#entry 2296
 tyre0522_twalla.dof-00.joe
 tyrewalla.dds.png
 1
@@ -36738,7 +36754,7 @@ tyrewalla.dds.png
 1.0
 0.0
 
-#entry 2296
+#entry 2297
 tyre0522_twallb.dof-00.joe
 tyrewallb.dds.png
 1
@@ -36754,7 +36770,7 @@ tyrewallb.dds.png
 1.0
 0.0
 
-#entry 2297
+#entry 2298
 wall0523_twalla.dof-00.joe
 tyrewalla.dds.png
 1
@@ -36770,7 +36786,7 @@ tyrewalla.dds.png
 1.0
 0.0
 
-#entry 2298
+#entry 2299
 wall0523_twallb.dof-00.joe
 tyrewallb.dds.png
 1
@@ -36786,7 +36802,7 @@ tyrewallb.dds.png
 1.0
 0.0
 
-#entry 2299
+#entry 2300
 wall0524_cwallcement0.dof-00.joe
 cement01.dds.png
 1
@@ -36802,7 +36818,7 @@ cement01.dds.png
 1.0
 0.0
 
-#entry 2300
+#entry 2301
 wall0524_cwalllwallbl.dof-00.joe
 wallblue01.dds.png
 1
@@ -36818,7 +36834,7 @@ wallblue01.dds.png
 1.0
 0.0
 
-#entry 2301
+#entry 2302
 wall0524_cwallpitwall.dof-00.joe
 pitwall1.dds.png
 1
@@ -36834,7 +36850,7 @@ pitwall1.dds.png
 1.0
 0.0
 
-#entry 2302
+#entry 2303
 wall0525_cwallcem.dof-00.joe
 cement01.dds.png
 1
@@ -36850,7 +36866,7 @@ cement01.dds.png
 1.0
 0.0
 
-#entry 2303
+#entry 2304
 wall0525_cwallcement0.dof-00.joe
 cement01.dds.png
 1
@@ -36866,7 +36882,7 @@ cement01.dds.png
 1.0
 0.0
 
-#entry 2304
+#entry 2305
 wall0525_cwalllwa.dof-00.joe
 wallblue01.dds.png
 1
@@ -36882,7 +36898,7 @@ wallblue01.dds.png
 1.0
 0.0
 
-#entry 2305
+#entry 2306
 wall0525_cwalllwallbl.dof-00.joe
 wallblue01.dds.png
 1
@@ -36898,7 +36914,7 @@ wallblue01.dds.png
 1.0
 0.0
 
-#entry 2306
+#entry 2307
 wall0525_cwallpit.dof-00.joe
 pitwall1.dds.png
 1
@@ -36914,7 +36930,7 @@ pitwall1.dds.png
 1.0
 0.0
 
-#entry 2307
+#entry 2308
 wall0525_cwallpitwall.dof-00.joe
 pitwall1.dds.png
 1
@@ -36925,646 +36941,6 @@ pitwall1.dds.png
 0
 0
 1
-1.0
-0.9
-1.0
-0.0
-
-#entry 2308
-horizon_00.dof-00.joe
-230.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2309
-horizon_01.dof-00.joe
-262.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2310
-horizon_01.dof-01.joe
-231.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2311
-horizon_02.dof-00.joe
-232.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2312
-horizon_03.dof-00.joe
-233.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2313
-horizon_04.dof-00.joe
-234.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2314
-horizon_05.dof-00.joe
-235.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2315
-horizon_06.dof-00.joe
-236.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2316
-horizon_07.dof-00.joe
-237.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2317
-horizon_08.dof-00.joe
-238.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2318
-horizon_09.dof-00.joe
-239.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2319
-horizon_10.dof-00.joe
-240.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2320
-horizon_11.dof-00.joe
-241.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2321
-horizon_12.dof-00.joe
-242.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2322
-horizon_13.dof-00.joe
-243.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2323
-horizon_14.dof-00.joe
-244.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2324
-horizon_15.dof-00.joe
-263.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2325
-horizon_15.dof-01.joe
-245.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2326
-horizon_16.dof-00.joe
-246.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2327
-horizon_17.dof-00.joe
-264.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2328
-horizon_17.dof-01.joe
-247.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2329
-horizon_18.dof-00.joe
-265.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2330
-horizon_18.dof-01.joe
-248.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2331
-horizon_19.dof-00.joe
-266.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2332
-horizon_19.dof-01.joe
-249.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2333
-horizon_20.dof-00.joe
-267.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2334
-horizon_20.dof-01.joe
-250.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2335
-horizon_21.dof-00.joe
-268.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2336
-horizon_21.dof-01.joe
-251.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2337
-horizon_22.dof-00.joe
-269.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2338
-horizon_22.dof-01.joe
-252.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2339
-horizon_23.dof-00.joe
-253.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2340
-horizon_24.dof-00.joe
-254.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2341
-horizon_25.dof-00.joe
-255.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2342
-horizon_26.dof-00.joe
-256.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2343
-horizon_27.dof-00.joe
-257.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2344
-horizon_28.dof-00.joe
-258.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2345
-horizon_29.dof-00.joe
-259.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2346
-horizon_30.dof-00.joe
-260.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-
-#entry 2347
-horizon_31.dof-00.joe
-261.tga.png
-1
-1
-0
-0
-2.0
-0
-0
-0
 1.0
 0.9
 1.0
