@@ -36675,134 +36675,6 @@ twallcover2.dds.png
 0.0
 
 #entry 2292
-tyre0520_twalla.dof-00.joe
-tyrewalla.dds.png
-1
-0
-0
-0
-2.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 2293
-tyre0520_twallb.dof-00.joe
-tyrewallb.dds.png
-1
-0
-0
-0
-2.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 2294
-tyre0521_twalla.dof-00.joe
-tyrewalla.dds.png
-1
-0
-0
-0
-2.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 2295
-tyre0521_twallb.dof-00.joe
-tyrewallb.dds.png
-1
-0
-0
-0
-2.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 2296
-tyre0522_twalla.dof-00.joe
-tyrewalla.dds.png
-1
-0
-0
-0
-2.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 2297
-tyre0522_twallb.dof-00.joe
-tyrewallb.dds.png
-1
-0
-0
-0
-2.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 2298
-wall0523_twalla.dof-00.joe
-tyrewalla.dds.png
-1
-0
-0
-0
-2.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 2299
-wall0523_twallb.dof-00.joe
-tyrewallb.dds.png
-1
-0
-0
-0
-2.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-
-#entry 2300
 wall0524_cwallcement0.dof-00.joe
 cement01.dds.png
 1
@@ -36818,7 +36690,7 @@ cement01.dds.png
 1.0
 0.0
 
-#entry 2301
+#entry 2293
 wall0524_cwalllwallbl.dof-00.joe
 wallblue01.dds.png
 1
@@ -36834,7 +36706,7 @@ wallblue01.dds.png
 1.0
 0.0
 
-#entry 2302
+#entry 2294
 wall0524_cwallpitwall.dof-00.joe
 pitwall1.dds.png
 1
@@ -36850,7 +36722,7 @@ pitwall1.dds.png
 1.0
 0.0
 
-#entry 2303
+#entry 2295
 wall0525_cwallcem.dof-00.joe
 cement01.dds.png
 1
@@ -36866,7 +36738,7 @@ cement01.dds.png
 1.0
 0.0
 
-#entry 2304
+#entry 2296
 wall0525_cwallcement0.dof-00.joe
 cement01.dds.png
 1
@@ -36882,7 +36754,7 @@ cement01.dds.png
 1.0
 0.0
 
-#entry 2305
+#entry 2297
 wall0525_cwalllwa.dof-00.joe
 wallblue01.dds.png
 1
@@ -36898,7 +36770,7 @@ wallblue01.dds.png
 1.0
 0.0
 
-#entry 2306
+#entry 2298
 wall0525_cwalllwallbl.dof-00.joe
 wallblue01.dds.png
 1
@@ -36914,7 +36786,7 @@ wallblue01.dds.png
 1.0
 0.0
 
-#entry 2307
+#entry 2299
 wall0525_cwallpit.dof-00.joe
 pitwall1.dds.png
 1
@@ -36930,7 +36802,7 @@ pitwall1.dds.png
 1.0
 0.0
 
-#entry 2308
+#entry 2300
 wall0525_cwallpitwall.dof-00.joe
 pitwall1.dds.png
 1
