@@ -1,0 +1,3 @@
+TC6
+Model by Ny
+ settings based on Dick Maurer's work with the TC
