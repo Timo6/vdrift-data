@@ -30,15 +30,52 @@ void main()
 	shadowcoords[1] = projshadow_1.xyz;
 	//shadowcoords[0] = (light_matrix_0 * (gl_TextureMatrix[1] * (gl_ModelViewMatrix * gl_FragCoord))).xyz;
 	//shadowcoords[1] = (light_matrix_1 * (gl_TextureMatrix[1] * (gl_ModelViewMatrix * gl_FragCoord))).xyz;
-	float notshadow[2];
-	notshadow[0] = shadow2D(tu4_2D, shadowcoords[0]).r;
-	notshadow[1] = shadow2D(tu5_2D, shadowcoords[1]).r;
 	
 	const float bound = 1.0;
-	const float fade = 10.0;
-	float effect[2];
-	
+	const float fade = 10000.0;
+	bool effect[2];
+		
 	for (int i = 0; i < 2; ++i)
+	{
+		effect[i] = (shadowcoords[i].x < 0.0 || shadowcoords[i].x > 1.0) ||
+				(shadowcoords[i].y < 0.0 || shadowcoords[i].y > 1.0) ||
+				(shadowcoords[i].z < 0.0 || shadowcoords[i].z > 1.0);
+		
+		/*shadowcoords[i] = clamp(shadowcoords[i], 0.0, bound);
+		float xf1 = 1.0-min(1.0,shadowcoords[i].x*fade);
+		float xf2 = max(0.0,shadowcoords[i].x*fade-(fade-1.0));
+		float yf1 = 1.0-min(1.0,shadowcoords[i].y*fade);
+		float yf2 = max(0.0,shadowcoords[i].y*fade-(fade-1.0));
+		float zf1 = 1.0-min(1.0,shadowcoords[i].z*fade);
+		float zf2 = max(0.0,shadowcoords[i].z*fade-(fade-1.0));
+		effect[i] = max(xf1,max(xf2,max(yf1,max(yf2,max(zf1,zf2)))));*/
+		//notshadow[i] = max(notshadow[i],effect[i]);
+	}
+	
+	float notshadowfinal = 1.0;
+	if (!effect[0])
+	{
+		//no PCF
+		notshadowfinal = shadow2D(tu4_2D, shadowcoords[0]).r;
+		
+		//3x3 PCF
+		/*notshadowfinal = 0.0;
+		const float radius = 0.001;
+		for (int v=-1; v<=1; v++)
+			for (int u=-1; u<=1; u++)
+			{
+				notshadowfinal += shadow2D(tu4_2D,
+					shadowcoords[0] + radius*vec3(u, v, 0.0)).r;
+			}
+		notshadowfinal *= 0.1111;*/
+	}
+	else if (!effect[1])
+	{
+		notshadowfinal = shadow2D(tu5_2D, shadowcoords[1]).r;
+	}
+	
+	
+	/*for (int i = 0; i < 2; ++i)
 	//for (int i = 3; i < 4; ++i)
 	{
 		shadowcoords[i] = clamp(shadowcoords[i], 0.0, bound);
@@ -50,11 +87,33 @@ void main()
 		float zf2 = max(0.0,shadowcoords[i].z*fade-(fade-1.0));
 		effect[i] = max(xf1,max(xf2,max(yf1,max(yf2,max(zf1,zf2)))));
 		//notshadow[i] = max(notshadow[i],effect[i]);
+	}*/
+	
+	/*float notshadow[2];
+	
+	notshadow[0] = 0.0;
+	if (effect[0] != 1.0)
+	{
+		//no PCF
+		//notshadow[0] = shadow2D(tu4_2D, shadowcoords[0]).r;
+		
+		//3x3 PCF
+		const float radius = 0.001;
+		for (int v=-1; v<=1; v++)
+			for (int u=-1; u<=1; u++)
+			{
+				notshadow[0] += shadow2D(tu4_2D,
+					shadowcoords[0] + radius*vec3(u, v, 0.0)).r;
+			}
+		notshadow[0] /= 9.0;
 	}
+	
+	notshadow[1] = shadow2D(tu5_2D, shadowcoords[1]).r;
 	
 	float notshadowfinal = notshadow[0];
 	notshadowfinal = mix(notshadowfinal,notshadow[1],effect[0]);
-	notshadowfinal = max(notshadowfinal,effect[1]);
+	notshadowfinal = max(notshadowfinal,effect[1]);*/
+	
 	//float notshadowfinal = notshadow[0] * notshadow[1];
 	/*notshadowfinal = mix(notshadowfinal,notshadow[1],effect[0]);
 	notshadowfinal = mix(notshadowfinal,notshadow[2],effect[1]);
