@@ -55,6 +55,7 @@ void main()
 	float notshadowfinal = notshadow[0];
 	notshadowfinal = mix(notshadowfinal,notshadow[1],effect[0]);
 	notshadowfinal = max(notshadowfinal,effect[1]);
+	//float notshadowfinal = notshadow[0] * notshadow[1];
 	/*notshadowfinal = mix(notshadowfinal,notshadow[1],effect[0]);
 	notshadowfinal = mix(notshadowfinal,notshadow[2],effect[1]);
 	notshadowfinal = max(notshadowfinal,effect[2]);*/
