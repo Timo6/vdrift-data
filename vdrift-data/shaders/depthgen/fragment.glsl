@@ -1,4 +1,4 @@
-varying float lightdotnorm;
+//varying float lightdotnorm;
 //uniform float depthoffset;
 uniform sampler2D tu0_2D;
 varying vec2 texcoord;
@@ -10,7 +10,7 @@ void main()
 	//gl_FragDepth = gl_FragCoord.z+0.0009;
 	//gl_FragDepth = gl_FragCoord.z+0.007;
 	
-	const vec4 tu0color = texture2D(tu0_2D, texcoord);
+	vec4 tu0color = texture2D(tu0_2D, texcoord);
 	
 	/*if (tu0color.a < 0.1)
 		discard;

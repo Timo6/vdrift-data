@@ -1,5 +1,5 @@
 uniform vec3 lightposition;
-varying float lightdotnorm;
+//varying float lightdotnorm;
 varying vec2 texcoord;
 
 void main()
@@ -29,7 +29,7 @@ void main()
 	tmat[1] = gl_TextureMatrix[1][1].xyz;
 	tmat[2] = gl_TextureMatrix[1][2].xyz;
 	vec3 normal = (tmat * gl_NormalMatrix) * gl_Normal;
-	lightdotnorm = max(dot(lightposition,normal),0.0);
+	//lightdotnorm = max(dot(lightposition,normal),0.0);
 	//gl_Position.w = mix(0.95,0.999,lightdotnorm);
 	
 	//lightdotnorm = (1.0-lightdotnorm)*0.95 + 0.999*(lightdotnorm);
