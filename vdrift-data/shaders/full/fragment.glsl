@@ -163,7 +163,14 @@ void main()
 	
 	float invgloss = (1.0-gloss);
 	
-	gl_FragColor.rgb = ambient*0.5 + diffuse*0.8*max(0.7,invgloss) + specular_sun*notshadowfinal + specular_environment*max(0.5,notshadowfinal) + tu6_2D_val.rgb;
+	vec3 finalcolor = ambient*0.5 + diffuse*0.8*max(0.7,invgloss) + specular_sun*notshadowfinal + specular_environment*max(0.5,notshadowfinal) + tu6_2D_val.rgb;
+	
+	//do post-processing
+	finalcolor = clamp(finalcolor,0.0,1.0);
+	//finalcolor = finalcolor*finalcolor*(3.0-2.0*finalcolor);
+	finalcolor = ((finalcolor-0.5)*1.2)+0.5;
+	
+	gl_FragColor.rgb = finalcolor;
 	//gl_FragColor.rgb = ambient*0.8 + diffuse*0.5 + specular_sun*notshadowfinal + specular_environment*notshadowfinal;
 	//gl_FragColor.rgb = ambient*1.0 + specular_sun*notshadowfinal + specular_environment*notshadowfinal;
 	
