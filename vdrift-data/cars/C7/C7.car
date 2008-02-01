@@ -1,39 +1,42 @@
 drive = RWD
 
 [ steering ]
-max-angle = 33.19
+max-angle = 28.94
 
 [ engine ]
 position = 1.42, 0.0, -0.24
 mass = 110.0
-max-power = 1.55e5
-peak-engine-rpm = 5500.0
-rpm-limit = 6500.0
-inertia = 0.20
+max-power = 1.75e5
+peak-engine-rpm = 8600.0
+rpm-limit = 9200.0
+inertia = 0.24
 idle = 0.02
 start-rpm = 1000
-stall-rpm = 400
+stall-rpm = 500
 fuel-consumption = 1e-9
 torque-friction = 0.0003
-torque-curve-00 = 1000, 180.11
-torque-curve-01 = 2000, 186.17
-torque-curve-02 = 2200, 189.85
-torque-curve-03 = 2300, 192.75
-torque-curve-04 = 2800, 196.42
-torque-curve-05 = 3000, 198.87
-torque-curve-06 = 3400, 202.86
-torque-curve-07 = 3800, 209.37
-torque-curve-08 = 4200, 213.0
-torque-curve-09 = 4800, 219.15
-torque-curve-10 = 5100, 222.62
-torque-curve-11 = 5200, 227.44
-torque-curve-12 = 5300, 229.18
-torque-curve-13 = 5500, 230.91
-torque-curve-14 = 5700, 221.27
-torque-curve-15 = 5900, 212.0
-torque-curve-16 = 6200, 203.0
-torque-curve-17 = 6500, 200.44
-
+torque-curve-00 = 1000, 140.0
+torque-curve-01 = 2000, 149.14
+torque-curve-02 = 2200, 145.07
+torque-curve-03 = 2500, 147.78
+torque-curve-04 = 3000, 169.50
+torque-curve-05 = 3300, 172.19
+torque-curve-06 = 4000, 169.50
+torque-curve-07 = 4500, 166.77
+torque-curve-08 = 5600, 172.19
+torque-curve-09 = 5800, 170.83
+torque-curve-10 = 6000, 168.12
+torque-curve-11 = 6100, 177.61
+torque-curve-12 = 6200, 186.42
+torque-curve-13 = 6300, 192.53
+torque-curve-14 = 6500, 198.92
+torque-curve-15 = 6700, 205.92
+torque-curve-16 = 7000, 195.24
+torque-curve-17 = 7600, 190.49
+torque-curve-18 = 8000, 184.39
+torque-curve-19 = 8200, 183.04
+torque-curve-20 = 8300, 146.43
+torque-curve-21 = 9200, 146.43
 
 
 [ clutch ]
@@ -44,16 +47,17 @@ max-pressure = 15400.0
 
 [ transmission ]
 gears = 5
-gear-ratio-r = -2.8
-gear-ratio-1 = 3.36
-gear-ratio-2 = 1.96
-gear-ratio-3 = 1.42
-gear-ratio-4 = 1.20
-gear-ratio-5 = 1.06
+gear-ratio-r = -2.96
+gear-ratio-1 = 2.69
+gear-ratio-2 = 2.01
+gear-ratio-3 = 1.59
+gear-ratio-4 = 1.32
+gear-ratio-5 = 1.13
+gear-ratio-6 = 1.00
 shift-delay = 0.07
 
 [ differential ]
-final-drive = 3.85
+final-drive = 3.92
 anti-slip = 600.0
 
 [ fuel-tank ]
