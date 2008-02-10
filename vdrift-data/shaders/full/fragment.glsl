@@ -58,9 +58,20 @@ void main()
 		//no PCF
 		notshadowfinal = shadow2D(tu4_2D, shadowcoords[0]).r;
 		
+		//2x2 PCF
+		/*notshadowfinal = 0.0;
+		const float radius = 0.000977;
+		for (int v=-1; v<=1; v+=2)
+			for (int u=-1; u<=1; u+=2)
+			{
+				notshadowfinal += shadow2D(tu4_2D,
+					shadowcoords[0] + radius*vec3(u, v, 0.0)).r;
+			}
+		notshadowfinal *= 0.25;*/
+		
 		//3x3 PCF
 		/*notshadowfinal = 0.0;
-		const float radius = 0.001;
+		const float radius = 0.000977;
 		for (int v=-1; v<=1; v++)
 			for (int u=-1; u<=1; u++)
 			{
@@ -171,6 +182,10 @@ void main()
 	finalcolor = ((finalcolor-0.5)*1.2)+0.5;
 	
 	gl_FragColor.rgb = finalcolor;
+	/*gl_FragColor.r = notshadowfinal;
+	gl_FragColor.g = notshadowfinal;
+	gl_FragColor.b = min(1.0,max(dot(normnormal,lightposition),0.0)*100.0);*/
+		
 	//gl_FragColor.rgb = ambient*0.8 + diffuse*0.5 + specular_sun*notshadowfinal + specular_environment*notshadowfinal;
 	//gl_FragColor.rgb = ambient*1.0 + specular_sun*notshadowfinal + specular_environment*notshadowfinal;
 	
