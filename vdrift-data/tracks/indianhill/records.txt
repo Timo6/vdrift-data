@@ -1,7 +1,13 @@
 
+[ 360 ]
+sector 0 = 0.000000
+
 [ AX2 ]
 sector 0 = 0.000000
 
+[ M7 ]
+sector 0 = 0.000000
+
 [ last ]
-car = AX2
+car = 360
 sector 0 = 0.004000

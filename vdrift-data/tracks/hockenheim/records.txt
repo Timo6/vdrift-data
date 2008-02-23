@@ -3,6 +3,10 @@
 sector 0 = 98.452003
 sector 1 = 44.864002
 
+[ F1-02 ]
+sector 0 = 102.196007
+sector 1 = 43.316002
+
 [ F1 ]
 sector 0 = 159.208008
 sector 1 = 65.684006
@@ -23,6 +27,6 @@ sector 0 = 164.856003
 sector 1 = 74.000000
 
 [ last ]
-car = AX2
-sector 0 = 98.452003
-sector 1 = 45.720001
+car = F1-02
+sector 0 = 117.196007
+sector 1 = 47.376003

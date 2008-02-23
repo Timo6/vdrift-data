@@ -1,4 +1,7 @@
 
+[ 360 ]
+sector 1 = 63.144005
+
 [ <<<<<<< .mine ]
 car = TC
 sector 0 = 89.916008
@@ -14,6 +17,10 @@ sector 1 = 40.296001
 [ CT ]
 sector 0 = 92.720001
 sector 1 = 37.892002
+
+[ F1-02 ]
+sector 0 = 59.192001
+sector 1 = 21.560001
 
 [ F1 ]
 sector 0 = 74.488007
@@ -44,6 +51,6 @@ sector 0 = 119.992004
 sector 1 = 46.620003
 
 [ last ]
-car = AX2
-sector 0 = 67.960007
-sector 1 = 27.256001
+car = 360
+sector 0 = 0.000000
+sector 1 = 63.144005

@@ -1,4 +1,13 @@
 
+[ 360 ]
+sector 0 = 101.944008
+sector 1 = 61.628002
+
+[ <<<<<<< .mine ]
+car = F1
+sector 0 = 122.744003
+sector 1 = 77.564003
+
 [ AX2 ]
 sector 0 = 83.792007
 sector 1 = 49.856003
@@ -6,6 +15,10 @@ sector 1 = 49.856003
 [ CO ]
 sector 0 = 151.268005
 sector 1 = 73.800003
+
+[ F1-02 ]
+sector 0 = 88.448006
+sector 1 = 44.504002
 
 [ F1 ]
 sector 0 = 122.744003
@@ -26,12 +39,6 @@ sector 1 = 72.628006
 sector 1 = 83.167999
 
 [ last ]
-<<<<<<< .mine
-car = AX2
-sector 0 = 83.792007
-sector 1 = 51.536003
-=======
-car = F1
-sector 0 = 122.744003
-sector 1 = 77.564003
->>>>>>> .r93
+car = 360
+sector 0 = 115.332008
+sector 1 = 66.524002
