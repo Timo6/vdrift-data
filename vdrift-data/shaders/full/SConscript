@@ -1,4 +1,3 @@
-import glob.glob
 #-------------#
 # Import Vars #
 #-------------#
@@ -7,7 +6,8 @@ Import('*')
 #---------#
 # Sources #
 #---------#
-src = glob('*.glsl')
+import glob
+src = glob.glob('*.glsl')
 
 #---------------------------------#
 # Distribute to src_dir & bin_dir #
@@ -20,7 +20,7 @@ env.Distribute (bin_dir, src)
 #--------------------#
 # Install data files #
 #--------------------#
-install = env.Install(Dir(env.subst('$data_directory/shaders/temp')), src)
+install = env.Install(Dir(env.subst('$data_directory/shaders/full')), src)
 env.Alias('install', install)
 
 #----------------#

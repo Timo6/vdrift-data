@@ -14,10 +14,7 @@ env.Distribute (src_dir, ['SConscript'])
 Export(['env', 'src_dir', 'bin_dir'])
 
 if env['minimal']:
-    SConscript('TL2/SConscript')
-    SConscript('XS/SConscript')
-    SConscript('CO/SConscript')
-    SConscript('FF/SConscript')
+    SConscript(dirs = ['TL2', 'XS', 'GT', '360', 'AX2'])
 else:
     import glob
 

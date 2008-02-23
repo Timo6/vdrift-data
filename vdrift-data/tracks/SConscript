@@ -14,7 +14,7 @@ env.Distribute (src_dir, ['SConscript'])
 Export(['env', 'src_dir', 'bin_dir'])
 
 if env['minimal']:
-    SConscript(dirs = ['lagunaseca', 'zandvoort'])
+    SConscript(dirs = ['estoril88', 'jerez88', 'paulricard88'])
 else:
     import glob
 
