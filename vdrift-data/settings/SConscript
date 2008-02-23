@@ -6,9 +6,9 @@ Import('*')
 #---------#
 # Sources #
 #---------#
-src = Split("""controls
+src = Split("""controls-default.config
                options.config
-               VDrift.config""")
+               VDrift-default.config""")
 
 #---------------------------------#
 # Distribute to src_dir & bin_dir #
