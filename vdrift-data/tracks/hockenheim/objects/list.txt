@@ -12808,7 +12808,7 @@ bka.bmp.png
 0
 1
 1
-0
+1
 2.0
 0
 0
@@ -12824,7 +12824,7 @@ bka.bmp.png
 0
 1
 1
-0
+1
 2.0
 0
 0
@@ -16387,18 +16387,18 @@ umba.bmp.png
 0.0
 
 #entry 1024
-#cloudsny.dof-00.joe
-#cloudsny.bmp.png
-#1
-#1
-#1
-#0
-#0
-#0
-#0
-#0
-#1.0
-#0.9
-#1.0
-#0.0
+cloudsny.dof-00.joe
+cloudsny.bmp.png
+1
+1
+1
+0
+0
+0
+0
+0
+1.0
+0.9
+1.0
+0.0
 
