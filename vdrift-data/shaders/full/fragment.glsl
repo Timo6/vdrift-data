@@ -155,6 +155,7 @@ void main()
 	vec3 ambient = texcolor;
 	
 	float gloss = tu1_2D_val.r;
+	float metallic = tu1_2D_val.g;
 	
 	//vec3 L = normalize(lightposition - vec3(ecpos));
 	vec3 L = normalize(eyelightposition);
@@ -167,10 +168,12 @@ void main()
 	float specval = max(dot(refnorm, normalize(eyelightposition)),0.0);*/
 	
 	float env_factor = 1.0-max(0.0,eyespacenormal_norm.z*0.9);
-	vec3 specular_sun = vec3((pow(specval,128.0)*0.4+pow(specval,4.0)*0.2)*gloss);
+	//vec3 specular_sun = vec3((pow(specval,mix(8.0,128.0,metallic))*0.4+pow(specval,4.0)*0.2)*gloss);
+	vec3 specular_sun = vec3((pow(specval,128.0)*0.4*metallic+pow(specval,4.0)*(0.2+(1.0-metallic)*0.4))*gloss);
 	//vec3 refmapdir = reflect(eyespacenormal_norm,halfvec);
 	vec3 refmapdir = reflect(viewdir,normnormal);
-	vec3 specular_environment = textureCube(tu2_cube, refmapdir).rgb*gloss*env_factor;
+	
+	vec3 specular_environment = textureCube(tu2_cube, refmapdir).rgb*metallic*env_factor;
 	
 	float invgloss = (1.0-gloss);
 	
