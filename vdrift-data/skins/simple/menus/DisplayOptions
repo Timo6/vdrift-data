@@ -1,5 +1,5 @@
 name = DisplayOptions
-widgets = 12
+widgets = 13
 background = box.png
 dialog = false
 
@@ -130,12 +130,27 @@ default = 0
 cancel = 0
 
 [ widget-09 ]
+type = toggle
+name = RacingLineToggle
+setting = display.racingline
+values = options
+center = 0.5, 0.57
+width = auto
+height = auto
+fontsize = 6
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+
+[ widget-10 ]
 type = button
 name = DisplayOptionsAdvancedButton
 text = Advanced
 tip = Change detail levels and other advanced display options.
 action = DisplayOptionsAdvanced
-center = 0.5, 0.65
+center = 0.5, 0.7
 color = 0.0, 0.8, 0.0
 width = auto
 height = auto
@@ -145,7 +160,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-10 ]
+[ widget-11 ]
 type = button
 name = DisplayOptionsOKButton
 text = OK
@@ -161,7 +176,7 @@ selected = 0
 default = 1
 cancel = 0
 
-[ widget-11 ]
+[ widget-12 ]
 type = button
 name = DisplayOptionsCancelButton
 text = Cancel

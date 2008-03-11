@@ -1,5 +1,5 @@
 name = InGameControlsOptions
-widgets = 11
+widgets = 9
 background = box.png
 dialog = false
 
@@ -59,34 +59,6 @@ default = 0
 cancel = 0
 
 [ widget-04 ]
-type = toggle
-name = InGameABSToggle
-setting = game.antilock
-values = options
-center = 0.5, 0.37
-width = auto
-height = auto
-fontsize = 6
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
-
-[ widget-05 ]
-type = toggle
-name = InGameTCSToggle
-setting = game.traction_control
-values = options
-center = 0.5, 0.41
-width = auto
-height = auto
-fontsize = 6
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
-
-[ widget-06 ]
 type = floatwheel
 name = InGameButtonRampWheel
 setting = control.button_ramp
@@ -100,7 +72,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-07 ]
+[ widget-05 ]
 type = button
 name = InGameActionControlMapButton
 text = Assign Controls
@@ -116,7 +88,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-08 ]
+[ widget-06 ]
 type = button
 name = InGameJoystickOptionsButton
 text = Joystick Options
@@ -132,7 +104,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-09 ]
+[ widget-07 ]
 type = button
 name = InGameControlsOptionsOKButton
 text = OK
@@ -148,7 +120,7 @@ selected = 0
 default = 1
 cancel = 0
 
-[ widget-10 ]
+[ widget-08 ]
 type = button
 name = InGameControlsOptionsCancelButton
 text = Cancel

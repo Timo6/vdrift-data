@@ -1,5 +1,5 @@
 name = PracticeGame
-widgets = 9
+widgets = 11
 background = box.png
 dialog = false
 
@@ -22,7 +22,7 @@ name = CarWheel
 setting = game.selected_car
 values = options
 hook = SpinningCar
-center = 0.3, 0.29
+center = 0.3, 0.18
 spacing = 0.10
 width = auto
 height = auto
@@ -37,7 +37,7 @@ type = spinningcar
 name = SpinningCar
 setting = game.selected_car
 values = options
-center = 0.3, 0.49
+center = 0.3, 0.39
 carpos = -3.2, 0.25, -15
 spacing = 0.10
 width = auto
@@ -54,7 +54,7 @@ name = TrackWheel
 setting = game.track
 values = options
 hook = TrackMultiImage
-center = 0.7, 0.29
+center = 0.7, 0.18
 spacing = 0.10
 width = auto
 height = auto
@@ -69,7 +69,7 @@ type = multi-image
 name = TrackMultiImage
 setting = game.track
 values = options
-center = 0.7, 0.49
+center = 0.7, 0.39
 width = 0.25
 height = 0.333
 fontsize = 7
@@ -79,6 +79,36 @@ default = 0
 cancel = 0
 
 [ widget-05 ]
+type = toggle
+name = ABSToggle
+setting = game.antilock
+values = options
+center = 0.5, 0.62
+spacing = 0.3
+width = auto
+height = auto
+fontsize = 6
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-06 ]
+type = toggle
+name = TCSToggle
+setting = game.traction_control
+values = options
+center = 0.5, 0.66
+spacing = 0.3
+width = auto
+height = auto
+fontsize = 6
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-07 ]
 type = toggle
 name = RecordReplayToggle
 setting = game.record
@@ -93,7 +123,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-06 ]
+[ widget-08 ]
 type = toggle
 name = ReverseTrackToggle
 setting = game.reverse
@@ -108,7 +138,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-07 ]
+[ widget-09 ]
 type = button
 name = StartPracticeGameButton
 text = Start Practice
@@ -124,7 +154,7 @@ selected = 0
 default = 1
 cancel = 0
 
-[ widget-08 ]
+[ widget-10 ]
 type = button
 name = PracticeGameBackButton
 text = Back to Main
