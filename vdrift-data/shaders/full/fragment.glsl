@@ -132,6 +132,13 @@ void main()
 	
 	
 	
+	vec3 L = normalize(eyelightposition);
+	vec3 V = vec3(normalize(-ecpos));
+	vec3 halfvec = normalize(L + V);
+	vec3 eyespacenormal_norm = normalize(eyespacenormal);
+	float specval = max(dot(halfvec, eyespacenormal_norm),0.0);
+	
+	
 	
 	//float notshadow = texture2DRect(tu2_2DRect, gl_FragCoord.xy*0.5).r;
 	//float notshadow = texture2DRect(tu2_2DRect, gl_FragCoord.xy).r;
@@ -148,31 +155,32 @@ void main()
 	//notshadow *= min(difdot*10.0,1.0);
 	//notshadow *= 1.0-difdot;
 	difdot *= notshadowfinal;
+	
+	const vec3 edge_paint_color = texcolor*0.2;
+	//const vec3 edge_paint_color = vec3(0.,1.,0.);
+	float gloss = tu1_2D_val.r;
+	float metallic = tu1_2D_val.g;
+	texcolor = mix(texcolor,mix(edge_paint_color,texcolor,max(0.0,1.0-pow(1.0-eyespacenormal_norm.z,3.5))),metallic*gloss);
+	
 	vec3 diffuse = texcolor*difdot;
 	
 	/*vec3 lightmapdir = mix(-lightposition,normal,notshadowfinal);
 	vec3 ambient = texcolor * textureCube(tu3_cube, lightmapdir).rgb;*/
 	vec3 ambient = texcolor;
-	
-	float gloss = tu1_2D_val.r;
-	float metallic = tu1_2D_val.g;
-	
-	//vec3 L = normalize(lightposition - vec3(ecpos));
-	vec3 L = normalize(eyelightposition);
-	vec3 V = vec3(normalize(-ecpos));
-	vec3 halfvec = normalize(L + V);
-	vec3 eyespacenormal_norm = normalize(eyespacenormal);
-	float specval = max(dot(halfvec, eyespacenormal_norm),0.0);
-	
+
+		
 	/*vec3 refnorm = normalize(reflect(normalize(eyecoords),normalize(eyespacenormal)));
 	float specval = max(dot(refnorm, normalize(eyelightposition)),0.0);*/
 	
-	float env_factor = 1.0-max(0.0,eyespacenormal_norm.z*0.9);
+	float env_factor = 1.0-max(0.0,eyespacenormal_norm.z*0.3);
 	//vec3 specular_sun = vec3((pow(specval,mix(8.0,128.0,metallic))*0.4+pow(specval,4.0)*0.2)*gloss);
-	vec3 specular_sun = vec3((pow(specval,128.0)*0.4*metallic+pow(specval,4.0)*(0.2+(1.0-metallic)*0.4))*gloss);
+	//vec3 specular_sun = vec3((pow(specval,128.0)*0.4*metallic+pow(specval,4.0)*(0.2+(1.0-metallic)*0.4))*gloss);
+	float spec = (pow(specval,128.0)*0.4+pow(specval,4.0)*0.2)*gloss;
+	vec3 specular_sun = vec3(spec);
 	//vec3 refmapdir = reflect(eyespacenormal_norm,halfvec);
 	vec3 refmapdir = reflect(viewdir,normnormal);
 	
+	env_factor *= 0.75;
 	vec3 specular_environment = textureCube(tu2_cube, refmapdir).rgb*metallic*env_factor;
 	
 	float invgloss = (1.0-gloss);
