@@ -156,11 +156,11 @@ void main()
 	//notshadow *= 1.0-difdot;
 	difdot *= notshadowfinal;
 	
-	const vec3 edge_paint_color = texcolor*0.5;
+	const vec3 edge_paint_color = texcolor*0.4;
 	//const vec3 edge_paint_color = vec3(0.,1.,0.);
 	float gloss = tu1_2D_val.r;
 	float metallic = tu1_2D_val.g;
-	float metallic_paint_falloff = 1.0-pow(1.0-max(0.0,eyespacenormal_norm.z),3.0);
+	float metallic_paint_falloff = 1.0-pow(1.0-max(0.0,eyespacenormal_norm.z),2.0);
 	texcolor = mix(texcolor,mix(edge_paint_color,texcolor,metallic_paint_falloff),metallic*gloss);
 	
 	vec3 diffuse = texcolor*difdot;
@@ -178,7 +178,7 @@ void main()
 	//vec3 specular_sun = vec3((pow(specval,mix(8.0,128.0,metallic))*0.4+pow(specval,4.0)*0.2)*gloss);
 	//vec3 specular_sun = vec3((pow(specval,128.0)*0.4*metallic+pow(specval,4.0)*(0.2+(1.0-metallic)*0.4))*gloss);
 	//float spec = (pow(specval,128.0)*0.4+pow(specval,4.0)*0.2)*gloss;
-	float spec = ((max((pow(specval,512.0)-0.5)*2.0,0.0))*metallic+pow(specval,12.0)*(0.2+(1.0-metallic)*0.8))*gloss;
+	float spec = ((max((pow(specval,512.0)-0.5)*2.0,0.0))*metallic+pow(specval,12.0)*(0.4+(1.0-metallic)*0.8))*gloss;
 	vec3 specular_sun = vec3(spec);
 	//vec3 refmapdir = reflect(eyespacenormal_norm,halfvec);
 	vec3 refmapdir = reflect(viewdir,normnormal);
