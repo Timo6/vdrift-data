@@ -1,3 +1,5 @@
+import glob
+
 #-------------#
 # Import Vars #
 #-------------#
@@ -6,14 +8,7 @@ Import('*')
 #---------#
 # Sources #
 #---------#
-src = Split("""box.png
-               libsplash.png
-               logo.png
-               mouse.png
-               newfontt3.png
-               refmap.png
-               splash.png
-               vdrift-logo.png""")
+src = glob.glob('*.png')
 
 #---------------------------------#
 # Distribute to src_dir & bin_dir #
