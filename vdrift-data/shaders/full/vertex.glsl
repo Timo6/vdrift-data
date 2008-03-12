@@ -53,7 +53,7 @@ void main()
 	//vec4 norm4 = vec4(gl_Normal.x,gl_Normal.y,gl_Normal.z,0.0);
 	//normal = (gl_ModelViewMatrix * norm4).xyz;
 	
-	eyespacenormal = normalize(gl_NormalMatrix * gl_Normal);
+	eyespacenormal = gl_NormalMatrix * gl_Normal;
 	ecpos = gl_ModelViewMatrix * gl_Vertex;
 	//ecpos = gl_Position;
 	//viewdir = normalize(((gl_TextureMatrix[1] * ecpos).xyz + gl_TextureMatrix[1][3].xyz));
