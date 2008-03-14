@@ -161,6 +161,7 @@ void main()
 	float gloss = tu1_2D_val.r;
 	float metallic = tu1_2D_val.g;
 	float metallic_paint_falloff = 1.0-pow(1.0-max(0.0,eyespacenormal_norm.z),3.0);
+	metallic_paint_falloff = max(metallic_paint_falloff,0.4);
 	//float metallic_paint_falloff = max(0.0,eyespacenormal_norm.z);
 	texcolor = mix(texcolor,mix(edge_paint_color,texcolor,metallic_paint_falloff),metallic*gloss);
 	
@@ -183,6 +184,7 @@ void main()
 	vec3 specular_sun = vec3(spec);
 	//vec3 refmapdir = reflect(eyespacenormal_norm,halfvec);
 	vec3 refmapdir = reflect(viewdir,normnormal);
+	//vec3 refmapdir = reflect(ecpos.xyz, eyespacenormal_norm);
 	
 	//env_factor *= 0.75;
 	vec3 specular_environment = textureCube(tu2_cube, refmapdir).rgb*metallic*env_factor;
@@ -197,7 +199,6 @@ void main()
 	finalcolor = ((finalcolor-0.5)*1.2)+0.5;
 	
 	gl_FragColor.rgb = finalcolor;
-	//gl_FragColor.rgb = vec3(env_factor);
 	//gl_FragColor.rgb = texcolor;
 	/*gl_FragColor.r = notshadowfinal;
 	gl_FragColor.g = notshadowfinal;
