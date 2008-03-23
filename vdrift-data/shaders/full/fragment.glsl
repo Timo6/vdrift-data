@@ -15,26 +15,25 @@ varying vec4 projshadow_1;
 
 void main()
 {
-	vec3 shadowcoords[2];
-	shadowcoords[0] = projshadow_0.xyz;
-	shadowcoords[1] = projshadow_1.xyz;
+	const vec3 shadowcoords0 = projshadow_0.xyz;
+	const vec3 shadowcoords1 = projshadow_1.xyz;
 	
 	const float bound = 1.0;
 	const float fade = 10000.0;
-	bool effect[2];
-		
-	for (int i = 0; i < 2; ++i)
-	{
-		effect[i] = (shadowcoords[i].x < 0.0 || shadowcoords[i].x > 1.0) ||
-				(shadowcoords[i].y < 0.0 || shadowcoords[i].y > 1.0) ||
-				(shadowcoords[i].z < 0.0 || shadowcoords[i].z > 1.0);
-	}
+	
+	const bool effect0 = (shadowcoords0.x < 0.0 || shadowcoords0.x > 1.0) ||
+		(shadowcoords0.y < 0.0 || shadowcoords0.y > 1.0) ||
+		(shadowcoords0.z < 0.0 || shadowcoords0.z > 1.0);
+	
+	const bool effect1 = (shadowcoords1.x < 0.0 || shadowcoords1.x > 1.0) ||
+		(shadowcoords1.y < 0.0 || shadowcoords1.y > 1.0) ||
+		(shadowcoords1.z < 0.0 || shadowcoords1.z > 1.0);
 	
 	float notshadowfinal = 1.0;
-	if (!effect[0])
+	if (!effect0)
 	{
 		//no PCF
-		notshadowfinal = shadow2D(tu4_2D, shadowcoords[0]).r;
+		notshadowfinal = shadow2D(tu4_2D, shadowcoords0).r;
 		
 		//2x2 PCF
 		/*notshadowfinal = 0.0;
@@ -58,41 +57,40 @@ void main()
 			}
 		notshadowfinal *= 0.1111;*/
 	}
-	else if (!effect[1])
+	else if (!effect1)
 	{
-		notshadowfinal = shadow2D(tu5_2D, shadowcoords[1]).r;
+		notshadowfinal = shadow2D(tu5_2D, shadowcoords1).r;
 	}
 	
-	vec3 normnormal = normalize(normal);
+	const vec3 normnormal = normalize(normal);
+	const vec3 normviewdir = normalize(viewdir);
+	const vec3 normlightposition = normalize(lightposition);
 	
-	float specval = max(dot(normalize(reflect(viewdir,normnormal)),normalize(lightposition)),0.0);
+	const float specval = max(dot(reflect(normviewdir,normnormal),normlightposition),0.0);
 	
-	vec4 tu0_2D_val = texture2D(tu0_2D, texcoord_2d);
-	vec4 tu1_2D_val = texture2D(tu1_2D, texcoord_2d);
-	vec4 tu6_2D_val = texture2D(tu6_2D, texcoord_2d);
+	const vec4 tu0_2D_val = texture2D(tu0_2D, texcoord_2d);
+	const vec4 tu1_2D_val = texture2D(tu1_2D, texcoord_2d);
+	const vec4 tu6_2D_val = texture2D(tu6_2D, texcoord_2d);
 	
-	vec3 texcolor = tu0_2D_val.rgb;
-	float difdot = max(dot(normnormal,lightposition),0.0);
-	difdot *= notshadowfinal;
+	const vec3 texcolor = tu0_2D_val.rgb;
+	const float gloss = tu1_2D_val.r;
+	const float metallic = tu1_2D_val.g;
 	
-	const vec3 edge_paint_color = texcolor*0.0;
-	float gloss = tu1_2D_val.r;
-	float metallic = tu1_2D_val.g;
+	const float difdot = max(dot(normnormal,normlightposition),0.0) * notshadowfinal;
 	
-	vec3 diffuse = texcolor*difdot;
+	const vec3 diffuse = texcolor*difdot;
 	
-	vec3 ambient = texcolor;
+	const vec3 ambient = texcolor;
 	
-	float env_factor = min(pow(1.0-max(0.0,dot(normalize(-viewdir),normnormal)),3.0),0.6)*0.75+0.2;
-	float spec = ((max((pow(specval,512.0)-0.5)*2.0,0.0))*metallic+pow(specval,12.0)*(0.4+(1.0-metallic)*0.8))*gloss;
-	vec3 specular_sun = vec3(spec);
-	vec3 refmapdir = reflect(viewdir,normnormal);
+	const float env_factor = min(pow(1.0-max(0.0,dot(-normviewdir,normnormal)),3.0),0.6)*0.75+0.2;
+	const float spec = ((max((pow(specval,512.0)-0.5)*2.0,0.0))*metallic+pow(specval,12.0)*(0.4+(1.0-metallic)*0.8))*gloss;
+	const vec3 refmapdir = reflect(normviewdir,normnormal);
 	
-	vec3 specular_environment = textureCube(tu2_cube, refmapdir).rgb*metallic*env_factor;
+	const vec3 specular_environment = textureCube(tu2_cube, refmapdir).rgb*metallic*env_factor;
 	
-	float invgloss = (1.0-gloss);
+	const float invgloss = (1.0-gloss);
 	
-	vec3 finalcolor = ambient*0.5 + diffuse*0.8*max(0.7,invgloss) + specular_sun*notshadowfinal + specular_environment*max(0.5,notshadowfinal) + tu6_2D_val.rgb;
+	vec3 finalcolor = ambient*0.5 + diffuse*0.8*max(0.7,invgloss) + vec3(spec)*notshadowfinal + specular_environment*max(0.5,notshadowfinal) + tu6_2D_val.rgb;
 	
 	//do post-processing
 	finalcolor = clamp(finalcolor,0.0,1.0);
