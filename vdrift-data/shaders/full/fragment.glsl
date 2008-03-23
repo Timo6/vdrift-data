@@ -160,10 +160,10 @@ void main()
 	//const vec3 edge_paint_color = vec3(0.,1.,0.);
 	float gloss = tu1_2D_val.r;
 	float metallic = tu1_2D_val.g;
-	float metallic_paint_falloff = 1.0-pow(1.0-max(0.0,eyespacenormal_norm.z),3.0);
-	metallic_paint_falloff = max(metallic_paint_falloff,0.4);
+	//float metallic_paint_falloff = 1.0-pow(1.0-max(0.0,eyespacenormal_norm.z),3.0);
+	//metallic_paint_falloff = max(metallic_paint_falloff,0.4);
 	//float metallic_paint_falloff = max(0.0,eyespacenormal_norm.z);
-	texcolor = mix(texcolor,mix(edge_paint_color,texcolor,metallic_paint_falloff),metallic*gloss);
+	//texcolor = mix(texcolor,mix(edge_paint_color,texcolor,metallic_paint_falloff),metallic*gloss);
 	
 	vec3 diffuse = texcolor*difdot;
 	
@@ -176,7 +176,7 @@ void main()
 	float specval = max(dot(refnorm, normalize(eyelightposition)),0.0);*/
 	
 	//float env_factor = (1.0-max(0.0,eyespacenormal_norm.z))*0.4+0.1;
-	float env_factor = pow(1.0-max(0.0,eyespacenormal_norm.z),2.0)*0.6+0.2;
+	float env_factor = min(pow(1.0-max(0.0,eyespacenormal_norm.z),3.0),0.6)*0.75+0.2;
 	//vec3 specular_sun = vec3((pow(specval,mix(8.0,128.0,metallic))*0.4+pow(specval,4.0)*0.2)*gloss);
 	//vec3 specular_sun = vec3((pow(specval,128.0)*0.4*metallic+pow(specval,4.0)*(0.2+(1.0-metallic)*0.4))*gloss);
 	//float spec = (pow(specval,128.0)*0.4+pow(specval,4.0)*0.2)*gloss;
@@ -199,7 +199,7 @@ void main()
 	finalcolor = ((finalcolor-0.5)*1.2)+0.5;
 	
 	gl_FragColor.rgb = finalcolor;
-	//gl_FragColor.rgb = texcolor;
+	//gl_FragColor.rgb = vec3(env_factor);
 	/*gl_FragColor.r = notshadowfinal;
 	gl_FragColor.g = notshadowfinal;
 	gl_FragColor.b = min(1.0,max(dot(normnormal,lightposition),0.0)*100.0);*/
