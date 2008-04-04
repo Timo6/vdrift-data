@@ -83,14 +83,16 @@ void main()
 	const vec3 ambient = texcolor;
 	
 	const float env_factor = min(pow(1.0-max(0.0,dot(-normviewdir,normnormal)),3.0),0.6)*0.75+0.2;
+	
 	const float spec = ((max((pow(specval,512.0)-0.5)*2.0,0.0))*metallic+pow(specval,12.0)*(0.4+(1.0-metallic)*0.8))*gloss;
 	const vec3 refmapdir = reflect(normviewdir,normnormal);
 	
 	const vec3 specular_environment = textureCube(tu2_cube, refmapdir).rgb*metallic*env_factor;
+	const float inv_environment = 1.0 - (env_factor*metallic);
 	
 	const float invgloss = (1.0-gloss);
 	
-	vec3 finalcolor = ambient*0.5 + diffuse*0.8*max(0.7,invgloss) + vec3(spec)*notshadowfinal + specular_environment*max(0.5,notshadowfinal) + tu6_2D_val.rgb;
+	vec3 finalcolor = (ambient*0.5 + diffuse*0.8*max(0.7,invgloss))*(inv_environment*0.5+0.5) + vec3(spec)*notshadowfinal + specular_environment*max(0.5,notshadowfinal) + tu6_2D_val.rgb;
 	
 	//do post-processing
 	finalcolor = clamp(finalcolor,0.0,1.0);
