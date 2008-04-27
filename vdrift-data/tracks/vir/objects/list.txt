@@ -9061,10 +9061,10 @@ treebe.dds.png
 #entry 566
 obj0_bka.dof-00.joe
 bkaa.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -9077,10 +9077,10 @@ bkaa.tga.png
 #entry 567
 obj0_bkb.dof-00.joe
 bkab.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -9093,10 +9093,10 @@ bkab.tga.png
 #entry 568
 obj0_bkc.dof-00.joe
 bkac.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -9109,10 +9109,10 @@ bkac.tga.png
 #entry 569
 obj0_bkd.dof-00.joe
 bkad.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0

@@ -4165,10 +4165,10 @@ himmel03.jpg.png
 #entry 260
 skyboxi.dof-00.joe
 bka.tga.png
-1
-1
-1
 0
+1
+1
+1
 1.0
 0
 0
@@ -4181,10 +4181,10 @@ bka.tga.png
 #entry 261
 skyboxi.dof-01.joe
 bkb.tga.png
-1
-1
-1
 0
+1
+1
+1
 1.0
 0
 0
@@ -4197,10 +4197,10 @@ bkb.tga.png
 #entry 262
 skyboxi.dof-02.joe
 bkb.tga.png
-1
-1
-1
 0
+1
+1
+1
 1.0
 0
 0
@@ -4213,10 +4213,10 @@ bkb.tga.png
 #entry 263
 skyboxi.dof-03.joe
 bka.tga.png
-1
-1
-1
 0
+1
+1
+1
 1.0
 0
 0

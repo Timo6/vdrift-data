@@ -12229,10 +12229,10 @@ sky.tga.png
 #entry 764
 stan0286_bkaa.dof-00.joe
 bkaa.dds.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -12245,10 +12245,10 @@ bkaa.dds.png
 #entry 765
 stan0286_bkab.dof-00.joe
 bkab.dds.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -12261,10 +12261,10 @@ bkab.dds.png
 #entry 766
 stan0286_bkac.dof-00.joe
 bkac.dds.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -12277,10 +12277,10 @@ bkac.dds.png
 #entry 767
 stan0286_bkad.dof-00.joe
 bkad.dds.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0

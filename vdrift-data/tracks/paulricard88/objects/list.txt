@@ -10853,10 +10853,10 @@ sky.tga.png
 #entry 678
 stan0219_bkaa.dof-00.joe
 bkaa.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -10869,10 +10869,10 @@ bkaa.tga.png
 #entry 679
 stan0219_bkab.dof-00.joe
 bkab.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -10885,10 +10885,10 @@ bkab.tga.png
 #entry 680
 stan0219_bkac.dof-00.joe
 bkac.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -10901,10 +10901,10 @@ bkac.tga.png
 #entry 681
 stan0219_bkad.dof-00.joe
 bkad.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0

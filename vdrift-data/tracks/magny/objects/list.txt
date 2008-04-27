@@ -31989,10 +31989,10 @@ wall0301_414001.dof-00.joe
 #entry 1999
 horizon_00.dof-00.joe
 447.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32005,10 +32005,10 @@ horizon_00.dof-00.joe
 #entry 2000
 horizon_01.dof-00.joe
 416.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32021,10 +32021,10 @@ horizon_01.dof-00.joe
 #entry 2001
 horizon_02.dof-00.joe
 417.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32037,10 +32037,10 @@ horizon_02.dof-00.joe
 #entry 2002
 horizon_03.dof-00.joe
 418.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32053,10 +32053,10 @@ horizon_03.dof-00.joe
 #entry 2003
 horizon_04.dof-00.joe
 419.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32069,10 +32069,10 @@ horizon_04.dof-00.joe
 #entry 2004
 horizon_05.dof-00.joe
 420.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32085,10 +32085,10 @@ horizon_05.dof-00.joe
 #entry 2005
 horizon_06.dof-00.joe
 421.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32101,10 +32101,10 @@ horizon_06.dof-00.joe
 #entry 2006
 horizon_07.dof-00.joe
 422.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32117,10 +32117,10 @@ horizon_07.dof-00.joe
 #entry 2007
 horizon_08.dof-00.joe
 423.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32133,10 +32133,10 @@ horizon_08.dof-00.joe
 #entry 2008
 horizon_09.dof-00.joe
 424.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32149,10 +32149,10 @@ horizon_09.dof-00.joe
 #entry 2009
 horizon_10.dof-00.joe
 425.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32165,10 +32165,10 @@ horizon_10.dof-00.joe
 #entry 2010
 horizon_11.dof-00.joe
 426.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32181,10 +32181,10 @@ horizon_11.dof-00.joe
 #entry 2011
 horizon_12.dof-00.joe
 427.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32197,10 +32197,10 @@ horizon_12.dof-00.joe
 #entry 2012
 horizon_13.dof-00.joe
 428.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32213,10 +32213,10 @@ horizon_13.dof-00.joe
 #entry 2013
 horizon_14.dof-00.joe
 429.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32229,10 +32229,10 @@ horizon_14.dof-00.joe
 #entry 2014
 horizon_15.dof-00.joe
 430.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32245,10 +32245,10 @@ horizon_15.dof-00.joe
 #entry 2015
 horizon_16.dof-00.joe
 431.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32261,10 +32261,10 @@ horizon_16.dof-00.joe
 #entry 2016
 horizon_17.dof-00.joe
 432.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32277,10 +32277,10 @@ horizon_17.dof-00.joe
 #entry 2017
 horizon_18.dof-00.joe
 433.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32293,10 +32293,10 @@ horizon_18.dof-00.joe
 #entry 2018
 horizon_19.dof-00.joe
 434.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32309,10 +32309,10 @@ horizon_19.dof-00.joe
 #entry 2019
 horizon_20.dof-00.joe
 435.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32325,10 +32325,10 @@ horizon_20.dof-00.joe
 #entry 2020
 horizon_21.dof-00.joe
 436.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32341,10 +32341,10 @@ horizon_21.dof-00.joe
 #entry 2021
 horizon_22.dof-00.joe
 437.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32357,10 +32357,10 @@ horizon_22.dof-00.joe
 #entry 2022
 horizon_23.dof-00.joe
 438.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32373,10 +32373,10 @@ horizon_23.dof-00.joe
 #entry 2023
 horizon_24.dof-00.joe
 439.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32389,10 +32389,10 @@ horizon_24.dof-00.joe
 #entry 2024
 horizon_25.dof-00.joe
 440.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32405,10 +32405,10 @@ horizon_25.dof-00.joe
 #entry 2025
 horizon_26.dof-00.joe
 441.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32421,10 +32421,10 @@ horizon_26.dof-00.joe
 #entry 2026
 horizon_27.dof-00.joe
 442.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32437,10 +32437,10 @@ horizon_27.dof-00.joe
 #entry 2027
 horizon_28.dof-00.joe
 443.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32453,10 +32453,10 @@ horizon_28.dof-00.joe
 #entry 2028
 horizon_29.dof-00.joe
 444.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32469,10 +32469,10 @@ horizon_29.dof-00.joe
 #entry 2029
 horizon_30.dof-00.joe
 445.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
@@ -32485,10 +32485,10 @@ horizon_30.dof-00.joe
 #entry 2030
 horizon_31.dof-00.joe
 446.tga.png
-1
-1
-1
 0
+1
+1
+1
 2.0
 0
 0
