@@ -1,5 +1,6 @@
 name = InGameGameControls
-widgets = 8 = box.png
+widgets = 8
+background = box.png
 dialog = false
 
 [ widget-00 ]
