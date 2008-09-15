@@ -16,7 +16,7 @@ power=off
 [poweron1]
 filename=sounds/2kbehind.wav
 MinimumRPM=1
-MaximumRPM=3500
+MaximumRPM=2500
 NaturalRPM=2000
 power=on
 
@@ -29,9 +29,9 @@ power=off
 
 [poweron2]
 filename=sounds/4kbehind.wav
-MinimumRPM=3000
+MinimumRPM=2000
 NaturalRPM=3560
-MaximumRPM=5500
+MaximumRPM=4000
 power=on
 
 [poweroff3]
@@ -43,7 +43,7 @@ power=off
 
 [poweron3]
 filename=sounds/7kbehind.wav
-MinimumRPM=5000
+MinimumRPM=3500
 NaturalRPM=6130
 MaximumRPM=10000
 power=on
