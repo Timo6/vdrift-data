@@ -1,5 +1,5 @@
 name = DisplayOptionsAdvanced
-widgets = 14
+widgets = 15
 background = box.png
 dialog = false
 
@@ -201,3 +201,17 @@ enabled = 1
 selected = 0
 default = 0
 cancel = 1
+
+[ widget-14 ]
+type = label
+name = DisclaimerLabel
+text = Note: Some options will not take effect until the game is restarted
+center = 0.5, 0.875
+color = .6,.6,.6
+width = auto
+height = auto
+fontsize = 6
+enabled = 0
+selected = 0
+default = 0
+cancel = 0
