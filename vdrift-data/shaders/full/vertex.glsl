@@ -21,10 +21,10 @@ void main()
 	texcoord_2d = vec2(gl_MultiTexCoord0);
 	
 	//set the normal, eyespace normal, and eyespace position
-	const mat3 cam_rotation_inv = mat3(gl_TextureMatrix[1][0].xyz,gl_TextureMatrix[1][1].xyz,gl_TextureMatrix[1][2].xyz);
+	mat3 cam_rotation_inv = mat3(gl_TextureMatrix[1][0].xyz,gl_TextureMatrix[1][1].xyz,gl_TextureMatrix[1][2].xyz);
 	normal = (cam_rotation_inv * gl_NormalMatrix) * gl_Normal;
 	
-	const vec3 worldvert = (gl_TextureMatrix[1] * (gl_ModelViewMatrix * gl_Vertex)).xyz;
-	const vec3 campos = gl_TextureMatrix[1][3].xyz;
+	vec3 worldvert = (gl_TextureMatrix[1] * (gl_ModelViewMatrix * gl_Vertex)).xyz;
+	vec3 campos = gl_TextureMatrix[1][3].xyz;
 	viewdir = worldvert - campos;
 }
