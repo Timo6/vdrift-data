@@ -77,6 +77,8 @@ enabled = 0
 selected = 0
 default = 0
 cancel = 0
+prefix = tracks/
+postfix = /trackshot.png
 
 [ widget-05 ]
 type = toggle
