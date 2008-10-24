@@ -14,6 +14,7 @@ src = Split("""axis_field.png
                tog_off_up.png
                tog_off_down.png
                btn_up.png
+               btn_up_unsel.png
                btn_down.png
                text_box.png
                text_cursor.png
@@ -23,7 +24,9 @@ src = Split("""axis_field.png
                wheel_down_l.png
                wheel_down_r.png
                sld_cursor.png
-               sld_wedge.png""")
+               sld_wedge.png
+               tog_off_up_unsel.png
+               tog_on_up_unsel.png""")
 
 #---------------------------------#
 # Distribute to src_dir & bin_dir #

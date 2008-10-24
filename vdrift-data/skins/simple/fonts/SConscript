@@ -11,7 +11,16 @@ src = Split("""condensed.png
                default.png
                default.txt
                digital.png
-               digital.txt""")
+               digital.txt
+               freesans.txt
+               freesans.png
+               freesans_noshaders.png
+               futuresans.txt
+               futuresans.png
+               futuresans_noshaders.png
+               lcd.txt
+               lcd.png
+               lcd_noshaders.png""")
 
 #---------------------------------#
 # Distribute to src_dir & bin_dir #
