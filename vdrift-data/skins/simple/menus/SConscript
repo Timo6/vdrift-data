@@ -8,7 +8,7 @@ Import('*')
 #---------#
 import glob
 src = glob.glob('*')
-src.remove('SConscript*')
+src.remove('SConscript')
 
 #---------------------------------#
 # Distribute to src_dir & bin_dir #
