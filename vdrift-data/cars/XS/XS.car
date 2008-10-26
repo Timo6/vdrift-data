@@ -1,10 +1,11 @@
 drive = RWD
+version = 2 #file format version 2 changes the coordinate system to this: http://vdrift.net/Forum/viewtopic.php?p=8073#8073
 
 [ steering ]
 max-angle = 33.19
 
 [ engine ]
-position = 0.86, 0.0, -0.21
+position = 0.0, 1.0, -0.21
 mass = 140.0
 max-power = 1.79e5
 peak-engine-rpm = 7800.0
@@ -35,7 +36,7 @@ torque-curve-16 = 7000, 195.24
 torque-curve-17 = 7600, 190.49
 torque-curve-18 = 8000, 184.39
 torque-curve-19 = 8200, 183.04
-torque-curve-20 = 8800, 160.00
+torque-curve-20 = 8300, 146.43
 torque-curve-21 = 9500, 146.43
 
 [ clutch ]
@@ -60,7 +61,7 @@ final-drive = 4.100
 anti-slip = 600.0
 
 [ fuel-tank ]
-position = -0.8, -0.1, -0.26
+position = 0.0, -1.0, -0.26
 capacity = 0.0492
 volume = 0.0492
 fuel-density = 730.0
@@ -215,11 +216,10 @@ area = 0.015
 handbrake = 1.0
 
 [ driver ]
-position = -0.62, -0.35, -0.12
-#position = -0.35, -0.62, 0.12
+position = -0.35, -0.57, 0.0
 mass = 90.0
-view-position = -0.64, 0.35, 0.30
-hood-mounted-view-position = 0.55, 0, 0.17
+view-position = -0.35, -0.64, 0.30
+hood-mounted-view-position = 0, 0.55, 0.17
 
 [ drag ]
 position = 0.0, 0.0, 0.2
@@ -235,87 +235,75 @@ lift-coefficient = -0.5
 efficiency = 0.95
 
 [ wing-rear ]
-position = -2.14, 0.0, 0.37
+position = 0.0, -2.14, 0.37
 frontal-area = 0.05
 drag-coefficient = 0.0
 surface-area = 0.5
 lift-coefficient = -2
 efficiency = 0.95
 
+
 [ wheel-FR ]
-position = 1.14, -0.76, -0.47
+position = 0.76, 1.14, -0.47
 roll-height = 0.29
 mass = 18.14
 restitution = 0.1
 
 [ suspension-FR ]
-position = 1.14, -0.72, -0.03
+position = 0.76, 1.14, -0.03
 hinge = 0,0,0
 
 [ wheel-FL ]
-position = 1.14, 0.76, -0.47
+position = -0.76, 1.14, -0.47
 roll-height = 0.29
 mass = 18.14
 restitution = 0.1
 
 [ suspension-FL ]
-position = 1.14, 0.76, -0.03
+position = -0.76, 1.14, -0.03
 hinge = 0,0,0
 
 [ wheel-RR ]
-position = -1.28, -0.76, -0.48
+position = 0.76, -1.28, -0.48
 roll-height = 0.2935
 mass = 18.14
 restitution = 0.1
 
 [ suspension-RR ]
-position = -1.28, -0.72, -0.02
-hinge = -0.85,0,0
+position = 0.76, -1.28, -0.02
+hinge = 0,-0.85,0
 
 [ wheel-RL ]
-position = -1.28, 0.76, -0.48
+position = -0.76, -1.28, -0.48
 roll-height = 0.2935
 mass = 18.14
 restitution = 0.1
 
 [ suspension-RL ]
-position = -1.28, 0.72, -0.02
-hinge = -0.85,0,0
-
-[ contact-points ]
-# used to find the bounds of the car (for collisions)
-# also play into the weight distribution and balance
-mass = 0.05
-position-00 = 1.96, 0.37, -0.24
-position-01 = 1.96, -0.37, -0.24
-position-02 = 1.52, 0.83, 0.16
-position-03 = 1.52, -0.83, 0.16
-position-04 = -0.10, 0.89, -0.24
-position-05 = -0.10, -0.89, -0.24
-position-06 = -2.18, -0.83, -0.10
-position-07 = -2.18, 0.83, -0.10
+position = -0.76, -1.28, -0.02
+hinge = 0,-0.85,0
 
 # these are used to calculate the weight distribution and balance
 [ particle-00 ]
 mass = 30.0
-position = -1.28, 0.0, -0.36
+position = 0.0, -1.28, -0.36
 
 [ particle-01 ]
 mass = 60.0
-position = 0.11, 0.0, -0.36
+position = 0.0, 0.11, -0.36
 
 [ particle-02 ]
 mass = 235.0
-position = -1.7, 0.39, 0.0
+position = -0.39, -1.7, 0.0
 
 [ particle-03 ]
 mass = 235.0
-position = -1.7, -0.39, 0.0
+position = 0.39, -1.7, 0.0
 
 [ particle-04 ]
 mass = 195.0
-position = 1.32, 0.39, -0.07
+position = -0.39, 1.32, -0.07
 
 [ particle-05 ]
 mass = 195.0
-position = 1.32, -0.39, -0.07
+position = 0.39, .p1.32, -0.07
