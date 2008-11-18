@@ -1,5 +1,5 @@
 name = PracticeGame
-widgets = 11
+#widgets = 11 #this is no longer used and also the widget sections can now have any name
 background = box.png
 dialog = false
 
@@ -21,7 +21,8 @@ type = stringwheel
 name = CarWheel
 setting = game.selected_car
 values = options
-hook = SpinningCar
+hook = PlayerSpinningCar,PaintWheel
+action = PlayerCarChange
 center = 0.3, 0.18
 spacing = 0.10
 width = auto
@@ -32,9 +33,25 @@ selected = 1
 default = 0
 cancel = 0
 
+[ widget-01.5 ]
+type = stringwheel
+name = PaintWheel
+setting = game.car_paint
+values = options
+hook = PlayerSpinningCar
+center = 0.3, 0.22
+spacing = 0.10
+width = auto
+height = auto
+fontsize = 6
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
 [ widget-02 ]
 type = spinningcar
-name = SpinningCar
+name = PlayerSpinningCar
 setting = game.selected_car
 values = options
 center = 0.3, 0.39
