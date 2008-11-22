@@ -6,7 +6,7 @@ dialog = true
 [ widget-00 ]
 type = label
 name = ReplayStartErrorMessage
-text = There is no replay recorded.
+text = There was an error when trying to play this replay.
 color = 0.8, 0.3, 0.3
 center = 0.5, 0.45
 width = auto
