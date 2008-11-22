@@ -144,45 +144,13 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-09 ]
-type = controlgrab
-name = ExternalFixedControl
-text = External Fixed
-tip = The fixed external camera follows the car from a set of fixed locations.
-setting = view_external
-center = 0.5, 0.57
-spacing = 0.2
-width = auto
-height = auto
-fontsize = 6
-enabled = 0
-selected = 0
-default = 0
-cancel = 0
-
-[ widget-10 ]
-type = controlgrab
-name = ExternalFollowControl
-text = External Follow
-tip = The external follow camera flies between each of the external cameras.
-setting = view_extfollow
-center = 0.5, 0.61
-spacing = 0.2
-width = auto
-height = auto
-fontsize = 6
-enabled = 0
-selected = 0
-default = 0
-cancel = 0
-
 [ widget-11 ]
 type = controlgrab
 name = FocusNextCarControl
 text = Focus Next
 tip = Focus the camera on next car.
 setting = focus_next_car
-center = 0.5, 0.65
+center = 0.5, 0.57
 spacing = 0.2
 width = auto
 height = auto
@@ -198,7 +166,7 @@ name = FocusPrevCarControl
 text = Focus Previous
 tip = Focus the camera on previous car.
 setting = focus_prev_car
-center = 0.5, 0.69
+center = 0.5, 0.61
 spacing = 0.2
 width = auto
 height = auto

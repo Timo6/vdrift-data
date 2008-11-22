@@ -46,20 +46,20 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-03 ]
-type = controlgrab
-name = EngageClutchControl
-text = Engage Clutch
-tip = The engage clutch control lets out the clutch. This must be done after every shift.
-setting = engage
-center = 0.5, 0.38
-width = auto
-height = auto
-fontsize = 6
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
+#[ widget-03 ]
+#type = controlgrab
+#name = EngageClutchControl
+#text = Engage Clutch
+#tip = The engage clutch control lets out the clutch. This must be done after every shift.
+#setting = engage
+#center = 0.5, 0.38
+#width = auto
+#height = auto
+#fontsize = 6
+#enabled = 1
+#selected = 0
+#default = 0
+#cancel = 0
 
 [ widget-04 ]
 type = controlgrab
@@ -67,7 +67,7 @@ name = AnalogClutchControl
 text = Analog Clutch
 tip = The analog clutch control can allow you to use an external clutch pedal.
 setting = clutch
-center = 0.5, 0.42
+center = 0.5, 0.38
 width = auto
 height = auto
 fontsize = 6
