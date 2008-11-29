@@ -37,9 +37,9 @@ void main()
 	
 	vec3 ambient = texcolor;
 	
-	//float specval = max(dot(reflect(normviewdir,normnormal),normlightposition),0.0);
-	vec3 halfvec = normalize(normviewdir + normlightposition);
-	float specval = max(0.0,dot(normnormal,halfvec));
+	float specval = max(dot(reflect(normviewdir,normnormal),normlightposition),0.0);
+	//vec3 halfvec = normalize(normviewdir + normlightposition);
+	//float specval = max(0.0,dot(normnormal,halfvec));
 	
 	float env_factor = min(pow(1.0-max(0.0,dot(-normviewdir,normnormal)),3.0),0.6)*0.75+0.2;
 	
@@ -59,6 +59,7 @@ void main()
 	finalcolor = ((finalcolor-0.5)*1.2)+0.5;
 	
 	gl_FragColor.rgb = finalcolor;
+	//gl_FragColor.rgb = vec3(pow(specval,1.0));
 	//gl_FragColor.rgb = textureCube(tu2_cube, refmapdir).rgb;
 	//gl_FragColor.rgb = normviewdir;
 	//gl_FragColor.rgb = normnormal;
