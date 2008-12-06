@@ -5,10 +5,10 @@ void main()
 {
 	vec4 texcolor = texture2D(tu0_2D, tu0coord);
 	texcolor.rgb *= gl_Color.rgb;
-	const float distanceFactor = texcolor.a;
+	float distanceFactor = texcolor.a;
 	
 	//anti-aliasing
-	const float width = dFdx(tu0coord.x) * 70.0;
+	float width = dFdx(tu0coord.x) * 70.0;
 	texcolor.a = smoothstep(0.5-width, 0.5+width, texcolor.a);
 	
 	/*//outline calculation
