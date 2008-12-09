@@ -6,13 +6,7 @@ Import('*')
 #---------#
 # Sources #
 #---------#
-src = Split("""condensed.png
-               condensed.txt
-               default.png
-               default.txt
-               digital.png
-               digital.txt
-               freesans.txt
+src = Split("""freesans.txt
                freesans.png
                freesans_noshaders.png
                futuresans.txt
