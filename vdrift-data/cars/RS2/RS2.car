@@ -1,10 +1,11 @@
 drive = AWD 
+version = 2
 
 [ steering ] 
 max-angle = 33.19 
 
 [ engine ] 
-position = 1.35, 0.0, -0.22
+position = 0.0, 1.35, -0.22
 mass = 136
 max-power = 1.07e5 
 peak-engine-rpm = 5500.0 
@@ -91,7 +92,7 @@ final-drive = 4.111
 anti-slip = 600.0 
 
 [ fuel-tank ] 
-position = -0.26, -0.17, -0.56 
+position = -0.17, -0.26, -0.56 
 capacity = 60 
 volume = 60 
 fuel-density = 1.0 
@@ -245,11 +246,12 @@ radius = 0.14
 area = 0.015 
 handbrake = 1.0 
 
+
 [ driver ] 
-position = 0.1, 0.27, 0.0
+position = -0.4, -0.15, 0.06
 mass = 90.0
-view-position = -0.1, 0.27, 0.33
-hood-mounted-view-position = 1.08, 0, 0.20
+view-position = -0.4, -0.15, 0.46
+hood-mounted-view-position = 0.0, 1.08, 0.20
 
 [ drag ] 
 position = 0.0, 0.0, 0.2 
@@ -257,7 +259,7 @@ frontal-area = 2.37
 drag-coefficient = 0.35 
 
 [ wing-front ] 
-position = 1.9, 0.0, 0.60 
+position = 0.0, 1.9, 0.60 
 frontal-area = 0.2 
 drag-coefficient = 0.0 
 surface-area = 0.3 
@@ -265,87 +267,75 @@ lift-coefficient = -0.5
 efficiency = 0.95 
 
 [ wing-rear ] 
-position = -2.14, 0.0, 0.37 
+position = 0.0, -2.14, 0.37 
 frontal-area = 0.05 
 drag-coefficient = 0.0 
 surface-area = 0.5 
 lift-coefficient = -2 
 efficiency = 0.95 
 
+
 [ wheel-FR ] 
-position = 1.25, -0.76, -0.55
+position = 0.76, 1.25, -0.55
 roll-height = 0.32
 mass = 20 
 restitution = 0.1 
 
 [ suspension-FR ] 
-position = 1.25, -0.66, -0.15 
+position = 0.66, 1.25, -0.15 
 hinge = 0.25, -0.76, -0.48
 
 [ wheel-FL ] 
-position = 1.25, 0.76, -0.55
+position = -0.76, 1.25, -0.55
 roll-height = 0.32 
 mass = 20 
 restitution = 0.1 
 
 [ suspension-FL ] 
-position = 1.25, 0.66, -0.15 
+position = -0.66, 1.25, -0.15 
 hinge = 0.25, 0.76, -0.48
 
+
 [ wheel-RR ] 
-position = -1.21, -0.76, -0.55
+position = 0.76, -1.21, -0.55
 roll-height = 0.32
 mass = 20
 restitution = 0.1 
 
 [ suspension-RR ] 
-position = -1.21, -0.65, -0.13 
+position = 0.65, -1.21, -0.13 
 hinge = 0.21, -0.76, -0.48
 
 [ wheel-RL ] 
-position = -1.21, 0.76, -0.55
+position = -0.76, -1.21, -0.55
 roll-height = 0.32
 mass = 20
 restitution = 0.1 
 
 [ suspension-RL ] 
-position = -1.21, 0.65, -0.13 
+position = -0.65, -1.21, -0.13 
 hinge = 0.21, 0.65, -0.48
 
-[ contact-points ] 
-# used to find the bounds of the car (for collisions) 
-# also play into the weight distribution and balance 
-#mass = 0.05 
-#position-00 = 2.06, 0.40, -0.20 
-#position-01 = 2.06, -0.40, -0.20 
-#position-02 = 1.85, 0.72, -0.20 
-#position-03 = 1.85, -0.72, -0.20 
-#position-04 = 0.19, 0.89, 0.24 
-#position-05 = 0.19, -0.89, 0.24 
-#position-06 = -1.99, -0.72, -0.26 
-#position-07 = -1.99, 0.72, -0.26 
-#position-08 = -2.23, -0.46, -0.26 
-#position-09 = -2.23, 0.46, -0.26 
 
 # these are used to calculate the weight distribution and balance 
 # total weight 1235 kg
 # engine weight ~300 kg
 [ particle-00 ]
 mass = 35
-position = 1.08, 0, -0.4
+position = 0, 1.08, -0.4
 
 [ particle-01 ] 
 mass = 320
-position = -1.08, 0.42, 0.02
+position = 0.42, -1.08, 0.02
 
 [ particle-02 ] 
 mass = 320
-position = -1.08, -0.42, 0.02
+position = -0.42, -1.08, 0.02
 
 [ particle-03 ] 
 mass = 170
-position = 0.77, 0.5, -0.05
+position = 0.5, 0.77, -0.05
 
 [ particle-04 ] 
 mass = 170
-position = 0.77, -0.5, -0.05
+position = -0.5, 0.77, -0.05
