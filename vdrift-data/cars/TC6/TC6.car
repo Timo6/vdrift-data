@@ -53,7 +53,7 @@ final-drive = 4.285
 anti-slip = 600.0
 
 [ fuel-tank ]
-position = -0.26, -0.17, -0.56 
+position = -0.17, -0.26, -0.56 
 capacity = 60.0
 volume = 60.0
 fuel-density = 1.0
@@ -209,10 +209,10 @@ handbrake = 1.1
 
 
 [ driver ]
-position = -0.3, -0.15, 0.07
+position = -0.35, -0.13, 0.07
 mass = 90.0
-view-position = -0.4, 0.35, 0.35
-hood-mounted-view-position = 0.7, 0, 0.41
+view-position = -0.35, -0.13, 0.37
+hood-mounted-view-position = 0.0, 0.7, 0.41
 
 [ drag ]
 position = 0.0, 0.0, 0.2
@@ -277,28 +277,6 @@ restitution = 0.1
 position = -0.66, -1.28, -0.07
 hinge = -2.1, 0.70, -0.43
 
-
-[ contact-points ]
-# used to find the bounds of the car (for collisions)
-# also play into the weight distribution and balance
-mass = 0.05
-position-00 =  0.0, 2.35, -0.6
-position-01 =  0.48, 2.31, -0.6
-position-02 = -0.48, 2.31, -0.6
-position-03 =  0.86, 2.14, -0.6
-position-04 = -0.86, 2.14, -0.6
-position-05 =  0.96, 2.0, -0.6
-position-06 = -0.96, 2.0, -0.6
-position-07 =  0.97, 0.52, 0.22
-position-08 = -0.97, 0.52, 0.22
-position-09 =  0.95, -1.87, -0.6
-position-10 = -0.95, -1.87, -0.6
-position-11 =  0.43, -2.29, -0.53
-position-12 = -0.43, -2.29, -0.53
-position-13 =  0.30, -2.36, -0.20
-position-14 = -0.30, -2.36, -0.20
-position-15 =  0.84, -2.3, 0.56
-position-16 = -0.84, -2.3, 0.56
 
 # these are used to calculate the weight distribution and balance
 [ particle-00 ]
