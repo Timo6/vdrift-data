@@ -1,4 +1,6 @@
 drive = RWD
+version = 2
+
 # F1-02   (v. F1-5_1_0)
 # universal version for all tracks ...
 # realistic scale
@@ -32,7 +34,7 @@ max-angle = 42.00	# needed for Monaco track
 exponent = 1.0
 
 [ engine ]
-position = -0.70, 0.0, -0.40
+position = 0.0, -0.70, -0.40
 mass = 95.0
 max-power = 633844
 peak-engine-rpm = 19000.0
@@ -100,7 +102,7 @@ final-drive = 3.7	# max ca 340 km/h (final-drive = 3.7)
 anti-slip = 300.0
 
 [ fuel-tank ]
-position = -0.30, -0.00, -0.30 
+position = -0.00, -0.30, -0.30 
 capacity = 180
 volume = 76
 fuel-density = 0.8
@@ -263,13 +265,14 @@ radius = 0.14
 area = 0.015
 handbrake = 1.0
 
+
 [ driver ]
-position = 0.50, 0.00, -0.40
+position = 0.00, 0.18, -0.30
 mass = 80.0
-view-position = 0.08, 0.00, 0.05
-hood-mounted-view-position = 0.08, 0.00, 0.05	# normal driver position
-#hood-mounted-view-position = -0.35, 0.00, 0.45
-#hood-mounted-view-position = -2.00, 1.00, -0.00	# lwft  wheel
+view-position = 0.00, 0.18, 0.1
+hood-mounted-view-position = 0.00, 0.45, 0.1	# normal driver position
+#hood-mounted-view-position = 0.00, -0.35, 0.45
+#hood-mounted-view-position = 1.00, -2.00, -0.00	# lwft  wheel
 
 [ drag ]
 position = 0.00, 0.00, -0.40
@@ -277,7 +280,7 @@ frontal-area = 1.15
 drag-coefficient = 0.56
 
 [ wing-front ]
-position = 2.20, 0.0, 0.50
+position = 0.0, 2.20, 0.50
 frontal-area = 0.05
 drag-coefficient = 0.2
 surface-area = 1.00		# including body downforce; 0.7
@@ -286,7 +289,7 @@ lift-coefficient = -3.10
 efficiency = 0.99
 
 [ wing-rear ]
-position = -1.30, 0.0, 0.15
+position = 0.0, -1.30, 0.15
 frontal-area = 0.3
 drag-coefficient = 0.3
 surface-area = 2.00		# including body downforce; 0.5
@@ -296,110 +299,91 @@ efficiency = 0.99
 
 
 [ wheel-FR ]
-position = 1.60, -0.725, -0.35
+position = 0.725, 1.60, -0.35
 roll-height = 0.33
 mass = 19
 restitution = 0.1
 
 [ suspension-FR ]
-position = 1.60, -0.70, -0.40
+position = 0.70, 1.60, -0.40
 hinge = 0,0,0
 
 [ wheel-FL ]
-position = 1.60, 0.725, -0.35
+position = -0.725, 1.60, -0.35
 roll-height = 0.33
 mass = 19
 restitution = 0.1
 
 [ suspension-FL ]
-position = 1.60, 0.70, -0.40
+position = -0.70, 1.60, -0.40
 hinge = 0,0,0
 
+
 [ wheel-RR ]
-position = -1.53, -0.71, -0.36
+position = 0.71, -1.53, -0.36
 roll-height = 0.340
 mass = 22
 restitution = 0.1
 
 [ suspension-RR ]
-position = -1.53, -0.65, -0.27
-hinge = -1.0,0,0
+position = 0.65, -1.53, -0.27
+hinge = 0, -1.0, 0
 
 [ wheel-RL ]
-position = -1.53, 0.71, -0.36
+position = -0.71, -1.53, -0.36
 roll-height = 0.340
 mass = 22
 restitution = 0.1
 
 [ suspension-RL ]
-position = -1.53, 0.65, -0.27
-hinge = -1.0,0,0
+position = -0.65, -1.53, -0.27
+hinge = 0, -1.0, 0
 
-[ contact-points ]
-# used to find the bounds of the car (for collisions)
-# also play into the weight distribution and balance
-mass = 0.05
-position-00 = 2.50, 0.0, -0.6
-position-01 = 2.31, 0.48, -0.6
-position-02 = 2.31, -0.48, -0.6
-position-03 = 2.14, 0.86, -0.6
-position-04 = 2.14, -0.86, -0.6
-position-05 = 2.0, 0.96, -0.6
-position-06 = 2.0, -0.96, -0.6
-position-07 = 0.52, 0.97, 0.22
-position-08 = 0.52, -0.97, 0.22
-position-09 = -1.87, 0.95, -0.6
-position-10 = -1.87, -0.95, -0.6
-position-11 = -2.0, 0.43, -0.53
-position-12 = -2.0, -0.43, -0.53
-position-13 = -2.0, 0.30, -0.20
-position-14 = -2.0, -0.30, -0.20
-position-15 = -2.0, 0.84, 0.56
-position-16 = -2.0, -0.84, 0.56
+
 
 # these are used to calculate the weight distribution and balance
 [ particle-00 ]		# Front-Wing/Nose
 mass = 31.0
-position = 2.00, 0.00, -0.30
+position = 0.00, 2.00, -0.30
 
 [ particle-01 ]		# Chassis
 mass = 90.0
-position = 0.50, 0.00, -0.30
+position = 0.00, 0.50, -0.30
 
 [ particle-02 ]		# Cooler left
 mass = 35.0
-position = -0.10, 0.20, -0.35
+position = 0.20, -0.10, -0.35
 
 [ particle-03 ]		# Cooler right
 mass = 35.0
-position = -0.10, -0.20, -0.35
+position = -0.20, -0.10, -0.35
 
 [ particle-04 ]		# Exhaust left
 mass = 40.0
-position = -0.60, 0.30, -0.30
+position = 0.30, -0.60, -0.30
 
 [ particle-05 ]		# Exhaust right
 mass = 40.0
-position = -0.60, -0.30, -0.30
+position = -0.30, -0.60, -0.30
 
 [ particle-06 ]		# Covering rear
 mass = 15.0
-position = -0.80, 0.00, -0.15
+position = 0.00, -0.80, -0.15
 
 [ particle-07 ]		# Ballast
 mass = 30.0
-position = 1.60, 0.00, -0.55
+position = 0.00, 1.60, -0.55
 
 [ particle-08 ]		# reserve
 mass = 0.0
-position = 0.0, -0.00, -0.0
+position = -0.00, 0.0, -0.0
 
 [ particle-09 ]		# gearbox
 mass = 20.0
-position = -1.40, 0.00, -0.35
+position = 0.00, -1.40, -0.35
 
 [ particle-10 ]		# rear-wing
 mass = 20.0
-position = -1.70, 0.00, -0.10
+position = 0.00, -1.70, -0.10
 
 
