@@ -238,7 +238,7 @@ restitution = 0.1
 
 [ suspension-FR ]
 position = 0.83, 0.95, -0.15
-hinge = -0.3, -0.70, -0.46
+hinge = -0.70, -0.3, -0.46
 
 [ wheel-FL ]
 position = -0.88, 0.95, -0.48
@@ -248,7 +248,7 @@ restitution = 0.1
 
 [ suspension-FL ]
 position = -0.83, 0.95, -0.15
-hinge = -0.3, 0.70, -0.46
+hinge = 0.70, -0.3, -0.46
 
 
 [ wheel-RR ]
@@ -259,7 +259,7 @@ restitution = 0.1
 
 [ suspension-RR ]
 position = 0.85, -0.95, -0.15
-hinge = 0.3, -0.70, -0.58
+hinge = -0.70, 0.3, -0.58
 
 [ wheel-RL ]
 position = -0.90, -0.95, -0.48
@@ -269,7 +269,7 @@ restitution = 0.1
 
 [ suspension-RL ]
 position = -0.85, -0.95, -0.15
-hinge = 0.3, 0.70, -0.58
+hinge = 0.70, 0.3, -0.58
 
 
 # these are used to calculate the weight distribution and balance

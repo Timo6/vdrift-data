@@ -265,7 +265,7 @@ restitution = 0.1
 
 [ suspension-RR ] 
 position = 0.68, -1.37, -0.13 
-hinge = -0.6,0,0 
+hinge = 0.0, -0.6, 0.0 
 
 [ wheel-RL ] 
 position = -0.72, -1.37, -0.49
@@ -275,7 +275,7 @@ restitution = 0.1
 
 [ suspension-RL ] 
 position = -0.68, -1.37, -0.13 
-hinge = -0.6,0,0 
+hinge = 0.0, -0.6, 0.0
 
 
 
