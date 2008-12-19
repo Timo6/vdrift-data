@@ -61,12 +61,13 @@
 #---------------------------------------
 
 drive = RWD
+version = 2
 
 [ steering ]
 max-angle = 36.0
 
 [ engine ]
-position = -1.0, 0.0, -0.05
+position = 0.0, -1.0, -0.05
 mass = 150.0
 max-power = 313000
 peak-engine-rpm = 8500
@@ -123,7 +124,7 @@ final-drive = 4.44
 anti-slip =600.0
 
 [ fuel-tank ]
-position = -1.50, 0.0, -0.10
+position = 0.0, -1.50, -0.10
 capacity = 95.0
 volume = 80.0
 fuel-density = 0.8
@@ -282,20 +283,20 @@ radius = 0.130
 area = 0.02
 handbrake = 1.0
 
+
 [ driver ]
-position = 0.10, 0.0, 0.0
+position = -0.28, 0.12, 0.12
 mass = 90.0
-view-position = -0.28, 0.28, 0.42				# moved driver position
-#hood-mounted-view-position = 0.20, 0, 0.70
-hood-mounted-view-position = -0.28, 0.28, 0.4	# static driver position
+view-position = -0.28, 0.12, 0.42				# moved driver position
+hood-mounted-view-position = -0.0, 0.5, 0.4	# static driver position
 
 [ drag ]
-position = 0.5, 0.0, 0.00
+position = 0.0, 0.5, 0.00
 frontal-area = 2.03
 drag-coefficient = 0.29
 
 [ wing-front ]
-position = 1.15, 0, -0.3
+position = 0, 1.15, -0.3
 frontal-area = 0.0
 drag-coefficient = 0
 surface-area = 1.0
@@ -303,7 +304,7 @@ lift-coefficient = -0.10
 efficiency = 1
 
 [ wing-rear ]
-position = -1.50, 0, -0.3
+position = 0, -1.50, -0.3
 frontal-area = 0.0
 drag-coefficient = 0
 surface-area = 1.0
@@ -313,106 +314,93 @@ efficiency = 1
 #---------- F R O N T
 
 [ wheel-FR ]
-position = 1.12, -0.8345, -0.27			# track +-Y = 1669/2
+position = 0.8345, 1.12, -0.27			# track +-Y = 1669/2
 roll-height = 0.32
 mass = 30.0
 restitution = 0.1
 
 [ wheel-FL ]
-position = 1.12, 0.8345, -0.27
+position = -0.8345, 1.12, -0.27
 roll-height = 0.32
 mass = 30.0
 restitution = 0.1
 
 [ suspension-FR ]
-position = 1.12, -0.60, -0.30
-hinge = 0.90, 0.50, -0.20
-#hinge = 1.12, 0.0, -0.40
-#hinge = 1.12, 2.0, -0.1
+position = 0.60, 1.12, -0.30
+hinge = -0.50, 0.90, -0.20
 
 [ suspension-FL ]
-position = 1.12, 0.60, -0.30
-hinge = 0.90, -0.50, -0.20
-#hinge = 1.12, -0.0, -0.40
-#hinge = 1.12, -2.0, -0.1
+position = -0.60, 1.12, -0.30
+hinge = 0.50, 0.90, -0.20
+
 
 #---------- R E A R
 
 [ wheel-RR ]
-position = -1.51, -0.8085, -0.28			# track +-Y = 1617/2
+position = 0.8085, -1.51, -0.28			# track +-Y = 1617/2
 roll-height = 0.33
 mass = 30.0
 restitution = 0.1
 
 [ wheel-RL ]
-position = -1.51, 0.8085, -0.28
+position = -0.8085, -1.51, -0.28
 roll-height = 0.33
 mass = 30.0
 restitution = 0.1
 
 [ suspension-RR ]
-position = -1.51, -0.70, -0.30
+position = 0.70, -1.51, -0.30
 hinge = -1.00 , 0.0, -0.0
-#hinge = -1.51, 2.0, -0.1
 
 [ suspension-RL ]
-position = -1.51, 0.70, -0.30
-hinge = -1.00 , -0.0, -0.0
-#hinge = -1.51, -2.0, -0.1
+position = -0.70, -1.51, -0.30
+hinge = 1.00 , -0.0, -0.0
 
 #---------- 
 
-[ contact-points ]
-# used to find the bounds of the car (for collisions)
-# also play into the weight distribution and balance
-mass = 0,5
-position-00 = -2.32, 0.98, -0.40
-position-01 = -2.32, 0.98, -0.40
-position-02 = 2.32, -0,98, -0.40 
-position-03 = 2.32, -0.98, -0.40
 
 # these are used to calculate the weight distribution and balance
 
 [ particle-00 ]	# Chassis Front
 mass = 130
-position = 1.5, 0.0, -0.15
+position = 0.0, 1.5, -0.15
 
 [ particle-01 ]	#	Cooler front
 mass = 100
-position = 1.5, -0.0, -0.25
+position = -0.0, 1.5, -0.25
 
 [ particle-02 ]	#	Chassis left
 mass = 160
-position = 0, 0.75, -0.10
+position = 0.75, 0, -0.10
 
 [ particle-03 ]	#	Chassis right
 mass = 160
-position = 0, -0.75, -0.10 
+position = -0.75, 0, -0.10 
 
 [ particle-04 ]	#	Motor Env. left
 mass = 60
-position = -1.10, 0.7, -0.0
+position = 0.7, -1.10, -0.0
 
 [ particle-05 ]		# Motor Env. right
 mass = 60
-position = -1.10, -0.7, -0.0
+position = -0.7, -1.10, -0.0
 
 [ particle-06 ]		# Interieur
 mass = 120
-position = 0.60, 0.00, -0.10
+position = 0.00, 0.60, -0.10
 
 [ particle-07 ]		# Chassis top
 mass = 80
-position = -0.30, 0.00, 0.30
+position = 0.00, -0.30, 0.30
 
 [ particle-08 ]		# Joker
 mass = 60
-position = 1.0, -0.00, -0.20
+position = -0.00, 1.0, -0.20
 
 [ particle-09 ]		# gearbox
 mass = 50.0
-position = -1.75, 0.00, -0.25
+position = 0.00, -1.75, -0.25
 
 [ particle-10 ]		# Chassis rear
 mass = 80.0
-position = -1.80, 0.00, -0.0
+position = 0.00, -1.80, -0.0
