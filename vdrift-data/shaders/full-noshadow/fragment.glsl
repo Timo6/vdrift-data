@@ -31,11 +31,11 @@ void main()
 	float gloss = tu1_2D_val.r;
 	float metallic = tu1_2D_val.g;
 	
-	float difdot = max(dot(normnormal,normlightposition),0.0);
+	float difdot = dot(normnormal,normlightposition);
 	
-	vec3 diffuse = texcolor*difdot*notshadowfinal;
+	vec3 diffuse = texcolor*max(difdot,0.0)*notshadowfinal;
 	
-	vec3 ambient = texcolor;
+	vec3 ambient = texcolor;//*(1.0+min(difdot,0.0));
 	
 	float specval = max(dot(reflect(normviewdir,normnormal),normlightposition),0.0);
 	//vec3 halfvec = normalize(normviewdir + normlightposition);

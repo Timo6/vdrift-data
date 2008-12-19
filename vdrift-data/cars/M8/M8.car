@@ -85,6 +85,7 @@ toe = 0.0
 anti-roll = 6000.0
 
 [ tire-front ]
+tread = 0
 radius = 0.29
 rolling-resistance = 1.3e-2, 6.5e-6
 rotational-inertia = 10.0
@@ -139,6 +140,7 @@ c16=0.27
 c17=-1.1
 
 [ tire-rear ]
+tread = 0
 radius = 0.2935
 rolling-resistance = 1.3e-2, 6.5e-6
 rotational-inertia = 10.0
