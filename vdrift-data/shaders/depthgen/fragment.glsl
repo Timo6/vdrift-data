@@ -17,6 +17,7 @@ void main()
 	vec4 tu0color = texture2D(tu0_2D, texcoord);
 	
 	//float depthoffset = mix(0.01,0.0001,eyespacenormal.z*eyespacenormal.z);
+	//float depthoffset = mix(0.005,0.001,eyespacenormal.z);
 	float depthoffset = mix(0.0025,0.0005,eyespacenormal.z);
 	//depthoffset = 0.0;
 	
