@@ -4,7 +4,9 @@ uniform sampler2D tu0_2D; //diffuse map
 uniform sampler2D tu1_2D; //misc map (includes gloss on R channel, ...
 //uniform sampler2DShadow tu4_2D; //close shadow map
 //uniform sampler2DShadow tu5_2D; //far shadow map
+#ifndef _REFLECTIONDISABLED_
 uniform samplerCube tu2_cube; //reflection map
+#endif
 uniform sampler2D tu6_2D; //additive map (for brake lights)
 
 uniform vec3 lightposition;
@@ -47,7 +49,11 @@ void main()
 	vec3 refmapdir = reflect(normviewdir,normnormal);
 	refmapdir = mat3(gl_TextureMatrix[2]) * refmapdir;
 	
+	#ifndef _REFLECTIONDISABLED_
 	vec3 specular_environment = textureCube(tu2_cube, refmapdir).rgb*metallic*env_factor;
+	#else
+	vec3 specular_environment = vec3(0,0,0);
+	#endif
 	float inv_environment = 1.0 - (env_factor*metallic);
 	
 	float invgloss = (1.0-gloss);
