@@ -7,10 +7,7 @@ Import('*')
 # Sources #
 #---------#
 src = Split("""abs.png
-               accdec-marker.png
-               accdec-slider.png
                ball.png
-               ball2.png
                cardot0.png
                cardot1.png
                cardot0_focused.png
@@ -19,7 +16,6 @@ src = Split("""abs.png
                needle.png
                redband.png
                slider.png
-               slider2.png
                speedo.png
                tachband.png
                tachometer.png
