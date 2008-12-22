@@ -30,13 +30,16 @@ void main()
 	float bound = 1.0;
 	float fade = 10000.0;
 	
-	bool effect0 = (shadowcoords0.x < 0.0 || shadowcoords0.x > 1.0) ||
+	/*bool effect0 = (shadowcoords0.x < 0.0 || shadowcoords0.x > 1.0) ||
 		(shadowcoords0.y < 0.0 || shadowcoords0.y > 1.0) ||
 		(shadowcoords0.z < 0.0 || shadowcoords0.z > 1.0);
 	
 	bool effect1 = (shadowcoords1.x < 0.0 || shadowcoords1.x > 1.0) ||
 		(shadowcoords1.y < 0.0 || shadowcoords1.y > 1.0) ||
-		(shadowcoords1.z < 0.0 || shadowcoords1.z > 1.0);
+		(shadowcoords1.z < 0.0 || shadowcoords1.z > 1.0);*/
+		
+	bool effect0 = viewdir.z < -5;
+	bool effect1 = viewdir.z < -30;
 	
 	float notshadowfinal = 1.0;
 	if (!effect0)
