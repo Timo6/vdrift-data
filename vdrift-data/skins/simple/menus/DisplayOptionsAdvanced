@@ -170,6 +170,34 @@ selected = 0
 default = 0
 cancel = 0
 
+[ widget-11.5 ]
+type = intwheel
+name = ShadowDistanceWheel
+setting = display.shadow_distance
+values = options
+center = 0.5, 0.69
+width = auto
+height = auto
+fontsize = 6
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-11.75 ]
+type = intwheel
+name = ShadowQualityWheel
+setting = display.shadow_quality
+values = options
+center = 0.5, 0.73
+width = auto
+height = auto
+fontsize = 6
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
 [ widget-12 ]
 type = button
 name = DisplayOptionsAdvancedOKButton

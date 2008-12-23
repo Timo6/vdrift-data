@@ -4,7 +4,12 @@ uniform sampler2D tu0_2D; //diffuse map
 uniform sampler2D tu1_2D; //misc map (includes gloss on R channel, ...
 #ifdef _SHADOWS_
 uniform sampler2DShadow tu4_2D; //close shadow map
+#ifdef _CSM2_
 uniform sampler2DShadow tu5_2D; //far shadow map
+#endif
+#ifdef _CSM3_
+uniform sampler2DShadow tu6_2D; //far far shadow map
+#endif
 #endif
 #ifndef _REFLECTIONDISABLED_
 uniform samplerCube tu2_cube; //reflection map
@@ -18,61 +23,97 @@ varying vec3 normal_eye;
 varying vec3 viewdir;
 #ifdef _SHADOWS_
 varying vec4 projshadow_0;
+#ifdef _CSM2_
 varying vec4 projshadow_1;
 #endif
+#ifdef _CSM3_
+varying vec4 projshadow_2;
+#endif
+#endif
+
+float shadow_lookup(sampler2DShadow tu, vec3 coords)
+{
+	#ifdef _PCF3X3_
+	//3x3 PCF
+	float notshadowfinal = 0.0;
+	float radius = 0.0007324219;
+	for (int v=-1; v<=1; v++)
+		for (int u=-1; u<=1; u++)
+		{
+			notshadowfinal += shadow2D(tu,
+				coords + radius*vec3(u, v, 0.0)).r;
+		}
+	notshadowfinal *= 0.1111;
+	#else
+	#ifdef _PCF2X2_
+	//2x2 PCF
+	float notshadowfinal = 0.0;
+	float radius = 0.0003662109;
+	for (int v=-1; v<=1; v+=2)
+		for (int u=-1; u<=1; u+=2)
+		{
+			notshadowfinal += shadow2D(tu,
+				coords + radius*vec3(u, v, 0.0)).r;
+		}
+	notshadowfinal *= 0.25;
+	#else
+	//no PCF
+	float notshadowfinal = shadow2D(tu, coords).r;
+	#endif
+	#endif
+	
+	return notshadowfinal;
+}
 
 void main()
 {
 	#ifdef _SHADOWS_
 	vec3 shadowcoords0 = projshadow_0.xyz;
+	#ifdef _CSM2_
 	vec3 shadowcoords1 = projshadow_1.xyz;
+	#endif
+	#ifdef _CSM3_
+	vec3 shadowcoords2 = projshadow_2.xyz;
+	#endif
 	
 	float bound = 1.0;
 	float fade = 10000.0;
 	
-	/*bool effect0 = (shadowcoords0.x < 0.0 || shadowcoords0.x > 1.0) ||
+	bool effect0 = (shadowcoords0.x < 0.0 || shadowcoords0.x > 1.0) ||
 		(shadowcoords0.y < 0.0 || shadowcoords0.y > 1.0) ||
 		(shadowcoords0.z < 0.0 || shadowcoords0.z > 1.0);
 	
+	#ifdef _CSM2_
 	bool effect1 = (shadowcoords1.x < 0.0 || shadowcoords1.x > 1.0) ||
 		(shadowcoords1.y < 0.0 || shadowcoords1.y > 1.0) ||
-		(shadowcoords1.z < 0.0 || shadowcoords1.z > 1.0);*/
-		
-	bool effect0 = viewdir.z < -5;
-	bool effect1 = viewdir.z < -30;
+		(shadowcoords1.z < 0.0 || shadowcoords1.z > 1.0);
+	#endif
+	#ifdef _CSM3_
+	bool effect2 = (shadowcoords2.x < 0.0 || shadowcoords2.x > 1.0) ||
+		(shadowcoords2.y < 0.0 || shadowcoords2.y > 1.0) ||
+		(shadowcoords2.z < 0.0 || shadowcoords2.z > 1.0);
+	#endif
+	
+	//bool effect0 = viewdir.z < -10;
+	//bool effect1 = viewdir.z < -60;
 	
 	float notshadowfinal = 1.0;
 	if (!effect0)
 	{
-		//no PCF
-		notshadowfinal = shadow2D(tu4_2D, shadowcoords0).r;
-		
-		//2x2 PCF
-		/*notshadowfinal = 0.0;
-		float radius = 0.000977;
-		for (int v=-1; v<=1; v+=2)
-			for (int u=-1; u<=1; u+=2)
-			{
-				notshadowfinal += shadow2D(tu4_2D,
-					shadowcoords[0] + radius*vec3(u, v, 0.0)).r;
-			}
-		notshadowfinal *= 0.25;*/
-		
-		//3x3 PCF
-		/*notshadowfinal = 0.0;
-		float radius = 0.000977;
-		for (int v=-1; v<=1; v++)
-			for (int u=-1; u<=1; u++)
-			{
-				notshadowfinal += shadow2D(tu4_2D,
-					shadowcoords[0] + radius*vec3(u, v, 0.0)).r;
-			}
-		notshadowfinal *= 0.1111;*/
+		notshadowfinal = shadow_lookup(tu4_2D, shadowcoords0);
 	}
+	#ifdef _CSM2_
 	else if (!effect1)
 	{
 		notshadowfinal = shadow2D(tu5_2D, shadowcoords1).r;
 	}
+	#endif
+	#ifdef _CSM3_
+	else if (!effect2)
+	{
+		notshadowfinal = shadow2D(tu6_2D, shadowcoords2).r;
+	}
+	#endif
 	#else
 	float notshadowfinal = 1.0;
 	#endif
