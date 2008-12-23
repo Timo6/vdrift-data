@@ -1,5 +1,3 @@
-#version 120
-
 uniform sampler2D tu0_2D; //diffuse map
 uniform sampler2D tu1_2D; //misc map (includes gloss on R channel, ...
 #ifdef _SHADOWS_
@@ -40,8 +38,8 @@ float shadow_lookup(sampler2DShadow tu, vec3 coords)
 	for (int v=-1; v<=1; v++)
 		for (int u=-1; u<=1; u++)
 		{
-			notshadowfinal += shadow2D(tu,
-				coords + radius*vec3(u, v, 0.0)).r;
+			notshadowfinal += float(shadow2D(tu,
+				coords + radius*vec3(u, v, 0.0)).r);
 		}
 	notshadowfinal *= 0.1111;
 	#else
@@ -52,13 +50,13 @@ float shadow_lookup(sampler2DShadow tu, vec3 coords)
 	for (int v=-1; v<=1; v+=2)
 		for (int u=-1; u<=1; u+=2)
 		{
-			notshadowfinal += shadow2D(tu,
-				coords + radius*vec3(u, v, 0.0)).r;
+			notshadowfinal += float(shadow2D(tu,
+				coords + radius*vec3(u, v, 0.0)).r);
 		}
 	notshadowfinal *= 0.25;
 	#else
 	//no PCF
-	float notshadowfinal = shadow2D(tu, coords).r;
+	float notshadowfinal = float(shadow2D(tu, coords).r);
 	#endif
 	#endif
 	
