@@ -5173,7 +5173,7 @@ jumboc.bmp.png
 #entry 323
 ligri01.dof-00.joe
 ligrig.bmp.png
-1
+0
 0
 0
 0
@@ -5189,7 +5189,7 @@ ligrig.bmp.png
 #entry 324
 ligri02.dof-00.joe
 ligrig.bmp.png
-1
+0
 0
 0
 0
@@ -5205,10 +5205,10 @@ ligrig.bmp.png
 #entry 325
 line01.dof-00.joe
 lineb.bmp.png
+0
+0
+0
 1
-0
-0
-0
 2.0
 0
 0
@@ -5221,10 +5221,10 @@ lineb.bmp.png
 #entry 326
 line02.dof-00.joe
 lineb.bmp.png
+0
+0
+0
 1
-0
-0
-0
 2.0
 0
 0
@@ -5237,10 +5237,10 @@ lineb.bmp.png
 #entry 327
 line04.dof-00.joe
 linea.bmp.png
+0
+0
+0
 1
-0
-0
-0
 2.0
 0
 0
@@ -5253,10 +5253,10 @@ linea.bmp.png
 #entry 328
 line05.dof-00.joe
 linea.bmp.png
+0
+0
+0
 1
-0
-0
-0
 2.0
 0
 0
@@ -5269,10 +5269,10 @@ linea.bmp.png
 #entry 329
 line07.dof-00.joe
 linea.bmp.png
+0
+0
+0
 1
-0
-0
-0
 2.0
 0
 0
@@ -5285,10 +5285,10 @@ linea.bmp.png
 #entry 330
 line08.dof-00.joe
 linea.bmp.png
+0
+0
+0
 1
-0
-0
-0
 2.0
 0
 0
@@ -5301,10 +5301,10 @@ linea.bmp.png
 #entry 331
 line10.dof-00.joe
 linea.bmp.png
+0
+0
+0
 1
-0
-0
-0
 2.0
 0
 0
@@ -5317,10 +5317,10 @@ linea.bmp.png
 #entry 332
 line13.dof-00.joe
 linea.bmp.png
+0
+0
+0
 1
-0
-0
-0
 2.0
 0
 0
@@ -5333,10 +5333,10 @@ linea.bmp.png
 #entry 333
 line14.dof-00.joe
 linea.bmp.png
+0
+0
+0
 1
-0
-0
-0
 2.0
 0
 0
@@ -5349,10 +5349,10 @@ linea.bmp.png
 #entry 334
 line15.dof-00.joe
 linea.bmp.png
+0
+0
+0
 1
-0
-0
-0
 2.0
 0
 0
@@ -5365,10 +5365,10 @@ linea.bmp.png
 #entry 335
 line16.dof-00.joe
 linea.bmp.png
+0
+0
+0
 1
-0
-0
-0
 2.0
 0
 0
@@ -5381,10 +5381,10 @@ linea.bmp.png
 #entry 336
 line17.dof-00.joe
 linea.bmp.png
+0
+0
+0
 1
-0
-0
-0
 2.0
 0
 0
@@ -5397,10 +5397,10 @@ linea.bmp.png
 #entry 337
 line18.dof-00.joe
 linea.bmp.png
+0
+0
+0
 1
-0
-0
-0
 2.0
 0
 0
@@ -12837,10 +12837,10 @@ bka.bmp.png
 #entry 802
 stline01.dof-00.joe
 linef.bmp.png
+0
+0
+0
 1
-0
-0
-0
 2.0
 0
 0
@@ -12853,10 +12853,10 @@ linef.bmp.png
 #entry 803
 stline01.dof-01.joe
 lined.bmp.png
+0
+0
+0
 1
-0
-0
-0
 2.0
 0
 0
