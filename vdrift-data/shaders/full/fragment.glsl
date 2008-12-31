@@ -1,7 +1,11 @@
 uniform sampler2D tu0_2D; //diffuse map
 uniform sampler2D tu1_2D; //misc map (includes gloss on R channel, metallic on G channel, ...
 #ifdef _SHADOWS_
+#ifdef _SHADOWSULTRA_
+uniform sampler2D tu4_2D; //close shadow map
+#else
 uniform sampler2DShadow tu4_2D; //close shadow map
+#endif
 #ifdef _CSM2_
 uniform sampler2DShadow tu5_2D; //far shadow map
 #endif
@@ -29,10 +33,35 @@ varying vec4 projshadow_2;
 #endif
 #endif
 
+#ifdef _SHADOWSULTRA_
+#define    BLOCKER_SEARCH_NUM_SAMPLES 16
+#define    PCF_NUM_SAMPLES 16
+#define    NEAR_PLANE 9.5
+#define    LIGHT_WORLD_SIZE .5
+#define    LIGHT_FRUSTUM_WIDTH 3.75
+// Assuming that LIGHT_FRUSTUM_WIDTH == LIGHT_FRUSTUM_HEIGHT
+#define LIGHT_SIZE_UV (LIGHT_WORLD_SIZE / LIGHT_FRUSTUM_WIDTH)
+
+float PCF_Filter( in vec2 poissonDisk[16], in sampler2D tu, in vec2 uv, in float zReceiver, in float filterRadiusUV )
+{
+	/*float sum = 0.0f;
+	for ( int i = 0; i < PCF_NUM_SAMPLES; ++i )
+	{
+		vec2 offset = poissonDisk[i] * filterRadiusUV;
+		sum += texture2D(tu, uv + offset).r > zReceiver ? 1.0 : 0.0;
+	}
+	return sum / PCF_NUM_SAMPLES;*/
+	vec2 offset = vec2(1.0/2048.0,1.0/2048.0);
+	return texture2D(tu, uv + offset).r >= zReceiver ? 1.0 : 0.0;
+}
+
+float shadow_lookup(sampler2D tu, vec3 coords)
+#else
 float shadow_lookup(sampler2DShadow tu, vec3 coords)
+#endif
 {
 	#ifdef _SHADOWSULTRA_
-	//3x3 PCF
+	/*//3x3 PCF
 	float notshadowfinal = 0.0;
 	float radius = 0.0007324219;
 	for (int v=-1; v<=1; v++)
@@ -41,7 +70,28 @@ float shadow_lookup(sampler2DShadow tu, vec3 coords)
 			notshadowfinal += float(shadow2D(tu,
 				coords + radius*vec3(u, v, 0.0)).r);
 		}
-	notshadowfinal *= 0.1111;
+	notshadowfinal *= 0.1111;*/
+	/*float notshadowfinal = 0.0;
+	if (texture2D(tu, coords.xy).r > coords.z)
+		notshadowfinal = 1.0;*/
+	vec2 poissonDisk[16];
+	poissonDisk[0] = vec2( -0.94201624, -0.39906216 );
+	poissonDisk[1] = vec2( 0.94558609, -0.76890725 );
+	poissonDisk[2] = vec2( -0.094184101, -0.92938870 );
+	poissonDisk[3] = vec2( 0.34495938, 0.29387760 );
+	poissonDisk[4] = vec2( -0.91588581, 0.45771432 );
+	poissonDisk[5] = vec2( -0.81544232, -0.87912464 );
+	poissonDisk[6] = vec2( -0.38277543, 0.27676845 );
+	poissonDisk[7] = vec2( 0.97484398, 0.75648379 );
+	poissonDisk[8] = vec2( 0.44323325, -0.97511554 );
+	poissonDisk[9] = vec2( 0.53742981, -0.47373420 );
+	poissonDisk[10] = vec2( -0.26496911, -0.41893023 );
+	poissonDisk[11] = vec2( 0.79197514, 0.19090188 );
+	poissonDisk[12] = vec2( -0.24188840, 0.99706507 );
+	poissonDisk[13] = vec2( -0.81409955, 0.91437590 );
+	poissonDisk[14] = vec2( 0.19984126, 0.78641367 );
+	poissonDisk[15] = vec2( 0.14383161, -0.14100790 );
+	float notshadowfinal = PCF_Filter(poissonDisk, tu, coords.xy, coords.z, 3.0/2048.0);
 	#else
 	#ifdef _SHADOWSVHIGH_
 	/*//2x2 PCF
@@ -86,14 +136,14 @@ float shadow_lookup(sampler2DShadow tu, vec3 coords)
 		notshadowfinal += float(shadow2D(tu,coords + vec3(radius*poissonDisk[i],0.0)).r);*/
 	float notshadowfinal = 0.0;
 	vec3 poissonDisk[16];
-	poissonDisk[0] = vec3( -0.94201624, -0.39906216, 0.0 );
+	poissonDisk[0] = vec3( -0.81544232, -0.87912464, 0.0 );
 	poissonDisk[1] = vec3( 0.94558609, -0.76890725, 0.0 );
-	poissonDisk[2] = vec3( -0.094184101, -0.92938870, 0.0 );
-	poissonDisk[3] = vec3( 0.34495938, 0.29387760, 0.0 );
-	poissonDisk[4] = vec3( -0.91588581, 0.45771432, 0.0 );
-	poissonDisk[5] = vec3( -0.81544232, -0.87912464, 0.0 );
-	poissonDisk[6] = vec3( -0.38277543, 0.27676845, 0.0 );
-	poissonDisk[7] = vec3( 0.97484398, 0.75648379, 0.0 );
+	poissonDisk[2] = vec3( -0.91588581, 0.45771432, 0.0 );
+	poissonDisk[3] = vec3( 0.97484398, 0.75648379, 0.0 );
+	poissonDisk[4] = vec3( -0.94201624, -0.39906216, 0.0 );
+	poissonDisk[5] = vec3( -0.094184101, -0.92938870, 0.0 );
+	poissonDisk[6] = vec3( 0.34495938, 0.29387760, 0.0 );
+	poissonDisk[7] = vec3( -0.38277543, 0.27676845, 0.0 );
 	poissonDisk[8] = vec3( 0.44323325, -0.97511554, 0.0 );
 	poissonDisk[9] = vec3( 0.53742981, -0.47373420, 0.0 );
 	poissonDisk[10] = vec3( -0.26496911, -0.41893023, 0.0 );
@@ -106,6 +156,16 @@ float shadow_lookup(sampler2DShadow tu, vec3 coords)
 	for (int i = 0; i < 16; i++)
 		notshadowfinal += float(shadow2D(tu,coords + radius*poissonDisk[i]).r);
 	notshadowfinal *= 1.0/16.0;
+	/*for (int i = 0; i < 4; i++)
+		notshadowfinal += float(shadow2D(tu,coords + radius*poissonDisk[i]).r);
+	if (notshadowfinal == 0.0 || notshadowfinal == 4.0) //early out if all values are similar (commented out because it actually decreases performance)
+		notshadowfinal *= 0.25;
+	else
+	{
+		for (int i = 4; i < 16; i++)
+			notshadowfinal += float(shadow2D(tu,coords + radius*poissonDisk[i]).r);
+		notshadowfinal *= 1.0/16.0;
+	}*/
 	#else
 	//no PCF
 	float notshadowfinal = float(shadow2D(tu, coords).r);
