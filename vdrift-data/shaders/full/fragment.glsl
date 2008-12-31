@@ -1,5 +1,5 @@
 uniform sampler2D tu0_2D; //diffuse map
-uniform sampler2D tu1_2D; //misc map (includes gloss on R channel, ...
+uniform sampler2D tu1_2D; //misc map (includes gloss on R channel, metallic on G channel, ...
 #ifdef _SHADOWS_
 uniform sampler2DShadow tu4_2D; //close shadow map
 #ifdef _CSM2_
