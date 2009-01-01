@@ -1,8 +1,6 @@
 //varying float lightdotnorm;
 //uniform float depthoffset;
-uniform sampler2D tu0_2D;
-varying vec2 texcoord;
-varying vec3 eyespacenormal;
+//uniform sampler2D tu0_2D;
 
 vec4 packFloatToVec4i(const float value)
 {
@@ -53,7 +51,8 @@ void main()
 {
 	//float depthoffset = mix(0.01,0.0001,eyespacenormal.z*eyespacenormal.z);
 	//float depthoffset = mix(0.005,0.001,eyespacenormal.z);
-	float depthoffset = mix(0.0025,0.0005,eyespacenormal.z);
+	//float depthoffset = mix(0.0025,0.0005,eyespacenormal.z);
+	float depthoffset = 0.0025;
 	
 #ifdef _SHADOWSULTRA_
 	//gl_FragColor = packFloatToVec4i(gl_FragCoord.z+depthoffset);
@@ -65,8 +64,8 @@ void main()
 	//gl_FragColor = vec4(packFloatToVec2i(gl_FragCoord.z),0.0,1.0);
 #else
 	gl_FragDepth = gl_FragCoord.z+depthoffset;
-	vec4 tu0color = texture2D(tu0_2D, texcoord);
-	gl_FragColor = tu0color;
+	//vec4 tu0color = texture2D(tu0_2D, texcoord);
+	//gl_FragColor = tu0color;
 #endif
 	
 	//gl_FragDepth = gl_FragCoord.z + mix(0.007,0.0009,lightdotnorm);

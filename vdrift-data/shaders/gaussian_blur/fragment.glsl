@@ -32,8 +32,8 @@ void main()
 	for (int i = 0; i < 5; i++)
 		final += weights[i] * texture2D(tu0_2D, tc + direction*float(i-4)*pixelsize ).rgb; //pixels -4 to 0
 	
-	for (int i = 0; i < 4; i++)
-		final += weights[3-i] * texture2D(tu0_2D, tc + direction*float(i+1)*pixelsize ).rgb; //pixels +1 to +4
+	for (int i = 3; i >= 0; i--)
+		final += weights[i] * texture2D(tu0_2D, tc + direction*float(3-i+1)*pixelsize ).rgb; //pixels +1 to +4
 	
 	gl_FragColor = vec4(final,1.0);
 	
