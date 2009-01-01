@@ -1,5 +1,6 @@
 uniform sampler2D tu0_2D; //diffuse map
 uniform sampler2D tu1_2D; //misc map (includes gloss on R channel, metallic on G channel, ...
+
 #ifdef _SHADOWS_
 #ifdef _SHADOWSULTRA_
 uniform sampler2D tu4_2D; //close shadow map
@@ -13,10 +14,16 @@ uniform sampler2DShadow tu5_2D; //far shadow map
 uniform sampler2DShadow tu6_2D; //far far shadow map
 #endif
 #endif
+
 #ifndef _REFLECTIONDISABLED_
 uniform samplerCube tu2_cube; //reflection map
 #endif
+
 uniform sampler2D tu3_2D; //additive map (for brake lights)
+
+#ifdef _EDGECONTRASTENHANCEMENT_
+uniform sampler2DShadow tu7_2D; //edge contrast enhancement depth map
+#endif
 
 uniform vec3 lightposition;
 
@@ -31,6 +38,10 @@ varying vec4 projshadow_1;
 #ifdef _CSM3_
 varying vec4 projshadow_2;
 #endif
+#endif
+
+#if ( defined (_SHADOWS_) && ( defined (_SHADOWSULTRA_) || defined (_SHADOWSVHIGH_) ) ) || defined (_EDGECONTRASTENHANCEMENT_)
+vec2 poissonDisk[16];
 #endif
 
 #ifdef _SHADOWSULTRA_
@@ -140,116 +151,14 @@ float shadow_lookup(sampler2DShadow tu, vec3 coords)
 #endif
 {
 	#ifdef _SHADOWSULTRA_
-	/*//3x3 PCF
-	float notshadowfinal = 0.0;
-	float radius = 0.0007324219;
-	for (int v=-1; v<=1; v++)
-		for (int u=-1; u<=1; u++)
-		{
-			notshadowfinal += float(shadow2D(tu,
-				coords + radius*vec3(u, v, 0.0)).r);
-		}
-	notshadowfinal *= 0.1111;*/
-	/*float notshadowfinal = 0.0;
-	if (texture2D(tu, coords.xy).r > coords.z)
-		notshadowfinal = 1.0;*/
-	vec2 poissonDisk[16];
-	poissonDisk[0] = vec2( -0.94201624, -0.39906216 );
-	poissonDisk[1] = vec2( 0.94558609, -0.76890725 );
-	poissonDisk[2] = vec2( -0.094184101, -0.92938870 );
-	poissonDisk[3] = vec2( 0.34495938, 0.29387760 );
-	poissonDisk[4] = vec2( -0.91588581, 0.45771432 );
-	poissonDisk[5] = vec2( -0.81544232, -0.87912464 );
-	poissonDisk[6] = vec2( -0.38277543, 0.27676845 );
-	poissonDisk[7] = vec2( 0.97484398, 0.75648379 );
-	poissonDisk[8] = vec2( 0.44323325, -0.97511554 );
-	poissonDisk[9] = vec2( 0.53742981, -0.47373420 );
-	poissonDisk[10] = vec2( -0.26496911, -0.41893023 );
-	poissonDisk[11] = vec2( 0.79197514, 0.19090188 );
-	poissonDisk[12] = vec2( -0.24188840, 0.99706507 );
-	poissonDisk[13] = vec2( -0.81409955, 0.91437590 );
-	poissonDisk[14] = vec2( 0.19984126, 0.78641367 );
-	poissonDisk[15] = vec2( 0.14383161, -0.14100790 );
-	//float notshadowfinal = unpackFloatFromVec3i(texture2D(tu, coords.xy).rgb) > coords.z ? 1.0 : 0.0;
-	//float notshadowfinal = shadow_comparison(tu, coords.xy, coords.z);
-	//float notshadowfinal = clamp((unpackFloatFromVec2i(texture2D(tu, coords.xy).rg) - coords.z)*100.0,-0.5,0.5)+0.5;
-	//float notshadowfinal = texture2D(tu, coords.xy).b > coords.z ? 1.0 : 0.0;
-	//float notshadowfinal = PCF_Filter(poissonDisk, tu, coords.xy, coords.z, 3.0/2048.0);
 	float notshadowfinal = PCSS(poissonDisk, tu, coords);
 	#else
 	#ifdef _SHADOWSVHIGH_
-	/*//2x2 PCF
 	float notshadowfinal = 0.0;
-	float radius = 0.0003662109;
-	for (int v=-1; v<=1; v+=2)
-		for (int u=-1; u<=1; u+=2)
-		{
-			notshadowfinal += float(shadow2D(tu,
-				coords + radius*vec3(u, v, 0.0)).r);
-		}
-	notshadowfinal *= 0.25;*/
-	/*float notshadowfinal = 0.0;
-	float onepixel = 1.0/2048.0;
-	notshadowfinal += float(shadow2D(tu,
-				coords + vec3(-onepixel*0.5, -onepixel*0.5, 0.0)).r)*0.444444;
-	notshadowfinal += float(shadow2D(tu,
-				coords + vec3(onepixel, -onepixel*0.5, 0.0)).r)*0.222222;
-	notshadowfinal += float(shadow2D(tu,
-				coords + vec3(-onepixel*0.5, onepixel, 0.0)).r)*0.222222;
-	notshadowfinal += float(shadow2D(tu,
-				coords + vec3(onepixel, onepixel, 0.0)).r)*0.111111;*/
-	/*vec2 poissonDisk[16];
-	poissonDisk[0] = vec2( -0.94201624, -0.39906216 );
-	poissonDisk[1] = vec2( 0.94558609, -0.76890725 );
-	poissonDisk[2] = vec2( -0.094184101, -0.92938870 );
-	poissonDisk[3] = vec2( 0.34495938, 0.29387760 );
-	poissonDisk[4] = vec2( -0.91588581, 0.45771432 );
-	poissonDisk[5] = vec2( -0.81544232, -0.87912464 );
-	poissonDisk[6] = vec2( -0.38277543, 0.27676845 );
-	poissonDisk[7] = vec2( 0.97484398, 0.75648379 );
-	poissonDisk[8] = vec2( 0.44323325, -0.97511554 );
-	poissonDisk[9] = vec2( 0.53742981, -0.47373420 );
-	poissonDisk[10] = vec2( -0.26496911, -0.41893023 );
-	poissonDisk[11] = vec2( 0.79197514, 0.19090188 );
-	poissonDisk[12] = vec2( -0.24188840, 0.99706507 );
-	poissonDisk[13] = vec2( -0.81409955, 0.91437590 );
-	poissonDisk[14] = vec2( 0.19984126, 0.78641367 );
-	poissonDisk[15] = vec2( 0.14383161, -0.14100790 );
 	float radius = 3.0/2048.0;
 	for (int i = 0; i < 16; i++)
-		notshadowfinal += float(shadow2D(tu,coords + vec3(radius*poissonDisk[i],0.0)).r);*/
-	float notshadowfinal = 0.0;
-	vec3 poissonDisk[16];
-	poissonDisk[0] = vec3( -0.81544232, -0.87912464, 0.0 );
-	poissonDisk[1] = vec3( 0.94558609, -0.76890725, 0.0 );
-	poissonDisk[2] = vec3( -0.91588581, 0.45771432, 0.0 );
-	poissonDisk[3] = vec3( 0.97484398, 0.75648379, 0.0 );
-	poissonDisk[4] = vec3( -0.94201624, -0.39906216, 0.0 );
-	poissonDisk[5] = vec3( -0.094184101, -0.92938870, 0.0 );
-	poissonDisk[6] = vec3( 0.34495938, 0.29387760, 0.0 );
-	poissonDisk[7] = vec3( -0.38277543, 0.27676845, 0.0 );
-	poissonDisk[8] = vec3( 0.44323325, -0.97511554, 0.0 );
-	poissonDisk[9] = vec3( 0.53742981, -0.47373420, 0.0 );
-	poissonDisk[10] = vec3( -0.26496911, -0.41893023, 0.0 );
-	poissonDisk[11] = vec3( 0.79197514, 0.19090188, 0.0 );
-	poissonDisk[12] = vec3( -0.24188840, 0.99706507, 0.0 );
-	poissonDisk[13] = vec3( -0.81409955, 0.91437590, 0.0 );
-	poissonDisk[14] = vec3( 0.19984126, 0.78641367, 0.0 );
-	poissonDisk[15] = vec3( 0.14383161, -0.14100790, 0.0 );
-	float radius = 3.0/2048.0;
-	for (int i = 0; i < 16; i++)
-		notshadowfinal += float(shadow2D(tu,coords + radius*poissonDisk[i]).r);
+		notshadowfinal += float(shadow2D(tu,coords + radius*vec3(poissonDisk[i],0.0)).r);
 	notshadowfinal *= 1.0/16.0;
-	/*for (int i = 0; i < 4; i++)
-		notshadowfinal += float(shadow2D(tu,coords + radius*poissonDisk[i]).r);
-	if (notshadowfinal == 0.0 || notshadowfinal == 4.0) //early out if all values are similar (commented out because it actually decreases performance)
-		notshadowfinal *= 0.25;
-	else
-	{
-		for (int i = 4; i < 16; i++)
-			notshadowfinal += float(shadow2D(tu,coords + radius*poissonDisk[i]).r);
-		notshadowfinal *= 1.0/16.0;
-	}*/
 	#else
 	//no PCF
 	float notshadowfinal = float(shadow2D(tu, coords).r);
@@ -259,8 +168,39 @@ float shadow_lookup(sampler2DShadow tu, vec3 coords)
 	return notshadowfinal;
 }
 
+#ifdef _EDGECONTRASTENHANCEMENT_
+float GetEdgeContrastEnhancementFactor(in sampler2DShadow tu, in vec3 coords)
+{
+	float factor = 0.0;
+	float radius = 3.0/1024.0;
+	for (int i = 0; i < 8; i++)
+		factor += float(shadow2D(tu,coords + radius*vec3(poissonDisk[i],0.0)).r);
+	factor *= 1.0/8.0;
+	return factor;
+}
+#endif
+
 void main()
 {
+	#if ( defined (_SHADOWS_) && ( defined (_SHADOWSULTRA_) || defined (_SHADOWSVHIGH_) ) ) || defined (_EDGECONTRASTENHANCEMENT_)
+	poissonDisk[0] = vec2( -0.94201624, -0.39906216 );
+	poissonDisk[1] = vec2( 0.94558609, -0.76890725 );
+	poissonDisk[2] = vec2( -0.094184101, -0.92938870 );
+	poissonDisk[3] = vec2( 0.34495938, 0.29387760 );
+	poissonDisk[4] = vec2( -0.91588581, 0.45771432 );
+	poissonDisk[5] = vec2( -0.81544232, -0.87912464 );
+	poissonDisk[6] = vec2( -0.38277543, 0.27676845 );
+	poissonDisk[7] = vec2( 0.97484398, 0.75648379 );
+	poissonDisk[8] = vec2( 0.44323325, -0.97511554 );
+	poissonDisk[9] = vec2( 0.53742981, -0.47373420 );
+	poissonDisk[10] = vec2( -0.26496911, -0.41893023 );
+	poissonDisk[11] = vec2( 0.79197514, 0.19090188 );
+	poissonDisk[12] = vec2( -0.24188840, 0.99706507 );
+	poissonDisk[13] = vec2( -0.81409955, 0.91437590 );
+	poissonDisk[14] = vec2( 0.19984126, 0.78641367 );
+	poissonDisk[15] = vec2( 0.14383161, -0.14100790 );
+	#endif
+	
 	#ifdef _SHADOWS_
 	vec3 shadowcoords0 = projshadow_0.xyz;
 	#ifdef _CSM2_
@@ -354,6 +294,12 @@ void main()
 	//do post-processing
 	finalcolor = clamp(finalcolor,0.0,1.0);
 	finalcolor = ((finalcolor-0.5)*1.2)+0.5;
+	
+#ifdef _EDGECONTRASTENHANCEMENT_
+	vec3 shadowcoords = vec3(gl_FragCoord.x/SCREENRESX, gl_FragCoord.y/SCREENRESY, gl_FragCoord.z-0.001);
+	float edgefactor = GetEdgeContrastEnhancementFactor(tu7_2D, shadowcoords);
+	finalcolor *= edgefactor*0.5+0.5;
+#endif
 	
 	gl_FragColor.rgb = finalcolor;
 	/*float r = 0;
