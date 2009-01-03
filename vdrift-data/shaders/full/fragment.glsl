@@ -283,17 +283,17 @@ void main()
 	#ifndef _REFLECTIONDISABLED_
 	vec3 refmapdir = reflect(normviewdir,normnormal);
 	refmapdir = mat3(gl_TextureMatrix[2]) * refmapdir;
-	vec3 specular_environment = textureCube(tu2_cube, refmapdir).rgb*metallic;//*env_factor;
+	vec3 specular_environment = mix(vec3(gloss),textureCube(tu2_cube, refmapdir).rgb,metallic);
 	#else
 	vec3 specular_environment = vec3(0,0,0);
 	#endif
-	float inv_environment = 1.0 - (env_factor*metallic);
 	
-	float invgloss = (1.0-gloss);
+	//float inv_environment = 1.0 - (env_factor*metallic);
+	//float invgloss = (1.0-gloss);
 	
 	vec3 ambient = texcolor;//*(1.0+min(difdot,0.0));
 	vec3 ambientfinal = ambient*0.5;//mix(ambient*0.5,ambient*0.2,metallic);
-	vec3 specularfinal = specular_environment*(env_factor+spec*notshadowfinal);
+	vec3 specularfinal = specular_environment*(env_factor*(metallic*0.5+0.5)+spec*notshadowfinal);
 	vec3 additivefinal = tu3_2D_val.rgb;
 	
 	//vec3 finalcolor = (ambient*0.5 + diffuse*0.8*max(0.7,invgloss))*(inv_environment*0.5+0.5) + vec3(spec)*notshadowfinal + specular_environment*max(0.5,notshadowfinal) + tu3_2D_val.rgb;
