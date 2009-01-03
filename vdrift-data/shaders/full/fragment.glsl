@@ -275,6 +275,8 @@ void main()
 	//float env_factor = min(pow(1.0-max(0.0,dot(-normviewdir,normnormal)),3.0),0.6)*0.75+0.2;
 	const float rf0 = 0.1;
 	float env_factor = rf0+(1.0-rf0)*pow(1.0-dot(-normviewdir,normnormal),2.0); //Schlick approximation of fresnel reflectance with modified power; see Real Time Rendering third edition p. 233
+	env_factor *= 0.8; //don't let it get TOO shiny
+	env_factor = min(env_factor, 0.8);
 	
 	//float spec = ((max((pow(specval,512.0)-0.5)*2.0,0.0))*metallic+pow(specval,12.0)*(0.4+(1.0-metallic)*0.8))*gloss;
 	float spec = ((max((pow(specval,512.0)-0.5)*2.0,0.0))*metallic+pow(specval,4.0)*(0.4+(1.0-metallic)*0.8))*gloss;
