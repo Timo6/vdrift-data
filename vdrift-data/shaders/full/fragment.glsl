@@ -300,7 +300,7 @@ void main()
 	
 	//vec3 finalcolor = (ambient*0.5 + diffuse*0.8*max(0.7,invgloss))*(inv_environment*0.5+0.5) + vec3(spec)*notshadowfinal + specular_environment*max(0.5,notshadowfinal) + tu3_2D_val.rgb;
 	//vec3 finalcolor = (ambient*0.5 + diffuse*0.8*max(0.7,invgloss))*(1.0-metallic*env_factor) + vec3(spec)*notshadowfinal + specular_environment*max(0.5,notshadowfinal)*env_factor*1.2 + tu3_2D_val.rgb;
-	vec3 finalcolor = (ambientfinal + diffuse)*(1.0-metallic*env_factor) + specularfinal + additivefinal;
+	vec3 finalcolor = (ambientfinal + diffuse)*(1.0-metallic*(env_factor*0.65+0.35)) + specularfinal + additivefinal;
 	
 	//do post-processing
 	finalcolor = clamp(finalcolor,0.0,1.0);
