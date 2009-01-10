@@ -266,7 +266,7 @@ void main()
 	
 	float difdot = dot(normnormal,normlightposition);
 	
-	vec3 diffuse = texcolor*max(difdot,0.0)*notshadowfinal;
+	float diffuse = max(difdot,0.0)*notshadowfinal;
 	
 	float specval = max(dot(reflect(normviewdir,normnormal),normlightposition),0.0);
 	//vec3 halfvec = normalize(normviewdir + normlightposition);
@@ -274,12 +274,12 @@ void main()
 	
 	//float env_factor = min(pow(1.0-max(0.0,dot(-normviewdir,normnormal)),3.0),0.6)*0.75+0.2;
 	const float rf0 = 0.1;
-	float env_factor = rf0+(1.0-rf0)*pow(1.0-dot(-normviewdir,normnormal),2.0); //Schlick approximation of fresnel reflectance with modified power; see Real Time Rendering third edition p. 233
-	env_factor *= 0.8; //don't let it get TOO shiny
-	env_factor = min(env_factor, 0.8);
+	float env_factor = rf0+(1.0-rf0)*pow(1.0-dot(-normviewdir,normnormal),4.0); //Schlick approximation of fresnel reflectance with modified power; see Real Time Rendering third edition p. 233
+	//env_factor *= 0.8; //don't let it get TOO shiny
+	env_factor = min(env_factor, 1.0);
 	
 	//float spec = ((max((pow(specval,512.0)-0.5)*2.0,0.0))*metallic+pow(specval,12.0)*(0.4+(1.0-metallic)*0.8))*gloss;
-	float spec = ((max((pow(specval,512.0)-0.5)*2.0,0.0))*metallic+pow(specval,4.0)*(0.4+(1.0-metallic)*0.8))*gloss;
+	float spec = ((max((pow(specval,512.0)-0.5)*2.0,0.0))*metallic+pow(specval,8.0)*(0.4+(1.0-metallic)*0.8))*gloss;
 	//float spec = ((max((pow(specval,512.0)-0.5)*2.0,0.0))*metallic+pow(specval,12.0)*(0.2+(1.0-metallic)*0.8))*gloss;
 	
 	#ifndef _REFLECTIONDISABLED_
@@ -295,16 +295,30 @@ void main()
 	
 	vec3 ambient = texcolor;//*(1.0+min(difdot,0.0));
 	vec3 ambientfinal = ambient*0.5;//mix(ambient*0.5,ambient*0.2,metallic);
-	vec3 specularfinal = specular_environment*(env_factor*(metallic*0.5+0.5)+spec*notshadowfinal);
+	//vec3 specularfinal = specular_environment*(env_factor*(metallic*0.5+0.5)+spec*notshadowfinal);
+	//vec3 specularfinal = specular_environment*(env_factor*metallic+spec*notshadowfinal);
+	vec3 specularfinal = vec3(1.0)*(spec*notshadowfinal) + specular_environment*(env_factor*metallic);
+	//vec3 specularfinal = texcolor*(spec*notshadowfinal) + specular_environment*(env_factor*metallic);
 	vec3 additivefinal = tu3_2D_val.rgb;
+	
+	vec3 diffusefinal = texcolor * diffuse;
 	
 	//vec3 finalcolor = (ambient*0.5 + diffuse*0.8*max(0.7,invgloss))*(inv_environment*0.5+0.5) + vec3(spec)*notshadowfinal + specular_environment*max(0.5,notshadowfinal) + tu3_2D_val.rgb;
 	//vec3 finalcolor = (ambient*0.5 + diffuse*0.8*max(0.7,invgloss))*(1.0-metallic*env_factor) + vec3(spec)*notshadowfinal + specular_environment*max(0.5,notshadowfinal)*env_factor*1.2 + tu3_2D_val.rgb;
-	vec3 finalcolor = (ambientfinal + diffuse)*(1.0-metallic*(env_factor*0.65+0.35)) + specularfinal + additivefinal;
+	//vec3 finalcolor = (ambientfinal + diffusefinal)*(1.0-metallic*(env_factor*0.65+0.35)) + specularfinal + additivefinal;
+	//vec3 finalcolor = ambientfinal + diffuse + specularfinal + additivefinal;
+	vec3 finalcolor = ambientfinal*(1.0-metallic)+((diffuse+(1.0-env_factor)*metallic)*texcolor*(1.0-metallic*0.5) + specularfinal)*(1.+metallic*.2) + additivefinal;
 	
 	//do post-processing
+	const float onethird = 1./3.;
+	finalcolor = clamp(finalcolor,0.0,3.0);
+	float avg = dot(finalcolor,vec3(onethird));
+	//finalcolor *= onethird;
+	//finalcolor *= 1.-pow(1.-avg,2.0);
+	finalcolor = finalcolor / (avg+2.);
+	finalcolor *= 2.5;
 	finalcolor = clamp(finalcolor,0.0,1.0);
-	finalcolor = ((finalcolor-0.5)*1.2)+0.5;
+	//finalcolor = ((finalcolor-0.5)*1.2)+0.5;
 	
 #ifdef _EDGECONTRASTENHANCEMENT_
 	vec3 shadowcoords = vec3(gl_FragCoord.x/SCREENRESX, gl_FragCoord.y/SCREENRESY, gl_FragCoord.z-0.001);
@@ -313,6 +327,8 @@ void main()
 #endif
 	
 	gl_FragColor.rgb = finalcolor;
+	//gl_FragColor.rgb = ambientfinal+diffuse*(1.0-metallic*(env_factor*0.65+0.35)); 
+	//gl_FragColor.rgb = specularfinal;
 	//gl_FragColor.rgb = vec3(env_factor);
 	/*float r = 0;
 	if (!effect0)
