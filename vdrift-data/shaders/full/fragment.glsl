@@ -273,19 +273,21 @@ void main()
 	//float specval = max(0.0,dot(normnormal,halfvec));
 	
 	//float env_factor = min(pow(1.0-max(0.0,dot(-normviewdir,normnormal)),3.0),0.6)*0.75+0.2;
-	const float rf0 = 0.1;
+	const float rf0 = 0.05;
 	float env_factor = rf0+(1.0-rf0)*pow(1.0-dot(-normviewdir,normnormal),4.0); //Schlick approximation of fresnel reflectance with modified power; see Real Time Rendering third edition p. 233
+	env_factor *= 2.0;
 	//env_factor *= 0.8; //don't let it get TOO shiny
 	env_factor = min(env_factor, 1.0);
 	
 	//float spec = ((max((pow(specval,512.0)-0.5)*2.0,0.0))*metallic+pow(specval,12.0)*(0.4+(1.0-metallic)*0.8))*gloss;
-	float spec = ((max((pow(specval,512.0)-0.5)*2.0,0.0))*metallic+pow(specval,8.0)*(0.4+(1.0-metallic)*0.8))*gloss;
-	//float spec = ((max((pow(specval,512.0)-0.5)*2.0,0.0))*metallic+pow(specval,12.0)*(0.2+(1.0-metallic)*0.8))*gloss;
+	//float spec = ((max((pow(specval,512.0)-0.5)*2.0,0.0))*metallic+pow(specval,8.0)*(0.4+(1.0-metallic)*0.8))*gloss;
+	//float spec = max((pow(specval,512.0)-0.5)*2.0,0.0)*metallic+mix(pow(specval,4.0)*1.2*gloss,pow(specval,8.0)*gloss*0.5,metallic);
+	vec3 spec = metallic*vec3(2.)*max((pow(specval,512.0)-0.5)*2.0,0.0)+gloss*pow(specval,4.0)*1.2*gloss*mix(vec3(1.),max(vec3(0.),(texcolor-vec3(0.2))*2.0),metallic);//mix(pow(specval,4.0)*1.2*gloss,pow(specval,8.0)*gloss*0.5,metallic);
 	
 	#ifndef _REFLECTIONDISABLED_
 	vec3 refmapdir = reflect(normviewdir,normnormal);
 	refmapdir = mat3(gl_TextureMatrix[2]) * refmapdir;
-	vec3 specular_environment = mix(vec3(gloss),textureCube(tu2_cube, refmapdir).rgb,metallic);
+	vec3 specular_environment = textureCube(tu2_cube, refmapdir).rgb;
 	#else
 	vec3 specular_environment = vec3(0,0,0);
 	#endif
@@ -297,8 +299,8 @@ void main()
 	vec3 ambientfinal = ambient*0.5;//mix(ambient*0.5,ambient*0.2,metallic);
 	//vec3 specularfinal = specular_environment*(env_factor*(metallic*0.5+0.5)+spec*notshadowfinal);
 	//vec3 specularfinal = specular_environment*(env_factor*metallic+spec*notshadowfinal);
-	vec3 specularfinal = vec3(1.0)*(spec*notshadowfinal) + specular_environment*(env_factor*metallic);
-	//vec3 specularfinal = texcolor*(spec*notshadowfinal) + specular_environment*(env_factor*metallic);
+	//vec3 specularfinal = texcolor*metallic*pow(specval,4.0) + vec3(1.0)*(spec*notshadowfinal) + specular_environment*(env_factor*metallic);
+	vec3 specularfinal = spec*notshadowfinal + specular_environment*(env_factor*metallic);
 	vec3 additivefinal = tu3_2D_val.rgb;
 	
 	vec3 diffusefinal = texcolor * diffuse;
