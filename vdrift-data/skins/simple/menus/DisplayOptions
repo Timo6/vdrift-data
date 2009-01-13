@@ -144,6 +144,21 @@ default = 0
 cancel = 0
 
 
+[ widget-09.5 ]
+type = slider
+name = CameraBounceSlider
+setting = display.camerabounce
+values = options
+center = 0.5, 0.61
+width = auto
+height = auto
+fontsize = 6
+enabled = 1
+selected = 1
+default = 0
+cancel = 0
+
+
 [ widget-10 ]
 type = button
 name = DisplayOptionsAdvancedButton
