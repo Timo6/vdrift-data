@@ -1,6 +1,10 @@
 uniform sampler2D tu0_2D; //diffuse map
 uniform sampler2D tu1_2D; //misc map (includes gloss on R channel, metallic on G channel, ...
 
+//width and height of the diffuse texture, in pixels
+uniform float diffuse_texture_width;
+uniform float diffuse_texture_height;
+
 #ifdef _SHADOWS_
 #ifdef _SHADOWSULTRA_
 uniform sampler2D tu4_2D; //close shadow map
@@ -355,5 +359,20 @@ void main()
 	//gl_FragColor.rgb = vec3(unpackFloatFromVec4i(texture2D(tu4_2D, debugcoords)));
 	//gl_FragColor.rgb = vec3(unpackFloatFromVec2i(texture2D(tu4_2D, debugcoords).rg));
 	
-	gl_FragColor.a = tu0_2D_val.a*gl_Color.a;
+	//float alpha = (tu0_2D_val.a*gl_Color.a-0.5)*20.0+0.5;
+	
+#ifdef _ALPHATEST_
+	//float width = clamp((dFdx(texcoord_2d.x)+dFdy(texcoord_2d.x)) * diffuse_texture_width * 0.5,0.0,0.5);
+	//float height = clamp((dFdy(texcoord_2d.y)+dFdy(texcoord_2d.y)) * diffuse_texture_height * 0.5,0.0,0.5);
+	float width = clamp(dFdx(texcoord_2d.x) * diffuse_texture_width * 0.5,0.0,0.5);
+	//float alphasize = max(width,height);
+	float alpha = smoothstep(0.5-width, 0.5+width, tu0_2D_val.a);
+	//float alpha = smoothstep(0.5-alphasize, 0.5+alphasize, tu0_2D_val.a);
+#else
+	float alpha = tu0_2D_val.a;
+#endif
+	
+	//gl_FragColor.rgb = vec3(diffuse_texture_width/1024.0);
+	
+	gl_FragColor.a = alpha*gl_Color.a;
 }
