@@ -375,4 +375,5 @@ void main()
 	//gl_FragColor.rgb = vec3(diffuse_texture_width/1024.0);
 	
 	gl_FragColor.a = alpha*gl_Color.a;
+	//gl_FragColor.a = tu0_2D_val.a;
 }
