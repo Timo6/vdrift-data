@@ -19,6 +19,8 @@ uniform sampler2DShadow tu6_2D; //far far shadow map
 #endif
 #endif
 
+#define _FANCIERSHADOWBLENDING_
+
 #ifndef _REFLECTIONDISABLED_
 uniform samplerCube tu2_cube; //reflection map
 #endif
@@ -206,53 +208,108 @@ void main()
 	#endif
 	
 	#ifdef _SHADOWS_
-	vec3 shadowcoords0 = projshadow_0.xyz;
-	#ifdef _CSM2_
-	vec3 shadowcoords1 = projshadow_1.xyz;
-	#endif
+	
 	#ifdef _CSM3_
-	vec3 shadowcoords2 = projshadow_2.xyz;
-	#endif
-	
-	float bound = 1.0;
-	float fade = 10000.0;
-	
-	bool effect0 = (shadowcoords0.x < 0.0 || shadowcoords0.x > 1.0) ||
-		(shadowcoords0.y < 0.0 || shadowcoords0.y > 1.0) ||
-		(shadowcoords0.z < 0.0 || shadowcoords0.z > 1.0);
-	
-	#ifdef _CSM2_
-	bool effect1 = (shadowcoords1.x < 0.0 || shadowcoords1.x > 1.0) ||
-		(shadowcoords1.y < 0.0 || shadowcoords1.y > 1.0) ||
-		(shadowcoords1.z < 0.0 || shadowcoords1.z > 1.0);
-	#endif
-	#ifdef _CSM3_
-	bool effect2 = (shadowcoords2.x < 0.0 || shadowcoords2.x > 1.0) ||
-		(shadowcoords2.y < 0.0 || shadowcoords2.y > 1.0) ||
-		(shadowcoords2.z < 0.0 || shadowcoords2.z > 1.0);
-	#endif
-	
-	//bool effect0 = viewdir.z < -10;
-	//bool effect1 = viewdir.z < -60;
-	
-	float notshadowfinal = 1.0;
-	if (!effect0)
-	{
-		notshadowfinal = shadow_lookup(tu4_2D, shadowcoords0);
-	}
-	#ifdef _CSM2_
-	else if (!effect1)
-	{
-		notshadowfinal = shadow2D(tu5_2D, shadowcoords1).r;
-	}
-	#endif
-	#ifdef _CSM3_
-	else if (!effect2)
-	{
-		notshadowfinal = shadow2D(tu6_2D, shadowcoords2).r;
-	}
-	#endif
+	const int numcsm = 3;
 	#else
+	#ifdef _CSM2_
+	const int numcsm = 2;
+	#else
+	const int numcsm = 1;
+	#endif
+	#endif
+	
+	vec3 shadowcoords[numcsm];
+	
+	shadowcoords[0] = projshadow_0.xyz;
+	#ifdef _CSM2_
+	shadowcoords[1] = projshadow_1.xyz;
+	#endif
+	#ifdef _CSM3_
+	shadowcoords[2] = projshadow_2.xyz;
+	#endif
+	
+	#ifndef _FANCIERSHADOWBLENDING_
+	const float boundmargin = 0.1;
+	const float boundmax = 1.0 - boundmargin;
+	const float boundmin = 0.0 + boundmargin;
+	
+	bool effect[numcsm];
+	
+	for (int i = 0; i < numcsm; i++)
+	{
+		effect[i] = (shadowcoords[i].x < boundmin || shadowcoords[i].x > boundmax) ||
+		(shadowcoords[i].y < boundmin || shadowcoords[i].y > boundmax) ||
+		(shadowcoords[i].z < boundmin || shadowcoords[i].z > boundmax);
+	}
+	#endif //no fancier shadow blending
+	
+	/*bool effect0 = viewdir.z < -8;
+	bool effect1 = viewdir.z < -50;
+	bool effect2 = viewdir.z < -100;*/
+	
+	/*effect0 = true;
+	effect1 = false;
+	effect2 = false;*/
+	
+	//shadow lookup that works better with ATI cards:  no early out
+	float notshadow[numcsm];
+	notshadow[0] = shadow_lookup(tu4_2D, shadowcoords[0]);
+	#ifdef _CSM2_
+	notshadow[1] = shadow2D(tu5_2D, shadowcoords[1]).r;
+	#endif
+	#ifdef _CSM3_
+	notshadow[2] = shadow2D(tu6_2D, shadowcoords[2]).r;
+	#endif
+	
+	//simple shadow mixing, no shadow fade-in
+	#ifndef _FANCIERSHADOWBLENDING_
+	float notshadowfinal = notshadow[0];
+	#ifdef _CSM3_
+	notshadowfinal = mix(notshadowfinal,mix(notshadow[1],notshadow[2],float(effect[1])),float(effect[0]));
+	notshadowfinal = max(notshadowfinal,float(effect[2]));
+	#else //CSM2
+	notshadowfinal = mix(notshadowfinal,notshadow[1],float(effect[0]));
+	notshadowfinal = max(notshadowfinal,float(effect[1]));
+	#endif
+	#endif //no fancier shadow blending
+	
+	//fancy shadow mixing, gives shadow fade-in
+	#ifdef _FANCIERSHADOWBLENDING_
+	const float bound = 1.0;
+	const float fade = 10.0;
+	float effect[numcsm];
+	
+	for (int i = 0; i < numcsm; ++i)
+	//for (int i = 3; i < 4; ++i)
+	{
+		shadowcoords[i] = clamp(shadowcoords[i], 0.0, bound);
+		float xf1 = 1.0-min(1.0,shadowcoords[i].x*fade);
+		float xf2 = max(0.0,shadowcoords[i].x*fade-(fade-1.0));
+		float yf1 = 1.0-min(1.0,shadowcoords[i].y*fade);
+		float yf2 = max(0.0,shadowcoords[i].y*fade-(fade-1.0));
+		float zf1 = 1.0-min(1.0,shadowcoords[i].z*fade);
+		float zf2 = max(0.0,shadowcoords[i].z*fade-(fade-1.0));
+		effect[i] = max(xf1,max(xf2,max(yf1,max(yf2,max(zf1,zf2)))));
+		//notshadow[i] = max(notshadow[i],effect[i]);
+	}
+	
+	float notshadowfinal = notshadow[0];
+	#ifdef _CSM3_
+	notshadowfinal = mix(notshadowfinal,mix(notshadow[1],notshadow[2],effect[1]),effect[0]);
+	notshadowfinal = max(notshadowfinal,effect[2]);
+	#else
+	#ifdef _CSM2_
+	notshadowfinal = mix(notshadowfinal,notshadow[1],effect[0]);
+	notshadowfinal = max(notshadowfinal,effect[1]);
+	#else
+	notshadowfinal = max(notshadowfinal,effect[0]);
+	#endif
+	#endif
+	#endif //fancier shadow blending
+
+	
+	#else //no SHADOWS
 	float notshadowfinal = 1.0;
 	#endif
 	
