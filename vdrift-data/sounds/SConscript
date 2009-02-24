@@ -10,7 +10,7 @@ src = Split("""crash.wav
                tire_squeal.wav
                bump_front.wav
                bump_rear.wav
-               wind.wav""")
+               wind.ogg""")
 
 #---------------------------------#
 # Distribute to src_dir & bin_dir #
