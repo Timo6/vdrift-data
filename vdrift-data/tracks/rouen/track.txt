@@ -1,4 +1,4 @@
-cull faces = on
+cull faces = off
 lap sequences = 2
 non-treaded friction coefficient = 1.000000
 treaded friction coefficient = 0.900000
@@ -22,4 +22,4 @@ start orientation-xyz 4 = -0.007011,0.095264,0.001148
 start orientation-w 4 = 0.995427
 start orientation-xyz 5 = -0.007011,0.095264,0.001152
 start orientation-w 5 = 0.995427
-
+vertical tracking skyboxes = off
