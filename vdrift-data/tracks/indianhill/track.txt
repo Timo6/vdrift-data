@@ -1,7 +1,7 @@
 start position 0 = 196.164383,2.239260,197.639023
 start orientation-xyz 0 = -0.001550,-0.990141,0.009616
 start orientation-w 0 = -0.139735
-cull faces = on
+cull faces = off
 lap sequences = 1
 non-treaded friction coefficient = 1.000000
 treaded friction coefficient = 0.900000
