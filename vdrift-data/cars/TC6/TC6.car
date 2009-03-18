@@ -5,18 +5,18 @@ version = 2
 max-angle = 27.0
 
 [ engine ]
-position = 0.0, 1.42, -0.24
+position = 0.0, 1.33, -0.24
 mass = 180.0
 max-power = 1.52e5
 peak-engine-rpm = 6000.0
 rpm-limit = 6500.0
-inertia = 0.50
+inertia = 0.40
 idle = 0.02
 start-rpm = 1000
 stall-rpm = 400
 fuel-consumption = 1e-9
 torque-friction = 0.0006
-torque-curve-00 = 1000, 100
+torque-curve-00 = 500, 100
 torque-curve-01 = 1500, 146
 torque-curve-02 = 2000, 193
 torque-curve-03 = 2500, 251
