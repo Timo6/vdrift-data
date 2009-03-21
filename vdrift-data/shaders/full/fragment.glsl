@@ -186,6 +186,18 @@ float GetEdgeContrastEnhancementFactor(in sampler2DShadow tu, in vec3 coords)
 }
 #endif
 
+//post-processing functions
+#define BlendScreenf(base, blend) 		(1.0 - ((1.0 - base) * (1.0 - blend)))
+#define BlendSoftLightf(base, blend) 	((blend < 0.5) ? (2.0 * base * blend + base * base * (1.0 - 2.0 * blend)) : (sqrt(base) * (2.0 * blend - 1.0) + 2.0 * base * (1.0 - blend)))
+#define BlendOverlayf(base, blend) 	(base < 0.5 ? (2.0 * base * blend) : (1.0 - 2.0 * (1.0 - base) * (1.0 - blend)))
+#define Blend(base, blend, funcf) 		vec3(funcf(base.r, blend.r), funcf(base.g, blend.g), funcf(base.b, blend.b))
+#define BlendOverlay(base, blend) 		Blend(base, blend, BlendOverlayf)
+#define BlendSoftLight(base, blend) 	Blend(base, blend, BlendSoftLightf)
+#define BlendScreen(base, blend) 		Blend(base, blend, BlendScreenf)
+#define GammaCorrection(color, gamma)								pow(color, 1.0 / gamma)
+#define LevelsControlInputRange(color, minInput, maxInput)				min(max(color - vec3(minInput), vec3(0.0)) / (vec3(maxInput) - vec3(minInput)), vec3(1.0))
+#define LevelsControlInput(color, minInput, gamma, maxInput)				GammaCorrection(LevelsControlInputRange(color, minInput, maxInput), gamma)
+
 void main()
 {
 	#if ( defined (_SHADOWS_) && ( defined (_SHADOWSULTRA_) || defined (_SHADOWSVHIGH_) ) ) || defined (_EDGECONTRASTENHANCEMENT_)
@@ -373,15 +385,24 @@ void main()
 	vec3 finalcolor = ambientfinal*(1.0-metallic)+((diffuse+(1.0-env_factor)*metallic)*texcolor*(1.0-metallic*0.5) + specularfinal)*(1.+metallic*.2) + additivefinal;
 	
 	//do post-processing
-	const float onethird = 1./3.;
+	/*const float onethird = 1./3.;
 	finalcolor = clamp(finalcolor,0.0,3.0);
 	float avg = dot(finalcolor,vec3(onethird));
 	//finalcolor *= onethird;
 	//finalcolor *= 1.-pow(1.-avg,2.0);
 	finalcolor = finalcolor / (avg+2.);
-	finalcolor *= 2.5;
+	finalcolor *= 2.5;*/
+	finalcolor /= 3.0;
+	finalcolor = clamp(finalcolor,0.0,1.0);
+	finalcolor = BlendScreen(finalcolor, finalcolor);
+	finalcolor = BlendScreen(finalcolor, finalcolor);
+	//finalcolor = mix(BlendOverlay(finalcolor, finalcolor),finalcolor, 0.6);
+	//finalcolor = BlendSoftLight(finalcolor, finalcolor);
+	finalcolor = LevelsControlInputRange(finalcolor, 0.07843137, 0.9215686);
 	finalcolor = clamp(finalcolor,0.0,1.0);
 	//finalcolor = ((finalcolor-0.5)*1.2)+0.5;
+	
+	//finalcolor *= smoothstep(0.0,1.0,dot(finalcolor,vec3(onethird)))/avg;
 	
 #ifdef _EDGECONTRASTENHANCEMENT_
 	vec3 shadowcoords = vec3(gl_FragCoord.x/SCREENRESX, gl_FragCoord.y/SCREENRESY, gl_FragCoord.z-0.001);
