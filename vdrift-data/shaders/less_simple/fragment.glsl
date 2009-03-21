@@ -1,5 +1,6 @@
 varying vec2 tu0coord;
 uniform sampler2D tu0_2D;
+varying vec4 ecposition;
 
 #ifdef _EDGECONTRASTENHANCEMENT_
 uniform sampler2DShadow tu7_2D; //edge contrast enhancement depth map
@@ -128,4 +129,44 @@ void main()
 	
 	//gl_FragColor.rg = tu0coord*0.5+0.5;
 	//gl_FragColor.ba = vec2(1.0);
+	
+	
+	//sky color generation shader; fun to fiddle with.
+	/*const vec3 SunPos = vec3(-2.0,1.0,1.0);
+	float Exposure = 0.0;
+
+	float sunsize = 1.0;
+
+	const vec4 Zenith  = vec4( 0.00, 0.44, 0.81, 0.00 );
+	const vec4 Horizon = vec4( 1.00, 1.00, 1.00, 0.00 );
+
+	//Normalise current vertex position
+	vec3 norm = -normalize(ecposition).xyz;
+
+
+	//Normalise sun position
+	//vec3 Sun = -normalize(vec3(0.1, SunPos.x, 1.0));
+	vec3 Sun = -normalize(vec3(0.1, 1.0, SunPos.x));
+
+	float ScatterDirection = dot(Sun, norm);
+	//Curve based on position of sun
+	float Curve = pow(5.0 + abs(SunPos.x), length(norm.xy)) * 0.05;
+
+	//Mix colours based on curve
+	vec4 sky = mix(Zenith, Horizon, Curve);
+	//Apply scatter from direction of sun only
+	sky = mix(sky, Zenith, ScatterDirection);
+
+	//Sun
+	vec4 light = vec4(pow( max(0.0, dot(-Sun, norm)), 360.0 ));
+	//vec4 light = vec4(pow( max(0.0, dot(-Sun, norm)), 4.0 ));
+
+
+	//Adjust exposure based on height of sun in sky
+	Exposure += 1.0-abs(SunPos.x*0.033);
+
+	//Fake HDR Output
+	gl_FragColor = (Exposure * sky) + sunsize*light;
+	//gl_FragColor = sunsize*light;
+	gl_FragColor.a = 1.0;*/
 }
