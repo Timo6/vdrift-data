@@ -1,6 +1,8 @@
 varying vec2 tu0coord;
 uniform sampler2D tu0_2D;
 varying vec4 ecposition;
+uniform vec3 lightposition;
+varying vec3 normal_eye;
 
 #ifdef _EDGECONTRASTENHANCEMENT_
 uniform sampler2DShadow tu7_2D; //edge contrast enhancement depth map
