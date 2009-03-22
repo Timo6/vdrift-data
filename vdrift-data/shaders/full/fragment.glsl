@@ -1,5 +1,6 @@
 uniform sampler2D tu0_2D; //diffuse map
 uniform sampler2D tu1_2D; //misc map (includes gloss on R channel, metallic on G channel, ...
+uniform samplerCube tu3_cube; //ambient light cube map
 
 //width and height of the diffuse texture, in pixels
 uniform float diffuse_texture_width;
@@ -25,10 +26,10 @@ uniform sampler2DShadow tu6_2D; //far far shadow map
 uniform samplerCube tu2_cube; //reflection map
 #endif
 
-uniform sampler2D tu3_2D; //additive map (for brake lights)
+uniform sampler2D tu7_2D; //additive map (for brake lights)
 
 #ifdef _EDGECONTRASTENHANCEMENT_
-uniform sampler2DShadow tu7_2D; //edge contrast enhancement depth map
+uniform sampler2DShadow tu8_2D; //edge contrast enhancement depth map
 #endif
 
 uniform vec3 lightposition;
@@ -187,6 +188,22 @@ float GetEdgeContrastEnhancementFactor(in sampler2DShadow tu, in vec3 coords)
 #endif
 
 //post-processing functions
+vec3 ContrastSaturationBrightness(vec3 color, float con, float sat, float brt)
+{
+	// Increase or decrease theese values to adjust r, g and b color channels seperately
+	const float AvgLumR = 0.5;
+	const float AvgLumG = 0.5;
+	const float AvgLumB = 0.5;
+	
+	const vec3 LumCoeff = vec3(0.2125, 0.7154, 0.0721);
+	
+	vec3 AvgLumin = vec3(AvgLumR, AvgLumG, AvgLumB);
+	vec3 brtColor = color * brt;
+	vec3 intensity = vec3(dot(brtColor, LumCoeff));
+	vec3 satColor = mix(intensity, brtColor, sat);
+	vec3 conColor = mix(AvgLumin, satColor, con);
+	return conColor;
+}
 #define BlendScreenf(base, blend) 		(1.0 - ((1.0 - base) * (1.0 - blend)))
 #define BlendSoftLightf(base, blend) 	((blend < 0.5) ? (2.0 * base * blend + base * base * (1.0 - 2.0 * blend)) : (sqrt(base) * (2.0 * blend - 1.0) + 2.0 * base * (1.0 - blend)))
 #define BlendOverlayf(base, blend) 	(base < 0.5 ? (2.0 * base * blend) : (1.0 - 2.0 * (1.0 - base) * (1.0 - blend)))
@@ -198,7 +215,7 @@ float GetEdgeContrastEnhancementFactor(in sampler2DShadow tu, in vec3 coords)
 #define LevelsControlInputRange(color, minInput, maxInput)				min(max(color - vec3(minInput), vec3(0.0)) / (vec3(maxInput) - vec3(minInput)), vec3(1.0))
 #define LevelsControlInput(color, minInput, gamma, maxInput)				GammaCorrection(LevelsControlInputRange(color, minInput, maxInput), gamma)
 
-void main()
+float GetShadows()
 {
 	#if ( defined (_SHADOWS_) && ( defined (_SHADOWSULTRA_) || defined (_SHADOWSVHIGH_) ) ) || defined (_EDGECONTRASTENHANCEMENT_)
 	poissonDisk[0] = vec2( -0.94201624, -0.39906216 );
@@ -319,11 +336,22 @@ void main()
 	#endif
 	#endif
 	#endif //fancier shadow blending
-
 	
 	#else //no SHADOWS
 	float notshadowfinal = 1.0;
 	#endif
+
+	return notshadowfinal;
+}
+
+float EffectStrength(float val, float coeff)
+{
+	return val*coeff+1.0-coeff;
+}
+
+void main()
+{
+	float notshadowfinal = GetShadows();
 	
 	vec3 normnormal = normalize(normal_eye);
 	vec3 normviewdir = normalize(viewdir);
@@ -331,7 +359,7 @@ void main()
 	
 	vec4 tu0_2D_val = texture2D(tu0_2D, texcoord_2d);
 	vec4 tu1_2D_val = texture2D(tu1_2D, texcoord_2d);
-	vec4 tu3_2D_val = texture2D(tu3_2D, texcoord_2d);
+	vec4 tu7_2D_val = texture2D(tu7_2D, texcoord_2d);
 	
 	vec3 texcolor = tu0_2D_val.rgb;
 	float gloss = tu1_2D_val.r;
@@ -339,7 +367,8 @@ void main()
 	
 	float difdot = dot(normnormal,normlightposition);
 	
-	float diffuse = max(difdot,0.0)*notshadowfinal;
+	float diffusefactor = (1.0-pow(1.0-max(difdot,0.0),2.0))*notshadowfinal;
+	//float diffusefactor = max(difdot,0.0)*notshadowfinal;
 	
 	float specval = max(dot(reflect(normviewdir,normnormal),normlightposition),0.0);
 	//vec3 halfvec = normalize(normviewdir + normlightposition);
@@ -355,7 +384,8 @@ void main()
 	//float spec = ((max((pow(specval,512.0)-0.5)*2.0,0.0))*metallic+pow(specval,12.0)*(0.4+(1.0-metallic)*0.8))*gloss;
 	//float spec = ((max((pow(specval,512.0)-0.5)*2.0,0.0))*metallic+pow(specval,8.0)*(0.4+(1.0-metallic)*0.8))*gloss;
 	//float spec = max((pow(specval,512.0)-0.5)*2.0,0.0)*metallic+mix(pow(specval,4.0)*1.2*gloss,pow(specval,8.0)*gloss*0.5,metallic);
-	vec3 spec = metallic*vec3(2.)*max((pow(specval,512.0)-0.5)*2.0,0.0)+gloss*pow(specval,4.0)*1.2*gloss*mix(vec3(1.),max(vec3(0.),(texcolor-vec3(0.2))*2.0),metallic);//mix(pow(specval,4.0)*1.2*gloss,pow(specval,8.0)*gloss*0.5,metallic);
+	//vec3 spec = metallic*vec3(2.)*max((pow(specval,512.0)-0.5)*2.0,0.0)+gloss*pow(specval,4.0)*1.2*gloss*mix(vec3(1.),max(vec3(0.),(texcolor-vec3(0.2))*2.0),metallic);//mix(pow(specval,4.0)*1.2*gloss,pow(specval,8.0)*gloss*0.5,metallic);
+	vec3 spec = metallic*vec3(2.)*max((pow(specval,512.0)-0.5)*2.0,0.0)+gloss*pow(specval,4.0)*1.2*gloss*(1.0-metallic*0.75);
 	
 	#ifndef _REFLECTIONDISABLED_
 	vec3 refmapdir = reflect(normviewdir,normnormal);
@@ -365,16 +395,19 @@ void main()
 	vec3 specular_environment = vec3(0,0,0);
 	#endif
 	
+	vec3 ambientmapdir = mat3(gl_TextureMatrix[2]) * normnormal;
+	vec3 ambient_light = textureCube(tu3_cube, ambientmapdir).rgb;
+	
 	//float inv_environment = 1.0 - (env_factor*metallic);
 	//float invgloss = (1.0-gloss);
 	
-	vec3 ambient = texcolor;//*(1.0+min(difdot,0.0));
+	/*vec3 ambient = texcolor*ambient_light;//*(1.0+min(difdot,0.0));
 	vec3 ambientfinal = ambient*0.5;//mix(ambient*0.5,ambient*0.2,metallic);
 	//vec3 specularfinal = specular_environment*(env_factor*(metallic*0.5+0.5)+spec*notshadowfinal);
 	//vec3 specularfinal = specular_environment*(env_factor*metallic+spec*notshadowfinal);
 	//vec3 specularfinal = texcolor*metallic*pow(specval,4.0) + vec3(1.0)*(spec*notshadowfinal) + specular_environment*(env_factor*metallic);
 	vec3 specularfinal = spec*notshadowfinal + specular_environment*(env_factor*metallic);
-	vec3 additivefinal = tu3_2D_val.rgb;
+	vec3 additivefinal = tu7_2D_val.rgb;
 	
 	vec3 diffusefinal = texcolor * diffuse;
 	
@@ -382,7 +415,45 @@ void main()
 	//vec3 finalcolor = (ambient*0.5 + diffuse*0.8*max(0.7,invgloss))*(1.0-metallic*env_factor) + vec3(spec)*notshadowfinal + specular_environment*max(0.5,notshadowfinal)*env_factor*1.2 + tu3_2D_val.rgb;
 	//vec3 finalcolor = (ambientfinal + diffusefinal)*(1.0-metallic*(env_factor*0.65+0.35)) + specularfinal + additivefinal;
 	//vec3 finalcolor = ambientfinal + diffuse + specularfinal + additivefinal;
-	vec3 finalcolor = ambientfinal*(1.0-metallic)+((diffuse+(1.0-env_factor)*metallic)*texcolor*(1.0-metallic*0.5) + specularfinal)*(1.+metallic*.2) + additivefinal;
+	vec3 finalcolor = ambientfinal*(1.0-metallic)+((diffuse+(1.0-env_factor)*metallic)*texcolor*(1.0-metallic*0.5) + specularfinal)*(1.+metallic*.2) + additivefinal;*/
+	
+	float viewdotnorm = max(0.0,dot(-normviewdir,normnormal));
+	
+	vec3 ambient = ambient_light;//*vec3(0.7882353, 0.8784314, 0.8823529);
+	//vec3 diffuse = diffusefactor*vec3(0.9686275, 0.9568627, 0.8901961);
+	float metallicdiffuse = 0.05;
+	//vec3 diffuse = mix(diffusefactor,EffectStrength(diffusefactor,metallicdiffuse),metallic)*vec3(1,1,1);
+	float minmetallicdiffuse = 0.7;
+	vec3 diffuse = mix(diffusefactor,max(diffusefactor,minmetallicdiffuse),metallic)*vec3(1,1,1);
+	vec3 additive = tu7_2D_val.rgb;
+	float viewdotnormpow = pow(viewdotnorm,3.0);
+	vec3 texcolormod = mix(texcolor,ContrastSaturationBrightness(texcolor,EffectStrength(viewdotnormpow,0.0),EffectStrength(viewdotnormpow,0.5),1.0),metallic);
+	//vec3 texcolormod = texcolor;
+	vec3 diffusetexcolor = mix(texcolormod*vec3(0.7882353, 0.8784314, 0.8823529),texcolormod,diffusefactor);
+	
+	const float saturationeffectmin = 0.3;
+	const float saturationeffectmax = 1.5;
+	float saturationeffect = mix(1.0,mix(saturationeffectmin,saturationeffectmax,viewdotnorm),metallic);
+	const float brightnesseffectmin = 1.0;
+	const float brightnesseffectmax = 1.0;
+	float brightnesseffect = mix(1.0,mix(brightnesseffectmin,brightnesseffectmax,viewdotnorm),metallic);
+	
+	const float myrf0 = 0.15;
+	float myenv_factor = myrf0+(1.0-myrf0)*pow(1.0-viewdotnorm,3.0); //Schlick approximation of fresnel reflectance with modified power; see Real Time Rendering third edition p. 233
+	vec3 specular = mix(0.0,myenv_factor,metallic)*specular_environment*1.0;
+	
+	const float lightenfactor = 0.6;
+	const float lightenpower = 3.0;
+	float diffuseadd = mix(0.0,min(pow(viewdotnorm,lightenpower),lightenfactor),metallic);
+	
+	//vec3 finalcolor = ContrastSaturationBrightness((diffuse + ambient*0.65)*diffusetexcolor,1.0,saturationeffect,brightnesseffect) + specular*0.0 + additive;
+	//vec3 finalcolor = BlendOverlay(((diffuse + ambient*0.65)*diffusetexcolor), mix(vec3(0.5),(specular*2.0),metallic)) + additive;
+	vec3 finalcolor = pow((diffuse + ambient*0.65)*diffusetexcolor + specular*1.0,vec3(mix(1.0,1.4,metallic))) + spec*diffusefactor + additive;
+	//vec3 finalcolor = spec;
+	//vec3 finalcolor = vec3(env_factor);
+	//vec3 finalcolor = mix(texcolor,max(vec3(0.),(texcolor-vec3(0.2))*2.0),diffusefactor) + additive;
+	//vec3 finalcolor = ContrastSaturationBrightness(texcolor, 1.0, diffusefactor*0.5+0.75, 1.0)*(diffuse+ambient*0.9);
+	//vec3 finalcolor = ambient*vec3(0.7882353, 0.8784314, 0.8823529);
 	
 	//do post-processing
 	/*const float onethird = 1./3.;
@@ -406,7 +477,7 @@ void main()
 	
 #ifdef _EDGECONTRASTENHANCEMENT_
 	vec3 shadowcoords = vec3(gl_FragCoord.x/SCREENRESX, gl_FragCoord.y/SCREENRESY, gl_FragCoord.z-0.001);
-	float edgefactor = GetEdgeContrastEnhancementFactor(tu7_2D, shadowcoords);
+	float edgefactor = GetEdgeContrastEnhancementFactor(tu8_2D, shadowcoords);
 	finalcolor *= edgefactor*0.5+0.5;
 #endif
 	
