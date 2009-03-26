@@ -32,29 +32,13 @@ selected = 1
 default = 0
 cancel = 0
 
-[ widget-02 ]
-type = controlgrab
-name = JoystickInfoControl
-text = Joystick Info
-tip = The joystick info control shows debugging info for available joysticks.
-setting = joystick_info
-center = 0.5, 0.34
-spacing = 0.2
-width = auto
-height = auto
-fontsize = 6
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
-
 [ widget-02.5 ]
 type = controlgrab
 name = ReloadShadersControl
 text = Reload Shaders
 tip = Reload the vertex and fragment shader source files.
 setting = reload_shaders
-center = 0.5, 0.38
+center = 0.5, 0.34
 spacing = 0.2
 width = auto
 height = auto
