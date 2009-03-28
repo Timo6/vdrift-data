@@ -168,10 +168,10 @@ b11=0.0			#	Load influence on vertical shift   (N/kN)   B11
 b12=0.0			#	Vertical shift at load = 0   (N)   B12
 #---------	Aligning moment
 c0=2.2			#	Shape factor   C0
-c1=-4.1			#	Load influence of peak value   (Nm/kN**2)   C1
-c2=-4.2			#	Load influence of peak value   (Nm/kN)   C2
-c3=-1.8			#	Curvature factor of stiffness   (Nm/deg/kN**2) C3		
-c4=-9.1			#	Change of stiffness with load at load = 0 (Nm/deg/kN)   C4
+c1=-2.3			#	Load influence of peak value   (Nm/kN**2)   C1
+c2=-2.4			#	Load influence of peak value   (Nm/kN)   C2
+c3=0.0			#	Curvature factor of stiffness   (Nm/deg/kN**2) C3		
+c4=-1.5			#	Change of stiffness with load at load = 0 (Nm/deg/kN)   C4
 c5=0.0225		#	Change of progressivity of stiffness/load (1/kN)   C5
 c6=0			#	Camber influence on stiffness   (%/deg/100)   C6
 c7=0.044		#	Curvature change with load   C7
