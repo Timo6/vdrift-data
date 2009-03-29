@@ -1,11 +1,3 @@
-#pitch-soundmap-1000 = 1kbehind
-#pitch-soundmap-2000 = 2kbehind
-#pitch-soundmap-2670 = 3kbehind
-#pitch-soundmap-3560 = 4kbehind
-#pitch-soundmap-4650 = 5kbehind
-#pitch-soundmap-5130 = 6kbehind
-#pitch-soundmap-6160 = 7kbehind
-
 [poweroff1]
 filename=sounds/1kbehind.wav
 MinimumRPM=1
