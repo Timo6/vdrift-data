@@ -16,10 +16,15 @@ void main()
 	vec3 blurred = tu1_2D_val.rgb;
 	
 	//vec3 final = orig + blurred*0.5;
+	//vec3 final = pow(orig + blurred,vec3(2.0));
+	//vec3 final = blurred + orig;
+	//vec3 final = orig;
+	vec3 final = mix(orig,orig*blurred,0.25)*1.0;
+	//vec3 final = max(blurred,orig);
 	
-	const float onethird = 1./3.;
+	/*const float onethird = 1./3.;
 	float orig_luminance = dot(vec3(onethird),orig);
-	vec3 final = orig + mix(blurred, vec3(0.), orig_luminance);
+	vec3 final = orig + mix(blurred, vec3(0.), orig_luminance);*/
 	
 	//vec3 final = orig * blurred;
 	/*float blurred_grey = (blurred.r*0.25+blurred.g*0.5+blurred.b*0.25)*0.8+0.2;
@@ -28,6 +33,6 @@ void main()
 	//vec3 final = blurred;
 	//vec3 final = orig*(orig + 2.0*blurred*(1.0-orig));
 	
-	//gl_FragColor = vec4(final,1.);
-	gl_FragColor = texture2DRect(tu0_2DRect, tc0);
+	gl_FragColor = vec4(final,1.);
+	//gl_FragColor = texture2DRect(tu0_2DRect, tc0);
 }

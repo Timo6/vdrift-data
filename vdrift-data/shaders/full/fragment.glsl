@@ -26,10 +26,10 @@ uniform sampler2DShadow tu6_2D; //far far shadow map
 uniform samplerCube tu2_cube; //reflection map
 #endif
 
-uniform sampler2D tu7_2D; //additive map (for brake lights)
+uniform sampler2D tu8_2D; //additive map (for brake lights)
 
 #ifdef _EDGECONTRASTENHANCEMENT_
-uniform sampler2DShadow tu8_2D; //edge contrast enhancement depth map
+uniform sampler2DShadow tu7_2D; //edge contrast enhancement depth map
 #endif
 
 uniform vec3 lightposition;
@@ -349,6 +349,21 @@ float EffectStrength(float val, float coeff)
 	return val*coeff+1.0-coeff;
 }
 
+vec3 EffectStrength(vec3 val, float coeff)
+{
+	return val*coeff+vec3(1.0-coeff);
+}
+
+float ColorCorrectfloat(in float x)
+{
+	return pow(x,5.0)*5.23878+pow(x,4.0)*-14.45564+pow(x,3.0)*12.6883+pow(x,2.0)*-3.78462+x*1.31897-.01041;
+}
+
+vec3 ColorCorrect(in vec3 val)
+{
+	return vec3(ColorCorrectfloat(val.r),ColorCorrectfloat(val.g),ColorCorrectfloat(val.b));
+}
+
 void main()
 {
 	float notshadowfinal = GetShadows();
@@ -359,7 +374,7 @@ void main()
 	
 	vec4 tu0_2D_val = texture2D(tu0_2D, texcoord_2d);
 	vec4 tu1_2D_val = texture2D(tu1_2D, texcoord_2d);
-	vec4 tu7_2D_val = texture2D(tu7_2D, texcoord_2d);
+	vec4 tu8_2D_val = texture2D(tu8_2D, texcoord_2d);
 	
 	vec3 texcolor = tu0_2D_val.rgb;
 	float gloss = tu1_2D_val.r;
@@ -368,6 +383,7 @@ void main()
 	float difdot = dot(normnormal,normlightposition);
 	
 	float diffusefactor = (1.0-pow(1.0-max(difdot,0.0),2.0))*notshadowfinal;
+	//diffusefactor = clamp(diffusefactor, 0.0, 1.0);
 	//float diffusefactor = max(difdot,0.0)*notshadowfinal;
 	
 	float specval = max(dot(reflect(normviewdir,normnormal),normlightposition),0.0);
@@ -425,11 +441,12 @@ void main()
 	//vec3 diffuse = mix(diffusefactor,EffectStrength(diffusefactor,metallicdiffuse),metallic)*vec3(1,1,1);
 	float minmetallicdiffuse = 0.7;
 	vec3 diffuse = mix(diffusefactor,max(diffusefactor,minmetallicdiffuse),metallic)*vec3(1,1,1);
-	vec3 additive = tu7_2D_val.rgb;
+	vec3 additive = tu8_2D_val.rgb;
 	float viewdotnormpow = pow(viewdotnorm,3.0);
 	vec3 texcolormod = mix(texcolor,ContrastSaturationBrightness(texcolor,EffectStrength(viewdotnormpow,0.0),EffectStrength(viewdotnormpow,0.5),1.0),metallic);
 	//vec3 texcolormod = texcolor;
-	vec3 diffusetexcolor = mix(texcolormod*vec3(0.7882353, 0.8784314, 0.8823529),texcolormod,diffusefactor);
+	//vec3 diffusetexcolor = mix(texcolormod*vec3(0.7882353, 0.8784314, 0.8823529),texcolormod,diffusefactor);
+	vec3 diffusetexcolor = texcolormod;
 	
 	const float saturationeffectmin = 0.3;
 	const float saturationeffectmax = 1.5;
@@ -448,7 +465,10 @@ void main()
 	
 	//vec3 finalcolor = ContrastSaturationBrightness((diffuse + ambient*0.65)*diffusetexcolor,1.0,saturationeffect,brightnesseffect) + specular*0.0 + additive;
 	//vec3 finalcolor = BlendOverlay(((diffuse + ambient*0.65)*diffusetexcolor), mix(vec3(0.5),(specular*2.0),metallic)) + additive;
-	vec3 finalcolor = pow((diffuse + ambient*0.65)*diffusetexcolor + specular*1.0,vec3(mix(1.0,1.4,metallic))) + spec*diffusefactor + additive;
+	//vec3 finalcolor = pow((diffuse + ambient*0.65)*diffusetexcolor + specular*1.0,vec3(mix(1.0,1.4,metallic))) + spec*diffusefactor + additive;
+	vec3 finalcolor = pow(min(EffectStrength(diffuse,0.5),ambient)*diffusetexcolor + specular*1.0,vec3(mix(1.0,1.4,metallic))) + spec*diffusefactor + additive;
+	//float diffusefade = clamp(-viewdir.z*0.01,0.0,1.0)*0.5;
+	//vec3 finalcolor = pow(mix(diffuse+ambient*0.5,ambient*1.5,diffusefade)*diffusetexcolor + specular*1.0,vec3(mix(1.0,1.4,metallic))) + spec*diffusefactor + additive;
 	//vec3 finalcolor = spec;
 	//vec3 finalcolor = vec3(env_factor);
 	//vec3 finalcolor = mix(texcolor,max(vec3(0.),(texcolor-vec3(0.2))*2.0),diffusefactor) + additive;
@@ -463,13 +483,24 @@ void main()
 	//finalcolor *= 1.-pow(1.-avg,2.0);
 	finalcolor = finalcolor / (avg+2.);
 	finalcolor *= 2.5;*/
-	finalcolor /= 3.0;
-	finalcolor = clamp(finalcolor,0.0,1.0);
-	finalcolor = BlendScreen(finalcolor, finalcolor);
-	finalcolor = BlendScreen(finalcolor, finalcolor);
+	//finalcolor /= 3.0;
+	//finalcolor = clamp(finalcolor,0.0,1.0);
+	//finalcolor = BlendScreen(finalcolor, finalcolor);
+	///finalcolor = BlendScreen(finalcolor, finalcolor);
 	//finalcolor = mix(BlendOverlay(finalcolor, finalcolor),finalcolor, 0.6);
+	//finalcolor = BlendOverlay(finalcolor, finalcolor);
+	//finalcolor = ContrastSaturationBrightness(finalcolor, 1.0, 0.5, 1.0);
 	//finalcolor = BlendSoftLight(finalcolor, finalcolor);
-	finalcolor = LevelsControlInputRange(finalcolor, 0.07843137, 0.9215686);
+	//finalcolor = LevelsControlInputRange(finalcolor, 0.07843137, 0.9215686);
+	//finalcolor = ContrastSaturationBrightness(finalcolor, 1.5, 0.5, 1.0);
+	//finalcolor = texcolor*mix(diffuse,ambient,0.0);
+	//finalcolor = mix(diffuse,ambient,0.7);
+	//finalcolor = min(EffectStrength(diffuse,0.3),ambient);
+	//finalcolor = texcolor*min(EffectStrength(diffuse,0.3),ambient);
+	/*finalcolor = clamp(finalcolor,0.0,1.0);
+	finalcolor = mix(finalcolor,3.0*finalcolor*finalcolor-2.0*finalcolor*finalcolor*finalcolor,1.0);
+	finalcolor = ContrastSaturationBrightness(finalcolor, 1.0, 0.7, 1.0);*/
+	finalcolor = ColorCorrect(finalcolor);
 	finalcolor = clamp(finalcolor,0.0,1.0);
 	//finalcolor = ((finalcolor-0.5)*1.2)+0.5;
 	
@@ -477,11 +508,13 @@ void main()
 	
 #ifdef _EDGECONTRASTENHANCEMENT_
 	vec3 shadowcoords = vec3(gl_FragCoord.x/SCREENRESX, gl_FragCoord.y/SCREENRESY, gl_FragCoord.z-0.001);
-	float edgefactor = GetEdgeContrastEnhancementFactor(tu8_2D, shadowcoords);
+	float edgefactor = GetEdgeContrastEnhancementFactor(tu7_2D, shadowcoords);
 	finalcolor *= edgefactor*0.5+0.5;
 #endif
 	
 	gl_FragColor.rgb = finalcolor;
+	//gl_FragColor.rgb = vec3(edgefactor);
+	//gl_FragColor.rgb = vec3(diffusefade);
 	//gl_FragColor.rgb = ambientfinal+diffuse*(1.0-metallic*(env_factor*0.65+0.35)); 
 	//gl_FragColor.rgb = specularfinal;
 	//gl_FragColor.rgb = vec3(env_factor);
