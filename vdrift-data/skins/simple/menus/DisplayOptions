@@ -149,7 +149,22 @@ type = slider
 name = CameraBounceSlider
 setting = display.camerabounce
 values = options
-center = 0.5, 0.61
+center = 0.5, 0.62
+width = auto
+height = auto
+fontsize = 6
+enabled = 1
+selected = 1
+default = 0
+cancel = 0
+
+
+[ widget-09.75 ]
+type = slider
+name = ContrastSlider
+setting = display.contrast
+values = options
+center = 0.5, 0.68
 width = auto
 height = auto
 fontsize = 6
@@ -165,7 +180,7 @@ name = DisplayOptionsAdvancedButton
 text = Advanced
 tip = Change detail levels and other advanced display options.
 action = DisplayOptionsAdvanced
-center = 0.5, 0.7
+center = 0.5, 0.74
 color = 0.0, 0.8, 0.0
 width = auto
 height = auto

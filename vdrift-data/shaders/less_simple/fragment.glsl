@@ -4,6 +4,8 @@ varying vec4 ecposition;
 uniform vec3 lightposition;
 varying vec3 normal_eye;
 
+uniform float contrast;
+
 #ifdef _EDGECONTRASTENHANCEMENT_
 uniform sampler2DShadow tu7_2D; //edge contrast enhancement depth map
 #endif
@@ -162,6 +164,7 @@ void main()
 	finalcolor = mix(finalcolor,3.0*finalcolor*finalcolor-2.0*finalcolor*finalcolor*finalcolor,0.5);
 	finalcolor = ContrastSaturationBrightness(finalcolor, 1.0, 0.65, 1.0);*/
 	finalcolor = ColorCorrect(finalcolor);
+	finalcolor = ContrastSaturationBrightness(finalcolor, contrast, 1.0/contrast, (contrast-1.0)*0.5+1.0);
 	finalcolor = clamp(finalcolor,0.0,1.0);
 	
 #ifdef _EDGECONTRASTENHANCEMENT_

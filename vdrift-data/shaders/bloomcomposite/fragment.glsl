@@ -15,11 +15,10 @@ void main()
 	vec3 orig = tu0_2D_val.rgb;
 	vec3 blurred = tu1_2D_val.rgb;
 	
-	//vec3 final = orig + blurred*0.5;
+	vec3 final = orig + blurred*0.25;
 	//vec3 final = pow(orig + blurred,vec3(2.0));
-	//vec3 final = blurred + orig;
-	//vec3 final = orig;
-	vec3 final = mix(orig,orig*blurred,0.25)*1.0;
+	//vec3 final = blurred;
+	//vec3 final = mix(orig,orig*blurred,0.25)*1.0;
 	//vec3 final = max(blurred,orig);
 	
 	/*const float onethird = 1./3.;

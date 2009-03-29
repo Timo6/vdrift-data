@@ -6,6 +6,8 @@ uniform samplerCube tu3_cube; //ambient light cube map
 uniform float diffuse_texture_width;
 uniform float diffuse_texture_height;
 
+uniform float contrast;
+
 #ifdef _SHADOWS_
 #ifdef _SHADOWSULTRA_
 uniform sampler2D tu4_2D; //close shadow map
@@ -500,7 +502,9 @@ void main()
 	/*finalcolor = clamp(finalcolor,0.0,1.0);
 	finalcolor = mix(finalcolor,3.0*finalcolor*finalcolor-2.0*finalcolor*finalcolor*finalcolor,1.0);
 	finalcolor = ContrastSaturationBrightness(finalcolor, 1.0, 0.7, 1.0);*/
+	//finalcolor = GammaCorrection(finalcolor, vec3(1.5));
 	finalcolor = ColorCorrect(finalcolor);
+	finalcolor = ContrastSaturationBrightness(finalcolor, contrast, 1.0/contrast, (contrast-1.0)*0.5+1.0);
 	finalcolor = clamp(finalcolor,0.0,1.0);
 	//finalcolor = ((finalcolor-0.5)*1.2)+0.5;
 	
