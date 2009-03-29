@@ -105,6 +105,44 @@ float GetEdgeContrastEnhancementFactor(in sampler2DShadow tu, in vec3 coords)
 }
 #endif
 
+//post-processing functions
+vec3 ContrastSaturationBrightness(vec3 color, float con, float sat, float brt)
+{
+	// Increase or decrease theese values to adjust r, g and b color channels seperately
+	const float AvgLumR = 0.5;
+	const float AvgLumG = 0.5;
+	const float AvgLumB = 0.5;
+	
+	const vec3 LumCoeff = vec3(0.2125, 0.7154, 0.0721);
+	
+	vec3 AvgLumin = vec3(AvgLumR, AvgLumG, AvgLumB);
+	vec3 brtColor = color * brt;
+	vec3 intensity = vec3(dot(brtColor, LumCoeff));
+	vec3 satColor = mix(intensity, brtColor, sat);
+	vec3 conColor = mix(AvgLumin, satColor, con);
+	return conColor;
+}
+#define BlendScreenf(base, blend) 		(1.0 - ((1.0 - base) * (1.0 - blend)))
+#define BlendSoftLightf(base, blend) 	((blend < 0.5) ? (2.0 * base * blend + base * base * (1.0 - 2.0 * blend)) : (sqrt(base) * (2.0 * blend - 1.0) + 2.0 * base * (1.0 - blend)))
+#define BlendOverlayf(base, blend) 	(base < 0.5 ? (2.0 * base * blend) : (1.0 - 2.0 * (1.0 - base) * (1.0 - blend)))
+#define Blend(base, blend, funcf) 		vec3(funcf(base.r, blend.r), funcf(base.g, blend.g), funcf(base.b, blend.b))
+#define BlendOverlay(base, blend) 		Blend(base, blend, BlendOverlayf)
+#define BlendSoftLight(base, blend) 	Blend(base, blend, BlendSoftLightf)
+#define BlendScreen(base, blend) 		Blend(base, blend, BlendScreenf)
+#define GammaCorrection(color, gamma)								pow(color, 1.0 / gamma)
+#define LevelsControlInputRange(color, minInput, maxInput)				min(max(color - vec3(minInput), vec3(0.0)) / (vec3(maxInput) - vec3(minInput)), vec3(1.0))
+#define LevelsControlInput(color, minInput, gamma, maxInput)				GammaCorrection(LevelsControlInputRange(color, minInput, maxInput), gamma)
+
+float ColorCorrectfloat(in float x)
+{
+	return pow(x,5.0)*5.23878+pow(x,4.0)*-14.45564+pow(x,3.0)*12.6883+pow(x,2.0)*-3.78462+x*1.31897-.01041;
+}
+
+vec3 ColorCorrect(in vec3 val)
+{
+	return vec3(ColorCorrectfloat(val.r),ColorCorrectfloat(val.g),ColorCorrectfloat(val.b));
+}
+
 void main()
 {
 	// Setting Each Pixel To Red
@@ -117,8 +155,14 @@ void main()
 	vec3 finalcolor = outcol.rgb;
 	
 	//do post-processing
+	/*finalcolor = clamp(finalcolor,0.0,1.0);
+	finalcolor = ((finalcolor-0.5)*1.2)+0.5;*/
+	
+	/*finalcolor = clamp(finalcolor,0.0,1.0);
+	finalcolor = mix(finalcolor,3.0*finalcolor*finalcolor-2.0*finalcolor*finalcolor*finalcolor,0.5);
+	finalcolor = ContrastSaturationBrightness(finalcolor, 1.0, 0.65, 1.0);*/
+	finalcolor = ColorCorrect(finalcolor);
 	finalcolor = clamp(finalcolor,0.0,1.0);
-	finalcolor = ((finalcolor-0.5)*1.2)+0.5;
 	
 #ifdef _EDGECONTRASTENHANCEMENT_
 	vec3 shadowcoords = vec3(gl_FragCoord.x/SCREENRESX, gl_FragCoord.y/SCREENRESY, gl_FragCoord.z-0.001);
