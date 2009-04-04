@@ -37,7 +37,7 @@ torque-curve-15 = 6000, 460.0
 sliding = 0.27
 radius = 0.15
 area = 0.75
-max-pressure = 15000.0
+max-pressure = 40000.0
 
 [ transmission ]
 gears = 6
