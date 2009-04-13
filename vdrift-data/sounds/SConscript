@@ -10,6 +10,8 @@ src = Split("""crash.wav
                tire_squeal.wav
                bump_front.wav
                bump_rear.wav
+               grass.wav
+               gravel.wav
                wind.ogg""")
 
 #---------------------------------#
