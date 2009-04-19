@@ -56,7 +56,7 @@ final-drive = 3.09
 # Lemans Rear
 #final-drive = 2.77
 anti-slip = 600.0
-anti-slip-torque = 1
+anti-slip-torque = 0.01
 anti-slip-torque-deceleration-factor = 0
 
 [ fuel-tank ]
