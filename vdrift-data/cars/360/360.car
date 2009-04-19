@@ -122,6 +122,8 @@ shift-time=0.15
 [ differential ]
 final-drive = 4.44
 anti-slip =600.0
+anti-slip-torque = 0.01
+anti-slip-torque-deceleration-factor = 0
 
 [ fuel-tank ]
 position = 0.0, -1.50, -0.10
