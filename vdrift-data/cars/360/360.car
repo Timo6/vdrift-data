@@ -132,8 +132,8 @@ volume = 80.0
 fuel-density = 0.8
 
 [ suspension-front ]
-#spring-constant = 142000
-spring-constant = 90561 #assuming tire spring rate is 250000, effective spring rate of two springs in series is 1/(1/k1+1/k2)
+#spring-constant = 142000 #spring rate
+spring-constant = 79865 #wheel rate assuming 0.75 to 1 lever arm ratio
 bounce = 3000.0
 rebound = 9000.0
 travel = 0.12
@@ -145,7 +145,7 @@ anti-roll = 8000
 
 [ suspension-rear ]
 #spring-constant = 185000
-spring-constant = 106321
+spring-constant = 104062
 bounce = 5000.0
 rebound = 15000.0
 ## Federweg
