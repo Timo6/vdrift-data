@@ -165,6 +165,7 @@ spacing = 0.2
 width = auto
 height = auto
 fontsize = 6
+analog = 1
 enabled = 1
 selected = 0
 default = 0
