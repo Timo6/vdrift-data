@@ -1,26 +1,29 @@
+import os, stat
+
 #-------------#
 # Import Vars #
 #-------------#
 Import('*')
 
-#-----------------------#
-# Distribute to src_dir #
-#-----------------------#
-env.Distribute (src_dir, 'SConscript.no_data')
+#---------#
+# Sources #
+#---------#
+src = []
 
-#----------------#
-# Subdirectories #
-#----------------#
-Export(['env', 'src_dir', 'bin_dir'])
+for root, dirs, files in os.walk("."):
+  if root.find('.svn') == -1:
+    for file in [f for f in files if not f.endswith('~')]:
+      src.append(os.path.join(root, file))
+      install = env.Install(Dir(env.subst('$data_directory/'+root)), os.path.join(root, file))
 
-env.Alias('install', Dir('$data_directory'))
+#---------------------------------#
+# Distribute to src_dir & bin_dir #
+#---------------------------------#
+#dist_files = ['SConscript'] + src
 
-#SConscript('carparts/SConscript')
-SConscript('cars/SConscript')
-SConscript('lists/SConscript')
-SConscript('settings/SConscript')
-SConscript('shaders/SConscript')
-SConscript('skins/SConscript')
-SConscript('sounds/SConscript')
-SConscript('textures/SConscript')
-SConscript('tracks/SConscript')
+#env.Distribute (src_dir, dist_files)
+#env.Distribute (bin_dir, src)
+
+#Export(['env', 'src_dir', 'bin_dir'])
+
+env.Alias('install', install)
