@@ -511,8 +511,8 @@ void main()
 	//finalcolor *= smoothstep(0.0,1.0,dot(finalcolor,vec3(onethird)))/avg;
 	
 #ifdef _EDGECONTRASTENHANCEMENT_
-	vec3 shadowcoords = vec3(gl_FragCoord.x/SCREENRESX, gl_FragCoord.y/SCREENRESY, gl_FragCoord.z-0.001);
-	float edgefactor = GetEdgeContrastEnhancementFactor(tu7_2D, shadowcoords);
+	vec3 depthcoords = vec3(gl_FragCoord.x/SCREENRESX, gl_FragCoord.y/SCREENRESY, gl_FragCoord.z-0.001);
+	float edgefactor = GetEdgeContrastEnhancementFactor(tu7_2D, depthcoords);
 	finalcolor *= edgefactor*0.5+0.5;
 #endif
 	
