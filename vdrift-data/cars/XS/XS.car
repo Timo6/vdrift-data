@@ -203,14 +203,14 @@ c17=-1.1
 [ brakes-front ]
 friction = 0.4
 max-pressure = 4.0e6
-bias = 0.60
+bias = 0.65
 radius = 0.14
 area = 0.015
 
 [ brakes-rear ]
 friction = 0.4
 max-pressure = 4.0e6
-bias = 0.40
+bias = 0.35
 radius = 0.14
 area = 0.015
 handbrake = 1.0
