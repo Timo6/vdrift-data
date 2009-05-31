@@ -9,7 +9,8 @@ Import('*')
 src = ["roads.trk",
        "about.txt",
        "trackshot.png",
-       "track.txt"]
+       "track.txt",
+       "surfaces.txt"]
 
 #---------------------------------#
 # Distribute to src_dir & bin_dir #
