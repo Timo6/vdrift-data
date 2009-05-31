@@ -5073,7 +5073,7 @@ rmbl3a.bmp.png
 15.0
 0
 0
-1
+2
 
 #entry 267
 grass01.dof-03.joe
@@ -5092,7 +5092,7 @@ hillside.bmp.png
 0.0
 0
 0
-1
+2
 
 #entry 268
 grass02.dof-00.joe
@@ -5149,7 +5149,7 @@ rmbl3a.bmp.png
 15.0
 0
 0
-1
+2
 
 #entry 271
 grass02.dof-03.joe
@@ -5168,7 +5168,7 @@ hillside.bmp.png
 0.0
 0
 0
-1
+2
 
 #entry 272
 grass03.dof-00.joe
@@ -5225,7 +5225,7 @@ rmbl3a.bmp.png
 15.0
 0
 0
-1
+2
 
 #entry 275
 grass03.dof-03.joe
@@ -5244,7 +5244,7 @@ hillside.bmp.png
 0.0
 0
 0
-1
+2
 
 #entry 276
 grass04.dof-00.joe
@@ -5301,7 +5301,7 @@ rmbl3a.bmp.png
 15.0
 0
 0
-1
+2
 
 #entry 279
 grass04.dof-03.joe
@@ -5320,7 +5320,7 @@ hillside.bmp.png
 0.0
 0
 0
-1
+2
 
 #entry 280
 grass05.dof-00.joe
@@ -5377,7 +5377,7 @@ rmbl3a.bmp.png
 15.0
 0
 0
-1
+2
 
 #entry 283
 grass05.dof-03.joe
@@ -5396,7 +5396,7 @@ hillside.bmp.png
 0.0
 0
 0
-1
+2
 
 #entry 284
 grass06.dof-00.joe
@@ -5453,7 +5453,7 @@ rmbl3a.bmp.png
 15.0
 0
 0
-1
+2
 
 #entry 287
 grass06.dof-03.joe
@@ -5472,7 +5472,7 @@ hillside.bmp.png
 0.0
 0
 0
-1
+2
 
 #entry 288
 grass07.dof-00.joe
@@ -5529,7 +5529,7 @@ rmbl3a.bmp.png
 15.0
 0
 0
-1
+2
 
 #entry 291
 grass07.dof-03.joe
@@ -5548,7 +5548,7 @@ hillside.bmp.png
 0.0
 0
 0
-1
+2
 
 #entry 292
 grass08.dof-00.joe
@@ -5605,7 +5605,7 @@ rmbl3a.bmp.png
 15.0
 0
 0
-1
+2
 
 #entry 295
 grass08.dof-03.joe
@@ -5624,7 +5624,7 @@ hillside.bmp.png
 0.0
 0
 0
-1
+2
 
 #entry 296
 grass09.dof-00.joe
@@ -5681,7 +5681,7 @@ rmbl3a.bmp.png
 15.0
 0
 0
-1
+2
 
 #entry 299
 grass09.dof-03.joe
@@ -5700,7 +5700,7 @@ hillside.bmp.png
 0.0
 0
 0
-1
+2
 
 #entry 300
 grass10.dof-00.joe
@@ -5757,7 +5757,7 @@ rmbl3a.bmp.png
 15.0
 0
 0
-1
+2
 
 #entry 303
 grass10.dof-03.joe
@@ -5776,7 +5776,7 @@ hillside.bmp.png
 0.0
 0
 0
-1
+2
 
 #entry 304
 grass11.dof-00.joe
@@ -5833,7 +5833,7 @@ rmbl3a.bmp.png
 15.0
 0
 0
-1
+2
 
 #entry 307
 grass11.dof-03.joe
@@ -5852,7 +5852,7 @@ hillside.bmp.png
 0.0
 0
 0
-1
+2
 
 #entry 308
 grass12.dof-00.joe
@@ -5909,7 +5909,7 @@ rmbl3a.bmp.png
 15.0
 0
 0
-1
+2
 
 #entry 311
 grass12.dof-03.joe
@@ -5928,7 +5928,7 @@ hillside.bmp.png
 0.0
 0
 0
-1
+2
 
 #entry 312
 grass13.dof-00.joe
@@ -5985,7 +5985,7 @@ rmbl3a.bmp.png
 15.0
 0
 0
-1
+2
 
 #entry 315
 grass13.dof-03.joe
@@ -6004,7 +6004,7 @@ hillside.bmp.png
 0.0
 0
 0
-1
+2
 
 #entry 316
 grass14.dof-00.joe
@@ -6061,7 +6061,7 @@ rmbl3a.bmp.png
 15.0
 0
 0
-1
+2
 
 #entry 319
 grass14.dof-03.joe
@@ -6080,7 +6080,7 @@ hillside.bmp.png
 0.0
 0
 0
-1
+2
 
 #entry 320
 grass15.dof-00.joe
@@ -6137,7 +6137,7 @@ rmbl3a.bmp.png
 15.0
 0
 0
-1
+2
 
 #entry 323
 grass15.dof-03.joe
@@ -6156,7 +6156,7 @@ hillside.bmp.png
 0.0
 0
 0
-1
+2
 
 #entry 324
 grass16.dof-00.joe
@@ -6213,7 +6213,7 @@ rmbl3a.bmp.png
 15.0
 0
 0
-1
+2
 
 #entry 327
 grass16.dof-03.joe
@@ -6232,7 +6232,7 @@ hillside.bmp.png
 0.0
 0
 0
-1
+2
 
 #entry 328
 grass17.dof-00.joe
@@ -6289,7 +6289,7 @@ rmbl3a.bmp.png
 15.0
 0
 0
-1
+2
 
 #entry 331
 grass17.dof-03.joe
@@ -6308,7 +6308,7 @@ hillside.bmp.png
 0.0
 0
 0
-1
+2
 
 #entry 332
 grass18.dof-00.joe
@@ -6365,7 +6365,7 @@ rmbl3a.bmp.png
 15.0
 0
 0
-1
+2
 
 #entry 335
 grass19.dof-00.joe
@@ -6422,7 +6422,7 @@ rmbl3a.bmp.png
 15.0
 0
 0
-1
+2
 
 #entry 338
 grass19.dof-03.joe
@@ -6441,7 +6441,7 @@ hillside.bmp.png
 0.0
 0
 0
-1
+2
 
 #entry 339
 grass20.dof-00.joe
@@ -6498,7 +6498,7 @@ rmbl3a.bmp.png
 15.0
 0
 0
-1
+2
 
 #entry 342
 grass20.dof-03.joe
@@ -6517,7 +6517,7 @@ hillside.bmp.png
 0.0
 0
 0
-1
+2
 
 #entry 343
 grass21.dof-00.joe
@@ -6574,7 +6574,7 @@ rmbl3a.bmp.png
 15.0
 0
 0
-1
+2
 
 #entry 346
 grass21.dof-03.joe
@@ -6612,7 +6612,7 @@ rmbl1a.bmp.png
 0.0
 0
 0
-1
+4
 
 #entry 348
 grass22.dof-00.joe
@@ -6669,7 +6669,7 @@ rmbl3a.bmp.png
 15.0
 0
 0
-1
+2
 
 #entry 351
 grass23.dof-00.joe
@@ -6726,7 +6726,7 @@ rmbl3a.bmp.png
 15.0
 0
 0
-1
+2
 
 #entry 354
 grdr01.dof-00.joe
@@ -10412,7 +10412,7 @@ rmbl1a.bmp.png
 0.0
 0
 0
-1
+4
 
 #entry 548
 ptlit01.dof-05.joe
@@ -10469,7 +10469,7 @@ rmbl1a.bmp.png
 0.0
 0
 0
-1
+4
 
 #entry 551
 road01.dof-00.joe
@@ -10678,7 +10678,7 @@ rmbl4a.bmp.png
 50.0
 0
 0
-1
+4
 
 #entry 562
 road05.dof-00.joe
@@ -10726,7 +10726,7 @@ roadcob.bmp.png
 0
 0
 0.2
-0.3
+0.03
 0
 1
 0.9
@@ -10735,7 +10735,7 @@ roadcob.bmp.png
 5.0
 0
 0
-1
+6
 
 #entry 565
 road05.dof-03.joe
@@ -10754,7 +10754,7 @@ rmbl1a.bmp.png
 0.0
 0
 0
-1
+4
 
 #entry 566
 road05.dof-04.joe
@@ -10773,7 +10773,7 @@ rmbl4a.bmp.png
 50.0
 0
 0
-1
+4
 
 #entry 567
 road06.dof-00.joe
@@ -11077,7 +11077,7 @@ rmbl4a.bmp.png
 50.0
 0
 0
-1
+4
 
 #entry 583
 road13.dof-00.joe
@@ -11172,7 +11172,7 @@ roadlane.bmp.png
 0.0
 0
 0
-1
+4
 
 #entry 588
 roadpit.dof-01.joe
@@ -11210,7 +11210,7 @@ roadpit.bmp.png
 0.0
 0
 0
-1
+3
 
 #entry 590
 roadpit.dof-03.joe
@@ -11229,7 +11229,7 @@ paddock.bmp.png
 0.0
 0
 0
-1
+4
 
 #entry 591
 roadpit.dof-04.joe
@@ -13566,7 +13566,7 @@ rmbl1a.bmp.png
 0.0
 0
 0
-1
+4
 
 #entry 714
 tent01.dof-00.joe
@@ -16701,7 +16701,7 @@ tvarea.bmp.png
 0.0
 0
 0
-1
+4
 
 #entry 879
 tvbuildings.dof-00.joe
