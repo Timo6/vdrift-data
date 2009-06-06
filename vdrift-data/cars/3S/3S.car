@@ -11,7 +11,7 @@ mass = 200.0
 max-power = 119360
 peak-engine-rpm = 6500
 rpm-limit = 8000.0
-inertia = 0.5
+inertia = 0.25
 idle = 0.025
 start-rpm = 1000
 stall-rpm = 500
@@ -35,7 +35,7 @@ torque-curve-12 = 7000, 153
 sliding = 0.27
 radius = 0.1
 area = 0.75
-max-pressure = 1.1e4
+max-pressure = 3e4
 
 [ transmission ]
 gears = 5
@@ -192,14 +192,14 @@ c17=0.0114
 [ brakes-front ]
 friction = 0.9
 max-pressure = 3.0e6
-bias = 0.5
+bias = 0.6
 radius = 0.1397
 area = 0.01
 
 [ brakes-rear ]
 friction = 0.9
 max-pressure = 3.0e6
-bias = 0.5
+bias = 0.4
 radius = 0.1397
 area = 0.01
 handbrake = 1.0
