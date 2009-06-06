@@ -83,8 +83,6 @@ float unpackFloatFromVec2i(const vec2 value)
 float shadow_comparison(sampler2D tu, vec2 uv, float comparison)
 {
 	float lookupvalue = unpackFloatFromVec3i(texture2D(tu, uv).rgb);
-	//if (lookupvalue < 0.5+1.5/256.0) lookupvalue -= 1.0/256.0;
-	//return clamp((lookupvalue - comparison)*100.0,-0.5,0.5)+0.5;
 	return lookupvalue > comparison ? 1.0 : 0.0;
 }
 
@@ -358,7 +356,9 @@ vec3 EffectStrength(vec3 val, float coeff)
 
 float ColorCorrectfloat(in float x)
 {
-	return pow(x,5.0)*5.23878+pow(x,4.0)*-14.45564+pow(x,3.0)*12.6883+pow(x,2.0)*-3.78462+x*1.31897-.01041;
+	//return pow(x,5.0)*5.23878+pow(x,4.0)*-14.45564+pow(x,3.0)*12.6883+pow(x,2.0)*-3.78462+x*1.31897-.01041;
+    return (1.-pow(1.-clamp(x,0.,1.),1.5))*1.2-0.2;
+    //return x;
 }
 
 vec3 ColorCorrect(in vec3 val)
@@ -382,31 +382,29 @@ void main()
 	float gloss = tu1_2D_val.r;
 	float metallic = tu1_2D_val.g;
 	
+    //basic diffuse calculation
 	float difdot = dot(normnormal,normlightposition);
-	
+    
+    //diffuse after taking into account shadow.  the pow lightens the effect of dark areas.
 	float diffusefactor = (1.0-pow(1.0-max(difdot,0.0),2.0))*notshadowfinal;
-	//diffusefactor = clamp(diffusefactor, 0.0, 1.0);
-	//float diffusefactor = max(difdot,0.0)*notshadowfinal;
 	
+    //basic specular calculation
 	float specval = max(dot(reflect(normviewdir,normnormal),normlightposition),0.0);
-	//vec3 halfvec = normalize(normviewdir + normlightposition);
-	//float specval = max(0.0,dot(normnormal,halfvec));
-	
-	//float env_factor = min(pow(1.0-max(0.0,dot(-normviewdir,normnormal)),3.0),0.6)*0.75+0.2;
-	const float rf0 = 0.05;
-	float env_factor = rf0+(1.0-rf0)*pow(1.0-dot(-normviewdir,normnormal),3.0); //Schlick approximation of fresnel reflectance with modified power; see Real Time Rendering third edition p. 233
-	env_factor *= 2.0;
-	//env_factor *= 0.8; //don't let it get TOO shiny
-	env_factor = min(env_factor, 1.0);
-	
-	//float spec = ((max((pow(specval,512.0)-0.5)*2.0,0.0))*metallic+pow(specval,12.0)*(0.4+(1.0-metallic)*0.8))*gloss;
-	//float spec = ((max((pow(specval,512.0)-0.5)*2.0,0.0))*metallic+pow(specval,8.0)*(0.4+(1.0-metallic)*0.8))*gloss;
-	//float spec = max((pow(specval,512.0)-0.5)*2.0,0.0)*metallic+mix(pow(specval,4.0)*1.2*gloss,pow(specval,8.0)*gloss*0.5,metallic);
-	//vec3 spec = metallic*vec3(2.)*max((pow(specval,512.0)-0.5)*2.0,0.0)+gloss*pow(specval,4.0)*1.2*gloss*mix(vec3(1.),max(vec3(0.),(texcolor-vec3(0.2))*2.0),metallic);//mix(pow(specval,4.0)*1.2*gloss,pow(specval,8.0)*gloss*0.5,metallic);
-	vec3 spec = metallic*vec3(2.)*max((pow(specval,512.0)-0.5)*2.0,0.0)+gloss*pow(specval,4.0)*1.2*gloss*(1.0-metallic*0.75);
+
+    //Schlick approximation of fresnel reflectance; see Real Time Rendering third edition p. 233
+	const float rf0 = 0.1;
+	float env_factor = rf0+(1.0-rf0)*pow(1.0-dot(-normviewdir,normnormal),5.0);
+	env_factor = min(env_factor, 0.8)*1.8;
+    
+    //fake fresnel reflectance approximation used to make metallic objects look shiny straight-on
+    //float metallic_shiny = pow(specval,2.0)+specval;
+    float metallic_shiny = pow(specval,2.0);
+    //metallic_shiny = min(metallic_shiny, 1.0);
+    //float metallic_shiny = specval;
 	
 	#ifndef _REFLECTIONDISABLED_
-	vec3 refmapdir = reflect(normviewdir,normnormal);
+	//vec3 refmapdir = reflect(normalize(vec3(normviewdir.xy,-.1)),normnormal);
+    vec3 refmapdir = reflect(normviewdir,normnormal);
 	refmapdir = mat3(gl_TextureMatrix[2]) * refmapdir;
 	vec3 specular_environment = textureCube(tu2_cube, refmapdir).rgb;
 	#else
@@ -416,38 +414,15 @@ void main()
 	vec3 ambientmapdir = mat3(gl_TextureMatrix[2]) * normnormal;
 	vec3 ambient_light = textureCube(tu3_cube, ambientmapdir).rgb;
 	
-	//float inv_environment = 1.0 - (env_factor*metallic);
-	//float invgloss = (1.0-gloss);
-	
-	/*vec3 ambient = texcolor*ambient_light;//*(1.0+min(difdot,0.0));
-	vec3 ambientfinal = ambient*0.5;//mix(ambient*0.5,ambient*0.2,metallic);
-	//vec3 specularfinal = specular_environment*(env_factor*(metallic*0.5+0.5)+spec*notshadowfinal);
-	//vec3 specularfinal = specular_environment*(env_factor*metallic+spec*notshadowfinal);
-	//vec3 specularfinal = texcolor*metallic*pow(specval,4.0) + vec3(1.0)*(spec*notshadowfinal) + specular_environment*(env_factor*metallic);
-	vec3 specularfinal = spec*notshadowfinal + specular_environment*(env_factor*metallic);
-	vec3 additivefinal = tu7_2D_val.rgb;
-	
-	vec3 diffusefinal = texcolor * diffuse;
-	
-	//vec3 finalcolor = (ambient*0.5 + diffuse*0.8*max(0.7,invgloss))*(inv_environment*0.5+0.5) + vec3(spec)*notshadowfinal + specular_environment*max(0.5,notshadowfinal) + tu3_2D_val.rgb;
-	//vec3 finalcolor = (ambient*0.5 + diffuse*0.8*max(0.7,invgloss))*(1.0-metallic*env_factor) + vec3(spec)*notshadowfinal + specular_environment*max(0.5,notshadowfinal)*env_factor*1.2 + tu3_2D_val.rgb;
-	//vec3 finalcolor = (ambientfinal + diffusefinal)*(1.0-metallic*(env_factor*0.65+0.35)) + specularfinal + additivefinal;
-	//vec3 finalcolor = ambientfinal + diffuse + specularfinal + additivefinal;
-	vec3 finalcolor = ambientfinal*(1.0-metallic)+((diffuse+(1.0-env_factor)*metallic)*texcolor*(1.0-metallic*0.5) + specularfinal)*(1.+metallic*.2) + additivefinal;*/
-	
-	float viewdotnorm = max(0.0,dot(-normviewdir,normnormal));
+	/*float viewdotnorm = max(0.0,dot(-normviewdir,normnormal));
 	
 	vec3 ambient = ambient_light;//*vec3(0.7882353, 0.8784314, 0.8823529);
-	//vec3 diffuse = diffusefactor*vec3(0.9686275, 0.9568627, 0.8901961);
 	float metallicdiffuse = 0.05;
-	//vec3 diffuse = mix(diffusefactor,EffectStrength(diffusefactor,metallicdiffuse),metallic)*vec3(1,1,1);
 	float minmetallicdiffuse = 0.7;
 	vec3 diffuse = mix(diffusefactor,max(diffusefactor,minmetallicdiffuse),metallic)*vec3(1,1,1);
 	vec3 additive = tu8_2D_val.rgb;
 	float viewdotnormpow = pow(viewdotnorm,3.0);
 	vec3 texcolormod = mix(texcolor,ContrastSaturationBrightness(texcolor,EffectStrength(viewdotnormpow,0.0),EffectStrength(viewdotnormpow,0.5),1.0),metallic);
-	//vec3 texcolormod = texcolor;
-	//vec3 diffusetexcolor = mix(texcolormod*vec3(0.7882353, 0.8784314, 0.8823529),texcolormod,diffusefactor);
 	vec3 diffusetexcolor = texcolormod;
 	
 	const float saturationeffectmin = 0.3;
@@ -458,57 +433,36 @@ void main()
 	float brightnesseffect = mix(1.0,mix(brightnesseffectmin,brightnesseffectmax,viewdotnorm),metallic);
 	
 	const float myrf0 = 0.15;
-	float myenv_factor = myrf0+(1.0-myrf0)*pow(1.0-viewdotnorm,3.0); //Schlick approximation of fresnel reflectance with modified power; see Real Time Rendering third edition p. 233
+	float myenv_factor = myrf0+(1.0-myrf0)*pow(1.0-viewdotnorm,2.0); //Schlick approximation of fresnel reflectance with modified power; see Real Time Rendering third edition p. 233
 	vec3 specular = mix(0.0,myenv_factor,metallic)*specular_environment*1.0;
 	
 	const float lightenfactor = 0.6;
 	const float lightenpower = 3.0;
-	float diffuseadd = mix(0.0,min(pow(viewdotnorm,lightenpower),lightenfactor),metallic);
+	 float diffuseadd = mix(0.0,min(pow(1.-myenv_factor,lightenpower),lightenfactor),metallic);
 	
-	//vec3 finalcolor = ContrastSaturationBrightness((diffuse + ambient*0.65)*diffusetexcolor,1.0,saturationeffect,brightnesseffect) + specular*0.0 + additive;
-	//vec3 finalcolor = BlendOverlay(((diffuse + ambient*0.65)*diffusetexcolor), mix(vec3(0.5),(specular*2.0),metallic)) + additive;
-	//vec3 finalcolor = pow((diffuse + ambient*0.65)*diffusetexcolor + specular*1.0,vec3(mix(1.0,1.4,metallic))) + spec*diffusefactor + additive;
-	vec3 finalcolor = pow(min(EffectStrength(diffuse,0.5),ambient)*diffusetexcolor + specular*1.0,vec3(mix(1.0,1.4,metallic))) + spec*diffusefactor + additive;
-	//float diffusefade = clamp(-viewdir.z*0.01,0.0,1.0)*0.5;
-	//vec3 finalcolor = pow(mix(diffuse+ambient*0.5,ambient*1.5,diffusefade)*diffusetexcolor + specular*1.0,vec3(mix(1.0,1.4,metallic))) + spec*diffusefactor + additive;
-	//vec3 finalcolor = spec;
-	//vec3 finalcolor = vec3(env_factor);
-	//vec3 finalcolor = mix(texcolor,max(vec3(0.),(texcolor-vec3(0.2))*2.0),diffusefactor) + additive;
-	//vec3 finalcolor = ContrastSaturationBrightness(texcolor, 1.0, diffusefactor*0.5+0.75, 1.0)*(diffuse+ambient*0.9);
-	//vec3 finalcolor = ambient*vec3(0.7882353, 0.8784314, 0.8823529);
-	
-	//do post-processing
-	/*const float onethird = 1./3.;
-	finalcolor = clamp(finalcolor,0.0,3.0);
-	float avg = dot(finalcolor,vec3(onethird));
-	//finalcolor *= onethird;
-	//finalcolor *= 1.-pow(1.-avg,2.0);
-	finalcolor = finalcolor / (avg+2.);
-	finalcolor *= 2.5;*/
-	//finalcolor /= 3.0;
-	//finalcolor = clamp(finalcolor,0.0,1.0);
-	//finalcolor = BlendScreen(finalcolor, finalcolor);
-	///finalcolor = BlendScreen(finalcolor, finalcolor);
-	//finalcolor = mix(BlendOverlay(finalcolor, finalcolor),finalcolor, 0.6);
-	//finalcolor = BlendOverlay(finalcolor, finalcolor);
-	//finalcolor = ContrastSaturationBrightness(finalcolor, 1.0, 0.5, 1.0);
-	//finalcolor = BlendSoftLight(finalcolor, finalcolor);
-	//finalcolor = LevelsControlInputRange(finalcolor, 0.07843137, 0.9215686);
-	//finalcolor = ContrastSaturationBrightness(finalcolor, 1.5, 0.5, 1.0);
-	//finalcolor = texcolor*mix(diffuse,ambient,0.0);
-	//finalcolor = mix(diffuse,ambient,0.7);
-	//finalcolor = min(EffectStrength(diffuse,0.3),ambient);
-	//finalcolor = texcolor*min(EffectStrength(diffuse,0.3),ambient);
-	/*finalcolor = clamp(finalcolor,0.0,1.0);
-	finalcolor = mix(finalcolor,3.0*finalcolor*finalcolor-2.0*finalcolor*finalcolor*finalcolor,1.0);
-	finalcolor = ContrastSaturationBrightness(finalcolor, 1.0, 0.7, 1.0);*/
-	//finalcolor = GammaCorrection(finalcolor, vec3(1.5));
-	finalcolor = ColorCorrect(finalcolor);
-	finalcolor = ContrastSaturationBrightness(finalcolor, contrast, 1.0/contrast, (contrast-1.0)*0.5+1.0);
-	finalcolor = clamp(finalcolor,0.0,1.0);
-	//finalcolor = ((finalcolor-0.5)*1.2)+0.5;
-	
-	//finalcolor *= smoothstep(0.0,1.0,dot(finalcolor,vec3(onethird)))/avg;
+	vec3 finalcolor = pow(min(EffectStrength(diffuse,0.5),ambient)*diffusetexcolor + specular*1.0,vec3(mix(1.0,1.4,metallic))) + spec*diffusefactor + additive;*/
+    
+    //float spec_add_gloss = gloss*pow(specval,4.0)*1.2*gloss*(1.0-metallic*0.75);
+    float spec_add_highlight = metallic*2.0*max((pow(specval,512.0)-0.5)*2.0,0.0);
+    //float metallicshine_default1 = mix(1.0,metallicshine,metallic);
+    //float metallicshine_default0 = (metallicshine)*metallic;
+    //vec3 texcolor_dark = pow(texcolor,vec3(1.0+metallicshine_default0));
+    
+    //vec3 finalcolor = 0.5*(ambient_light*texcolor+texcolor*diffusefactor*metallicshine_default1)+metallicshine_default0-(1.0-metallicshine_default1)*0.0+specular_environment*env_factor*gloss;
+    //vec3 finalcolor = 0.5*(ambient_light*texcolor+texcolor*diffusefactor)-(1.0-metallicshine_default1)*0.0+specular_environment*env_factor*gloss;
+    //vec3 finalcolor = 0.5*(ambient_light*texcolor_dark+texcolor_dark*diffusefactor*metallicshine_default1)+metallicshine_default0*0.0+specular_environment*env_factor*gloss+spec_add_highlight;
+    //vec3 finalcolor = texcolor*diffusefactor*specular_environment*ambient_light;
+    vec3 specular = specular_environment*env_factor*gloss*EffectStrength(diffusefactor,0.2);
+    //vec3 metallicdiffuse = ((1.0-env_factor*0.3)*(texcolor*(1.0+metallic_shiny*0.4)))*EffectStrength(diffusefactor,0.2);
+    vec3 metallicdiffuse = ((0.85-env_factor*0.2)*(texcolor+metallic_shiny*0.5))*EffectStrength(diffusefactor,0.2);
+    vec3 diffuse = mix(texcolor*mix(vec3(diffusefactor),ambient_light,0.6)*1.1,metallicdiffuse,metallic);
+    vec3 additive = tu8_2D_val.rgb;
+    vec3 finalcolor = diffuse+specular+vec3(spec_add_highlight)+additive;
+    //finalcolor=vec3(metallic_shiny);
+    
+    //finalcolor = ColorCorrect(finalcolor);
+    finalcolor = ContrastSaturationBrightness(finalcolor, contrast, 1.0/contrast, (contrast-1.0)*0.5+1.0);
+    finalcolor = clamp(finalcolor,0.0,1.0);
 	
 #ifdef _EDGECONTRASTENHANCEMENT_
 	vec3 depthcoords = vec3(gl_FragCoord.x/SCREENRESX, gl_FragCoord.y/SCREENRESY, gl_FragCoord.z-0.001);
@@ -517,49 +471,13 @@ void main()
 #endif
 	
 	gl_FragColor.rgb = finalcolor;
-	//gl_FragColor.rgb = vec3(edgefactor);
-	//gl_FragColor.rgb = vec3(diffusefade);
-	//gl_FragColor.rgb = ambientfinal+diffuse*(1.0-metallic*(env_factor*0.65+0.35)); 
-	//gl_FragColor.rgb = specularfinal;
-	//gl_FragColor.rgb = vec3(env_factor);
-	/*float r = 0;
-	if (!effect0)
-	  r = 1;
-	float g = 0;
-	if (!effect1)
-	  g = 1;
-	gl_FragColor.rgb = vec3(r,g,0);*/
-	//gl_FragColor.rgb = vec3(pow(specval,1.0));
-	//gl_FragColor.rgb = textureCube(tu2_cube, refmapdir).rgb;
-	//gl_FragColor.rgb = normviewdir;
-	//gl_FragColor.rgb = normnormal;
-	//gl_FragColor.rgb = vec3(max(dot(normnormal,normalize(vec3(gl_LightSource[0].position))),0.0));
-	//gl_FragColor.rgb = normlightposition;
-	//gl_FragColor.rgb = vec3(max(dot(normnormal,normlightposition),0.0));
-	//gl_FragColor.rgb = tu0_2D_val.rgb;
-	//gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);
-	
-	//vec2 debugcoords = vec2(gl_FragCoord.x/1024.0,gl_FragCoord.y/768.0);
-	//gl_FragColor.rgb = texture2D(tu4_2D, debugcoords).rgb;
-	//gl_FragColor.rgb = vec3(unpackFloatFromVec3i(texture2D(tu4_2D, debugcoords).rgb));
-	//gl_FragColor.rgb = vec3(unpackFloatFromVec4i(texture2D(tu4_2D, debugcoords)));
-	//gl_FragColor.rgb = vec3(unpackFloatFromVec2i(texture2D(tu4_2D, debugcoords).rg));
-	
-	//float alpha = (tu0_2D_val.a*gl_Color.a-0.5)*20.0+0.5;
 	
 #ifdef _ALPHATEST_
-	//float width = clamp((dFdx(texcoord_2d.x)+dFdy(texcoord_2d.x)) * diffuse_texture_width * 0.5,0.0,0.5);
-	//float height = clamp((dFdy(texcoord_2d.y)+dFdy(texcoord_2d.y)) * diffuse_texture_height * 0.5,0.0,0.5);
 	float width = clamp(dFdx(texcoord_2d.x) * diffuse_texture_width * 0.5,0.0,0.5);
-	//float alphasize = max(width,height);
 	float alpha = smoothstep(0.5-width, 0.5+width, tu0_2D_val.a);
-	//float alpha = smoothstep(0.5-alphasize, 0.5+alphasize, tu0_2D_val.a);
 #else
 	float alpha = tu0_2D_val.a;
 #endif
 	
-	//gl_FragColor.rgb = vec3(diffuse_texture_width/1024.0);
-	
 	gl_FragColor.a = alpha*gl_Color.a;
-	//gl_FragColor.a = tu0_2D_val.a;
 }
