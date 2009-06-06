@@ -73,11 +73,9 @@ max-power = 313000
 peak-engine-rpm = 8500
 rpm-limit = 9000.0
 inertia = 0.25
-idle = 0.08 # idle is the throttle position at idle
 start-rpm = 1000
 stall-rpm = 500
 fuel-consumption = 0.0001
-torque-friction = 0.0005
 #
 #	P = M x n x 0.10472 
 #	HP = 0.7355 x P (KW)
