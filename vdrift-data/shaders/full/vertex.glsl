@@ -16,12 +16,8 @@ void main()
 {
 	//transform the vertex
 	gl_Position = ftransform();
-	//gl_Position = gl_ProjectionMatrix * gl_ModelViewMatrix * gl_Vertex;
-	//gl_Position = gl_ProjectionMatrix * gl_TextureMatrixInverse[3] * gl_TextureMatrix[3] * gl_ModelViewMatrix * gl_Vertex;
-	
+ 
 	#ifdef _SHADOWS_
-	//projshadow_0 = gl_TextureMatrix[4] * (gl_TextureMatrix[2] * (gl_ModelViewMatrix * gl_Vertex));
-	//projshadow_1 = gl_TextureMatrix[5] * (gl_TextureMatrix[2] * (gl_ModelViewMatrix * gl_Vertex));
 	projshadow_0 = gl_TextureMatrix[4] * gl_TextureMatrixInverse[3] * gl_ModelViewMatrix * gl_Vertex;
 	#ifdef _CSM2_
 	projshadow_1 = gl_TextureMatrix[5] * gl_TextureMatrixInverse[3] * gl_ModelViewMatrix * gl_Vertex;
@@ -29,8 +25,6 @@ void main()
 	#ifdef _CSM3_
 	projshadow_2 = gl_TextureMatrix[6] * gl_TextureMatrixInverse[3] * gl_ModelViewMatrix * gl_Vertex;
 	#endif
-	//projshadow_0 = gl_TextureMatrix[4] * gl_Vertex;
-	//projshadow_1 = gl_TextureMatrix[5] * gl_Vertex;
 	#endif
 	
 	//set the color
