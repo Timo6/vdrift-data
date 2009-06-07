@@ -208,12 +208,11 @@ default = 0
 cancel = 0
 
 [ widget-11 ]
-type = toggle
-name = RecordReplayToggle
-setting = game.record
+type = slider
+name = AIDifficultySlider
+setting = game.ai_difficulty
 values = options
-center = 0.5, 0.7
-spacing = 0.3
+center = 0.5, 0.74
 width = auto
 height = auto
 fontsize = 6
@@ -227,7 +226,7 @@ type = toggle
 name = ReverseTrackToggle
 setting = game.reverse
 values = options
-center = 0.5, 0.74
+center = 0.5, 0.7
 spacing = 0.3
 width = auto
 height = auto
