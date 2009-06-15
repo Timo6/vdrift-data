@@ -3,8 +3,7 @@ uniform sampler2D tu1_2D; //misc map (includes gloss on R channel, metallic on G
 //uniform samplerCube tu3_cube; //ambient light cube map
 
 //width and height of the diffuse texture, in pixels
-uniform float diffuse_texture_width;
-uniform float diffuse_texture_height;
+//uniform float diffuse_texture_width;
 
 uniform float contrast;
 
@@ -435,7 +434,8 @@ void main()
 	gl_FragColor.rgb = finalcolor;
 	
 #ifdef _ALPHATEST_
-	float width = clamp(dFdx(texcoord_2d.x) * diffuse_texture_width * 0.5,0.0,0.5);
+	//float width = clamp(dFdx(texcoord_2d.x) * diffuse_texture_width * 0.5,0.0,0.5);
+	float width = clamp(dFdx(texcoord_2d.x) * 512.0 * 0.5,0.0,0.5);
 	float alpha = smoothstep(0.5-width, 0.5+width, tu0_2D_val.a);
 #else
 	float alpha = tu0_2D_val.a;
