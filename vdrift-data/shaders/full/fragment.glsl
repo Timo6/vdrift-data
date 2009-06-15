@@ -22,7 +22,7 @@ uniform sampler2DShadow tu6_2D; //far far shadow map
 #endif
 #endif
 
-#define _FANCIERSHADOWBLENDING_
+//#define _FANCIERSHADOWBLENDING_
 
 #ifndef _REFLECTIONDISABLED_
 uniform samplerCube tu2_cube; //reflection map
@@ -275,33 +275,28 @@ float GetShadows()
 	}
 	#endif //no fancier shadow blending
 	
-	/*bool effect0 = viewdir.z < -8;
-	bool effect1 = viewdir.z < -50;
-	bool effect2 = viewdir.z < -100;*/
-	
-	/*effect0 = true;
-	effect1 = false;
-	effect2 = false;*/
-	
 	//shadow lookup that works better with ATI cards:  no early out
 	float notshadow[numcsm];
 	notshadow[0] = shadow_lookup(tu4_2D, shadowcoords[0]);
 	#ifdef _CSM2_
-	notshadow[1] = shadow2D(tu5_2D, shadowcoords[1]).r;
+	notshadow[1] = shadow_lookup(tu5_2D, shadowcoords[1]);
 	#endif
 	#ifdef _CSM3_
-	notshadow[2] = shadow2D(tu6_2D, shadowcoords[2]).r;
+	notshadow[2] = shadow_lookup(tu6_2D, shadowcoords[2]);
 	#endif
 	
 	//simple shadow mixing, no shadow fade-in
 	#ifndef _FANCIERSHADOWBLENDING_
-	float notshadowfinal = notshadow[0];
+	//float notshadowfinal = notshadow[0];
+	float notshadowfinal = max(notshadow[0],float(effect[0]));
 	#ifdef _CSM3_
 	notshadowfinal = mix(notshadowfinal,mix(notshadow[1],notshadow[2],float(effect[1])),float(effect[0]));
 	notshadowfinal = max(notshadowfinal,float(effect[2]));
-	#else //CSM2
+	#else
+	#ifdef _CSM2_
 	notshadowfinal = mix(notshadowfinal,notshadow[1],float(effect[0]));
 	notshadowfinal = max(notshadowfinal,float(effect[1]));
+	#endif
 	#endif
 	#endif //no fancier shadow blending
 	
@@ -344,6 +339,10 @@ float GetShadows()
 	#endif
 
 	return notshadowfinal;
+	//return notshadow[2];
+	//return max(shadow_lookup(tu6_2D, shadowcoords[2]),float(effect[2]));
+	//return float(effect[0])*0.25+float(effect[1])*0.25+float(effect[2])*0.25;
+	//return float(effect[0]);
 }
 
 float EffectStrength(float val, float coeff)
