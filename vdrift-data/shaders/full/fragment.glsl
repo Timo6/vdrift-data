@@ -22,7 +22,7 @@ uniform sampler2DShadow tu6_2D; //far far shadow map
 #endif
 #endif
 
-//#define _FANCIERSHADOWBLENDING_
+#define _FANCIERSHADOWBLENDING_
 
 #ifndef _REFLECTIONDISABLED_
 uniform samplerCube tu2_cube; //reflection map
@@ -39,6 +39,8 @@ uniform vec3 lightposition;
 varying vec2 texcoord_2d;
 varying vec3 normal_eye;
 varying vec3 viewdir;
+varying vec3 refmapdir;
+
 #ifdef _SHADOWS_
 varying vec4 projshadow_0;
 #ifdef _CSM2_
@@ -404,8 +406,8 @@ void main()
     
     #ifndef _REFLECTIONDISABLED_
     //vec3 refmapdir = reflect(normalize(vec3(normviewdir.xy,-.1)),normnormal);
-    vec3 refmapdir = reflect(normviewdir,normnormal);
-    refmapdir = mat3(gl_TextureMatrix[2]) * refmapdir;
+    /*vec3 refmapdir = reflect(normviewdir,normnormal);
+    refmapdir = mat3(gl_TextureMatrix[2]) * refmapdir;*/
     vec3 specular_environment = textureCube(tu2_cube, refmapdir).rgb;
     #else
     vec3 specular_environment = vec3(0,0,0);

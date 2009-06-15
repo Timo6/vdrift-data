@@ -11,6 +11,7 @@ varying vec4 projshadow_2;
 varying vec2 texcoord_2d;
 varying vec3 normal_eye;
 varying vec3 viewdir;
+varying vec3 refmapdir;
 
 void main()
 {
@@ -41,4 +42,10 @@ void main()
 	
 	//compute the eyespace view direction
 	viewdir = vec3(ecposition)/ecposition.w;
+	
+	#ifndef _REFLECTIONDISABLED_
+	refmapdir = vec3(gl_TextureMatrix[2] * vec4(reflect(viewdir, normal_eye),0));
+	#else
+	refmapdir = vec3(0);
+	#endif
 }
