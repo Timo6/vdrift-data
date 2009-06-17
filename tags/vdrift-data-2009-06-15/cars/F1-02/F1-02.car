@@ -1,0 +1,391 @@
+drive = RWD
+version = 2
+
+# F1-02   (v. F1-5_1_0)
+# universal version for all tracks ...
+# realistic scale
+# realistic weight and downforce distribution
+# ---------
+# Updated to Vers. 5.1.0 20080122 by cologne
+# 20080122 published
+# ---------
+# Updated to Vers. 5.0.4 20080118 by cologne
+# 20080118 lowered engine inertia
+# ---------
+# Updated to Vers. 5.0.2 20080102 by cologne
+# 20080108 changed brake-force distribution ( 69/31 -> 63/37 ) 
+# ---------
+# FIA-Regulations: Front wheels must be between 305 and 355mm wide, the rears between 365 and 380mm.
+# With tyres fitted the wheels must be no more than 660mm in diameter (670mm with wet-weather tyres).
+# "Cars must weight at least 605kg (including the driver) at all times"
+#
+# total weight	673,00 at start
+# wheelbase:	3,13
+# weight distribution	(front/rear))		44% / 56%
+# centre of mass -0,22
+# centre of downforce -0,20
+#
+# length, width, height :: X(+front), Y(+left), Z(+up)
+#
+
+[ steering ]
+max-angle = 42.00	# needed for Monaco track
+#max-angle = 33.00	# normal tracks
+exponent = 1.0
+
+[ engine ]
+position = 0.0, -0.70, -0.40
+mass = 95.0
+max-power = 633844
+peak-engine-rpm = 19000.0
+rpm-limit = 19500.0
+inertia = 0.2
+idle = 0.08
+start-rpm = 4000
+stall-rpm = 1500	# better driveable
+#stall-rpm = 3500	# more realistic
+fuel-consumption = 6e-9
+torque-friction = 0.0001
+torque-curve-00 = 1800, 90.00
+torque-curve-01 = 2600, 110.59
+torque-curve-02 = 3300, 135.59
+torque-curve-03 = 3750, 160.21
+torque-curve-04 = 4000, 190.47
+torque-curve-05 = 4250, 202.15
+torque-curve-06 = 4500, 211.56
+torque-curve-07 = 5000, 218.78
+torque-curve-08 = 5500, 225.23
+torque-curve-09 = 6000, 237.37
+torque-curve-10 = 6500, 238.89
+torque-curve-11 = 7000, 242.69
+torque-curve-12 = 7500, 243.43
+torque-curve-13 = 8000, 244.91
+torque-curve-14 = 8500, 246.27
+torque-curve-15 = 9000, 248.95
+torque-curve-16 = 9600, 250.20
+torque-curve-17 = 10000, 259.65
+torque-curve-18 = 10500, 269.78
+torque-curve-19 = 11000, 295.51
+torque-curve-20 = 12000, 320.00
+torque-curve-21 = 13000, 330.00
+torque-curve-22 = 14000, 347.00
+torque-curve-23 = 15000, 330.00
+torque-curve-24 = 16000, 320.00
+torque-curve-25 = 17000, 310.00
+torque-curve-26 = 18000, 300.00
+torque-curve-27 = 19000, 290.00
+torque-curve-28 = 20000, 280.00
+
+[ clutch ]
+sliding = 0.10
+radius = 0.15
+area = 0.90
+max-pressure = 70000.00
+
+[ transmission ]
+gears = 7
+gear-ratio-r = -4.5
+#gear-ratio-1 = 4.8
+gear-ratio-1 = 4.5
+gear-ratio-2 = 3.60
+gear-ratio-3 = 3.00
+gear-ratio-4 = 2.60
+gear-ratio-5 = 2.30
+gear-ratio-6 = 2.05
+gear-ratio-7 = 1.90 
+shift-delay = 0.00
+shift-time = 0.05
+
+[ differential ]
+#final-drive = 4.0	# max ca 320 km/h (final-drive = 4.0)
+#final-drive = 3.8	# max ca 334 km/h (final-drive = 3.8)
+final-drive = 3.7	# max ca 340 km/h (final-drive = 3.7)
+anti-slip = 300.0
+
+[ fuel-tank ]
+position = -0.00, -0.30, -0.30 
+capacity = 180
+volume = 76
+fuel-density = 0.8
+
+[ suspension-front ]
+spring-constant = 450000
+bounce = 3000	## Druckstufe 1/3 - 1/4
+rebound = 8000	## Zugstufe
+travel = 0.07	## Federweg
+max-compression-velocity = 10.0
+camber = -1.00	## Radsturz
+caster = 0.12	## Nachlauf
+toe = 0.9		## Vorspur?
+anti-roll = 10000	## Stabilisator
+
+[ suspension-rear ]
+spring-constant = 600000
+bounce = 4000	## Druckstufe 1/3 - 1/4
+rebound = 12000	## Zugstufe
+travel = 0.09	## Federweg
+max-compression-velocity = 10.0
+camber = -0.50	## Radsturz
+caster = 0.28	## Nachlauf
+toe = 0.0	## Vorspur?
+anti-roll = 15000	## Stabilisator
+
+
+[ tire-front ]
+radius = 0.33	# FIA: max 660mm in diameter (670mm with wet-weather tyres)
+rolling-resistance = 1.3e-2, 6.5e-6
+rotational-inertia = 2.0
+tread = 0.0
+#--------	Lateral force
+a0=1.39			#	Shape factor												A0
+a1=-90			#	Load infl. on lat. friction coeff (*1000)  (1/kN)			A1
+a2=1900			#	Lateral friction coefficient at load = 0 (*1000)			A2
+a3=2900			#	Maximum stiffness   (N/deg)									A3
+a4=7.2			#	Load at maximum stiffness   (kN)							A4
+a5=0.024		#	Camber influence on stiffness   (%/deg/100)					A5
+a6=-0.24		#	Curvature change with load									A6
+a7=1.0			#	Curvature at load = 0										A7
+a8=-0.03		#	Horizontal shift because of camber  (deg/deg)				A8
+a9=-0.0013		#	Load influence on horizontal shift  (deg/kN)				A9
+a10=-0.15		#	Horizontal shift at load = 0  (deg)							A10
+a111=-8.5		#	Camber influence on vertical shift  (N/deg/kN)				A11.1
+a112=-0.29		#	Camber influence on vertical shift  (N/deg/kN**2)			A11.2
+a12=17.8		#	Load influence on vertical shift  (N/kN)					A12
+a13=-2.4		#	Vertical shift at load = 0  (N)								A13
+#-------	Longitudinal force
+b0=1.95			#	Shape factor   B0
+b1=-85			#	Load infl. on long. friction coeff (*1000)  (1/kN)   B1
+b2=1950			#	Longitudinal friction coefficient at load = 0 (*1000)  B2
+b3=24.3			#	Curvature factor of stiffness   (N/%/kN**2) . B3
+b4=390			#	Change of stiffness with load at load = 0 (N/%/kN)   B4
+b5=0.07			#	Change of progressivity of stiffness/load (1/kN)   B5
+b6=0			#	Curvature change with load   B6
+b7=0.059		#	Curvature change with load   B7
+b8=-0.024		#	Curvature at load = 0   B8
+b9=0.014		#	Load influence on horizontal shift   (%/kN)   B9
+b10=0.26		#	Horizontal shift at load = 0   (%)   B10
+b11=0.0			#	Load influence on vertical shift   (N/kN)   B11
+b12=0.0			#	Vertical shift at load = 0   (N)   B12
+#---------	Aligning moment
+c0=2.2			#	Shape factor   C0
+c1=-2.3			#	Load influence of peak value   (Nm/kN**2)   C1
+c2=-2.4			#	Load influence of peak value   (Nm/kN)   C2
+c3=0.0			#	Curvature factor of stiffness   (Nm/deg/kN**2) C3		
+c4=-1.5			#	Change of stiffness with load at load = 0 (Nm/deg/kN)   C4
+c5=0.0225		#	Change of progressivity of stiffness/load (1/kN)   C5
+c6=0			#	Camber influence on stiffness   (%/deg/100)   C6
+c7=0.044		#	Curvature change with load   C7
+c8=-0.58		#	Curvature change with load   C8
+c9=0.18			#	Curvature at load = 0   C9
+c10=0.043		#	Camber influence of stiffness   C10
+c11=0.048		#	Camber influence on horizontal shift (deg/deg)  C11
+c12=-0.0035		#	Load influence on horizontal shift (deg/kN)  C1
+c13=-0.18		#	Horizontal shift at load = 0 (deg)  C13
+c14=0.14		#	Camber influence on vertical shift (Nm/deg/kN**2) C14
+c15=-1.029		#	Camber influence on vertical shift (Nm/deg/kN)  C15
+c16=0.27		#	Load influence on vertical shift (Nm/kN)  C16
+c17=-1.1		#	Vertical shift at load = 0 (Nm)  C17c0=2.2
+#--------
+
+[ tire-rear ]
+radius = 0.330 	# FIA: max 660mm in diameter (670mm with wet-weather tyres)
+rolling-resistance = 1.3e-2, 6.5e-6
+rotational-inertia = 2.50
+tread = 0.0
+#--------	Lateral force
+a0=1.55			#	Shape factor												A0		
+#a0=1.30
+a1=-50			#	Load infl. on lat. friction coeff (*1000)  (1/kN)			A1
+#a2=1750			#	Lateral friction coefficient at load = 0 (*1000)		A2
+a2=2000			#	Lateral friction coefficient at load = 0 (*1000)			A2
+a3=2800			#	Maximum stiffness   (N/deg)									A3
+#a4=7.0			#	Load at maximum stiffness   (kN)							A4
+a4=10.0			#	Load at maximum stiffness   (kN)							A4
+a5=0.024		#	Camber infiuence on stiffness   (%/deg/100)					A5
+a6=-0.24		#	Curvature change with load									A6
+a7=1.0			#	Curvature at load = 0										A7
+a8=-0.03		#	Horizontal shift because of camber  (deg/deg)				A8
+a9=-0.0013		#	Load influence on horizontal shift  (deg/kN)				A9
+a10=-0.15		#	Horizontal shift at load = 0  (deg)							A10
+a111=-8.5		#	Camber influence on vertical shift  (N/deg/kN)				A111
+a112=-0.29		#	Camber influence on vertical shift  (N/deg/kN**2)			A112
+a12=17.8		#	Load influence on vertical shift  (N/kN)					A12
+a13=-2.4		#	Vertical shift at load = 0  (N)								A13
+#---------	Longitudinal force
+b0=1.75			#	Shape factor   B0
+#b0=1.20			#	Shape factor   B0
+b1=-100			#	Load infl. on long. friction coeff (*1000)  (1/kN)   B1
+#b2=2200			#	Longitudinal friction coefficient at load = 0 (*1000)  B2
+b2=2200			#	Longitudinal friction coefficient at load = 0 (*1000)  B2
+b3=23.3			#	Curvature factor of stiffness   (N/%/kN**2) . B3
+b4=410			#	Change of stiffness with load at load = 0 (N/%/kN)   B4
+b5=0.075		#	Change of progressivity of stiffness/load (1/kN)   B5
+b6=0			#	Curvature change with load   B6
+b7=0.055		#	Curvature change with load   B7
+b8=-0.024		#	Curvature at load = 0   B8
+b9=0.014		#	Load influence on horizontal shift   (%/kN)   B9
+b10=0.26		#	Horizontal shift at load = 0   (%)   B10
+b11=0.0			#	Load influence on vertical shift   (N/kN)   B11
+b12=0.0			#	Vertical shift at load = 0   (N)   B12
+#----------	Aligning moment
+	
+c0=2.2			#	Shape factor   C0
+c1=-4.3			#	Load influence of peak value   (Nm/kN**2)   C1
+c2=-4.4			#	Load influence of peak value   (Nm/kN)   C2
+c3=-1.9			#	Curvature factor of stiffness   (Nm/deg/kN**2) C3
+c4=-9.6			#	Change of stiffness with load at load = 0 (Nm/deg/kN)   C4
+c5=0.0225		#	Change of progressivity of stiffness/load (1/kN)   C5
+c6=0			#	Camber influence on stiffness   (%/deg/100)   C6
+c7=0.044		#	Curvature change with load   C7
+c8=-0.58		#	Curvature change with load   C8
+c9=0.18			#	Curvature at load = 0   C9
+c10=0.043		#	Camber influence of stiffness   C10
+c11=0.048		#	Camber influence on horizontal shift (deg/deg)  C11
+c12=-0.0035		#	Load influence on horizontal shift (deg/kN)  C12
+c13=-0.18		#	Horizontal shift at load = 0 (deg)  C13
+c14=0.14		#	Camber influence on vertical shift (Nm/deg/kN**2) C14
+c15=-1.029		#	Camber influence on vertical shift (Nm/deg/kN)  C15
+c16=0.27		#	Load influence on vertical shift (Nm/kN)  C16
+c17=-1.1		#	Vertical shift at load = 0 (Nm)  C17c0=2.2
+#--------	
+
+[ brakes-front ]
+friction = 1.40
+max-pressure = 3.0e6
+bias = 0.60
+radius = 0.15
+#area = 0.02
+area = 0.025
+
+[ brakes-rear ]
+friction = 1.40
+max-pressure = 3.0e6
+bias = 0.40
+radius = 0.14
+#area = 0.015
+area = 0.015
+handbrake = 1.0
+
+
+[ driver ]
+position = 0.00, 0.18, -0.30
+mass = 80.0
+view-position = 0.00, 0.18, 0.1
+hood-mounted-view-position = 0.00, 0.45, 0.1	# normal driver position
+view-stiffness = 1.0
+#hood-mounted-view-position = 0.00, -0.35, 0.45
+#hood-mounted-view-position = 1.00, -2.00, -0.00	# lwft  wheel
+
+[ drag ]
+position = 0.00, 0.00, -0.40
+frontal-area = 1.15
+drag-coefficient = 0.56
+
+[ wing-front ]
+position = 0.0, 2.20, 0.50
+frontal-area = 0.05
+drag-coefficient = 0.2
+surface-area = 1.00		# including body downforce; 0.7
+lift-coefficient = -3.10
+#lift-coefficient = 0
+efficiency = 0.99
+
+[ wing-rear ]
+position = 0.0, -1.30, 0.15
+frontal-area = 0.3
+drag-coefficient = 0.3
+surface-area = 2.00		# including body downforce; 0.5
+lift-coefficient = -3.40
+#lift-coefficient = 0
+efficiency = 0.99
+
+
+[ wheel-FR ]
+position = 0.725, 1.60, -0.35
+roll-height = 0.33
+mass = 19
+restitution = 0.1
+
+[ suspension-FR ]
+position = 0.70, 1.60, -0.40
+hinge = 0,0,0
+
+[ wheel-FL ]
+position = -0.725, 1.60, -0.35
+roll-height = 0.33
+mass = 19
+restitution = 0.1
+
+[ suspension-FL ]
+position = -0.70, 1.60, -0.40
+hinge = 0,0,0
+
+
+[ wheel-RR ]
+position = 0.71, -1.53, -0.36
+roll-height = 0.340
+mass = 22
+restitution = 0.1
+
+[ suspension-RR ]
+position = 0.65, -1.53, -0.27
+hinge = 0, -1.0, 0
+
+[ wheel-RL ]
+position = -0.71, -1.53, -0.36
+roll-height = 0.340
+mass = 22
+restitution = 0.1
+
+[ suspension-RL ]
+position = -0.65, -1.53, -0.27
+hinge = 0, -1.0, 0
+
+
+
+# these are used to calculate the weight distribution and balance
+[ particle-00 ]		# Front-Wing/Nose
+mass = 31.0
+position = 0.00, 2.00, -0.30
+
+[ particle-01 ]		# Chassis
+mass = 90.0
+position = 0.00, 0.50, -0.30
+
+[ particle-02 ]		# Cooler left
+mass = 35.0
+position = 0.20, -0.10, -0.35
+
+[ particle-03 ]		# Cooler right
+mass = 35.0
+position = -0.20, -0.10, -0.35
+
+[ particle-04 ]		# Exhaust left
+mass = 40.0
+position = 0.30, -0.60, -0.30
+
+[ particle-05 ]		# Exhaust right
+mass = 40.0
+position = -0.30, -0.60, -0.30
+
+[ particle-06 ]		# Covering rear
+mass = 15.0
+position = 0.00, -0.80, -0.15
+
+[ particle-07 ]		# Ballast
+mass = 30.0
+position = 0.00, 1.60, -0.55
+
+[ particle-08 ]		# reserve
+mass = 0.0
+position = -0.00, 0.0, -0.0
+
+[ particle-09 ]		# gearbox
+mass = 20.0
+position = 0.00, -1.40, -0.35
+
+[ particle-10 ]		# rear-wing
+mass = 20.0
+position = 0.00, -1.70, -0.10
+
+

@@ -1,0 +1,298 @@
+drive = RWD
+version = 2
+
+[ steering ]
+max-angle = 20.0
+
+[ engine ]
+position = 0.15, -1.10, -0.18
+mass = 84.0
+max-power = 85755 
+peak-engine-rpm = 7000.0
+rpm-limit = 7800
+inertia = 0.1
+idle = 0.02
+start-rpm = 1000
+stall-rpm = 400
+fuel-consumption = 1e-9
+torque-friction = 0.0003
+torque-curve-00 = 1000, 132.78
+torque-curve-01 = 2000, 134.59
+torque-curve-02 = 2500, 136.59
+torque-curve-03 = 3000, 138.21
+torque-curve-04 = 3500, 141.47
+torque-curve-05 = 4000, 147.15
+torque-curve-06 = 4500, 153.56
+torque-curve-07 = 5000, 159.78
+torque-curve-08 = 5500, 165.23
+torque-curve-09 = 6000, 164.37
+torque-curve-10 = 6500, 163.89
+torque-curve-11 = 7000, 163.01
+torque-curve-12 = 7500, 162.43
+torque-curve-13 = 7800, 161.95
+
+[ clutch ]
+sliding = 0.27
+radius = 0.1
+area = 0.75
+max-pressure = 10000.00
+
+[ transmission ]
+gears = 4
+gear-ratio-r = -4.5 
+gear-ratio-1 = 2.8
+gear-ratio-2 = 1.7
+gear-ratio-3 = 1.35
+gear-ratio-4 = 1.15
+shift-delay = 0.02
+
+[ differential ]
+final-drive = 3.32
+anti-slip = 600.0
+
+[ fuel-tank ]
+position = -0.1, -0.8, -0.26
+capacity = 41.0
+volume = 41.0
+fuel-density = 1.0
+
+[ suspension-front ]
+spring-constant = 46000
+bounce = 5000
+rebound = 4500
+travel = 0.24
+max-compression-velocity = 10.0
+camber = -1.0
+caster = 0.0
+toe = -0.5
+anti-roll = 40000
+
+[ suspension-rear ]
+spring-constant = 60000
+bounce = 5000
+rebound = 4500
+travel = 0.26
+max-compression-velocity = 10.0
+camber = -0.5
+caster = 0.0
+toe = 1.0
+anti-roll = 10000
+
+[ tire-front ]
+radius = 0.31265
+rolling-resistance = 1.3e-2, 6.5e-6
+rotational-inertia = 10
+tread = 0.0
+# Lateral force
+a0=1.4
+a1=-35
+a2=1550
+a3=2400
+a4=6.5
+a5=0.014
+a6=-0.24
+a7=1.0
+a8=-0.03
+a9=-0.0013
+a10=-0.15
+a111=-8.5
+a112=-0.29
+a12=17.8
+a13=-2.4
+# Longitudinal force
+b0=1.6
+b1=-70
+b2=1600
+b3=23.3
+b4=350
+b5=0.05
+b6=0.0
+b7=0.055
+b8=-0.024
+b9=0.014
+b10=0.26
+b11=0.0
+b12=0.0
+# Aligning moment
+c0=2.2
+c1=-3.9
+c2=-3.9
+c3=-1.26
+c4=-8.2
+c5=0.025
+c6=0.0
+c7=0.044
+c8=-0.58
+c9=0.18
+c10=0.043
+c11=0.048
+c12=-0.0035
+c13=-0.18
+c14=0.14
+c15=-1.029
+c16=0.27
+c17=-1.1
+
+[ tire-rear ]
+radius = 0.3179
+rolling-resistance = 1.3e-2, 6.5e-6
+rotational-inertia = 10
+tread = 0.0
+# Lateral force
+a0=1.4
+a1=-45
+a2=1700
+a3=2500
+a4=6.5
+a5=0.014
+a6=-0.24
+a7=1.0
+a8=-0.03
+a9=-0.0013
+a10=-0.15
+a111=-8.5
+a112=-0.29
+a12=17.8
+a13=-2.4
+# Longitudinal force
+b0=1.6
+b1=-90
+b2=1600
+b3=23.3
+b4=375
+b5=0.05
+b6=0.0
+b7=0.055
+b8=-0.024
+b9=0.014
+b10=0.26
+b11=0.0
+b12=0.0
+# Aligning moment
+c0=2.2
+c1=-4.1
+c2=-3.9
+c3=-1.36
+c4=-8.0
+c5=0.025
+c6=0.0
+c7=0.044
+c8=-0.58
+c9=0.18
+c10=0.043
+c11=0.048
+c12=-0.0035
+c13=-0.18
+c14=0.14
+c15=-1.029
+c16=0.27
+c17=-1.1
+
+[ brakes-front ]
+friction = 0.73
+max-pressure = 1.6e6
+bias = 0.6
+radius = 0.19
+area = 0.015
+
+[ brakes-rear ]
+friction = 0.73
+max-pressure = 1.4e6
+bias = 0.4
+radius = 0.18
+area = 0.015
+handbrake = 1.0
+
+
+[ driver ]
+position = 0, 0.3, -0.25
+mass = 90.0
+view-position = 0, 0.3, 0.15
+hood-mounted-view-position = 0, 0.6, 0
+
+[ drag ]
+position = 0.0, 0.0, 0.2
+frontal-area = 2
+drag-coefficient = 0.3
+
+[ wing-front ]
+position = 0.0, 1.9, 0.60
+frontal-area = 0.2
+drag-coefficient = 0.0
+surface-area = 0.3
+lift-coefficient = -0.3
+efficiency = 0.99
+
+[ wing-rear ]
+position = 0.0, -2.14, 0.37
+frontal-area = 0.05
+drag-coefficient = 0.0
+surface-area = 0.5
+lift-coefficient = -0.5
+efficiency = 0.99
+
+
+[ wheel-FR ]
+position = 0.69, 1.20, -0.48
+roll-height = 0.31265
+mass = 20
+restitution = 0.1
+
+[ suspension-FR ]
+position = 0.69, 1.20, -0.48
+hinge = 0,0,0
+
+[ wheel-FL ]
+position = -0.69, 1.20, -0.48
+roll-height = 0.31265
+mass = 20
+restitution = 0.1
+
+[ suspension-FL ]
+position = -0.69, 1.20, -0.48
+hinge = 0,0,0
+
+
+[ wheel-RR ]
+position = 0.69, -1.18, -0.50
+roll-height = 0.3179
+mass = 20
+restitution = 0.1
+
+[ suspension-RR ]
+position = 0.69, -1.18, -0.50
+hinge = 0,0,0
+
+[ wheel-RL ]
+position = -0.69, -1.18, -0.50
+roll-height = 0.3179
+mass = 20
+restitution = 0.1
+
+[ suspension-RL ]
+position = -0.69, -1.18, -0.50
+hinge = 0,0,0
+
+
+
+# these are used to calculate the weight distribution and balance
+[ particle-00 ]
+mass = 17.0
+position = 0.1, 0.5, -0.45
+
+[ particle-01 ]
+mass = 35.0
+position = 0.4, -1.06, 0.1
+
+[ particle-02 ]
+mass = 35.0
+position = -0.4, -1.06, 0.1
+
+[ particle-03 ]
+mass = 56.0
+position = 0.4, 1.35, 0.0
+
+[ particle-04 ]
+mass = 56.0
+position = -0.4, 1.35, 0.0
+
