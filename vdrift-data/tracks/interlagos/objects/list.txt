@@ -6,7 +6,7 @@
 arqu0002_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24,7 +24,7 @@ atx_d_1.dds.png
 arqu0002_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -42,7 +42,7 @@ atx_d_2.dds.png
 arqu0002_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -60,7 +60,7 @@ atx_d_3.dds.png
 arqu0002_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -18330,7 +18330,7 @@ obj20939_materia212.dof-00.joe
 obj20940_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -18348,7 +18348,7 @@ atx_d_5.dds.png
 obj20941_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -18366,7 +18366,7 @@ atx_d_5.dds.png
 obj20942_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -18384,7 +18384,7 @@ atx_d_5.dds.png
 obj20943_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -18402,7 +18402,7 @@ atx_d_5.dds.png
 obj20944_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -18420,7 +18420,7 @@ atx_d_5.dds.png
 obj20945_materia214.dof-00.joe
 atx_d_6.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -18456,7 +18456,7 @@ obj20946_material18.dof-00.joe
 obj20947_materia214.dof-00.joe
 atx_d_6.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -18474,7 +18474,7 @@ atx_d_6.dds.png
 obj20948_materia214.dof-00.joe
 atx_d_6.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -18492,7 +18492,7 @@ atx_d_6.dds.png
 obj20949_materia214.dof-00.joe
 atx_d_6.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -18510,7 +18510,7 @@ atx_d_6.dds.png
 obj20950_materia214.dof-00.joe
 atx_d_6.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -18528,7 +18528,7 @@ atx_d_6.dds.png
 obj20951_materia214.dof-00.joe
 atx_d_6.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -18546,7 +18546,7 @@ atx_d_6.dds.png
 obj20952_materia214.dof-00.joe
 atx_d_6.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -18564,7 +18564,7 @@ atx_d_6.dds.png
 obj20953_materia214.dof-00.joe
 atx_d_6.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -20634,7 +20634,7 @@ obj21067_material18.dof-00.joe
 obj21068_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -20652,7 +20652,7 @@ atx_d_1.dds.png
 obj21069_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -20670,7 +20670,7 @@ atx_d_1.dds.png
 obj21070_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -20688,7 +20688,7 @@ atx_d_1.dds.png
 obj21071_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -20706,7 +20706,7 @@ atx_d_1.dds.png
 obj21072_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -20724,7 +20724,7 @@ atx_d_1.dds.png
 obj21073_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -20742,7 +20742,7 @@ atx_d_1.dds.png
 obj21074_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -20760,7 +20760,7 @@ atx_d_1.dds.png
 obj21075_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -20778,7 +20778,7 @@ atx_d_1.dds.png
 obj21076_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -20814,7 +20814,7 @@ obj21077_material18.dof-00.joe
 obj21078_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -20832,7 +20832,7 @@ atx_d_1.dds.png
 obj21079_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -20850,7 +20850,7 @@ atx_d_1.dds.png
 obj21080_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -20868,7 +20868,7 @@ atx_d_1.dds.png
 obj21081_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -20886,7 +20886,7 @@ atx_d_1.dds.png
 obj21082_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -20904,7 +20904,7 @@ atx_d_1.dds.png
 obj21083_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -20922,7 +20922,7 @@ atx_d_1.dds.png
 obj21084_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -20940,7 +20940,7 @@ atx_d_1.dds.png
 obj21085_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -20958,7 +20958,7 @@ atx_d_1.dds.png
 obj21086_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -20976,7 +20976,7 @@ atx_d_1.dds.png
 obj21087_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21012,7 +21012,7 @@ obj21088_material18.dof-00.joe
 obj21089_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21030,7 +21030,7 @@ atx_d_1.dds.png
 obj21090_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21048,7 +21048,7 @@ atx_d_1.dds.png
 obj21091_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21066,7 +21066,7 @@ atx_d_1.dds.png
 obj21092_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21084,7 +21084,7 @@ atx_d_1.dds.png
 obj21093_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21102,7 +21102,7 @@ atx_d_1.dds.png
 obj21094_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21120,7 +21120,7 @@ atx_d_1.dds.png
 obj21095_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21138,7 +21138,7 @@ atx_d_1.dds.png
 obj21096_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21156,7 +21156,7 @@ atx_d_1.dds.png
 obj21097_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21174,7 +21174,7 @@ atx_d_1.dds.png
 obj21098_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21210,7 +21210,7 @@ obj21099_material18.dof-00.joe
 obj21100_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21228,7 +21228,7 @@ atx_d_1.dds.png
 obj21101_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21246,7 +21246,7 @@ atx_d_1.dds.png
 obj21102_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21264,7 +21264,7 @@ atx_d_1.dds.png
 obj21103_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21282,7 +21282,7 @@ atx_d_2.dds.png
 obj21104_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21318,7 +21318,7 @@ obj21105_material10.dof-00.joe
 obj21106_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21336,7 +21336,7 @@ atx_d_2.dds.png
 obj21107_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21354,7 +21354,7 @@ atx_d_2.dds.png
 obj21108_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21372,7 +21372,7 @@ atx_d_2.dds.png
 obj21109_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21390,7 +21390,7 @@ atx_d_2.dds.png
 obj21110_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21426,7 +21426,7 @@ obj21111_material18.dof-00.joe
 obj21112_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21444,7 +21444,7 @@ atx_d_2.dds.png
 obj21113_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21462,7 +21462,7 @@ atx_d_2.dds.png
 obj21114_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21480,7 +21480,7 @@ atx_d_2.dds.png
 obj21115_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21498,7 +21498,7 @@ atx_d_2.dds.png
 obj21116_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21516,7 +21516,7 @@ atx_d_2.dds.png
 obj21117_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21534,7 +21534,7 @@ atx_d_2.dds.png
 obj21118_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21552,7 +21552,7 @@ atx_d_2.dds.png
 obj21119_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21570,7 +21570,7 @@ atx_d_2.dds.png
 obj21120_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21588,7 +21588,7 @@ atx_d_2.dds.png
 obj21121_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21624,7 +21624,7 @@ obj21122_material18.dof-00.joe
 obj21123_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21642,7 +21642,7 @@ atx_d_2.dds.png
 obj21124_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21660,7 +21660,7 @@ atx_d_2.dds.png
 obj21125_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21678,7 +21678,7 @@ atx_d_2.dds.png
 obj21126_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21696,7 +21696,7 @@ atx_d_2.dds.png
 obj21127_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21714,7 +21714,7 @@ atx_d_2.dds.png
 obj21128_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21732,7 +21732,7 @@ atx_d_2.dds.png
 obj21129_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21750,7 +21750,7 @@ atx_d_2.dds.png
 obj21130_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21768,7 +21768,7 @@ atx_d_2.dds.png
 obj21131_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21786,7 +21786,7 @@ atx_d_2.dds.png
 obj21132_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21822,7 +21822,7 @@ obj21133_material18.dof-00.joe
 obj21134_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21840,7 +21840,7 @@ atx_d_2.dds.png
 obj21135_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21858,7 +21858,7 @@ atx_d_2.dds.png
 obj21136_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21876,7 +21876,7 @@ atx_d_2.dds.png
 obj21137_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21894,7 +21894,7 @@ atx_d_2.dds.png
 obj21138_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21912,7 +21912,7 @@ atx_d_2.dds.png
 obj21139_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21930,7 +21930,7 @@ atx_d_2.dds.png
 obj21140_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21948,7 +21948,7 @@ atx_d_3.dds.png
 obj21141_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21966,7 +21966,7 @@ atx_d_3.dds.png
 obj21142_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -21984,7 +21984,7 @@ atx_d_3.dds.png
 obj21143_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22020,7 +22020,7 @@ obj21144_material18.dof-00.joe
 obj21145_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22038,7 +22038,7 @@ atx_d_3.dds.png
 obj21146_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22056,7 +22056,7 @@ atx_d_3.dds.png
 obj21147_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22074,7 +22074,7 @@ atx_d_3.dds.png
 obj21148_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22092,7 +22092,7 @@ atx_d_3.dds.png
 obj21149_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22110,7 +22110,7 @@ atx_d_3.dds.png
 obj21150_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22128,7 +22128,7 @@ atx_d_3.dds.png
 obj21151_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22146,7 +22146,7 @@ atx_d_3.dds.png
 obj21152_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22164,7 +22164,7 @@ atx_d_3.dds.png
 obj21153_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22182,7 +22182,7 @@ atx_d_3.dds.png
 obj21154_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22218,7 +22218,7 @@ obj21155_material18.dof-00.joe
 obj21156_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22236,7 +22236,7 @@ atx_d_3.dds.png
 obj21157_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22254,7 +22254,7 @@ atx_d_3.dds.png
 obj21158_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22272,7 +22272,7 @@ atx_d_3.dds.png
 obj21159_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22290,7 +22290,7 @@ atx_d_3.dds.png
 obj31160_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22326,7 +22326,7 @@ obj31161_material1.dof-00.joe
 obj31162_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22344,7 +22344,7 @@ atx_d_3.dds.png
 obj31163_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22362,7 +22362,7 @@ atx_d_3.dds.png
 obj31164_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22380,7 +22380,7 @@ atx_d_3.dds.png
 obj31165_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22398,7 +22398,7 @@ atx_d_3.dds.png
 obj31166_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22434,7 +22434,7 @@ obj31167_material18.dof-00.joe
 obj31168_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22452,7 +22452,7 @@ atx_d_3.dds.png
 obj31169_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22470,7 +22470,7 @@ atx_d_3.dds.png
 obj31170_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22488,7 +22488,7 @@ atx_d_3.dds.png
 obj31171_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22506,7 +22506,7 @@ atx_d_3.dds.png
 obj31172_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22524,7 +22524,7 @@ atx_d_3.dds.png
 obj31173_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22542,7 +22542,7 @@ atx_d_3.dds.png
 obj31174_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22560,7 +22560,7 @@ atx_d_4.dds.png
 obj31175_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22578,7 +22578,7 @@ atx_d_4.dds.png
 obj31176_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22596,7 +22596,7 @@ atx_d_4.dds.png
 obj31177_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22632,7 +22632,7 @@ obj31178_material18.dof-00.joe
 obj31179_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22650,7 +22650,7 @@ atx_d_4.dds.png
 obj31180_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22668,7 +22668,7 @@ atx_d_4.dds.png
 obj31181_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22686,7 +22686,7 @@ atx_d_4.dds.png
 obj31182_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22704,7 +22704,7 @@ atx_d_4.dds.png
 obj31183_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22722,7 +22722,7 @@ atx_d_4.dds.png
 obj31184_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22740,7 +22740,7 @@ atx_d_4.dds.png
 obj31185_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22758,7 +22758,7 @@ atx_d_4.dds.png
 obj31186_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22776,7 +22776,7 @@ atx_d_4.dds.png
 obj31187_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22794,7 +22794,7 @@ atx_d_4.dds.png
 obj31188_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22830,7 +22830,7 @@ obj31189_material18.dof-00.joe
 obj31190_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22848,7 +22848,7 @@ atx_d_4.dds.png
 obj31191_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22866,7 +22866,7 @@ atx_d_4.dds.png
 obj31192_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22884,7 +22884,7 @@ atx_d_4.dds.png
 obj31193_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22902,7 +22902,7 @@ atx_d_4.dds.png
 obj31194_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22920,7 +22920,7 @@ atx_d_4.dds.png
 obj31195_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22938,7 +22938,7 @@ atx_d_4.dds.png
 obj31196_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22956,7 +22956,7 @@ atx_d_4.dds.png
 obj31197_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22974,7 +22974,7 @@ atx_d_9.dds.png
 obj31198_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -22992,7 +22992,7 @@ atx_d_9.dds.png
 obj31199_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23028,7 +23028,7 @@ obj31200_material18.dof-00.joe
 obj31201_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23046,7 +23046,7 @@ atx_d_9.dds.png
 obj31202_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23064,7 +23064,7 @@ atx_d_9.dds.png
 obj31203_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23082,7 +23082,7 @@ atx_d_9.dds.png
 obj31204_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23100,7 +23100,7 @@ atx_d_9.dds.png
 obj31205_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23118,7 +23118,7 @@ atx_d_9.dds.png
 obj31206_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23136,7 +23136,7 @@ atx_d_9.dds.png
 obj31207_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23154,7 +23154,7 @@ atx_d_9.dds.png
 obj31208_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23172,7 +23172,7 @@ atx_d_9.dds.png
 obj31209_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23190,7 +23190,7 @@ atx_d_9.dds.png
 obj31210_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23226,7 +23226,7 @@ obj31211_material18.dof-00.joe
 obj31212_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23244,7 +23244,7 @@ atx_d_9.dds.png
 obj31213_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23262,7 +23262,7 @@ atx_d_9.dds.png
 obj31214_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23280,7 +23280,7 @@ atx_d_9.dds.png
 obj31215_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23298,7 +23298,7 @@ atx_d_9.dds.png
 obj31216_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23334,7 +23334,7 @@ obj31217_material11.dof-00.joe
 obj31218_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23352,7 +23352,7 @@ atx_d_9.dds.png
 obj31219_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23370,7 +23370,7 @@ atx_d_9.dds.png
 obj31220_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23388,7 +23388,7 @@ atx_d_9.dds.png
 obj31221_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23406,7 +23406,7 @@ atx_d_9.dds.png
 obj31222_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23442,7 +23442,7 @@ obj31223_material18.dof-00.joe
 obj31224_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23460,7 +23460,7 @@ atx_d_9.dds.png
 obj31225_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23478,7 +23478,7 @@ atx_d_9.dds.png
 obj31226_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23496,7 +23496,7 @@ atx_d_9.dds.png
 obj31227_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23514,7 +23514,7 @@ atx_d_9.dds.png
 obj31228_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23532,7 +23532,7 @@ atx_d_9.dds.png
 obj31229_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23550,7 +23550,7 @@ atx_d_5.dds.png
 obj31230_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23568,7 +23568,7 @@ atx_d_5.dds.png
 obj31231_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23586,7 +23586,7 @@ atx_d_5.dds.png
 obj31232_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23604,7 +23604,7 @@ atx_d_5.dds.png
 obj31233_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23640,7 +23640,7 @@ obj31234_material18.dof-00.joe
 obj31235_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23658,7 +23658,7 @@ atx_d_5.dds.png
 obj31236_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23676,7 +23676,7 @@ atx_d_5.dds.png
 obj31237_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23694,7 +23694,7 @@ atx_d_5.dds.png
 obj31238_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23712,7 +23712,7 @@ atx_d_5.dds.png
 obj31239_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23730,7 +23730,7 @@ atx_d_5.dds.png
 obj31240_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23748,7 +23748,7 @@ atx_d_5.dds.png
 obj31241_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23766,7 +23766,7 @@ atx_d_5.dds.png
 obj31242_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23784,7 +23784,7 @@ atx_d_5.dds.png
 obj31243_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23802,7 +23802,7 @@ atx_d_5.dds.png
 obj31244_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23838,7 +23838,7 @@ obj31245_material18.dof-00.joe
 obj31246_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23856,7 +23856,7 @@ atx_d_5.dds.png
 obj31247_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23874,7 +23874,7 @@ atx_d_5.dds.png
 obj31248_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23892,7 +23892,7 @@ atx_d_5.dds.png
 obj31249_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23910,7 +23910,7 @@ atx_d_5.dds.png
 obj31250_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23928,7 +23928,7 @@ atx_d_5.dds.png
 obj31251_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23946,7 +23946,7 @@ atx_d_5.dds.png
 obj31252_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23964,7 +23964,7 @@ atx_d_5.dds.png
 obj31253_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -23982,7 +23982,7 @@ atx_d_5.dds.png
 obj31254_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24000,7 +24000,7 @@ atx_d_5.dds.png
 obj31255_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24036,7 +24036,7 @@ obj31256_material18.dof-00.joe
 obj31257_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24054,7 +24054,7 @@ atx_d_5.dds.png
 obj31258_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24072,7 +24072,7 @@ atx_d_5.dds.png
 obj31259_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24090,7 +24090,7 @@ atx_d_5.dds.png
 obj31260_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24108,7 +24108,7 @@ atx_d_5.dds.png
 obj31261_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24126,7 +24126,7 @@ atx_d_5.dds.png
 obj31262_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24144,7 +24144,7 @@ atx_d_5.dds.png
 obj31263_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24162,7 +24162,7 @@ atx_d_5.dds.png
 obj31264_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24180,7 +24180,7 @@ atx_d_5.dds.png
 obj31265_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24198,7 +24198,7 @@ atx_d_5.dds.png
 obj31266_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24234,7 +24234,7 @@ obj31267_material18.dof-00.joe
 obj31268_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24252,7 +24252,7 @@ atx_d_5.dds.png
 obj31269_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24270,7 +24270,7 @@ atx_d_5.dds.png
 obj31270_materia213.dof-00.joe
 atx_d_5.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24288,7 +24288,7 @@ atx_d_5.dds.png
 obj31271_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24306,7 +24306,7 @@ atx_d_7.dds.png
 obj31272_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24324,7 +24324,7 @@ atx_d_7.dds.png
 obj31273_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24342,7 +24342,7 @@ atx_d_7.dds.png
 obj31274_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24360,7 +24360,7 @@ atx_d_7.dds.png
 obj31275_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24378,7 +24378,7 @@ atx_d_7.dds.png
 obj31276_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24396,7 +24396,7 @@ atx_d_7.dds.png
 obj31277_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24432,7 +24432,7 @@ obj31278_material18.dof-00.joe
 obj31279_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24450,7 +24450,7 @@ atx_d_7.dds.png
 obj31280_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24468,7 +24468,7 @@ atx_d_7.dds.png
 obj31281_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24486,7 +24486,7 @@ atx_d_7.dds.png
 obj31282_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24504,7 +24504,7 @@ atx_d_7.dds.png
 obj31283_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24522,7 +24522,7 @@ atx_d_7.dds.png
 obj31284_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24540,7 +24540,7 @@ atx_d_7.dds.png
 obj31285_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24558,7 +24558,7 @@ atx_d_7.dds.png
 obj31286_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24576,7 +24576,7 @@ atx_d_7.dds.png
 obj31287_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24594,7 +24594,7 @@ atx_d_7.dds.png
 obj31288_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24630,7 +24630,7 @@ obj31289_material18.dof-00.joe
 obj31290_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24648,7 +24648,7 @@ atx_d_7.dds.png
 obj31291_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24666,7 +24666,7 @@ atx_d_7.dds.png
 obj31292_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24684,7 +24684,7 @@ atx_d_7.dds.png
 obj31293_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24702,7 +24702,7 @@ atx_d_7.dds.png
 obj31294_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24720,7 +24720,7 @@ atx_d_7.dds.png
 obj31295_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24738,7 +24738,7 @@ atx_d_7.dds.png
 obj31296_materia231.dof-00.joe
 atx_d_8.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24756,7 +24756,7 @@ atx_d_8.dds.png
 obj31297_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24774,7 +24774,7 @@ atx_d_1.dds.png
 obj31298_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24792,7 +24792,7 @@ atx_d_1.dds.png
 obj31299_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24828,7 +24828,7 @@ obj31300_material18.dof-00.joe
 obj31301_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24846,7 +24846,7 @@ atx_d_1.dds.png
 obj31302_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24864,7 +24864,7 @@ atx_d_1.dds.png
 obj31303_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24882,7 +24882,7 @@ atx_d_1.dds.png
 obj31304_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24900,7 +24900,7 @@ atx_d_1.dds.png
 obj31305_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24918,7 +24918,7 @@ atx_d_1.dds.png
 obj31306_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24936,7 +24936,7 @@ atx_d_1.dds.png
 obj31307_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24954,7 +24954,7 @@ atx_d_1.dds.png
 obj31308_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24972,7 +24972,7 @@ atx_d_1.dds.png
 obj31309_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -24990,7 +24990,7 @@ atx_d_1.dds.png
 obj31310_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25026,7 +25026,7 @@ obj31311_material18.dof-00.joe
 obj31312_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25044,7 +25044,7 @@ atx_d_1.dds.png
 obj31313_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25062,7 +25062,7 @@ atx_d_1.dds.png
 obj31314_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25080,7 +25080,7 @@ atx_d_1.dds.png
 obj31315_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25098,7 +25098,7 @@ atx_d_1.dds.png
 obj31316_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25116,7 +25116,7 @@ atx_d_1.dds.png
 obj31317_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25134,7 +25134,7 @@ atx_d_1.dds.png
 obj31318_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25152,7 +25152,7 @@ atx_d_1.dds.png
 obj31319_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25170,7 +25170,7 @@ atx_d_1.dds.png
 obj31320_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25188,7 +25188,7 @@ atx_d_1.dds.png
 obj31321_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25224,7 +25224,7 @@ obj31322_material18.dof-00.joe
 obj31323_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25242,7 +25242,7 @@ atx_d_1.dds.png
 obj31324_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25260,7 +25260,7 @@ atx_d_1.dds.png
 obj31325_materia225.dof-00.joe
 atx_d_1.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25278,7 +25278,7 @@ atx_d_1.dds.png
 obj31326_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25296,7 +25296,7 @@ atx_d_2.dds.png
 obj31327_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25332,7 +25332,7 @@ obj31328_material12.dof-00.joe
 obj31329_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25350,7 +25350,7 @@ atx_d_2.dds.png
 obj31330_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25368,7 +25368,7 @@ atx_d_2.dds.png
 obj31331_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25386,7 +25386,7 @@ atx_d_2.dds.png
 obj31332_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25404,7 +25404,7 @@ atx_d_2.dds.png
 obj31333_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25440,7 +25440,7 @@ obj31334_material18.dof-00.joe
 obj31335_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25458,7 +25458,7 @@ atx_d_2.dds.png
 obj31336_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25476,7 +25476,7 @@ atx_d_2.dds.png
 obj31337_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25494,7 +25494,7 @@ atx_d_2.dds.png
 obj31338_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25512,7 +25512,7 @@ atx_d_2.dds.png
 obj31339_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25530,7 +25530,7 @@ atx_d_2.dds.png
 obj31340_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25548,7 +25548,7 @@ atx_d_2.dds.png
 obj31341_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25566,7 +25566,7 @@ atx_d_2.dds.png
 obj31342_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25584,7 +25584,7 @@ atx_d_2.dds.png
 obj31343_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25602,7 +25602,7 @@ atx_d_2.dds.png
 obj31344_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25638,7 +25638,7 @@ obj31345_material18.dof-00.joe
 obj31346_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25656,7 +25656,7 @@ atx_d_2.dds.png
 obj31347_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25674,7 +25674,7 @@ atx_d_2.dds.png
 obj31348_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25692,7 +25692,7 @@ atx_d_2.dds.png
 obj31349_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25710,7 +25710,7 @@ atx_d_2.dds.png
 obj31350_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25728,7 +25728,7 @@ atx_d_2.dds.png
 obj31351_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25746,7 +25746,7 @@ atx_d_2.dds.png
 obj31352_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25764,7 +25764,7 @@ atx_d_2.dds.png
 obj31353_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25782,7 +25782,7 @@ atx_d_2.dds.png
 obj31354_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25800,7 +25800,7 @@ atx_d_2.dds.png
 obj31355_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25836,7 +25836,7 @@ obj31356_material19.dof-00.joe
 obj31357_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25854,7 +25854,7 @@ atx_d_2.dds.png
 obj31358_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25872,7 +25872,7 @@ atx_d_2.dds.png
 obj31359_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25890,7 +25890,7 @@ atx_d_2.dds.png
 obj31360_materia226.dof-00.joe
 atx_d_2.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25908,7 +25908,7 @@ atx_d_2.dds.png
 obj31361_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25926,7 +25926,7 @@ atx_d_3.dds.png
 obj31362_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25944,7 +25944,7 @@ atx_d_3.dds.png
 obj31363_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25962,7 +25962,7 @@ atx_d_3.dds.png
 obj31364_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25980,7 +25980,7 @@ atx_d_3.dds.png
 obj31365_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -25998,7 +25998,7 @@ atx_d_3.dds.png
 obj31366_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26034,7 +26034,7 @@ obj31367_material19.dof-00.joe
 obj31368_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26052,7 +26052,7 @@ atx_d_3.dds.png
 obj31369_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26070,7 +26070,7 @@ atx_d_3.dds.png
 obj31370_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26088,7 +26088,7 @@ atx_d_3.dds.png
 obj31371_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26106,7 +26106,7 @@ atx_d_3.dds.png
 obj31372_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26124,7 +26124,7 @@ atx_d_3.dds.png
 obj31373_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26142,7 +26142,7 @@ atx_d_3.dds.png
 obj31374_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26160,7 +26160,7 @@ atx_d_3.dds.png
 obj31375_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26178,7 +26178,7 @@ atx_d_3.dds.png
 obj31376_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26196,7 +26196,7 @@ atx_d_3.dds.png
 obj31377_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26232,7 +26232,7 @@ obj31378_material19.dof-00.joe
 obj31379_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26250,7 +26250,7 @@ atx_d_3.dds.png
 obj31380_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26268,7 +26268,7 @@ atx_d_3.dds.png
 obj31381_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26286,7 +26286,7 @@ atx_d_3.dds.png
 obj31382_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26304,7 +26304,7 @@ atx_d_3.dds.png
 obj31383_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26322,7 +26322,7 @@ atx_d_3.dds.png
 obj31384_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26340,7 +26340,7 @@ atx_d_3.dds.png
 obj31385_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26358,7 +26358,7 @@ atx_d_3.dds.png
 obj31386_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26376,7 +26376,7 @@ atx_d_3.dds.png
 obj31387_materia227.dof-00.joe
 atx_d_3.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26394,7 +26394,7 @@ atx_d_3.dds.png
 obj31388_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26430,7 +26430,7 @@ obj31389_material20.dof-00.joe
 obj31390_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26448,7 +26448,7 @@ atx_d_4.dds.png
 obj31391_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26466,7 +26466,7 @@ atx_d_4.dds.png
 obj31392_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26484,7 +26484,7 @@ atx_d_4.dds.png
 obj31393_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26502,7 +26502,7 @@ atx_d_4.dds.png
 obj31394_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26520,7 +26520,7 @@ atx_d_4.dds.png
 obj31395_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26538,7 +26538,7 @@ atx_d_4.dds.png
 obj31396_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26556,7 +26556,7 @@ atx_d_4.dds.png
 obj31397_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26574,7 +26574,7 @@ atx_d_4.dds.png
 obj31398_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26592,7 +26592,7 @@ atx_d_4.dds.png
 obj31399_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26628,7 +26628,7 @@ obj31400_material20.dof-00.joe
 obj31401_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26646,7 +26646,7 @@ atx_d_4.dds.png
 obj31402_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26664,7 +26664,7 @@ atx_d_4.dds.png
 obj31403_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26682,7 +26682,7 @@ atx_d_4.dds.png
 obj31404_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26700,7 +26700,7 @@ atx_d_4.dds.png
 obj31405_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26718,7 +26718,7 @@ atx_d_4.dds.png
 obj31406_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26736,7 +26736,7 @@ atx_d_4.dds.png
 obj31407_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26754,7 +26754,7 @@ atx_d_4.dds.png
 obj31408_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26772,7 +26772,7 @@ atx_d_4.dds.png
 obj31409_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26790,7 +26790,7 @@ atx_d_4.dds.png
 obj31410_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26826,7 +26826,7 @@ obj31411_material20.dof-00.joe
 obj31412_materia228.dof-00.joe
 atx_d_4.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26844,7 +26844,7 @@ atx_d_4.dds.png
 obj31413_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26862,7 +26862,7 @@ atx_d_9.dds.png
 obj31414_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26880,7 +26880,7 @@ atx_d_9.dds.png
 obj31415_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26898,7 +26898,7 @@ atx_d_9.dds.png
 obj31416_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26916,7 +26916,7 @@ atx_d_9.dds.png
 obj31417_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26934,7 +26934,7 @@ atx_d_9.dds.png
 obj31418_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26952,7 +26952,7 @@ atx_d_9.dds.png
 obj31419_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26970,7 +26970,7 @@ atx_d_9.dds.png
 obj31420_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -26988,7 +26988,7 @@ atx_d_9.dds.png
 obj31421_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27024,7 +27024,7 @@ obj31422_material21.dof-00.joe
 obj31423_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27042,7 +27042,7 @@ atx_d_9.dds.png
 obj31424_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27060,7 +27060,7 @@ atx_d_9.dds.png
 obj31425_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27078,7 +27078,7 @@ atx_d_9.dds.png
 obj31426_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27096,7 +27096,7 @@ atx_d_9.dds.png
 obj31427_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27114,7 +27114,7 @@ atx_d_9.dds.png
 obj31428_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27132,7 +27132,7 @@ atx_d_9.dds.png
 obj31429_materia229.dof-00.joe
 atx_d_9.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27150,7 +27150,7 @@ atx_d_9.dds.png
 obj31430_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27168,7 +27168,7 @@ atx_d_7.dds.png
 obj31431_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27186,7 +27186,7 @@ atx_d_7.dds.png
 obj31432_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27222,7 +27222,7 @@ obj31433_material21.dof-00.joe
 obj31434_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27240,7 +27240,7 @@ atx_d_7.dds.png
 obj31435_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27258,7 +27258,7 @@ atx_d_7.dds.png
 obj31436_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27276,7 +27276,7 @@ atx_d_7.dds.png
 obj31437_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27294,7 +27294,7 @@ atx_d_7.dds.png
 obj31438_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27330,7 +27330,7 @@ obj31439_material13.dof-00.joe
 obj31440_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27348,7 +27348,7 @@ atx_d_7.dds.png
 obj31441_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27366,7 +27366,7 @@ atx_d_7.dds.png
 obj31442_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27384,7 +27384,7 @@ atx_d_7.dds.png
 obj31443_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27402,7 +27402,7 @@ atx_d_7.dds.png
 obj31444_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27438,7 +27438,7 @@ obj31445_material21.dof-00.joe
 obj31446_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27456,7 +27456,7 @@ atx_d_7.dds.png
 obj31447_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27474,7 +27474,7 @@ atx_d_7.dds.png
 obj31448_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27492,7 +27492,7 @@ atx_d_7.dds.png
 obj31449_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27510,7 +27510,7 @@ atx_d_7.dds.png
 obj31450_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27528,7 +27528,7 @@ atx_d_7.dds.png
 obj31451_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27546,7 +27546,7 @@ atx_d_7.dds.png
 obj31452_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27564,7 +27564,7 @@ atx_d_7.dds.png
 obj31453_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27582,7 +27582,7 @@ atx_d_7.dds.png
 obj31454_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27600,7 +27600,7 @@ atx_d_7.dds.png
 obj31455_materia230.dof-00.joe
 atx_d_7.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27636,7 +27636,7 @@ obj31456_material22.dof-00.joe
 obj31457_materia231.dof-00.joe
 atx_d_8.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27654,7 +27654,7 @@ atx_d_8.dds.png
 obj31458_materia231.dof-00.joe
 atx_d_8.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27672,7 +27672,7 @@ atx_d_8.dds.png
 obj31459_materia231.dof-00.joe
 atx_d_8.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27690,7 +27690,7 @@ atx_d_8.dds.png
 obj31460_materia231.dof-00.joe
 atx_d_8.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27708,7 +27708,7 @@ atx_d_8.dds.png
 obj31461_materia231.dof-00.joe
 atx_d_8.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27726,7 +27726,7 @@ atx_d_8.dds.png
 obj31462_materia231.dof-00.joe
 atx_d_8.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27744,7 +27744,7 @@ atx_d_8.dds.png
 obj31463_materia231.dof-00.joe
 atx_d_8.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27762,7 +27762,7 @@ atx_d_8.dds.png
 obj31464_materia231.dof-00.joe
 atx_d_8.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27780,7 +27780,7 @@ atx_d_8.dds.png
 obj31465_materia231.dof-00.joe
 atx_d_8.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27798,7 +27798,7 @@ atx_d_8.dds.png
 obj31466_materia231.dof-00.joe
 atx_d_8.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27834,7 +27834,7 @@ obj31467_material22.dof-00.joe
 obj31468_materia231.dof-00.joe
 atx_d_8.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27852,7 +27852,7 @@ atx_d_8.dds.png
 obj31469_materia231.dof-00.joe
 atx_d_8.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27870,7 +27870,7 @@ atx_d_8.dds.png
 obj31470_materia231.dof-00.joe
 atx_d_8.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27888,7 +27888,7 @@ atx_d_8.dds.png
 obj31471_materia231.dof-00.joe
 atx_d_8.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27906,7 +27906,7 @@ atx_d_8.dds.png
 obj31472_materia231.dof-00.joe
 atx_d_8.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27924,7 +27924,7 @@ atx_d_8.dds.png
 obj31473_materia231.dof-00.joe
 atx_d_8.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27942,7 +27942,7 @@ atx_d_8.dds.png
 obj31474_materia231.dof-00.joe
 atx_d_8.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27960,7 +27960,7 @@ atx_d_8.dds.png
 obj31475_materia231.dof-00.joe
 atx_d_8.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27978,7 +27978,7 @@ atx_d_8.dds.png
 obj31476_materia231.dof-00.joe
 atx_d_8.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -27996,7 +27996,7 @@ atx_d_8.dds.png
 obj31477_materia231.dof-00.joe
 atx_d_8.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -28032,7 +28032,7 @@ obj31478_material23.dof-00.joe
 obj31479_materia214.dof-00.joe
 atx_d_6.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -28050,7 +28050,7 @@ atx_d_6.dds.png
 obj31480_materia214.dof-00.joe
 atx_d_6.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -28068,7 +28068,7 @@ atx_d_6.dds.png
 obj31481_materia214.dof-00.joe
 atx_d_6.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -28086,7 +28086,7 @@ atx_d_6.dds.png
 obj31482_materia214.dof-00.joe
 atx_d_6.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -28104,7 +28104,7 @@ atx_d_6.dds.png
 obj31483_materia214.dof-00.joe
 atx_d_6.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -28122,7 +28122,7 @@ atx_d_6.dds.png
 obj31484_materia214.dof-00.joe
 atx_d_6.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -28140,7 +28140,7 @@ atx_d_6.dds.png
 obj31485_materia214.dof-00.joe
 atx_d_6.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -28158,7 +28158,7 @@ atx_d_6.dds.png
 obj31486_materia214.dof-00.joe
 atx_d_6.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -28176,7 +28176,7 @@ atx_d_6.dds.png
 obj31487_materia214.dof-00.joe
 atx_d_6.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -28194,7 +28194,7 @@ atx_d_6.dds.png
 obj31488_materia214.dof-00.joe
 atx_d_6.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -28230,7 +28230,7 @@ obj31489_material23.dof-00.joe
 obj31490_materia214.dof-00.joe
 atx_d_6.dds.png
 0
-0
+1
 0
 0
 2.0
@@ -28248,7 +28248,7 @@ atx_d_6.dds.png
 obj31491_materia214.dof-00.joe
 atx_d_6.dds.png
 0
-0
+1
 0
 0
 2.0

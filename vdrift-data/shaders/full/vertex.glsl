@@ -12,6 +12,7 @@ varying vec2 texcoord_2d;
 varying vec3 normal_eye;
 varying vec3 viewdir;
 varying vec3 refmapdir;
+varying vec3 ambientmapdir;
 
 void main()
 {
@@ -48,4 +49,6 @@ void main()
 	#else
 	refmapdir = vec3(0);
 	#endif
+    
+    ambientmapdir = mat3(gl_TextureMatrix[2]) * normal_eye;
 }
