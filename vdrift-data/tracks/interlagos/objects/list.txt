@@ -54525,24 +54525,6 @@ obj62949_materia415.dof-00.joe
 0
 
 #entry 3029
-obj62950_materia415.dof-00.joe
-191.dds.png
-1
-0
-0
-0
-2.0
-0
-0
-1
-1.0
-0.9
-1.0
-0.0
-0
-0
-
-#entry 3030
 obj62951_material34.dof-00.joe
 169.dds.png
 1
@@ -54560,7 +54542,7 @@ obj62951_material34.dof-00.joe
 0
 0
 
-#entry 3031
+#entry 3030
 obj62952_fence2.dof-00.joe
 fencea.dds.png
 0
@@ -54578,7 +54560,7 @@ fencea.dds.png
 0
 0
 
-#entry 3032
+#entry 3031
 obj62953_fence2.dof-00.joe
 fencea.dds.png
 0
@@ -54596,7 +54578,7 @@ fencea.dds.png
 0
 0
 
-#entry 3033
+#entry 3032
 obj62954_fence2.dof-00.joe
 fencea.dds.png
 0
@@ -54614,7 +54596,7 @@ fencea.dds.png
 0
 0
 
-#entry 3034
+#entry 3033
 obj62955_fence2.dof-00.joe
 fencea.dds.png
 0
@@ -54632,7 +54614,7 @@ fencea.dds.png
 0
 0
 
-#entry 3035
+#entry 3034
 obj62956_fence2.dof-00.joe
 fencea.dds.png
 0
@@ -54650,7 +54632,7 @@ fencea.dds.png
 0
 0
 
-#entry 3036
+#entry 3035
 obj62957_fence2.dof-00.joe
 fencea.dds.png
 0
@@ -54668,7 +54650,7 @@ fencea.dds.png
 0
 0
 
-#entry 3037
+#entry 3036
 obj62958_fence2.dof-00.joe
 fencea.dds.png
 0
@@ -54686,7 +54668,7 @@ fencea.dds.png
 0
 0
 
-#entry 3038
+#entry 3037
 obj62959_fence2.dof-00.joe
 fencea.dds.png
 0
@@ -54704,7 +54686,7 @@ fencea.dds.png
 0
 0
 
-#entry 3039
+#entry 3038
 obj62960_fence2.dof-00.joe
 fencea.dds.png
 0
@@ -54722,7 +54704,7 @@ fencea.dds.png
 0
 0
 
-#entry 3040
+#entry 3039
 obj62961_fence2.dof-00.joe
 fencea.dds.png
 0
@@ -54740,7 +54722,7 @@ fencea.dds.png
 0
 0
 
-#entry 3041
+#entry 3040
 obj62962_material34.dof-00.joe
 169.dds.png
 1
@@ -54758,7 +54740,7 @@ obj62962_material34.dof-00.joe
 0
 0
 
-#entry 3042
+#entry 3041
 obj62963_fence2.dof-00.joe
 fencea.dds.png
 0
@@ -54776,7 +54758,7 @@ fencea.dds.png
 0
 0
 
-#entry 3043
+#entry 3042
 obj62964_fence2.dof-00.joe
 fencea.dds.png
 0
@@ -54794,7 +54776,7 @@ fencea.dds.png
 0
 0
 
-#entry 3044
+#entry 3043
 obj62965_fence2.dof-00.joe
 fencea.dds.png
 0
@@ -54812,7 +54794,7 @@ fencea.dds.png
 0
 0
 
-#entry 3045
+#entry 3044
 obj62966_fence2.dof-00.joe
 fencea.dds.png
 0
@@ -54830,7 +54812,7 @@ fencea.dds.png
 0
 0
 
-#entry 3046
+#entry 3045
 obj62967_fence2.dof-00.joe
 fencea.dds.png
 0
@@ -54848,7 +54830,7 @@ fencea.dds.png
 0
 0
 
-#entry 3047
+#entry 3046
 obj62968_fence2.dof-00.joe
 fencea.dds.png
 0
@@ -54866,7 +54848,7 @@ fencea.dds.png
 0
 0
 
-#entry 3048
+#entry 3047
 obj62969_fence2.dof-00.joe
 fencea.dds.png
 0
@@ -54884,7 +54866,7 @@ fencea.dds.png
 0
 0
 
-#entry 3049
+#entry 3048
 obj62970_fence2.dof-00.joe
 fencea.dds.png
 0
@@ -54902,7 +54884,7 @@ fencea.dds.png
 0
 0
 
-#entry 3050
+#entry 3049
 obj62971_fence2.dof-00.joe
 fencea.dds.png
 0
@@ -54920,7 +54902,7 @@ fencea.dds.png
 0
 0
 
-#entry 3051
+#entry 3050
 obj62972_material35.dof-00.joe
 170.dds.png
 1
@@ -54938,7 +54920,7 @@ obj62972_material35.dof-00.joe
 0
 0
 
-#entry 3052
+#entry 3051
 obj62973_materia417.dof-00.joe
 200.dds.png
 1
@@ -54956,7 +54938,7 @@ obj62973_materia417.dof-00.joe
 0
 0
 
-#entry 3053
+#entry 3052
 obj62974_materia417.dof-00.joe
 200.dds.png
 1
@@ -54974,7 +54956,7 @@ obj62974_materia417.dof-00.joe
 0
 0
 
-#entry 3054
+#entry 3053
 obj62975_materia417.dof-00.joe
 200.dds.png
 1
@@ -54992,7 +54974,7 @@ obj62975_materia417.dof-00.joe
 0
 0
 
-#entry 3055
+#entry 3054
 obj62976_materia417.dof-00.joe
 200.dds.png
 1
@@ -55010,7 +54992,7 @@ obj62976_materia417.dof-00.joe
 0
 0
 
-#entry 3056
+#entry 3055
 obj62977_material35.dof-00.joe
 170.dds.png
 1
@@ -55028,7 +55010,7 @@ obj62977_material35.dof-00.joe
 0
 0
 
-#entry 3057
+#entry 3056
 obj62978_materia417.dof-00.joe
 200.dds.png
 1
@@ -55046,7 +55028,7 @@ obj62978_materia417.dof-00.joe
 0
 0
 
-#entry 3058
+#entry 3057
 obj62979_materia417.dof-00.joe
 200.dds.png
 1
@@ -55064,7 +55046,7 @@ obj62979_materia417.dof-00.joe
 0
 0
 
-#entry 3059
+#entry 3058
 obj62980_materia417.dof-00.joe
 200.dds.png
 1
@@ -55082,7 +55064,7 @@ obj62980_materia417.dof-00.joe
 0
 0
 
-#entry 3060
+#entry 3059
 obj62981_materia417.dof-00.joe
 200.dds.png
 1
@@ -55100,7 +55082,7 @@ obj62981_materia417.dof-00.joe
 0
 0
 
-#entry 3061
+#entry 3060
 obj62982_materia417.dof-00.joe
 200.dds.png
 1
@@ -55118,7 +55100,7 @@ obj62982_materia417.dof-00.joe
 0
 0
 
-#entry 3062
+#entry 3061
 obj62983_materia417.dof-00.joe
 200.dds.png
 1
@@ -55136,7 +55118,7 @@ obj62983_materia417.dof-00.joe
 0
 0
 
-#entry 3063
+#entry 3062
 obj62984_materia417.dof-00.joe
 200.dds.png
 1
@@ -55154,7 +55136,7 @@ obj62984_materia417.dof-00.joe
 0
 0
 
-#entry 3064
+#entry 3063
 obj62985_materia418.dof-00.joe
 204.dds.png
 1
@@ -55172,7 +55154,7 @@ obj62985_materia418.dof-00.joe
 0
 0
 
-#entry 3065
+#entry 3064
 obj62986_materia418.dof-00.joe
 204.dds.png
 1
@@ -55190,7 +55172,7 @@ obj62986_materia418.dof-00.joe
 0
 0
 
-#entry 3066
+#entry 3065
 obj62987_materia419.dof-00.joe
 205.dds.png
 1
@@ -55208,7 +55190,7 @@ obj62987_materia419.dof-00.joe
 0
 0
 
-#entry 3067
+#entry 3066
 obj62988_material35.dof-00.joe
 170.dds.png
 1
@@ -55226,7 +55208,7 @@ obj62988_material35.dof-00.joe
 0
 0
 
-#entry 3068
+#entry 3067
 obj62989_materia420.dof-00.joe
 206.dds.png
 1
@@ -55244,7 +55226,7 @@ obj62989_materia420.dof-00.joe
 0
 0
 
-#entry 3069
+#entry 3068
 obj62990_materia421.dof-00.joe
 207.dds.png
 1
@@ -55262,7 +55244,7 @@ obj62990_materia421.dof-00.joe
 0
 0
 
-#entry 3070
+#entry 3069
 obj62991_materia422.dof-00.joe
 208.dds.png
 1
@@ -55280,7 +55262,7 @@ obj62991_materia422.dof-00.joe
 0
 0
 
-#entry 3071
+#entry 3070
 obj62992_materia423.dof-00.joe
 209.dds.png
 1
@@ -55298,7 +55280,7 @@ obj62992_materia423.dof-00.joe
 0
 0
 
-#entry 3072
+#entry 3071
 obj62993_materia423.dof-00.joe
 209.dds.png
 1
@@ -55316,7 +55298,7 @@ obj62993_materia423.dof-00.joe
 0
 0
 
-#entry 3073
+#entry 3072
 obj62994_material17.dof-00.joe
 128.dds.png
 0
@@ -55334,7 +55316,7 @@ obj62994_material17.dof-00.joe
 0
 1
 
-#entry 3074
+#entry 3073
 obj62995_materia423.dof-00.joe
 209.dds.png
 1
@@ -55352,7 +55334,7 @@ obj62995_materia423.dof-00.joe
 0
 0
 
-#entry 3075
+#entry 3074
 obj62996_materia423.dof-00.joe
 209.dds.png
 1
@@ -55370,7 +55352,7 @@ obj62996_materia423.dof-00.joe
 0
 0
 
-#entry 3076
+#entry 3075
 obj62997_materia423.dof-00.joe
 209.dds.png
 1
@@ -55388,7 +55370,7 @@ obj62997_materia423.dof-00.joe
 0
 0
 
-#entry 3077
+#entry 3076
 obj62998_materia423.dof-00.joe
 209.dds.png
 1
@@ -55406,7 +55388,7 @@ obj62998_materia423.dof-00.joe
 0
 0
 
-#entry 3078
+#entry 3077
 obj62999_materia423.dof-00.joe
 209.dds.png
 1
@@ -55424,7 +55406,7 @@ obj62999_materia423.dof-00.joe
 0
 0
 
-#entry 3079
+#entry 3078
 obj63000_material35.dof-00.joe
 170.dds.png
 1
@@ -55442,7 +55424,7 @@ obj63000_material35.dof-00.joe
 0
 0
 
-#entry 3080
+#entry 3079
 obj63001_materia424.dof-00.joe
 228.dds.png
 1
@@ -55460,7 +55442,7 @@ obj63001_materia424.dof-00.joe
 0
 0
 
-#entry 3081
+#entry 3080
 obj63002_materia424.dof-00.joe
 228.dds.png
 1
@@ -55478,7 +55460,7 @@ obj63002_materia424.dof-00.joe
 0
 0
 
-#entry 3082
+#entry 3081
 obj63003_materia424.dof-00.joe
 228.dds.png
 1
@@ -55496,7 +55478,7 @@ obj63003_materia424.dof-00.joe
 0
 0
 
-#entry 3083
+#entry 3082
 obj63004_materia424.dof-00.joe
 228.dds.png
 1
@@ -55514,7 +55496,7 @@ obj63004_materia424.dof-00.joe
 0
 0
 
-#entry 3084
+#entry 3083
 obj63005_materia424.dof-00.joe
 228.dds.png
 1
@@ -55532,7 +55514,7 @@ obj63005_materia424.dof-00.joe
 0
 0
 
-#entry 3085
+#entry 3084
 obj63006_materia424.dof-00.joe
 228.dds.png
 1
@@ -55550,7 +55532,7 @@ obj63006_materia424.dof-00.joe
 0
 0
 
-#entry 3086
+#entry 3085
 obj63007_materia424.dof-00.joe
 228.dds.png
 1
@@ -55568,7 +55550,7 @@ obj63007_materia424.dof-00.joe
 0
 0
 
-#entry 3087
+#entry 3086
 obj63008_materia424.dof-00.joe
 228.dds.png
 1
@@ -55586,7 +55568,7 @@ obj63008_materia424.dof-00.joe
 0
 0
 
-#entry 3088
+#entry 3087
 obj63009_materia424.dof-00.joe
 228.dds.png
 1
@@ -55604,7 +55586,7 @@ obj63009_materia424.dof-00.joe
 0
 0
 
-#entry 3089
+#entry 3088
 obj63010_materia424.dof-00.joe
 228.dds.png
 1
@@ -55622,7 +55604,7 @@ obj63010_materia424.dof-00.joe
 0
 0
 
-#entry 3090
+#entry 3089
 obj63011_material35.dof-00.joe
 170.dds.png
 1
@@ -55640,7 +55622,7 @@ obj63011_material35.dof-00.joe
 0
 0
 
-#entry 3091
+#entry 3090
 obj63012_materia424.dof-00.joe
 228.dds.png
 1
@@ -55658,7 +55640,7 @@ obj63012_materia424.dof-00.joe
 0
 0
 
-#entry 3092
+#entry 3091
 obj63013_materia424.dof-00.joe
 228.dds.png
 1
@@ -55676,7 +55658,7 @@ obj63013_materia424.dof-00.joe
 0
 0
 
-#entry 3093
+#entry 3092
 obj63014_materia424.dof-00.joe
 228.dds.png
 1
@@ -55694,7 +55676,7 @@ obj63014_materia424.dof-00.joe
 0
 0
 
-#entry 3094
+#entry 3093
 obj63015_materia424.dof-00.joe
 228.dds.png
 1
@@ -55712,7 +55694,7 @@ obj63015_materia424.dof-00.joe
 0
 0
 
-#entry 3095
+#entry 3094
 obj63016_materia424.dof-00.joe
 228.dds.png
 1
@@ -55730,7 +55712,7 @@ obj63016_materia424.dof-00.joe
 0
 0
 
-#entry 3096
+#entry 3095
 obj63017_materia424.dof-00.joe
 228.dds.png
 1
@@ -55748,7 +55730,7 @@ obj63017_materia424.dof-00.joe
 0
 0
 
-#entry 3097
+#entry 3096
 obj63018_materia424.dof-00.joe
 228.dds.png
 1
@@ -55766,7 +55748,7 @@ obj63018_materia424.dof-00.joe
 0
 0
 
-#entry 3098
+#entry 3097
 obj63019_materia424.dof-00.joe
 228.dds.png
 1
@@ -55784,7 +55766,7 @@ obj63019_materia424.dof-00.joe
 0
 0
 
-#entry 3099
+#entry 3098
 obj63020_materia424.dof-00.joe
 228.dds.png
 1
@@ -55802,7 +55784,7 @@ obj63020_materia424.dof-00.joe
 0
 0
 
-#entry 3100
+#entry 3099
 obj63021_materia425.dof-00.joe
 229.dds.png
 1
@@ -55820,7 +55802,7 @@ obj63021_materia425.dof-00.joe
 0
 0
 
-#entry 3101
+#entry 3100
 obj63022_material35.dof-00.joe
 170.dds.png
 1
@@ -55838,7 +55820,7 @@ obj63022_material35.dof-00.joe
 0
 0
 
-#entry 3102
+#entry 3101
 obj63023_materia425.dof-00.joe
 229.dds.png
 1
@@ -55856,7 +55838,7 @@ obj63023_materia425.dof-00.joe
 0
 0
 
-#entry 3103
+#entry 3102
 obj63024_materia425.dof-00.joe
 229.dds.png
 1
@@ -55874,7 +55856,7 @@ obj63024_materia425.dof-00.joe
 0
 0
 
-#entry 3104
+#entry 3103
 obj63025_materia425.dof-00.joe
 229.dds.png
 1
@@ -55892,7 +55874,7 @@ obj63025_materia425.dof-00.joe
 0
 0
 
-#entry 3105
+#entry 3104
 obj63026_materia426.dof-00.joe
 230.dds.png
 1
@@ -55910,7 +55892,7 @@ obj63026_materia426.dof-00.joe
 0
 0
 
-#entry 3106
+#entry 3105
 obj63027_materia426.dof-00.joe
 230.dds.png
 1
@@ -55928,7 +55910,7 @@ obj63027_materia426.dof-00.joe
 0
 0
 
-#entry 3107
+#entry 3106
 obj63028_materia426.dof-00.joe
 230.dds.png
 1
@@ -55946,7 +55928,7 @@ obj63028_materia426.dof-00.joe
 0
 0
 
-#entry 3108
+#entry 3107
 obj63029_materia426.dof-00.joe
 230.dds.png
 1
@@ -55964,7 +55946,7 @@ obj63029_materia426.dof-00.joe
 0
 0
 
-#entry 3109
+#entry 3108
 obj63030_materia426.dof-00.joe
 230.dds.png
 1
@@ -55982,7 +55964,7 @@ obj63030_materia426.dof-00.joe
 0
 0
 
-#entry 3110
+#entry 3109
 obj63031_materia426.dof-00.joe
 230.dds.png
 1
@@ -56000,7 +55982,7 @@ obj63031_materia426.dof-00.joe
 0
 0
 
-#entry 3111
+#entry 3110
 obj63032_materia426.dof-00.joe
 230.dds.png
 1
@@ -56018,7 +56000,7 @@ obj63032_materia426.dof-00.joe
 0
 0
 
-#entry 3112
+#entry 3111
 obj63033_material35.dof-00.joe
 170.dds.png
 1
@@ -56036,7 +56018,7 @@ obj63033_material35.dof-00.joe
 0
 0
 
-#entry 3113
+#entry 3112
 obj63034_materia426.dof-00.joe
 230.dds.png
 1
@@ -56054,7 +56036,7 @@ obj63034_materia426.dof-00.joe
 0
 0
 
-#entry 3114
+#entry 3113
 obj63035_materia426.dof-00.joe
 230.dds.png
 1
@@ -56072,7 +56054,7 @@ obj63035_materia426.dof-00.joe
 0
 0
 
-#entry 3115
+#entry 3114
 obj63036_materia427.dof-00.joe
 231.dds.png
 1
@@ -56090,7 +56072,7 @@ obj63036_materia427.dof-00.joe
 0
 0
 
-#entry 3116
+#entry 3115
 obj63037_materia427.dof-00.joe
 231.dds.png
 1
@@ -56108,7 +56090,7 @@ obj63037_materia427.dof-00.joe
 0
 0
 
-#entry 3117
+#entry 3116
 obj63038_materia427.dof-00.joe
 231.dds.png
 1
@@ -56126,7 +56108,7 @@ obj63038_materia427.dof-00.joe
 0
 0
 
-#entry 3118
+#entry 3117
 obj63039_materia427.dof-00.joe
 231.dds.png
 1
@@ -56144,7 +56126,7 @@ obj63039_materia427.dof-00.joe
 0
 0
 
-#entry 3119
+#entry 3118
 obj63040_materia427.dof-00.joe
 231.dds.png
 1
@@ -56162,7 +56144,7 @@ obj63040_materia427.dof-00.joe
 0
 0
 
-#entry 3120
+#entry 3119
 obj63041_materia427.dof-00.joe
 231.dds.png
 1
@@ -56180,7 +56162,7 @@ obj63041_materia427.dof-00.joe
 0
 0
 
-#entry 3121
+#entry 3120
 obj63042_materia427.dof-00.joe
 231.dds.png
 1
@@ -56198,7 +56180,7 @@ obj63042_materia427.dof-00.joe
 0
 0
 
-#entry 3122
+#entry 3121
 obj63043_material35.dof-00.joe
 170.dds.png
 1
@@ -56216,7 +56198,7 @@ obj63043_material35.dof-00.joe
 0
 0
 
-#entry 3123
+#entry 3122
 obj63044_materia427.dof-00.joe
 231.dds.png
 1
@@ -56234,7 +56216,7 @@ obj63044_materia427.dof-00.joe
 0
 0
 
-#entry 3124
+#entry 3123
 obj63045_materia427.dof-00.joe
 231.dds.png
 1
@@ -56252,7 +56234,7 @@ obj63045_materia427.dof-00.joe
 0
 0
 
-#entry 3125
+#entry 3124
 obj63046_materia428.dof-00.joe
 236.dds.png
 1
@@ -56270,7 +56252,7 @@ obj63046_materia428.dof-00.joe
 0
 0
 
-#entry 3126
+#entry 3125
 obj63047_materia429.dof-00.joe
 240.dds.png
 1
@@ -56288,7 +56270,7 @@ obj63047_materia429.dof-00.joe
 0
 0
 
-#entry 3127
+#entry 3126
 obj63048_materia430.dof-00.joe
 248.dds.png
 1
@@ -56306,7 +56288,7 @@ obj63048_materia430.dof-00.joe
 0
 0
 
-#entry 3128
+#entry 3127
 obj63049_materia430.dof-00.joe
 248.dds.png
 1
@@ -56324,7 +56306,7 @@ obj63049_materia430.dof-00.joe
 0
 0
 
-#entry 3129
+#entry 3128
 obj63050_grasslogo.dof-00.joe
 249.dds.png
 0
@@ -56342,7 +56324,7 @@ obj63050_grasslogo.dof-00.joe
 0
 0
 
-#entry 3130
+#entry 3129
 obj63051_grasslogo.dof-00.joe
 249.dds.png
 0
@@ -56360,7 +56342,7 @@ obj63051_grasslogo.dof-00.joe
 0
 0
 
-#entry 3131
+#entry 3130
 obj63052_materia432.dof-00.joe
 250.dds.png
 1
@@ -56378,7 +56360,7 @@ obj63052_materia432.dof-00.joe
 0
 0
 
-#entry 3132
+#entry 3131
 obj63053_materia433.dof-00.joe
 251.dds.png
 1
@@ -56396,7 +56378,7 @@ obj63053_materia433.dof-00.joe
 0
 0
 
-#entry 3133
+#entry 3132
 obj63054_materia434.dof-00.joe
 252.dds.png
 1
@@ -56414,7 +56396,7 @@ obj63054_materia434.dof-00.joe
 0
 0
 
-#entry 3134
+#entry 3133
 obj63055_material35.dof-00.joe
 170.dds.png
 1
@@ -56432,7 +56414,7 @@ obj63055_material35.dof-00.joe
 0
 0
 
-#entry 3135
+#entry 3134
 obj63056_materia434.dof-00.joe
 252.dds.png
 1
@@ -56450,7 +56432,7 @@ obj63056_materia434.dof-00.joe
 0
 0
 
-#entry 3136
+#entry 3135
 obj63057_materia435.dof-00.joe
 treelrgc.dds.png
 1
@@ -56468,7 +56450,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3137
+#entry 3136
 obj63058_materia435.dof-00.joe
 treelrgc.dds.png
 1
@@ -56486,7 +56468,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3138
+#entry 3137
 obj63059_material35.dof-00.joe
 170.dds.png
 1
@@ -56504,7 +56486,7 @@ obj63059_material35.dof-00.joe
 0
 0
 
-#entry 3139
+#entry 3138
 obj63060_materia435.dof-00.joe
 treelrgc.dds.png
 1
@@ -56522,7 +56504,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3140
+#entry 3139
 obj63061_materia435.dof-00.joe
 treelrgc.dds.png
 1
@@ -56540,7 +56522,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3141
+#entry 3140
 obj63062_material35.dof-00.joe
 170.dds.png
 1
@@ -56558,7 +56540,7 @@ obj63062_material35.dof-00.joe
 0
 0
 
-#entry 3142
+#entry 3141
 obj63063_materia435.dof-00.joe
 treelrgc.dds.png
 1
@@ -56576,7 +56558,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3143
+#entry 3142
 obj63064_tree_c7.dof-00.joe
 tlow_ty1_d.dds.png
 1
@@ -56594,7 +56576,7 @@ tlow_ty1_d.dds.png
 0
 0
 
-#entry 3144
+#entry 3143
 obj63064_tree_high01.dof-00.joe
 tree_high01.dds.png
 1
@@ -56612,7 +56594,7 @@ tree_high01.dds.png
 0
 0
 
-#entry 3145
+#entry 3144
 obj63065_materia435.dof-00.joe
 treelrgc.dds.png
 1
@@ -56630,7 +56612,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3146
+#entry 3145
 obj63066_material36.dof-00.joe
 171.dds.png
 1
@@ -56648,7 +56630,7 @@ obj63066_material36.dof-00.joe
 0
 0
 
-#entry 3147
+#entry 3146
 obj63067_materia435.dof-00.joe
 treelrgc.dds.png
 1
@@ -56666,7 +56648,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3148
+#entry 3147
 obj63068_materia435.dof-00.joe
 treelrgc.dds.png
 1
@@ -56684,7 +56666,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3149
+#entry 3148
 obj63069_materia435.dof-00.joe
 treelrgc.dds.png
 1
@@ -56702,7 +56684,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3150
+#entry 3149
 obj63070_materia435.dof-00.joe
 treelrgc.dds.png
 1
@@ -56720,7 +56702,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3151
+#entry 3150
 obj63071_materia435.dof-00.joe
 treelrgc.dds.png
 1
@@ -56738,7 +56720,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3152
+#entry 3151
 obj63072_materia435.dof-00.joe
 treelrgc.dds.png
 1
@@ -56756,7 +56738,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3153
+#entry 3152
 obj63073_material36.dof-00.joe
 171.dds.png
 1
@@ -56774,7 +56756,7 @@ obj63073_material36.dof-00.joe
 0
 0
 
-#entry 3154
+#entry 3153
 obj63074_materia436.dof-00.joe
 treelrgc.dds.png
 1
@@ -56792,7 +56774,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3155
+#entry 3154
 obj63075_materia436.dof-00.joe
 treelrgc.dds.png
 1
@@ -56810,7 +56792,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3156
+#entry 3155
 obj63076_materia437.dof-00.joe
 treelrgc.dds.png
 1
@@ -56828,7 +56810,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3157
+#entry 3156
 obj63077_material17.dof-00.joe
 128.dds.png
 0
@@ -56846,7 +56828,7 @@ obj63077_material17.dof-00.joe
 0
 1
 
-#entry 3158
+#entry 3157
 obj63078_materia437.dof-00.joe
 treelrgc.dds.png
 1
@@ -56864,7 +56846,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3159
+#entry 3158
 obj63079_materia437.dof-00.joe
 treelrgc.dds.png
 1
@@ -56882,7 +56864,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3160
+#entry 3159
 obj63080_material36.dof-00.joe
 171.dds.png
 1
@@ -56900,7 +56882,7 @@ obj63080_material36.dof-00.joe
 0
 0
 
-#entry 3161
+#entry 3160
 obj63081_materia437.dof-00.joe
 treelrgc.dds.png
 1
@@ -56918,7 +56900,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3162
+#entry 3161
 obj63082_materia437.dof-00.joe
 treelrgc.dds.png
 1
@@ -56936,7 +56918,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3163
+#entry 3162
 obj63083_materia437.dof-00.joe
 treelrgc.dds.png
 1
@@ -56954,7 +56936,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3164
+#entry 3163
 obj63084_materia437.dof-00.joe
 treelrgc.dds.png
 1
@@ -56972,7 +56954,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3165
+#entry 3164
 obj63085_tree_c7.dof-00.joe
 tlow_ty1_d.dds.png
 1
@@ -56990,7 +56972,7 @@ tlow_ty1_d.dds.png
 0
 0
 
-#entry 3166
+#entry 3165
 obj63085_tree_high01.dof-00.joe
 tree_high01.dds.png
 1
@@ -57008,7 +56990,7 @@ tree_high01.dds.png
 0
 0
 
-#entry 3167
+#entry 3166
 obj63086_materia437.dof-00.joe
 treelrgc.dds.png
 1
@@ -57026,7 +57008,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3168
+#entry 3167
 obj63087_materia437.dof-00.joe
 treelrgc.dds.png
 1
@@ -57044,7 +57026,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3169
+#entry 3168
 obj63088_materia437.dof-00.joe
 treelrgc.dds.png
 1
@@ -57062,7 +57044,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3170
+#entry 3169
 obj63089_material36.dof-00.joe
 171.dds.png
 1
@@ -57080,7 +57062,7 @@ obj63089_material36.dof-00.joe
 0
 0
 
-#entry 3171
+#entry 3170
 obj63090_materia437.dof-00.joe
 treelrgc.dds.png
 1
@@ -57098,7 +57080,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3172
+#entry 3171
 obj63091_materia437.dof-00.joe
 treelrgc.dds.png
 1
@@ -57116,7 +57098,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3173
+#entry 3172
 obj63092_materia437.dof-00.joe
 treelrgc.dds.png
 1
@@ -57134,7 +57116,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3174
+#entry 3173
 obj63093_materia437.dof-00.joe
 treelrgc.dds.png
 1
@@ -57152,7 +57134,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3175
+#entry 3174
 obj63094_materia437.dof-00.joe
 treelrgc.dds.png
 1
@@ -57170,7 +57152,7 @@ treelrgc.dds.png
 0
 0
 
-#entry 3176
+#entry 3175
 obj63095_material36.dof-00.joe
 171.dds.png
 1
@@ -57188,7 +57170,7 @@ obj63095_material36.dof-00.joe
 0
 0
 
-#entry 3177
+#entry 3176
 obj63096_materia438.dof-00.joe
 264.dds.png
 1
@@ -57206,7 +57188,7 @@ obj63096_materia438.dof-00.joe
 0
 0
 
-#entry 3178
+#entry 3177
 obj63097_tv_overlay.dof-00.joe
 inte_tv.tga.png
 1
@@ -57224,7 +57206,7 @@ inte_tv.tga.png
 0
 0
 
-#entry 3179
+#entry 3178
 obj63098_tv_overlay.dof-00.joe
 inte_tv.tga.png
 1
@@ -57242,7 +57224,7 @@ inte_tv.tga.png
 0
 0
 
-#entry 3180
+#entry 3179
 obj63099_materia439.dof-00.joe
 266.dds.png
 1
@@ -57260,7 +57242,7 @@ obj63099_materia439.dof-00.joe
 0
 0
 
-#entry 3181
+#entry 3180
 obj63100_materia440.dof-00.joe
 267.dds.png
 1
@@ -57278,7 +57260,7 @@ obj63100_materia440.dof-00.joe
 0
 0
 
-#entry 3182
+#entry 3181
 obj63101_materia441.dof-00.joe
 268.dds.png
 1
@@ -57296,7 +57278,7 @@ obj63101_materia441.dof-00.joe
 0
 0
 
-#entry 3183
+#entry 3182
 obj63102_materia442.dof-00.joe
 269.dds.png
 1
@@ -57314,7 +57296,7 @@ obj63102_materia442.dof-00.joe
 0
 0
 
-#entry 3184
+#entry 3183
 obj63103_materia443.dof-00.joe
 386.dds.png
 0
@@ -57332,7 +57314,7 @@ obj63103_materia443.dof-00.joe
 0
 0
 
-#entry 3185
+#entry 3184
 obj63104_material36.dof-00.joe
 171.dds.png
 1
@@ -57350,7 +57332,7 @@ obj63104_material36.dof-00.joe
 0
 0
 
-#entry 3186
+#entry 3185
 obj63105_materia443.dof-00.joe
 386.dds.png
 0
@@ -57368,7 +57350,7 @@ obj63105_materia443.dof-00.joe
 0
 0
 
-#entry 3187
+#entry 3186
 obj63106_materia443.dof-00.joe
 386.dds.png
 0
@@ -57386,7 +57368,7 @@ obj63106_materia443.dof-00.joe
 0
 0
 
-#entry 3188
+#entry 3187
 obj63107_materia443.dof-00.joe
 386.dds.png
 0
@@ -57404,7 +57386,7 @@ obj63107_materia443.dof-00.joe
 0
 0
 
-#entry 3189
+#entry 3188
 obj63108_materia443.dof-00.joe
 386.dds.png
 0
@@ -57422,7 +57404,7 @@ obj63108_materia443.dof-00.joe
 0
 0
 
-#entry 3190
+#entry 3189
 obj63109_materia443.dof-00.joe
 386.dds.png
 0
@@ -57440,7 +57422,7 @@ obj63109_materia443.dof-00.joe
 0
 0
 
-#entry 3191
+#entry 3190
 obj63110_materia444.dof-00.joe
 415.dds.png
 1
@@ -57458,7 +57440,7 @@ obj63110_materia444.dof-00.joe
 0
 0
 
-#entry 3192
+#entry 3191
 obj63111_materia446.dof-00.joe
 417.dds.png
 0
@@ -57476,7 +57458,7 @@ obj63111_materia446.dof-00.joe
 0
 0
 
-#entry 3193
+#entry 3192
 obj63112_materia446.dof-00.joe
 417.dds.png
 0
@@ -57494,7 +57476,7 @@ obj63112_materia446.dof-00.joe
 0
 0
 
-#entry 3194
+#entry 3193
 obj63113_material36.dof-00.joe
 171.dds.png
 1
@@ -57512,7 +57494,7 @@ obj63113_material36.dof-00.joe
 0
 0
 
-#entry 3195
+#entry 3194
 obj63114_materia446.dof-00.joe
 417.dds.png
 0
@@ -57530,7 +57512,7 @@ obj63114_materia446.dof-00.joe
 0
 0
 
-#entry 3196
+#entry 3195
 obj63115_materia446.dof-00.joe
 417.dds.png
 0
@@ -57548,7 +57530,7 @@ obj63115_materia446.dof-00.joe
 0
 0
 
-#entry 3197
+#entry 3196
 obj63116_materia446.dof-00.joe
 417.dds.png
 0
@@ -57566,7 +57548,7 @@ obj63116_materia446.dof-00.joe
 0
 0
 
-#entry 3198
+#entry 3197
 obj63117_materia446.dof-00.joe
 417.dds.png
 0
@@ -57584,7 +57566,7 @@ obj63117_materia446.dof-00.joe
 0
 0
 
-#entry 3199
+#entry 3198
 obj63118_materia446.dof-00.joe
 417.dds.png
 0
@@ -57602,7 +57584,7 @@ obj63118_materia446.dof-00.joe
 0
 0
 
-#entry 3200
+#entry 3199
 obj63119_materia446.dof-00.joe
 417.dds.png
 0
@@ -57620,7 +57602,7 @@ obj63119_materia446.dof-00.joe
 0
 0
 
-#entry 3201
+#entry 3200
 obj63120_materia446.dof-00.joe
 417.dds.png
 0
@@ -57638,7 +57620,7 @@ obj63120_materia446.dof-00.joe
 0
 0
 
-#entry 3202
+#entry 3201
 obj63121_materia446.dof-00.joe
 417.dds.png
 0
@@ -57656,7 +57638,7 @@ obj63121_materia446.dof-00.joe
 0
 0
 
-#entry 3203
+#entry 3202
 obj63122_materia446.dof-00.joe
 417.dds.png
 0
@@ -57674,7 +57656,7 @@ obj63122_materia446.dof-00.joe
 0
 0
 
-#entry 3204
+#entry 3203
 obj63123_materia446.dof-00.joe
 417.dds.png
 0
@@ -57692,7 +57674,7 @@ obj63123_materia446.dof-00.joe
 0
 0
 
-#entry 3205
+#entry 3204
 obj63124_material36.dof-00.joe
 171.dds.png
 1
@@ -57710,7 +57692,7 @@ obj63124_material36.dof-00.joe
 0
 0
 
-#entry 3206
+#entry 3205
 obj63125_materia446.dof-00.joe
 417.dds.png
 0
@@ -57728,7 +57710,7 @@ obj63125_materia446.dof-00.joe
 0
 0
 
-#entry 3207
+#entry 3206
 obj63126_materia446.dof-00.joe
 417.dds.png
 0
@@ -57746,7 +57728,7 @@ obj63126_materia446.dof-00.joe
 0
 0
 
-#entry 3208
+#entry 3207
 obj63127_materia446.dof-00.joe
 417.dds.png
 0
@@ -57764,7 +57746,7 @@ obj63127_materia446.dof-00.joe
 0
 0
 
-#entry 3209
+#entry 3208
 obj63128_materia446.dof-00.joe
 417.dds.png
 0
@@ -57782,7 +57764,7 @@ obj63128_materia446.dof-00.joe
 0
 0
 
-#entry 3210
+#entry 3209
 obj63129_materia446.dof-00.joe
 417.dds.png
 0
@@ -57800,7 +57782,7 @@ obj63129_materia446.dof-00.joe
 0
 0
 
-#entry 3211
+#entry 3210
 obj63130_materia447.dof-00.joe
 418.dds.png
 0
@@ -57818,7 +57800,7 @@ obj63130_materia447.dof-00.joe
 0
 0
 
-#entry 3212
+#entry 3211
 obj63131_materia447.dof-00.joe
 418.dds.png
 0
@@ -57836,7 +57818,7 @@ obj63131_materia447.dof-00.joe
 0
 0
 
-#entry 3213
+#entry 3212
 obj63132_materia447.dof-00.joe
 418.dds.png
 0
@@ -57854,7 +57836,7 @@ obj63132_materia447.dof-00.joe
 0
 0
 
-#entry 3214
+#entry 3213
 obj63133_materia448.dof-00.joe
 419.dds.png
 1
@@ -57872,7 +57854,7 @@ obj63133_materia448.dof-00.joe
 0
 0
 
-#entry 3215
+#entry 3214
 obj63134_materia448.dof-00.joe
 419.dds.png
 1
@@ -57890,7 +57872,7 @@ obj63134_materia448.dof-00.joe
 0
 0
 
-#entry 3216
+#entry 3215
 obj63135_material36.dof-00.joe
 171.dds.png
 1
@@ -57908,7 +57890,7 @@ obj63135_material36.dof-00.joe
 0
 0
 
-#entry 3217
+#entry 3216
 obj63136_materia448.dof-00.joe
 419.dds.png
 1
@@ -57926,7 +57908,7 @@ obj63136_materia448.dof-00.joe
 0
 0
 
-#entry 3218
+#entry 3217
 obj63137_material36.dof-00.joe
 171.dds.png
 1
@@ -57944,7 +57926,7 @@ obj63137_material36.dof-00.joe
 0
 0
 
-#entry 3219
+#entry 3218
 obj63138_material36.dof-00.joe
 171.dds.png
 1
@@ -57962,7 +57944,7 @@ obj63138_material36.dof-00.joe
 0
 0
 
-#entry 3220
+#entry 3219
 obj63139_material37.dof-00.joe
 172.dds.png
 1
@@ -57980,7 +57962,7 @@ obj63139_material37.dof-00.joe
 0
 0
 
-#entry 3221
+#entry 3220
 obj63140_material17.dof-00.joe
 128.dds.png
 0
@@ -57998,7 +57980,7 @@ obj63140_material17.dof-00.joe
 0
 1
 
-#entry 3222
+#entry 3221
 obj63142_materia481.dof-00.joe
 047.dds.png
 0
@@ -58016,7 +57998,7 @@ obj63142_materia481.dof-00.joe
 0
 0
 
-#entry 3223
+#entry 3222
 obj63143_materia481.dof-00.joe
 047.dds.png
 0
@@ -58034,7 +58016,7 @@ obj63143_materia481.dof-00.joe
 0
 0
 
-#entry 3224
+#entry 3223
 obj63144_materia481.dof-00.joe
 047.dds.png
 0
@@ -58052,7 +58034,7 @@ obj63144_materia481.dof-00.joe
 0
 0
 
-#entry 3225
+#entry 3224
 obj63145_material37.dof-00.joe
 172.dds.png
 1
@@ -58070,7 +58052,7 @@ obj63145_material37.dof-00.joe
 0
 0
 
-#entry 3226
+#entry 3225
 obj63146_materia481.dof-00.joe
 047.dds.png
 0
@@ -58088,7 +58070,7 @@ obj63146_materia481.dof-00.joe
 0
 0
 
-#entry 3227
+#entry 3226
 obj63147_materia481.dof-00.joe
 047.dds.png
 0
@@ -58106,7 +58088,7 @@ obj63147_materia481.dof-00.joe
 0
 0
 
-#entry 3228
+#entry 3227
 obj63148_materia481.dof-00.joe
 047.dds.png
 0
@@ -58124,7 +58106,7 @@ obj63148_materia481.dof-00.joe
 0
 0
 
-#entry 3229
+#entry 3228
 obj63149_materia481.dof-00.joe
 047.dds.png
 0
@@ -58142,7 +58124,7 @@ obj63149_materia481.dof-00.joe
 0
 0
 
-#entry 3230
+#entry 3229
 obj63150_material37.dof-00.joe
 172.dds.png
 1
@@ -58160,7 +58142,7 @@ obj63150_material37.dof-00.joe
 0
 0
 
-#entry 3231
+#entry 3230
 obj63151_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58178,7 +58160,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3232
+#entry 3231
 obj63152_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58196,7 +58178,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3233
+#entry 3232
 obj63153_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58214,7 +58196,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3234
+#entry 3233
 obj63154_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58232,7 +58214,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3235
+#entry 3234
 obj63155_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58250,7 +58232,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3236
+#entry 3235
 obj63156_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58268,7 +58250,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3237
+#entry 3236
 obj63157_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58286,7 +58268,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3238
+#entry 3237
 obj63158_material37.dof-00.joe
 172.dds.png
 1
@@ -58304,7 +58286,7 @@ obj63158_material37.dof-00.joe
 0
 0
 
-#entry 3239
+#entry 3238
 obj63159_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58322,7 +58304,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3240
+#entry 3239
 obj63160_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58340,7 +58322,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3241
+#entry 3240
 obj63161_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58358,7 +58340,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3242
+#entry 3241
 obj63162_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58376,7 +58358,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3243
+#entry 3242
 obj63163_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58394,7 +58376,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3244
+#entry 3243
 obj63164_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58412,7 +58394,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3245
+#entry 3244
 obj63165_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58430,7 +58412,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3246
+#entry 3245
 obj63166_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58448,7 +58430,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3247
+#entry 3246
 obj63167_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58466,7 +58448,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3248
+#entry 3247
 obj63168_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58484,7 +58466,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3249
+#entry 3248
 obj63169_material37.dof-00.joe
 172.dds.png
 1
@@ -58502,7 +58484,7 @@ obj63169_material37.dof-00.joe
 0
 0
 
-#entry 3250
+#entry 3249
 obj63170_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58520,7 +58502,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3251
+#entry 3250
 obj63171_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58538,7 +58520,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3252
+#entry 3251
 obj63172_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58556,7 +58538,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3253
+#entry 3252
 obj63173_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58574,7 +58556,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3254
+#entry 3253
 obj63174_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58592,7 +58574,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3255
+#entry 3254
 obj63175_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58610,7 +58592,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3256
+#entry 3255
 obj63176_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58628,7 +58610,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3257
+#entry 3256
 obj63177_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58646,7 +58628,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3258
+#entry 3257
 obj63178_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58664,7 +58646,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3259
+#entry 3258
 obj63179_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58682,7 +58664,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3260
+#entry 3259
 obj63180_material37.dof-00.joe
 172.dds.png
 1
@@ -58700,7 +58682,7 @@ obj63180_material37.dof-00.joe
 0
 0
 
-#entry 3261
+#entry 3260
 obj63181_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58718,7 +58700,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3262
+#entry 3261
 obj63182_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58736,7 +58718,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3263
+#entry 3262
 obj63183_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58754,7 +58736,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3264
+#entry 3263
 obj63184_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58772,7 +58754,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3265
+#entry 3264
 obj73185_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58790,7 +58772,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3266
+#entry 3265
 obj73186_material3.dof-00.joe
 030.dds.png
 1
@@ -58808,7 +58790,7 @@ obj73186_material3.dof-00.joe
 0
 0
 
-#entry 3267
+#entry 3266
 obj73187_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58826,7 +58808,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3268
+#entry 3267
 obj73188_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58844,7 +58826,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3269
+#entry 3268
 obj73189_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58862,7 +58844,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3270
+#entry 3269
 obj73190_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58880,7 +58862,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3271
+#entry 3270
 obj73191_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58898,7 +58880,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3272
+#entry 3271
 obj73192_material37.dof-00.joe
 172.dds.png
 1
@@ -58916,7 +58898,7 @@ obj73192_material37.dof-00.joe
 0
 0
 
-#entry 3273
+#entry 3272
 obj73193_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58934,7 +58916,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3274
+#entry 3273
 obj73194_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58952,7 +58934,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3275
+#entry 3274
 obj73195_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58970,7 +58952,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3276
+#entry 3275
 obj73196_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -58988,7 +58970,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3277
+#entry 3276
 obj73197_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -59006,7 +58988,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3278
+#entry 3277
 obj73198_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -59024,7 +59006,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3279
+#entry 3278
 obj73199_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -59042,7 +59024,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3280
+#entry 3279
 obj73200_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -59060,7 +59042,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3281
+#entry 3280
 obj73201_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -59078,7 +59060,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3282
+#entry 3281
 obj73202_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -59096,7 +59078,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3283
+#entry 3282
 obj73203_material37.dof-00.joe
 172.dds.png
 1
@@ -59114,7 +59096,7 @@ obj73203_material37.dof-00.joe
 0
 0
 
-#entry 3284
+#entry 3283
 obj73204_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -59132,7 +59114,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3285
+#entry 3284
 obj73205_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -59150,7 +59132,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3286
+#entry 3285
 obj73206_materia482.dof-00.joe
 grassmelhor.dds.png
 1
@@ -59168,7 +59150,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3287
+#entry 3286
 obj73207_materia483.dof-00.joe
 190.dds.png
 1
@@ -59186,7 +59168,7 @@ obj73207_materia483.dof-00.joe
 0
 0
 
-#entry 3288
+#entry 3287
 obj73208_materia483.dof-00.joe
 190.dds.png
 1
@@ -59204,7 +59186,7 @@ obj73208_materia483.dof-00.joe
 0
 0
 
-#entry 3289
+#entry 3288
 obj73209_materia483.dof-00.joe
 190.dds.png
 1
@@ -59222,7 +59204,7 @@ obj73209_materia483.dof-00.joe
 0
 0
 
-#entry 3290
+#entry 3289
 obj73210_materia483.dof-00.joe
 190.dds.png
 1
@@ -59240,7 +59222,7 @@ obj73210_materia483.dof-00.joe
 0
 0
 
-#entry 3291
+#entry 3290
 obj73211_materia483.dof-00.joe
 190.dds.png
 1
@@ -59258,7 +59240,7 @@ obj73211_materia483.dof-00.joe
 0
 0
 
-#entry 3292
+#entry 3291
 obj73212_materia483.dof-00.joe
 190.dds.png
 1
@@ -59276,7 +59258,7 @@ obj73212_materia483.dof-00.joe
 0
 0
 
-#entry 3293
+#entry 3292
 obj73213_materia483.dof-00.joe
 190.dds.png
 1
@@ -59294,7 +59276,7 @@ obj73213_materia483.dof-00.joe
 0
 0
 
-#entry 3294
+#entry 3293
 obj73214_material37.dof-00.joe
 172.dds.png
 1
@@ -59312,7 +59294,7 @@ obj73214_material37.dof-00.joe
 0
 0
 
-#entry 3295
+#entry 3294
 obj73215_materia483.dof-00.joe
 190.dds.png
 1
@@ -59330,7 +59312,7 @@ obj73215_materia483.dof-00.joe
 0
 0
 
-#entry 3296
+#entry 3295
 obj73216_materia483.dof-00.joe
 190.dds.png
 1
@@ -59348,7 +59330,7 @@ obj73216_materia483.dof-00.joe
 0
 0
 
-#entry 3297
+#entry 3296
 obj73217_materia483.dof-00.joe
 190.dds.png
 1
@@ -59366,7 +59348,7 @@ obj73217_materia483.dof-00.joe
 0
 0
 
-#entry 3298
+#entry 3297
 obj73218_materia483.dof-00.joe
 190.dds.png
 1
@@ -59384,7 +59366,7 @@ obj73218_materia483.dof-00.joe
 0
 0
 
-#entry 3299
+#entry 3298
 obj73219_materia483.dof-00.joe
 190.dds.png
 1
@@ -59402,7 +59384,7 @@ obj73219_materia483.dof-00.joe
 0
 0
 
-#entry 3300
+#entry 3299
 obj73220_materia483.dof-00.joe
 190.dds.png
 1
@@ -59420,7 +59402,7 @@ obj73220_materia483.dof-00.joe
 0
 0
 
-#entry 3301
+#entry 3300
 obj73221_materia483.dof-00.joe
 190.dds.png
 1
@@ -59438,7 +59420,7 @@ obj73221_materia483.dof-00.joe
 0
 0
 
-#entry 3302
+#entry 3301
 obj73222_materia483.dof-00.joe
 190.dds.png
 1
@@ -59456,7 +59438,7 @@ obj73222_materia483.dof-00.joe
 0
 0
 
-#entry 3303
+#entry 3302
 obj73223_materia483.dof-00.joe
 190.dds.png
 1
@@ -59474,7 +59456,7 @@ obj73223_materia483.dof-00.joe
 0
 0
 
-#entry 3304
+#entry 3303
 obj73224_materia483.dof-00.joe
 190.dds.png
 1
@@ -59492,7 +59474,7 @@ obj73224_materia483.dof-00.joe
 0
 0
 
-#entry 3305
+#entry 3304
 obj73225_material37.dof-00.joe
 172.dds.png
 1
@@ -59510,7 +59492,7 @@ obj73225_material37.dof-00.joe
 0
 0
 
-#entry 3306
+#entry 3305
 obj73226_materia483.dof-00.joe
 190.dds.png
 1
@@ -59528,7 +59510,7 @@ obj73226_materia483.dof-00.joe
 0
 0
 
-#entry 3307
+#entry 3306
 obj73227_materia483.dof-00.joe
 190.dds.png
 1
@@ -59546,7 +59528,7 @@ obj73227_materia483.dof-00.joe
 0
 0
 
-#entry 3308
+#entry 3307
 obj73228_materia483.dof-00.joe
 190.dds.png
 1
@@ -59564,7 +59546,7 @@ obj73228_materia483.dof-00.joe
 0
 0
 
-#entry 3309
+#entry 3308
 obj73229_materia483.dof-00.joe
 190.dds.png
 1
@@ -59582,7 +59564,7 @@ obj73229_materia483.dof-00.joe
 0
 0
 
-#entry 3310
+#entry 3309
 obj73230_materia483.dof-00.joe
 190.dds.png
 1
@@ -59600,7 +59582,7 @@ obj73230_materia483.dof-00.joe
 0
 0
 
-#entry 3311
+#entry 3310
 obj73231_materia483.dof-00.joe
 190.dds.png
 1
@@ -59618,7 +59600,7 @@ obj73231_materia483.dof-00.joe
 0
 0
 
-#entry 3312
+#entry 3311
 obj73232_materia483.dof-00.joe
 190.dds.png
 1
@@ -59636,7 +59618,7 @@ obj73232_materia483.dof-00.joe
 0
 0
 
-#entry 3313
+#entry 3312
 obj73233_materia483.dof-00.joe
 190.dds.png
 1
@@ -59654,7 +59636,7 @@ obj73233_materia483.dof-00.joe
 0
 0
 
-#entry 3314
+#entry 3313
 obj73234_materia483.dof-00.joe
 190.dds.png
 1
@@ -59672,7 +59654,7 @@ obj73234_materia483.dof-00.joe
 0
 0
 
-#entry 3315
+#entry 3314
 obj73235_materia483.dof-00.joe
 190.dds.png
 1
@@ -59690,7 +59672,7 @@ obj73235_materia483.dof-00.joe
 0
 0
 
-#entry 3316
+#entry 3315
 obj73236_material37.dof-00.joe
 172.dds.png
 1
@@ -59708,7 +59690,7 @@ obj73236_material37.dof-00.joe
 0
 0
 
-#entry 3317
+#entry 3316
 obj73237_materia483.dof-00.joe
 190.dds.png
 1
@@ -59726,7 +59708,7 @@ obj73237_materia483.dof-00.joe
 0
 0
 
-#entry 3318
+#entry 3317
 obj73238_materia483.dof-00.joe
 190.dds.png
 1
@@ -59744,7 +59726,7 @@ obj73238_materia483.dof-00.joe
 0
 0
 
-#entry 3319
+#entry 3318
 obj73239_materia483.dof-00.joe
 190.dds.png
 1
@@ -59762,7 +59744,7 @@ obj73239_materia483.dof-00.joe
 0
 0
 
-#entry 3320
+#entry 3319
 obj73240_materia483.dof-00.joe
 190.dds.png
 1
@@ -59780,7 +59762,7 @@ obj73240_materia483.dof-00.joe
 0
 0
 
-#entry 3321
+#entry 3320
 obj73241_materia483.dof-00.joe
 190.dds.png
 1
@@ -59798,7 +59780,7 @@ obj73241_materia483.dof-00.joe
 0
 0
 
-#entry 3322
+#entry 3321
 obj73242_material17.dof-00.joe
 128.dds.png
 0
@@ -59816,7 +59798,7 @@ obj73242_material17.dof-00.joe
 0
 1
 
-#entry 3323
+#entry 3322
 obj73243_materia483.dof-00.joe
 190.dds.png
 1
@@ -59834,7 +59816,7 @@ obj73243_materia483.dof-00.joe
 0
 0
 
-#entry 3324
+#entry 3323
 obj73244_materia483.dof-00.joe
 190.dds.png
 1
@@ -59852,7 +59834,7 @@ obj73244_materia483.dof-00.joe
 0
 0
 
-#entry 3325
+#entry 3324
 obj73245_materia483.dof-00.joe
 190.dds.png
 1
@@ -59870,7 +59852,7 @@ obj73245_materia483.dof-00.joe
 0
 0
 
-#entry 3326
+#entry 3325
 obj73246_materia483.dof-00.joe
 190.dds.png
 1
@@ -59888,7 +59870,7 @@ obj73246_materia483.dof-00.joe
 0
 0
 
-#entry 3327
+#entry 3326
 obj73247_materia483.dof-00.joe
 190.dds.png
 1
@@ -59906,7 +59888,7 @@ obj73247_materia483.dof-00.joe
 0
 0
 
-#entry 3328
+#entry 3327
 obj73248_material38.dof-00.joe
 173.dds.png
 1
@@ -59924,7 +59906,7 @@ obj73248_material38.dof-00.joe
 0
 0
 
-#entry 3329
+#entry 3328
 obj73249_materia483.dof-00.joe
 190.dds.png
 1
@@ -59942,7 +59924,7 @@ obj73249_materia483.dof-00.joe
 0
 0
 
-#entry 3330
+#entry 3329
 obj73250_materia483.dof-00.joe
 190.dds.png
 1
@@ -59960,7 +59942,7 @@ obj73250_materia483.dof-00.joe
 0
 0
 
-#entry 3331
+#entry 3330
 obj73251_materia483.dof-00.joe
 190.dds.png
 1
@@ -59978,7 +59960,7 @@ obj73251_materia483.dof-00.joe
 0
 0
 
-#entry 3332
+#entry 3331
 obj73252_materia483.dof-00.joe
 190.dds.png
 1
@@ -59996,7 +59978,7 @@ obj73252_materia483.dof-00.joe
 0
 0
 
-#entry 3333
+#entry 3332
 obj73253_materia483.dof-00.joe
 190.dds.png
 1
@@ -60014,7 +59996,7 @@ obj73253_materia483.dof-00.joe
 0
 0
 
-#entry 3334
+#entry 3333
 obj73254_materia483.dof-00.joe
 190.dds.png
 1
@@ -60032,7 +60014,7 @@ obj73254_materia483.dof-00.joe
 0
 0
 
-#entry 3335
+#entry 3334
 obj73255_roadescuro.dof-00.joe
 rroades.dds.png
 1
@@ -60050,7 +60032,7 @@ rroades.dds.png
 0
 0
 
-#entry 3336
+#entry 3335
 obj73256_roadpit.dof-00.joe
 roadpit.dds.png
 1
@@ -60068,7 +60050,7 @@ roadpit.dds.png
 0
 0
 
-#entry 3337
+#entry 3336
 obj73257_roadescuro.dof-00.joe
 rroades.dds.png
 1
@@ -60086,7 +60068,7 @@ rroades.dds.png
 0
 0
 
-#entry 3338
+#entry 3337
 obj73258_roadpit.dof-00.joe
 roadpit.dds.png
 1
@@ -60104,7 +60086,7 @@ roadpit.dds.png
 0
 0
 
-#entry 3339
+#entry 3338
 obj73259_material38.dof-00.joe
 173.dds.png
 1
@@ -60122,7 +60104,7 @@ obj73259_material38.dof-00.joe
 0
 0
 
-#entry 3340
+#entry 3339
 obj73260_road1.dof-00.joe
 rroad.dds.png
 1
@@ -60140,7 +60122,7 @@ rroad.dds.png
 0
 0
 
-#entry 3341
+#entry 3340
 obj73261_road1.dof-00.joe
 rroad.dds.png
 1
@@ -60158,7 +60140,7 @@ rroad.dds.png
 0
 0
 
-#entry 3342
+#entry 3341
 obj73262_road1.dof-00.joe
 rroad.dds.png
 1
@@ -60176,7 +60158,7 @@ rroad.dds.png
 0
 0
 
-#entry 3343
+#entry 3342
 obj73263_road1.dof-00.joe
 rroad.dds.png
 1
@@ -60194,7 +60176,7 @@ rroad.dds.png
 0
 0
 
-#entry 3344
+#entry 3343
 obj73264_roadpit.dof-00.joe
 roadpit.dds.png
 1
@@ -60212,7 +60194,7 @@ roadpit.dds.png
 0
 0
 
-#entry 3345
+#entry 3344
 obj73265_roademenda5.dof-00.joe
 emendo1a.dds.png
 1
@@ -60230,7 +60212,7 @@ emendo1a.dds.png
 0
 0
 
-#entry 3346
+#entry 3345
 obj73266_roadpit.dof-00.joe
 roadpit.dds.png
 1
@@ -60248,7 +60230,7 @@ roadpit.dds.png
 0
 0
 
-#entry 3347
+#entry 3346
 obj73267_road1.dof-00.joe
 rroad.dds.png
 1
@@ -60266,7 +60248,7 @@ rroad.dds.png
 0
 0
 
-#entry 3348
+#entry 3347
 obj73268_roademenda5.dof-00.joe
 emendo1a.dds.png
 1
@@ -60284,7 +60266,7 @@ emendo1a.dds.png
 0
 0
 
-#entry 3349
+#entry 3348
 obj73269_road1.dof-00.joe
 rroad.dds.png
 1
@@ -60302,7 +60284,7 @@ rroad.dds.png
 0
 0
 
-#entry 3350
+#entry 3349
 obj73270_material38.dof-00.joe
 173.dds.png
 1
@@ -60320,7 +60302,7 @@ obj73270_material38.dof-00.joe
 0
 0
 
-#entry 3351
+#entry 3350
 obj73271_roadpitbox.dof-00.joe
 roadpitdir.dds.png
 1
@@ -60338,7 +60320,7 @@ roadpitdir.dds.png
 0
 0
 
-#entry 3352
+#entry 3351
 obj73272_road1.dof-00.joe
 rroad.dds.png
 1
@@ -60356,7 +60338,7 @@ rroad.dds.png
 0
 0
 
-#entry 3353
+#entry 3352
 obj73273_road1.dof-00.joe
 rroad.dds.png
 1
@@ -60374,7 +60356,7 @@ rroad.dds.png
 0
 0
 
-#entry 3354
+#entry 3353
 obj73274_road1.dof-00.joe
 rroad.dds.png
 1
@@ -60392,7 +60374,7 @@ rroad.dds.png
 0
 0
 
-#entry 3355
+#entry 3354
 obj73275_roadescuro.dof-00.joe
 rroades.dds.png
 1
@@ -60410,7 +60392,7 @@ rroades.dds.png
 0
 0
 
-#entry 3356
+#entry 3355
 obj73276_road1.dof-00.joe
 rroad.dds.png
 1
@@ -60428,7 +60410,7 @@ rroad.dds.png
 0
 0
 
-#entry 3357
+#entry 3356
 obj73277_road1.dof-00.joe
 rroad.dds.png
 1
@@ -60446,7 +60428,7 @@ rroad.dds.png
 0
 0
 
-#entry 3358
+#entry 3357
 obj73278_roadpitbox.dof-00.joe
 roadpitdir.dds.png
 1
@@ -60464,7 +60446,7 @@ roadpitdir.dds.png
 0
 0
 
-#entry 3359
+#entry 3358
 obj73279_road1.dof-00.joe
 rroad.dds.png
 1
@@ -60482,7 +60464,7 @@ rroad.dds.png
 0
 0
 
-#entry 3360
+#entry 3359
 obj73280_roadescuro.dof-00.joe
 rroades.dds.png
 1
@@ -60500,7 +60482,7 @@ rroades.dds.png
 0
 0
 
-#entry 3361
+#entry 3360
 obj73281_material38.dof-00.joe
 173.dds.png
 1
@@ -60518,7 +60500,7 @@ obj73281_material38.dof-00.joe
 0
 0
 
-#entry 3362
+#entry 3361
 obj73282_road1.dof-00.joe
 rroad.dds.png
 1
@@ -60536,7 +60518,7 @@ rroad.dds.png
 0
 0
 
-#entry 3363
+#entry 3362
 obj73283_roadpitbox.dof-00.joe
 roadpitdir.dds.png
 1
@@ -60554,7 +60536,7 @@ roadpitdir.dds.png
 0
 0
 
-#entry 3364
+#entry 3363
 obj73284_road1.dof-00.joe
 rroad.dds.png
 1
@@ -60572,7 +60554,7 @@ rroad.dds.png
 0
 0
 
-#entry 3365
+#entry 3364
 obj73285_road1.dof-00.joe
 rroad.dds.png
 1
@@ -60590,7 +60572,7 @@ rroad.dds.png
 0
 0
 
-#entry 3366
+#entry 3365
 obj73286_roadescuro.dof-00.joe
 rroades.dds.png
 1
@@ -60608,7 +60590,7 @@ rroades.dds.png
 0
 0
 
-#entry 3367
+#entry 3366
 obj73287_road1.dof-00.joe
 rroad.dds.png
 1
@@ -60626,7 +60608,7 @@ rroad.dds.png
 0
 0
 
-#entry 3368
+#entry 3367
 obj73288_roadpitbox.dof-00.joe
 roadpitdir.dds.png
 1
@@ -60644,7 +60626,7 @@ roadpitdir.dds.png
 0
 0
 
-#entry 3369
+#entry 3368
 obj73289_road1.dof-00.joe
 rroad.dds.png
 1
@@ -60662,7 +60644,7 @@ rroad.dds.png
 0
 0
 
-#entry 3370
+#entry 3369
 obj73290_roadescuro.dof-00.joe
 rroades.dds.png
 1
@@ -60680,7 +60662,7 @@ rroades.dds.png
 0
 0
 
-#entry 3371
+#entry 3370
 obj73291_road1.dof-00.joe
 rroad.dds.png
 1
@@ -60698,7 +60680,7 @@ rroad.dds.png
 0
 0
 
-#entry 3372
+#entry 3371
 obj73292_material38.dof-00.joe
 173.dds.png
 1
@@ -60716,7 +60698,7 @@ obj73292_material38.dof-00.joe
 0
 0
 
-#entry 3373
+#entry 3372
 obj73293_road1.dof-00.joe
 rroad.dds.png
 1
@@ -60734,7 +60716,7 @@ rroad.dds.png
 0
 0
 
-#entry 3374
+#entry 3373
 obj73294_roadpitbox.dof-00.joe
 roadpitdir.dds.png
 1
@@ -60752,7 +60734,7 @@ roadpitdir.dds.png
 0
 0
 
-#entry 3375
+#entry 3374
 obj73295_road1.dof-00.joe
 rroad.dds.png
 1
@@ -60770,7 +60752,7 @@ rroad.dds.png
 0
 0
 
-#entry 3376
+#entry 3375
 obj73296_roadescuro.dof-00.joe
 rroades.dds.png
 1
@@ -60788,7 +60770,7 @@ rroades.dds.png
 0
 0
 
-#entry 3377
+#entry 3376
 obj73297_road1.dof-00.joe
 rroad.dds.png
 1
@@ -60806,7 +60788,7 @@ rroad.dds.png
 0
 0
 
-#entry 3378
+#entry 3377
 obj73298_road1.dof-00.joe
 rroad.dds.png
 1
@@ -60824,7 +60806,7 @@ rroad.dds.png
 0
 0
 
-#entry 3379
+#entry 3378
 obj73299_roadpitbox.dof-00.joe
 roadpitdir.dds.png
 1
@@ -60842,7 +60824,7 @@ roadpitdir.dds.png
 0
 0
 
-#entry 3380
+#entry 3379
 obj73300_road1.dof-00.joe
 rroad.dds.png
 1
@@ -60860,7 +60842,7 @@ rroad.dds.png
 0
 0
 
-#entry 3381
+#entry 3380
 obj73301_roadescuro.dof-00.joe
 rroades.dds.png
 1
@@ -60878,7 +60860,7 @@ rroades.dds.png
 0
 0
 
-#entry 3382
+#entry 3381
 obj73302_roadescuro.dof-00.joe
 rroades.dds.png
 1
@@ -60896,7 +60878,7 @@ rroades.dds.png
 0
 0
 
-#entry 3383
+#entry 3382
 obj73303_material38.dof-00.joe
 173.dds.png
 1
@@ -60914,7 +60896,7 @@ obj73303_material38.dof-00.joe
 0
 0
 
-#entry 3384
+#entry 3383
 obj73304_road1.dof-00.joe
 rroad.dds.png
 1
@@ -60932,7 +60914,7 @@ rroad.dds.png
 0
 0
 
-#entry 3385
+#entry 3384
 obj73305_roadpitbox.dof-00.joe
 roadpitdir.dds.png
 1
@@ -60950,7 +60932,7 @@ roadpitdir.dds.png
 0
 0
 
-#entry 3386
+#entry 3385
 obj73306_road1.dof-00.joe
 rroad.dds.png
 1
@@ -60968,7 +60950,7 @@ rroad.dds.png
 0
 0
 
-#entry 3387
+#entry 3386
 obj73307_roadescuro.dof-00.joe
 rroades.dds.png
 1
@@ -60986,7 +60968,7 @@ rroades.dds.png
 0
 0
 
-#entry 3388
+#entry 3387
 obj73308_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61004,7 +60986,7 @@ rroad.dds.png
 0
 0
 
-#entry 3389
+#entry 3388
 obj73309_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61022,7 +61004,7 @@ rroad.dds.png
 0
 0
 
-#entry 3390
+#entry 3389
 obj73310_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61040,7 +61022,7 @@ rroad.dds.png
 0
 0
 
-#entry 3391
+#entry 3390
 obj73311_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61058,7 +61040,7 @@ rroad.dds.png
 0
 0
 
-#entry 3392
+#entry 3391
 obj73312_roadpit1.dof-00.joe
 roadpit.dds.png
 1
@@ -61076,7 +61058,7 @@ roadpit.dds.png
 0
 0
 
-#entry 3393
+#entry 3392
 obj73313_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61094,7 +61076,7 @@ rroad.dds.png
 0
 0
 
-#entry 3394
+#entry 3393
 obj73314_material38.dof-00.joe
 173.dds.png
 1
@@ -61112,7 +61094,7 @@ obj73314_material38.dof-00.joe
 0
 0
 
-#entry 3395
+#entry 3394
 obj73315_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61130,7 +61112,7 @@ rroad.dds.png
 0
 0
 
-#entry 3396
+#entry 3395
 obj73316_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61148,7 +61130,7 @@ rroad.dds.png
 0
 0
 
-#entry 3397
+#entry 3396
 obj73317_roadescuro.dof-00.joe
 rroades.dds.png
 1
@@ -61166,7 +61148,7 @@ rroades.dds.png
 0
 0
 
-#entry 3398
+#entry 3397
 obj73318_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61184,7 +61166,7 @@ rroad.dds.png
 0
 0
 
-#entry 3399
+#entry 3398
 obj73319_roadpit1.dof-00.joe
 roadpit.dds.png
 1
@@ -61202,7 +61184,7 @@ roadpit.dds.png
 0
 0
 
-#entry 3400
+#entry 3399
 obj73320_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61220,7 +61202,7 @@ rroad.dds.png
 0
 0
 
-#entry 3401
+#entry 3400
 obj73321_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61238,7 +61220,7 @@ rroad.dds.png
 0
 0
 
-#entry 3402
+#entry 3401
 obj73322_roadescuro.dof-00.joe
 rroades.dds.png
 1
@@ -61256,7 +61238,7 @@ rroades.dds.png
 0
 0
 
-#entry 3403
+#entry 3402
 obj73323_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61274,7 +61256,7 @@ rroad.dds.png
 0
 0
 
-#entry 3404
+#entry 3403
 obj73324_roadpit1.dof-00.joe
 roadpit.dds.png
 1
@@ -61292,7 +61274,7 @@ roadpit.dds.png
 0
 0
 
-#entry 3405
+#entry 3404
 obj73325_material38.dof-00.joe
 173.dds.png
 1
@@ -61310,7 +61292,7 @@ obj73325_material38.dof-00.joe
 0
 0
 
-#entry 3406
+#entry 3405
 obj73326_roadpit1.dof-00.joe
 roadpit.dds.png
 1
@@ -61328,7 +61310,7 @@ roadpit.dds.png
 0
 0
 
-#entry 3407
+#entry 3406
 obj73327_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61346,7 +61328,7 @@ rroad.dds.png
 0
 0
 
-#entry 3408
+#entry 3407
 obj73328_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61364,7 +61346,7 @@ rroad.dds.png
 0
 0
 
-#entry 3409
+#entry 3408
 obj73329_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61382,7 +61364,7 @@ rroad.dds.png
 0
 0
 
-#entry 3410
+#entry 3409
 obj73330_roadescuro.dof-00.joe
 rroades.dds.png
 1
@@ -61400,7 +61382,7 @@ rroades.dds.png
 0
 0
 
-#entry 3411
+#entry 3410
 obj73331_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61418,7 +61400,7 @@ rroad.dds.png
 0
 0
 
-#entry 3412
+#entry 3411
 obj73332_roadpitesc.dof-00.joe
 roadpitesc.dds.png
 1
@@ -61436,7 +61418,7 @@ roadpitesc.dds.png
 0
 0
 
-#entry 3413
+#entry 3412
 obj73333_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61454,7 +61436,7 @@ rroad.dds.png
 0
 0
 
-#entry 3414
+#entry 3413
 obj73334_roadescuro.dof-00.joe
 rroades.dds.png
 1
@@ -61472,7 +61454,7 @@ rroades.dds.png
 0
 0
 
-#entry 3415
+#entry 3414
 obj73335_roadpitesc.dof-00.joe
 roadpitesc.dds.png
 1
@@ -61490,7 +61472,7 @@ roadpitesc.dds.png
 0
 0
 
-#entry 3416
+#entry 3415
 obj73336_material38.dof-00.joe
 173.dds.png
 1
@@ -61508,7 +61490,7 @@ obj73336_material38.dof-00.joe
 0
 0
 
-#entry 3417
+#entry 3416
 obj73337_roadescuro.dof-00.joe
 rroades.dds.png
 1
@@ -61526,7 +61508,7 @@ rroades.dds.png
 0
 0
 
-#entry 3418
+#entry 3417
 obj73338_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61544,7 +61526,7 @@ rroad.dds.png
 0
 0
 
-#entry 3419
+#entry 3418
 obj73339_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61562,7 +61544,7 @@ rroad.dds.png
 0
 0
 
-#entry 3420
+#entry 3419
 obj73340_roadpitesc.dof-00.joe
 roadpitesc.dds.png
 1
@@ -61580,7 +61562,7 @@ roadpitesc.dds.png
 0
 0
 
-#entry 3421
+#entry 3420
 obj73341_roadescuro.dof-00.joe
 rroades.dds.png
 1
@@ -61598,7 +61580,7 @@ rroades.dds.png
 0
 0
 
-#entry 3422
+#entry 3421
 obj73342_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61616,7 +61598,7 @@ rroad.dds.png
 0
 0
 
-#entry 3423
+#entry 3422
 obj73343_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61634,7 +61616,7 @@ rroad.dds.png
 0
 0
 
-#entry 3424
+#entry 3423
 obj73344_roadescuro.dof-00.joe
 rroades.dds.png
 1
@@ -61652,7 +61634,7 @@ rroades.dds.png
 0
 0
 
-#entry 3425
+#entry 3424
 obj73345_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61670,7 +61652,7 @@ rroad.dds.png
 0
 0
 
-#entry 3426
+#entry 3425
 obj73346_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61688,7 +61670,7 @@ rroad.dds.png
 0
 0
 
-#entry 3427
+#entry 3426
 obj73347_material38.dof-00.joe
 173.dds.png
 1
@@ -61706,7 +61688,7 @@ obj73347_material38.dof-00.joe
 0
 0
 
-#entry 3428
+#entry 3427
 obj73348_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61724,7 +61706,7 @@ rroad.dds.png
 0
 0
 
-#entry 3429
+#entry 3428
 obj73349_roademendo1.dof-00.joe
 emendo1a.dds.png
 1
@@ -61742,7 +61724,7 @@ emendo1a.dds.png
 0
 0
 
-#entry 3430
+#entry 3429
 obj73350_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61760,7 +61742,7 @@ rroad.dds.png
 0
 0
 
-#entry 3431
+#entry 3430
 obj73351_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61778,7 +61760,7 @@ rroad.dds.png
 0
 0
 
-#entry 3432
+#entry 3431
 obj73352_roademendo1.dof-00.joe
 emendo1a.dds.png
 1
@@ -61796,7 +61778,7 @@ emendo1a.dds.png
 0
 0
 
-#entry 3433
+#entry 3432
 obj73353_material17.dof-00.joe
 128.dds.png
 0
@@ -61814,7 +61796,7 @@ obj73353_material17.dof-00.joe
 0
 1
 
-#entry 3434
+#entry 3433
 obj73354_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61832,7 +61814,7 @@ rroad.dds.png
 0
 0
 
-#entry 3435
+#entry 3434
 obj73355_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61850,7 +61832,7 @@ rroad.dds.png
 0
 0
 
-#entry 3436
+#entry 3435
 obj73356_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61868,7 +61850,7 @@ rroad.dds.png
 0
 0
 
-#entry 3437
+#entry 3436
 obj73357_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61886,7 +61868,7 @@ rroad.dds.png
 0
 0
 
-#entry 3438
+#entry 3437
 obj73358_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61904,7 +61886,7 @@ rroad.dds.png
 0
 0
 
-#entry 3439
+#entry 3438
 obj73359_material38.dof-00.joe
 173.dds.png
 1
@@ -61922,7 +61904,7 @@ obj73359_material38.dof-00.joe
 0
 0
 
-#entry 3440
+#entry 3439
 obj73360_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61940,7 +61922,7 @@ rroad.dds.png
 0
 0
 
-#entry 3441
+#entry 3440
 obj73361_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61958,7 +61940,7 @@ rroad.dds.png
 0
 0
 
-#entry 3442
+#entry 3441
 obj73362_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61976,7 +61958,7 @@ rroad.dds.png
 0
 0
 
-#entry 3443
+#entry 3442
 obj73363_road1.dof-00.joe
 rroad.dds.png
 1
@@ -61994,7 +61976,7 @@ rroad.dds.png
 0
 0
 
-#entry 3444
+#entry 3443
 obj73364_roademendo2.dof-00.joe
 emendo2.dds.png
 1
@@ -62012,7 +61994,7 @@ emendo2.dds.png
 0
 0
 
-#entry 3445
+#entry 3444
 obj73365_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62030,7 +62012,7 @@ rroad.dds.png
 0
 0
 
-#entry 3446
+#entry 3445
 obj73366_roademendo3.dof-00.joe
 emendo1a.dds.png
 1
@@ -62048,7 +62030,7 @@ emendo1a.dds.png
 0
 0
 
-#entry 3447
+#entry 3446
 obj73367_roademendo2.dof-00.joe
 emendo2.dds.png
 1
@@ -62066,7 +62048,7 @@ emendo2.dds.png
 0
 0
 
-#entry 3448
+#entry 3447
 obj73368_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62084,7 +62066,7 @@ rroad.dds.png
 0
 0
 
-#entry 3449
+#entry 3448
 obj73369_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62102,7 +62084,7 @@ rroad.dds.png
 0
 0
 
-#entry 3450
+#entry 3449
 obj73370_material39.dof-00.joe
 174.dds.png
 1
@@ -62120,7 +62102,7 @@ obj73370_material39.dof-00.joe
 0
 0
 
-#entry 3451
+#entry 3450
 obj73371_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62138,7 +62120,7 @@ rroad.dds.png
 0
 0
 
-#entry 3452
+#entry 3451
 obj73372_roademendo3.dof-00.joe
 emendo1a.dds.png
 1
@@ -62156,7 +62138,7 @@ emendo1a.dds.png
 0
 0
 
-#entry 3453
+#entry 3452
 obj73373_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62174,7 +62156,7 @@ rroad.dds.png
 0
 0
 
-#entry 3454
+#entry 3453
 obj73374_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62192,7 +62174,7 @@ rroad.dds.png
 0
 0
 
-#entry 3455
+#entry 3454
 obj73375_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62210,7 +62192,7 @@ rroad.dds.png
 0
 0
 
-#entry 3456
+#entry 3455
 obj73376_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62228,7 +62210,7 @@ rroad.dds.png
 0
 0
 
-#entry 3457
+#entry 3456
 obj73377_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62246,7 +62228,7 @@ rroad.dds.png
 0
 0
 
-#entry 3458
+#entry 3457
 obj73378_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62264,7 +62246,7 @@ rroad.dds.png
 0
 0
 
-#entry 3459
+#entry 3458
 obj73379_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62282,7 +62264,7 @@ rroad.dds.png
 0
 0
 
-#entry 3460
+#entry 3459
 obj73380_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62300,7 +62282,7 @@ rroad.dds.png
 0
 0
 
-#entry 3461
+#entry 3460
 obj73381_material39.dof-00.joe
 174.dds.png
 1
@@ -62318,7 +62300,7 @@ obj73381_material39.dof-00.joe
 0
 0
 
-#entry 3462
+#entry 3461
 obj73382_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62336,7 +62318,7 @@ rroad.dds.png
 0
 0
 
-#entry 3463
+#entry 3462
 obj73383_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62354,7 +62336,7 @@ rroad.dds.png
 0
 0
 
-#entry 3464
+#entry 3463
 obj73384_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62372,7 +62354,7 @@ rroad.dds.png
 0
 0
 
-#entry 3465
+#entry 3464
 obj73385_roadclaro.dof-00.joe
 rroadclaro.dds.png
 1
@@ -62390,7 +62372,7 @@ rroadclaro.dds.png
 0
 0
 
-#entry 3466
+#entry 3465
 obj73386_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62408,7 +62390,7 @@ rroad.dds.png
 0
 0
 
-#entry 3467
+#entry 3466
 obj73387_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62426,7 +62408,7 @@ rroad.dds.png
 0
 0
 
-#entry 3468
+#entry 3467
 obj73388_roadclaro.dof-00.joe
 rroadclaro.dds.png
 1
@@ -62444,7 +62426,7 @@ rroadclaro.dds.png
 0
 0
 
-#entry 3469
+#entry 3468
 obj73389_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62462,7 +62444,7 @@ rroad.dds.png
 0
 0
 
-#entry 3470
+#entry 3469
 obj73390_roadclaro.dof-00.joe
 rroadclaro.dds.png
 1
@@ -62480,7 +62462,7 @@ rroadclaro.dds.png
 0
 0
 
-#entry 3471
+#entry 3470
 obj73391_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62498,7 +62480,7 @@ rroad.dds.png
 0
 0
 
-#entry 3472
+#entry 3471
 obj73392_material39.dof-00.joe
 174.dds.png
 1
@@ -62516,7 +62498,7 @@ obj73392_material39.dof-00.joe
 0
 0
 
-#entry 3473
+#entry 3472
 obj73393_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62534,7 +62516,7 @@ rroad.dds.png
 0
 0
 
-#entry 3474
+#entry 3473
 obj73394_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62552,7 +62534,7 @@ rroad.dds.png
 0
 0
 
-#entry 3475
+#entry 3474
 obj73395_roadclaro.dof-00.joe
 rroadclaro.dds.png
 1
@@ -62570,7 +62552,7 @@ rroadclaro.dds.png
 0
 0
 
-#entry 3476
+#entry 3475
 obj73396_roadclaro.dof-00.joe
 rroadclaro.dds.png
 1
@@ -62588,7 +62570,7 @@ rroadclaro.dds.png
 0
 0
 
-#entry 3477
+#entry 3476
 obj73397_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62606,7 +62588,7 @@ rroad.dds.png
 0
 0
 
-#entry 3478
+#entry 3477
 obj73398_roadclaro.dof-00.joe
 rroadclaro.dds.png
 1
@@ -62624,7 +62606,7 @@ rroadclaro.dds.png
 0
 0
 
-#entry 3479
+#entry 3478
 obj73399_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62642,7 +62624,7 @@ rroad.dds.png
 0
 0
 
-#entry 3480
+#entry 3479
 obj73400_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62660,7 +62642,7 @@ rroad.dds.png
 0
 0
 
-#entry 3481
+#entry 3480
 obj73401_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62678,7 +62660,7 @@ rroad.dds.png
 0
 0
 
-#entry 3482
+#entry 3481
 obj73402_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62696,7 +62678,7 @@ rroad.dds.png
 0
 0
 
-#entry 3483
+#entry 3482
 obj73403_material39.dof-00.joe
 174.dds.png
 1
@@ -62714,7 +62696,7 @@ obj73403_material39.dof-00.joe
 0
 0
 
-#entry 3484
+#entry 3483
 obj73404_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62732,7 +62714,7 @@ rroad.dds.png
 0
 0
 
-#entry 3485
+#entry 3484
 obj73405_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62750,7 +62732,7 @@ rroad.dds.png
 0
 0
 
-#entry 3486
+#entry 3485
 obj73406_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62768,7 +62750,7 @@ rroad.dds.png
 0
 0
 
-#entry 3487
+#entry 3486
 obj73407_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62786,7 +62768,7 @@ rroad.dds.png
 0
 0
 
-#entry 3488
+#entry 3487
 obj73408_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62804,7 +62786,7 @@ rroad.dds.png
 0
 0
 
-#entry 3489
+#entry 3488
 obj73409_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62822,7 +62804,7 @@ rroad.dds.png
 0
 0
 
-#entry 3490
+#entry 3489
 obj73410_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62840,7 +62822,7 @@ rroad.dds.png
 0
 0
 
-#entry 3491
+#entry 3490
 obj73411_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62858,7 +62840,7 @@ rroad.dds.png
 0
 0
 
-#entry 3492
+#entry 3491
 obj73412_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62876,7 +62858,7 @@ rroad.dds.png
 0
 0
 
-#entry 3493
+#entry 3492
 obj73413_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62894,7 +62876,7 @@ rroad.dds.png
 0
 0
 
-#entry 3494
+#entry 3493
 obj73414_material39.dof-00.joe
 174.dds.png
 1
@@ -62912,7 +62894,7 @@ obj73414_material39.dof-00.joe
 0
 0
 
-#entry 3495
+#entry 3494
 obj73415_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62930,7 +62912,7 @@ rroad.dds.png
 0
 0
 
-#entry 3496
+#entry 3495
 obj73416_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62948,7 +62930,7 @@ rroad.dds.png
 0
 0
 
-#entry 3497
+#entry 3496
 obj73417_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62966,7 +62948,7 @@ rroad.dds.png
 0
 0
 
-#entry 3498
+#entry 3497
 obj73418_road1.dof-00.joe
 rroad.dds.png
 1
@@ -62984,7 +62966,7 @@ rroad.dds.png
 0
 0
 
-#entry 3499
+#entry 3498
 obj73419_road1.dof-00.joe
 rroad.dds.png
 1
@@ -63002,7 +62984,7 @@ rroad.dds.png
 0
 0
 
-#entry 3500
+#entry 3499
 obj73420_road1.dof-00.joe
 rroad.dds.png
 1
@@ -63020,7 +63002,7 @@ rroad.dds.png
 0
 0
 
-#entry 3501
+#entry 3500
 obj73421_material40.dof-00.joe
 175.dds.png
 1
@@ -63038,7 +63020,7 @@ obj73421_material40.dof-00.joe
 0
 0
 
-#entry 3502
+#entry 3501
 obj73422_road1.dof-00.joe
 rroad.dds.png
 1
@@ -63056,7 +63038,7 @@ rroad.dds.png
 0
 0
 
-#entry 3503
+#entry 3502
 obj73423_road1.dof-00.joe
 rroad.dds.png
 1
@@ -63074,7 +63056,7 @@ rroad.dds.png
 0
 0
 
-#entry 3504
+#entry 3503
 obj73424_road1.dof-00.joe
 rroad.dds.png
 1
@@ -63092,7 +63074,7 @@ rroad.dds.png
 0
 0
 
-#entry 3505
+#entry 3504
 obj73425_road1.dof-00.joe
 rroad.dds.png
 1
@@ -63110,7 +63092,7 @@ rroad.dds.png
 0
 0
 
-#entry 3506
+#entry 3505
 obj73426_roadpit.dof-00.joe
 roadpit.dds.png
 1
@@ -63128,7 +63110,7 @@ roadpit.dds.png
 0
 0
 
-#entry 3507
+#entry 3506
 obj73427_road1.dof-00.joe
 rroad.dds.png
 1
@@ -63146,7 +63128,7 @@ rroad.dds.png
 0
 0
 
-#entry 3508
+#entry 3507
 obj73428_road1.dof-00.joe
 rroad.dds.png
 1
@@ -63164,7 +63146,7 @@ rroad.dds.png
 0
 0
 
-#entry 3509
+#entry 3508
 obj73429_material40.dof-00.joe
 175.dds.png
 1
@@ -63182,7 +63164,7 @@ obj73429_material40.dof-00.joe
 0
 0
 
-#entry 3510
+#entry 3509
 obj73430_road1.dof-00.joe
 rroad.dds.png
 1
@@ -63200,7 +63182,7 @@ rroad.dds.png
 0
 0
 
-#entry 3511
+#entry 3510
 obj73431_roadpit.dof-00.joe
 roadpit.dds.png
 1
@@ -63218,7 +63200,7 @@ roadpit.dds.png
 0
 0
 
-#entry 3512
+#entry 3511
 obj73432_road1.dof-00.joe
 rroad.dds.png
 1
@@ -63236,7 +63218,7 @@ rroad.dds.png
 0
 0
 
-#entry 3513
+#entry 3512
 obj73433_roadescuro.dof-00.joe
 rroades.dds.png
 1
@@ -63254,7 +63236,7 @@ rroades.dds.png
 0
 0
 
-#entry 3514
+#entry 3513
 obj73434_roadpit.dof-00.joe
 roadpit.dds.png
 1
@@ -63272,7 +63254,7 @@ roadpit.dds.png
 0
 0
 
-#entry 3515
+#entry 3514
 obj73435_road1.dof-00.joe
 rroad.dds.png
 1
@@ -63290,7 +63272,7 @@ rroad.dds.png
 0
 0
 
-#entry 3516
+#entry 3515
 obj73436_road1.dof-00.joe
 rroad.dds.png
 1
@@ -63308,7 +63290,7 @@ rroad.dds.png
 0
 0
 
-#entry 3517
+#entry 3516
 obj73437_road1.dof-00.joe
 rroad.dds.png
 1
@@ -63326,7 +63308,7 @@ rroad.dds.png
 0
 0
 
-#entry 3518
+#entry 3517
 obj73438_roadescuro.dof-00.joe
 rroades.dds.png
 1
@@ -63344,7 +63326,7 @@ rroades.dds.png
 0
 0
 
-#entry 3519
+#entry 3518
 obj73439_roadpit.dof-00.joe
 roadpit.dds.png
 1
@@ -63362,7 +63344,7 @@ roadpit.dds.png
 0
 0
 
-#entry 3520
+#entry 3519
 obj73440_material40.dof-00.joe
 175.dds.png
 1
@@ -63380,7 +63362,7 @@ obj73440_material40.dof-00.joe
 0
 0
 
-#entry 3521
+#entry 3520
 obj73441_road1.dof-00.joe
 rroad.dds.png
 1
@@ -63398,7 +63380,7 @@ rroad.dds.png
 0
 0
 
-#entry 3522
+#entry 3521
 obj73442_roadescuro.dof-00.joe
 rroades.dds.png
 1
@@ -63416,7 +63398,7 @@ rroades.dds.png
 0
 0
 
-#entry 3523
+#entry 3522
 obj73443_roadpit.dof-00.joe
 roadpit.dds.png
 1
@@ -63434,7 +63416,7 @@ roadpit.dds.png
 0
 0
 
-#entry 3524
+#entry 3523
 obj73444_road1.dof-00.joe
 rroad.dds.png
 1
@@ -63452,7 +63434,7 @@ rroad.dds.png
 0
 0
 
-#entry 3525
+#entry 3524
 obj73445_road1.dof-00.joe
 rroad.dds.png
 1
@@ -63470,7 +63452,7 @@ rroad.dds.png
 0
 0
 
-#entry 3526
+#entry 3525
 obj73446_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -63488,7 +63470,7 @@ lateral.dds.png
 0
 0
 
-#entry 3527
+#entry 3526
 obj73447_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -63506,7 +63488,7 @@ lateral.dds.png
 0
 0
 
-#entry 3528
+#entry 3527
 obj73448_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -63524,7 +63506,7 @@ lateral.dds.png
 0
 0
 
-#entry 3529
+#entry 3528
 obj73449_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -63542,7 +63524,7 @@ lateral.dds.png
 0
 0
 
-#entry 3530
+#entry 3529
 obj73450_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -63560,7 +63542,7 @@ lateral.dds.png
 0
 0
 
-#entry 3531
+#entry 3530
 obj73451_material40.dof-00.joe
 175.dds.png
 1
@@ -63578,7 +63560,7 @@ obj73451_material40.dof-00.joe
 0
 0
 
-#entry 3532
+#entry 3531
 obj73452_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -63596,7 +63578,7 @@ lateral.dds.png
 0
 0
 
-#entry 3533
+#entry 3532
 obj73453_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -63614,7 +63596,7 @@ lateral.dds.png
 0
 0
 
-#entry 3534
+#entry 3533
 obj73454_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -63632,7 +63614,7 @@ lateral.dds.png
 0
 0
 
-#entry 3535
+#entry 3534
 obj73455_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -63650,7 +63632,7 @@ lateral.dds.png
 0
 0
 
-#entry 3536
+#entry 3535
 obj73456_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -63668,7 +63650,7 @@ lateral.dds.png
 0
 0
 
-#entry 3537
+#entry 3536
 obj73457_material17.dof-00.joe
 128.dds.png
 0
@@ -63686,7 +63668,7 @@ obj73457_material17.dof-00.joe
 0
 1
 
-#entry 3538
+#entry 3537
 obj73458_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -63704,7 +63686,7 @@ lateral.dds.png
 0
 0
 
-#entry 3539
+#entry 3538
 obj73459_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -63722,7 +63704,7 @@ lateral.dds.png
 0
 0
 
-#entry 3540
+#entry 3539
 obj73460_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -63740,7 +63722,7 @@ lateral.dds.png
 0
 0
 
-#entry 3541
+#entry 3540
 obj73461_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -63758,7 +63740,7 @@ lateral.dds.png
 0
 0
 
-#entry 3542
+#entry 3541
 obj73462_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -63776,7 +63758,7 @@ lateral.dds.png
 0
 0
 
-#entry 3543
+#entry 3542
 obj73463_material40.dof-00.joe
 175.dds.png
 1
@@ -63794,7 +63776,7 @@ obj73463_material40.dof-00.joe
 0
 0
 
-#entry 3544
+#entry 3543
 obj73464_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -63812,7 +63794,7 @@ lateral.dds.png
 0
 0
 
-#entry 3545
+#entry 3544
 obj73465_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -63830,7 +63812,7 @@ lateral.dds.png
 0
 0
 
-#entry 3546
+#entry 3545
 obj73466_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -63848,7 +63830,7 @@ lateral.dds.png
 0
 0
 
-#entry 3547
+#entry 3546
 obj73467_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -63866,7 +63848,7 @@ lateral.dds.png
 0
 0
 
-#entry 3548
+#entry 3547
 obj73468_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -63884,7 +63866,7 @@ lateral.dds.png
 0
 0
 
-#entry 3549
+#entry 3548
 obj73469_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -63902,7 +63884,7 @@ lateral.dds.png
 0
 0
 
-#entry 3550
+#entry 3549
 obj73470_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -63920,7 +63902,7 @@ lateral.dds.png
 0
 0
 
-#entry 3551
+#entry 3550
 obj73471_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -63938,7 +63920,7 @@ lateral.dds.png
 0
 0
 
-#entry 3552
+#entry 3551
 obj73472_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -63956,7 +63938,7 @@ lateral.dds.png
 0
 0
 
-#entry 3553
+#entry 3552
 obj73473_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -63974,7 +63956,7 @@ lateral.dds.png
 0
 0
 
-#entry 3554
+#entry 3553
 obj73474_material40.dof-00.joe
 175.dds.png
 1
@@ -63992,7 +63974,7 @@ obj73474_material40.dof-00.joe
 0
 0
 
-#entry 3555
+#entry 3554
 obj73475_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64010,7 +63992,7 @@ lateral.dds.png
 0
 0
 
-#entry 3556
+#entry 3555
 obj73476_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64028,7 +64010,7 @@ lateral.dds.png
 0
 0
 
-#entry 3557
+#entry 3556
 obj73477_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64046,7 +64028,7 @@ lateral.dds.png
 0
 0
 
-#entry 3558
+#entry 3557
 obj73478_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64064,7 +64046,7 @@ lateral.dds.png
 0
 0
 
-#entry 3559
+#entry 3558
 obj73479_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64082,7 +64064,7 @@ lateral.dds.png
 0
 0
 
-#entry 3560
+#entry 3559
 obj73480_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64100,7 +64082,7 @@ lateral.dds.png
 0
 0
 
-#entry 3561
+#entry 3560
 obj73481_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64118,7 +64100,7 @@ lateral.dds.png
 0
 0
 
-#entry 3562
+#entry 3561
 obj73482_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64136,7 +64118,7 @@ lateral.dds.png
 0
 0
 
-#entry 3563
+#entry 3562
 obj73483_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64154,7 +64136,7 @@ lateral.dds.png
 0
 0
 
-#entry 3564
+#entry 3563
 obj73484_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64172,7 +64154,7 @@ lateral.dds.png
 0
 0
 
-#entry 3565
+#entry 3564
 obj73485_material40.dof-00.joe
 175.dds.png
 1
@@ -64190,7 +64172,7 @@ obj73485_material40.dof-00.joe
 0
 0
 
-#entry 3566
+#entry 3565
 obj73486_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64208,7 +64190,7 @@ lateral.dds.png
 0
 0
 
-#entry 3567
+#entry 3566
 obj73487_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64226,7 +64208,7 @@ lateral.dds.png
 0
 0
 
-#entry 3568
+#entry 3567
 obj73488_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64244,7 +64226,7 @@ lateral.dds.png
 0
 0
 
-#entry 3569
+#entry 3568
 obj73489_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64262,7 +64244,7 @@ lateral.dds.png
 0
 0
 
-#entry 3570
+#entry 3569
 obj73490_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64280,7 +64262,7 @@ lateral.dds.png
 0
 0
 
-#entry 3571
+#entry 3570
 obj73491_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64298,7 +64280,7 @@ lateral.dds.png
 0
 0
 
-#entry 3572
+#entry 3571
 obj73492_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64316,7 +64298,7 @@ lateral.dds.png
 0
 0
 
-#entry 3573
+#entry 3572
 obj73493_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64334,7 +64316,7 @@ lateral.dds.png
 0
 0
 
-#entry 3574
+#entry 3573
 obj73494_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64352,7 +64334,7 @@ lateral.dds.png
 0
 0
 
-#entry 3575
+#entry 3574
 obj73495_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64370,7 +64352,7 @@ lateral.dds.png
 0
 0
 
-#entry 3576
+#entry 3575
 obj73496_material40.dof-00.joe
 175.dds.png
 1
@@ -64388,7 +64370,7 @@ obj73496_material40.dof-00.joe
 0
 0
 
-#entry 3577
+#entry 3576
 obj73497_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64406,7 +64388,7 @@ lateral.dds.png
 0
 0
 
-#entry 3578
+#entry 3577
 obj73498_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64424,7 +64406,7 @@ lateral.dds.png
 0
 0
 
-#entry 3579
+#entry 3578
 obj73499_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64442,7 +64424,7 @@ lateral.dds.png
 0
 0
 
-#entry 3580
+#entry 3579
 obj73500_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64460,7 +64442,7 @@ lateral.dds.png
 0
 0
 
-#entry 3581
+#entry 3580
 obj73501_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64478,7 +64460,7 @@ lateral.dds.png
 0
 0
 
-#entry 3582
+#entry 3581
 obj73502_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64496,7 +64478,7 @@ lateral.dds.png
 0
 0
 
-#entry 3583
+#entry 3582
 obj73503_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64514,7 +64496,7 @@ lateral.dds.png
 0
 0
 
-#entry 3584
+#entry 3583
 obj73504_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64532,7 +64514,7 @@ lateral.dds.png
 0
 0
 
-#entry 3585
+#entry 3584
 obj73505_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64550,7 +64532,7 @@ lateral.dds.png
 0
 0
 
-#entry 3586
+#entry 3585
 obj73506_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64568,7 +64550,7 @@ lateral.dds.png
 0
 0
 
-#entry 3587
+#entry 3586
 obj73507_material40.dof-00.joe
 175.dds.png
 1
@@ -64586,7 +64568,7 @@ obj73507_material40.dof-00.joe
 0
 0
 
-#entry 3588
+#entry 3587
 obj73508_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64604,7 +64586,7 @@ lateral.dds.png
 0
 0
 
-#entry 3589
+#entry 3588
 obj73509_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64622,7 +64604,7 @@ lateral.dds.png
 0
 0
 
-#entry 3590
+#entry 3589
 obj73510_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64640,7 +64622,7 @@ lateral.dds.png
 0
 0
 
-#entry 3591
+#entry 3590
 obj73511_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64658,7 +64640,7 @@ lateral.dds.png
 0
 0
 
-#entry 3592
+#entry 3591
 obj73512_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64676,7 +64658,7 @@ lateral.dds.png
 0
 0
 
-#entry 3593
+#entry 3592
 obj73513_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64694,7 +64676,7 @@ lateral.dds.png
 0
 0
 
-#entry 3594
+#entry 3593
 obj73514_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64712,7 +64694,7 @@ lateral.dds.png
 0
 0
 
-#entry 3595
+#entry 3594
 obj73515_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64730,7 +64712,7 @@ lateral.dds.png
 0
 0
 
-#entry 3596
+#entry 3595
 obj73516_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64748,7 +64730,7 @@ lateral.dds.png
 0
 0
 
-#entry 3597
+#entry 3596
 obj73517_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64766,7 +64748,7 @@ lateral.dds.png
 0
 0
 
-#entry 3598
+#entry 3597
 obj73518_material40.dof-00.joe
 175.dds.png
 1
@@ -64784,7 +64766,7 @@ obj73518_material40.dof-00.joe
 0
 0
 
-#entry 3599
+#entry 3598
 obj73519_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64802,7 +64784,7 @@ lateral.dds.png
 0
 0
 
-#entry 3600
+#entry 3599
 obj73520_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64820,7 +64802,7 @@ lateral.dds.png
 0
 0
 
-#entry 3601
+#entry 3600
 obj73521_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64838,7 +64820,7 @@ lateral.dds.png
 0
 0
 
-#entry 3602
+#entry 3601
 obj73522_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64856,7 +64838,7 @@ lateral.dds.png
 0
 0
 
-#entry 3603
+#entry 3602
 obj73523_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64874,7 +64856,7 @@ lateral.dds.png
 0
 0
 
-#entry 3604
+#entry 3603
 obj73524_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64892,7 +64874,7 @@ lateral.dds.png
 0
 0
 
-#entry 3605
+#entry 3604
 obj73525_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64910,7 +64892,7 @@ lateral.dds.png
 0
 0
 
-#entry 3606
+#entry 3605
 obj73526_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64928,7 +64910,7 @@ lateral.dds.png
 0
 0
 
-#entry 3607
+#entry 3606
 obj73527_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64946,7 +64928,7 @@ lateral.dds.png
 0
 0
 
-#entry 3608
+#entry 3607
 obj73528_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -64964,7 +64946,7 @@ lateral.dds.png
 0
 0
 
-#entry 3609
+#entry 3608
 obj73529_material40.dof-00.joe
 175.dds.png
 1
@@ -64982,7 +64964,7 @@ obj73529_material40.dof-00.joe
 0
 0
 
-#entry 3610
+#entry 3609
 obj73530_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -65000,7 +64982,7 @@ lateral.dds.png
 0
 0
 
-#entry 3611
+#entry 3610
 obj73531_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -65018,7 +65000,7 @@ lateral.dds.png
 0
 0
 
-#entry 3612
+#entry 3611
 obj73532_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -65036,7 +65018,7 @@ lateral.dds.png
 0
 0
 
-#entry 3613
+#entry 3612
 obj73533_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -65054,7 +65036,7 @@ lateral.dds.png
 0
 0
 
-#entry 3614
+#entry 3613
 obj73534_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -65072,7 +65054,7 @@ lateral.dds.png
 0
 0
 
-#entry 3615
+#entry 3614
 obj73535_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -65090,7 +65072,7 @@ lateral.dds.png
 0
 0
 
-#entry 3616
+#entry 3615
 obj73536_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -65108,7 +65090,7 @@ lateral.dds.png
 0
 0
 
-#entry 3617
+#entry 3616
 obj73537_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -65126,7 +65108,7 @@ lateral.dds.png
 0
 0
 
-#entry 3618
+#entry 3617
 obj73538_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -65144,7 +65126,7 @@ lateral.dds.png
 0
 0
 
-#entry 3619
+#entry 3618
 obj73539_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -65162,7 +65144,7 @@ lateral.dds.png
 0
 0
 
-#entry 3620
+#entry 3619
 obj73540_material41.dof-00.joe
 176.dds.png
 1
@@ -65180,7 +65162,7 @@ obj73540_material41.dof-00.joe
 0
 0
 
-#entry 3621
+#entry 3620
 obj73541_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -65198,7 +65180,7 @@ lateral.dds.png
 0
 0
 
-#entry 3622
+#entry 3621
 obj73542_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -65216,7 +65198,7 @@ lateral.dds.png
 0
 0
 
-#entry 3623
+#entry 3622
 obj73543_roadborder.dof-00.joe
 lateral.dds.png
 1
@@ -65234,7 +65216,7 @@ lateral.dds.png
 0
 0
 
-#entry 3624
+#entry 3623
 obj73544_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65252,7 +65234,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3625
+#entry 3624
 obj73545_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65270,7 +65252,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3626
+#entry 3625
 obj73546_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65288,7 +65270,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3627
+#entry 3626
 obj73547_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65306,7 +65288,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3628
+#entry 3627
 obj73548_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65324,7 +65306,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3629
+#entry 3628
 obj73549_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65342,7 +65324,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3630
+#entry 3629
 obj73550_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65360,7 +65342,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3631
+#entry 3630
 obj73551_material41.dof-00.joe
 176.dds.png
 1
@@ -65378,7 +65360,7 @@ obj73551_material41.dof-00.joe
 0
 0
 
-#entry 3632
+#entry 3631
 obj73552_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65396,7 +65378,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3633
+#entry 3632
 obj73553_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65414,7 +65396,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3634
+#entry 3633
 obj73554_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65432,7 +65414,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3635
+#entry 3634
 obj73555_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65450,7 +65432,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3636
+#entry 3635
 obj73556_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65468,7 +65450,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3637
+#entry 3636
 obj73557_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65486,7 +65468,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3638
+#entry 3637
 obj73558_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65504,7 +65486,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3639
+#entry 3638
 obj73559_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65522,7 +65504,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3640
+#entry 3639
 obj73560_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65540,7 +65522,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3641
+#entry 3640
 obj73561_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65558,7 +65540,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3642
+#entry 3641
 obj73562_material41.dof-00.joe
 176.dds.png
 1
@@ -65576,7 +65558,7 @@ obj73562_material41.dof-00.joe
 0
 0
 
-#entry 3643
+#entry 3642
 obj73563_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65594,7 +65576,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3644
+#entry 3643
 obj73564_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65612,7 +65594,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3645
+#entry 3644
 obj73565_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65630,7 +65612,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3646
+#entry 3645
 obj73566_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65648,7 +65630,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3647
+#entry 3646
 obj73567_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65666,7 +65648,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3648
+#entry 3647
 obj73568_material17.dof-00.joe
 128.dds.png
 0
@@ -65684,7 +65666,7 @@ obj73568_material17.dof-00.joe
 0
 1
 
-#entry 3649
+#entry 3648
 obj73569_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65702,7 +65684,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3650
+#entry 3649
 obj73570_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65720,7 +65702,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3651
+#entry 3650
 obj73571_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65738,7 +65720,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3652
+#entry 3651
 obj73572_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65756,7 +65738,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3653
+#entry 3652
 obj73573_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65774,7 +65756,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3654
+#entry 3653
 obj73574_material41.dof-00.joe
 176.dds.png
 1
@@ -65792,7 +65774,7 @@ obj73574_material41.dof-00.joe
 0
 0
 
-#entry 3655
+#entry 3654
 obj73575_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65810,7 +65792,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3656
+#entry 3655
 obj73576_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65828,7 +65810,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3657
+#entry 3656
 obj73577_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65846,7 +65828,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3658
+#entry 3657
 obj73578_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65864,7 +65846,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3659
+#entry 3658
 obj73579_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65882,7 +65864,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3660
+#entry 3659
 obj73580_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65900,7 +65882,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3661
+#entry 3660
 obj73581_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65918,7 +65900,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3662
+#entry 3661
 obj73582_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65936,7 +65918,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3663
+#entry 3662
 obj73583_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65954,7 +65936,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3664
+#entry 3663
 obj73584_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -65972,7 +65954,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3665
+#entry 3664
 obj73585_material41.dof-00.joe
 176.dds.png
 1
@@ -65990,7 +65972,7 @@ obj73585_material41.dof-00.joe
 0
 0
 
-#entry 3666
+#entry 3665
 obj73586_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66008,7 +65990,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3667
+#entry 3666
 obj73587_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66026,7 +66008,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3668
+#entry 3667
 obj73588_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66044,7 +66026,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3669
+#entry 3668
 obj73589_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66062,7 +66044,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3670
+#entry 3669
 obj73590_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66080,7 +66062,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3671
+#entry 3670
 obj73591_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66098,7 +66080,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3672
+#entry 3671
 obj73592_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66116,7 +66098,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3673
+#entry 3672
 obj73594_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66134,7 +66116,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3674
+#entry 3673
 obj73595_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66152,7 +66134,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3675
+#entry 3674
 obj73596_material41.dof-00.joe
 176.dds.png
 1
@@ -66170,7 +66152,7 @@ obj73596_material41.dof-00.joe
 0
 0
 
-#entry 3676
+#entry 3675
 obj73597_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66188,7 +66170,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3677
+#entry 3676
 obj73598_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66206,7 +66188,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3678
+#entry 3677
 obj73599_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66224,7 +66206,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3679
+#entry 3678
 obj73600_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66242,7 +66224,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3680
+#entry 3679
 obj73601_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66260,7 +66242,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3681
+#entry 3680
 obj73602_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66278,7 +66260,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3682
+#entry 3681
 obj73603_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66296,7 +66278,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3683
+#entry 3682
 obj73604_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66314,7 +66296,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3684
+#entry 3683
 obj73605_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66332,7 +66314,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3685
+#entry 3684
 obj73606_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66350,7 +66332,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3686
+#entry 3685
 obj73607_material41.dof-00.joe
 176.dds.png
 1
@@ -66368,7 +66350,7 @@ obj73607_material41.dof-00.joe
 0
 0
 
-#entry 3687
+#entry 3686
 obj73608_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66386,7 +66368,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3688
+#entry 3687
 obj73609_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66404,7 +66386,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3689
+#entry 3688
 obj73610_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66422,7 +66404,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3690
+#entry 3689
 obj73611_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66440,7 +66422,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3691
+#entry 3690
 obj73612_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66458,7 +66440,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3692
+#entry 3691
 obj73613_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66476,7 +66458,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3693
+#entry 3692
 obj73614_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66494,7 +66476,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3694
+#entry 3693
 obj73615_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66512,7 +66494,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3695
+#entry 3694
 obj73616_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66530,7 +66512,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3696
+#entry 3695
 obj73617_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66548,7 +66530,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3697
+#entry 3696
 obj73618_material41.dof-00.joe
 176.dds.png
 1
@@ -66566,7 +66548,7 @@ obj73618_material41.dof-00.joe
 0
 0
 
-#entry 3698
+#entry 3697
 obj73619_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66584,7 +66566,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3699
+#entry 3698
 obj73620_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66602,7 +66584,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3700
+#entry 3699
 obj73621_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66620,7 +66602,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3701
+#entry 3700
 obj73622_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66638,7 +66620,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3702
+#entry 3701
 obj73623_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66656,7 +66638,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3703
+#entry 3702
 obj73624_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66674,7 +66656,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3704
+#entry 3703
 obj73625_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66692,7 +66674,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3705
+#entry 3704
 obj73626_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66710,7 +66692,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3706
+#entry 3705
 obj73627_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66728,7 +66710,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3707
+#entry 3706
 obj73628_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66746,7 +66728,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3708
+#entry 3707
 obj73629_material41.dof-00.joe
 176.dds.png
 1
@@ -66764,7 +66746,7 @@ obj73629_material41.dof-00.joe
 0
 0
 
-#entry 3709
+#entry 3708
 obj73630_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66782,7 +66764,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3710
+#entry 3709
 obj73631_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66800,7 +66782,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3711
+#entry 3710
 obj73632_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66818,7 +66800,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3712
+#entry 3711
 obj73633_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66836,7 +66818,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3713
+#entry 3712
 obj73634_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66854,7 +66836,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3714
+#entry 3713
 obj73635_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66872,7 +66854,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3715
+#entry 3714
 obj73636_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66890,7 +66872,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3716
+#entry 3715
 obj73637_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66908,7 +66890,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3717
+#entry 3716
 obj73638_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66926,7 +66908,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3718
+#entry 3717
 obj73639_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66944,7 +66926,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3719
+#entry 3718
 obj73640_material41.dof-00.joe
 176.dds.png
 1
@@ -66962,7 +66944,7 @@ obj73640_material41.dof-00.joe
 0
 0
 
-#entry 3720
+#entry 3719
 obj73641_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66980,7 +66962,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3721
+#entry 3720
 obj73642_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -66998,7 +66980,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3722
+#entry 3721
 obj73643_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67016,7 +66998,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3723
+#entry 3722
 obj73644_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67034,7 +67016,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3724
+#entry 3723
 obj73645_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67052,7 +67034,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3725
+#entry 3724
 obj73646_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67070,7 +67052,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3726
+#entry 3725
 obj73647_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67088,7 +67070,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3727
+#entry 3726
 obj73648_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67106,7 +67088,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3728
+#entry 3727
 obj73649_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67124,7 +67106,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3729
+#entry 3728
 obj73650_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67142,7 +67124,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3730
+#entry 3729
 obj73651_material41.dof-00.joe
 176.dds.png
 1
@@ -67160,7 +67142,7 @@ obj73651_material41.dof-00.joe
 0
 0
 
-#entry 3731
+#entry 3730
 obj73652_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67178,7 +67160,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3732
+#entry 3731
 obj73653_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67196,7 +67178,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3733
+#entry 3732
 obj73654_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67214,7 +67196,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3734
+#entry 3733
 obj73655_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67232,7 +67214,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3735
+#entry 3734
 obj73656_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67250,7 +67232,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3736
+#entry 3735
 obj73657_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67268,7 +67250,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3737
+#entry 3736
 obj73658_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67286,7 +67268,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3738
+#entry 3737
 obj73659_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67304,7 +67286,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3739
+#entry 3738
 obj73660_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67322,7 +67304,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3740
+#entry 3739
 obj73661_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67340,7 +67322,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3741
+#entry 3740
 obj73662_material41.dof-00.joe
 176.dds.png
 1
@@ -67358,7 +67340,7 @@ obj73662_material41.dof-00.joe
 0
 0
 
-#entry 3742
+#entry 3741
 obj73663_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67376,7 +67358,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3743
+#entry 3742
 obj73664_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67394,7 +67376,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3744
+#entry 3743
 obj73665_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67412,7 +67394,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3745
+#entry 3744
 obj73666_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67430,7 +67412,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3746
+#entry 3745
 obj73667_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67448,7 +67430,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3747
+#entry 3746
 obj73668_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67466,7 +67448,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3748
+#entry 3747
 obj73669_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67484,7 +67466,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3749
+#entry 3748
 obj73670_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67502,7 +67484,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3750
+#entry 3749
 obj73671_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67520,7 +67502,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3751
+#entry 3750
 obj73672_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67538,7 +67520,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3752
+#entry 3751
 obj73673_material41.dof-00.joe
 176.dds.png
 1
@@ -67556,7 +67538,7 @@ obj73673_material41.dof-00.joe
 0
 0
 
-#entry 3753
+#entry 3752
 obj73674_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67574,7 +67556,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3754
+#entry 3753
 obj73675_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67592,7 +67574,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3755
+#entry 3754
 obj73676_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67610,7 +67592,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3756
+#entry 3755
 obj73677_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67628,7 +67610,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3757
+#entry 3756
 obj73678_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67646,7 +67628,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3758
+#entry 3757
 obj73679_material17.dof-00.joe
 128.dds.png
 0
@@ -67664,7 +67646,7 @@ obj73679_material17.dof-00.joe
 0
 1
 
-#entry 3759
+#entry 3758
 obj73680_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67682,7 +67664,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3760
+#entry 3759
 obj73681_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67700,7 +67682,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3761
+#entry 3760
 obj73682_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67718,7 +67700,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3762
+#entry 3761
 obj73683_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67736,7 +67718,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3763
+#entry 3762
 obj73684_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67754,7 +67736,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3764
+#entry 3763
 obj73685_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67772,7 +67754,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3765
+#entry 3764
 obj73686_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67790,7 +67772,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3766
+#entry 3765
 obj73687_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67808,7 +67790,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3767
+#entry 3766
 obj73688_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67826,7 +67808,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3768
+#entry 3767
 obj73689_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67844,7 +67826,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3769
+#entry 3768
 obj73690_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67862,7 +67844,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3770
+#entry 3769
 obj73691_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67880,7 +67862,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3771
+#entry 3770
 obj73692_grass2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67898,7 +67880,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3772
+#entry 3771
 obj73693_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67916,7 +67898,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3773
+#entry 3772
 obj73694_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67934,7 +67916,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3774
+#entry 3773
 obj73695_material42.dof-00.joe
 177.dds.png
 1
@@ -67952,7 +67934,7 @@ obj73695_material42.dof-00.joe
 0
 0
 
-#entry 3775
+#entry 3774
 obj73696_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67970,7 +67952,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3776
+#entry 3775
 obj73697_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -67988,7 +67970,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3777
+#entry 3776
 obj73698_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68006,7 +67988,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3778
+#entry 3777
 obj73699_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68024,7 +68006,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3779
+#entry 3778
 obj73700_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68042,7 +68024,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3780
+#entry 3779
 obj73701_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68060,7 +68042,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3781
+#entry 3780
 obj73702_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68078,7 +68060,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3782
+#entry 3781
 obj73703_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68096,7 +68078,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3783
+#entry 3782
 obj73704_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68114,7 +68096,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3784
+#entry 3783
 obj73705_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68132,7 +68114,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3785
+#entry 3784
 obj73706_material42.dof-00.joe
 177.dds.png
 1
@@ -68150,7 +68132,7 @@ obj73706_material42.dof-00.joe
 0
 0
 
-#entry 3786
+#entry 3785
 obj73707_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68168,7 +68150,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3787
+#entry 3786
 obj73708_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68186,7 +68168,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3788
+#entry 3787
 obj73709_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68204,7 +68186,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3789
+#entry 3788
 obj73710_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68222,7 +68204,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3790
+#entry 3789
 obj73711_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68240,7 +68222,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3791
+#entry 3790
 obj73712_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68258,7 +68240,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3792
+#entry 3791
 obj73713_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68276,7 +68258,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3793
+#entry 3792
 obj73714_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68294,7 +68276,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3794
+#entry 3793
 obj73715_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68312,7 +68294,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3795
+#entry 3794
 obj73716_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68330,7 +68312,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3796
+#entry 3795
 obj73717_material42.dof-00.joe
 177.dds.png
 1
@@ -68348,7 +68330,7 @@ obj73717_material42.dof-00.joe
 0
 0
 
-#entry 3797
+#entry 3796
 obj73718_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68366,7 +68348,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3798
+#entry 3797
 obj73719_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68384,7 +68366,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3799
+#entry 3798
 obj73720_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68402,7 +68384,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3800
+#entry 3799
 obj73721_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68420,7 +68402,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3801
+#entry 3800
 obj73722_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68438,7 +68420,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3802
+#entry 3801
 obj73723_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68456,7 +68438,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3803
+#entry 3802
 obj73724_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68474,7 +68456,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3804
+#entry 3803
 obj73725_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68492,7 +68474,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3805
+#entry 3804
 obj73726_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68510,7 +68492,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3806
+#entry 3805
 obj73727_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68528,7 +68510,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3807
+#entry 3806
 obj73728_material42.dof-00.joe
 177.dds.png
 1
@@ -68546,7 +68528,7 @@ obj73728_material42.dof-00.joe
 0
 0
 
-#entry 3808
+#entry 3807
 obj73729_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68564,7 +68546,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3809
+#entry 3808
 obj73730_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68582,7 +68564,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3810
+#entry 3809
 obj73731_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68600,7 +68582,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3811
+#entry 3810
 obj73732_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68618,7 +68600,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3812
+#entry 3811
 obj83733_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68636,7 +68618,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3813
+#entry 3812
 obj83734_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68654,7 +68636,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3814
+#entry 3813
 obj83735_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68672,7 +68654,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3815
+#entry 3814
 obj83736_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68690,7 +68672,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3816
+#entry 3815
 obj83737_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68708,7 +68690,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3817
+#entry 3816
 obj83738_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68726,7 +68708,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3818
+#entry 3817
 obj83739_material42.dof-00.joe
 177.dds.png
 1
@@ -68744,7 +68726,7 @@ obj83739_material42.dof-00.joe
 0
 0
 
-#entry 3819
+#entry 3818
 obj83740_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68762,7 +68744,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3820
+#entry 3819
 obj83741_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68780,7 +68762,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3821
+#entry 3820
 obj83742_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68798,7 +68780,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3822
+#entry 3821
 obj83743_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68816,7 +68798,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3823
+#entry 3822
 obj83744_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68834,7 +68816,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3824
+#entry 3823
 obj83745_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68852,7 +68834,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3825
+#entry 3824
 obj83746_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68870,7 +68852,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3826
+#entry 3825
 obj83747_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68888,7 +68870,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3827
+#entry 3826
 obj83748_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68906,7 +68888,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3828
+#entry 3827
 obj83749_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68924,7 +68906,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3829
+#entry 3828
 obj83750_material42.dof-00.joe
 177.dds.png
 1
@@ -68942,7 +68924,7 @@ obj83750_material42.dof-00.joe
 0
 0
 
-#entry 3830
+#entry 3829
 obj83751_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68960,7 +68942,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3831
+#entry 3830
 obj83752_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68978,7 +68960,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3832
+#entry 3831
 obj83753_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -68996,7 +68978,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3833
+#entry 3832
 obj83754_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69014,7 +68996,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3834
+#entry 3833
 obj83755_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69032,7 +69014,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3835
+#entry 3834
 obj83756_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69050,7 +69032,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3836
+#entry 3835
 obj83757_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69068,7 +69050,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3837
+#entry 3836
 obj83758_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69086,7 +69068,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3838
+#entry 3837
 obj83759_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69104,7 +69086,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3839
+#entry 3838
 obj83760_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69122,7 +69104,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3840
+#entry 3839
 obj83761_material42.dof-00.joe
 177.dds.png
 1
@@ -69140,7 +69122,7 @@ obj83761_material42.dof-00.joe
 0
 0
 
-#entry 3841
+#entry 3840
 obj83762_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69158,7 +69140,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3842
+#entry 3841
 obj83763_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69176,7 +69158,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3843
+#entry 3842
 obj83764_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69194,7 +69176,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3844
+#entry 3843
 obj83765_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69212,7 +69194,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3845
+#entry 3844
 obj83766_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69230,7 +69212,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3846
+#entry 3845
 obj83767_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69248,7 +69230,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3847
+#entry 3846
 obj83768_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69266,7 +69248,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3848
+#entry 3847
 obj83769_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69284,7 +69266,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3849
+#entry 3848
 obj83770_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69302,7 +69284,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3850
+#entry 3849
 obj83771_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69320,7 +69302,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3851
+#entry 3850
 obj83772_material42.dof-00.joe
 177.dds.png
 1
@@ -69338,7 +69320,7 @@ obj83772_material42.dof-00.joe
 0
 0
 
-#entry 3852
+#entry 3851
 obj83773_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69356,7 +69338,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3853
+#entry 3852
 obj83774_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69374,7 +69356,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3854
+#entry 3853
 obj83775_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69392,7 +69374,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3855
+#entry 3854
 obj83776_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69410,7 +69392,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3856
+#entry 3855
 obj83777_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69428,7 +69410,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3857
+#entry 3856
 obj83778_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69446,7 +69428,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3858
+#entry 3857
 obj83779_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69464,7 +69446,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3859
+#entry 3858
 obj83780_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69482,7 +69464,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3860
+#entry 3859
 obj83781_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69500,7 +69482,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3861
+#entry 3860
 obj83782_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69518,7 +69500,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3862
+#entry 3861
 obj83783_material42.dof-00.joe
 177.dds.png
 1
@@ -69536,7 +69518,7 @@ obj83783_material42.dof-00.joe
 0
 0
 
-#entry 3863
+#entry 3862
 obj83784_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69554,7 +69536,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3864
+#entry 3863
 obj83785_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69572,7 +69554,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3865
+#entry 3864
 obj83786_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69590,7 +69572,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3866
+#entry 3865
 obj83787_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69608,7 +69590,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3867
+#entry 3866
 obj83788_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69626,7 +69608,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3868
+#entry 3867
 obj83789_material17.dof-00.joe
 128.dds.png
 0
@@ -69644,7 +69626,7 @@ obj83789_material17.dof-00.joe
 0
 1
 
-#entry 3869
+#entry 3868
 obj83790_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69662,7 +69644,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3870
+#entry 3869
 obj83791_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69680,7 +69662,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3871
+#entry 3870
 obj83792_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69698,7 +69680,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3872
+#entry 3871
 obj83793_grass1.dof-00.joe
 grassmelhor.dds.png
 1
@@ -69716,7 +69698,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 3873
+#entry 3872
 obj83794_roadside1.dof-00.joe
 roadside1.dds.png
 1
@@ -69734,7 +69716,7 @@ roadside1.dds.png
 0
 0
 
-#entry 3874
+#entry 3873
 obj83795_material42.dof-00.joe
 177.dds.png
 1
@@ -69752,7 +69734,7 @@ obj83795_material42.dof-00.joe
 0
 0
 
-#entry 3875
+#entry 3874
 obj83796_roadside1.dof-00.joe
 roadside1.dds.png
 1
@@ -69770,7 +69752,7 @@ roadside1.dds.png
 0
 0
 
-#entry 3876
+#entry 3875
 obj83797_roadside1.dof-00.joe
 roadside1.dds.png
 1
@@ -69788,7 +69770,7 @@ roadside1.dds.png
 0
 0
 
-#entry 3877
+#entry 3876
 obj83798_roadside1.dof-00.joe
 roadside1.dds.png
 1
@@ -69806,7 +69788,7 @@ roadside1.dds.png
 0
 0
 
-#entry 3878
+#entry 3877
 obj83799_roadside1.dof-00.joe
 roadside1.dds.png
 1
@@ -69824,7 +69806,7 @@ roadside1.dds.png
 0
 0
 
-#entry 3879
+#entry 3878
 obj83800_roadside1.dof-00.joe
 roadside1.dds.png
 1
@@ -69842,7 +69824,7 @@ roadside1.dds.png
 0
 0
 
-#entry 3880
+#entry 3879
 obj83801_roadside1.dof-00.joe
 roadside1.dds.png
 1
@@ -69860,7 +69842,7 @@ roadside1.dds.png
 0
 0
 
-#entry 3881
+#entry 3880
 obj83802_roadside1.dof-00.joe
 roadside1.dds.png
 1
@@ -69878,7 +69860,7 @@ roadside1.dds.png
 0
 0
 
-#entry 3882
+#entry 3881
 obj83803_roadside1.dof-00.joe
 roadside1.dds.png
 1
@@ -69896,7 +69878,7 @@ roadside1.dds.png
 0
 0
 
-#entry 3883
+#entry 3882
 obj83804_roadside1.dof-00.joe
 roadside1.dds.png
 1
@@ -69914,7 +69896,7 @@ roadside1.dds.png
 0
 0
 
-#entry 3884
+#entry 3883
 obj83805_roadside1.dof-00.joe
 roadside1.dds.png
 1
@@ -69932,7 +69914,7 @@ roadside1.dds.png
 0
 0
 
-#entry 3885
+#entry 3884
 obj83806_material42.dof-00.joe
 177.dds.png
 1
@@ -69950,7 +69932,7 @@ obj83806_material42.dof-00.joe
 0
 0
 
-#entry 3886
+#entry 3885
 obj83807_roadside1.dof-00.joe
 roadside1.dds.png
 1
@@ -69968,7 +69950,7 @@ roadside1.dds.png
 0
 0
 
-#entry 3887
+#entry 3886
 obj83808_roadside1.dof-00.joe
 roadside1.dds.png
 1
@@ -69986,7 +69968,7 @@ roadside1.dds.png
 0
 0
 
-#entry 3888
+#entry 3887
 obj83809_roadside1.dof-00.joe
 roadside1.dds.png
 1
@@ -70004,7 +69986,7 @@ roadside1.dds.png
 0
 0
 
-#entry 3889
+#entry 3888
 obj83810_roadside1.dof-00.joe
 roadside1.dds.png
 1
@@ -70022,7 +70004,7 @@ roadside1.dds.png
 0
 0
 
-#entry 3890
+#entry 3889
 obj83811_roadside1.dof-00.joe
 roadside1.dds.png
 1
@@ -70040,7 +70022,7 @@ roadside1.dds.png
 0
 0
 
-#entry 3891
+#entry 3890
 obj83812_roadside1.dof-00.joe
 roadside1.dds.png
 1
@@ -70058,7 +70040,7 @@ roadside1.dds.png
 0
 0
 
-#entry 3892
+#entry 3891
 obj83813_roadside1.dof-00.joe
 roadside1.dds.png
 1
@@ -70076,7 +70058,7 @@ roadside1.dds.png
 0
 0
 
-#entry 3893
+#entry 3892
 obj83814_roadside1.dof-00.joe
 roadside1.dds.png
 1
@@ -70094,7 +70076,7 @@ roadside1.dds.png
 0
 0
 
-#entry 3894
+#entry 3893
 obj83815_roadside1.dof-00.joe
 roadside1.dds.png
 1
@@ -70112,7 +70094,7 @@ roadside1.dds.png
 0
 0
 
-#entry 3895
+#entry 3894
 obj83816_roadside1.dof-00.joe
 roadside1.dds.png
 1
@@ -70130,7 +70112,7 @@ roadside1.dds.png
 0
 0
 
-#entry 3896
+#entry 3895
 obj83817_roadside1.dof-00.joe
 roadside1.dds.png
 1
@@ -70148,7 +70130,7 @@ roadside1.dds.png
 0
 0
 
-#entry 3897
+#entry 3896
 obj83818_materia489.dof-00.joe
 265.dds.png
 1
@@ -70166,7 +70148,7 @@ obj83818_materia489.dof-00.joe
 0
 0
 
-#entry 3898
+#entry 3897
 obj83819_materia489.dof-00.joe
 265.dds.png
 1
@@ -70184,7 +70166,7 @@ obj83819_materia489.dof-00.joe
 0
 0
 
-#entry 3899
+#entry 3898
 obj83820_materia489.dof-00.joe
 265.dds.png
 1
@@ -70202,7 +70184,7 @@ obj83820_materia489.dof-00.joe
 0
 0
 
-#entry 3900
+#entry 3899
 obj83821_materia489.dof-00.joe
 265.dds.png
 1
@@ -70220,7 +70202,7 @@ obj83821_materia489.dof-00.joe
 0
 0
 
-#entry 3901
+#entry 3900
 obj83822_materia489.dof-00.joe
 265.dds.png
 1
@@ -70238,7 +70220,7 @@ obj83822_materia489.dof-00.joe
 0
 0
 
-#entry 3902
+#entry 3901
 obj83823_materia489.dof-00.joe
 265.dds.png
 1
@@ -70256,7 +70238,7 @@ obj83823_materia489.dof-00.joe
 0
 0
 
-#entry 3903
+#entry 3902
 obj83824_materia489.dof-00.joe
 265.dds.png
 1
@@ -70274,7 +70256,7 @@ obj83824_materia489.dof-00.joe
 0
 0
 
-#entry 3904
+#entry 3903
 obj83825_materia489.dof-00.joe
 265.dds.png
 1
@@ -70292,7 +70274,7 @@ obj83825_materia489.dof-00.joe
 0
 0
 
-#entry 3905
+#entry 3904
 obj83826_materia489.dof-00.joe
 265.dds.png
 1
@@ -70310,7 +70292,7 @@ obj83826_materia489.dof-00.joe
 0
 0
 
-#entry 3906
+#entry 3905
 obj83827_material43.dof-00.joe
 178.dds.png
 1
@@ -70328,7 +70310,7 @@ obj83827_material43.dof-00.joe
 0
 0
 
-#entry 3907
+#entry 3906
 obj83828_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70346,7 +70328,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3908
+#entry 3907
 obj83829_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70364,7 +70346,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3909
+#entry 3908
 obj83830_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70382,7 +70364,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3910
+#entry 3909
 obj83831_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70400,7 +70382,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3911
+#entry 3910
 obj83832_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70418,7 +70400,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3912
+#entry 3911
 obj83833_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70436,7 +70418,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3913
+#entry 3912
 obj83834_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70454,7 +70436,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3914
+#entry 3913
 obj83835_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70472,7 +70454,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3915
+#entry 3914
 obj83836_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70490,7 +70472,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3916
+#entry 3915
 obj83837_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70508,7 +70490,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3917
+#entry 3916
 obj83838_material44.dof-00.joe
 179.dds.png
 1
@@ -70526,7 +70508,7 @@ obj83838_material44.dof-00.joe
 0
 0
 
-#entry 3918
+#entry 3917
 obj83839_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70544,7 +70526,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3919
+#entry 3918
 obj83840_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70562,7 +70544,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3920
+#entry 3919
 obj83841_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70580,7 +70562,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3921
+#entry 3920
 obj83842_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70598,7 +70580,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3922
+#entry 3921
 obj83843_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70616,7 +70598,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3923
+#entry 3922
 obj83844_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70634,7 +70616,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3924
+#entry 3923
 obj83845_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70652,7 +70634,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3925
+#entry 3924
 obj83846_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70670,7 +70652,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3926
+#entry 3925
 obj83847_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70688,7 +70670,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3927
+#entry 3926
 obj83848_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70706,7 +70688,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3928
+#entry 3927
 obj83849_material44.dof-00.joe
 179.dds.png
 1
@@ -70724,7 +70706,7 @@ obj83849_material44.dof-00.joe
 0
 0
 
-#entry 3929
+#entry 3928
 obj83850_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70742,7 +70724,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3930
+#entry 3929
 obj83851_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70760,7 +70742,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3931
+#entry 3930
 obj83852_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70778,7 +70760,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3932
+#entry 3931
 obj83853_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70796,7 +70778,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3933
+#entry 3932
 obj83854_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70814,7 +70796,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3934
+#entry 3933
 obj83855_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70832,7 +70814,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3935
+#entry 3934
 obj83856_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70850,7 +70832,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3936
+#entry 3935
 obj83857_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70868,7 +70850,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3937
+#entry 3936
 obj83858_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70886,7 +70868,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3938
+#entry 3937
 obj83859_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70904,7 +70886,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3939
+#entry 3938
 obj83860_material44.dof-00.joe
 179.dds.png
 1
@@ -70922,7 +70904,7 @@ obj83860_material44.dof-00.joe
 0
 0
 
-#entry 3940
+#entry 3939
 obj83861_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70940,7 +70922,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3941
+#entry 3940
 obj83862_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70958,7 +70940,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3942
+#entry 3941
 obj83863_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70976,7 +70958,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3943
+#entry 3942
 obj83864_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -70994,7 +70976,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3944
+#entry 3943
 obj83865_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71012,7 +70994,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3945
+#entry 3944
 obj83866_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71030,7 +71012,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3946
+#entry 3945
 obj83867_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71048,7 +71030,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3947
+#entry 3946
 obj83868_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71066,7 +71048,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3948
+#entry 3947
 obj83869_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71084,7 +71066,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3949
+#entry 3948
 obj83870_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71102,7 +71084,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3950
+#entry 3949
 obj83871_material44.dof-00.joe
 179.dds.png
 1
@@ -71120,7 +71102,7 @@ obj83871_material44.dof-00.joe
 0
 0
 
-#entry 3951
+#entry 3950
 obj83872_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71138,7 +71120,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3952
+#entry 3951
 obj83873_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71156,7 +71138,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3953
+#entry 3952
 obj83874_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71174,7 +71156,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3954
+#entry 3953
 obj83875_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71192,7 +71174,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3955
+#entry 3954
 obj83876_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71210,7 +71192,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3956
+#entry 3955
 obj83877_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71228,7 +71210,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3957
+#entry 3956
 obj83878_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71246,7 +71228,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3958
+#entry 3957
 obj83879_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71264,7 +71246,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3959
+#entry 3958
 obj83880_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71282,7 +71264,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3960
+#entry 3959
 obj83881_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71300,7 +71282,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3961
+#entry 3960
 obj83882_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71318,7 +71300,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3962
+#entry 3961
 obj83883_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71336,7 +71318,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3963
+#entry 3962
 obj83884_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71354,7 +71336,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3964
+#entry 3963
 obj83885_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71372,7 +71354,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3965
+#entry 3964
 obj83886_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71390,7 +71372,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3966
+#entry 3965
 obj83887_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71408,7 +71390,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3967
+#entry 3966
 obj83888_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71426,7 +71408,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3968
+#entry 3967
 obj83889_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71444,7 +71426,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3969
+#entry 3968
 obj83890_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71462,7 +71444,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3970
+#entry 3969
 obj83891_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71480,7 +71462,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3971
+#entry 3970
 obj83892_material44.dof-00.joe
 179.dds.png
 1
@@ -71498,7 +71480,7 @@ obj83892_material44.dof-00.joe
 0
 0
 
-#entry 3972
+#entry 3971
 obj83893_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71516,7 +71498,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3973
+#entry 3972
 obj83894_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71534,7 +71516,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3974
+#entry 3973
 obj83895_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71552,7 +71534,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3975
+#entry 3974
 obj83896_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71570,7 +71552,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3976
+#entry 3975
 obj83897_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71588,7 +71570,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3977
+#entry 3976
 obj83898_material17.dof-00.joe
 128.dds.png
 0
@@ -71606,7 +71588,7 @@ obj83898_material17.dof-00.joe
 0
 1
 
-#entry 3978
+#entry 3977
 obj83899_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71624,7 +71606,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3979
+#entry 3978
 obj83900_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71642,7 +71624,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3980
+#entry 3979
 obj83901_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71660,7 +71642,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3981
+#entry 3980
 obj83902_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71678,7 +71660,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3982
+#entry 3981
 obj83903_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71696,7 +71678,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3983
+#entry 3982
 obj83904_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71714,7 +71696,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3984
+#entry 3983
 obj83905_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71732,7 +71714,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3985
+#entry 3984
 obj83906_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71750,7 +71732,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3986
+#entry 3985
 obj83907_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71768,7 +71750,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3987
+#entry 3986
 obj83908_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71786,7 +71768,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3988
+#entry 3987
 obj83909_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71804,7 +71786,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3989
+#entry 3988
 obj83910_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71822,7 +71804,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3990
+#entry 3989
 obj83911_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71840,7 +71822,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3991
+#entry 3990
 obj83912_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71858,7 +71840,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3992
+#entry 3991
 obj83913_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71876,7 +71858,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3993
+#entry 3992
 obj83914_material45.dof-00.joe
 180.dds.png
 1
@@ -71894,7 +71876,7 @@ obj83914_material45.dof-00.joe
 0
 0
 
-#entry 3994
+#entry 3993
 obj83915_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71912,7 +71894,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3995
+#entry 3994
 obj83916_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71930,7 +71912,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3996
+#entry 3995
 obj83917_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71948,7 +71930,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3997
+#entry 3996
 obj83918_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71966,7 +71948,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3998
+#entry 3997
 obj83919_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -71984,7 +71966,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 3999
+#entry 3998
 obj83920_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72002,7 +71984,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4000
+#entry 3999
 obj83921_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72020,7 +72002,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4001
+#entry 4000
 obj83922_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72038,7 +72020,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4002
+#entry 4001
 obj83923_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72056,7 +72038,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4003
+#entry 4002
 obj83924_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72074,7 +72056,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4004
+#entry 4003
 obj83925_material45.dof-00.joe
 180.dds.png
 1
@@ -72092,7 +72074,7 @@ obj83925_material45.dof-00.joe
 0
 0
 
-#entry 4005
+#entry 4004
 obj83926_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72110,7 +72092,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4006
+#entry 4005
 obj83927_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72128,7 +72110,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4007
+#entry 4006
 obj83928_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72146,7 +72128,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4008
+#entry 4007
 obj83929_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72164,7 +72146,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4009
+#entry 4008
 obj83930_grassborda.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72182,7 +72164,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4010
+#entry 4009
 obj83931_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72200,7 +72182,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4011
+#entry 4010
 obj83932_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72218,7 +72200,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4012
+#entry 4011
 obj83933_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72236,7 +72218,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4013
+#entry 4012
 obj83934_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72254,7 +72236,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4014
+#entry 4013
 obj83935_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72272,7 +72254,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4015
+#entry 4014
 obj83936_material45.dof-00.joe
 180.dds.png
 1
@@ -72290,7 +72272,7 @@ obj83936_material45.dof-00.joe
 0
 0
 
-#entry 4016
+#entry 4015
 obj83937_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72308,7 +72290,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4017
+#entry 4016
 obj83938_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72326,7 +72308,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4018
+#entry 4017
 obj83939_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72344,7 +72326,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4019
+#entry 4018
 obj83940_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72362,7 +72344,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4020
+#entry 4019
 obj83941_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72380,7 +72362,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4021
+#entry 4020
 obj83942_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72398,7 +72380,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4022
+#entry 4021
 obj83943_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72416,7 +72398,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4023
+#entry 4022
 obj83944_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72434,7 +72416,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4024
+#entry 4023
 obj83945_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72452,7 +72434,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4025
+#entry 4024
 obj83946_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72470,7 +72452,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4026
+#entry 4025
 obj83947_material45.dof-00.joe
 180.dds.png
 1
@@ -72488,7 +72470,7 @@ obj83947_material45.dof-00.joe
 0
 0
 
-#entry 4027
+#entry 4026
 obj83948_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72506,7 +72488,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4028
+#entry 4027
 obj83949_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72524,7 +72506,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4029
+#entry 4028
 obj83950_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72542,7 +72524,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4030
+#entry 4029
 obj83951_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72560,7 +72542,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4031
+#entry 4030
 obj83952_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72578,7 +72560,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4032
+#entry 4031
 obj83953_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72596,7 +72578,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4033
+#entry 4032
 obj83954_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72614,7 +72596,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4034
+#entry 4033
 obj83955_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72632,7 +72614,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4035
+#entry 4034
 obj83956_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72650,7 +72632,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4036
+#entry 4035
 obj83957_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72668,7 +72650,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4037
+#entry 4036
 obj83958_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72686,7 +72668,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4038
+#entry 4037
 obj83959_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72704,7 +72686,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4039
+#entry 4038
 obj83960_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72722,7 +72704,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4040
+#entry 4039
 obj83961_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72740,7 +72722,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4041
+#entry 4040
 obj83962_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72758,7 +72740,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4042
+#entry 4041
 obj83963_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72776,7 +72758,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4043
+#entry 4042
 obj83964_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72794,7 +72776,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4044
+#entry 4043
 obj83965_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72812,7 +72794,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4045
+#entry 4044
 obj83966_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72830,7 +72812,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4046
+#entry 4045
 obj83967_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72848,7 +72830,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4047
+#entry 4046
 obj83968_material45.dof-00.joe
 180.dds.png
 1
@@ -72866,7 +72848,7 @@ obj83968_material45.dof-00.joe
 0
 0
 
-#entry 4048
+#entry 4047
 obj83969_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72884,7 +72866,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4049
+#entry 4048
 obj83970_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72902,7 +72884,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4050
+#entry 4049
 obj83971_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72920,7 +72902,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4051
+#entry 4050
 obj83972_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72938,7 +72920,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4052
+#entry 4051
 obj83973_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72956,7 +72938,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4053
+#entry 4052
 obj83974_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72974,7 +72956,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4054
+#entry 4053
 obj83975_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -72992,7 +72974,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4055
+#entry 4054
 obj83976_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73010,7 +72992,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4056
+#entry 4055
 obj83977_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73028,7 +73010,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4057
+#entry 4056
 obj83978_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73046,7 +73028,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4058
+#entry 4057
 obj83979_material45.dof-00.joe
 180.dds.png
 1
@@ -73064,7 +73046,7 @@ obj83979_material45.dof-00.joe
 0
 0
 
-#entry 4059
+#entry 4058
 obj83980_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73082,7 +73064,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4060
+#entry 4059
 obj83981_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73100,7 +73082,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4061
+#entry 4060
 obj83982_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73118,7 +73100,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4062
+#entry 4061
 obj83983_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73136,7 +73118,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4063
+#entry 4062
 obj83984_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73154,7 +73136,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4064
+#entry 4063
 obj83985_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73172,7 +73154,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4065
+#entry 4064
 obj83986_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73190,7 +73172,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4066
+#entry 4065
 obj83987_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73208,7 +73190,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4067
+#entry 4066
 obj83988_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73226,7 +73208,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4068
+#entry 4067
 obj83989_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73244,7 +73226,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4069
+#entry 4068
 obj83990_material46.dof-00.joe
 181.dds.png
 1
@@ -73262,7 +73244,7 @@ obj83990_material46.dof-00.joe
 0
 0
 
-#entry 4070
+#entry 4069
 obj83991_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73280,7 +73262,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4071
+#entry 4070
 obj83992_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73298,7 +73280,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4072
+#entry 4071
 obj83993_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73316,7 +73298,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4073
+#entry 4072
 obj83994_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73334,7 +73316,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4074
+#entry 4073
 obj83995_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73352,7 +73334,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4075
+#entry 4074
 obj83996_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73370,7 +73352,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4076
+#entry 4075
 obj83997_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73388,7 +73370,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4077
+#entry 4076
 obj83998_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73406,7 +73388,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4078
+#entry 4077
 obj83999_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73424,7 +73406,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4079
+#entry 4078
 obj84000_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73442,7 +73424,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4080
+#entry 4079
 obj84001_material46.dof-00.joe
 181.dds.png
 1
@@ -73460,7 +73442,7 @@ obj84001_material46.dof-00.joe
 0
 0
 
-#entry 4081
+#entry 4080
 obj84002_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73478,7 +73460,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4082
+#entry 4081
 obj84003_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73496,7 +73478,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4083
+#entry 4082
 obj84004_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73514,7 +73496,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4084
+#entry 4083
 obj84005_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73532,7 +73514,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4085
+#entry 4084
 obj84006_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73550,7 +73532,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4086
+#entry 4085
 obj84007_material17.dof-00.joe
 128.dds.png
 0
@@ -73568,7 +73550,7 @@ obj84007_material17.dof-00.joe
 0
 1
 
-#entry 4087
+#entry 4086
 obj84008_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73586,7 +73568,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4088
+#entry 4087
 obj84009_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73604,7 +73586,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4089
+#entry 4088
 obj84010_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73622,7 +73604,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4090
+#entry 4089
 obj84011_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73640,7 +73622,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4091
+#entry 4090
 obj84012_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73658,7 +73640,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4092
+#entry 4091
 obj84013_material46.dof-00.joe
 181.dds.png
 1
@@ -73676,7 +73658,7 @@ obj84013_material46.dof-00.joe
 0
 0
 
-#entry 4093
+#entry 4092
 obj84014_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73694,7 +73676,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4094
+#entry 4093
 obj84015_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73712,7 +73694,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4095
+#entry 4094
 obj84016_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73730,7 +73712,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4096
+#entry 4095
 obj84017_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73748,7 +73730,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4097
+#entry 4096
 obj84018_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73766,7 +73748,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4098
+#entry 4097
 obj84019_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73784,7 +73766,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4099
+#entry 4098
 obj84020_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73802,7 +73784,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4100
+#entry 4099
 obj84021_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73820,7 +73802,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4101
+#entry 4100
 obj84022_grassborda3.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -73838,7 +73820,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4102
+#entry 4101
 obj84023_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -73856,7 +73838,7 @@ escape.dds.png
 0
 0
 
-#entry 4103
+#entry 4102
 obj84024_material46.dof-00.joe
 181.dds.png
 1
@@ -73874,7 +73856,7 @@ obj84024_material46.dof-00.joe
 0
 0
 
-#entry 4104
+#entry 4103
 obj84025_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -73892,7 +73874,7 @@ escape.dds.png
 0
 0
 
-#entry 4105
+#entry 4104
 obj84026_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -73910,7 +73892,7 @@ escape.dds.png
 0
 0
 
-#entry 4106
+#entry 4105
 obj84027_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -73928,7 +73910,7 @@ escape.dds.png
 0
 0
 
-#entry 4107
+#entry 4106
 obj84028_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -73946,7 +73928,7 @@ escape.dds.png
 0
 0
 
-#entry 4108
+#entry 4107
 obj84029_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -73964,7 +73946,7 @@ escape.dds.png
 0
 0
 
-#entry 4109
+#entry 4108
 obj84030_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -73982,7 +73964,7 @@ escape.dds.png
 0
 0
 
-#entry 4110
+#entry 4109
 obj84031_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -74000,7 +73982,7 @@ escape.dds.png
 0
 0
 
-#entry 4111
+#entry 4110
 obj84032_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -74018,7 +74000,7 @@ escape.dds.png
 0
 0
 
-#entry 4112
+#entry 4111
 obj84033_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -74036,7 +74018,7 @@ escape.dds.png
 0
 0
 
-#entry 4113
+#entry 4112
 obj84034_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -74054,7 +74036,7 @@ escape.dds.png
 0
 0
 
-#entry 4114
+#entry 4113
 obj84035_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -74072,7 +74054,7 @@ escape.dds.png
 0
 0
 
-#entry 4115
+#entry 4114
 obj84036_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -74090,7 +74072,7 @@ escape.dds.png
 0
 0
 
-#entry 4116
+#entry 4115
 obj84037_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -74108,7 +74090,7 @@ escape.dds.png
 0
 0
 
-#entry 4117
+#entry 4116
 obj84038_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -74126,7 +74108,7 @@ escape.dds.png
 0
 0
 
-#entry 4118
+#entry 4117
 obj84039_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -74144,7 +74126,7 @@ escape.dds.png
 0
 0
 
-#entry 4119
+#entry 4118
 obj84040_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -74162,7 +74144,7 @@ escape.dds.png
 0
 0
 
-#entry 4120
+#entry 4119
 obj84041_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -74180,7 +74162,7 @@ escape.dds.png
 0
 0
 
-#entry 4121
+#entry 4120
 obj84042_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -74198,7 +74180,7 @@ escape.dds.png
 0
 0
 
-#entry 4122
+#entry 4121
 obj84043_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -74216,7 +74198,7 @@ escape.dds.png
 0
 0
 
-#entry 4123
+#entry 4122
 obj84044_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -74234,7 +74216,7 @@ escape.dds.png
 0
 0
 
-#entry 4124
+#entry 4123
 obj84045_material46.dof-00.joe
 181.dds.png
 1
@@ -74252,7 +74234,7 @@ obj84045_material46.dof-00.joe
 0
 0
 
-#entry 4125
+#entry 4124
 obj84046_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -74270,7 +74252,7 @@ escape.dds.png
 0
 0
 
-#entry 4126
+#entry 4125
 obj84047_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -74288,7 +74270,7 @@ escape.dds.png
 0
 0
 
-#entry 4127
+#entry 4126
 obj84048_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -74306,7 +74288,7 @@ escape.dds.png
 0
 0
 
-#entry 4128
+#entry 4127
 obj84049_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -74324,7 +74306,7 @@ escape.dds.png
 0
 0
 
-#entry 4129
+#entry 4128
 obj84050_roadgravel1.dof-00.joe
 escape.dds.png
 1
@@ -74342,7 +74324,7 @@ escape.dds.png
 0
 0
 
-#entry 4130
+#entry 4129
 obj84051_materia493.dof-00.joe
 400.dds.png
 1
@@ -74360,7 +74342,7 @@ obj84051_materia493.dof-00.joe
 0
 0
 
-#entry 4131
+#entry 4130
 obj84052_materia493.dof-00.joe
 400.dds.png
 1
@@ -74378,7 +74360,7 @@ obj84052_materia493.dof-00.joe
 0
 0
 
-#entry 4132
+#entry 4131
 obj84053_materia493.dof-00.joe
 400.dds.png
 1
@@ -74396,7 +74378,7 @@ obj84053_materia493.dof-00.joe
 0
 0
 
-#entry 4133
+#entry 4132
 obj84054_materia494.dof-00.joe
 grassmelhor.dds.png
 1
@@ -74414,7 +74396,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 4134
+#entry 4133
 obj84055_materia494.dof-00.joe
 grassmelhor.dds.png
 1
@@ -74432,7 +74414,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 4135
+#entry 4134
 obj84056_materia494.dof-00.joe
 grassmelhor.dds.png
 1
@@ -74450,7 +74432,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 4136
+#entry 4135
 obj84057_grassborda2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -74468,7 +74450,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 4137
+#entry 4136
 obj84058_grassborda2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -74486,7 +74468,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 4138
+#entry 4137
 obj84059_grassborda2.dof-00.joe
 grassmelhor.dds.png
 1
@@ -74504,7 +74486,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 4139
+#entry 4138
 obj84060_materia496.dof-00.joe
 escape.dds.png
 1
@@ -74522,7 +74504,7 @@ escape.dds.png
 0
 0
 
-#entry 4140
+#entry 4139
 obj84061_materia496.dof-00.joe
 escape.dds.png
 1
@@ -74540,7 +74522,7 @@ escape.dds.png
 0
 0
 
-#entry 4141
+#entry 4140
 obj84062_materia496.dof-00.joe
 escape.dds.png
 1
@@ -74558,7 +74540,7 @@ escape.dds.png
 0
 0
 
-#entry 4142
+#entry 4141
 obj84063_materia496.dof-00.joe
 escape.dds.png
 1
@@ -74576,7 +74558,7 @@ escape.dds.png
 0
 0
 
-#entry 4143
+#entry 4142
 obj84064_materia496.dof-00.joe
 escape.dds.png
 1
@@ -74594,7 +74576,7 @@ escape.dds.png
 0
 0
 
-#entry 4144
+#entry 4143
 obj84065_materia496.dof-00.joe
 escape.dds.png
 1
@@ -74612,7 +74594,7 @@ escape.dds.png
 0
 0
 
-#entry 4145
+#entry 4144
 obj84066_materia496.dof-00.joe
 escape.dds.png
 1
@@ -74630,7 +74612,7 @@ escape.dds.png
 0
 0
 
-#entry 4146
+#entry 4145
 obj84067_materia496.dof-00.joe
 escape.dds.png
 1
@@ -74648,7 +74630,7 @@ escape.dds.png
 0
 0
 
-#entry 4147
+#entry 4146
 obj84068_materia496.dof-00.joe
 escape.dds.png
 1
@@ -74666,7 +74648,7 @@ escape.dds.png
 0
 0
 
-#entry 4148
+#entry 4147
 obj84069_materia496.dof-00.joe
 escape.dds.png
 1
@@ -74684,7 +74666,7 @@ escape.dds.png
 0
 0
 
-#entry 4149
+#entry 4148
 obj84070_materia496.dof-00.joe
 escape.dds.png
 1
@@ -74702,7 +74684,7 @@ escape.dds.png
 0
 0
 
-#entry 4150
+#entry 4149
 obj84071_materia496.dof-00.joe
 escape.dds.png
 1
@@ -74720,7 +74702,7 @@ escape.dds.png
 0
 0
 
-#entry 4151
+#entry 4150
 obj84072_materia496.dof-00.joe
 escape.dds.png
 1
@@ -74738,7 +74720,7 @@ escape.dds.png
 0
 0
 
-#entry 4152
+#entry 4151
 obj84073_roadgravel.dof-00.joe
 escape.dds.png
 1
@@ -74756,7 +74738,7 @@ escape.dds.png
 0
 0
 
-#entry 4153
+#entry 4152
 obj84074_roadgravel.dof-00.joe
 escape.dds.png
 1
@@ -74774,7 +74756,7 @@ escape.dds.png
 0
 0
 
-#entry 4154
+#entry 4153
 obj84075_roadgravel.dof-00.joe
 escape.dds.png
 1
@@ -74792,7 +74774,7 @@ escape.dds.png
 0
 0
 
-#entry 4155
+#entry 4154
 obj84076_material47.dof-00.joe
 183.dds.png
 1
@@ -74810,7 +74792,7 @@ obj84076_material47.dof-00.joe
 0
 0
 
-#entry 4156
+#entry 4155
 obj84077_roadgravel.dof-00.joe
 escape.dds.png
 1
@@ -74828,7 +74810,7 @@ escape.dds.png
 0
 0
 
-#entry 4157
+#entry 4156
 obj84078_roadgravel.dof-00.joe
 escape.dds.png
 1
@@ -74846,7 +74828,7 @@ escape.dds.png
 0
 0
 
-#entry 4158
+#entry 4157
 obj84079_roadgravel.dof-00.joe
 escape.dds.png
 1
@@ -74864,7 +74846,7 @@ escape.dds.png
 0
 0
 
-#entry 4159
+#entry 4158
 obj84080_roadgravel.dof-00.joe
 escape.dds.png
 1
@@ -74882,7 +74864,7 @@ escape.dds.png
 0
 0
 
-#entry 4160
+#entry 4159
 obj84081_roadgravel.dof-00.joe
 escape.dds.png
 1
@@ -74900,7 +74882,7 @@ escape.dds.png
 0
 0
 
-#entry 4161
+#entry 4160
 obj84082_roadgravel.dof-00.joe
 escape.dds.png
 1
@@ -74918,7 +74900,7 @@ escape.dds.png
 0
 0
 
-#entry 4162
+#entry 4161
 obj84083_roadgravel.dof-00.joe
 escape.dds.png
 1
@@ -74936,7 +74918,7 @@ escape.dds.png
 0
 0
 
-#entry 4163
+#entry 4162
 obj84084_roadgravel.dof-00.joe
 escape.dds.png
 1
@@ -74954,7 +74936,7 @@ escape.dds.png
 0
 0
 
-#entry 4164
+#entry 4163
 obj84085_roadgravel.dof-00.joe
 escape.dds.png
 1
@@ -74972,7 +74954,7 @@ escape.dds.png
 0
 0
 
-#entry 4165
+#entry 4164
 obj84086_roadgravel.dof-00.joe
 escape.dds.png
 1
@@ -74990,7 +74972,7 @@ escape.dds.png
 0
 0
 
-#entry 4166
+#entry 4165
 obj84087_material47.dof-00.joe
 183.dds.png
 1
@@ -75008,7 +74990,7 @@ obj84087_material47.dof-00.joe
 0
 0
 
-#entry 4167
+#entry 4166
 obj84088_roadgravel.dof-00.joe
 escape.dds.png
 1
@@ -75026,7 +75008,7 @@ escape.dds.png
 0
 0
 
-#entry 4168
+#entry 4167
 obj84089_roadgravel.dof-00.joe
 escape.dds.png
 1
@@ -75044,7 +75026,7 @@ escape.dds.png
 0
 0
 
-#entry 4169
+#entry 4168
 obj84090_roadgravel.dof-00.joe
 escape.dds.png
 1
@@ -75062,7 +75044,7 @@ escape.dds.png
 0
 0
 
-#entry 4170
+#entry 4169
 obj84091_roadgravel.dof-00.joe
 escape.dds.png
 1
@@ -75080,7 +75062,7 @@ escape.dds.png
 0
 0
 
-#entry 4171
+#entry 4170
 obj84092_roadgravel.dof-00.joe
 escape.dds.png
 1
@@ -75098,7 +75080,7 @@ escape.dds.png
 0
 0
 
-#entry 4172
+#entry 4171
 obj84093_roadgravel.dof-00.joe
 escape.dds.png
 1
@@ -75116,7 +75098,7 @@ escape.dds.png
 0
 0
 
-#entry 4173
+#entry 4172
 obj84094_roadgravel.dof-00.joe
 escape.dds.png
 1
@@ -75134,7 +75116,7 @@ escape.dds.png
 0
 0
 
-#entry 4174
+#entry 4173
 obj84095_roadgravel.dof-00.joe
 escape.dds.png
 1
@@ -75152,7 +75134,7 @@ escape.dds.png
 0
 0
 
-#entry 4175
+#entry 4174
 obj84096_roadgravel.dof-00.joe
 escape.dds.png
 1
@@ -75170,7 +75152,7 @@ escape.dds.png
 0
 0
 
-#entry 4176
+#entry 4175
 obj84097_roadgravel.dof-00.joe
 escape.dds.png
 1
@@ -75188,7 +75170,7 @@ escape.dds.png
 0
 0
 
-#entry 4177
+#entry 4176
 obj84098_material47.dof-00.joe
 183.dds.png
 1
@@ -75206,7 +75188,7 @@ obj84098_material47.dof-00.joe
 0
 0
 
-#entry 4178
+#entry 4177
 obj84099_roadgravel.dof-00.joe
 escape.dds.png
 1
@@ -75224,7 +75206,7 @@ escape.dds.png
 0
 0
 
-#entry 4179
+#entry 4178
 obj84100_roadgravel.dof-00.joe
 escape.dds.png
 1
@@ -75242,7 +75224,7 @@ escape.dds.png
 0
 0
 
-#entry 4180
+#entry 4179
 obj84101_materia498.dof-00.joe
 405.dds.png
 1
@@ -75260,7 +75242,7 @@ obj84101_materia498.dof-00.joe
 0
 0
 
-#entry 4181
+#entry 4180
 obj84102_materia498.dof-00.joe
 405.dds.png
 1
@@ -75278,7 +75260,7 @@ obj84102_materia498.dof-00.joe
 0
 0
 
-#entry 4182
+#entry 4181
 obj84103_materia498.dof-00.joe
 405.dds.png
 1
@@ -75296,7 +75278,7 @@ obj84103_materia498.dof-00.joe
 0
 0
 
-#entry 4183
+#entry 4182
 obj84104_materia499.dof-00.joe
 406.dds.png
 1
@@ -75314,7 +75296,7 @@ obj84104_materia499.dof-00.joe
 0
 0
 
-#entry 4184
+#entry 4183
 obj84105_materia499.dof-00.joe
 406.dds.png
 1
@@ -75332,7 +75314,7 @@ obj84105_materia499.dof-00.joe
 0
 0
 
-#entry 4185
+#entry 4184
 obj84106_materia499.dof-00.joe
 406.dds.png
 1
@@ -75350,7 +75332,7 @@ obj84106_materia499.dof-00.joe
 0
 0
 
-#entry 4186
+#entry 4185
 obj84107_grassside.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75368,7 +75350,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4187
+#entry 4186
 obj84108_grassside.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75386,7 +75368,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4188
+#entry 4187
 obj84109_grassside.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75404,7 +75386,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4189
+#entry 4188
 obj84110_grassside.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75422,7 +75404,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4190
+#entry 4189
 obj84111_grassside.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75440,7 +75422,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4191
+#entry 4190
 obj84112_grassside.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75458,7 +75440,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4192
+#entry 4191
 obj84113_grassside.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75476,7 +75458,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4193
+#entry 4192
 obj84114_material17.dof-00.joe
 128.dds.png
 0
@@ -75494,7 +75476,7 @@ obj84114_material17.dof-00.joe
 0
 1
 
-#entry 4194
+#entry 4193
 obj84115_grassside.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75512,7 +75494,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4195
+#entry 4194
 obj84116_grassside.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75530,7 +75512,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4196
+#entry 4195
 obj84117_grassside.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75548,7 +75530,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4197
+#entry 4196
 obj84118_grassside.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75566,7 +75548,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4198
+#entry 4197
 obj84119_grassside.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75584,7 +75566,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4199
+#entry 4198
 obj84120_grassside.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75602,7 +75584,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4200
+#entry 4199
 obj84121_grassside.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75620,7 +75602,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4201
+#entry 4200
 obj84122_grassside.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75638,7 +75620,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4202
+#entry 4201
 obj84123_grassside.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75656,7 +75638,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4203
+#entry 4202
 obj84124_grassside.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75674,7 +75656,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4204
+#entry 4203
 obj84125_grassside.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75692,7 +75674,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4205
+#entry 4204
 obj84126_grassborda4.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75710,7 +75692,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4206
+#entry 4205
 obj84127_grassborda4.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75728,7 +75710,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4207
+#entry 4206
 obj84128_grassborda4.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75746,7 +75728,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4208
+#entry 4207
 obj84129_grassborda4.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75764,7 +75746,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4209
+#entry 4208
 obj84130_grassborda4.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75782,7 +75764,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4210
+#entry 4209
 obj84131_grassborda4.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75800,7 +75782,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4211
+#entry 4210
 obj84132_grassborda4.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75818,7 +75800,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4212
+#entry 4211
 obj84133_grassborda4.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75836,7 +75818,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4213
+#entry 4212
 obj84134_grassborda4.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75854,7 +75836,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4214
+#entry 4213
 obj84135_grassborda4.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75872,7 +75854,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4215
+#entry 4214
 obj84136_grassborda4.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75890,7 +75872,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4216
+#entry 4215
 obj84137_grassborda4.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75908,7 +75890,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4217
+#entry 4216
 obj84138_grassborda4.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75926,7 +75908,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4218
+#entry 4217
 obj84139_grassborda4.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75944,7 +75926,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4219
+#entry 4218
 obj84140_material49.dof-00.joe
 185.dds.png
 1
@@ -75962,7 +75944,7 @@ obj84140_material49.dof-00.joe
 0
 0
 
-#entry 4220
+#entry 4219
 obj84141_grassborda4.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75980,7 +75962,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4221
+#entry 4220
 obj84142_grassborda4.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -75998,7 +75980,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4222
+#entry 4221
 obj84143_grassborda4.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -76016,7 +75998,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4223
+#entry 4222
 obj84144_grassborda4.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -76034,7 +76016,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4224
+#entry 4223
 obj84145_grassborda4.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -76052,7 +76034,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4225
+#entry 4224
 obj84146_grassborda4.dof-00.joe
 grassmelhor2.dds.png
 1
@@ -76070,7 +76052,7 @@ grassmelhor2.dds.png
 0
 0
 
-#entry 4226
+#entry 4225
 obj84147_materia502.dof-00.joe
 409.dds.png
 1
@@ -76088,7 +76070,7 @@ obj84147_materia502.dof-00.joe
 0
 0
 
-#entry 4227
+#entry 4226
 obj84148_materia502.dof-00.joe
 409.dds.png
 1
@@ -76106,7 +76088,7 @@ obj84148_materia502.dof-00.joe
 0
 0
 
-#entry 4228
+#entry 4227
 obj84149_materia502.dof-00.joe
 409.dds.png
 1
@@ -76124,7 +76106,7 @@ obj84149_materia502.dof-00.joe
 0
 0
 
-#entry 4229
+#entry 4228
 obj84150_materia503.dof-00.joe
 410.dds.png
 1
@@ -76142,7 +76124,7 @@ obj84150_materia503.dof-00.joe
 0
 0
 
-#entry 4230
+#entry 4229
 obj84151_material49.dof-00.joe
 185.dds.png
 1
@@ -76160,7 +76142,7 @@ obj84151_material49.dof-00.joe
 0
 0
 
-#entry 4231
+#entry 4230
 obj84152_materia503.dof-00.joe
 410.dds.png
 1
@@ -76178,7 +76160,7 @@ obj84152_materia503.dof-00.joe
 0
 0
 
-#entry 4232
+#entry 4231
 obj84153_materia503.dof-00.joe
 410.dds.png
 1
@@ -76196,7 +76178,7 @@ obj84153_materia503.dof-00.joe
 0
 0
 
-#entry 4233
+#entry 4232
 obj84154_grassside5.dof-00.joe
 grassmelhor.dds.png
 1
@@ -76214,7 +76196,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 4234
+#entry 4233
 obj84155_grassside5.dof-00.joe
 grassmelhor.dds.png
 1
@@ -76232,7 +76214,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 4235
+#entry 4234
 obj84156_grassside5.dof-00.joe
 grassmelhor.dds.png
 1
@@ -76250,7 +76232,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 4236
+#entry 4235
 obj84157_grassside5.dof-00.joe
 grassmelhor.dds.png
 1
@@ -76268,7 +76250,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 4237
+#entry 4236
 obj84158_grassside5.dof-00.joe
 grassmelhor.dds.png
 1
@@ -76286,7 +76268,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 4238
+#entry 4237
 obj84159_grassside5.dof-00.joe
 grassmelhor.dds.png
 1
@@ -76304,7 +76286,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 4239
+#entry 4238
 obj84160_grassside5.dof-00.joe
 grassmelhor.dds.png
 1
@@ -76322,7 +76304,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 4240
+#entry 4239
 obj84161_grassside5.dof-00.joe
 grassmelhor.dds.png
 1
@@ -76340,7 +76322,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 4241
+#entry 4240
 obj84162_material49.dof-00.joe
 185.dds.png
 1
@@ -76358,7 +76340,7 @@ obj84162_material49.dof-00.joe
 0
 0
 
-#entry 4242
+#entry 4241
 obj84163_grassside5.dof-00.joe
 grassmelhor.dds.png
 1
@@ -76376,7 +76358,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 4243
+#entry 4242
 obj84164_grassside5.dof-00.joe
 grassmelhor.dds.png
 1
@@ -76394,7 +76376,7 @@ grassmelhor.dds.png
 0
 0
 
-#entry 4244
+#entry 4243
 obj84165_materia505.dof-00.joe
 escape.dds.png
 1
@@ -76412,7 +76394,7 @@ escape.dds.png
 0
 0
 
-#entry 4245
+#entry 4244
 obj84166_graside.dof-00.joe
 grasside.dds.png
 1
@@ -76430,7 +76412,7 @@ grasside.dds.png
 0
 0
 
-#entry 4246
+#entry 4245
 obj84167_graside.dof-00.joe
 grasside.dds.png
 1
@@ -76448,7 +76430,7 @@ grasside.dds.png
 0
 0
 
-#entry 4247
+#entry 4246
 obj84168_graside.dof-00.joe
 grasside.dds.png
 1
@@ -76466,7 +76448,7 @@ grasside.dds.png
 0
 0
 
-#entry 4248
+#entry 4247
 obj84169_graside.dof-00.joe
 grasside.dds.png
 1
@@ -76484,7 +76466,7 @@ grasside.dds.png
 0
 0
 
-#entry 4249
+#entry 4248
 obj84170_materia507.dof-00.joe
 escape.dds.png
 1
@@ -76502,7 +76484,7 @@ escape.dds.png
 0
 0
 
-#entry 4250
+#entry 4249
 obj84171_material49.dof-00.joe
 185.dds.png
 1
@@ -76520,7 +76502,7 @@ obj84171_material49.dof-00.joe
 0
 0
 
-#entry 4251
+#entry 4250
 obj84172_material49.dof-00.joe
 185.dds.png
 1
@@ -76538,7 +76520,7 @@ obj84172_material49.dof-00.joe
 0
 0
 
-#entry 4252
+#entry 4251
 obj84173_material49.dof-00.joe
 185.dds.png
 1
@@ -76556,7 +76538,7 @@ obj84173_material49.dof-00.joe
 0
 0
 
-#entry 4253
+#entry 4252
 obj94174_material17.dof-00.joe
 128.dds.png
 0
@@ -76574,7 +76556,7 @@ obj94174_material17.dof-00.joe
 0
 1
 
-#entry 4254
+#entry 4253
 obj94175_material4.dof-00.joe
 031.dds.png
 0
@@ -76592,7 +76574,7 @@ obj94175_material4.dof-00.joe
 0
 0
 
-#entry 4255
+#entry 4254
 obj94176_material50.dof-00.joe
 186.dds.png
 1
@@ -76610,7 +76592,7 @@ obj94176_material50.dof-00.joe
 0
 0
 
-#entry 4256
+#entry 4255
 obj94177_material51.dof-00.joe
 187.dds.png
 1
@@ -76628,7 +76610,7 @@ obj94177_material51.dof-00.joe
 0
 0
 
-#entry 4257
+#entry 4256
 obj94178_material51.dof-00.joe
 187.dds.png
 1
@@ -76646,7 +76628,7 @@ obj94178_material51.dof-00.joe
 0
 0
 
-#entry 4258
+#entry 4257
 obj94179_material51.dof-00.joe
 187.dds.png
 1
@@ -76664,7 +76646,7 @@ obj94179_material51.dof-00.joe
 0
 0
 
-#entry 4259
+#entry 4258
 obj94180_material17.dof-00.joe
 128.dds.png
 0
@@ -76682,7 +76664,7 @@ obj94180_material17.dof-00.joe
 0
 1
 
-#entry 4260
+#entry 4259
 obj94181_material51.dof-00.joe
 187.dds.png
 1
@@ -76700,7 +76682,7 @@ obj94181_material51.dof-00.joe
 0
 0
 
-#entry 4261
+#entry 4260
 obj94182_material51.dof-00.joe
 187.dds.png
 1
@@ -76718,7 +76700,7 @@ obj94182_material51.dof-00.joe
 0
 0
 
-#entry 4262
+#entry 4261
 obj94183_material51.dof-00.joe
 187.dds.png
 1
@@ -76736,7 +76718,7 @@ obj94183_material51.dof-00.joe
 0
 0
 
-#entry 4263
+#entry 4262
 obj94184_material51.dof-00.joe
 187.dds.png
 1
@@ -76754,7 +76736,7 @@ obj94184_material51.dof-00.joe
 0
 0
 
-#entry 4264
+#entry 4263
 obj94185_material52.dof-00.joe
 188.dds.png
 1
@@ -76772,7 +76754,7 @@ obj94185_material52.dof-00.joe
 0
 0
 
-#entry 4265
+#entry 4264
 obj94186_material52.dof-00.joe
 188.dds.png
 1
@@ -76790,7 +76772,7 @@ obj94186_material52.dof-00.joe
 0
 0
 
-#entry 4266
+#entry 4265
 obj94187_material52.dof-00.joe
 188.dds.png
 1
@@ -76808,7 +76790,7 @@ obj94187_material52.dof-00.joe
 0
 0
 
-#entry 4267
+#entry 4266
 obj94188_material52.dof-00.joe
 188.dds.png
 1
@@ -76826,7 +76808,7 @@ obj94188_material52.dof-00.joe
 0
 0
 
-#entry 4268
+#entry 4267
 obj94189_material52.dof-00.joe
 188.dds.png
 1
@@ -76844,7 +76826,7 @@ obj94189_material52.dof-00.joe
 0
 0
 
-#entry 4269
+#entry 4268
 obj94190_material17.dof-00.joe
 128.dds.png
 0
@@ -76862,7 +76844,7 @@ obj94190_material17.dof-00.joe
 0
 1
 
-#entry 4270
+#entry 4269
 obj94191_material52.dof-00.joe
 188.dds.png
 1
@@ -76880,7 +76862,7 @@ obj94191_material52.dof-00.joe
 0
 0
 
-#entry 4271
+#entry 4270
 obj94192_material52.dof-00.joe
 188.dds.png
 1
@@ -76898,7 +76880,7 @@ obj94192_material52.dof-00.joe
 0
 0
 
-#entry 4272
+#entry 4271
 obj94193_material53.dof-00.joe
 196.dds.png
 1
@@ -76916,7 +76898,7 @@ obj94193_material53.dof-00.joe
 0
 0
 
-#entry 4273
+#entry 4272
 obj94194_material53.dof-00.joe
 196.dds.png
 1
@@ -76934,7 +76916,7 @@ obj94194_material53.dof-00.joe
 0
 0
 
-#entry 4274
+#entry 4273
 obj94195_material53.dof-00.joe
 196.dds.png
 1
@@ -76952,7 +76934,7 @@ obj94195_material53.dof-00.joe
 0
 0
 
-#entry 4275
+#entry 4274
 obj94196_material53.dof-00.joe
 196.dds.png
 1
@@ -76970,7 +76952,7 @@ obj94196_material53.dof-00.joe
 0
 0
 
-#entry 4276
+#entry 4275
 obj94197_material53a.dof-00.joe
 196a.dds.png
 1
@@ -76988,7 +76970,7 @@ obj94197_material53a.dof-00.joe
 0
 0
 
-#entry 4277
+#entry 4276
 obj94198_material53.dof-00.joe
 196.dds.png
 1
@@ -77006,7 +76988,7 @@ obj94198_material53.dof-00.joe
 0
 0
 
-#entry 4278
+#entry 4277
 obj94199_material53.dof-00.joe
 196.dds.png
 1
@@ -77024,7 +77006,7 @@ obj94199_material53.dof-00.joe
 0
 0
 
-#entry 4279
+#entry 4278
 obj94200_material17.dof-00.joe
 128.dds.png
 0
@@ -77042,7 +77024,7 @@ obj94200_material17.dof-00.joe
 0
 1
 
-#entry 4280
+#entry 4279
 obj94201_material53.dof-00.joe
 196.dds.png
 1
@@ -77060,7 +77042,7 @@ obj94201_material53.dof-00.joe
 0
 0
 
-#entry 4281
+#entry 4280
 obj94202_material53.dof-00.joe
 196.dds.png
 1
@@ -77078,7 +77060,7 @@ obj94202_material53.dof-00.joe
 0
 0
 
-#entry 4282
+#entry 4281
 obj94203_material53.dof-00.joe
 196.dds.png
 1
@@ -77096,7 +77078,7 @@ obj94203_material53.dof-00.joe
 0
 0
 
-#entry 4283
+#entry 4282
 obj94204_material53.dof-00.joe
 196.dds.png
 1
@@ -77114,7 +77096,7 @@ obj94204_material53.dof-00.joe
 0
 0
 
-#entry 4284
+#entry 4283
 obj94205_material53.dof-00.joe
 196.dds.png
 1
@@ -77132,7 +77114,7 @@ obj94205_material53.dof-00.joe
 0
 0
 
-#entry 4285
+#entry 4284
 obj94206_material53.dof-00.joe
 196.dds.png
 1
@@ -77150,7 +77132,7 @@ obj94206_material53.dof-00.joe
 0
 0
 
-#entry 4286
+#entry 4285
 obj94207_material53.dof-00.joe
 196.dds.png
 1
@@ -77168,7 +77150,7 @@ obj94207_material53.dof-00.joe
 0
 0
 
-#entry 4287
+#entry 4286
 obj94208_material53.dof-00.joe
 196.dds.png
 1
@@ -77186,7 +77168,7 @@ obj94208_material53.dof-00.joe
 0
 0
 
-#entry 4288
+#entry 4287
 obj94209_material53.dof-00.joe
 196.dds.png
 1
@@ -77204,7 +77186,7 @@ obj94209_material53.dof-00.joe
 0
 0
 
-#entry 4289
+#entry 4288
 obj94210_material53.dof-00.joe
 196.dds.png
 1
@@ -77222,7 +77204,7 @@ obj94210_material53.dof-00.joe
 0
 0
 
-#entry 4290
+#entry 4289
 obj94211_material17.dof-00.joe
 128.dds.png
 0
@@ -77240,7 +77222,7 @@ obj94211_material17.dof-00.joe
 0
 1
 
-#entry 4291
+#entry 4290
 obj94212_material53.dof-00.joe
 196.dds.png
 1
@@ -77258,7 +77240,7 @@ obj94212_material53.dof-00.joe
 0
 0
 
-#entry 4292
+#entry 4291
 obj94213_material53.dof-00.joe
 196.dds.png
 1
@@ -77276,7 +77258,7 @@ obj94213_material53.dof-00.joe
 0
 0
 
-#entry 4293
+#entry 4292
 obj94214_material53.dof-00.joe
 196.dds.png
 1
@@ -77294,7 +77276,7 @@ obj94214_material53.dof-00.joe
 0
 0
 
-#entry 4294
+#entry 4293
 obj94215_material53.dof-00.joe
 196.dds.png
 1
@@ -77312,7 +77294,7 @@ obj94215_material53.dof-00.joe
 0
 0
 
-#entry 4295
+#entry 4294
 obj94216_material53.dof-00.joe
 196.dds.png
 1
@@ -77330,7 +77312,7 @@ obj94216_material53.dof-00.joe
 0
 0
 
-#entry 4296
+#entry 4295
 obj94217_material53.dof-00.joe
 196.dds.png
 1
@@ -77348,7 +77330,7 @@ obj94217_material53.dof-00.joe
 0
 0
 
-#entry 4297
+#entry 4296
 obj94218_material53.dof-00.joe
 196.dds.png
 1
@@ -77366,7 +77348,7 @@ obj94218_material53.dof-00.joe
 0
 0
 
-#entry 4298
+#entry 4297
 obj94219_material53.dof-00.joe
 196.dds.png
 1
@@ -77384,7 +77366,7 @@ obj94219_material53.dof-00.joe
 0
 0
 
-#entry 4299
+#entry 4298
 obj94220_material53.dof-00.joe
 196.dds.png
 1
@@ -77402,7 +77384,7 @@ obj94220_material53.dof-00.joe
 0
 0
 
-#entry 4300
+#entry 4299
 obj94221_material53.dof-00.joe
 196.dds.png
 1
@@ -77420,7 +77402,7 @@ obj94221_material53.dof-00.joe
 0
 0
 
-#entry 4301
+#entry 4300
 obj94222_material17.dof-00.joe
 128.dds.png
 0
@@ -77438,7 +77420,7 @@ obj94222_material17.dof-00.joe
 0
 1
 
-#entry 4302
+#entry 4301
 obj94223_material53.dof-00.joe
 196.dds.png
 1
@@ -77456,7 +77438,7 @@ obj94223_material53.dof-00.joe
 0
 0
 
-#entry 4303
+#entry 4302
 obj94224_material53.dof-00.joe
 196.dds.png
 1
@@ -77474,7 +77456,7 @@ obj94224_material53.dof-00.joe
 0
 0
 
-#entry 4304
+#entry 4303
 obj94225_material53.dof-00.joe
 196.dds.png
 1
@@ -77492,7 +77474,7 @@ obj94225_material53.dof-00.joe
 0
 0
 
-#entry 4305
+#entry 4304
 obj94226_material53.dof-00.joe
 196.dds.png
 1
@@ -77510,7 +77492,7 @@ obj94226_material53.dof-00.joe
 0
 0
 
-#entry 4306
+#entry 4305
 pitg4227_material53ba.dof-00.joe
 201.dds.png
 1
@@ -77528,7 +77510,7 @@ pitg4227_material53ba.dof-00.joe
 0
 0
 
-#entry 4307
+#entry 4306
 pitg4228_gpitglowa.dof-00.joe
 grnglow.dds.png
 1
@@ -77546,7 +77528,7 @@ grnglow.dds.png
 0
 0
 
-#entry 4308
+#entry 4307
 pitg4228_rdpitglowa.dof-00.joe
 rdglow.dds.png
 1
@@ -77564,7 +77546,7 @@ rdglow.dds.png
 0
 0
 
-#entry 4309
+#entry 4308
 pitl4229_gpitglowa.dof-00.joe
 grnglow.dds.png
 1
@@ -77582,7 +77564,7 @@ grnglow.dds.png
 0
 0
 
-#entry 4310
+#entry 4309
 pitl4229_rdpitglowa.dof-00.joe
 rdglow.dds.png
 1
@@ -77600,7 +77582,7 @@ rdglow.dds.png
 0
 0
 
-#entry 4311
+#entry 4310
 pitl4229_ylopitglowa.dof-00.joe
 yloglow.dds.png
 1
@@ -77618,7 +77600,7 @@ yloglow.dds.png
 0
 0
 
-#entry 4312
+#entry 4311
 pitl4230_grpitlta.dof-00.joe
 grlt.dds.png
 1
@@ -77636,7 +77618,7 @@ grlt.dds.png
 0
 0
 
-#entry 4313
+#entry 4312
 pitl4230_gurdrc.dof-00.joe
 gurdrc.dds.png
 1
@@ -77654,7 +77636,7 @@ gurdrc.dds.png
 0
 0
 
-#entry 4314
+#entry 4313
 pitl4230_gurdrcrssa.dof-00.joe
 gurdrcrssa.dds.png
 1
@@ -77672,7 +77654,7 @@ gurdrcrssa.dds.png
 0
 0
 
-#entry 4315
+#entry 4314
 pitl4230_lighta.dof-00.joe
 lighta.dds.png
 1
@@ -77690,7 +77672,7 @@ lighta.dds.png
 0
 0
 
-#entry 4316
+#entry 4315
 pitl4230_rdpitlta.dof-00.joe
 rdlt.dds.png
 1
@@ -77708,7 +77690,7 @@ rdlt.dds.png
 0
 0
 
-#entry 4317
+#entry 4316
 plac4231_grpitlta.dof-00.joe
 grlt.dds.png
 1
@@ -77726,7 +77708,7 @@ grlt.dds.png
 0
 0
 
-#entry 4318
+#entry 4317
 plac4231_gurdrc.dof-00.joe
 gurdrc.dds.png
 1
@@ -77744,7 +77726,7 @@ gurdrc.dds.png
 0
 0
 
-#entry 4319
+#entry 4318
 plac4231_gurdrcrssa.dof-00.joe
 gurdrcrssa.dds.png
 1
@@ -77762,7 +77744,7 @@ gurdrcrssa.dds.png
 0
 0
 
-#entry 4320
+#entry 4319
 plac4231_lighta.dof-00.joe
 lighta.dds.png
 1
@@ -77780,7 +77762,7 @@ lighta.dds.png
 0
 0
 
-#entry 4321
+#entry 4320
 plac4231_rdpitlta.dof-00.joe
 rdlt.dds.png
 1
@@ -77798,7 +77780,7 @@ rdlt.dds.png
 0
 0
 
-#entry 4322
+#entry 4321
 plac4231_ylopitlta.dof-00.joe
 ylolt.dds.png
 1
@@ -77816,7 +77798,7 @@ ylolt.dds.png
 0
 0
 
-#entry 4323
+#entry 4322
 plac4232_materiaplaca.dof-00.joe
 018.dds.png
 1
@@ -77834,7 +77816,7 @@ plac4232_materiaplaca.dof-00.joe
 0
 0
 
-#entry 4324
+#entry 4323
 pont4233_materiaplaca.dof-00.joe
 018.dds.png
 1
@@ -77852,7 +77834,7 @@ pont4233_materiaplaca.dof-00.joe
 0
 0
 
-#entry 4325
+#entry 4324
 post4234_materia293.dof-00.joe
 013.dds.png
 1
@@ -77870,7 +77852,7 @@ post4234_materia293.dof-00.joe
 0
 0
 
-#entry 4326
+#entry 4325
 post4234_materia299.dof-00.joe
 019m.dds.png
 1
@@ -77888,7 +77870,7 @@ post4234_materia299.dof-00.joe
 0
 0
 
-#entry 4327
+#entry 4326
 post4234_materia299a.dof-00.joe
 019b.dds.png
 1
@@ -77906,7 +77888,7 @@ post4234_materia299a.dof-00.joe
 0
 0
 
-#entry 4328
+#entry 4327
 post4234_materia309a.dof-00.joe
 019b.dds.png
 1
@@ -77924,7 +77906,7 @@ post4234_materia309a.dof-00.joe
 0
 0
 
-#entry 4329
+#entry 4328
 road4235_materia326.dof-00.joe
 057.dds.png
 1
@@ -77942,7 +77924,7 @@ road4235_materia326.dof-00.joe
 0
 0
 
-#entry 4330
+#entry 4329
 road4235_materia327.dof-00.joe
 058.dds.png
 1
@@ -77960,7 +77942,7 @@ road4235_materia327.dof-00.joe
 0
 0
 
-#entry 4331
+#entry 4330
 road4235_materia328.dof-00.joe
 059.dds.png
 1
@@ -77978,7 +77960,7 @@ road4235_materia328.dof-00.joe
 0
 0
 
-#entry 4332
+#entry 4331
 road4235_materia329.dof-00.joe
 060.dds.png
 1
@@ -77996,7 +77978,7 @@ road4235_materia329.dof-00.joe
 0
 0
 
-#entry 4333
+#entry 4332
 road4235_materia330.dof-00.joe
 061.dds.png
 1
@@ -78014,7 +77996,7 @@ road4235_materia330.dof-00.joe
 0
 0
 
-#entry 4334
+#entry 4333
 road4235_materia331.dof-00.joe
 062.dds.png
 1
@@ -78032,7 +78014,7 @@ road4235_materia331.dof-00.joe
 0
 0
 
-#entry 4335
+#entry 4334
 sign4236_roadtime2.dof-00.joe
 rroadtclaro.dds.png
 1
@@ -78050,7 +78032,7 @@ rroadtclaro.dds.png
 0
 0
 
-#entry 4336
+#entry 4335
 sign4237_sign100rt.dof-00.joe
 sign100rt.dds.png
 1
@@ -78068,7 +78050,7 @@ sign100rt.dds.png
 0
 0
 
-#entry 4337
+#entry 4336
 sign4237_signg.dof-00.joe
 signg.dds.png
 1
@@ -78086,7 +78068,7 @@ signg.dds.png
 0
 0
 
-#entry 4338
+#entry 4337
 sky4238_sign50rt.dof-00.joe
 sign50rt.dds.png
 1
@@ -78104,7 +78086,7 @@ sign50rt.dds.png
 0
 0
 
-#entry 4339
+#entry 4338
 sky4238_signg.dof-00.joe
 signg.dds.png
 1
@@ -78122,7 +78104,7 @@ signg.dds.png
 0
 0
 
-#entry 4340
+#entry 4339
 skyb4239_sky.dof-00.joe
 sky.tga.png
 1
@@ -78140,7 +78122,7 @@ sky.tga.png
 0
 0
 
-#entry 4341
+#entry 4340
 star4240_bka.dof-00.joe
 bka.dds.png
 1
@@ -78158,7 +78140,7 @@ bka.dds.png
 0
 0
 
-#entry 4342
+#entry 4341
 star4241_grltglowa.dof-00.joe
 grnglow.dds.png
 1
@@ -78176,7 +78158,7 @@ grnglow.dds.png
 0
 0
 
-#entry 4343
+#entry 4342
 star4241_rdltglowa.dof-00.joe
 rdglow.dds.png
 1
@@ -78194,7 +78176,7 @@ rdglow.dds.png
 0
 0
 
-#entry 4344
+#entry 4343
 star4241_rdltglowb.dof-00.joe
 rdglow.dds.png
 1
@@ -78212,7 +78194,7 @@ rdglow.dds.png
 0
 0
 
-#entry 4345
+#entry 4344
 star4241_rdltglowc.dof-00.joe
 rdglow.dds.png
 1
@@ -78230,7 +78212,7 @@ rdglow.dds.png
 0
 0
 
-#entry 4346
+#entry 4345
 star4241_rdltglowd.dof-00.joe
 rdglow.dds.png
 1
@@ -78248,7 +78230,7 @@ rdglow.dds.png
 0
 0
 
-#entry 4347
+#entry 4346
 stgr4242_grlta.dof-00.joe
 grlt.dds.png
 1
@@ -78266,7 +78248,7 @@ grlt.dds.png
 0
 0
 
-#entry 4348
+#entry 4347
 stgr4242_gurdrc.dof-00.joe
 gurdrc.dds.png
 1
@@ -78284,7 +78266,7 @@ gurdrc.dds.png
 0
 0
 
-#entry 4349
+#entry 4348
 stgr4242_lighta.dof-00.joe
 lighta.dds.png
 1
@@ -78302,7 +78284,7 @@ lighta.dds.png
 0
 0
 
-#entry 4350
+#entry 4349
 stgr4242_rdlta.dof-00.joe
 rdlt.dds.png
 1
@@ -78320,7 +78302,7 @@ rdlt.dds.png
 0
 0
 
-#entry 4351
+#entry 4350
 stgr4242_rdltb.dof-00.joe
 rdlt.dds.png
 1
@@ -78338,7 +78320,7 @@ rdlt.dds.png
 0
 0
 
-#entry 4352
+#entry 4351
 stgr4242_rdltc.dof-00.joe
 rdlt.dds.png
 1
@@ -78356,7 +78338,7 @@ rdlt.dds.png
 0
 0
 
-#entry 4353
+#entry 4352
 stgr4242_rdltd.dof-00.joe
 rdlt.dds.png
 1
@@ -78374,7 +78356,7 @@ rdlt.dds.png
 0
 0
 
-#entry 4354
+#entry 4353
 stgr4243_grid.dof-00.joe
 grid.dds.png
 0
@@ -78392,7 +78374,7 @@ grid.dds.png
 0
 0
 
-#entry 4355
+#entry 4354
 stgr4244_grid.dof-00.joe
 grid.dds.png
 0
@@ -78410,7 +78392,7 @@ grid.dds.png
 0
 0
 
-#entry 4356
+#entry 4355
 stgr4245_grid.dof-00.joe
 grid.dds.png
 0
@@ -78428,7 +78410,7 @@ grid.dds.png
 0
 0
 
-#entry 4357
+#entry 4356
 stgr4246_grid.dof-00.joe
 grid.dds.png
 0
@@ -78446,7 +78428,7 @@ grid.dds.png
 0
 0
 
-#entry 4358
+#entry 4357
 stgr4247_grid.dof-00.joe
 grid.dds.png
 0
@@ -78464,7 +78446,7 @@ grid.dds.png
 0
 0
 
-#entry 4359
+#entry 4358
 stgr4248_grid.dof-00.joe
 grid.dds.png
 0
@@ -78482,7 +78464,7 @@ grid.dds.png
 0
 0
 
-#entry 4360
+#entry 4359
 stgr4249_grid.dof-00.joe
 grid.dds.png
 0
@@ -78500,7 +78482,7 @@ grid.dds.png
 0
 0
 
-#entry 4361
+#entry 4360
 supo4250_grid.dof-00.joe
 grid.dds.png
 0
@@ -78518,7 +78500,7 @@ grid.dds.png
 0
 0
 
-#entry 4362
+#entry 4361
 tela4251_rmbld.dof-00.joe
 rmbld.dds.png
 1
@@ -78536,7 +78518,7 @@ rmbld.dds.png
 0
 0
 
-#entry 4363
+#entry 4362
 time4252_materia378.dof-00.joe
 116.dds.png
 0
@@ -78554,7 +78536,7 @@ time4252_materia378.dof-00.joe
 0
 0
 
-#entry 4364
+#entry 4363
 time4252_materia400.dof-00.joe
 152.dds.png
 1
@@ -78572,7 +78554,7 @@ time4252_materia400.dof-00.joe
 0
 0
 
-#entry 4365
+#entry 4364
 time4253_roadlinha.dof-00.joe
 linha.dds.png
 1
@@ -78590,7 +78572,7 @@ linha.dds.png
 0
 0
 
-#entry 4366
+#entry 4365
 torr4254_roadlinha.dof-00.joe
 linha.dds.png
 1
@@ -78608,7 +78590,7 @@ linha.dds.png
 0
 0
 
-#entry 4367
+#entry 4366
 torr4255_scaffold.dof-00.joe
 scaffold.bmp.png
 1
@@ -78626,7 +78608,7 @@ scaffold.bmp.png
 0
 0
 
-#entry 4368
+#entry 4367
 trec4256_scaffold.dof-00.joe
 scaffold.bmp.png
 1
@@ -78644,7 +78626,7 @@ scaffold.bmp.png
 0
 0
 
-#entry 4369
+#entry 4368
 trec4257_road1.dof-00.joe
 rroad.dds.png
 1
@@ -78662,7 +78644,7 @@ rroad.dds.png
 0
 0
 
-#entry 4370
+#entry 4369
 trec4258_roadlat.dof-00.joe
 roadpitesq.dds.png
 1
@@ -78680,7 +78662,7 @@ roadpitesq.dds.png
 0
 0
 
-#entry 4371
+#entry 4370
 tree4259_roadpit.dof-00.joe
 roadpit.dds.png
 1
@@ -78698,7 +78680,7 @@ roadpit.dds.png
 0
 0
 
-#entry 4372
+#entry 4371
 tree4259_tsheet_04_d.dof-00.joe
 tsheet_.dds.png
 1
