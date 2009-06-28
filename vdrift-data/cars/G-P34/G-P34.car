@@ -1,0 +1,371 @@
+drive = RWD
+version = 2
+
+[ steering ]
+max-angle = 36.39
+
+
+# Tyrell P34 Engine
+[ engine ]
+# position = 0.0, -0.70, -0.40  # orig F1
+position = -0.50, 0.0, -0.24
+mass = 95.0
+max-power = 633844
+peak-engine-rpm = 19000.0
+rpm-limit = 19500.0
+inertia = 0.2
+idle = 0.08
+start-rpm = 4000
+#stall-rpm = 1500	# better driveable
+stall-rpm = 3500	# more realistic
+fuel-consumption = 6e-9
+torque-friction = 0.0001
+torque-curve-00 = 1800, 90.00
+torque-curve-01 = 2600, 110.59
+torque-curve-02 = 3300, 135.59
+torque-curve-03 = 3750, 160.21
+torque-curve-04 = 4000, 190.47
+torque-curve-05 = 4250, 202.15
+torque-curve-06 = 4500, 211.56
+torque-curve-07 = 5000, 218.78
+torque-curve-08 = 5500, 225.23
+torque-curve-09 = 6000, 237.37
+torque-curve-10 = 6500, 238.89
+torque-curve-11 = 7000, 242.69
+torque-curve-12 = 7500, 243.43
+torque-curve-13 = 8000, 244.91
+torque-curve-14 = 8500, 246.27
+torque-curve-15 = 9000, 248.95
+torque-curve-16 = 9600, 250.20
+torque-curve-17 = 10000, 259.65
+torque-curve-18 = 10500, 269.78
+torque-curve-19 = 11000, 295.51
+torque-curve-20 = 12000, 320.00
+torque-curve-21 = 13000, 330.00
+torque-curve-22 = 14000, 347.00
+torque-curve-23 = 15000, 330.00
+torque-curve-24 = 16000, 320.00
+torque-curve-25 = 17000, 310.00
+torque-curve-26 = 18000, 300.00
+torque-curve-27 = 19000, 290.00
+torque-curve-28 = 20000, 280.00
+
+
+# Tyrell P34
+[ clutch ]
+sliding = 0.10
+radius = 0.15
+area = 0.90
+max-pressure = 70000.00
+
+
+# Tyrell P34
+[ transmission ]
+gears = 7
+gear-ratio-r = -4.5
+#gear-ratio-1 = 4.8
+gear-ratio-1 = 4.5
+gear-ratio-2 = 3.60
+gear-ratio-3 = 3.00
+gear-ratio-4 = 2.60
+gear-ratio-5 = 2.30
+gear-ratio-6 = 2.05
+gear-ratio-7 = 1.90 
+shift-delay = 0.00
+shift-time = 0.05
+
+[ differential ]
+#final-drive = 4.0	# max ca 320 km/h (final-drive = 4.0)
+#final-drive = 3.8	# max ca 334 km/h (final-drive = 3.8)
+final-drive = 3.7	# max ca 340 km/h (final-drive = 3.7)
+anti-slip = 300.0
+
+
+[ fuel-tank ]
+position = -0.17, -0.26, -0.56
+capacity = 0.0492
+volume = 0.0492
+fuel-density = 730.0
+
+[ suspension-front ]
+spring-constant = 102000
+bounce = 10050
+rebound = 7000
+travel = 0.10
+max-compression-velocity = 10.0
+camber = -1.33
+caster = 0.12
+toe = 0.9
+anti-roll = 11000
+
+[ suspension-rear ]
+spring-constant = 130000
+bounce = 7500
+rebound = 9992.14
+travel = 0.12
+max-compression-velocity = 10.0
+camber = -0.45
+caster = 0.28
+toe = 0.0
+anti-roll = 7000
+
+[ tire-front ]
+radius = 0.325
+rolling-resistance = 1.3e-2, 6.5e-6
+#rotational-inertia = 10.0
+rotational-inertia = 3.0
+tread = 0.0
+# Lateral force
+a0=1.39
+a1=-90
+a2=1900
+a3=2900
+a4=7.2
+a5=0.024
+a6=-0.24
+a7=1.0
+a8=-0.03
+a9=-0.0013
+a10=-0.15
+a111=-8.5
+a112=-0.29
+a12=17.8
+a13=-2.4
+# Longitudinal force
+b0=1.95
+b1=-85
+b2=1950
+b3=24.3
+b4=390
+b5=0.07
+b6=0
+b7=0.059
+b8=-0.024
+b9=0.014
+b10=0.26
+b11=0.0
+b12=0.0
+# Aligning moment
+c0=2.2
+c1=-4.1
+c2=-4.2
+c3=-1.8
+c4=-9.1
+c5=0.0225
+c6=0
+c7=0.044
+c8=-0.58
+c9=0.18
+c10=0.043
+c11=0.048
+c12=-0.0035
+c13=-0.18
+c14=0.14
+c15=-1.029
+c16=0.27
+c17=-1.1
+
+[ tire-rear ]
+radius = 0.340
+rolling-resistance = 1.3e-2, 6.5e-6
+rotational-inertia = 3.3
+tread = 0.0
+# Lateral force
+a0=1.55
+a1=-50
+a2=1750
+a3=2800
+a4=7.0
+a5=0.024
+a6=-0.24
+a7=1.0
+a8=-0.03
+a9=-0.0013
+a10=-0.15
+a111=-8.5
+a112=-0.29
+a12=17.8
+a13=-2.4
+# Longitudinal force
+b0=1.75
+b1=-100
+b2=2200
+b3=23.3
+b4=410
+b5=0.075
+b6=0
+b7=0.055
+b8=-0.024
+b9=0.014
+b10=0.26
+# Aligning moment
+c0=2.2
+c1=-4.3
+c2=-4.4
+c3=-1.9
+c4=-9.6
+c5=0.0225
+c6=0
+c7=0.044
+c8=-0.58
+c9=0.18
+c10=0.043
+c11=0.048
+c12=-0.0035
+c13=-0.18
+c14=0.14
+c15=-1.029
+c16=0.27
+c17=-1.1
+
+[ brakes-front ]
+friction = 1.40
+max-pressure = 2.5e6
+bias = 0.61
+radius = 0.17
+#area = 0.015
+area = 0.020
+
+[ brakes-rear ]
+friction = 1.40
+max-pressure = 2.5e6
+bias = 0.39
+radius = 0.14
+area = 0.015
+handbrake = 1.0
+
+
+[ driver ]
+# position = 0, 0.6, -0.08
+position = 0, 0.6, -0.48
+mass = 90.0
+view-position = 0, 0.6, 0.18
+hood-mounted-view-position = 0, 1.0, 0.2
+
+[ drag ]
+position = 0.0, 0.0, 0.2
+frontal-area = 2
+drag-coefficient = 0.3
+
+[ wing-front ]
+position = 0.0, 1.9, 0.60
+frontal-area = 0.2
+drag-coefficient = 0.0
+#surface-area = 0.3
+surface-area = 1.5
+lift-coefficient = -1.1   # -0.9
+#lift-coefficient = -2.0
+efficiency = 0.99
+
+[ wing-rear ]
+position = 0.0, -1.80, 0.37
+frontal-area = 0.05
+drag-coefficient = 0.0
+#surface-area = 0.5
+surface-area = 1.9
+lift-coefficient = -3.0
+efficiency = 0.99
+
+
+
+
+# These are wheel and suspension settings for Tyrell P34
+
+[ wheel-FR ]
+# position = in/out, forward/back, up/down
+# position = 0.81, 1.46, -0.43  # orig
+# position = 0.73, 1.58, -0.43
+# position = 0.73, 1.18, -0.43  # P34 1
+position = 0.73, 1.48, -0.56  # P34 2
+roll-height = 0.325
+mass = 19
+restitution = 0.1
+
+[ suspension-FR ]
+# position = 0.75, 1.46, -0.07    # orig
+# position = 0.75, 1.58, -0.07
+# position = 0.75, 1.18, -0.07  # P34 1
+position = 0.75, 1.48, -0.07    # P34 2
+hinge = 0,0,0
+
+[ wheel-FL ]
+# position = -0.81, 1.46, -0.43	  # orig	
+# position = -0.73, 1.58, -0.43
+# position = -0.73, 1.18, -0.43   # P34 1
+position = -0.73, 1.48, -0.56     # P34 2
+roll-height = 0.325
+mass = 19
+restitution = 0.1
+
+[ suspension-FL ]
+# position = -0.75, 1.46, -0.07   # orig
+# position = -0.75, 1.58, -0.07
+# position = -0.75, 1.18, -0.07   # P34 1
+position = -0.75, 1.48, -0.07     # P34 2
+hinge = 0,0,0
+
+
+[ wheel-RR ]
+# position = 0.81, -1.32, -0.42   # orig
+# position = 0.73, -0.68, -0.42
+# position = 0.73, -1.12, -0.42   # P34 1
+position = 0.73, -1.12, -0.42     # P34 2
+roll-height = 0.340
+mass = 19
+restitution = 0.1
+
+[ suspension-RR ]
+# position = 0.75, -1.32, -0.07   # orig
+# position = 0.75, -0.68, -0.07
+# position = 0.75, -0.12, -0.07   # P34 1
+position = 0.75, -0.12, -0.07     # P34 2
+hinge = 0,-1.0,0
+
+[ wheel-RL ]
+# position = -0.81, -1.32, -0.42    # orig
+# position = -0.73, -0.68, -0.42
+# position = -0.73, -1.12, -0.42    # P34 1
+position = -0.73, -1.12, -0.42      # P34 2
+roll-height = 0.340
+mass = 19
+restitution = 0.1
+
+[ suspension-RL ]
+# position = -0.75, -1.32, -0.07    # orig
+# position = -0.75, -0.68, -0.07
+# position = -0.75, -1.12, -0.07    # P34 1
+position = -0.75, -1.12, -0.07      # P34 2
+hinge = 0,-1.0,0
+
+
+
+
+
+
+# these are used to calculate the weight distribution and balance
+[ particle-00 ]
+mass = 25.0
+position = 0.0, -1.35, -0.47
+
+[ particle-01 ]
+mass = 50.0
+position = 0.0, 0.96, -0.47
+
+[ particle-02 ]
+#mass = 213.0
+mass = 140.0
+position = 0.5, -0.3, 0.09
+
+[ particle-03 ]
+#mass = 213.0
+mass = 140.0
+position = -0.5, -0.3, 0.09
+
+[ particle-04 ]
+mass = 143.0
+position = 0.45, 1.2, -0.13
+
+[ particle-05 ]
+mass = 143.0
+position = -0.45, 1.2, -0.13
+
