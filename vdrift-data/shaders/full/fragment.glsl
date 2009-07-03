@@ -33,13 +33,13 @@ uniform sampler2D tu8_2D; //additive map (for brake lights)
 uniform sampler2DShadow tu7_2D; //edge contrast enhancement depth map
 #endif
 
+varying vec2 texcoord_2d;
+varying vec3 V, N, H;
+varying vec3 refmapdir, ambientmapdir;
 uniform vec3 lightposition;
 
-varying vec2 texcoord_2d;
-varying vec3 normal_eye;
-varying vec3 viewdir;
-varying vec3 refmapdir;
-varying vec3 ambientmapdir;
+const float PI = 3.141593;
+const float ONE_OVER_PI = 1.0 / PI;
 
 #ifdef _SHADOWS_
 varying vec4 projshadow_0;
@@ -205,6 +205,9 @@ vec3 ContrastSaturationBrightness(vec3 color, float con, float sat, float brt)
 	vec3 satColor = mix(intensity, brtColor, sat);
 	vec3 conColor = mix(AvgLumin, satColor, con);
 	return conColor;
+    
+    //vec3 AvgLumin = vec3(0.5,0.5,0.5);
+    //return mix(AvgLumin, color, con);
 }
 #define BlendScreenf(base, blend) 		(1.0 - ((1.0 - base) * (1.0 - blend)))
 #define BlendSoftLightf(base, blend) 	((blend < 0.5) ? (2.0 * base * blend + base * base * (1.0 - 2.0 * blend)) : (sqrt(base) * (2.0 * blend - 1.0) + 2.0 * base * (1.0 - blend)))
@@ -372,50 +375,115 @@ vec3 Expose(vec3 light, float exposure)
     return vec3(1.)-exp(-light*exposure);
 }
 
+float BRDF_Ward(vec3 N, vec3 L, vec3 H, vec3 R, vec3 T, vec3 B, vec2 P, vec2 A, vec3 scale)
+{
+    float e1 = dot(H, T) / A.x;
+    float e2 = dot(H, B) / A.y;
+    float E = -2.0 * ((e1 * e1 + e2 * e2) / (1.0 + dot(H,N)));
+    float cosThetaI = dot(N, L);
+    float cosThetaR = dot(N, R);
+    float brdf = P.x * ONE_OVER_PI +
+                 P.y * (1.0 / sqrt(cosThetaI * cosThetaR)) *
+                 (1.0 / (4.0 * PI * A.x * A.y)) * exp(E);
+    return scale.x * P.x * ONE_OVER_PI +
+                      scale.y * P.y * cosThetaI * brdf +
+                      scale.z * dot(H,N) * P.y;
+}
+
+float BRDF_OrenNayar(vec3 V, vec3 N, vec3 L, float roughness)
+{
+    float S2 = roughness * roughness;
+    float dotVN = dot(V,N);
+    float dotLN = dot(L,N);
+    float thetai = acos(dotVN);
+    float thetar = acos(dotLN);
+    float alpha = max(thetai,thetar);
+    float beta = min(thetai, thetar);
+    
+    float gamma = dot(V - N * dotVN, L - N*dotLN);
+    
+    float C1 = 1.-0.5*(S2/(S2+0.33));
+    float C2 = 0.45*(S2/(S2+0.09));
+    
+    if (gamma >= 0.)
+    {
+        C2 *= sin(alpha);
+    }
+    else
+    {
+        C2 *= (sin(alpha)-pow((2.*beta)*ONE_OVER_PI,3.));
+    }
+    
+    float C3 = 0.125 * (S2/(S2+0.09)) * pow((4.*alpha*beta)*ONE_OVER_PI*ONE_OVER_PI,2.);
+    
+    float A = gamma * C2 * tan(beta);
+    float B = (1.-abs(gamma)) * C3 * tan((alpha+beta)*0.5);
+    
+    return max(0.,dotLN)*(C1+A+B);
+}
+
+float BRDF_CookTorrance(vec3 V, vec3 N, vec3 L, vec3 H, float roughness, float fresnel)
+{
+    float R2 = roughness * 3.0;
+    R2 *= R2;
+    float NdotH = dot(N, H);
+    float VdotH = dot(V, H);
+    float NdotV = dot(N, V);
+    float NdotL = max(0.,dot(N, L));
+    float OneOverVdotH = 1. / VdotH;
+    
+    //geometric term
+    float G1 = (2.*NdotH*NdotV) * OneOverVdotH;
+    float G2 = (2.*NdotH*NdotL) * OneOverVdotH;
+    float G = min(1.,max(0.,min(G1,G2)));
+    
+    //fresnel term
+    float F = fresnel + (1.-fresnel)*pow(1.-NdotV,5.);
+    
+    //roughness term
+    float NdotH2  = NdotH*NdotH;
+    float A = 1./(4.*R2*NdotH2*NdotH2);
+    float B = exp(-(1.-NdotH2)/(R2*NdotH2));
+    float R0 = A * B;
+    
+    //final term
+    return max(0.,(G*F*R0)/(NdotL*NdotV));
+}
+
+float BRDF_Lambert(vec3 N, vec3 L)
+{
+    return max(0.,dot(L,N));
+}
+
 void main()
 {
 	float notshadowfinal = GetShadows();
-	
-	vec3 normnormal = normalize(normal_eye);
-	vec3 normviewdir = normalize(viewdir);
-	vec3 normlightposition = normalize(lightposition);
-	
-	vec4 tu0_2D_val = texture2D(tu0_2D, texcoord_2d);
-    vec4 tu8_2D_val = texture2D(tu8_2D, texcoord_2d);
-	
-	vec3 texcolor = tu0_2D_val.rgb;
-    vec3 additive = tu8_2D_val.rgb;
-    
-    //basic diffuse calculation
-	float difdot = dot(normnormal,normlightposition);
-    
-    //diffuse after taking into account shadow.  the pow lightens the effect of dark areas.
-	float diffusefactor = (1.0-pow(1.0-max(difdot,0.0),2.0))*notshadowfinal;
-    
+  
+    vec4 tu0_2D_val = texture2D(tu0_2D, texcoord_2d);
+    vec3 surfacecolor = tu0_2D_val.rgb;
+    vec3 additive = texture2D(tu8_2D, texcoord_2d).rgb;
     vec3 ambient_light = textureCube(tu3_cube, ambientmapdir).rgb;
-    //const vec3 ambient_light = vec3(1,1,1);
-
-    //#ifdef _MISCMAP_
+    //const vec3 ambient_light = vec3(1.);
     vec4 tu1_2D_val = texture2D(tu1_2D, texcoord_2d);
     float gloss = tu1_2D_val.r;
     float metallic = tu1_2D_val.g;
-    vec3 finalcolor;
+    vec3 L = lightposition;
+    
+    //vec3 finalcolor = surfacecolor*BRDF_Ward(N, L, H, R, vec3(0.577,0.577,0.577), vec3(0.577,0.577,0.577), vec2(.7, 0.05), vec2(0.071, 0.071), vec3(0.,180.,0.));
+    vec3 diffuse = surfacecolor * (BRDF_Lambert(N,L)*notshadowfinal+ambient_light)*0.5;
+    //vec3 finalcolor = surfacecolor * (BRDF_OrenNayar(V, N, L, 3.0)*notshadowfinal+ambient_light);
+    //vec3 finalcolor = mix(BRDF_OrenNayar(V, N, L, 3.0)*vec3(notshadowfinal),ambient_light,0.5)*1.5;
+    //vec3 finalcolor = 0.5 * (BRDF_OrenNayar(V, N, L, 3.0)*notshadowfinal*2.0+vec3(1.0));
+    //vec3 finalcolor = 0.5 * (BRDF_OrenNayar(V, N, L, 0.0)*notshadowfinal+vec3(1.0));
+    //float exposure = 0.75;
+    //finalcolor = Expose(finalcolor,exposure)/(1.-exp(-exposure));
+    //vec3(1.)-exp(-light*exposure);
+    //vec3 finalcolor = ambient_light*ambient_light*surfacecolor;
+    
+    //finalcolor = vec3(BRDF_CookTorrance(V, N, L, H, 0.3*gloss+0.7*metallic, 0.15));
+    vec3 specular = vec3(0.);
     if (gloss > 0. || metallic > 0.)
     {
-        //basic specular calculation
-        float specval = max(dot(reflect(normviewdir,normnormal),normlightposition),0.0);
-
-        //Schlick approximation of fresnel reflectance; see Real Time Rendering third edition p. 233
-        const float rf0 = 0.1;
-        float env_factor = rf0+(1.0-rf0)*pow(1.0-dot(-normviewdir,normnormal),5.0);
-        env_factor = clamp(env_factor*1.8, 0.0, 1.0);
-        
-        //fake fresnel reflectance approximation used to make metallic objects look shiny straight-on
-        //float metallic_shiny = pow(specval,2.0)+specval;
-        float metallic_shiny = pow(specval,2.0);
-        //metallic_shiny = min(metallic_shiny, 1.0);
-        //float metallic_shiny = specval;
-        
         #ifndef _REFLECTIONDISABLED_
         //vec3 refmapdir = reflect(normalize(vec3(normviewdir.xy,-.1)),normnormal);
         /*vec3 refmapdir = reflect(normviewdir,normnormal);
@@ -425,25 +493,39 @@ void main()
         vec3 specular_environment = vec3(0,0,0);
         #endif
         
+        float specval = max(dot(reflect(normalize(-V),normalize(N)),L),0.0);
+        float spec_add_highlight = metallic*2.0*max((pow(specval,512.0)-0.5)*2.0,0.0);
+        float brdf = BRDF_CookTorrance(V, N, L, H, mix(0.4*gloss,0.3,metallic), mix(0.45,0.15,metallic))*mix(0.1,1.0,metallic);
+        brdf = clamp(brdf,0.,1.);
+        specular = brdf*(notshadowfinal*0.5+0.5)*mix(vec3(1.),specular_environment,metallic) + vec3(1.)*spec_add_highlight*notshadowfinal;
+        diffuse *= 1.0-brdf;
+        
+        //specular = vec3(spec_add_highlight);
+        
+        /*float diffusefactor = BRDF_Lambert(N,L);
+        
+        //basic specular calculation
+        float specval = max(dot(reflect(V,N),L),0.0);
+
+        //Schlick approximation of fresnel reflectance; see Real Time Rendering third edition p. 233
+        const float rf0 = 0.1;
+        float env_factor = rf0+(1.0-rf0)*pow(1.0-dot(-V,N),5.0);
+        env_factor = clamp(env_factor*1.8, 0.0, 1.0);
+        
+        //fake fresnel reflectance approximation used to make metallic objects look shiny straight-on
+        float metallic_shiny = pow(specval,2.0);
+        
         float spec_add_highlight = gloss*2.0*max((pow(specval,512.0)-0.5)*2.0,0.0);
-        //vec3 specular = specular_environment*env_factor*gloss*EffectStrength(diffusefactor,0.2);
-        vec3 specular = (max(specular_environment-vec3(0.2),vec3(0.)))*env_factor*gloss*0.6;
-        vec3 metallicdiffuse = ((0.85-env_factor*0.2)*(texcolor+metallic_shiny*0.5))*EffectStrength(diffusefactor,0.2);
-        vec3 diffuse = mix(texcolor*vec3(EffectStrength(diffusefactor,0.4))*1.1,metallicdiffuse,metallic);
-        //vec3 finalcolor = (diffuse+specular)*(1.0-metallic*0.2)+vec3(spec_add_highlight)+additive;
-        finalcolor = ambient_light*diffuse+specular+vec3(spec_add_highlight)+additive;
-        //#else
+        vec3 specular0 = (max(specular_environment-vec3(0.2),vec3(0.)))*env_factor*gloss*0.6;
+        vec3 metallicdiffuse = ((0.85-env_factor*0.2)*(surfacecolor+metallic_shiny*0.5))*EffectStrength(diffusefactor,0.2);
+        diffuse = mix(surfacecolor*vec3(EffectStrength(diffusefactor,0.4))*1.1,metallicdiffuse,metallic);
+        specular = specular0+vec3(spec_add_highlight);*/
     }
-    else
-    {
-        vec3 diffuse = texcolor*vec3(EffectStrength(diffusefactor,0.4))*1.1;
-        finalcolor = ambient_light*diffuse+additive;
-    }
-    //#endif
+        
+    vec3 finalcolor = diffuse + specular + additive;
+    //finalcolor = specular;
     
-    //vec3 finalcolor = ambient_light*diffuse+vec3(spec_add_highlight)+additive;
-    //finalcolor = mix(ambient_light*diffuse,specular,metallic*0.3)*(1.0+metallic*0.2);
-    //vec3 finalcolor = pow(diffuse+specular-metallic*0.2,vec3(1.0-metallic*0.5));
+    finalcolor = 1.156*(vec3(1.)-exp(-pow(finalcolor,vec3(1.3))*2.));
     
     finalcolor = ContrastSaturationBrightness(finalcolor, contrast, 1.0/contrast, (contrast-1.0)*0.5+1.0);
     //finalcolor = Expose(finalcolor, contrast*3.0-2.0)*1.15;//(1./(1.-exp(-(contrast*3.-2.))));

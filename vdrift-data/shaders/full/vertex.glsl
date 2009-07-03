@@ -8,24 +8,27 @@ varying vec4 projshadow_2;
 #endif
 #endif
 
+uniform vec3 lightposition;
+
 varying vec2 texcoord_2d;
-varying vec3 normal_eye;
-varying vec3 viewdir;
-varying vec3 refmapdir;
-varying vec3 ambientmapdir;
+varying vec3 V, N, H;
+varying vec3 refmapdir, ambientmapdir;
 
 void main()
 {
 	//transform the vertex
 	gl_Position = ftransform();
+    
+    vec4 pos = gl_ModelViewMatrix * gl_Vertex;
+    vec3 pos3 = pos.xyz;
  
 	#ifdef _SHADOWS_
-	projshadow_0 = gl_TextureMatrix[4] * gl_TextureMatrixInverse[3] * gl_ModelViewMatrix * gl_Vertex;
+	projshadow_0 = gl_TextureMatrix[4] * gl_TextureMatrixInverse[3] * pos;
 	#ifdef _CSM2_
-	projshadow_1 = gl_TextureMatrix[5] * gl_TextureMatrixInverse[3] * gl_ModelViewMatrix * gl_Vertex;
+	projshadow_1 = gl_TextureMatrix[5] * gl_TextureMatrixInverse[3] * pos;
 	#endif
 	#ifdef _CSM3_
-	projshadow_2 = gl_TextureMatrix[6] * gl_TextureMatrixInverse[3] * gl_ModelViewMatrix * gl_Vertex;
+	projshadow_2 = gl_TextureMatrix[6] * gl_TextureMatrixInverse[3] * pos;
 	#endif
 	#endif
 	
@@ -36,19 +39,16 @@ void main()
 	texcoord_2d = vec2(gl_MultiTexCoord0);
 	
 	//compute the eyespace normal
-	normal_eye = gl_NormalMatrix * gl_Normal;
-	
-	//compute the eyespace position
-	vec4 ecposition = gl_ModelViewMatrix * gl_Vertex;
-	
-	//compute the eyespace view direction
-	viewdir = vec3(ecposition)/ecposition.w;
-	
-	#ifndef _REFLECTIONDISABLED_
-	refmapdir = vec3(gl_TextureMatrix[2] * vec4(reflect(viewdir, normal_eye),0));
-	#else
-	refmapdir = vec3(0);
-	#endif
+	N = normalize(gl_NormalMatrix * gl_Normal);
+    V = normalize(-pos3);
+    H = normalize(lightposition+V);
+    //R = normalize(reflect(pos3,N));
     
-    ambientmapdir = mat3(gl_TextureMatrix[2]) * normal_eye;
+    #ifndef _REFLECTIONDISABLED_
+    refmapdir = vec3(gl_TextureMatrix[2] * vec4(reflect(pos3, N),0));
+    #else
+    refmapdir = vec3(0.);
+    #endif
+    
+    ambientmapdir = mat3(gl_TextureMatrix[2]) * N;
 }
