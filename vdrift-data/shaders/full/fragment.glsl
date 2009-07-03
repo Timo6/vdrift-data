@@ -381,53 +381,66 @@ void main()
 	vec3 normlightposition = normalize(lightposition);
 	
 	vec4 tu0_2D_val = texture2D(tu0_2D, texcoord_2d);
-	vec4 tu1_2D_val = texture2D(tu1_2D, texcoord_2d);
     vec4 tu8_2D_val = texture2D(tu8_2D, texcoord_2d);
 	
 	vec3 texcolor = tu0_2D_val.rgb;
-	float gloss = tu1_2D_val.r;
-	float metallic = tu1_2D_val.g;
-	
+    vec3 additive = tu8_2D_val.rgb;
+    
     //basic diffuse calculation
 	float difdot = dot(normnormal,normlightposition);
     
     //diffuse after taking into account shadow.  the pow lightens the effect of dark areas.
 	float diffusefactor = (1.0-pow(1.0-max(difdot,0.0),2.0))*notshadowfinal;
-
-    //basic specular calculation
-    float specval = max(dot(reflect(normviewdir,normnormal),normlightposition),0.0);
-
-    //Schlick approximation of fresnel reflectance; see Real Time Rendering third edition p. 233
-    const float rf0 = 0.1;
-    float env_factor = rf0+(1.0-rf0)*pow(1.0-dot(-normviewdir,normnormal),5.0);
-    env_factor = clamp(env_factor*1.8, 0.0, 1.0);
-    
-    //fake fresnel reflectance approximation used to make metallic objects look shiny straight-on
-    //float metallic_shiny = pow(specval,2.0)+specval;
-    float metallic_shiny = pow(specval,2.0);
-    //metallic_shiny = min(metallic_shiny, 1.0);
-    //float metallic_shiny = specval;
-    
-    #ifndef _REFLECTIONDISABLED_
-    //vec3 refmapdir = reflect(normalize(vec3(normviewdir.xy,-.1)),normnormal);
-    /*vec3 refmapdir = reflect(normviewdir,normnormal);
-    refmapdir = mat3(gl_TextureMatrix[2]) * refmapdir;*/
-    vec3 specular_environment = textureCube(tu2_cube, refmapdir).rgb;
-    #else
-    vec3 specular_environment = vec3(0,0,0);
-    #endif
     
     vec3 ambient_light = textureCube(tu3_cube, ambientmapdir).rgb;
     //const vec3 ambient_light = vec3(1,1,1);
+
+    //#ifdef _MISCMAP_
+    vec4 tu1_2D_val = texture2D(tu1_2D, texcoord_2d);
+    float gloss = tu1_2D_val.r;
+    float metallic = tu1_2D_val.g;
+    vec3 finalcolor;
+    if (gloss > 0. || metallic > 0.)
+    {
+        //basic specular calculation
+        float specval = max(dot(reflect(normviewdir,normnormal),normlightposition),0.0);
+
+        //Schlick approximation of fresnel reflectance; see Real Time Rendering third edition p. 233
+        const float rf0 = 0.1;
+        float env_factor = rf0+(1.0-rf0)*pow(1.0-dot(-normviewdir,normnormal),5.0);
+        env_factor = clamp(env_factor*1.8, 0.0, 1.0);
+        
+        //fake fresnel reflectance approximation used to make metallic objects look shiny straight-on
+        //float metallic_shiny = pow(specval,2.0)+specval;
+        float metallic_shiny = pow(specval,2.0);
+        //metallic_shiny = min(metallic_shiny, 1.0);
+        //float metallic_shiny = specval;
+        
+        #ifndef _REFLECTIONDISABLED_
+        //vec3 refmapdir = reflect(normalize(vec3(normviewdir.xy,-.1)),normnormal);
+        /*vec3 refmapdir = reflect(normviewdir,normnormal);
+        refmapdir = mat3(gl_TextureMatrix[2]) * refmapdir;*/
+        vec3 specular_environment = textureCube(tu2_cube, refmapdir).rgb;
+        #else
+        vec3 specular_environment = vec3(0,0,0);
+        #endif
+        
+        float spec_add_highlight = gloss*2.0*max((pow(specval,512.0)-0.5)*2.0,0.0);
+        //vec3 specular = specular_environment*env_factor*gloss*EffectStrength(diffusefactor,0.2);
+        vec3 specular = (max(specular_environment-vec3(0.2),vec3(0.)))*env_factor*gloss*0.6;
+        vec3 metallicdiffuse = ((0.85-env_factor*0.2)*(texcolor+metallic_shiny*0.5))*EffectStrength(diffusefactor,0.2);
+        vec3 diffuse = mix(texcolor*vec3(EffectStrength(diffusefactor,0.4))*1.1,metallicdiffuse,metallic);
+        //vec3 finalcolor = (diffuse+specular)*(1.0-metallic*0.2)+vec3(spec_add_highlight)+additive;
+        finalcolor = ambient_light*diffuse+specular+vec3(spec_add_highlight)+additive;
+        //#else
+    }
+    else
+    {
+        vec3 diffuse = texcolor*vec3(EffectStrength(diffusefactor,0.4))*1.1;
+        finalcolor = ambient_light*diffuse+additive;
+    }
+    //#endif
     
-    float spec_add_highlight = gloss*2.0*max((pow(specval,512.0)-0.5)*2.0,0.0);
-    //vec3 specular = specular_environment*env_factor*gloss*EffectStrength(diffusefactor,0.2);
-    vec3 specular = (max(specular_environment-vec3(0.2),vec3(0.)))*env_factor*gloss*0.6;
-    vec3 metallicdiffuse = ((0.85-env_factor*0.2)*(texcolor+metallic_shiny*0.5))*EffectStrength(diffusefactor,0.2);
-    vec3 diffuse = mix(texcolor*vec3(EffectStrength(diffusefactor,0.4))*1.1,metallicdiffuse,metallic);
-    vec3 additive = tu8_2D_val.rgb;
-    //vec3 finalcolor = (diffuse+specular)*(1.0-metallic*0.2)+vec3(spec_add_highlight)+additive;
-    vec3 finalcolor = ambient_light*diffuse+specular+vec3(spec_add_highlight)+additive;
     //vec3 finalcolor = ambient_light*diffuse+vec3(spec_add_highlight)+additive;
     //finalcolor = mix(ambient_light*diffuse,specular,metallic*0.3)*(1.0+metallic*0.2);
     //vec3 finalcolor = pow(diffuse+specular-metallic*0.2,vec3(1.0-metallic*0.5));
