@@ -525,7 +525,11 @@ void main()
     vec3 finalcolor = diffuse + specular + additive;
     //finalcolor = specular;
     
-    finalcolor = 1.156*(vec3(1.)-exp(-pow(finalcolor,vec3(1.3))*2.));
+    finalcolor = surfacecolor*vec3((BRDF_Lambert(N,L)*notshadowfinal+ambient_light)*0.5);
+    //finalcolor = 1.156*(vec3(1.)-exp(-pow(finalcolor,vec3(1.3))*2.));
+    finalcolor = 1.58*(vec3(1.)-exp(-finalcolor*1.));
+    //finalcolor = (finalcolor+0.05)*1.1;
+    //finalcolor = ColorCorrect(finalcolor);
     
     finalcolor = ContrastSaturationBrightness(finalcolor, contrast, 1.0/contrast, (contrast-1.0)*0.5+1.0);
     //finalcolor = Expose(finalcolor, contrast*3.0-2.0)*1.15;//(1./(1.-exp(-(contrast*3.-2.))));
