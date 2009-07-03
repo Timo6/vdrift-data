@@ -485,9 +485,6 @@ void main()
     if (gloss > 0. || metallic > 0.)
     {
         #ifndef _REFLECTIONDISABLED_
-        //vec3 refmapdir = reflect(normalize(vec3(normviewdir.xy,-.1)),normnormal);
-        /*vec3 refmapdir = reflect(normviewdir,normnormal);
-        refmapdir = mat3(gl_TextureMatrix[2]) * refmapdir;*/
         vec3 specular_environment = textureCube(tu2_cube, refmapdir).rgb;
         #else
         vec3 specular_environment = vec3(0,0,0);
@@ -525,7 +522,7 @@ void main()
     vec3 finalcolor = diffuse + specular + additive;
     //finalcolor = specular;
     
-    finalcolor = surfacecolor*vec3((BRDF_Lambert(N,L)*notshadowfinal+ambient_light)*0.5);
+    //finalcolor = surfacecolor*vec3((BRDF_Lambert(N,L)*notshadowfinal+ambient_light)*0.5);
     //finalcolor = 1.156*(vec3(1.)-exp(-pow(finalcolor,vec3(1.3))*2.));
     finalcolor = 1.58*(vec3(1.)-exp(-finalcolor*1.));
     //finalcolor = (finalcolor+0.05)*1.1;
