@@ -34,7 +34,7 @@ uniform sampler2DShadow tu7_2D; //edge contrast enhancement depth map
 #endif
 
 varying vec2 texcoord_2d;
-varying vec3 V, N, H;
+varying vec3 V, N;
 varying vec3 refmapdir, ambientmapdir;
 uniform vec3 lightposition;
 
@@ -468,57 +468,30 @@ void main()
     float gloss = tu1_2D_val.r;
     float metallic = tu1_2D_val.g;
     vec3 L = lightposition;
+    vec3 Nn = normalize(N);
+    vec3 Vn = normalize(V);
+    vec3 H = normalize(lightposition+V);
     
-    //vec3 finalcolor = surfacecolor*BRDF_Ward(N, L, H, R, vec3(0.577,0.577,0.577), vec3(0.577,0.577,0.577), vec2(.7, 0.05), vec2(0.071, 0.071), vec3(0.,180.,0.));
-    vec3 diffuse = surfacecolor * (BRDF_Lambert(N,L)*notshadowfinal+ambient_light)*0.5;
-    //vec3 finalcolor = surfacecolor * (BRDF_OrenNayar(V, N, L, 3.0)*notshadowfinal+ambient_light);
-    //vec3 finalcolor = mix(BRDF_OrenNayar(V, N, L, 3.0)*vec3(notshadowfinal),ambient_light,0.5)*1.5;
-    //vec3 finalcolor = 0.5 * (BRDF_OrenNayar(V, N, L, 3.0)*notshadowfinal*2.0+vec3(1.0));
-    //vec3 finalcolor = 0.5 * (BRDF_OrenNayar(V, N, L, 0.0)*notshadowfinal+vec3(1.0));
-    //float exposure = 0.75;
-    //finalcolor = Expose(finalcolor,exposure)/(1.-exp(-exposure));
-    //vec3(1.)-exp(-light*exposure);
-    //vec3 finalcolor = ambient_light*ambient_light*surfacecolor;
+     vec3 diffuse = surfacecolor * (BRDF_Lambert(N,L)*notshadowfinal+ambient_light)*0.5;
     
-    //finalcolor = vec3(BRDF_CookTorrance(V, N, L, H, 0.3*gloss+0.7*metallic, 0.15));
     vec3 specular = vec3(0.);
     if (gloss > 0. || metallic > 0.)
     {
         #ifndef _REFLECTIONDISABLED_
         vec3 specular_environment = textureCube(tu2_cube, refmapdir).rgb;
         #else
-        vec3 specular_environment = vec3(0,0,0);
+        vec3 specular_environment = vec3(1.);
         #endif
         
-        float specval = max(dot(reflect(normalize(-V),normalize(N)),L),0.0);
+        float specval = max(dot(reflect(-Vn,Nn),L),0.0);
         float spec_add_highlight = metallic*2.0*max((pow(specval,512.0)-0.5)*2.0,0.0);
-        float brdf = BRDF_CookTorrance(V, N, L, H, mix(0.4*gloss,0.3,metallic), mix(0.45,0.15,metallic))*mix(0.1,1.0,metallic);
-        brdf = clamp(brdf,0.,1.);
-        specular = brdf*(notshadowfinal*0.5+0.5)*mix(vec3(1.),specular_environment,metallic) + vec3(1.)*spec_add_highlight*notshadowfinal;
-        diffuse *= 1.0-brdf;
-        
-        //specular = vec3(spec_add_highlight);
-        
-        /*float diffusefactor = BRDF_Lambert(N,L);
-        
-        //basic specular calculation
-        float specval = max(dot(reflect(V,N),L),0.0);
-
-        //Schlick approximation of fresnel reflectance; see Real Time Rendering third edition p. 233
-        const float rf0 = 0.1;
-        float env_factor = rf0+(1.0-rf0)*pow(1.0-dot(-V,N),5.0);
-        env_factor = clamp(env_factor*1.8, 0.0, 1.0);
-        
-        //fake fresnel reflectance approximation used to make metallic objects look shiny straight-on
-        float metallic_shiny = pow(specval,2.0);
-        
-        float spec_add_highlight = gloss*2.0*max((pow(specval,512.0)-0.5)*2.0,0.0);
-        vec3 specular0 = (max(specular_environment-vec3(0.2),vec3(0.)))*env_factor*gloss*0.6;
-        vec3 metallicdiffuse = ((0.85-env_factor*0.2)*(surfacecolor+metallic_shiny*0.5))*EffectStrength(diffusefactor,0.2);
-        diffuse = mix(surfacecolor*vec3(EffectStrength(diffusefactor,0.4))*1.1,metallicdiffuse,metallic);
-        specular = specular0+vec3(spec_add_highlight);*/
+        float brdf_gloss = clamp(BRDF_CookTorrance(Vn, Nn, L, H, 0.1, 0.05)*gloss,0.,1.);
+        float brdf_metal = clamp(BRDF_CookTorrance(Vn, Nn, L, H, 0.3, 0.15)*metallic,0.,1.);
+        //float brdf = brdf_gloss+brdf_metal;
+        specular = (notshadowfinal*0.5+0.5)*(brdf_gloss*vec3(1.)+brdf_metal*specular_environment) + vec3(1.)*spec_add_highlight*notshadowfinal;
+        diffuse *= 1.0-(brdf_gloss+brdf_metal)*0.5;
     }
-        
+    
     vec3 finalcolor = diffuse + specular + additive;
     //finalcolor = specular;
     
