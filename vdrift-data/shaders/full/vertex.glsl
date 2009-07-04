@@ -11,7 +11,7 @@ varying vec4 projshadow_2;
 uniform vec3 lightposition;
 
 varying vec2 texcoord_2d;
-varying vec3 V, N, H;
+varying vec3 V, N;
 varying vec3 refmapdir, ambientmapdir;
 
 void main()
@@ -41,7 +41,6 @@ void main()
 	//compute the eyespace normal
 	N = normalize(gl_NormalMatrix * gl_Normal);
     V = normalize(-pos3);
-    H = normalize(lightposition+V);
     //R = normalize(reflect(pos3,N));
     
     #ifndef _REFLECTIONDISABLED_
