@@ -521,5 +521,7 @@ void main()
 	
 	gl_FragColor.a = alpha*gl_Color.a;
     
-    gl_FragColor.rgb = finalcolor*alpha*gl_Color.a;
+    gl_FragColor.rgb = finalcolor;
+    //gl_FragColor.rgb = finalcolor*gl_Color.a;
+    //gl_FragColor.rgb = finalcolor*alpha;
 }

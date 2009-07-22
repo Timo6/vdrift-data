@@ -40,7 +40,9 @@ void main()
 	
 	texcolor.a *= gl_Color.a;
 	
-	gl_FragColor = vec4(texcolor.rgb*texcolor.a,texcolor.a);
+	gl_FragColor = vec4(texcolor.rgb,texcolor.a);
+    //gl_FragColor = vec4(texcolor.rgb*gl_Color.a,texcolor.a);
+    //gl_FragColor = vec4(texcolor.rgb*texcolor.a,texcolor.a);
 	
 	//gl_FragColor = texture2D(tu0_2D, tu0coord);
 	
