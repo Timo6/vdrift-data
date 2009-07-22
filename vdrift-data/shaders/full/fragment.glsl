@@ -511,8 +511,6 @@ void main()
 	finalcolor *= edgefactor*0.5+0.5;
 #endif
 	
-	gl_FragColor.rgb = finalcolor;
-	
 #ifdef _ALPHATEST_
 	//float width = clamp(dFdx(texcoord_2d.x) * diffuse_texture_width * 0.5,0.0,0.5);
 	float width = clamp(dFdx(texcoord_2d.x) * 512.0 * 0.5,0.0,0.5);
@@ -522,4 +520,6 @@ void main()
 #endif
 	
 	gl_FragColor.a = alpha*gl_Color.a;
+    
+    gl_FragColor.rgb = finalcolor*alpha*gl_Color.a;
 }

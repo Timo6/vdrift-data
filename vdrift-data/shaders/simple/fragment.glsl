@@ -78,7 +78,7 @@ void main()
 	
 	vec4 outcol = texture2D(tu0_2D, tu0coord);
 	
-	gl_FragColor = outcol*gl_Color;
+	gl_FragColor = vec4(outcol.rgb*gl_Color.rgb*outcol.a*gl_Color.a,outcol.a*gl_Color.a);
 	//gl_FragColor = bicubic_filter(tu0_2D, tu0coord)*gl_Color;
 	
 	//gl_FragColor.rg = tu0coord*0.5+0.5;
