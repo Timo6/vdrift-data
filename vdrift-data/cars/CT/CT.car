@@ -38,10 +38,10 @@ torque-curve-18 = 6600, 340.59
 torque-curve-19 = 6840, 300.39
 
 [ clutch ]
-sliding = 0.27
-radius = 0.1
-area = 0.75
-max-pressure = 13079.26
+sliding = 0.025
+radius = 0.15
+area = 1.0
+max-pressure = 5e5
 
 [ transmission ]
 gears = 6
@@ -215,7 +215,7 @@ handbrake = 1.0
 [ driver ]
 position = -0.35, -0.15, 0.08
 mass = 90.0
-view-position = -0.35, -0.15, 0.48
+view-position = -0.35, -0.15, 0.4
 hood-mounted-view-position = 0.00, 0.7, 0.35
 
 [ drag ]
