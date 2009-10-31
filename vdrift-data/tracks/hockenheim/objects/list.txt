@@ -14418,7 +14418,7 @@ bka.bmp.png
 1.0
 0.0
 0
-1
+0
 
 #entry 801
 skyboxi.dof-00.joe
@@ -14436,7 +14436,7 @@ bka.bmp.png
 1.0
 0.0
 0
-1
+0
 
 #entry 802
 stline01.dof-00.joe
