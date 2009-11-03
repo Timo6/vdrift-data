@@ -280,7 +280,8 @@ handbrake = 1.0
 [ driver ]
 position = 0.00, 0.18, -0.30
 mass = 80.0
-view-position = 0.00, 0.10, 0.1
+view-position = 0.00, 0.13, 0.03
+#view-position = 0.00, 0.10, 0.1
 #view-position = 0.00, 0.18, 0.1
 #hood-mounted-view-position = 0.00, 0.45, 0.1	# normal driver position
 view-stiffness = 1.0
