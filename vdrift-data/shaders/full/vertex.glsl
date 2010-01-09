@@ -1,3 +1,5 @@
+#version 120
+
 #ifdef _SHADOWS_
 varying vec4 projshadow_0;
 #ifdef _CSM2_
