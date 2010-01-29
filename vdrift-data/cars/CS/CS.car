@@ -41,7 +41,7 @@ torque-curve-19 = 6840, 184.39
 sliding = 0.27
 radius = 0.1
 area = 0.75
-max-pressure = 11079.26
+max-pressure = 15000
 
 [ transmission ]
 gears = 5
