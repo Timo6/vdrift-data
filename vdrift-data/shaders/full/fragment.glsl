@@ -430,7 +430,7 @@ float BRDF_CookTorrance(vec3 V, vec3 N, vec3 L, vec3 H, float roughness, float f
     float VdotH = dot(V, H);
     float NdotV = dot(N, V);
     float NdotL = max(0.,dot(N, L));
-    float OneOverVdotH = 1. / VdotH;
+    float OneOverVdotH = 1. / max(VdotH,0.001);
     
     //geometric term
     float G1 = (2.*NdotH*NdotV) * OneOverVdotH;
@@ -493,7 +493,6 @@ void main()
     }
     
     vec3 finalcolor = diffuse + specular + additive;
-    //finalcolor = specular;
     
     //finalcolor = surfacecolor*vec3((BRDF_Lambert(N,L)*notshadowfinal+ambient_light)*0.5);
     //finalcolor = 1.156*(vec3(1.)-exp(-pow(finalcolor,vec3(1.3))*2.));
