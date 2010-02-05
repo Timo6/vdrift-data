@@ -26,7 +26,7 @@ uniform sampler2DShadow tu6_2D; //far far shadow map
 #ifndef _REFLECTIONDISABLED_
 uniform samplerCube tu2_cube; //reflection map
 #endif
-
+uniform sampler2D tu7_2D; //additive map (for reverse lights)
 uniform sampler2D tu8_2D; //additive map (for brake lights)
 
 #ifdef _EDGECONTRASTENHANCEMENT_
@@ -461,7 +461,7 @@ void main()
   
     vec4 tu0_2D_val = texture2D(tu0_2D, texcoord_2d);
     vec3 surfacecolor = tu0_2D_val.rgb;
-    vec3 additive = texture2D(tu8_2D, texcoord_2d).rgb;
+    vec3 additive = texture2D(tu7_2D, texcoord_2d).rgb + texture2D(tu8_2D, texcoord_2d).rgb;
     vec3 ambient_light = textureCube(tu3_cube, ambientmapdir).rgb;
     //const vec3 ambient_light = vec3(1.);
     vec4 tu1_2D_val = texture2D(tu1_2D, texcoord_2d);
