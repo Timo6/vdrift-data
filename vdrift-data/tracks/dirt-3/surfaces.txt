@@ -57,7 +57,7 @@ RollingDrag = 0.0
 
 ID = 5
 BumpWaveLength = 10.0
-BumpAmplitude = 0.2
+BumpAmplitude = 0.02
 FrictionNonTread = 0.5
 FrictionTread = 0.7
 RollResistanceCoefficient = 5.0
