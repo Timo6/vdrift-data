@@ -478,7 +478,12 @@ void main()
     if (gloss > 0. || metallic > 0.)
     {
         #ifndef _REFLECTIONDISABLED_
-        vec3 specular_environment = textureCube(tu2_cube, refmapdir).rgb;
+			#ifdef _REFLECTIONDYNAMIC_
+				vec3 fixrefmapdir = vec3(-refmapdir.z, refmapdir.x, -refmapdir.y);
+				vec3 specular_environment = textureCube(tu2_cube, fixrefmapdir).rgb;
+			#else
+				vec3 specular_environment = textureCube(tu2_cube, refmapdir).rgb;
+			#endif
         #else
         vec3 specular_environment = vec3(1.);
         #endif
@@ -499,7 +504,9 @@ void main()
     finalcolor = 1.58*(vec3(1.)-exp(-finalcolor*1.));
     //finalcolor = (finalcolor+0.05)*1.1;
     //finalcolor = ColorCorrect(finalcolor);
-    
+	//vec3 fixrefmapdir = vec3(-refmapdir.z, refmapdir.x, -refmapdir.y);
+    //finalcolor = textureCube(tu2_cube, fixrefmapdir).rgb;
+	
     finalcolor = ContrastSaturationBrightness(finalcolor, contrast, 1.0/contrast, (contrast-1.0)*0.5+1.0);
     //finalcolor = Expose(finalcolor, contrast*3.0-2.0)*1.15;//(1./(1.-exp(-(contrast*3.-2.))));
     finalcolor = clamp(finalcolor,0.0,1.0);
