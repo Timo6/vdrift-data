@@ -2,7 +2,7 @@ drive = RWD
 version = 2
 
 [ steering ]
-max-angle = 55.19
+max-angle = 30
 
 [ engine ]
 position = 0.0, 1.42, -0.24
@@ -57,7 +57,7 @@ shift-delay = 0.07
 
 [ differential ]
 final-drive = 3.25
-anti-slip = 600.0
+anti-slip = 330.0
 
 [ fuel-tank ]
 position = -0.17, -0.26, -0.56
@@ -66,31 +66,31 @@ volume = 0.0492
 fuel-density = 730.0
 
 [ suspension-front ]
-spring-constant = 162000
-bounce = 7050
-rebound = 9500
+spring-constant = 75000
+bounce = 6000
+rebound = 5500
 travel = 0.32
 max-compression-velocity = 10.0
 camber = -2.00
 caster = 8.00
 toe = 0.2
-anti-roll = 7000
+anti-roll = 6000
 
 [ suspension-rear ]
-spring-constant = 293000
+spring-constant = 62000
 bounce = 5000
-rebound = 9992.14
+rebound = 4500
 travel = 0.32
 max-compression-velocity = 10.0
 camber = -3.00
 caster = 0.28
 toe = 0.0
-anti-roll = 15000
+anti-roll = 5500
 
 [ tire-front ]
 radius = 0.3032
 rolling-resistance = 8.0e-3, 6.5e-6
-rotational-inertia = 10.0
+rotational-inertia = 2.2
 tread = 0.0
  a0=1.1
 a1=-46
@@ -146,7 +146,7 @@ c17=-1.10000
 [ tire-rear ]
 radius = 0.3032
 rolling-resistance = 8.0e-3, 6.5e-6
-rotational-inertia = 10.0
+rotational-inertia = 4.2
 tread = 0.0
 a0=1.1
 a1=-46
@@ -201,7 +201,7 @@ c17=-1.10000
 
 [ brakes-front ]
 friction = 0.83
-max-pressure = 2.5e6
+max-pressure = 2.8e6
 bias = 0.61
 radius = 0.17
 area = 0.015
@@ -239,7 +239,7 @@ position = 0.0, -2.14, 0.37
 frontal-area = 0.05
 drag-coefficient = 0.0
 surface-area = 0.5
-lift-coefficient = -2
+lift-coefficient = -1.5
 efficiency = 0.95
 
 

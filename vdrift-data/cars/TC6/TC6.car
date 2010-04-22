@@ -10,7 +10,7 @@ mass = 180.0
 max-power = 1.52e5
 peak-engine-rpm = 6000.0
 rpm-limit = 6500.0
-inertia = 0.40
+inertia = 0.35
 idle = 0.02
 start-rpm = 1000
 stall-rpm = 400
@@ -50,7 +50,7 @@ shift-delay = 0.05
 
 [ differential ]
 final-drive = 4.285
-anti-slip = 600.0
+anti-slip = 150.0
 
 [ fuel-tank ]
 position = -0.17, -0.26, -0.56 
@@ -59,43 +59,43 @@ volume = 60.0
 fuel-density = 1.0
 
 [ suspension-front ]
-spring-constant = 102000
-#spring-constant = 72000
-bounce = 11050
-#bounce = 7500
-rebound = 10700
-#rebound = 5000
+#spring-constant = 102000
+spring-constant = 72000
+#bounce = 11050
+bounce = 7500
+#rebound = 10700
+rebound = 5000
 travel = 0.32
 max-compression-velocity = 10.0
 camber = -1.33
 caster = 6.12
 toe = 0.0
-anti-roll = 5000
+anti-roll = 3700
 
 [ suspension-rear ]
-spring-constant = 98000
-#spring-constant = 68000
-bounce = 10000
-#bounce = 7500
-rebound = 9992.14
-#rebound = 5000
+#spring-constant = 98000
+spring-constant = 68000
+#bounce = 10000
+bounce = 7500
+#rebound = 9992.14
+rebound = 5000
 travel = 0.32
 max-compression-velocity = 10.0
 camber = -0.45
 caster = 0.28
 toe = 0.0
-anti-roll = 17000
+anti-roll = 8000
 
 [ tire-front ]
 radius = 0.30
 rolling-resistance = 1.3e-2, 6.5e-6
-rotational-inertia = 6.0
+rotational-inertia = 2.2
 tread = 0.7
 # Lateral force
 a0=1.55
 a1=-40
-a2=1700
-a3=3200
+a2=1600
+a3=1900
 a4=7.2
 a5=0.014
 a6=-0.24
@@ -142,13 +142,13 @@ c17=-1.1
 [ tire-rear ]
 radius = 0.30
 rolling-resistance = 1.3e-2, 6.5e-6
-rotational-inertia = 7.0
+rotational-inertia = 2.4
 tread = 0.7
 # Lateral force
 a0=1.55
 a1=-55
-a2=1950
-a3=3200
+a2=1750
+a3=1900
 a4=7.2
 a5=0.014
 a6=-0.24
@@ -194,14 +194,14 @@ c17=-1.1
 
 [ brakes-front ]
 friction = 0.73
-max-pressure = 2.5e6
+max-pressure = 3.2e6
 bias = 0.61
 radius = 0.17
 area = 0.015
 
 [ brakes-rear ]
 friction = 0.73
-max-pressure = 2.5e6
+max-pressure = 3.2e6
 bias = 0.39
 radius = 0.14
 area = 0.015

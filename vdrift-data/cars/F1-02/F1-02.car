@@ -43,7 +43,7 @@ mass = 95.0
 max-power = 633844
 peak-engine-rpm = 19000.0
 rpm-limit = 19500.0
-inertia = 0.2
+inertia = 0.06
 idle = 0.08
 start-rpm = 4000
 stall-rpm = 1500	# better driveable
@@ -119,7 +119,7 @@ spring-constant = 350000	# 5.2.0 20090227 by cologne
 bounce = 3000	## Druckstufe 1/3 - 1/4
 rebound = 8000	## Zugstufe
 travel = 0.07	## Federweg
-max-compression-velocity = 10.0
+max-compression-velocity = 100.0
 camber = -1.00	## Radsturz
 caster = 0.12	## Nachlauf
 toe = 0.9		## Vorspur?
@@ -132,7 +132,7 @@ spring-constant = 500000	# 5.2.0 20090227 by cologne
 bounce = 4000	## Druckstufe 1/3 - 1/4
 rebound = 12000	## Zugstufe
 travel = 0.09	## Federweg
-max-compression-velocity = 10.0
+max-compression-velocity = 100.0
 camber = -0.50	## Radsturz
 caster = 0.28	## Nachlauf
 toe = 0.0	## Vorspur?
@@ -143,7 +143,7 @@ anti-roll = 12000	## Stabilisator	# 5.2.0 20090227 by cologne
 [ tire-front ]
 radius = 0.33	# FIA: max 660mm in diameter (670mm with wet-weather tyres)
 rolling-resistance = 1.3e-2, 6.5e-6
-rotational-inertia = 2.0
+rotational-inertia = 1.6
 tread = 0.0
 #--------	Lateral force
 a0=1.39			#	Shape factor												A0
@@ -199,7 +199,7 @@ c17=-1.1		#	Vertical shift at load = 0 (Nm)  C17c0=2.2
 [ tire-rear ]
 radius = 0.330 	# FIA: max 660mm in diameter (670mm with wet-weather tyres)
 rolling-resistance = 1.3e-2, 6.5e-6
-rotational-inertia = 2.50
+rotational-inertia = 3.2
 tread = 0.0
 #--------	Lateral force
 a0=1.55			#	Shape factor												A0		
@@ -260,19 +260,19 @@ c17=-1.1		#	Vertical shift at load = 0 (Nm)  C17c0=2.2
 
 [ brakes-front ]
 friction = 1.40
-max-pressure = 3.0e6
+max-pressure = 2.4e6
 bias = 0.60
 radius = 0.15
 #area = 0.02
-area = 0.025
+area = 0.01
 
 [ brakes-rear ]
 friction = 1.40
-max-pressure = 3.0e6
+max-pressure = 2.4e6
 bias = 0.40
 radius = 0.14
 #area = 0.015
-area = 0.015
+area = 0.01
 handbrake = 1.0
 
 # width, length, height :: X(+left), Y(+front), Z(+up)

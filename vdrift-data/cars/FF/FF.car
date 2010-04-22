@@ -268,7 +268,7 @@ position = 0.0, 1.9, 0.60
 frontal-area = 0.2
 drag-coefficient = 0.0
 surface-area = 0.3
-lift-coefficient = -0.3
+lift-coefficient = -0.15
 efficiency = 0.99
 
 [ wing-rear ]
@@ -276,7 +276,7 @@ position = 0.0, -2.14, 0.37
 frontal-area = 0.05
 drag-coefficient = 0.0
 surface-area = 0.5
-lift-coefficient = -0.5
+lift-coefficient = -0.2
 efficiency = 0.99
 
 

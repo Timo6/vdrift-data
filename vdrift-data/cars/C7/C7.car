@@ -5,7 +5,7 @@ version = 2
 max-angle = 28.94
 
 [ engine ]
-position = 0.0, 1.1, 0.0
+position = 0.0, 0.9, 0.0
 mass = 90.0
 peak-engine-rpm = 6500
 rpm-limit = 7200
@@ -55,7 +55,7 @@ fuel-density = 730.0
 
 [ suspension-front ]
 spring-constant = 18
-spring-factor-1 = 0.02, 1
+spring-factor-1 = 0.02, -100
 spring-factor-2 = 0.04, 2000
 spring-factor-3 = 0.06, 3000
 spring-factor-10 = 0.2, 3800
@@ -84,13 +84,13 @@ damper-factor-150 = 0.5, 0.2
 travel = 0.2
 max-compression-velocity = 100
 camber = -1.33
-caster = 6.12
+caster = 4
 toe = 0.0
-anti-roll = 7000
+anti-roll = 5000
 
 [ suspension-rear ]
 spring-constant = 16
-spring-factor-1 = 0.02, 100
+spring-factor-1 = 0.02, -100
 spring-factor-2 = 0.04, 2000
 spring-factor-3 = 0.06, 3000
 spring-factor-10 = 0.2, 3800
@@ -121,7 +121,7 @@ max-compression-velocity = 100
 camber = -0.45
 caster = 0.28
 toe = 0.0
-anti-roll = 5000
+anti-roll = 3000
 
 [ tire-front ]
 radius = 0.29
@@ -130,7 +130,7 @@ rotational-inertia = 2
 tread = 0.0
 # Lateral force
 a0=1.65
-a1=-20
+a1=-15
 a2=1100
 a3=2000
 a4=8.5
@@ -146,8 +146,8 @@ a12=17.8
 a13=-2.4
 # Longitudinal force
 b0=1.6
-b1=-120
-b2=1450
+b1=-15
+b2=1150
 b3=23.3
 b4=300
 b5=0
@@ -185,7 +185,7 @@ rotational-inertia = 3.5
 tread = 0.0
 # Lateral force
 a0=1.65
-a1=-20
+a1=-15
 a2=1100
 a3=2000
 a4=8.5
@@ -201,8 +201,8 @@ a12=17.8
 a13=-2.4
 # Longitudinal force
 b0=1.6
-b1=-120
-b2=1450
+b1=-15
+b2=1150
 b3=23.3
 b4=300
 b5=0
@@ -265,7 +265,7 @@ position = 0.0, 1.9, 0.60
 frontal-area = 0.2
 drag-coefficient = 0.0
 surface-area = 0.3
-lift-coefficient = 0.2
+lift-coefficient = 0.1
 efficiency = 0.95
 
 [ wing-rear ]
@@ -331,17 +331,17 @@ mass = 30.0
 position = 0.0, 0.96, -0.27
 
 [ particle-02 ]
-mass = 100.0
+mass = 110.0
 position = 0.5, -0.8, -0.2
 
 [ particle-03 ]
-mass = 100.0
+mass = 110.0
 position = -0.5, -0.8, -0.2
 
 [ particle-04 ]
-mass = 100.0
+mass = 90.0
 position = 0.45, 0.8, -0.2
 
 [ particle-05 ]
-mass = 100.0
+mass = 90.0
 position = -0.45, 0.8, -0.2 
