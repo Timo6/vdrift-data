@@ -10,7 +10,7 @@ mass = 145.0
 max-power = 1.52e5
 peak-engine-rpm = 9600.0
 rpm-limit = 11000
-inertia = 0.2
+inertia = 0.15
 idle = 0.02
 start-rpm = 1000
 stall-rpm = 400
@@ -64,8 +64,8 @@ volume = 10.0
 fuel-density = 0.8
 
 [ suspension-front ]
-#spring-constant = 23000
-spring-constant = 46000
+spring-constant = 23000
+#spring-constant = 46000
 bounce = 5000
 rebound = 4500
 travel = 0.24
@@ -73,11 +73,11 @@ max-compression-velocity = 10.0
 camber = -3.0
 caster = 0.0
 toe = -0.5
-anti-roll = 18000
+anti-roll = 9000
 
 [ suspension-rear ]
-#spring-constant = 28750
-spring-constant = 60000
+spring-constant = 28750
+#spring-constant = 60000
 bounce = 5000
 rebound = 4500
 travel = 0.26
@@ -85,12 +85,12 @@ max-compression-velocity = 10.0
 camber = -3.0
 caster = 0.0
 toe = 0.5
-anti-roll = 10000
+anti-roll = 5000
 
 [ tire-front ]
 radius = 0.31265
 rolling-resistance = 1.3e-2, 6.5e-6
-rotational-inertia = 10
+rotational-inertia = 1.2
 tread = 0.0
 # Lateral force
 a0=1.4
@@ -145,7 +145,7 @@ c17=-1.1
 [ tire-rear ]
 radius = 0.3179
 rolling-resistance = 1.3e-2, 6.5e-6
-rotational-inertia = 10
+rotational-inertia = 1.5
 tread = 0.0
 # Lateral force
 a0=1.3
@@ -249,7 +249,7 @@ restitution = 0.01
 
 [ suspension-FR ]
 position = 0.65, 1.40, -0.15
-hinge = -0.65, 0, -0.15
+hinge = -0.65, 1.40, -0.45
 
 [ wheel-FL ]
 position = -0.69, 1.40, -0.48
@@ -259,7 +259,7 @@ restitution = 0.01
 
 [ suspension-FL ]
 position = -0.65, 1.40, -0.15
-hinge = 0.65, 0, -0.15
+hinge = 0.65, 1.40, -0.45
 
 
 [ wheel-RR ]
@@ -270,7 +270,7 @@ restitution = 0.01
 
 [ suspension-RR ]
 position = 0.64, -1.18, -0.13
-hinge = -0.64, 0, -0.13
+hinge = -0.64, -1.18, -0.43
 
 [ wheel-RL ]
 position = -0.69, -1.18, -0.50
@@ -280,7 +280,7 @@ restitution = 0.01
 
 [ suspension-RL ]
 position = -0.64, -1.18, -0.13
-hinge = 0.64, 0, -0.13
+hinge = 0.64, -1.18, -0.43
 
 
 # these are used to calculate the weight distribution and balance

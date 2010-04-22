@@ -2,7 +2,7 @@ drive = RWD
 version = 2
 
 [ steering ]
-max-angle = 36.39
+max-angle = 28
 
 [ engine ]
 #position = 0.0, 1.42, -0.24
@@ -11,7 +11,7 @@ mass = 180.0
 max-power = 4.66062e5
 peak-engine-rpm = 7500.0
 rpm-limit = 8500.0
-inertia = 0.5
+inertia = 0.35
 idle = 0.02
 start-rpm = 1000
 stall-rpm = 350
@@ -39,7 +39,7 @@ sliding = 0.27
 radius = 0.15
 area = 0.75
 #max-pressure = 21079.26
-max-pressure = 50000.00
+max-pressure = 40000.00
 
 [ transmission ]
 gears = 6
@@ -54,7 +54,7 @@ shift-delay = 0.00
 
 [ differential ]
 final-drive = 2.87
-anti-slip = 300.0
+anti-slip = 360.0
 
 [ fuel-tank ]
 position = -0.17, -0.26, -0.56
@@ -63,22 +63,22 @@ volume = 0.0492
 fuel-density = 730.0
 
 [ suspension-front ]
-spring-constant = 102000
-bounce = 10050
+spring-constant = 90000
+bounce = 6050
 rebound = 7000
 travel = 0.10
-max-compression-velocity = 10.0
+max-compression-velocity = 100.0
 camber = -1.33
 caster = 0.12
 toe = 0.9
 anti-roll = 11000
 
 [ suspension-rear ]
-spring-constant = 130000
-bounce = 7500
-rebound = 9992.14
+spring-constant = 100000
+bounce = 7000
+rebound = 8200
 travel = 0.12
-max-compression-velocity = 10.0
+max-compression-velocity = 100.0
 camber = -0.45
 caster = 0.28
 toe = 0.0

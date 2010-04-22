@@ -5,8 +5,8 @@ version = 2 #file format version 2 changes the coordinate system to this: http:/
 max-angle = 33.19
 
 [ engine ]
-position = 0.0, 1.0, 0.34
-mass = 140.0
+position = 0.0, 1.1, 0.0
+mass = 160.0
 max-power = 1.79e5
 peak-engine-rpm = 5900
 rpm-limit = 6600
@@ -44,7 +44,7 @@ shift-delay = 0.08
 
 [ differential ]
 final-drive = 3.538
-anti-slip = 600.0
+anti-slip = 250.0
 
 [ fuel-tank ]
 position = 0.0, -1.0, 0.28
@@ -53,39 +53,78 @@ volume = 0.0492
 fuel-density = 730.0
 
 [ suspension-front ]
-spring-constant = 49131.9
-spring-factor-1 = 0.052, 1.0
-spring-factor-2 = 0.055, 1.2
+spring-constant = 24
+spring-factor-1 = 0.02, 1
+spring-factor-2 = 0.04, 2000
+spring-factor-3 = 0.06, 3000
+spring-factor-10 = 0.2, 3800
+spring-factor-20 = 0.4, 4000
+spring-factor-30 = 0.6, 4200
+spring-factor-40 = 0.8, 4600
+spring-factor-50 = 1.0, 5000
+spring-factor-60 = 1.2, 7000
+spring-factor-70 = 1.4, 12000
+spring-factor-80 = 1.6, 30000
 bounce = 2588
 rebound = 2612
-damper-factor-1 = 0.08, 1.0
-damper-factor-2 = 0.1, 0.7
-travel = 0.19
-max-compression-velocity = 10.0
+damper-factor-10 = 0.02, 2.0
+damper-factor-20 = 0.04, 1.6
+damper-factor-30 = 0.06, 1.4
+damper-factor-40 = 0.08, 1.2
+damper-factor-50 = 0.1, 1.0
+damper-factor-60 = 0.12, 1.0
+damper-factor-70 = 0.14, 1.0
+damper-factor-80 = 0.16, 1.0
+damper-factor-90 = 0.18, 0.8
+damper-factor-100 = 0.2, 0.6
+damper-factor-150 = 0.5, 0.2
+travel = 0.18
+max-compression-velocity = 100
 camber = -1.33
 caster = 6.12
 toe = 0.0
-anti-roll = 8000.0
+anti-roll = 7000
 
 [ suspension-rear ]
-spring-constant = 51137.3
-spring-factor-1 = 0.085, 1.0
-spring-factor-2 = 0.088, 1.2
+spring-constant = 26
+spring-factor-1 = 0.02, 1
+spring-factor-2 = 0.04, 2000
+spring-factor-3 = 0.06, 3000
+spring-factor-10 = 0.2, 3800
+spring-factor-20 = 0.4, 4000
+spring-factor-30 = 0.6, 4200
+spring-factor-40 = 0.8, 4600
+spring-factor-50 = 1.0, 5000
+spring-factor-60 = 1.2, 7000
+spring-factor-70 = 1.4, 12000
+spring-factor-80 = 1.6, 30000
 bounce = 2788
 rebound = 2912
-damper-factor-1 = 0.08,1.0
-damper-factor-2 = 0.1, 0.7
-travel = 0.19
-max-compression-velocity = 10.0
+damper-factor-10 = 0.02, 2.0
+damper-factor-20 = 0.04, 1.6
+damper-factor-30 = 0.06, 1.4
+damper-factor-40 = 0.08, 1.2
+damper-factor-50 = 0.1, 1.0
+damper-factor-60 = 0.12, 1.0
+damper-factor-70 = 0.14, 1.0
+damper-factor-80 = 0.16, 1.0
+damper-factor-90 = 0.18, 1.0
+damper-factor-100 = 0.2, 0.6
+damper-factor-150 = 0.5, 0.2
+travel = 0.18
+max-compression-velocity = 100
 camber = -0.45
 caster = 0.28
 toe = 0.0
-anti-roll = 6000.0
+anti-roll = 6000
+
+
+
 
 [ tire-front ]
 radius = 0.29
 rolling-resistance = 1.3e-2, 6.5e-6
-rotational-inertia = 10.0
+rotational-inertia = 3.0
 tread = 0.0
 # Lateral force
 a0=1.6
@@ -108,7 +147,7 @@ b0=1.7
 b1=-80
 b2=1571
 b3=23.3
-b4=300
+b4=150
 b5=0
 b6=0.0068
 b7=0.055
@@ -140,7 +179,7 @@ c17=-1.1
 [ tire-rear ]
 radius = 0.2935
 rolling-resistance = 1.3e-2, 6.5e-6
-rotational-inertia = 10.0
+rotational-inertia = 6.5
 tread = 0.0
 # Lateral force
 a0=1.6
@@ -163,7 +202,7 @@ b0=1.7
 b1=-80
 b2=1571
 b3=23.3
-b4=300
+b4=150
 b5=0
 b6=0.0068
 b7=0.055
@@ -195,16 +234,16 @@ c17=-1.1
 
 
 [ brakes-front ]
-friction = 0.4
-max-pressure = 4.0e6
-bias = 0.65
+friction = 0.5
+max-pressure = 2.0e6
+bias = 0.60
 radius = 0.14
 area = 0.07
 
 [ brakes-rear ]
-friction = 0.4
-max-pressure = 4.0e6
-bias = 0.35
+friction = 0.5
+max-pressure = 2.0e6
+bias = 0.40
 radius = 0.14
 area = 0.07
 handbrake = 1.0
@@ -225,7 +264,7 @@ position = 1.9, 0.0, 0.06
 frontal-area = 0.2
 drag-coefficient = 0.0
 surface-area = 0.3
-lift-coefficient = -0.5
+lift-coefficient = 0.2
 efficiency = 0.95
 
 [ wing-rear ]
@@ -233,7 +272,7 @@ position = 0.0, -2.04, 0.84
 frontal-area = 0.05
 drag-coefficient = 0.0
 surface-area = 0.5
-lift-coefficient = -0.7
+lift-coefficient = 0.5
 efficiency = 0.95
 
 
