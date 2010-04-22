@@ -172,6 +172,23 @@ default = 0
 cancel = 0
 
 [ widget-10 ]
+type = controlgrab
+name = RolloverControl
+text = Rollover Recover
+tip = Rotate car back onto it's wheels after rollover.
+setting = rollover_recover
+center = 0.5, 0.61
+spacing = 0.2
+width = auto
+height = auto
+fontsize = 6
+analog = 1
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-11 ]
 type = button
 name = TransmissionButton
 text = Transmission
@@ -187,7 +204,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-11 ]
+[ widget-12 ]
 type = button
 name = CarControlsOKButton
 text = OK
@@ -203,7 +220,7 @@ selected = 0
 default = 1
 cancel = 0
 
-[ widget-12 ]
+[ widget-13 ]
 type = button
 name = CarControlsCancelButton
 text = Cancel
