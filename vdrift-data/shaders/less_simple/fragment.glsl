@@ -7,7 +7,7 @@ varying vec3 normal_eye;
 uniform float contrast;
 
 #ifdef _EDGECONTRASTENHANCEMENT_
-uniform sampler2DShadow tu7_2D; //edge contrast enhancement depth map
+uniform sampler2DShadow tu9_2D; //edge contrast enhancement depth map
 #endif
 
 /*float w0(float a)
@@ -169,7 +169,7 @@ void main()
 	
 #ifdef _EDGECONTRASTENHANCEMENT_
 	vec3 shadowcoords = vec3(gl_FragCoord.x/SCREENRESX, gl_FragCoord.y/SCREENRESY, gl_FragCoord.z-0.001);
-	float edgefactor = GetEdgeContrastEnhancementFactor(tu7_2D, shadowcoords);
+	float edgefactor = GetEdgeContrastEnhancementFactor(tu9_2D, shadowcoords);
 	finalcolor *= edgefactor*0.5+0.5;
 #endif
 	
