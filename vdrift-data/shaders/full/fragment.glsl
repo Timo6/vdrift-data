@@ -30,7 +30,7 @@ uniform sampler2D tu7_2D; //additive map (for reverse lights)
 uniform sampler2D tu8_2D; //additive map (for brake lights)
 
 #ifdef _EDGECONTRASTENHANCEMENT_
-uniform sampler2DShadow tu7_2D; //edge contrast enhancement depth map
+uniform sampler2DShadow tu9_2D; //edge contrast enhancement depth map
 #endif
 
 varying vec2 texcoord_2d;
@@ -513,7 +513,7 @@ void main()
 	
 #ifdef _EDGECONTRASTENHANCEMENT_
 	vec3 depthcoords = vec3(gl_FragCoord.x/SCREENRESX, gl_FragCoord.y/SCREENRESY, gl_FragCoord.z-0.001);
-	float edgefactor = GetEdgeContrastEnhancementFactor(tu7_2D, depthcoords);
+	float edgefactor = GetEdgeContrastEnhancementFactor(tu9_2D, depthcoords);
 	finalcolor *= edgefactor*0.5+0.5;
 #endif
 	
