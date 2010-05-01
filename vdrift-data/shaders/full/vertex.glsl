@@ -17,9 +17,8 @@ varying vec3 refmapdir, ambientmapdir;
 void main()
 {
 	//transform the vertex
-	gl_Position = ftransform();
-    
     vec4 pos = gl_ModelViewMatrix * gl_Vertex;
+	gl_Position = gl_ProjectionMatrix * pos;
     vec3 pos3 = pos.xyz;
  
 	#ifdef _SHADOWS_

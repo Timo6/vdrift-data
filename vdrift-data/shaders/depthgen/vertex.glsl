@@ -6,7 +6,7 @@ varying vec3 eyespacenormal;
 void main()
 {
 	// Transforming the vertex
-	gl_Position = ftransform();
+	gl_Position = gl_ProjectionMatrix * gl_ModelViewMatrix * gl_Vertex;
 	
 	texcoord = vec2(gl_MultiTexCoord0);
 	
