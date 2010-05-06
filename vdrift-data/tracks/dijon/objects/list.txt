@@ -2849,7 +2849,7 @@ dirtb.bmp.png
 #entry 158
 fenca002.dof-00.joe
 fenca.bmp.png
-0
+1
 0
 0
 0
@@ -2867,7 +2867,7 @@ fenca.bmp.png
 #entry 159
 fenca003.dof-00.joe
 fenca.bmp.png
-0
+1
 0
 0
 0
@@ -2885,7 +2885,7 @@ fenca.bmp.png
 #entry 160
 fenca004.dof-00.joe
 fenca.bmp.png
-0
+1
 0
 0
 0
@@ -2903,7 +2903,7 @@ fenca.bmp.png
 #entry 161
 fenca005.dof-00.joe
 fenca.bmp.png
-0
+1
 0
 0
 0
@@ -2921,7 +2921,7 @@ fenca.bmp.png
 #entry 162
 fenca006.dof-00.joe
 fenca.bmp.png
-0
+1
 0
 0
 0
@@ -2939,7 +2939,7 @@ fenca.bmp.png
 #entry 163
 fenca119.dof-00.joe
 fenca.bmp.png
-0
+1
 0
 0
 0
@@ -2957,7 +2957,7 @@ fenca.bmp.png
 #entry 164
 fencb002.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -2975,7 +2975,7 @@ fencb.bmp.png
 #entry 165
 fencb003.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -2993,7 +2993,7 @@ fencb.bmp.png
 #entry 166
 fencb004.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3011,7 +3011,7 @@ fencb.bmp.png
 #entry 167
 fencb005.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3029,7 +3029,7 @@ fencb.bmp.png
 #entry 168
 fencb006.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3047,7 +3047,7 @@ fencb.bmp.png
 #entry 169
 fencb007.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3065,7 +3065,7 @@ fencb.bmp.png
 #entry 170
 fencb008.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3083,7 +3083,7 @@ fencb.bmp.png
 #entry 171
 fencb009.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3101,7 +3101,7 @@ fencb.bmp.png
 #entry 172
 fencb010.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3119,7 +3119,7 @@ fencb.bmp.png
 #entry 173
 fencb011.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3137,7 +3137,7 @@ fencb.bmp.png
 #entry 174
 fencb012.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3155,7 +3155,7 @@ fencb.bmp.png
 #entry 175
 fencb013.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3173,7 +3173,7 @@ fencb.bmp.png
 #entry 176
 fencb014.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3191,7 +3191,7 @@ fencb.bmp.png
 #entry 177
 fencb015.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3209,7 +3209,7 @@ fencb.bmp.png
 #entry 178
 fencb016.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3227,7 +3227,7 @@ fencb.bmp.png
 #entry 179
 fencb017.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3245,7 +3245,7 @@ fencb.bmp.png
 #entry 180
 fencb018.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3263,7 +3263,7 @@ fencb.bmp.png
 #entry 181
 fencb019.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3281,7 +3281,7 @@ fencb.bmp.png
 #entry 182
 fencb020.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3299,7 +3299,7 @@ fencb.bmp.png
 #entry 183
 fencb021.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3317,7 +3317,7 @@ fencb.bmp.png
 #entry 184
 fencb022.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3335,7 +3335,7 @@ fencb.bmp.png
 #entry 185
 fencb023.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3353,7 +3353,7 @@ fencb.bmp.png
 #entry 186
 fencb024.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3371,7 +3371,7 @@ fencb.bmp.png
 #entry 187
 fencb025.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3389,7 +3389,7 @@ fencb.bmp.png
 #entry 188
 fencb026.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3407,7 +3407,7 @@ fencb.bmp.png
 #entry 189
 fencb027.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3425,7 +3425,7 @@ fencb.bmp.png
 #entry 190
 fencb028.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3443,7 +3443,7 @@ fencb.bmp.png
 #entry 191
 fencb029.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3461,7 +3461,7 @@ fencb.bmp.png
 #entry 192
 fencb030.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3479,7 +3479,7 @@ fencb.bmp.png
 #entry 193
 fencb031.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3497,7 +3497,7 @@ fencb.bmp.png
 #entry 194
 fencb032.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3515,7 +3515,7 @@ fencb.bmp.png
 #entry 195
 fencb033.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3533,7 +3533,7 @@ fencb.bmp.png
 #entry 196
 fencb034.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3551,7 +3551,7 @@ fencb.bmp.png
 #entry 197
 fencb035.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3569,7 +3569,7 @@ fencb.bmp.png
 #entry 198
 fencb036.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3587,7 +3587,7 @@ fencb.bmp.png
 #entry 199
 fencb037.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3605,7 +3605,7 @@ fencb.bmp.png
 #entry 200
 fencb038.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3623,7 +3623,7 @@ fencb.bmp.png
 #entry 201
 fencb039.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3641,7 +3641,7 @@ fencb.bmp.png
 #entry 202
 fencb040.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3659,7 +3659,7 @@ fencb.bmp.png
 #entry 203
 fencb041.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3677,7 +3677,7 @@ fencb.bmp.png
 #entry 204
 fencb042.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3695,7 +3695,7 @@ fencb.bmp.png
 #entry 205
 fencb043.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3713,7 +3713,7 @@ fencb.bmp.png
 #entry 206
 fencb044.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3731,7 +3731,7 @@ fencb.bmp.png
 #entry 207
 fencb045.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3749,7 +3749,7 @@ fencb.bmp.png
 #entry 208
 fencb046.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3767,7 +3767,7 @@ fencb.bmp.png
 #entry 209
 fencb047.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3785,7 +3785,7 @@ fencb.bmp.png
 #entry 210
 fencb048.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3803,7 +3803,7 @@ fencb.bmp.png
 #entry 211
 fencb049.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3821,7 +3821,7 @@ fencb.bmp.png
 #entry 212
 fencb050.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3839,7 +3839,7 @@ fencb.bmp.png
 #entry 213
 fencb051.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3857,7 +3857,7 @@ fencb.bmp.png
 #entry 214
 fencb052.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3875,7 +3875,7 @@ fencb.bmp.png
 #entry 215
 fencb053.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3893,7 +3893,7 @@ fencb.bmp.png
 #entry 216
 fencb054.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3911,7 +3911,7 @@ fencb.bmp.png
 #entry 217
 fencb055.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3929,7 +3929,7 @@ fencb.bmp.png
 #entry 218
 fencb056.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3947,7 +3947,7 @@ fencb.bmp.png
 #entry 219
 fencb057.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3965,7 +3965,7 @@ fencb.bmp.png
 #entry 220
 fencb058.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -3983,7 +3983,7 @@ fencb.bmp.png
 #entry 221
 fencb059.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4001,7 +4001,7 @@ fencb.bmp.png
 #entry 222
 fencb060.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4019,7 +4019,7 @@ fencb.bmp.png
 #entry 223
 fencb061.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4037,7 +4037,7 @@ fencb.bmp.png
 #entry 224
 fencb062.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4055,7 +4055,7 @@ fencb.bmp.png
 #entry 225
 fencb063.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4073,7 +4073,7 @@ fencb.bmp.png
 #entry 226
 fencb064.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4091,7 +4091,7 @@ fencb.bmp.png
 #entry 227
 fencb065.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4109,7 +4109,7 @@ fencb.bmp.png
 #entry 228
 fencb066.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4127,7 +4127,7 @@ fencb.bmp.png
 #entry 229
 fencb067.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4145,7 +4145,7 @@ fencb.bmp.png
 #entry 230
 fencb068.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4163,7 +4163,7 @@ fencb.bmp.png
 #entry 231
 fencb069.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4181,7 +4181,7 @@ fencb.bmp.png
 #entry 232
 fencb070.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4199,7 +4199,7 @@ fencb.bmp.png
 #entry 233
 fencb071.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4217,7 +4217,7 @@ fencb.bmp.png
 #entry 234
 fencb072.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4235,7 +4235,7 @@ fencb.bmp.png
 #entry 235
 fencb073.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4253,7 +4253,7 @@ fencb.bmp.png
 #entry 236
 fencb074.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4271,7 +4271,7 @@ fencb.bmp.png
 #entry 237
 fencb075.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4289,7 +4289,7 @@ fencb.bmp.png
 #entry 238
 fencb076.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4307,7 +4307,7 @@ fencb.bmp.png
 #entry 239
 fencb077.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4325,7 +4325,7 @@ fencb.bmp.png
 #entry 240
 fencb078.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4343,7 +4343,7 @@ fencb.bmp.png
 #entry 241
 fencb079.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4361,7 +4361,7 @@ fencb.bmp.png
 #entry 242
 fencb080.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4379,7 +4379,7 @@ fencb.bmp.png
 #entry 243
 fencb081.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4397,7 +4397,7 @@ fencb.bmp.png
 #entry 244
 fencb082.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4415,7 +4415,7 @@ fencb.bmp.png
 #entry 245
 fencb083.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4433,7 +4433,7 @@ fencb.bmp.png
 #entry 246
 fencb084.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4451,7 +4451,7 @@ fencb.bmp.png
 #entry 247
 fencb085.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4469,7 +4469,7 @@ fencb.bmp.png
 #entry 248
 fencb086.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4487,7 +4487,7 @@ fencb.bmp.png
 #entry 249
 fencb087.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4505,7 +4505,7 @@ fencb.bmp.png
 #entry 250
 fencb088.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4523,7 +4523,7 @@ fencb.bmp.png
 #entry 251
 fencb089.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4541,7 +4541,7 @@ fencb.bmp.png
 #entry 252
 fencb090.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4559,7 +4559,7 @@ fencb.bmp.png
 #entry 253
 fencb091.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4577,7 +4577,7 @@ fencb.bmp.png
 #entry 254
 fencb092.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4595,7 +4595,7 @@ fencb.bmp.png
 #entry 255
 fencb093.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4613,7 +4613,7 @@ fencb.bmp.png
 #entry 256
 fencb094.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4631,7 +4631,7 @@ fencb.bmp.png
 #entry 257
 fencb095.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4649,7 +4649,7 @@ fencb.bmp.png
 #entry 258
 fencb096.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4667,7 +4667,7 @@ fencb.bmp.png
 #entry 259
 fencb097.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4685,7 +4685,7 @@ fencb.bmp.png
 #entry 260
 fencb098.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4703,7 +4703,7 @@ fencb.bmp.png
 #entry 261
 fencb099.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4721,7 +4721,7 @@ fencb.bmp.png
 #entry 262
 fencb100.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4739,7 +4739,7 @@ fencb.bmp.png
 #entry 263
 fencb101.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4757,7 +4757,7 @@ fencb.bmp.png
 #entry 264
 fencb102.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4775,7 +4775,7 @@ fencb.bmp.png
 #entry 265
 fencb103.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4793,7 +4793,7 @@ fencb.bmp.png
 #entry 266
 fencb104.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4811,7 +4811,7 @@ fencb.bmp.png
 #entry 267
 fencb105.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4829,7 +4829,7 @@ fencb.bmp.png
 #entry 268
 fencb106.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4847,7 +4847,7 @@ fencb.bmp.png
 #entry 269
 fencb107.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4865,7 +4865,7 @@ fencb.bmp.png
 #entry 270
 fencb109.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4883,7 +4883,7 @@ fencb.bmp.png
 #entry 271
 fencb110.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4901,7 +4901,7 @@ fencb.bmp.png
 #entry 272
 fencb111.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4919,7 +4919,7 @@ fencb.bmp.png
 #entry 273
 fencb112.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4937,7 +4937,7 @@ fencb.bmp.png
 #entry 274
 fencb113.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4955,7 +4955,7 @@ fencb.bmp.png
 #entry 275
 fencb114.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4973,7 +4973,7 @@ fencb.bmp.png
 #entry 276
 fencb115.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -4991,7 +4991,7 @@ fencb.bmp.png
 #entry 277
 fencb116.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -5009,7 +5009,7 @@ fencb.bmp.png
 #entry 278
 fencb117.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -5027,7 +5027,7 @@ fencb.bmp.png
 #entry 279
 fencb118.dof-00.joe
 fencb.bmp.png
-0
+1
 0
 0
 0
@@ -7187,7 +7187,7 @@ grasa.bmp.png
 #entry 399
 grav001.dof-00.joe
 fenca.bmp.png
-0
+1
 0
 0
 0
