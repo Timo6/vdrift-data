@@ -41,7 +41,7 @@ billbrdbk.dds.png
 #entry 2
 adka0001_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -59,7 +59,7 @@ gurdra.dds.png
 #entry 3
 adka0001_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -131,7 +131,7 @@ billbrdbk.dds.png
 #entry 7
 adka0002_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -149,7 +149,7 @@ gurdra.dds.png
 #entry 8
 adka0002_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -221,7 +221,7 @@ billbrdbk.dds.png
 #entry 12
 adka0003_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -239,7 +239,7 @@ gurdra.dds.png
 #entry 13
 adka0003_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -311,7 +311,7 @@ billbrdbk.dds.png
 #entry 17
 adka0004_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -329,7 +329,7 @@ gurdra.dds.png
 #entry 18
 adka0004_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -401,7 +401,7 @@ billbrdbk.dds.png
 #entry 22
 adka0005_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -419,7 +419,7 @@ gurdra.dds.png
 #entry 23
 adka0005_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -491,7 +491,7 @@ billbrdbk.dds.png
 #entry 27
 adka0006_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -509,7 +509,7 @@ gurdra.dds.png
 #entry 28
 adka0006_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -581,7 +581,7 @@ billbrdbk.dds.png
 #entry 32
 adka0007_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -599,7 +599,7 @@ gurdra.dds.png
 #entry 33
 adka0007_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -671,7 +671,7 @@ billbrdbk.dds.png
 #entry 37
 adka0008_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -689,7 +689,7 @@ gurdra.dds.png
 #entry 38
 adka0008_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -761,7 +761,7 @@ billbrdbk.dds.png
 #entry 42
 adka0009_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -779,7 +779,7 @@ gurdra.dds.png
 #entry 43
 adka0009_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -851,7 +851,7 @@ billbrdbk.dds.png
 #entry 47
 adka0010_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -869,7 +869,7 @@ gurdra.dds.png
 #entry 48
 adka0010_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -941,7 +941,7 @@ billbrdbk.dds.png
 #entry 52
 adka0011_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -959,7 +959,7 @@ gurdra.dds.png
 #entry 53
 adka0011_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -1031,7 +1031,7 @@ billbrdbk.dds.png
 #entry 57
 adka0012_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -1049,7 +1049,7 @@ gurdra.dds.png
 #entry 58
 adka0012_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -1121,7 +1121,7 @@ billbrdbk.dds.png
 #entry 62
 adka0013_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -1139,7 +1139,7 @@ gurdra.dds.png
 #entry 63
 adka0013_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -1211,7 +1211,7 @@ billbrdbk.dds.png
 #entry 67
 adka0014_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -1229,7 +1229,7 @@ gurdra.dds.png
 #entry 68
 adka0014_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -1301,7 +1301,7 @@ billbrdbk.dds.png
 #entry 72
 adka0015_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -1319,7 +1319,7 @@ gurdra.dds.png
 #entry 73
 adka0015_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -1391,7 +1391,7 @@ billbrdbk.dds.png
 #entry 77
 adka0016_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -1409,7 +1409,7 @@ gurdra.dds.png
 #entry 78
 adka0016_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -1481,7 +1481,7 @@ billbrdbk.dds.png
 #entry 82
 adka0017_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -1499,7 +1499,7 @@ gurdra.dds.png
 #entry 83
 adka0017_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -1571,7 +1571,7 @@ billbrdbk.dds.png
 #entry 87
 adka0018_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -1589,7 +1589,7 @@ gurdra.dds.png
 #entry 88
 adka0018_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -1661,7 +1661,7 @@ billbrdbk.dds.png
 #entry 92
 adka0019_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -1679,7 +1679,7 @@ gurdra.dds.png
 #entry 93
 adka0019_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -1751,7 +1751,7 @@ billbrdbk.dds.png
 #entry 97
 adka0020_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -1769,7 +1769,7 @@ gurdra.dds.png
 #entry 98
 adka0020_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -1841,7 +1841,7 @@ billbrdbk.dds.png
 #entry 102
 adka0021_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -1859,7 +1859,7 @@ gurdra.dds.png
 #entry 103
 adka0021_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -1931,7 +1931,7 @@ billbrdbk.dds.png
 #entry 107
 adka0022_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -1949,7 +1949,7 @@ gurdra.dds.png
 #entry 108
 adka0022_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -2021,7 +2021,7 @@ billbrdbk.dds.png
 #entry 112
 adka0023_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -2039,7 +2039,7 @@ gurdra.dds.png
 #entry 113
 adka0023_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -2111,7 +2111,7 @@ billbrdbk.dds.png
 #entry 117
 adka0024_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -2129,7 +2129,7 @@ gurdra.dds.png
 #entry 118
 adka0024_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -2201,7 +2201,7 @@ billbrdbk.dds.png
 #entry 122
 adka0025_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -2219,7 +2219,7 @@ gurdra.dds.png
 #entry 123
 adka0025_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -2291,7 +2291,7 @@ billbrdbk.dds.png
 #entry 127
 adka0026_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -2309,7 +2309,7 @@ gurdra.dds.png
 #entry 128
 adka0026_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -2381,7 +2381,7 @@ billbrdbk.dds.png
 #entry 132
 adka0027_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -2399,7 +2399,7 @@ gurdra.dds.png
 #entry 133
 adka0027_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -2471,7 +2471,7 @@ billbrdbk.dds.png
 #entry 137
 adka0028_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -2489,7 +2489,7 @@ gurdra.dds.png
 #entry 138
 adka0028_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -2561,7 +2561,7 @@ billbrdbk.dds.png
 #entry 142
 adka0029_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -2579,7 +2579,7 @@ gurdra.dds.png
 #entry 143
 adka0029_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -2651,7 +2651,7 @@ billbrdbk.dds.png
 #entry 147
 adka0030_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -2669,7 +2669,7 @@ gurdra.dds.png
 #entry 148
 adka0030_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -2741,7 +2741,7 @@ billbrdbk.dds.png
 #entry 152
 adka0031_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -2759,7 +2759,7 @@ gurdra.dds.png
 #entry 153
 adka0031_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -2831,7 +2831,7 @@ billbrdbk.dds.png
 #entry 157
 adka0032_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -2849,7 +2849,7 @@ gurdra.dds.png
 #entry 158
 adka0032_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -2921,7 +2921,7 @@ billbrdbk.dds.png
 #entry 162
 adka0033_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -2939,7 +2939,7 @@ gurdra.dds.png
 #entry 163
 adka0033_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -3011,7 +3011,7 @@ billbrdbk.dds.png
 #entry 167
 adka0034_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -3029,7 +3029,7 @@ gurdra.dds.png
 #entry 168
 adka0034_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -3101,7 +3101,7 @@ billbrdbk.dds.png
 #entry 172
 adka0035_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -3119,7 +3119,7 @@ gurdra.dds.png
 #entry 173
 adka0035_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -3191,7 +3191,7 @@ billbrdbk.dds.png
 #entry 177
 adka0036_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -3209,7 +3209,7 @@ gurdra.dds.png
 #entry 178
 adka0036_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -3281,7 +3281,7 @@ billbrdbk.dds.png
 #entry 182
 adka0037_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -3299,7 +3299,7 @@ gurdra.dds.png
 #entry 183
 adka0037_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -3371,7 +3371,7 @@ billbrdbk.dds.png
 #entry 187
 adka0038_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -3389,7 +3389,7 @@ gurdra.dds.png
 #entry 188
 adka0038_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -3461,7 +3461,7 @@ billbrdbk.dds.png
 #entry 192
 adka0039_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -3479,7 +3479,7 @@ gurdra.dds.png
 #entry 193
 adka0039_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -3551,7 +3551,7 @@ billbrdbk.dds.png
 #entry 197
 adka0040_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -3569,7 +3569,7 @@ gurdra.dds.png
 #entry 198
 adka0040_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -3641,7 +3641,7 @@ billbrdbk.dds.png
 #entry 202
 adka0041_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -3659,7 +3659,7 @@ gurdra.dds.png
 #entry 203
 adka0041_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -3731,7 +3731,7 @@ billbrdbk.dds.png
 #entry 207
 adka0042_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -3749,7 +3749,7 @@ gurdra.dds.png
 #entry 208
 adka0042_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -3803,7 +3803,7 @@ billbrdbk.dds.png
 #entry 211
 adka0043_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -3821,7 +3821,7 @@ gurdra.dds.png
 #entry 212
 adka0043_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -3875,7 +3875,7 @@ billbrdbk.dds.png
 #entry 215
 adka0044_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -3893,7 +3893,7 @@ gurdra.dds.png
 #entry 216
 adka0044_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -3947,7 +3947,7 @@ billbrdbk.dds.png
 #entry 219
 adka0045_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -3965,7 +3965,7 @@ gurdra.dds.png
 #entry 220
 adka0045_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -4019,7 +4019,7 @@ billbrdbk.dds.png
 #entry 223
 adka0046_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -4037,7 +4037,7 @@ gurdra.dds.png
 #entry 224
 adka0046_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -4091,7 +4091,7 @@ billbrdbk.dds.png
 #entry 227
 adka0047_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -4109,7 +4109,7 @@ gurdra.dds.png
 #entry 228
 adka0047_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -4163,7 +4163,7 @@ billbrdbk.dds.png
 #entry 231
 adka0048_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -4181,7 +4181,7 @@ gurdra.dds.png
 #entry 232
 adka0048_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -4235,7 +4235,7 @@ billbrdbk.dds.png
 #entry 235
 adka0049_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -4253,7 +4253,7 @@ gurdra.dds.png
 #entry 236
 adka0049_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -4307,7 +4307,7 @@ billbrdbk.dds.png
 #entry 239
 adka0050_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -4325,7 +4325,7 @@ gurdra.dds.png
 #entry 240
 adka0050_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -4379,7 +4379,7 @@ billbrdbk.dds.png
 #entry 243
 adka0051_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -4397,7 +4397,7 @@ gurdra.dds.png
 #entry 244
 adka0051_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -4451,7 +4451,7 @@ billbrdbk.dds.png
 #entry 247
 adka0052_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -4469,7 +4469,7 @@ gurdra.dds.png
 #entry 248
 adka0052_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -4523,7 +4523,7 @@ billbrdbk.dds.png
 #entry 251
 adka0053_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -4541,7 +4541,7 @@ gurdra.dds.png
 #entry 252
 adka0053_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -4595,7 +4595,7 @@ billbrdbk.dds.png
 #entry 255
 adka0054_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -4613,7 +4613,7 @@ gurdra.dds.png
 #entry 256
 adka0054_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -4667,7 +4667,7 @@ billbrdbk.dds.png
 #entry 259
 adka0055_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -4685,7 +4685,7 @@ gurdra.dds.png
 #entry 260
 adka0055_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -4739,7 +4739,7 @@ billbrdbk.dds.png
 #entry 263
 adka0056_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -4757,7 +4757,7 @@ gurdra.dds.png
 #entry 264
 adka0056_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -4811,7 +4811,7 @@ billbrdbk.dds.png
 #entry 267
 adka0057_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -4829,7 +4829,7 @@ gurdra.dds.png
 #entry 268
 adka0057_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -4883,7 +4883,7 @@ billbrdbk.dds.png
 #entry 271
 adka0058_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -4901,7 +4901,7 @@ gurdra.dds.png
 #entry 272
 adka0058_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -4955,7 +4955,7 @@ billbrdbk.dds.png
 #entry 275
 adka0059_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -4973,7 +4973,7 @@ gurdra.dds.png
 #entry 276
 adka0059_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -5027,7 +5027,7 @@ billbrdbk.dds.png
 #entry 279
 adka0060_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -5045,7 +5045,7 @@ gurdra.dds.png
 #entry 280
 adka0060_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -5099,7 +5099,7 @@ billbrdbk.dds.png
 #entry 283
 adka0061_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -5117,7 +5117,7 @@ gurdra.dds.png
 #entry 284
 adka0061_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -5189,7 +5189,7 @@ billbrdbk.dds.png
 #entry 288
 adka0062_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -5207,7 +5207,7 @@ gurdra.dds.png
 #entry 289
 adka0062_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -5279,7 +5279,7 @@ billbrdbk.dds.png
 #entry 293
 adka0063_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -5297,7 +5297,7 @@ gurdra.dds.png
 #entry 294
 adka0063_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -5351,7 +5351,7 @@ billbrdbk.dds.png
 #entry 297
 adka0064_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -5369,7 +5369,7 @@ gurdra.dds.png
 #entry 298
 adka0064_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -5423,7 +5423,7 @@ billbrdbk.dds.png
 #entry 301
 adka0065_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -5441,7 +5441,7 @@ gurdra.dds.png
 #entry 302
 adka0065_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -5495,7 +5495,7 @@ billbrdbk.dds.png
 #entry 305
 adka0066_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -5513,7 +5513,7 @@ gurdra.dds.png
 #entry 306
 adka0066_gurdrc.dof-00.joe
 gurdrc.dds.png
-1
+0
 0
 0
 0
@@ -5567,7 +5567,7 @@ ad_pana_over.dds.png
 #entry 309
 adov0067_greengrid.dof-00.joe
 gridworkb.dds.png
-0
+1
 0
 0
 2
@@ -5603,7 +5603,7 @@ ad_allianz_over.dds.png
 #entry 311
 adov0068_greengrid.dof-00.joe
 gridworkb.dds.png
-0
+1
 0
 0
 2
@@ -5639,7 +5639,7 @@ ad_rbs_over.dds.png
 #entry 313
 adov0069_greengrid.dof-00.joe
 gridworkb.dds.png
-0
+1
 0
 0
 2
@@ -5675,7 +5675,7 @@ ad_bs_over.dds.png
 #entry 315
 adov0070_greengrid.dof-00.joe
 gridworkb.dds.png
-0
+1
 0
 0
 2
@@ -5711,7 +5711,7 @@ ad_ing_over.dds.png
 #entry 317
 adov0071_greengrid.dof-00.joe
 gridworkb.dds.png
-0
+1
 0
 0
 2
@@ -5747,7 +5747,7 @@ ad_fujitv01.dds.png
 #entry 319
 adsm0072_signgridwork.dof-00.joe
 bbrdframe.dds.png
-0
+1
 0
 0
 2
@@ -5801,7 +5801,7 @@ ad_fujitv01.dds.png
 #entry 322
 adsm0073_signgridwork.dof-00.joe
 bbrdframe.dds.png
-0
+1
 0
 0
 2
@@ -5873,7 +5873,7 @@ ad_pana_over.dds.png
 #entry 326
 adsm0074_signgridwork.dof-00.joe
 bbrdframe.dds.png
-0
+1
 0
 0
 2
@@ -5945,7 +5945,7 @@ ad_pana_over.dds.png
 #entry 330
 adsm0075_signgridwork.dof-00.joe
 bbrdframe.dds.png
-0
+1
 0
 0
 2
@@ -5999,7 +5999,7 @@ ad_pana_over.dds.png
 #entry 333
 adsm0076_signgridwork.dof-00.joe
 bbrdframe.dds.png
-0
+1
 0
 0
 2
@@ -6053,7 +6053,7 @@ ad_pana_over.dds.png
 #entry 336
 adsm0077_signgridwork.dof-00.joe
 bbrdframe.dds.png
-0
+1
 0
 0
 2
@@ -6107,7 +6107,7 @@ ad_pana_over.dds.png
 #entry 339
 adsm0078_signgridwork.dof-00.joe
 bbrdframe.dds.png
-0
+1
 0
 0
 2
@@ -6161,7 +6161,7 @@ ad_pana_over.dds.png
 #entry 342
 adsm0079_signgridwork.dof-00.joe
 bbrdframe.dds.png
-0
+1
 0
 0
 2
@@ -6215,7 +6215,7 @@ ad_fujitv01.dds.png
 #entry 345
 adsm0080_signgridwork.dof-00.joe
 bbrdframe.dds.png
-0
+1
 0
 0
 2
@@ -6269,7 +6269,7 @@ ad_fujitv01.dds.png
 #entry 348
 adsm0081_signgridwork.dof-00.joe
 bbrdframe.dds.png
-0
+1
 0
 0
 2
@@ -7763,7 +7763,7 @@ fswlogo.dds.png
 #entry 431
 ct0105_roofstuffa.dof-00.joe
 roofstuffa.dds.png
-0
+1
 0
 0
 0
@@ -36545,7 +36545,7 @@ rfactorsimplestructure.dds.png
 #entry 2030
 gara1615_isipipespit.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -36581,7 +36581,7 @@ isiovrhdlght.dds.png
 #entry 2032
 gara1616_isipipespit.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -36617,7 +36617,7 @@ isiovrhdlght.dds.png
 #entry 2034
 gara1617_isipipespit.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -36653,7 +36653,7 @@ isiovrhdlght.dds.png
 #entry 2036
 gara1618_isipipespit.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -36689,7 +36689,7 @@ isiovrhdlght.dds.png
 #entry 2038
 gara1619_isipipespit.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -36725,7 +36725,7 @@ isiovrhdlght.dds.png
 #entry 2040
 gara1620_isipipespit.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -36761,7 +36761,7 @@ isiovrhdlght.dds.png
 #entry 2042
 gara1621_isipipespit.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -36797,7 +36797,7 @@ isiovrhdlght.dds.png
 #entry 2044
 gara1622_isipipespit.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -36833,7 +36833,7 @@ isiovrhdlght.dds.png
 #entry 2046
 gara1623_isipipespit.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -36869,7 +36869,7 @@ isiovrhdlght.dds.png
 #entry 2048
 gara1624_isipipespit.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -36905,7 +36905,7 @@ isiovrhdlght.dds.png
 #entry 2050
 gara1625_isipipespit.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -36941,7 +36941,7 @@ isiovrhdlght.dds.png
 #entry 2052
 gara1626_isipipespit.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -36977,7 +36977,7 @@ isiovrhdlght.dds.png
 #entry 2054
 gara1627_isipipespit.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -37013,7 +37013,7 @@ isiovrhdlght.dds.png
 #entry 2056
 gara1628_isipipespit.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -37049,7 +37049,7 @@ isiovrhdlght.dds.png
 #entry 2058
 gara1629_isipipespit.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -39569,7 +39569,7 @@ ad_fuji_over.dds.png
 #entry 2198
 home1693_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -39623,7 +39623,7 @@ ad_fuji_over.dds.png
 #entry 2201
 home1694_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -39659,7 +39659,7 @@ rfactorpedside.dds.png
 #entry 2203
 home1695_gurdra.dof-00.joe
 gurdra.dds.png
-1
+0
 0
 0
 0
@@ -48821,7 +48821,7 @@ cmwl02.dds.png
 #entry 2712
 mpos1943_mpostpipes.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -49001,7 +49001,7 @@ cmwl02.dds.png
 #entry 2722
 mpos1944_mpostpipes.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -49181,7 +49181,7 @@ cmwl02.dds.png
 #entry 2732
 mpos1945_mpostpipes.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -49361,7 +49361,7 @@ cmwl02.dds.png
 #entry 2742
 mpos1946_mpostpipes.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -49541,7 +49541,7 @@ cmwl02.dds.png
 #entry 2752
 mpos1947_mpostpipes.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -49721,7 +49721,7 @@ cmwl02.dds.png
 #entry 2762
 mpos1948_mpostpipes.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -49901,7 +49901,7 @@ cmwl02.dds.png
 #entry 2772
 mpos1949_mpostpipes.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -50081,7 +50081,7 @@ cmwl02.dds.png
 #entry 2782
 mpos1950_mpostpipes.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -50261,7 +50261,7 @@ cmwl02.dds.png
 #entry 2792
 mpos1951_mpostpipes.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -50441,7 +50441,7 @@ cmwl02.dds.png
 #entry 2802
 mpos1952_mpostpipes.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -50621,7 +50621,7 @@ cmwl02.dds.png
 #entry 2812
 mpos1953_mpostpipes.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -50801,7 +50801,7 @@ cmwl02.dds.png
 #entry 2822
 mpos1954_mpostpipes.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -50981,7 +50981,7 @@ cmwl02.dds.png
 #entry 2832
 mpos1955_mpostpipes.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -51161,7 +51161,7 @@ cmwl02.dds.png
 #entry 2842
 mpos1956_mpostpipes.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -51341,7 +51341,7 @@ cmwl02.dds.png
 #entry 2852
 mpos1957_mpostpipes.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -51521,7 +51521,7 @@ cmwl02.dds.png
 #entry 2862
 mpos1958_mpostpipes.dof-00.joe
 isipipes.dds.png
-0
+1
 0
 0
 0
@@ -66677,7 +66677,7 @@ blackcase.dds.png
 #entry 3704
 scor2525_scoretower_s.dof-00.joe
 gridworkb.dds.png
-0
+1
 0
 0
 2
@@ -68621,7 +68621,7 @@ gstandfloora.dds.png
 #entry 3812
 stan2586_gstand_frame.dof-00.joe
 gridwork.dds.png
-0
+1
 0
 0
 2
@@ -68765,7 +68765,7 @@ gstandfloora.dds.png
 #entry 3820
 stan2587_gstand_frame.dof-00.joe
 gridwork.dds.png
-0
+1
 0
 0
 2
@@ -68891,7 +68891,7 @@ gstandfloora.dds.png
 #entry 3827
 stan2588_gstand_frame.dof-00.joe
 gridwork.dds.png
-0
+1
 0
 0
 2
@@ -69017,7 +69017,7 @@ gstandfloora.dds.png
 #entry 3834
 stan2589_gstand_frame.dof-00.joe
 gridwork.dds.png
-0
+1
 0
 0
 2
@@ -69143,7 +69143,7 @@ gstandfloora.dds.png
 #entry 3841
 stan2590_gstand_frame.dof-00.joe
 gridwork.dds.png
-0
+1
 0
 0
 2
@@ -69269,7 +69269,7 @@ gstandfloora.dds.png
 #entry 3848
 stan2591_gstand_frame.dof-00.joe
 gridwork.dds.png
-0
+1
 0
 0
 2
@@ -69395,7 +69395,7 @@ gstandfloora.dds.png
 #entry 3855
 stan2592_gstand_frame.dof-00.joe
 gridwork.dds.png
-0
+1
 0
 0
 2
@@ -69521,7 +69521,7 @@ gstandfloora.dds.png
 #entry 3862
 stan2593_gstand_frame.dof-00.joe
 gridwork.dds.png
-0
+1
 0
 0
 2
@@ -69647,7 +69647,7 @@ gstandfloora.dds.png
 #entry 3869
 stan2594_gstand_frame.dof-00.joe
 gridwork.dds.png
-0
+1
 0
 0
 2
@@ -69773,7 +69773,7 @@ gstandfloora.dds.png
 #entry 3876
 stan2595_gstand_frame.dof-00.joe
 gridwork.dds.png
-0
+1
 0
 0
 2
@@ -69899,7 +69899,7 @@ gstandfloora.dds.png
 #entry 3883
 stan2596_gstand_frame.dof-00.joe
 gridwork.dds.png
-0
+1
 0
 0
 2
@@ -70025,7 +70025,7 @@ gstandfloora.dds.png
 #entry 3890
 stan2597_gstand_frame.dof-00.joe
 gridwork.dds.png
-0
+1
 0
 0
 2
@@ -70151,7 +70151,7 @@ gstandfloora.dds.png
 #entry 3897
 stan2598_gstand_frame.dof-00.joe
 gridwork.dds.png
-0
+1
 0
 0
 2
@@ -70277,7 +70277,7 @@ gstandfloora.dds.png
 #entry 3904
 stan2599_gstand_frame.dof-00.joe
 gridwork.dds.png
-0
+1
 0
 0
 2
@@ -70403,7 +70403,7 @@ gstandfloora.dds.png
 #entry 3911
 stan2600_gstand_frame.dof-00.joe
 gridwork.dds.png
-0
+1
 0
 0
 2
@@ -70529,7 +70529,7 @@ gstandfloora.dds.png
 #entry 3918
 stan2601_gstand_frame.dof-00.joe
 gridwork.dds.png
-0
+1
 0
 0
 2
@@ -70655,7 +70655,7 @@ gstandfloora.dds.png
 #entry 3925
 stan2602_gstand_frame.dof-00.joe
 gridwork.dds.png
-0
+1
 0
 0
 2
@@ -70781,7 +70781,7 @@ gstandfloora.dds.png
 #entry 3932
 stan2603_gstand_frame.dof-00.joe
 gridwork.dds.png
-0
+1
 0
 0
 2
@@ -70907,7 +70907,7 @@ gstandfloora.dds.png
 #entry 3939
 stan2604_gstand_frame.dof-00.joe
 gridwork.dds.png
-0
+1
 0
 0
 2
@@ -71033,7 +71033,7 @@ gstandfloora.dds.png
 #entry 3946
 stan2605_gstand_frame.dof-00.joe
 gridwork.dds.png
-0
+1
 0
 0
 2
@@ -71159,7 +71159,7 @@ gstandfloora.dds.png
 #entry 3953
 stan2606_gstand_frame.dof-00.joe
 gridwork.dds.png
-0
+1
 0
 0
 2
@@ -71285,7 +71285,7 @@ gstandfloora.dds.png
 #entry 3960
 stan2607_gstand_frame.dof-00.joe
 gridwork.dds.png
-0
+1
 0
 0
 2
@@ -71411,7 +71411,7 @@ gstandfloora.dds.png
 #entry 3967
 stan2608_gstand_frame.dof-00.joe
 gridwork.dds.png
-0
+1
 0
 0
 2
@@ -72599,7 +72599,7 @@ tentside.dds.png
 #entry 4033
 toir2629_toireframe.dof-00.joe
 bbrdframe.dds.png
-0
+1
 0
 0
 2
@@ -72617,7 +72617,7 @@ bbrdframe.dds.png
 #entry 4034
 toir2630_toireframe.dof-00.joe
 bbrdframe.dds.png
-0
+1
 0
 0
 2
@@ -72635,7 +72635,7 @@ bbrdframe.dds.png
 #entry 4035
 toir2631_toireframe.dof-00.joe
 bbrdframe.dds.png
-0
+1
 0
 0
 2
@@ -72653,7 +72653,7 @@ bbrdframe.dds.png
 #entry 4036
 toir2632_toireframe.dof-00.joe
 bbrdframe.dds.png
-0
+1
 0
 0
 2
@@ -72671,7 +72671,7 @@ bbrdframe.dds.png
 #entry 4037
 toir2633_toireframe.dof-00.joe
 bbrdframe.dds.png
-0
+1
 0
 0
 2
