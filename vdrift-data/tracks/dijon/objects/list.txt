@@ -455,7 +455,7 @@ sky.tga.png
 #entry 25
 conc001.dof-00.joe
 roadj.bmp.png
-1
+0
 0
 0
 0
@@ -473,7 +473,7 @@ roadj.bmp.png
 #entry 26
 conc002.dof-00.joe
 roadj.bmp.png
-1
+0
 0
 0
 0
@@ -491,7 +491,7 @@ roadj.bmp.png
 #entry 27
 conc003.dof-00.joe
 roadj.bmp.png
-1
+0
 0
 0
 0
@@ -7583,7 +7583,7 @@ gravel.bmp.png
 #entry 421
 lina001.dof-00.joe
 roade.bmp.png
-1
+0
 0
 0
 0
@@ -7601,7 +7601,7 @@ roade.bmp.png
 #entry 422
 lina002.dof-00.joe
 roade.bmp.png
-1
+0
 0
 0
 0
@@ -7619,7 +7619,7 @@ roade.bmp.png
 #entry 423
 lina003.dof-00.joe
 roade.bmp.png
-1
+0
 0
 0
 0
@@ -7637,7 +7637,7 @@ roade.bmp.png
 #entry 424
 lina004.dof-00.joe
 roade.bmp.png
-1
+0
 0
 0
 0
@@ -7655,7 +7655,7 @@ roade.bmp.png
 #entry 425
 lina005.dof-00.joe
 roade.bmp.png
-1
+0
 0
 0
 0
@@ -7673,7 +7673,7 @@ roade.bmp.png
 #entry 426
 lina006.dof-00.joe
 roade.bmp.png
-1
+0
 0
 0
 0
@@ -7691,7 +7691,7 @@ roade.bmp.png
 #entry 427
 lina007.dof-00.joe
 roade.bmp.png
-1
+0
 0
 0
 0
@@ -7709,7 +7709,7 @@ roade.bmp.png
 #entry 428
 lina008.dof-00.joe
 roade.bmp.png
-1
+0
 0
 0
 0
@@ -7727,7 +7727,7 @@ roade.bmp.png
 #entry 429
 lina009.dof-00.joe
 roade.bmp.png
-1
+0
 0
 0
 0
@@ -7745,7 +7745,7 @@ roade.bmp.png
 #entry 430
 lina010.dof-00.joe
 roade.bmp.png
-1
+0
 0
 0
 0
@@ -7763,7 +7763,7 @@ roade.bmp.png
 #entry 431
 lina011.dof-00.joe
 roade.bmp.png
-1
+0
 0
 0
 0
@@ -7781,7 +7781,7 @@ roade.bmp.png
 #entry 432
 linb001.dof-00.joe
 roadf.bmp.png
-1
+0
 0
 0
 0
@@ -7799,7 +7799,7 @@ roadf.bmp.png
 #entry 433
 linb002.dof-00.joe
 roadf.bmp.png
-1
+0
 0
 0
 0
@@ -7817,7 +7817,7 @@ roadf.bmp.png
 #entry 434
 linb003.dof-00.joe
 roadf.bmp.png
-1
+0
 0
 0
 0
@@ -7835,7 +7835,7 @@ roadf.bmp.png
 #entry 435
 linb004.dof-00.joe
 roadf.bmp.png
-1
+0
 0
 0
 0
@@ -7853,7 +7853,7 @@ roadf.bmp.png
 #entry 436
 linc001.dof-00.joe
 roadg.bmp.png
-1
+0
 0
 0
 0
@@ -7871,7 +7871,7 @@ roadg.bmp.png
 #entry 437
 linc002.dof-00.joe
 roadg.bmp.png
-1
+0
 0
 0
 0
@@ -7889,7 +7889,7 @@ roadg.bmp.png
 #entry 438
 linc003.dof-00.joe
 roadg.bmp.png
-1
+0
 0
 0
 0
@@ -7907,7 +7907,7 @@ roadg.bmp.png
 #entry 439
 linc004.dof-00.joe
 roadg.bmp.png
-1
+0
 0
 0
 0
@@ -7925,7 +7925,7 @@ roadg.bmp.png
 #entry 440
 lind001.dof-00.joe
 roadh.bmp.png
-1
+0
 0
 0
 0
@@ -7943,7 +7943,7 @@ roadh.bmp.png
 #entry 441
 lind002.dof-00.joe
 roadh.bmp.png
-1
+0
 0
 0
 0
@@ -7961,7 +7961,7 @@ roadh.bmp.png
 #entry 442
 lind003.dof-00.joe
 roadh.bmp.png
-1
+0
 0
 0
 0
@@ -7979,7 +7979,7 @@ roadh.bmp.png
 #entry 443
 line001.dof-00.joe
 roadi.bmp.png
-1
+0
 0
 0
 1
@@ -11813,7 +11813,7 @@ rs1.bmp.png
 #entry 656
 side001.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -11831,7 +11831,7 @@ roadd.bmp.png
 #entry 657
 side002.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -11849,7 +11849,7 @@ roadd.bmp.png
 #entry 658
 side003.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -11867,7 +11867,7 @@ roadd.bmp.png
 #entry 659
 side004.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -11885,7 +11885,7 @@ roadd.bmp.png
 #entry 660
 side005.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -11903,7 +11903,7 @@ roadd.bmp.png
 #entry 661
 side006.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -11921,7 +11921,7 @@ roadd.bmp.png
 #entry 662
 side007.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -11939,7 +11939,7 @@ roadd.bmp.png
 #entry 663
 side008.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -11957,7 +11957,7 @@ roadd.bmp.png
 #entry 664
 side009.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -11975,7 +11975,7 @@ roadd.bmp.png
 #entry 665
 side010.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -11993,7 +11993,7 @@ roadd.bmp.png
 #entry 666
 side011.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12011,7 +12011,7 @@ roadd.bmp.png
 #entry 667
 side012.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12029,7 +12029,7 @@ roadd.bmp.png
 #entry 668
 side013.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12047,7 +12047,7 @@ roadd.bmp.png
 #entry 669
 side014.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12065,7 +12065,7 @@ roadd.bmp.png
 #entry 670
 side015.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12083,7 +12083,7 @@ roadd.bmp.png
 #entry 671
 side016.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12101,7 +12101,7 @@ roadd.bmp.png
 #entry 672
 side017.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12119,7 +12119,7 @@ roadd.bmp.png
 #entry 673
 side018.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12137,7 +12137,7 @@ roadd.bmp.png
 #entry 674
 side019.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12155,7 +12155,7 @@ roadd.bmp.png
 #entry 675
 side020.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12173,7 +12173,7 @@ roadd.bmp.png
 #entry 676
 side021.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12191,7 +12191,7 @@ roadd.bmp.png
 #entry 677
 side022.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12209,7 +12209,7 @@ roadd.bmp.png
 #entry 678
 side023.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12227,7 +12227,7 @@ roadd.bmp.png
 #entry 679
 side024.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12245,7 +12245,7 @@ roadd.bmp.png
 #entry 680
 side025.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12263,7 +12263,7 @@ roadd.bmp.png
 #entry 681
 side026.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12281,7 +12281,7 @@ roadd.bmp.png
 #entry 682
 side027.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12299,7 +12299,7 @@ roadd.bmp.png
 #entry 683
 side028.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12317,7 +12317,7 @@ roadd.bmp.png
 #entry 684
 side029.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12335,7 +12335,7 @@ roadd.bmp.png
 #entry 685
 side030.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12353,7 +12353,7 @@ roadd.bmp.png
 #entry 686
 side031.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12371,7 +12371,7 @@ roadd.bmp.png
 #entry 687
 side032.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12389,7 +12389,7 @@ roadd.bmp.png
 #entry 688
 side033.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12407,7 +12407,7 @@ roadd.bmp.png
 #entry 689
 side034.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12425,7 +12425,7 @@ roadd.bmp.png
 #entry 690
 side035.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12443,7 +12443,7 @@ roadd.bmp.png
 #entry 691
 side036.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12461,7 +12461,7 @@ roadd.bmp.png
 #entry 692
 side037.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12479,7 +12479,7 @@ roadd.bmp.png
 #entry 693
 side038.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12497,7 +12497,7 @@ roadd.bmp.png
 #entry 694
 side039.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12515,7 +12515,7 @@ roadd.bmp.png
 #entry 695
 side040.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12533,7 +12533,7 @@ roadd.bmp.png
 #entry 696
 side041.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12551,7 +12551,7 @@ roadd.bmp.png
 #entry 697
 side042.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12569,7 +12569,7 @@ roadd.bmp.png
 #entry 698
 side043.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12587,7 +12587,7 @@ roadd.bmp.png
 #entry 699
 side044.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12605,7 +12605,7 @@ roadd.bmp.png
 #entry 700
 side045.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12623,7 +12623,7 @@ roadd.bmp.png
 #entry 701
 side046.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12641,7 +12641,7 @@ roadd.bmp.png
 #entry 702
 side047.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12659,7 +12659,7 @@ roadd.bmp.png
 #entry 703
 side048.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12677,7 +12677,7 @@ roadd.bmp.png
 #entry 704
 side049.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12695,7 +12695,7 @@ roadd.bmp.png
 #entry 705
 side050.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12713,7 +12713,7 @@ roadd.bmp.png
 #entry 706
 side051.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12731,7 +12731,7 @@ roadd.bmp.png
 #entry 707
 side052.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12749,7 +12749,7 @@ roadd.bmp.png
 #entry 708
 side053.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12767,7 +12767,7 @@ roadd.bmp.png
 #entry 709
 side054.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12785,7 +12785,7 @@ roadd.bmp.png
 #entry 710
 side055.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12803,7 +12803,7 @@ roadd.bmp.png
 #entry 711
 side056.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12821,7 +12821,7 @@ roadd.bmp.png
 #entry 712
 side057.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12839,7 +12839,7 @@ roadd.bmp.png
 #entry 713
 side058.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12857,7 +12857,7 @@ roadd.bmp.png
 #entry 714
 side059.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12875,7 +12875,7 @@ roadd.bmp.png
 #entry 715
 side060.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12893,7 +12893,7 @@ roadd.bmp.png
 #entry 716
 side061.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12911,7 +12911,7 @@ roadd.bmp.png
 #entry 717
 side062.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12929,7 +12929,7 @@ roadd.bmp.png
 #entry 718
 side063.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12947,7 +12947,7 @@ roadd.bmp.png
 #entry 719
 side064.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12965,7 +12965,7 @@ roadd.bmp.png
 #entry 720
 side065.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -12983,7 +12983,7 @@ roadd.bmp.png
 #entry 721
 side066.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13001,7 +13001,7 @@ roadd.bmp.png
 #entry 722
 side067.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13019,7 +13019,7 @@ roadd.bmp.png
 #entry 723
 side068.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13037,7 +13037,7 @@ roadd.bmp.png
 #entry 724
 side069.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13055,7 +13055,7 @@ roadd.bmp.png
 #entry 725
 side070.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13073,7 +13073,7 @@ roadd.bmp.png
 #entry 726
 side071.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13091,7 +13091,7 @@ roadd.bmp.png
 #entry 727
 side072.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13109,7 +13109,7 @@ roadd.bmp.png
 #entry 728
 side073.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13127,7 +13127,7 @@ roadd.bmp.png
 #entry 729
 side074.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13145,7 +13145,7 @@ roadd.bmp.png
 #entry 730
 side075.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13163,7 +13163,7 @@ roadd.bmp.png
 #entry 731
 side076.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13181,7 +13181,7 @@ roadd.bmp.png
 #entry 732
 side077.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13199,7 +13199,7 @@ roadd.bmp.png
 #entry 733
 side078.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13217,7 +13217,7 @@ roadd.bmp.png
 #entry 734
 side079.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13235,7 +13235,7 @@ roadd.bmp.png
 #entry 735
 side080.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13253,7 +13253,7 @@ roadd.bmp.png
 #entry 736
 side081.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13271,7 +13271,7 @@ roadd.bmp.png
 #entry 737
 side082.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13289,7 +13289,7 @@ roadd.bmp.png
 #entry 738
 side083.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13307,7 +13307,7 @@ roadd.bmp.png
 #entry 739
 side084.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13325,7 +13325,7 @@ roadd.bmp.png
 #entry 740
 side085.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13343,7 +13343,7 @@ roadd.bmp.png
 #entry 741
 side086.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13361,7 +13361,7 @@ roadd.bmp.png
 #entry 742
 side087.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13379,7 +13379,7 @@ roadd.bmp.png
 #entry 743
 side088.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13397,7 +13397,7 @@ roadd.bmp.png
 #entry 744
 side089.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13415,7 +13415,7 @@ roadd.bmp.png
 #entry 745
 side090.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13433,7 +13433,7 @@ roadd.bmp.png
 #entry 746
 side091.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13451,7 +13451,7 @@ roadd.bmp.png
 #entry 747
 side092.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13469,7 +13469,7 @@ roadd.bmp.png
 #entry 748
 side093.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13487,7 +13487,7 @@ roadd.bmp.png
 #entry 749
 side094.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13505,7 +13505,7 @@ roadd.bmp.png
 #entry 750
 side095.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13523,7 +13523,7 @@ roadd.bmp.png
 #entry 751
 side096.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13541,7 +13541,7 @@ roadd.bmp.png
 #entry 752
 side097.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13559,7 +13559,7 @@ roadd.bmp.png
 #entry 753
 side098.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13577,7 +13577,7 @@ roadd.bmp.png
 #entry 754
 side099.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13595,7 +13595,7 @@ roadd.bmp.png
 #entry 755
 side100.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13613,7 +13613,7 @@ roadd.bmp.png
 #entry 756
 side101.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13631,7 +13631,7 @@ roadd.bmp.png
 #entry 757
 side102.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13649,7 +13649,7 @@ roadd.bmp.png
 #entry 758
 side103.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13667,7 +13667,7 @@ roadd.bmp.png
 #entry 759
 side104.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13685,7 +13685,7 @@ roadd.bmp.png
 #entry 760
 side105.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13703,7 +13703,7 @@ roadd.bmp.png
 #entry 761
 side106.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13721,7 +13721,7 @@ roadd.bmp.png
 #entry 762
 side107.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13739,7 +13739,7 @@ roadd.bmp.png
 #entry 763
 side108.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13757,7 +13757,7 @@ roadd.bmp.png
 #entry 764
 side109.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13775,7 +13775,7 @@ roadd.bmp.png
 #entry 765
 side110.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13793,7 +13793,7 @@ roadd.bmp.png
 #entry 766
 side111.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13811,7 +13811,7 @@ roadd.bmp.png
 #entry 767
 side112.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13829,7 +13829,7 @@ roadd.bmp.png
 #entry 768
 side113.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13847,7 +13847,7 @@ roadd.bmp.png
 #entry 769
 side114.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13865,7 +13865,7 @@ roadd.bmp.png
 #entry 770
 side115.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13883,7 +13883,7 @@ roadd.bmp.png
 #entry 771
 side116.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13901,7 +13901,7 @@ roadd.bmp.png
 #entry 772
 side117.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13919,7 +13919,7 @@ roadd.bmp.png
 #entry 773
 side118.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13937,7 +13937,7 @@ roadd.bmp.png
 #entry 774
 side119.dof-00.joe
 roadd.bmp.png
-1
+0
 0
 0
 0
@@ -13955,7 +13955,7 @@ roadd.bmp.png
 #entry 775
 trak001.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -13973,7 +13973,7 @@ roadb.bmp.png
 #entry 776
 trak002.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -13991,7 +13991,7 @@ roadb.bmp.png
 #entry 777
 trak003.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14009,7 +14009,7 @@ roadb.bmp.png
 #entry 778
 trak004.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14027,7 +14027,7 @@ roadb.bmp.png
 #entry 779
 trak005.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14045,7 +14045,7 @@ roadb.bmp.png
 #entry 780
 trak006.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14063,7 +14063,7 @@ roadb.bmp.png
 #entry 781
 trak007.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14081,7 +14081,7 @@ roadb.bmp.png
 #entry 782
 trak008.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14099,7 +14099,7 @@ roadb.bmp.png
 #entry 783
 trak009.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14117,7 +14117,7 @@ roadb.bmp.png
 #entry 784
 trak010.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14135,7 +14135,7 @@ roadb.bmp.png
 #entry 785
 trak011.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14153,7 +14153,7 @@ roadb.bmp.png
 #entry 786
 trak012.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14171,7 +14171,7 @@ roadb.bmp.png
 #entry 787
 trak013.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14189,7 +14189,7 @@ roadb.bmp.png
 #entry 788
 trak014.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14207,7 +14207,7 @@ roadb.bmp.png
 #entry 789
 trak015.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14225,7 +14225,7 @@ roadb.bmp.png
 #entry 790
 trak016.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14243,7 +14243,7 @@ roadb.bmp.png
 #entry 791
 trak017.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14261,7 +14261,7 @@ roadb.bmp.png
 #entry 792
 trak018.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14279,7 +14279,7 @@ roadb.bmp.png
 #entry 793
 trak019.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14297,7 +14297,7 @@ roadb.bmp.png
 #entry 794
 trak020.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14315,7 +14315,7 @@ roadb.bmp.png
 #entry 795
 trak021.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14333,7 +14333,7 @@ roadb.bmp.png
 #entry 796
 trak022.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14351,7 +14351,7 @@ roadb.bmp.png
 #entry 797
 trak023.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14369,7 +14369,7 @@ roadb.bmp.png
 #entry 798
 trak024.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14387,7 +14387,7 @@ roadb.bmp.png
 #entry 799
 trak025.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14405,7 +14405,7 @@ roadb.bmp.png
 #entry 800
 trak026.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14423,7 +14423,7 @@ roadb.bmp.png
 #entry 801
 trak027.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14441,7 +14441,7 @@ roadb.bmp.png
 #entry 802
 trak028.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14459,7 +14459,7 @@ roadb.bmp.png
 #entry 803
 trak029.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14477,7 +14477,7 @@ roadb.bmp.png
 #entry 804
 trak030.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14495,7 +14495,7 @@ roadb.bmp.png
 #entry 805
 trak031.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14513,7 +14513,7 @@ roadb.bmp.png
 #entry 806
 trak032.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14531,7 +14531,7 @@ roadb.bmp.png
 #entry 807
 trak033.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14549,7 +14549,7 @@ roadb.bmp.png
 #entry 808
 trak034.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14567,7 +14567,7 @@ roadb.bmp.png
 #entry 809
 trak035.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14585,7 +14585,7 @@ roadb.bmp.png
 #entry 810
 trak036.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14603,7 +14603,7 @@ roadb.bmp.png
 #entry 811
 trak037.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14621,7 +14621,7 @@ roadb.bmp.png
 #entry 812
 trak038.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14639,7 +14639,7 @@ roadb.bmp.png
 #entry 813
 trak039.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14657,7 +14657,7 @@ roadb.bmp.png
 #entry 814
 trak040.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14675,7 +14675,7 @@ roadb.bmp.png
 #entry 815
 trak041.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14693,7 +14693,7 @@ roadb.bmp.png
 #entry 816
 trak042.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14711,7 +14711,7 @@ roadb.bmp.png
 #entry 817
 trak043.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14729,7 +14729,7 @@ roadb.bmp.png
 #entry 818
 trak044.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14747,7 +14747,7 @@ roadb.bmp.png
 #entry 819
 trak045.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14765,7 +14765,7 @@ roadb.bmp.png
 #entry 820
 trak046.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14783,7 +14783,7 @@ roadb.bmp.png
 #entry 821
 trak047.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14801,7 +14801,7 @@ roadb.bmp.png
 #entry 822
 trak048.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14819,7 +14819,7 @@ roadb.bmp.png
 #entry 823
 trak049.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14837,7 +14837,7 @@ roadb.bmp.png
 #entry 824
 trak050.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14855,7 +14855,7 @@ roadb.bmp.png
 #entry 825
 trak051.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14873,7 +14873,7 @@ roadb.bmp.png
 #entry 826
 trak052.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14891,7 +14891,7 @@ roadb.bmp.png
 #entry 827
 trak053.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14909,7 +14909,7 @@ roadb.bmp.png
 #entry 828
 trak054.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14927,7 +14927,7 @@ roadb.bmp.png
 #entry 829
 trak055.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14945,7 +14945,7 @@ roadb.bmp.png
 #entry 830
 trak056.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14963,7 +14963,7 @@ roadb.bmp.png
 #entry 831
 trak057.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14981,7 +14981,7 @@ roadb.bmp.png
 #entry 832
 trak058.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -14999,7 +14999,7 @@ roadb.bmp.png
 #entry 833
 trak059.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15017,7 +15017,7 @@ roadb.bmp.png
 #entry 834
 trak060.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15035,7 +15035,7 @@ roadb.bmp.png
 #entry 835
 trak061.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15053,7 +15053,7 @@ roadb.bmp.png
 #entry 836
 trak062.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15071,7 +15071,7 @@ roadb.bmp.png
 #entry 837
 trak063.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15089,7 +15089,7 @@ roadb.bmp.png
 #entry 838
 trak064.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15107,7 +15107,7 @@ roadb.bmp.png
 #entry 839
 trak065.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15125,7 +15125,7 @@ roadb.bmp.png
 #entry 840
 trak066.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15143,7 +15143,7 @@ roadb.bmp.png
 #entry 841
 trak067.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15161,7 +15161,7 @@ roadb.bmp.png
 #entry 842
 trak068.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15179,7 +15179,7 @@ roadb.bmp.png
 #entry 843
 trak069.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15197,7 +15197,7 @@ roadb.bmp.png
 #entry 844
 trak070.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15215,7 +15215,7 @@ roadb.bmp.png
 #entry 845
 trak071.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15233,7 +15233,7 @@ roadb.bmp.png
 #entry 846
 trak072.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15251,7 +15251,7 @@ roadb.bmp.png
 #entry 847
 trak073.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15269,7 +15269,7 @@ roadb.bmp.png
 #entry 848
 trak074.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15287,7 +15287,7 @@ roadb.bmp.png
 #entry 849
 trak075.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15305,7 +15305,7 @@ roadb.bmp.png
 #entry 850
 trak076.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15323,7 +15323,7 @@ roadb.bmp.png
 #entry 851
 trak077.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15341,7 +15341,7 @@ roadb.bmp.png
 #entry 852
 trak078.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15359,7 +15359,7 @@ roadb.bmp.png
 #entry 853
 trak079.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15377,7 +15377,7 @@ roadb.bmp.png
 #entry 854
 trak080.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15395,7 +15395,7 @@ roadb.bmp.png
 #entry 855
 trak081.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15413,7 +15413,7 @@ roadb.bmp.png
 #entry 856
 trak082.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15431,7 +15431,7 @@ roadb.bmp.png
 #entry 857
 trak083.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15449,7 +15449,7 @@ roadb.bmp.png
 #entry 858
 trak084.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15467,7 +15467,7 @@ roadb.bmp.png
 #entry 859
 trak085.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15485,7 +15485,7 @@ roadb.bmp.png
 #entry 860
 trak086.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15503,7 +15503,7 @@ roadb.bmp.png
 #entry 861
 trak087.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15521,7 +15521,7 @@ roadb.bmp.png
 #entry 862
 trak088.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15539,7 +15539,7 @@ roadb.bmp.png
 #entry 863
 trak089.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15557,7 +15557,7 @@ roadb.bmp.png
 #entry 864
 trak090.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15575,7 +15575,7 @@ roadb.bmp.png
 #entry 865
 trak091.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15593,7 +15593,7 @@ roadb.bmp.png
 #entry 866
 trak092.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15611,7 +15611,7 @@ roadb.bmp.png
 #entry 867
 trak093.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15629,7 +15629,7 @@ roadb.bmp.png
 #entry 868
 trak094.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15647,7 +15647,7 @@ roadb.bmp.png
 #entry 869
 trak095.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15665,7 +15665,7 @@ roadb.bmp.png
 #entry 870
 trak096.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15683,7 +15683,7 @@ roadb.bmp.png
 #entry 871
 trak097.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15701,7 +15701,7 @@ roadb.bmp.png
 #entry 872
 trak098.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15719,7 +15719,7 @@ roadb.bmp.png
 #entry 873
 trak099.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15737,7 +15737,7 @@ roadb.bmp.png
 #entry 874
 trak100.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15755,7 +15755,7 @@ roadb.bmp.png
 #entry 875
 trak101.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15773,7 +15773,7 @@ roadb.bmp.png
 #entry 876
 trak102.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15791,7 +15791,7 @@ roadb.bmp.png
 #entry 877
 trak103.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15809,7 +15809,7 @@ roadb.bmp.png
 #entry 878
 trak104.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15827,7 +15827,7 @@ roadb.bmp.png
 #entry 879
 trak105.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15845,7 +15845,7 @@ roadb.bmp.png
 #entry 880
 trak106.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15863,7 +15863,7 @@ roadb.bmp.png
 #entry 881
 trak107.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15881,7 +15881,7 @@ roadb.bmp.png
 #entry 882
 trak108.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15899,7 +15899,7 @@ roadb.bmp.png
 #entry 883
 trak109.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15917,7 +15917,7 @@ roadb.bmp.png
 #entry 884
 trak110.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15935,7 +15935,7 @@ roadb.bmp.png
 #entry 885
 trak111.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15953,7 +15953,7 @@ roadb.bmp.png
 #entry 886
 trak112.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15971,7 +15971,7 @@ roadb.bmp.png
 #entry 887
 trak113.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -15989,7 +15989,7 @@ roadb.bmp.png
 #entry 888
 trak114.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -16007,7 +16007,7 @@ roadb.bmp.png
 #entry 889
 trak115.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -16025,7 +16025,7 @@ roadb.bmp.png
 #entry 890
 trak116.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -16043,7 +16043,7 @@ roadb.bmp.png
 #entry 891
 trak117.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -16061,7 +16061,7 @@ roadb.bmp.png
 #entry 892
 trak118.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -16079,7 +16079,7 @@ roadb.bmp.png
 #entry 893
 trak119.dof-00.joe
 roadb.bmp.png
-1
+0
 0
 0
 0
@@ -16097,7 +16097,7 @@ roadb.bmp.png
 #entry 894
 trak120.dof-00.joe
 roadc.bmp.png
-1
+0
 0
 0
 0
@@ -18941,7 +18941,7 @@ concb.bmp.png
 #entry 1052
 trk001.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -18959,7 +18959,7 @@ roada.bmp.png
 #entry 1053
 trk002.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -18977,7 +18977,7 @@ roada.bmp.png
 #entry 1054
 trk003.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -18995,7 +18995,7 @@ roada.bmp.png
 #entry 1055
 trk004.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19013,7 +19013,7 @@ roada.bmp.png
 #entry 1056
 trk005.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19031,7 +19031,7 @@ roada.bmp.png
 #entry 1057
 trk006.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19049,7 +19049,7 @@ roada.bmp.png
 #entry 1058
 trk007.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19067,7 +19067,7 @@ roada.bmp.png
 #entry 1059
 trk008.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19085,7 +19085,7 @@ roada.bmp.png
 #entry 1060
 trk009.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19103,7 +19103,7 @@ roada.bmp.png
 #entry 1061
 trk010.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19121,7 +19121,7 @@ roada.bmp.png
 #entry 1062
 trk011.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19139,7 +19139,7 @@ roada.bmp.png
 #entry 1063
 trk012.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19157,7 +19157,7 @@ roada.bmp.png
 #entry 1064
 trk013.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19175,7 +19175,7 @@ roada.bmp.png
 #entry 1065
 trk014.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19193,7 +19193,7 @@ roada.bmp.png
 #entry 1066
 trk015.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19211,7 +19211,7 @@ roada.bmp.png
 #entry 1067
 trk016.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19229,7 +19229,7 @@ roada.bmp.png
 #entry 1068
 trk017.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19247,7 +19247,7 @@ roada.bmp.png
 #entry 1069
 trk018.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19265,7 +19265,7 @@ roada.bmp.png
 #entry 1070
 trk019.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19283,7 +19283,7 @@ roada.bmp.png
 #entry 1071
 trk020.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19301,7 +19301,7 @@ roada.bmp.png
 #entry 1072
 trk021.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19319,7 +19319,7 @@ roada.bmp.png
 #entry 1073
 trk022.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19337,7 +19337,7 @@ roada.bmp.png
 #entry 1074
 trk023.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19355,7 +19355,7 @@ roada.bmp.png
 #entry 1075
 trk024.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19373,7 +19373,7 @@ roada.bmp.png
 #entry 1076
 trk025.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19391,7 +19391,7 @@ roada.bmp.png
 #entry 1077
 trk026.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19409,7 +19409,7 @@ roada.bmp.png
 #entry 1078
 trk027.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19427,7 +19427,7 @@ roada.bmp.png
 #entry 1079
 trk028.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19445,7 +19445,7 @@ roada.bmp.png
 #entry 1080
 trk029.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19463,7 +19463,7 @@ roada.bmp.png
 #entry 1081
 trk030.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19481,7 +19481,7 @@ roada.bmp.png
 #entry 1082
 trk031.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19499,7 +19499,7 @@ roada.bmp.png
 #entry 1083
 trk032.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19517,7 +19517,7 @@ roada.bmp.png
 #entry 1084
 trk033.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19535,7 +19535,7 @@ roada.bmp.png
 #entry 1085
 trk034.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19553,7 +19553,7 @@ roada.bmp.png
 #entry 1086
 trk035.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19571,7 +19571,7 @@ roada.bmp.png
 #entry 1087
 trk036.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19589,7 +19589,7 @@ roada.bmp.png
 #entry 1088
 trk037.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19607,7 +19607,7 @@ roada.bmp.png
 #entry 1089
 trk038.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19625,7 +19625,7 @@ roada.bmp.png
 #entry 1090
 trk039.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19643,7 +19643,7 @@ roada.bmp.png
 #entry 1091
 trk040.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19661,7 +19661,7 @@ roada.bmp.png
 #entry 1092
 trk041.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19679,7 +19679,7 @@ roada.bmp.png
 #entry 1093
 trk042.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19697,7 +19697,7 @@ roada.bmp.png
 #entry 1094
 trk043.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19715,7 +19715,7 @@ roada.bmp.png
 #entry 1095
 trk044.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19733,7 +19733,7 @@ roada.bmp.png
 #entry 1096
 trk045.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19751,7 +19751,7 @@ roada.bmp.png
 #entry 1097
 trk046.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19769,7 +19769,7 @@ roada.bmp.png
 #entry 1098
 trk047.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19787,7 +19787,7 @@ roada.bmp.png
 #entry 1099
 trk048.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19805,7 +19805,7 @@ roada.bmp.png
 #entry 1100
 trk049.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19823,7 +19823,7 @@ roada.bmp.png
 #entry 1101
 trk050.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19841,7 +19841,7 @@ roada.bmp.png
 #entry 1102
 trk051.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19859,7 +19859,7 @@ roada.bmp.png
 #entry 1103
 trk052.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19877,7 +19877,7 @@ roada.bmp.png
 #entry 1104
 trk053.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19895,7 +19895,7 @@ roada.bmp.png
 #entry 1105
 trk054.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19913,7 +19913,7 @@ roada.bmp.png
 #entry 1106
 trk055.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19931,7 +19931,7 @@ roada.bmp.png
 #entry 1107
 trk056.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19949,7 +19949,7 @@ roada.bmp.png
 #entry 1108
 trk057.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19967,7 +19967,7 @@ roada.bmp.png
 #entry 1109
 trk058.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -19985,7 +19985,7 @@ roada.bmp.png
 #entry 1110
 trk059.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20003,7 +20003,7 @@ roada.bmp.png
 #entry 1111
 trk060.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20021,7 +20021,7 @@ roada.bmp.png
 #entry 1112
 trk061.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20039,7 +20039,7 @@ roada.bmp.png
 #entry 1113
 trk062.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20057,7 +20057,7 @@ roada.bmp.png
 #entry 1114
 trk063.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20075,7 +20075,7 @@ roada.bmp.png
 #entry 1115
 trk064.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20093,7 +20093,7 @@ roada.bmp.png
 #entry 1116
 trk065.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20111,7 +20111,7 @@ roada.bmp.png
 #entry 1117
 trk066.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20129,7 +20129,7 @@ roada.bmp.png
 #entry 1118
 trk067.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20147,7 +20147,7 @@ roada.bmp.png
 #entry 1119
 trk068.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20165,7 +20165,7 @@ roada.bmp.png
 #entry 1120
 trk069.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20183,7 +20183,7 @@ roada.bmp.png
 #entry 1121
 trk070.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20201,7 +20201,7 @@ roada.bmp.png
 #entry 1122
 trk071.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20219,7 +20219,7 @@ roada.bmp.png
 #entry 1123
 trk072.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20237,7 +20237,7 @@ roada.bmp.png
 #entry 1124
 trk073.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20255,7 +20255,7 @@ roada.bmp.png
 #entry 1125
 trk074.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20273,7 +20273,7 @@ roada.bmp.png
 #entry 1126
 trk075.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20291,7 +20291,7 @@ roada.bmp.png
 #entry 1127
 trk076.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20309,7 +20309,7 @@ roada.bmp.png
 #entry 1128
 trk077.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20327,7 +20327,7 @@ roada.bmp.png
 #entry 1129
 trk078.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20345,7 +20345,7 @@ roada.bmp.png
 #entry 1130
 trk079.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20363,7 +20363,7 @@ roada.bmp.png
 #entry 1131
 trk080.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20381,7 +20381,7 @@ roada.bmp.png
 #entry 1132
 trk081.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20399,7 +20399,7 @@ roada.bmp.png
 #entry 1133
 trk082.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20417,7 +20417,7 @@ roada.bmp.png
 #entry 1134
 trk083.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20435,7 +20435,7 @@ roada.bmp.png
 #entry 1135
 trk084.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20453,7 +20453,7 @@ roada.bmp.png
 #entry 1136
 trk085.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20471,7 +20471,7 @@ roada.bmp.png
 #entry 1137
 trk086.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20489,7 +20489,7 @@ roada.bmp.png
 #entry 1138
 trk087.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20507,7 +20507,7 @@ roada.bmp.png
 #entry 1139
 trk088.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20525,7 +20525,7 @@ roada.bmp.png
 #entry 1140
 trk089.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20543,7 +20543,7 @@ roada.bmp.png
 #entry 1141
 trk090.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20561,7 +20561,7 @@ roada.bmp.png
 #entry 1142
 trk091.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20579,7 +20579,7 @@ roada.bmp.png
 #entry 1143
 trk092.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20597,7 +20597,7 @@ roada.bmp.png
 #entry 1144
 trk093.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20615,7 +20615,7 @@ roada.bmp.png
 #entry 1145
 trk094.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20633,7 +20633,7 @@ roada.bmp.png
 #entry 1146
 trk095.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20651,7 +20651,7 @@ roada.bmp.png
 #entry 1147
 trk096.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20669,7 +20669,7 @@ roada.bmp.png
 #entry 1148
 trk097.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20687,7 +20687,7 @@ roada.bmp.png
 #entry 1149
 trk098.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20705,7 +20705,7 @@ roada.bmp.png
 #entry 1150
 trk099.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20723,7 +20723,7 @@ roada.bmp.png
 #entry 1151
 trk100.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20741,7 +20741,7 @@ roada.bmp.png
 #entry 1152
 trk101.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20759,7 +20759,7 @@ roada.bmp.png
 #entry 1153
 trk102.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20777,7 +20777,7 @@ roada.bmp.png
 #entry 1154
 trk103.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20795,7 +20795,7 @@ roada.bmp.png
 #entry 1155
 trk104.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20813,7 +20813,7 @@ roada.bmp.png
 #entry 1156
 trk105.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20831,7 +20831,7 @@ roada.bmp.png
 #entry 1157
 trk106.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20849,7 +20849,7 @@ roada.bmp.png
 #entry 1158
 trk107.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20867,7 +20867,7 @@ roada.bmp.png
 #entry 1159
 trk108.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20885,7 +20885,7 @@ roada.bmp.png
 #entry 1160
 trk109.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20903,7 +20903,7 @@ roada.bmp.png
 #entry 1161
 trk110.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20921,7 +20921,7 @@ roada.bmp.png
 #entry 1162
 trk111.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20939,7 +20939,7 @@ roada.bmp.png
 #entry 1163
 trk112.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20957,7 +20957,7 @@ roada.bmp.png
 #entry 1164
 trk113.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20975,7 +20975,7 @@ roada.bmp.png
 #entry 1165
 trk114.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -20993,7 +20993,7 @@ roada.bmp.png
 #entry 1166
 trk115.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -21011,7 +21011,7 @@ roada.bmp.png
 #entry 1167
 trk116.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -21029,7 +21029,7 @@ roada.bmp.png
 #entry 1168
 trk117.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -21047,7 +21047,7 @@ roada.bmp.png
 #entry 1169
 trk118.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
@@ -21065,7 +21065,7 @@ roada.bmp.png
 #entry 1170
 trk119.dof-00.joe
 roada.bmp.png
-1
+0
 0
 0
 0
