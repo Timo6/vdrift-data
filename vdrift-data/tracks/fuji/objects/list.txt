@@ -78066,7 +78066,7 @@ treehill.dds.png
 1.0
 0.0
 0
-0
+3
 
 #entry 4337
 tree2719_treeline01.dof-00.joe
