@@ -33,7 +33,7 @@ selected = 1
 default = 0
 cancel = 0
 
-[ widget-01.5 ]
+[ widget-01.1 ]
 type = stringwheel
 name = PaintWheel
 setting = game.car_paint
@@ -49,13 +49,61 @@ selected = 0
 default = 0
 cancel = 0
 
+[ widget-01.2 ]
+type = slider
+name = ColorRed
+setting = game.car_color_red
+values = options
+hook = PlayerSpinningCar
+center = 0.66, 0.26
+color = 1.0, 0.0, 0.0
+width = 0.06
+height = 0.02
+fontsize = 6
+enabled = 1
+selected = 1
+default = 0
+cancel = 0
+
+[ widget-01.3 ]
+type = slider
+name = ColorGreen
+setting = game.car_color_green
+values = options
+hook = PlayerSpinningCar
+center = 0.66, 0.29
+color = 0.0, 1.0, 0.0
+width = 0.06
+height = 0.02
+fontsize = 6
+enabled = 1
+selected = 1
+default = 0
+cancel = 0
+
+[ widget-01.4 ]
+type = slider
+name = ColorBlue
+setting = game.car_color_blue
+values = options
+hook = PlayerSpinningCar
+center = 0.66, 0.32
+color = 0.0, 0.0, 1.0
+width = 0.06
+height = 0.02
+fontsize = 6
+enabled = 1
+selected = 1
+default = 0
+cancel = 0
+
 [ widget-02 ]
 type = spinningcar
 name = PlayerSpinningCar
 setting = game.selected_car
 values = options
 center = 0.3, 0.39
-carpos = -3.2, 1.0, -15
+carpos = -3.2, 0.5, -15
 spacing = 0.10
 width = auto
 height = auto
