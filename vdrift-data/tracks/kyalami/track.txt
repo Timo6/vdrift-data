@@ -14,6 +14,6 @@ cull faces = on
 lap sequences = 2
 lap sequence 0 = 0.000000,634.000000,0.000000
 lap sequence 1 = 0.000000,253.000000,0.000000
-non-treaded friction coefficient = 1.0
-treaded friction coefficient = 0.9
+non-treaded friction coefficient = 1.000000
+treaded friction coefficient = 0.900000
 
