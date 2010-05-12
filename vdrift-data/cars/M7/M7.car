@@ -90,7 +90,9 @@ toe = 0.0
 anti-roll = 6000.0
 
 [ tire-front ]
-radius = 0.29
+size = 225/50r16
+wheel = 5_spoke_m
+tiretexture = tire
 rolling-resistance = 1.3e-2, 6.5e-6
 rotational-inertia = 10.0
 tread = 0.0
@@ -145,7 +147,9 @@ c16=0.27
 c17=-1.1
 
 [ tire-rear ]
-radius = 0.2935
+size = 225/50r16
+wheel = 5_spoke_m
+tiretexture = tire
 rolling-resistance = 1.3e-2, 6.5e-6
 rotational-inertia = 10.0
 tread = 0.0
