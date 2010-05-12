@@ -460,19 +460,19 @@ void main()
 	float notshadowfinal = GetShadows();
   
     vec4 tu0_2D_val = texture2D(tu0_2D, texcoord_2d);
-    vec3 surfacecolor = tu0_2D_val.rgb;
+    vec3 surfacecolor = mix(gl_Color.rgb, tu0_2D_val.rgb, tu0_2D_val.a); // surfacecolor is mixed from diffuse and object color
     vec3 additive = texture2D(tu7_2D, texcoord_2d).rgb + texture2D(tu8_2D, texcoord_2d).rgb;
     vec3 ambient_light = textureCube(tu3_cube, ambientmapdir).rgb;
-    //const vec3 ambient_light = vec3(1.);
     vec4 tu1_2D_val = texture2D(tu1_2D, texcoord_2d);
     float gloss = tu1_2D_val.r;
     float metallic = tu1_2D_val.g;
+	float ambient = 1.0;//tu1_2D_val.a;
     vec3 L = lightposition;
     vec3 Nn = normalize(N);
     vec3 Vn = normalize(V);
     vec3 H = normalize(lightposition+V);
     
-     vec3 diffuse = surfacecolor * (BRDF_Lambert(N,L)*notshadowfinal+ambient_light)*0.5;
+    vec3 diffuse = surfacecolor * ambient * (BRDF_Lambert(N,L) * notshadowfinal + ambient_light) * 0.5;
     
     vec3 specular = vec3(0.);
     if (gloss > 0. || metallic > 0.)
@@ -524,10 +524,8 @@ void main()
 #else
 	float alpha = tu0_2D_val.a;
 #endif
-	
-	gl_FragColor.a = alpha*gl_Color.a;
+	// gl_Color alpha determines surface transparency, 0.0 fully transparent, 0.5 texture alpha, 1.0 opaque
+	gl_FragColor.a = alpha + 2 * gl_Color.a - 1;
     
-    gl_FragColor.rgb = finalcolor;
-    //gl_FragColor.rgb = finalcolor*gl_Color.a;
-    //gl_FragColor.rgb = finalcolor*alpha;
+	gl_FragColor.rgb = finalcolor;
 }

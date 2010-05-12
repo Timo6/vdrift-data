@@ -19,7 +19,7 @@ cancel = 0
 [ widget-01 ]
 type = stringwheel
 name = PlayerCarWheel
-setting = game.selected_car
+setting = game.player
 values = options
 hook = PlayerSpinningCar,PlayerPaintWheel
 action = PlayerCarChange
@@ -33,10 +33,10 @@ selected = 1
 default = 0
 cancel = 0
 
-[ widget-01.5 ]
+[ widget-01.1 ]
 type = stringwheel
 name = PlayerPaintWheel
-setting = game.car_paint
+setting = game.player_paint
 values = options
 hook = PlayerSpinningCar
 center = 0.2, 0.22
@@ -49,13 +49,61 @@ selected = 0
 default = 0
 cancel = 0
 
+[ widget-01.2 ]
+type = slider
+name = ColorRed
+setting = game.player_color_red
+values = options
+hook = PlayerSpinningCar
+center = 0.4, 0.26
+color = 1.0, 0.0, 0.0
+width = auto
+height = 0.02
+fontsize = 6
+enabled = 1
+selected = 1
+default = 0
+cancel = 0
+
+[ widget-01.3 ]
+type = slider
+name = ColorGreen
+setting = game.player_color_green
+values = options
+hook = PlayerSpinningCar
+center = 0.4, 0.29
+color = 0.0, 1.0, 0.0
+width = auto
+height = 0.02
+fontsize = 6
+enabled = 1
+selected = 1
+default = 0
+cancel = 0
+
+[ widget-01.4 ]
+type = slider
+name = ColorBlue
+setting = game.player_color_blue
+values = options
+hook = PlayerSpinningCar
+center = 0.4, 0.32
+color = 0.0, 0.0, 1.0
+width = auto
+height = 0.02
+fontsize = 6
+enabled = 1
+selected = 1
+default = 0
+cancel = 0
+
 [ widget-02 ]
 type = spinningcar
 name = PlayerSpinningCar
-setting = game.selected_car
+setting = game.player
 values = options
 center = 0.2, 0.38
-carpos = -6, 1.75, -18
+carpos = -5.5, 1, -18
 colorwheel = true
 spacing = 0.10
 width = auto
@@ -73,7 +121,7 @@ setting = game.opponent
 values = options
 hook = OpponentSpinningCar,OpponentPaintWheel
 action = OpponentCarChange
-center = 0.5, 0.18
+center = 0.45, 0.18
 spacing = 0.10
 width = auto
 height = auto
@@ -83,13 +131,13 @@ selected = 1
 default = 0
 cancel = 0
 
-[ widget-03.5 ]
+[ widget-03.1 ]
 type = stringwheel
 name = OpponentPaintWheel
-setting = game.opponent_car_paint
+setting = game.opponent_paint
 values = options
 hook = OpponentSpinningCar
-center = 0.5, 0.22
+center = 0.45, 0.22
 spacing = 0.10
 width = auto
 height = auto
@@ -99,13 +147,61 @@ selected = 0
 default = 0
 cancel = 0
 
+[ widget-03.2 ]
+type = slider
+name = ColorRed
+setting = game.opponent_color_red
+values = options
+hook = OpponentSpinningCar
+center = 0.65, 0.26
+color = 1.0, 0.0, 0.0
+width = auto
+height = 0.02
+fontsize = 6
+enabled = 1
+selected = 1
+default = 0
+cancel = 0
+
+[ widget-03.3 ]
+type = slider
+name = ColorGreen
+setting = game.opponent_color_green
+values = options
+hook = OpponentSpinningCar
+center = 0.65, 0.29
+color = 0.0, 1.0, 0.0
+width = auto
+height = 0.02
+fontsize = 6
+enabled = 1
+selected = 1
+default = 0
+cancel = 0
+
+[ widget-03.4 ]
+type = slider
+name = ColorBlue
+setting = game.opponent_color_blue
+values = options
+hook = OpponentSpinningCar
+center = 0.65, 0.32
+color = 0.0, 0.0, 1.0
+width = auto
+height = 0.02
+fontsize = 6
+enabled = 1
+selected = 1
+default = 0
+cancel = 0
+
 [ widget-04 ]
 type = spinningcar
 name = OpponentSpinningCar
 setting = game.opponent
 values = options
-center = 0.5, 0.38
-carpos = 0, 1.75, -18
+center = 0.65, 0.38
+carpos = -0.5, 1, -18
 colorwheel = false
 spacing = 0.10
 width = auto
@@ -151,7 +247,7 @@ name = TrackWheel
 setting = game.track
 values = options
 hook = TrackMultiImage
-center = 0.8, 0.18
+center = 0.725, 0.18
 spacing = 0.10
 width = auto
 height = auto
