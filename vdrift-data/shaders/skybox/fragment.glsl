@@ -173,7 +173,7 @@ void main()
 	finalcolor *= edgefactor*0.5+0.5;
 #endif
 	
-    outcol.a *= gl_Color.a;
+    //outcol.a *= gl_Color.a;
     gl_FragColor = vec4(finalcolor,outcol.a);
     //gl_FragColor = vec4(finalcolor*gl_Color.a*outcol.a,outcol.a);
 	//gl_FragColor = vec4(finalcolor*outcol.a,outcol.a);
