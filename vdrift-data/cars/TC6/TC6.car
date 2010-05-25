@@ -87,6 +87,10 @@ toe = 0.0
 anti-roll = 8000
 
 [ tire-front ]
+size = 215/50r16
+wheel = 5_spoke_m
+tiretexture = tire
+
 radius = 0.30
 rolling-resistance = 1.3e-2, 6.5e-6
 rotational-inertia = 2.2
@@ -140,6 +144,10 @@ c16=0.27
 c17=-1.1
 
 [ tire-rear ]
+size = 215/50r16
+wheel = 5_spoke_m
+tiretexture = tire
+
 radius = 0.30
 rolling-resistance = 1.3e-2, 6.5e-6
 rotational-inertia = 2.4
