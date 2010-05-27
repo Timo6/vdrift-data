@@ -138,12 +138,11 @@ fuel-density = 0.8
 [ suspension-front ]
 #spring-constant = 142000 #spring rate
 spring-constant = 79865 #wheel rate assuming 0.75 to 1 lever arm ratio
-bounce = 1000.0
-rebound = 3000.0
+bounce = 3000.0
+rebound = 10000.0
 travel = 0.12
 max-compression-velocity = 10.0
 camber = -1.0
-#caster = 6.12
 caster = 6.12
 toe = 0.2
 anti-roll = 12000
@@ -151,8 +150,8 @@ anti-roll = 12000
 [ suspension-rear ]
 #spring-constant = 185000
 spring-constant = 104062
-bounce = 1500.0
-rebound = 4500.0
+bounce = 4000.0
+rebound = 12000.0
 ## Federweg
 travel = 0.14
 max-compression-velocity = 10.0
@@ -168,7 +167,7 @@ anti-roll = 10000
 [ tire-front ]
 radius = 0.32
 rolling-resistance = 1.3e-2, 6.5e-6
-rotational-inertia = 4.0
+rotational-inertia = 10 #4.0
 #tread = 0.00873125
 tread = 0.0
 # rev 147
@@ -226,7 +225,7 @@ c17=1.69
 [ tire-rear ]
 radius = 0.3335
 rolling-resistance = 1.3e-2, 6.5e-6
-rotational-inertia = 5.00
+rotational-inertia = 10.0 #5.00
 #tread = 0.00873125
 tread = 0.0
 # rev 147
