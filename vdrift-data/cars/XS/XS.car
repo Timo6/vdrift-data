@@ -68,14 +68,8 @@ fuel-density = 730.0
 
 [ suspension-front ]
 spring-constant = 49131.9
-spring-factor-1 = 0.052, 1.0
-spring-factor-2 = 0.055, 1.2
-spring-factor-3 = 0.1, 1.6
-spring-factor-4 = 0.11, 2.1
-spring-factor-5 = 0.12, 3
-spring-factor-6 = 0.13, 5
-bounce = 1588
-rebound = 2612
+bounce = 2600
+rebound = 7900
 damper-factor-1 = 0.06, 1.2
 damper-factor-2 = 0.08, 1.1
 damper-factor-3 = 0.1, 1
@@ -92,14 +86,8 @@ anti-roll = 800.0
 
 [ suspension-rear ]
 spring-constant = 51137.3
-spring-factor-1 = 0.085, 1.0
-spring-factor-2 = 0.088, 1.2
-spring-factor-3 = 0.1, 1.6
-spring-factor-4 = 0.11, 2.1
-spring-factor-5 = 0.12, 3
-spring-factor-6 = 0.13, 5
-bounce = 1788
-rebound = 2912
+bounce = 2700
+rebound = 8100
 damper-factor-1 = 0.06, 1.2
 damper-factor-2 = 0.08, 1.1
 damper-factor-3 = 0.1, 1

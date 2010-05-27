@@ -61,8 +61,8 @@ fuel-density = 0.8
 
 [ suspension-front ]
 spring-constant = 42000.0
-bounce = 3000.0
-rebound = 3300.0
+bounce = 2100.0
+rebound = 6400.0
 travel = 0.15
 max-compression-velocity = 100.0
 camber = 2.75
@@ -72,8 +72,8 @@ anti-roll = 5000.0
 
 [ suspension-rear ]
 spring-constant = 35000.0
-bounce = 2750.0
-rebound = 3000.0
+bounce = 2000.0
+rebound = 5900.0
 travel = 0.18
 max-compression-velocity = 100.0
 camber = 0.00
