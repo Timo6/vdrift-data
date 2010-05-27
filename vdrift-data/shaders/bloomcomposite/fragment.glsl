@@ -6,8 +6,8 @@ varying vec2 texcoord_2d;
 
 void main()
 {
-	vec2 tc0 = vec2(texcoord_2d.x*SCREENRESX, texcoord_2d.y*SCREENRESY);
-	vec2 tc1 = texcoord_2d;
+	vec2 tc0 = vec2(texcoord_2d.x, texcoord_2d.y);
+	vec2 tc1 = vec2(texcoord_2d.x/SCREENRESX,texcoord_2d.y/SCREENRESY);
 	
 	vec4 tu0_2D_val = texture2DRect(tu0_2DRect, tc0);
 	vec4 tu1_2D_val = texture2D(tu1_2D, tc1);
