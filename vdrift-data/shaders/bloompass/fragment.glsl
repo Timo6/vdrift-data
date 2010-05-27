@@ -23,7 +23,7 @@ vec3 ContrastSaturationBrightness(vec3 color, float con, float sat, float brt)
 void main()
 {
 	//vec2 tc = vec2(gl_FragCoord.x, gl_FragCoord.y);
-	vec2 tc = vec2(texcoord_2d.x*SCREENRESX, texcoord_2d.y*SCREENRESY);
+	vec2 tc = vec2(texcoord_2d.x, texcoord_2d.y);
 	vec4 tu0_2D_val = texture2DRect(tu0_2DRect, tc);
 	
 	vec3 orig = tu0_2D_val.rgb;

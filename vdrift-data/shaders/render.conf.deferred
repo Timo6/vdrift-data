@@ -1,0 +1,247 @@
+; SHADERS
+
+[shader]
+name = simple
+
+[shader]
+name = simplerect
+
+[shader]
+name = gbufferfill
+
+[shader]
+name = lightaccumulate
+
+[shader]
+name = depthgen
+
+[shader]
+name = distancefield
+
+
+; RENDER OUTPUTS
+
+; g-buffer MRT
+
+[output]
+name = full_scene_depth
+width = framebuffer
+height = framebuffer
+type = rectangle
+filter = nearest
+format = depth
+
+[output]
+name = lighting_accumulation
+width = framebuffer
+height = framebuffer
+type = rectangle
+filter = nearest
+format = RGBA
+
+; RG: 16-bit packed X component of eye-space normal, BA: 16-bit packed Y component
+[output]
+name = normal_xy
+width = framebuffer
+height = framebuffer
+type = rectangle
+filter = nearest
+format = RGBA
+
+; RGB: gamma-space fresnel reflectance value/color at zero degrees, A: micro-scale roughness parameter
+[output]
+name = material_properties
+width = framebuffer
+height = framebuffer
+type = rectangle
+filter = nearest
+format = RGBA
+
+; RGB: gamma-space diffuse albedo, A: shadow unocclusion factor
+[output]
+name = diffuse_albedo
+width = framebuffer
+height = framebuffer
+type = rectangle
+filter = nearest
+format = RGBA
+
+; shadows: low quality
+
+[output]
+name = shadow_depths_near
+width = 512
+height = 512
+type = 2D
+format = depthshadow
+conditions = shadows_near shadow_quality_low
+
+[output]
+name = shadow_depths_medium
+width = 512
+height = 512
+type = 2D
+format = depthshadow
+conditions = shadows_medium shadow_quality_low
+
+[output]
+name = shadow_depths_far
+width = 512
+height = 512
+type = 2D
+format = depthshadow
+conditions = shadows_far shadow_quality_low
+
+; shadows: medium quality
+
+[output]
+name = shadow_depths_near
+width = 1024
+height = 1024
+type = 2D
+format = depthshadow
+conditions = shadows_near shadow_quality_medium
+
+[output]
+name = shadow_depths_medium
+width = 1024
+height = 1024
+type = 2D
+format = depthshadow
+conditions = shadows_medium shadow_quality_medium
+
+[output]
+name = shadow_depths_far
+width = 1024
+height = 1024
+type = 2D
+format = depthshadow
+conditions = shadows_far shadow_quality_medium
+
+; shadows: high quality
+
+[output]
+name = shadow_depths_near
+width = 2048
+height = 2048
+type = 2D
+format = depthshadow
+conditions = shadows_near shadow_quality_high
+
+[output]
+name = shadow_depths_medium
+width = 2048
+height = 2048
+type = 2D
+format = depthshadow
+conditions = shadows_medium shadow_quality_high
+
+[output]
+name = shadow_depths_far
+width = 2048
+height = 2048
+type = 2D
+format = depthshadow
+conditions = shadows_far shadow_quality_high
+
+
+; DRAWING PASSES
+
+; prepasses for shadows
+
+[pass]
+camera = shadows_near
+draw = normal_noblend car_noblend
+output = shadow_depths_near
+shader = depthgen
+clear_depth = true
+conditions = shadows_near
+alpha = false
+
+[pass]
+camera = shadows_medium
+draw = normal_noblend car_noblend
+output = shadow_depths_medium
+shader = depthgen
+clear_depth = true
+conditions = shadows_medium
+alpha = false
+
+[pass]
+camera = shadows_far
+draw = normal_noblend car_noblend
+output = shadow_depths_far
+shader = depthgen
+clear_depth = true
+conditions = shadows_far
+alpha = false
+
+
+; geometry phase
+
+[pass]
+draw = normal_noblend car_noblend
+inputs = 4:shadow_depths_near 5:shadow_depths_medium 6:shadow_depths_far
+output = material_properties normal_xy diffuse_albedo full_scene_depth
+shader = gbufferfill
+clear_color = true
+clear_depth = true
+alpha = false
+
+
+; lighting phase
+
+[pass]
+draw = postprocess
+output = framebuffer
+shader = lightaccumulate
+inputs = material_properties normal_xy diffuse_albedo full_scene_depth
+
+
+; post-processing phase
+
+
+; TOP LAYERS
+
+; 2D UI elements
+
+[pass]
+draw = twodim
+output = framebuffer
+shader = simple
+clear_depth = true
+cull = false
+
+[pass]
+draw = text
+output = framebuffer
+shader = distancefield
+cull = false
+
+
+; 3D UI elements
+
+[pass]
+draw = nocamtrans_noblend
+output = framebuffer
+shader = simple
+clear_depth = true
+camera = ui3d
+cull = false
+
+[pass]
+draw = nocamtrans_blend
+output = framebuffer
+shader = simple
+camera = ui3d
+cull = false
+
+
+; DEBUG STUFF
+
+[pass]
+draw = postprocess
+output = framebuffer
+shader = simple
+inputs = shadow_depths_near
+conditions = debug
