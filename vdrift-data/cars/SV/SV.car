@@ -10,7 +10,7 @@ mass = 140.0
 max-power = 2.83e5
 peak-engine-rpm = 7700.0
 rpm-limit = 8400.0
-inertia = 0.4
+inertia = 0.25
 idle = 0.025
 start-rpm = 1000
 stall-rpm = 350
@@ -46,7 +46,7 @@ gear-ratio-5 = 0.815
 
 [ differential ]
 final-drive = 4.09
-anti-slip = 600.0
+anti-slip = 300.0
 
 [ fuel-tank ]
 position = 0.0, -1.0, -0.26
@@ -55,36 +55,54 @@ volume = 0.0492
 fuel-density = 730.0
 
 [ suspension-front ]
-spring-constant = 49131.9
-bounce = 2588
-rebound = 2612
-travel = 0.19
-max-compression-velocity = 10.0
+anti-roll = 6000
+bounce = 3000
 camber = -1.33
 caster = 6.12
+damper-factor-1 = 0.02, 2.0
+damper-factor-2 = 0.1, 1.0
+damper-factor-3 = 0.2, 0.8
+damper-factor-4 = 0.5, 0.5
+max-compression-velocity = 100
+rebound = 5000
+spring-constant = 40000
+spring-factor-1 = 0.02, 1.0
+spring-factor-2 = 0.1, 1.5
+spring-factor-3 = 0.12, 2.5
+spring-factor-4 = 0.15, 4.0
+spring-factor-5 = 0.2, 10.0
 toe = 0.0
-anti-roll = 8000.0
+travel = 0.3
 
 [ suspension-rear ]
-spring-constant = 51137.3
-bounce = 2788
-rebound = 2912
-travel = 0.19
-max-compression-velocity = 10.0
+anti-roll = 4000
+bounce = 4500
 camber = -0.45
 caster = 0.28
+damper-factor-1 = 0.02, 2.0
+damper-factor-2 = 0.1, 1.0
+damper-factor-3 = 0.2, 0.8
+damper-factor-4 = 0.5, 0.5
+max-compression-velocity = 100
+rebound = 7500
+spring-constant = 62000
+spring-factor-1 = 0.02, 1.0
+spring-factor-2 = 0.1, 1.5
+spring-factor-3 = 0.12, 2.5
+spring-factor-4 = 0.15, 4.0
+spring-factor-5 = 0.2, 10.0
 toe = 0.0
-anti-roll = 6000.0
+travel = 0.3
 
 [ tire-front ]
 radius = 0.29
 rolling-resistance = 1.3e-2, 6.5e-6
-rotational-inertia = 10.0
+rotational-inertia = 2.0
 tread = 0.0
 # Lateral force
 a0=1.6
 a1=-38
-a2=1201
+a2=1300
 a3=1914
 a4=8.7
 a5=0.014
@@ -100,7 +118,7 @@ a13=-2.4
 # Longitudinal force
 b0=1.7
 b1=-80
-b2=1571
+b2=1600
 b3=23.3
 b4=300
 b5=0
@@ -134,12 +152,12 @@ c17=-1.1
 [ tire-rear ]
 radius = 0.2935
 rolling-resistance = 1.3e-2, 6.5e-6
-rotational-inertia = 10.0
+rotational-inertia = 3.0
 tread = 0.0
 # Lateral force
 a0=1.6
 a1=-38
-a2=1201
+a2=1300
 a3=1914
 a4=8.7
 a5=0.014
@@ -155,7 +173,7 @@ a13=-2.4
 # Longitudinal force
 b0=1.7
 b1=-80
-b2=1571
+b2=1600
 b3=23.3
 b4=300
 b5=0
@@ -189,16 +207,16 @@ c17=-1.1
 
 
 [ brakes-front ]
-friction = 0.73
+friction = 0.5
 max-pressure = 4.0e6
-bias = 0.60
+bias = 0.50
 radius = 0.14
 area = 0.015
 
 [ brakes-rear ]
-friction = 0.73
+friction = 0.5
 max-pressure = 4.0e6
-bias = 0.40
+bias = 0.50
 radius = 0.14
 area = 0.015
 handbrake = 1.0
@@ -219,7 +237,7 @@ position = 1.9, 0.0, 0.60
 frontal-area = 0.2
 drag-coefficient = 0.0
 surface-area = 0.3
-lift-coefficient = -0.5
+lift-coefficient = -0.1
 efficiency = 0.95
 
 [ wing-rear ]
@@ -227,7 +245,7 @@ position = 0.0, -2.14, 0.37
 frontal-area = 0.05
 drag-coefficient = 0.0
 surface-area = 0.5
-lift-coefficient = -2
+lift-coefficient = -0.2
 efficiency = 0.95
 
 
