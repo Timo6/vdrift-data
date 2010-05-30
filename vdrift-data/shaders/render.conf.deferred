@@ -46,7 +46,12 @@ name = deferredskyboxblend
 [shader]
 name = ppdepthadjust
 folder = ppdepthadjust
-defines = _DEPTH_TO_ONE_ _WITH_COLOR_
+defines = _DEPTH_TO_ONE_
+
+[shader]
+name = ppcopy
+folder = ppdepthadjust
+defines = _WITH_COLOR_
 
 
 ; RENDER OUTPUTS
@@ -55,6 +60,14 @@ defines = _DEPTH_TO_ONE_ _WITH_COLOR_
 
 [output]
 name = full_scene_depth
+width = framebuffer
+height = framebuffer
+type = 2D
+filter = nearest
+format = depth
+
+[output]
+name = depthmask_for_skybox
 width = framebuffer
 height = framebuffer
 type = 2D
@@ -186,7 +199,7 @@ output = shadow_depths_near
 shader = depthgen
 clear_depth = true
 conditions = shadows_near
-alpha = false
+blendmode = disabled
 
 [pass]
 camera = shadows_near
@@ -194,7 +207,7 @@ draw = car_noblend
 output = shadow_depths_near
 shader = depthgennoalpha
 conditions = shadows_near
-alpha = false
+blendmode = disabled
 
 [pass]
 camera = shadows_medium
@@ -203,7 +216,7 @@ output = shadow_depths_medium
 shader = depthgen
 clear_depth = true
 conditions = shadows_medium
-alpha = false
+blendmode = disabled
 
 [pass]
 camera = shadows_medium
@@ -211,7 +224,7 @@ draw = car_noblend
 output = shadow_depths_medium
 shader = depthgennoalpha
 conditions = shadows_medium
-alpha = false
+blendmode = disabled
 
 [pass]
 camera = shadows_far
@@ -220,7 +233,7 @@ output = shadow_depths_far
 shader = depthgen
 clear_depth = true
 conditions = shadows_far
-alpha = false
+blendmode = disabled
 
 [pass]
 camera = shadows_far
@@ -228,7 +241,7 @@ draw = car_noblend
 output = shadow_depths_far
 shader = depthgennoalpha
 conditions = shadows_far
-alpha = false
+blendmode = disabled
 
 
 ; geometry phase
@@ -240,14 +253,14 @@ output = material_properties normal_xy diffuse_albedo full_scene_depth
 shader = gbufferfill
 clear_color = true
 clear_depth = true
-alpha = false
+blendmode = disabled
 
 [pass]
 draw = car_noblend
 inputs = 4:shadow_depths_near 5:shadow_depths_medium 6:shadow_depths_far
 output = material_properties normal_xy diffuse_albedo full_scene_depth
 shader = gbufferfillcar
-alpha = false
+blendmode = disabled
 
 
 ; lighting phase
@@ -257,10 +270,31 @@ draw = postprocess
 output = full_scene_color full_scene_depth
 shader = lightaccumulate
 inputs = material_properties normal_xy diffuse_albedo reflection_cube
-alpha = false
 
 
-; post-processing phase
+; skybox phase
+
+[pass]
+draw = postprocess
+output = depthmask_for_skybox
+inputs = full_scene_depth full_scene_color
+shader = ppdepthadjust
+write_depth = true
+
+[pass]
+draw = skybox_noblend
+output = full_scene_color depthmask_for_skybox
+shader = simple
+cull = false
+
+[pass]
+draw = skybox_blend
+output = full_scene_color depthmask_for_skybox
+shader = simple
+cull = false
+
+
+; forward rendering phase
 
 [pass]
 draw = normal_noblend_nolighting
@@ -268,28 +302,18 @@ output = full_scene_color full_scene_depth
 shader = simple
 
 [pass]
-draw = normal_blend
+draw = normal_blend particle
 output = full_scene_color full_scene_depth
 shader = simple
+write_depth = false
 
+
+; postprocessing phase
 [pass]
 draw = postprocess
 output = framebuffer
 inputs = full_scene_depth full_scene_color
-shader = ppdepthadjust
-write_depth = true
-
-[pass]
-draw = skybox_noblend
-output = framebuffer
-shader = simple
-cull = false
-
-[pass]
-draw = skybox_blend
-output = framebuffer
-shader = simple
-cull = false
+shader = ppcopy
 
 
 ; TOP LAYERS
