@@ -4,19 +4,49 @@
 name = simple
 
 [shader]
-name = simplerect
+name = simplecar
+folder = simple
+defines = _CARPAINT_
+
+[shader]
+name = full
 
 [shader]
 name = gbufferfill
 
 [shader]
+name = gbufferfillcar
+folder = gbufferfill
+defines = _CARPAINT_
+
+[shader]
 name = lightaccumulate
 
 [shader]
+name = deferredaa
+
+[shader]
 name = depthgen
+folder = depthgen
+defines = _ALPHATEST_
+
+[shader]
+name = depthgennoalpha
+folder = depthgen
 
 [shader]
 name = distancefield
+
+[shader]
+name = deferredskybox
+
+[shader]
+name = deferredskyboxblend
+
+[shader]
+name = ppdepthadjust
+folder = ppdepthadjust
+defines = _DEPTH_TO_ONE_ _WITH_COLOR_
 
 
 ; RENDER OUTPUTS
@@ -27,15 +57,15 @@ name = distancefield
 name = full_scene_depth
 width = framebuffer
 height = framebuffer
-type = rectangle
+type = 2D
 filter = nearest
 format = depth
 
 [output]
-name = lighting_accumulation
+name = full_scene_color
 width = framebuffer
 height = framebuffer
-type = rectangle
+type = 2D
 filter = nearest
 format = RGBA
 
@@ -44,7 +74,7 @@ format = RGBA
 name = normal_xy
 width = framebuffer
 height = framebuffer
-type = rectangle
+type = 2D
 filter = nearest
 format = RGBA
 
@@ -53,7 +83,7 @@ format = RGBA
 name = material_properties
 width = framebuffer
 height = framebuffer
-type = rectangle
+type = 2D
 filter = nearest
 format = RGBA
 
@@ -62,7 +92,7 @@ format = RGBA
 name = diffuse_albedo
 width = framebuffer
 height = framebuffer
-type = rectangle
+type = 2D
 filter = nearest
 format = RGBA
 
@@ -151,7 +181,7 @@ conditions = shadows_far shadow_quality_high
 
 [pass]
 camera = shadows_near
-draw = normal_noblend car_noblend
+draw = normal_noblend normal_noblend_nolighting
 output = shadow_depths_near
 shader = depthgen
 clear_depth = true
@@ -159,8 +189,16 @@ conditions = shadows_near
 alpha = false
 
 [pass]
+camera = shadows_near
+draw = car_noblend
+output = shadow_depths_near
+shader = depthgennoalpha
+conditions = shadows_near
+alpha = false
+
+[pass]
 camera = shadows_medium
-draw = normal_noblend car_noblend
+draw = normal_noblend normal_noblend_nolighting
 output = shadow_depths_medium
 shader = depthgen
 clear_depth = true
@@ -168,11 +206,27 @@ conditions = shadows_medium
 alpha = false
 
 [pass]
+camera = shadows_medium
+draw = car_noblend
+output = shadow_depths_medium
+shader = depthgennoalpha
+conditions = shadows_medium
+alpha = false
+
+[pass]
 camera = shadows_far
-draw = normal_noblend car_noblend
+draw = normal_noblend normal_noblend_nolighting
 output = shadow_depths_far
 shader = depthgen
 clear_depth = true
+conditions = shadows_far
+alpha = false
+
+[pass]
+camera = shadows_far
+draw = car_noblend
+output = shadow_depths_far
+shader = depthgennoalpha
 conditions = shadows_far
 alpha = false
 
@@ -180,7 +234,7 @@ alpha = false
 ; geometry phase
 
 [pass]
-draw = normal_noblend car_noblend
+draw = normal_noblend
 inputs = 4:shadow_depths_near 5:shadow_depths_medium 6:shadow_depths_far
 output = material_properties normal_xy diffuse_albedo full_scene_depth
 shader = gbufferfill
@@ -188,17 +242,54 @@ clear_color = true
 clear_depth = true
 alpha = false
 
+[pass]
+draw = car_noblend
+inputs = 4:shadow_depths_near 5:shadow_depths_medium 6:shadow_depths_far
+output = material_properties normal_xy diffuse_albedo full_scene_depth
+shader = gbufferfillcar
+alpha = false
+
 
 ; lighting phase
 
 [pass]
 draw = postprocess
-output = framebuffer
+output = full_scene_color full_scene_depth
 shader = lightaccumulate
-inputs = material_properties normal_xy diffuse_albedo full_scene_depth
+inputs = material_properties normal_xy diffuse_albedo reflection_cube
+alpha = false
 
 
 ; post-processing phase
+
+[pass]
+draw = normal_noblend_nolighting
+output = full_scene_color full_scene_depth
+shader = simple
+
+[pass]
+draw = normal_blend
+output = full_scene_color full_scene_depth
+shader = simple
+
+[pass]
+draw = postprocess
+output = framebuffer
+inputs = full_scene_depth full_scene_color
+shader = ppdepthadjust
+write_depth = true
+
+[pass]
+draw = skybox_noblend
+output = framebuffer
+shader = simple
+cull = false
+
+[pass]
+draw = skybox_blend
+output = framebuffer
+shader = simple
+cull = false
 
 
 ; TOP LAYERS
@@ -224,7 +315,7 @@ cull = false
 [pass]
 draw = nocamtrans_noblend
 output = framebuffer
-shader = simple
+shader = simplecar
 clear_depth = true
 camera = ui3d
 cull = false

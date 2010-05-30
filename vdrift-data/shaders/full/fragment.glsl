@@ -525,7 +525,7 @@ void main()
 	float alpha = tu0_2D_val.a;
 #endif
 	// gl_Color alpha determines surface transparency, 0.0 fully transparent, 0.5 texture alpha, 1.0 opaque
-	gl_FragColor.a = alpha + 2 * gl_Color.a - 1;
+	gl_FragColor.a = alpha;// + 2 * gl_Color.a - 1;
     
 	gl_FragColor.rgb = finalcolor;
 }
