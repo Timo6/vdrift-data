@@ -23,9 +23,6 @@ defines = _CARPAINT_
 name = lightaccumulate
 
 [shader]
-name = deferredaa
-
-[shader]
 name = depthgen
 folder = depthgen
 defines = _ALPHATEST_
@@ -44,6 +41,9 @@ name = deferredskybox
 name = deferredskyboxblend
 
 [shader]
+name = softparticle
+
+[shader]
 name = ppdepthadjust
 folder = ppdepthadjust
 defines = _DEPTH_TO_ONE_
@@ -60,14 +60,6 @@ defines = _WITH_COLOR_
 
 [output]
 name = full_scene_depth
-width = framebuffer
-height = framebuffer
-type = 2D
-filter = nearest
-format = depth
-
-[output]
-name = depthmask_for_skybox
 width = framebuffer
 height = framebuffer
 type = 2D
@@ -244,7 +236,7 @@ conditions = shadows_far
 blendmode = disabled
 
 
-; geometry phase
+; g-buffer fill phase
 
 [pass]
 draw = normal_noblend
@@ -263,48 +255,46 @@ shader = gbufferfillcar
 blendmode = disabled
 
 
+; skybox phase
+
+[pass]
+draw = skybox_noblend
+output = full_scene_color
+shader = simple
+cull = false
+clear_color = true
+clear_depth = true
+blendmode = disabled
+
+[pass]
+draw = skybox_blend
+output = full_scene_color
+shader = simple
+cull = false
+clear_depth = true
+
+
 ; lighting phase
 
 [pass]
 draw = postprocess
-output = full_scene_color full_scene_depth
+output = full_scene_color
 shader = lightaccumulate
-inputs = material_properties normal_xy diffuse_albedo reflection_cube
-
-
-; skybox phase
-
-[pass]
-draw = postprocess
-output = depthmask_for_skybox
-inputs = full_scene_depth full_scene_color
-shader = ppdepthadjust
-write_depth = true
-
-[pass]
-draw = skybox_noblend
-output = full_scene_color depthmask_for_skybox
-shader = simple
-cull = false
-
-[pass]
-draw = skybox_blend
-output = full_scene_color depthmask_for_skybox
-shader = simple
-cull = false
+inputs = material_properties normal_xy diffuse_albedo full_scene_depth reflection_cube
 
 
 ; forward rendering phase
 
 [pass]
-draw = normal_noblend_nolighting
+draw = normal_noblend_nolighting normal_blend
 output = full_scene_color full_scene_depth
 shader = simple
 
 [pass]
-draw = normal_blend particle
-output = full_scene_color full_scene_depth
-shader = simple
+draw = particle
+output = full_scene_color
+inputs = 2:full_scene_depth
+shader = softparticle
 write_depth = false
 
 
