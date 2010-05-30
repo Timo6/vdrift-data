@@ -4,10 +4,10 @@ varying vec3 eyespace_view_direction;
 uniform sampler2D tu0_2D;
 uniform sampler2D tu1_2D;
 uniform sampler2D tu2_2D;
-//uniform sampler2D tu3_2D;
+uniform sampler2D tu3_2D;
 
 #ifndef _REFLECTIONDISABLED_
-uniform samplerCube tu3_cube; //reflection map
+uniform samplerCube tu4_cube; //reflection map
 #endif
 
 // shadowed directional light
@@ -71,10 +71,15 @@ vec3 RealTimeRenderingBRDF(const vec3 cdiff, const float m, const vec3 Rf0, cons
 void main()
 {
 	// retrieve g-buffer
+	float gbuf_depth = texture2D(tu3_2D, tu0coord).r;
+	
+	// early discard
+	if (gbuf_depth == 1)
+		discard;
+	
 	vec4 gbuf_material_properties = texture2D(tu0_2D, tu0coord);
 	vec4 gbuf_normal_xy = texture2D(tu1_2D, tu0coord);
 	vec4 gbuf_diffuse_albedo = texture2D(tu2_2D, tu0coord);
-	//float gbuf_depth = texture2D(tu3_2D, tu0coord).r;
 	
 	// decode g-buffer
 	vec3 cdiff = GammaCorrect(gbuf_diffuse_albedo.rgb); //diffuse reflectance
@@ -106,8 +111,8 @@ void main()
 	#endif
 	
 	#ifndef _REFLECTIONDISABLED_
-	reflection = GammaCorrect(textureCubeLod(tu3_cube, R, mix(ambient_reflection_lod,0.0,mpercent)).rgb);
-	ambient = GammaCorrect(textureCubeLod(tu3_cube, normal, ambient_reflection_lod).rgb);
+	reflection = GammaCorrect(textureCubeLod(tu4_cube, R, mix(ambient_reflection_lod,0.0,mpercent)).rgb);
+	ambient = GammaCorrect(textureCubeLod(tu4_cube, normal, ambient_reflection_lod).rgb);
 	#endif
 	
 	// generate parameters for directional light
