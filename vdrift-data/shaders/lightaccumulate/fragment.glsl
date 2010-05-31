@@ -52,9 +52,9 @@ float cos_clamped(const vec3 V1, const vec3 V2)
 	return max(0.0,dot(V1,V2));
 }
 
-vec3 CommonBRDF(const vec3 input, const vec3 E_l, const float omega_i)
+vec3 CommonBRDF(const vec3 brdf, const vec3 E_l, const float omega_i)
 {
-	return input * E_l * omega_i;
+	return brdf * E_l * omega_i;
 }
 
 vec3 FresnelEquation(const vec3 Rf0, const float omega_i)
@@ -89,9 +89,9 @@ void main()
 	float mpercent = gbuf_material_properties.a;
 	vec3 normal;
 	//normal.x = (unpackFloatFromVec2i(gbuf_normal_xy.xy)-0.5)*2.0;
-	//normal.y = (unpackFloatFromVec2i(gbuf_normal_xy.za)-0.5)*2.0;
+	//normal.y = (unpackFloatFromVec2i(gbuf_normal_xy.zw)-0.5)*2.0;
 	//normal.z = -sqrt(1.0-dot(normal.xy,normal.xy));
-	vec2 normal_spherical = vec2(unpackFloatFromVec2i(gbuf_normal_xy.xy),unpackFloatFromVec2i(gbuf_normal_xy.za))*2.0-vec2(1.0,1.0);
+	vec2 normal_spherical = vec2(unpackFloatFromVec2i(gbuf_normal_xy.xy),unpackFloatFromVec2i(gbuf_normal_xy.zw))*2.0-vec2(1.0,1.0);
 	normal = sphericalToXYZ(normal_spherical);
 	
 	// determine view vector
