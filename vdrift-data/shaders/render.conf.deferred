@@ -4,6 +4,11 @@
 name = simple
 
 [shader]
+name = simple_premult
+folder = simple
+defines = _PREMULTIPLY_ALPHA_
+
+[shader]
 name = simplecar
 folder = simple
 defines = _CARPAINT_
@@ -269,9 +274,10 @@ blendmode = disabled
 [pass]
 draw = skybox_blend
 output = full_scene_color
-shader = simple
+shader = simple_premult
 cull = false
 clear_depth = true
+blendmode = alphablend_premultiplied
 
 
 ; lighting phase
@@ -286,9 +292,16 @@ inputs = material_properties normal_xy diffuse_albedo full_scene_depth reflectio
 ; forward rendering phase
 
 [pass]
-draw = normal_noblend_nolighting normal_blend
+draw = normal_noblend_nolighting
 output = full_scene_color full_scene_depth
 shader = simple
+blendmode = alphatest
+
+[pass]
+draw = normal_blend
+output = full_scene_color full_scene_depth
+shader = simple_premult
+blendmode = alphablend_premultiplied
 
 [pass]
 draw = particle
@@ -296,6 +309,7 @@ output = full_scene_color
 inputs = 2:full_scene_depth
 shader = softparticle
 write_depth = false
+blendmode = add
 
 
 ; postprocessing phase
@@ -311,17 +325,24 @@ shader = ppcopy
 ; 2D UI elements
 
 [pass]
+camera = 2d
 draw = twodim
 output = framebuffer
-shader = simple
-clear_depth = true
+shader = simple_premult
 cull = false
+blendmode = alphablend_premultiplied
+depthtest = disabled
+write_detph = false
 
 [pass]
+camera = 2d
 draw = text
 output = framebuffer
 shader = distancefield
 cull = false
+blendmode = alphablend
+depthtest = disabled
+write_detph = false
 
 
 ; 3D UI elements
@@ -337,9 +358,10 @@ cull = false
 [pass]
 draw = nocamtrans_blend
 output = framebuffer
-shader = simple
+shader = simple_premult
 camera = ui3d
 cull = false
+blendmode = alphablend_premultiplied
 
 
 ; DEBUG STUFF

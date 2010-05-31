@@ -86,7 +86,14 @@ void main()
 	glcolor.rgb = vec3(1.,1.,1.);
 	#endif
 	
-    gl_FragColor = vec4(outcol.rgb*glcolor.rgb,outcol.a*glcolor.a);
+	vec4 finalcol = outcol * glcolor;
+	
+	#ifdef _PREMULTIPLY_ALPHA_
+	// pre-multiply alpha
+	finalcol.rgb *= finalcol.a;
+	#endif
+	
+    gl_FragColor = finalcol;
 	//gl_FragColor = vec4(outcol.rgb*gl_Color.rgb*outcol.a*gl_Color.a,outcol.a*gl_Color.a);
     //gl_FragColor = vec4(outcol.rgb*gl_Color.rgb*gl_Color.a,outcol.a*gl_Color.a);
 	//gl_FragColor = bicubic_filter(tu0_2D, tu0coord)*gl_Color;
