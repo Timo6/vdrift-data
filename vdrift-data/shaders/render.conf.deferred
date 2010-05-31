@@ -288,6 +288,14 @@ output = full_scene_color
 shader = lightaccumulate
 inputs = material_properties normal_xy diffuse_albedo full_scene_depth reflection_cube
 
+[pass]
+draw = lights_emissive
+output = full_scene_color full_scene_depth
+shader = simple
+depthtest = lequal
+write_depth = false
+blendmode = add
+
 
 ; forward rendering phase
 
