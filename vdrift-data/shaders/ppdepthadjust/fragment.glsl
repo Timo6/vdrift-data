@@ -31,6 +31,9 @@ void main()
 	
 		#ifdef _WITH_COLOR_
 		gl_FragColor = texture2D(tu1_2D, tu0coord);
+		
+		// simple tonemap for now
+		gl_FragColor.rgb = 1.58*(vec3(1.)-exp(-gl_FragColor.rgb*1.));
 		#ifdef _GAMMA_
 		gl_FragColor.rgb = UnGammaCorrect(gl_FragColor.rgb);
 		#endif
