@@ -92,7 +92,7 @@ width = framebuffer
 height = framebuffer
 type = 2D
 filter = nearest
-format = RGBA8
+format = RGBA16
 
 ; RG: 16-bit packed X component of eye-space normal, BA: 16-bit packed Y component
 [output]

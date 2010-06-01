@@ -32,17 +32,14 @@ vec3 sphericalToXYZ(const vec2 spherical)
 }
 
 #define GAMMA 2.2
-
 vec3 UnGammaCorrect(vec3 color)
 {
 	return pow(color, vec3(1.0/GAMMA,1.0/GAMMA,1.0/GAMMA));
 }
-
 vec3 GammaCorrect(vec3 color)
 {
 	return pow(color, vec3(GAMMA,GAMMA,GAMMA));
 }
-
 #undef GAMMA
 
 #define PI 3.14159265
@@ -134,6 +131,7 @@ void main()
 	final.a = 1.0;
 	
 	//final.rgb = UnGammaCorrect(final.rgb);
+	//final.rgb = CompressIntensity(final.rgb);
 	
 	//final.rgb = vec3(1.0,1.0,1.0)*normal.x;
 	//final.rgb = vec3(gbuf_normal_xy.x, gbuf_normal_xy.y,0.0);
