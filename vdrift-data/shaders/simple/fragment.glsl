@@ -68,6 +68,19 @@ vec4 bicubic_filter(sampler2D tex_source, vec2 coord_source)
 	return tex_source00;
 }*/
 
+#ifdef _GAMMA_
+#define GAMMA 2.2
+vec3 UnGammaCorrect(vec3 color)
+{
+	return pow(color, vec3(1.0/GAMMA,1.0/GAMMA,1.0/GAMMA));
+}
+vec3 GammaCorrect(vec3 color)
+{
+	return pow(color, vec3(GAMMA,GAMMA,GAMMA));
+}
+#undef GAMMA
+#endif
+
 void main()
 {
 	// Setting Each Pixel To Red
@@ -77,6 +90,9 @@ void main()
 	//vec4 outcol = 1.0/(1.0+pow(2.718,-(incol*6.0-3.0)));
 	
 	vec4 outcol = texture2D(tu0_2D, tu0coord);
+	#ifdef _GAMMA_
+	outcol.rgb = GammaCorrect(outcol.rgb);
+	#endif
 	
 	vec4 glcolor = gl_Color;
 	

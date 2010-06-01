@@ -133,7 +133,7 @@ void main()
 	//final.rgb = CommonBRDF(cdiff,E_l,omega_i)+ambient;
 	final.a = 1.0;
 	
-	final.rgb = UnGammaCorrect(final.rgb);
+	//final.rgb = UnGammaCorrect(final.rgb);
 	
 	//final.rgb = vec3(1.0,1.0,1.0)*normal.x;
 	//final.rgb = vec3(gbuf_normal_xy.x, gbuf_normal_xy.y,0.0);
