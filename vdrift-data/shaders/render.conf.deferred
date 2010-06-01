@@ -9,6 +9,16 @@ folder = simple
 defines = _PREMULTIPLY_ALPHA_
 
 [shader]
+name = simple_gamma_premult
+folder = simple
+defines = _PREMULTIPLY_ALPHA_ _GAMMA_
+
+[shader]
+name = simple_gamma
+folder = simple
+defines = _GAMMA_
+
+[shader]
 name = simplecar
 folder = simple
 defines = _CARPAINT_
@@ -58,6 +68,11 @@ name = ppcopy
 folder = ppdepthadjust
 defines = _WITH_COLOR_
 
+[shader]
+name = ppcopy_gamma
+folder = ppdepthadjust
+defines = _WITH_COLOR_ _GAMMA_
+
 
 ; RENDER OUTPUTS
 
@@ -77,7 +92,7 @@ width = framebuffer
 height = framebuffer
 type = 2D
 filter = nearest
-format = RGBA
+format = RGBA8
 
 ; RG: 16-bit packed X component of eye-space normal, BA: 16-bit packed Y component
 [output]
@@ -86,7 +101,7 @@ width = framebuffer
 height = framebuffer
 type = 2D
 filter = nearest
-format = RGBA
+format = RGBA8
 
 ; RGB: gamma-space fresnel reflectance value/color at zero degrees, A: micro-scale roughness parameter
 [output]
@@ -95,7 +110,7 @@ width = framebuffer
 height = framebuffer
 type = 2D
 filter = nearest
-format = RGBA
+format = RGBA8
 
 ; RGB: gamma-space diffuse albedo, A: shadow unocclusion factor
 [output]
@@ -104,7 +119,7 @@ width = framebuffer
 height = framebuffer
 type = 2D
 filter = nearest
-format = RGBA
+format = RGBA8
 
 ; shadows: low quality
 
@@ -265,7 +280,7 @@ blendmode = disabled
 [pass]
 draw = skybox_noblend
 output = full_scene_color
-shader = simple
+shader = simple_gamma
 cull = false
 clear_color = true
 clear_depth = true
@@ -274,7 +289,7 @@ blendmode = disabled
 [pass]
 draw = skybox_blend
 output = full_scene_color
-shader = simple_premult
+shader = simple_gamma_premult
 cull = false
 clear_depth = true
 blendmode = alphablend_premultiplied
@@ -291,7 +306,7 @@ inputs = material_properties normal_xy diffuse_albedo full_scene_depth reflectio
 [pass]
 draw = lights_emissive
 output = full_scene_color full_scene_depth
-shader = simple
+shader = simple_gamma
 depthtest = lequal
 write_depth = false
 blendmode = add
@@ -302,13 +317,13 @@ blendmode = add
 [pass]
 draw = normal_noblend_nolighting
 output = full_scene_color full_scene_depth
-shader = simple
+shader = simple_gamma
 blendmode = alphatest
 
 [pass]
 draw = normal_blend
 output = full_scene_color full_scene_depth
-shader = simple_premult
+shader = simple_gamma_premult
 blendmode = alphablend_premultiplied
 
 [pass]
@@ -325,7 +340,7 @@ blendmode = add
 draw = postprocess
 output = framebuffer
 inputs = full_scene_depth full_scene_color
-shader = ppcopy
+shader = ppcopy_gamma
 
 
 ; TOP LAYERS

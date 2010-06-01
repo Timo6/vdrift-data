@@ -5,6 +5,19 @@ uniform sampler2D tu0_2D;
 uniform sampler2D tu1_2D;
 #endif
 
+#ifdef _GAMMA_
+#define GAMMA 2.2
+vec3 UnGammaCorrect(vec3 color)
+{
+	return pow(color, vec3(1.0/GAMMA,1.0/GAMMA,1.0/GAMMA));
+}
+vec3 GammaCorrect(vec3 color)
+{
+	return pow(color, vec3(GAMMA,GAMMA,GAMMA));
+}
+#undef GAMMA
+#endif
+
 void main()
 {
 	float gbuf_depth = texture2D(tu0_2D, tu0coord).r;
@@ -18,6 +31,9 @@ void main()
 	
 		#ifdef _WITH_COLOR_
 		gl_FragColor = texture2D(tu1_2D, tu0coord);
+		#ifdef _GAMMA_
+		gl_FragColor.rgb = UnGammaCorrect(gl_FragColor.rgb);
+		#endif
 		#else
 		gl_FragColor = vec4(1,1,1,1);
 		#endif
