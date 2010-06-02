@@ -84,6 +84,10 @@ toe = 0.2
 anti-roll = 10000.0
 
 [ tire-front ]
+size = 265/40r17
+wheel = 5_spoke_m
+tiretexture = tire
+
 radius = 0.3284
 rolling-resistance = 1.3e-2, 6.5e-6
 rotational-inertia = 10.0
@@ -139,6 +143,10 @@ c16=0.092
 c17=0.0114
 
 [ tire-rear ]
+size = 295/35r18
+wheel = 5_spoke_m
+tiretexture = tire
+
 radius = 0.3284
 rolling-resistance = 1.3e-2, 6.5e-6
 rotational-inertia = 10.0
@@ -238,7 +246,7 @@ efficiency = 0.95
 
 
 [ wheel-FR ]
-position = 0.66, 1.30, -0.46
+position = 0.73, 1.30, -0.42
 roll-height = 0.2
 mass = 26.0
 restitution = 0.1
@@ -248,7 +256,7 @@ position = 0.51, 1.30, -0.32
 hinge = 0,0,-0.1
 
 [ wheel-FL ]
-position = -0.66, 1.30, -0.46
+position = -0.73, 1.30, -0.42
 roll-height = 0.2
 mass = 26.0
 restitution = 0.1
@@ -259,7 +267,7 @@ hinge = 0,0,-0.1
 
 
 [ wheel-RR ]
-position = 0.66, -1.25, -0.48
+position = 0.75, -1.25, -0.43
 roll-height = 0.2
 mass = 26.0
 restitution = 0.1
@@ -269,7 +277,7 @@ position = 0.51, -1.25, -0.32
 hinge = 0,0,-0.1
 
 [ wheel-RL ]
-position = -0.66, -1.25, -0.48
+position = -0.75, -1.25, -0.43
 roll-height = 0.2
 mass = 26.0
 restitution = 0.1

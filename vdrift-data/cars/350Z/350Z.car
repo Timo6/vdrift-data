@@ -82,6 +82,13 @@ anti-roll = 6000
 
 
 [ tire-front ]
+# standard
+#  size = 225/50r17
+# touring
+size = 225/45r18
+wheel = 5_spoke_m
+tiretexture = tire
+
 radius = 0.29
 rolling-resistance = 1.3e-2, 6.5e-6
 rotational-inertia = 3.0
@@ -137,6 +144,13 @@ c16=0.27
 c17=-1.1
 
 [ tire-rear ]
+# standard
+#  size = 235/50r17
+# touring
+size = 245/45r18
+wheel = 5_spoke_m
+tiretexture = tire
+
 radius = 0.2935
 rolling-resistance = 1.3e-2, 6.5e-6
 rotational-inertia = 6.5
