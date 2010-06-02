@@ -62,7 +62,7 @@ vec3 FresnelEquation(const vec3 Rf0, const float omega_i)
 // equation 7.49, Real-Time Rendering (third edition) by Akenine-Moller, Haines, Hoffman
 vec3 RealTimeRenderingBRDF(const vec3 cdiff, const float m, const vec3 Rf0, const float alpha_h, const float omega_h)
 {
-	return cdiff/PI + ((m+8)/(8*PI))*FresnelEquation(Rf0,alpha_h)*pow(omega_h,m);
+	return cdiff/PI + ((m+8.0)/(8.0*PI))*FresnelEquation(Rf0,alpha_h)*pow(omega_h,m);
 }
 
 void main()

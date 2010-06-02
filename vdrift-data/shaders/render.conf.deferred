@@ -24,7 +24,15 @@ folder = simple
 defines = _CARPAINT_
 
 [shader]
-name = full
+name = logluminance
+
+[shader]
+name = logluminance_tiny
+folder = logluminance
+defines = _TINY_
+
+[shader]
+name = tonemap
 
 [shader]
 name = gbufferfill
@@ -120,6 +128,24 @@ height = framebuffer
 type = 2D
 filter = nearest
 format = RGBA8
+
+; log luminance map
+[output]
+name = log_luminance
+width = 512
+height = 512
+type = 2D
+filter = linear
+format = RGB8
+mipmap = true
+
+[output]
+name = log_luminance_tiny
+width = 2
+height = 2
+type = 2D
+filter = linear
+format = RGB8
 
 ; shadows: low quality
 
@@ -336,11 +362,26 @@ blendmode = add
 
 
 ; postprocessing phase
+
+[pass]
+draw = postprocess
+output = log_luminance
+inputs = full_scene_color
+shader = logluminance
+;blendmode = alphablend
+
+[pass]
+draw = postprocess
+output = log_luminance_tiny
+inputs = log_luminance
+shader = logluminance_tiny
+blendmode = alphablend
+
 [pass]
 draw = postprocess
 output = framebuffer
-inputs = full_scene_depth full_scene_color
-shader = ppcopy_gamma
+inputs = full_scene_color log_luminance_tiny
+shader = tonemap
 
 
 ; TOP LAYERS
