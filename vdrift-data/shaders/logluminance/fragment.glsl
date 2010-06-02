@@ -14,7 +14,7 @@ const float offset_tiny = -0.12;
 void main()
 {
 	#ifdef _TINY_
-	float lod = 8;
+	float lod = 9;
 	gl_FragColor.rgb = vec3(1.,1.,1.)*(texture2DLod(tu0_2D, tu0coord, lod).r+offset_tiny)*scale_tiny;
 	gl_FragColor.a = timefactor;
 	#else
