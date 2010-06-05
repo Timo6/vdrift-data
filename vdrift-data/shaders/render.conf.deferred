@@ -43,7 +43,14 @@ folder = gbufferfill
 defines = _CARPAINT_
 
 [shader]
-name = lightaccumulate
+name = lightaccumulate_initial
+folder = lightaccumulate
+defines = _INITIAL_
+
+[shader]
+name = lightaccumulate_omni
+folder = lightaccumulate
+defines = _OMNI_
 
 [shader]
 name = depthgen
@@ -326,8 +333,17 @@ blendmode = alphablend_premultiplied
 [pass]
 draw = postprocess
 output = full_scene_color
-shader = lightaccumulate
+shader = lightaccumulate_initial
 inputs = material_properties normal_xy diffuse_albedo full_scene_depth reflection_cube
+
+[pass]
+draw = lights_omni
+output = full_scene_color
+shader = lightaccumulate_omni
+inputs = material_properties normal_xy diffuse_albedo full_scene_depth reflection_cube
+depthtest = disabled
+write_depth = false
+blendmode = add
 
 [pass]
 draw = lights_emissive
@@ -396,7 +412,7 @@ shader = simple_premult
 cull = false
 blendmode = alphablend_premultiplied
 depthtest = disabled
-write_detph = false
+write_depth = false
 
 [pass]
 camera = 2d
@@ -406,7 +422,7 @@ shader = distancefield
 cull = false
 blendmode = alphablend
 depthtest = disabled
-write_detph = false
+write_depth = false
 
 
 ; 3D UI elements
@@ -436,3 +452,4 @@ output = framebuffer
 shader = simple
 inputs = shadow_depths_near
 conditions = debug
+

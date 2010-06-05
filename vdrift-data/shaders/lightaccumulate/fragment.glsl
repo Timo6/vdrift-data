@@ -67,16 +67,18 @@ vec3 RealTimeRenderingBRDF(const vec3 cdiff, const float m, const vec3 Rf0, cons
 
 void main()
 {
+	vec2 screen = vec2(SCREENRESX,SCREENRESY);
+	vec2 screencoord = gl_FragCoord.xy/screen;
+	
 	// retrieve g-buffer
-	float gbuf_depth = texture2D(tu3_2D, tu0coord).r;
+	float gbuf_depth = texture2D(tu3_2D, screencoord).r;
 	
 	// early discard
-	if (gbuf_depth == 1)
-		discard;
+	if (gbuf_depth == 1) discard;
 	
-	vec4 gbuf_material_properties = texture2D(tu0_2D, tu0coord);
-	vec4 gbuf_normal_xy = texture2D(tu1_2D, tu0coord);
-	vec4 gbuf_diffuse_albedo = texture2D(tu2_2D, tu0coord);
+	vec4 gbuf_material_properties = texture2D(tu0_2D, screencoord);
+	vec4 gbuf_normal_xy = texture2D(tu1_2D, screencoord);
+	vec4 gbuf_diffuse_albedo = texture2D(tu2_2D, screencoord);
 	
 	// decode g-buffer
 	vec3 cdiff = GammaCorrect(gbuf_diffuse_albedo.rgb); //diffuse reflectance
@@ -84,12 +86,8 @@ void main()
 	vec3 Rf0 = GammaCorrect(gbuf_material_properties.rgb); //fresnel reflectance value at zero degrees
 	float m = gbuf_material_properties.a*256.0+1.0; //micro-scale roughness
 	float mpercent = gbuf_material_properties.a;
-	vec3 normal;
-	//normal.x = (unpackFloatFromVec2i(gbuf_normal_xy.xy)-0.5)*2.0;
-	//normal.y = (unpackFloatFromVec2i(gbuf_normal_xy.zw)-0.5)*2.0;
-	//normal.z = -sqrt(1.0-dot(normal.xy,normal.xy));
 	vec2 normal_spherical = vec2(unpackFloatFromVec2i(gbuf_normal_xy.xy),unpackFloatFromVec2i(gbuf_normal_xy.zw))*2.0-vec2(1.0,1.0);
-	normal = sphericalToXYZ(normal_spherical);
+	vec3 normal = sphericalToXYZ(normal_spherical);
 	
 	// determine view vector
 	vec3 V = normalize(-eyespace_view_direction);
@@ -97,75 +95,75 @@ void main()
 	// determine half vector
 	vec3 H = normalize(V+directlight_eyespace_direction);
 	
-	// determine reflection vector and lookup into reflection texture
-	vec3 R = reflect(-V,normal);
-	vec3 reflection = vec3(0,0,0);
-	vec3 ambient = vec3(0.5,0.5,0.5);
-	float ambient_reflection_lod = 5;
-	vec3 refmapdir = R;
-	#ifdef _REFLECTIONDYNAMIC_
-	vec3 refmapdir = vec3(-R.z, R.x, -R.y);
-	#endif
-	
-	#ifndef _REFLECTIONDISABLED_
-	reflection = GammaCorrect(textureCubeLod(tu4_cube, R, mix(ambient_reflection_lod,0.0,mpercent)).rgb);
-	ambient = GammaCorrect(textureCubeLod(tu4_cube, normal, ambient_reflection_lod).rgb);
-	#endif
-	
-	// generate parameters for directional light
-	const float sunstrength = 2.0;
-	const float ambientstrength = 0.7;
-	const float reflectionstrength = 0.5;
-	vec3 E_l = vec3(1,1,0.8)*notshadow*sunstrength; //incoming light intensity/color
 	float alpha_h = dot(V,H); //cosine of angle between half vector and view direction
 	float omega_h = cos_clamped(H,normal); //clamped cosine of angle between half vector and normal
-	float omega_i = cos_clamped(directlight_eyespace_direction,normal); //clamped cosine of angle between incoming light direction and surface normal
 	
-	vec4 final;
-	//final.rgb = cdiff*(notshadow*0.5+0.5)*(max(0.0,dot(directlight_eyespace_direction,normal))*0.5+0.5);
-	//final.rgb = vec3(1.0,1.0,1.0)*max(0.0,dot(directlight_eyespace_direction,normal));
-	final.rgb = CommonBRDF(RealTimeRenderingBRDF(cdiff, m, Rf0, alpha_h, omega_h),E_l,omega_i);
-	final.rgb += FresnelEquation(vec3(0,0,0),cos_clamped(V,normal))*Rf0*reflection*reflectionstrength;
-	final.rgb += ambient*cdiff*ambientstrength;
-	//final.rgb = CommonBRDF(cdiff,E_l,omega_i)+ambient;
-	final.a = 1.0;
+	vec4 final = vec4(0.0,0.0,0.0,1.0);
 	
-	//final.rgb = UnGammaCorrect(final.rgb);
-	//final.rgb = CompressIntensity(final.rgb);
+	#ifdef _INITIAL_
+		// determine reflection vector and lookup into reflection texture
+		vec3 R = reflect(-V,normal);
+		vec3 reflection = vec3(0,0,0);
+		vec3 ambient = vec3(0.5,0.5,0.5);
+		float ambient_reflection_lod = 5;
+		vec3 refmapdir = R;
+		#ifdef _REFLECTIONDYNAMIC_
+		vec3 refmapdir = vec3(-R.z, R.x, -R.y);
+		#endif
+		
+		#ifndef _REFLECTIONDISABLED_
+		reflection = GammaCorrect(textureCubeLod(tu4_cube, R, mix(ambient_reflection_lod,0.0,mpercent)).rgb);
+		ambient = GammaCorrect(textureCubeLod(tu4_cube, normal, ambient_reflection_lod).rgb);
+		#endif
+		
+		const float reflectionstrength = 0.5;
+		
+		// add reflection light
+		final.rgb += FresnelEquation(vec3(0,0,0),cos_clamped(V,normal))*Rf0*reflection*reflectionstrength;
+		
+		const float ambientstrength = 0.7;
+		
+		// add ambient light
+		final.rgb += ambient*cdiff*ambientstrength;
+		
+		// generate parameters for directional light
+		const float sunstrength = 2.0;
+		vec3 E_l = vec3(1,1,0.8)*notshadow*sunstrength; //incoming light intensity/color
+		float omega_i = cos_clamped(directlight_eyespace_direction,normal); //clamped cosine of angle between incoming light direction and surface normal
+	#endif
 	
-	//final.rgb = vec3(1.0,1.0,1.0)*normal.x;
-	//final.rgb = vec3(gbuf_normal_xy.x, gbuf_normal_xy.y,0.0);
-	//final.rgb = normal;
-	//final.rgb = directlight_eyespace_direction;
-	//final.rgb = vec3(1.0,1.0,1.0)*gbuf_depth;
-	//final.rgb = normalize(eyespace_view_direction);
-	//final.rgb = gbuf_diffuse_albedo.rgb;
-	//final.rgb = vec3(1.,1.,1.)*(pow(omega_h,gbuf_material_properties.a));
-	//final.rgb = vec3(1.,1.,1.)*(gbuf_material_properties.a);
-	//final.rgb = vec3(1.,1.,1.)*(omega_h);
-	//final.rgb = vec3(1.,1.,1.)*(pow(0.0,0.0));
-	//final.rgb = vec3(1.,1.,1.)*(pow(omega_h,max(gbuf_material_properties.a*100.0,1.0)));
-	//final.rgb = reflection;
-	//final.rgb = ambient;
-	//final.rgb = FresnelEquation(vec3(1,1,1)*0.05,alpha_h);
-	//vec3 L = directlight_eyespace_direction;
-	//Rf0 = vec3(1,1,1)*0.05;
-	//final.rgb = vec3(1,1,1)*pow(1.0-cos_clamped(V,normal),2.0);//Rf0 + (vec3(1.,1.,1.)-Rf0)*pow(1.0-alpha_h,5.0);
-	//final.rgb = FresnelEquation(vec3(0,0,0),cos_clamped(V,normal))*Rf0*reflection;
-	//final.rgb = pow(1.-cos_clamped(V,normal),5.0)*Rf0*reflection;
-	//final.rgb = vec3(1,1,1)*pow(1.0-normal.z,1.0);
-	//float ny = (unpackFloatFromVec2i(gbuf_normal_xy.za)-0.5)*2.0;
-	//final.rgb = vec3(1,1,1)*sqrt(1.0-ny*ny)*4.0;
-	//final.rgb = vec3(1,1,1)*notshadow;
-	//final.rgb = vec3(1,1,1)*dot(V,normal);
-	//final.rgb = vec3(1,1,1)*(V.z*normal.z*0.5+0.5);
-	//final.r = notshadow;
-	//final.g = (normal.z*0.5+0.5);
-	//final.g = dot(V,normal);
-	//final.b = final.g;
-	//final.rgb = reflection*pow(1.0-cos_clamped(V,normal), 5.0);
-	//final.rgb = vec3(1,0,0);
+	#ifdef _OMNI_
+		//vec3 gbuf_eyespace_pos;
+		//gbuf_eyespace_pos = eyespace_view_direction;
+		//gbuf_eyespace_pos.z = gl_ProjectionMatrix[3].z / (gbuf_depth * -2.0 + 1.0 - gl_ProjectionMatrix[2].z); //http://www.opengl.org/discussion_boards/ubbthreads.php?ubb=showflat&Number=277938
+		//vec3 clipspace_pos = gl_FragCoord.xyz;
+		//clipspace_pos.z = gbuf_depth;
+		//vec3 gbuf_eyespace_pos = (gl_ProjectionMatrixInverse*vec4(clipspace_pos,1.0)).xyz;
+		float eyespace_z = gl_ProjectionMatrix[3].z / (gbuf_depth * -2.0 + 1.0 - gl_ProjectionMatrix[2].z); //http://www.opengl.org/discussion_boards/ubbthreads.php?ubb=showflat&Number=277938
+		vec3 gbuf_eyespace_pos = vec3(eyespace_view_direction.xy/eyespace_view_direction.z*eyespace_z,eyespace_z); //http://lumina.sourceforge.net/Tutorials/Deferred_shading/Point_light.html
+		//vec3 light_center = gl_TextureMatrix[1][0].xyz;
+		vec3 light_center = gl_ModelViewMatrix[3].xyz;
+		float attenuation_radius = 1.0;
+		float falloff_radius = 1.0;
+		float dist = max(0.01,distance(gbuf_eyespace_pos,light_center));
+		float attenuation = max(0.0,(-dist/falloff_radius+1.0)*attenuation_radius/dist);
+		vec3 E_l = gl_Color.rgb*attenuation;
+		vec3 light_direction = -normalize(gbuf_eyespace_pos - light_center);
+		float omega_i = cos_clamped(light_direction,normal); //clamped cosine of angle between incoming light direction and surface normal
+		
+		//final.rgb = vec3(1,1,1)*light_direction*0.5+vec3(0.5,0.5,0.5);
+		//final.rgb = vec3(1,1,1)*distance(gbuf_eyespace_pos,light_center);
+		//final.rgb = vec3(1,1,1)*distance(gbuf_eyespace_pos.x,light_center.x)*0.3;
+		//final.rgb = light_center;
+		/*final.r = distance(gbuf_eyespace_pos.x,light_center.x);
+		final.g = distance(gbuf_eyespace_pos.y,light_center.y);
+		final.b = distance(gbuf_eyespace_pos.z,light_center.z);*/
+		//final.rgb = gbuf_eyespace_pos;
+		//final.b = -gbuf_eyespace_pos.z;
+	#endif
+	
+	// add source light
+	final.rgb += CommonBRDF(RealTimeRenderingBRDF(cdiff, m, Rf0, alpha_h, omega_h),E_l,omega_i);
 	
 	gl_FragColor = final;
-	//gl_FragDepth = (gbuf_depth < 1) ? 0.0 : 1.0;
 }

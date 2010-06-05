@@ -9,7 +9,11 @@ void main()
 	vec3 pos3 = pos.xyz;
 	eyespace_view_direction = pos3;
 	
+	#ifdef _INITIAL_
+	eyespace_view_direction = vec3(gl_MultiTexCoord1);
+	#endif
+	
 	tu0coord = vec2(gl_MultiTexCoord0);
 	
-	eyespace_view_direction = vec3(gl_MultiTexCoord1);
+	gl_FrontColor = gl_Color;
 }
