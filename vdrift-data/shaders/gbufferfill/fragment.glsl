@@ -123,6 +123,7 @@ void main()
 	
 	vec4 miscmap = texture2D(tu1_2D, tu0coord);
 	float notshadow = GetShadows();
+	//float notshadow = 1.0;
 	
 	vec3 normal = normalize(N);
 	//vec2 normal_x = packFloatToVec2i(normal.x*0.5+0.5);

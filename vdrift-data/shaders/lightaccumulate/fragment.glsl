@@ -133,15 +133,8 @@ void main()
 	#endif
 	
 	#ifdef _OMNI_
-		//vec3 gbuf_eyespace_pos;
-		//gbuf_eyespace_pos = eyespace_view_direction;
-		//gbuf_eyespace_pos.z = gl_ProjectionMatrix[3].z / (gbuf_depth * -2.0 + 1.0 - gl_ProjectionMatrix[2].z); //http://www.opengl.org/discussion_boards/ubbthreads.php?ubb=showflat&Number=277938
-		//vec3 clipspace_pos = gl_FragCoord.xyz;
-		//clipspace_pos.z = gbuf_depth;
-		//vec3 gbuf_eyespace_pos = (gl_ProjectionMatrixInverse*vec4(clipspace_pos,1.0)).xyz;
 		float eyespace_z = gl_ProjectionMatrix[3].z / (gbuf_depth * -2.0 + 1.0 - gl_ProjectionMatrix[2].z); //http://www.opengl.org/discussion_boards/ubbthreads.php?ubb=showflat&Number=277938
 		vec3 gbuf_eyespace_pos = vec3(eyespace_view_direction.xy/eyespace_view_direction.z*eyespace_z,eyespace_z); //http://lumina.sourceforge.net/Tutorials/Deferred_shading/Point_light.html
-		//vec3 light_center = gl_TextureMatrix[1][0].xyz;
 		vec3 light_center = gl_ModelViewMatrix[3].xyz;
 		float attenuation_radius = 1.0;
 		float falloff_radius = 1.0;
@@ -150,16 +143,6 @@ void main()
 		vec3 E_l = gl_Color.rgb*attenuation;
 		vec3 light_direction = -normalize(gbuf_eyespace_pos - light_center);
 		float omega_i = cos_clamped(light_direction,normal); //clamped cosine of angle between incoming light direction and surface normal
-		
-		//final.rgb = vec3(1,1,1)*light_direction*0.5+vec3(0.5,0.5,0.5);
-		//final.rgb = vec3(1,1,1)*distance(gbuf_eyespace_pos,light_center);
-		//final.rgb = vec3(1,1,1)*distance(gbuf_eyespace_pos.x,light_center.x)*0.3;
-		//final.rgb = light_center;
-		/*final.r = distance(gbuf_eyespace_pos.x,light_center.x);
-		final.g = distance(gbuf_eyespace_pos.y,light_center.y);
-		final.b = distance(gbuf_eyespace_pos.z,light_center.z);*/
-		//final.rgb = gbuf_eyespace_pos;
-		//final.b = -gbuf_eyespace_pos.z;
 	#endif
 	
 	// add source light
