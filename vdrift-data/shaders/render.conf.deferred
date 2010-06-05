@@ -88,6 +88,9 @@ name = ppcopy_gamma
 folder = ppdepthadjust
 defines = _WITH_COLOR_ _GAMMA_
 
+[shader]
+name = deferredshadows
+
 
 ; RENDER OUTPUTS
 
@@ -306,6 +309,19 @@ inputs = 4:shadow_depths_near 5:shadow_depths_medium 6:shadow_depths_far
 output = material_properties normal_xy diffuse_albedo full_scene_depth
 shader = gbufferfillcar
 blendmode = disabled
+
+
+; shadow phase
+
+[pass]
+draw = postprocess
+inputs = full_scene_depth shadow_depths_near shadow_depths_medium shadow_depths_far
+output = diffuse_albedo
+shader = deferredshadows
+write_color = false
+write_alpha = true
+blendmode = disabled
+conditions = disabled
 
 
 ; skybox phase
