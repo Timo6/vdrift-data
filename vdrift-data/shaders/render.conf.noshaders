@@ -66,7 +66,7 @@ output = framebuffer
 cull = false
 blendmode = alphablend
 depthtest = disabled
-write_detph = false
+write_depth = false
 
 [pass]
 camera = 2d
@@ -75,7 +75,7 @@ output = framebuffer
 cull = false
 blendmode = alphablend
 depthtest = disabled
-write_detph = false
+write_depth = false
 
 
 ; 3D UI elements
