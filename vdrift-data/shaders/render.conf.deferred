@@ -36,11 +36,13 @@ name = tonemap
 
 [shader]
 name = gbufferfill
+folder = gbufferfill
+;defines = _FORWARD_SHADOWS_
 
 [shader]
 name = gbufferfillcar
 folder = gbufferfill
-defines = _CARPAINT_
+defines = _CARPAINT_ ;_FORWARD_SHADOWS_
 
 [shader]
 name = lightaccumulate_initial
@@ -321,7 +323,7 @@ shader = deferredshadows
 write_color = false
 write_alpha = true
 blendmode = disabled
-conditions = disabled
+;conditions = disabled
 
 
 ; skybox phase

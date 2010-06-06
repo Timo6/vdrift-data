@@ -46,15 +46,18 @@ float GetShadows(vec4 eyespace_pos)
 	
 	vec3 shadowcoords[numcsm];
 	
-	mat4 shadowmat0 = gl_TextureMatrix[4] * gl_TextureMatrixInverse[3];
-	shadowcoords[0] = (shadowmat0*eyespace_pos).xyz;
+	mat4 shadowmat0 = gl_TextureMatrix[4];
+	vec4 sc0 = shadowmat0*eyespace_pos;
+	shadowcoords[0] = sc0.xyz;
 	#ifdef _CSM2_
-	mat4 shadowmat1 = gl_TextureMatrix[5] * gl_TextureMatrixInverse[3];
-	shadowcoords[1] = (shadowmat1*eyespace_pos).xyz;
+	mat4 shadowmat1 = gl_TextureMatrix[5];
+	vec4 sc1 = shadowmat1*eyespace_pos;
+	shadowcoords[1] = sc1.xyz;
 	#endif
 	#ifdef _CSM3_
-	mat4 shadowmat2 = gl_TextureMatrix[6] * gl_TextureMatrixInverse[3];
-	shadowcoords[2] = (shadowmat2*eyespace_pos).xyz;
+	mat4 shadowmat2 = gl_TextureMatrix[6];
+	vec4 sc2 = shadowmat2*eyespace_pos;
+	shadowcoords[2] = sc2.xyz;
 	#endif
 	
 	const float boundmargin = 0.1;
