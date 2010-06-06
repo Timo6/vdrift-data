@@ -110,12 +110,12 @@ void main()
 		float ambient_reflection_lod = 5;
 		vec3 refmapdir = R;
 		#ifdef _REFLECTIONDYNAMIC_
-		vec3 refmapdir = vec3(-R.z, R.x, -R.y);
+		refmapdir = vec3(-R.z, R.x, -R.y);
 		#endif
 		
 		#ifndef _REFLECTIONDISABLED_
-		reflection = GammaCorrect(textureCubeLod(tu4_cube, R, mix(ambient_reflection_lod,0.0,mpercent)).rgb);
-		ambient = GammaCorrect(textureCubeLod(tu4_cube, normal, ambient_reflection_lod).rgb);
+		reflection = GammaCorrect(textureCubeLod(tu4_cube, refmapdir, mix(ambient_reflection_lod,0.0,mpercent)).rgb);
+		//ambient = GammaCorrect(textureCubeLod(tu4_cube, normal, ambient_reflection_lod).rgb);
 		#endif
 		
 		const float reflectionstrength = 0.5;
