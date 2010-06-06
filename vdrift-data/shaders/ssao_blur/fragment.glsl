@@ -5,13 +5,11 @@ varying vec2 texcoord_2d;
 
 void main()
 {
-	const vec2 res = vec2(SCREENRESX,SCREENRESY);
+	const vec2 pixelsize = vec2(1.0/SCREENRESX,1.0/SCREENRESY);
 	
 	vec2 tc = texcoord_2d;
 	
 	vec3 final = vec3(0.0, 0.0, 0.0);
-	
-	const vec2 pixelsize = vec2(1.0,1.0)/res;
 	
 	vec2 offsets[4];
 	offsets[0] = vec2(0.0,0.0);
