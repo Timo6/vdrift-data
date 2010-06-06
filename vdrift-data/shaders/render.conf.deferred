@@ -96,13 +96,7 @@ name = deferredshadows
 name = ssao
 
 [shader]
-name = ssao_blur_horizontal
-folder = gaussian_blur
-
-[shader]
-name = ssao_blur_vertical
-folder = gaussian_blur
-defines = _VERTICAL_
+name = ssao_blur
 
 
 ; RENDER OUTPUTS
@@ -178,7 +172,7 @@ width = framebuffer
 height = framebuffer
 type = 2D
 format = RGB8
-conditions = edge_contrast_enhancement
+conditions = ssao
 
 [output]
 name = ssao2
@@ -186,7 +180,7 @@ width = framebuffer
 height = framebuffer
 type = 2D
 format = RGB8
-conditions = edge_contrast_enhancement disabled
+conditions = ssao
 
 [output]
 name = dynamic_reflection
@@ -390,21 +384,23 @@ output = ssao1
 shader = ssao
 clear_color = true
 write_color = true
-conditions = edge_contrast_enhancement
+conditions = ssao_low debug
 
 [pass]
 draw = postprocess
-inputs = ssao1
+inputs = full_scene_depth normal_xy
 output = ssao2
-shader = ssao_blur_horizontal
-conditions = edge_contrast_enhancement disabled
+shader = ssao
+clear_color = true
+write_color = true
+conditions = ssao
 
 [pass]
 draw = postprocess
 inputs = ssao2
 output = ssao1
-shader = ssao_blur_vertical
-conditions = edge_contrast_enhancement disabled
+shader = ssao_blur
+conditions = ssao
 
 
 ; skybox phase

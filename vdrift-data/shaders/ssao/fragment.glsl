@@ -9,10 +9,19 @@ uniform vec3 frustum_corner_bl;
 uniform vec3 frustum_corner_br_delta;
 uniform vec3 frustum_corner_tl_delta;
 
+#ifndef _SSAO_HIGH_
+const float scale = 2.0;
+const float bias = 0.05;
+const float sample_radius = 0.1;
+const float intensity = 2.5;
+const float self_occlusion = 0.0;
+#else
 const float scale = 4.0;
 const float bias = 0.05;
-const float sample_radius = 0.005;
+const float sample_radius = 0.1;
 const float intensity = 3.0;
+const float self_occlusion = 0.0;
+#endif
 
 float unpackFloatFromVec2i(const vec2 value)
 {
@@ -59,7 +68,17 @@ float AmbientOcclusion(vec2 tcoord, vec2 uv, vec3 p, vec3 cnorm)
 	vec3 diff = GetEyespacePositionFromScreenspace(tcoord + uv) - p;
 	vec3 v = normalize(diff);
 	float d = length(diff)*scale;
-	return max(0.0,dot(cnorm,v)-bias)*(1.0/(1.0+d))*intensity;
+	return max(0.0-self_occlusion,dot(cnorm,v)-bias)*(1.0/(1.0+d*d))*intensity;
+}
+
+float GetRandom(in vec2 screencoord)
+{
+	//return 0.606;
+	const vec2 screen = vec2(SCREENRESX,SCREENRESY);
+	vec2 coord = fract(screencoord*screen*0.5);
+	float top = mix(1.0,0.7255,coord.x);
+	float bottom = mix(0.4667,0.2314,coord.x);
+	return mix(bottom,top,coord.y);
 }
 
 vec2 RandomNoise(in vec2 coord)
@@ -80,32 +99,58 @@ void main()
 	// early discard
 	if (gbuf_depth == 1) discard;
 	
+	#ifndef _SSAO_HIGH_
+	vec2 vec[8];
+	vec[0] = vec2(1.,1.);
+	vec[1] = vec2(1.,-1.);
+	vec[2] = vec2(-1.,1.);
+	vec[3] = vec2(-1.,-1.);
+	vec[4] = vec2(1.,0.);
+	vec[5] = vec2(-1.,0.);
+	vec[6] = vec2(0.,1.);
+	vec[7] = vec2(0.,-1.);
+	#else
 	vec2 vec[4];
-	vec[0] = vec2(1,0);
-	vec[1] = vec2(-1,0);
-	vec[2] = vec2(0,1);
-	vec[3] = vec2(0,-1);
+	vec[0] = vec2(1.,0.);
+	vec[1] = vec2(-1.,0.);
+	vec[2] = vec2(0.,1.);
+	vec[3] = vec2(0.,-1.);
+	#endif
 
 	vec3 p = GetEyespacePositionFromScreenspaceAndDepth(screencoord, gbuf_depth);
 	vec3 n = GetNormalFromScreenspace(screencoord);
-	vec2 rand = RandomNoise(screencoord);
+	float ao = 0.0;
+	float rad = sample_radius/max(-10.,p.z);
+	
+	#ifndef _SSAO_HIGH_
+	
+		float rand = GetRandom(screencoord);
+		for (int i = 0; i < 8; i++)
+			ao += AmbientOcclusion(screencoord, vec[i].xy*rad*rand, p, n);
+		ao /= 8.0;
+		ao += self_occlusion;
+	
+	#else
+	
+		vec2 rand = RandomNoise(screencoord);
+		float rand1 = GetRandom(screencoord);
+		int iterations = 4;
+		for (int i = 0; i < iterations; i++)
+		{
+			//vec2 coord1 = reflect(vec[i],rand)*rad;
+			vec2 coord1 = vec[i]*rad*rand1;
+			//vec2 coord1 = vec[i]*rad;
+			vec2 coord2 = vec2(coord1.x*0.707 - coord1.y*0.707, coord1.x*0.707 + coord1.y*0.707);
 
-	float ao = 0.0f;
-	float rad = sample_radius;//*p.z;
-
-	int iterations = 4;
-	for (int i = 0; i < iterations; i++)
-	{
-		//vec2 coord1 = reflect(vec[i],rand)*rad;
-		vec2 coord1 = vec[i]*rad;
-		vec2 coord2 = vec2(coord1.x*0.707 - coord1.y*0.707, coord1.x*0.707 + coord1.y*0.707);
-
-		ao += AmbientOcclusion(screencoord, coord1*0.25, p, n);
-		ao += AmbientOcclusion(screencoord, coord2*0.5, p, n);
-		ao += AmbientOcclusion(screencoord, coord1*0.75, p, n);
-		ao += AmbientOcclusion(screencoord, coord2, p, n);
-	}
-	ao/=float(iterations)*4.0;
+			ao += AmbientOcclusion(screencoord, coord1*0.25, p, n);
+			ao += AmbientOcclusion(screencoord, coord2*0.5, p, n);
+			ao += AmbientOcclusion(screencoord, coord1*0.75, p, n);
+			ao += AmbientOcclusion(screencoord, coord2, p, n);
+		}
+		ao/=float(iterations)*4.0;
+		ao += self_occlusion;
+	
+	#endif
 	
 	//vec4 final = vec4(0.0,0.0,0.0,ao);
 	vec4 final = vec4(1.,1.,1.,1.)*ao;
