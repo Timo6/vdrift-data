@@ -1,13 +1,3 @@
-#ifdef _SHADOWS_
-varying vec4 projshadow_0;
-#ifdef _CSM2_
-varying vec4 projshadow_1;
-#endif
-#ifdef _CSM3_
-varying vec4 projshadow_2;
-#endif
-#endif
-
 uniform vec3 lightposition;
 
 varying vec2 tu0coord;
@@ -21,16 +11,6 @@ void main()
 	gl_Position = gl_ProjectionMatrix * pos;
 	vec3 pos3 = pos.xyz;
 	V = pos3;
-	
-	#ifdef _SHADOWS_
-	projshadow_0 = gl_TextureMatrix[4] * pos;
-	#ifdef _CSM2_
-	projshadow_1 = gl_TextureMatrix[5] * pos;
-	#endif
-	#ifdef _CSM3_
-	projshadow_2 = gl_TextureMatrix[6] * pos;
-	#endif
-	#endif
 	
 	// Setting the color
 	gl_FrontColor = gl_Color;

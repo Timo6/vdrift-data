@@ -3,102 +3,8 @@ uniform sampler2D tu1_2D; //misc map (includes gloss on R channel, metallic on G
 
 varying vec2 tu0coord;
 
-#ifdef _SHADOWS_
-uniform sampler2DShadow tu4_2D; //close shadow map
-#ifdef _CSM2_
-uniform sampler2DShadow tu5_2D; //far shadow map
-#endif
-#ifdef _CSM3_
-uniform sampler2DShadow tu6_2D; //far far shadow map
-#endif
-#endif
-
 varying vec3 N;
 varying vec3 V;
-
-#ifdef _SHADOWS_
-varying vec4 projshadow_0;
-#ifdef _CSM2_
-varying vec4 projshadow_1;
-#endif
-#ifdef _CSM3_
-varying vec4 projshadow_2;
-#endif
-#endif
-
-float shadow_lookup(sampler2DShadow tu, vec3 coords)
-{
-	float notshadowfinal = float(shadow2D(tu, coords).r);
-	
-	return notshadowfinal;
-}
-
-float GetShadows()
-{
-#ifdef _SHADOWS_
-	
-	#ifdef _CSM3_
-	const int numcsm = 3;
-	#else
-		#ifdef _CSM2_
-	const int numcsm = 2;
-		#else
-	const int numcsm = 1;
-		#endif
-	#endif
-	
-	vec3 shadowcoords[numcsm];
-	
-	shadowcoords[0] = projshadow_0.xyz;
-	#ifdef _CSM2_
-	shadowcoords[1] = projshadow_1.xyz;
-	#endif
-	#ifdef _CSM3_
-	shadowcoords[2] = projshadow_2.xyz;
-	#endif
-	
-	const float boundmargin = 0.1;
-	const float boundmax = 1.0 - boundmargin;
-	const float boundmin = 0.0 + boundmargin;
-	
-	bool effect[numcsm];
-	
-	for (int i = 0; i < numcsm; i++)
-	{
-		effect[i] = (shadowcoords[i].x < boundmin || shadowcoords[i].x > boundmax) ||
-		(shadowcoords[i].y < boundmin || shadowcoords[i].y > boundmax) ||
-		(shadowcoords[i].z < boundmin || shadowcoords[i].z > boundmax);
-	}
-	
-	//shadow lookup that works better with ATI cards:  no early out
-	float notshadow[numcsm];
-	notshadow[0] = shadow_lookup(tu4_2D, shadowcoords[0]);
-	#ifdef _CSM2_
-	notshadow[1] = shadow_lookup(tu5_2D, shadowcoords[1]);
-	#endif
-	#ifdef _CSM3_
-	notshadow[2] = shadow_lookup(tu6_2D, shadowcoords[2]);
-	#endif
-	
-	//simple shadow mixing, no shadow fade-in
-	//float notshadowfinal = notshadow[0];
-	float notshadowfinal = max(notshadow[0],float(effect[0]));
-	#ifdef _CSM3_
-	notshadowfinal = mix(notshadowfinal,mix(notshadow[1],notshadow[2],float(effect[1])),float(effect[0]));
-	notshadowfinal = max(notshadowfinal,float(effect[2]));
-	#else
-		#ifdef _CSM2_
-	notshadowfinal = mix(notshadowfinal,notshadow[1],float(effect[0]));
-	notshadowfinal = max(notshadowfinal,float(effect[1]));
-		#endif
-	#endif
-	
-	#else //no SHADOWS
-	float notshadowfinal = 1.0;
-	#endif
-
-	return notshadowfinal;
-}
 
 vec2 packFloatToVec2i(const float value)
 {
@@ -122,11 +28,7 @@ void main()
 	#endif
 	
 	vec4 miscmap = texture2D(tu1_2D, tu0coord);
-	#ifdef _FORWARD_SHADOWS_
-	float notshadow = GetShadows();
-	#else
 	float notshadow = 1.0;
-	#endif
 	
 	vec3 normal = normalize(N);
 	//vec2 normal_x = packFloatToVec2i(normal.x*0.5+0.5);
