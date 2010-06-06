@@ -1,19 +1,22 @@
 uniform sampler2D tu0_2D;
 varying vec2 texcoord_2d;
 
-#define RESOLUTION 512.0
+//#define RESOLUTION 512.0
 
 void main()
 {
+	vec2 res = vec2(SCREENRESX,SCREENRESY);
+	
 	vec2 tc = texcoord_2d;
-	const float pixelsize = 1.0/RESOLUTION;
 	
 	vec3 final = vec3(0.0, 0.0, 0.0);
 	
 	vec2 direction = vec2(1.,0.);
+	float pixelsize = 1.0/res.x;
 	
 #ifdef _VERTICAL_
 	direction = vec2(0.,1.);
+	pixelsize = 1.0/res.y;
 #endif
 	
 	/*//big kernel box filter

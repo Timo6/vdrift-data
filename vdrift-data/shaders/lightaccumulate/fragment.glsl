@@ -10,6 +10,8 @@ uniform sampler2D tu3_2D;
 uniform samplerCube tu4_cube; //reflection map
 #endif
 
+uniform sampler2D tu5_2D;
+
 // shadowed directional light
 uniform vec3 directlight_eyespace_direction;
 
@@ -121,7 +123,7 @@ void main()
 		// add reflection light
 		final.rgb += FresnelEquation(vec3(0,0,0),cos_clamped(V,normal))*Rf0*reflection*reflectionstrength;
 		
-		const float ambientstrength = 0.7;
+		float ambientstrength = 0.7*(1.0-texture2D(tu5_2D, screencoord).r);
 		
 		// add ambient light
 		final.rgb += ambient*cdiff*ambientstrength;
@@ -130,6 +132,8 @@ void main()
 		const float sunstrength = 2.0;
 		vec3 E_l = vec3(1,1,0.8)*notshadow*sunstrength; //incoming light intensity/color
 		float omega_i = cos_clamped(directlight_eyespace_direction,normal); //clamped cosine of angle between incoming light direction and surface normal
+		
+		//final.rgb = ambient*ambientstrength;
 	#endif
 	
 	#ifdef _OMNI_

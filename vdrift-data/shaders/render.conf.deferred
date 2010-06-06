@@ -37,12 +37,11 @@ name = tonemap
 [shader]
 name = gbufferfill
 folder = gbufferfill
-;defines = _FORWARD_SHADOWS_
 
 [shader]
 name = gbufferfillcar
 folder = gbufferfill
-defines = _CARPAINT_ ;_FORWARD_SHADOWS_
+defines = _CARPAINT_
 
 [shader]
 name = lightaccumulate_initial
@@ -92,6 +91,18 @@ defines = _WITH_COLOR_ _GAMMA_
 
 [shader]
 name = deferredshadows
+
+[shader]
+name = ssao
+
+[shader]
+name = ssao_blur_horizontal
+folder = gaussian_blur
+
+[shader]
+name = ssao_blur_vertical
+folder = gaussian_blur
+defines = _VERTICAL_
 
 
 ; RENDER OUTPUTS
@@ -158,6 +169,24 @@ height = 2
 type = 2D
 filter = linear
 format = RGB8
+
+; ssao surfaces
+
+[output]
+name = ssao1
+width = framebuffer
+height = framebuffer
+type = 2D
+format = RGB8
+conditions = edge_contrast_enhancement
+
+[output]
+name = ssao2
+width = framebuffer
+height = framebuffer
+type = 2D
+format = RGB8
+conditions = edge_contrast_enhancement
 
 ; shadows: low quality
 
@@ -298,7 +327,6 @@ blendmode = disabled
 
 [pass]
 draw = normal_noblend
-inputs = 4:shadow_depths_near 5:shadow_depths_medium 6:shadow_depths_far
 output = material_properties normal_xy diffuse_albedo full_scene_depth
 shader = gbufferfill
 clear_color = true
@@ -307,13 +335,12 @@ blendmode = disabled
 
 [pass]
 draw = car_noblend
-inputs = 4:shadow_depths_near 5:shadow_depths_medium 6:shadow_depths_far
 output = material_properties normal_xy diffuse_albedo full_scene_depth
 shader = gbufferfillcar
 blendmode = disabled
 
 
-; shadow phase
+; deferred shadowing
 
 [pass]
 draw = postprocess
@@ -323,7 +350,32 @@ shader = deferredshadows
 write_color = false
 write_alpha = true
 blendmode = disabled
-;conditions = disabled
+
+
+; ssao
+
+[pass]
+draw = postprocess
+inputs = full_scene_depth normal_xy
+output = ssao1
+shader = ssao
+clear_color = true
+write_color = true
+conditions = edge_contrast_enhancement
+
+[pass]
+draw = postprocess
+inputs = ssao1
+output = ssao2
+shader = ssao_blur_horizontal
+conditions = edge_contrast_enhancement disabled
+
+[pass]
+draw = postprocess
+inputs = ssao2
+output = ssao1
+shader = ssao_blur_vertical
+conditions = edge_contrast_enhancement disabled
 
 
 ; skybox phase
@@ -352,7 +404,7 @@ blendmode = alphablend_premultiplied
 draw = postprocess
 output = full_scene_color
 shader = lightaccumulate_initial
-inputs = material_properties normal_xy diffuse_albedo full_scene_depth reflection_cube
+inputs = material_properties normal_xy diffuse_albedo full_scene_depth reflection_cube ssao1
 
 [pass]
 draw = lights_omni
