@@ -23,12 +23,12 @@ void main()
 	V = pos3;
 	
 	#ifdef _SHADOWS_
-	projshadow_0 = gl_TextureMatrix[4] * gl_TextureMatrixInverse[3] * pos;
+	projshadow_0 = gl_TextureMatrix[4] * pos;
 	#ifdef _CSM2_
-	projshadow_1 = gl_TextureMatrix[5] * gl_TextureMatrixInverse[3] * pos;
+	projshadow_1 = gl_TextureMatrix[5] * pos;
 	#endif
 	#ifdef _CSM3_
-	projshadow_2 = gl_TextureMatrix[6] * gl_TextureMatrixInverse[3] * pos;
+	projshadow_2 = gl_TextureMatrix[6] * pos;
 	#endif
 	#endif
 	

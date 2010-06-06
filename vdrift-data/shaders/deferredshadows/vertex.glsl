@@ -13,7 +13,7 @@ void main()
 	
 	eyespace_view_direction = vec3(gl_MultiTexCoord1);
 	
-	float zfar = gl_MultiTexCoord1.z;
+	float zfar = -gl_MultiTexCoord1.z;
 	float depth = zfar - znear;
 	q = -(zfar+znear)/depth;
 	qn = -2.0*(zfar*znear)/depth;

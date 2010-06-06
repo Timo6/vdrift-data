@@ -122,8 +122,11 @@ void main()
 	#endif
 	
 	vec4 miscmap = texture2D(tu1_2D, tu0coord);
+	#ifdef _FORWARD_SHADOWS_
 	float notshadow = GetShadows();
-	//float notshadow = 1.0;
+	#else
+	float notshadow = 1.0;
+	#endif
 	
 	vec3 normal = normalize(N);
 	//vec2 normal_x = packFloatToVec2i(normal.x*0.5+0.5);
