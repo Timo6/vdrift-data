@@ -97,7 +97,7 @@ void main()
 	// determine half vector
 	vec3 H = normalize(V+directlight_eyespace_direction);
 	
-	float alpha_h = dot(V,H); //cosine of angle between half vector and view direction
+	float alpha_h = clamp(dot(V,H),-1.0,1.0); //cosine of angle between half vector and view direction
 	float omega_h = cos_clamped(H,normal); //clamped cosine of angle between half vector and normal
 	
 	vec4 final = vec4(0.0,0.0,0.0,1.0);
@@ -106,7 +106,7 @@ void main()
 		// determine reflection vector and lookup into reflection texture
 		vec3 R = reflect(-V,normal);
 		vec3 reflection = vec3(0,0,0);
-		vec3 ambient = vec3(0.5,0.5,0.5);
+		vec3 ambient = vec3(0.46,0.46,0.5);
 		float ambient_reflection_lod = 5;
 		vec3 refmapdir = R;
 		#ifdef _REFLECTIONDYNAMIC_
@@ -147,6 +147,8 @@ void main()
 		vec3 E_l = gl_Color.rgb*attenuation;
 		vec3 light_direction = -normalize(gbuf_eyespace_pos - light_center);
 		float omega_i = cos_clamped(light_direction,normal); //clamped cosine of angle between incoming light direction and surface normal
+		
+		//alpha_h = clamp(dot(V,H),-1,1);
 	#endif
 	
 	// add source light

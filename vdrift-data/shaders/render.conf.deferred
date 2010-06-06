@@ -328,7 +328,7 @@ blendmode = disabled
 
 ; prepass for dynamic reflections
 [pass]
-draw = skybox_noblend skybox_blend ;drawing these in one pass will muck up the horizon a little, but that's OK
+draw = skybox_noblend skybox_blend
 camera = dynamic_reflection
 output = dynamic_reflection
 shader = simple
@@ -336,6 +336,17 @@ clear_color = true
 clear_depth = true
 cull = false
 conditions = reflection_dynamic
+blendmode = alphatest
+
+[pass]
+draw = skybox_blend
+camera = dynamic_reflection
+output = dynamic_reflection
+shader = simple
+clear_depth = true
+cull = false
+conditions = reflection_dynamic
+blendmode = alphablend
 
 [pass]
 draw = normal_noblend normal_noblend_nolighting
@@ -344,6 +355,7 @@ output = dynamic_reflection
 shader = simple
 clear_depth = true
 conditions = reflection_dynamic
+blendmode = alphatest
 
 
 ; g-buffer fill phase
