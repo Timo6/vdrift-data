@@ -73,11 +73,8 @@ float AmbientOcclusion(vec2 tcoord, vec2 uv, vec3 p, vec3 cnorm)
 
 float GetRandom(in vec2 screencoord)
 {
-	//return 0.606;
 	const vec2 screen = vec2(SCREENRESX,SCREENRESY);
 	vec2 coord = fract(screencoord*screen*0.5);
-	//float top = mix(1.0,0.7255,coord.x);
-	//float bottom = mix(0.4667,0.2314,coord.x);
 	float top = mix(1.0,0.75,coord.x);
 	float bottom = mix(0.5,0.25,coord.x);
 	return mix(bottom,top,coord.y);
