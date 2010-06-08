@@ -328,8 +328,8 @@ blendmode = disabled
 
 ; prepass for dynamic reflections
 [pass]
-draw = skybox_noblend skybox_blend
-camera = dynamic_reflection
+draw = skybox_noblend
+camera = dynamic_reflection_skybox
 output = dynamic_reflection
 shader = simple
 clear_color = true
@@ -340,7 +340,7 @@ blendmode = alphatest
 
 [pass]
 draw = skybox_blend
-camera = dynamic_reflection
+camera = dynamic_reflection_skybox
 output = dynamic_reflection
 shader = simple
 clear_depth = true
@@ -418,6 +418,7 @@ conditions = ssao
 ; skybox phase
 
 [pass]
+camera = skybox
 draw = skybox_noblend
 output = full_scene_color
 shader = simple_gamma
@@ -427,6 +428,7 @@ clear_depth = true
 blendmode = disabled
 
 [pass]
+camera = skybox
 draw = skybox_blend
 output = full_scene_color
 shader = simple_gamma_premult
