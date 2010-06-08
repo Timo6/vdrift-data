@@ -25099,7 +25099,7 @@ sky0417_sky.dof-00.joe
 sky.tga.png
 1
 1
-0
+1
 0
 2.0
 0
