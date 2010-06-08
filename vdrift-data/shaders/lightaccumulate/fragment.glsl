@@ -10,7 +10,8 @@ uniform sampler2D tu3_2D;
 uniform samplerCube tu4_cube; //reflection map
 #endif
 
-uniform sampler2D tu5_2D;
+uniform samplerCube tu5_cube; //ambient map
+uniform sampler2D tu6_2D; //ssao
 
 // shadowed directional light
 uniform vec3 directlight_eyespace_direction;
@@ -114,8 +115,12 @@ void main()
 		#endif
 		
 		#ifndef _REFLECTIONDISABLED_
-		reflection = GammaCorrect(textureCubeLod(tu4_cube, refmapdir, mix(ambient_reflection_lod,0.0,mpercent)).rgb);
-		//ambient = GammaCorrect(textureCubeLod(tu4_cube, normal, ambient_reflection_lod).rgb);
+		float reflection_lod = mix(ambient_reflection_lod,0.0,mpercent);
+		vec3 ref_blurry = textureCube(tu5_cube, R).rgb; //technically should use mat3(gl_TextureMatrix[2])*R but can't tell the difference
+		vec3 ref_sharpish = textureCubeLod(tu4_cube, refmapdir, reflection_lod).rgb;
+		reflection = GammaCorrect(mix(ref_blurry,ref_sharpish,mpercent));
+		vec3 worldnormal = mat3(gl_TextureMatrix[2])*normal;
+		ambient = GammaCorrect(textureCube(tu5_cube, worldnormal).rgb);
 		#endif
 		
 		const float reflectionstrength = 0.5;
@@ -123,7 +128,7 @@ void main()
 		// add reflection light
 		final.rgb += FresnelEquation(vec3(0,0,0),cos_clamped(V,normal))*Rf0*reflection*reflectionstrength;
 		
-		float ambientstrength = 0.7*(1.0-texture2D(tu5_2D, screencoord).r);
+		float ambientstrength = 0.7*(1.0-texture2D(tu6_2D, screencoord).r);
 		
 		// add ambient light
 		final.rgb += ambient*cdiff*ambientstrength;
@@ -134,6 +139,7 @@ void main()
 		float omega_i = cos_clamped(directlight_eyespace_direction,normal); //clamped cosine of angle between incoming light direction and surface normal
 		
 		//final.rgb = ambient*ambientstrength;
+		//final.rgb = reflection.rgb;
 	#endif
 	
 	#ifdef _OMNI_

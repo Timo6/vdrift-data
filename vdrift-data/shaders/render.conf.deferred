@@ -183,12 +183,13 @@ format = RGB8
 conditions = ssao
 
 [output]
-name = dynamic_reflection
+name = reflection_cube
 width = 256
 height = 256
 type = cube
 format = RGB8
 conditions = reflection_dynamic
+;mipmap = true
 
 
 ; shadows: low quality
@@ -330,7 +331,7 @@ blendmode = disabled
 [pass]
 draw = skybox_noblend
 camera = dynamic_reflection_skybox
-output = dynamic_reflection
+output = reflection_cube
 shader = simple
 clear_color = true
 clear_depth = true
@@ -341,7 +342,7 @@ blendmode = alphatest
 [pass]
 draw = skybox_blend
 camera = dynamic_reflection_skybox
-output = dynamic_reflection
+output = reflection_cube
 shader = simple
 clear_depth = true
 cull = false
@@ -351,7 +352,7 @@ blendmode = alphablend
 [pass]
 draw = normal_noblend normal_noblend_nolighting
 camera = dynamic_reflection
-output = dynamic_reflection
+output = reflection_cube
 shader = simple
 clear_depth = true
 conditions = reflection_dynamic
@@ -443,21 +444,13 @@ blendmode = alphablend_premultiplied
 draw = postprocess
 output = full_scene_color
 shader = lightaccumulate_initial
-inputs = material_properties normal_xy diffuse_albedo full_scene_depth reflection_cube ssao1
-conditions = !reflection_dynamic
-
-[pass]
-draw = postprocess
-output = full_scene_color
-shader = lightaccumulate_initial
-inputs = material_properties normal_xy diffuse_albedo full_scene_depth dynamic_reflection ssao1
-conditions = reflection_dynamic
+inputs = material_properties normal_xy diffuse_albedo full_scene_depth reflection_cube ambient_cube ssao1
 
 [pass]
 draw = lights_omni
 output = full_scene_color
 shader = lightaccumulate_omni
-inputs = material_properties normal_xy diffuse_albedo full_scene_depth reflection_cube
+inputs = material_properties normal_xy diffuse_albedo full_scene_depth
 depthtest = disabled
 write_depth = false
 blendmode = add
