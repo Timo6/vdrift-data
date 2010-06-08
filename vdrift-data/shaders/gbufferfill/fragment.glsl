@@ -6,8 +6,9 @@ varying vec2 tu0coord;
 varying vec3 N;
 varying vec3 V;
 
-vec2 packFloatToVec2i(const float value)
+vec2 packFloatToVec2i(const float val)
 {
+	float value = clamp(val,0.0,0.9999);
 	vec2 bitSh = vec2(256.0, 1.0);
 	vec2 bitMsk = vec2(0.0, 1.0/256.0);
 	vec2 res = fract(value * bitSh);
