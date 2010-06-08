@@ -109,14 +109,17 @@ void main()
 		vec3 reflection = vec3(0,0,0);
 		vec3 ambient = vec3(0.46,0.46,0.5);
 		float ambient_reflection_lod = 5;
-		vec3 refmapdir = R;
+		vec3 Rworld = mat3(gl_TextureMatrix[2])*R;
+		vec3 refmapdir = Rworld;
+		
 		#ifdef _REFLECTIONDYNAMIC_
-		refmapdir = vec3(-R.z, R.x, -R.y);
+		//refmapdir = vec3(-R.z, R.x, -R.y);
+		refmapdir = vec3(-refmapdir.z, refmapdir.x, -refmapdir.y);
 		#endif
 		
 		#ifndef _REFLECTIONDISABLED_
 		float reflection_lod = mix(ambient_reflection_lod,0.0,mpercent);
-		vec3 ref_blurry = textureCube(tu5_cube, R).rgb; //technically should use mat3(gl_TextureMatrix[2])*R but can't tell the difference
+		vec3 ref_blurry = textureCube(tu5_cube, R).rgb;
 		vec3 ref_sharpish = textureCubeLod(tu4_cube, refmapdir, reflection_lod).rgb;
 		reflection = GammaCorrect(mix(ref_blurry,ref_sharpish,mpercent));
 		vec3 worldnormal = mat3(gl_TextureMatrix[2])*normal;
@@ -135,11 +138,13 @@ void main()
 		
 		// generate parameters for directional light
 		const float sunstrength = 2.0;
-		vec3 E_l = vec3(1,1,0.8)*notshadow*sunstrength; //incoming light intensity/color
+		vec3 E_l = vec3(1.,1.,0.8)*notshadow*sunstrength; //incoming light intensity/color
 		float omega_i = cos_clamped(directlight_eyespace_direction,normal); //clamped cosine of angle between incoming light direction and surface normal
 		
 		//final.rgb = ambient*ambientstrength;
 		//final.rgb = reflection.rgb;
+		//final.rgb = vec3(unpackFloatFromVec2i(gbuf_normal_xy.xy),unpackFloatFromVec2i(gbuf_normal_xy.zw),0);
+		//final.rgb = vec3(1,1,1)*normal;
 	#endif
 	
 	#ifdef _OMNI_
