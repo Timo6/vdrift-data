@@ -144,7 +144,7 @@ void main()
 		//final.rgb = ambient*ambientstrength;
 		//final.rgb = reflection.rgb;
 		//final.rgb = vec3(unpackFloatFromVec2i(gbuf_normal_xy.xy),unpackFloatFromVec2i(gbuf_normal_xy.zw),0);
-		//final.rgb = vec3(1,1,1)*normal;
+		//final.rgb = normal;
 	#endif
 	
 	#ifdef _OMNI_
