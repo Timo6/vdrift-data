@@ -211,14 +211,14 @@ rotor = rotor_shiny_slotted_drilled
 
 [wheel-0]
 orientation = left
-position = -0.8345, 1.12, -0.27
+position = -0.85, 1.12, -0.27
 tire = tire-front
 brake = brake-front
 rim = 5_spoke_m
 
 [suspension-0]
 coilover = coilover-front
-position = -0.60, 1.12, -0.30
+position = -0.75, 1.12, -0.30
 hinge = 0.50, 0.90, -0.20
 camber = -1.0
 caster = 6.12
@@ -226,14 +226,14 @@ toe = 0.2
 
 [wheel-1]
 orientation = right
-position = 0.8345, 1.12, -0.27			# track +-Y = 1669/2
+position = 0.85, 1.12, -0.27			# track +-Y = 1669/2
 tire = tire-front
 brake = brake-front
 rim = 5_spoke_m
 
 [suspension-1]
 coilover = coilover-front
-position = 0.60, 1.12, -0.30
+position = 0.75, 1.12, -0.30
 hinge = -0.50, 0.90, -0.20
 camber = -1.0
 caster = 6.12
