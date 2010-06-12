@@ -1,6 +1,6 @@
 uniform sampler2D tu0_2D; // diffuse
 uniform sampler2D tu1_2D; //misc map 1 (specular color in RGB, specular power in A)
-uniform sampler2D tu2_2D; //misc map 2 (nothing in RGB yet, bump map in A)
+uniform sampler2D tu2_2D; //misc map 2 (RGB is normal map)
 
 varying vec2 tu0coord;
 
@@ -17,37 +17,6 @@ vec2 packFloatToVec2i(const float val)
 	return res;
 }
 
-// surf_norm MUST BE UNIT LENGTH
-vec3 PerturbNormal(vec3 surf_pos, vec3 surf_norm, float height)
-{
-	vec3 vSigmaS = dFdx(surf_pos);
-	vec3 vSigmaT = dFdy(surf_pos);
-	vec3 vN = surf_norm;
-	
-	vec3 vR1 = cross(vSigmaT, vN) ;
-	vec3 vR2 = cross(vN, vSigmaS) ;
-	float fDet = dot(vSigmaS, vR1) ;
-	float dBs = dFdx(height);
-	float dBt = dFdy(height);
-	vec3 vSurfGrad = sign(fDet) * (dBs * vR1 + dBt * vR2);
-	return normalize(abs(fDet) * vN - vSurfGrad);
-}
-
-vec3 PerturbNormalWithdxdy(vec3 surf_pos, vec3 surf_norm, float scale, float heightdx, float heightdy)
-{
-	vec3 vSigmaS = dFdx(surf_pos);
-	vec3 vSigmaT = dFdy(surf_pos);
-	vec3 vN = surf_norm;
-	
-	vec3 vR1 = cross(vSigmaT, vN) ;
-	vec3 vR2 = cross(vN, vSigmaS) ;
-	float fDet = dot(vSigmaS, vR1) ;
-	float dBs = heightdx*scale;
-	float dBt = heightdy*scale;
-	vec3 vSurfGrad = sign(fDet) * (dBs * vR1 + dBt * vR2);
-	return normalize(abs(fDet) * vN - vSurfGrad);
-}
-
 vec2 TweakTextureCoordinates(vec2 incoord, float textureSize)
 {
 	vec2 t = incoord * textureSize - .5;
@@ -57,16 +26,40 @@ vec2 TweakTextureCoordinates(vec2 incoord, float textureSize)
 	return (flr + frc + .5)*(1./textureSize);
 }
 
-vec2 moveTexcoordsOneTexelX(vec2 tucoord, float texsize)
-{
-	return tucoord + normalize(dFdx(tucoord))/texsize;
-	//return tucoord + dFdx(tucoord);
+mat3 MatrixInverse(mat3 inMatrix)
+{  
+	float det = dot(cross(inMatrix[0], inMatrix[1]), inMatrix[2]);
+	mat3 T = transpose(inMatrix);
+	return mat3(cross(T[1], T[2]),
+		cross(T[2], T[0]),
+		cross(T[0], T[1])) / det;
 }
 
-vec2 moveTexcoordsOneTexelY(vec2 tucoord, float texsize)
+// viewdir and normal MUST BE UNIT LENGTH
+//http://www.gamedev.net/community/forums/topic.asp?topic_id=521915
+mat3 GetTangentBasis(vec3 normal, vec3 viewdir, vec2 tucoord)
 {
-	return tucoord + normalize(dFdy(tucoord))/texsize;
-	//return tucoord + dFdy(tucoord);
+	// get edge vectors of the pixel triangle
+	vec3 dp1  = dFdx(viewdir);
+	vec3 dp2  = dFdy(viewdir);   
+	vec2 duv1 = dFdx(tucoord);
+	vec2 duv2 = dFdy(tucoord);  
+
+	// solve the linear system
+	mat3 M = mat3(dp1, dp2, cross(dp1, dp2));
+	mat3 inverseM = MatrixInverse(M);
+	vec3 T = inverseM * vec3(duv1.x, duv2.x, 0.0);
+	vec3 B = inverseM * vec3(duv1.y, duv2.y, 0.0);
+
+	// construct tangent frame  
+	float maxLength = max(length(T), length(B));
+	T = T / maxLength;
+	B = B / maxLength;
+
+	//vec3 tangent = normalize(T);
+	//vec3 binormal = normalize(B);  
+
+	return mat3(T, B, normal);
 }
 
 void main()
@@ -84,17 +77,17 @@ void main()
 	vec4 miscmap1 = texture2D(tu1_2D, tu0coord);
 	//vec4 miscmap2 = texture2D(tu2_2D, TweakTextureCoordinates(tu0coord, 512.0));
 	vec4 miscmap2 = texture2D(tu2_2D, tu0coord);
-	vec4 miscmap2x = texture2D(tu2_2D, moveTexcoordsOneTexelX(tu0coord, 512.));
-	vec4 miscmap2y = texture2D(tu2_2D, moveTexcoordsOneTexelY(tu0coord, 512.));
-	float heightdx = (miscmap2x.a - miscmap2.a)*length(dFdx(tu0coord)*512.0);
-	float heightdy = (miscmap2y.a - miscmap2.a)*length(dFdy(tu0coord)*512.0);
 	float notshadow = 1.0;
 	
 	vec3 normal = normalize(N);
-	//normal = PerturbNormal(V, normal, miscmap2.a);
-	normal = PerturbNormalWithdxdy(V, normal, 1.0, heightdx, heightdy);
-	//vec2 normal_x = packFloatToVec2i(normal.x*0.5+0.5);
-	//vec2 normal_y = packFloatToVec2i(normal.y*0.5+0.5);
+	#ifdef _NORMALMAPS_
+	if (length(miscmap2.xyz) > 0.25)
+	{
+		vec3 bumpnormal = miscmap2.xyz*2.0-1.0;
+		mat3 tangentBasis = GetTangentBasis(normal, normalize(-V), tu0coord);
+		normal = tangentBasis*bumpnormal;
+	}
+	#endif
 	vec2 normal_topack = vec2(atan(normal.y,normal.x)/3.14159265358979323846, normal.z)*0.5+vec2(0.5,0.5);
 	vec2 normal_x = packFloatToVec2i(normal_topack.x);
 	vec2 normal_y = packFloatToVec2i(normal_topack.y);
