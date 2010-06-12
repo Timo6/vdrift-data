@@ -65,14 +65,13 @@
 #	Downforce by ground effect: 180 kg  at 290 km/h
 #
 #---------------------------------------
-
 drive = RWD
 version = 2
 
-[ steering ]
+[steering]
 max-angle = 36.0
 
-[ engine ]
+[engine]
 position = 0.0, -1.0, -0.05
 mass = 150.0
 max-power = 313000
@@ -106,13 +105,13 @@ torque-curve-16 = 8000, 335
 torque-curve-17 = 8600, 309
 torque-curve-18 = 9200, 279
 
-[ clutch ]
+[clutch]
 sliding = 0.025
 radius = 0.15
 area = 1.0
 max-pressure = 4e5
 
-[ transmission ]
+[transmission]
 gears = 6
 gear-ratio-r = -3.29
 gear-ratio-1 = 3.29
@@ -123,196 +122,35 @@ gear-ratio-5 = 1.03
 gear-ratio-6 = 0.85
 shift-time=0.15
 
-[ differential ]
+[differential]
 final-drive = 4.44
 anti-slip =750.0
 anti-slip-torque = 0.01
 anti-slip-torque-deceleration-factor = 0
 
-[ fuel-tank ]
+[fuel-tank]
 position = 0.0, -1.50, -0.10
 capacity = 95.0
 volume = 40.0
 fuel-density = 0.8
 
-[ suspension-front ]
-#spring-constant = 142000 #spring rate
-spring-constant = 79865 #wheel rate assuming 0.75 to 1 lever arm ratio
-bounce = 3000.0
-rebound = 10000.0
-travel = 0.12
-max-compression-velocity = 10.0
-camber = -1.0
-caster = 6.12
-toe = 0.2
-anti-roll = 12000
-
-[ suspension-rear ]
-#spring-constant = 185000
-spring-constant = 104062
-bounce = 4000.0
-rebound = 12000.0
-## Federweg
-travel = 0.14
-max-compression-velocity = 10.0
-## Radsturz
-camber = -0.45
-## Nachlauf
-caster = 0.28
-## Vorspur?
-toe = 0.1
-## Stabilisator
-anti-roll = 10000
-
-[ tire-front ]
-radius = 0.32
-rolling-resistance = 1.3e-2, 6.5e-6
-rotational-inertia = 10 #4.0
-#tread = 0.00873125
-tread = 0.0
-# rev 147
-# Lateral force
-a0=1.4
-a1=-0
-a2=1500
-a3=2400
-a4=6.026
-a5=0
-a6=-0.359
-a7=1.0
-a8=0
-a9=-0.00611
-a10=-0.0322
-a111=0
-a112=0
-a12=0
-a13=0
-# Longitudinal force
-b0=1.65
-b1=0
-b2=1690
-b3=0
-b4=229
-b5=0
-b6=0
-b7=0
-b8=-1.0
-b9=0
-b10=0
-b11=0
-b12=0
-# Aligning moment
-c0=2.07
-c1=-6.49
-c2=-21.9
-c3=-0.416
-c4=-21.3
-c5=0.0294
-c6=0.0
-c7=-1.2
-c8=5.23
-c9=-14.8
-c10=0.0
-c11=0.0
-c12=-0.00374
-c13=0.0389
-c14=0.0
-c15=0.0
-c16=0.639
-c17=1.69 
-
-
-[ tire-rear ]
-radius = 0.3335
-rolling-resistance = 1.3e-2, 6.5e-6
-rotational-inertia = 10.0 #5.00
-#tread = 0.00873125
-tread = 0.0
-# rev 147
-# Lateral force
-a0=1.4
-a1=-0
-a2=1500
-a3=2400
-a4=6.026
-a5=0
-a6=-0.359
-a7=1.0
-a8=0
-a9=-0.00611
-a10=-0.0322
-a111=0
-a112=0
-a12=0
-a13=0
-# Longitudinal force
-b0=1.65
-b1=0
-b2=1690
-b3=0
-b4=229
-b5=0
-b6=0
-b7=0
-b8=-1.0
-b9=0
-b10=0
-b11=0
-b12=0
-# Aligning moment
-c0=2.07
-c1=-6.49
-c2=-21.9
-c3=-0.416
-c4=-21.3
-c5=0.0294
-c6=0.0
-c7=-1.2
-c8=5.23
-c9=-14.8
-c10=0.0
-c11=0.0
-c12=-0.00374
-c13=0.0389
-c14=0.0
-c15=0.0
-c16=0.639
-c17=1.69
-
-
-[ brakes-front ]
-friction = 15.0
-max-pressure = 2.5e6
-bias = 0.65
-radius = 0.355 # 355mm
-area = 0.000688 # 21.5mm x 32mm
-
-[ brakes-rear ]
-friction = 15.0
-max-pressure = 2.5e6
-bias = 0.35
-radius = 0.330 # 330mm
-area = 0.000448 # 16mm x 28mm
-handbrake = 1.0
-
-
-[ driver ]
+[driver]
 position = -0.28, 0.12, 0.12
 mass = 90.0
-view-position = -0.28, 0.12, 0.42		# moved driver position
+view-position = -0.28, 0.12, 0.42			# moved driver position
 hood-mounted-view-position = 0.0, 0.7, 0.5	# static driver position
 
-[ view ]					# additional views
-name-1 = wheel-front-right			# observe wheel and chassis moves
-position-1 = 3.0, 1.0, 0.75			# X(+right), Y(+front), Z(+up)
-angle-1 = 20.0, 90.0				# +down/-up, +left/-right
+[view-0]
+name = wheel-front-right	# observe wheel and chassis moves
+position = 3.0, 1.0, 0.75	# X(+right), Y(+front), Z(+up)
+angle = 20.0, 90.0			# +down/-up, +left/-right
 
-[ drag ]
+[drag]
 position = 0.0, 0.15, 0.00
 frontal-area = 2.03
 drag-coefficient = 0.29
 
-[ wing-front ]
+[wing-0]
 position = 0, 1.15, -0.3
 frontal-area = 0.0
 drag-coefficient = 0
@@ -320,7 +158,7 @@ surface-area = 1.0
 lift-coefficient = -0.22
 efficiency = 1
 
-[ wing-rear ]
+[wing-1]
 position = 0, -1.50, -0.3
 frontal-area = 0.0
 drag-coefficient = 0
@@ -328,96 +166,156 @@ surface-area = 1.0
 lift-coefficient = -0.20
 efficiency = 1
 
+[coilover-front]
+spring-constant = 79865 # assuming 0.75 to 1 lever arm ratio
+bounce = 3000.0
+rebound = 10000.0
+travel = 0.12
+anti-roll = 12000
+
+[coilover-rear]
+spring-constant = 104062
+bounce = 4000.0
+rebound = 12000.0
+travel = 0.14
+anti-roll = 10000
+
+[tire-front]
+size = 215/45r18
+type = competition
+texture = touring
+
+[tire-rear]
+size = 275/40r18
+type = competition
+texture = touring
+
+[brake-front]
+friction = 15.0
+max-pressure = 2.5e6
+bias = 0.65
+radius = 0.175 # 350mm
+area = 0.000688 # 21.5mm x 32mm
+rotor = rotor_shiny_slotted_drilled
+
+[brake-rear]
+friction = 15.0
+max-pressure = 2.5e6
+bias = 0.35
+radius = 0.165 # 330mm
+area = 0.000448 # 16mm x 28mm
+handbrake = 1.0
+rotor = rotor_shiny_slotted_drilled
+
 #---------- F R O N T
 
-[ wheel-FR ]
-position = 0.8345, 1.12, -0.27			# track +-Y = 1669/2
-roll-height = 0.32
-mass = 30.0
-restitution = 0.1
-
-[ wheel-FL ]
+[wheel-0]
+orientation = left
 position = -0.8345, 1.12, -0.27
-roll-height = 0.32
-mass = 30.0
-restitution = 0.1
+tire = tire-front
+brake = brake-front
+rim = 5_spoke_m
 
-[ suspension-FR ]
-position = 0.60, 1.12, -0.30
-hinge = -0.50, 0.90, -0.20
-
-[ suspension-FL ]
+[suspension-0]
+coilover = coilover-front
 position = -0.60, 1.12, -0.30
 hinge = 0.50, 0.90, -0.20
+camber = -1.0
+caster = 6.12
+toe = 0.2
 
+[wheel-1]
+orientation = right
+position = 0.8345, 1.12, -0.27			# track +-Y = 1669/2
+tire = tire-front
+brake = brake-front
+rim = 5_spoke_m
+
+[suspension-1]
+coilover = coilover-front
+position = 0.60, 1.12, -0.30
+hinge = -0.50, 0.90, -0.20
+camber = -1.0
+caster = 6.12
+toe = 0.2
 
 #---------- R E A R
 
-[ wheel-RR ]
-position = 0.8085, -1.51, -0.28			# track +-Y = 1617/2
-roll-height = 0.33
-mass = 30.0
-restitution = 0.1
-
-[ wheel-RL ]
+[wheel-2]
+orientation = left
 position = -0.8085, -1.51, -0.28
-roll-height = 0.33
-mass = 30.0
-restitution = 0.1
+tire = tire-rear
+brake = brake-rear
+rim = 5_spoke_m
 
-[ suspension-RR ]
-position = 0.70, -1.51, -0.30
-hinge = -1.00 , 0.0, -0.0
-
-[ suspension-RL ]
+[suspension-2]
+coilover = coilover-rear
 position = -0.70, -1.51, -0.30
 hinge = 1.00 , -0.0, -0.0
+camber = -0.45
+caster = 0.28
+toe = 0.1
+
+[wheel-3]
+orientation = right
+position = 0.8085, -1.51, -0.28			# track +-Y = 1617/2
+tire = tire-rear
+brake = brake-rear
+rim = 5_spoke_m
+
+[suspension-3]
+coilover = coilover-rear
+position = 0.70, -1.51, -0.30
+hinge = -1.00 , 0.0, -0.0
+camber = -0.45
+caster = 0.28
+toe = 0.1
 
 #---------- 
 
 
 # these are used to calculate the weight distribution and balance
 
-[ particle-00 ]	# Chassis Front
+[particle-00]	# Chassis Front
 mass = 130
 position = 0.0, 1.5, -0.15
 
-[ particle-01 ]	#	Cooler front
+[particle-01]	#	Cooler front
 mass = 100
 position = -0.0, 1.5, -0.25
 
-[ particle-02 ]	#	Chassis left
+[particle-02]	#	Chassis left
 mass = 160
 position = 0.75, 0, -0.10
 
-[ particle-03 ]	#	Chassis right
+[particle-03]	#	Chassis right
 mass = 160
 position = -0.75, 0, -0.10 
 
-[ particle-04 ]	#	Motor Env. left
+[particle-04]	#	Motor Env. left
 mass = 60
 position = 0.7, -1.10, -0.0
 
-[ particle-05 ]		# Motor Env. right
+[particle-05]		# Motor Env. right
 mass = 60
 position = -0.7, -1.10, -0.0
 
-[ particle-06 ]		# Interieur
+[particle-06]		# Interieur
 mass = 120
 position = 0.00, 0.60, -0.10
 
-[ particle-07 ]		# Chassis top
+[particle-07]		# Chassis top
 mass = 80
 position = 0.00, -0.30, 0.30
 
-[ particle-08 ]		# Joker
+[particle-08]		# Joker
 mass = 60
 position = -0.00, 1.0, -0.20
 
-[ particle-09 ]		# gearbox
+[particle-09]		# gearbox
 mass = 50.0
 position = 0.00, -1.75, -0.25
 
-[ particle-10 ]		# Chassis rear
+[particle-10]		# Chassis rear
 mass = 80.0
 position = 0.00, -1.80, -0.0
