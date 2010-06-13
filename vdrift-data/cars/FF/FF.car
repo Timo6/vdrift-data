@@ -1,10 +1,10 @@
 drive = RWD
 version = 2
 
-[ steering ]
+[steering]
 max-angle = 20.0
 
-[ engine ]
+[engine]
 position = 0.15, -1.10, -0.18
 mass = 84.0
 max-power = 85755 
@@ -31,13 +31,13 @@ torque-curve-11 = 7000, 163.01
 torque-curve-12 = 7500, 162.43
 torque-curve-13 = 7800, 161.95
 
-[ clutch ]
+[clutch]
 sliding = 0.27
 radius = 0.1
 area = 0.75
 max-pressure = 10000.00
 
-[ transmission ]
+[transmission]
 gears = 4
 gear-ratio-r = -4.5 
 gear-ratio-1 = 2.8
@@ -46,253 +46,140 @@ gear-ratio-3 = 1.35
 gear-ratio-4 = 1.15
 shift-delay = 0.1
 
-[ differential ]
+[differential]
 final-drive = 3.32
 anti-slip = 100.0
 
-[ fuel-tank ]
+[fuel-tank]
 position = -0.1, -0.8, -0.26
 capacity = 41.0
 volume = 21.0
 fuel-density = 1.0
 
-[ suspension-front ]
+[driver]
+position = 0, 0.3, -0.25
+mass = 90.0
+view-position = 0, 0.3, 0.15
+hood-mounted-view-position = 0, 0.6, 0
+
+[drag]
+position = 0.0, 0.0, 0.2
+frontal-area = 2
+drag-coefficient = 0.3
+
+[coilover-front]
 spring-constant = 30000
 bounce = 1250
 rebound = 3750
 travel = 0.24
-max-compression-velocity = 100
-camber = -1.0
-caster = 0.0
-toe = -0.5
 anti-roll = 5000
 
-[ suspension-rear ]
+[coilover-rear]
 spring-constant = 30000
 bounce = 1250
 rebound = 3750
 travel = 0.26
-max-compression-velocity = 100
-camber = -0.5
-caster = 0.0
-toe = 1.0
 anti-roll = 2000
 
-[ tire-front ]
-radius = 0.31265
-rolling-resistance = 1.3e-2, 6.5e-6
-rotational-inertia = 1.2
-tread = 0.0
-# Lateral force
-a0=1.6
-a1=-40
-a2=1350
-a3=2400
-a4=6.5
-a5=0.014
-a6=-0.24
-a7=1.0
-a8=-0.03
-a9=-0.0013
-a10=-0.15
-a111=-8.5
-a112=-0.29
-a12=17.8
-a13=-2.4
-# Longitudinal force
-b0=1.6
-b1=-60
-b2=1450
-b3=23.3
-b4=350
-b5=0.05
-b6=0.0
-b7=0.055
-b8=-0.024
-b9=0.014
-b10=0.26
-b11=0.0
-b12=0.0
-# Aligning moment
-c0=2.2
-c1=-3.9
-c2=-3.9
-c3=-1.26
-c4=-8.2
-c5=0.025
-c6=0.0
-c7=0.044
-c8=-0.58
-c9=0.18
-c10=0.043
-c11=0.048
-c12=-0.0035
-c13=-0.18
-c14=0.14
-c15=-1.029
-c16=0.27
-c17=-1.1
+[tire]
+size = 185/55r13
+type = slick
+texture = touring
 
-[ tire-rear ]
-radius = 0.3179
-rolling-resistance = 1.3e-2, 6.5e-6
-rotational-inertia = 1.5
-tread = 0.0
-# Lateral force
-a0=1.6
-a1=-40
-a2=1350
-a3=2500
-a4=6.5
-a5=0.014
-a6=-0.24
-a7=1.0
-a8=-0.03
-a9=-0.0013
-a10=-0.15
-a111=-8.5
-a112=-0.29
-a12=17.8
-a13=-2.4
-# Longitudinal force
-b0=1.6
-b1=-60
-b2=1450
-b3=23.3
-b4=375
-b5=0.05
-b6=0.0
-b7=0.055
-b8=-0.024
-b9=0.014
-b10=0.26
-b11=0.0
-b12=0.0
-# Aligning moment
-c0=2.2
-c1=-4.1
-c2=-3.9
-c3=-1.36
-c4=-8.0
-c5=0.025
-c6=0.0
-c7=0.044
-c8=-0.58
-c9=0.18
-c10=0.043
-c11=0.048
-c12=-0.0035
-c13=-0.18
-c14=0.14
-c15=-1.029
-c16=0.27
-c17=-1.1
-
-[ brakes-front ]
+[brake-front]
 friction = 0.3
 max-pressure = 2.5e6
 bias = 0.65
 radius = 0.19
 area = 0.015
+rotor = rotor_shiny_slotted_drilled
 
-[ brakes-rear ]
+[brake-rear]
 friction = 0.3
 max-pressure = 2.5e6
 bias = 0.35
 radius = 0.18
 area = 0.015
 handbrake = 1.0
+rotor = rotor_shiny_slotted_drilled
 
+[wheel-0]
+orientation = left
+position = -0.74, 1.20, -0.48
+tire = tire
+brake = brake-rear
+rim = 5_spoke_m
 
-[ driver ]
-position = 0, 0.3, -0.25
-mass = 90.0
-view-position = 0, 0.3, 0.15
-hood-mounted-view-position = 0, 0.6, 0
-
-[ drag ]
-position = 0.0, 0.0, 0.2
-frontal-area = 2
-drag-coefficient = 0.3
-
-[ wing-front ]
-position = 0.0, 1.9, 0.60
-frontal-area = 0.2
-drag-coefficient = 0.0
-surface-area = 0.3
-lift-coefficient = -0.15
-efficiency = 0.99
-
-[ wing-rear ]
-position = 0.0, -2.14, 0.37
-frontal-area = 0.05
-drag-coefficient = 0.0
-surface-area = 0.5
-lift-coefficient = -0.2
-efficiency = 0.99
-
-
-[ wheel-FR ]
-position = 0.69, 1.20, -0.48
-roll-height = 0.31265
-mass = 20
-restitution = 0.1
-
-[ suspension-FR ]
-position = 0.69, 1.20, -0.48
+[suspension-0]
+coilover = coilover-front
+position = -0.74, 1.20, -0.48
 hinge = 0,0,0
+camber = -1.0
+caster = 0.0
+toe = -0.5
 
-[ wheel-FL ]
-position = -0.69, 1.20, -0.48
-roll-height = 0.31265
-mass = 20
-restitution = 0.1
+[wheel-1]
+orientation = right
+position = 0.74, 1.20, -0.48
+tire = tire
+brake = brake-rear
+rim = 5_spoke_m
 
-[ suspension-FL ]
-position = -0.69, 1.20, -0.48
+[suspension-1]
+coilover = coilover-front
+position = 0.74, 1.20, -0.48
 hinge = 0,0,0
+camber = -1.0
+caster = 0.0
+toe = -0.5
 
+[wheel-2]
+orientation = left
+position = -0.74, -1.18, -0.48
+tire = tire
+brake = brake-rear
+rim = 5_spoke_m
 
-[ wheel-RR ]
-position = 0.69, -1.18, -0.50
-roll-height = 0.3179
-mass = 20
-restitution = 0.1
-
-[ suspension-RR ]
-position = 0.69, -1.18, -0.50
+[suspension-2]
+coilover = coilover-rear
+position = -0.74, -1.18, -0.48
 hinge = 0,0,0
+camber = -0.5
+caster = 0.0
+toe = 1.0
 
-[ wheel-RL ]
-position = -0.69, -1.18, -0.50
-roll-height = 0.3179
-mass = 20
-restitution = 0.1
+[wheel-3]
+orientation = right
+position = 0.74, -1.18, -0.48
+tire = tire
+brake = brake-rear
+rim = 5_spoke_m
 
-[ suspension-RL ]
-position = -0.69, -1.18, -0.50
+[suspension-3]
+coilover = coilover-rear
+position = 0.74, -1.18, -0.48
 hinge = 0,0,0
-
-
+camber = -0.5
+caster = 0.0
+toe = 1.0
 
 # these are used to calculate the weight distribution and balance
-[ particle-00 ]
+[particle-00]
 mass = 17.0
 position = 0.1, 0.5, -0.45
 
-[ particle-01 ]
+[particle-01]
 mass = 35.0
 position = 0.4, -1.06, -0.2
 
-[ particle-02 ]
+[particle-02]
 mass = 35.0
 position = -0.4, -1.06, -0.2
 
-[ particle-03 ]
+[particle-03]
 mass = 56.0
 position = 0.4, 1.35, -0.2
 
-[ particle-04 ]
+[particle-04]
 mass = 56.0
 position = -0.4, 1.35, -0.2
-
