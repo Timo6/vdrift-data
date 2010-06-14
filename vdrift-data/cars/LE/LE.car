@@ -1,10 +1,10 @@
 drive = RWD
 version = 2 #file format version 2 changes the coordinate system to this: http://vdrift.net/Forum/viewtopic.php?p=8073#8073
 
-[ steering ]
+[steering]
 max-angle = 33.19
 
-[ engine ]
+[engine]
 position = 0.0, -0.9, -0.20
 mass = 120.0
 max-power = 1.79e5
@@ -36,13 +36,13 @@ torque-curve-16 = 8200, 169.0
 torque-curve-17 = 8600, 146.0
 torque-curve-18 = 9000, 137.0
 
-[ clutch ]
+[clutch]
 sliding = 0.27
 radius = 0.15
 area = 0.75
 max-pressure = 11079.26
 
-[ transmission ]
+[transmission]
 gears = 5
 gear-ratio-r = -2.8
 gear-ratio-1 = 3.167
@@ -52,17 +52,44 @@ gear-ratio-4 = 1.033
 gear-ratio-5 = 0.765
 shift-delay = 0.08
 
-[ differential ]
+[differential]
 final-drive = 4.100
 anti-slip = 600.0
 
-[ fuel-tank ]
+[fuel-tank]
 position = 0.0, -1.0, -0.26
 capacity = 0.0492
 volume = 0.0492
 fuel-density = 730.0
 
-[ suspension-front ]
+[driver]
+position = 0.292, -0.210, -0.125
+mass = 90.0
+view-position = 0.292, -0.18, 0.2
+hood-mounted-view-position = 0, 0.55, 0.17
+
+[drag]
+position = 0.0, 0.0, 0.2
+frontal-area = 2
+drag-coefficient = 0.3
+
+[wing-0]
+position = 1.9, 0.0, 0.60
+frontal-area = 0.2
+drag-coefficient = 0.0
+surface-area = 0.3
+lift-coefficient = -0.5
+efficiency = 0.95
+
+[wing-1]
+position = 0.0, -2.14, 0.37
+frontal-area = 0.05
+drag-coefficient = 0.0
+surface-area = 0.5
+lift-coefficient = -0.7
+efficiency = 0.95
+
+[coilover-front]
 spring-constant = 49131.9
 bounce = 2600
 rebound = 7900
@@ -74,13 +101,9 @@ damper-factor-5 = 0.5, 0.5
 damper-factor-6 = 1, 0.3
 damper-factor-7 = 5, 0.1
 travel = 0.19
-max-compression-velocity = 10.0
-camber = -1.33
-caster = 6.12
-toe = 0.0
 anti-roll = 800.0
 
-[ suspension-rear ]
+[coilover-rear]
 spring-constant = 51137.3
 bounce = 2700
 rebound = 8100
@@ -92,242 +115,116 @@ damper-factor-5 = 0.5, 0.5
 damper-factor-6 = 1, 0.3
 damper-factor-7 = 5, 0.1
 travel = 0.19
-max-compression-velocity = 10.0
-camber = -0.45
-caster = 0.28
-toe = 0.0
 anti-roll = 600.0
 
-[ tire-front ]
+[tire-front]
 size = 195/50r16
-wheel = 5_spoke_m
-tiretexture = tire
+type = touring
+texture = touring
 
-radius = 0.29
-rolling-resistance = 1.3e-2, 6.5e-6
-rotational-inertia = 10.0
-tread = 0.0
-# Lateral force
-a0=1.6
-a1=-38
-a2=1201
-a3=1914
-a4=8.7
-a5=0.014
-a6=-0.24
-a7=1.0
-a8=-0.03
-a9=-0.0013
-a10=-0.15
-a111=-8.5
-a112=-0.29
-a12=17.8
-a13=-2.4
-# Longitudinal force
-b0=1.7
-b1=-80
-b2=1571
-b3=23.3
-b4=300
-b5=0
-b6=0.0068
-b7=0.055
-b8=-0.024
-b9=0.014
-b10=0.26
-b11=-86
-b12=350
-# Aligning moment
-c0=2.3
-c1=-3.8
-c2=-3.14
-c3=-1.16
-c4=-7.2
-c5=0.0
-c6=0.0
-c7=0.044
-c8=-0.58
-c9=0.18
-c10=0.043
-c11=0.048
-c12=-0.0035
-c13=-0.18
-c14=0.14
-c15=-1.029
-c16=0.27
-c17=-1.1
-
-[ tire-rear ]
+[tire-rear]
 size = 225/45r17
-wheel = 5_spoke_m
-tiretexture = tire
+type = touring
+texture = touring
 
-radius = 0.2935
-rolling-resistance = 1.3e-2, 6.5e-6
-rotational-inertia = 10.0
-tread = 0.0
-# Lateral force
-a0=1.6
-a1=-38
-a2=1201
-a3=1914
-a4=8.7
-a5=0.014
-a6=-0.24
-a7=1.0
-a8=-0.03
-a9=-0.0013
-a10=-0.15
-a111=-8.5
-a112=-0.29
-a12=17.8
-a13=-2.4
-# Longitudinal force
-b0=1.7
-b1=-80
-b2=1571
-b3=23.3
-b4=300
-b5=0
-b6=0.0068
-b7=0.055
-b8=-0.024
-b9=0.014
-b10=0.26
-b11=-86
-b12=350
-# Aligning moment
-c0=2.3
-c1=-3.8
-c2=-3.14
-c3=-1.16
-c4=-7.2
-c5=0.0
-c6=0.0
-c7=0.044
-c8=-0.58
-c9=0.18
-c10=0.043
-c11=0.048
-c12=-0.0035
-c13=-0.18
-c14=0.14
-c15=-1.029
-c16=0.27
-c17=-1.1
-
-
-
-[ brakes-front ]
+[brake-front]
 friction = 0.4
 max-pressure = 4.0e6
 bias = 0.65
 radius = 0.14
 area = 0.015
+rotor = rotor_shiny_slotted_drilled
 
-[ brakes-rear ]
+[brake-rear]
 friction = 0.4
 max-pressure = 4.0e6
 bias = 0.35
 radius = 0.14
 area = 0.015
 handbrake = 1.0
+rotor = rotor_shiny_slotted_drilled
 
-
-[ driver ]
-position = 0.292, -0.210, -0.125
-mass = 90.0
-view-position = 0.292, -0.18, 0.2
-hood-mounted-view-position = 0, 0.55, 0.17
-
-
-[ drag ]
-position = 0.0, 0.0, 0.2
-frontal-area = 2
-drag-coefficient = 0.3
-
-[ wing-front ]
-position = 1.9, 0.0, 0.60
-frontal-area = 0.2
-drag-coefficient = 0.0
-surface-area = 0.3
-lift-coefficient = -0.5
-efficiency = 0.95
-
-[ wing-rear ]
-position = 0.0, -2.14, 0.37
-frontal-area = 0.05
-drag-coefficient = 0.0
-surface-area = 0.5
-lift-coefficient = -0.7
-efficiency = 0.95
-
-
-[ wheel-FR ]
-position = 0.706, 1.108, -0.460
-roll-height = 0.29
-mass = 6.88
-restitution = 0.1
-
-[ suspension-FR ]
-position = 0.706, 1.108, -0.031
-hinge = 0,0,0
-
-[ wheel-FL ]
+[wheel-0]
+orientation = left
 position = -0.706, 1.108, -0.460
-roll-height = 0.29
-mass = 6.88
-restitution = 0.1
+tire = tire-front
+brake = brake-front
+rim = 5_spoke_m
 
-[ suspension-FL ]
+[suspension-0]
+coilover = coilover-front
 position = -0.706, 1.108, -0.031
 hinge = 0,0,0
+camber = -1.33
+caster = 6.12
+toe = 0.0
 
+[wheel-1]
+orientation = right
+position = 0.706, 1.108, -0.460
+tire = tire-front
+brake = brake-front
+rim = 5_spoke_m
 
-[ wheel-RR ]
-position = 0.730, -1.183, -0.480
-roll-height = 0.2935
-mass = 9.5
-restitution = 0.1
+[suspension-1]
+coilover = coilover-front
+position = 0.706, 1.108, -0.031
+hinge = 0,0,0
+camber = -1.33
+caster = 6.12
+toe = 0.0
 
-[ suspension-RR ]
-position = 0.730, -1.183, -0.02
-hinge = 0,-0.85,0
-
-[ wheel-RL ]
+[wheel-2]
+orientation = left
 position = -0.730, -1.183, -0.480
-roll-height = 0.2935
-mass = 9.5
-restitution = 0.1
+tire = tire-rear
+brake = brake-rear
+rim = 5_spoke_m
 
-[ suspension-RL ]
+[suspension-2]
+coilover = coilover-rear
 position = -0.730, -1.183, -0.02
 hinge = 0,-0.85,0
+camber = -0.45
+caster = 0.28
+toe = 0.0
 
+[wheel-3]
+orientation = right
+position = 0.730, -1.183, -0.480
+tire = tire-rear
+brake = brake-rear
+rim = 5_spoke_m
 
-
+[suspension-3]
+coilover = coilover-rear
+position = 0.730, -1.183, -0.02
+hinge = 0,-0.85,0
+camber = -0.45
+caster = 0.28
+toe = 0.0
 
 # these are used to calculate the weight distribution and balance
-[ particle-00 ]
+[particle-00]
 mass = 30.0
 position = 0.0, -1.28, -0.36
 
-[ particle-01 ]
+[particle-01]
 mass = 60.0
 position = 0.0, 0.11, -0.36
 
-[ particle-02 ]
+[particle-02]
 mass = 116.0
 position = -0.39, -1.7, 0.0
 
-[ particle-03 ]
+[particle-03]
 mass = 116.0
 position = 0.39, -1.7, 0.0
 
-[ particle-04 ]
+[particle-04]
 mass = 166.0
 position = -0.39, 1.32, -0.2
 
-[ particle-05 ]
+[particle-05]
 mass = 166.0
 position = 0.39, 1.32, -0.2
