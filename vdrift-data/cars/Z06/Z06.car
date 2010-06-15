@@ -167,7 +167,7 @@ brake = brake-rear
 rim = 5_spoke_m
 
 [suspension-2]
-coilover = coilover-front
+coilover = coilover-rear
 position = -0.51, -1.25, -0.32
 hinge = 0,0,-0.1
 camber = -0.45
@@ -182,7 +182,7 @@ brake = brake-rear
 rim = 5_spoke_m
 
 [suspension-3]
-coilover = coilover-front
+coilover = coilover-rear
 position = 0.51, -1.25, -0.32
 hinge = 0,0,-0.1
 camber = -0.45
