@@ -1,53 +1,46 @@
 drive = RWD
 version = 2
 
-[ steering ]
+[steering]
 max-angle = 33.19
 
-[ engine ]
+[engine]
 position = 0.0, 1.42, -0.24
 mass = 180.0
-max-power = 2.983e5
-peak-engine-rpm = 7500.0
+max-power = 309000
+peak-engine-rpm = 8350.0
 rpm-limit = 8500.0
 inertia = 1.0
 idle = 0.02
 start-rpm = 1000
 stall-rpm = 350
 fuel-consumption = 1e-9
-# torque curve copied from M3 just to get the car's coords converted to v2
-# if anyone has a more accurate curve feel free to update.
 torque-friction = 0.0003
-torque-curve-00 = 1000, 176.26
-torque-curve-01 = 2000, 185.75
-torque-curve-02 = 2250, 200.66
-torque-curve-03 = 2500, 202.02
-torque-curve-04 = 2750, 197.95
-torque-curve-05 = 3000, 206.08
-torque-curve-06 = 3250, 211.51
-torque-curve-07 = 3500, 218.29
-torque-curve-08 = 3750, 223.71
-torque-curve-09 = 4000, 230.49
-torque-curve-10 = 4250, 229.13
-torque-curve-11 = 4500, 225.07
-torque-curve-12 = 4750, 235.91
-torque-curve-13 = 5000, 248.11
-torque-curve-14 = 5250, 234.56
-torque-curve-15 = 5500, 233.2
-torque-curve-16 = 5750, 229.13
-torque-curve-17 = 6000, 226.42
-torque-curve-18 = 6250, 222.35
-torque-curve-19 = 6500, 206.08
-torque-curve-20 = 6750, 197.95
-torque-curve-21 = 7000, 196.59
+# M3 V8 420hp
+torque-curve-00 = 1000, 250
+torque-curve-01 = 1500, 285
+torque-curve-02 = 2000, 333
+torque-curve-03 = 2500, 358
+torque-curve-04 = 3000, 378
+torque-curve-05 = 3500, 400
+torque-curve-06 = 4000, 400
+torque-curve-07 = 4500, 395
+torque-curve-08 = 5000, 395
+torque-curve-09 = 5500, 400
+torque-curve-10 = 6000, 400
+torque-curve-11 = 6500, 395
+torque-curve-12 = 7000, 391
+torque-curve-13 = 7500, 380
+torque-curve-14 = 8000, 367
+torque-curve-15 = 8500, 345
 
-[ clutch ]
+[clutch]
 sliding = 0.27
 radius = 0.15
 area = 0.75
 max-pressure = 21079.26
 
-[ transmission ]
+[transmission]
 gears = 6
 gear-ratio-r = -2.8
 gear-ratio-1 = 2.50
@@ -58,178 +51,28 @@ gear-ratio-5 = 1.18
 gear-ratio-6 = 1.04
 shift-delay = 0.06
 
-[ differential ]
+[differential]
 final-drive = 3.87
 anti-slip = 600.0
 
-[ fuel-tank ]
+[fuel-tank]
 position = -0.17, -0.26, -0.56
 capacity = 0.0492
 volume = 0.0492
 fuel-density = 730.0
 
-[ suspension-front ]
-spring-constant = 102000
-#spring-constant = 72000
-bounce = 11050
-#bounce = 7500
-rebound = 10700
-#rebound = 5000
-travel = 0.30
-max-compression-velocity = 10.0
-camber = -0.5
-caster = -0.0
-toe = -0.9
-anti-roll = 15000
-
-[ suspension-rear ]
-spring-constant = 98000
-#spring-constant = 68000
-bounce = 10000
-#bounce = 7500
-rebound = 9992.14
-#rebound = 5000
-travel = 0.30
-max-compression-velocity = 10.0
-camber = -1.5
-caster = 0.0
-toe = 0.0
-anti-roll = 7000
-
-[ tire-front ]
-radius = 0.325
-rolling-resistance = 1.3e-2, 6.5e-6
-rotational-inertia = 10.0
-tread = 0.0
-# Lateral force
-a0=1.55
-a1=-40
-a2=1700
-a3=3200
-a4=7.2
-a5=0.014
-a6=-0.24
-a7=1.0
-a8=-0.03
-a9=-0.0013
-a10=-0.15
-a111=-8.5
-a112=-0.29
-a12=17.8
-a13=-2.4
-# Longitudinal force
-b0=1.65
-b1=-80
-b2=1800
-b3=23.3
-b4=390
-b5=0.05
-b6=0
-b7=0.055
-b8=-0.024
-b9=0.014
-b10=0.26
-# Aligning moment
-c0=2.2
-c1=-4.1
-c2=-4.2
-c3=-1.8
-c4=-9.1
-c5=0.0225
-c6=0
-c7=0.044
-c8=-0.58
-c9=0.18
-c10=0.043
-c11=0.048
-c12=-0.0035
-c13=-0.18
-c14=0.14
-c15=-1.029
-c16=0.27
-c17=-1.1
-
-[ tire-rear ]
-radius = 0.340
-rolling-resistance = 1.3e-2, 6.5e-6
-rotational-inertia = 10.0
-tread = 0.0
-# Lateral force
-a0=1.55
-a1=-55
-a2=1950
-a3=3200
-a4=7.2
-a5=0.014
-a6=-0.24
-a7=1.0
-a8=-0.03
-a9=-0.0013
-a10=-0.15
-a111=-8.5
-a112=-0.29
-a12=17.8
-a13=-2.4
-# Longitudinal force
-b0=1.65
-b1=-110
-b2=1800
-b3=23.3
-b4=410
-b5=0.075
-b6=0
-b7=0.055
-b8=-0.024
-b9=0.014
-b10=0.26
-# Aligning moment
-c0=2.2
-c1=-4.3
-c2=-4.4
-c3=-1.9
-c4=-9.6
-c5=0.0225
-c6=0
-c7=0.044
-c8=-0.58
-c9=0.18
-c10=0.043
-c11=0.048
-c12=-0.0035
-c13=-0.18
-c14=0.14
-c15=-1.029
-c16=0.27
-c17=-1.1
-
-[ brakes-front ]
-friction = 1.03
-max-pressure = 2.5e6
-bias = 0.61
-radius = 0.17
-area = 0.015
-
-[ brakes-rear ]
-friction = 1.03
-max-pressure = 2.5e6
-bias = 0.39
-radius = 0.14
-area = 0.015
-handbrake = 1.0
-
-
-[ driver ]
+[driver]
 position = -0.4, -0.15, 0.1
 mass = 90.0
 view-position = -0.4, -0.15, 0.5
 hood-mounted-view-position = 0, 1.0, 0.3
 
-[ drag ]
+[drag]
 position = 0.0, 0.0, 0.2
 frontal-area = 2
 drag-coefficient = 0.3
 
-[ wing-front ]
+[wing-0]
 position = 0.0, 1.9, 0.60
 frontal-area = 0.2
 drag-coefficient = 0.0
@@ -237,7 +80,7 @@ surface-area = 0.3
 lift-coefficient = -0.6
 efficiency = 0.95
 
-[ wing-rear ]
+[wing-1]
 position = 0.0, -2.14, 0.37
 frontal-area = 0.05
 drag-coefficient = 0.0
@@ -245,70 +88,128 @@ surface-area = 0.5
 lift-coefficient = -2
 efficiency = 0.95
 
+[coilover-front]
+spring-constant = 100000
+bounce = 4000
+rebound = 12000
+travel = 0.15
+anti-roll = 20000
 
-[ wheel-FR ]
-position = 0.79, 1.51, -0.43
-roll-height = 0.325
-mass = 19
-restitution = 0.1
+[coilover-rear]
+spring-constant = 90000
+bounce = 3300
+rebound = 10000
+travel = 0.15
+anti-roll = 10000
 
-[ suspension-FR ]
-position = 0.75, 1.51, -0.07
-hinge = 0,0,0
+[tire-front]
+size = 270/35r18	#M3 GTR: Michelin 27/65-18 (front) and 27/68-18 (rear)
+type = slick
+texture = touring
 
-[ wheel-FL ]
-position = -0.79, 1.51, -0.43
-roll-height = 0.325
-mass = 19
-restitution = 0.1
+[tire-rear]
+size = 270/40r18
+type = slick
+texture = touring
 
-[ suspension-FL ]
+[brake-front]
+friction = 1.03
+max-pressure = 2.5e6
+bias = 0.61
+radius = 0.17
+area = 0.015
+rotor = rotor_shiny_slotted_drilled
+
+[brake-rear]
+friction = 1.03
+max-pressure = 2.5e6
+bias = 0.39
+radius = 0.14
+area = 0.015
+handbrake = 1.0
+rotor = rotor_shiny_slotted_drilled
+
+[wheel-0]
+orientation = left
+position = -0.84, 1.51, -0.43	#-0.80, 1.51, -0.43	#track front 1609 mm, rear 1602 mm
+tire = tire-front
+brake = brake-front
+rim = 5_spoke_m
+
+[suspension-0]
+coilover = coilover-front
 position = -0.75, 1.51, -0.07
 hinge = 0,0,0
+camber = -0.5
+caster = -0.0
+toe = -0.9
 
+[wheel-1]
+orientation = right
+position = 0.84, 1.51, -0.43	#0.80, 1.51, -0.43
+tire = tire-front
+brake = brake-front
+rim = 5_spoke_m
 
-[ wheel-RR ]
-position = 0.80, -1.35, -0.42
-roll-height = 0.340
-mass = 19
-restitution = 0.1
+[suspension-1]
+coilover = coilover-front
+position = 0.75, 1.51, -0.07
+hinge = 0,0,0
+camber = -0.5
+caster = -0.0
+toe = -0.9
 
-[ suspension-RR ]
-position = 0.76, -1.35, -0.07
-hinge = -1.1, 0,0
+[wheel-2]
+orientation = left
+position = -0.84, -1.35, -0.42	#-0.80, -1.35, -0.42
+tire = tire-rear
+brake = brake-rear
+rim = 5_spoke_m
 
-[ wheel-RL ]
-position = -0.80, -1.35, -0.42
-roll-height = 0.340
-mass = 19
-restitution = 0.1
-
-[ suspension-RL ]
+[suspension-2]
+coilover = coilover-rear
 position = -0.76, -1.35, -0.07
 hinge = -1.1, 0, 0
+camber = -1.5
+caster = 0.0
+toe = 0.0
 
+[wheel-3]
+orientation = right
+position = 0.84, -1.35, -0.42	#0.80, -1.35, -0.42
+tire = tire-rear
+brake = brake-rear
+rim = 5_spoke_m
+
+[suspension-3]
+coilover = coilover-rear
+position = 0.76, -1.35, -0.07
+hinge = -1.1, 0,0
+camber = -1.5
+caster = 0.0
+toe = 0.0
 
 # these are used to calculate the weight distribution and balance
-[ particle-00 ]
+[particle-00]
 mass = 25.0
 position = 0.0, -1.35, -0.47
 
-[ particle-01 ]
+[particle-01]
 mass = 50.0
 position = 0.0, 0.96, -0.47
 
-[ particle-02 ]
+[particle-02]
 mass = 213.0
 position =  0.5, -1.3, 0.09
 
-[ particle-03 ]
+[particle-03]
 mass = 213.0
 position = -0.5, -1.3, 0.09
 
-[ particle-04 ]
+[particle-04]
 mass = 183.0
 position =  0.45, 1.6, -0.13
 
-[ particle-05 ]
+[particle-05]
 mass = 183.0
 position = -0.45, 1.6, -0.13
