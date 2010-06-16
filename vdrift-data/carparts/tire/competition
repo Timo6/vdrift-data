@@ -1,4 +1,5 @@
 restitution = 0.1
+tread = 0.0
 rolling-resistance = 1.3e-2, 6.5e-6
 # Lateral force
 a0=1.4
