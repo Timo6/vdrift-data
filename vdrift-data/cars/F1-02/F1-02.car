@@ -135,7 +135,7 @@ position = 0.0, 2.20, 0.50
 frontal-area = 0.20
 drag-coefficient = 0.5	# 5.2.0 20090227 by cologne
 surface-area = 1.00		# including body downforce; 0.7
-lift-coefficient = -2.50	# 5.2.0 20090227 by cologne
+lift-coefficient = -2	# 5.2.0 20090227 by cologne
 efficiency = 0.99
 
 [wing-1]
@@ -143,7 +143,7 @@ position = 0.0, -1.30, 0.15
 frontal-area = 0.3
 drag-coefficient = 0.6	# 5.2.0 20090227 by cologne
 surface-area = 2.00		# including body downforce; 0.5
-lift-coefficient = -2.75	# 5.2.0 20090227 by cologne
+lift-coefficient = -2	# 5.2.0 20090227 by cologne
 efficiency = 0.99
 
 [coilover-front]
@@ -199,7 +199,7 @@ toe = 0.9		## Vorspur?
 
 [wheel-1]
 orientation = right
-position = 0.725, 1.60, -0.36	# 5.2.0 20090227 by cologne
+position = 0.725, 1.60, -0.37	# 5.2.0 20090227 by cologne
 tire = tire
 brake = brake-front
 rim = 5_spoke_m
