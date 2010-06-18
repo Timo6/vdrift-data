@@ -71,14 +71,14 @@ drag-coefficient = 0.3
 spring-constant = 30000
 bounce = 1250
 rebound = 3750
-travel = 0.24
+travel = 0.10
 anti-roll = 5000
 
 [coilover-rear]
 spring-constant = 30000
 bounce = 1250
 rebound = 3750
-travel = 0.26
+travel = 0.10
 anti-roll = 2000
 
 [tire]
