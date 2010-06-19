@@ -1,7 +1,7 @@
 LE
 
 model by Ny Dedes
-settings adapted from xs, collision and sound from xs as well.
+settings adapted from xs, sound from xs as well.
 
 
 giving the headlights and interior some treatment atm.
