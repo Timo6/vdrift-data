@@ -59,7 +59,8 @@ vec3 CommonBRDF(const vec3 brdf, const vec3 E_l, const float omega_i)
 
 vec3 FresnelEquation(const vec3 Rf0, const float omega_i)
 {
-	return Rf0 + (vec3(1.,1.,1.)-Rf0)*pow(1.0-omega_i,5.0);
+	//return Rf0 + (vec3(1.,1.,1.)-Rf0)*pow(1.0-omega_i,5.0);
+	return Rf0 + (vec3(1.,1.,1.)-Rf0)*pow(1.0-omega_i,3.0);
 }
 
 // equation 7.49, Real-Time Rendering (third edition) by Akenine-Moller, Haines, Hoffman
@@ -145,6 +146,7 @@ void main()
 		//final.rgb = reflection.rgb;
 		//final.rgb = vec3(unpackFloatFromVec2i(gbuf_normal_xy.xy),unpackFloatFromVec2i(gbuf_normal_xy.zw),0);
 		//final.rgb = normal;
+		//final.rgb = vec3(1,1,1)*gbuf_material_properties.a;
 	#endif
 	
 	#ifdef _OMNI_
@@ -160,6 +162,7 @@ void main()
 		float omega_i = cos_clamped(light_direction,normal); //clamped cosine of angle between incoming light direction and surface normal
 		
 		//alpha_h = clamp(dot(V,H),-1,1);
+		//final.rgb = gl_Color.rgb;
 	#endif
 	
 	// add source light
