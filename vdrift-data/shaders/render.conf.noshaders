@@ -29,9 +29,8 @@ blendmode = alphatest
 [pass]
 draw = car_noblend
 output = framebuffer
-clear_depth = true
+clear_depth = false
 blendmode = disabled
-
 
 ; additive effects
 
