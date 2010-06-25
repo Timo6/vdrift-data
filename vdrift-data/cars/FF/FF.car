@@ -1,9 +1,6 @@
 drive = RWD
 version = 2
 
-[steering]
-max-angle = 20.0
-
 [engine]
 position = 0.15, -1.10, -0.18
 mass = 84.0
@@ -58,11 +55,10 @@ fuel-density = 1.0
 
 [driver]
 position = 0, 0.3, -0.25
-mass = 90.0
 view-position = 0, 0.3, 0.15
 hood-mounted-view-position = 0, 0.6, 0
 
-[drag]
+[aerodevice-0]
 position = 0.0, 0.0, 0.2
 frontal-area = 2
 drag-coefficient = 0.3
@@ -105,58 +101,62 @@ rotor = rotor_shiny_slotted_drilled
 
 [wheel-0]
 orientation = left
-position = -0.74, 1.20, -0.48
+tire = tire
+brake = brake-rear
+rim = 5_spoke_m
+
+[wheel-1]
+orientation = right
+tire = tire
+brake = brake-rear
+rim = 5_spoke_m
+
+[wheel-2]
+orientation = left
+tire = tire
+brake = brake-rear
+rim = 5_spoke_m
+
+[wheel-3]
+orientation = right
 tire = tire
 brake = brake-rear
 rim = 5_spoke_m
 
 [suspension-0]
 coilover = coilover-front
+wheel-hub = -0.74, 1.20, -0.48
 position = -0.74, 1.20, -0.48
 hinge = 0,0,0
 camber = -1.0
 caster = 0.0
-toe = -0.5
-
-[wheel-1]
-orientation = right
-position = 0.74, 1.20, -0.48
-tire = tire
-brake = brake-rear
-rim = 5_spoke_m
+toe = 0.5
+ackermann = 0
+steering = 20
 
 [suspension-1]
 coilover = coilover-front
+wheel-hub = 0.74, 1.20, -0.48
 position = 0.74, 1.20, -0.48
 hinge = 0,0,0
 camber = -1.0
 caster = 0.0
 toe = -0.5
-
-[wheel-2]
-orientation = left
-position = -0.74, -1.18, -0.48
-tire = tire
-brake = brake-rear
-rim = 5_spoke_m
+ackermann = 0
+steering = 20
 
 [suspension-2]
 coilover = coilover-rear
+wheel-hub = -0.74, -1.18, -0.48
 position = -0.74, -1.18, -0.48
 hinge = 0,0,0
 camber = -0.5
 caster = 0.0
-toe = 1.0
-
-[wheel-3]
-orientation = right
-position = 0.74, -1.18, -0.48
-tire = tire
-brake = brake-rear
-rim = 5_spoke_m
+toe = -1.0
 
 [suspension-3]
 coilover = coilover-rear
+wheel-hub = 0.74, -1.18, -0.48
 position = 0.74, -1.18, -0.48
 hinge = 0,0,0
 camber = -0.5
@@ -183,3 +183,7 @@ position = 0.4, 1.35, -0.2
 [particle-04]
 mass = 56.0
 position = -0.4, 1.35, -0.2
+
+[particle-05]	# driver
+mass = 90.0
+position = 0, 0.3, -0.25

@@ -1,9 +1,6 @@
 drive = FWD
 version = 2
 
-[steering]
-max-angle = 36.0
-
 [engine]
 position = 0.0, 1.4, -0.1
 mass = 200.0
@@ -59,16 +56,15 @@ fuel-density = 0.8
 
 [driver]
 position = -0.38, 0.023, 0.1
-mass = 90.0
 view-position = -0.38, 0.023, 0.5
 hood-mounted-view-position = 0.0, 0.8, 0.45
 
-[drag]
+[aerodevice-0]
 position = 0.0, 0.0, -0.60
 frontal-area = 2.0
 drag-coefficient = 0.35
 
-[wing-0]
+[aerodevice-1]
 position = 0, 2.34, -0.6
 frontal-area = 0.2
 drag-coefficient = 0
@@ -76,7 +72,7 @@ surface-area = 0.3
 lift-coefficient = -0.5
 efficiency = 0.95
 
-[wing-1]
+[aerodevice-2]
 position = 0, -2.14, 0.37
 frontal-area = 0.2
 drag-coefficient = 0
@@ -122,58 +118,62 @@ rotor = rotor_worn
 
 [wheel-0]
 orientation = left
-position = -0.73, 1.28, -0.48
 rim = 5_spoke_m
 tire = tire
 brake = brake-front
 
+[wheel-1]
+orientation = right
+rim = 5_spoke_m
+tire = tire
+brake = brake-front
+
+[wheel-2]
+orientation = left
+rim = 5_spoke_m
+tire = tire
+brake = brake-rear
+
+[wheel-3]
+orientation = right
+rim = 5_spoke_m
+tire = tire
+brake = brake-rear
+
 [suspension-0]
 coilover = coilover-front
+wheel-hub = -0.73, 1.28, -0.48
 position = -0.60, 1.28, -0.35
 hinge = 0.71, 0.55, 0.0
 camber = -1.33
 caster = 6.12
-toe = 0.0
-
-[wheel-1]
-orientation = right
-position = 0.73, 1.28, -0.48
-rim = 5_spoke_m
-tire = tire
-brake = brake-front
+toe = 0
+ackermann = 0
+steering = 36
 
 [suspension-1]
 coilover = coilover-front
+wheel-hub = 0.73, 1.28, -0.48
 position = 0.60, 1.28, -0.35
 hinge = -0.71, 0.55, -0.0
 camber = -1.33
 caster = 6.12
-toe = 0.0
-
-[wheel-2]
-orientation = left
-position = -0.73, -1.31, -0.49
-rim = 5_spoke_m
-tire = tire
-brake = brake-rear
+toe = 0
+ackermann = 0
+steering = 36
 
 [suspension-2]
 coilover = coilover-rear
+wheel-hub = -0.73, -1.31, -0.49
 position = -0.60, -1.31, -0.35
 hinge = 0.25, -1.94, 0.0
 camber = -0.45
 caster = 0.28
-toe = 0.2
-
-[wheel-3]
-orientation = right
-position = 0.73, -1.31, -0.49
-rim = 5_spoke_m
-tire = tire
-brake = brake-rear
+toe = -0.2
 
 [suspension-3]
 coilover = coilover-rear
+wheel-hub = 0.73, -1.31, -0.49
 position = 0.60, -1.31, -0.35
 hinge = -0.25, -1.94, 0.0
 camber = -0.45
@@ -213,3 +213,6 @@ position = -1.11, -2.32, -0.62
 mass = 33
 position = -1.11, 2.32, -0.62
 
+[particle-08]	# driver
+mass = 90.0
+position = -0.38, 0.023, 0.1

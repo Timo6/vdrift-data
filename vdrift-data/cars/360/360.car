@@ -68,9 +68,6 @@
 drive = RWD
 version = 2
 
-[steering]
-max-angle = 36.0
-
 [engine]
 position = 0.0, -1.0, -0.05
 mass = 150.0
@@ -136,7 +133,6 @@ fuel-density = 0.8
 
 [driver]
 position = -0.28, 0.12, 0.12
-mass = 90.0
 view-position = -0.28, 0.12, 0.42			# moved driver position
 hood-mounted-view-position = 0.0, 0.7, 0.5	# static driver position
 
@@ -145,12 +141,12 @@ name = wheel-front-right	# observe wheel and chassis moves
 position = 3.0, 1.0, 0.75	# X(+right), Y(+front), Z(+up)
 angle = 20.0, 90.0			# +down/-up, +left/-right
 
-[drag]
+[aerodevice-0]
 position = 0.0, 0.15, 0.00
 frontal-area = 2.03
 drag-coefficient = 0.29
 
-[wing-0]
+[aerodevice-1]
 position = 0, 1.15, -0.3
 frontal-area = 0.0
 drag-coefficient = 0
@@ -158,7 +154,7 @@ surface-area = 1.0
 lift-coefficient = -0.22
 efficiency = 1
 
-[wing-1]
+[aerodevice-2]
 position = 0, -1.50, -0.3
 frontal-area = 0.0
 drag-coefficient = 0
@@ -207,64 +203,68 @@ area = 0.000448 # 16mm x 28mm
 handbrake = 1.0
 rotor = rotor_shiny_slotted_drilled
 
-#---------- F R O N T
-
 [wheel-0]
 orientation = left
-position = -0.85, 1.12, -0.27
 tire = tire-front
 brake = brake-front
 rim = 5_spoke_m
 
+[wheel-1]
+orientation = right
+tire = tire-front
+brake = brake-front
+rim = 5_spoke_m
+
+[wheel-2]
+orientation = left
+tire = tire-rear
+brake = brake-rear
+rim = 5_spoke_m
+
+[wheel-3]
+orientation = right
+tire = tire-rear
+brake = brake-rear
+rim = 5_spoke_m
+
+#---------- F R O N T
+
 [suspension-0]
 coilover = coilover-front
+wheel-hub = -0.85, 1.12, -0.27			# track +-Y = 1669/2
 position = -0.75, 1.12, -0.30
 hinge = 0.50, 0.90, -0.20
 camber = -1.0
 caster = 6.12
-toe = 0.2
-
-[wheel-1]
-orientation = right
-position = 0.85, 1.12, -0.27			# track +-Y = 1669/2
-tire = tire-front
-brake = brake-front
-rim = 5_spoke_m
+toe = -0.2
+ackermann = 0
+steering = 36
 
 [suspension-1]
 coilover = coilover-front
+wheel-hub = 0.85, 1.12, -0.27
 position = 0.75, 1.12, -0.30
 hinge = -0.50, 0.90, -0.20
 camber = -1.0
 caster = 6.12
 toe = 0.2
+ackermann = 0
+steering = 36
 
 #---------- R E A R
 
-[wheel-2]
-orientation = left
-position = -0.8085, -1.51, -0.28
-tire = tire-rear
-brake = brake-rear
-rim = 5_spoke_m
-
 [suspension-2]
 coilover = coilover-rear
+wheel-hub = -0.8085, -1.51, -0.28		# track +-Y = 1617/2
 position = -0.70, -1.51, -0.30
 hinge = 1.00 , -0.0, -0.0
 camber = -0.45
 caster = 0.28
-toe = 0.1
-
-[wheel-3]
-orientation = right
-position = 0.8085, -1.51, -0.28			# track +-Y = 1617/2
-tire = tire-rear
-brake = brake-rear
-rim = 5_spoke_m
+toe = -0.1
 
 [suspension-3]
 coilover = coilover-rear
+wheel-hub = 0.8085, -1.51, -0.28
 position = 0.70, -1.51, -0.30
 hinge = -1.00 , 0.0, -0.0
 camber = -0.45
@@ -272,7 +272,6 @@ caster = 0.28
 toe = 0.1
 
 #---------- 
-
 
 # these are used to calculate the weight distribution and balance
 
@@ -319,3 +318,8 @@ position = 0.00, -1.75, -0.25
 [particle-10]		# Chassis rear
 mass = 80.0
 position = 0.00, -1.80, -0.0
+
+[particle-11]		# Driver
+mass = 90.0
+position = -0.28, 0.12, 0.12
+

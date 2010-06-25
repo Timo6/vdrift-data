@@ -11,12 +11,6 @@ sliding = 0.27
 anti-slip = 250.0
 final-drive = 3.4
 
-[driver]
-hood-mounted-view-position = 0.0, 0.24, 0.12
-mass = 90.0
-position = -0.208, -0.57, 0.0
-view-position = -0.208, -0.57, 0.15
-
 [transmission]
 gear-ratio-1 = 2.80
 gear-ratio-2 = 1.81
@@ -56,36 +50,17 @@ fuel-density = 730.0
 position = -0.17, -1.26, -0.2
 volume = 0.0200
 
-[particle-00]
-mass = 20.0
-position = 0.0, -1.35, -0.37
+[driver]
+position = -0.208, -0.57, 0.0
+view-position = -0.208, -0.57, 0.15
+hood-mounted-view-position = 0.0, 0.24, 0.12
 
-[particle-01]
-mass = 30.0
-position = 0.0, 0.96, -0.27
-
-[particle-02]
-mass = 90.0
-position = 0.5, -0.75, -0.25
-
-[particle-03]
-mass = 90.0
-position = -0.5, -0.75, -0.25
-
-[particle-04]
-mass = 90.0
-position = 0.45, 0.75, -0.25
-
-[particle-05]
-mass = 90.0
-position = -0.45, 0.75, -0.25
-
-[drag]
+[aerodevice-0]
 drag-coefficient = 0.3
 frontal-area = 2
 position = 0.0, 0.0, 0.2
 
-[wing-0]
+[aerodevice-1]
 drag-coefficient = 0.0
 efficiency = 0.95
 frontal-area = 0.2
@@ -93,33 +68,13 @@ lift-coefficient = 0.075
 position = 0.0, 1.9, 0.60
 surface-area = 0.3
 
-[wing-1]
+[aerodevice-2]
 drag-coefficient = 0.0
 efficiency = 0.95
 frontal-area = 0.05
 lift-coefficient = 0.1
 position = 0.0, -2.14, 0.37
 surface-area = 0.5
-
-[steering]
-max-angle = 28.94
-
-[brake-front]
-area = 0.015
-bias = 0.6
-friction = 0.42
-max-pressure = 2.5e6
-radius = 0.17
-rotor = rotor_shiny_slotted_drilled
-
-[brake-rear]
-area = 0.015
-bias = 0.4
-friction = 0.42
-handbrake = 1
-max-pressure = 2.5e6
-radius = 0.14
-rotor = rotor_shiny_slotted_drilled
 
 [coilover-front]
 anti-roll = 5000
@@ -164,62 +119,111 @@ size = 255/40r15
 type = competition
 texture = touring
 
-[suspension-0]
-coilover = coilover-front
-hinge = 0.60, 1.175, -0.7
-position = -0.58, 1.175, -0.07
-camber = -0.75
-caster = 4
-toe = 0.1
+[brake-front]
+area = 0.015
+bias = 0.6
+friction = 0.42
+max-pressure = 2.5e6
+radius = 0.17
+rotor = rotor_shiny_slotted_drilled
 
-[suspension-1]
-coilover = coilover-front
-hinge = -0.60, 1.175, -0.7
-position = 0.58, 1.175, -0.07
-camber = -0.75
-caster = 4
-toe = 0.1
-
-[suspension-2]
-coilover = coilover-rear
-hinge = 0.60, -1.17, -0.7
-position = -0.60, -1.17, -0.07
-camber = -0.75
-caster = 0.28
-toe = 0.0
-
-[suspension-3]
-coilover = coilover-rear
-hinge = -0.60, -1.17, -0.7
-position = 0.60, -1.17, -0.07
-camber = -0.75
-caster = 0.28
-toe = 0.0
+[brake-rear]
+area = 0.015
+bias = 0.4
+friction = 0.42
+handbrake = 1
+max-pressure = 2.5e6
+radius = 0.14
+rotor = rotor_shiny_slotted_drilled
 
 [wheel-0]
 orientation = left
-position = -0.60, 1.175, -0.42
 tire = tire-front
 brake = brake-front
 rim = 5_spoke_m
 
 [wheel-1]
 orientation = right
-position = 0.60, 1.175, -0.42
 tire = tire-front
 brake = brake-front
 rim = 5_spoke_m
 
 [wheel-2]
 orientation = left
-position = -0.60, -1.17, -0.42
 tire = tire-rear
 brake = brake-rear
 rim = 5_spoke_m
 
 [wheel-3]
 orientation = right
-position = 0.60, -1.17, -0.42
 tire = tire-rear
 brake = brake-rear
 rim = 5_spoke_m
+
+[suspension-0]
+coilover = coilover-front
+wheel-hub = -0.60, 1.175, -0.42
+position = -0.58, 1.175, -0.07
+hinge = 0.60, 1.175, -0.7
+camber = -0.75
+caster = 4
+toe = -0.1
+ackermann = 0
+steering = 28.94
+
+[suspension-1]
+coilover = coilover-front
+wheel-hub = 0.60, 1.175, -0.42
+position = 0.58, 1.175, -0.07
+hinge = -0.60, 1.175, -0.7
+camber = -0.75
+caster = 4
+toe = 0.1
+ackermann = 0
+steering = 28.94
+
+[suspension-2]
+coilover = coilover-rear
+wheel-hub = -0.60, -1.17, -0.42
+position = -0.60, -1.17, -0.07
+hinge = 0.60, -1.17, -0.7
+camber = -0.75
+caster = 0.28
+toe = 0.0
+
+[suspension-3]
+coilover = coilover-rear
+wheel-hub = 0.60, -1.17, -0.42
+position = 0.60, -1.17, -0.07
+hinge = -0.60, -1.17, -0.7
+camber = -0.75
+caster = 0.28
+toe = 0.0
+
+[particle-00]
+mass = 20.0
+position = 0.0, -1.35, -0.37
+
+[particle-01]
+mass = 30.0
+position = 0.0, 0.96, -0.27
+
+[particle-02]
+mass = 90.0
+position = 0.5, -0.75, -0.25
+
+[particle-03]
+mass = 90.0
+position = -0.5, -0.75, -0.25
+
+[particle-04]
+mass = 90.0
+position = 0.45, 0.75, -0.25
+
+[particle-05]
+mass = 90.0
+position = -0.45, 0.75, -0.25
+
+[particle-06]	# driver
+mass = 90.0
+position = -0.208, -0.57, 0.0
