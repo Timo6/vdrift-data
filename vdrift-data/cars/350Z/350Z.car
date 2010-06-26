@@ -160,7 +160,7 @@ coilover = coilover-front
 wheel-hub = 0.8, 1.33, 0.18
 position = 0.8, 1.33, 0.18
 hinge = 0,0,0
-camber = -1.33
+camber = 1.33
 caster = 6.12
 toe = 0.0
 ackermann = 0
@@ -180,7 +180,7 @@ coilover = coilover-rear
 wheel-hub = 0.8, -1.32, 0.18
 position = 0.8, -1.32, 0.18
 hinge = 0,-0.85,0
-camber = -0.45
+camber = 0.45
 caster = 0.28
 toe = 0.0
 
