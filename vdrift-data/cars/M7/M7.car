@@ -154,29 +154,29 @@ rim = 5_spoke_m
 coilover = coilover-front
 wheel-hub = -0.77, 1.26, -0.48
 position = -0.72, 1.26, -0.02
-hinge = 0,0,0
+hinge = 0, 0, 0
 camber = -1.33
 caster = 6.12
 toe = -0.5
-ackermann = 0
-steering = 33.19
+ackermann = -8.5		# 50% Ackermann
+steering = 30
 
 [suspension-1]
 coilover = coilover-front
 wheel-hub = 0.77, 1.26, -0.48
 position = 0.72, 1.26, -0.02
-hinge = 0,0,0
-camber = -1.33
+hinge = 0, 0, 0
+camber = 1.33
 caster = 6.12
 toe = 0.5
-ackermann = 0
-steering = 33.19
+ackermann = 8.5
+steering = 30
 
 [suspension-2]
 coilover = coilover-rear
 wheel-hub = -0.77, -1.26, -0.48
 position = -0.72, -1.26, -0.02
-hinge = 0,-0.85,0
+hinge = 0, -0.85, 0
 camber = -0.45
 caster = 0.28
 toe = 0.0
@@ -185,8 +185,8 @@ toe = 0.0
 coilover = coilover-rear
 wheel-hub = 0.77, -1.26, -0.48
 position = 0.72, -1.26, -0.02
-hinge = 0,-0.85,0
-camber = -0.45
+hinge = 0, -0.85, 0
+camber = 0.45
 caster = 0.28
 toe = 0.0
 
