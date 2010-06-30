@@ -103,25 +103,25 @@ rotor = rotor_shiny_slotted_drilled
 orientation = left
 tire = tire
 brake = brake-rear
-rim = 5_spoke_m
+model = 5_spoke_m
 
 [wheel-1]
 orientation = right
 tire = tire
 brake = brake-rear
-rim = 5_spoke_m
+model = 5_spoke_m
 
 [wheel-2]
 orientation = left
 tire = tire
 brake = brake-rear
-rim = 5_spoke_m
+model = 5_spoke_m
 
 [wheel-3]
 orientation = right
 tire = tire
 brake = brake-rear
-rim = 5_spoke_m
+model = 5_spoke_m
 
 [suspension-0]
 coilover = coilover-front
