@@ -91,17 +91,17 @@ lift-coefficient = -3
 efficiency = 0.95
 
 [coilover-front]
-spring-constant = 49131.9
-bounce = 2588
-rebound = 2612
+spring-constant = 50000
+bounce = 2500
+rebound = 7500
 travel = 0.19
 anti-roll = 8000.0
 
 [coilover-rear]
-spring-constant = 50137.3
-bounce = 2788
-rebound = 2912
-travel = 0.19
+spring-constant = 50000
+bounce = 2500
+rebound = 7500
+travel = 0.215
 anti-roll = 6000.0
 
 [tire]
@@ -130,25 +130,25 @@ rotor = rotor_worn
 orientation = left
 tire = tire
 brake = brake-front
-rim = 5_spoke_m
+model = 5_spoke_m
 
 [wheel-1]
 orientation = right
 tire = tire
 brake = brake-front
-rim = 5_spoke_m
+model = 5_spoke_m
 
 [wheel-2]
 orientation = left
 tire = tire
 brake = brake-rear
-rim = 5_spoke_m
+model = 5_spoke_m
 
 [wheel-3]
 orientation = right
 tire = tire
 brake = brake-rear
-rim = 5_spoke_m
+model = 5_spoke_m
 
 [suspension-0]
 coilover = coilover-front

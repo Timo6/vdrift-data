@@ -160,25 +160,25 @@ rotor = rotor_carbon_ceramic
 orientation = left
 tire = tire
 brake = brake-front
-rim = 5_spoke_m
+model = oem_wheel
 
 [wheel-1]
 orientation = right
 tire = tire
 brake = brake-front
-rim = 5_spoke_m
+model = oem_wheel
 
 [wheel-2]
 orientation = left
 tire = tire
 brake = brake-rear
-rim = 5_spoke_m
+model = oem_wheel
 
 [wheel-3]
 orientation = right
 tire = tire
 brake = brake-rear
-rim = 5_spoke_m
+model = oem_wheel
 
 [suspension-0]
 coilover = coilover-front
@@ -188,7 +188,7 @@ hinge = 0, 0, 0
 camber = -1.00		# Radsturz
 caster = 0.12		# Nachlauf
 toe = -0.9			# Left wheel toe in(negative angle)
-ackermann = 16.5		# 50% Ackermann, 100% Ackermann Angle(steering arm angle) atan(0.5 * steering_axis_length / axes_distance)
+ackermann = 6.5		# 50% Ackermann, 100% Ackermann Angle(steering arm angle) atan(0.5 * steering_axis_length / axes_distance)
 steering = 30		# Maximum steering angle (ackermann = 0.0)
 
 [suspension-1]
@@ -199,7 +199,7 @@ hinge = 0, 0, 0
 camber = 1.00
 caster = 0.12
 toe = 0.9			# Right wheel toe in(positive angle)
-ackermann = -16.5	# 50% Ackermann, for 100% Ackermann Angle(steering arm angle) atan(0.5 * steering_axis_length / axes_distance)
+ackermann = -6.5	# 50% Ackermann, for 100% Ackermann Angle(steering arm angle) atan(0.5 * steering_axis_length / axes_distance)
 steering = 30		# Maximum steering angle (ackermann = 0.0)
 
 [suspension-2]
