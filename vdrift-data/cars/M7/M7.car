@@ -158,7 +158,7 @@ hinge = 0, 0, 0
 camber = -1.33
 caster = 6.12
 toe = -0.5
-ackermann = -8.5		# 50% Ackermann
+ackermann = 8.5	# 50% Ackermann
 steering = 30
 
 [suspension-1]
@@ -169,7 +169,7 @@ hinge = 0, 0, 0
 camber = 1.33
 caster = 6.12
 toe = 0.5
-ackermann = 8.5
+ackermann = -8.5
 steering = 30
 
 [suspension-2]

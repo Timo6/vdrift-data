@@ -99,7 +99,7 @@ max-pressure = 5e5
 bias = 0.57
 radius = 0.15
 area = 0.01
-rotor = rotor_shiny_slotted_drilled
+#rotor = rotor_shiny_slotted_drilled
 
 [brake-rear]
 friction = 0.8
@@ -108,7 +108,7 @@ bias = 0.43
 radius = 0.15
 area = 0.01
 handbrake = 1.0
-rotor = rotor_shiny_slotted_drilled
+#rotor = rotor_shiny_slotted_drilled
 
 [wheel-0]
 orientation = left
@@ -142,8 +142,8 @@ hinge = 0.65, 1.40, -0.45
 camber = -3.0
 caster = 0.0
 toe = 0.5
-ackermann = 0
-steering = 33.19
+ackermann = 8.2	# 50% ackermann
+steering = 30
 
 [suspension-1]
 coilover = coilover-front
@@ -153,8 +153,8 @@ hinge = -0.65, 1.40, -0.45
 camber = 3.0
 caster = 0.0
 toe = -0.5
-ackermann = 0
-steering = 33.19
+ackermann = -8.2
+steering = 30
 
 [suspension-2]
 coilover = coilover-rear
