@@ -146,8 +146,8 @@ hinge = 0,0,0
 camber = -0.5
 caster = 0.0
 toe = 0.0
-ackermann = 0
-steering = 33.19
+ackermann = 8.23	# 50% Ackermann
+steering = 30
 
 [suspension-1]
 coilover = coilover-front
@@ -157,8 +157,8 @@ hinge = 0,0,0
 camber = 0.5
 caster = 0.0
 toe = 0.0
-ackermann = 0
-steering = 33.19
+ackermann = -8.23
+steering = 30
 
 [suspension-2]
 coilover = coilover-rear
