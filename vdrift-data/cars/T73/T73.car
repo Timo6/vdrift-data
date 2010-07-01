@@ -65,25 +65,13 @@ position = 0.0, 0.1, -0.23
 view-position = 0.0, 0.1, 0.1
 hood-mounted-view-position = 0.0, 0.4, 0.1
 
+# body downforce/drag
 [aerodevice-0]
-position = 0.0, 2.0, 0.2
+position = 0.0, 0.0, -0.4
 frontal-area = 1.5
 drag-coefficient = 0.3
-
-[aerodevice-1]
-position = 0.0, 1.9, 0.60
-frontal-area = 0.2
-drag-coefficient = 0.0
 surface-area = 0.3
-lift-coefficient = -0.15
-efficiency = 0.95
-
-[aerodevice-2]
-position = 0.0, -2.14, 0.37
-frontal-area = 0.05
-drag-coefficient = 0.0
-surface-area = 0.5
-lift-coefficient = -1.6
+lift-coefficient = -0.3
 efficiency = 0.95
 
 [coilover-front]
