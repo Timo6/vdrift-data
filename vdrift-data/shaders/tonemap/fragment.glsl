@@ -37,7 +37,7 @@ void main()
 	//float lod = 8;
 	//float geometric_mean = exp((texture2D(tu1_2D, tu0coord).r/scale_tiny-offset_tiny)/scale-offset);
 	float geometric_mean = exp(texture2D(tu1_2D, tu0coord).r/scale-offset);
-	//geometric_mean = 0.18;
+	geometric_mean = 0.35;
 	//gl_FragColor.rgb = texture2DLod(tu0_2D, tu0coord, lod).rgb;
 	
 	// reinhard eq 3
