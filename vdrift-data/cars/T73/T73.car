@@ -2,7 +2,7 @@ drive = RWD
 version = 2
 
 [engine]
-position = 0.0, -1.16, -0.18
+position = 0.0, -1.16, -0.42
 mass = 145.0
 max-power = 1.52e5
 peak-engine-rpm = 9600.0
@@ -55,7 +55,7 @@ final-drive = 3.88
 anti-slip = 100.0
 
 [fuel-tank]
-position = 0.0, 0.8, 0.16
+position = 0.0, 0.8, -0.45
 capacity = 173.0
 volume = 10.0
 fuel-density = 0.8
@@ -187,26 +187,27 @@ caster = 0.0
 toe = 0.5
 
 # these are used to calculate the weight distribution and balance
+# car vertical center is at -0.42
 [particle-00]
 mass = 20.0
 position = 0.0, 0.5, -0.45
 
 [particle-01]
 mass = 40.0
-position = 0.4, 0.4, 0.1
+position = 0.4, -1.06, -0.42
 
 [particle-02]
 mass = 40.0
-position = -0.4, -1.06, 0.1
+position = -0.4, -1.06, -0.42
 
 [particle-03]
 mass = 69.0
-position = 0.4, 1.35, 0.0
+position = 0.4, 1.35, -0.42
 
 [particle-04]
 mass = 69.0
-position = -0.4, 1.35, 0.0
+position = -0.4, 1.35, -0.42
 
 [particle-05]	# driver
 mass = 90.0
-position = 0.0, 0.1, -0.23
+position = 0.0, 0.1, -0.45
