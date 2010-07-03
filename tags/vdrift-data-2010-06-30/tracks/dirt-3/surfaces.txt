@@ -1,0 +1,74 @@
+[ NONE ]
+
+ID = 0
+BumpWaveLength = 0.0
+BumpAmplitude = 0.0
+FrictionNonTread = 0.0
+FrictionTread = 0.0
+RollResistanceCoefficient = 0.0
+RollingDrag = 0.0
+
+
+[ ASPHALT ]
+
+ID = 1
+BumpWaveLength = 0.0
+BumpAmplitude = 0.0
+FrictionNonTread = 1.0
+FrictionTread = 0.9
+RollResistanceCoefficient = 1.0
+RollingDrag = 0.0
+
+
+[ GRASS ]
+
+ID = 2
+BumpWaveLength = 5.0
+BumpAmplitude = 0.1
+FrictionNonTread = 0.6
+FrictionTread = 0.8
+RollResistanceCoefficient = 3.0
+RollingDrag = 10.0
+
+
+[ GRAVEL ]
+
+ID = 3
+BumpWaveLength = 10.0
+BumpAmplitude = 0.3
+FrictionNonTread = 0.5
+FrictionTread = 0.7
+RollResistanceCoefficient = 6.0
+RollingDrag = 20.0
+
+
+[ CONCRETE ]
+
+ID = 4
+BumpWaveLength = 0.0
+BumpAmplitude = 0.0
+FrictionNonTread = 0.95
+FrictionTread = 0.9
+RollResistanceCoefficient = 1.0
+RollingDrag = 0.0
+
+
+[ SAND ]
+
+ID = 5
+BumpWaveLength = 10.0
+BumpAmplitude = 0.02
+FrictionNonTread = 0.5
+FrictionTread = 0.7
+RollResistanceCoefficient = 5.0
+RollingDrag = 15.0
+
+[ COBBLES ]
+
+ID = 6
+BumpWaveLength = 0.2
+BumpAmplitude = 0.05
+FrictionNonTread = 0.95
+FrictionTread = 0.9
+RollResistanceCoefficient = 1.0
+RollingDrag = 0.0
