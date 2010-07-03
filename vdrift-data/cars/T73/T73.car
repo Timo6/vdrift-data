@@ -114,13 +114,13 @@ handbrake = 1.0
 orientation = left
 tire = tire
 brake = brake-front
-model = oem_wheel
+model = 5_spoke_m	#oem_wheel broken
 
 [wheel-1]
 orientation = right
 tire = tire
 brake = brake-front
-model = oem_wheel
+model = 5_spoke_m	#oem_wheel
 
 [wheel-2]
 orientation = left
