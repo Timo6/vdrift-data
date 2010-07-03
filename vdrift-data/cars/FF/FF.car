@@ -88,7 +88,7 @@ max-pressure = 2.5e6
 bias = 0.65
 radius = 0.19
 area = 0.015
-rotor = rotor_shiny_slotted_drilled
+//rotor = rotor_shiny_slotted_drilled
 
 [brake-rear]
 friction = 0.3
@@ -96,8 +96,8 @@ max-pressure = 2.5e6
 bias = 0.35
 radius = 0.18
 area = 0.015
-handbrake = 1.0
-rotor = rotor_shiny_slotted_drilled
+handbrake = 1.5
+//rotor = rotor_shiny_slotted_drilled
 
 [wheel-0]
 orientation = left
