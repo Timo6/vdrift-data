@@ -1,0 +1,212 @@
+drive = RWD
+version = 2
+
+[engine]
+position = 0.0, 1.08, -0.11
+mass = 130.0
+max-power = 1.08e5
+peak-engine-rpm = 6500.0
+rpm-limit = 7700.0
+inertia = 0.25
+idle = 0.02
+start-rpm = 1000
+stall-rpm = 350
+fuel-consumption = 1e-9
+torque-friction = 0.0003
+torque-curve-00 = 1000, 115.15
+torque-curve-01 = 2000, 122.50
+torque-curve-02 = 2250, 125.07
+torque-curve-03 = 2500, 132.20
+torque-curve-04 = 3000, 137.20
+torque-curve-05 = 3500, 139.00
+torque-curve-06 = 4000, 142.10
+torque-curve-07 = 4500, 147.03
+torque-curve-08 = 5000, 149.19
+torque-curve-09 = 5750, 149.83
+torque-curve-10 = 6000, 147.12
+torque-curve-11 = 6500, 141.92
+torque-curve-12 = 6750, 134.92
+torque-curve-13 = 7000, 129.24
+torque-curve-14 = 7500, 125.12
+torque-curve-15 = 8000, 118.00
+
+[clutch]
+sliding = 0.27
+radius = 0.05
+area = 0.12354
+max-pressure = 2.0e5
+
+[transmission]
+gears = 5
+gear-ratio-r = -3.484
+gear-ratio-1 = 3.587
+gear-ratio-2 = 2.022
+gear-ratio-3 = 1.384
+gear-ratio-4 = 1.100
+gear-ratio-5 = 0.861
+shift-delay = 0.3
+
+[differential]
+final-drive = 4.10
+anti-slip = 600.0
+
+[fuel-tank]
+position = -0.1, -1.04, -0.26
+capacity = 100.0
+volume = 100.0
+fuel-density = 0.8
+
+[driver]
+position = -0.36, -0.0, 0.1
+view-position = -0.36, -0.0, 0.4
+hood-mounted-view-position = 0, 0.57, 0.35
+
+[aerodevice-0]
+position = 0.0, 0.0, 0.2
+frontal-area = 2
+drag-coefficient = 0.3
+
+[aerodevice-1]
+position = 0.0, 1.9, 0.60
+frontal-area = 0.2
+drag-coefficient = 0.0
+surface-area = 0.3
+lift-coefficient = -0.5
+efficiency = 0.95
+
+[aerodevice-2]
+position = 0.0, -2.14, 0.37
+frontal-area = 0.05
+drag-coefficient = 0.0
+surface-area = 0.5
+lift-coefficient = -2
+efficiency = 0.95
+
+[coilover-front]
+spring-constant = 40000.0
+bounce = 1100.0
+rebound = 2300.0
+travel = 0.15
+anti-roll = 7000.0
+
+[coilover-rear]
+spring-constant = 40000.0
+bounce = 1250.0
+rebound = 3150.0
+travel = 0.18
+anti-roll = 15500.0
+
+[tire]
+size = 185/60r14
+type = touring
+texture = touring
+
+[brake-front]
+friction = 0.73
+max-pressure = 1.93e6
+bias = 0.57
+radius = 0.14
+area = 0.015
+rotor = rotor_worn
+
+[brake-rear]
+friction = 0.73
+max-pressure = 1.93e6
+bias = 0.43
+radius = 0.14
+area = 0.015
+handbrake = 1.0
+rotor = rotor_worn
+
+[wheel-0]
+orientation = left
+tire = tire
+brake = brake-front
+model = 5_spoke_m
+
+[wheel-1]
+orientation = right
+tire = tire
+brake = brake-front
+model = 5_spoke_m
+
+[wheel-2]
+orientation = left
+tire = tire
+brake = brake-rear
+model = 5_spoke_m
+
+[wheel-3]
+orientation = right
+tire = tire
+brake = brake-rear
+model = 5_spoke_m
+
+[suspension-0]
+coilover = coilover-front
+wheel-hub = -0.673, 1.16, -0.43	#-0.723, 1.16, -0.43	#front track 1445mm
+position = -0.70, 1.16, -0.07
+hinge = 0.0,0,0
+camber = -0.5
+caster = 0.00
+toe = 0.0
+ackermann = 8.22	# 50% ackermann
+steering = 40
+
+[suspension-1]
+coilover = coilover-front
+wheel-hub = 0.673, 1.16, -0.43	#0.723, 1.16, -0.43
+position = 0.70, 1.16, -0.07
+hinge = 0.0,0,0
+camber = 0.5
+caster = 0.00
+toe = 0.0
+ackermann = -8.22
+steering = 40
+
+[suspension-2]
+coilover = coilover-rear
+wheel-hub = -0.703, -1.12, -0.46	#-0.713, -1.12, -0.46	#rear track 1425mm
+position = -0.70, -1.12, -0.07
+hinge = -0.5,0,0
+camber = 0.00
+caster = 0.00
+toe = -0.2
+
+[suspension-3]
+coilover = coilover-rear
+wheel-hub = 0.703, -1.12, -0.46	#0.713, -1.12, -0.46
+position = 0.70, -1.12, -0.07
+hinge = -0.5,0,0
+camber = 0.00
+caster = 0.00
+toe = 0.2
+
+# these are used to calculate the weight distribution and balance
+[particle-00]
+mass = 20.0
+position = 0.0, -1.28, -0.36
+
+[particle-01]
+mass = 40.0
+position = 0.0, 0.11, -0.36
+
+[particle-02]
+mass = 156.0
+position =  0.39, -1.7, 0.0
+
+[particle-03]
+mass = 156.0
+position = -0.39, -1.7, 0.0
+
+[particle-04]
+mass = 126.0
+position =  0.39, 1.32, -0.07
+
+[particle-05]
+mass = 126.0
+position = -0.39, 1.32, -0.07
+
+[particle-06]	# driver
+mass = 90.0
+position = -0.36, -0.0, 0.1

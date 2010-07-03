@@ -1,0 +1,19 @@
+start position 0 = -102.931953,-8.989544,14.143808
+start position 1 = -110.726410,-8.963163,9.951894
+start position 2 = -115.672394,-8.965420,17.098722
+start position 3 = -123.577286,-8.901558,12.704127
+start orientation-xyz 0 = 0.005376,0.631569,0.004373
+start orientation-w 0 = -0.775289
+start orientation-xyz 1 = -0.001649,0.602474,-0.001265
+start orientation-w 1 = -0.798135
+start orientation-xyz 2 = -0.005719,0.587189,-0.004168
+start orientation-w 2 = -0.809419
+start orientation-xyz 3 = -0.002411,0.621452,-0.001928
+start orientation-w 3 = -0.783446
+cull faces = on
+lap sequences = 2
+lap sequence 0 = 0.000000,0.000000,0.000000
+lap sequence 1 = 0.000000,788.000000,0.000000
+non-treaded friction coefficient = 1.000000
+treaded friction coefficient = 0.900000
+

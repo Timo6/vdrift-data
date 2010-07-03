@@ -1,0 +1,238 @@
+drive = RWD
+version = 2 #file format version 2 changes the coordinate system to this: http://vdrift.net/Forum/viewtopic.php?p=8073#8073
+
+[engine]
+position = 0.0, 1.0, -0.21
+mass = 140.0
+max-power = 1.79e5
+peak-engine-rpm = 7800.0
+rpm-limit = 9000.0
+inertia = 0.25
+idle = 0.02
+start-rpm = 1000
+stall-rpm = 350
+fuel-consumption = 1e-9
+torque-friction = 0.0003
+torque-curve-00 = 1000, 140.0
+torque-curve-01 = 2000, 149.14
+torque-curve-02 = 2200, 145.07
+torque-curve-03 = 2500, 147.78
+torque-curve-04 = 3000, 169.50
+torque-curve-05 = 3300, 172.19
+torque-curve-06 = 4000, 169.50
+torque-curve-07 = 4500, 166.77
+torque-curve-08 = 5600, 172.19
+torque-curve-09 = 5800, 170.83
+torque-curve-10 = 6000, 168.12
+torque-curve-11 = 6100, 177.61
+torque-curve-12 = 6200, 186.42
+torque-curve-13 = 6300, 192.53
+torque-curve-14 = 6500, 195.92
+torque-curve-15 = 6700, 195.92
+torque-curve-16 = 7000, 195.24
+torque-curve-17 = 7600, 190.49
+torque-curve-18 = 8000, 184.39
+torque-curve-19 = 8200, 183.04
+torque-curve-20 = 8300, 146.43
+torque-curve-21 = 9500, 146.43
+
+[clutch]
+sliding = 0.27
+radius = 0.15
+area = 0.75
+max-pressure = 11079.26
+
+[transmission]
+gears = 6
+gear-ratio-r = -2.8
+gear-ratio-1 = 3.133
+gear-ratio-2 = 2.045
+gear-ratio-3 = 1.481
+gear-ratio-4 = 1.161
+gear-ratio-5 = 0.943
+gear-ratio-6 = 0.763
+shift-delay = 0.08
+
+[differential]
+final-drive = 4.100
+anti-slip = 600.0
+
+[fuel-tank]
+position = 0.0, -1.0, -0.26
+capacity = 0.0492
+volume = 0.0492
+fuel-density = 730.0
+
+[driver]
+position = -0.35, -0.57, 0.0
+view-position = -0.35, -0.64, 0.30
+hood-mounted-view-position = 0, 0.55, 0.17
+
+[aerodevice-0]
+position = 0.0, 0.0, 0.2
+frontal-area = 2
+drag-coefficient = 0.3
+
+[aerodevice-1]
+position = 1.9, 0.0, 0.60
+frontal-area = 0.2
+drag-coefficient = 0.0
+surface-area = 0.3
+lift-coefficient = -0.5
+efficiency = 0.95
+
+[aerodevice-2]
+position = 0.0, -2.14, 0.37
+frontal-area = 0.05
+drag-coefficient = 0.0
+surface-area = 0.5
+lift-coefficient = -0.7
+efficiency = 0.95
+
+[coilover-front]
+spring-constant = 49131.9
+bounce = 2600
+rebound = 7900
+damper-factor-1 = 0.06, 1.2
+damper-factor-2 = 0.08, 1.1
+damper-factor-3 = 0.1, 1
+damper-factor-4 = 0.2, 0.9
+damper-factor-5 = 0.5, 0.5
+damper-factor-6 = 1, 0.3
+damper-factor-7 = 5, 0.1
+travel = 0.19
+anti-roll = 800.0
+
+[coilover-rear]
+spring-constant = 51137.3
+bounce = 2700
+rebound = 8100
+damper-factor-1 = 0.06, 1.2
+damper-factor-2 = 0.08, 1.1
+damper-factor-3 = 0.1, 1
+damper-factor-4 = 0.2, 0.9
+damper-factor-5 = 0.5, 0.5
+damper-factor-6 = 1, 0.3
+damper-factor-7 = 5, 0.1
+travel = 0.19
+anti-roll = 600.0
+
+[tire-front]
+size = 215/45r17
+type = touring
+texture = touring
+
+[tire-rear]
+size = 245/40r17
+type = touring
+texture = touring
+
+[brake-front]
+friction = 0.4
+max-pressure = 4.0e6
+bias = 0.65
+radius = 0.14
+area = 0.015
+rotor = rotor_shiny_slotted_drilled
+
+[brake-rear]
+friction = 0.4
+max-pressure = 4.0e6
+bias = 0.35
+radius = 0.14
+area = 0.015
+handbrake = 1.0
+rotor = rotor_shiny_slotted_drilled
+
+[wheel-0]
+orientation = left
+tire = tire-front
+brake = brake-front
+model = oem_wheel
+
+[wheel-1]
+orientation = right
+tire = tire-front
+brake = brake-front
+model = oem_wheel
+
+[wheel-2]
+orientation = left
+tire = tire-rear
+brake = brake-rear
+model = oem_wheel
+
+[wheel-3]
+orientation = right
+tire = tire-rear
+brake = brake-rear
+model = oem_wheel
+
+[suspension-0]
+coilover = coilover-front
+wheel-hub = -0.736, 1.14, -0.47	#track front/rear 1471/1509
+position = -0.73, 1.14, -0.03
+hinge = 0,0,0
+camber = -1.33
+caster = 6.12
+toe = 0.0
+ackermann = 8.46	# 50% ackermann
+steering = 30
+
+[suspension-1]
+coilover = coilover-front
+wheel-hub = 0.736, 1.14, -0.47
+position = 0.73, 1.14, -0.03
+hinge = 0,0,0
+camber = 1.33
+caster = 6.12
+toe = 0.0
+ackermann = -8.46
+steering = 30
+
+[suspension-2]
+coilover = coilover-rear
+wheel-hub = -0.755, -1.28, -0.48
+position = -0.75, -1.28, -0.02
+hinge = 0,-0.85,0
+camber = -0.45
+caster = 0.28
+toe = 0.0
+
+[suspension-3]
+coilover = coilover-rear
+wheel-hub = 0.755, -1.28, -0.48
+position = 0.75, -1.28, -0.02
+hinge = 0,-0.85,0
+camber = 0.45
+caster = 0.28
+toe = 0.0
+
+# these are used to calculate the weight distribution and balance
+[particle-00]
+mass = 30.0
+position = 0.0, -1.28, -0.36
+
+[particle-01]
+mass = 60.0
+position = 0.0, 0.11, -0.36
+
+[particle-02]
+mass = 235.0
+position = -0.39, -1.7, 0.0
+
+[particle-03]
+mass = 235.0
+position = 0.39, -1.7, 0.0
+
+[particle-04]
+mass = 195.0
+position = -0.39, 1.32, -0.07
+
+[particle-05]
+mass = 195.0
+position = 0.39, .p1.32, -0.07
+
+[particle-06]	# driver
+mass = 90.0
+position = -0.35, -0.57, 0.0

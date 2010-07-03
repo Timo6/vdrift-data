@@ -1,0 +1,227 @@
+drive = RWD
+version = 2
+
+[engine]
+position = 0.0, 1.4, -0.1
+mass = 200.0
+max-power = 373000
+peak-engine-rpm = 6000.0
+rpm-limit = 6500.0
+inertia = 0.5
+idle = 0.025
+start-rpm = 1000
+stall-rpm = 500
+fuel-consumption = 0.0001
+torque-friction = 0.001
+torque-curve-00 = 1000, 361.04
+torque-curve-01 = 2000, 433.10
+torque-curve-02 = 2500, 474.70
+torque-curve-03 = 3000, 488.24
+torque-curve-04 = 3300, 494.09
+torque-curve-05 = 3500, 501.71
+torque-curve-06 = 3800, 512.14
+torque-curve-07 = 3900, 522.89
+torque-curve-08 = 4000, 528.37
+torque-curve-09 = 4100, 535.32
+torque-curve-10 = 4200, 540.11
+torque-curve-11 = 4400, 548.30
+torque-curve-12 = 4600, 555.45
+torque-curve-13 = 4900, 557.12
+torque-curve-14 = 5500, 538.78
+torque-curve-15 = 6000, 510.61
+torque-curve-16 = 6500, 506.0
+
+[clutch]
+sliding = 0.27
+radius = 0.05
+area = 0.12354
+max-pressure = 4.9e5
+
+[transmission]
+gears = 6
+gear-ratio-r = -3.28
+gear-ratio-1 = 2.97
+gear-ratio-2 = 2.07
+gear-ratio-3 = 1.43
+gear-ratio-4 = 1.00
+gear-ratio-5 = 0.84
+gear-ratio-6 = 0.56
+shift-delay=0.08
+
+[differential]
+final-drive = 3.42
+anti-slip = 400.0
+
+[fuel-tank]
+position = -0.1, -1.2, -0.26
+capacity = 100.0
+volume = 100.0
+fuel-density = 0.8
+
+[driver]
+position = -0.40, -0.3, -0.13
+view-position = -0.4, -0.3,  0.3
+hood-mounted-view-position = 0, 0.5, 0.2
+
+[aerodevice-0]
+position = 0.0, 0.0, -0.60
+frontal-area = 2.0
+drag-coefficient = 0.3
+
+[aerodevice-1]
+position = 0, 2.34, -0.6
+frontal-area = 0.2
+drag-coefficient = 0
+surface-area = 0.9
+lift-coefficient = -1.2
+efficiency = 0.99
+
+[aerodevice-2]
+position = 0, -2.14, 0.37
+frontal-area = 0.2
+drag-coefficient = 0
+surface-area = 0.9
+lift-coefficient = -2.0
+efficiency = 0.95
+
+[coilover-front]
+spring-constant = 80000.0
+bounce = 3600
+rebound = 11000
+travel = 0.12
+anti-roll = 10000.0
+
+[coilover-rear]
+spring-constant = 95000.0
+bounce = 4200.0
+rebound = 12600.0
+travel = 0.12
+anti-roll = 10000.0
+
+[tire-front]
+size = 265/40r17
+type = touring
+texture = touring
+
+[tire-rear]
+size = 295/35r18
+type = touring
+texture = touring
+
+[brake-front]
+friction = 1.2
+max-pressure = 3.8e6
+bias = 0.6
+radius = 0.18
+area = 0.01
+rotor = rotor_worn
+
+[brake-rear]
+friction = 1.2
+max-pressure = 3.0e6
+bias = 0.4
+radius = 0.16
+area = 0.01
+handbrake = 1.0
+rotor = rotor_worn
+
+[wheel-0]
+orientation = left
+tire = tire-front
+brake = brake-front
+model = oem_wheel
+
+[wheel-1]
+orientation = right
+tire = tire-front
+brake = brake-front
+model = oem_wheel
+
+[wheel-2]
+orientation = left
+tire = tire-rear
+brake = brake-rear
+model = oem_wheel
+
+[wheel-3]
+orientation = right
+tire = tire-rear
+brake = brake-rear
+model = oem_wheel
+
+[suspension-0]
+coilover = coilover-front
+wheel-hub = -0.73, 1.30, -0.42
+position = -0.51, 1.30, -0.32
+hinge = 0,0,-0.1
+camber = -1.33
+caster = 6.12
+toe = 0.0
+ackermann = 8	# 50% ackermann
+steering = 33
+
+[suspension-1]
+coilover = coilover-front
+wheel-hub = 0.73, 1.30, -0.42
+position = 0.51, 1.30, -0.32
+hinge = 0,0,-0.1
+camber = 1.33
+caster = 6.12
+toe = 0.0
+ackermann = -8
+steering = 33
+
+[suspension-2]
+coilover = coilover-rear
+wheel-hub = -0.75, -1.25, -0.43
+position = -0.51, -1.25, -0.32
+hinge = 0,0,-0.1
+camber = -0.45
+caster = 0.28
+toe = -0.2
+
+[suspension-3]
+coilover = coilover-rear
+wheel-hub = 0.75, -1.25, -0.43
+position = 0.51, -1.25, -0.32
+hinge = 0,0,-0.1
+camber = 0.45
+caster = 0.28
+toe = 0.2
+
+# these are used to calculate the weight distribution and balance
+[particle-00]
+mass = 248
+position =  1.11, -2.3, -0.22
+
+[particle-01]
+mass = 248
+position = -1.11, -2.3, -0.22
+
+[particle-02]
+mass = 218
+position =  1.11, 2.3, -0.22
+
+[particle-03]
+mass = 218
+position = -1.11, 2.3, -0.22
+
+[particle-04]
+mass = 33
+position =  1.11, -2.3, -0.62
+
+[particle-05]
+mass = 33
+position = -1.11, -2.3, -0.62
+
+[particle-06]
+mass = 33
+position =  1.11, 2.3, -0.62
+
+[particle-07]
+mass = 33
+position = -1.11, 2.3, -0.62
+
+[particle-08]	# driver
+mass = 90.0
+position = -0.40, -0.3, -0.13

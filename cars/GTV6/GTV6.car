@@ -1,0 +1,227 @@
+drive = RWD
+version = 2
+
+[engine]
+position = 0.0, 1.28, -0.24
+mass = 170.0
+max-power = 1.17e5
+peak-engine-rpm = 5600.0
+rpm-limit = 6300.0
+inertia = 0.34
+idle = 0.01
+start-rpm = 800
+stall-rpm = 500
+fuel-consumption = 1e-9
+torque-friction = 0.0004
+torque-curve-00 =	600,	167.28
+torque-curve-01 =	800,	174.8
+torque-curve-02 =	1000,	180.64
+torque-curve-03 =	1200,	185.41
+torque-curve-04 =	1400,	189.44
+torque-curve-05 =	1600,	192.93
+torque-curve-06 =	1800,	196.01
+torque-curve-07 =	2000,	198.76
+torque-curve-08 =	2200,	201.26
+torque-curve-09 =	2400,	203.53
+torque-curve-10 =	2600,	205.62
+torque-curve-11 =	2800,	207.56
+torque-curve-12 =	3000,	209.37
+torque-curve-13 =	3200,	211.05
+torque-curve-14 =	3400,	212.64
+torque-curve-15 =	3600,	216.27
+torque-curve-16 =	3800,	217.93
+torque-curve-17 =	4000,	218.79
+torque-curve-18 =	4200,	219
+torque-curve-19 =	4400,	218.84
+torque-curve-20 =	4600,	218.11
+torque-curve-21 =	4800,	216.58
+torque-curve-22 =	5000,	214.08
+torque-curve-23 =	5200,	210.48
+torque-curve-24 =	5400,	205.66
+torque-curve-25 =	5600,	199.51
+torque-curve-26 =	5800,	192.5
+torque-curve-27 =	6000,	185.12
+torque-curve-28 =	6200,	179.22
+torque-curve-29 =	6400,	173.21
+
+# I need some way of specifying a twin-plate clutch.  Grr.
+[clutch]
+sliding = 0.24
+radius = 0.19
+area = 0.70
+max-pressure = 15600.0
+
+[transmission]
+gears = 5
+gear-ratio-r = -3.0
+gear-ratio-1 = 3.5
+gear-ratio-2 = 1.956
+gear-ratio-3 = 1.345
+gear-ratio-4 = 1.026
+gear-ratio-5 = 0.84
+shift-delay = 0.32
+
+[differential]
+final-drive = 4.1
+anti-slip = 0.3
+
+[fuel-tank]
+position = -1.17, 0, 0 
+capacity = 0.0650
+volume = 0.0650
+fuel-density = 730.0
+
+[driver]
+position = -0.33, -0.1, 0.12
+view-position = -0.33, -0.1, 0.42
+hood-mounted-view-position = 0.0, 1.2, 0.27
+
+[aerodevice-0]
+position = 0.0, 0.0, 0.2
+frontal-area = 2
+drag-coefficient = 0.13
+
+[aerodevice-1]
+position = 0.0, 1.98, -0.30
+frontal-area = 0.2
+drag-coefficient = 0.02
+surface-area = 0.35
+lift-coefficient = -0.5
+efficiency = 0.87
+
+[aerodevice-2]
+position = 0.0, -2.05, 0.22
+frontal-area = 0.05
+drag-coefficient = 0.0
+surface-area = 0.32
+lift-coefficient = -2
+efficiency = 0.9
+
+[coilover-front]
+spring-constant = 76000
+bounce = 8000
+rebound = 10700
+travel = 0.15
+anti-roll = 10000
+
+[coilover-rear]
+spring-constant = 63000
+bounce = 9000
+rebound = 9992.14
+travel = 0.17
+anti-roll = 6000
+
+[tire] 
+size = 205/50r15
+type = touring
+texture = touring
+
+[brake-front]
+friction = 0.73
+max-pressure = 1.2e6
+bias = 0.57
+radius = 0.135
+area = 0.04
+rotor = rotor_worn
+
+[brake-rear]
+friction = 0.72
+max-pressure = 1.05e6
+bias = 0.43
+radius = 0.125
+area = 0.036
+handbrake = 0.8
+rotor = rotor_worn
+
+[wheel-0]
+orientation = left
+tire = tire
+brake = brake-front
+model = oem_wheel
+
+[wheel-1]
+orientation = right
+tire = tire
+brake = brake-front
+model = oem_wheel
+
+[wheel-2]
+orientation = left
+tire = tire
+brake = brake-rear
+model = oem_wheel
+
+[wheel-3]
+orientation = right
+tire = tire
+brake = brake-rear
+model = oem_wheel
+
+[suspension-0]
+coilover = coilover-front
+wheel-hub = -0.69, 1.29, -0.42
+position = -0.67, 1.29, 0.08
+hinge = 0.54, 1.28, -0.35
+camber = -0.12
+caster = 1.13
+toe = -0.3
+ackermann = 7.9	# 50% ackermann
+steering = 30
+
+[suspension-1]
+coilover = coilover-front
+wheel-hub = 0.69, 1.29, -0.42
+position = 0.67, 1.29, 0.08
+hinge = -0.54, 1.28, -0.35
+camber = 0.12
+caster = 1.13
+toe = 0.3
+ackermann = -7.9
+steering = 30
+
+[suspension-2]
+coilover = coilover-rear
+wheel-hub = -0.68, -1.15, -0.43
+position = -0.63, -1.15, -0.07
+hinge = 0.42, -1.0, -0.22
+camber = -0.65
+caster = 0.28
+toe = 0.14
+
+[suspension-3]
+coilover = coilover-rear
+wheel-hub = 0.68, -1.15, -0.43
+position = 0.63, -1.15, -0.07
+hinge = -0.42, -1.0, -0.22
+camber = 0.65
+caster = 0.28
+toe = -0.14
+
+# these are used to calculate the weight distribution and balance
+[particle-00]
+mass = 105.0
+position = 0.55, 1.67, -0.13
+
+[particle-01]
+mass = 105.0
+position = -0.55, 1.67, -0.13
+
+[particle-02]
+mass = 110.0
+position = 0.55, 0.92, 0.02
+
+[particle-03]
+mass = 110.0
+position = -0.55, 0.92, 0.02
+
+[particle-04]
+mass = 300.0
+position = 0.49, -1.27, -0.13
+
+[particle-05]
+mass = 300.0
+position = -0.49, -1.27, -0.13
+
+[particle-06] 	# driver
+mass = 70.0
+position = -0.33, -0.1, 0.12

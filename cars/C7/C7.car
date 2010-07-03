@@ -1,0 +1,229 @@
+drive = RWD
+version = 2
+
+[clutch]
+area = 0.75
+max-pressure = 14000.0
+radius = 0.15
+sliding = 0.27
+
+[differential]
+anti-slip = 250.0
+final-drive = 3.4
+
+[transmission]
+gear-ratio-1 = 2.80
+gear-ratio-2 = 1.81
+gear-ratio-3 = 1.49
+gear-ratio-4 = 1.22
+gear-ratio-5 = 1.00
+gear-ratio-r = -2.96
+gears = 5
+shift-delay = 1.0
+
+[engine]
+fuel-consumption = 1e-9
+idle = 0.02
+inertia = 0.1
+mass = 90.0
+peak-engine-rpm = 6500
+position = 0.0, 0.9, -0.3
+rpm-limit = 7200
+stall-rpm = 500
+start-rpm = 1000
+torque-curve-00 = 500, 50
+torque-curve-01 = 1000, 80
+torque-curve-02 = 2000, 126
+torque-curve-03 = 3000, 151
+torque-curve-04 = 4000, 158
+torque-curve-05 = 5000, 163
+torque-curve-06 = 6000, 169
+torque-curve-07 = 7000, 172
+torque-curve-08 = 8000, 168
+torque-curve-09 = 9000, 150
+torque-curve-10 = 10000, 100
+torque-friction = 0.0003
+
+[fuel-tank]
+capacity = 0.0492
+fuel-density = 730.0
+position = -0.17, -1.26, -0.2
+volume = 0.0200
+
+[driver]
+position = -0.208, -0.57, 0.0
+view-position = -0.208, -0.57, 0.15
+hood-mounted-view-position = 0.0, 0.24, 0.12
+
+[aerodevice-0]
+drag-coefficient = 0.3
+frontal-area = 2
+position = 0.0, 0.0, 0.2
+
+[aerodevice-1]
+drag-coefficient = 0.0
+efficiency = 0.95
+frontal-area = 0.2
+lift-coefficient = 0.075
+position = 0.0, 1.9, 0.60
+surface-area = 0.3
+
+[aerodevice-2]
+drag-coefficient = 0.0
+efficiency = 0.95
+frontal-area = 0.05
+lift-coefficient = 0.1
+position = 0.0, -2.14, 0.37
+surface-area = 0.5
+
+[coilover-front]
+anti-roll = 5000
+bounce = 2000
+damper-factor-1 = 0.02, 2.0
+damper-factor-2 = 0.1, 1.0
+damper-factor-3 = 0.2, 0.8
+damper-factor-4 = 0.5, 0.5
+max-compression-velocity = 100
+rebound = 3500
+spring-constant = 22000
+spring-factor-1 = 0.02, 1.0
+spring-factor-2 = 0.1, 1.5
+spring-factor-3 = 0.15, 3.0
+spring-factor-4 = 0.2, 5.0
+travel = 0.3
+
+[coilover-rear]
+anti-roll = 4500
+bounce = 2000
+damper-factor-1 = 0.02, 2.0
+damper-factor-2 = 0.1, 1.0
+damper-factor-3 = 0.2, 0.8
+damper-factor-4 = 0.5, 0.5
+max-compression-velocity = 100
+rebound = 3500
+spring-constant = 22000
+spring-factor-1 = 0.02, 1.0
+spring-factor-2 = 0.1, 1.5
+spring-factor-3 = 0.15, 3.0
+spring-factor-4 = 0.2, 5.0
+travel = 0.3
+
+# Caterham, Avon CR500 tyres, Front:195/45R15, Rear:255/40R15
+[tire-front]
+size = 195/45r15
+type = competition
+texture = touring
+
+[tire-rear]
+size = 255/40r15
+type = competition
+texture = touring
+
+[brake-front]
+area = 0.015
+bias = 0.6
+friction = 0.42
+max-pressure = 2.5e6
+radius = 0.17
+rotor = rotor_shiny_slotted_drilled
+
+[brake-rear]
+area = 0.015
+bias = 0.4
+friction = 0.42
+handbrake = 1
+max-pressure = 2.5e6
+radius = 0.14
+rotor = rotor_shiny_slotted_drilled
+
+[wheel-0]
+orientation = left
+tire = tire-front
+brake = brake-front
+model = oem_wheel
+
+[wheel-1]
+orientation = right
+tire = tire-front
+brake = brake-front
+model = oem_wheel
+
+[wheel-2]
+orientation = left
+tire = tire-rear
+brake = brake-rear
+model = oem_wheel
+
+[wheel-3]
+orientation = right
+tire = tire-rear
+brake = brake-rear
+model = oem_wheel
+
+[suspension-0]
+coilover = coilover-front
+wheel-hub = -0.60, 1.175, -0.42
+position = -0.58, 1.175, -0.07
+hinge = 0.60, 1.175, -0.7
+camber = -0.75
+caster = 4
+toe = -0.1
+ackermann = 7.18	# 50% ackermann
+steering = 27
+
+[suspension-1]
+coilover = coilover-front
+wheel-hub = 0.60, 1.175, -0.42
+position = 0.58, 1.175, -0.07
+hinge = -0.60, 1.175, -0.7
+camber = 0.75
+caster = 4
+toe = 0.1
+ackermann = -7.18
+steering = 27
+
+[suspension-2]
+coilover = coilover-rear
+wheel-hub = -0.60, -1.17, -0.42
+position = -0.60, -1.17, -0.07
+hinge = 0.60, -1.17, -0.7
+camber = -0.75
+caster = 0.28
+toe = 0.0
+
+[suspension-3]
+coilover = coilover-rear
+wheel-hub = 0.60, -1.17, -0.42
+position = 0.60, -1.17, -0.07
+hinge = -0.60, -1.17, -0.7
+camber = 0.75
+caster = 0.28
+toe = 0.0
+
+[particle-00]
+mass = 20.0
+position = 0.0, -1.35, -0.37
+
+[particle-01]
+mass = 30.0
+position = 0.0, 0.96, -0.27
+
+[particle-02]
+mass = 90.0
+position = 0.5, -0.75, -0.25
+
+[particle-03]
+mass = 90.0
+position = -0.5, -0.75, -0.25
+
+[particle-04]
+mass = 90.0
+position = 0.45, 0.75, -0.25
+
+[particle-05]
+mass = 90.0
+position = -0.45, 0.75, -0.25
+
+[particle-06]	# driver
+mass = 90.0
+position = -0.208, -0.57, -0.25
