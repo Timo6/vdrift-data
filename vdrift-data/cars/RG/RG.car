@@ -99,7 +99,7 @@ max-pressure = 2.9e6
 bias = 0.6
 radius = 0.1375
 area = 0.01
-rotor = rotor_worn
+//rotor = rotor_worn
 
 [brake-rear]
 friction = 0.6
@@ -107,8 +107,8 @@ max-pressure = 2.6e6
 bias = 0.4
 radius = 0.12
 area = 0.01
-handbrake = 1.0
-rotor = rotor_worn
+handbrake = 2.0
+//rotor = rotor_worn
 
 [driver]
 position = -0.33, 0.02, 0.1
