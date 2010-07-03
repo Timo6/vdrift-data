@@ -2,7 +2,7 @@ drive = RWD
 version = 2
 
 [engine]
-position = 0.15, -1.10, -0.18
+position = 0.15, -1.10, -0.45
 mass = 84.0
 max-power = 85755 
 peak-engine-rpm = 7000.0
@@ -88,7 +88,7 @@ max-pressure = 2.5e6
 bias = 0.65
 radius = 0.19
 area = 0.015
-//rotor = rotor_shiny_slotted_drilled
+#rotor = rotor_shiny_slotted_drilled
 
 [brake-rear]
 friction = 0.3
@@ -97,7 +97,7 @@ bias = 0.35
 radius = 0.18
 area = 0.015
 handbrake = 1.5
-//rotor = rotor_shiny_slotted_drilled
+#rotor = rotor_shiny_slotted_drilled
 
 [wheel-0]
 orientation = left
@@ -164,26 +164,27 @@ caster = 0.0
 toe = 1.0
 
 # these are used to calculate the weight distribution and balance
+# car median -0.4 z-axis
 [particle-00]
 mass = 17.0
 position = 0.1, 0.5, -0.45
 
 [particle-01]
 mass = 35.0
-position = 0.4, -1.06, -0.2
+position = 0.4, -1.06, -0.4
 
 [particle-02]
 mass = 35.0
-position = -0.4, -1.06, -0.2
+position = -0.4, -1.06, -0.4
 
 [particle-03]
 mass = 56.0
-position = 0.4, 1.35, -0.2
+position = 0.4, 1.35, -0.4
 
 [particle-04]
 mass = 56.0
-position = -0.4, 1.35, -0.2
+position = -0.4, 1.35, -0.4
 
 [particle-05]	# driver
 mass = 90.0
-position = 0, 0.3, -0.25
+position = 0, 0.3, -0.45
