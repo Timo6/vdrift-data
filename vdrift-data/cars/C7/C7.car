@@ -27,7 +27,7 @@ idle = 0.02
 inertia = 0.1
 mass = 90.0
 peak-engine-rpm = 6500
-position = 0.0, 0.9, -0.1
+position = 0.0, 0.9, -0.3
 rpm-limit = 7200
 stall-rpm = 500
 start-rpm = 1000
@@ -226,4 +226,4 @@ position = -0.45, 0.75, -0.25
 
 [particle-06]	# driver
 mass = 90.0
-position = -0.208, -0.57, 0.0
+position = -0.208, -0.57, -0.25
