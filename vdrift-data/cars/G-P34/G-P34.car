@@ -169,13 +169,13 @@ model = oem_wheel
 orientation = left
 tire = tire-rear
 brake = brake-rear
-model = oem_wheel
+model = oem_wheel_rear
 
 [wheel-3]
 orientation = right
 tire = tire-rear
 brake = brake-rear
-model = oem_wheel
+model = oem_wheel_rear
 
 [suspension-0]
 coilover = coilover-front
