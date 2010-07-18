@@ -1,7 +1,8 @@
 varying vec2 tu0coord;
 
 uniform sampler2D tu0_2D; //full scene color
-uniform sampler2D tu1_2D; //log luminance map
+//uniform sampler2D tu1_2D; //log luminance map
+uniform float contrast;
 
 /*uniform vec3 frustum_corner_bl;
 uniform vec3 frustum_corner_br_delta;
@@ -36,15 +37,15 @@ void main()
 	
 	//float lod = 8;
 	//float geometric_mean = exp((texture2D(tu1_2D, tu0coord).r/scale_tiny-offset_tiny)/scale-offset);
-	float geometric_mean = exp(texture2D(tu1_2D, tu0coord).r/scale-offset);
-	geometric_mean = 0.35;
+	//float geometric_mean = exp(texture2D(tu1_2D, tu0coord).r/scale-offset);
+	float geometric_mean = 0.25;
 	//gl_FragColor.rgb = texture2DLod(tu0_2D, tu0coord, lod).rgb;
 	
 	// reinhard eq 3
 	//float a = 0.18;
 	float a = 0.25;
 	float scalefactor = a/geometric_mean;
-	color *= scalefactor;
+	color *= scalefactor*contrast;
 	
 	/*if (gl_FragCoord.x < 100)
 		color = vec3(1,1,1)*texture2D(tu1_2D, tu0coord).r;
