@@ -489,24 +489,24 @@ blendmode = add
 
 ; postprocessing phase
 
-[pass]
-draw = postprocess
-output = log_luminance
-inputs = full_scene_color
-shader = logluminance
+;[pass]
+;draw = postprocess
+;output = log_luminance
+;inputs = full_scene_color
+;shader = logluminance
+
+;[pass]
+;draw = postprocess
+;output = log_luminance_tiny
+;inputs = log_luminance
+;shader = logluminance_tiny
 ;blendmode = alphablend
 
 [pass]
 draw = postprocess
-output = log_luminance_tiny
-inputs = log_luminance
-shader = logluminance_tiny
-blendmode = alphablend
-
-[pass]
-draw = postprocess
 output = framebuffer
-inputs = full_scene_color log_luminance_tiny
+;inputs = full_scene_color log_luminance_tiny
+inputs = full_scene_color
 shader = tonemap
 
 
