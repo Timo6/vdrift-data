@@ -1,6 +1,6 @@
-14
+17
 
-# Terrain
+#entry 0
 terrain.joe
 terrain.png
 1
@@ -15,8 +15,11 @@ terrain.png
 1.0
 5.0
 20.0
+0
+0
+0
 
-# Gravel
+#entry 1
 gravel.joe
 gravel.png
 1
@@ -31,4 +34,6 @@ gravel.png
 1.0
 5.0
 20.0
-
+0
+0
+1
