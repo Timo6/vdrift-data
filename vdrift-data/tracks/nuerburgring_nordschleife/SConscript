@@ -8,6 +8,7 @@ Import('*')
 #---------#
 src = ["about.txt",
        "track.txt",
+       "surfaces.txt",
        "trackshot.png",
        "roads.trk"]
 
