@@ -96,6 +96,9 @@ void main()
 	// determine view vector
 	vec3 V = normalize(-eyespace_view_direction);
 	
+	// flip back-pointing face normals to point out the other direction
+	normal *= sign(dot(V,normal));
+	
 	// determine half vector
 	vec3 H = normalize(V+directlight_eyespace_direction);
 	
@@ -147,6 +150,8 @@ void main()
 		//final.rgb = vec3(unpackFloatFromVec2i(gbuf_normal_xy.xy),unpackFloatFromVec2i(gbuf_normal_xy.zw),0);
 		//final.rgb = normal;
 		//final.rgb = vec3(1,1,1)*gbuf_material_properties.a;
+		//final.rgb = vec3(1,1,1)*cos_clamped(V,normal);
+		//final.rgb = vec3(1,1,1)*abs(normal.z);
 	#endif
 	
 	#ifdef _OMNI_
