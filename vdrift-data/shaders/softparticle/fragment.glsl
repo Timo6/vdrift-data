@@ -14,10 +14,11 @@ void main()
 	diffuse *= gl_Color;
 	
 	const float softfactor = 100.0;
-	diffuse.a = mix(0.0, diffuse.a, clamp((gbuf_depth - screen.z)*softfactor,0.0,1.0));
+	float alpha = mix(0.0, diffuse.a, clamp((gbuf_depth - screen.z)*softfactor,0.0,1.0));
 	
 	// pre-multiply alpha
-	diffuse.rgb *= diffuse.a;
+	diffuse.rgb *= alpha;
+	diffuse.a = 1;
 	
 	gl_FragColor = diffuse;
 	
