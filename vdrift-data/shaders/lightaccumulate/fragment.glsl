@@ -97,7 +97,8 @@ void main()
 	vec3 V = normalize(-eyespace_view_direction);
 	
 	// flip back-pointing face normals to point out the other direction
-	normal *= sign(dot(V,normal));
+	//normal *= sign(dot(V,normal));
+	normal.z = abs(normal.z);
 	
 	// determine half vector
 	vec3 H = normalize(V+directlight_eyespace_direction);
@@ -172,6 +173,10 @@ void main()
 	
 	// add source light
 	final.rgb += CommonBRDF(RealTimeRenderingBRDF(cdiff, m, Rf0, alpha_h, omega_h),E_l,omega_i);
+	
+	#ifdef _INITIAL_
+	final.rgb = ambient;
+	#endif
 	
 	gl_FragColor = final;
 }
