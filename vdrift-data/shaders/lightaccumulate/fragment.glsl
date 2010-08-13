@@ -174,9 +174,5 @@ void main()
 	// add source light
 	final.rgb += CommonBRDF(RealTimeRenderingBRDF(cdiff, m, Rf0, alpha_h, omega_h),E_l,omega_i);
 	
-	#ifdef _INITIAL_
-	final.rgb = ambient;
-	#endif
-	
 	gl_FragColor = final;
 }
