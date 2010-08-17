@@ -129242,7 +129242,7 @@ page_126.tga.png
 
 #entry 6802
 track_wall_79.dof-00.joe
-page_028.tga.png
+page_132.tga.png
 1
 0
 0
@@ -129697,6 +129697,25 @@ page_126.tga.png
 0
 
 #entry 6826
+track_wall_90.dof-02.joe
+white_tyrewall.tga.png
+1
+0
+0
+0
+0
+0
+0
+1
+1.0
+0.9
+1.0
+0.0
+0
+0
+0
+
+#entry 6827
 track_wall_91.dof-00.joe
 red_tyrewall.tga.png
 1
@@ -129715,7 +129734,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 6827
+#entry 6828
 track_wall_91.dof-01.joe
 page_133.tga.png
 1
@@ -129734,7 +129753,7 @@ page_133.tga.png
 0
 0
 
-#entry 6828
+#entry 6829
 track_wall_91.dof-02.joe
 white_tyrewall.tga.png
 1
@@ -129753,7 +129772,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 6829
+#entry 6830
 track_wall_91.dof-03.joe
 page_126.tga.png
 1
@@ -129772,7 +129791,7 @@ page_126.tga.png
 0
 0
 
-#entry 6830
+#entry 6831
 track_wall_92.dof-00.joe
 red_tyrewall.tga.png
 1
@@ -129791,7 +129810,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 6831
+#entry 6832
 track_wall_92.dof-01.joe
 page_133.tga.png
 1
@@ -129810,7 +129829,7 @@ page_133.tga.png
 0
 0
 
-#entry 6832
+#entry 6833
 track_wall_92.dof-02.joe
 white_tyrewall.tga.png
 1
@@ -129829,7 +129848,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 6833
+#entry 6834
 track_wall_92.dof-03.joe
 page_126.tga.png
 1
@@ -129848,7 +129867,7 @@ page_126.tga.png
 0
 0
 
-#entry 6834
+#entry 6835
 track_wall_93.dof-00.joe
 red_tyrewall.tga.png
 1
@@ -129867,7 +129886,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 6835
+#entry 6836
 track_wall_93.dof-01.joe
 white_tyrewall.tga.png
 1
@@ -129886,7 +129905,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 6836
+#entry 6837
 track_wall_93.dof-02.joe
 page_126.tga.png
 1
@@ -129905,7 +129924,7 @@ page_126.tga.png
 0
 0
 
-#entry 6837
+#entry 6838
 track_wall_94.dof-00.joe
 red_tyrewall.tga.png
 1
@@ -129924,7 +129943,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 6838
+#entry 6839
 track_wall_94.dof-01.joe
 white_tyrewall.tga.png
 1
@@ -129943,7 +129962,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 6839
+#entry 6840
 track_wall_94.dof-02.joe
 page_126.tga.png
 1
@@ -129962,7 +129981,7 @@ page_126.tga.png
 0
 0
 
-#entry 6840
+#entry 6841
 track_wall_95.dof-00.joe
 red_tyrewall.tga.png
 1
@@ -129981,7 +130000,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 6841
+#entry 6842
 track_wall_95.dof-01.joe
 white_tyrewall.tga.png
 1
@@ -130000,7 +130019,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 6842
+#entry 6843
 track_wall_95.dof-02.joe
 page_126.tga.png
 1
@@ -130019,7 +130038,7 @@ page_126.tga.png
 0
 0
 
-#entry 6843
+#entry 6844
 track_wall_96.dof-00.joe
 page_126.tga.png
 1
@@ -130038,7 +130057,7 @@ page_126.tga.png
 0
 0
 
-#entry 6844
+#entry 6845
 track_wall_97.dof-00.joe
 page_126.tga.png
 1
@@ -130057,7 +130076,7 @@ page_126.tga.png
 0
 0
 
-#entry 6845
+#entry 6846
 track_wall_98.dof-00.joe
 page_126.tga.png
 1
@@ -130076,7 +130095,7 @@ page_126.tga.png
 0
 0
 
-#entry 6846
+#entry 6847
 track_wall_99.dof-00.joe
 page_126.tga.png
 1
@@ -130095,7 +130114,7 @@ page_126.tga.png
 0
 0
 
-#entry 6847
+#entry 6848
 video_tvconstruction01.dof-00.joe
 page_340.tga.png
 1
@@ -130114,7 +130133,7 @@ page_340.tga.png
 0
 0
 
-#entry 6848
+#entry 6849
 video_tvconstruction01.dof-01.joe
 page_339.tga.png
 1
@@ -130133,7 +130152,7 @@ page_339.tga.png
 0
 0
 
-#entry 6849
+#entry 6850
 video_tvconstruction02.dof-00.joe
 page_340.tga.png
 1
@@ -130152,7 +130171,7 @@ page_340.tga.png
 0
 0
 
-#entry 6850
+#entry 6851
 video_tvconstruction02.dof-01.joe
 page_339.tga.png
 1
@@ -130171,7 +130190,7 @@ page_339.tga.png
 0
 0
 
-#entry 6851
+#entry 6852
 video_tvconstruction03.dof-00.joe
 page_340.tga.png
 1
@@ -130190,7 +130209,7 @@ page_340.tga.png
 0
 0
 
-#entry 6852
+#entry 6853
 video_tvconstruction03.dof-01.joe
 page_339.tga.png
 1
@@ -130209,7 +130228,7 @@ page_339.tga.png
 0
 0
 
-#entry 6853
+#entry 6854
 video_tvconstruction04.dof-00.joe
 page_340.tga.png
 1
@@ -130228,7 +130247,7 @@ page_340.tga.png
 0
 0
 
-#entry 6854
+#entry 6855
 video_tvconstruction04.dof-01.joe
 page_339.tga.png
 1
@@ -130247,7 +130266,7 @@ page_339.tga.png
 0
 0
 
-#entry 6855
+#entry 6856
 video_tvconstruction05.dof-00.joe
 page_339.tga.png
 1
@@ -130266,7 +130285,7 @@ page_339.tga.png
 0
 0
 
-#entry 6856
+#entry 6857
 video_tvconstruction06.dof-00.joe
 page_340.tga.png
 1
@@ -130285,7 +130304,7 @@ page_340.tga.png
 0
 0
 
-#entry 6857
+#entry 6858
 video_tvconstruction06.dof-01.joe
 page_339.tga.png
 1
@@ -130304,7 +130323,7 @@ page_339.tga.png
 0
 0
 
-#entry 6858
+#entry 6859
 video_tvconstruction07.dof-00.joe
 page_340.tga.png
 1
@@ -130323,7 +130342,7 @@ page_340.tga.png
 0
 0
 
-#entry 6859
+#entry 6860
 video_tvconstruction07.dof-01.joe
 page_339.tga.png
 1
@@ -130342,7 +130361,7 @@ page_339.tga.png
 0
 0
 
-#entry 6860
+#entry 6861
 video_tvmonitorbase01.dof-00.joe
 page_339.tga.png
 1
@@ -130361,7 +130380,7 @@ page_339.tga.png
 0
 0
 
-#entry 6861
+#entry 6862
 video_tvmonitorbase02.dof-00.joe
 page_340.tga.png
 1
@@ -130380,7 +130399,7 @@ page_340.tga.png
 0
 0
 
-#entry 6862
+#entry 6863
 video_tvmonitorbase02.dof-01.joe
 page_339.tga.png
 1
@@ -130399,7 +130418,7 @@ page_339.tga.png
 0
 0
 
-#entry 6863
+#entry 6864
 video_tvmonitorbase04.dof-00.joe
 page_339.tga.png
 1
@@ -130418,7 +130437,7 @@ page_339.tga.png
 0
 0
 
-#entry 6864
+#entry 6865
 video_tvmonitorstand01.dof-00.joe
 page_342.tga.png
 1
@@ -130437,7 +130456,7 @@ page_342.tga.png
 0
 0
 
-#entry 6865
+#entry 6866
 video_tvmonitorstand02.dof-00.joe
 page_341.tga.png
 1
@@ -130456,7 +130475,7 @@ page_341.tga.png
 0
 0
 
-#entry 6866
+#entry 6867
 video_tvmonitorstand03.dof-00.joe
 page_342.tga.png
 1
@@ -130475,7 +130494,7 @@ page_342.tga.png
 0
 0
 
-#entry 6867
+#entry 6868
 video_tvmonitorstand03.dof-01.joe
 page_342.tga.png
 1
@@ -130494,7 +130513,7 @@ page_342.tga.png
 0
 0
 
-#entry 6868
+#entry 6869
 video_tvmonitorstand03.dof-02.joe
 page_342.tga.png
 1
@@ -130513,7 +130532,7 @@ page_342.tga.png
 0
 0
 
-#entry 6869
+#entry 6870
 video_tvmonitorstand04.dof-00.joe
 page_342.tga.png
 1
@@ -130532,7 +130551,7 @@ page_342.tga.png
 0
 0
 
-#entry 6870
+#entry 6871
 wall_dlrail139.dof-00.joe
 page_126.tga.png
 1
@@ -130551,7 +130570,7 @@ page_126.tga.png
 0
 0
 
-#entry 6871
+#entry 6872
 wall_dlrail140.dof-00.joe
 page_126.tga.png
 1
@@ -130570,7 +130589,7 @@ page_126.tga.png
 0
 0
 
-#entry 6872
+#entry 6873
 wall_dlrail141.dof-00.joe
 page_126.tga.png
 1
@@ -130589,7 +130608,7 @@ page_126.tga.png
 0
 0
 
-#entry 6873
+#entry 6874
 wall_dlrail142.dof-00.joe
 page_126.tga.png
 1
@@ -130608,7 +130627,7 @@ page_126.tga.png
 0
 0
 
-#entry 6874
+#entry 6875
 wall_drrail137_pitentrance.dof-00.joe
 gomme_up.tga.png
 1
@@ -130627,7 +130646,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 6875
+#entry 6876
 wall_drrail137_pitentrance.dof-01.joe
 gomme.tga.png
 1
@@ -130646,7 +130665,7 @@ gomme.tga.png
 0
 0
 
-#entry 6876
+#entry 6877
 wall_drrail137_pitentrance.dof-02.joe
 gomme_up_white.tga.png
 1
@@ -130665,7 +130684,7 @@ gomme_up_white.tga.png
 0
 0
 
-#entry 6877
+#entry 6878
 wall_drrail137_pitentrance.dof-03.joe
 page_455.tga.png
 1
@@ -130684,7 +130703,7 @@ page_455.tga.png
 0
 0
 
-#entry 6878
+#entry 6879
 wall_drrail137_pitentrancepart2.dof-00.joe
 red_tyrewall.tga.png
 1
@@ -130703,7 +130722,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 6879
+#entry 6880
 wall_drrail138_pitside.dof-00.joe
 white_tyrewall.tga.png
 1
@@ -130722,7 +130741,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 6880
+#entry 6881
 wall_drrail138_pitside.dof-01.joe
 gomme.tga.png
 1
@@ -130741,7 +130760,7 @@ gomme.tga.png
 0
 0
 
-#entry 6881
+#entry 6882
 wall_drrail138_pitside.dof-02.joe
 gomme_up.tga.png
 1
@@ -130760,7 +130779,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 6882
+#entry 6883
 wall_drrail138_pitside.dof-03.joe
 gomme_up.tga.png
 1
@@ -130779,7 +130798,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 6883
+#entry 6884
 wall_drrail138_pitside.dof-04.joe
 gomme_up_white.tga.png
 1
@@ -130798,7 +130817,7 @@ gomme_up_white.tga.png
 0
 0
 
-#entry 6884
+#entry 6885
 wall_drrail138_pitside.dof-05.joe
 gomme_up.tga.png
 1
@@ -130817,7 +130836,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 6885
+#entry 6886
 wall_drrail138_pitside.dof-06.joe
 red_tyrewall.tga.png
 1
@@ -130836,7 +130855,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 6886
+#entry 6887
 wall_drrail139_pitside.dof-00.joe
 gomme_up_white.tga.png
 1
@@ -130855,7 +130874,7 @@ gomme_up_white.tga.png
 0
 0
 
-#entry 6887
+#entry 6888
 wall_drrail139_pitside.dof-01.joe
 white_tyrewall.tga.png
 1
@@ -130874,7 +130893,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 6888
+#entry 6889
 wall_drrail139_pitside.dof-02.joe
 gomme.tga.png
 1
@@ -130893,7 +130912,7 @@ gomme.tga.png
 0
 0
 
-#entry 6889
+#entry 6890
 wall_drrail139_pitside.dof-03.joe
 gomme_up.tga.png
 1
@@ -130912,7 +130931,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 6890
+#entry 6891
 wall_drrail139_pitside.dof-04.joe
 gomme_up.tga.png
 1
@@ -130931,7 +130950,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 6891
+#entry 6892
 wall_drrail139_pitside.dof-05.joe
 gomme_up.tga.png
 1
@@ -130950,7 +130969,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 6892
+#entry 6893
 wall_drrail139_pitside.dof-06.joe
 red_tyrewall.tga.png
 1
@@ -130969,7 +130988,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 6893
+#entry 6894
 wall_drrail140_pitside.dof-00.joe
 gomme_up_white.tga.png
 1
@@ -130988,7 +131007,7 @@ gomme_up_white.tga.png
 0
 0
 
-#entry 6894
+#entry 6895
 wall_drrail140_pitside.dof-01.joe
 white_tyrewall.tga.png
 1
@@ -131007,7 +131026,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 6895
+#entry 6896
 wall_drrail140_pitside.dof-02.joe
 gomme.tga.png
 1
@@ -131026,7 +131045,7 @@ gomme.tga.png
 0
 0
 
-#entry 6896
+#entry 6897
 wall_drrail140_pitside.dof-03.joe
 red_tyrewall.tga.png
 1
@@ -131045,7 +131064,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 6897
+#entry 6898
 wall_drrail140_pitside.dof-04.joe
 gomme_up.tga.png
 1
@@ -131064,7 +131083,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 6898
+#entry 6899
 wall_drrail140_pitside.dof-05.joe
 gomme_up.tga.png
 1
@@ -131083,7 +131102,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 6899
+#entry 6900
 wall_drrail140_pitside.dof-06.joe
 gomme_up.tga.png
 1
@@ -131102,7 +131121,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 6900
+#entry 6901
 wall_drrail140_pitside.dof-07.joe
 gomme_up_white.tga.png
 1
@@ -131121,7 +131140,7 @@ gomme_up_white.tga.png
 0
 0
 
-#entry 6901
+#entry 6902
 wall_drrail140_pitside.dof-08.joe
 gomme_up_white.tga.png
 1
@@ -131140,7 +131159,7 @@ gomme_up_white.tga.png
 0
 0
 
-#entry 6902
+#entry 6903
 wall_drrail140_pitside.dof-09.joe
 gomme_up.tga.png
 1
@@ -131159,7 +131178,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 6903
+#entry 6904
 wall_l_tyre1.dof-00.joe
 gomme_up.tga.png
 1
@@ -131178,7 +131197,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 6904
+#entry 6905
 wall_l_tyre1.dof-01.joe
 gomme_up_white.tga.png
 1
@@ -131197,7 +131216,7 @@ gomme_up_white.tga.png
 0
 0
 
-#entry 6905
+#entry 6906
 wall_l_tyre2.dof-00.joe
 red_tyrewall.tga.png
 1
@@ -131216,7 +131235,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 6906
+#entry 6907
 wall_l_tyre2.dof-01.joe
 page_126.tga.png
 1
@@ -131235,7 +131254,7 @@ page_126.tga.png
 0
 0
 
-#entry 6907
+#entry 6908
 wall_l_tyre2.dof-02.joe
 gomme_up_white.tga.png
 1
@@ -131254,9 +131273,9 @@ gomme_up_white.tga.png
 0
 0
 
-#entry 6908
+#entry 6909
 wall_l_tyre2.dof-03.joe
-page_370.tga.png
+page_132.tga.png
 1
 0
 0
@@ -131273,7 +131292,7 @@ page_370.tga.png
 0
 0
 
-#entry 6909
+#entry 6910
 wall_l_tyre2.dof-04.joe
 gomme_up.tga.png
 1
@@ -131292,7 +131311,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 6910
+#entry 6911
 wall_l_tyre2.dof-05.joe
 gomme_up_white.tga.png
 1
@@ -131311,7 +131330,7 @@ gomme_up_white.tga.png
 0
 0
 
-#entry 6911
+#entry 6912
 wall_l_tyre3.dof-00.joe
 gomme_up.tga.png
 1
@@ -131330,7 +131349,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 6912
+#entry 6913
 wall_l_tyre3.dof-01.joe
 gomme_up_white.tga.png
 1
@@ -131349,7 +131368,7 @@ gomme_up_white.tga.png
 0
 0
 
-#entry 6913
+#entry 6914
 wall_l_tyre4.dof-00.joe
 red_tyrewall.tga.png
 1
@@ -131368,7 +131387,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 6914
+#entry 6915
 wall_l_tyre4.dof-01.joe
 white_tyrewall.tga.png
 1
@@ -131387,7 +131406,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 6915
+#entry 6916
 wall_l_tyre4.dof-02.joe
 gomme_up.tga.png
 1
@@ -131406,7 +131425,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 6916
+#entry 6917
 wall_l_tyre4.dof-03.joe
 white_tyrewall.tga.png
 1
@@ -131425,7 +131444,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 6917
+#entry 6918
 wall_l_tyre4.dof-04.joe
 red_tyrewall.tga.png
 1
@@ -131444,7 +131463,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 6918
+#entry 6919
 wall_l_tyre4.dof-05.joe
 gomme_up_white.tga.png
 1
@@ -131463,7 +131482,7 @@ gomme_up_white.tga.png
 0
 0
 
-#entry 6919
+#entry 6920
 wall_l_tyre5.dof-00.joe
 red_tyrewall.tga.png
 1
@@ -131482,7 +131501,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 6920
+#entry 6921
 wall_l_tyre5.dof-01.joe
 white_tyrewall.tga.png
 1
@@ -131501,7 +131520,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 6921
+#entry 6922
 wall_l_tyre5.dof-02.joe
 gomme_up.tga.png
 1
@@ -131520,7 +131539,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 6922
+#entry 6923
 wall_l_tyre5.dof-03.joe
 gomme_up_white.tga.png
 1
@@ -131539,7 +131558,7 @@ gomme_up_white.tga.png
 0
 0
 
-#entry 6923
+#entry 6924
 wall_l_tyre5.dof-04.joe
 white_tyrewall.tga.png
 1
@@ -131558,7 +131577,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 6924
+#entry 6925
 wall_main1.dof-00.joe
 white_wall.tga.png
 1
@@ -131577,7 +131596,7 @@ white_wall.tga.png
 0
 0
 
-#entry 6925
+#entry 6926
 wall_main1.dof-01.joe
 white_wall.tga.png
 1
@@ -131596,7 +131615,7 @@ white_wall.tga.png
 0
 0
 
-#entry 6926
+#entry 6927
 wall_main1.dof-02.joe
 white_wall.tga.png
 1
@@ -131615,7 +131634,7 @@ white_wall.tga.png
 0
 0
 
-#entry 6927
+#entry 6928
 wall_main1.dof-03.joe
 white_wall.tga.png
 1
@@ -131634,7 +131653,7 @@ white_wall.tga.png
 0
 0
 
-#entry 6928
+#entry 6929
 wall_pitleft_walkrail_01.dof-00.joe
 handrail_open.tga.png
 1
@@ -131653,7 +131672,7 @@ handrail_open.tga.png
 0
 0
 
-#entry 6929
+#entry 6930
 wall_pitleft_walkrail_01.dof-01.joe
 handrailpit_full.tga.png
 1
@@ -131672,7 +131691,7 @@ handrailpit_full.tga.png
 0
 0
 
-#entry 6930
+#entry 6931
 wall_pitleft_walkrail_02.dof-00.joe
 handrail_open.tga.png
 1
@@ -131691,7 +131710,7 @@ handrail_open.tga.png
 0
 0
 
-#entry 6931
+#entry 6932
 wall_pitleft_walkrail_02.dof-01.joe
 handrailpit_full.tga.png
 1
@@ -131710,7 +131729,7 @@ handrailpit_full.tga.png
 0
 0
 
-#entry 6932
+#entry 6933
 wall_pitleft_walkrail_02.dof-02.joe
 handrailpit_full.tga.png
 1
@@ -131729,7 +131748,7 @@ handrailpit_full.tga.png
 0
 0
 
-#entry 6933
+#entry 6934
 wall_pitleft_walkrail_03.dof-00.joe
 handrailpit_full.tga.png
 1
@@ -131748,7 +131767,7 @@ handrailpit_full.tga.png
 0
 0
 
-#entry 6934
+#entry 6935
 wall_pitleft_wall_01.dof-00.joe
 pitwall_02_shadow.tga.png
 1
@@ -131767,7 +131786,7 @@ pitwall_02_shadow.tga.png
 0
 0
 
-#entry 6935
+#entry 6936
 wall_pitleft_wall_01.dof-01.joe
 pitwall_02_shadow.tga.png
 1
@@ -131786,7 +131805,7 @@ pitwall_02_shadow.tga.png
 0
 0
 
-#entry 6936
+#entry 6937
 wall_pitleft_wall_01.dof-02.joe
 pitwall_02_shadow.tga.png
 1
@@ -131805,7 +131824,7 @@ pitwall_02_shadow.tga.png
 0
 0
 
-#entry 6937
+#entry 6938
 wall_pitleft_wall_02.dof-00.joe
 pitwall_02_shadow.tga.png
 1
@@ -131824,7 +131843,7 @@ pitwall_02_shadow.tga.png
 0
 0
 
-#entry 6938
+#entry 6939
 wall_pitleft_wall_02.dof-01.joe
 pitwall_02_shadow.tga.png
 1
@@ -131843,7 +131862,7 @@ pitwall_02_shadow.tga.png
 0
 0
 
-#entry 6939
+#entry 6940
 wall_pitleft_wall_02.dof-02.joe
 pitwall_02_shadow.tga.png
 1
@@ -131862,7 +131881,7 @@ pitwall_02_shadow.tga.png
 0
 0
 
-#entry 6940
+#entry 6941
 wall_pitleft_wall_03.dof-00.joe
 pitwall_02_shadow.tga.png
 1
@@ -131881,7 +131900,7 @@ pitwall_02_shadow.tga.png
 0
 0
 
-#entry 6941
+#entry 6942
 wall_pitleft_wall_03.dof-01.joe
 pitwall_02_shadow.tga.png
 1
@@ -131900,7 +131919,7 @@ pitwall_02_shadow.tga.png
 0
 0
 
-#entry 6942
+#entry 6943
 wall_pitleft_wall_03.dof-02.joe
 pitwall_02_shadow.tga.png
 1
@@ -131919,7 +131938,7 @@ pitwall_02_shadow.tga.png
 0
 0
 
-#entry 6943
+#entry 6944
 wall_pitleft_wall_04.dof-00.joe
 pitwall_02_shadow.tga.png
 1
@@ -131938,7 +131957,7 @@ pitwall_02_shadow.tga.png
 0
 0
 
-#entry 6944
+#entry 6945
 wall_pitleft_wall_04.dof-01.joe
 pitwall_02_shadow.tga.png
 1
@@ -131957,7 +131976,7 @@ pitwall_02_shadow.tga.png
 0
 0
 
-#entry 6945
+#entry 6946
 wall_pitleft_wall_04.dof-02.joe
 pitwall_02_shadow.tga.png
 1
@@ -131976,7 +131995,7 @@ pitwall_02_shadow.tga.png
 0
 0
 
-#entry 6946
+#entry 6947
 wall_pitleft_wall_05.dof-00.joe
 pitwall_02_shadow.tga.png
 1
@@ -131995,7 +132014,7 @@ pitwall_02_shadow.tga.png
 0
 0
 
-#entry 6947
+#entry 6948
 wall_pitleft_wall_05.dof-01.joe
 pitwall_02_shadow.tga.png
 1
@@ -132014,7 +132033,7 @@ pitwall_02_shadow.tga.png
 0
 0
 
-#entry 6948
+#entry 6949
 wall_pitleft_wall_low_1b.dof-00.joe
 pitwall_02_small_shadow.tga.png
 1
@@ -132033,7 +132052,7 @@ pitwall_02_small_shadow.tga.png
 0
 0
 
-#entry 6949
+#entry 6950
 wall_r_tyre1.dof-00.joe
 gomme_up.tga.png
 1
@@ -132052,7 +132071,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 6950
+#entry 6951
 wall_r_tyre1.dof-01.joe
 gomme_up_white.tga.png
 1
@@ -132071,7 +132090,7 @@ gomme_up_white.tga.png
 0
 0
 
-#entry 6951
+#entry 6952
 wall_r_tyre2.dof-00.joe
 red_tyrewall.tga.png
 1
@@ -132090,7 +132109,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 6952
+#entry 6953
 wall_r_tyre2.dof-01.joe
 page_126.tga.png
 1
@@ -132109,7 +132128,7 @@ page_126.tga.png
 0
 0
 
-#entry 6953
+#entry 6954
 wall_r_tyre2.dof-02.joe
 gomme_up.tga.png
 1
@@ -132128,7 +132147,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 6954
+#entry 6955
 wall_r_tyre2.dof-03.joe
 white_tyrewall.tga.png
 1
@@ -132147,7 +132166,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 6955
+#entry 6956
 wall_r_tyre2.dof-04.joe
 gomme_up_white.tga.png
 1
@@ -132166,7 +132185,7 @@ gomme_up_white.tga.png
 0
 0
 
-#entry 6956
+#entry 6957
 wall_r_tyre2.dof-05.joe
 page_126.tga.png
 1
@@ -132185,7 +132204,7 @@ page_126.tga.png
 0
 0
 
-#entry 6957
+#entry 6958
 wall_r_tyre2.dof-06.joe
 page_126.tga.png
 1
@@ -132204,7 +132223,7 @@ page_126.tga.png
 0
 0
 
-#entry 6958
+#entry 6959
 wall_r_tyre3.dof-00.joe
 red_tyrewall.tga.png
 1
@@ -132223,7 +132242,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 6959
+#entry 6960
 wall_r_tyre3.dof-01.joe
 gomme_up.tga.png
 1
@@ -132242,7 +132261,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 6960
+#entry 6961
 wall_r_tyre3.dof-02.joe
 page_126.tga.png
 1
@@ -132261,7 +132280,7 @@ page_126.tga.png
 0
 0
 
-#entry 6961
+#entry 6962
 wall_r_tyre3.dof-03.joe
 white_tyrewall.tga.png
 1
@@ -132280,7 +132299,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 6962
+#entry 6963
 wall_r_tyre3.dof-04.joe
 white_tyrewall.tga.png
 1
@@ -132299,7 +132318,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 6963
+#entry 6964
 wall_r_tyre3.dof-05.joe
 gomme_up_white.tga.png
 1
@@ -132318,7 +132337,7 @@ gomme_up_white.tga.png
 0
 0
 
-#entry 6964
+#entry 6965
 wall_r_tyre4.dof-00.joe
 page_028.tga.png
 1
@@ -132337,7 +132356,7 @@ page_028.tga.png
 0
 0
 
-#entry 6965
+#entry 6966
 wall_r_tyre4.dof-01.joe
 red_tyrewall.tga.png
 1
@@ -132356,7 +132375,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 6966
+#entry 6967
 wall_r_tyre4.dof-02.joe
 white_tyrewall.tga.png
 1
@@ -132375,7 +132394,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 6967
+#entry 6968
 wall_r_tyre4.dof-03.joe
 gomme_up.tga.png
 1
@@ -132394,7 +132413,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 6968
+#entry 6969
 wall_r_tyre4.dof-04.joe
 red_tyrewall.tga.png
 1
@@ -132413,7 +132432,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 6969
+#entry 6970
 wall_r_tyre4.dof-05.joe
 gomme_up_white.tga.png
 1
@@ -132432,7 +132451,7 @@ gomme_up_white.tga.png
 0
 0
 
-#entry 6970
+#entry 6971
 wall_r_tyre4.dof-06.joe
 red_tyrewall.tga.png
 1
@@ -132451,7 +132470,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 6971
+#entry 6972
 wall_r_tyre4.dof-07.joe
 white_tyrewall.tga.png
 1
@@ -132470,7 +132489,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 6972
+#entry 6973
 wall_r_tyre5.dof-00.joe
 red_tyrewall.tga.png
 1
@@ -132489,7 +132508,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 6973
+#entry 6974
 wall_r_tyre5.dof-01.joe
 gomme_up.tga.png
 1
@@ -132508,7 +132527,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 6974
+#entry 6975
 wall_r_tyre5.dof-02.joe
 red_tyrewall.tga.png
 1
@@ -132527,7 +132546,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 6975
+#entry 6976
 wall_r_tyre5.dof-03.joe
 gomme_up_white.tga.png
 1
@@ -132546,7 +132565,7 @@ gomme_up_white.tga.png
 0
 0
 
-#entry 6976
+#entry 6977
 wall_r_tyre5.dof-04.joe
 red_tyrewall.tga.png
 1
@@ -132565,7 +132584,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 6977
+#entry 6978
 wall_r_tyre5.dof-05.joe
 white_tyrewall.tga.png
 1
@@ -132584,7 +132603,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 6978
+#entry 6979
 wall_r_tyre6.dof-00.joe
 red_tyrewall.tga.png
 1
@@ -132603,7 +132622,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 6979
+#entry 6980
 wall_r_tyre6.dof-01.joe
 white_tyrewall.tga.png
 1
@@ -132622,7 +132641,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 6980
+#entry 6981
 wall_r_tyre6.dof-02.joe
 gomme_up.tga.png
 1
@@ -132641,7 +132660,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 6981
+#entry 6982
 wall_r_tyre6.dof-03.joe
 white_tyrewall.tga.png
 1
@@ -132660,7 +132679,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 6982
+#entry 6983
 wall_r_tyre6.dof-04.joe
 red_tyrewall.tga.png
 1
@@ -132679,7 +132698,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 6983
+#entry 6984
 wall_r_tyre6.dof-05.joe
 gomme_up_white.tga.png
 1
@@ -132698,7 +132717,7 @@ gomme_up_white.tga.png
 0
 0
 
-#entry 6984
+#entry 6985
 wall_r_tyre7.dof-00.joe
 gomme_up.tga.png
 1
@@ -132717,7 +132736,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 6985
+#entry 6986
 wall_r_tyre7.dof-01.joe
 red_tyrewall.tga.png
 1
@@ -132736,7 +132755,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 6986
+#entry 6987
 wall_r_tyre7.dof-02.joe
 white_tyrewall.tga.png
 1
@@ -132755,7 +132774,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 6987
+#entry 6988
 wall_r_tyre7.dof-03.joe
 red_tyrewall.tga.png
 1
@@ -132774,7 +132793,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 6988
+#entry 6989
 wall_r_tyre7.dof-04.joe
 gomme_up_white.tga.png
 1
@@ -132793,7 +132812,7 @@ gomme_up_white.tga.png
 0
 0
 
-#entry 6989
+#entry 6990
 wall_r_tyre7.dof-05.joe
 white_tyrewall.tga.png
 1
@@ -132812,7 +132831,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 6990
+#entry 6991
 wall_shadow_pitleft_wall_01.dof-00.joe
 page_151.tga.png
 1
@@ -132831,7 +132850,7 @@ page_151.tga.png
 0
 0
 
-#entry 6991
+#entry 6992
 wall_shadow_pitleft_wall_01.dof-01.joe
 page_151.tga.png
 1
@@ -132850,7 +132869,7 @@ page_151.tga.png
 0
 0
 
-#entry 6992
+#entry 6993
 wall_shadow_pitleft_wall_02.dof-00.joe
 page_151.tga.png
 1
@@ -132869,7 +132888,7 @@ page_151.tga.png
 0
 0
 
-#entry 6993
+#entry 6994
 wall_shadow_pitleft_wall_03.dof-00.joe
 page_151.tga.png
 1
@@ -132888,7 +132907,7 @@ page_151.tga.png
 0
 0
 
-#entry 6994
+#entry 6995
 wall_shadow_pitleft_wall_04.dof-00.joe
 page_151.tga.png
 1
@@ -132907,7 +132926,7 @@ page_151.tga.png
 0
 0
 
-#entry 6995
+#entry 6996
 wall_shadow_pitleft_wall_05.dof-00.joe
 page_151.tga.png
 1
@@ -132926,7 +132945,7 @@ page_151.tga.png
 0
 0
 
-#entry 6996
+#entry 6997
 wall_shadow_pitleft_wall_06.dof-00.joe
 page_151.tga.png
 1
@@ -132945,7 +132964,7 @@ page_151.tga.png
 0
 0
 
-#entry 6997
+#entry 6998
 wall_shadow_pitleft_wall_07.dof-00.joe
 page_151.tga.png
 1
@@ -132964,7 +132983,7 @@ page_151.tga.png
 0
 0
 
-#entry 6998
+#entry 6999
 wall_shadow_pitleft_wall_08.dof-00.joe
 page_151.tga.png
 1
@@ -132983,7 +133002,7 @@ page_151.tga.png
 0
 0
 
-#entry 6999
+#entry 7000
 wall_shadow_pitleft_wall_09.dof-00.joe
 page_151.tga.png
 1
@@ -133002,7 +133021,7 @@ page_151.tga.png
 0
 0
 
-#entry 7000
+#entry 7001
 wall_shadow_pitleft_wall_10.dof-00.joe
 page_151.tga.png
 1
@@ -133021,7 +133040,7 @@ page_151.tga.png
 0
 0
 
-#entry 7001
+#entry 7002
 wall_shadow_pitleft_wall_11.dof-00.joe
 page_151.tga.png
 1
@@ -133040,7 +133059,7 @@ page_151.tga.png
 0
 0
 
-#entry 7002
+#entry 7003
 wall_tyre_bus_stop.dof-00.joe
 white_tyrewall.tga.png
 1
@@ -133059,7 +133078,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 7003
+#entry 7004
 wall_tyre_bus_stop.dof-01.joe
 white_tyrewall.tga.png
 1
@@ -133078,7 +133097,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 7004
+#entry 7005
 wall_tyre_bus_stop.dof-02.joe
 red_tyrewall.tga.png
 1
@@ -133097,7 +133116,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 7005
+#entry 7006
 wall_tyre_bus_stop.dof-03.joe
 gomme_up_white.tga.png
 1
@@ -133116,7 +133135,7 @@ gomme_up_white.tga.png
 0
 0
 
-#entry 7006
+#entry 7007
 wall_tyre_bus_stop.dof-04.joe
 gomme_up.tga.png
 1
@@ -133135,7 +133154,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 7007
+#entry 7008
 wall_tyre_bus_stop.dof-05.joe
 white_tyrewall.tga.png
 1
@@ -133154,7 +133173,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 7008
+#entry 7009
 wall_tyre_bus_stop.dof-06.joe
 red_tyrewall.tga.png
 1
@@ -133173,7 +133192,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 7009
+#entry 7010
 wall_tyre_lasource.dof-00.joe
 white_tyrewall.tga.png
 1
@@ -133192,7 +133211,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 7010
+#entry 7011
 wall_tyre_lasource.dof-01.joe
 white_wall.tga.png
 1
@@ -133211,7 +133230,7 @@ white_wall.tga.png
 0
 0
 
-#entry 7011
+#entry 7012
 wall_tyre_lasource.dof-02.joe
 gomme_up.tga.png
 1
@@ -133230,7 +133249,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 7012
+#entry 7013
 wall_tyre_lasource.dof-03.joe
 gomme_up_white.tga.png
 1
@@ -133249,7 +133268,7 @@ gomme_up_white.tga.png
 0
 0
 
-#entry 7013
+#entry 7014
 wall_tyre_lasource.dof-04.joe
 white_tyrewall.tga.png
 1
@@ -133268,7 +133287,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 7014
+#entry 7015
 wall_tyre_lasource.dof-05.joe
 red_tyrewall.tga.png
 1
@@ -133287,7 +133306,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 7015
+#entry 7016
 wall_tyrewall_left.dof-00.joe
 red_tyrewall.tga.png
 1
@@ -133306,7 +133325,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 7016
+#entry 7017
 wall_tyrewall_left.dof-01.joe
 gomme_up_white.tga.png
 1
@@ -133325,7 +133344,7 @@ gomme_up_white.tga.png
 0
 0
 
-#entry 7017
+#entry 7018
 wall_tyrewall_left.dof-02.joe
 white_tyrewall.tga.png
 1
@@ -133344,7 +133363,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 7018
+#entry 7019
 wall_tyrewall_left.dof-03.joe
 gomme_up.tga.png
 1
@@ -133363,7 +133382,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 7019
+#entry 7020
 wall_tyrewall_left.dof-04.joe
 red_tyrewall.tga.png
 1
@@ -133382,7 +133401,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 7020
+#entry 7021
 wall_tyrewall_left.dof-05.joe
 gomme_up.tga.png
 1
@@ -133401,7 +133420,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 7021
+#entry 7022
 wall_tyrewall_left.dof-06.joe
 red_tyrewall.tga.png
 1
@@ -133420,7 +133439,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 7022
+#entry 7023
 wall_tyrewall_left.dof-07.joe
 gomme_up.tga.png
 1
@@ -133439,7 +133458,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 7023
+#entry 7024
 wall_tyrewall_left.dof-08.joe
 red_tyrewall.tga.png
 1
@@ -133458,7 +133477,7 @@ red_tyrewall.tga.png
 0
 0
 
-#entry 7024
+#entry 7025
 wall_tyrewall_left.dof-09.joe
 gomme_up_white.tga.png
 1
@@ -133477,7 +133496,7 @@ gomme_up_white.tga.png
 0
 0
 
-#entry 7025
+#entry 7026
 wall_tyrewall_left.dof-10.joe
 white_tyrewall.tga.png
 1
@@ -133496,7 +133515,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 7026
+#entry 7027
 wall_tyrewall_left.dof-11.joe
 gomme_up_white.tga.png
 1
@@ -133515,7 +133534,7 @@ gomme_up_white.tga.png
 0
 0
 
-#entry 7027
+#entry 7028
 wall_tyrewall_left.dof-12.joe
 white_tyrewall.tga.png
 1
@@ -133534,7 +133553,7 @@ white_tyrewall.tga.png
 0
 0
 
-#entry 7028
+#entry 7029
 wall_tyrewall_left.dof-13.joe
 gomme_up.tga.png
 1
@@ -133553,7 +133572,7 @@ gomme_up.tga.png
 0
 0
 
-#entry 7029
+#entry 7030
 wall_tyrewall_left.dof-14.joe
 page_132.tga.png
 1
@@ -133572,7 +133591,7 @@ page_132.tga.png
 0
 0
 
-#entry 7030
+#entry 7031
 wall_tyrewall_leftpart15.dof-00.joe
 red_tyrewall.tga.png
 1
