@@ -107373,7 +107373,7 @@ pitwall_02_small_shadow.tga.png
 
 #entry 5651
 track_pitleft_wall_low_1a.dof-00.joe
-pitwall_02_small_norm.tga.png
+pitwall_02_small_shadow.tga.png
 1
 0
 0
