@@ -98,6 +98,9 @@ name = ssao
 [shader]
 name = ssao_blur
 
+[shader]
+name = deferredaa
+
 
 ; RENDER OUTPUTS
 
@@ -118,6 +121,14 @@ height = framebuffer
 type = 2D
 filter = nearest
 format = RGBA16
+
+[output]
+name = full_scene_tonemapped
+width = framebuffer
+height = framebuffer
+type = 2D
+filter = linear
+format = RGBA8
 
 ; RG: 16-bit packed X component of eye-space normal, BA: 16-bit packed Y component
 [output]
@@ -508,6 +519,22 @@ output = framebuffer
 ;inputs = full_scene_color log_luminance_tiny
 inputs = full_scene_color
 shader = tonemap
+conditions = !fsaa 
+
+[pass]
+draw = postprocess
+output = full_scene_tonemapped
+inputs = full_scene_color
+shader = tonemap
+conditions = fsaa
+
+; optional deferred antialiasing
+[pass]
+draw = postprocess
+output = framebuffer
+inputs = full_scene_tonemapped
+shader = deferredaa
+conditions = fsaa
 
 
 ; TOP LAYERS
