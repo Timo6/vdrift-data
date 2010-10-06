@@ -134,9 +134,14 @@ rebound = 12000				## Zugstufe
 travel = 0.09				## Federweg
 anti-roll = 12000			## Stabilisator
 
-[tire]	# FIA: max 660mm in diameter (670mm with wet-weather tyres)
+[tire-front]	# FIA: max 660mm in diameter (670mm with wet-weather tyres)
 size = 355/46r13
-type = slick
+type = f1_front
+texture = touring
+
+[tire-rear]	# FIA: max 660mm in diameter (670mm with wet-weather tyres)
+size = 355/46r13
+type = f1_rear
 texture = touring
 
 [brake-front]
@@ -158,25 +163,25 @@ rotor = rotor_carbon_ceramic
 
 [wheel-0]
 orientation = left
-tire = tire
+tire = tire-front
 brake = brake-front
 model = oem_wheel
 
 [wheel-1]
 orientation = right
-tire = tire
+tire = tire-front
 brake = brake-front
 model = oem_wheel
 
 [wheel-2]
 orientation = left
-tire = tire
+tire = tire-rear
 brake = brake-rear
 model = oem_wheel
 
 [wheel-3]
 orientation = right
-tire = tire
+tire = tire-rear
 brake = brake-rear
 model = oem_wheel
 
