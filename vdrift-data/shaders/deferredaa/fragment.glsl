@@ -32,10 +32,10 @@ void main()
 	// Normal map creation
 	/*float sum0 = rightTopHeight+ topHeight + rightBottomHeight;
 	float sum1 = leftTopHeight + bottomHeight + leftBottomHeight;*/
-	float sum0 = rightTopHeight+ topHeight + leftBottomHeight;
-	float sum1 = leftTopHeight + bottomHeight + rightBottomHeight;
-	float sum2 = leftTopHeight + leftHeight + rightBottomHeight;
-	float sum3 = leftBottomHeight + rightHeight + rightTopHeight ;
+	float sum0 = rightTopHeight+ topHeight + leftTopHeight;
+	float sum1 = leftBottomHeight + bottomHeight + rightBottomHeight;
+	float sum2 = leftTopHeight + leftHeight + leftBottomHeight;
+	float sum3 = rightBottomHeight + rightHeight + rightTopHeight ;
 
 	// Then for the final vectors, just subtract the opposite sample set.
 	// The amount of "antialiasing" is directly related to "filterStrength".
