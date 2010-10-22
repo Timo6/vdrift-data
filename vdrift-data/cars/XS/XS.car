@@ -224,3 +224,14 @@ position = 0.39, 1.32, -0.07
 [particle-06]	# driver
 mass = 90.0
 position = -0.35, -0.57, 0.0
+
+# optional lights
+[light-brake-0]
+position = -0.6, -1.9, 0.0
+color = 0.8, 0.1, 0.1
+radius = 1.5
+
+[light-brake-1]
+position = 0.6, -1.9, 0.0
+color = 0.8, 0.1, 0.1
+radius = 1.5
