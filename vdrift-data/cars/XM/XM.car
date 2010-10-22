@@ -1,3 +1,5 @@
+include ../../carparts/tire/slick
+
 drive = RWD
 version = 2
 
@@ -63,12 +65,12 @@ position = -0.4, -0.15, 0.1
 view-position = -0.4, -0.15, 0.5
 hood-mounted-view-position = 0, 1.0, 0.3
 
-[aerodevice-0]
+[aerodevice-front]
 position = 0.0, 0.0, 0.2
 frontal-area = 2
 drag-coefficient = 0.3
 
-[aerodevice-1]
+[aerodevice-body]
 position = 0.0, 1.9, 0.60
 frontal-area = 0.2
 drag-coefficient = 0.0
@@ -76,7 +78,7 @@ surface-area = 0.3
 lift-coefficient = -0.6
 efficiency = 0.95
 
-[aerodevice-2]
+[aerodevice-rear]
 position = 0.0, -2.14, 0.37
 frontal-area = 0.05
 drag-coefficient = 0.0
@@ -98,16 +100,6 @@ rebound = 10000
 travel = 0.15
 anti-roll = 10000
 
-[tire-front]
-size = 270/35r18	#M3 GTR: Michelin 27/65-18 (front) and 27/68-18 (rear)
-type = slick
-texture = touring
-
-[tire-rear]
-size = 270/40r18
-type = slick
-texture = touring
-
 [brake-front]
 friction = 1.03
 max-pressure = 2.5e6
@@ -125,45 +117,35 @@ area = 0.015
 handbrake = 1.0
 rotor = rotor_shiny_slotted_drilled
 
-[wheel-0]
+#M3 GTR: Michelin 27/65-18 (front) and 27/68-18 (rear)
+#track front 1609 mm, rear 1602 mm
+# 50% ackermann
+
+[wheel-fl]
 orientation = left
-tire = tire-front
+wheel-model = oem_wheel
+tire-texture = touring
+size = 270/35r18	
+tire = tire-slick
 brake = brake-front
-model = oem_wheel
-
-[wheel-1]
-orientation = right
-tire = tire-front
-brake = brake-front
-model = oem_wheel
-
-[wheel-2]
-orientation = left
-tire = tire-rear
-brake = brake-rear
-model = oem_wheel
-
-[wheel-3]
-orientation = right
-tire = tire-rear
-brake = brake-rear
-model = oem_wheel
-
-[suspension-0]
 coilover = coilover-front
-wheel-hub = -0.84, 1.51, -0.43	#-0.80, 1.51, -0.43	#track front 1609 mm, rear 1602 mm
-position = -0.75, 1.51, -0.07
+position = -0.84, 1.51, -0.43	#-0.80, 1.51, -0.43	
 hinge = 0,0,0
 camber = -0.5
 caster = 0.0
 toe = 0.9
-ackermann = 8.18	# 50% ackermann
+ackermann = 8.18
 steering = 30
 
-[suspension-1]
+[wheel-fr]
+orientation = right
+wheel-model = oem_wheel
+tire-texture = touring
+size = 270/35r18
+tire = tire-slick
+brake = brake-front
 coilover = coilover-front
-wheel-hub = 0.84, 1.51, -0.43	#0.80, 1.51, -0.43
-position = 0.75, 1.51, -0.07
+position = 0.84, 1.51, -0.43	#0.80, 1.51, -0.43
 hinge = 0,0,0
 camber = 0.5
 caster = 0.0
@@ -171,19 +153,29 @@ toe = -0.9
 ackermann = -8.18
 steering = 30
 
-[suspension-2]
+[wheel-rl]
+orientation = left
+wheel-model = oem_wheel
+tire-texture = touring
+size = 270/40r18
+tire = tire-slick
+brake = brake-rear
 coilover = coilover-rear
-wheel-hub = -0.84, -1.35, -0.42	#-0.80, -1.35, -0.42
-position = -0.76, -1.35, -0.07
+position = -0.84, -1.35, -0.42	#-0.80, -1.35, -0.42
 hinge = -1.1, 0, 0
 camber = -1.5
 caster = 0.0
 toe = 0.0
 
-[suspension-3]
+[wheel-rr]
+orientation = right
+wheel-model = oem_wheel
+tire-texture = touring
+size = 270/40r18
+tire = tire-slick
+brake = brake-rear
 coilover = coilover-rear
-wheel-hub = 0.84, -1.35, -0.42	#0.80, -1.35, -0.42
-position = 0.76, -1.35, -0.07
+position = 0.84, -1.35, -0.42	#0.80, -1.35, -0.42
 hinge = -1.1, 0,0
 camber = 1.5
 caster = 0.0

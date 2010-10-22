@@ -1,3 +1,5 @@
+include ../../carparts/tire/touring
+
 drive = AWD
 version = 2
 
@@ -97,12 +99,12 @@ position = -0.4, -0.15, 0.06
 view-position = -0.4, -0.15, 0.46
 hood-mounted-view-position = 0.0, 1.08, 0.20
 
-[aerodevice-0]
+[aerodevice-front]
 position = 0.0, 0.0, 0.2
 frontal-area = 2.37
 drag-coefficient = 0.35
 
-[aerodevice-1]
+[aerodevice-body]
 position = 0.0, 1.9, 0.60
 frontal-area = 0.2
 drag-coefficient = 0.0
@@ -110,7 +112,7 @@ surface-area = 0.3
 lift-coefficient = -0.5
 efficiency = 0.95
 
-[aerodevice-2]
+[aerodevice-rear]
 position = 0.0, -2.14, 0.37
 frontal-area = 0.05
 drag-coefficient = 0.0
@@ -132,11 +134,6 @@ rebound = 9600
 travel = 0.17
 anti-roll = 20000
 
-[tire]
-size = 225/50r16
-type = touring
-texture = touring
-
 [brake-front]
 friction = 0.73
 max-pressure = 2.0e6
@@ -154,34 +151,15 @@ area = 0.015
 handbrake = 1.0
 rotor = rotor_shiny_slotted_drilled
 
-[wheel-0]
+[wheel-fl]
 orientation = left
-tire = tire
+wheel-model = oem_wheel
+tire-texture = touring
+size = 225/50r16
+tire = tire-touring
 brake = brake-front
-model = oem_wheel
-
-[wheel-1]
-orientation = right
-tire = tire
-brake = brake-front
-model = oem_wheel
-
-[wheel-2]
-orientation = left
-tire = tire
-brake = brake-rear
-model = oem_wheel
-
-[wheel-3]
-orientation = right
-tire = tire
-brake = brake-rear
-model = oem_wheel
-
-[suspension-0]
 coilover = coilover-front
-wheel-hub = -0.76, 1.25, -0.55
-position = -0.66, 1.25, -0.15
+position = -0.76, 1.25, -0.55
 hinge = 0.76, 0.25, -0.48
 camber = -1.0
 caster = 0.0
@@ -189,10 +167,15 @@ toe = -0.5
 ackermann = 8.58	# 50% Ackermann
 steering = 30
 
-[suspension-1]
+[wheel-fr]
+orientation = right
+wheel-model = oem_wheel
+tire-texture = touring
+size = 225/50r16
+tire = tire-touring
+brake = brake-front
 coilover = coilover-front
-wheel-hub = 0.76, 1.25, -0.55
-position = 0.66, 1.25, -0.15
+position = 0.76, 1.25, -0.55
 hinge = -0.76, 0.25, -0.48
 camber = 1.0
 caster = 0.0
@@ -200,19 +183,29 @@ toe = 0.5
 ackermann = -8.58
 steering = 30
 
-[suspension-2]
+[wheel-rl]
+orientation = left
+wheel-model = oem_wheel
+tire-texture = touring
+size = 225/50r16
+tire = tire-touring
+brake = brake-rear
 coilover = coilover-rear
-wheel-hub = -0.76, -1.21, -0.55
-position = -0.65, -1.21, -0.13
+position = -0.76, -1.21, -0.55
 hinge = 0.76, 0.21, -0.48
 camber = -0.5
 caster = 0.0
 toe = 1.0
 
-[suspension-3]
+[wheel-rr]
+orientation = right
+wheel-model = oem_wheel
+tire-texture = touring
+size = 225/50r16
+tire = tire-touring
+brake = brake-rear
 coilover = coilover-rear
-wheel-hub = 0.76, -1.21, -0.55
-position = 0.65, -1.21, -0.13
+position = 0.76, -1.21, -0.55
 hinge = -0.76, 0.21, -0.48
 camber = 0.5
 caster = 0.0

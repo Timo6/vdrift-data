@@ -1,3 +1,5 @@
+include ../../carparts/tire/touring
+
 drive = RWD
 version = 2
 
@@ -61,12 +63,12 @@ position = -0.36, -0.0, 0.1
 view-position = -0.36, -0.0, 0.4
 hood-mounted-view-position = 0, 0.57, 0.35
 
-[aerodevice-0]
+[aerodevice-front]
 position = 0.0, 0.0, 0.2
 frontal-area = 2
 drag-coefficient = 0.3
 
-[aerodevice-1]
+[aerodevice-body]
 position = 0.0, 1.9, 0.60
 frontal-area = 0.2
 drag-coefficient = 0.0
@@ -74,7 +76,7 @@ surface-area = 0.3
 lift-coefficient = -0.5
 efficiency = 0.95
 
-[aerodevice-2]
+[aerodevice-rear]
 position = 0.0, -2.14, 0.37
 frontal-area = 0.05
 drag-coefficient = 0.0
@@ -96,11 +98,6 @@ rebound = 3150.0
 travel = 0.18
 anti-roll = 15500.0
 
-[tire]
-size = 185/60r14
-type = touring
-texture = touring
-
 [brake-front]
 friction = 0.73
 max-pressure = 1.93e6
@@ -118,34 +115,15 @@ area = 0.015
 handbrake = 1.0
 rotor = rotor_worn
 
-[wheel-0]
+[wheel-fl]
 orientation = left
-tire = tire
+wheel-model = oem_wheel
+tire-texture = touring
+size = 185/60r14
+tire = tire-touring
 brake = brake-front
-model = oem_wheel
-
-[wheel-1]
-orientation = right
-tire = tire
-brake = brake-front
-model = oem_wheel
-
-[wheel-2]
-orientation = left
-tire = tire
-brake = brake-rear
-model = oem_wheel
-
-[wheel-3]
-orientation = right
-tire = tire
-brake = brake-rear
-model = oem_wheel
-
-[suspension-0]
 coilover = coilover-front
-wheel-hub = -0.723, 1.21, -0.43	#front track 1445mm
-position = -0.70, 1.21, -0.07
+position = -0.723, 1.21, -0.43	#front track 1445mm
 hinge = 0.0,0,0
 camber = -0.5
 caster = 0.00
@@ -153,10 +131,15 @@ toe = 0.0
 ackermann = 8.35	# 50% ackermann
 steering = 40
 
-[suspension-1]
+[wheel-fr]
+orientation = right
+wheel-model = oem_wheel
+tire-texture = touring
+size = 185/60r14
+tire = tire-touring
+brake = brake-front
 coilover = coilover-front
-wheel-hub = 0.723, 1.21, -0.43
-position = 0.70, 1.21, -0.07
+position = 0.723, 1.21, -0.43
 hinge = 0.0,0,0
 camber = 0.5
 caster = 0.00
@@ -164,19 +147,29 @@ toe = 0.0
 ackermann = -8.35
 steering = 40
 
-[suspension-2]
+[wheel-rl]
+orientation = left
+wheel-model = oem_wheel
+tire-texture = touring
+size = 185/60r14
+tire = tire-touring
+brake = brake-rear
 coilover = coilover-rear
-wheel-hub = -0.713, -1.20, -0.46	#rear track 1425mm
-position = -0.70, -1.20, -0.07
+position = -0.713, -1.20, -0.46	#rear track 1425mm
 hinge = -0.5,0,0
 camber = 0.00
 caster = 0.00
 toe = -0.2
 
-[suspension-3]
+[wheel-rr]
+orientation = right
+wheel-model = oem_wheel
+tire-texture = touring
+size = 185/60r14
+tire = tire-touring
+brake = brake-rear
 coilover = coilover-rear
-wheel-hub = 0.713, -1.20, -0.46
-position = 0.70, -1.20, -0.07
+position = 0.713, -1.20, -0.46
 hinge = -0.5,0,0
 camber = 0.00
 caster = 0.00

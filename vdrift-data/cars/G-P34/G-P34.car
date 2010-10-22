@@ -23,6 +23,8 @@
 # my fastest time 1:48 ...
 # torque * rpm * ( 2 * pi /60 ) = p [kW]; 2 * pi / 60 = 0,10471975511966; hp * 1.36 = p;
 
+include ../../carparts/tire/slick
+
 drive = RWD
 version = 2	# width, length, height :: X(+left), Y(+front), Z(+up)
 
@@ -91,12 +93,12 @@ view-position = 0, 0.19, 0.05
 hood-mounted-view-position = -0.25, -0.60, 0.30
 view-stiffness = 0.8
 
-[aerodevice-0]
+[aerodevice-front]
 position = 0.0, 0.0, 0.2
 frontal-area = 1.2
 drag-coefficient = 0.5
 
-[aerodevice-1]
+[aerodevice-body]
 position = 0.0, 1.5, 0.60
 frontal-area = 0.2
 drag-coefficient = 0.0
@@ -104,7 +106,7 @@ surface-area = 1.0
 lift-coefficient = -0.5
 efficiency = 0.99
 
-[aerodevice-2]
+[aerodevice-rear]
 position = 0.0, -1.80, 0.37
 frontal-area = 0.05
 drag-coefficient = 0.0
@@ -126,16 +128,6 @@ rebound = 9000  ## Zugstufe
 travel = 0.12
 anti-roll = 5000
 
-[tire-front]
-size = 245/30r10
-type = slick
-texture = touring
-
-[tire-rear]
-size = 475/35r13
-type = slick
-texture = touring
-
 [brake-front]
 friction = 1.40
 max-pressure = 2.5e6
@@ -153,34 +145,15 @@ area = 0.015
 handbrake = 1.0
 rotor = rotor_carbon_ceramic
 
-[wheel-0]
+[wheel-fl]
 orientation = left
-tire = tire-front
+wheel-model = oem_wheel
+tire-texture = touring
+size = 245/30r10
+tire = tire-slick
 brake = brake-front
-model = oem_wheel
-
-[wheel-1]
-orientation = right
-tire = tire-front
-brake = brake-front
-model = oem_wheel
-
-[wheel-2]
-orientation = left
-tire = tire-rear
-brake = brake-rear
-model = oem_wheel_rear
-
-[wheel-3]
-orientation = right
-tire = tire-rear
-brake = brake-rear
-model = oem_wheel_rear
-
-[suspension-0]
 coilover = coilover-front
-wheel-hub = -0.73, 1.48, -0.51
-position = -0.75, 1.48, -0.07
+position = -0.73, 1.48, -0.51
 hinge = 0,0,0
 camber = -1.33
 caster = 0.12
@@ -188,10 +161,15 @@ toe = -0.9
 ackermann = 7.84	# 50% ackermann
 steering = 35
 
-[suspension-1]
+[wheel-fr]
+orientation = right
+wheel-model = oem_wheel
+tire-texture = touring
+size = 245/30r10
+tire = tire-slick
+brake = brake-front
 coilover = coilover-front
-wheel-hub = 0.73, 1.48, -0.51
-position = 0.75, 1.48, -0.07
+position = 0.73, 1.48, -0.51
 hinge = 0,0,0
 camber = 1.33
 caster = 0.12
@@ -199,19 +177,29 @@ toe = 0.9
 ackermann = -7.84
 steering = 35
 
-[suspension-2]
+[wheel-rl]
+orientation = left
+wheel-model = oem_wheel_rear
+tire-texture = touring
+size = 475/35r13
+tire = tire-slick
+brake = brake-rear
 coilover = coilover-rear
-wheel-hub = -0.73, -1.12, -0.40
-position = -0.75, -1.12, -0.07
+position = -0.73, -1.12, -0.40
 hinge = 0,-1.0,0
 camber = -0.45
 caster = 0.28
 toe = 0.0
 
-[suspension-3]
+[wheel-rr]
+orientation = right
+wheel-model = oem_wheel_rear
+tire-texture = touring
+size = 475/35r13
+tire = tire-slick
+brake = brake-rear
 coilover = coilover-rear
-wheel-hub = 0.73, -1.12, -0.40
-position = 0.75, -0.12, -0.07
+position = 0.73, -1.12, -0.40
 hinge = 0,-1.0,0
 camber = 0.45
 caster = 0.28
