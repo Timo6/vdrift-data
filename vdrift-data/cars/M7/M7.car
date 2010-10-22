@@ -69,12 +69,12 @@ position = -0.37, -0.35, 0.0
 view-position = -0.37, -0.35, 0.4
 hood-mounted-view-position = 0.0, 0.5, 0.25
 
-[aerodevice-0]
+[aerodevice-front]
 position = 0.0, 0.0, 0.2
 frontal-area = 2
 drag-coefficient = 0.3
 
-[aerodevice-1]
+[aerodevice-body]
 position = 0.0, 1.9, 0.60
 frontal-area = 0.2
 drag-coefficient = 0.0
@@ -82,7 +82,7 @@ surface-area = 0.3
 lift-coefficient = -1.5
 efficiency = 0.95
 
-[aerodevice-2]
+[aerodevice-rear]
 position = 0.0, -2.14, 0.37
 frontal-area = 0.05
 drag-coefficient = 0.0
@@ -105,7 +105,7 @@ travel = 0.215
 anti-roll = 6000.0
 
 [tire]
-size = 225/50r16
+
 type = touring
 texture = touring
 
@@ -126,34 +126,15 @@ area = 0.015
 handbrake = 1.0
 rotor = rotor_worn
 
-[wheel-0]
+[wheel-fl]
 orientation = left
-tire = tire
+wheel-model = 5_spoke_m
+tire-texture = touring
+size = 225/50r16
+tire = tire-touring
 brake = brake-front
-model = 5_spoke_m
-
-[wheel-1]
-orientation = right
-tire = tire
-brake = brake-front
-model = 5_spoke_m
-
-[wheel-2]
-orientation = left
-tire = tire
-brake = brake-rear
-model = 5_spoke_m
-
-[wheel-3]
-orientation = right
-tire = tire
-brake = brake-rear
-model = 5_spoke_m
-
-[suspension-0]
 coilover = coilover-front
-wheel-hub = -0.77, 1.26, -0.48
-position = -0.72, 1.26, -0.02
+position = -0.77, 1.26, -0.48
 hinge = 0, 0, 0
 camber = -1.33
 caster = 6.12
@@ -161,10 +142,15 @@ toe = -0.5
 ackermann = 8.5	# 50% Ackermann
 steering = 30
 
-[suspension-1]
+[wheel-fr]
+orientation = right
+wheel-model = 5_spoke_m
+tire-texture = touring
+size = 225/50r16
+tire = tire-touring
+brake = brake-front
 coilover = coilover-front
-wheel-hub = 0.77, 1.26, -0.48
-position = 0.72, 1.26, -0.02
+position = 0.77, 1.26, -0.48
 hinge = 0, 0, 0
 camber = 1.33
 caster = 6.12
@@ -172,19 +158,29 @@ toe = 0.5
 ackermann = -8.5
 steering = 30
 
-[suspension-2]
+[wheel-rl]
+orientation = left
+wheel-model = 5_spoke_m
+tire-texture = touring
+size = 225/50r16
+tire = tire-touring
+brake = brake-rear
 coilover = coilover-rear
-wheel-hub = -0.77, -1.26, -0.48
-position = -0.72, -1.26, -0.02
+position = -0.77, -1.26, -0.48
 hinge = 0, -0.85, 0
 camber = -0.45
 caster = 0.28
 toe = 0.0
 
-[suspension-3]
+[wheel-rr]
+orientation = right
+wheel-model = 5_spoke_m
+tire-texture = touring
+size = 225/50r16
+tire = tire-touring
+brake = brake-rear
 coilover = coilover-rear
-wheel-hub = 0.77, -1.26, -0.48
-position = 0.72, -1.26, -0.02
+position = 0.77, -1.26, -0.48
 hinge = 0, -0.85, 0
 camber = 0.45
 caster = 0.28

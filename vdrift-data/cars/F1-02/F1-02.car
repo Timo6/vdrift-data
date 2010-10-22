@@ -12,6 +12,9 @@
 #
 # width, length, height :: X(+left), Y(+front), Z(+up)
 
+include ../../carparts/tire/f1_front
+include ../../carparts/tire/f1_rear
+
 drive = RWD
 version = 2
 
@@ -99,12 +102,12 @@ view-stiffness = 1.0
 hood-mounted-view-position = -0.25, -0.50, 0.30
 #hood-mounted-view-position = 1.00, -2.00, -0.00	# lwft  wheel
 
-[aerodevice-0]
+[aerodevice-front]
 position = 0.00, 0.00, -0.40
 frontal-area = 1.15
 drag-coefficient = 0.69
 
-[aerodevice-1]
+[aerodevice-body]
 position = 0.0, 2.20, 0.50
 frontal-area = 0.20
 drag-coefficient = 0.5
@@ -112,7 +115,7 @@ surface-area = 1.00			# including body downforce; 0.7
 lift-coefficient = -2
 efficiency = 0.99
 
-[aerodevice-2]
+[aerodevice-rear]
 position = 0.0, -1.30, 0.15
 frontal-area = 0.3
 drag-coefficient = 0.6
@@ -134,16 +137,6 @@ rebound = 12000				## Zugstufe
 travel = 0.09				## Federweg
 anti-roll = 12000			## Stabilisator
 
-[tire-front]	# FIA: max 660mm in diameter (670mm with wet-weather tyres)
-size = 355/46r13
-type = f1_front
-texture = touring
-
-[tire-rear]	# FIA: max 660mm in diameter (670mm with wet-weather tyres)
-size = 355/46r13
-type = f1_rear
-texture = touring
-
 [brake-front]
 friction = 1.40
 max-pressure = 2.4e6
@@ -161,34 +154,17 @@ area = 0.01
 handbrake = 1.0
 rotor = rotor_carbon_ceramic
 
-[wheel-0]
+# FIA: max 660mm in diameter (670mm with wet-weather tyres)
+
+[wheel-fl]
 orientation = left
-tire = tire-front
+wheel-model = oem_wheel
+tire-texture = touring
+size = 355/46r13
+tire = tire-f1-front
 brake = brake-front
-model = oem_wheel
-
-[wheel-1]
-orientation = right
-tire = tire-front
-brake = brake-front
-model = oem_wheel
-
-[wheel-2]
-orientation = left
-tire = tire-rear
-brake = brake-rear
-model = oem_wheel
-
-[wheel-3]
-orientation = right
-tire = tire-rear
-brake = brake-rear
-model = oem_wheel
-
-[suspension-0]
 coilover = coilover-front
-wheel-hub = -0.725, 1.60, -0.37
-position = 0.70, 1.60, -0.40
+position = -0.725, 1.60, -0.37
 hinge = 0, 0, 0
 camber = -1.00		# Radsturz
 caster = 0.12		# Nachlauf
@@ -196,10 +172,15 @@ toe = -0.9			# Left wheel toe in(negative angle)
 ackermann = 6.5		# 50% Ackermann, 100% Ackermann Angle(steering arm angle) atan(0.5 * steering_axis_length / axes_distance)
 steering = 30		# Maximum steering angle (ackermann = 0.0)
 
-[suspension-1]
+[wheel-fr]
+orientation = right
+wheel-model = oem_wheel
+tire-texture = touring
+size = 355/46r13
+tire = tire-f1-front
+brake = brake-front
 coilover = coilover-front
-wheel-hub = 0.725, 1.60, -0.37
-position = 0.70, 1.60, -0.40
+position = 0.725, 1.60, -0.37
 hinge = 0, 0, 0
 camber = 1.00
 caster = 0.12
@@ -207,27 +188,33 @@ toe = 0.9			# Right wheel toe in(positive angle)
 ackermann = -6.5	# 50% Ackermann, for 100% Ackermann Angle(steering arm angle) atan(0.5 * steering_axis_length / axes_distance)
 steering = 30		# Maximum steering angle (ackermann = 0.0)
 
-[suspension-2]
+[wheel-rl]
+orientation = left
+wheel-model = oem_wheel
+tire-texture = touring
+size = 355/46r13
+tire = tire-f1-rear
+brake = brake-rear
 coilover = coilover-rear
-wheel-hub = -0.71, -1.53, -0.37
-position = -0.65, -1.53, -0.27
+position = -0.71, -1.53, -0.37
 hinge = 0, -1.0, 0
 camber = -0.50
 caster = 0.28
 toe = 0
-#ackermann = 0
-#steering = 0
 
-[suspension-3]
+[wheel-rr]
+orientation = right
+wheel-model = oem_wheel
+tire-texture = touring
+size = 355/46r13
+tire = tire-f1-rear
+brake = brake-rear
 coilover = coilover-rear
-wheel-hub = 0.71, -1.53, -0.37
-position = 0.65, -1.53, -0.27
+position = 0.71, -1.53, -0.37
 hinge = 0, -1.0, 0
 camber = 0.50
 caster = 0.28
 toe = 0
-#ackermann = 0
-#steering = 0
 
 # these are used to calculate the weight distribution and balance
 [particle-00]		# Front-Wing/Nose

@@ -1,3 +1,5 @@
+include ../../carparts/tire/touring
+
 drive = RWD
 version = 2 #file format version 2 changes the coordinate system to this: http://vdrift.net/Forum/viewtopic.php?p=8073#8073
 
@@ -68,12 +70,12 @@ position = -0.35, -0.57, 0.0
 view-position = -0.35, -0.64, 0.30
 hood-mounted-view-position = 0, 0.55, 0.17
 
-[aerodevice-0]
+[aerodevice-front]
 position = 0.0, 0.0, 0.2
 frontal-area = 2
 drag-coefficient = 0.3
 
-[aerodevice-1]
+[aerodevice-body]
 position = 1.9, 0.0, 0.60
 frontal-area = 0.2
 drag-coefficient = 0.0
@@ -81,7 +83,7 @@ surface-area = 0.3
 lift-coefficient = -0.5
 efficiency = 0.95
 
-[aerodevice-2]
+[aerodevice-rear]
 position = 0.0, -2.14, 0.37
 frontal-area = 0.05
 drag-coefficient = 0.0
@@ -117,16 +119,6 @@ damper-factor-7 = 5, 0.1
 travel = 0.19
 anti-roll = 600.0
 
-[tire-front]
-size = 215/45r17
-type = touring
-texture = touring
-
-[tire-rear]
-size = 245/40r17
-type = touring
-texture = touring
-
 [brake-front]
 friction = 0.4
 max-pressure = 4.0e6
@@ -144,34 +136,15 @@ area = 0.015
 handbrake = 1.0
 rotor = rotor_shiny_slotted_drilled
 
-[wheel-0]
+[wheel-fl]
 orientation = left
-tire = tire-front
+wheel-model = oem_wheel
+tire-texture = touring
+size = 215/45r17
+tire = tire-touring
 brake = brake-front
-model = oem_wheel
-
-[wheel-1]
-orientation = right
-tire = tire-front
-brake = brake-front
-model = oem_wheel
-
-[wheel-2]
-orientation = left
-tire = tire-rear
-brake = brake-rear
-model = oem_wheel
-
-[wheel-3]
-orientation = right
-tire = tire-rear
-brake = brake-rear
-model = oem_wheel
-
-[suspension-0]
 coilover = coilover-front
-wheel-hub = -0.736, 1.14, -0.47	#track front/rear 1471/1509
-position = -0.73, 1.14, -0.03
+position = -0.736, 1.14, -0.47	#track front/rear 1471/1509
 hinge = 0,0,0
 camber = -1.33
 caster = 6.12
@@ -179,10 +152,15 @@ toe = 0.0
 ackermann = 8.46	# 50% ackermann
 steering = 30
 
-[suspension-1]
+[wheel-fr]
+orientation = right
+wheel-model = oem_wheel
+tire-texture = touring
+size = 215/45r17
+tire = tire-touring
+brake = brake-front
 coilover = coilover-front
-wheel-hub = 0.736, 1.14, -0.47
-position = 0.73, 1.14, -0.03
+position = 0.736, 1.14, -0.47
 hinge = 0,0,0
 camber = 1.33
 caster = 6.12
@@ -190,19 +168,29 @@ toe = 0.0
 ackermann = -8.46
 steering = 30
 
-[suspension-2]
+[wheel-rl]
+orientation = left
+wheel-model = oem_wheel
+tire-texture = touring
+size = 245/40r17
+tire = tire-touring
+brake = brake-rear
 coilover = coilover-rear
-wheel-hub = -0.755, -1.28, -0.48
-position = -0.75, -1.28, -0.02
+position = -0.755, -1.28, -0.48
 hinge = 0,-0.85,0
 camber = -0.45
 caster = 0.28
 toe = 0.0
 
-[suspension-3]
+[wheel-rr]
+orientation = right
+wheel-model = oem_wheel
+tire-texture = touring
+size = 245/40r17
+tire = tire-touring
+brake = brake-rear
 coilover = coilover-rear
-wheel-hub = 0.755, -1.28, -0.48
-position = 0.75, -1.28, -0.02
+position = 0.755, -1.28, -0.48
 hinge = 0,-0.85,0
 camber = 0.45
 caster = 0.28
@@ -231,7 +219,7 @@ position = -0.39, 1.32, -0.07
 
 [particle-05]
 mass = 195.0
-position = 0.39, .p1.32, -0.07
+position = 0.39, 1.32, -0.07
 
 [particle-06]	# driver
 mass = 90.0

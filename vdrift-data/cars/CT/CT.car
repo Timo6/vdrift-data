@@ -1,3 +1,5 @@
+include ../../carparts/tire/competition
+
 drive = RWD
 version = 2
 
@@ -66,12 +68,12 @@ position = -0.35, -0.15, 0.08
 view-position = -0.35, -0.15, 0.4
 hood-mounted-view-position = 0.00, 0.7, 0.35
 
-[aerodevice-0]
+[aerodevice-front]
 position = 0.0, 0.0, 0.2
 frontal-area = 2
 drag-coefficient = 0.3
 
-[aerodevice-1]
+[aerodevice-body]
 position = 0.0, 1.9, 0.60
 frontal-area = 0.2
 drag-coefficient = 0.0
@@ -79,7 +81,7 @@ surface-area = 0.3
 lift-coefficient = -0.5
 efficiency = 0.95
 
-[aerodevice-2]
+[aerodevice-rear]
 position = 0.0, -2.14, 0.37
 frontal-area = 0.05
 drag-coefficient = 0.0
@@ -101,16 +103,6 @@ rebound = 4500
 travel = 0.26
 anti-roll = 20000
 
-[tire-front]
-size = 225/40r18	# 996 GT3
-type = competition
-texture = touring
-
-[tire-rear]
-size = 285/30r18
-type = competition
-texture = touring
-
 [brake-front]
 friction = 1.33
 max-pressure = 2.0e6
@@ -128,34 +120,15 @@ area = 0.015
 handbrake = 1.0
 rotor = rotor_shiny_slotted_drilled
 
-[wheel-0]
+[wheel-fl]
 orientation = left
-tire = tire-front
+wheel-model = oem_wheel
+tire-texture = touring
+size = 225/40r18	# 996 GT3
+tire = tire-competition
 brake = brake-front
-model = oem_wheel
-
-[wheel-1]
-orientation = right
-tire = tire-front
-brake = brake-front
-model = oem_wheel
-
-[wheel-2]
-orientation = left
-tire = tire-rear
-brake = brake-rear
-model = oem_wheel
-
-[wheel-3]
-orientation = right
-tire = tire-rear
-brake = brake-rear
-model = oem_wheel
-
-[suspension-0]
 coilover = coilover-front
-wheel-hub = -0.721, 1.193, -0.47
-position = -0.66, 1.14, -0.15
+position = -0.721, 1.193, -0.47
 hinge = 0,0,0
 camber = -1.0
 caster = 1.0
@@ -163,10 +136,15 @@ toe = 0.5
 ackermann = 8.63	# 50% ackermann
 steering = 30
 
-[suspension-1]
+[wheel-fr]
+orientation = right
+wheel-model = oem_wheel
+tire-texture = touring
+size = 225/40r18
+tire = tire-competition
+brake = brake-front
 coilover = coilover-front
-wheel-hub = 0.721, 1.193, -0.47
-position = 0.66, 1.14, -0.15
+position = 0.721, 1.193, -0.47
 hinge = 0, 0, 0
 camber = 1.0
 caster = 1.0
@@ -174,19 +152,29 @@ toe = -0.5
 ackermann = -8.63
 steering = 30
 
-[suspension-2]
+[wheel-rl]
+orientation = left
+wheel-model = oem_wheel
+tire-texture = touring
+size = 285/30r18
+tire = tire-competition
+brake = brake-rear
 coilover = coilover-rear
-wheel-hub = -0.721, -1.127, -0.47
-position = -1.12, -0.65, -0.13
+position = -0.721, -1.127, -0.47
 hinge = 0, -0.6, 0
 camber = -0.5
 caster = 0.0
 toe = 0.0
 
-[suspension-3]
+[wheel-rr]
+orientation = right
+wheel-model = oem_wheel
+tire-texture = touring
+size = 285/30r18
+tire = tire-competition
+brake = brake-rear
 coilover = coilover-rear
-wheel-hub = 0.721, -1.127, -0.47
-position = 1.12, -0.65, -0.13
+position = 0.721, -1.127, -0.47
 hinge = 0, -0.6, 0
 camber = 0.5
 caster = 0.0

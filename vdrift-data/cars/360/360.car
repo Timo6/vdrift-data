@@ -65,6 +65,8 @@
 #	Downforce by ground effect: 180 kg  at 290 km/h
 #
 #---------------------------------------
+include ../../carparts/tire/competition
+
 drive = RWD
 version = 2
 
@@ -141,12 +143,12 @@ name = wheel-front-right	# observe wheel and chassis moves
 position = 3.0, 1.0, 0.75	# X(+right), Y(+front), Z(+up)
 angle = 20.0, 90.0			# +down/-up, +left/-right
 
-[aerodevice-0]
+[aerodevice-front]
 position = 0.0, 0.15, 0.00
 frontal-area = 2.03
 drag-coefficient = 0.29
 
-[aerodevice-1]
+[aerodevice-body]
 position = 0, 1.15, -0.3
 frontal-area = 0.0
 drag-coefficient = 0
@@ -154,7 +156,7 @@ surface-area = 1.0
 lift-coefficient = -0.22
 efficiency = 1
 
-[aerodevice-2]
+[aerodevice-rear]
 position = 0, -1.50, -0.3
 frontal-area = 0.0
 drag-coefficient = 0
@@ -176,16 +178,6 @@ rebound = 12000.0
 travel = 0.14
 anti-roll = 10000
 
-[tire-front]
-size = 215/45r18
-type = competition
-texture = touring
-
-[tire-rear]
-size = 275/40r18
-type = competition
-texture = touring
-
 [brake-front]
 friction = 15.0
 max-pressure = 2.5e6
@@ -203,36 +195,17 @@ area = 0.000448 # 16mm x 28mm
 handbrake = 1.0
 rotor = rotor_shiny_slotted_drilled
 
-[wheel-0]
-orientation = left
-tire = tire-front
-brake = brake-front
-model = pentagonal_hub
-
-[wheel-1]
-orientation = right
-tire = tire-front
-brake = brake-front
-model = pentagonal_hub
-
-[wheel-2]
-orientation = left
-tire = tire-rear
-brake = brake-rear
-model = pentagonal_hub
-
-[wheel-3]
-orientation = right
-tire = tire-rear
-brake = brake-rear
-model = pentagonal_hub
-
 #---------- F R O N T
 
-[suspension-0]
+[wheel-fl]
+orientation = left
+wheel-model = pentagonal_hub
+tire-texture = touring
+size = 215/45r18
+tire = tire-competition
+brake = brake-front
 coilover = coilover-front
-wheel-hub = -0.85, 1.12, -0.27			# track +-Y = 1669/2
-position = -0.75, 1.12, -0.30
+position = -0.85, 1.12, -0.27			# track +-Y = 1669/2
 hinge = 0.50, 0.90, -0.20
 camber = -1.0
 caster = 6.12
@@ -240,10 +213,15 @@ toe = -0.2
 ackermann = 8.96	# 50% ackermann
 steering = 33
 
-[suspension-1]
+[wheel-fr]
+orientation = right
+wheel-model = pentagonal_hub
+tire-texture = touring
+size = 215/45r18
+tire = tire-competition
+brake = brake-front
 coilover = coilover-front
-wheel-hub = 0.85, 1.12, -0.27
-position = 0.75, 1.12, -0.30
+position = 0.85, 1.12, -0.27
 hinge = -0.50, 0.90, -0.20
 camber = 1.0
 caster = 6.12
@@ -253,25 +231,33 @@ steering = 33
 
 #---------- R E A R
 
-[suspension-2]
+[wheel-rl]
+orientation = left
+wheel-model = pentagonal_hub
+tire-texture = touring
+size = 275/40r18
+tire = tire-competition
+brake = brake-rear
 coilover = coilover-rear
-wheel-hub = -0.8085, -1.51, -0.28		# track +-Y = 1617/2
-position = -0.70, -1.51, -0.30
+position = -0.8085, -1.51, -0.28		# track +-Y = 1617/2
 hinge = 1.00 , -0.0, -0.0
 camber = -0.45
 caster = 0.28
 toe = -0.1
 
-[suspension-3]
+[wheel-rr]
+orientation = right
+wheel-model = pentagonal_hub
+tire-texture = touring
+size = 275/40r18
+tire = tire-competition
+brake = brake-rear
 coilover = coilover-rear
-wheel-hub = 0.8085, -1.51, -0.28
-position = 0.70, -1.51, -0.30
+position = 0.8085, -1.51, -0.28
 hinge = -1.00 , 0.0, -0.0
 camber = 0.45
 caster = 0.28
 toe = 0.1
-
-#---------- 
 
 # these are used to calculate the weight distribution and balance
 

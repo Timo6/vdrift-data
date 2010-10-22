@@ -1,3 +1,5 @@
+include ../../carparts/tire/competition
+
 drive = RWD
 version = 2
 
@@ -55,12 +57,12 @@ position = -0.208, -0.57, 0.0
 view-position = -0.208, -0.57, 0.15
 hood-mounted-view-position = 0.0, 0.24, 0.12
 
-[aerodevice-0]
+[aerodevice-front]
 drag-coefficient = 0.3
 frontal-area = 2
 position = 0.0, 0.0, 0.2
 
-[aerodevice-1]
+[aerodevice-body]
 drag-coefficient = 0.0
 efficiency = 0.95
 frontal-area = 0.2
@@ -68,7 +70,7 @@ lift-coefficient = 0.075
 position = 0.0, 1.9, 0.60
 surface-area = 0.3
 
-[aerodevice-2]
+[aerodevice-rear]
 drag-coefficient = 0.0
 efficiency = 0.95
 frontal-area = 0.05
@@ -108,17 +110,6 @@ spring-factor-3 = 0.15, 3.0
 spring-factor-4 = 0.2, 5.0
 travel = 0.3
 
-# Caterham, Avon CR500 tyres, Front:195/45R15, Rear:255/40R15
-[tire-front]
-size = 195/45r15
-type = competition
-texture = touring
-
-[tire-rear]
-size = 255/40r15
-type = competition
-texture = touring
-
 [brake-front]
 area = 0.015
 bias = 0.6
@@ -136,34 +127,17 @@ max-pressure = 2.5e6
 radius = 0.14
 rotor = rotor_shiny_slotted_drilled
 
-[wheel-0]
+# Caterham, Avon CR500 tyres, Front:195/45R15, Rear:255/40R15
+
+[wheel-fl]
 orientation = left
-tire = tire-front
+wheel-model = oem_wheel
+tire-texture = touring
+size = 195/45r15
+tire = tire-competition
 brake = brake-front
-model = oem_wheel
-
-[wheel-1]
-orientation = right
-tire = tire-front
-brake = brake-front
-model = oem_wheel
-
-[wheel-2]
-orientation = left
-tire = tire-rear
-brake = brake-rear
-model = oem_wheel
-
-[wheel-3]
-orientation = right
-tire = tire-rear
-brake = brake-rear
-model = oem_wheel
-
-[suspension-0]
 coilover = coilover-front
-wheel-hub = -0.60, 1.175, -0.42
-position = -0.58, 1.175, -0.07
+position = -0.60, 1.175, -0.42
 hinge = 0.60, 1.175, -0.7
 camber = -0.75
 caster = 4
@@ -171,10 +145,15 @@ toe = -0.1
 ackermann = 7.18	# 50% ackermann
 steering = 27
 
-[suspension-1]
+[wheel-fr]
+orientation = right
+wheel-model = oem_wheel
+tire-texture = touring
+size = 195/45r15
+tire = tire-competition
+brake = brake-front
 coilover = coilover-front
-wheel-hub = 0.60, 1.175, -0.42
-position = 0.58, 1.175, -0.07
+position = 0.60, 1.175, -0.42
 hinge = -0.60, 1.175, -0.7
 camber = 0.75
 caster = 4
@@ -182,19 +161,29 @@ toe = 0.1
 ackermann = -7.18
 steering = 27
 
-[suspension-2]
+[wheel-rl]
+orientation = left
+wheel-model = oem_wheel
+tire-texture = touring
+size = 255/40r15
+tire = tire-competition
+brake = brake-rear
 coilover = coilover-rear
-wheel-hub = -0.60, -1.17, -0.42
-position = -0.60, -1.17, -0.07
+position = -0.60, -1.17, -0.42
 hinge = 0.60, -1.17, -0.7
 camber = -0.75
 caster = 0.28
 toe = 0.0
 
-[suspension-3]
+[wheel-rr]
+orientation = right
+wheel-model = oem_wheel
+tire-texture = touring
+size = 255/40r15
+tire = tire-competition
+brake = brake-rear
 coilover = coilover-rear
-wheel-hub = 0.60, -1.17, -0.42
-position = 0.60, -1.17, -0.07
+position = 0.60, -1.17, -0.42
 hinge = -0.60, -1.17, -0.7
 camber = 0.75
 caster = 0.28

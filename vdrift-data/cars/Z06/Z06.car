@@ -1,3 +1,5 @@
+include ../../carparts/tire/touring
+
 drive = RWD
 version = 2
 
@@ -63,12 +65,12 @@ position = -0.40, -0.3, -0.13
 view-position = -0.4, -0.3,  0.3
 hood-mounted-view-position = 0, 0.5, 0.2
 
-[aerodevice-0]
+[aerodevice-front]
 position = 0.0, 0.0, -0.60
 frontal-area = 2.0
 drag-coefficient = 0.3
 
-[aerodevice-1]
+[aerodevice-body]
 position = 0, 2.34, -0.6
 frontal-area = 0.2
 drag-coefficient = 0
@@ -76,7 +78,7 @@ surface-area = 0.9
 lift-coefficient = -1.2
 efficiency = 0.99
 
-[aerodevice-2]
+[aerodevice-rear]
 position = 0, -2.14, 0.37
 frontal-area = 0.2
 drag-coefficient = 0
@@ -98,16 +100,6 @@ rebound = 12600.0
 travel = 0.12
 anti-roll = 10000.0
 
-[tire-front]
-size = 265/40r17
-type = touring
-texture = touring
-
-[tire-rear]
-size = 295/35r18
-type = touring
-texture = touring
-
 [brake-front]
 friction = 1.2
 max-pressure = 3.8e6
@@ -125,34 +117,15 @@ area = 0.01
 handbrake = 1.0
 rotor = rotor_worn
 
-[wheel-0]
+[wheel-fl]
 orientation = left
-tire = tire-front
+wheel-model = oem_wheel
+tire-texture = touring
+size = 265/40r17
+tire = tire-touring
 brake = brake-front
-model = oem_wheel
-
-[wheel-1]
-orientation = right
-tire = tire-front
-brake = brake-front
-model = oem_wheel
-
-[wheel-2]
-orientation = left
-tire = tire-rear
-brake = brake-rear
-model = oem_wheel
-
-[wheel-3]
-orientation = right
-tire = tire-rear
-brake = brake-rear
-model = oem_wheel
-
-[suspension-0]
 coilover = coilover-front
-wheel-hub = -0.73, 1.30, -0.42
-position = -0.51, 1.30, -0.32
+position = -0.73, 1.30, -0.42
 hinge = 0,0,-0.1
 camber = -1.33
 caster = 6.12
@@ -160,10 +133,15 @@ toe = 0.0
 ackermann = 8	# 50% ackermann
 steering = 33
 
-[suspension-1]
+[wheel-fr]
+orientation = right
+wheel-model = oem_wheel
+tire-texture = touring
+size = 265/40r17
+tire = tire-touring
+brake = brake-front
 coilover = coilover-front
-wheel-hub = 0.73, 1.30, -0.42
-position = 0.51, 1.30, -0.32
+position = 0.73, 1.30, -0.42
 hinge = 0,0,-0.1
 camber = 1.33
 caster = 6.12
@@ -171,19 +149,29 @@ toe = 0.0
 ackermann = -8
 steering = 33
 
-[suspension-2]
+[wheel-rl]
+orientation = left
+wheel-model = oem_wheel
+tire-texture = touring
+size = 295/35r18
+tire = tire-touring
+brake = brake-rear
 coilover = coilover-rear
-wheel-hub = -0.75, -1.25, -0.43
-position = -0.51, -1.25, -0.32
+position = -0.75, -1.25, -0.43
 hinge = 0,0,-0.1
 camber = -0.45
 caster = 0.28
 toe = -0.2
 
-[suspension-3]
+[wheel-rr]
+orientation = right
+wheel-model = oem_wheel
+tire-texture = touring
+size = 295/35r18
+tire = tire-touring
+brake = brake-rear
 coilover = coilover-rear
-wheel-hub = 0.75, -1.25, -0.43
-position = 0.51, -1.25, -0.32
+position = 0.75, -1.25, -0.43
 hinge = 0,0,-0.1
 camber = 0.45
 caster = 0.28
