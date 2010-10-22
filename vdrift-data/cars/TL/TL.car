@@ -124,7 +124,6 @@ tire = tire-touring
 brake = brake-front
 coilover = coilover-front
 position = -0.673, 1.16, -0.43	#-0.723, 1.16, -0.43	#front track 1445mm
-position = -0.70, 1.16, -0.07
 hinge = 0.0,0,0
 camber = -0.5
 caster = 0.00
