@@ -1,7 +1,6 @@
 include ../../carparts/tire/touring
 
 drive = RWD
-version = 2 #file format version 2 changes the coordinate system to this: http://vdrift.net/Forum/viewtopic.php?p=8073#8073
 
 [engine]
 position = 0.0, 1.0, -0.21

@@ -1,7 +1,6 @@
 include ../../carparts/tire/slick
 
 drive = RWD
-version = 2
 
 [engine]
 position = 0.15, -1.10, -0.45

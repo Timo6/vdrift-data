@@ -16,7 +16,6 @@ include ../../carparts/tire/f1_front
 include ../../carparts/tire/f1_rear
 
 drive = RWD
-version = 2
 
 [engine]
 position = 0.0, -0.70, -0.40

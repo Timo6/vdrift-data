@@ -1,7 +1,6 @@
 include ../../carparts/tire/competition
 
 drive = RWD
-version = 2
 
 [clutch]
 area = 0.75

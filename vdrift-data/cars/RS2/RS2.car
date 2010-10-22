@@ -1,7 +1,6 @@
 include ../../carparts/tire/touring
 
 drive = AWD
-version = 2
 
 [engine]
 position = 0.0, 1.35, -0.22

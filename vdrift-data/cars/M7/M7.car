@@ -1,5 +1,6 @@
+include ../../carparts/tire/touring
+
 drive = RWD
-version = 2
 
 [engine]
 position = 0.0, 0.86, -0.21
@@ -103,11 +104,6 @@ bounce = 2500
 rebound = 7500
 travel = 0.215
 anti-roll = 6000.0
-
-[tire]
-
-type = touring
-texture = touring
 
 [brake-front]
 friction = 0.73
