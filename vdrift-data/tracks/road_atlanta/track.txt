@@ -1,7 +1,7 @@
-start position 0 = 4.664778,2.495644,-8.828894
-start position 1 = 5.604778,2.495644,1.528894
-start position 2 = -3.654778,2.495644,-2.878894
-start position 3 = -2.704778,2.495644,7.358894
+start position 0 = 4.664778,-0.5,-8.828894
+start position 1 = 5.604778,-0.5,1.528894
+start position 2 = -3.654778,-0.5,-2.878894
+start position 3 = -2.704778,-0.5,7.358894
 start orientation 0 = -2.333239,-53.274071,0.021586
 start orientation 1 = -2.333239,-53.274071,0.021586
 start orientation 2 = -2.333239,-53.274071,0.021586
