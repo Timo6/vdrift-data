@@ -108,7 +108,7 @@ handbrake = 1.0
 
 [wheel-fl]
 orientation = left
-wheel-model = 5_spoke_m	# oem_wheel broken
+wheel-model = oem_wheel
 tire-texture = touring
 size = 285/50r15
 tire = tire-slick
@@ -124,7 +124,7 @@ steering = 30
 
 [wheel-fr]
 orientation = right
-wheel-model = 5_spoke_m	# oem_wheel broken
+wheel-model = oem_wheel
 tire-texture = touring
 size = 285/50r15
 tire = tire-slick
