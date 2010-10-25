@@ -194,7 +194,7 @@ position = -0.39, 1.32, 0.4
 
 [particle-05]
 mass = 255.0
-position = 0.39, .p1.32, 0.4
+position = 0.39, 1.32, 0.4
 
 [particle-06]	# driver
 mass = 90.0
