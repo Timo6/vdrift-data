@@ -28,7 +28,7 @@ RollingDrag = 2.0
 [surface-03]
 Type = asphalt
 BumpWaveLength = 2.0
-BumpAmplitude = 0.25
+BumpAmplitude = 0.025
 FrictionNonTread = 0.8
 FrictionTread = 0.9
 RollResistanceCoefficient = 2.5
