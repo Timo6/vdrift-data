@@ -90,45 +90,92 @@ surface-area = 0.5
 lift-coefficient = -2
 efficiency = 0.95
 
-[coilover-front]
+[coilover-fl]
 spring-constant = 60000
 bounce = 3500
 rebound = 10600
 travel = 0.32
 anti-roll = 2000
 
-[coilover-rear]
+[coilover-fr]
+spring-constant = 60000
+bounce = 3500
+rebound = 10600
+travel = 0.32
+anti-roll = 2000
+
+[coilover-rl]
 spring-constant = 40000
 bounce = 2400
 rebound = 7200
 travel = 0.32
 anti-roll = 5500
 
-[brake-front]
+[coilover-rr]
+spring-constant = 40000
+bounce = 2400
+rebound = 7200
+travel = 0.32
+anti-roll = 5500
+
+[brake-fl]
+texture = rotor_shiny_slotted_drilled
 friction = 0.75
 max-pressure = 3.2e6
 bias = 0.60
 radius = 0.17
 area = 0.015
-rotor = rotor_shiny_slotted_drilled
 
-[brake-rear]
+[brake-fr]
+texture = rotor_shiny_slotted_drilled
+friction = 0.75
+max-pressure = 3.2e6
+bias = 0.60
+radius = 0.17
+area = 0.015
+
+[brake-rl]
+texture = rotor_shiny_slotted_drilled
 friction = 0.75
 max-pressure = 3.2e6
 bias = 0.40
 radius = 0.14
 area = 0.015
 handbrake = 1.1
-rotor = rotor_shiny_slotted_drilled
+
+[brake-rr]
+texture = rotor_shiny_slotted_drilled
+friction = 0.75
+max-pressure = 3.2e6
+bias = 0.40
+radius = 0.14
+area = 0.015
+handbrake = 1.1
+
+[tire-fl]
+texture = touring
+size = 225/40r18
+type = tire-touring
+
+[tire-fr]
+texture = touring
+size = 225/40r18
+type = tire-touring
+
+[tire-rl]
+texture = touring
+size = 225/40r18
+type = tire-touring
+
+[tire-rr]
+texture = touring
+size = 225/40r18
+type = tire-touring
 
 [wheel-fl]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = left
-wheel-model = oem_wheel
-tire-texture = touring
-size = 225/40r18
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = -0.782, 1.26, -0.43	#front track 1564mm
 hinge = 0.70, 0.26, -0.43
 camber = -1.33
@@ -138,13 +185,9 @@ ackermann = 8.56	# 50% ackermann
 steering = 30
 
 [wheel-fr]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = right
-wheel-model = oem_wheel
-tire-texture = touring
-size = 225/40r18
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = 0.782, 1.26, -0.43
 hinge = -0.70, 0.26, -0.43
 camber = 1.33
@@ -154,13 +197,9 @@ ackermann = -8.56
 steering = 30
 
 [wheel-rl]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = left
-wheel-model = oem_wheel
-tire-texture = touring
-size = 225/40r18
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = -0.778, -1.28, -0.43	#rear track 1556mm
 hinge = 0.70, -2.1, -0.43
 camber = -0.45
@@ -168,13 +207,9 @@ caster = -0.28
 toe = 0.0
 
 [wheel-rr]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = right
-wheel-model = oem_wheel
-tire-texture = touring
-size = 225/40r18
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = 0.778, -1.28, -0.43
 hinge = -0.70, -2.1, -0.43
 camber = 0.45

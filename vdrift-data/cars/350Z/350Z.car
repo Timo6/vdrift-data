@@ -74,7 +74,7 @@ surface-area = 0.5
 lift-coefficient = 0.5
 efficiency = 0.95
 
-[coilover-front]
+[coilover-fl]
 spring-constant = 49131.9
 bounce = 2900
 rebound = 8700
@@ -83,7 +83,16 @@ damper-factor-2 = 0.1, 0.7
 travel = 0.18
 anti-roll = 7000
 
-[coilover-rear]
+[coilover-fr]
+spring-constant = 49131.9
+bounce = 2900
+rebound = 8700
+damper-factor-1 = 0.08, 1.0
+damper-factor-2 = 0.1, 0.7
+travel = 0.18
+anti-roll = 7000
+
+[coilover-rl]
 spring-constant = 51137.3
 bounce = 3000
 rebound = 8900
@@ -92,31 +101,73 @@ damper-factor-2 = 0.1, 0.7
 travel = 0.18
 anti-roll = 6000
 
-[brake-front]
+[coilover-rr]
+spring-constant = 51137.3
+bounce = 3000
+rebound = 8900
+damper-factor-1 = 0.08, 1.0
+damper-factor-2 = 0.1, 0.7
+travel = 0.18
+anti-roll = 6000
+
+[brake-fl]
+texture = rotor_worn
 friction = 0.5
 max-pressure = 2.0e6
 bias = 0.60
 radius = 0.14
 area = 0.07
-rotor = rotor_worn
 
-[brake-rear]
+[brake-fr]
+texture = rotor_worn
+friction = 0.5
+max-pressure = 2.0e6
+bias = 0.60
+radius = 0.14
+area = 0.07
+
+[brake-rl]
+texture = rotor_worn
 friction = 0.5
 max-pressure = 2.0e6
 bias = 0.40
 radius = 0.14
 area = 0.07
 handbrake = 1.0
-rotor = rotor_worn
+
+[brake-rr]
+texture = rotor_worn
+friction = 0.5
+max-pressure = 2.0e6
+bias = 0.40
+radius = 0.14
+area = 0.07
+handbrake = 1.0
+
+[tire-fl]
+texture = touring
+size = 225/45r18	# oem size = 225/50r17
+type = tire-touring
+
+[tire-fr]
+texture = touring
+size = 225/45r18
+type = tire-touring
+
+[tire-rl]
+texture = touring
+size = 245/45r18	# oem size = 235/50r17
+type = tire-touring
+
+[tire-rr]
+texture = touring
+size = 245/45r18
+type = tire-touring
 
 [wheel-fl]
+texture = pentagonal_hub
+mesh = pentagonal_hub
 orientation = left
-wheel-model = pentagonal_hub
-tire-texture = touring
-size = 225/45r18	# standard size = 225/50r17
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = -0.8, 1.33, 0.18
 hinge = 0,0,0
 camber = -1.33
@@ -126,13 +177,9 @@ ackermann = 8.4	# 50% ackermann
 steering = 30
 
 [wheel-fr]
+texture = pentagonal_hub
+mesh = pentagonal_hub
 orientation = right
-wheel-model = pentagonal_hub
-tire-texture = touring
-size = 225/45r18
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = 0.8, 1.33, 0.18
 hinge = 0,0,0
 camber = 1.33
@@ -142,13 +189,9 @@ ackermann = -8.4
 steering = 30
 
 [wheel-rl]
+texture = pentagonal_hub
+mesh = pentagonal_hub
 orientation = left
-wheel-model = pentagonal_hub
-tire-texture = touring
-size = 245/45r18	# standard size = 235/50r17
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = -0.8, -1.32, 0.18
 hinge = 0,-0.85,0
 camber = -0.45
@@ -156,13 +199,9 @@ caster = 0.28
 toe = 0.0
 
 [wheel-rr]
+texture = pentagonal_hub
+mesh = pentagonal_hub
 orientation = right
-wheel-model = pentagonal_hub
-tire-texture = touring
-size = 245/45r18
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = 0.8, -1.32, 0.18
 hinge = 0,-0.85,0
 camber = 0.45

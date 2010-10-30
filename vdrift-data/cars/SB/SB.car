@@ -76,45 +76,92 @@ surface-area = 0.5
 lift-coefficient = -2
 efficiency = 0.95
 
-[coilover-front]
+[coilover-fl]
 spring-constant = 12000
 bounce = 700
 rebound = 2000
 travel = 0.24
 anti-roll = 10000
 
-[coilover-rear]
+[coilover-fr]
+spring-constant = 12000
+bounce = 700
+rebound = 2000
+travel = 0.24
+anti-roll = 10000
+
+[coilover-rl]
 spring-constant = 30000
 bounce = 1800
 rebound = 5300
 travel = 0.26
 anti-roll = 20000
 
-[brake-front]
+[coilover-rr]
+spring-constant = 30000
+bounce = 1800
+rebound = 5300
+travel = 0.26
+anti-roll = 20000
+
+[brake-fl]
+texture = rotor_worn
 friction = 0.73
 max-pressure = 1.6e6
 bias = 0.55
 radius = 0.12
 area = 0.013
-rotor = rotor_worn
 
-[brake-rear]
+[brake-fr]
+texture = rotor_worn
+friction = 0.73
+max-pressure = 1.6e6
+bias = 0.55
+radius = 0.12
+area = 0.013
+
+[brake-rl]
+texture = rotor_worn
 friction = 0.73
 max-pressure = 1.4e6
 bias = 0.45
 radius = 0.12
 area = 0.013
 handbrake = 1.0
-rotor = rotor_worn
+
+[brake-rr]
+texture = rotor_worn
+friction = 0.73
+max-pressure = 1.4e6
+bias = 0.45
+radius = 0.12
+area = 0.013
+handbrake = 1.0
+
+[tire-fl]
+texture = touring
+size = 205/70r15
+type = tire-touring
+
+[tire-fr]
+texture = touring
+size = 205/70r15
+type = tire-touring
+
+[tire-rl]
+texture = touring
+size = 275/70r15
+type = tire-touring
+
+[tire-rr]
+texture = touring
+size = 275/70r15
+type = tire-touring
 
 [wheel-fl]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = left
-wheel-model = oem_wheel
-tire-texture = touring
-size = 205/70r15
-tire = tire-front
-brake = brake-front
-coilover = coilover-front
 position = -0.88, 0.95, -0.48
 hinge = 0.70, -0.3, -0.46
 camber = -1.0
@@ -124,13 +171,9 @@ ackermann = 12.43	# 50% Ackermann
 steering = 30
 
 [wheel-fr]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = right
-wheel-model = oem_wheel
-tire-texture = touring
-size = 205/70r15
-tire = tire-front
-brake = brake-front
-coilover = coilover-front
 position = 0.88, 0.95, -0.48
 hinge = -0.70, -0.3, -0.46
 camber = 1.0
@@ -140,13 +183,9 @@ ackermann = -12.43
 steering = 30
 
 [wheel-rl]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = left
-wheel-model = oem_wheel
-tire-texture = touring
-size = 275/70r15
-tire = tire-rear
-brake = brake-rear
-coilover = coilover-rear
 position = -0.90, -0.95, -0.48
 hinge = 0.70, 0.3, -0.58
 camber = -0.5
@@ -154,13 +193,9 @@ caster = 0.0
 toe = 1.0
 
 [wheel-rr]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = right
-wheel-model = oem_wheel
-tire-texture = touring
-size = 275/70r15
-tire = tire-rear
-brake = brake-rear
-coilover = coilover-rear
 position = 0.90, -0.95, -0.48
 hinge = -0.70, 0.3, -0.58
 camber = 0.5

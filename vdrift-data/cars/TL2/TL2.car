@@ -81,45 +81,92 @@ surface-area = 0.5
 lift-coefficient = -2
 efficiency = 0.95
 
-[coilover-front]
+[coilover-fl]
 spring-constant = 40000.0
 bounce = 1100.0
 rebound = 2300.0
 travel = 0.15
 anti-roll = 7000.0
 
-[coilover-rear]
+[coilover-fr]
+spring-constant = 40000.0
+bounce = 1100.0
+rebound = 2300.0
+travel = 0.15
+anti-roll = 7000.0
+
+[coilover-rl]
 spring-constant = 40000.0
 bounce = 1250.0
 rebound = 3150.0
 travel = 0.18
 anti-roll = 15500.0
 
-[brake-front]
+[coilover-rr]
+spring-constant = 40000.0
+bounce = 1250.0
+rebound = 3150.0
+travel = 0.18
+anti-roll = 15500.0
+
+[brake-fl]
+texture = rotor_worn
 friction = 0.73
 max-pressure = 1.93e6
 bias = 0.57
 radius = 0.14
 area = 0.015
-rotor = rotor_worn
 
-[brake-rear]
+[brake-fr]
+texture = rotor_worn
+friction = 0.73
+max-pressure = 1.93e6
+bias = 0.57
+radius = 0.14
+area = 0.015
+
+[brake-rl]
+texture = rotor_worn
 friction = 0.73
 max-pressure = 1.93e6
 bias = 0.43
 radius = 0.14
 area = 0.015
 handbrake = 1.0
-rotor = rotor_worn
+
+[brake-rr]
+texture = rotor_worn
+friction = 0.73
+max-pressure = 1.93e6
+bias = 0.43
+radius = 0.14
+area = 0.015
+handbrake = 1.0
+
+[tire-fl]
+texture = touring
+size = 185/60r14
+type = tire-touring
+
+[tire-fr]
+texture = touring
+size = 185/60r14
+type = tire-touring
+
+[tire-rl]
+texture = touring
+size = 185/60r14
+type = tire-touring
+
+[tire-rr]
+texture = touring
+size = 185/60r14
+type = tire-touring
 
 [wheel-fl]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = left
-wheel-model = oem_wheel
-tire-texture = touring
-size = 185/60r14
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = -0.723, 1.21, -0.43	#front track 1445mm
 hinge = 0.0,0,0
 camber = -0.5
@@ -129,13 +176,9 @@ ackermann = 8.35	# 50% ackermann
 steering = 40
 
 [wheel-fr]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = right
-wheel-model = oem_wheel
-tire-texture = touring
-size = 185/60r14
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = 0.723, 1.21, -0.43
 hinge = 0.0,0,0
 camber = 0.5
@@ -145,13 +188,9 @@ ackermann = -8.35
 steering = 40
 
 [wheel-rl]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = left
-wheel-model = oem_wheel
-tire-texture = touring
-size = 185/60r14
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = -0.713, -1.20, -0.46	#rear track 1425mm
 hinge = -0.5,0,0
 camber = 0.00
@@ -159,13 +198,9 @@ caster = 0.00
 toe = -0.2
 
 [wheel-rr]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = right
-wheel-model = oem_wheel
-tire-texture = touring
-size = 185/60r14
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = 0.713, -1.20, -0.46
 hinge = -0.5,0,0
 camber = 0.00

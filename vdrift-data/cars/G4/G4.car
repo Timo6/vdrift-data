@@ -87,45 +87,92 @@ surface-area = 0.5
 lift-coefficient = -0.6
 efficiency = 0.95
 
-[coilover-front]
+[coilover-fl]
 spring-constant = 45000.0
 bounce = 5215.0
 rebound = 6000.0
 travel = 0.24
 anti-roll = 10000.0
 
-[coilover-rear]
+[coilover-fr]
+spring-constant = 45000.0
+bounce = 5215.0
+rebound = 6000.0
+travel = 0.24
+anti-roll = 10000.0
+
+[coilover-rl]
 spring-constant = 49000.0
 bounce = 5400.0
 rebound = 6400.0
 travel = 0.27
 anti-roll = 10000.0
 
-[brake-front]
+[coilover-rr]
+spring-constant = 49000.0
+bounce = 5400.0
+rebound = 6400.0
+travel = 0.27
+anti-roll = 10000.0
+
+[brake-fl]
+texture = rotor_shiny_slotted_drilled
 friction = 1.6
 max-pressure = 3.0e6
 bias = 0.6
 radius = 0.14605 
 area = 0.01
-rotor = rotor_shiny_slotted_drilled
 
-[brake-rear]
+[brake-fr]
+texture = rotor_shiny_slotted_drilled
+friction = 1.6
+max-pressure = 3.0e6
+bias = 0.6
+radius = 0.14605 
+area = 0.01
+
+[brake-rl]
+texture = rotor_shiny_slotted_drilled
 friction = 1.6
 max-pressure = 1.93e6
 bias = 0.4
 radius = 0.14605
 area = 0.01
 handbrake = 1.0
-rotor = rotor_shiny_slotted_drilled
+
+[brake-rr]
+texture = rotor_shiny_slotted_drilled
+friction = 1.6
+max-pressure = 1.93e6
+bias = 0.4
+radius = 0.14605
+area = 0.01
+handbrake = 1.0
+
+[tire-fl]
+texture = touring
+size = 250/60r15
+type = tire-competition
+
+[tire-fr]
+texture = touring
+size = 250/60r15
+type = tire-competition
+
+[tire-rl]
+texture = touring
+size = 325/55r15
+type = tire-competition
+
+[tire-rr]
+texture = touring
+size = 325/55r15
+type = tire-competition
 
 [wheel-fl]
+texture = 5_spoke_m
+mesh = 5_spoke_m
 orientation = left
-wheel-model = 5_spoke_m
-tire-texture = touring
-size = 250/60r15
-tire = tire-competition
-brake = brake-front
-coilover = coilover-front
 position = -0.80, 1.45, -0.45
 hinge = 0.80,0,-0.48
 camber = -1.9
@@ -135,13 +182,9 @@ ackermann = 8	# 50% ackermann
 steering = 33
 
 [wheel-fr]
+texture = 5_spoke_m
+mesh = 5_spoke_m
 orientation = right
-wheel-model = 5_spoke_m
-tire-texture = touring
-size = 250/60r15
-tire = tire-competition
-brake = brake-front
-coilover = coilover-front
 position = 0.80, 1.45, -0.45
 hinge = -0.80,0,-0.48
 camber = 1.9
@@ -151,13 +194,9 @@ ackermann = -8
 steering = 33
 
 [wheel-rl]
+texture = 5_spoke_m
+mesh = 5_spoke_m
 orientation = left
-wheel-model = 5_spoke_m
-tire-texture = touring
-size = 325/55r15
-tire = tire-competition
-brake = brake-rear
-coilover = coilover-rear
 position = -0.82, -1.34, -0.48
 hinge = 0.82,-2.34,-0.48
 camber = -1.0
@@ -165,13 +204,9 @@ caster = 5.6
 toe = -0.468
 
 [wheel-rr]
+texture = 5_spoke_m
+mesh = 5_spoke_m
 orientation = right
-wheel-model = 5_spoke_m
-tire-texture = touring
-size = 325/55r15
-tire = tire-competition
-brake = brake-rear
-coilover = coilover-rear
 position = 0.82, -1.34, -0.48
 hinge = -0.82,-2.34,-0.48
 camber = 1.0

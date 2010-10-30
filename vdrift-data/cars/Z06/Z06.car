@@ -83,45 +83,92 @@ surface-area = 0.9
 lift-coefficient = -2.0
 efficiency = 0.95
 
-[coilover-front]
+[coilover-fl]
 spring-constant = 80000.0
 bounce = 3600
 rebound = 11000
 travel = 0.12
 anti-roll = 10000.0
 
-[coilover-rear]
+[coilover-fr]
+spring-constant = 80000.0
+bounce = 3600
+rebound = 11000
+travel = 0.12
+anti-roll = 10000.0
+
+[coilover-rl]
 spring-constant = 95000.0
 bounce = 4200.0
 rebound = 12600.0
 travel = 0.12
 anti-roll = 10000.0
 
-[brake-front]
+[coilover-rr]
+spring-constant = 95000.0
+bounce = 4200.0
+rebound = 12600.0
+travel = 0.12
+anti-roll = 10000.0
+
+[brake-fl]
+texture = rotor_worn
 friction = 1.2
 max-pressure = 3.8e6
 bias = 0.6
 radius = 0.18
 area = 0.01
-rotor = rotor_worn
 
-[brake-rear]
+[brake-fr]
+texture = rotor_worn
+friction = 1.2
+max-pressure = 3.8e6
+bias = 0.6
+radius = 0.18
+area = 0.01
+
+[brake-rl]
+texture = rotor_worn
 friction = 1.2
 max-pressure = 3.0e6
 bias = 0.4
 radius = 0.16
 area = 0.01
 handbrake = 1.0
-rotor = rotor_worn
+
+[brake-rr]
+texture = rotor_worn
+friction = 1.2
+max-pressure = 3.0e6
+bias = 0.4
+radius = 0.16
+area = 0.01
+handbrake = 1.0
+
+[tire-fl]
+texture = touring
+size = 265/40r17
+type = tire-touring
+
+[tire-fr]
+texture = touring
+size = 265/40r17
+type = tire-touring
+
+[tire-rl]
+texture = touring
+size = 295/35r18
+type = tire-touring
+
+[tire-rr]
+texture = touring
+size = 295/35r18
+type = tire-touring
 
 [wheel-fl]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = left
-wheel-model = oem_wheel
-tire-texture = touring
-size = 265/40r17
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = -0.73, 1.30, -0.42
 hinge = 0,0,-0.1
 camber = -1.33
@@ -131,13 +178,9 @@ ackermann = 8	# 50% ackermann
 steering = 33
 
 [wheel-fr]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = right
-wheel-model = oem_wheel
-tire-texture = touring
-size = 265/40r17
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = 0.73, 1.30, -0.42
 hinge = 0,0,-0.1
 camber = 1.33
@@ -147,13 +190,9 @@ ackermann = -8
 steering = 33
 
 [wheel-rl]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = left
-wheel-model = oem_wheel
-tire-texture = touring
-size = 295/35r18
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = -0.75, -1.25, -0.43
 hinge = 0,0,-0.1
 camber = -0.45
@@ -161,13 +200,9 @@ caster = 0.28
 toe = -0.2
 
 [wheel-rr]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = right
-wheel-model = oem_wheel
-tire-texture = touring
-size = 295/35r18
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = 0.75, -1.25, -0.43
 hinge = 0,0,-0.1
 camber = 0.45

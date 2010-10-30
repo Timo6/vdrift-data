@@ -83,45 +83,92 @@ surface-area = 0.5
 lift-coefficient = -0.5
 efficiency = 0.95
 
-[coilover-front]
+[coilover-fl]
 spring-constant = 60000.0
 bounce = 7000.0
 rebound = 7500.0
 travel = 0.12
 anti-roll = 6500.0
 
-[coilover-rear]
+[coilover-fr]
+spring-constant = 60000.0
+bounce = 7000.0
+rebound = 7500.0
+travel = 0.12
+anti-roll = 6500.0
+
+[coilover-rl]
 spring-constant = 45000.0
 bounce = 5500.0
 rebound = 6000.0
 travel = 0.12
 anti-roll = 5000.0
 
-[brake-front]
+[coilover-rr]
+spring-constant = 45000.0
+bounce = 5500.0
+rebound = 6000.0
+travel = 0.12
+anti-roll = 5000.0
+
+[brake-fl]
+texture = rotor_shiny_slotted_drilled
 friction = 0.6
 max-pressure = 3.0e6
 bias = 0.5
 radius = 0.1375
 area = 0.01
-rotor = rotor_shiny_slotted_drilled
 
-[brake-rear]
+[brake-fr]
+texture = rotor_shiny_slotted_drilled
+friction = 0.6
+max-pressure = 3.0e6
+bias = 0.5
+radius = 0.1375
+area = 0.01
+
+[brake-rl]
+texture = rotor_shiny_slotted_drilled
 friction = 0.6
 max-pressure = 3.0e6
 bias = 0.5
 radius = 0.1375
 area = 0.01
 handbrake = 1.0
-rotor = rotor_shiny_slotted_drilled
+
+[brake-rr]
+texture = rotor_shiny_slotted_drilled
+friction = 0.6
+max-pressure = 3.0e6
+bias = 0.5
+radius = 0.1375
+area = 0.01
+handbrake = 1.0
+
+[tire-fl]
+texture = touring
+size = 255/45r17	# Mustang GT Pirelli P235/55ZR17
+type = tire-touring
+
+[tire-fr]
+texture = touring
+size = 255/45r17
+type = tire-touring
+
+[tire-rl]
+texture = touring
+size = 255/45r17
+type = tire-touring
+
+[tire-rr]
+texture = touring
+size = 255/45r17
+type = tire-touring
 
 [wheel-fl]
+texture = 10_spoke_f
+mesh = 10_spoke_f
 orientation = left
-wheel-model = 10_spoke_f
-tire-texture = touring
-size = 255/45r17	# Mustang GT Pirelli P235/55ZR17
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = -0.9, 1.45, -0.48
 hinge = 0,0,-0.1
 camber = -1.33
@@ -131,13 +178,9 @@ ackermann = 8.94	# 50% ackermann
 steering = 33
 
 [wheel-fr]
+texture = 10_spoke_f
+mesh = 10_spoke_f
 orientation = right
-wheel-model = 10_spoke_f
-tire-texture = touring
-size = 255/45r17
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = 0.9, 1.45, -0.48
 hinge = 0,0,-0.1
 camber = 1.33
@@ -147,13 +190,9 @@ ackermann = -8.94
 steering = 33
 
 [wheel-rl]
+texture = 10_spoke_f
+mesh = 10_spoke_f
 orientation = left
-wheel-model = 10_spoke_f
-tire-texture = touring
-size = 255/45r17
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = -0.92, -1.34, -0.52
 hinge = 0,0,-0.1
 camber = -0.45
@@ -161,13 +200,9 @@ caster = 0.28
 toe = -0.2
 
 [wheel-rr]
+texture = 10_spoke_f
+mesh = 10_spoke_f
 orientation = right
-wheel-model = 10_spoke_f
-tire-texture = touring
-size = 255/45r17
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = 0.92, -1.34, -0.52
 hinge = 0,0,-0.1
 camber = 0.45

@@ -85,44 +85,90 @@ surface-area = 0.5
 lift-coefficient = -3.5
 efficiency = 0.95
 
-[coilover-front]
+[coilover-fl]
 spring-constant = 49131.9
 bounce = 2588
 rebound = 2612
 travel = 0.15
 anti-roll = 9500.0
 
-[coilover-rear]
+[coilover-fr]
+spring-constant = 49131.9
+bounce = 2588
+rebound = 2612
+travel = 0.15
+anti-roll = 9500.0
+
+[coilover-rl]
 spring-constant = 51137.3
 bounce = 2788
 rebound = 2912
 travel = 0.15
 anti-roll = 6000.0
 
-[brake-front]
+[coilover-rr]
+spring-constant = 51137.3
+bounce = 2788
+rebound = 2912
+travel = 0.15
+anti-roll = 6000.0
+
+[brake-fl]
+texture = rotor_worn
 friction = 1.53
 max-pressure = 2.0e6
 bias = 0.57
 radius = 0.14
 area = 0.015
-rotor = rotor_worn
 
-[brake-rear]
+[brake-fr]
+texture = rotor_worn
+friction = 1.53
+max-pressure = 2.0e6
+bias = 0.57
+radius = 0.14
+area = 0.015
+
+[brake-rl]
+texture = rotor_worn
 friction = 1.53
 max-pressure = 2.0e6
 bias = 0.43
 radius = 0.14
 area = 0.015
-rotor = rotor_worn
+
+[brake-rr]
+texture = rotor_worn
+friction = 1.53
+max-pressure = 2.0e6
+bias = 0.43
+radius = 0.14
+area = 0.015
+
+[tire-fl]
+texture = touring
+size = 225/45r18
+type = tire-touring
+
+[tire-fr]
+texture = touring
+size = 225/45r18
+type = tire-touring
+
+[tire-rl]
+texture = touring
+size = 225/45r18
+type = tire-touring
+
+[tire-rr]
+texture = touring
+size = 225/45r18
+type = tire-touring
 
 [wheel-fl]
+texture = 5_spoke_m
+mesh = 5_spoke_m
 orientation = left
-wheel-model = 5_spoke_m
-tire-texture = touring
-size = 225/45r18
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = -0.75, 1.20, -0.48
 hinge = 0,0,0
 camber = -1.33
@@ -132,13 +178,9 @@ ackermann = 8.68	# 50% Ackermann
 steering = 30
 
 [wheel-fr]
+texture = 5_spoke_m
+mesh = 5_spoke_m
 orientation = right
-wheel-model = 5_spoke_m
-tire-texture = touring
-size = 225/45r18
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = 0.75, 1.20, -0.48
 hinge = 0,0,0
 camber = 1.33
@@ -148,13 +190,9 @@ ackermann = -8.68
 steering = 30
 
 [wheel-rl]
+texture = 5_spoke_m
+mesh = 5_spoke_m
 orientation = left
-wheel-model = 5_spoke_m
-tire-texture = touring
-size = 225/45r18
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = -0.75, -1.20, -0.48
 hinge = 0,-0.85,0
 camber = -0.45
@@ -162,13 +200,9 @@ caster = 0.28
 toe = 0.0
 
 [wheel-rr]
+texture = 5_spoke_m
+mesh = 5_spoke_m
 orientation = right
-wheel-model = 5_spoke_m
-tire-texture = touring
-size = 225/45r18
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = 0.75, -1.20, -0.48
 hinge = 0,-0.85,0
 camber = 0.45

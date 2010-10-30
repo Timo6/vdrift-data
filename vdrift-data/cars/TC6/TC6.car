@@ -89,45 +89,92 @@ surface-area = 0.5
 lift-coefficient = -1.2
 efficiency = 0.95
 
-[coilover-front]
+[coilover-fl]
 spring-constant = 72000
 bounce = 7500
 rebound = 5000
 travel = 0.32
 anti-roll = 3700
 
-[coilover-rear]
+[coilover-fr]
+spring-constant = 72000
+bounce = 7500
+rebound = 5000
+travel = 0.32
+anti-roll = 3700
+
+[coilover-rl]
 spring-constant = 68000
 bounce = 7500
 rebound = 5000
 travel = 0.32
 anti-roll = 8000
 
-[brake-front]
+[coilover-rr]
+spring-constant = 68000
+bounce = 7500
+rebound = 5000
+travel = 0.32
+anti-roll = 8000
+
+[brake-fl]
+texture = rotor_worn
 friction = 0.73
 max-pressure = 3.2e6
 bias = 0.61
 radius = 0.17
 area = 0.015
-rotor = rotor_worn
 
-[brake-rear]
+[brake-fr]
+texture = rotor_worn
+friction = 0.73
+max-pressure = 3.2e6
+bias = 0.61
+radius = 0.17
+area = 0.015
+
+[brake-rl]
+texture = rotor_worn
 friction = 0.73
 max-pressure = 3.2e6
 bias = 0.39
 radius = 0.14
 area = 0.015
 handbrake = 1.1
-rotor = rotor_worn
+
+[brake-rr]
+texture = rotor_worn
+friction = 0.73
+max-pressure = 3.2e6
+bias = 0.39
+radius = 0.14
+area = 0.015
+handbrake = 1.1
+
+[tire-fl]
+texture = touring
+size = 215/50r16
+type = tire-touring
+
+[tire-fr]
+texture = touring
+size = 215/50r16
+type = tire-touring
+
+[tire-rl]
+texture = touring
+size = 215/50r16
+type = tire-touring
+
+[tire-rr]
+texture = touring
+size = 215/50r16
+type = tire-touring
 
 [wheel-fl]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = left
-wheel-model = oem_wheel
-tire-texture = touring
-size = 215/50r16
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = -0.75, 1.26, -0.43
 hinge = 3.70, 1.1, -0.43
 camber = -1.33
@@ -137,13 +184,9 @@ ackermann = 8.23	# 50% ackermann
 steering = 26
 
 [wheel-fr]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = right
-wheel-model = oem_wheel
-tire-texture = touring
-size = 215/50r16
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = 0.75, 1.26, -0.43
 hinge = -3.70, 1.1, -0.43
 camber = 1.33
@@ -153,13 +196,9 @@ ackermann = -8.23
 steering = 26
 
 [wheel-rl]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = left
-wheel-model = oem_wheel
-tire-texture = touring
-size = 215/50r16
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = -0.75, -1.28, -0.43
 hinge = 3.70, -1.0, -0.43
 camber = -0.45
@@ -167,13 +206,9 @@ caster = 0.28
 toe = 0.0
 
 [wheel-rr]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = right
-wheel-model = oem_wheel
-tire-texture = touring
-size = 215/50r16
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = 0.75, -1.28, -0.43
 hinge = -3.70, -1.0, -0.43
 camber = 0.45

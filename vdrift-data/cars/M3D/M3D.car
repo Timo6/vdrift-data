@@ -87,45 +87,92 @@ surface-area = 0.5
 lift-coefficient = -2
 efficiency = 0.95
 
-[coilover-front]
+[coilover-fl]
 spring-constant = 75000
 bounce = 3300
 rebound = 9900
 travel = 0.32
 anti-roll = 5000
 
-[coilover-rear]
+[coilover-fr]
+spring-constant = 75000
+bounce = 3300
+rebound = 9900
+travel = 0.32
+anti-roll = 5000
+
+[coilover-rl]
 spring-constant = 62000
 bounce = 3000
 rebound = 9000
 travel = 0.32
 anti-roll = 10000
 
-[brake-front]
+[coilover-rr]
+spring-constant = 62000
+bounce = 3000
+rebound = 9000
+travel = 0.32
+anti-roll = 10000
+
+[brake-fl]
+texture = rotor_worn
 friction = 0.73
 max-pressure = 2.5e6
 bias = 0.61
 radius = 0.17
 area = 0.015
-rotor = rotor_worn
 
-[brake-rear]
+[brake-fr]
+texture = rotor_worn
+friction = 0.73
+max-pressure = 2.5e6
+bias = 0.61
+radius = 0.17
+area = 0.015
+
+[brake-rl]
+texture = rotor_worn
 friction = 0.73
 max-pressure = 3.5e6
 bias = 0.39
 radius = 0.14
 area = 0.015
 handbrake = 4.0
-rotor = rotor_worn
+
+[brake-rr]
+texture = rotor_worn
+friction = 0.73
+max-pressure = 3.5e6
+bias = 0.39
+radius = 0.14
+area = 0.015
+handbrake = 4.0
+
+[tire-fl]
+texture = touring
+size = 205/55r15
+type = tire-touring
+
+[tire-fr]
+texture = touring
+size = 205/55r15
+type = tire-touring
+
+[tire-rl]
+texture = touring
+size = 205/55r15
+type = tire-touring
+
+[tire-rr]
+texture = touring
+size = 205/55r15
+type = tire-touring
 
 [wheel-fl]
+texture = 5_spoke_m
+mesh = 5_spoke_m
 orientation = left
-wheel-model = 5_spoke_m
-tire-texture = touring
-size = 205/55r15
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = -0.71, 1.34, -0.44
 hinge = 0,0,0
 camber = -2.00
@@ -135,13 +182,9 @@ ackermann = 7.69	# 50% ackermann
 steering = 40
 
 [wheel-fr]
+texture = 5_spoke_m
+mesh = 5_spoke_m
 orientation = right
-wheel-model = 5_spoke_m
-tire-texture = touring
-size = 205/55r15
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = 0.71, 1.34, -0.44
 hinge = 0,0,0
 camber = 2.00
@@ -151,13 +194,9 @@ ackermann = -7.69
 steering = 40
 
 [wheel-rl]
+texture = 5_spoke_m
+mesh = 5_spoke_m
 orientation = left
-wheel-model = 5_spoke_m
-tire-texture = touring
-size = 205/55r15
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = -0.71, -1.24, -0.44
 hinge = 0.2,-1.1,0
 camber = -3.00
@@ -165,13 +204,9 @@ caster = 0.28
 toe = 0.0
 
 [wheel-rr]
+texture = 5_spoke_m
+mesh = 5_spoke_m
 orientation = right
-wheel-model = 5_spoke_m
-tire-texture = touring
-size = 205/55r15
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = 0.71, -1.24, -0.44
 hinge = -0.2,-1.1,0
 camber = 3.00

@@ -62,45 +62,88 @@ position = 0.0, 0.0, 0.2
 frontal-area = 2
 drag-coefficient = 0.3
 
-[coilover-front]
+[coilover-fl]
 spring-constant = 30000
 bounce = 1250
 rebound = 3750
 travel = 0.10
 anti-roll = 5000
 
-[coilover-rear]
+[coilover-fr]
+spring-constant = 30000
+bounce = 1250
+rebound = 3750
+travel = 0.10
+anti-roll = 5000
+
+[coilover-rl]
 spring-constant = 30000
 bounce = 1250
 rebound = 3750
 travel = 0.10
 anti-roll = 2000
 
-[brake-front]
+[coilover-rr]
+spring-constant = 30000
+bounce = 1250
+rebound = 3750
+travel = 0.10
+anti-roll = 2000
+
+[brake-fl]
 friction = 0.3
 max-pressure = 2.5e6
 bias = 0.65
 radius = 0.19
 area = 0.015
-#rotor = rotor_shiny_slotted_drilled
 
-[brake-rear]
+[brake-fr]
+friction = 0.3
+max-pressure = 2.5e6
+bias = 0.65
+radius = 0.19
+area = 0.015
+
+[brake-rl]
 friction = 0.3
 max-pressure = 2.5e6
 bias = 0.35
 radius = 0.18
 area = 0.015
 handbrake = 1.5
-#rotor = rotor_shiny_slotted_drilled
+
+[brake-rr]
+friction = 0.3
+max-pressure = 2.5e6
+bias = 0.35
+radius = 0.18
+area = 0.015
+handbrake = 1.5
+
+[tire-fl]
+texture = touring
+size = 185/55r13
+type = tire-slick
+
+[tire-fr]
+texture = touring
+size = 185/55r13
+type = tire-slick
+
+[tire-rl]
+texture = touring
+size = 185/55r13
+type = tire-slick
+
+[tire-rr]
+texture = touring
+size = 185/55r13
+type = tire-slick
 
 [wheel-fl]
+texture = 5_spoke_m
+mesh = 5_spoke_m
 orientation = left
-wheel-model = 5_spoke_m
-tire-texture = touring
-size = 185/55r13
-tire = tire-slick
-brake = brake-rear
-coilover = coilover-front
 position = -0.74, 1.20, -0.48
 hinge = 0,0,0
 camber = -1.0
@@ -110,13 +153,9 @@ ackermann = 8.64	# 50% ackermann
 steering = 20
 
 [wheel-fr]
+texture = 5_spoke_m
+mesh = 5_spoke_m
 orientation = right
-wheel-model = 5_spoke_m
-tire-texture = touring
-size = 185/55r13
-tire = tire-slick
-brake = brake-rear
-coilover = coilover-front
 position = 0.74, 1.20, -0.48
 hinge = 0,0,0
 camber = 1.0
@@ -126,13 +165,9 @@ ackermann = -8.64
 steering = 20
 
 [wheel-rl]
+texture = 5_spoke_m
+mesh = 5_spoke_m
 orientation = left
-wheel-model = 5_spoke_m
-tire-texture = touring
-size = 185/55r13
-tire = tire-slick
-brake = brake-rear
-coilover = coilover-rear
 position = -0.74, -1.18, -0.48
 hinge = 0,0,0
 camber = -0.5
@@ -140,13 +175,9 @@ caster = 0.0
 toe = -1.0
 
 [wheel-rr]
+texture = 5_spoke_m
+mesh = 5_spoke_m
 orientation = right
-wheel-model = 5_spoke_m
-tire-texture = touring
-size = 185/55r13
-tire = tire-slick
-brake = brake-rear
-coilover = coilover-rear
 position = 0.74, -1.18, -0.48
 hinge = 0,0,0
 camber = 0.5

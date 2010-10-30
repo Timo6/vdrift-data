@@ -73,45 +73,88 @@ surface-area = 0.3
 lift-coefficient = -0.3
 efficiency = 0.95
 
-[coilover-front]
+[coilover-fl]
 spring-constant = 50000
 bounce = 1700
 rebound = 5200
 travel = 0.10
 anti-roll = 20000
 
-[coilover-rear]
+[coilover-fr]
+spring-constant = 50000
+bounce = 1700
+rebound = 5200
+travel = 0.10
+anti-roll = 20000
+
+[coilover-rl]
 spring-constant = 54000
 bounce = 1900
 rebound = 5700
 travel = 0.10
 anti-roll = 20000
 
-[brake-front]
+[coilover-rr]
+spring-constant = 54000
+bounce = 1900
+rebound = 5700
+travel = 0.10
+anti-roll = 20000
+
+[brake-fl]
 friction = 0.8
 max-pressure = 5e5
 bias = 0.57
 radius = 0.15
 area = 0.01
-#rotor = rotor_shiny_slotted_drilled
 
-[brake-rear]
+[brake-fr]
+friction = 0.8
+max-pressure = 5e5
+bias = 0.57
+radius = 0.15
+area = 0.01
+
+[brake-rl]
 friction = 0.8
 max-pressure = 5e5
 bias = 0.43
 radius = 0.15
 area = 0.01
 handbrake = 1.0
-#rotor = rotor_shiny_slotted_drilled
+
+[brake-rr]
+friction = 0.8
+max-pressure = 5e5
+bias = 0.43
+radius = 0.15
+area = 0.01
+handbrake = 1.0
+
+[tire-fl]
+texture = touring
+size = 285/50r15
+type = tire-slick
+
+[tire-fr]
+texture = touring
+size = 285/50r15
+type = tire-slick
+
+[tire-rl]
+texture = touring
+size = 285/50r15
+type = tire-slick
+
+[tire-rr]
+texture = touring
+size = 285/50r15
+type = tire-slick
 
 [wheel-fl]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = left
-wheel-model = oem_wheel
-tire-texture = touring
-size = 285/50r15
-tire = tire-slick
-brake = brake-front
-coilover = coilover-front
 position = -0.76, 1.40, -0.45
 hinge = 0.65, 1.40, -0.45
 camber = -3.0
@@ -121,13 +164,9 @@ ackermann = 8.2	# 50% ackermann
 steering = 30
 
 [wheel-fr]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = right
-wheel-model = oem_wheel
-tire-texture = touring
-size = 285/50r15
-tire = tire-slick
-brake = brake-front
-coilover = coilover-front
 position = 0.76, 1.40, -0.45
 hinge = -0.65, 1.40, -0.45
 camber = 3.0
@@ -137,13 +176,9 @@ ackermann = -8.2
 steering = 30
 
 [wheel-rl]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = left
-wheel-model = oem_wheel
-tire-texture = touring
-size = 285/50r15
-tire = tire-slick
-brake = brake-rear
-coilover = coilover-rear
 position = -0.76, -1.18, -0.45
 hinge = 0.64, -1.18, -0.43
 camber = -3.0
@@ -151,13 +186,9 @@ caster = 0.0
 toe = -0.5
 
 [wheel-rr]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = right
-wheel-model = oem_wheel
-tire-texture = touring
-size = 285/50r15
-tire = tire-slick
-brake = brake-rear
-coilover = coilover-rear
 position = 0.76, -1.18, -0.45
 hinge = -0.64, -1.18, -0.43
 camber = 3.0
