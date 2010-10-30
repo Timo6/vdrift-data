@@ -1,14 +1,12 @@
 include ../../carparts/tire/competition
 
-drive = RWD
-
 [clutch]
 area = 0.75
 max-pressure = 14000.0
 radius = 0.15
 sliding = 0.27
 
-[differential]
+[differential-rear]
 anti-slip = 250.0
 final-drive = 3.4
 

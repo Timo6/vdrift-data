@@ -1,7 +1,5 @@
 include ../../carparts/tire/competition
 
-drive = RWD
-
 [engine]
 position = 0.13, -1.46, -0.18
 mass = 210.0
@@ -52,7 +50,7 @@ gear-ratio-5 = 0.92
 gear-ratio-6 = 0.75
 shift-delay = 0.06
 
-[differential]
+[differential-rear]
 final-drive = 3.44
 anti-slip = 600.0
 

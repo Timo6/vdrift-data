@@ -1,7 +1,5 @@
 include ../../carparts/tire/slick
 
-drive = RWD
-
 [engine]
 position = -0.50, 0.0, -0.24
 mass = 180.0
@@ -47,7 +45,7 @@ gear-ratio-5 = 1.00
 gear-ratio-6 = 0.90
 shift-delay = 0.00
 
-[differential]
+[differential-rear]
 final-drive = 2.87
 anti-slip = 360.0
 
