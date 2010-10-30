@@ -161,47 +161,79 @@ surface-area = 1.0
 lift-coefficient = -0.20
 efficiency = 1
 
-[coilover-front]
+[coilover-fl]
 spring-constant = 79865 # assuming 0.75 to 1 lever arm ratio
 bounce = 3000.0
 rebound = 10000.0
 travel = 0.12
 anti-roll = 12000
 
-[coilover-rear]
+[coilover-fr
+spring-constant = 79865
+bounce = 3000.0
+rebound = 10000.0
+travel = 0.12
+anti-roll = 12000
+
+[coilover-rl]
 spring-constant = 104062
 bounce = 4000.0
 rebound = 12000.0
 travel = 0.14
 anti-roll = 10000
 
-[brake-front]
+[coilover-rr]
+spring-constant = 104062
+bounce = 4000.0
+rebound = 12000.0
+travel = 0.14
+anti-roll = 10000
+
+[brake-fl]
+texture = rotor_shiny_slotted_drilled
 friction = 15.0
 max-pressure = 2.5e6
 bias = 0.65
 radius = 0.175 # 350mm
 area = 0.000688 # 21.5mm x 32mm
-rotor = rotor_shiny_slotted_drilled
 
-[brake-rear]
+[brake-fr]
+texture = rotor_shiny_slotted_drilled
+friction = 15.0
+max-pressure = 2.5e6
+bias = 0.65
+radius = 0.175 # 350mm
+area = 0.000688 # 21.5mm x 32mm
+
+[brake-rl]
+texture = rotor_shiny_slotted_drilled
 friction = 15.0
 max-pressure = 2.5e6
 bias = 0.35
 radius = 0.165 # 330mm
 area = 0.000448 # 16mm x 28mm
 handbrake = 1.0
-rotor = rotor_shiny_slotted_drilled
+
+[brake-rr]
+texture = rotor_shiny_slotted_drilled
+friction = 15.0
+max-pressure = 2.5e6
+bias = 0.35
+radius = 0.165 # 330mm
+area = 0.000448 # 16mm x 28mm
+handbrake = 1.0
 
 #---------- F R O N T
 
-[wheel-fl]
-orientation = left
-wheel-model = pentagonal_hub
-tire-texture = touring
+[tire-fl]
+texture = touring
 size = 215/45r18
-tire = tire-competition
-brake = brake-front
-coilover = coilover-front
+type = tire-competition
+
+[wheel-fl]
+texture = pentagonal_hub
+mesh = pentagonal_hub
+orientation = left
 position = -0.85, 1.12, -0.27			# track +-Y = 1669/2
 hinge = 0.50, 0.90, -0.20
 camber = -1.0
@@ -210,14 +242,15 @@ toe = -0.2
 ackermann = 8.96	# 50% ackermann
 steering = 33
 
-[wheel-fr]
-orientation = right
-wheel-model = pentagonal_hub
-tire-texture = touring
+[tire-fr]
+texture = touring
 size = 215/45r18
-tire = tire-competition
-brake = brake-front
-coilover = coilover-front
+type = tire-competition
+
+[wheel-fr]
+texture = pentagonal_hub
+mesh = pentagonal_hub
+orientation = right
 position = 0.85, 1.12, -0.27
 hinge = -0.50, 0.90, -0.20
 camber = 1.0
@@ -228,28 +261,30 @@ steering = 33
 
 #---------- R E A R
 
-[wheel-rl]
-orientation = left
-wheel-model = pentagonal_hub
-tire-texture = touring
+[tire-rl]
+texture = touring
 size = 275/40r18
-tire = tire-competition
-brake = brake-rear
-coilover = coilover-rear
+type = tire-competition
+
+[wheel-rl]
+texture = pentagonal_hub
+mesh = pentagonal_hub
+orientation = left
 position = -0.8085, -1.51, -0.28		# track +-Y = 1617/2
 hinge = 1.00 , -0.0, -0.0
 camber = -0.45
 caster = 0.28
 toe = -0.1
 
-[wheel-rr]
-orientation = right
-wheel-model = pentagonal_hub
-tire-texture = touring
+[tire-rr]
+texture = touring
 size = 275/40r18
-tire = tire-competition
-brake = brake-rear
-coilover = coilover-rear
+type = tire-competition
+
+[wheel-rr]
+texture = pentagonal_hub
+mesh = pentagonal_hub
+orientation = right
 position = 0.8085, -1.51, -0.28
 hinge = -1.00 , 0.0, -0.0
 camber = 0.45

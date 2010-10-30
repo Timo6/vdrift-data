@@ -83,49 +83,96 @@ surface-area = 0.5
 lift-coefficient = -2
 efficiency = 0.95
 
-[coilover-front]
+[coilover-fl]
 spring-constant = 100000
 bounce = 4000
 rebound = 12000
 travel = 0.15
 anti-roll = 20000
 
-[coilover-rear]
+[coilover-fr]
+spring-constant = 100000
+bounce = 4000
+rebound = 12000
+travel = 0.15
+anti-roll = 20000
+
+[coilover-rl]
 spring-constant = 90000
 bounce = 3300
 rebound = 10000
 travel = 0.15
 anti-roll = 10000
 
-[brake-front]
+[coilover-rr]
+spring-constant = 90000
+bounce = 3300
+rebound = 10000
+travel = 0.15
+anti-roll = 10000
+
+[brake-fl]
+texture = rotor_shiny_slotted_drilled
 friction = 1.03
 max-pressure = 2.5e6
 bias = 0.61
 radius = 0.17
 area = 0.015
-rotor = rotor_shiny_slotted_drilled
 
-[brake-rear]
+[brake-fr]
+texture = rotor_shiny_slotted_drilled
+friction = 1.03
+max-pressure = 2.5e6
+bias = 0.61
+radius = 0.17
+area = 0.015
+
+[brake-rl]
+texture = rotor_shiny_slotted_drilled
 friction = 1.03
 max-pressure = 2.5e6
 bias = 0.39
 radius = 0.14
 area = 0.015
 handbrake = 1.0
-rotor = rotor_shiny_slotted_drilled
+
+[brake-rr]
+texture = rotor_shiny_slotted_drilled
+friction = 1.03
+max-pressure = 2.5e6
+bias = 0.39
+radius = 0.14
+area = 0.015
+handbrake = 1.0
 
 #M3 GTR: Michelin 27/65-18 (front) and 27/68-18 (rear)
 #track front 1609 mm, rear 1602 mm
 # 50% ackermann
 
+[tire-fl]
+texture = touring
+size = 270/35r18
+type = tire-slick
+
+[tire-fr]
+texture = touring
+size = 270/35r18
+type = tire-slick
+
+[tire-rl]
+texture = touring
+size = 270/40r18
+type = tire-slick
+
+[tire-rr]
+texture = touring
+size = 270/40r18
+type = tire-slick
+
 [wheel-fl]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = left
-wheel-model = oem_wheel
-tire-texture = touring
-size = 270/35r18	
-tire = tire-slick
-brake = brake-front
-coilover = coilover-front
 position = -0.84, 1.51, -0.43	#-0.80, 1.51, -0.43	
 hinge = 0,0,0
 camber = -0.5
@@ -135,13 +182,9 @@ ackermann = 8.18
 steering = 30
 
 [wheel-fr]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = right
-wheel-model = oem_wheel
-tire-texture = touring
-size = 270/35r18
-tire = tire-slick
-brake = brake-front
-coilover = coilover-front
 position = 0.84, 1.51, -0.43	#0.80, 1.51, -0.43
 hinge = 0,0,0
 camber = 0.5
@@ -151,13 +194,9 @@ ackermann = -8.18
 steering = 30
 
 [wheel-rl]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = left
-wheel-model = oem_wheel
-tire-texture = touring
-size = 270/40r18
-tire = tire-slick
-brake = brake-rear
-coilover = coilover-rear
 position = -0.84, -1.35, -0.42	#-0.80, -1.35, -0.42
 hinge = -1.1, 0, 0
 camber = -1.5
@@ -165,13 +204,9 @@ caster = 0.0
 toe = 0.0
 
 [wheel-rr]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = right
-wheel-model = oem_wheel
-tire-texture = touring
-size = 270/40r18
-tire = tire-slick
-brake = brake-rear
-coilover = coilover-rear
 position = 0.84, -1.35, -0.42	#0.80, -1.35, -0.42
 hinge = -1.1, 0,0
 camber = 1.5

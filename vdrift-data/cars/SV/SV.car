@@ -76,7 +76,7 @@ surface-area = 0.5
 lift-coefficient = -0.2
 efficiency = 0.95
 
-[coilover-front]
+[coilover-fl]
 bounce = 3000
 damper-factor-1 = 0.02, 2.0
 damper-factor-2 = 0.1, 1.0
@@ -91,7 +91,22 @@ spring-factor-4 = 0.2, 5.0
 travel = 0.3
 anti-roll = 6000
 
-[coilover-rear]
+[coilover-fr]
+bounce = 3000
+damper-factor-1 = 0.02, 2.0
+damper-factor-2 = 0.1, 1.0
+damper-factor-3 = 0.2, 0.8
+damper-factor-4 = 0.5, 0.5
+rebound = 5000
+spring-constant = 40000
+spring-factor-1 = 0.02, 1.0
+spring-factor-2 = 0.1, 1.5
+spring-factor-3 = 0.15, 3.0
+spring-factor-4 = 0.2, 5.0
+travel = 0.3
+anti-roll = 6000
+
+[coilover-rl]
 bounce = 4500
 damper-factor-1 = 0.02, 2.0
 damper-factor-2 = 0.1, 1.0
@@ -106,31 +121,79 @@ spring-factor-4 = 0.2, 5.0
 travel = 0.3
 anti-roll = 4000
 
-[brake-front]
+[coilover-rr]
+bounce = 4500
+damper-factor-1 = 0.02, 2.0
+damper-factor-2 = 0.1, 1.0
+damper-factor-3 = 0.2, 0.8
+damper-factor-4 = 0.5, 0.5
+rebound = 7500
+spring-constant = 62000
+spring-factor-1 = 0.02, 1.0
+spring-factor-2 = 0.1, 1.5
+spring-factor-3 = 0.15, 3.0
+spring-factor-4 = 0.2, 5.0
+travel = 0.3
+anti-roll = 4000
+
+[brake-fl]
+texture = rotor_worn
 friction = 0.5
 max-pressure = 4.0e6
 bias = 0.55
 radius = 0.14
 area = 0.015
-rotor = rotor_worn
 
-[brake-rear]
+[brake-fr]
+texture = rotor_worn
+friction = 0.5
+max-pressure = 4.0e6
+bias = 0.55
+radius = 0.14
+area = 0.015
+
+[brake-rl]
+texture = rotor_worn
 friction = 0.5
 max-pressure = 4.0e6
 bias = 0.45
 radius = 0.14
 area = 0.015
 handbrake = 1.0
-rotor = rotor_worn
+
+[brake-rr]
+texture = rotor_worn
+friction = 0.5
+max-pressure = 4.0e6
+bias = 0.45
+radius = 0.14
+area = 0.015
+handbrake = 1.0
+
+[tire-fl]
+texture = touring
+size = 275/55r15
+type = tire-touring
+
+[tire-fr]
+texture = touring
+size = 275/55r15
+type = tire-touring
+
+[tire-rl]
+texture = touring
+size = 275/55r15
+type = tire-touring
+
+[tire-rr]
+texture = touring
+size = 275/55r15
+type = tire-touring
 
 [wheel-fl]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = left
-wheel-model = oem_wheel
-tire-texture = touring
-size = 275/55r15
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = -0.70, 1.2, -0.247	# front track 1410 mm
 hinge = 0,0,-.3
 camber = -1.33
@@ -140,13 +203,9 @@ ackermann = 7.88	# 50% Ackermann
 steering = 20
 
 [wheel-fr]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = right
-wheel-model = oem_wheel
-tire-texture = touring
-size = 275/55r15
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = 0.70, 1.2, -0.247
 hinge = 0, 0, -0.3
 camber = 1.33
@@ -156,13 +215,9 @@ ackermann = -7.88
 steering = 20
 
 [wheel-rl]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = left
-wheel-model = oem_wheel
-tire-texture = touring
-size = 275/55r15
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = -0.75, -1.28, -0.3	# rear track 1540 mm
 hinge = 0,-2.4,-.3
 camber = -0.45
@@ -170,13 +225,9 @@ caster = 0.28
 toe = 0.0
 
 [wheel-rr]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = right
-wheel-model = oem_wheel
-tire-texture = touring
-size = 275/55r15
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = 0.75, -1.28, -0.3
 hinge = 0,-2.4,-.3
 camber = 0.45

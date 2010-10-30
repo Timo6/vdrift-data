@@ -89,45 +89,92 @@ surface-area = 0.5
 lift-coefficient = -3
 efficiency = 0.95
 
-[coilover-front]
+[coilover-fl]
 spring-constant = 50000
 bounce = 2500
 rebound = 7500
 travel = 0.19
 anti-roll = 8000.0
 
-[coilover-rear]
+[coilover-fr]
+spring-constant = 50000
+bounce = 2500
+rebound = 7500
+travel = 0.19
+anti-roll = 8000.0
+
+[coilover-rl]
 spring-constant = 50000
 bounce = 2500
 rebound = 7500
 travel = 0.215
 anti-roll = 6000.0
 
-[brake-front]
+[coilover-rr]
+spring-constant = 50000
+bounce = 2500
+rebound = 7500
+travel = 0.215
+anti-roll = 6000.0
+
+[brake-fl]
+texture = rotor_worn
 friction = 0.73
 max-pressure = 3.5e6
 bias = 0.62
 radius = 0.14
 area = 0.015
-rotor = rotor_worn
 
-[brake-rear]
+[brake-fr]
+texture = rotor_worn
+friction = 0.73
+max-pressure = 3.5e6
+bias = 0.62
+radius = 0.14
+area = 0.015
+
+[brake-rl]
+texture = rotor_worn
 friction = 0.73
 max-pressure = 3.5e6
 bias = 0.38
 radius = 0.14
 area = 0.015
 handbrake = 1.0
-rotor = rotor_worn
+
+[brake-rr]
+texture = rotor_worn
+friction = 0.73
+max-pressure = 3.5e6
+bias = 0.38
+radius = 0.14
+area = 0.015
+handbrake = 1.0
+
+[tire-fl]
+texture = touring
+size = 225/50r16
+type = tire-touring
+
+[tire-fr]
+texture = touring
+size = 225/50r16
+type = tire-touring
+
+[tire-rl]
+texture = touring
+size = 225/50r16
+type = tire-touring
+
+[tire-rr]
+texture = touring
+size = 225/50r16
+type = tire-touring
 
 [wheel-fl]
+texture = 5_spoke_m
+mesh = 5_spoke_m
 orientation = left
-wheel-model = 5_spoke_m
-tire-texture = touring
-size = 225/50r16
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = -0.77, 1.26, -0.48
 hinge = 0, 0, 0
 camber = -1.33
@@ -137,13 +184,9 @@ ackermann = 8.5	# 50% Ackermann
 steering = 30
 
 [wheel-fr]
+texture = 5_spoke_m
+mesh = 5_spoke_m
 orientation = right
-wheel-model = 5_spoke_m
-tire-texture = touring
-size = 225/50r16
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = 0.77, 1.26, -0.48
 hinge = 0, 0, 0
 camber = 1.33
@@ -153,13 +196,9 @@ ackermann = -8.5
 steering = 30
 
 [wheel-rl]
+texture = 5_spoke_m
+mesh = 5_spoke_m
 orientation = left
-wheel-model = 5_spoke_m
-tire-texture = touring
-size = 225/50r16
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = -0.77, -1.26, -0.48
 hinge = 0, -0.85, 0
 camber = -0.45
@@ -167,13 +206,9 @@ caster = 0.28
 toe = 0.0
 
 [wheel-rr]
+texture = 5_spoke_m
+mesh = 5_spoke_m
 orientation = right
-wheel-model = 5_spoke_m
-tire-texture = touring
-size = 225/50r16
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = 0.77, -1.26, -0.48
 hinge = 0, -0.85, 0
 camber = 0.45

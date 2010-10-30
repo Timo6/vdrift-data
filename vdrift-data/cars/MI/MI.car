@@ -76,45 +76,92 @@ surface-area = 0.5
 lift-coefficient = 0.25
 efficiency = 0.95
 
-[coilover-front]
+[coilover-fl]
 spring-constant = 40000
 bounce = 1900
 rebound = 5700
 travel = 0.16
 anti-roll = 1200.0
 
-[coilover-rear]
+[coilover-fr]
+spring-constant = 40000
+bounce = 1900
+rebound = 5700
+travel = 0.16
+anti-roll = 1200.0
+
+[coilover-rl]
 spring-constant = 20000
 bounce = 1000
 rebound = 2900
 travel = 0.16
 anti-roll = 1000.0
 
-[brake-front]
+[coilover-rr]
+spring-constant = 20000
+bounce = 1000
+rebound = 2900
+travel = 0.16
+anti-roll = 1000.0
+
+[brake-fl]
+texture = rotor_worn
 friction = 0.2
 max-pressure = 2.5e6
 bias = 0.68
 radius = 0.1
 area = 0.015
-rotor = rotor_worn
 
-[brake-rear]
+[brake-fr]
+texture = rotor_worn
+friction = 0.2
+max-pressure = 2.5e6
+bias = 0.68
+radius = 0.1
+area = 0.015
+
+[brake-rl]
+texture = rotor_worn
 friction = 0.2
 max-pressure = 2.5e6
 bias = 0.32
 radius = 0.08
 area = 0.015
 handbrake = 1.0
-rotor = rotor_worn
+
+[brake-rr]
+texture = rotor_worn
+friction = 0.2
+max-pressure = 2.5e6
+bias = 0.32
+radius = 0.08
+area = 0.015
+handbrake = 1.0
+
+[tire-fl]
+texture = touring
+size = 165/70r10
+type = tire-touring
+
+[tire-fr]
+texture = touring
+size = 165/70r10
+type = tire-touring
+
+[tire-rl]
+texture = touring
+size = 165/70r10
+type = tire-touring
+
+[tire-rr]
+texture = touring
+size = 165/70r10
+type = tire-touring
 
 [wheel-fl]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = left
-wheel-model = oem_wheel
-tire-texture = touring
-size = 165/70r10
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = -0.58, 1.00, -0.45
 hinge = 0.56, 1.00, -0.68
 camber = -0.5
@@ -124,13 +171,9 @@ ackermann = 8.28	# 50% Ackermann
 steering = 30
 
 [wheel-fr]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = right
-wheel-model = oem_wheel
-tire-texture = touring
-size = 165/70r10
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = 0.58, 1.00, -0.45
 hinge = -0.56, 1.00, -0.68
 camber = 0.5
@@ -140,13 +183,9 @@ ackermann = -8.28
 steering = 30
 
 [wheel-rl]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = left
-wheel-model = oem_wheel
-tire-texture = touring
-size = 165/70r10
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = -0.58, -0.95, -0.42
 hinge = -0.51, -0.65, -0.03
 camber = -1.5
@@ -154,13 +193,9 @@ caster = 0.0
 toe = 0.0
 
 [wheel-rr]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = right
-wheel-model = oem_wheel
-tire-texture = touring
-size = 165/70r10
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = 0.58, -0.95, -0.42
 hinge = 0.51, -0.65, -0.03
 camber = 1.5

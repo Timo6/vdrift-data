@@ -79,45 +79,92 @@ surface-area = 0.5
 lift-coefficient = -0.5
 efficiency = 0.95
 
-[coilover-front]
+[coilover-fl]
 spring-constant = 55000.0
 bounce = 2300.0
 rebound = 2500.0
 travel = 0.12
 anti-roll = 15000.0
 
-[coilover-rear]
+[coilover-fr]
+spring-constant = 55000.0
+bounce = 2300.0
+rebound = 2500.0
+travel = 0.12
+anti-roll = 15000.0
+
+[coilover-rl]
 spring-constant = 45000.0
 bounce = 2000.0
 rebound = 2200.0
 travel = 0.12
 anti-roll = 8000.0
 
-[brake-front]
+[coilover-rr]
+spring-constant = 45000.0
+bounce = 2000.0
+rebound = 2200.0
+travel = 0.12
+anti-roll = 8000.0
+
+[brake-fl]
+texture = rotor_worn
 friction = 0.9
 max-pressure = 3.0e6
 bias = 0.6
 radius = 0.1397
 area = 0.01
-rotor = rotor_worn
 
-[brake-rear]
+[brake-fr]
+texture = rotor_worn
+friction = 0.9
+max-pressure = 3.0e6
+bias = 0.6
+radius = 0.1397
+area = 0.01
+
+[brake-rl]
+texture = rotor_worn
 friction = 0.9
 max-pressure = 3.0e6
 bias = 0.4
 radius = 0.1397
 area = 0.01
 handbrake = 1.0
-rotor = rotor_worn
+
+[brake-rr]
+texture = rotor_worn
+friction = 0.9
+max-pressure = 3.0e6
+bias = 0.4
+radius = 0.1397
+area = 0.01
+handbrake = 1.0
+
+[tire-fl]
+texture = touring
+size = 205/50r17
+type = tire-touring
+
+[tire-fr]
+texture = touring
+size = 205/50r17
+type = tire-touring
+
+[tire-rl]
+texture = touring
+size = 205/50r17
+type = tire-touring
+
+[tire-rr]
+texture = touring
+size = 205/50r17
+type = tire-touring
 
 [wheel-fl]
+texture = 5_spoke_m
+mesh = 5_spoke_m
 orientation = left
-wheel-model = 5_spoke_m
-tire-texture = touring
-size = 205/50r17
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = -0.73, 1.28, -0.48
 hinge = 0.71, 0.55, 0.0
 camber = -1.33
@@ -127,13 +174,9 @@ ackermann = 7.87	# 50% ackermann
 steering = 33
 
 [wheel-fr]
+texture = 5_spoke_m
+mesh = 5_spoke_m
 orientation = right
-wheel-model = 5_spoke_m
-tire-texture = touring
-size = 205/50r17
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = 0.73, 1.28, -0.48
 hinge = -0.71, 0.55, -0.0
 camber = 1.33
@@ -143,13 +186,9 @@ ackermann = -7.87
 steering = 33
 
 [wheel-rl]
+texture = 5_spoke_m
+mesh = 5_spoke_m
 orientation = left
-wheel-model = 5_spoke_m
-tire-texture = touring
-size = 205/50r17
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = -0.73, -1.31, -0.49
 hinge = 0.25, -1.94, 0.0
 camber = -0.45
@@ -157,13 +196,9 @@ caster = 0.28
 toe = -0.2
 
 [wheel-rr]
+texture = 5_spoke_m
+mesh = 5_spoke_m
 orientation = right
-wheel-model = 5_spoke_m
-tire-texture = touring
-size = 205/50r17
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = 0.73, -1.31, -0.49
 hinge = -0.25, -1.94, 0.0
 camber = 0.45

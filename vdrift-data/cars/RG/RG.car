@@ -73,50 +73,93 @@ surface-area = 0.5
 lift-coefficient = -0.5
 efficiency = 0.95
 
-[coilover-front]
+[coilover-fl]
 spring-constant = 50000.0
 bounce = 2500.0
 rebound = 7500.0
 travel = 0.13
 anti-roll = 25000.0
 
-[coilover-rear]
+[coilover-fr]
+spring-constant = 50000.0
+bounce = 2500.0
+rebound = 7500.0
+travel = 0.13
+anti-roll = 25000.0
+
+[coilover-rl]
 spring-constant = 40000.0
 bounce = 2000.0
 rebound = 6000.0
 travel = 0.13
 anti-roll = 8000.0
 
-[brake-front]
+[coilover-rr]
+spring-constant = 40000.0
+bounce = 2000.0
+rebound = 6000.0
+travel = 0.13
+anti-roll = 8000.0
+
+[brake-fl]
 friction = 0.6
 max-pressure = 2.9e6
 bias = 0.6
 radius = 0.1375
 area = 0.01
-#rotor = rotor_worn
 
-[brake-rear]
+[brake-fr]
+friction = 0.6
+max-pressure = 2.9e6
+bias = 0.6
+radius = 0.1375
+area = 0.01
+
+[brake-rl]
 friction = 0.6
 max-pressure = 2.6e6
 bias = 0.4
 radius = 0.12
 area = 0.01
 handbrake = 2.0
-#rotor = rotor_worn
+
+[brake-rr]
+friction = 0.6
+max-pressure = 2.6e6
+bias = 0.4
+radius = 0.12
+area = 0.01
+handbrake = 2.0
 
 [driver]
 position = -0.33, 0.02, 0.1
 view-position = -0.33, 0.02, 0.45
 hood-mounted-view-position = 0.0, 0.7, 0.35
 
-[wheel-fl]
-orientation = left
-wheel-model = oem_wheel
-tire-texture = touring
+[tire-fl]
+texture = touring
 size = 155/75r13
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
+type = tire-touring
+
+[tire-fr]
+texture = touring
+size = 155/75r13
+type = tire-touring
+
+[tire-rl]
+texture = touring
+size = 155/75r13
+type = tire-touring
+
+[tire-rr]
+texture = touring
+size = 155/75r13
+type = tire-touring
+
+[wheel-fl]
+texture = oem_wheel
+mesh = oem_wheel
+orientation = left
 position = -0.67, 1.27, -0.48
 hinge = 0.71, 0.55, 0.0
 camber = -1.33
@@ -126,13 +169,9 @@ ackermann = 7.36	# 50% Ackermann
 steering = 33
 
 [wheel-fr]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = right
-wheel-model = oem_wheel
-tire-texture = touring
-size = 155/75r13
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = 0.67, 1.27, -0.48
 hinge = -0.71, 0.55, -0.0
 camber = 1.33
@@ -142,13 +181,9 @@ ackermann = -7.36
 steering = 33
 
 [wheel-rl]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = left
-wheel-model = oem_wheel
-tire-texture = touring
-size = 155/75r13
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = -0.67, -1.28, -0.52
 hinge = 0.25, -1.94, 0.0
 camber = -0.45
@@ -156,13 +191,9 @@ caster = 0.28
 toe = -0.2
 
 [wheel-rr]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = right
-wheel-model = oem_wheel
-tire-texture = touring
-size = 155/75r13
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = 0.67, -1.28, -0.52
 hinge = -0.25, -1.94, 0.0
 camber = 0.45

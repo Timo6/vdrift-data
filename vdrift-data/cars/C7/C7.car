@@ -75,7 +75,7 @@ lift-coefficient = 0.1
 position = 0.0, -2.14, 0.37
 surface-area = 0.5
 
-[coilover-front]
+[coilover-fl]
 anti-roll = 5000
 bounce = 2000
 damper-factor-1 = 0.02, 2.0
@@ -91,7 +91,23 @@ spring-factor-3 = 0.15, 3.0
 spring-factor-4 = 0.2, 5.0
 travel = 0.3
 
-[coilover-rear]
+[coilover-fr]
+anti-roll = 5000
+bounce = 2000
+damper-factor-1 = 0.02, 2.0
+damper-factor-2 = 0.1, 1.0
+damper-factor-3 = 0.2, 0.8
+damper-factor-4 = 0.5, 0.5
+max-compression-velocity = 100
+rebound = 3500
+spring-constant = 22000
+spring-factor-1 = 0.02, 1.0
+spring-factor-2 = 0.1, 1.5
+spring-factor-3 = 0.15, 3.0
+spring-factor-4 = 0.2, 5.0
+travel = 0.3
+
+[coilover-rl]
 anti-roll = 4500
 bounce = 2000
 damper-factor-1 = 0.02, 2.0
@@ -107,33 +123,82 @@ spring-factor-3 = 0.15, 3.0
 spring-factor-4 = 0.2, 5.0
 travel = 0.3
 
-[brake-front]
+[coilover-rr]
+anti-roll = 4500
+bounce = 2000
+damper-factor-1 = 0.02, 2.0
+damper-factor-2 = 0.1, 1.0
+damper-factor-3 = 0.2, 0.8
+damper-factor-4 = 0.5, 0.5
+max-compression-velocity = 100
+rebound = 3500
+spring-constant = 22000
+spring-factor-1 = 0.02, 1.0
+spring-factor-2 = 0.1, 1.5
+spring-factor-3 = 0.15, 3.0
+spring-factor-4 = 0.2, 5.0
+travel = 0.3
+
+[brake-fl]
+texture = rotor_shiny_slotted_drilled
 area = 0.015
 bias = 0.6
 friction = 0.42
 max-pressure = 2.5e6
 radius = 0.17
-rotor = rotor_shiny_slotted_drilled
 
-[brake-rear]
+[brake-fr]
+texture = rotor_shiny_slotted_drilled
+area = 0.015
+bias = 0.6
+friction = 0.42
+max-pressure = 2.5e6
+radius = 0.17
+
+[brake-rl]
+texture = rotor_shiny_slotted_drilled
 area = 0.015
 bias = 0.4
 friction = 0.42
 handbrake = 1
 max-pressure = 2.5e6
 radius = 0.14
-rotor = rotor_shiny_slotted_drilled
+
+[brake-rr]
+texture = rotor_shiny_slotted_drilled
+area = 0.015
+bias = 0.4
+friction = 0.42
+handbrake = 1
+max-pressure = 2.5e6
+radius = 0.14
 
 # Caterham, Avon CR500 tyres, Front:195/45R15, Rear:255/40R15
 
-[wheel-fl]
-orientation = left
-wheel-model = oem_wheel
-tire-texture = touring
+[tire-fl]
+texture = touring
 size = 195/45r15
-tire = tire-competition
-brake = brake-front
-coilover = coilover-front
+type = tire-competition
+
+[tire-fr]
+texture = touring
+size = 195/45r15
+type = tire-competition
+
+[tire-rl]
+texture = touring
+size = 255/40r15
+type = tire-competition
+
+[tire-rr]
+texture = touring
+size = 255/40r15
+type = tire-competition
+
+[wheel-fl]
+texture = oem_wheel
+mesh = oem_wheel
+orientation = left
 position = -0.60, 1.175, -0.42
 hinge = 0.60, 1.175, -0.7
 camber = -0.75
@@ -143,13 +208,9 @@ ackermann = 7.18	# 50% ackermann
 steering = 27
 
 [wheel-fr]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = right
-wheel-model = oem_wheel
-tire-texture = touring
-size = 195/45r15
-tire = tire-competition
-brake = brake-front
-coilover = coilover-front
 position = 0.60, 1.175, -0.42
 hinge = -0.60, 1.175, -0.7
 camber = 0.75
@@ -159,13 +220,9 @@ ackermann = -7.18
 steering = 27
 
 [wheel-rl]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = left
-wheel-model = oem_wheel
-tire-texture = touring
-size = 255/40r15
-tire = tire-competition
-brake = brake-rear
-coilover = coilover-rear
 position = -0.60, -1.17, -0.42
 hinge = 0.60, -1.17, -0.7
 camber = -0.75
@@ -173,13 +230,9 @@ caster = 0.28
 toe = 0.0
 
 [wheel-rr]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = right
-wheel-model = oem_wheel
-tire-texture = touring
-size = 255/40r15
-tire = tire-competition
-brake = brake-rear
-coilover = coilover-rear
 position = 0.60, -1.17, -0.42
 hinge = -0.60, -1.17, -0.7
 camber = 0.75

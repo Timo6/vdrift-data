@@ -88,45 +88,92 @@ surface-area = 0.5
 lift-coefficient = -2
 efficiency = 0.95
 
-[coilover-front]
+[coilover-fl]
 spring-constant = 50000
 bounce = 3200
 rebound = 9600
 travel = 0.2
 anti-roll = 16000
 
-[coilover-rear]
+[coilover-fr]
+spring-constant = 50000
+bounce = 3200
+rebound = 9600
+travel = 0.2
+anti-roll = 16000
+
+[coilover-rl]
 spring-constant = 40000
 bounce = 2500
 rebound = 7500
 travel = 0.2
 anti-roll = 10000
 
-[brake-front]
+[coilover-rr]
+spring-constant = 40000
+bounce = 2500
+rebound = 7500
+travel = 0.2
+anti-roll = 10000
+
+[brake-fl]
+texture = rotor_shiny_slotted_drilled
 friction = 0.80
 max-pressure = 2.4e6
 bias = 0.60
 radius = 0.20
 area = 0.019
-rotor = rotor_shiny_slotted_drilled
 
-[brake-rear]
+[brake-fr]
+texture = rotor_shiny_slotted_drilled
+friction = 0.80
+max-pressure = 2.4e6
+bias = 0.60
+radius = 0.20
+area = 0.019
+
+[brake-rl]
+texture = rotor_shiny_slotted_drilled
 friction = 0.73
 max-pressure = 2.0e6
 bias = 0.40
 radius = 0.16
 area = 0.015
 handbrake = 1.0
-rotor = rotor_shiny_slotted_drilled
+
+[brake-rr]
+texture = rotor_shiny_slotted_drilled
+friction = 0.73
+max-pressure = 2.0e6
+bias = 0.40
+radius = 0.16
+area = 0.015
+handbrake = 1.0
+
+[tire-fl]
+texture = touring
+size = 225/50r17
+type = tire-touring
+
+[tire-fr]
+texture = touring
+size = 225/50r17
+type = tire-touring
+
+[tire-rl]
+texture = touring
+size = 225/50r17
+type = tire-touring
+
+[tire-rr]
+texture = touring
+size = 225/50r17
+type = tire-touring
 
 [wheel-fl]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = left
-wheel-model = oem_wheel
-tire-texture = touring
-size = 225/50r17
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = -0.82, 1.37, -0.45	#-0.74, 1.37, -0.45
 hinge = 0,0,0
 camber = -1.0
@@ -136,13 +183,9 @@ ackermann = 7.56	# 50% Ackermann
 steering = 30
 
 [wheel-fr]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = right
-wheel-model = oem_wheel
-tire-texture = touring
-size = 225/50r17
-tire = tire-touring
-brake = brake-front
-coilover = coilover-front
 position = 0.82, 1.37, -0.45	#0.74, 1.37, -0.45
 hinge = 0,0,0
 camber = 1.0
@@ -152,13 +195,9 @@ ackermann = -7.56
 steering = 30
 
 [wheel-rl]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = left
-wheel-model = oem_wheel
-tire-texture = touring
-size = 225/50r17
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = -0.84, -1.37, -0.45	#-0.74, -1.37, -0.45
 hinge = 0.0, -0.6, 0.0
 camber = -0.5
@@ -166,13 +205,9 @@ caster = 0.0
 toe = 1.0
 
 [wheel-rr]
+texture = oem_wheel
+mesh = oem_wheel
 orientation = right
-wheel-model = oem_wheel
-tire-texture = touring
-size = 225/50r17
-tire = tire-touring
-brake = brake-rear
-coilover = coilover-rear
 position = 0.84, -1.37, -0.45	#0.74, -1.37, -0.45
 hinge = 0.0, -0.6, 0.0
 camber = 0.5
