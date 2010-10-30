@@ -67,8 +67,6 @@
 #---------------------------------------
 include ../../carparts/tire/competition
 
-drive = RWD
-
 [engine]
 position = 0.0, -1.0, -0.05
 mass = 150.0
@@ -120,7 +118,7 @@ gear-ratio-5 = 1.03
 gear-ratio-6 = 0.85
 shift-time=0.15
 
-[differential]
+[differential-rear]
 final-drive = 4.44
 anti-slip =750.0
 anti-slip-torque = 0.01

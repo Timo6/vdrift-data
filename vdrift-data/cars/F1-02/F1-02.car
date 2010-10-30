@@ -15,8 +15,6 @@
 include ../../carparts/tire/f1_front
 include ../../carparts/tire/f1_rear
 
-drive = RWD
-
 [engine]
 position = 0.0, -0.70, -0.40
 mass = 95.0
@@ -80,7 +78,7 @@ gear-ratio-7 = 1.90
 shift-delay = 0.00
 shift-time = 0.05
 
-[differential]
+[differential-rear]
 #final-drive = 4.0	# max ca 320 km/h (final-drive = 4.0)
 #final-drive = 3.9	# max ca 325 km/h (final-drive = 3.9)
 final-drive = 3.8	# max ca 334 km/h (final-drive = 3.8)

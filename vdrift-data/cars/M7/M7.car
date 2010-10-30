@@ -1,7 +1,5 @@
 include ../../carparts/tire/touring
 
-drive = RWD
-
 [engine]
 position = 0.0, 0.86, -0.21
 mass = 150.0
@@ -55,7 +53,7 @@ gear-ratio-4 = 1.00
 gear-ratio-5 = 0.862
 shift-delay = 0.06
 
-[differential]
+[differential-rear]
 final-drive = 4.100
 anti-slip = 600.0
 
