@@ -140,12 +140,12 @@ name = wheel-front-right	# observe wheel and chassis moves
 position = 3.0, 1.0, 0.75	# X(+right), Y(+front), Z(+up)
 angle = 20.0, 90.0			# +down/-up, +left/-right
 
-[aerodevice-front]
+[wing-front]
 position = 0.0, 0.15, 0.00
 frontal-area = 2.03
 drag-coefficient = 0.29
 
-[aerodevice-body]
+[wing-center]
 position = 0, 1.15, -0.3
 frontal-area = 0.0
 drag-coefficient = 0
@@ -153,7 +153,7 @@ surface-area = 1.0
 lift-coefficient = -0.22
 efficiency = 1
 
-[aerodevice-rear]
+[wing-rear]
 position = 0, -1.50, -0.3
 frontal-area = 0.0
 drag-coefficient = 0

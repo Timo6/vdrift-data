@@ -99,12 +99,12 @@ view-stiffness = 1.0
 hood-mounted-view-position = -0.25, -0.50, 0.30
 #hood-mounted-view-position = 1.00, -2.00, -0.00	# lwft  wheel
 
-[aerodevice-front]
+[wing-front]
 position = 0.00, 0.00, -0.40
 frontal-area = 1.15
 drag-coefficient = 0.69
 
-[aerodevice-body]
+[wing-center]
 position = 0.0, 2.20, 0.50
 frontal-area = 0.20
 drag-coefficient = 0.5
@@ -112,7 +112,7 @@ surface-area = 1.00			# including body downforce; 0.7
 lift-coefficient = -2
 efficiency = 0.99
 
-[aerodevice-rear]
+[wing-rear]
 position = 0.0, -1.30, 0.15
 frontal-area = 0.3
 drag-coefficient = 0.6

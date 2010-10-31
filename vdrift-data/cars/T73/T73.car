@@ -65,7 +65,7 @@ view-position = 0.0, 0.1, 0.1
 hood-mounted-view-position = 0.0, 0.4, 0.1
 
 # body downforce/drag
-[aerodevice-front]
+[wing-front]
 position = 0.0, 0.0, -0.4
 frontal-area = 1.5
 drag-coefficient = 0.3
