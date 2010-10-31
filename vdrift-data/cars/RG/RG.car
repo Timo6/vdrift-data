@@ -52,12 +52,12 @@ capacity = 45.0
 volume = 45.0
 fuel-density = 1.0
 
-[aerodevice-front]
+[wing-front]
 position = 0.0, 0.0, -0.60
 frontal-area = 2.0
 drag-coefficient = 0.35
 
-[aerodevice-body]
+[wing-center]
 position = 0.0, 2.34, -0.6
 frontal-area = 0.2
 drag-coefficient = 0
@@ -65,7 +65,7 @@ surface-area = 0.3
 lift-coefficient = -0.5
 efficiency = 0.95
 
-[aerodevice-rear]
+[wing-rear]
 position = 0.0, -2.14, 0.37
 frontal-area = 0.2
 drag-coefficient = 0

@@ -57,7 +57,7 @@ position = 0, 0.3, -0.25
 view-position = 0, 0.3, 0.15
 hood-mounted-view-position = 0, 0.6, 0
 
-[aerodevice-front]
+[wing-front]
 position = 0.0, 0.0, 0.2
 frontal-area = 2
 drag-coefficient = 0.3
