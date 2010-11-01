@@ -140,7 +140,7 @@ spring-factor-4 = 0.2, 5.0
 travel = 0.3
 
 [brake-fl]
-texture = rotor_shiny_slotted_drilled
+texture = rotor_shiny_slotted_drilled.png
 area = 0.015
 bias = 0.6
 friction = 0.42
@@ -148,7 +148,7 @@ max-pressure = 2.5e6
 radius = 0.17
 
 [brake-fr]
-texture = rotor_shiny_slotted_drilled
+texture = rotor_shiny_slotted_drilled.png
 area = 0.015
 bias = 0.6
 friction = 0.42
@@ -156,7 +156,7 @@ max-pressure = 2.5e6
 radius = 0.17
 
 [brake-rl]
-texture = rotor_shiny_slotted_drilled
+texture = rotor_shiny_slotted_drilled.png
 area = 0.015
 bias = 0.4
 friction = 0.42
@@ -165,7 +165,7 @@ max-pressure = 2.5e6
 radius = 0.14
 
 [brake-rr]
-texture = rotor_shiny_slotted_drilled
+texture = rotor_shiny_slotted_drilled.png
 area = 0.015
 bias = 0.4
 friction = 0.42
@@ -176,28 +176,28 @@ radius = 0.14
 # Caterham, Avon CR500 tyres, Front:195/45R15, Rear:255/40R15
 
 [tire-fl]
-texture = touring
+texture = touring.png
 size = 195/45r15
 type = tire-competition
 
 [tire-fr]
-texture = touring
+texture = touring.png
 size = 195/45r15
 type = tire-competition
 
 [tire-rl]
-texture = touring
+texture = touring.png
 size = 255/40r15
 type = tire-competition
 
 [tire-rr]
-texture = touring
+texture = touring.png
 size = 255/40r15
 type = tire-competition
 
 [wheel-fl]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 orientation = left
 position = -0.60, 1.175, -0.42
 hinge = 0.60, 1.175, -0.7
@@ -208,8 +208,8 @@ ackermann = 7.18	# 50% ackermann
 steering = 27
 
 [wheel-fr]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 orientation = right
 position = 0.60, 1.175, -0.42
 hinge = -0.60, 1.175, -0.7
@@ -220,8 +220,8 @@ ackermann = -7.18
 steering = 27
 
 [wheel-rl]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 orientation = left
 position = -0.60, -1.17, -0.42
 hinge = 0.60, -1.17, -0.7
@@ -230,14 +230,30 @@ caster = 0.28
 toe = 0.0
 
 [wheel-rr]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 orientation = right
 position = 0.60, -1.17, -0.42
 hinge = -0.60, -1.17, -0.7
 camber = 0.75
 caster = 0.28
 toe = 0.0
+
+[body]
+texture = body00.png, body-misc1.png
+mesh = body.joe
+
+[interior]
+texture = interior.png
+mesh = interior.joe
+
+[light-brake]
+texture = brake.png
+mesh = body.joe
+
+[light-reverse]
+texture = reverse.png
+mesh = body.joe
 
 [particle-00]
 mass = 20.0

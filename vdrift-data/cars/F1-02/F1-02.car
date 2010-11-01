@@ -149,7 +149,7 @@ travel = 0.09				## Federweg
 anti-roll = 12000			## Stabilisator
 
 [brake-fl]
-texture = rotor_carbon_ceramic
+texture = rotor_carbon_ceramic.png
 friction = 1.40
 max-pressure = 2.4e6
 bias = 0.60
@@ -157,7 +157,7 @@ radius = 0.15
 area = 0.01
 
 [brake-fr]
-texture = rotor_carbon_ceramic
+texture = rotor_carbon_ceramic.png
 friction = 1.40
 max-pressure = 2.4e6
 bias = 0.60
@@ -165,7 +165,7 @@ radius = 0.15
 area = 0.01
 
 [brake-rl]
-texture = rotor_carbon_ceramic
+texture = rotor_carbon_ceramic.png
 friction = 1.40
 max-pressure = 2.4e6
 bias = 0.40
@@ -174,7 +174,7 @@ area = 0.01
 handbrake = 1.0
 
 [brake-rr]
-texture = rotor_carbon_ceramic
+texture = rotor_carbon_ceramic.png
 friction = 1.40
 max-pressure = 2.4e6
 bias = 0.40
@@ -185,28 +185,28 @@ handbrake = 1.0
 # FIA: max 660mm in diameter (670mm with wet-weather tyres)
 
 [tire-fl]
-texture = touring
+texture = touring.png
 size = 355/46r13
 type = tire-f1-front
 
 [tire-fr]
-texture = touring
+texture = touring.png
 size = 355/46r13
 type = tire-f1-front
 
 [tire-rl]
-texture = touring
+texture = touring.png
 size = 355/46r13
 type = tire-f1-rear
 
 [tire-rr]
-texture = touring
+texture = touring.png
 size = 355/46r13
 type = tire-f1-rear
 
 [wheel-fl]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png
+mesh = oem_wheel.joe
 orientation = left
 position = -0.725, 1.60, -0.37
 hinge = 0, 0, 0
@@ -217,8 +217,8 @@ ackermann = 6.5		# 50% Ackermann, 100% Ackermann Angle(steering arm angle) atan(
 steering = 30		# Maximum steering angle (ackermann = 0.0)
 
 [wheel-fr]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png
+mesh = oem_wheel.joe
 orientation = right
 position = 0.725, 1.60, -0.37
 hinge = 0, 0, 0
@@ -229,8 +229,8 @@ ackermann = -6.5	# 50% Ackermann, for 100% Ackermann Angle(steering arm angle) a
 steering = 30		# Maximum steering angle (ackermann = 0.0)
 
 [wheel-rl]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png
+mesh = oem_wheel.joe
 orientation = left
 position = -0.71, -1.53, -0.37
 hinge = 0, -1.0, 0
@@ -239,14 +239,18 @@ caster = 0.28
 toe = 0
 
 [wheel-rr]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png
+mesh = oem_wheel.joe
 orientation = right
 position = 0.71, -1.53, -0.37
 hinge = 0, -1.0, 0
 camber = 0.50
 caster = 0.28
 toe = 0
+
+[body]
+texture = body00.png, body-misc1.png
+mesh = body.joe
 
 # these are used to calculate the weight distribution and balance
 [particle-00]		# Front-Wing/Nose

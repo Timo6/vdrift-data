@@ -132,28 +132,28 @@ area = 0.01
 handbrake = 1.0
 
 [tire-fl]
-texture = touring
+texture = touring.png
 size = 285/50r15
 type = tire-slick
 
 [tire-fr]
-texture = touring
+texture = touring.png
 size = 285/50r15
 type = tire-slick
 
 [tire-rl]
-texture = touring
+texture = touring.png
 size = 285/50r15
 type = tire-slick
 
 [tire-rr]
-texture = touring
+texture = touring.png
 size = 285/50r15
 type = tire-slick
 
 [wheel-fl]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 orientation = left
 position = -0.76, 1.40, -0.45
 hinge = 0.65, 1.40, -0.45
@@ -164,8 +164,8 @@ ackermann = 8.2	# 50% ackermann
 steering = 30
 
 [wheel-fr]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 orientation = right
 position = 0.76, 1.40, -0.45
 hinge = -0.65, 1.40, -0.45
@@ -176,8 +176,8 @@ ackermann = -8.2
 steering = 30
 
 [wheel-rl]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 orientation = left
 position = -0.76, -1.18, -0.45
 hinge = 0.64, -1.18, -0.43
@@ -186,14 +186,26 @@ caster = 0.0
 toe = -0.5
 
 [wheel-rr]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 orientation = right
 position = 0.76, -1.18, -0.45
 hinge = -0.64, -1.18, -0.43
 camber = 3.0
 caster = 0.0
 toe = 0.5
+
+[body]
+texture = body00.png, body-misc1.png
+mesh = body.joe
+
+[interior]
+texture = interior.png
+mesh = interior.joe
+
+[glass]
+texture = glass.png
+mesh = glass.joe
 
 # these are used to calculate the weight distribution and balance
 # car vertical center is at -0.42

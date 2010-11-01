@@ -112,7 +112,7 @@ travel = 0.12
 anti-roll = 10000.0
 
 [brake-fl]
-texture = rotor_worn
+texture = rotor_worn.png
 friction = 1.2
 max-pressure = 3.8e6
 bias = 0.6
@@ -120,7 +120,7 @@ radius = 0.18
 area = 0.01
 
 [brake-fr]
-texture = rotor_worn
+texture = rotor_worn.png
 friction = 1.2
 max-pressure = 3.8e6
 bias = 0.6
@@ -128,7 +128,7 @@ radius = 0.18
 area = 0.01
 
 [brake-rl]
-texture = rotor_worn
+texture = rotor_worn.png
 friction = 1.2
 max-pressure = 3.0e6
 bias = 0.4
@@ -137,7 +137,7 @@ area = 0.01
 handbrake = 1.0
 
 [brake-rr]
-texture = rotor_worn
+texture = rotor_worn.png
 friction = 1.2
 max-pressure = 3.0e6
 bias = 0.4
@@ -146,28 +146,28 @@ area = 0.01
 handbrake = 1.0
 
 [tire-fl]
-texture = touring
+texture = touring.png
 size = 265/40r17
 type = tire-touring
 
 [tire-fr]
-texture = touring
+texture = touring.png
 size = 265/40r17
 type = tire-touring
 
 [tire-rl]
-texture = touring
+texture = touring.png
 size = 295/35r18
 type = tire-touring
 
 [tire-rr]
-texture = touring
+texture = touring.png
 size = 295/35r18
 type = tire-touring
 
 [wheel-fl]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 orientation = left
 position = -0.73, 1.30, -0.42
 hinge = 0,0,-0.1
@@ -178,8 +178,8 @@ ackermann = 8	# 50% ackermann
 steering = 33
 
 [wheel-fr]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 orientation = right
 position = 0.73, 1.30, -0.42
 hinge = 0,0,-0.1
@@ -190,8 +190,8 @@ ackermann = -8
 steering = 33
 
 [wheel-rl]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 orientation = left
 position = -0.75, -1.25, -0.43
 hinge = 0,0,-0.1
@@ -200,14 +200,30 @@ caster = 0.28
 toe = -0.2
 
 [wheel-rr]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 orientation = right
 position = 0.75, -1.25, -0.43
 hinge = 0,0,-0.1
 camber = 0.45
 caster = 0.28
 toe = 0.2
+
+[body]
+texture = body00.png
+mesh = body.joe
+
+[glass]
+texture = glass.png
+mesh = glass.joe
+
+[light-brake]
+texture = brake.png
+mesh = body.joe
+
+[light-reverse]
+texture = reverse.png
+mesh = body.joe
 
 # these are used to calculate the weight distribution and balance
 [particle-00]

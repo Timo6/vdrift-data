@@ -112,7 +112,7 @@ travel = 0.15
 anti-roll = 10000
 
 [brake-fl]
-texture = rotor_shiny_slotted_drilled
+texture = rotor_shiny_slotted_drilled.png
 friction = 1.03
 max-pressure = 2.5e6
 bias = 0.61
@@ -120,7 +120,7 @@ radius = 0.17
 area = 0.015
 
 [brake-fr]
-texture = rotor_shiny_slotted_drilled
+texture = rotor_shiny_slotted_drilled.png
 friction = 1.03
 max-pressure = 2.5e6
 bias = 0.61
@@ -128,7 +128,7 @@ radius = 0.17
 area = 0.015
 
 [brake-rl]
-texture = rotor_shiny_slotted_drilled
+texture = rotor_shiny_slotted_drilled.png
 friction = 1.03
 max-pressure = 2.5e6
 bias = 0.39
@@ -137,7 +137,7 @@ area = 0.015
 handbrake = 1.0
 
 [brake-rr]
-texture = rotor_shiny_slotted_drilled
+texture = rotor_shiny_slotted_drilled.png
 friction = 1.03
 max-pressure = 2.5e6
 bias = 0.39
@@ -150,28 +150,28 @@ handbrake = 1.0
 # 50% ackermann
 
 [tire-fl]
-texture = touring
+texture = touring.png
 size = 270/35r18
 type = tire-slick
 
 [tire-fr]
-texture = touring
+texture = touring.png
 size = 270/35r18
 type = tire-slick
 
 [tire-rl]
-texture = touring
+texture = touring.png
 size = 270/40r18
 type = tire-slick
 
 [tire-rr]
-texture = touring
+texture = touring.png
 size = 270/40r18
 type = tire-slick
 
 [wheel-fl]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 orientation = left
 position = -0.84, 1.51, -0.43	#-0.80, 1.51, -0.43	
 hinge = 0,0,0
@@ -182,8 +182,8 @@ ackermann = 8.18
 steering = 30
 
 [wheel-fr]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 orientation = right
 position = 0.84, 1.51, -0.43	#0.80, 1.51, -0.43
 hinge = 0,0,0
@@ -194,8 +194,8 @@ ackermann = -8.18
 steering = 30
 
 [wheel-rl]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 orientation = left
 position = -0.84, -1.35, -0.42	#-0.80, -1.35, -0.42
 hinge = -1.1, 0, 0
@@ -204,14 +204,30 @@ caster = 0.0
 toe = 0.0
 
 [wheel-rr]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 orientation = right
 position = 0.84, -1.35, -0.42	#0.80, -1.35, -0.42
 hinge = -1.1, 0,0
 camber = 1.5
 caster = 0.0
 toe = 0.0
+
+[body]
+texture = body00.png
+mesh = body.joe
+
+[glass]
+texture = glass.png
+mesh = glass.joe
+
+[light-brake]
+texture = brake.png
+mesh = body.joe
+
+[light-reverse]
+texture = reverse.png
+mesh = body.joe
 
 # these are used to calculate the weight distribution and balance
 [particle-00]

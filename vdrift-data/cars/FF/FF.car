@@ -121,28 +121,28 @@ area = 0.015
 handbrake = 1.5
 
 [tire-fl]
-texture = touring
+texture = touring.png
 size = 185/55r13
 type = tire-slick
 
 [tire-fr]
-texture = touring
+texture = touring.png
 size = 185/55r13
 type = tire-slick
 
 [tire-rl]
-texture = touring
+texture = touring.png
 size = 185/55r13
 type = tire-slick
 
 [tire-rr]
-texture = touring
+texture = touring.png
 size = 185/55r13
 type = tire-slick
 
 [wheel-fl]
-texture = 5_spoke_m
-mesh = 5_spoke_m
+texture = 5_spoke_m.png
+mesh = 5_spoke_m.joe
 orientation = left
 position = -0.74, 1.20, -0.48
 hinge = 0,0,0
@@ -153,8 +153,8 @@ ackermann = 8.64	# 50% ackermann
 steering = 20
 
 [wheel-fr]
-texture = 5_spoke_m
-mesh = 5_spoke_m
+texture = 5_spoke_m.png
+mesh = 5_spoke_m.joe
 orientation = right
 position = 0.74, 1.20, -0.48
 hinge = 0,0,0
@@ -165,8 +165,8 @@ ackermann = -8.64
 steering = 20
 
 [wheel-rl]
-texture = 5_spoke_m
-mesh = 5_spoke_m
+texture = 5_spoke_m.png
+mesh = 5_spoke_m.joe
 orientation = left
 position = -0.74, -1.18, -0.48
 hinge = 0,0,0
@@ -175,14 +175,22 @@ caster = 0.0
 toe = -1.0
 
 [wheel-rr]
-texture = 5_spoke_m
-mesh = 5_spoke_m
+texture = 5_spoke_m.png
+mesh = 5_spoke_m.joe
 orientation = right
 position = 0.74, -1.18, -0.48
 hinge = 0,0,0
 camber = 0.5
 caster = 0.0
 toe = 1.0
+
+[body]
+texture = body00.png, body-misc1.png
+mesh = body.joe
+
+[interior]
+texture = interior.png
+mesh = interior.joe
 
 # these are used to calculate the weight distribution and balance
 # car median -0.4 z-axis

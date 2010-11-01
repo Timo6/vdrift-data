@@ -114,7 +114,7 @@ travel = 0.32
 anti-roll = 7000
 
 [brake-fl]
-texture = rotor_worn
+texture = rotor_worn.png
 friction = 0.93
 max-pressure = 2.5e6
 bias = 0.61
@@ -122,7 +122,7 @@ radius = 0.17
 area = 0.015
 
 [brake-fr]
-texture = rotor_worn
+texture = rotor_worn.png
 friction = 0.93
 max-pressure = 2.5e6
 bias = 0.61
@@ -130,7 +130,7 @@ radius = 0.17
 area = 0.015
 
 [brake-rl]
-texture = rotor_worn
+texture = rotor_worn.png
 friction = 0.93
 max-pressure = 2.5e6
 bias = 0.39
@@ -139,7 +139,7 @@ area = 0.015
 handbrake = 1.0
 
 [brake-rr]
-texture = rotor_worn
+texture = rotor_worn.png
 friction = 0.93
 max-pressure = 2.5e6
 bias = 0.39
@@ -148,28 +148,28 @@ area = 0.015
 handbrake = 1.0
 
 [tire-fl]
-texture = touring
+texture = touring.png
 size = 245/40r18
 type = tire-touring
 
 [tire-fr]
-texture = touring
+texture = touring.png
 size = 245/40r18
 type = tire-touring
 
 [tire-rl]
-texture = touring
+texture = touring.png
 size = 265/40r18
 type = tire-touring
 
 [tire-rr]
-texture = touring
+texture = touring.png
 size = 265/40r18
 type = tire-touring
 
 [wheel-fl]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 orientation = left
 position = -0.73, 1.37, -0.43
 hinge = 0,0,0
@@ -180,8 +180,8 @@ ackermann = 7.51	# 50% ackermann
 steering = 30
 
 [wheel-fr]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 orientation = right
 position = 0.73, 1.37, -0.43
 hinge = 0,0,0
@@ -192,8 +192,8 @@ ackermann = -7.51
 steering = 30
 
 [wheel-rl]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 orientation = left
 position = -0.74, -1.35, -0.43
 hinge = 0.2, -1.1, 0
@@ -202,14 +202,34 @@ caster = 0.28
 toe = 0.0
 
 [wheel-rr]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 orientation = right
 position = 0.74, -1.35, -0.43
 hinge = -0.2, -1.1, 0
 camber = 0.45
 caster = 0.28
 toe = 0.0
+
+[body]
+texture = body00.png, body-misc1.png
+mesh = body.joe
+
+[interior]
+texture = interior.png
+mesh = interior.joe
+
+[glass]
+texture = glass.png, glass-misc1.png
+mesh = glass.joe
+
+[light-brake]
+texture = brake.png
+mesh = body.joe
+
+[light-reverse]
+texture = reverse.png
+mesh = body.joe
 
 # these are used to calculate the weight distribution and balance
 [particle-00]
