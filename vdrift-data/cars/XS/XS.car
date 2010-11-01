@@ -266,12 +266,12 @@ mesh = body.joe
 [light-brake-0]
 position = -0.6, -1.9, 0.0
 color = 0.8, 0.1, 0.1
-size = 1.5
+radius = 1.5
 
 [light-brake-1]
 position = 0.6, -1.9, 0.0
 color = 0.8, 0.1, 0.1
-size = 1.5
+radius = 1.5
 
 # these are used to calculate the weight distribution and balance
 [particle-00]
