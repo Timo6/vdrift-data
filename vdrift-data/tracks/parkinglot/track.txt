@@ -6,6 +6,5 @@ width = 31.695
 height = 32.5701
 lap sequences = 0
 start position 0 = 7.524787,2.211630,-5.473845
-start orientation-xyz 0 = -0.017149,0.907452,0.037216
-start orientation-w 0 = 0.418152
+start orientation 0 = 175, 49, 179
 
