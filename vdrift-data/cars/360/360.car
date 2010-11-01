@@ -190,7 +190,7 @@ travel = 0.14
 anti-roll = 10000
 
 [brake-fl]
-texture = rotor_shiny_slotted_drilled
+texture = rotor_shiny_slotted_drilled.png
 friction = 15.0
 max-pressure = 2.5e6
 bias = 0.65
@@ -198,7 +198,7 @@ radius = 0.175 # 350mm
 area = 0.000688 # 21.5mm x 32mm
 
 [brake-fr]
-texture = rotor_shiny_slotted_drilled
+texture = rotor_shiny_slotted_drilled.png
 friction = 15.0
 max-pressure = 2.5e6
 bias = 0.65
@@ -206,7 +206,7 @@ radius = 0.175 # 350mm
 area = 0.000688 # 21.5mm x 32mm
 
 [brake-rl]
-texture = rotor_shiny_slotted_drilled
+texture = rotor_shiny_slotted_drilled.png
 friction = 15.0
 max-pressure = 2.5e6
 bias = 0.35
@@ -215,7 +215,7 @@ area = 0.000448 # 16mm x 28mm
 handbrake = 1.0
 
 [brake-rr]
-texture = rotor_shiny_slotted_drilled
+texture = rotor_shiny_slotted_drilled.png
 friction = 15.0
 max-pressure = 2.5e6
 bias = 0.35
@@ -226,13 +226,13 @@ handbrake = 1.0
 #---------- F R O N T
 
 [tire-fl]
-texture = touring
+texture = touring.png
 size = 215/45r18
 type = tire-competition
 
 [wheel-fl]
-texture = pentagonal_hub
-mesh = pentagonal_hub
+texture = pentagonal_hub.png
+mesh = pentagonal_hub.joe
 orientation = left
 position = -0.85, 1.12, -0.27			# track +-Y = 1669/2
 hinge = 0.50, 0.90, -0.20
@@ -243,13 +243,13 @@ ackermann = 8.96	# 50% ackermann
 steering = 33
 
 [tire-fr]
-texture = touring
+texture = touring.png
 size = 215/45r18
 type = tire-competition
 
 [wheel-fr]
-texture = pentagonal_hub
-mesh = pentagonal_hub
+texture = pentagonal_hub.png
+mesh = pentagonal_hub.joe
 orientation = right
 position = 0.85, 1.12, -0.27
 hinge = -0.50, 0.90, -0.20
@@ -262,13 +262,13 @@ steering = 33
 #---------- R E A R
 
 [tire-rl]
-texture = touring
+texture = touring.png
 size = 275/40r18
 type = tire-competition
 
 [wheel-rl]
-texture = pentagonal_hub
-mesh = pentagonal_hub
+texture = pentagonal_hub.png
+mesh = pentagonal_hub.joe
 orientation = left
 position = -0.8085, -1.51, -0.28		# track +-Y = 1617/2
 hinge = 1.00 , -0.0, -0.0
@@ -277,19 +277,39 @@ caster = 0.28
 toe = -0.1
 
 [tire-rr]
-texture = touring
+texture = touring.png
 size = 275/40r18
 type = tire-competition
 
 [wheel-rr]
-texture = pentagonal_hub
-mesh = pentagonal_hub
+texture = pentagonal_hub.png
+mesh = pentagonal_hub.joe
 orientation = right
 position = 0.8085, -1.51, -0.28
 hinge = -1.00 , 0.0, -0.0
 camber = 0.45
 caster = 0.28
 toe = 0.1
+
+[body]
+texture = body00.png, body-misc1.png
+mesh = body.joe
+
+[interior]
+texture = interior.png
+mesh = interior.joe
+
+[glass]
+texture = glass.png, glass-misc1.png
+mesh = glass.joe
+
+[light-brake]
+texture = brake.png
+mesh = body.joe
+
+[light-reverse]
+texture = reverse.png
+mesh = body.joe
 
 # these are used to calculate the weight distribution and balance
 

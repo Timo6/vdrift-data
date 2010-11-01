@@ -108,7 +108,7 @@ travel = 0.12
 anti-roll = 8000.0
 
 [brake-fl]
-texture = rotor_worn
+texture = rotor_worn.png
 friction = 0.9
 max-pressure = 3.0e6
 bias = 0.6
@@ -116,7 +116,7 @@ radius = 0.1397
 area = 0.01
 
 [brake-fr]
-texture = rotor_worn
+texture = rotor_worn.png
 friction = 0.9
 max-pressure = 3.0e6
 bias = 0.6
@@ -124,7 +124,7 @@ radius = 0.1397
 area = 0.01
 
 [brake-rl]
-texture = rotor_worn
+texture = rotor_worn.png
 friction = 0.9
 max-pressure = 3.0e6
 bias = 0.4
@@ -133,7 +133,7 @@ area = 0.01
 handbrake = 1.0
 
 [brake-rr]
-texture = rotor_worn
+texture = rotor_worn.png
 friction = 0.9
 max-pressure = 3.0e6
 bias = 0.4
@@ -142,28 +142,28 @@ area = 0.01
 handbrake = 1.0
 
 [tire-fl]
-texture = touring
+texture = touring.png
 size = 205/50r17
 type = tire-touring
 
 [tire-fr]
-texture = touring
+texture = touring.png
 size = 205/50r17
 type = tire-touring
 
 [tire-rl]
-texture = touring
+texture = touring.png
 size = 205/50r17
 type = tire-touring
 
 [tire-rr]
-texture = touring
+texture = touring.png
 size = 205/50r17
 type = tire-touring
 
 [wheel-fl]
-texture = 5_spoke_m
-mesh = 5_spoke_m
+texture = 5_spoke_m.png
+mesh = 5_spoke_m.joe
 orientation = left
 position = -0.73, 1.28, -0.48
 hinge = 0.71, 0.55, 0.0
@@ -174,8 +174,8 @@ ackermann = 7.87	# 50% ackermann
 steering = 33
 
 [wheel-fr]
-texture = 5_spoke_m
-mesh = 5_spoke_m
+texture = 5_spoke_m.png
+mesh = 5_spoke_m.joe
 orientation = right
 position = 0.73, 1.28, -0.48
 hinge = -0.71, 0.55, -0.0
@@ -186,8 +186,8 @@ ackermann = -7.87
 steering = 33
 
 [wheel-rl]
-texture = 5_spoke_m
-mesh = 5_spoke_m
+texture = 5_spoke_m.png
+mesh = 5_spoke_m.joe
 orientation = left
 position = -0.73, -1.31, -0.49
 hinge = 0.25, -1.94, 0.0
@@ -196,14 +196,34 @@ caster = 0.28
 toe = -0.2
 
 [wheel-rr]
-texture = 5_spoke_m
-mesh = 5_spoke_m
+texture = 5_spoke_m.png
+mesh = 5_spoke_m.joe
 orientation = right
 position = 0.73, -1.31, -0.49
 hinge = -0.25, -1.94, 0.0
 camber = 0.45
 caster = 0.28
 toe = 0.2
+
+[body]
+texture = body00.png, body-misc1.png
+mesh = body.joe
+
+[interior]
+texture = interior.png
+mesh = interior.joe
+
+[glass]
+texture = glass.png
+mesh = glass.joe
+
+[light-brake]
+texture = brake.png
+mesh = body.joe
+
+[light-reverse]
+texture = reverse.png
+mesh = body.joe
 
 # these are used to calculate the weight distribution and balance
 [particle-00]

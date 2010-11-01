@@ -116,7 +116,7 @@ travel = 0.27
 anti-roll = 10000.0
 
 [brake-fl]
-texture = rotor_shiny_slotted_drilled
+texture = rotor_shiny_slotted_drilled.png
 friction = 1.6
 max-pressure = 3.0e6
 bias = 0.6
@@ -124,7 +124,7 @@ radius = 0.14605
 area = 0.01
 
 [brake-fr]
-texture = rotor_shiny_slotted_drilled
+texture = rotor_shiny_slotted_drilled.png
 friction = 1.6
 max-pressure = 3.0e6
 bias = 0.6
@@ -132,7 +132,7 @@ radius = 0.14605
 area = 0.01
 
 [brake-rl]
-texture = rotor_shiny_slotted_drilled
+texture = rotor_shiny_slotted_drilled.png
 friction = 1.6
 max-pressure = 1.93e6
 bias = 0.4
@@ -141,7 +141,7 @@ area = 0.01
 handbrake = 1.0
 
 [brake-rr]
-texture = rotor_shiny_slotted_drilled
+texture = rotor_shiny_slotted_drilled.png
 friction = 1.6
 max-pressure = 1.93e6
 bias = 0.4
@@ -150,28 +150,28 @@ area = 0.01
 handbrake = 1.0
 
 [tire-fl]
-texture = touring
+texture = touring.png
 size = 250/60r15
 type = tire-competition
 
 [tire-fr]
-texture = touring
+texture = touring.png
 size = 250/60r15
 type = tire-competition
 
 [tire-rl]
-texture = touring
+texture = touring.png
 size = 325/55r15
 type = tire-competition
 
 [tire-rr]
-texture = touring
+texture = touring.png
 size = 325/55r15
 type = tire-competition
 
 [wheel-fl]
-texture = 5_spoke_m
-mesh = 5_spoke_m
+texture = 5_spoke_m.png
+mesh = 5_spoke_m.joe
 orientation = left
 position = -0.80, 1.45, -0.45
 hinge = 0.80,0,-0.48
@@ -182,8 +182,8 @@ ackermann = 8	# 50% ackermann
 steering = 33
 
 [wheel-fr]
-texture = 5_spoke_m
-mesh = 5_spoke_m
+texture = 5_spoke_m.png
+mesh = 5_spoke_m.joe
 orientation = right
 position = 0.80, 1.45, -0.45
 hinge = -0.80,0,-0.48
@@ -194,8 +194,8 @@ ackermann = -8
 steering = 33
 
 [wheel-rl]
-texture = 5_spoke_m
-mesh = 5_spoke_m
+texture = 5_spoke_m.png
+mesh = 5_spoke_m.joe
 orientation = left
 position = -0.82, -1.34, -0.48
 hinge = 0.82,-2.34,-0.48
@@ -204,14 +204,34 @@ caster = 5.6
 toe = -0.468
 
 [wheel-rr]
-texture = 5_spoke_m
-mesh = 5_spoke_m
+texture = 5_spoke_m.png
+mesh = 5_spoke_m.joe
 orientation = right
 position = 0.82, -1.34, -0.48
 hinge = -0.82,-2.34,-0.48
 camber = 1.0
 caster = 5.6
 toe = 0.468
+
+[body]
+texture = body00.png, body-misc1.png
+mesh = body.joe
+
+[interior]
+texture = interior.png
+mesh = interior.joe
+
+[glass]
+texture = glass.png, glass-misc1.png
+mesh = glass.joe
+
+[light-brake]
+texture = brake.png
+mesh = body.joe
+
+[light-reverse]
+texture = reverse.png
+mesh = body.joe
 
 # these are used to calculate the weight distribution and balance
 [particle-00]

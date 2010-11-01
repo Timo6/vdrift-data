@@ -137,7 +137,7 @@ travel = 0.3
 anti-roll = 4000
 
 [brake-fl]
-texture = rotor_worn
+texture = rotor_worn.png
 friction = 0.5
 max-pressure = 4.0e6
 bias = 0.55
@@ -145,7 +145,7 @@ radius = 0.14
 area = 0.015
 
 [brake-fr]
-texture = rotor_worn
+texture = rotor_worn.png
 friction = 0.5
 max-pressure = 4.0e6
 bias = 0.55
@@ -153,7 +153,7 @@ radius = 0.14
 area = 0.015
 
 [brake-rl]
-texture = rotor_worn
+texture = rotor_worn.png
 friction = 0.5
 max-pressure = 4.0e6
 bias = 0.45
@@ -162,7 +162,7 @@ area = 0.015
 handbrake = 1.0
 
 [brake-rr]
-texture = rotor_worn
+texture = rotor_worn.png
 friction = 0.5
 max-pressure = 4.0e6
 bias = 0.45
@@ -171,28 +171,28 @@ area = 0.015
 handbrake = 1.0
 
 [tire-fl]
-texture = touring
+texture = touring.png
 size = 275/55r15
 type = tire-touring
 
 [tire-fr]
-texture = touring
+texture = touring.png
 size = 275/55r15
 type = tire-touring
 
 [tire-rl]
-texture = touring
+texture = touring.png
 size = 275/55r15
 type = tire-touring
 
 [tire-rr]
-texture = touring
+texture = touring.png
 size = 275/55r15
 type = tire-touring
 
 [wheel-fl]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 orientation = left
 position = -0.70, 1.2, -0.247	# front track 1410 mm
 hinge = 0,0,-.3
@@ -203,8 +203,8 @@ ackermann = 7.88	# 50% Ackermann
 steering = 20
 
 [wheel-fr]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 orientation = right
 position = 0.70, 1.2, -0.247
 hinge = 0, 0, -0.3
@@ -215,8 +215,8 @@ ackermann = -7.88
 steering = 20
 
 [wheel-rl]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 orientation = left
 position = -0.75, -1.28, -0.3	# rear track 1540 mm
 hinge = 0,-2.4,-.3
@@ -225,14 +225,34 @@ caster = 0.28
 toe = 0.0
 
 [wheel-rr]
-texture = oem_wheel
-mesh = oem_wheel
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 orientation = right
 position = 0.75, -1.28, -0.3
 hinge = 0,-2.4,-.3
 camber = 0.45
 caster = 0.28
 toe = 0.0
+
+[body]
+texture = body00.png, body-misc1.png
+mesh = body.joe
+
+[interior]
+texture = interior.png
+mesh = interior.joe
+
+[glass]
+texture = glass.png, glass-misc1.png
+mesh = glass.joe
+
+[light-brake]
+texture = brake.png
+mesh = body.joe
+
+[light-reverse]
+texture = reverse.png
+mesh = body.joe
 
 # these are used to calculate the weight distribution and balance
 [particle-00]
