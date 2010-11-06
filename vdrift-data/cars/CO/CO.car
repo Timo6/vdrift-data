@@ -52,8 +52,7 @@ capacity = 0.0818
 volume = 0.0409
 fuel-density = 730.0
 
-[driver]
-position = -0.43, -0.50, 0.1
+[camera]
 view-position = -0.43, -0.50, 0.50
 hood-mounted-view-position = 0, 0.1, 0.40
 
@@ -204,6 +203,12 @@ camber = 0.45
 caster = 0.28
 toe = 0.0
 
+[driver]
+texture = driver2.png, driver-misc1.png
+mesh = driver.joe
+position = -0.43, -0.50, 0.1
+mass = 90.0
+
 [body]
 texture = body00.png, body-misc1.png
 mesh = body.joe
@@ -240,7 +245,3 @@ position = 0.5, 1.4, -0.13
 [particle-04]
 mass = 155.0
 position = -0.5, 1.4, -0.13
-
-[particle-05] # driver
-mass = 90.0
-position = -0.43, -0.50, 0.1
