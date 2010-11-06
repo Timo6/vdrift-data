@@ -91,8 +91,7 @@ capacity = 180
 volume = 76
 fuel-density = 0.8
 
-[driver]
-position = 0.00, 0.18, -0.30
+[camera]
 view-position = 0.00, 0.13, 0.03
 #hood-mounted-view-position = 0.00, 0.45, 0.1	# normal driver position
 view-stiffness = 1.0
@@ -149,7 +148,6 @@ travel = 0.09				## Federweg
 anti-roll = 12000			## Stabilisator
 
 [brake-fl]
-texture = rotor_carbon_ceramic.png
 friction = 1.40
 max-pressure = 2.4e6
 bias = 0.60
@@ -157,7 +155,6 @@ radius = 0.15
 area = 0.01
 
 [brake-fr]
-texture = rotor_carbon_ceramic.png
 friction = 1.40
 max-pressure = 2.4e6
 bias = 0.60
@@ -165,7 +162,6 @@ radius = 0.15
 area = 0.01
 
 [brake-rl]
-texture = rotor_carbon_ceramic.png
 friction = 1.40
 max-pressure = 2.4e6
 bias = 0.40
@@ -174,7 +170,6 @@ area = 0.01
 handbrake = 1.0
 
 [brake-rr]
-texture = rotor_carbon_ceramic.png
 friction = 1.40
 max-pressure = 2.4e6
 bias = 0.40
@@ -248,6 +243,12 @@ camber = 0.50
 caster = 0.28
 toe = 0
 
+[driver]
+texture = driver2.png, driver-misc1.png
+mesh = driver.joe
+position = 0.00, 0.18, -0.30
+mass = 80.0
+
 [body]
 texture = body00.png, body-misc1.png
 mesh = body.joe
@@ -296,7 +297,3 @@ position = 0.00, -1.40, -0.35
 [particle-10]		# rear-wing
 mass = 20.0
 position = 0.00, -1.70, -0.10
-
-[particle-11]		# driver
-mass = 80.0
-position = 0.00, 0.18, -0.30
