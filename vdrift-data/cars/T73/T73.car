@@ -102,30 +102,30 @@ anti-roll = 20000
 
 [brake-fl]
 friction = 0.8
-max-pressure = 5e5
+max-pressure = 2e6
 bias = 0.57
 radius = 0.15
 area = 0.01
 
 [brake-fr]
 friction = 0.8
-max-pressure = 5e5
+max-pressure = 2e6
 bias = 0.57
 radius = 0.15
 area = 0.01
 
 [brake-rl]
 friction = 0.8
-max-pressure = 5e5
-bias = 0.43
+max-pressure = 2e6
+bias = 0.37
 radius = 0.15
 area = 0.01
 handbrake = 1.0
 
 [brake-rr]
 friction = 0.8
-max-pressure = 5e5
-bias = 0.43
+max-pressure = 2e6
+bias = 0.37
 radius = 0.15
 area = 0.01
 handbrake = 1.0
