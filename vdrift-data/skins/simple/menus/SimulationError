@@ -5,7 +5,7 @@ dialog = true
 
 [ widget-00 ]
 type = label
-name = SimulationErrorMessage
+#name = SimulationErrorMessage
 text = Simulation Engine Error
 color = 0.8, 0.3, 0.3
 center = 0.5, 0.45
@@ -19,7 +19,7 @@ cancel = 0
 
 [ widget-01 ]
 type = label
-name = SimulationErrorMessage
+#name = SimulationErrorMessage
 text = Usually this is caused by a bug in the game. Please report this on http://vdrift.net/. Thanks!
 color = 0.8, 0.3, 0.3
 center = 0.5, 0.55
