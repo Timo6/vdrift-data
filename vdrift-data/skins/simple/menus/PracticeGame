@@ -1,5 +1,4 @@
 name = PracticeGame
-#widgets = 11 #this is no longer used and also the widget sections can now have any name
 background = box.png
 dialog = false
 
@@ -17,87 +16,6 @@ default = 0
 cancel = 0
 
 [ widget-01 ]
-type = stringwheel
-name = CarWheel
-setting = game.player
-values = options
-hook = PlayerSpinningCar,PaintWheel
-action = PlayerCarChange
-center = 0.25, 0.18
-spacing = 0.10
-width = auto
-height = auto
-fontsize = 6
-enabled = 1
-selected = 1
-default = 0
-cancel = 0
-
-[ widget-01.1 ]
-type = stringwheel
-name = PaintWheel
-setting = game.player_paint
-values = options
-hook = PlayerSpinningCar
-center = 0.25, 0.22
-spacing = 0.10
-width = auto
-height = auto
-fontsize = 6
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
-
-[ widget-01.2 ]
-type = slider
-name = ColorRed
-setting = game.player_color_red
-values = options
-hook = PlayerSpinningCar
-center = 0.45, 0.26
-color = 1.0, 0.0, 0.0
-width = auto
-height = 0.02
-fontsize = 6
-enabled = 1
-selected = 1
-default = 0
-cancel = 0
-
-[ widget-01.3 ]
-type = slider
-name = ColorGreen
-setting = game.player_color_green
-values = options
-hook = PlayerSpinningCar
-center = 0.45, 0.29
-color = 0.0, 1.0, 0.0
-width = auto
-height = 0.02
-fontsize = 6
-enabled = 1
-selected = 1
-default = 0
-cancel = 0
-
-[ widget-01.4 ]
-type = slider
-name = ColorBlue
-setting = game.player_color_blue
-values = options
-hook = PlayerSpinningCar
-center = 0.45, 0.32
-color = 0.0, 0.0, 1.0
-width = auto
-height = 0.02
-fontsize = 6
-enabled = 1
-selected = 1
-default = 0
-cancel = 0
-
-[ widget-02 ]
 type = spinningcar
 name = PlayerSpinningCar
 setting = game.player
@@ -113,13 +31,13 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-03 ]
+[ widget-02 ]
 type = stringwheel
-name = TrackWheel
-setting = game.track
+name = PlayerPaint
+setting = game.player_paint
 values = options
-hook = TrackMultiImage
-center = 0.625, 0.18
+hook = PlayerSpinningCar
+center = 0.25, 0.22
 spacing = 0.10
 width = auto
 height = auto
@@ -129,7 +47,38 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-04 ]
+[ widget-02.2 ]
+type = colorpicker
+name = PlayerColor
+setting = game.player_color
+#values = options
+hook = PlayerSpinningCar
+center = 0.275, 0.33
+width = 0.15
+height = 0.15
+enabled = 1
+selected = 1
+default = 0
+cancel = 0
+
+[ widget-02.3 ]
+type = stringwheel
+name = PlayerCar
+setting = game.player
+values = options
+hook = PlayerSpinningCar, PlayerPaint
+action = PlayerCarChange
+center = 0.25, 0.18
+spacing = 0.10
+width = auto
+height = auto
+fontsize = 6
+enabled = 1
+selected = 1
+default = 0
+cancel = 0
+
+[ widget-03 ]
 type = multi-image
 name = TrackMultiImage
 setting = game.track
@@ -144,6 +93,22 @@ default = 0
 cancel = 0
 prefix = tracks/
 postfix = /trackshot.png
+
+[ widget-04 ]
+type = stringwheel
+name = TrackWheel
+setting = game.track
+values = options
+hook = TrackMultiImage
+center = 0.625, 0.18
+spacing = 0.10
+width = auto
+height = auto
+fontsize = 6
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
 
 [ widget-05 ]
 type = toggle
@@ -235,5 +200,5 @@ fontsize = 7
 enabled = 1
 selected = 0
 default = 0
-cancel = 1
+cancel = 0
 
