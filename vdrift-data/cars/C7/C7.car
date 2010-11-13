@@ -74,7 +74,7 @@ lift-coefficient = 0.1
 position = 0.0, -2.14, 0.37
 surface-area = 0.5
 
-[coilover-fl]
+[wheel/fl/coilover]
 anti-roll = 5000
 bounce = 2000
 damper-factor-1 = 0.02, 2.0
@@ -90,7 +90,7 @@ spring-factor-3 = 0.15, 3.0
 spring-factor-4 = 0.2, 5.0
 travel = 0.3
 
-[coilover-fr]
+[wheel/fr/coilover]
 anti-roll = 5000
 bounce = 2000
 damper-factor-1 = 0.02, 2.0
@@ -106,7 +106,7 @@ spring-factor-3 = 0.15, 3.0
 spring-factor-4 = 0.2, 5.0
 travel = 0.3
 
-[coilover-rl]
+[wheel/rl/coilover]
 anti-roll = 4500
 bounce = 2000
 damper-factor-1 = 0.02, 2.0
@@ -122,7 +122,7 @@ spring-factor-3 = 0.15, 3.0
 spring-factor-4 = 0.2, 5.0
 travel = 0.3
 
-[coilover-rr]
+[wheel/rr/coilover]
 anti-roll = 4500
 bounce = 2000
 damper-factor-1 = 0.02, 2.0
@@ -138,7 +138,7 @@ spring-factor-3 = 0.15, 3.0
 spring-factor-4 = 0.2, 5.0
 travel = 0.3
 
-[brake-fl]
+[wheel/fl/brake]
 texture = rotor_shiny_slotted_drilled.png
 area = 0.015
 bias = 0.6
@@ -146,7 +146,7 @@ friction = 0.42
 max-pressure = 2.5e6
 radius = 0.17
 
-[brake-fr]
+[wheel/fr/brake]
 texture = rotor_shiny_slotted_drilled.png
 area = 0.015
 bias = 0.6
@@ -154,7 +154,7 @@ friction = 0.42
 max-pressure = 2.5e6
 radius = 0.17
 
-[brake-rl]
+[wheel/rl/brake]
 texture = rotor_shiny_slotted_drilled.png
 area = 0.015
 bias = 0.4
@@ -163,7 +163,7 @@ handbrake = 1
 max-pressure = 2.5e6
 radius = 0.14
 
-[brake-rr]
+[wheel/rr/brake]
 texture = rotor_shiny_slotted_drilled.png
 area = 0.015
 bias = 0.4
@@ -174,27 +174,27 @@ radius = 0.14
 
 # Caterham, Avon CR500 tyres, Front:195/45R15, Rear:255/40R15
 
-[tire-fl]
+[wheel/fl/tire]
 texture = touring.png
 size = 195/45r15
 type = tire-competition
 
-[tire-fr]
+[wheel/fr/tire]
 texture = touring.png
 size = 195/45r15
 type = tire-competition
 
-[tire-rl]
+[wheel/rl/tire]
 texture = touring.png
 size = 255/40r15
 type = tire-competition
 
-[tire-rr]
+[wheel/rr/tire]
 texture = touring.png
 size = 255/40r15
 type = tire-competition
 
-[wheel-fl]
+[wheel/fl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 orientation = left
@@ -206,7 +206,7 @@ toe = -0.1
 ackermann = 7.18	# 50% ackermann
 steering = 27
 
-[wheel-fr]
+[wheel/fr]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 orientation = right
@@ -218,7 +218,7 @@ toe = 0.1
 ackermann = -7.18
 steering = 27
 
-[wheel-rl]
+[wheel/rl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 orientation = left
@@ -228,7 +228,7 @@ camber = -0.75
 caster = 0.28
 toe = 0.0
 
-[wheel-rr]
+[wheel/rr]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 orientation = right

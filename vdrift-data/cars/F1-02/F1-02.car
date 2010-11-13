@@ -119,49 +119,49 @@ surface-area = 2.00			# including body downforce; 0.5
 lift-coefficient = -2
 efficiency = 0.99
 
-[coilover-fl]
+[wheel/fl/coilover]
 spring-constant = 350000
 bounce = 3000				## Druckstufe 1/3 - 1/4
 rebound = 8000				## Zugstufe
 travel = 0.07				## Federweg
 anti-roll = 8000			## Stabilisator
 
-[coilover-fr]
+[wheel/fr/coilover]
 spring-constant = 350000
 bounce = 3000				## Druckstufe 1/3 - 1/4
 rebound = 8000				## Zugstufe
 travel = 0.07				## Federweg
 anti-roll = 8000			## Stabilisator
 
-[coilover-rl]
+[wheel/rl/coilover]
 spring-constant = 500000
 bounce = 4000				## Druckstufe 1/3 - 1/4
 rebound = 12000				## Zugstufe
 travel = 0.09				## Federweg
 anti-roll = 12000			## Stabilisator
 
-[coilover-rr]
+[wheel/rr/coilover]
 spring-constant = 500000
 bounce = 4000				## Druckstufe 1/3 - 1/4
 rebound = 12000				## Zugstufe
 travel = 0.09				## Federweg
 anti-roll = 12000			## Stabilisator
 
-[brake-fl]
+[wheel/fl/brake]
 friction = 1.40
 max-pressure = 2.4e6
 bias = 0.60
 radius = 0.15
 area = 0.01
 
-[brake-fr]
+[wheel/fr/brake]
 friction = 1.40
 max-pressure = 2.4e6
 bias = 0.60
 radius = 0.15
 area = 0.01
 
-[brake-rl]
+[wheel/rl/brake]
 friction = 1.40
 max-pressure = 2.4e6
 bias = 0.40
@@ -169,7 +169,7 @@ radius = 0.14
 area = 0.01
 handbrake = 1.0
 
-[brake-rr]
+[wheel/rr/brake]
 friction = 1.40
 max-pressure = 2.4e6
 bias = 0.40
@@ -179,27 +179,27 @@ handbrake = 1.0
 
 # FIA: max 660mm in diameter (670mm with wet-weather tyres)
 
-[tire-fl]
+[wheel/fl/tire]
 texture = touring.png
 size = 355/46r13
 type = tire-f1-front
 
-[tire-fr]
+[wheel/fr/tire]
 texture = touring.png
 size = 355/46r13
 type = tire-f1-front
 
-[tire-rl]
+[wheel/rl/tire]
 texture = touring.png
 size = 355/46r13
 type = tire-f1-rear
 
-[tire-rr]
+[wheel/rr/tire]
 texture = touring.png
 size = 355/46r13
 type = tire-f1-rear
 
-[wheel-fl]
+[wheel/fl]
 texture = oem_wheel.png
 mesh = oem_wheel.joe
 orientation = left
@@ -211,7 +211,7 @@ toe = -0.9			# Left wheel toe in(negative angle)
 ackermann = 6.5		# 50% Ackermann, 100% Ackermann Angle(steering arm angle) atan(0.5 * steering_axis_length / axes_distance)
 steering = 30		# Maximum steering angle (ackermann = 0.0)
 
-[wheel-fr]
+[wheel/fr]
 texture = oem_wheel.png
 mesh = oem_wheel.joe
 orientation = right
@@ -223,7 +223,7 @@ toe = 0.9			# Right wheel toe in(positive angle)
 ackermann = -6.5	# 50% Ackermann, for 100% Ackermann Angle(steering arm angle) atan(0.5 * steering_axis_length / axes_distance)
 steering = 30		# Maximum steering angle (ackermann = 0.0)
 
-[wheel-rl]
+[wheel/rl]
 texture = oem_wheel.png
 mesh = oem_wheel.joe
 orientation = left
@@ -233,7 +233,7 @@ camber = -0.50
 caster = 0.28
 toe = 0
 
-[wheel-rr]
+[wheel/rr]
 texture = oem_wheel.png
 mesh = oem_wheel.joe
 orientation = right

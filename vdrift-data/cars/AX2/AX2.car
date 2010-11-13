@@ -80,35 +80,35 @@ surface-area = 1.9
 lift-coefficient = -3.0
 efficiency = 0.99
 
-[coilover-fl]
+[wheel/fl/coilover]
 spring-constant = 90000
 bounce = 6050
 rebound = 7000
 travel = 0.10
 anti-roll = 11000
 
-[coilover-fr]
+[wheel/fr/coilover]
 spring-constant = 90000
 bounce = 6050
 rebound = 7000
 travel = 0.10
 anti-roll = 11000
 
-[coilover-rl]
+[wheel/rl/coilover]
 spring-constant = 100000
 bounce = 7000
 rebound = 8200
 travel = 0.12
 anti-roll = 7000
 
-[coilover-rr]
+[wheel/rr/coilover]
 spring-constant = 100000
 bounce = 7000
 rebound = 8200
 travel = 0.12
 anti-roll = 7000
 
-[brake-fl]
+[wheel/fl/brake]
 texture = rotor_carbon_ceramic.png
 friction = 1.40
 max-pressure = 2.5e6
@@ -116,7 +116,7 @@ bias = 0.61
 radius = 0.17
 area = 0.02
 
-[brake-fr]
+[wheel/fr/brake]
 texture = rotor_carbon_ceramic.png
 friction = 1.40
 max-pressure = 2.5e6
@@ -124,7 +124,7 @@ bias = 0.61
 radius = 0.17
 area = 0.02
 
-[brake-rl]
+[wheel/rl/brake]
 texture = rotor_carbon_ceramic.png
 friction = 1.40
 max-pressure = 2.5e6
@@ -133,7 +133,7 @@ radius = 0.14
 area = 0.015
 handbrake = 1.0
 
-[brake-rr]
+[wheel/rr/brake]
 texture = rotor_carbon_ceramic.png
 friction = 1.40
 max-pressure = 2.5e6
@@ -142,27 +142,27 @@ radius = 0.14
 area = 0.015
 handbrake = 1.0
 
-[tire-fl]
+[wheel/fl/tire]
 texture = touring.png
 size = 325/30r18
 type = tire-slick
 
-[tire-fr]
+[wheel/fr/tire]
 texture = touring.png
 size = 325/30r18
 type = tire-slick
 
-[tire-rl]
+[wheel/rl/tire]
 texture = touring.png
 size = 375/30r18
 type = tire-slick
 
-[tire-rr]
+[wheel/rr/tire]
 texture = touring.png
 size = 375/30r18
 type = tire-slick
 
-[wheel-fl]
+[wheel/fl]
 texture = oem_wheel.png
 mesh = oem_wheel.joe
 orientation = left
@@ -174,7 +174,7 @@ toe = -0.9
 ackermann = 8.18	# 50% ackermann
 steering = 27
 
-[wheel-fr]
+[wheel/fr]
 texture = oem_wheel.png
 mesh = oem_wheel.joe
 orientation = right
@@ -186,7 +186,7 @@ toe = 0.9
 ackermann = -8.18
 steering = 27
 
-[wheel-rl]
+[wheel/rl]
 texture = oem_wheel.png
 mesh = oem_wheel.joe
 orientation = left
@@ -196,7 +196,7 @@ camber = -0.45
 caster = 0.28
 toe = 0.0
 
-[wheel-rr]
+[wheel/rr]
 texture = oem_wheel.png
 mesh = oem_wheel.joe
 orientation = right
