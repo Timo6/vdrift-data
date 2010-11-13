@@ -85,35 +85,35 @@ surface-area = 0.5
 lift-coefficient = -3.2
 efficiency = 0.95
 
-[coilover-fl]
+[wheel/fl/coilover]
 spring-constant = 25000
 bounce = 5000
 rebound = 4500
 travel = 0.24
 anti-roll = 18000
 
-[coilover-fr]
+[wheel/fr/coilover]
 spring-constant = 25000
 bounce = 5000
 rebound = 4500
 travel = 0.24
 anti-roll = 18000
 
-[coilover-rl]
+[wheel/rl/coilover]
 spring-constant = 29750
 bounce = 5000
 rebound = 4500
 travel = 0.26
 anti-roll = 20000
 
-[coilover-rr]
+[wheel/rr/coilover]
 spring-constant = 29750
 bounce = 5000
 rebound = 4500
 travel = 0.26
 anti-roll = 20000
 
-[brake-fl]
+[wheel/fl/brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 1.33
 max-pressure = 2.0e6
@@ -121,7 +121,7 @@ bias = 0.57
 radius = 0.14
 area = 0.015
 
-[brake-fr]
+[wheel/fr/brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 1.33
 max-pressure = 2.0e6
@@ -129,7 +129,7 @@ bias = 0.57
 radius = 0.14
 area = 0.015
 
-[brake-rl]
+[wheel/rl/brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 1.33
 max-pressure = 2.0e6
@@ -138,7 +138,7 @@ radius = 0.14
 area = 0.015
 handbrake = 1.0
 
-[brake-rr]
+[wheel/rr/brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 1.33
 max-pressure = 2.0e6
@@ -147,27 +147,27 @@ radius = 0.14
 area = 0.015
 handbrake = 1.0
 
-[tire-fl]
+[wheel/fl/tire]
 texture = touring.png
 size = 225/40r18	# 996 GT3
 type = tire-competition
 
-[tire-fr]
+[wheel/fr/tire]
 texture = touring.png
 size = 225/40r18
 type = tire-competition
 
-[tire-rl]
+[wheel/rl/tire]
 texture = touring.png
 size = 285/30r18
 type = tire-competition
 
-[tire-rr]
+[wheel/rr/tire]
 texture = touring.png
 size = 285/30r18
 type = tire-competition
 
-[wheel-fl]
+[wheel/fl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 orientation = left
@@ -179,7 +179,7 @@ toe = 0.5
 ackermann = 8.63	# 50% ackermann
 steering = 30
 
-[wheel-fr]
+[wheel/fr]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 orientation = right
@@ -191,7 +191,7 @@ toe = -0.5
 ackermann = -8.63
 steering = 30
 
-[wheel-rl]
+[wheel/rl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 orientation = left
@@ -201,7 +201,7 @@ camber = -0.5
 caster = 0.0
 toe = 0.0
 
-[wheel-rr]
+[wheel/rr]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 orientation = right

@@ -82,35 +82,35 @@ surface-area = 0.5
 lift-coefficient = -0.5
 efficiency = 0.95
 
-[coilover-fl]
+[wheel/fl/coilover]
 spring-constant = 60000.0
 bounce = 7000.0
 rebound = 7500.0
 travel = 0.12
 anti-roll = 6500.0
 
-[coilover-fr]
+[wheel/fr/coilover]
 spring-constant = 60000.0
 bounce = 7000.0
 rebound = 7500.0
 travel = 0.12
 anti-roll = 6500.0
 
-[coilover-rl]
+[wheel/rl/coilover]
 spring-constant = 45000.0
 bounce = 5500.0
 rebound = 6000.0
 travel = 0.12
 anti-roll = 5000.0
 
-[coilover-rr]
+[wheel/rr/coilover]
 spring-constant = 45000.0
 bounce = 5500.0
 rebound = 6000.0
 travel = 0.12
 anti-roll = 5000.0
 
-[brake-fl]
+[wheel/fl/brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 0.6
 max-pressure = 3.0e6
@@ -118,7 +118,7 @@ bias = 0.5
 radius = 0.1375
 area = 0.01
 
-[brake-fr]
+[wheel/fr/brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 0.6
 max-pressure = 3.0e6
@@ -126,7 +126,7 @@ bias = 0.5
 radius = 0.1375
 area = 0.01
 
-[brake-rl]
+[wheel/rl/brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 0.6
 max-pressure = 3.0e6
@@ -135,7 +135,7 @@ radius = 0.1375
 area = 0.01
 handbrake = 1.0
 
-[brake-rr]
+[wheel/rr/brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 0.6
 max-pressure = 3.0e6
@@ -144,27 +144,27 @@ radius = 0.1375
 area = 0.01
 handbrake = 1.0
 
-[tire-fl]
+[wheel/fl/tire]
 texture = touring.png
 size = 255/45r17	# Mustang GT Pirelli P235/55ZR17
 type = tire-touring
 
-[tire-fr]
+[wheel/fr/tire]
 texture = touring.png
 size = 255/45r17
 type = tire-touring
 
-[tire-rl]
+[wheel/rl/tire]
 texture = touring.png
 size = 255/45r17
 type = tire-touring
 
-[tire-rr]
+[wheel/rr/tire]
 texture = touring.png
 size = 255/45r17
 type = tire-touring
 
-[wheel-fl]
+[wheel/fl]
 texture = 10_spoke_f.png
 mesh = 10_spoke_f.joe
 orientation = left
@@ -176,7 +176,7 @@ toe = 0.0
 ackermann = 8.94	# 50% ackermann
 steering = 33
 
-[wheel-fr]
+[wheel/fr]
 texture = 10_spoke_f.png
 mesh = 10_spoke_f.joe
 orientation = right
@@ -188,7 +188,7 @@ toe = 0.0
 ackermann = -8.94
 steering = 33
 
-[wheel-rl]
+[wheel/rl]
 texture = 10_spoke_f.png
 mesh = 10_spoke_f.joe
 orientation = left
@@ -198,7 +198,7 @@ camber = -0.45
 caster = 0.28
 toe = -0.2
 
-[wheel-rr]
+[wheel/rr]
 texture = 10_spoke_f.png
 mesh = 10_spoke_f.joe
 orientation = right

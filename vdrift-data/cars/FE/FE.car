@@ -80,35 +80,35 @@ surface-area = 0.5
 lift-coefficient = -0.5
 efficiency = 0.95
 
-[coilover-fl]
+[wheel/fl/coilover]
 spring-constant = 42000.0
 bounce = 2100.0
 rebound = 6400.0
 travel = 0.15
 anti-roll = 5000.0
 
-[coilover-fr]
+[wheel/fr/coilover]
 spring-constant = 42000.0
 bounce = 2100.0
 rebound = 6400.0
 travel = 0.15
 anti-roll = 5000.0
 
-[coilover-rl]
+[wheel/rl/coilover]
 spring-constant = 35000.0
 bounce = 2000.0
 rebound = 5900.0
 travel = 0.18
 anti-roll = 5000.0
 
-[coilover-rr]
+[wheel/rr/coilover]
 spring-constant = 35000.0
 bounce = 2000.0
 rebound = 5900.0
 travel = 0.18
 anti-roll = 5000.0
 
-[brake-fl]
+[wheel/fl/brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 0.93
 max-pressure = 1.93e6
@@ -116,7 +116,7 @@ bias = 0.59
 radius = 0.14
 area = 0.015
 
-[brake-fr]
+[wheel/fr/brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 0.93
 max-pressure = 1.93e6
@@ -124,7 +124,7 @@ bias = 0.59
 radius = 0.14
 area = 0.015
 
-[brake-rl]
+[wheel/rl/brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 0.93
 max-pressure = 1.93e6
@@ -133,7 +133,7 @@ radius = 0.14
 area = 0.015
 handbrake = 1.0
 
-[brake-rr]
+[wheel/rr/brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 0.93
 max-pressure = 1.93e6
@@ -142,27 +142,27 @@ radius = 0.14
 area = 0.015
 handbrake = 1.0
 
-[tire-fl]
+[wheel/fl/tire]
 texture = touring.png
 size = 225/35r15
 type = tire-touring
 
-[tire-fr]
+[wheel/fr/tire]
 texture = touring.png
 size = 225/35r15
 type = tire-touring
 
-[tire-rl]
+[wheel/rl/tire]
 texture = touring.png
 size = 225/35r15
 type = tire-touring
 
-[tire-rr]
+[wheel/rr/tire]
 texture = touring.png
 size = 225/35r15
 type = tire-touring
 
-[wheel-fl]
+[wheel/fl]
 texture = 5_spoke_m.png
 mesh = 5_spoke_m.joe
 orientation = left
@@ -174,7 +174,7 @@ toe = 0.5
 ackermann = 7.7	# 50% ackermann
 steering = 27
 
-[wheel-fr]
+[wheel/fr]
 texture = 5_spoke_m.png
 mesh = 5_spoke_m.joe
 orientation = right
@@ -186,7 +186,7 @@ toe = -0.5
 ackermann = -7.7
 steering = 27
 
-[wheel-rl]
+[wheel/rl]
 texture = 5_spoke_m.png
 mesh = 5_spoke_m.joe
 orientation = left
@@ -196,7 +196,7 @@ camber = 0.00
 caster = 0.00
 toe = -0.2
 
-[wheel-rr]
+[wheel/rr]
 texture = 5_spoke_m.png
 mesh = 5_spoke_m.joe
 orientation = right

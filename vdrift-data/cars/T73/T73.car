@@ -72,49 +72,49 @@ surface-area = 0.3
 lift-coefficient = -0.3
 efficiency = 0.95
 
-[coilover-fl]
+[wheel/fl/coilover]
 spring-constant = 50000
 bounce = 1700
 rebound = 5200
 travel = 0.10
 anti-roll = 20000
 
-[coilover-fr]
+[wheel/fr/coilover]
 spring-constant = 50000
 bounce = 1700
 rebound = 5200
 travel = 0.10
 anti-roll = 20000
 
-[coilover-rl]
+[wheel/rl/coilover]
 spring-constant = 54000
 bounce = 1900
 rebound = 5700
 travel = 0.10
 anti-roll = 20000
 
-[coilover-rr]
+[wheel/rr/coilover]
 spring-constant = 54000
 bounce = 1900
 rebound = 5700
 travel = 0.10
 anti-roll = 20000
 
-[brake-fl]
+[wheel/fl/brake]
 friction = 0.8
 max-pressure = 2e6
 bias = 0.57
 radius = 0.15
 area = 0.01
 
-[brake-fr]
+[wheel/fr/brake]
 friction = 0.8
 max-pressure = 2e6
 bias = 0.57
 radius = 0.15
 area = 0.01
 
-[brake-rl]
+[wheel/rl/brake]
 friction = 0.8
 max-pressure = 2e6
 bias = 0.37
@@ -122,7 +122,7 @@ radius = 0.15
 area = 0.01
 handbrake = 1.0
 
-[brake-rr]
+[wheel/rr/brake]
 friction = 0.8
 max-pressure = 2e6
 bias = 0.37
@@ -130,27 +130,27 @@ radius = 0.15
 area = 0.01
 handbrake = 1.0
 
-[tire-fl]
+[wheel/fl/tire]
 texture = touring.png
 size = 285/50r15
 type = tire-slick
 
-[tire-fr]
+[wheel/fr/tire]
 texture = touring.png
 size = 285/50r15
 type = tire-slick
 
-[tire-rl]
+[wheel/rl/tire]
 texture = touring.png
 size = 285/50r15
 type = tire-slick
 
-[tire-rr]
+[wheel/rr/tire]
 texture = touring.png
 size = 285/50r15
 type = tire-slick
 
-[wheel-fl]
+[wheel/fl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 orientation = left
@@ -162,7 +162,7 @@ toe = 0.5
 ackermann = 8.2	# 50% ackermann
 steering = 30
 
-[wheel-fr]
+[wheel/fr]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 orientation = right
@@ -174,7 +174,7 @@ toe = -0.5
 ackermann = -8.2
 steering = 30
 
-[wheel-rl]
+[wheel/rl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 orientation = left
@@ -184,7 +184,7 @@ camber = -3.0
 caster = 0.0
 toe = -0.5
 
-[wheel-rr]
+[wheel/rr]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 orientation = right

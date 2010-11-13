@@ -73,7 +73,7 @@ surface-area = 0.5
 lift-coefficient = 0.5
 efficiency = 0.95
 
-[coilover-fl]
+[wheel/fl/coilover]
 spring-constant = 49131.9
 bounce = 2900
 rebound = 8700
@@ -82,7 +82,7 @@ damper-factor-2 = 0.1, 0.7
 travel = 0.18
 anti-roll = 7000
 
-[coilover-fr]
+[wheel/fr/coilover]
 spring-constant = 49131.9
 bounce = 2900
 rebound = 8700
@@ -91,7 +91,7 @@ damper-factor-2 = 0.1, 0.7
 travel = 0.18
 anti-roll = 7000
 
-[coilover-rl]
+[wheel/rl/coilover]
 spring-constant = 51137.3
 bounce = 3000
 rebound = 8900
@@ -100,7 +100,7 @@ damper-factor-2 = 0.1, 0.7
 travel = 0.18
 anti-roll = 6000
 
-[coilover-rr]
+[wheel/rr/coilover]
 spring-constant = 51137.3
 bounce = 3000
 rebound = 8900
@@ -109,7 +109,7 @@ damper-factor-2 = 0.1, 0.7
 travel = 0.18
 anti-roll = 6000
 
-[brake-fl]
+[wheel/fl/brake]
 texture = rotor_worn.png
 friction = 0.5
 max-pressure = 2.0e6
@@ -117,7 +117,7 @@ bias = 0.60
 radius = 0.14
 area = 0.07
 
-[brake-fr]
+[wheel/fr/brake]
 texture = rotor_worn.png
 friction = 0.5
 max-pressure = 2.0e6
@@ -125,7 +125,7 @@ bias = 0.60
 radius = 0.14
 area = 0.07
 
-[brake-rl]
+[wheel/rl/brake]
 texture = rotor_worn.png
 friction = 0.5
 max-pressure = 2.0e6
@@ -134,7 +134,7 @@ radius = 0.14
 area = 0.07
 handbrake = 1.0
 
-[brake-rr]
+[wheel/rr/brake]
 texture = rotor_worn.png
 friction = 0.5
 max-pressure = 2.0e6
@@ -143,27 +143,27 @@ radius = 0.14
 area = 0.07
 handbrake = 1.0
 
-[tire-fl]
+[wheel/fl/tire]
 texture = touring.png
 size = 225/45r18	# oem size = 225/50r17
 type = tire-touring
 
-[tire-fr]
+[wheel/fr/tire]
 texture = touring.png
 size = 225/45r18
 type = tire-touring
 
-[tire-rl]
+[wheel/rl/tire]
 texture = touring.png
 size = 245/45r18	# oem size = 235/50r17
 type = tire-touring
 
-[tire-rr]
+[wheel/rr/tire]
 texture = touring.png
 size = 245/45r18
 type = tire-touring
 
-[wheel-fl]
+[wheel/fl]
 texture = pentagonal_hub.png
 mesh = pentagonal_hub.joe
 orientation = left
@@ -175,7 +175,7 @@ toe = 0.0
 ackermann = 8.4	# 50% ackermann
 steering = 30
 
-[wheel-fr]
+[wheel/fr]
 texture = pentagonal_hub.png
 mesh = pentagonal_hub.joe
 orientation = right
@@ -187,7 +187,7 @@ toe = 0.0
 ackermann = -8.4
 steering = 30
 
-[wheel-rl]
+[wheel/rl]
 texture = pentagonal_hub.png
 mesh = pentagonal_hub.joe
 orientation = left
@@ -197,7 +197,7 @@ camber = -0.45
 caster = 0.28
 toe = 0.0
 
-[wheel-rr]
+[wheel/rr]
 texture = pentagonal_hub.png
 mesh = pentagonal_hub.joe
 orientation = right

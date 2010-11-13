@@ -135,7 +135,7 @@ view-position = -0.28, 0.12, 0.42			# moved driver position
 hood-mounted-view-position = 0.0, 0.7, 0.5	# static driver position
 
 [view-0]
-name = wheel-front-right	# observe wheel and chassis moves
+name = wheel/front-right	# observe wheel and chassis moves
 position = 3.0, 1.0, 0.75	# X(+right), Y(+front), Z(+up)
 angle = 20.0, 90.0			# +down/-up, +left/-right
 
@@ -160,35 +160,35 @@ surface-area = 1.0
 lift-coefficient = -0.20
 efficiency = 1
 
-[coilover-fl]
+[wheel/fl/coilover]
 spring-constant = 79865 # assuming 0.75 to 1 lever arm ratio
 bounce = 3000.0
 rebound = 10000.0
 travel = 0.12
 anti-roll = 12000
 
-[coilover-fr
+[wheel/fr/coilover
 spring-constant = 79865
 bounce = 3000.0
 rebound = 10000.0
 travel = 0.12
 anti-roll = 12000
 
-[coilover-rl]
+[wheel/rl/coilover]
 spring-constant = 104062
 bounce = 4000.0
 rebound = 12000.0
 travel = 0.14
 anti-roll = 10000
 
-[coilover-rr]
+[wheel/rr/coilover]
 spring-constant = 104062
 bounce = 4000.0
 rebound = 12000.0
 travel = 0.14
 anti-roll = 10000
 
-[brake-fl]
+[wheel/fl/brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 15.0
 max-pressure = 2.5e6
@@ -196,7 +196,7 @@ bias = 0.65
 radius = 0.175 # 350mm
 area = 0.000688 # 21.5mm x 32mm
 
-[brake-fr]
+[wheel/fr/brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 15.0
 max-pressure = 2.5e6
@@ -204,7 +204,7 @@ bias = 0.65
 radius = 0.175 # 350mm
 area = 0.000688 # 21.5mm x 32mm
 
-[brake-rl]
+[wheel/rl/brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 15.0
 max-pressure = 2.5e6
@@ -213,7 +213,7 @@ radius = 0.165 # 330mm
 area = 0.000448 # 16mm x 28mm
 handbrake = 1.0
 
-[brake-rr]
+[wheel/rr/brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 15.0
 max-pressure = 2.5e6
@@ -224,12 +224,12 @@ handbrake = 1.0
 
 #---------- F R O N T
 
-[tire-fl]
+[wheel/fl/tire]
 texture = touring.png
 size = 215/45r18
 type = tire-competition
 
-[wheel-fl]
+[wheel/fl]
 texture = pentagonal_hub.png
 mesh = pentagonal_hub.joe
 orientation = left
@@ -241,12 +241,12 @@ toe = -0.2
 ackermann = 8.96	# 50% ackermann
 steering = 33
 
-[tire-fr]
+[wheel/fr/tire]
 texture = touring.png
 size = 215/45r18
 type = tire-competition
 
-[wheel-fr]
+[wheel/fr]
 texture = pentagonal_hub.png
 mesh = pentagonal_hub.joe
 orientation = right
@@ -260,12 +260,12 @@ steering = 33
 
 #---------- R E A R
 
-[tire-rl]
+[wheel/rl/tire]
 texture = touring.png
 size = 275/40r18
 type = tire-competition
 
-[wheel-rl]
+[wheel/rl]
 texture = pentagonal_hub.png
 mesh = pentagonal_hub.joe
 orientation = left
@@ -275,12 +275,12 @@ camber = -0.45
 caster = 0.28
 toe = -0.1
 
-[tire-rr]
+[wheel/rr/tire]
 texture = touring.png
 size = 275/40r18
 type = tire-competition
 
-[wheel-rr]
+[wheel/rr]
 texture = pentagonal_hub.png
 mesh = pentagonal_hub.joe
 orientation = right

@@ -75,35 +75,35 @@ surface-area = 0.5
 lift-coefficient = 0.25
 efficiency = 0.95
 
-[coilover-fl]
+[wheel/fl/coilover]
 spring-constant = 40000
 bounce = 1900
 rebound = 5700
 travel = 0.16
 anti-roll = 1200.0
 
-[coilover-fr]
+[wheel/fr/coilover]
 spring-constant = 40000
 bounce = 1900
 rebound = 5700
 travel = 0.16
 anti-roll = 1200.0
 
-[coilover-rl]
+[wheel/rl/coilover]
 spring-constant = 20000
 bounce = 1000
 rebound = 2900
 travel = 0.16
 anti-roll = 1000.0
 
-[coilover-rr]
+[wheel/rr/coilover]
 spring-constant = 20000
 bounce = 1000
 rebound = 2900
 travel = 0.16
 anti-roll = 1000.0
 
-[brake-fl]
+[wheel/fl/brake]
 texture = rotor_worn.png
 friction = 0.2
 max-pressure = 2.5e6
@@ -111,7 +111,7 @@ bias = 0.68
 radius = 0.1
 area = 0.015
 
-[brake-fr]
+[wheel/fr/brake]
 texture = rotor_worn.png
 friction = 0.2
 max-pressure = 2.5e6
@@ -119,7 +119,7 @@ bias = 0.68
 radius = 0.1
 area = 0.015
 
-[brake-rl]
+[wheel/rl/brake]
 texture = rotor_worn.png
 friction = 0.2
 max-pressure = 2.5e6
@@ -128,7 +128,7 @@ radius = 0.08
 area = 0.015
 handbrake = 1.0
 
-[brake-rr]
+[wheel/rr/brake]
 texture = rotor_worn.png
 friction = 0.2
 max-pressure = 2.5e6
@@ -137,27 +137,27 @@ radius = 0.08
 area = 0.015
 handbrake = 1.0
 
-[tire-fl]
+[wheel/fl/tire]
 texture = touring.png
 size = 165/70r10
 type = tire-touring
 
-[tire-fr]
+[wheel/fr/tire]
 texture = touring.png
 size = 165/70r10
 type = tire-touring
 
-[tire-rl]
+[wheel/rl/tire]
 texture = touring.png
 size = 165/70r10
 type = tire-touring
 
-[tire-rr]
+[wheel/rr/tire]
 texture = touring.png
 size = 165/70r10
 type = tire-touring
 
-[wheel-fl]
+[wheel/fl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 orientation = left
@@ -169,7 +169,7 @@ toe = 0.0
 ackermann = 8.28	# 50% Ackermann
 steering = 30
 
-[wheel-fr]
+[wheel/fr]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 orientation = right
@@ -181,7 +181,7 @@ toe = 0.0
 ackermann = -8.28
 steering = 30
 
-[wheel-rl]
+[wheel/rl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 orientation = left
@@ -191,7 +191,7 @@ camber = -1.5
 caster = 0.0
 toe = 0.0
 
-[wheel-rr]
+[wheel/rr]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 orientation = right
