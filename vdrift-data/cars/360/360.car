@@ -65,7 +65,7 @@
 #	Downforce by ground effect: 180 kg  at 290 km/h
 #
 #---------------------------------------
-include ../../carparts/tire/competition
+include ../../carparts/competition
 
 [engine]
 position = 0.0, -1.0, -0.05
@@ -139,12 +139,12 @@ name = wheel/front-right	# observe wheel and chassis moves
 position = 3.0, 1.0, 0.75	# X(+right), Y(+front), Z(+up)
 angle = 20.0, 90.0			# +down/-up, +left/-right
 
-[wing-front]
+[wing.front]
 position = 0.0, 0.15, 0.00
 frontal-area = 2.03
 drag-coefficient = 0.29
 
-[wing-center]
+[wing.center]
 position = 0, 1.15, -0.3
 frontal-area = 0.0
 drag-coefficient = 0
@@ -152,7 +152,7 @@ surface-area = 1.0
 lift-coefficient = -0.22
 efficiency = 1
 
-[wing-rear]
+[wing.rear]
 position = 0, -1.50, -0.3
 frontal-area = 0.0
 drag-coefficient = 0
@@ -160,35 +160,35 @@ surface-area = 1.0
 lift-coefficient = -0.20
 efficiency = 1
 
-[wheel/fl/coilover]
+[wheel.fl.coilover]
 spring-constant = 79865 # assuming 0.75 to 1 lever arm ratio
 bounce = 3000.0
 rebound = 10000.0
 travel = 0.12
 anti-roll = 12000
 
-[wheel/fr/coilover
+[wheel.fr.coilover
 spring-constant = 79865
 bounce = 3000.0
 rebound = 10000.0
 travel = 0.12
 anti-roll = 12000
 
-[wheel/rl/coilover]
+[wheel.rl.coilover]
 spring-constant = 104062
 bounce = 4000.0
 rebound = 12000.0
 travel = 0.14
 anti-roll = 10000
 
-[wheel/rr/coilover]
+[wheel.rr.coilover]
 spring-constant = 104062
 bounce = 4000.0
 rebound = 12000.0
 travel = 0.14
 anti-roll = 10000
 
-[wheel/fl/brake]
+[wheel.fl.brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 15.0
 max-pressure = 2.5e6
@@ -196,7 +196,7 @@ bias = 0.65
 radius = 0.175 # 350mm
 area = 0.000688 # 21.5mm x 32mm
 
-[wheel/fr/brake]
+[wheel.fr.brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 15.0
 max-pressure = 2.5e6
@@ -204,7 +204,7 @@ bias = 0.65
 radius = 0.175 # 350mm
 area = 0.000688 # 21.5mm x 32mm
 
-[wheel/rl/brake]
+[wheel.rl.brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 15.0
 max-pressure = 2.5e6
@@ -213,7 +213,7 @@ radius = 0.165 # 330mm
 area = 0.000448 # 16mm x 28mm
 handbrake = 1.0
 
-[wheel/rr/brake]
+[wheel.rr.brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 15.0
 max-pressure = 2.5e6
@@ -224,15 +224,14 @@ handbrake = 1.0
 
 #---------- F R O N T
 
-[wheel/fl/tire]
+[wheel.fl.tire]
 texture = touring.png
-size = 215/45r18
+size = 215,45,18
 type = tire-competition
 
-[wheel/fl]
+[wheel.fl]
 texture = pentagonal_hub.png
 mesh = pentagonal_hub.joe
-orientation = left
 position = -0.85, 1.12, -0.27			# track +-Y = 1669/2
 hinge = 0.50, 0.90, -0.20
 camber = -1.0
@@ -241,15 +240,15 @@ toe = -0.2
 ackermann = 8.96	# 50% ackermann
 steering = 33
 
-[wheel/fr/tire]
+[wheel.fr.tire]
 texture = touring.png
-size = 215/45r18
+size = 215,45,18
 type = tire-competition
 
-[wheel/fr]
+[wheel.fr]
 texture = pentagonal_hub.png
 mesh = pentagonal_hub.joe
-orientation = right
+scale = -1,1,1
 position = 0.85, 1.12, -0.27
 hinge = -0.50, 0.90, -0.20
 camber = 1.0
@@ -260,30 +259,29 @@ steering = 33
 
 #---------- R E A R
 
-[wheel/rl/tire]
+[wheel.rl.tire]
 texture = touring.png
-size = 275/40r18
+size = 275,40,18
 type = tire-competition
 
-[wheel/rl]
+[wheel.rl]
 texture = pentagonal_hub.png
 mesh = pentagonal_hub.joe
-orientation = left
 position = -0.8085, -1.51, -0.28		# track +-Y = 1617/2
 hinge = 1.00 , -0.0, -0.0
 camber = -0.45
 caster = 0.28
 toe = -0.1
 
-[wheel/rr/tire]
+[wheel.rr.tire]
 texture = touring.png
-size = 275/40r18
+size = 275,40,18
 type = tire-competition
 
-[wheel/rr]
+[wheel.rr]
 texture = pentagonal_hub.png
 mesh = pentagonal_hub.joe
-orientation = right
+scale = -1,1,1
 position = 0.8085, -1.51, -0.28
 hinge = -1.00 , 0.0, -0.0
 camber = 0.45
@@ -307,14 +305,17 @@ mesh = interior.joe
 [glass]
 texture = glass.png, glass-misc1.png
 mesh = glass.joe
+draw = transparent
 
 [light-brake]
 texture = brake.png
 mesh = body.joe
+draw = emissive
 
 [light-reverse]
 texture = reverse.png
 mesh = body.joe
+draw = emissive
 
 # these are used to calculate the weight distribution and balance
 

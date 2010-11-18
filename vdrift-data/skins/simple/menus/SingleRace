@@ -47,7 +47,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-02.2 ]
+[ widget-03 ]
 type = colorpicker
 name = PlayerColor
 setting = game.player_color
@@ -61,7 +61,7 @@ selected = 1
 default = 0
 cancel = 0
 
-[ widget-02.3 ]
+[ widget-04 ]
 type = stringwheel
 name = PlayerCar
 setting = game.player
@@ -78,7 +78,7 @@ selected = 1
 default = 0
 cancel = 0
 
-[ widget-09 ]
+[ widget-05 ]
 type = toggle
 name = ABSToggle
 setting = game.antilock
@@ -93,7 +93,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-10 ]
+[ widget-06 ]
 type = toggle
 name = TCSToggle
 setting = game.traction_control
@@ -108,7 +108,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-03 ]
+[ widget-07 ]
 type = spinningcar
 name = OpponentSpinningCar
 setting = game.opponent
@@ -125,7 +125,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-03.1 ]
+[ widget-08 ]
 type = stringwheel
 name = OpponentPaint
 setting = game.opponent_paint
@@ -141,7 +141,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-03.2 ]
+[ widget-09 ]
 type = colorpicker
 name = OpponentColor
 setting = game.opponent_color
@@ -155,7 +155,7 @@ selected = 1
 default = 0
 cancel = 0
 
-[ widget-04 ]
+[ widget-10 ]
 type = stringwheel
 name = OpponentCar
 setting = game.opponent
@@ -172,7 +172,7 @@ selected = 1
 default = 0
 cancel = 0
 
-[ widget-05 ]
+[ widget-11 ]
 type = button
 name = AddOpponentButton
 text = Add
@@ -188,7 +188,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-06 ]
+[ widget-12 ]
 type = label
 name = OpponentsLabel
 text = Opponents: 
@@ -201,7 +201,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-11 ]
+[ widget-13 ]
 type = slider
 name = AIDifficultySlider
 setting = game.ai_difficulty
@@ -215,7 +215,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-07 ]
+[ widget-14 ]
 type = multi-image
 name = TrackMultiImage
 setting = game.track
@@ -231,7 +231,7 @@ cancel = 0
 prefix = tracks/
 postfix = /trackshot.png
 
-[ widget-08 ]
+[ widget-15 ]
 type = stringwheel
 name = TrackWheel
 setting = game.track
@@ -247,7 +247,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-12 ]
+[ widget-16 ]
 type = toggle
 name = ReverseTrackToggle
 setting = game.reverse
@@ -262,7 +262,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-13 ]
+[ widget-17 ]
 type = intwheel
 name = LapWheel
 setting = game.number_of_laps
@@ -277,7 +277,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-14 ]
+[ widget-18 ]
 type = button
 name = StartRaceButton
 text = Start Race
@@ -293,7 +293,7 @@ selected = 0
 default = 1
 cancel = 0
 
-[ widget-15 ]
+[ widget-19 ]
 type = button
 name = StartRaceBackButton
 text = Back to Main

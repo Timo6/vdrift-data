@@ -1,4 +1,4 @@
-include ../../carparts/tire/slick
+include ../../carparts/slick
 
 [engine]
 position = 0.15, -1.10, -0.45
@@ -56,54 +56,54 @@ fuel-density = 1.0
 view-position = 0, 0.3, 0.15
 hood-mounted-view-position = 0, 0.6, 0
 
-[wing-front]
+[wing.front]
 position = 0.0, 0.0, 0.2
 frontal-area = 2
 drag-coefficient = 0.3
 
-[wheel/fl/coilover]
+[wheel.fl.coilover]
 spring-constant = 30000
 bounce = 1250
 rebound = 3750
 travel = 0.10
 anti-roll = 5000
 
-[wheel/fr/coilover]
+[wheel.fr.coilover]
 spring-constant = 30000
 bounce = 1250
 rebound = 3750
 travel = 0.10
 anti-roll = 5000
 
-[wheel/rl/coilover]
+[wheel.rl.coilover]
 spring-constant = 30000
 bounce = 1250
 rebound = 3750
 travel = 0.10
 anti-roll = 2000
 
-[wheel/rr/coilover]
+[wheel.rr.coilover]
 spring-constant = 30000
 bounce = 1250
 rebound = 3750
 travel = 0.10
 anti-roll = 2000
 
-[wheel/fl/brake]
+[wheel.fl.brake]
 friction = 0.3
 max-pressure = 2.5e6
 bias = 0.65
 radius = 0.19
 area = 0.015
 
-[wheel/fr/brake]
+[wheel.fr.brake]
 friction = 0.3
 max-pressure = 2.5e6
 bias = 0.65
 radius = 0.19
 area = 0.015
 
-[wheel/rl/brake]
+[wheel.rl.brake]
 friction = 0.3
 max-pressure = 2.5e6
 bias = 0.35
@@ -111,7 +111,7 @@ radius = 0.18
 area = 0.015
 handbrake = 1.5
 
-[wheel/rr/brake]
+[wheel.rr.brake]
 friction = 0.3
 max-pressure = 2.5e6
 bias = 0.35
@@ -119,30 +119,29 @@ radius = 0.18
 area = 0.015
 handbrake = 1.5
 
-[wheel/fl/tire]
+[wheel.fl.tire]
 texture = touring.png
-size = 185/55r13
+size = 185,55,13
 type = tire-slick
 
-[wheel/fr/tire]
+[wheel.fr.tire]
 texture = touring.png
-size = 185/55r13
+size = 185,55,13
 type = tire-slick
 
-[wheel/rl/tire]
+[wheel.rl.tire]
 texture = touring.png
-size = 185/55r13
+size = 185,55,13
 type = tire-slick
 
-[wheel/rr/tire]
+[wheel.rr.tire]
 texture = touring.png
-size = 185/55r13
+size = 185,55,13
 type = tire-slick
 
-[wheel/fl]
+[wheel.fl]
 texture = 5_spoke_m.png
 mesh = 5_spoke_m.joe
-orientation = left
 position = -0.74, 1.20, -0.48
 hinge = 0,0,0
 camber = -1.0
@@ -151,10 +150,10 @@ toe = 0.5
 ackermann = 8.64	# 50% ackermann
 steering = 20
 
-[wheel/fr]
+[wheel.fr]
 texture = 5_spoke_m.png
 mesh = 5_spoke_m.joe
-orientation = right
+scale = -1,1,1
 position = 0.74, 1.20, -0.48
 hinge = 0,0,0
 camber = 1.0
@@ -163,20 +162,19 @@ toe = -0.5
 ackermann = -8.64
 steering = 20
 
-[wheel/rl]
+[wheel.rl]
 texture = 5_spoke_m.png
 mesh = 5_spoke_m.joe
-orientation = left
 position = -0.74, -1.18, -0.48
 hinge = 0,0,0
 camber = -0.5
 caster = 0.0
 toe = -1.0
 
-[wheel/rr]
+[wheel.rr]
 texture = 5_spoke_m.png
 mesh = 5_spoke_m.joe
-orientation = right
+scale = -1,1,1
 position = 0.74, -1.18, -0.48
 hinge = 0,0,0
 camber = 0.5

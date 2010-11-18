@@ -1,4 +1,4 @@
-include ../../carparts/tire/touring
+include ../../carparts/touring
 
 [engine]
 position = 0.0, 1.4, -0.1
@@ -61,12 +61,12 @@ fuel-density = 0.8
 view-position = -0.4, -0.3,  0.3
 hood-mounted-view-position = 0, 0.5, 0.2
 
-[wing-front]
+[wing.front]
 position = 0.0, 0.0, -0.60
 frontal-area = 2.0
 drag-coefficient = 0.3
 
-[wing-center]
+[wing.center]
 position = 0, 2.34, -0.6
 frontal-area = 0.2
 drag-coefficient = 0
@@ -74,7 +74,7 @@ surface-area = 0.9
 lift-coefficient = -1.2
 efficiency = 0.99
 
-[wing-rear]
+[wing.rear]
 position = 0, -2.14, 0.37
 frontal-area = 0.2
 drag-coefficient = 0
@@ -82,35 +82,35 @@ surface-area = 0.9
 lift-coefficient = -2.0
 efficiency = 0.95
 
-[wheel/fl/coilover]
+[wheel.fl.coilover]
 spring-constant = 80000.0
 bounce = 3600
 rebound = 11000
 travel = 0.12
 anti-roll = 10000.0
 
-[wheel/fr/coilover]
+[wheel.fr.coilover]
 spring-constant = 80000.0
 bounce = 3600
 rebound = 11000
 travel = 0.12
 anti-roll = 10000.0
 
-[wheel/rl/coilover]
+[wheel.rl.coilover]
 spring-constant = 95000.0
 bounce = 4200.0
 rebound = 12600.0
 travel = 0.12
 anti-roll = 10000.0
 
-[wheel/rr/coilover]
+[wheel.rr.coilover]
 spring-constant = 95000.0
 bounce = 4200.0
 rebound = 12600.0
 travel = 0.12
 anti-roll = 10000.0
 
-[wheel/fl/brake]
+[wheel.fl.brake]
 texture = rotor_worn.png
 friction = 1.2
 max-pressure = 3.8e6
@@ -118,7 +118,7 @@ bias = 0.6
 radius = 0.18
 area = 0.01
 
-[wheel/fr/brake]
+[wheel.fr.brake]
 texture = rotor_worn.png
 friction = 1.2
 max-pressure = 3.8e6
@@ -126,7 +126,7 @@ bias = 0.6
 radius = 0.18
 area = 0.01
 
-[wheel/rl/brake]
+[wheel.rl.brake]
 texture = rotor_worn.png
 friction = 1.2
 max-pressure = 3.0e6
@@ -135,7 +135,7 @@ radius = 0.16
 area = 0.01
 handbrake = 1.0
 
-[wheel/rr/brake]
+[wheel.rr.brake]
 texture = rotor_worn.png
 friction = 1.2
 max-pressure = 3.0e6
@@ -144,30 +144,29 @@ radius = 0.16
 area = 0.01
 handbrake = 1.0
 
-[wheel/fl/tire]
+[wheel.fl.tire]
 texture = touring.png
-size = 265/40r17
+size = 265,40,17
 type = tire-touring
 
-[wheel/fr/tire]
+[wheel.fr.tire]
 texture = touring.png
-size = 265/40r17
+size = 265,40,17
 type = tire-touring
 
-[wheel/rl/tire]
+[wheel.rl.tire]
 texture = touring.png
-size = 295/35r18
+size = 295,35,18
 type = tire-touring
 
-[wheel/rr/tire]
+[wheel.rr.tire]
 texture = touring.png
-size = 295/35r18
+size = 295,35,18
 type = tire-touring
 
-[wheel/fl]
+[wheel.fl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
-orientation = left
 position = -0.73, 1.30, -0.42
 hinge = 0,0,-0.1
 camber = -1.33
@@ -176,10 +175,10 @@ toe = 0.0
 ackermann = 8	# 50% ackermann
 steering = 33
 
-[wheel/fr]
+[wheel.fr]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
-orientation = right
+scale = -1,1,1
 position = 0.73, 1.30, -0.42
 hinge = 0,0,-0.1
 camber = 1.33
@@ -188,20 +187,19 @@ toe = 0.0
 ackermann = -8
 steering = 33
 
-[wheel/rl]
+[wheel.rl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
-orientation = left
 position = -0.75, -1.25, -0.43
 hinge = 0,0,-0.1
 camber = -0.45
 caster = 0.28
 toe = -0.2
 
-[wheel/rr]
+[wheel.rr]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
-orientation = right
+scale = -1,1,1
 position = 0.75, -1.25, -0.43
 hinge = 0,0,-0.1
 camber = 0.45
@@ -221,14 +219,17 @@ mesh = body.joe
 [glass]
 texture = glass.png
 mesh = glass.joe
+draw = transparent
 
 [light-brake]
 texture = brake.png
 mesh = body.joe
+draw = emissive
 
 [light-reverse]
 texture = reverse.png
 mesh = body.joe
+draw = emissive
 
 # these are used to calculate the weight distribution and balance
 [particle-00]

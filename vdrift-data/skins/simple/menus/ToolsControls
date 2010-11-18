@@ -32,7 +32,7 @@ selected = 1
 default = 0
 cancel = 0
 
-[ widget-02.5 ]
+[ widget-02 ]
 type = controlgrab
 name = ReloadShadersControl
 text = Reload Shaders

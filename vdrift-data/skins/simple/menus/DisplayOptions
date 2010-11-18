@@ -144,7 +144,7 @@ default = 0
 cancel = 0
 
 
-[ widget-09.5 ]
+[ widget-10 ]
 type = slider
 name = CameraBounceSlider
 setting = display.camerabounce
@@ -159,7 +159,7 @@ default = 0
 cancel = 0
 
 
-[ widget-09.75 ]
+[ widget-11 ]
 type = slider
 name = ContrastSlider
 setting = display.contrast
@@ -174,7 +174,7 @@ default = 0
 cancel = 0
 
 
-[ widget-10 ]
+[ widget-12 ]
 type = button
 name = DisplayOptionsAdvancedButton
 text = Advanced
@@ -190,7 +190,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-11 ]
+[ widget-13 ]
 type = button
 name = DisplayOptionsOKButton
 text = OK
@@ -206,7 +206,7 @@ selected = 0
 default = 1
 cancel = 0
 
-[ widget-12 ]
+[ widget-14 ]
 type = button
 name = DisplayOptionsCancelButton
 text = Cancel
@@ -222,7 +222,7 @@ selected = 0
 default = 0
 cancel = 1
 
-[ widget-13 ]
+[ widget-15 ]
 type = label
 name = DisclaimerLabel
 text = Note: Some options will not take effect until the game is restarted
