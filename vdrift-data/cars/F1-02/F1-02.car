@@ -12,8 +12,8 @@
 #
 # width, length, height :: X(+left), Y(+front), Z(+up)
 
-include ../../carparts/tire/f1_front
-include ../../carparts/tire/f1_rear
+include ../../carparts/f1_front
+include ../../carparts/f1_rear
 
 [engine]
 position = 0.0, -0.70, -0.40
@@ -98,12 +98,12 @@ view-stiffness = 1.0
 hood-mounted-view-position = -0.25, -0.50, 0.30
 #hood-mounted-view-position = 1.00, -2.00, -0.00	# lwft  wheel
 
-[wing-front]
+[wing.front]
 position = 0.00, 0.00, -0.40
 frontal-area = 1.15
 drag-coefficient = 0.69
 
-[wing-center]
+[wing.center]
 position = 0.0, 2.20, 0.50
 frontal-area = 0.20
 drag-coefficient = 0.5
@@ -111,7 +111,7 @@ surface-area = 1.00			# including body downforce; 0.7
 lift-coefficient = -2
 efficiency = 0.99
 
-[wing-rear]
+[wing.rear]
 position = 0.0, -1.30, 0.15
 frontal-area = 0.3
 drag-coefficient = 0.6
@@ -119,49 +119,49 @@ surface-area = 2.00			# including body downforce; 0.5
 lift-coefficient = -2
 efficiency = 0.99
 
-[wheel/fl/coilover]
+[wheel.fl.coilover]
 spring-constant = 350000
 bounce = 3000				## Druckstufe 1/3 - 1/4
 rebound = 8000				## Zugstufe
 travel = 0.07				## Federweg
 anti-roll = 8000			## Stabilisator
 
-[wheel/fr/coilover]
+[wheel.fr.coilover]
 spring-constant = 350000
 bounce = 3000				## Druckstufe 1/3 - 1/4
 rebound = 8000				## Zugstufe
 travel = 0.07				## Federweg
 anti-roll = 8000			## Stabilisator
 
-[wheel/rl/coilover]
+[wheel.rl.coilover]
 spring-constant = 500000
 bounce = 4000				## Druckstufe 1/3 - 1/4
 rebound = 12000				## Zugstufe
 travel = 0.09				## Federweg
 anti-roll = 12000			## Stabilisator
 
-[wheel/rr/coilover]
+[wheel.rr.coilover]
 spring-constant = 500000
 bounce = 4000				## Druckstufe 1/3 - 1/4
 rebound = 12000				## Zugstufe
 travel = 0.09				## Federweg
 anti-roll = 12000			## Stabilisator
 
-[wheel/fl/brake]
+[wheel.fl.brake]
 friction = 1.40
 max-pressure = 2.4e6
 bias = 0.60
 radius = 0.15
 area = 0.01
 
-[wheel/fr/brake]
+[wheel.fr.brake]
 friction = 1.40
 max-pressure = 2.4e6
 bias = 0.60
 radius = 0.15
 area = 0.01
 
-[wheel/rl/brake]
+[wheel.rl.brake]
 friction = 1.40
 max-pressure = 2.4e6
 bias = 0.40
@@ -169,7 +169,7 @@ radius = 0.14
 area = 0.01
 handbrake = 1.0
 
-[wheel/rr/brake]
+[wheel.rr.brake]
 friction = 1.40
 max-pressure = 2.4e6
 bias = 0.40
@@ -179,30 +179,29 @@ handbrake = 1.0
 
 # FIA: max 660mm in diameter (670mm with wet-weather tyres)
 
-[wheel/fl/tire]
+[wheel.fl.tire]
 texture = touring.png
-size = 355/46r13
+size = 355,46,13
 type = tire-f1-front
 
-[wheel/fr/tire]
+[wheel.fr.tire]
 texture = touring.png
-size = 355/46r13
+size = 355,46,13
 type = tire-f1-front
 
-[wheel/rl/tire]
+[wheel.rl.tire]
 texture = touring.png
-size = 355/46r13
+size = 355,46,13
 type = tire-f1-rear
 
-[wheel/rr/tire]
+[wheel.rr.tire]
 texture = touring.png
-size = 355/46r13
+size = 355,46,13
 type = tire-f1-rear
 
-[wheel/fl]
+[wheel.fl]
 texture = oem_wheel.png
 mesh = oem_wheel.joe
-orientation = left
 position = -0.725, 1.60, -0.37
 hinge = 0, 0, 0
 camber = -1.00		# Radsturz
@@ -211,10 +210,10 @@ toe = -0.9			# Left wheel toe in(negative angle)
 ackermann = 6.5		# 50% Ackermann, 100% Ackermann Angle(steering arm angle) atan(0.5 * steering_axis_length / axes_distance)
 steering = 30		# Maximum steering angle (ackermann = 0.0)
 
-[wheel/fr]
+[wheel.fr]
 texture = oem_wheel.png
 mesh = oem_wheel.joe
-orientation = right
+scale = -1,1,1
 position = 0.725, 1.60, -0.37
 hinge = 0, 0, 0
 camber = 1.00
@@ -223,20 +222,19 @@ toe = 0.9			# Right wheel toe in(positive angle)
 ackermann = -6.5	# 50% Ackermann, for 100% Ackermann Angle(steering arm angle) atan(0.5 * steering_axis_length / axes_distance)
 steering = 30		# Maximum steering angle (ackermann = 0.0)
 
-[wheel/rl]
+[wheel.rl]
 texture = oem_wheel.png
 mesh = oem_wheel.joe
-orientation = left
 position = -0.71, -1.53, -0.37
 hinge = 0, -1.0, 0
 camber = -0.50
 caster = 0.28
 toe = 0
 
-[wheel/rr]
+[wheel.rr]
 texture = oem_wheel.png
 mesh = oem_wheel.joe
-orientation = right
+scale = -1,1,1
 position = 0.71, -1.53, -0.37
 hinge = 0, -1.0, 0
 camber = 0.50

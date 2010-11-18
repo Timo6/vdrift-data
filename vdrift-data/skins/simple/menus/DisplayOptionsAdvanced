@@ -114,7 +114,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-07.5 ]
+[ widget-08 ]
 type = toggle
 name = BloomToggle
 setting = display.bloom
@@ -128,7 +128,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-07.75 ]
+[ widget-09 ]
 type = toggle
 name = NormalMapsToggle
 setting = display.normalmaps
@@ -142,7 +142,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-08 ]
+[ widget-10 ]
 type = toggle
 name = MotionBlurToggle
 setting = display.motionblur
@@ -156,7 +156,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-09 ]
+[ widget-11 ]
 type = floatwheel
 name = FOVWheel
 setting = display.FOV
@@ -170,7 +170,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-10 ]
+[ widget-12 ]
 type = intwheel
 name = LightingWheel
 setting = display.lighting
@@ -184,7 +184,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-11 ]
+[ widget-13 ]
 type = intwheel
 name = ReflectionsWheel
 setting = display.reflections
@@ -198,7 +198,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-11.5 ]
+[ widget-14 ]
 type = intwheel
 name = ShadowDistanceWheel
 setting = display.shadow_distance
@@ -212,7 +212,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-11.75 ]
+[ widget-15 ]
 type = intwheel
 name = ShadowQualityWheel
 setting = display.shadow_quality
@@ -226,7 +226,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-12 ]
+[ widget-16 ]
 type = button
 name = DisplayOptionsAdvancedOKButton
 text = OK
@@ -242,7 +242,7 @@ selected = 0
 default = 1
 cancel = 0
 
-[ widget-13 ]
+[ widget-17 ]
 type = button
 name = DisplayOptionsAdvancedCancelButton
 text = Cancel
@@ -258,7 +258,7 @@ selected = 0
 default = 0
 cancel = 1
 
-[ widget-14 ]
+[ widget-18 ]
 type = label
 name = DisclaimerLabel
 text = Note: Some options will not take effect until the game is restarted

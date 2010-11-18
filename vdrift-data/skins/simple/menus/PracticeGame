@@ -47,7 +47,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-02.2 ]
+[ widget-03 ]
 type = colorpicker
 name = PlayerColor
 setting = game.player_color
@@ -61,7 +61,7 @@ selected = 1
 default = 0
 cancel = 0
 
-[ widget-02.3 ]
+[ widget-04 ]
 type = stringwheel
 name = PlayerCar
 setting = game.player
@@ -78,7 +78,7 @@ selected = 1
 default = 0
 cancel = 0
 
-[ widget-03 ]
+[ widget-05 ]
 type = multi-image
 name = TrackMultiImage
 setting = game.track
@@ -94,7 +94,7 @@ cancel = 0
 prefix = tracks/
 postfix = /trackshot.png
 
-[ widget-04 ]
+[ widget-06 ]
 type = stringwheel
 name = TrackWheel
 setting = game.track
@@ -110,7 +110,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-05 ]
+[ widget-07 ]
 type = toggle
 name = ABSToggle
 setting = game.antilock
@@ -125,7 +125,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-06 ]
+[ widget-08 ]
 type = toggle
 name = TCSToggle
 setting = game.traction_control
@@ -140,7 +140,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-07 ]
+[ widget-09 ]
 type = toggle
 name = RecordReplayToggle
 setting = game.record
@@ -155,7 +155,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-08 ]
+[ widget-10 ]
 type = toggle
 name = ReverseTrackToggle
 setting = game.reverse
@@ -170,7 +170,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-09 ]
+[ widget-11 ]
 type = button
 name = StartPracticeGameButton
 text = Start Practice
@@ -186,7 +186,7 @@ selected = 0
 default = 1
 cancel = 0
 
-[ widget-10 ]
+[ widget-12 ]
 type = button
 name = PracticeGameBackButton
 text = Back to Main

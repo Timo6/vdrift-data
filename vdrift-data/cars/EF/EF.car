@@ -1,5 +1,5 @@
-include ../../carparts/tire/sticky-front
-include ../../carparts/tire/sticky-rear
+include ../../carparts/sticky-front
+include ../../carparts/sticky-rear
 
 [engine]
 position = 0.0, -0.5, -0.21
@@ -64,7 +64,7 @@ fuel-density = 730.0
 view-position = -0.35, 0.24, 0.30
 hood-mounted-view-position = 0, 0.9, 0.35
 
-[wing-front]
+[wing.front]
 position = 0.0, 1.2, 0.33
 frontal-area = 0.2
 drag-coefficient = 0.0
@@ -72,7 +72,7 @@ surface-area = 0.3
 lift-coefficient = -0.8
 efficiency = 0.95
 
-[wing-rear]
+[wing.rear]
 position = 0.0, -1.4, 0.47
 frontal-area = 0.05
 drag-coefficient = 0.0
@@ -80,7 +80,7 @@ surface-area = 0.5
 lift-coefficient = -2
 efficiency = 0.95
 
-[wheel/fl/coilover]
+[wheel.fl.coilover]
 spring-constant = 79865
 bounce = 3000.0
 rebound = 9000.0
@@ -91,7 +91,7 @@ caster = 6.12
 toe = 0.2
 anti-roll = 8000
 
-[wheel/fr/coilover]
+[wheel.fr.coilover]
 spring-constant = 79865
 bounce = 3000.0
 rebound = 9000.0
@@ -102,7 +102,7 @@ caster = 6.12
 toe = 0.2
 anti-roll = 8000
 
-[wheel/rl/coilover]
+[wheel.rl.coilover]
 spring-constant = 104062
 bounce = 5000.0
 rebound = 15000.0
@@ -113,7 +113,7 @@ caster = 0.28
 toe = 0.1
 anti-roll = 10000
 
-[wheel/rr/coilover]
+[wheel.rr.coilover]
 spring-constant = 104062
 bounce = 5000.0
 rebound = 15000.0
@@ -124,7 +124,7 @@ caster = 0.28
 toe = 0.1
 anti-roll = 10000
 
-[wheel/fl/brake]
+[wheel.fl.brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 0.77
 max-pressure = 4.2e6
@@ -132,7 +132,7 @@ bias = 0.60
 radius = 0.1905
 area = 0.015
 
-[wheel/fr/brake]
+[wheel.fr.brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 0.77
 max-pressure = 4.2e6
@@ -140,7 +140,7 @@ bias = 0.60
 radius = 0.1905
 area = 0.015
 
-[wheel/rl/brake]
+[wheel.rl.brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 0.77
 max-pressure = 4.2e6
@@ -149,7 +149,7 @@ radius = 0.1905
 area = 0.015
 handbrake = 2.0
 
-[wheel/rr/brake]
+[wheel.rr.brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 0.77
 max-pressure = 4.2e6
@@ -158,30 +158,29 @@ radius = 0.1905
 area = 0.015
 handbrake = 2.0
 
-[wheel/fl/tire]
+[wheel.fl.tire]
 texture = touring.png
-size = 215/45r17
+size = 215,45,17
 type = tire-sticky-front
 
-[wheel/fr/tire]
+[wheel.fr.tire]
 texture = touring.png
-size = 215/45r17
+size = 215,45,17
 type = tire-sticky-front
 
-[wheel/rl/tire]
+[wheel.rl.tire]
 texture = touring.png
-size = 245/40r17
+size = 245,40,17
 type = tire-sticky-rear
 
-[wheel/rr/tire]
+[wheel.rr.tire]
 texture = touring.png
-size = 245/40r17
+size = 245,40,17
 type = tire-sticky-rear
 
-[wheel/fl]
+[wheel.fl]
 texture = pentagonal_hub.png
 mesh = pentagonal_hub.joe
-orientation = left
 position = -0.9, 1.27, -0.3
 hinge = 0,0,-.3
 camber = -1.33
@@ -190,10 +189,10 @@ toe = 0.0
 ackermann = 8.46
 steering = 24
 
-[wheel/fr]
+[wheel.fr]
 texture = pentagonal_hub.png
 mesh = pentagonal_hub.joe
-orientation = right
+scale = -1,1,1
 position = 0.9, 1.27, -0.3
 hinge = 0,0,-.3
 camber = 1.33
@@ -202,20 +201,19 @@ toe = 0.0
 ackermann = -8.46
 steering = 24
 
-[wheel/rl]
+[wheel.rl]
 texture = pentagonal_hub.png
 mesh = pentagonal_hub.joe
-orientation = left
 position = -0.9, -1.42, -0.3
 hinge = 0,-2.4,-.3
 camber = -0.45
 caster = 0.28
 toe = 0.0
 
-[wheel/rr]
+[wheel.rr]
 texture = pentagonal_hub.png
 mesh = pentagonal_hub.joe
-orientation = right
+scale = -1,1,1
 position = 0.9, -1.42, -0.3
 hinge = 0,-2.4,-.3
 camber = 0.45
@@ -239,14 +237,17 @@ mesh = interior.joe
 [glass]
 texture = glass.png, glass-misc1.png
 mesh = glass.joe
+draw = transparent
 
 [light-brake]
 texture = brake.png
 mesh = body.joe
+draw = emissive
 
 [light-reverse]
 texture = reverse.png
 mesh = body.joe
+draw = emissive
 
 # optional lights
 [light-brake-0]

@@ -1,4 +1,4 @@
-include ../../carparts/tire/slick
+include ../../carparts/slick
 
 [engine]
 position = -0.50, 0.0, -0.24
@@ -59,12 +59,12 @@ fuel-density = 730.0
 view-position = 0, 0.6, 0.18
 hood-mounted-view-position = 0, 1.0, 0.2
 
-[wing-front]
+[wing.front]
 position = 0.0, 0.0, 0.2
 frontal-area = 2
 drag-coefficient = 0.3
 
-[wing-center]
+[wing.center]
 position = 0.0, 1.9, 0.60
 frontal-area = 0.2
 drag-coefficient = 0.0
@@ -72,7 +72,7 @@ surface-area = 1.5
 lift-coefficient = -2.0
 efficiency = 0.99
 
-[wing-rear]
+[wing.rear]
 position = 0.0, -1.80, 0.37
 frontal-area = 0.05
 drag-coefficient = 0.0
@@ -80,35 +80,35 @@ surface-area = 1.9
 lift-coefficient = -3.0
 efficiency = 0.99
 
-[wheel/fl/coilover]
+[wheel.fl.coilover]
 spring-constant = 90000
 bounce = 6050
 rebound = 7000
 travel = 0.10
 anti-roll = 11000
 
-[wheel/fr/coilover]
+[wheel.fr.coilover]
 spring-constant = 90000
 bounce = 6050
 rebound = 7000
 travel = 0.10
 anti-roll = 11000
 
-[wheel/rl/coilover]
+[wheel.rl.coilover]
 spring-constant = 100000
 bounce = 7000
 rebound = 8200
 travel = 0.12
 anti-roll = 7000
 
-[wheel/rr/coilover]
+[wheel.rr.coilover]
 spring-constant = 100000
 bounce = 7000
 rebound = 8200
 travel = 0.12
 anti-roll = 7000
 
-[wheel/fl/brake]
+[wheel.fl.brake]
 texture = rotor_carbon_ceramic.png
 friction = 1.40
 max-pressure = 2.5e6
@@ -116,7 +116,7 @@ bias = 0.61
 radius = 0.17
 area = 0.02
 
-[wheel/fr/brake]
+[wheel.fr.brake]
 texture = rotor_carbon_ceramic.png
 friction = 1.40
 max-pressure = 2.5e6
@@ -124,7 +124,7 @@ bias = 0.61
 radius = 0.17
 area = 0.02
 
-[wheel/rl/brake]
+[wheel.rl.brake]
 texture = rotor_carbon_ceramic.png
 friction = 1.40
 max-pressure = 2.5e6
@@ -133,7 +133,7 @@ radius = 0.14
 area = 0.015
 handbrake = 1.0
 
-[wheel/rr/brake]
+[wheel.rr.brake]
 texture = rotor_carbon_ceramic.png
 friction = 1.40
 max-pressure = 2.5e6
@@ -142,30 +142,29 @@ radius = 0.14
 area = 0.015
 handbrake = 1.0
 
-[wheel/fl/tire]
+[wheel.fl.tire]
 texture = touring.png
-size = 325/30r18
+size = 325,30,18
 type = tire-slick
 
-[wheel/fr/tire]
+[wheel.fr.tire]
 texture = touring.png
-size = 325/30r18
+size = 325,30,18
 type = tire-slick
 
-[wheel/rl/tire]
+[wheel.rl.tire]
 texture = touring.png
-size = 375/30r18
+size = 375,30,18
 type = tire-slick
 
-[wheel/rr/tire]
+[wheel.rr.tire]
 texture = touring.png
-size = 375/30r18
+size = 375,30,18
 type = tire-slick
 
-[wheel/fl]
+[wheel.fl]
 texture = oem_wheel.png
 mesh = oem_wheel.joe
-orientation = left
 position = -0.81, 1.46, -0.4
 hinge = 0,0,0
 camber = -1.33
@@ -174,10 +173,10 @@ toe = -0.9
 ackermann = 8.18	# 50% ackermann
 steering = 27
 
-[wheel/fr]
+[wheel.fr]
 texture = oem_wheel.png
 mesh = oem_wheel.joe
-orientation = right
+scale = -1,1,1
 position = 0.81, 1.46, -0.4
 hinge = 0, 0, 0
 camber = 1.33
@@ -186,20 +185,19 @@ toe = 0.9
 ackermann = -8.18
 steering = 27
 
-[wheel/rl]
+[wheel.rl]
 texture = oem_wheel.png
 mesh = oem_wheel.joe
-orientation = left
 position = -0.81, -1.3, -0.4
 hinge = 0, -1.0, 0
 camber = -0.45
 caster = 0.28
 toe = 0.0
 
-[wheel/rr]
+[wheel.rr]
 texture = oem_wheel.png
 mesh = oem_wheel.joe
-orientation = right
+scale = -1,1,1
 position = 0.81, -1.3, -0.4
 hinge = 0, -1.0, 0
 camber = 0.45
@@ -223,14 +221,17 @@ mesh = interior.joe
 [glass]
 texture = glass.png
 mesh = glass.joe
+draw = transparent
 
 [light-brake]
 texture = brake.png
 mesh = body.joe
+draw = emissive
 
 [light-reverse]
 texture = reverse.png
 mesh = body.joe
+draw = emissive
 
 # these are used to calculate the weight distribution and balance
 [particle-00]

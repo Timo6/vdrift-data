@@ -1,4 +1,4 @@
-include ../../carparts/tire/competition
+include ../../carparts/competition
 
 [clutch]
 area = 0.75
@@ -53,12 +53,12 @@ volume = 0.0200
 view-position = -0.208, -0.57, 0.15
 hood-mounted-view-position = 0.0, 0.24, 0.12
 
-[wing-front]
+[wing.front]
 drag-coefficient = 0.3
 frontal-area = 2
 position = 0.0, 0.0, 0.2
 
-[wing-center]
+[wing.center]
 drag-coefficient = 0.0
 efficiency = 0.95
 frontal-area = 0.2
@@ -66,7 +66,7 @@ lift-coefficient = 0.075
 position = 0.0, 1.9, 0.60
 surface-area = 0.3
 
-[wing-rear]
+[wing.rear]
 drag-coefficient = 0.0
 efficiency = 0.95
 frontal-area = 0.05
@@ -74,7 +74,7 @@ lift-coefficient = 0.1
 position = 0.0, -2.14, 0.37
 surface-area = 0.5
 
-[wheel/fl/coilover]
+[wheel.fl.coilover]
 anti-roll = 5000
 bounce = 2000
 damper-factor-1 = 0.02, 2.0
@@ -90,7 +90,7 @@ spring-factor-3 = 0.15, 3.0
 spring-factor-4 = 0.2, 5.0
 travel = 0.3
 
-[wheel/fr/coilover]
+[wheel.fr.coilover]
 anti-roll = 5000
 bounce = 2000
 damper-factor-1 = 0.02, 2.0
@@ -106,7 +106,7 @@ spring-factor-3 = 0.15, 3.0
 spring-factor-4 = 0.2, 5.0
 travel = 0.3
 
-[wheel/rl/coilover]
+[wheel.rl.coilover]
 anti-roll = 4500
 bounce = 2000
 damper-factor-1 = 0.02, 2.0
@@ -122,7 +122,7 @@ spring-factor-3 = 0.15, 3.0
 spring-factor-4 = 0.2, 5.0
 travel = 0.3
 
-[wheel/rr/coilover]
+[wheel.rr.coilover]
 anti-roll = 4500
 bounce = 2000
 damper-factor-1 = 0.02, 2.0
@@ -138,7 +138,7 @@ spring-factor-3 = 0.15, 3.0
 spring-factor-4 = 0.2, 5.0
 travel = 0.3
 
-[wheel/fl/brake]
+[wheel.fl.brake]
 texture = rotor_shiny_slotted_drilled.png
 area = 0.015
 bias = 0.6
@@ -146,7 +146,7 @@ friction = 0.42
 max-pressure = 2.5e6
 radius = 0.17
 
-[wheel/fr/brake]
+[wheel.fr.brake]
 texture = rotor_shiny_slotted_drilled.png
 area = 0.015
 bias = 0.6
@@ -154,7 +154,7 @@ friction = 0.42
 max-pressure = 2.5e6
 radius = 0.17
 
-[wheel/rl/brake]
+[wheel.rl.brake]
 texture = rotor_shiny_slotted_drilled.png
 area = 0.015
 bias = 0.4
@@ -163,7 +163,7 @@ handbrake = 1
 max-pressure = 2.5e6
 radius = 0.14
 
-[wheel/rr/brake]
+[wheel.rr.brake]
 texture = rotor_shiny_slotted_drilled.png
 area = 0.015
 bias = 0.4
@@ -174,30 +174,29 @@ radius = 0.14
 
 # Caterham, Avon CR500 tyres, Front:195/45R15, Rear:255/40R15
 
-[wheel/fl/tire]
+[wheel.fl.tire]
 texture = touring.png
-size = 195/45r15
+size = 195,45,15
 type = tire-competition
 
-[wheel/fr/tire]
+[wheel.fr.tire]
 texture = touring.png
-size = 195/45r15
+size = 195,45,15
 type = tire-competition
 
-[wheel/rl/tire]
+[wheel.rl.tire]
 texture = touring.png
-size = 255/40r15
+size = 255,40,15
 type = tire-competition
 
-[wheel/rr/tire]
+[wheel.rr.tire]
 texture = touring.png
-size = 255/40r15
+size = 255,40,15
 type = tire-competition
 
-[wheel/fl]
+[wheel.fl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
-orientation = left
 position = -0.60, 1.175, -0.42
 hinge = 0.60, 1.175, -0.7
 camber = -0.75
@@ -206,10 +205,10 @@ toe = -0.1
 ackermann = 7.18	# 50% ackermann
 steering = 27
 
-[wheel/fr]
+[wheel.fr]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
-orientation = right
+scale = -1,1,1
 position = 0.60, 1.175, -0.42
 hinge = -0.60, 1.175, -0.7
 camber = 0.75
@@ -218,31 +217,30 @@ toe = 0.1
 ackermann = -7.18
 steering = 27
 
-[wheel/rl]
+[wheel.rl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
-orientation = left
 position = -0.60, -1.17, -0.42
 hinge = 0.60, -1.17, -0.7
 camber = -0.75
 caster = 0.28
 toe = 0.0
 
-[wheel/rr]
+[wheel.rr]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
-orientation = right
+scale = -1,1,1
 position = 0.60, -1.17, -0.42
 hinge = -0.60, -1.17, -0.7
 camber = 0.75
 caster = 0.28
 toe = 0.0
 
-[cycle-fender-fl]
+[wheel.fl.fender]
 texture = body00.png, body-misc1.png
 mesh = floating_front.joe
 
-[cycle-fender-fr]
+[wheel.fr.fender]
 texture = body00.png, body-misc1.png
 mesh = floating_front.joe
 
@@ -263,10 +261,12 @@ mesh = interior.joe
 [light-brake]
 texture = brake.png
 mesh = body.joe
+draw = emissive
 
 [light-reverse]
 texture = reverse.png
 mesh = body.joe
+draw = emissive
 
 [particle-00]
 mass = 20.0
