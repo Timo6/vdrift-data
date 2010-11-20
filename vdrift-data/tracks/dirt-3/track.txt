@@ -1,4 +1,4 @@
-cull faces = on
+cull faces = true
 lap sequences = 2
 non-treaded friction coefficient = 0.75
 treaded friction coefficient = 0.75
@@ -8,7 +8,7 @@ lap sequence 0 = 0.000000,0.000000,0.000000
 lap sequence 1 = 0.000000,385.000000,0.000000
 start position 1 = 175.850143,13.286909,520.942871
 start orientation 1 = -178, 0, 179
-vertical tracking skyboxes = on
+vertical tracking skyboxes = true
 start position 2 = 175.809280,13.032026,513.537231
 start position 3 = 179.410355,13.031073,513.512817
 start orientation 2 = -178, 0, 179
