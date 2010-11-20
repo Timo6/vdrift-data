@@ -6,49 +6,49 @@ mass = 170.0
 max-power = 1.17e5
 peak-engine-rpm = 5600.0
 rpm-limit = 6300.0
-inertia = 0.34
-idle = 0.01
+inertia = 0.31
+idle = 0.02
 start-rpm = 800
-stall-rpm = 500
+stall-rpm = 350
 fuel-consumption = 1e-9
-torque-friction = 0.0004
-torque-curve-00 =	600,	167.28
-torque-curve-01 =	800,	174.8
-torque-curve-02 =	1000,	180.64
-torque-curve-03 =	1200,	185.41
-torque-curve-04 =	1400,	189.44
-torque-curve-05 =	1600,	192.93
-torque-curve-06 =	1800,	196.01
-torque-curve-07 =	2000,	198.76
-torque-curve-08 =	2200,	201.26
-torque-curve-09 =	2400,	203.53
-torque-curve-10 =	2600,	205.62
-torque-curve-11 =	2800,	207.56
-torque-curve-12 =	3000,	209.37
-torque-curve-13 =	3200,	211.05
-torque-curve-14 =	3400,	212.64
-torque-curve-15 =	3600,	216.27
-torque-curve-16 =	3800,	217.93
-torque-curve-17 =	4000,	218.79
-torque-curve-18 =	4200,	219
-torque-curve-19 =	4400,	218.84
-torque-curve-20 =	4600,	218.11
-torque-curve-21 =	4800,	216.58
-torque-curve-22 =	5000,	214.08
-torque-curve-23 =	5200,	210.48
-torque-curve-24 =	5400,	205.66
-torque-curve-25 =	5600,	199.51
-torque-curve-26 =	5800,	192.5
-torque-curve-27 =	6000,	185.12
-torque-curve-28 =	6200,	179.22
-torque-curve-29 =	6400,	173.21
+torque-friction = 3.5e-4
+torque-curve-00 =  600, 171.33
+torque-curve-01 =  800, 176.54
+torque-curve-02 = 1000, 181.47
+torque-curve-03 = 1200, 186.12
+torque-curve-04 = 1400, 190.44
+torque-curve-05 = 1600, 194.40
+torque-curve-06 = 1800, 197.99
+torque-curve-07 = 2000, 201.19
+torque-curve-08 = 2200, 203.96
+torque-curve-09 = 2400, 206.30
+torque-curve-10 = 2600, 208.19
+torque-curve-11 = 2800, 209.62
+torque-curve-12 = 3000, 210.57
+torque-curve-13 = 3200, 211.05
+torque-curve-14 = 3400, 212.64
+torque-curve-15 = 3600, 216.27
+torque-curve-16 = 3800, 217.93
+torque-curve-17 = 4000, 218.79
+torque-curve-18 = 4200, 219.00
+torque-curve-19 = 4400, 218.84
+torque-curve-20 = 4600, 218.11
+torque-curve-21 = 4800, 216.58
+torque-curve-22 = 5000, 214.08
+torque-curve-23 = 5200, 210.48
+torque-curve-24 = 5400, 205.66
+torque-curve-25 = 5600, 199.52
+torque-curve-26 = 5800, 192.50
+torque-curve-27 = 6000, 185.12
+torque-curve-28 = 6200, 179.22
+torque-curve-29 = 6400, 173.21
 
 # I need some way of specifying a twin-plate clutch.  Grr.
 [clutch]
 sliding = 0.24
-radius = 0.19
-area = 0.70
-max-pressure = 15600.0
+radius = 0.14
+area = 1.12
+max-pressure = 1.56e4
 
 [transmission]
 gears = 5
@@ -62,162 +62,177 @@ shift-delay = 0.32
 
 [differential-rear]
 final-drive = 4.1
-anti-slip = 0.3
+anti-slip = 30.0
 
 [fuel-tank]
-position = -1.17, 0, 0 
+position = -1.17, 0, -0.15
 capacity = 0.0650
 volume = 0.0650
-fuel-density = 730.0
+fuel-density = 0.773
 
 [camera]
-view-position = -0.33, -0.1, 0.42
-hood-mounted-view-position = 0.0, 1.2, 0.27
+view-position = -0.33, -0.1, 0.47
+hood-mounted-view-position = 0.0, 1.2, 0.3
 
 [wing.front]
-position = 0.0, 0.0, 0.2
-frontal-area = 2
+position = 0.0, 1.98, -0.30
+frontal-area = 2.1
 drag-coefficient = 0.13
+lift-coefficient = -1.7
+efficiency = 0.87
 
 [wing.center]
-position = 0.0, 1.98, -0.30
-frontal-area = 0.2
-drag-coefficient = 0.02
-surface-area = 0.35
-lift-coefficient = -0.5
-efficiency = 0.87
+position = 0.0, 0.0, 0.1
+frontal-area = 0.3
+drag-coefficient = 0.0
+lift-coefficient = -0.3
+efficiency = 0.8
 
 [wing.rear]
 position = 0.0, -2.05, 0.22
-frontal-area = 0.05
-drag-coefficient = 0.0
-surface-area = 0.32
-lift-coefficient = -2
-efficiency = 0.9
+frontal-area = 0.17
+drag-coefficient = 0.11
+surface-area = 1.2
+lift-coefficient = -0.75
+efficiency = 0.98
 
 [wheel.fl.coilover]
-spring-constant = 76000
-bounce = 8000
-rebound = 10700
-travel = 0.15
-anti-roll = 10000
+spring-constant = 74000
+bounce = 3700
+rebound = 8600
+travel = 0.12
+anti-roll = 12000
 
 [wheel.fr.coilover]
-spring-constant = 76000
-bounce = 8000
-rebound = 10700
-travel = 0.15
-anti-roll = 10000
+spring-constant = 74000
+bounce = 3700
+rebound = 8600
+travel = 0.12
+anti-roll = 12000
 
 [wheel.rl.coilover]
-spring-constant = 63000
-bounce = 9000
-rebound = 9992.14
-travel = 0.17
-anti-roll = 6000
+spring-constant = 61500
+bounce = 2900
+rebound = 8200
+travel = 0.43
+anti-roll = 8500
 
 [wheel.rr.coilover]
-spring-constant = 63000
-bounce = 9000
-rebound = 9992.14
-travel = 0.17
-anti-roll = 6000
+spring-constant = 61500
+bounce = 2900
+rebound = 8200
+travel = 0.43
+anti-roll = 8500
 
 [wheel.fl.brake]
 texture = rotor_worn.png
-friction = 0.73
-max-pressure = 1.2e6
-bias = 0.57
-radius = 0.135
-area = 0.04
+friction = 0.72
+max-pressure = 1.86e6
+bias = 0.68
+radius = 0.170
+area = 0.019
 
 [wheel.fr.brake]
 texture = rotor_worn.png
-friction = 0.73
-max-pressure = 1.2e6
-bias = 0.57
-radius = 0.135
-area = 0.04
+friction = 0.72
+max-pressure = 1.86e6
+bias = 0.68
+radius = 0.170
+area = 0.018
 
 [wheel.rl.brake]
 texture = rotor_worn.png
-friction = 0.72
-max-pressure = 1.05e6
-bias = 0.43
-radius = 0.125
-area = 0.036
-handbrake = 0.8
+friction = 0.64
+max-pressure = 2.02e6
+bias = 0.34
+radius = 0.135
+area = 0.02
+handbrake = 1.0
 
 [wheel.rr.brake]
 texture = rotor_worn.png
-friction = 0.72
-max-pressure = 1.05e6
-bias = 0.43
-radius = 0.125
-area = 0.036
-handbrake = 0.8
+friction = 0.64
+max-pressure = 2.02e6
+bias = 0.34
+radius = 0.135
+area = 0.02
+handbrake = 1.0
 
 [wheel.fl.tire]
 texture = touring.png
-size = 205,50,15
+size = 195,65,15
 type = tire-touring
 
 [wheel.fr.tire]
 texture = touring.png
-size = 205,50,15
+size = 195,65,15
 type = tire-touring
 
 [wheel.rl.tire]
 texture = touring.png
-size = 205,50,15
+size = 195,65,15
 type = tire-touring
 
 [wheel.rr.tire]
 texture = touring.png
-size = 205,50,15
+size = 195,65,15
 type = tire-touring
+
+[wheel.fl.double-wishbone]
+upper-chassis-rear = -0.35, 1.27, -0.07
+upper-chassis-front = -0.35, 1.37, -0.07
+upper-hub = -0.64, 1.27, -0.12
+lower-chassis-rear = -0.28, 1.22, -0.44
+lower-chassis-front = -0.28, 1.32, -0.44
+lower-hub = -0.64, 1.27, -0.49
+
+[wheel.fr.double-wishbone]
+upper-chassis-rear = 0.35, 1.27, -0.07
+upper-chassis-front = 0.35, 1.37, -0.07
+upper-hub = 0.64, 1.27, -0.12
+lower-chassis-rear = 0.28, 1.22, -0.44
+lower-chassis-front = 0.28, 1.32, -0.44
+lower-hub = 0.64, 1.27, -0.49
 
 [wheel.fl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
-position = -0.69, 1.29, -0.42
-hinge = 0.54, 1.28, -0.35
-camber = -0.12
-caster = 1.13
-toe = -0.3
-ackermann = 7.9	# 50% ackermann
-steering = 30
+position = -0.69, 1.27, -0.44
+camber = -1.27
+caster = 4.9
+toe = 1.2
+ackermann = 7.9 # 50% ackermann
+steering = 32.8
 
 [wheel.fr]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 scale = -1,1,1
-position = 0.69, 1.29, -0.42
-hinge = -0.54, 1.28, -0.35
-camber = 0.12
-caster = 1.13
-toe = 0.3
-ackermann = -7.9
-steering = 30
+position = 0.69, 1.27, -0.44
+camber = 1.27
+caster = 4.9
+toe = -1.2
+ackermann = -7.9 # 50% ackermann
+steering = 32.8
 
 [wheel.rl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
-position = -0.68, -1.15, -0.43
-hinge = 0.42, -1.0, -0.22
+position = -0.68, -1.13, -0.47
+hinge = 0.04, -0.7, -0.23
 camber = -0.65
 caster = 0.28
-toe = 0.14
+toe = 0.0
 
 [wheel.rr]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 scale = -1,1,1
-position = 0.68, -1.15, -0.43
-hinge = -0.42, -1.0, -0.22
+position = 0.68, -1.13, -0.47
+hinge = -0.04, -0.7, -0.23
 camber = 0.65
 caster = 0.28
-toe = -0.14
+toe = 0.0
 
 [driver]
 texture = driver2.png, driver-misc1.png
@@ -249,26 +264,46 @@ mesh = body.joe
 draw = emissive
 
 # these are used to calculate the weight distribution and balance
-[particle-00]
-mass = 105.0
-position = 0.55, 1.67, -0.13
+[ particle-00 ]
+mass = 160.0
+position = 0.38, 1.26, -0.42
 
-[particle-01]
-mass = 105.0
-position = -0.55, 1.67, -0.13
+[ particle-01 ]
+mass = 160.0
+position = -0.38, 1.26, -0.42
 
-[particle-02]
-mass = 110.0
-position = 0.55, 0.92, 0.02
+[ particle-02 ]
+mass = 130.0
+position = 0.38, -1.22, -0.38
 
-[particle-03]
-mass = 110.0
-position = -0.55, 0.92, 0.02
+[ particle-03 ]
+mass = 130.0
+position = -0.38, -1.22, -0.38
 
-[particle-04]
-mass = 300.0
-position = 0.49, -1.27, -0.13
+[ particle-04 ]
+mass = 60.0
+position = 0.38, 0.0, 0.61
 
-[particle-05]
-mass = 300.0
-position = -0.49, -1.27, -0.13
+[ particle-05 ]
+mass = 60.0
+position = -0.38, 0.0, 0.61
+
+[ particle-06 ]
+mass = 46.0
+position = 0.39, -1.12, 0.59
+
+[ particle-07 ]
+mass = 46.0
+position = -0.39, -1.12, 0.59
+
+[ particle-08 ]
+mass = 108.0
+position = 0.0, 0.6, -0.41
+
+[ particle-09 ] #transmission
+mass = 160.0
+position = 0.0, -1.12, -0.24
+
+[ particle-10 ] #driver
+mass = 70
+position = -0.33, -0.1, 0.27
