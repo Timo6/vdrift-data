@@ -278,3 +278,47 @@ position = -0.39, 1.32, -0.2
 [particle-05]
 mass = 166.0
 position = 0.39, 1.32, -0.2
+
+
+[seat.driver]
+texture = seat.png
+mesh = seat.joe
+position = 0,0,0
+rotation = 0,0,0
+color = 1,1,1,1
+
+[gauge_pod]
+texture = gauge_pod.png
+mesh = gauge_pod.joe
+position = 0,0,0
+rotation = 0,0,0
+color = 1,1,1,1
+
+[removable_hard_top]
+texture = removable_hard_top.png
+mesh = removable_hard_top.joe
+position = 0,0,0
+rotation = 0,0,0
+color = 1,1,1,1
+
+[steering_wheel]
+texture = steering_wheel.png
+mesh = steering_wheel.joe
+position = 0,0,0
+rotation = 0,0,0
+color = 1,1,1,1
+
+[side_mirror_r]
+texture = side_mirror.png
+mesh = side_mirror_r.joe
+position = 0,0,0
+rotation = 0,0,0
+color = 1,1,1,1
+
+[side_window_r]
+texture = side_window.png
+mesh = side_window_r.joe
+position = 0,0,0
+rotation = 0,0,0
+color = 1,1,1,1
+draw = {transparent} 
