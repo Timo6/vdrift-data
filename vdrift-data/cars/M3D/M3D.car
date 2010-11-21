@@ -90,14 +90,14 @@ efficiency = 0.95
 spring-constant = 75000
 bounce = 3300
 rebound = 9900
-travel = 0.32
+travel = 0.22
 anti-roll = 5000
 
 [wheel.fr.coilover]
 spring-constant = 75000
 bounce = 3300
 rebound = 9900
-travel = 0.32
+travel = 0.22
 anti-roll = 5000
 
 [wheel.rl.coilover]
@@ -116,23 +116,23 @@ anti-roll = 10000
 
 [wheel.fl.brake]
 texture = rotor_worn.png
-friction = 0.73
-max-pressure = 2.5e6
+friction = 0.83
+max-pressure = 2.8e6
 bias = 0.61
 radius = 0.17
 area = 0.015
 
 [wheel.fr.brake]
 texture = rotor_worn.png
-friction = 0.73
-max-pressure = 2.5e6
+friction = 0.83
+max-pressure = 2.8e6
 bias = 0.61
 radius = 0.17
 area = 0.015
 
 [wheel.rl.brake]
 texture = rotor_worn.png
-friction = 0.73
+friction = 0.83
 max-pressure = 3.5e6
 bias = 0.39
 radius = 0.14
@@ -141,7 +141,7 @@ handbrake = 4.0
 
 [wheel.rr.brake]
 texture = rotor_worn.png
-friction = 0.73
+friction = 0.83
 max-pressure = 3.5e6
 bias = 0.39
 radius = 0.14
@@ -168,33 +168,43 @@ texture = touring.png
 size = 205,55,15
 type = tire-touring
 
+[wheel.fl.macpherson-strut]
+strut-top = -0.66, 1.34, 0.05
+strut-end = -0.70, 1.34, -0.505
+hinge = -0.36, 1.34, -0.44
+
+[wheel.fr.macpherson-strut]
+strut-top = 0.66, 1.34, 0.05
+strut-end = 0.70, 1.34, -0.505
+hinge = 0.36, 1.34, -0.44
+
 [wheel.fl]
 texture = 5_spoke_m.png
 mesh = 5_spoke_m.joe
-position = -0.71, 1.34, -0.44
+position = -0.71, 1.34, -0.49
 hinge = 0,0,0
 camber = -2.00
 caster = 8.00
 toe = -0.2
 ackermann = 7.69	# 50% ackermann
-steering = 40
+steering = 30
 
 [wheel.fr]
 texture = 5_spoke_m.png
 mesh = 5_spoke_m.joe
 scale = -1,1,1
-position = 0.71, 1.34, -0.44
+position = 0.71, 1.34, -0.49
 hinge = 0,0,0
 camber = 2.00
 caster = 8.00
 toe = 0.2
 ackermann = -7.69
-steering = 40
+steering = 30
 
 [wheel.rl]
 texture = 5_spoke_m.png
 mesh = 5_spoke_m.joe
-position = -0.71, -1.24, -0.44
+position = -0.71, -1.24, -0.49
 hinge = 0.2,-1.1,0
 camber = -3.00
 caster = 0.28
@@ -204,7 +214,7 @@ toe = 0.0
 texture = 5_spoke_m.png
 mesh = 5_spoke_m.joe
 scale = -1,1,1
-position = 0.71, -1.24, -0.44
+position = 0.71, -1.24, -0.49
 hinge = -0.2,-1.1,0
 camber = 3.00
 caster = 0.28
