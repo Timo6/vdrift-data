@@ -1,7 +1,7 @@
 include ../../carparts/touring
 
 [engine]
-position = 0.0, 1.0, -0.21
+position = 0.0, 0.9, -0.3
 mass = 140.0
 max-power = 1.79e5
 peak-engine-rpm = 7800.0
@@ -57,7 +57,7 @@ final-drive = 4.100
 anti-slip = 600.0
 
 [fuel-tank]
-position = 0.0, -1.0, -0.26
+position = 0.0, -1.0, -0.25
 capacity = 0.0492
 volume = 0.0492
 fuel-density = 730.0
@@ -145,7 +145,7 @@ anti-roll = 600.0
 
 [wheel.fl.brake]
 texture = rotor_shiny_slotted_drilled.png
-friction = 0.4
+friction = 0.6
 max-pressure = 4.0e6
 bias = 0.65
 radius = 0.14
@@ -153,7 +153,7 @@ area = 0.015
 
 [wheel.fr.brake]
 texture = rotor_shiny_slotted_drilled.png
-friction = 0.4
+friction = 0.6
 max-pressure = 4.0e6
 bias = 0.65
 radius = 0.14
@@ -161,7 +161,7 @@ area = 0.015
 
 [wheel.rl.brake]
 texture = rotor_shiny_slotted_drilled.png
-friction = 0.4
+friction = 0.6
 max-pressure = 4.0e6
 bias = 0.35
 radius = 0.14
@@ -170,7 +170,7 @@ handbrake = 1.0
 
 [wheel.rr.brake]
 texture = rotor_shiny_slotted_drilled.png
-friction = 0.4
+friction = 0.6
 max-pressure = 4.0e6
 bias = 0.35
 radius = 0.14
@@ -197,14 +197,45 @@ texture = touring.png
 size = 245,40,17
 type = tire-touring
 
+[wheel.fl.double-wishbone]
+upper-chassis-rear = -0.42, 1.0, -0.31
+upper-chassis-front = -0.42, 1.24, -0.29
+upper-hub = -0.69, 1.14, -0.3
+lower-chassis-rear = -0.39, 0.84, -0.55
+lower-chassis-front = -0.39, 1.14, -0.55
+lower-hub = -0.736, 1.14, -0.6
+
+[wheel.fr.double-wishbone]
+upper-chassis-rear = 0.42, 1.0, -0.31
+upper-chassis-front = 0.42, 1.24, -0.29
+upper-hub = 0.69, 1.14, -0.3
+lower-chassis-rear = 0.39, 0.84, -0.55
+lower-chassis-front = 0.39, 1.14, -0.55
+lower-hub = 0.736, 1.14, -0.6
+
+[wheel.rl.double-wishbone]
+upper-chassis-rear = -0.42, -1.26, -0.3
+upper-chassis-front = -0.42, -1.1, -0.3
+upper-hub = -0.72, -1.26, -0.3
+lower-chassis-rear = -0.34, -1.38, -0.5
+lower-chassis-front = -0.34, -1.1, -0.5
+lower-hub = -0.755, -1.33, -0.55
+
+[wheel.rr.double-wishbone]
+upper-chassis-rear = 0.42, -1.26, -0.3
+upper-chassis-front = 0.42, -1.1, -0.3
+upper-hub = 0.72, -1.26, -0.3
+lower-chassis-rear = 0.34, -1.38, -0.5
+lower-chassis-front = 0.34, -1.1, -0.5
+lower-hub = 0.755, -1.33, -0.55
+
 [wheel.fl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 position = -0.736, 1.14, -0.47	#track front/rear 1471/1509
-hinge = 0,0,0
-camber = -1.33
-caster = 6.12
-toe = 0.0
+camber = 0.5
+caster = 6.0
+toe = -0.16
 ackermann = 8.46	# 50% ackermann
 steering = 30
 
@@ -213,31 +244,28 @@ texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 scale = -1,1,1
 position = 0.736, 1.14, -0.47
-hinge = 0,0,0
-camber = 1.33
-caster = 6.12
-toe = 0.0
+camber = -0.5
+caster = 6.0
+toe = 0.16
 ackermann = -8.46
 steering = 30
 
 [wheel.rl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
-position = -0.755, -1.28, -0.48
-hinge = 0,-0.85,0
-camber = -0.45
-caster = 0.28
-toe = 0.0
+position = -0.755, -1.26, -0.48
+camber = -1.5
+caster = 0.0
+toe = -0.5
 
 [wheel.rr]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 scale = -1,1,1
-position = 0.755, -1.28, -0.48
-hinge = 0,-0.85,0
-camber = 0.45
-caster = 0.28
-toe = 0.0
+position = 0.755, -1.26, -0.48
+camber = 1.5
+caster = 0.0
+toe = 0.5
 
 [driver]
 texture = driver2.png, driver-misc1.png
@@ -290,16 +318,16 @@ position = 0.0, 0.11, -0.36
 
 [particle-02]
 mass = 235.0
-position = -0.39, -1.7, 0.0
+position = -0.39, -1.7, -0.2
 
 [particle-03]
 mass = 235.0
-position = 0.39, -1.7, 0.0
+position = 0.39, -1.7, -0.2
 
 [particle-04]
 mass = 195.0
-position = -0.39, 1.32, -0.07
+position = -0.39, 1.32, -0.25
 
 [particle-05]
 mass = 195.0
-position = 0.39, 1.32, -0.07
+position = 0.39, 1.32, -0.25
