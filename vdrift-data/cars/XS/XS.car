@@ -241,7 +241,7 @@ toe = 0.0
 
 [driver]
 texture = driver2.png, driver-misc1.png
-mesh = driver.joe
+mesh = driver2.joe
 position = -0.35, -0.57, 0.0
 mass = 90.0
 
