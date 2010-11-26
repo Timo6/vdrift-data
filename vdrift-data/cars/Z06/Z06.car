@@ -164,14 +164,45 @@ texture = touring.png
 size = 295,35,18
 type = tire-touring
 
+[wheel.fl.double-wishbone]
+upper-chassis-rear = -0.55, 1.34, -0.32
+upper-chassis-front = -0.55, 1.54, -0.27
+upper-hub = -0.8, 1.44, -0.3
+lower-chassis-rear = -0.4, 1.04, -0.5
+lower-chassis-front = -0.4, 1.44, -0.5
+lower-hub = -0.8, 1.44, -0.55
+
+[wheel.fr.double-wishbone]
+upper-chassis-rear = 0.55, 1.34, -0.32
+upper-chassis-front = 0.55, 1.54, -0.27
+upper-hub = 0.8, 1.44, -0.3
+lower-chassis-rear = 0.4, 1.04, -0.5
+lower-chassis-front = 0.4, 1.44, -0.5
+lower-hub = 0.8, 1.44, -0.55
+
+[wheel.rl.double-wishbone]
+upper-chassis-rear = -0.55, -1.45, -0.3
+upper-chassis-front = -0.55, -1.25, -0.3
+upper-hub = -0.79, -1.25, -0.3
+lower-chassis-rear = -0.35, -1.45, -0.5
+lower-chassis-front = -0.35, -1.15, -0.5
+lower-hub = -0.79, -1.25, -0.55
+
+[wheel.rr.double-wishbone]
+upper-chassis-rear = 0.55, -1.45, -0.3
+upper-chassis-front = 0.55, -1.25, -0.3
+upper-hub = 0.79, -1.25, -0.3
+lower-chassis-rear = 0.35, -1.45, -0.5
+lower-chassis-front = 0.35, -1.15, -0.5
+lower-hub = 0.79, -1.25, -0.55
+
 [wheel.fl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
-position = -0.73, 1.30, -0.42
-hinge = 0,0,-0.1
-camber = -1.33
-caster = 6.12
-toe = 0.0
+position = -0.806, 1.44, -0.4
+camber = -0.2
+caster = 6.9
+toe = -0.04
 ackermann = 8	# 50% ackermann
 steering = 33
 
@@ -179,31 +210,28 @@ steering = 33
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 scale = -1,1,1
-position = 0.73, 1.30, -0.42
-hinge = 0,0,-0.1
-camber = 1.33
-caster = 6.12
-toe = 0.0
+position = 0.806, 1.44, -0.4
+camber = 0.2
+caster = 6.9
+toe = 0.04
 ackermann = -8
 steering = 33
 
 [wheel.rl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
-position = -0.75, -1.25, -0.43
-hinge = 0,0,-0.1
-camber = -0.45
-caster = 0.28
+position = -0.794, -1.25, -0.4
+camber = -0.18
+caster = 0.0
 toe = -0.2
 
 [wheel.rr]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 scale = -1,1,1
-position = 0.75, -1.25, -0.43
-hinge = 0,0,-0.1
-camber = 0.45
-caster = 0.28
+position = 0.794, -1.25, -0.4
+camber = 0.18
+caster = 0.0
 toe = 0.2
 
 [driver]
