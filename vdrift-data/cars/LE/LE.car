@@ -329,7 +329,7 @@ mesh = gauge_pod.joe
 #color = 1,1,1,1
 
 [removable_hard_top]
-texture = removable_hard_top.png
+texture = removable_hard_top.png, removable_hard_top-misc1.png
 mesh = removable_hard_top.joe
 #position = 0,0,0
 #rotation = 0,0,0
@@ -364,3 +364,19 @@ scale = -1,1,1
 #rotation = 0,0,0
 #color = 1,1,1,1
 #draw = transparent
+
+[foglight.r]
+texture = foglight.png
+mesh = foglight.joe
+position = 0.288,1.819,-0.390
+rotation = 0,0,0
+color = 1,1,1,1
+draw = transparent
+
+[foglight.l]
+texture = foglight.png
+mesh = foglight.joe
+position = -0.288,1.819,-0.390
+rotation = 0,0,0
+color = 1,1,1,1
+draw = transparent
