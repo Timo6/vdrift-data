@@ -140,8 +140,8 @@ size = 185,55,13
 type = tire-slick
 
 [wheel.fl]
-texture = 5_spoke_m.png
-mesh = 5_spoke_m.joe
+texture = wheel/5_spoke_m.png
+mesh = wheel/5_spoke_m.joe
 position = -0.74, 1.20, -0.48
 hinge = 0,0,0
 camber = -1.0
@@ -151,8 +151,8 @@ ackermann = 8.64	# 50% ackermann
 steering = 20
 
 [wheel.fr]
-texture = 5_spoke_m.png
-mesh = 5_spoke_m.joe
+texture = wheel/5_spoke_m.png
+mesh = wheel/5_spoke_m.joe
 scale = -1,1,1
 position = 0.74, 1.20, -0.48
 hinge = 0,0,0
@@ -163,8 +163,8 @@ ackermann = -8.64
 steering = 20
 
 [wheel.rl]
-texture = 5_spoke_m.png
-mesh = 5_spoke_m.joe
+texture = wheel/5_spoke_m.png
+mesh = wheel/5_spoke_m.joe
 position = -0.74, -1.18, -0.48
 hinge = 0,0,0
 camber = -0.5
@@ -172,8 +172,8 @@ caster = 0.0
 toe = -1.0
 
 [wheel.rr]
-texture = 5_spoke_m.png
-mesh = 5_spoke_m.joe
+texture = wheel/5_spoke_m.png
+mesh = wheel/5_spoke_m.joe
 scale = -1,1,1
 position = 0.74, -1.18, -0.48
 hinge = 0,0,0

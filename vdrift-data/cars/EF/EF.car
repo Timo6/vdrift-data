@@ -179,8 +179,8 @@ size = 245,40,17
 type = tire-sticky-rear
 
 [wheel.fl]
-texture = pentagonal_hub.png
-mesh = pentagonal_hub.joe
+texture = wheel/pentagonal_hub.png
+mesh = wheel/pentagonal_hub.joe
 position = -0.9, 1.27, -0.3
 hinge = 0,0,-.3
 camber = -1.33
@@ -190,8 +190,8 @@ ackermann = 8.46
 steering = 24
 
 [wheel.fr]
-texture = pentagonal_hub.png
-mesh = pentagonal_hub.joe
+texture = wheel/pentagonal_hub.png
+mesh = wheel/pentagonal_hub.joe
 scale = -1,1,1
 position = 0.9, 1.27, -0.3
 hinge = 0,0,-.3
@@ -202,8 +202,8 @@ ackermann = -8.46
 steering = 24
 
 [wheel.rl]
-texture = pentagonal_hub.png
-mesh = pentagonal_hub.joe
+texture = wheel/pentagonal_hub.png
+mesh = wheel/pentagonal_hub.joe
 position = -0.9, -1.42, -0.3
 hinge = 0,-2.4,-.3
 camber = -0.45
@@ -211,8 +211,8 @@ caster = 0.28
 toe = 0.0
 
 [wheel.rr]
-texture = pentagonal_hub.png
-mesh = pentagonal_hub.joe
+texture = wheel/pentagonal_hub.png
+mesh = wheel/pentagonal_hub.joe
 scale = -1,1,1
 position = 0.9, -1.42, -0.3
 hinge = 0,-2.4,-.3

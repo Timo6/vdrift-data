@@ -164,8 +164,8 @@ size = 245,45,18
 type = tire-touring
 
 [wheel.fl]
-texture = pentagonal_hub.png
-mesh = pentagonal_hub.joe
+texture = wheel/pentagonal_hub.png
+mesh = wheel/pentagonal_hub.joe
 position = -0.8, 1.33, 0.18
 hinge = 0,0,0
 camber = -1.33
@@ -175,8 +175,8 @@ ackermann = 8.4	# 50% ackermann
 steering = 30
 
 [wheel.fr]
-texture = pentagonal_hub.png
-mesh = pentagonal_hub.joe
+texture = wheel/pentagonal_hub.png
+mesh = wheel/pentagonal_hub.joe
 scale = -1,1,1
 position = 0.8, 1.33, 0.18
 hinge = 0,0,0
@@ -187,8 +187,8 @@ ackermann = -8.4
 steering = 30
 
 [wheel.rl]
-texture = pentagonal_hub.png
-mesh = pentagonal_hub.joe
+texture = wheel/pentagonal_hub.png
+mesh = wheel/pentagonal_hub.joe
 position = -0.8, -1.32, 0.18
 hinge = 0,-0.85,0
 camber = -0.45
@@ -196,8 +196,8 @@ caster = 0.28
 toe = 0.0
 
 [wheel.rr]
-texture = pentagonal_hub.png
-mesh = pentagonal_hub.joe
+texture = wheel/pentagonal_hub.png
+mesh = wheel/pentagonal_hub.joe
 scale = -1,1,1
 position = 0.8, -1.32, 0.18
 hinge = 0,-0.85,0
