@@ -163,8 +163,8 @@ size = 225,35,15
 type = tire-touring
 
 [wheel.fl]
-texture = 5_spoke_m.png
-mesh = 5_spoke_m.joe
+texture = wheel/5_spoke_m.png
+mesh = wheel/5_spoke_m.joe
 position = -0.65, 1.20, -0.43
 hinge = 0,0,0
 camber = -2.75
@@ -174,8 +174,8 @@ ackermann = 7.7	# 50% ackermann
 steering = 27
 
 [wheel.fr]
-texture = 5_spoke_m.png
-mesh = 5_spoke_m.joe
+texture = wheel/5_spoke_m.png
+mesh = wheel/5_spoke_m.joe
 scale = -1,1,1
 position = 0.65, 1.20, -0.43
 hinge = 0,0,0
@@ -186,8 +186,8 @@ ackermann = -7.7
 steering = 27
 
 [wheel.rl]
-texture = 5_spoke_m.png
-mesh = 5_spoke_m.joe
+texture = wheel/5_spoke_m.png
+mesh = wheel/5_spoke_m.joe
 position = -0.65, -1.16, -0.46
 hinge = 0.25, 0.0, 0.0
 camber = 0.00
@@ -195,8 +195,8 @@ caster = 0.00
 toe = -0.2
 
 [wheel.rr]
-texture = 5_spoke_m.png
-mesh = 5_spoke_m.joe
+texture = wheel/5_spoke_m.png
+mesh = wheel/5_spoke_m.joe
 scale = -1,1,1
 position = 0.65, -1.16, -0.46
 hinge = -0.25, 0.0, 0.0

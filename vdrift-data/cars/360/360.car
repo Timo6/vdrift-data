@@ -230,8 +230,8 @@ size = 215,45,18
 type = tire-competition
 
 [wheel.fl]
-texture = pentagonal_hub.png
-mesh = pentagonal_hub.joe
+texture = wheel/pentagonal_hub.png
+mesh = wheel/pentagonal_hub.joe
 position = -0.85, 1.12, -0.27			# track +-Y = 1669/2
 hinge = 0.50, 0.90, -0.20
 camber = -1.0
@@ -246,8 +246,8 @@ size = 215,45,18
 type = tire-competition
 
 [wheel.fr]
-texture = pentagonal_hub.png
-mesh = pentagonal_hub.joe
+texture = wheel/pentagonal_hub.png
+mesh = wheel/pentagonal_hub.joe
 scale = -1,1,1
 position = 0.85, 1.12, -0.27
 hinge = -0.50, 0.90, -0.20
@@ -265,8 +265,8 @@ size = 275,40,18
 type = tire-competition
 
 [wheel.rl]
-texture = pentagonal_hub.png
-mesh = pentagonal_hub.joe
+texture = wheel/pentagonal_hub.png
+mesh = wheel/pentagonal_hub.joe
 position = -0.8085, -1.51, -0.28		# track +-Y = 1617/2
 hinge = 1.00 , -0.0, -0.0
 camber = -0.45
@@ -279,8 +279,8 @@ size = 275,40,18
 type = tire-competition
 
 [wheel.rr]
-texture = pentagonal_hub.png
-mesh = pentagonal_hub.joe
+texture = wheel/pentagonal_hub.png
+mesh = wheel/pentagonal_hub.joe
 scale = -1,1,1
 position = 0.8085, -1.51, -0.28
 hinge = -1.00 , 0.0, -0.0

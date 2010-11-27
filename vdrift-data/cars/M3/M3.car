@@ -179,8 +179,8 @@ strut-end = 0.70, 1.34, -0.505
 hinge = 0.36, 1.34, -0.44
 
 [wheel.fl]
-texture = 5_spoke_m.png
-mesh = 5_spoke_m.joe
+texture = wheel/5_spoke_m.png
+mesh = wheel/5_spoke_m.joe
 position = -0.71, 1.34, -0.49
 hinge = 0,0,0
 camber = -2.00
@@ -190,8 +190,8 @@ ackermann = 7.69	# 50% ackermann
 steering = 30
 
 [wheel.fr]
-texture = 5_spoke_m.png
-mesh = 5_spoke_m.joe
+texture = wheel/5_spoke_m.png
+mesh = wheel/5_spoke_m.joe
 scale = -1,1,1
 position = 0.71, 1.34, -0.49
 hinge = 0,0,0
@@ -202,8 +202,8 @@ ackermann = -7.69
 steering = 30
 
 [wheel.rl]
-texture = 5_spoke_m.png
-mesh = 5_spoke_m.joe
+texture = wheel/5_spoke_m.png
+mesh = wheel/5_spoke_m.joe
 position = -0.71, -1.24, -0.49
 hinge = 0.2,-1.1,0
 camber = -3.00
@@ -211,8 +211,8 @@ caster = 0.28
 toe = 0.0
 
 [wheel.rr]
-texture = 5_spoke_m.png
-mesh = 5_spoke_m.joe
+texture = wheel/5_spoke_m.png
+mesh = wheel/5_spoke_m.joe
 scale = -1,1,1
 position = 0.71, -1.24, -0.49
 hinge = -0.2,-1.1,0
