@@ -1,0 +1,267 @@
+ï»¿ ->
+ 1
+ 1st = Erster
+ 2
+ 2nd = Zweiter
+ 3
+ 3rd = Dritter
+ 4
+ 4th = Vierter
+ 5th = Fünfter
+ 6th = Sechster
+ 99:99.999
+ ABS Toggle = ABS Schalter
+ Add = Hinzufügen
+ Add an opponent to race against (max 3). = Füge einen Gegner hinzu (Max: 3).
+ Advanced = Erweitert
+ Advanced Display Options = Erweiterte Darstellungsoptionen
+ Analog Clutch = Analoge Kupplung
+ Are you sure you want to end this network game?
+ Are you sure you want to leave this game?
+ Are you sure you want to quit?
+ Are you sure you want to restart?
+ Are you sure you want to stop the race?
+ Assign Camera Movement Controls
+ Assign Camera View Controls
+ Assign Car Controls
+ Assign Controls
+ Assign Game Controls
+ Assign Gear Controls
+ Assign inputs to actions related to replays.
+ Assign inputs to actions related to the transmission.
+ Assign inputs to actions that affect the car.
+ Assign inputs to actions that affect the game.
+ Assign inputs to camera movement controls.
+ Assign inputs to camera view selection controls.
+ Assign inputs to each of the gear actions.
+ Assign inputs to miscellaneous helpful actions.
+ Assign Replay Controls
+ Assign Tool Controls
+ Assign Transmission Controls
+ Back
+ Back to Main
+ Back to Pause Menu
+ Before starting the race, click "Add" to add opponents.
+ Begin playing the last recorded replay.
+ Best Lap
+ Brake
+ Calibrate
+ Calibrate the joystick device.
+ Camera Movement
+ Camera Views
+ Cancel
+ Car
+ Car Controls
+ Car1
+ Car2
+ Car3
+ Car4
+ Change detail levels and other advanced display options.
+ Change input and control settings.
+ Change some of the options while the game is running.
+ Change sound settings.
+ Change video, display and detail settings.
+ Chase (Loose)
+ Chase (Rigid)
+ Configure your display, sound and controls.
+ Control
+ Controls
+ Controls Options
+ Deadzone
+ Delete
+ Delete this control and return to the previous menu.
+ Delete this control.
+ Display
+ Display Options
+ Edit Analog Control
+ Edit Button Control
+ Edit Joystick Axis Control
+ Edit Joystick Button Control
+ Edit Keyboard Control
+ Edit Mouse Button Control
+ Edit Mouse Motion Control
+ End Race
+ End race and return to the Main menu.
+ Engage Clutch
+ Exponent
+ External Fixed
+ External Follow
+ Extra options for gamepad, joystick and steering wheel controls.
+ Focus Next
+ Focus Previous
+ Focus the camera on next car.
+ Focus the camera on previous car.
+ Forget changes and return to Assign Controls menu.
+ Forget changes and return to Car Controls menu.
+ Forget changes and return to Controls Options menu.
+ Forget changes and return to Display Options menu.
+ Forget changes and return to Game Controls menu.
+ Forget changes and return to in-game Assign Controls menu.
+ Forget changes and return to in-game Game Controls menu.
+ Forget changes and return to Options menu.
+ Forget changes and return to the previous menu.
+ Forget changes and return to Transmission Controls menu.
+ Free
+ Gain
+ Game Controls
+ Gas
+ Gears
+ Go back to the Network Game menu.
+ Go back to the race menu.
+ Go back to the Replays menu.
+ Handbrake
+ Held/Once
+ Hood
+ In-Car
+ Joy Axis
+ Joy Btn
+ Joy Motion
+ Joystick Info
+ Joystick Options
+ Key
+ Leave Game
+ Leave game and return to the Main menu.
+ Leave the menu and unpause the game.
+ Looks behind you during driving.
+ Main Menu
+ Map keys, buttons and axes to actions in the game.
+ Mouse Btn
+ Neutral
+ Next Camera
+ No
+ Note: Some options will not take effect until the game is restarted
+ OK
+ Opponents:
+ Options
+ Orbit
+ Pan Down
+ Pan Left
+ Pan Right
+ Pan Up
+ Pause
+ Pause Menu
+ Play back recorded games.
+ Practice Game
+ Press a key, press a joystick button, move a joystick axis, move the mouse, or click a mouse button.
+ Press the ESCAPE key to abort.
+ Previous Camera
+ Quit
+ Quit Now
+ Quit the game now.
+ Quit VDrift.
+ Race Results
+ Rear View
+ Reload Shaders
+ Reload the vertex and fragment shader source files.
+ Replays
+ Restart Game
+ Restart this game using the same car and track settings.
+ Retry
+ Return
+ Return to Controls Options menu.
+ Return to Game
+ Return to In Game Controls Options menu.
+ Return to the Main menu.
+ Return to the Options menu.
+ Return to the Pause menu.
+ Reverse
+ Rollover Recover
+ Rotate car back onto it's wheels after rollover.
+ Save changes and return to Assign Controls menu.
+ Save changes and return to Car Controls menu.
+ Save changes and return to Controls Options menu.
+ Save changes and return to Display Options menu.
+ Save changes and return to Game Controls menu.
+ Save changes and return to in-game Assign Controls menu.
+ Save changes and return to in-game Game Controls menu.
+ Save changes and return to Options menu.
+ Save changes and return to the previous menu.
+ Save changes and return to Transmission Controls menu.
+ Screen Shot
+ Set the deadzone for the axis between 0.0 and 1.0.
+ Set the deadzone for the input between 0.0 and 0.5.
+ Set the deadzone for the Motion between 0.0 and 1.0.
+ Set the exponent for the axis between 0.0 and 3.0.
+ Set the exponent for the input between 1.0 and 5.0.
+ Set the exponent for the Motion between 0.0 and 3.0.
+ Set the gain for the axis between 0.0 and 3.0.
+ Set the gain for the input between 0.5 and 3.0.
+ Set the gain for the Motion between 0.0 and 3.0.
+ Shift Down
+ Shift Up
+ Simulation Engine Error
+ Single Race
+ Skip Backward
+ Skip Forward
+ Sound
+ Sound Options
+ Start a practice game using the selected car and track.
+ Start a practice game.
+ Start a race using the selected car and track.
+ Start a race.
+ Start Engine
+ Start Practice
+ Start Race
+ Start Replay
+ Steer Left
+ Steer Right
+ TCS Toggle
+ The ABS Toggle turns anti-lock braking on or off while playing.
+ The analog clutch control can allow you to use an external clutch pedal.
+ The brake control causes the car to slow down.
+ The engage clutch control lets out the clutch. This must be done after every shift.
+ The external follow camera flies between each of the external cameras.
+ The fifth gear control shifts the car into fifth gear.
+ The first gear control shifts the car into first gear.
+ The fixed external camera follows the car from a set of fixed locations.
+ The fourth gear control shifts the car into fourth gear.
+ The free camera control can be moved anywhere using the arrow keys.
+ The gas control causes the car to speed up.
+ The handbrake brakes only on the back wheels.
+ The hood camera control moves the camera to the car's hood.
+ The in-car camera control moves the camera to driver's view.
+ The joystick info control shows debugging info for available joysticks.
+ The loose chase camera control moves the camera to follow the car like a helicopter.
+ The neutral control shifts the car into neutral.
+ The orbit camera control swings around the car as the mouse moves.
+ The pause control freezes the game (except in multiplayer).
+ The reverse control puts the car into reverse gear.
+ The rigid chase camera control moves the camera to a fixed distance behind the car.
+ The screen shot control saves a snapshot of the game while playing.
+ The second gear control shifts the car into second gear.
+ The shift down control changes the car's gear to the previous one.
+ The shift up control changes the car's gear to the next one.
+ The sixth gear control shifts the car into sixth gear.
+ The skip backward control goes back ten seconds during a replay.
+ The skip forward control skips ahead ten seconds during a replay.
+ The start engine control will restart the engine if it stalls.
+ The steer left control causes the car to turn left.
+ The steer right control causes the car to turn right.
+ The TCS Toggle turns traction control on or off while playing.
+ The third gear control shifts the car into third gear.
+ There was an error connecting to the server.
+ There was an error when trying to play this replay.
+ This moves to the next camera in the set (hood, in-car, chase rigid, chase loose).
+ This moves to the previous camera in the set (hood, in-car, chase rigid, chase loose).
+ Time
+ Tools
+ Transmission
+ Trigger the control when the button is pressed down or let up?
+ Trigger the control when the key is pressed down or let up?
+ Trigger the control when the key is pressed down or released?
+ Try to connect to the server again.
+ Turn the camera view downwards.
+ Turn the camera view to the left.
+ Turn the camera view to the right.
+ Turn the camera view upwards.
+ Up/Down
+ Usually this is caused by a bug in the game. Please report this on http://vdrift.net/. Thanks!
+ Will this button be held (analog controls) or pressed once?
+ Will this input be activated once per press or whenever it's held down?
+ Will this key be held (analog controls) or pressed once?
+ Yes
+ You must quit the game, and start VDrift again for changes to take effect.
+ Zoom camera in.
+ Zoom camera out.
+ Zoom In
+ Zoom Out
