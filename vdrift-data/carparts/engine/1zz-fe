@@ -1,7 +1,7 @@
 #ref: "Development of Toyota 1ZZ-FE Engine"
 [engine]
-mass = 120.0
-max-power = 104E3
+mass = 107.0 # 102.0 dry
+max-power = 89E3
 peak-engine-rpm = 6400.0
 rpm-limit = 7200.0
 inertia = 0.1
@@ -23,4 +23,4 @@ torque-curve-09 = 4800, 163
 torque-curve-10 = 5000, 161
 torque-curve-11 = 5500, 153
 torque-curve-12 = 6000, 144
-torque-curve-13 = 7200,  95 # extrapolated
+torque-curve-13 = 7200, 100
