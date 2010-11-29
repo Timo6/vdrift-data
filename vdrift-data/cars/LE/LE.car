@@ -1,34 +1,8 @@
 include ../../carparts/touring
+include ../../carparts/engine/1zz-ef
 
 [engine]
 position = 0.0, -0.8, -0.20
-mass = 120.0
-max-power = 1.04e5
-peak-engine-rpm = 6400.0
-rpm-limit = 7200.0
-inertia = 0.1
-idle = 0.02
-start-rpm = 1000
-stall-rpm = 350
-fuel-consumption = 1e-9
-torque-friction = 0.0003
-torque-curve-00 = 1000, 142.18
-torque-curve-01 = 1400, 149.78
-torque-curve-02 = 1800, 154.98
-torque-curve-03 = 2200, 159.12
-torque-curve-04 = 2600, 164.85
-torque-curve-05 = 3000, 168.24
-torque-curve-06 = 3400, 169.93
-torque-curve-07 = 3800, 170.52
-torque-curve-08 = 4200, 170.6
-torque-curve-09 = 4600, 170.54
-torque-curve-10 = 5000, 170.05
-torque-curve-11 = 5400, 168.51
-torque-curve-12 = 5800, 165.21
-torque-curve-13 = 6200, 159.34
-torque-curve-14 = 6600, 150.05
-torque-curve-15 = 7000, 136.42
-torque-curve-16 = 7400, 117.5 
 
 [clutch]
 sliding = 0.27
