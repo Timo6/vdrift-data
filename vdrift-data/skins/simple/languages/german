@@ -1,3 +1,8 @@
+[font]
+texture = DejaVu1252.png
+info = DejaVu1252.txt
+
+[strings]
 ->
 1
 1st = Erster
