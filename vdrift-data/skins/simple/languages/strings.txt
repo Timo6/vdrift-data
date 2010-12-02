@@ -1,26 +1,21 @@
-[font]
-texture = DejaVu1252.png
-info = DejaVu1252.txt
-
-[strings]
 ->
 1
-1st = Erster
+1st
 2
-2nd = Zweiter
+2nd
 3
-3rd = Dritter
+3rd
 4
-4th = Vierter
-5th = Fünfter
-6th = Sechster
+4th
+5th
+6th
 99:99.999
-ABS Toggle = ABS Schalter
-Add = Hinzufügen
-Add an opponent to race against (max 3). = Füge einen Gegner hinzu (Max: 3).
-Advanced = Erweitert
-Advanced Display Options = Erweiterte Darstellungsoptionen
-Analog Clutch = Manuelle Kupplung
+ABS Toggle
+Add
+Add an opponent to race against (max 3).
+Advanced
+Advanced Display Options
+Analog Clutch
 Are you sure you want to end this network game?
 Are you sure you want to leave this game?
 Are you sure you want to quit?
