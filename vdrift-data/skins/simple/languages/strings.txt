@@ -1,3 +1,4 @@
+# gui
 ->
 1
 1st
@@ -265,3 +266,171 @@ Zoom camera in.
 Zoom camera out.
 Zoom In
 Zoom Out
+
+# hud
+Best lap:
+Last lap:
+Lap time:
+Lap
+Place
+Score:
+Ready
+GO
+You won!
+You lost
+MPH
+KPH
+ABS
+TCS
+N
+R
+
+# assign controls
+Add a new input
+Edit
+key
+joy
+mouse
+button
+hat
+axis
+motion
+press
+release
+once
+held
+negative
+both
+up
+down
+left
+right
+
+# options
+Choose to act as the server or client.
+Address of the server to connect to.
+Bloom
+Force Feedback Device
+Force Feedback Gain
+Game Mode
+Set the game mode.
+Touchiness Compensation
+Turning off shaders will speed up rendering at the cost of visual quality.
+Total Replays
+AutoShift
+AI Difficulty
+Opponent
+Set how good the reflections look during gameplay.
+Change the type of joystick device.
+Choose the car to drive.
+Adjust the steering dynamics.
+Set anisotropic filtering level for textures.
+Traction Control (TCS)
+Enable/disable the heads up display.
+Ambient Occlusion
+Port on the server to connect to.
+Slow down application of button inputs on analog controls.
+Music Volume
+Change the units that speed is displayed in between MPH and KPH
+Number of Laps
+Display a ghost car of your last lap while you drive.
+Display a track map.
+Input Graph
+Change the contrast of the display.
+Motion Blur
+Contrast
+Antialiasing
+The AI opponents to race against.
+Field of view in the vertical direction.
+Set how good the SSAO looks during gameplay.
+OpponentColor
+Display the racing line.
+Reflection Quality
+Opponents
+Change the volume of the music in the game.
+Anisotropic Filtering
+Joystick Type
+Menu Skin
+Selected Joystick Index
+Resolution
+How many screen shots you've taken.
+Shadow Quality
+Enable/disable automatic transmission shifting.
+The higher the value on this setting, the more steering is limited as car speed increases.
+Higher values result in more precise shadowing.
+Camera Bounce
+Set color for the player car.
+Higher values result in an AI that will drive faster.
+Choose the paint job for the car.
+True if the joystick calibration routine's been run.
+Device file for force feedback events.
+Set the quality of shadow rendering
+Screen Shots Taken
+Paint
+Change the strength of the camera bounce effect.
+Shadow Distance
+Speed Effect on Steering
+Toggle fullscreen mode on or off.
+Reverse the force feedback, if necessary for your wheel.
+Track
+Use normal maps.
+Set the distance at which shadows become visible
+Joystick Calibrated
+Fullscreen
+Server IP
+Button Control Delay
+Racing Line
+Change the graphics and layout of the VDrift menus.
+Enable/disable automatic clutching (prevents car from stalling).
+Shaders
+Ghost Car
+Change the current joystick.
+Reverse Track
+Total number of replays recorded.
+Sound Effects Volume
+Change the maximum view distance.
+H-Gate Shifter
+200 Degree Wheel
+The AI opponent to race against.
+PlayerColor
+Track Map
+Texture Size
+Port
+View Distance
+Select Replay
+Multiplier to adjust strength of force feedback.
+Run as
+Help reduce wheel lockup on heavy braking (driving aid).
+Visualize the steering and acceleration/braking on screen.
+Antilock Brakes (ABS)
+Draw dynamic shadows.
+Framerate Counter
+Set the number of laps for a single race.
+Field of View
+Record Session
+Invert Force
+Race on this track backwards.
+Choose the track to drive on.
+Record this game for a replay later.
+Z-buffer bit depth
+Automatically shift to neutral when no gear button is active, as with "H gate" shifters.
+Prevent wheels from spinning during acceleration.
+Shadows
+The paint color of the AI opponent to race against.
+Use MPH Speed Units
+Fast moving objects blur slightly.
+Player
+Adjust the amount of colors available.
+Change the volume of the sound effects in the game.
+Set color for the opponent car.
+Change the size of your screen.
+Each number represents a replay a player has recorded.
+Normal Maps
+Enable/disable the framerate counter.
+AutoClutch
+Color Depth
+Heads Up Display
+Limit steering range to 200 degrees, gives a realistic feel to limited range wheels. 
+Draw highlights.
+Set the full scene antialiasing level.
+Change the size of the textures displayed.
