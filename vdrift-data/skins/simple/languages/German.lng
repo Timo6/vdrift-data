@@ -1,6 +1,6 @@
 [font]
-texture = DejaVu1252.png
-info = DejaVu1252.fnt
+texture = FreeSansBold1252.png
+info = FreeSansBold1252.fnt
 
 [strings]
 1st = Erster

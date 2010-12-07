@@ -1,1 +1,1 @@
-Bitmap fonts created with Bitmap Font Generator v1.12 by Andreas Jönsson.
+Bitmap fonts created with SDFont http://svn.vdrift.net/viewvc.cgi/trunk/SDFont/?root=VDrift+Track+Editor
