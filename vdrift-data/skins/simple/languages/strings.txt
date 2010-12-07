@@ -435,7 +435,7 @@ Draw highlights.
 Set the full scene antialiasing level.
 Change the size of the textures displayed.
 
-# optpion values
+# option values
 1
 16-bit
 16bpp
