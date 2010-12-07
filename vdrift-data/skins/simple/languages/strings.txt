@@ -434,3 +434,40 @@ Limit steering range to 200 degrees, gives a realistic feel to limited range whe
 Draw highlights.
 Set the full scene antialiasing level.
 Change the size of the textures displayed.
+
+# optpion values
+1
+16-bit
+16bpp
+2
+200 degree mode
+24-bit
+3
+32bpp
+4
+Extra-wide
+Far
+Free Drive
+High
+High (2.5 km)
+Joystick/Gamepad
+Large
+long
+Low
+Low (0.5 km)
+Medium
+medium
+Medium (1 km)
+Near
+Networked
+Normal
+Off
+short
+Small
+Speed sensitive Hi
+Speed sensitive Lo
+Steering Wheel
+Time Trial
+Very High (10 km)
+Very Low (0.25 km)
+Wide
