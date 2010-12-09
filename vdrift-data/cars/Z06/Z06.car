@@ -1,7 +1,7 @@
 include ../../carparts/touring
 
 [engine]
-position = 0.0, 1.4, -0.1
+position = 0.0, 1.1, -0.25
 mass = 200.0
 max-power = 373000
 peak-engine-rpm = 6000.0
@@ -262,32 +262,32 @@ draw = emissive
 # these are used to calculate the weight distribution and balance
 [particle-00]
 mass = 248
-position =  1.11, -2.3, -0.22
+position =  0.8, 1.4, -0.3
 
 [particle-01]
 mass = 248
-position = -1.11, -2.3, -0.22
+position = -0.8, 1.4, -0.3
 
 [particle-02]
 mass = 218
-position =  1.11, 2.3, -0.22
+position =  0.8, -1.3, -0.3
 
 [particle-03]
 mass = 218
-position = -1.11, 2.3, -0.22
+position = -0.8, -1.3, -0.3
 
 [particle-04]
 mass = 33
-position =  1.11, -2.3, -0.62
+position =  0.8, 1.4, -0.25
 
 [particle-05]
 mass = 33
-position = -1.11, -2.3, -0.62
+position = -0.8, 1.4, -0.25
 
 [particle-06]
 mass = 33
-position =  1.11, 2.3, -0.62
+position =  0.8, -1.4, -0.2
 
 [particle-07]
 mass = 33
-position = -1.11, 2.3, -0.62
+position = -0.8, -1.4, -0.2
