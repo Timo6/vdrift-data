@@ -1,3 +1,5 @@
+#version 120
+
 varying vec2 tu0coord;
 
 uniform sampler2D tu0_2D;
