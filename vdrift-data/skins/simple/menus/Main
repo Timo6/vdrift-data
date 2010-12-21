@@ -1,5 +1,4 @@
 name = Main
-widgets = 7
 background = box.png
 dialog = false
 
@@ -110,3 +109,19 @@ enabled = 1
 selected = 0
 default = 0
 cancel = 1
+
+[ CarsAndTracks ]
+type = disabled
+name = DataButton
+text = Cars and Tracks
+tip = Get new cars and tracks or update existing data
+action = StartDataManager
+center = 0.5, 0.66
+color = 0.0, 0.0, 0.8
+width = auto
+height = 0.05
+fontsize = 0.04
+enabled = 0
+selected = 0
+default = 0
+cancel = 0
