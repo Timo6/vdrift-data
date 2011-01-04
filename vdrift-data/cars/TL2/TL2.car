@@ -99,14 +99,14 @@ spring-constant = 40000.0
 bounce = 1250.0
 rebound = 3150.0
 travel = 0.18
-anti-roll = 15500.0
+anti-roll = 8000.0
 
 [wheel.rr.coilover]
 spring-constant = 40000.0
 bounce = 1250.0
 rebound = 3150.0
 travel = 0.18
-anti-roll = 15500.0
+anti-roll = 8000.0
 
 [wheel.fl.brake]
 texture = rotor_worn.png
