@@ -157,10 +157,12 @@ texture = touring.png
 size = 165,70,10
 type = tire-touring
 
+# wheeltrack: 1234/1203, wheelbase: 2035
+
 [wheel.fl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
-position = -0.58, 1.00, -0.45
+position = -0.617, 1.00, -0.45
 hinge = 0.56, 1.00, -0.68
 camber = -0.5
 caster = 0.0
@@ -172,7 +174,7 @@ steering = 30
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 scale = -1,1,1
-position = 0.58, 1.00, -0.45
+position = 0.617, 1.00, -0.45
 hinge = -0.56, 1.00, -0.68
 camber = 0.5
 caster = 0.0
@@ -183,7 +185,7 @@ steering = 30
 [wheel.rl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
-position = -0.58, -0.95, -0.42
+position = -0.602, -0.95, -0.42
 hinge = -0.51, -0.65, -0.03
 camber = -1.5
 caster = 0.0
@@ -193,7 +195,7 @@ toe = 0.0
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 scale = -1,1,1
-position = 0.58, -0.95, -0.42
+position = 0.602, -0.95, -0.42
 hinge = 0.51, -0.65, -0.03
 camber = 1.5
 caster = 0.0
@@ -242,8 +244,8 @@ position = -0.39, -0.75, -0.25
 
 [particle-04]
 mass = 115.0
-position = 0.39, 0.95, -0.1
+position = 0.39, 0.95, -0.25
 
 [particle-05]
 mass = 115.0
-position = -0.39, 0.95, -0.1
+position = -0.39, 0.95, -0.25
