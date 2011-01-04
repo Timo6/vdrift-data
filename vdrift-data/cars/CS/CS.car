@@ -1,7 +1,7 @@
 include ../../carparts/touring
 
 [engine]
-position = 0.13, -1.46, -0.18
+position = 0.0, -1.46, -0.3
 mass = 210.0
 max-power = 1.72e5
 peak-engine-rpm = 5500.0
@@ -240,16 +240,16 @@ position = 0.1, 0.5, -0.45
 
 [particle-01]
 mass = 130.0
-position = 0.4, -1.07, 0.1
+position = 0.4, -1.07, -0.1
 
 [particle-02]
 mass = 130.0
-position = -0.4, -1.07, 0.1
+position = -0.4, -1.07, -0.1
 
 [particle-03]
 mass = 215.0
-position = 0.4, 1.09, 0.0
+position = 0.4, 1.09, -0.0
 
 [particle-04]
 mass = 215.0
-position = -0.4, 1.09, 0.0
+position = -0.4, 1.09, -0.0
