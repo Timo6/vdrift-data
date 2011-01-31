@@ -147,7 +147,7 @@ anti-roll = 600.0
 texture = rotor_shiny_slotted_drilled.png
 friction = 0.6
 max-pressure = 4.0e6
-bias = 0.65
+bias = 0.75
 radius = 0.14
 area = 0.015
 
@@ -155,7 +155,7 @@ area = 0.015
 texture = rotor_shiny_slotted_drilled.png
 friction = 0.6
 max-pressure = 4.0e6
-bias = 0.65
+bias = 0.75
 radius = 0.14
 area = 0.015
 
@@ -163,7 +163,7 @@ area = 0.015
 texture = rotor_shiny_slotted_drilled.png
 friction = 0.6
 max-pressure = 4.0e6
-bias = 0.35
+bias = 0.45
 radius = 0.14
 area = 0.015
 handbrake = 1.0
@@ -172,7 +172,7 @@ handbrake = 1.0
 texture = rotor_shiny_slotted_drilled.png
 friction = 0.6
 max-pressure = 4.0e6
-bias = 0.35
+bias = 0.45
 radius = 0.14
 area = 0.015
 handbrake = 1.0
@@ -270,6 +270,13 @@ hinge = 0.0, -1.24, -0.5 # fallback, double-wishbone broken
 camber = 1.5
 caster = 0.0
 toe = 0.5
+
+[steering]
+texture = steering_wheel.png
+mesh = steering_wheel.joe
+position = -0.35, -0.2, 0.05
+rotation = 80, 0, 0
+max-angle = 320
 
 [driver]
 texture = driver2.png, driver-misc1.png

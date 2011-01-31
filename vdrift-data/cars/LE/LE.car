@@ -330,12 +330,12 @@ mesh = removable_hard_top.joe
 #rotation = 0,0,0
 #color = 1,1,1,1
 
-[steering_wheel]
+[steering]
 texture = steering_wheel.png
 mesh = steering_wheel.joe
 position = 0.274, 0.311, -0.102
-#rotation = 0,0,0
-#color = 1,1,1,1
+rotation = 90,0,0
+max-angle = 320
 
 [side_mirror_r]
 texture = side_mirror.png, side_mirror-misc1.png
