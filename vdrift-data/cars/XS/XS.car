@@ -274,8 +274,8 @@ toe = 0.5
 [steering]
 texture = steering_wheel.png
 mesh = steering_wheel.joe
-position = -0.35, -0.2, 0.05
-rotation = 80, 0, 0
+position = -0.35, -0.20, 0.04
+rotation = 87.5, 0.0, 0.0
 max-angle = 320
 
 [driver]
