@@ -287,6 +287,13 @@ position = 0.39, 1.32, -0.28
 texture = body00.png, body-misc1.png
 mesh = body.joe
 
+[steering]
+texture = steering_wheel.png
+mesh = steering_wheel.joe
+position = 0.29, 0.16, -0.08
+rotation = 87.5, 0.0, 0.0
+max-angle = 320
+
 [driver]
 texture = driver2.png, driver-misc1.png
 mesh = driver.joe
@@ -329,13 +336,6 @@ mesh = removable_hard_top.joe
 #position = 0,0,0
 #rotation = 0,0,0
 #color = 1,1,1,1
-
-[steering]
-texture = steering_wheel.png
-mesh = steering_wheel.joe
-position = 0.274, 0.311, -0.102
-rotation = 90,0,0
-max-angle = 320
 
 [side_mirror_r]
 texture = side_mirror.png, side_mirror-misc1.png

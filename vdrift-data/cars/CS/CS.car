@@ -208,6 +208,13 @@ camber = 0.5
 caster = 0.0
 toe = 0.0
 
+[steering]
+texture = steering_wheel.png
+mesh = steering_wheel.joe
+position = -0.38, 0.12, 0.09
+rotation = 87.5, 0.0, 0.0
+max-angle = 320
+
 [driver]
 texture = driver2.png, driver-misc1.png
 mesh = driver.joe
