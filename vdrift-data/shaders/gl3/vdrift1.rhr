@@ -2,17 +2,22 @@ passList
 {
   *item
   {
-    name = Normal
+    name = track opaque
     clearColor = 1
     clearDepth = 1
     clearStencil = 1
     drawGroups
     {
       *item = normal_noblend
-      *item = car_noblend
     }
     vertexShader = simple.vert
+    vertexShaderDefines
+    {
+    }
     fragmentShader = simple.frag
+    fragmentShaderDefines
+    {
+    }
     shaderAttributeBindings
     {
       *item = vertexPosition
@@ -148,66 +153,352 @@ passList
         *first = GL_BLEND
         *second = 3
       }
-      *item
+    }
+    stateEnum
+    {
+      *key = GL_CULL_FACE_MODE
+      *value
       {
-        *first = GL_BLEND
-        *second = 0
+        type = enum
+        enumdata = GL_BACK
+        intdata
+        {
+        }
+        floatdata
+        {
+        }
       }
-      *item
+      *key = GL_DEPTH_FUNC
+      *value
       {
-        *first = GL_BLEND
-        *second = 1
+        type = enum
+        enumdata = GL_LEQUAL
+        intdata
+        {
+        }
+        floatdata
+        {
+        }
       }
-      *item
+      *key = GL_DEPTH_WRITEMASK
+      *value
       {
-        *first = GL_BLEND
-        *second = 2
+        type = int
+        enumdata = 
+        intdata
+        {
+          *item = 1
+        }
+        floatdata
+        {
+        }
       }
-      *item
+      *key = GL_POLYGON_OFFSET_FACTOR
+      *value
       {
-        *first = GL_BLEND
-        *second = 3
+        type = float
+        enumdata = 
+        intdata
+        {
+        }
+        floatdata
+        {
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+        }
       }
-      *item
+      *key = GL_SAMPLE_COVERAGE_VALUE
+      *value
       {
-        *first = GL_BLEND
-        *second = 0
+        type = float
+        enumdata = 
+        intdata
+        {
+        }
+        floatdata
+        {
+          *item = 1.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+        }
       }
-      *item
+      *key = GL_SAMPLE_MASK_VALUE
+      *value
       {
-        *first = GL_BLEND
-        *second = 1
+        type = int
+        enumdata = 
+        intdata
+        {
+          *item = 0
+        }
+        floatdata
+        {
+        }
       }
-      *item
+    }
+    renderTargets
+    {
+    }
+    samplers
+    {
+      *key = diffuseSampler
+      *value
       {
-        *first = GL_BLEND
-        *second = 2
+        textureName = diffuseTexture
+        state
+        {
+          *key = GL_TEXTURE_BORDER_COLOR
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 0.00000000000000000000e+00
+              *item = 0.00000000000000000000e+00
+              *item = 0.00000000000000000000e+00
+              *item = 0.00000000000000000000e+00
+            }
+          }
+          *key = GL_TEXTURE_LOD_BIAS
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 0.00000000000000000000e+00
+            }
+          }
+          *key = GL_TEXTURE_MAG_FILTER
+          *value
+          {
+            type = enum
+            enumdata = GL_LINEAR
+            intdata
+            {
+            }
+            floatdata
+            {
+            }
+          }
+          *key = GL_TEXTURE_MAX_LOD
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+03
+            }
+          }
+          *key = GL_TEXTURE_MIN_FILTER
+          *value
+          {
+            type = enum
+            enumdata = GL_LINEAR_MIPMAP_LINEAR
+            intdata
+            {
+            }
+            floatdata
+            {
+            }
+          }
+          *key = GL_TEXTURE_MIN_LOD
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = -1.00000000000000000000e+03
+            }
+          }
+          *key = GL_TEXTURE_WRAP_R
+          *value
+          {
+            type = enum
+            enumdata = GL_REPEAT
+            intdata
+            {
+            }
+            floatdata
+            {
+            }
+          }
+          *key = GL_TEXTURE_WRAP_S
+          *value
+          {
+            type = enum
+            enumdata = GL_REPEAT
+            intdata
+            {
+            }
+            floatdata
+            {
+            }
+          }
+          *key = GL_TEXTURE_WRAP_T
+          *value
+          {
+            type = enum
+            enumdata = GL_REPEAT
+            intdata
+            {
+            }
+            floatdata
+            {
+            }
+          }
+        }
       }
-      *item
+    }
+  }
+  *item
+  {
+    name = car opaque
+    clearColor = 0
+    clearDepth = 0
+    clearStencil = 0
+    drawGroups
+    {
+      *item = car_noblend
+    }
+    vertexShader = simple.vert
+    vertexShaderDefines
+    {
+    }
+    fragmentShader = simple.frag
+    fragmentShaderDefines
+    {
+      *item = CARPAINT
+    }
+    shaderAttributeBindings
+    {
+      *item = vertexPosition
+      *item = vertexNormal
+      *item = vertexTangent
+      *item = vertexBitangent
+      *item = vertexColor
+      *item = vertexUv0
+      *item = vertexUv1
+      *item = vertexUv2
+    }
+    uniforms
+    {
+      *key = colorTint
+      *value
       {
-        *first = GL_BLEND
-        *second = 3
+        data
+        {
+          *item = 1.00000000000000000000e+00
+          *item = 1.00000000000000000000e+00
+          *item = 1.00000000000000000000e+00
+          *item = 1.00000000000000000000e+00
+        }
       }
-      *item
+      *key = modelMatrix
+      *value
       {
-        *first = GL_BLEND
-        *second = 0
+        data
+        {
+          *item = 1.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 1.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 1.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 1.00000000000000000000e+00
+        }
       }
-      *item
+      *key = projectionMatrix
+      *value
       {
-        *first = GL_BLEND
-        *second = 1
+        data
+        {
+          *item = 2.29469799995422363281e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 2.41421365737915039062e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = -1.00200200080871582031e+00
+          *item = -1.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = -2.00200200080871582031e+00
+          *item = 0.00000000000000000000e+00
+        }
       }
-      *item
+      *key = viewMatrix
+      *value
       {
-        *first = GL_BLEND
-        *second = 2
+        data
+        {
+          *item = 1.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 1.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 1.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = -5.83815002441406250000e+00
+          *item = 1.00000000000000000000e+00
+        }
       }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
+    }
+    stateEnable
+    {
+      *item = GL_DEPTH_TEST
+    }
+    stateDisable
+    {
+      *item = GL_CULL_FACE
+      *item = GL_FRAMEBUFFER_SRGB
+      *item = GL_POLYGON_OFFSET_FILL
+      *item = GL_POLYGON_OFFSET_LINE
+      *item = GL_POLYGON_OFFSET_POINT
+      *item = GL_SAMPLE_ALPHA_TO_COVERAGE
+      *item = GL_SAMPLE_ALPHA_TO_ONE
+      *item = GL_SAMPLE_COVERAGE
+      *item = GL_SAMPLE_MASK
+    }
+    stateEnablei
+    {
+    }
+    stateDisablei
+    {
       *item
       {
         *first = GL_BLEND
@@ -451,7 +742,13 @@ passList
       *item = twodim
     }
     vertexShader = simple.vert
+    vertexShaderDefines
+    {
+    }
     fragmentShader = simple.frag
+    fragmentShaderDefines
+    {
+    }
     shaderAttributeBindings
     {
       *item = vertexPosition
@@ -569,89 +866,9 @@ passList
         *first = GL_BLEND
         *second = 0
       }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
     }
     stateDisablei
     {
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
       *item
       {
         *first = GL_BLEND
@@ -938,7 +1155,13 @@ passList
       *item = text
     }
     vertexShader = simple.vert
+    vertexShaderDefines
+    {
+    }
     fragmentShader = distancefield.frag
+    fragmentShaderDefines
+    {
+    }
     shaderAttributeBindings
     {
       *item = vertexPosition
@@ -1056,89 +1279,9 @@ passList
         *first = GL_BLEND
         *second = 0
       }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
     }
     stateDisablei
     {
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
       *item
       {
         *first = GL_BLEND
