@@ -9,6 +9,7 @@ passList
     drawGroups
     {
       *item = normal_noblend
+      *item = car_noblend
     }
     vertexShader = simple.vert
     fragmentShader = simple.frag
@@ -41,17 +42,17 @@ passList
       {
         data
         {
-          *item = -5.62906980514526367188e-01
-          *item = 6.36779010295867919922e-01
-          *item = -5.26923000812530517578e-01
+          *item = 1.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
-          *item = -7.35876977443695068359e-01
-          *item = -9.58366021513938903809e-02
-          *item = 6.70297980308532714844e-01
           *item = 0.00000000000000000000e+00
-          *item = 3.76332998275756835938e-01
-          *item = 7.65066981315612792969e-01
-          *item = 5.22538006305694580078e-01
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 1.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 1.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
@@ -108,11 +109,11 @@ passList
     }
     stateEnable
     {
-      *item = GL_CULL_FACE
       *item = GL_DEPTH_TEST
     }
     stateDisable
     {
+      *item = GL_CULL_FACE
       *item = GL_FRAMEBUFFER_SRGB
       *item = GL_POLYGON_OFFSET_FILL
       *item = GL_POLYGON_OFFSET_LINE
@@ -127,266 +128,6 @@ passList
     }
     stateDisablei
     {
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
       *item
       {
         *first = GL_BLEND
@@ -740,20 +481,20 @@ passList
       {
         data
         {
-          *item = 5.00000000000000000000e-01
+          *item = 1.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
-          *item = -5.00000000000000000000e-01
+          *item = 1.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
-          *item = 5.00000000000000000000e-01
+          *item = 1.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
-          *item = 5.00000000000000000000e-01
-          *item = 5.00000000000000000000e-01
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 1.00000000000000000000e+00
         }
@@ -848,269 +589,9 @@ passList
         *first = GL_BLEND
         *second = 0
       }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
     }
     stateDisablei
     {
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
       *item
       {
         *first = GL_BLEND
@@ -1487,20 +968,20 @@ passList
       {
         data
         {
-          *item = 1.27167999744415283203e-01
+          *item = 1.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
-          *item = -1.38727992773056030273e-01
+          *item = 1.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
-          *item = 5.00000000000000000000e-01
+          *item = 1.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
-          *item = 2.83237010240554809570e-01
-          *item = 2.71676003932952880859e-01
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 1.00000000000000000000e+00
         }
@@ -1595,269 +1076,9 @@ passList
         *first = GL_BLEND
         *second = 0
       }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
     }
     stateDisablei
     {
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
       *item
       {
         *first = GL_BLEND
