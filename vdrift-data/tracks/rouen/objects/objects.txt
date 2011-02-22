@@ -1,0 +1,8110 @@
+[body.0]
+model = ambula01.dof-00.joe
+texture = ambulanc.bmp.png
+collidable = false
+surface = 1
+
+[body.1]
+model = ambula02.dof-00.joe
+texture = ambulanc.bmp.png
+collidable = false
+surface = 1
+
+[body.2]
+model = ambula05.dof-00.joe
+texture = ambulanc.bmp.png
+collidable = false
+surface = 1
+
+[body.3]
+model = ambula06.dof-00.joe
+texture = ambulanc.bmp.png
+collidable = false
+surface = 1
+
+[body.4]
+model = bell.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.5]
+model = bell.dof-01.joe
+texture = bell.bmp.png
+surface = 1
+
+[body.6]
+model = bell.dof-02.joe
+texture = lobp1.bmp.png
+surface = 1
+
+[body.7]
+model = bpfence01.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.8]
+model = bpfence02.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.9]
+model = bpfence03.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.10]
+model = bpfence04.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.11]
+model = bpfence05.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.12]
+model = bpfence06.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.13]
+model = bpfence07.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.14]
+model = bpfence08.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.15]
+model = bpfence09.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.16]
+model = bpfence10.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.17]
+model = bpfence11.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.18]
+model = bpfence12.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.19]
+model = bpfence13.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.20]
+model = bpfence14.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.21]
+model = bpfence15.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.22]
+model = bpfence16.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.23]
+model = bpfence17.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.24]
+model = bpfence18.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.25]
+model = bpfence19.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.26]
+model = bpfence20.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.27]
+model = bpfence21.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.28]
+model = bplogo02.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.29]
+model = bplogo02.dof-01.joe
+texture = bp7km.bmp.png
+surface = 1
+
+[body.30]
+model = bplogo02.dof-02.joe
+texture = house02.bmp.png
+surface = 1
+
+[body.31]
+model = bplogo02.dof-03.joe
+texture = house03.bmp.png
+surface = 1
+
+[body.32]
+model = bplogobig02.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.33]
+model = bplogobig02.dof-01.joe
+texture = lobp1.bmp.png
+surface = 1
+
+[body.34]
+model = bplogobig02.dof-02.joe
+texture = house02.bmp.png
+surface = 1
+
+[body.35]
+model = bplogobig03.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.36]
+model = bplogobig03.dof-01.joe
+texture = lobp1.bmp.png
+surface = 1
+
+[body.37]
+model = bplogobig03.dof-02.joe
+texture = house02.bmp.png
+surface = 1
+
+[body.38]
+model = bplogobig08.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.39]
+model = bplogobig08.dof-01.joe
+texture = lobp1.bmp.png
+surface = 1
+
+[body.40]
+model = bplogobig08.dof-02.joe
+texture = house02.bmp.png
+surface = 1
+
+[body.41]
+model = bplogobig09.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.42]
+model = bplogobig09.dof-01.joe
+texture = lobp1.bmp.png
+surface = 1
+
+[body.43]
+model = bplogobig09.dof-02.joe
+texture = house02.bmp.png
+surface = 1
+
+[body.44]
+model = bplogobig09.dof-03.joe
+texture = house03.bmp.png
+surface = 1
+
+[body.45]
+model = bpsign01.dof-00.joe
+texture = bp2.bmp.png
+surface = 1
+
+[body.46]
+model = bpsign01.dof-01.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.47]
+model = bpsign02.dof-00.joe
+texture = bp2.bmp.png
+surface = 1
+
+[body.48]
+model = bpsign02.dof-01.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.49]
+model = bpsign02.dof-02.joe
+texture = bpfence3.bmp.png
+surface = 1
+
+[body.50]
+model = bpsign02.dof-03.joe
+texture = bpfence5.bmp.png
+surface = 1
+
+[body.51]
+model = bpsign03.dof-00.joe
+texture = bpfence4.bmp.png
+surface = 1
+
+[body.52]
+model = bpsign03.dof-01.joe
+texture = bpfence3.bmp.png
+surface = 1
+
+[body.53]
+model = bpsign03.dof-02.joe
+texture = bpfence5.bmp.png
+surface = 1
+
+[body.54]
+model = bpsign03.dof-03.joe
+texture = bp2.bmp.png
+surface = 1
+
+[body.55]
+model = bpsign03.dof-04.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.56]
+model = bpsign04.dof-00.joe
+texture = bp2.bmp.png
+surface = 1
+
+[body.57]
+model = bpsign04.dof-01.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.58]
+model = car01.dof-00.joe
+texture = ds1902.bmp.png
+collidable = false
+surface = 1
+
+[body.59]
+model = car01.dof-01.joe
+texture = 2cv02.bmp.png
+collidable = false
+surface = 1
+
+[body.60]
+model = car01.dof-02.joe
+texture = bus02.bmp.png
+collidable = false
+surface = 1
+
+[body.61]
+model = car01.dof-03.joe
+texture = golf02.bmp.png
+collidable = false
+surface = 1
+
+[body.62]
+model = car01.dof-04.joe
+texture = 2cv01.bmp.png
+collidable = false
+surface = 1
+
+[body.63]
+model = car01.dof-05.joe
+texture = bus01.bmp.png
+collidable = false
+surface = 1
+
+[body.64]
+model = car02.dof-00.joe
+texture = fiat01.bmp.png
+collidable = false
+surface = 1
+
+[body.65]
+model = car02.dof-01.joe
+texture = golf02.bmp.png
+collidable = false
+surface = 1
+
+[body.66]
+model = car02.dof-02.joe
+texture = bus01.bmp.png
+collidable = false
+surface = 1
+
+[body.67]
+model = car02.dof-03.joe
+texture = 2cv02.bmp.png
+collidable = false
+surface = 1
+
+[body.68]
+model = car02.dof-04.joe
+texture = fiat01.bmp.png
+collidable = false
+surface = 1
+
+[body.69]
+model = car03.dof-00.joe
+texture = bus02.bmp.png
+collidable = false
+surface = 1
+
+[body.70]
+model = car04.dof-00.joe
+texture = 2cv02.bmp.png
+collidable = false
+surface = 1
+
+[body.71]
+model = car05.dof-00.joe
+texture = ds1902.bmp.png
+collidable = false
+surface = 1
+
+[body.72]
+model = car05.dof-01.joe
+texture = bus01.bmp.png
+collidable = false
+surface = 1
+
+[body.73]
+model = car05.dof-02.joe
+texture = 2cv01.bmp.png
+collidable = false
+surface = 1
+
+[body.74]
+model = car05.dof-03.joe
+texture = fiat01.bmp.png
+collidable = false
+surface = 1
+
+[body.75]
+model = car05.dof-04.joe
+texture = bus01.bmp.png
+collidable = false
+surface = 1
+
+[body.76]
+model = car06.dof-00.joe
+texture = fiat02.bmp.png
+collidable = false
+surface = 1
+
+[body.77]
+model = car06.dof-01.joe
+texture = fiat01.bmp.png
+collidable = false
+surface = 1
+
+[body.78]
+model = car06.dof-02.joe
+texture = ds1901.bmp.png
+collidable = false
+surface = 1
+
+[body.79]
+model = car06.dof-03.joe
+texture = bus01.bmp.png
+collidable = false
+surface = 1
+
+[body.80]
+model = car06.dof-04.joe
+texture = 2cv02.bmp.png
+collidable = false
+surface = 1
+
+[body.81]
+model = car07.dof-00.joe
+texture = 2cv02.bmp.png
+collidable = false
+surface = 1
+
+[body.82]
+model = car07.dof-01.joe
+texture = bus01.bmp.png
+collidable = false
+surface = 1
+
+[body.83]
+model = car07.dof-02.joe
+texture = golf01.bmp.png
+collidable = false
+surface = 1
+
+[body.84]
+model = car07.dof-03.joe
+texture = golf02.bmp.png
+collidable = false
+surface = 1
+
+[body.85]
+model = car07.dof-04.joe
+texture = fiat02.bmp.png
+collidable = false
+surface = 1
+
+[body.86]
+model = car08.dof-00.joe
+texture = 2cv02.bmp.png
+collidable = false
+surface = 1
+
+[body.87]
+model = car08.dof-01.joe
+texture = bus01.bmp.png
+collidable = false
+surface = 1
+
+[body.88]
+model = car08.dof-02.joe
+texture = fiat01.bmp.png
+collidable = false
+surface = 1
+
+[body.89]
+model = car08.dof-03.joe
+texture = ds1901.bmp.png
+collidable = false
+surface = 1
+
+[body.90]
+model = car08.dof-04.joe
+texture = golf01.bmp.png
+collidable = false
+surface = 1
+
+[body.91]
+model = car09.dof-00.joe
+texture = fiat01.bmp.png
+collidable = false
+surface = 1
+
+[body.92]
+model = car09.dof-01.joe
+texture = ds1902.bmp.png
+collidable = false
+surface = 1
+
+[body.93]
+model = car09.dof-02.joe
+texture = 2cv01.bmp.png
+collidable = false
+surface = 1
+
+[body.94]
+model = car09.dof-03.joe
+texture = 2cv01.bmp.png
+collidable = false
+surface = 1
+
+[body.95]
+model = car09.dof-04.joe
+texture = bus02.bmp.png
+collidable = false
+surface = 1
+
+[body.96]
+model = car10.dof-00.joe
+texture = fiat02.bmp.png
+collidable = false
+surface = 1
+
+[body.97]
+model = car10.dof-01.joe
+texture = golf02.bmp.png
+collidable = false
+surface = 1
+
+[body.98]
+model = car10.dof-02.joe
+texture = fiat02.bmp.png
+collidable = false
+surface = 1
+
+[body.99]
+model = car10.dof-03.joe
+texture = ds1902.bmp.png
+collidable = false
+surface = 1
+
+[body.100]
+model = car10.dof-04.joe
+texture = 2cv02.bmp.png
+collidable = false
+surface = 1
+
+[body.101]
+model = car10.dof-05.joe
+texture = bus02.bmp.png
+collidable = false
+surface = 1
+
+[body.102]
+model = car11.dof-00.joe
+texture = bus01.bmp.png
+collidable = false
+surface = 1
+
+[body.103]
+model = car11.dof-01.joe
+texture = 2cv02.bmp.png
+collidable = false
+surface = 1
+
+[body.104]
+model = car11.dof-02.joe
+texture = fiat02.bmp.png
+collidable = false
+surface = 1
+
+[body.105]
+model = car11.dof-03.joe
+texture = fiat01.bmp.png
+collidable = false
+surface = 1
+
+[body.106]
+model = car11.dof-04.joe
+texture = bus02.bmp.png
+collidable = false
+surface = 1
+
+[body.107]
+model = car12.dof-00.joe
+texture = ds1901.bmp.png
+collidable = false
+surface = 1
+
+[body.108]
+model = car12.dof-01.joe
+texture = golf01.bmp.png
+collidable = false
+surface = 1
+
+[body.109]
+model = car12.dof-02.joe
+texture = 2cv01.bmp.png
+collidable = false
+surface = 1
+
+[body.110]
+model = car12.dof-03.joe
+texture = bus02.bmp.png
+collidable = false
+surface = 1
+
+[body.111]
+model = car12.dof-04.joe
+texture = golf02.bmp.png
+collidable = false
+surface = 1
+
+[body.112]
+model = car13.dof-00.joe
+texture = fiat02.bmp.png
+collidable = false
+surface = 1
+
+[body.113]
+model = car13.dof-01.joe
+texture = ds1902.bmp.png
+collidable = false
+surface = 1
+
+[body.114]
+model = car13.dof-02.joe
+texture = 2cv01.bmp.png
+collidable = false
+surface = 1
+
+[body.115]
+model = car13.dof-03.joe
+texture = bus02.bmp.png
+collidable = false
+surface = 1
+
+[body.116]
+model = car13.dof-04.joe
+texture = fiat02.bmp.png
+collidable = false
+surface = 1
+
+[body.117]
+model = car14.dof-00.joe
+texture = golf01.bmp.png
+collidable = false
+surface = 1
+
+[body.118]
+model = car14.dof-01.joe
+texture = bus02.bmp.png
+collidable = false
+surface = 1
+
+[body.119]
+model = car14.dof-02.joe
+texture = 2cv02.bmp.png
+collidable = false
+surface = 1
+
+[body.120]
+model = car14.dof-03.joe
+texture = ds1902.bmp.png
+collidable = false
+surface = 1
+
+[body.121]
+model = car14.dof-04.joe
+texture = fiat02.bmp.png
+collidable = false
+surface = 1
+
+[body.122]
+model = car15.dof-00.joe
+texture = ds1901.bmp.png
+collidable = false
+surface = 1
+
+[body.123]
+model = car15.dof-01.joe
+texture = golf01.bmp.png
+collidable = false
+surface = 1
+
+[body.124]
+model = car15.dof-02.joe
+texture = fiat01.bmp.png
+collidable = false
+surface = 1
+
+[body.125]
+model = car15.dof-03.joe
+texture = 2cv01.bmp.png
+collidable = false
+surface = 1
+
+[body.126]
+model = car15.dof-04.joe
+texture = bus01.bmp.png
+collidable = false
+surface = 1
+
+[body.127]
+model = car15.dof-05.joe
+texture = 2cv02.bmp.png
+collidable = false
+surface = 1
+
+[body.128]
+model = car16.dof-00.joe
+texture = ds1901.bmp.png
+collidable = false
+surface = 1
+
+[body.129]
+model = car16.dof-01.joe
+texture = fiat01.bmp.png
+collidable = false
+surface = 1
+
+[body.130]
+model = car16.dof-02.joe
+texture = fiat02.bmp.png
+collidable = false
+surface = 1
+
+[body.131]
+model = car16.dof-03.joe
+texture = bus02.bmp.png
+collidable = false
+surface = 1
+
+[body.132]
+model = car16.dof-04.joe
+texture = 2cv02.bmp.png
+collidable = false
+surface = 1
+
+[body.133]
+model = car17.dof-00.joe
+texture = ds1902.bmp.png
+collidable = false
+surface = 1
+
+[body.134]
+model = car17.dof-01.joe
+texture = fiat02.bmp.png
+collidable = false
+surface = 1
+
+[body.135]
+model = car17.dof-02.joe
+texture = golf02.bmp.png
+collidable = false
+surface = 1
+
+[body.136]
+model = car17.dof-03.joe
+texture = fiat02.bmp.png
+collidable = false
+surface = 1
+
+[body.137]
+model = car17.dof-04.joe
+texture = bus02.bmp.png
+collidable = false
+surface = 1
+
+[body.138]
+model = car18.dof-00.joe
+texture = 2cv01.bmp.png
+collidable = false
+surface = 1
+
+[body.139]
+model = car18.dof-01.joe
+texture = 2cv01.bmp.png
+collidable = false
+surface = 1
+
+[body.140]
+model = car18.dof-02.joe
+texture = ds1902.bmp.png
+collidable = false
+surface = 1
+
+[body.141]
+model = car18.dof-03.joe
+texture = fiat01.bmp.png
+collidable = false
+surface = 1
+
+[body.142]
+model = car18.dof-04.joe
+texture = golf01.bmp.png
+collidable = false
+surface = 1
+
+[body.143]
+model = car19.dof-00.joe
+texture = ds1901.bmp.png
+collidable = false
+surface = 1
+
+[body.144]
+model = car19.dof-01.joe
+texture = fiat01.bmp.png
+collidable = false
+surface = 1
+
+[body.145]
+model = car19.dof-02.joe
+texture = bus01.bmp.png
+collidable = false
+surface = 1
+
+[body.146]
+model = car19.dof-03.joe
+texture = 2cv02.bmp.png
+collidable = false
+surface = 1
+
+[body.147]
+model = car19.dof-04.joe
+texture = fiat02.bmp.png
+collidable = false
+surface = 1
+
+[body.148]
+model = car20.dof-00.joe
+texture = golf02.bmp.png
+collidable = false
+surface = 1
+
+[body.149]
+model = car20.dof-01.joe
+texture = golf01.bmp.png
+collidable = false
+surface = 1
+
+[body.150]
+model = car20.dof-02.joe
+texture = bus01.bmp.png
+collidable = false
+surface = 1
+
+[body.151]
+model = car20.dof-03.joe
+texture = 2cv02.bmp.png
+collidable = false
+surface = 1
+
+[body.152]
+model = car20.dof-04.joe
+texture = 2cv02.bmp.png
+collidable = false
+surface = 1
+
+[body.153]
+model = car20.dof-05.joe
+texture = bus01.bmp.png
+collidable = false
+surface = 1
+
+[body.154]
+model = car21.dof-00.joe
+texture = bus01.bmp.png
+collidable = false
+surface = 1
+
+[body.155]
+model = car21.dof-01.joe
+texture = 2cv02.bmp.png
+collidable = false
+surface = 1
+
+[body.156]
+model = car21.dof-02.joe
+texture = bus01.bmp.png
+collidable = false
+surface = 1
+
+[body.157]
+model = car21.dof-03.joe
+texture = 2cv02.bmp.png
+collidable = false
+surface = 1
+
+[body.158]
+model = car21.dof-04.joe
+texture = fiat02.bmp.png
+collidable = false
+surface = 1
+
+[body.159]
+model = car22.dof-00.joe
+texture = fiat01.bmp.png
+collidable = false
+surface = 1
+
+[body.160]
+model = car22.dof-01.joe
+texture = bus02.bmp.png
+collidable = false
+surface = 1
+
+[body.161]
+model = car22.dof-02.joe
+texture = ds1901.bmp.png
+collidable = false
+surface = 1
+
+[body.162]
+model = car22.dof-03.joe
+texture = golf01.bmp.png
+collidable = false
+surface = 1
+
+[body.163]
+model = car22.dof-04.joe
+texture = 2cv01.bmp.png
+collidable = false
+surface = 1
+
+[body.164]
+model = car23.dof-00.joe
+texture = bus02.bmp.png
+collidable = false
+surface = 1
+
+[body.165]
+model = car23.dof-01.joe
+texture = golf02.bmp.png
+collidable = false
+surface = 1
+
+[body.166]
+model = car23.dof-02.joe
+texture = fiat02.bmp.png
+collidable = false
+surface = 1
+
+[body.167]
+model = car23.dof-03.joe
+texture = ds1902.bmp.png
+collidable = false
+surface = 1
+
+[body.168]
+model = car23.dof-04.joe
+texture = 2cv01.bmp.png
+collidable = false
+surface = 1
+
+[body.169]
+model = car24.dof-00.joe
+texture = bus02.bmp.png
+collidable = false
+surface = 1
+
+[body.170]
+model = car24.dof-01.joe
+texture = fiat02.bmp.png
+collidable = false
+surface = 1
+
+[body.171]
+model = car24.dof-02.joe
+texture = golf01.bmp.png
+collidable = false
+surface = 1
+
+[body.172]
+model = car24.dof-03.joe
+texture = bus02.bmp.png
+collidable = false
+surface = 1
+
+[body.173]
+model = car24.dof-04.joe
+texture = 2cv02.bmp.png
+collidable = false
+surface = 1
+
+[body.174]
+model = car25.dof-00.joe
+texture = ds1902.bmp.png
+collidable = false
+surface = 1
+
+[body.175]
+model = car25.dof-01.joe
+texture = fiat02.bmp.png
+collidable = false
+surface = 1
+
+[body.176]
+model = car25.dof-02.joe
+texture = ds1901.bmp.png
+collidable = false
+surface = 1
+
+[body.177]
+model = car25.dof-03.joe
+texture = golf01.bmp.png
+collidable = false
+surface = 1
+
+[body.178]
+model = car25.dof-04.joe
+texture = fiat01.bmp.png
+collidable = false
+surface = 1
+
+[body.179]
+model = car25.dof-05.joe
+texture = 2cv01.bmp.png
+collidable = false
+surface = 1
+
+[body.180]
+model = clouds.dof-00.joe
+texture = skygrade.bmp.png
+nolighting = true
+skybox = true
+collidable = false
+surface = 1
+
+[body.181]
+model = crowd01.dof-00.joe
+texture = peopleb.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.182]
+model = crowd01.dof-01.joe
+texture = peoplea.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.183]
+model = crowd02.dof-00.joe
+texture = peopleb.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.184]
+model = crowd02.dof-01.joe
+texture = peoplea.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.185]
+model = crowd03.dof-00.joe
+texture = peopleb.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.186]
+model = crowd04.dof-00.joe
+texture = peoplea.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.187]
+model = crowd05.dof-00.joe
+texture = peopleb.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.188]
+model = crowd06.dof-00.joe
+texture = peoplea.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.189]
+model = crowd06.dof-01.joe
+texture = peopleb.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.190]
+model = crowd07.dof-00.joe
+texture = peoplea.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.191]
+model = crowd07.dof-01.joe
+texture = peopleb.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.192]
+model = crowd08.dof-00.joe
+texture = peopleb.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.193]
+model = crowd08.dof-01.joe
+texture = peoplea.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.194]
+model = crowd09.dof-00.joe
+texture = peoplea.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.195]
+model = crowd09.dof-01.joe
+texture = peopleb.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.196]
+model = crowd10.dof-00.joe
+texture = peoplea.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.197]
+model = crowd10.dof-01.joe
+texture = peopleb.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.198]
+model = crowd11.dof-00.joe
+texture = peopleb.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.199]
+model = crowd11.dof-01.joe
+texture = peoplea.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.200]
+model = crowd12.dof-00.joe
+texture = peopleb.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.201]
+model = crowd12.dof-01.joe
+texture = peoplea.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.202]
+model = crowd13.dof-00.joe
+texture = peoplea.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.203]
+model = crowd13.dof-01.joe
+texture = peopleb.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.204]
+model = crowd14.dof-00.joe
+texture = peoplea.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.205]
+model = crowd14.dof-01.joe
+texture = peopleb.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.206]
+model = crowd15.dof-00.joe
+texture = peopleb.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.207]
+model = crowd15.dof-01.joe
+texture = peoplea.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.208]
+model = crowd16.dof-00.joe
+texture = peopleb.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.209]
+model = crowd16.dof-01.joe
+texture = peoplea.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.210]
+model = crowd17.dof-00.joe
+texture = peopleb.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.211]
+model = crowd17.dof-01.joe
+texture = peoplea.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.212]
+model = crowd18.dof-00.joe
+texture = peopleb.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.213]
+model = crowd18.dof-01.joe
+texture = peoplea.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.214]
+model = crowd19.dof-00.joe
+texture = peopleb.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.215]
+model = crowd19.dof-01.joe
+texture = peoplea.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.216]
+model = crowd20.dof-00.joe
+texture = peopleb.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.217]
+model = crowd20.dof-01.joe
+texture = peoplea.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.218]
+model = crowd21.dof-00.joe
+texture = peoplea.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.219]
+model = crowd21.dof-01.joe
+texture = peopleb.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.220]
+model = crowd22.dof-00.joe
+texture = peopleb.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.221]
+model = crowd22.dof-01.joe
+texture = peoplea.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.222]
+model = crowd23.dof-00.joe
+texture = peopleb.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.223]
+model = crowd23.dof-01.joe
+texture = peoplea.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.224]
+model = crowd24.dof-00.joe
+texture = peopleb.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.225]
+model = crowd24.dof-01.joe
+texture = peoplea.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.226]
+model = crowd25.dof-00.joe
+texture = peopleb.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.227]
+model = crowd25.dof-01.joe
+texture = peoplea.bmp.png
+mipmap = false
+nolighting = true
+collidable = false
+surface = 1
+
+[body.228]
+model = cwallogo01.dof-00.joe
+texture = bosch01.bmp.png
+surface = 1
+
+[body.229]
+model = cwallogo01.dof-01.joe
+texture = dunlop01.bmp.png
+surface = 1
+
+[body.230]
+model = cwallogo02.dof-00.joe
+texture = bosch01.bmp.png
+surface = 1
+
+[body.231]
+model = cwallogo02.dof-01.joe
+texture = dunlop01.bmp.png
+surface = 1
+
+[body.232]
+model = fence01.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.233]
+model = fence02.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.234]
+model = fence03.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.235]
+model = fence04.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.236]
+model = fence05.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.237]
+model = fence06.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.238]
+model = fence07.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.239]
+model = fence08.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.240]
+model = fence09.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.241]
+model = fence10.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.242]
+model = fence11.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.243]
+model = fence12.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.244]
+model = fence13.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.245]
+model = fence14.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.246]
+model = fence15.dof-00.joe
+texture = bpfence2.bmp.png
+surface = 1
+
+[body.247]
+model = fencea01.dof-00.joe
+texture = bpfence3.bmp.png
+surface = 1
+
+[body.248]
+model = fencea02.dof-00.joe
+texture = fence1.bmp.png
+mipmap = false
+surface = 1
+
+[body.249]
+model = fencea03.dof-00.joe
+texture = fence1.bmp.png
+mipmap = false
+surface = 1
+
+[body.250]
+model = grandst1.dof-00.joe
+texture = grandst1.bmp.png
+surface = 1
+
+[body.251]
+model = grandst2.dof-00.joe
+texture = wall06.bmp.png
+surface = 1
+
+[body.252]
+model = grandst2.dof-01.joe
+texture = wall01.bmp.png
+surface = 1
+
+[body.253]
+model = grandst2.dof-02.joe
+texture = wall02.bmp.png
+surface = 1
+
+[body.254]
+model = grandst2.dof-03.joe
+texture = wall05.bmp.png
+surface = 1
+
+[body.255]
+model = grandst2.dof-04.joe
+texture = gstmet.bmp.png
+surface = 1
+
+[body.256]
+model = grandst2.dof-05.joe
+texture = gstmet2.bmp.png
+mipmap = false
+surface = 1
+
+[body.257]
+model = grandst2.dof-06.joe
+texture = gstroof1.bmp.png
+surface = 1
+
+[body.258]
+model = grandst2.dof-07.joe
+texture = cestshel.bmp.png
+surface = 1
+
+[body.259]
+model = grandst3.dof-00.joe
+texture = chaigst3.bmp.png
+surface = 1
+
+[body.260]
+model = grandst3.dof-01.joe
+texture = roofgst3.bmp.png
+surface = 1
+
+[body.261]
+model = grandst3.dof-02.joe
+texture = railgst3.bmp.png
+surface = 1
+
+[body.262]
+model = grandst3.dof-03.joe
+texture = mast01.bmp.png
+surface = 1
+
+[body.263]
+model = grandst3.dof-04.joe
+texture = backgst3.bmp.png
+surface = 1
+
+[body.264]
+model = grass01.dof-00.joe
+texture = fldgrass.bmp.png
+surface = 2
+
+[body.265]
+model = grass01.dof-01.joe
+texture = grass2a.bmp.png
+surface = 2
+
+[body.266]
+model = grass01.dof-02.joe
+texture = rmbl3a.bmp.png
+surface = 1
+
+[body.267]
+model = grass01.dof-03.joe
+texture = hillside.bmp.png
+surface = 1
+
+[body.268]
+model = grass02.dof-00.joe
+texture = fldgrass.bmp.png
+surface = 2
+
+[body.269]
+model = grass02.dof-01.joe
+texture = grass2a.bmp.png
+surface = 2
+
+[body.270]
+model = grass02.dof-02.joe
+texture = rmbl3a.bmp.png
+surface = 1
+
+[body.271]
+model = grass02.dof-03.joe
+texture = hillside.bmp.png
+surface = 1
+
+[body.272]
+model = grass03.dof-00.joe
+texture = fldgrass.bmp.png
+surface = 2
+
+[body.273]
+model = grass03.dof-01.joe
+texture = grass2a.bmp.png
+surface = 2
+
+[body.274]
+model = grass03.dof-02.joe
+texture = rmbl3a.bmp.png
+surface = 1
+
+[body.275]
+model = grass03.dof-03.joe
+texture = hillside.bmp.png
+surface = 1
+
+[body.276]
+model = grass04.dof-00.joe
+texture = fldgrass.bmp.png
+surface = 2
+
+[body.277]
+model = grass04.dof-01.joe
+texture = grass2a.bmp.png
+surface = 2
+
+[body.278]
+model = grass04.dof-02.joe
+texture = rmbl3a.bmp.png
+surface = 1
+
+[body.279]
+model = grass04.dof-03.joe
+texture = hillside.bmp.png
+surface = 1
+
+[body.280]
+model = grass05.dof-00.joe
+texture = fldgrass.bmp.png
+surface = 2
+
+[body.281]
+model = grass05.dof-01.joe
+texture = grass2a.bmp.png
+surface = 2
+
+[body.282]
+model = grass05.dof-02.joe
+texture = rmbl3a.bmp.png
+surface = 1
+
+[body.283]
+model = grass05.dof-03.joe
+texture = hillside.bmp.png
+surface = 1
+
+[body.284]
+model = grass06.dof-00.joe
+texture = fldgrass.bmp.png
+surface = 2
+
+[body.285]
+model = grass06.dof-01.joe
+texture = grass2a.bmp.png
+surface = 2
+
+[body.286]
+model = grass06.dof-02.joe
+texture = rmbl3a.bmp.png
+surface = 1
+
+[body.287]
+model = grass06.dof-03.joe
+texture = hillside.bmp.png
+surface = 1
+
+[body.288]
+model = grass07.dof-00.joe
+texture = fldgrass.bmp.png
+surface = 2
+
+[body.289]
+model = grass07.dof-01.joe
+texture = grass2a.bmp.png
+surface = 2
+
+[body.290]
+model = grass07.dof-02.joe
+texture = rmbl3a.bmp.png
+surface = 1
+
+[body.291]
+model = grass07.dof-03.joe
+texture = hillside.bmp.png
+surface = 1
+
+[body.292]
+model = grass08.dof-00.joe
+texture = fldgrass.bmp.png
+surface = 2
+
+[body.293]
+model = grass08.dof-01.joe
+texture = grass2a.bmp.png
+surface = 2
+
+[body.294]
+model = grass08.dof-02.joe
+texture = rmbl3a.bmp.png
+surface = 1
+
+[body.295]
+model = grass08.dof-03.joe
+texture = hillside.bmp.png
+surface = 1
+
+[body.296]
+model = grass09.dof-00.joe
+texture = fldgrass.bmp.png
+surface = 2
+
+[body.297]
+model = grass09.dof-01.joe
+texture = grass2a.bmp.png
+surface = 2
+
+[body.298]
+model = grass09.dof-02.joe
+texture = rmbl3a.bmp.png
+surface = 1
+
+[body.299]
+model = grass09.dof-03.joe
+texture = hillside.bmp.png
+surface = 1
+
+[body.300]
+model = grass10.dof-00.joe
+texture = fldgrass.bmp.png
+surface = 2
+
+[body.301]
+model = grass10.dof-01.joe
+texture = grass2a.bmp.png
+surface = 2
+
+[body.302]
+model = grass10.dof-02.joe
+texture = rmbl3a.bmp.png
+surface = 1
+
+[body.303]
+model = grass10.dof-03.joe
+texture = hillside.bmp.png
+surface = 1
+
+[body.304]
+model = grass11.dof-00.joe
+texture = fldgrass.bmp.png
+surface = 2
+
+[body.305]
+model = grass11.dof-01.joe
+texture = grass2a.bmp.png
+surface = 2
+
+[body.306]
+model = grass11.dof-02.joe
+texture = rmbl3a.bmp.png
+surface = 1
+
+[body.307]
+model = grass11.dof-03.joe
+texture = hillside.bmp.png
+surface = 1
+
+[body.308]
+model = grass12.dof-00.joe
+texture = fldgrass.bmp.png
+surface = 2
+
+[body.309]
+model = grass12.dof-01.joe
+texture = grass2a.bmp.png
+surface = 2
+
+[body.310]
+model = grass12.dof-02.joe
+texture = rmbl3a.bmp.png
+surface = 1
+
+[body.311]
+model = grass12.dof-03.joe
+texture = hillside.bmp.png
+surface = 1
+
+[body.312]
+model = grass13.dof-00.joe
+texture = fldgrass.bmp.png
+surface = 2
+
+[body.313]
+model = grass13.dof-01.joe
+texture = grass2a.bmp.png
+surface = 2
+
+[body.314]
+model = grass13.dof-02.joe
+texture = rmbl3a.bmp.png
+surface = 1
+
+[body.315]
+model = grass13.dof-03.joe
+texture = hillside.bmp.png
+surface = 1
+
+[body.316]
+model = grass14.dof-00.joe
+texture = fldgrass.bmp.png
+surface = 2
+
+[body.317]
+model = grass14.dof-01.joe
+texture = grass2a.bmp.png
+surface = 2
+
+[body.318]
+model = grass14.dof-02.joe
+texture = rmbl3a.bmp.png
+surface = 1
+
+[body.319]
+model = grass14.dof-03.joe
+texture = hillside.bmp.png
+surface = 1
+
+[body.320]
+model = grass15.dof-00.joe
+texture = fldgrass.bmp.png
+surface = 2
+
+[body.321]
+model = grass15.dof-01.joe
+texture = grass2a.bmp.png
+surface = 2
+
+[body.322]
+model = grass15.dof-02.joe
+texture = rmbl3a.bmp.png
+surface = 1
+
+[body.323]
+model = grass15.dof-03.joe
+texture = hillside.bmp.png
+surface = 1
+
+[body.324]
+model = grass16.dof-00.joe
+texture = fldgrass.bmp.png
+surface = 2
+
+[body.325]
+model = grass16.dof-01.joe
+texture = grass2a.bmp.png
+surface = 2
+
+[body.326]
+model = grass16.dof-02.joe
+texture = rmbl3a.bmp.png
+surface = 1
+
+[body.327]
+model = grass16.dof-03.joe
+texture = hillside.bmp.png
+surface = 1
+
+[body.328]
+model = grass17.dof-00.joe
+texture = fldgrass.bmp.png
+surface = 2
+
+[body.329]
+model = grass17.dof-01.joe
+texture = grass2a.bmp.png
+surface = 2
+
+[body.330]
+model = grass17.dof-02.joe
+texture = rmbl3a.bmp.png
+surface = 1
+
+[body.331]
+model = grass17.dof-03.joe
+texture = hillside.bmp.png
+surface = 1
+
+[body.332]
+model = grass18.dof-00.joe
+texture = fldgrass.bmp.png
+surface = 2
+
+[body.333]
+model = grass18.dof-01.joe
+texture = grass2a.bmp.png
+surface = 2
+
+[body.334]
+model = grass18.dof-02.joe
+texture = rmbl3a.bmp.png
+surface = 1
+
+[body.335]
+model = grass19.dof-00.joe
+texture = fldgrass.bmp.png
+surface = 2
+
+[body.336]
+model = grass19.dof-01.joe
+texture = grass2a.bmp.png
+surface = 2
+
+[body.337]
+model = grass19.dof-02.joe
+texture = rmbl3a.bmp.png
+surface = 1
+
+[body.338]
+model = grass19.dof-03.joe
+texture = hillside.bmp.png
+surface = 1
+
+[body.339]
+model = grass20.dof-00.joe
+texture = fldgrass.bmp.png
+surface = 2
+
+[body.340]
+model = grass20.dof-01.joe
+texture = grass2a.bmp.png
+surface = 2
+
+[body.341]
+model = grass20.dof-02.joe
+texture = rmbl3a.bmp.png
+surface = 1
+
+[body.342]
+model = grass20.dof-03.joe
+texture = hillside.bmp.png
+surface = 1
+
+[body.343]
+model = grass21.dof-00.joe
+texture = fldgrass.bmp.png
+surface = 2
+
+[body.344]
+model = grass21.dof-01.joe
+texture = grass2a.bmp.png
+surface = 2
+
+[body.345]
+model = grass21.dof-02.joe
+texture = rmbl3a.bmp.png
+surface = 1
+
+[body.346]
+model = grass21.dof-03.joe
+texture = roadlane.bmp.png
+surface = 1
+
+[body.347]
+model = grass21.dof-04.joe
+texture = rmbl1a.bmp.png
+surface = 1
+
+[body.348]
+model = grass22.dof-00.joe
+texture = fldgrass.bmp.png
+surface = 2
+
+[body.349]
+model = grass22.dof-01.joe
+texture = grass2a.bmp.png
+surface = 2
+
+[body.350]
+model = grass22.dof-02.joe
+texture = rmbl3a.bmp.png
+surface = 1
+
+[body.351]
+model = grass23.dof-00.joe
+texture = fldgrass.bmp.png
+surface = 2
+
+[body.352]
+model = grass23.dof-01.joe
+texture = grass2a.bmp.png
+surface = 2
+
+[body.353]
+model = grass23.dof-02.joe
+texture = rmbl3a.bmp.png
+surface = 1
+
+[body.354]
+model = grdr01.dof-00.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.355]
+model = grdr01.dof-01.joe
+texture = grdrlatp.bmp.png
+surface = 1
+
+[body.356]
+model = grdr01.dof-02.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.357]
+model = grdr02.dof-00.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.358]
+model = grdr02.dof-01.joe
+texture = grdrlatp.bmp.png
+surface = 1
+
+[body.359]
+model = grdr02.dof-02.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.360]
+model = grdr03.dof-00.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.361]
+model = grdr03.dof-01.joe
+texture = grdrlatp.bmp.png
+surface = 1
+
+[body.362]
+model = grdr03.dof-02.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.363]
+model = grdr04.dof-00.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.364]
+model = grdr04.dof-01.joe
+texture = grdrlatp.bmp.png
+surface = 1
+
+[body.365]
+model = grdr04.dof-02.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.366]
+model = grdr05.dof-00.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.367]
+model = grdr05.dof-01.joe
+texture = grdrlatp.bmp.png
+surface = 1
+
+[body.368]
+model = grdr05.dof-02.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.369]
+model = grdr06.dof-00.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.370]
+model = grdr06.dof-01.joe
+texture = grdrlatp.bmp.png
+surface = 1
+
+[body.371]
+model = grdr06.dof-02.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.372]
+model = grdr07.dof-00.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.373]
+model = grdr07.dof-01.joe
+texture = grdrlatp.bmp.png
+surface = 1
+
+[body.374]
+model = grdr07.dof-02.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.375]
+model = grdr08.dof-00.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.376]
+model = grdr08.dof-01.joe
+texture = grdrlatp.bmp.png
+surface = 1
+
+[body.377]
+model = grdr08.dof-02.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.378]
+model = grdr09.dof-00.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.379]
+model = grdr09.dof-01.joe
+texture = grdrlatp.bmp.png
+surface = 1
+
+[body.380]
+model = grdr09.dof-02.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.381]
+model = grdr10.dof-00.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.382]
+model = grdr10.dof-01.joe
+texture = grdrlatp.bmp.png
+surface = 1
+
+[body.383]
+model = grdr10.dof-02.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.384]
+model = grdr11.dof-00.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.385]
+model = grdr11.dof-01.joe
+texture = grdrlatp.bmp.png
+surface = 1
+
+[body.386]
+model = grdr11.dof-02.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.387]
+model = grdr12.dof-00.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.388]
+model = grdr12.dof-01.joe
+texture = grdrlatp.bmp.png
+surface = 1
+
+[body.389]
+model = grdr12.dof-02.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.390]
+model = grdr13.dof-00.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.391]
+model = grdr13.dof-01.joe
+texture = grdrlatp.bmp.png
+surface = 1
+
+[body.392]
+model = grdr13.dof-02.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.393]
+model = grdr14.dof-00.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.394]
+model = grdr14.dof-01.joe
+texture = grdrlatp.bmp.png
+surface = 1
+
+[body.395]
+model = grdr14.dof-02.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.396]
+model = grdr15.dof-00.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.397]
+model = grdr15.dof-01.joe
+texture = grdrlatp.bmp.png
+surface = 1
+
+[body.398]
+model = grdr15.dof-02.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.399]
+model = grdr16.dof-00.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.400]
+model = grdr16.dof-01.joe
+texture = grdrlatp.bmp.png
+surface = 1
+
+[body.401]
+model = grdr16.dof-02.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.402]
+model = grdr17.dof-00.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.403]
+model = grdr17.dof-01.joe
+texture = grdrlatp.bmp.png
+surface = 1
+
+[body.404]
+model = grdr17.dof-02.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.405]
+model = grdr18.dof-00.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.406]
+model = grdr18.dof-01.joe
+texture = grdrlatp.bmp.png
+surface = 1
+
+[body.407]
+model = grdr18.dof-02.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.408]
+model = grdr19.dof-00.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.409]
+model = grdr19.dof-01.joe
+texture = grdrlatp.bmp.png
+surface = 1
+
+[body.410]
+model = grdr19.dof-02.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.411]
+model = grdr20.dof-00.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.412]
+model = grdr20.dof-01.joe
+texture = grdrlatp.bmp.png
+surface = 1
+
+[body.413]
+model = grdr20.dof-02.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.414]
+model = grdr21.dof-00.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.415]
+model = grdr21.dof-01.joe
+texture = grdrlatp.bmp.png
+surface = 1
+
+[body.416]
+model = grdr21.dof-02.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.417]
+model = grdr22.dof-00.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.418]
+model = grdr22.dof-01.joe
+texture = grdrlatp.bmp.png
+surface = 1
+
+[body.419]
+model = grdr22.dof-02.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.420]
+model = grdr23.dof-00.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.421]
+model = grdr23.dof-01.joe
+texture = grdrlatp.bmp.png
+surface = 1
+
+[body.422]
+model = grdr23.dof-02.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.423]
+model = grdr24.dof-00.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.424]
+model = grdr24.dof-01.joe
+texture = grdrlatp.bmp.png
+surface = 1
+
+[body.425]
+model = grdr24.dof-02.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.426]
+model = grdr25.dof-00.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.427]
+model = grdr25.dof-01.joe
+texture = grdrlatp.bmp.png
+surface = 1
+
+[body.428]
+model = grdr25.dof-02.joe
+texture = grdrla.bmp.png
+surface = 1
+
+[body.429]
+model = gst2fence.dof-00.joe
+texture = gstfence.bmp.png
+mipmap = false
+surface = 1
+
+[body.430]
+model = gstfence.dof-00.joe
+texture = gstfence.bmp.png
+mipmap = false
+surface = 1
+
+[body.431]
+model = hayball01.dof-00.joe
+texture = hayball.bmp.png
+surface = 1
+
+[body.432]
+model = hayball02.dof-00.joe
+texture = hayball.bmp.png
+surface = 1
+
+[body.433]
+model = hayball03.dof-00.joe
+texture = hayball.bmp.png
+surface = 1
+
+[body.434]
+model = hayball04.dof-00.joe
+texture = hayball.bmp.png
+surface = 1
+
+[body.435]
+model = hayball05.dof-00.joe
+texture = hayball.bmp.png
+surface = 1
+
+[body.436]
+model = house1.dof-00.joe
+texture = house01.bmp.png
+surface = 1
+
+[body.437]
+model = house1.dof-01.joe
+texture = house02.bmp.png
+surface = 1
+
+[body.438]
+model = house1.dof-02.joe
+texture = house03.bmp.png
+surface = 1
+
+[body.439]
+model = house1.dof-03.joe
+texture = house04.bmp.png
+surface = 1
+
+[body.440]
+model = hut01.dof-00.joe
+texture = hut.bmp.png
+surface = 1
+
+[body.441]
+model = hut02.dof-00.joe
+texture = hut.bmp.png
+surface = 1
+
+[body.442]
+model = hut03.dof-00.joe
+texture = hut.bmp.png
+surface = 1
+
+[body.443]
+model = hut04.dof-00.joe
+texture = hut.bmp.png
+surface = 1
+
+[body.444]
+model = hut05.dof-00.joe
+texture = hut.bmp.png
+surface = 1
+
+[body.445]
+model = hut06.dof-00.joe
+texture = hut.bmp.png
+surface = 1
+
+[body.446]
+model = hut07.dof-00.joe
+texture = hut.bmp.png
+surface = 1
+
+[body.447]
+model = hut08.dof-00.joe
+texture = hut.bmp.png
+surface = 1
+
+[body.448]
+model = lobp1.dof-00.joe
+texture = lobp1.bmp.png
+surface = 1
+
+[body.449]
+model = lobp1.dof-01.joe
+texture = logoback.bmp.png
+surface = 1
+
+[body.450]
+model = logo01.dof-00.joe
+texture = banner02.bmp.png
+transparent = 1
+surface = 1
+
+[body.451]
+model = logo02.dof-00.joe
+texture = banner01.bmp.png
+transparent = 1
+surface = 1
+
+[body.452]
+model = logo03.dof-00.joe
+texture = banner04.bmp.png
+transparent = 1
+surface = 1
+
+[body.453]
+model = logo04.dof-00.joe
+texture = banner02.bmp.png
+transparent = 1
+surface = 1
+
+[body.454]
+model = logo05.dof-00.joe
+texture = lobp1.bmp.png
+transparent = 1
+surface = 1
+
+[body.455]
+model = logo06.dof-00.joe
+texture = banner01.bmp.png
+transparent = 1
+surface = 1
+
+[body.456]
+model = logo07.dof-00.joe
+texture = banner02.bmp.png
+transparent = 1
+surface = 1
+
+[body.457]
+model = logo08.dof-00.joe
+texture = lobp1.bmp.png
+transparent = 1
+surface = 1
+
+[body.458]
+model = logo09.dof-00.joe
+texture = banner04.bmp.png
+transparent = 1
+surface = 1
+
+[body.459]
+model = logo10.dof-00.joe
+texture = banner02.bmp.png
+transparent = 1
+surface = 1
+
+[body.460]
+model = logo11.dof-00.joe
+texture = bpl2.bmp.png
+transparent = 1
+surface = 1
+
+[body.461]
+model = logo12.dof-00.joe
+texture = bpl2.bmp.png
+transparent = 1
+surface = 1
+
+[body.462]
+model = losh1.dof-00.joe
+texture = loshell2.bmp.png
+surface = 1
+
+[body.463]
+model = losh1.dof-01.joe
+texture = logoback.bmp.png
+surface = 1
+
+[body.464]
+model = lptreeaa139.dof-00.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.465]
+model = lptreeaa142.dof-00.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.466]
+model = lptreeaa143.dof-00.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.467]
+model = lptreeaa144.dof-00.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.468]
+model = lptreeba137.dof-00.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.469]
+model = lptreeba138.dof-00.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.470]
+model = lptreeba139.dof-00.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.471]
+model = lptreebb01.dof-00.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.472]
+model = lptreeca137.dof-00.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.473]
+model = lptreeca138.dof-00.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.474]
+model = lptreeca139.dof-00.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.475]
+model = lptreecb11.dof-00.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.476]
+model = lptreeda113.dof-00.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.477]
+model = lptreeda114.dof-00.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.478]
+model = lptreeda115.dof-00.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.479]
+model = lptreedb01.dof-00.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.480]
+model = lptreedb12.dof-00.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.481]
+model = lptreeea74.dof-00.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.482]
+model = lptreeea75.dof-00.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.483]
+model = lptreeea76.dof-00.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.484]
+model = lptreeeb27.dof-00.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.485]
+model = mack01.dof-00.joe
+texture = mack01.bmp.png
+collidable = false
+surface = 1
+
+[body.486]
+model = mack01.dof-01.joe
+texture = mack02.bmp.png
+collidable = false
+surface = 1
+
+[body.487]
+model = mack02.dof-00.joe
+texture = mack02.bmp.png
+collidable = false
+surface = 1
+
+[body.488]
+model = mack02.dof-01.joe
+texture = mack02.bmp.png
+collidable = false
+surface = 1
+
+[body.489]
+model = mack02.dof-02.joe
+texture = mack01.bmp.png
+collidable = false
+surface = 1
+
+[body.490]
+model = marshal01.dof-00.joe
+texture = marshal.bmp.png
+nolighting = true
+collidable = false
+surface = 1
+
+[body.491]
+model = marshal02.dof-00.joe
+texture = marshal.bmp.png
+nolighting = true
+collidable = false
+surface = 1
+
+[body.492]
+model = marshal03.dof-00.joe
+texture = marshal.bmp.png
+nolighting = true
+collidable = false
+surface = 1
+
+[body.493]
+model = marshal05.dof-00.joe
+texture = marshal.bmp.png
+nolighting = true
+collidable = false
+surface = 1
+
+[body.494]
+model = marshal06.dof-00.joe
+texture = marshal.bmp.png
+nolighting = true
+collidable = false
+surface = 1
+
+[body.495]
+model = marshal07.dof-00.joe
+texture = marshal.bmp.png
+nolighting = true
+collidable = false
+surface = 1
+
+[body.496]
+model = marshal08.dof-00.joe
+texture = marshal.bmp.png
+nolighting = true
+collidable = false
+surface = 1
+
+[body.497]
+model = marshal10.dof-00.joe
+texture = marshal.bmp.png
+nolighting = true
+collidable = false
+surface = 1
+
+[body.498]
+model = mast01.dof-00.joe
+texture = mast01.bmp.png
+surface = 1
+
+[body.499]
+model = mast02.dof-00.joe
+texture = mast01.bmp.png
+surface = 1
+
+[body.500]
+model = mast03.dof-00.joe
+texture = mast01.bmp.png
+surface = 1
+
+[body.501]
+model = mast04.dof-00.joe
+texture = mast01.bmp.png
+surface = 1
+
+[body.502]
+model = mast05.dof-00.joe
+texture = mast01.bmp.png
+surface = 1
+
+[body.503]
+model = mast06.dof-00.joe
+texture = mast01.bmp.png
+surface = 1
+
+[body.504]
+model = mast07.dof-00.joe
+texture = mast01.bmp.png
+surface = 1
+
+[body.505]
+model = masta.dof-00.joe
+texture = mast01.bmp.png
+surface = 1
+
+[body.506]
+model = mastb.dof-00.joe
+texture = mast01.bmp.png
+surface = 1
+
+[body.507]
+model = mondebar.dof-00.joe
+texture = logoback.bmp.png
+surface = 1
+
+[body.508]
+model = mondebar.dof-01.joe
+texture = loshell1.bmp.png
+surface = 1
+
+[body.509]
+model = number01.dof-00.joe
+texture = numbers.bmp.png
+surface = 1
+
+[body.510]
+model = number01.dof-01.joe
+texture = mast01.bmp.png
+surface = 1
+
+[body.511]
+model = parkroad.dof-00.joe
+texture = grass2a.bmp.png
+surface = 2
+
+[body.512]
+model = pbzaun01.dof-00.joe
+texture = fence1.bmp.png
+mipmap = false
+surface = 1
+
+[body.513]
+model = pbzaun02.dof-00.joe
+texture = fence1.bmp.png
+mipmap = false
+surface = 1
+
+[body.514]
+model = pbzaun03.dof-00.joe
+texture = fence1.bmp.png
+mipmap = false
+surface = 1
+
+[body.515]
+model = pitbuild1.dof-00.joe
+texture = wall01.bmp.png
+surface = 1
+
+[body.516]
+model = pitbuild1.dof-01.joe
+texture = wall04.bmp.png
+surface = 1
+
+[body.517]
+model = pitbuild1.dof-02.joe
+texture = garwall.bmp.png
+surface = 1
+
+[body.518]
+model = pitbuild1.dof-03.joe
+texture = wall03.bmp.png
+surface = 1
+
+[body.519]
+model = pitbuild1.dof-04.joe
+texture = wall02.bmp.png
+surface = 1
+
+[body.520]
+model = pitbuild1.dof-05.joe
+texture = pitbfron.bmp.png
+surface = 1
+
+[body.521]
+model = pitbuild2.dof-00.joe
+texture = wall01.bmp.png
+surface = 1
+
+[body.522]
+model = pitbuild2.dof-01.joe
+texture = wall04.bmp.png
+surface = 1
+
+[body.523]
+model = pitbuild2.dof-02.joe
+texture = garwall.bmp.png
+surface = 1
+
+[body.524]
+model = pitbuild2.dof-03.joe
+texture = wall03.bmp.png
+surface = 1
+
+[body.525]
+model = pitbuild2.dof-04.joe
+texture = wall02.bmp.png
+surface = 1
+
+[body.526]
+model = pitbuild2.dof-05.joe
+texture = pitcfron.bmp.png
+surface = 1
+
+[body.527]
+model = pitbuild3.dof-00.joe
+texture = wall01.bmp.png
+surface = 1
+
+[body.528]
+model = pitbuild3.dof-01.joe
+texture = pitbfron.bmp.png
+surface = 1
+
+[body.529]
+model = pitbuild3.dof-02.joe
+texture = wall03.bmp.png
+surface = 1
+
+[body.530]
+model = pitbuild3.dof-03.joe
+texture = wall02.bmp.png
+surface = 1
+
+[body.531]
+model = pitbuild3.dof-04.joe
+texture = garwall.bmp.png
+surface = 1
+
+[body.532]
+model = pitbuild3.dof-05.joe
+texture = wall04.bmp.png
+surface = 1
+
+[body.533]
+model = pitbuild4.dof-00.joe
+texture = wall01.bmp.png
+surface = 1
+
+[body.534]
+model = pitbuild4.dof-01.joe
+texture = garwall.bmp.png
+surface = 1
+
+[body.535]
+model = pitbuild4.dof-02.joe
+texture = wall04.bmp.png
+surface = 1
+
+[body.536]
+model = pitbuild4.dof-03.joe
+texture = wall03.bmp.png
+surface = 1
+
+[body.537]
+model = pitbuild4.dof-04.joe
+texture = wall02.bmp.png
+surface = 1
+
+[body.538]
+model = pitbuild5.dof-00.joe
+texture = wall01.bmp.png
+surface = 1
+
+[body.539]
+model = pitbuild5.dof-01.joe
+texture = wall04.bmp.png
+surface = 1
+
+[body.540]
+model = pitfence.dof-00.joe
+texture = fence2.bmp.png
+mipmap = false
+surface = 1
+
+[body.541]
+model = pitlogo01.dof-00.joe
+texture = pitlogo.bmp.png
+surface = 1
+
+[body.542]
+model = pitlogo02.dof-00.joe
+texture = bpfence5.bmp.png
+surface = 1
+
+[body.543]
+model = pitlogo02.dof-01.joe
+texture = bpfence3.bmp.png
+surface = 1
+
+[body.544]
+model = pitlogo03.dof-00.joe
+texture = pitlogo.bmp.png
+surface = 1
+
+[body.545]
+model = pitlogo04.dof-00.joe
+texture = bpfence3.bmp.png
+surface = 1
+
+[body.546]
+model = ptlit01.dof-00.joe
+texture = mast01.bmp.png
+surface = 1
+
+[body.547]
+model = ptlit01.dof-01.joe
+texture = rmbl1a.bmp.png
+surface = 1
+
+[body.548]
+model = ptlit01.dof-05.joe
+texture = ptblit00.bmp.png
+surface = 1
+
+[body.549]
+model = ptlit02.dof-00.joe
+texture = mast01.bmp.png
+surface = 1
+
+[body.550]
+model = ptlit02.dof-02.joe
+texture = rmbl1a.bmp.png
+surface = 1
+
+[body.551]
+model = road01.dof-00.joe
+texture = road1a.bmp.png
+surface = 1
+
+[body.552]
+model = road01.dof-01.joe
+texture = road2a.bmp.png
+surface = 1
+
+[body.553]
+model = road01.dof-02.joe
+texture = roadlane.bmp.png
+surface = 1
+
+[body.554]
+model = road01.dof-03.joe
+texture = road1s.bmp.png
+surface = 1
+
+[body.555]
+model = road01.dof-04.joe
+texture = roadchec.bmp.png
+surface = 1
+
+[body.556]
+model = road02.dof-00.joe
+texture = road1a.bmp.png
+surface = 1
+
+[body.557]
+model = road03.dof-00.joe
+texture = road1a.bmp.png
+surface = 1
+
+[body.558]
+model = road03.dof-01.joe
+texture = road2a.bmp.png
+surface = 1
+
+[body.559]
+model = road04.dof-00.joe
+texture = road2a.bmp.png
+surface = 1
+
+[body.560]
+model = road04.dof-01.joe
+texture = roadlane.bmp.png
+surface = 1
+
+[body.561]
+model = road04.dof-02.joe
+texture = rmbl4a.bmp.png
+surface = 1
+
+[body.562]
+model = road05.dof-00.joe
+texture = road2a.bmp.png
+surface = 1
+
+[body.563]
+model = road05.dof-01.joe
+texture = road1a.bmp.png
+surface = 1
+
+[body.564]
+model = road05.dof-02.joe
+texture = roadcob.bmp.png
+surface = 1
+
+[body.565]
+model = road05.dof-03.joe
+texture = rmbl1a.bmp.png
+surface = 1
+
+[body.566]
+model = road05.dof-04.joe
+texture = rmbl4a.bmp.png
+surface = 1
+
+[body.567]
+model = road06.dof-00.joe
+texture = road1a.bmp.png
+surface = 1
+
+[body.568]
+model = road06.dof-01.joe
+texture = road2a.bmp.png
+surface = 1
+
+[body.569]
+model = road07.dof-00.joe
+texture = road2a.bmp.png
+surface = 1
+
+[body.570]
+model = road07.dof-01.joe
+texture = road1a.bmp.png
+surface = 1
+
+[body.571]
+model = road08.dof-00.joe
+texture = road1a.bmp.png
+surface = 1
+
+[body.572]
+model = road09.dof-00.joe
+texture = road1a.bmp.png
+surface = 1
+
+[body.573]
+model = road09.dof-01.joe
+texture = road2a.bmp.png
+surface = 1
+
+[body.574]
+model = road10.dof-00.joe
+texture = road2a.bmp.png
+surface = 1
+
+[body.575]
+model = road10.dof-01.joe
+texture = roadlane.bmp.png
+surface = 1
+
+[body.576]
+model = road11.dof-00.joe
+texture = road2a.bmp.png
+surface = 1
+
+[body.577]
+model = road12.dof-00.joe
+texture = road2a.bmp.png
+surface = 1
+
+[body.578]
+model = road12.dof-01.joe
+texture = roadswit.bmp.png
+surface = 1
+
+[body.579]
+model = road12.dof-02.joe
+texture = roa4a.bmp.png
+surface = 1
+
+[body.580]
+model = road12.dof-03.joe
+texture = road1a.bmp.png
+surface = 1
+
+[body.581]
+model = road12.dof-04.joe
+texture = roadlane.bmp.png
+surface = 1
+
+[body.582]
+model = road12.dof-05.joe
+texture = rmbl4a.bmp.png
+surface = 1
+
+[body.583]
+model = road13.dof-00.joe
+texture = roa4a.bmp.png
+surface = 1
+
+[body.584]
+model = road13.dof-01.joe
+texture = roadswit.bmp.png
+surface = 1
+
+[body.585]
+model = road13.dof-02.joe
+texture = road2a.bmp.png
+surface = 1
+
+[body.586]
+model = roadpi.dof-00.joe
+texture = roadd.bmp.png
+surface = 1
+
+[body.587]
+model = roadpit.dof-00.joe
+texture = roadlane.bmp.png
+surface = 1
+
+[body.588]
+model = roadpit.dof-01.joe
+texture = roadpart.bmp.png
+surface = 1
+
+[body.589]
+model = roadpit.dof-02.joe
+texture = roadpit.bmp.png
+surface = 1
+
+[body.590]
+model = roadpit.dof-03.joe
+texture = paddock.bmp.png
+surface = 1
+
+[body.591]
+model = roadpit.dof-04.joe
+texture = wall01.bmp.png
+surface = 1
+
+[body.592]
+model = roadpo.dof-00.joe
+texture = roadd.bmp.png
+surface = 1
+
+[body.593]
+model = scheune.dof-00.joe
+texture = scheune.bmp.png
+surface = 1
+
+[body.594]
+model = shell03.dof-00.joe
+texture = banner02.bmp.png
+surface = 1
+
+[body.595]
+model = shell03.dof-01.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.596]
+model = shell04.dof-00.joe
+texture = banner02.bmp.png
+surface = 1
+
+[body.597]
+model = shell04.dof-01.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.598]
+model = shell05.dof-00.joe
+texture = banner02.bmp.png
+surface = 1
+
+[body.599]
+model = shell05.dof-01.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.600]
+model = shrub01.dof-00.joe
+texture = shrub01.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.601]
+model = shrub02.dof-00.joe
+texture = shrub01.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.602]
+model = shrub03.dof-00.joe
+texture = shrub01.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.603]
+model = shrub04.dof-00.joe
+texture = shrub01.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.604]
+model = shrub05.dof-00.joe
+texture = shrub01.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.605]
+model = sign03.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.606]
+model = sign04.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.607]
+model = sign05.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.608]
+model = sign06.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.609]
+model = sign07.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.610]
+model = sign08.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.611]
+model = sign09.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.612]
+model = sign100a.dof-00.joe
+texture = brakep.bmp.png
+surface = 1
+
+[body.613]
+model = sign100b.dof-00.joe
+texture = brakep.bmp.png
+surface = 1
+
+[body.614]
+model = sign10.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.615]
+model = sign11.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.616]
+model = sign12.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.617]
+model = sign13.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.618]
+model = sign14.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.619]
+model = sign15.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.620]
+model = sign16.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.621]
+model = sign17.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.622]
+model = sign18.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.623]
+model = sign19.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.624]
+model = sign200a.dof-00.joe
+texture = brakep.bmp.png
+surface = 1
+
+[body.625]
+model = sign200b.dof-00.joe
+texture = brakep.bmp.png
+surface = 1
+
+[body.626]
+model = sign20.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.627]
+model = sign21.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.628]
+model = sign22.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.629]
+model = sign24.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.630]
+model = sign25.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.631]
+model = sign26.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.632]
+model = sign28.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.633]
+model = sign300a.dof-00.joe
+texture = brakep.bmp.png
+surface = 1
+
+[body.634]
+model = sign300b.dof-00.joe
+texture = brakep.bmp.png
+surface = 1
+
+[body.635]
+model = sign30.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.636]
+model = sign32.dof-00.joe
+texture = bloc.bmp.png
+surface = 1
+
+[body.637]
+model = signb26.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.638]
+model = signb26.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.639]
+model = signba02.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.640]
+model = signba02.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.641]
+model = signba03.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.642]
+model = signba03.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.643]
+model = signba04.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.644]
+model = signba04.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.645]
+model = signba05.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.646]
+model = signba05.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.647]
+model = signba06.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.648]
+model = signba06.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.649]
+model = signba07.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.650]
+model = signba07.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.651]
+model = signba08.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.652]
+model = signba08.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.653]
+model = signba09.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.654]
+model = signba09.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.655]
+model = signba10.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.656]
+model = signba10.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.657]
+model = signba11.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.658]
+model = signba11.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.659]
+model = signba12.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.660]
+model = signba12.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.661]
+model = signba13.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.662]
+model = signba13.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.663]
+model = signba14.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.664]
+model = signba14.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.665]
+model = signba15.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.666]
+model = signba15.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.667]
+model = signba16.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.668]
+model = signba16.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.669]
+model = signba17.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.670]
+model = signba17.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.671]
+model = signba18.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.672]
+model = signba18.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.673]
+model = signba19.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.674]
+model = signba19.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.675]
+model = signba20.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.676]
+model = signba20.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.677]
+model = signba21.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.678]
+model = signba21.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.679]
+model = signba22.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.680]
+model = signba22.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.681]
+model = signba23.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.682]
+model = signba23.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.683]
+model = signba27.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.684]
+model = signba27.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.685]
+model = signba28.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.686]
+model = signba28.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.687]
+model = signba29.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.688]
+model = signba29.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.689]
+model = signba30.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.690]
+model = signba30.dof-01.joe
+texture = bande01.bmp.png
+surface = 1
+
+[body.691]
+model = signbb03.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.692]
+model = signbb03.dof-01.joe
+texture = bande02.bmp.png
+surface = 1
+
+[body.693]
+model = signbb04.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.694]
+model = signbb04.dof-01.joe
+texture = bande02.bmp.png
+surface = 1
+
+[body.695]
+model = signbb05.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.696]
+model = signbb05.dof-01.joe
+texture = bande02.bmp.png
+surface = 1
+
+[body.697]
+model = signbb06.dof-00.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.698]
+model = signbb06.dof-01.joe
+texture = bande02.bmp.png
+surface = 1
+
+[body.699]
+model = signr301.dof-00.joe
+texture = brakep.bmp.png
+surface = 1
+
+[body.700]
+model = signr302.dof-00.joe
+texture = brakep.bmp.png
+surface = 1
+
+[body.701]
+model = signr303.dof-00.joe
+texture = brakep.bmp.png
+surface = 1
+
+[body.702]
+model = skyboxi.dof-00.joe
+texture = bkc.bmp.png
+clampuv = 1
+nolighting = true
+skybox = true
+collidable = false
+surface = 1
+
+[body.703]
+model = skyboxi.dof-01.joe
+texture = bkd.bmp.png
+clampuv = 1
+nolighting = true
+skybox = true
+collidable = false
+surface = 1
+
+[body.704]
+model = skyboxi.dof-02.joe
+texture = bkb.bmp.png
+clampuv = 1
+nolighting = true
+skybox = true
+collidable = false
+surface = 1
+
+[body.705]
+model = skyboxi.dof-03.joe
+texture = bka.bmp.png
+clampuv = 1
+nolighting = true
+skybox = true
+collidable = false
+surface = 1
+
+[body.706]
+model = speaker01.dof-00.joe
+texture = mast02.bmp.png
+surface = 1
+
+[body.707]
+model = speaker01.dof-01.joe
+texture = speaker.bmp.png
+surface = 1
+
+[body.708]
+model = speaker02.dof-00.joe
+texture = mast02.bmp.png
+surface = 1
+
+[body.709]
+model = speaker02.dof-01.joe
+texture = speaker.bmp.png
+surface = 1
+
+[body.710]
+model = speaker03.dof-00.joe
+texture = mast02.bmp.png
+surface = 1
+
+[body.711]
+model = speaker03.dof-01.joe
+texture = speaker.bmp.png
+surface = 1
+
+[body.712]
+model = stlite.dof-00.joe
+texture = mast01.bmp.png
+surface = 1
+
+[body.713]
+model = stlite.dof-01.joe
+texture = rmbl1a.bmp.png
+surface = 1
+
+[body.714]
+model = tent01.dof-00.joe
+texture = tent02.bmp.png
+surface = 1
+
+[body.715]
+model = tent02.dof-00.joe
+texture = tent02.bmp.png
+surface = 1
+
+[body.716]
+model = tent03.dof-00.joe
+texture = tent02.bmp.png
+surface = 1
+
+[body.717]
+model = tent04.dof-00.joe
+texture = tent02.bmp.png
+surface = 1
+
+[body.718]
+model = tent05.dof-00.joe
+texture = tent02.bmp.png
+surface = 1
+
+[body.719]
+model = tent06.dof-00.joe
+texture = tent02.bmp.png
+surface = 1
+
+[body.720]
+model = timetake2.dof-00.joe
+texture = timetak2.bmp.png
+surface = 1
+
+[body.721]
+model = timetake2.dof-01.joe
+texture = wall05.bmp.png
+surface = 1
+
+[body.722]
+model = timetake2.dof-02.joe
+texture = stripe1.bmp.png
+surface = 1
+
+[body.723]
+model = timetake2.dof-03.joe
+texture = wall03.bmp.png
+surface = 1
+
+[body.724]
+model = timetake2.dof-04.joe
+texture = wood01.bmp.png
+surface = 1
+
+[body.725]
+model = timetake2.dof-05.joe
+texture = wall01.bmp.png
+surface = 1
+
+[body.726]
+model = timetake2.dof-06.joe
+texture = stair2.bmp.png
+surface = 1
+
+[body.727]
+model = timetake2.dof-07.joe
+texture = ttfence.bmp.png
+surface = 1
+
+[body.728]
+model = timetake2.dof-08.joe
+texture = window.tga.png
+surface = 1
+
+[body.729]
+model = timetake2.dof-09.joe
+texture = wood02.bmp.png
+surface = 1
+
+[body.730]
+model = tower.dof-00.joe
+texture = tower.bmp.png
+surface = 1
+
+[body.731]
+model = tower.dof-01.joe
+texture = mast02.bmp.png
+surface = 1
+
+[body.732]
+model = trailer01.dof-00.joe
+texture = trailer01.bmp.png
+collidable = false
+surface = 1
+
+[body.733]
+model = trailer01.dof-01.joe
+texture = trailer01.bmp.png
+collidable = false
+surface = 1
+
+[body.734]
+model = trailer01.dof-02.joe
+texture = trailer01.bmp.png
+collidable = false
+surface = 1
+
+[body.735]
+model = trailer02.dof-00.joe
+texture = trailer01.bmp.png
+collidable = false
+surface = 1
+
+[body.736]
+model = trailer02.dof-01.joe
+texture = trailer01.bmp.png
+collidable = false
+surface = 1
+
+[body.737]
+model = trailer02.dof-02.joe
+texture = trailer01.bmp.png
+collidable = false
+surface = 1
+
+[body.738]
+model = trailer03.dof-00.joe
+texture = trailer01.bmp.png
+collidable = false
+surface = 1
+
+[body.739]
+model = trailer03.dof-01.joe
+texture = trailer01.bmp.png
+collidable = false
+surface = 1
+
+[body.740]
+model = tree01.dof-00.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.741]
+model = tree01.dof-01.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.742]
+model = tree01.dof-02.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.743]
+model = tree01.dof-03.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.744]
+model = tree01.dof-04.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.745]
+model = tree02.dof-00.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.746]
+model = tree02.dof-01.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.747]
+model = tree02.dof-02.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.748]
+model = tree02.dof-03.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.749]
+model = tree02.dof-04.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.750]
+model = tree03.dof-00.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.751]
+model = tree03.dof-01.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.752]
+model = tree03.dof-02.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.753]
+model = tree03.dof-03.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.754]
+model = tree03.dof-04.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.755]
+model = tree04.dof-00.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.756]
+model = tree04.dof-01.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.757]
+model = tree04.dof-02.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.758]
+model = tree04.dof-03.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.759]
+model = tree04.dof-04.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.760]
+model = tree05.dof-00.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.761]
+model = tree05.dof-01.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.762]
+model = tree05.dof-02.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.763]
+model = tree05.dof-03.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.764]
+model = tree05.dof-04.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.765]
+model = tree07.dof-00.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.766]
+model = tree07.dof-01.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.767]
+model = tree07.dof-02.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.768]
+model = tree07.dof-03.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.769]
+model = tree07.dof-04.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.770]
+model = tree08.dof-00.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.771]
+model = tree08.dof-01.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.772]
+model = tree08.dof-02.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.773]
+model = tree08.dof-03.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.774]
+model = tree08.dof-04.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.775]
+model = tree09.dof-00.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.776]
+model = tree09.dof-01.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.777]
+model = tree09.dof-02.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.778]
+model = tree09.dof-03.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.779]
+model = tree09.dof-04.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.780]
+model = tree10.dof-00.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.781]
+model = tree10.dof-01.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.782]
+model = tree10.dof-02.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.783]
+model = tree10.dof-03.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.784]
+model = tree10.dof-04.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.785]
+model = tree11.dof-00.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.786]
+model = tree11.dof-01.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.787]
+model = tree11.dof-02.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.788]
+model = tree11.dof-03.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.789]
+model = tree11.dof-04.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.790]
+model = tree12.dof-00.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.791]
+model = tree12.dof-01.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.792]
+model = tree12.dof-02.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.793]
+model = tree12.dof-03.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.794]
+model = tree12.dof-04.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.795]
+model = tree13.dof-00.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.796]
+model = tree13.dof-01.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.797]
+model = tree13.dof-02.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.798]
+model = tree13.dof-03.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.799]
+model = tree13.dof-04.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.800]
+model = tree14.dof-00.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.801]
+model = tree14.dof-01.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.802]
+model = tree14.dof-02.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.803]
+model = tree14.dof-03.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.804]
+model = tree14.dof-04.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.805]
+model = tree15.dof-00.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.806]
+model = tree15.dof-01.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.807]
+model = tree15.dof-02.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.808]
+model = tree15.dof-03.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.809]
+model = tree15.dof-04.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.810]
+model = tree16.dof-00.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.811]
+model = tree16.dof-01.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.812]
+model = tree16.dof-02.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.813]
+model = tree16.dof-03.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.814]
+model = tree16.dof-04.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.815]
+model = tree17.dof-00.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.816]
+model = tree17.dof-01.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.817]
+model = tree17.dof-02.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.818]
+model = tree17.dof-03.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.819]
+model = tree17.dof-04.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.820]
+model = tree18.dof-00.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.821]
+model = tree18.dof-01.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.822]
+model = tree18.dof-02.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.823]
+model = tree18.dof-03.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.824]
+model = tree18.dof-04.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.825]
+model = tree19.dof-00.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.826]
+model = tree19.dof-01.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.827]
+model = tree19.dof-02.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.828]
+model = tree19.dof-03.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.829]
+model = tree19.dof-04.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.830]
+model = tree20.dof-00.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.831]
+model = tree20.dof-01.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.832]
+model = tree20.dof-02.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.833]
+model = tree20.dof-03.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.834]
+model = tree21.dof-00.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.835]
+model = tree21.dof-01.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.836]
+model = tree21.dof-02.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.837]
+model = tree21.dof-03.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.838]
+model = tree22.dof-00.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.839]
+model = tree22.dof-01.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.840]
+model = tree22.dof-02.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.841]
+model = tree22.dof-03.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.842]
+model = tree22.dof-04.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.843]
+model = tree23.dof-00.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.844]
+model = tree23.dof-01.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.845]
+model = tree23.dof-02.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.846]
+model = tree23.dof-03.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.847]
+model = tree24.dof-00.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.848]
+model = tree24.dof-01.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.849]
+model = tree24.dof-02.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.850]
+model = tree24.dof-03.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.851]
+model = tree24.dof-04.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.852]
+model = tree25.dof-00.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.853]
+model = tree25.dof-01.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.854]
+model = tree25.dof-02.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.855]
+model = tree25.dof-03.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.856]
+model = tree25.dof-04.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.857]
+model = tree26.dof-00.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.858]
+model = tree26.dof-01.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.859]
+model = tree26.dof-02.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.860]
+model = tree26.dof-03.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.861]
+model = tree26.dof-04.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.862]
+model = treee06.dof-00.joe
+texture = treee.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.863]
+model = treee06.dof-01.joe
+texture = treea.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.864]
+model = treee06.dof-02.joe
+texture = treeb.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.865]
+model = treee06.dof-03.joe
+texture = treec.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.866]
+model = treee06.dof-04.joe
+texture = treed.bmp.png
+clampuv = 1
+nolighting = true
+collidable = false
+surface = 1
+
+[body.867]
+model = treewall03.dof-00.joe
+texture = treewalm.bmp.png
+clampuv = 2
+nolighting = true
+collidable = false
+surface = 1
+
+[body.868]
+model = treewall04.dof-00.joe
+texture = treewalm.bmp.png
+clampuv = 2
+nolighting = true
+collidable = false
+surface = 1
+
+[body.869]
+model = treewall05.dof-00.joe
+texture = treewalm.bmp.png
+clampuv = 2
+nolighting = true
+collidable = false
+surface = 1
+
+[body.870]
+model = treewall06.dof-00.joe
+texture = treewalm.bmp.png
+clampuv = 2
+nolighting = true
+collidable = false
+surface = 1
+
+[body.871]
+model = treewall07.dof-00.joe
+texture = treewalm.bmp.png
+clampuv = 2
+nolighting = true
+collidable = false
+surface = 1
+
+[body.872]
+model = treewall1a.dof-00.joe
+texture = treewalm.bmp.png
+clampuv = 2
+nolighting = true
+collidable = false
+surface = 1
+
+[body.873]
+model = treewall1b.dof-00.joe
+texture = treewalm.bmp.png
+clampuv = 2
+nolighting = true
+collidable = false
+surface = 1
+
+[body.874]
+model = treewall1c.dof-00.joe
+texture = treewalm.bmp.png
+clampuv = 2
+nolighting = true
+collidable = false
+surface = 1
+
+[body.875]
+model = treewall2a.dof-00.joe
+texture = treewalm.bmp.png
+clampuv = 2
+nolighting = true
+collidable = false
+surface = 1
+
+[body.876]
+model = treewall2b.dof-00.joe
+texture = treewalm.bmp.png
+clampuv = 2
+nolighting = true
+collidable = false
+surface = 1
+
+[body.877]
+model = treewall2c.dof-00.joe
+texture = treewalm.bmp.png
+clampuv = 2
+nolighting = true
+collidable = false
+surface = 1
+
+[body.878]
+model = tvarea.dof-00.joe
+texture = tvarea.bmp.png
+surface = 1
+
+[body.879]
+model = tvbuildings.dof-00.joe
+texture = wall03.bmp.png
+surface = 1
+
+[body.880]
+model = tvbuildings.dof-01.joe
+texture = tvbuild1.bmp.png
+surface = 1
+
+[body.881]
+model = tvbuildings.dof-02.joe
+texture = tvbuild2.bmp.png
+surface = 1
+
+[body.882]
+model = tvbuildings.dof-03.joe
+texture = tvbuild3.bmp.png
+surface = 1
+
+[body.883]
+model = tvfence01.dof-00.joe
+texture = fence2.bmp.png
+mipmap = false
+surface = 1
+
+[body.884]
+model = tvfence1.dof-00.joe
+texture = wall01.bmp.png
+surface = 1
+
+[body.885]
+model = tvmast02.dof-00.joe
+texture = wall01.bmp.png
+surface = 1
+
+[body.886]
+model = tvmast03.dof-00.joe
+texture = wall01.bmp.png
+surface = 1
+
+[body.887]
+model = tvmast04.dof-00.joe
+texture = wall01.bmp.png
+surface = 1
+
+[body.888]
+model = tvmast05.dof-00.joe
+texture = wall01.bmp.png
+surface = 1
+
+[body.889]
+model = vilfence.dof-00.joe
+texture = vilfence.bmp.png
+surface = 1
+
+[body.890]
+model = wall02.dof-00.joe
+texture = cwla.bmp.png
+surface = 1
+
+[body.891]
+model = wall02.dof-01.joe
+texture = cwta.bmp.png
+surface = 1
+
+[body.892]
+model = wall03.dof-00.joe
+texture = cwla.bmp.png
+surface = 1
+
+[body.893]
+model = wall03.dof-01.joe
+texture = cwta.bmp.png
+surface = 1
+
+[body.894]
+model = zaun01.dof-00.joe
+texture = fence1.bmp.png
+mipmap = false
+surface = 1
+
+[body.895]
+model = zaun02.dof-00.joe
+texture = fence1.bmp.png
+mipmap = false
+surface = 1
+
+[body.896]
+model = zaun031.dof-00.joe
+texture = fence1.bmp.png
+mipmap = false
+surface = 1
+
+[body.897]
+model = zaun032.dof-00.joe
+texture = fence1.bmp.png
+mipmap = false
+surface = 1
+
+[body.898]
+model = zaun033.dof-00.joe
+texture = fence1.bmp.png
+mipmap = false
+surface = 1
+
+[body.899]
+model = zaun034.dof-00.joe
+texture = fence1.bmp.png
+mipmap = false
+surface = 1
+
+[body.900]
+model = zaun03.dof-00.joe
+texture = fence1.bmp.png
+mipmap = false
+surface = 1
+
+[body.901]
+model = zaun04.dof-00.joe
+texture = fence1.bmp.png
+mipmap = false
+surface = 1
+
+[body.902]
+model = zaun05.dof-00.joe
+texture = fence2.bmp.png
+mipmap = false
+surface = 1
+
+[body.903]
+model = zaun061.dof-00.joe
+texture = fence2.bmp.png
+mipmap = false
+surface = 1
+
+[body.904]
+model = zaun06.dof-00.joe
+texture = fence2.bmp.png
+mipmap = false
+surface = 1
+
+[body.905]
+model = zaun07.dof-00.joe
+texture = fence2.bmp.png
+mipmap = false
+surface = 1
+
+[body.906]
+model = cloudsny.dof-00.joe
+texture = cloudsnny.tga.png
+transparent = 1
+mipmap = false
+nolighting = true
+skybox = true
+collidable = false
+surface = 1
+
+[node.0]
+body = 0
+
+[node.1]
+body = 1
+
+[node.2]
+body = 2
+
+[node.3]
+body = 3
+
+[node.4]
+body = 4
+
+[node.5]
+body = 5
+
+[node.6]
+body = 6
+
+[node.7]
+body = 7
+
+[node.8]
+body = 8
+
+[node.9]
+body = 9
+
+[node.10]
+body = 10
+
+[node.11]
+body = 11
+
+[node.12]
+body = 12
+
+[node.13]
+body = 13
+
+[node.14]
+body = 14
+
+[node.15]
+body = 15
+
+[node.16]
+body = 16
+
+[node.17]
+body = 17
+
+[node.18]
+body = 18
+
+[node.19]
+body = 19
+
+[node.20]
+body = 20
+
+[node.21]
+body = 21
+
+[node.22]
+body = 22
+
+[node.23]
+body = 23
+
+[node.24]
+body = 24
+
+[node.25]
+body = 25
+
+[node.26]
+body = 26
+
+[node.27]
+body = 27
+
+[node.28]
+body = 28
+
+[node.29]
+body = 29
+
+[node.30]
+body = 30
+
+[node.31]
+body = 31
+
+[node.32]
+body = 32
+
+[node.33]
+body = 33
+
+[node.34]
+body = 34
+
+[node.35]
+body = 35
+
+[node.36]
+body = 36
+
+[node.37]
+body = 37
+
+[node.38]
+body = 38
+
+[node.39]
+body = 39
+
+[node.40]
+body = 40
+
+[node.41]
+body = 41
+
+[node.42]
+body = 42
+
+[node.43]
+body = 43
+
+[node.44]
+body = 44
+
+[node.45]
+body = 45
+
+[node.46]
+body = 46
+
+[node.47]
+body = 47
+
+[node.48]
+body = 48
+
+[node.49]
+body = 49
+
+[node.50]
+body = 50
+
+[node.51]
+body = 51
+
+[node.52]
+body = 52
+
+[node.53]
+body = 53
+
+[node.54]
+body = 54
+
+[node.55]
+body = 55
+
+[node.56]
+body = 56
+
+[node.57]
+body = 57
+
+[node.58]
+body = 58
+
+[node.59]
+body = 59
+
+[node.60]
+body = 60
+
+[node.61]
+body = 61
+
+[node.62]
+body = 62
+
+[node.63]
+body = 63
+
+[node.64]
+body = 64
+
+[node.65]
+body = 65
+
+[node.66]
+body = 66
+
+[node.67]
+body = 67
+
+[node.68]
+body = 68
+
+[node.69]
+body = 69
+
+[node.70]
+body = 70
+
+[node.71]
+body = 71
+
+[node.72]
+body = 72
+
+[node.73]
+body = 73
+
+[node.74]
+body = 74
+
+[node.75]
+body = 75
+
+[node.76]
+body = 76
+
+[node.77]
+body = 77
+
+[node.78]
+body = 78
+
+[node.79]
+body = 79
+
+[node.80]
+body = 80
+
+[node.81]
+body = 81
+
+[node.82]
+body = 82
+
+[node.83]
+body = 83
+
+[node.84]
+body = 84
+
+[node.85]
+body = 85
+
+[node.86]
+body = 86
+
+[node.87]
+body = 87
+
+[node.88]
+body = 88
+
+[node.89]
+body = 89
+
+[node.90]
+body = 90
+
+[node.91]
+body = 91
+
+[node.92]
+body = 92
+
+[node.93]
+body = 93
+
+[node.94]
+body = 94
+
+[node.95]
+body = 95
+
+[node.96]
+body = 96
+
+[node.97]
+body = 97
+
+[node.98]
+body = 98
+
+[node.99]
+body = 99
+
+[node.100]
+body = 100
+
+[node.101]
+body = 101
+
+[node.102]
+body = 102
+
+[node.103]
+body = 103
+
+[node.104]
+body = 104
+
+[node.105]
+body = 105
+
+[node.106]
+body = 106
+
+[node.107]
+body = 107
+
+[node.108]
+body = 108
+
+[node.109]
+body = 109
+
+[node.110]
+body = 110
+
+[node.111]
+body = 111
+
+[node.112]
+body = 112
+
+[node.113]
+body = 113
+
+[node.114]
+body = 114
+
+[node.115]
+body = 115
+
+[node.116]
+body = 116
+
+[node.117]
+body = 117
+
+[node.118]
+body = 118
+
+[node.119]
+body = 119
+
+[node.120]
+body = 120
+
+[node.121]
+body = 121
+
+[node.122]
+body = 122
+
+[node.123]
+body = 123
+
+[node.124]
+body = 124
+
+[node.125]
+body = 125
+
+[node.126]
+body = 126
+
+[node.127]
+body = 127
+
+[node.128]
+body = 128
+
+[node.129]
+body = 129
+
+[node.130]
+body = 130
+
+[node.131]
+body = 131
+
+[node.132]
+body = 132
+
+[node.133]
+body = 133
+
+[node.134]
+body = 134
+
+[node.135]
+body = 135
+
+[node.136]
+body = 136
+
+[node.137]
+body = 137
+
+[node.138]
+body = 138
+
+[node.139]
+body = 139
+
+[node.140]
+body = 140
+
+[node.141]
+body = 141
+
+[node.142]
+body = 142
+
+[node.143]
+body = 143
+
+[node.144]
+body = 144
+
+[node.145]
+body = 145
+
+[node.146]
+body = 146
+
+[node.147]
+body = 147
+
+[node.148]
+body = 148
+
+[node.149]
+body = 149
+
+[node.150]
+body = 150
+
+[node.151]
+body = 151
+
+[node.152]
+body = 152
+
+[node.153]
+body = 153
+
+[node.154]
+body = 154
+
+[node.155]
+body = 155
+
+[node.156]
+body = 156
+
+[node.157]
+body = 157
+
+[node.158]
+body = 158
+
+[node.159]
+body = 159
+
+[node.160]
+body = 160
+
+[node.161]
+body = 161
+
+[node.162]
+body = 162
+
+[node.163]
+body = 163
+
+[node.164]
+body = 164
+
+[node.165]
+body = 165
+
+[node.166]
+body = 166
+
+[node.167]
+body = 167
+
+[node.168]
+body = 168
+
+[node.169]
+body = 169
+
+[node.170]
+body = 170
+
+[node.171]
+body = 171
+
+[node.172]
+body = 172
+
+[node.173]
+body = 173
+
+[node.174]
+body = 174
+
+[node.175]
+body = 175
+
+[node.176]
+body = 176
+
+[node.177]
+body = 177
+
+[node.178]
+body = 178
+
+[node.179]
+body = 179
+
+[node.180]
+body = 180
+
+[node.181]
+body = 181
+
+[node.182]
+body = 182
+
+[node.183]
+body = 183
+
+[node.184]
+body = 184
+
+[node.185]
+body = 185
+
+[node.186]
+body = 186
+
+[node.187]
+body = 187
+
+[node.188]
+body = 188
+
+[node.189]
+body = 189
+
+[node.190]
+body = 190
+
+[node.191]
+body = 191
+
+[node.192]
+body = 192
+
+[node.193]
+body = 193
+
+[node.194]
+body = 194
+
+[node.195]
+body = 195
+
+[node.196]
+body = 196
+
+[node.197]
+body = 197
+
+[node.198]
+body = 198
+
+[node.199]
+body = 199
+
+[node.200]
+body = 200
+
+[node.201]
+body = 201
+
+[node.202]
+body = 202
+
+[node.203]
+body = 203
+
+[node.204]
+body = 204
+
+[node.205]
+body = 205
+
+[node.206]
+body = 206
+
+[node.207]
+body = 207
+
+[node.208]
+body = 208
+
+[node.209]
+body = 209
+
+[node.210]
+body = 210
+
+[node.211]
+body = 211
+
+[node.212]
+body = 212
+
+[node.213]
+body = 213
+
+[node.214]
+body = 214
+
+[node.215]
+body = 215
+
+[node.216]
+body = 216
+
+[node.217]
+body = 217
+
+[node.218]
+body = 218
+
+[node.219]
+body = 219
+
+[node.220]
+body = 220
+
+[node.221]
+body = 221
+
+[node.222]
+body = 222
+
+[node.223]
+body = 223
+
+[node.224]
+body = 224
+
+[node.225]
+body = 225
+
+[node.226]
+body = 226
+
+[node.227]
+body = 227
+
+[node.228]
+body = 228
+
+[node.229]
+body = 229
+
+[node.230]
+body = 230
+
+[node.231]
+body = 231
+
+[node.232]
+body = 232
+
+[node.233]
+body = 233
+
+[node.234]
+body = 234
+
+[node.235]
+body = 235
+
+[node.236]
+body = 236
+
+[node.237]
+body = 237
+
+[node.238]
+body = 238
+
+[node.239]
+body = 239
+
+[node.240]
+body = 240
+
+[node.241]
+body = 241
+
+[node.242]
+body = 242
+
+[node.243]
+body = 243
+
+[node.244]
+body = 244
+
+[node.245]
+body = 245
+
+[node.246]
+body = 246
+
+[node.247]
+body = 247
+
+[node.248]
+body = 248
+
+[node.249]
+body = 249
+
+[node.250]
+body = 250
+
+[node.251]
+body = 251
+
+[node.252]
+body = 252
+
+[node.253]
+body = 253
+
+[node.254]
+body = 254
+
+[node.255]
+body = 255
+
+[node.256]
+body = 256
+
+[node.257]
+body = 257
+
+[node.258]
+body = 258
+
+[node.259]
+body = 259
+
+[node.260]
+body = 260
+
+[node.261]
+body = 261
+
+[node.262]
+body = 262
+
+[node.263]
+body = 263
+
+[node.264]
+body = 264
+
+[node.265]
+body = 265
+
+[node.266]
+body = 266
+
+[node.267]
+body = 267
+
+[node.268]
+body = 268
+
+[node.269]
+body = 269
+
+[node.270]
+body = 270
+
+[node.271]
+body = 271
+
+[node.272]
+body = 272
+
+[node.273]
+body = 273
+
+[node.274]
+body = 274
+
+[node.275]
+body = 275
+
+[node.276]
+body = 276
+
+[node.277]
+body = 277
+
+[node.278]
+body = 278
+
+[node.279]
+body = 279
+
+[node.280]
+body = 280
+
+[node.281]
+body = 281
+
+[node.282]
+body = 282
+
+[node.283]
+body = 283
+
+[node.284]
+body = 284
+
+[node.285]
+body = 285
+
+[node.286]
+body = 286
+
+[node.287]
+body = 287
+
+[node.288]
+body = 288
+
+[node.289]
+body = 289
+
+[node.290]
+body = 290
+
+[node.291]
+body = 291
+
+[node.292]
+body = 292
+
+[node.293]
+body = 293
+
+[node.294]
+body = 294
+
+[node.295]
+body = 295
+
+[node.296]
+body = 296
+
+[node.297]
+body = 297
+
+[node.298]
+body = 298
+
+[node.299]
+body = 299
+
+[node.300]
+body = 300
+
+[node.301]
+body = 301
+
+[node.302]
+body = 302
+
+[node.303]
+body = 303
+
+[node.304]
+body = 304
+
+[node.305]
+body = 305
+
+[node.306]
+body = 306
+
+[node.307]
+body = 307
+
+[node.308]
+body = 308
+
+[node.309]
+body = 309
+
+[node.310]
+body = 310
+
+[node.311]
+body = 311
+
+[node.312]
+body = 312
+
+[node.313]
+body = 313
+
+[node.314]
+body = 314
+
+[node.315]
+body = 315
+
+[node.316]
+body = 316
+
+[node.317]
+body = 317
+
+[node.318]
+body = 318
+
+[node.319]
+body = 319
+
+[node.320]
+body = 320
+
+[node.321]
+body = 321
+
+[node.322]
+body = 322
+
+[node.323]
+body = 323
+
+[node.324]
+body = 324
+
+[node.325]
+body = 325
+
+[node.326]
+body = 326
+
+[node.327]
+body = 327
+
+[node.328]
+body = 328
+
+[node.329]
+body = 329
+
+[node.330]
+body = 330
+
+[node.331]
+body = 331
+
+[node.332]
+body = 332
+
+[node.333]
+body = 333
+
+[node.334]
+body = 334
+
+[node.335]
+body = 335
+
+[node.336]
+body = 336
+
+[node.337]
+body = 337
+
+[node.338]
+body = 338
+
+[node.339]
+body = 339
+
+[node.340]
+body = 340
+
+[node.341]
+body = 341
+
+[node.342]
+body = 342
+
+[node.343]
+body = 343
+
+[node.344]
+body = 344
+
+[node.345]
+body = 345
+
+[node.346]
+body = 346
+
+[node.347]
+body = 347
+
+[node.348]
+body = 348
+
+[node.349]
+body = 349
+
+[node.350]
+body = 350
+
+[node.351]
+body = 351
+
+[node.352]
+body = 352
+
+[node.353]
+body = 353
+
+[node.354]
+body = 354
+
+[node.355]
+body = 355
+
+[node.356]
+body = 356
+
+[node.357]
+body = 357
+
+[node.358]
+body = 358
+
+[node.359]
+body = 359
+
+[node.360]
+body = 360
+
+[node.361]
+body = 361
+
+[node.362]
+body = 362
+
+[node.363]
+body = 363
+
+[node.364]
+body = 364
+
+[node.365]
+body = 365
+
+[node.366]
+body = 366
+
+[node.367]
+body = 367
+
+[node.368]
+body = 368
+
+[node.369]
+body = 369
+
+[node.370]
+body = 370
+
+[node.371]
+body = 371
+
+[node.372]
+body = 372
+
+[node.373]
+body = 373
+
+[node.374]
+body = 374
+
+[node.375]
+body = 375
+
+[node.376]
+body = 376
+
+[node.377]
+body = 377
+
+[node.378]
+body = 378
+
+[node.379]
+body = 379
+
+[node.380]
+body = 380
+
+[node.381]
+body = 381
+
+[node.382]
+body = 382
+
+[node.383]
+body = 383
+
+[node.384]
+body = 384
+
+[node.385]
+body = 385
+
+[node.386]
+body = 386
+
+[node.387]
+body = 387
+
+[node.388]
+body = 388
+
+[node.389]
+body = 389
+
+[node.390]
+body = 390
+
+[node.391]
+body = 391
+
+[node.392]
+body = 392
+
+[node.393]
+body = 393
+
+[node.394]
+body = 394
+
+[node.395]
+body = 395
+
+[node.396]
+body = 396
+
+[node.397]
+body = 397
+
+[node.398]
+body = 398
+
+[node.399]
+body = 399
+
+[node.400]
+body = 400
+
+[node.401]
+body = 401
+
+[node.402]
+body = 402
+
+[node.403]
+body = 403
+
+[node.404]
+body = 404
+
+[node.405]
+body = 405
+
+[node.406]
+body = 406
+
+[node.407]
+body = 407
+
+[node.408]
+body = 408
+
+[node.409]
+body = 409
+
+[node.410]
+body = 410
+
+[node.411]
+body = 411
+
+[node.412]
+body = 412
+
+[node.413]
+body = 413
+
+[node.414]
+body = 414
+
+[node.415]
+body = 415
+
+[node.416]
+body = 416
+
+[node.417]
+body = 417
+
+[node.418]
+body = 418
+
+[node.419]
+body = 419
+
+[node.420]
+body = 420
+
+[node.421]
+body = 421
+
+[node.422]
+body = 422
+
+[node.423]
+body = 423
+
+[node.424]
+body = 424
+
+[node.425]
+body = 425
+
+[node.426]
+body = 426
+
+[node.427]
+body = 427
+
+[node.428]
+body = 428
+
+[node.429]
+body = 429
+
+[node.430]
+body = 430
+
+[node.431]
+body = 431
+
+[node.432]
+body = 432
+
+[node.433]
+body = 433
+
+[node.434]
+body = 434
+
+[node.435]
+body = 435
+
+[node.436]
+body = 436
+
+[node.437]
+body = 437
+
+[node.438]
+body = 438
+
+[node.439]
+body = 439
+
+[node.440]
+body = 440
+
+[node.441]
+body = 441
+
+[node.442]
+body = 442
+
+[node.443]
+body = 443
+
+[node.444]
+body = 444
+
+[node.445]
+body = 445
+
+[node.446]
+body = 446
+
+[node.447]
+body = 447
+
+[node.448]
+body = 448
+
+[node.449]
+body = 449
+
+[node.450]
+body = 450
+
+[node.451]
+body = 451
+
+[node.452]
+body = 452
+
+[node.453]
+body = 453
+
+[node.454]
+body = 454
+
+[node.455]
+body = 455
+
+[node.456]
+body = 456
+
+[node.457]
+body = 457
+
+[node.458]
+body = 458
+
+[node.459]
+body = 459
+
+[node.460]
+body = 460
+
+[node.461]
+body = 461
+
+[node.462]
+body = 462
+
+[node.463]
+body = 463
+
+[node.464]
+body = 464
+
+[node.465]
+body = 465
+
+[node.466]
+body = 466
+
+[node.467]
+body = 467
+
+[node.468]
+body = 468
+
+[node.469]
+body = 469
+
+[node.470]
+body = 470
+
+[node.471]
+body = 471
+
+[node.472]
+body = 472
+
+[node.473]
+body = 473
+
+[node.474]
+body = 474
+
+[node.475]
+body = 475
+
+[node.476]
+body = 476
+
+[node.477]
+body = 477
+
+[node.478]
+body = 478
+
+[node.479]
+body = 479
+
+[node.480]
+body = 480
+
+[node.481]
+body = 481
+
+[node.482]
+body = 482
+
+[node.483]
+body = 483
+
+[node.484]
+body = 484
+
+[node.485]
+body = 485
+
+[node.486]
+body = 486
+
+[node.487]
+body = 487
+
+[node.488]
+body = 488
+
+[node.489]
+body = 489
+
+[node.490]
+body = 490
+
+[node.491]
+body = 491
+
+[node.492]
+body = 492
+
+[node.493]
+body = 493
+
+[node.494]
+body = 494
+
+[node.495]
+body = 495
+
+[node.496]
+body = 496
+
+[node.497]
+body = 497
+
+[node.498]
+body = 498
+
+[node.499]
+body = 499
+
+[node.500]
+body = 500
+
+[node.501]
+body = 501
+
+[node.502]
+body = 502
+
+[node.503]
+body = 503
+
+[node.504]
+body = 504
+
+[node.505]
+body = 505
+
+[node.506]
+body = 506
+
+[node.507]
+body = 507
+
+[node.508]
+body = 508
+
+[node.509]
+body = 509
+
+[node.510]
+body = 510
+
+[node.511]
+body = 511
+
+[node.512]
+body = 512
+
+[node.513]
+body = 513
+
+[node.514]
+body = 514
+
+[node.515]
+body = 515
+
+[node.516]
+body = 516
+
+[node.517]
+body = 517
+
+[node.518]
+body = 518
+
+[node.519]
+body = 519
+
+[node.520]
+body = 520
+
+[node.521]
+body = 521
+
+[node.522]
+body = 522
+
+[node.523]
+body = 523
+
+[node.524]
+body = 524
+
+[node.525]
+body = 525
+
+[node.526]
+body = 526
+
+[node.527]
+body = 527
+
+[node.528]
+body = 528
+
+[node.529]
+body = 529
+
+[node.530]
+body = 530
+
+[node.531]
+body = 531
+
+[node.532]
+body = 532
+
+[node.533]
+body = 533
+
+[node.534]
+body = 534
+
+[node.535]
+body = 535
+
+[node.536]
+body = 536
+
+[node.537]
+body = 537
+
+[node.538]
+body = 538
+
+[node.539]
+body = 539
+
+[node.540]
+body = 540
+
+[node.541]
+body = 541
+
+[node.542]
+body = 542
+
+[node.543]
+body = 543
+
+[node.544]
+body = 544
+
+[node.545]
+body = 545
+
+[node.546]
+body = 546
+
+[node.547]
+body = 547
+
+[node.548]
+body = 548
+
+[node.549]
+body = 549
+
+[node.550]
+body = 550
+
+[node.551]
+body = 551
+
+[node.552]
+body = 552
+
+[node.553]
+body = 553
+
+[node.554]
+body = 554
+
+[node.555]
+body = 555
+
+[node.556]
+body = 556
+
+[node.557]
+body = 557
+
+[node.558]
+body = 558
+
+[node.559]
+body = 559
+
+[node.560]
+body = 560
+
+[node.561]
+body = 561
+
+[node.562]
+body = 562
+
+[node.563]
+body = 563
+
+[node.564]
+body = 564
+
+[node.565]
+body = 565
+
+[node.566]
+body = 566
+
+[node.567]
+body = 567
+
+[node.568]
+body = 568
+
+[node.569]
+body = 569
+
+[node.570]
+body = 570
+
+[node.571]
+body = 571
+
+[node.572]
+body = 572
+
+[node.573]
+body = 573
+
+[node.574]
+body = 574
+
+[node.575]
+body = 575
+
+[node.576]
+body = 576
+
+[node.577]
+body = 577
+
+[node.578]
+body = 578
+
+[node.579]
+body = 579
+
+[node.580]
+body = 580
+
+[node.581]
+body = 581
+
+[node.582]
+body = 582
+
+[node.583]
+body = 583
+
+[node.584]
+body = 584
+
+[node.585]
+body = 585
+
+[node.586]
+body = 586
+
+[node.587]
+body = 587
+
+[node.588]
+body = 588
+
+[node.589]
+body = 589
+
+[node.590]
+body = 590
+
+[node.591]
+body = 591
+
+[node.592]
+body = 592
+
+[node.593]
+body = 593
+
+[node.594]
+body = 594
+
+[node.595]
+body = 595
+
+[node.596]
+body = 596
+
+[node.597]
+body = 597
+
+[node.598]
+body = 598
+
+[node.599]
+body = 599
+
+[node.600]
+body = 600
+
+[node.601]
+body = 601
+
+[node.602]
+body = 602
+
+[node.603]
+body = 603
+
+[node.604]
+body = 604
+
+[node.605]
+body = 605
+
+[node.606]
+body = 606
+
+[node.607]
+body = 607
+
+[node.608]
+body = 608
+
+[node.609]
+body = 609
+
+[node.610]
+body = 610
+
+[node.611]
+body = 611
+
+[node.612]
+body = 612
+
+[node.613]
+body = 613
+
+[node.614]
+body = 614
+
+[node.615]
+body = 615
+
+[node.616]
+body = 616
+
+[node.617]
+body = 617
+
+[node.618]
+body = 618
+
+[node.619]
+body = 619
+
+[node.620]
+body = 620
+
+[node.621]
+body = 621
+
+[node.622]
+body = 622
+
+[node.623]
+body = 623
+
+[node.624]
+body = 624
+
+[node.625]
+body = 625
+
+[node.626]
+body = 626
+
+[node.627]
+body = 627
+
+[node.628]
+body = 628
+
+[node.629]
+body = 629
+
+[node.630]
+body = 630
+
+[node.631]
+body = 631
+
+[node.632]
+body = 632
+
+[node.633]
+body = 633
+
+[node.634]
+body = 634
+
+[node.635]
+body = 635
+
+[node.636]
+body = 636
+
+[node.637]
+body = 637
+
+[node.638]
+body = 638
+
+[node.639]
+body = 639
+
+[node.640]
+body = 640
+
+[node.641]
+body = 641
+
+[node.642]
+body = 642
+
+[node.643]
+body = 643
+
+[node.644]
+body = 644
+
+[node.645]
+body = 645
+
+[node.646]
+body = 646
+
+[node.647]
+body = 647
+
+[node.648]
+body = 648
+
+[node.649]
+body = 649
+
+[node.650]
+body = 650
+
+[node.651]
+body = 651
+
+[node.652]
+body = 652
+
+[node.653]
+body = 653
+
+[node.654]
+body = 654
+
+[node.655]
+body = 655
+
+[node.656]
+body = 656
+
+[node.657]
+body = 657
+
+[node.658]
+body = 658
+
+[node.659]
+body = 659
+
+[node.660]
+body = 660
+
+[node.661]
+body = 661
+
+[node.662]
+body = 662
+
+[node.663]
+body = 663
+
+[node.664]
+body = 664
+
+[node.665]
+body = 665
+
+[node.666]
+body = 666
+
+[node.667]
+body = 667
+
+[node.668]
+body = 668
+
+[node.669]
+body = 669
+
+[node.670]
+body = 670
+
+[node.671]
+body = 671
+
+[node.672]
+body = 672
+
+[node.673]
+body = 673
+
+[node.674]
+body = 674
+
+[node.675]
+body = 675
+
+[node.676]
+body = 676
+
+[node.677]
+body = 677
+
+[node.678]
+body = 678
+
+[node.679]
+body = 679
+
+[node.680]
+body = 680
+
+[node.681]
+body = 681
+
+[node.682]
+body = 682
+
+[node.683]
+body = 683
+
+[node.684]
+body = 684
+
+[node.685]
+body = 685
+
+[node.686]
+body = 686
+
+[node.687]
+body = 687
+
+[node.688]
+body = 688
+
+[node.689]
+body = 689
+
+[node.690]
+body = 690
+
+[node.691]
+body = 691
+
+[node.692]
+body = 692
+
+[node.693]
+body = 693
+
+[node.694]
+body = 694
+
+[node.695]
+body = 695
+
+[node.696]
+body = 696
+
+[node.697]
+body = 697
+
+[node.698]
+body = 698
+
+[node.699]
+body = 699
+
+[node.700]
+body = 700
+
+[node.701]
+body = 701
+
+[node.702]
+body = 702
+
+[node.703]
+body = 703
+
+[node.704]
+body = 704
+
+[node.705]
+body = 705
+
+[node.706]
+body = 706
+
+[node.707]
+body = 707
+
+[node.708]
+body = 708
+
+[node.709]
+body = 709
+
+[node.710]
+body = 710
+
+[node.711]
+body = 711
+
+[node.712]
+body = 712
+
+[node.713]
+body = 713
+
+[node.714]
+body = 714
+
+[node.715]
+body = 715
+
+[node.716]
+body = 716
+
+[node.717]
+body = 717
+
+[node.718]
+body = 718
+
+[node.719]
+body = 719
+
+[node.720]
+body = 720
+
+[node.721]
+body = 721
+
+[node.722]
+body = 722
+
+[node.723]
+body = 723
+
+[node.724]
+body = 724
+
+[node.725]
+body = 725
+
+[node.726]
+body = 726
+
+[node.727]
+body = 727
+
+[node.728]
+body = 728
+
+[node.729]
+body = 729
+
+[node.730]
+body = 730
+
+[node.731]
+body = 731
+
+[node.732]
+body = 732
+
+[node.733]
+body = 733
+
+[node.734]
+body = 734
+
+[node.735]
+body = 735
+
+[node.736]
+body = 736
+
+[node.737]
+body = 737
+
+[node.738]
+body = 738
+
+[node.739]
+body = 739
+
+[node.740]
+body = 740
+
+[node.741]
+body = 741
+
+[node.742]
+body = 742
+
+[node.743]
+body = 743
+
+[node.744]
+body = 744
+
+[node.745]
+body = 745
+
+[node.746]
+body = 746
+
+[node.747]
+body = 747
+
+[node.748]
+body = 748
+
+[node.749]
+body = 749
+
+[node.750]
+body = 750
+
+[node.751]
+body = 751
+
+[node.752]
+body = 752
+
+[node.753]
+body = 753
+
+[node.754]
+body = 754
+
+[node.755]
+body = 755
+
+[node.756]
+body = 756
+
+[node.757]
+body = 757
+
+[node.758]
+body = 758
+
+[node.759]
+body = 759
+
+[node.760]
+body = 760
+
+[node.761]
+body = 761
+
+[node.762]
+body = 762
+
+[node.763]
+body = 763
+
+[node.764]
+body = 764
+
+[node.765]
+body = 765
+
+[node.766]
+body = 766
+
+[node.767]
+body = 767
+
+[node.768]
+body = 768
+
+[node.769]
+body = 769
+
+[node.770]
+body = 770
+
+[node.771]
+body = 771
+
+[node.772]
+body = 772
+
+[node.773]
+body = 773
+
+[node.774]
+body = 774
+
+[node.775]
+body = 775
+
+[node.776]
+body = 776
+
+[node.777]
+body = 777
+
+[node.778]
+body = 778
+
+[node.779]
+body = 779
+
+[node.780]
+body = 780
+
+[node.781]
+body = 781
+
+[node.782]
+body = 782
+
+[node.783]
+body = 783
+
+[node.784]
+body = 784
+
+[node.785]
+body = 785
+
+[node.786]
+body = 786
+
+[node.787]
+body = 787
+
+[node.788]
+body = 788
+
+[node.789]
+body = 789
+
+[node.790]
+body = 790
+
+[node.791]
+body = 791
+
+[node.792]
+body = 792
+
+[node.793]
+body = 793
+
+[node.794]
+body = 794
+
+[node.795]
+body = 795
+
+[node.796]
+body = 796
+
+[node.797]
+body = 797
+
+[node.798]
+body = 798
+
+[node.799]
+body = 799
+
+[node.800]
+body = 800
+
+[node.801]
+body = 801
+
+[node.802]
+body = 802
+
+[node.803]
+body = 803
+
+[node.804]
+body = 804
+
+[node.805]
+body = 805
+
+[node.806]
+body = 806
+
+[node.807]
+body = 807
+
+[node.808]
+body = 808
+
+[node.809]
+body = 809
+
+[node.810]
+body = 810
+
+[node.811]
+body = 811
+
+[node.812]
+body = 812
+
+[node.813]
+body = 813
+
+[node.814]
+body = 814
+
+[node.815]
+body = 815
+
+[node.816]
+body = 816
+
+[node.817]
+body = 817
+
+[node.818]
+body = 818
+
+[node.819]
+body = 819
+
+[node.820]
+body = 820
+
+[node.821]
+body = 821
+
+[node.822]
+body = 822
+
+[node.823]
+body = 823
+
+[node.824]
+body = 824
+
+[node.825]
+body = 825
+
+[node.826]
+body = 826
+
+[node.827]
+body = 827
+
+[node.828]
+body = 828
+
+[node.829]
+body = 829
+
+[node.830]
+body = 830
+
+[node.831]
+body = 831
+
+[node.832]
+body = 832
+
+[node.833]
+body = 833
+
+[node.834]
+body = 834
+
+[node.835]
+body = 835
+
+[node.836]
+body = 836
+
+[node.837]
+body = 837
+
+[node.838]
+body = 838
+
+[node.839]
+body = 839
+
+[node.840]
+body = 840
+
+[node.841]
+body = 841
+
+[node.842]
+body = 842
+
+[node.843]
+body = 843
+
+[node.844]
+body = 844
+
+[node.845]
+body = 845
+
+[node.846]
+body = 846
+
+[node.847]
+body = 847
+
+[node.848]
+body = 848
+
+[node.849]
+body = 849
+
+[node.850]
+body = 850
+
+[node.851]
+body = 851
+
+[node.852]
+body = 852
+
+[node.853]
+body = 853
+
+[node.854]
+body = 854
+
+[node.855]
+body = 855
+
+[node.856]
+body = 856
+
+[node.857]
+body = 857
+
+[node.858]
+body = 858
+
+[node.859]
+body = 859
+
+[node.860]
+body = 860
+
+[node.861]
+body = 861
+
+[node.862]
+body = 862
+
+[node.863]
+body = 863
+
+[node.864]
+body = 864
+
+[node.865]
+body = 865
+
+[node.866]
+body = 866
+
+[node.867]
+body = 867
+
+[node.868]
+body = 868
+
+[node.869]
+body = 869
+
+[node.870]
+body = 870
+
+[node.871]
+body = 871
+
+[node.872]
+body = 872
+
+[node.873]
+body = 873
+
+[node.874]
+body = 874
+
+[node.875]
+body = 875
+
+[node.876]
+body = 876
+
+[node.877]
+body = 877
+
+[node.878]
+body = 878
+
+[node.879]
+body = 879
+
+[node.880]
+body = 880
+
+[node.881]
+body = 881
+
+[node.882]
+body = 882
+
+[node.883]
+body = 883
+
+[node.884]
+body = 884
+
+[node.885]
+body = 885
+
+[node.886]
+body = 886
+
+[node.887]
+body = 887
+
+[node.888]
+body = 888
+
+[node.889]
+body = 889
+
+[node.890]
+body = 890
+
+[node.891]
+body = 891
+
+[node.892]
+body = 892
+
+[node.893]
+body = 893
+
+[node.894]
+body = 894
+
+[node.895]
+body = 895
+
+[node.896]
+body = 896
+
+[node.897]
+body = 897
+
+[node.898]
+body = 898
+
+[node.899]
+body = 899
+
+[node.900]
+body = 900
+
+[node.901]
+body = 901
+
+[node.902]
+body = 902
+
+[node.903]
+body = 903
+
+[node.904]
+body = 904
+
+[node.905]
+body = 905
+
+[node.906]
+body = 906
+
+[body.ambulance]
+texture = ambulanc.bmp.png
+model = ambulance.joe
+
+[node.ambulance]
+body = ambulance
+position = 116.7, -587.7, 42.5
+rotation = 0, 0, 45
