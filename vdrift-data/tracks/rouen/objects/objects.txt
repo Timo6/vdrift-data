@@ -5379,6 +5379,160 @@ skybox = true
 collidable = false
 surface = 1
 
+[body.907]
+model = shadhut01.dof-00.joe
+texture = black.bmp.png
+transparent = 1
+isashadow = true
+collidable = false
+
+[body.908]
+model = shadhut02.dof-00.joe
+texture = black.bmp.png
+transparent = 1
+isashadow = true
+collidable = false
+
+[body.909]
+model = shadhut03.dof-00.joe
+texture = black.bmp.png
+transparent = 1
+isashadow = true
+collidable = false
+
+[body.910]
+model = shadhut04.dof-00.joe
+texture = black.bmp.png
+transparent = 1
+isashadow = true
+collidable = false
+
+[body.911]
+model = shadhut05.dof-00.joe
+texture = black.bmp.png
+transparent = 1
+isashadow = true
+collidable = false
+
+[body.912]
+model = shadhut06.dof-00.joe
+texture = black.bmp.png
+transparent = 1
+isashadow = true
+collidable = false
+
+[body.913]
+model = shadpitb.dof-00.joe
+texture = black.bmp.png
+transparent = 1
+isashadow = true
+collidable = false
+
+[body.914]
+model = shadtree01.dof-00.joe
+texture = shadtreeb.tga.png
+transparent = 1
+isashadow = true
+collidable = false
+
+[body.915]
+model = shadtree01.dof-01.joe
+texture = shadtreew.tga.png
+transparent = 1
+isashadow = true
+collidable = false
+
+[body.916]
+model = shadtree02.dof-00.joe
+texture = shadtreeb.tga.png
+transparent = 1
+isashadow = true
+collidable = false
+
+[body.917]
+model = shadtree02.dof-01.joe
+texture = shadtreew.tga.png
+transparent = 1
+isashadow = true
+collidable = false
+
+[body.918]
+model = shadtree03.dof-00.joe
+texture = shadtreeb.tga.png
+transparent = 1
+isashadow = true
+collidable = false
+
+[body.919]
+model = shadtree03.dof-01.joe
+texture = shadtreew.tga.png
+transparent = 1
+isashadow = true
+collidable = false
+
+[body.920]
+model = shadtree04.dof-00.joe
+texture = shadtreeb.tga.png
+transparent = 1
+isashadow = true
+collidable = false
+
+[body.921]
+model = shadtree04.dof-01.joe
+texture = shadtreew.tga.png
+transparent = 1
+isashadow = true
+collidable = false
+
+[body.922]
+model = shadtree05.dof-00.joe
+texture = shadtreeb.tga.png
+transparent = 1
+isashadow = true
+collidable = false
+
+[body.923]
+model = shadtree05.dof-01.joe
+texture = shadtreew.tga.png
+transparent = 1
+isashadow = true
+collidable = false
+
+[body.924]
+model = shadtree06.dof-00.joe
+texture = shadtreeb.tga.png
+transparent = 1
+isashadow = true
+collidable = false
+
+[body.925]
+model = shadtree06.dof-01.joe
+texture = shadtreew.tga.png
+transparent = 1
+isashadow = true
+collidable = false
+
+[body.926]
+model = shadtree07.dof-00.joe
+texture = shadtreew.tga.png
+transparent = 1
+isashadow = true
+collidable = false
+
+[body.927]
+model = shadtree07.dof-01.joe
+texture = shadtreeb.tga.png
+transparent = 1
+isashadow = true
+collidable = false
+
+[body.928]
+model = shadtt.dof-00.joe
+texture = black.bmp.png
+transparent = 1
+isashadow = true
+collidable = false
+
 [node.0]
 body = 0
 
@@ -8099,6 +8253,72 @@ body = 905
 
 [node.906]
 body = 906
+
+[node.907]
+body = 907
+
+[node.908]
+body = 908
+
+[node.909]
+body = 909
+
+[node.910]
+body = 910
+
+[node.911]
+body = 911
+
+[node.912]
+body = 912
+
+[node.913]
+body = 913
+
+[node.914]
+body = 914
+
+[node.915]
+body = 915
+
+[node.916]
+body = 916
+
+[node.917]
+body = 917
+
+[node.918]
+body = 918
+
+[node.919]
+body = 919
+
+[node.920]
+body = 920
+
+[node.921]
+body = 921
+
+[node.922]
+body = 922
+
+[node.923]
+body = 923
+
+[node.924]
+body = 924
+
+[node.925]
+body = 925
+
+[node.926]
+body = 926
+
+[node.927]
+body = 927
+
+[node.928]
+body = 928
 
 [body.ambulance]
 texture = ambulanc.bmp.png
