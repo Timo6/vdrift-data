@@ -2,25 +2,21 @@
 model = ambula01.dof-00.joe
 texture = ambulanc.bmp.png
 collidable = false
-surface = 1
 
 [body.1]
 model = ambula02.dof-00.joe
 texture = ambulanc.bmp.png
 collidable = false
-surface = 1
 
 [body.2]
 model = ambula05.dof-00.joe
 texture = ambulanc.bmp.png
 collidable = false
-surface = 1
 
 [body.3]
 model = ambula06.dof-00.joe
 texture = ambulanc.bmp.png
 collidable = false
-surface = 1
 
 [body.4]
 model = bell.dof-00.joe
@@ -296,733 +292,611 @@ surface = 1
 model = car01.dof-00.joe
 texture = ds1902.bmp.png
 collidable = false
-surface = 1
 
 [body.59]
 model = car01.dof-01.joe
 texture = 2cv02.bmp.png
 collidable = false
-surface = 1
 
 [body.60]
 model = car01.dof-02.joe
 texture = bus02.bmp.png
 collidable = false
-surface = 1
 
 [body.61]
 model = car01.dof-03.joe
 texture = golf02.bmp.png
 collidable = false
-surface = 1
 
 [body.62]
 model = car01.dof-04.joe
 texture = 2cv01.bmp.png
 collidable = false
-surface = 1
 
 [body.63]
 model = car01.dof-05.joe
 texture = bus01.bmp.png
 collidable = false
-surface = 1
 
 [body.64]
 model = car02.dof-00.joe
 texture = fiat01.bmp.png
 collidable = false
-surface = 1
 
 [body.65]
 model = car02.dof-01.joe
 texture = golf02.bmp.png
 collidable = false
-surface = 1
 
 [body.66]
 model = car02.dof-02.joe
 texture = bus01.bmp.png
 collidable = false
-surface = 1
 
 [body.67]
 model = car02.dof-03.joe
 texture = 2cv02.bmp.png
 collidable = false
-surface = 1
 
 [body.68]
 model = car02.dof-04.joe
 texture = fiat01.bmp.png
 collidable = false
-surface = 1
 
 [body.69]
 model = car03.dof-00.joe
 texture = bus02.bmp.png
 collidable = false
-surface = 1
 
 [body.70]
 model = car04.dof-00.joe
 texture = 2cv02.bmp.png
 collidable = false
-surface = 1
 
 [body.71]
 model = car05.dof-00.joe
 texture = ds1902.bmp.png
 collidable = false
-surface = 1
 
 [body.72]
 model = car05.dof-01.joe
 texture = bus01.bmp.png
 collidable = false
-surface = 1
 
 [body.73]
 model = car05.dof-02.joe
 texture = 2cv01.bmp.png
 collidable = false
-surface = 1
 
 [body.74]
 model = car05.dof-03.joe
 texture = fiat01.bmp.png
 collidable = false
-surface = 1
 
 [body.75]
 model = car05.dof-04.joe
 texture = bus01.bmp.png
 collidable = false
-surface = 1
 
 [body.76]
 model = car06.dof-00.joe
 texture = fiat02.bmp.png
 collidable = false
-surface = 1
 
 [body.77]
 model = car06.dof-01.joe
 texture = fiat01.bmp.png
 collidable = false
-surface = 1
 
 [body.78]
 model = car06.dof-02.joe
 texture = ds1901.bmp.png
 collidable = false
-surface = 1
 
 [body.79]
 model = car06.dof-03.joe
 texture = bus01.bmp.png
 collidable = false
-surface = 1
 
 [body.80]
 model = car06.dof-04.joe
 texture = 2cv02.bmp.png
 collidable = false
-surface = 1
 
 [body.81]
 model = car07.dof-00.joe
 texture = 2cv02.bmp.png
 collidable = false
-surface = 1
 
 [body.82]
 model = car07.dof-01.joe
 texture = bus01.bmp.png
 collidable = false
-surface = 1
 
 [body.83]
 model = car07.dof-02.joe
 texture = golf01.bmp.png
 collidable = false
-surface = 1
 
 [body.84]
 model = car07.dof-03.joe
 texture = golf02.bmp.png
 collidable = false
-surface = 1
 
 [body.85]
 model = car07.dof-04.joe
 texture = fiat02.bmp.png
 collidable = false
-surface = 1
 
 [body.86]
 model = car08.dof-00.joe
 texture = 2cv02.bmp.png
 collidable = false
-surface = 1
 
 [body.87]
 model = car08.dof-01.joe
 texture = bus01.bmp.png
 collidable = false
-surface = 1
 
 [body.88]
 model = car08.dof-02.joe
 texture = fiat01.bmp.png
 collidable = false
-surface = 1
 
 [body.89]
 model = car08.dof-03.joe
 texture = ds1901.bmp.png
 collidable = false
-surface = 1
 
 [body.90]
 model = car08.dof-04.joe
 texture = golf01.bmp.png
 collidable = false
-surface = 1
 
 [body.91]
 model = car09.dof-00.joe
 texture = fiat01.bmp.png
 collidable = false
-surface = 1
 
 [body.92]
 model = car09.dof-01.joe
 texture = ds1902.bmp.png
 collidable = false
-surface = 1
 
 [body.93]
 model = car09.dof-02.joe
 texture = 2cv01.bmp.png
 collidable = false
-surface = 1
 
 [body.94]
 model = car09.dof-03.joe
 texture = 2cv01.bmp.png
 collidable = false
-surface = 1
 
 [body.95]
 model = car09.dof-04.joe
 texture = bus02.bmp.png
 collidable = false
-surface = 1
 
 [body.96]
 model = car10.dof-00.joe
 texture = fiat02.bmp.png
 collidable = false
-surface = 1
 
 [body.97]
 model = car10.dof-01.joe
 texture = golf02.bmp.png
 collidable = false
-surface = 1
 
 [body.98]
 model = car10.dof-02.joe
 texture = fiat02.bmp.png
 collidable = false
-surface = 1
 
 [body.99]
 model = car10.dof-03.joe
 texture = ds1902.bmp.png
 collidable = false
-surface = 1
 
 [body.100]
 model = car10.dof-04.joe
 texture = 2cv02.bmp.png
 collidable = false
-surface = 1
 
 [body.101]
 model = car10.dof-05.joe
 texture = bus02.bmp.png
 collidable = false
-surface = 1
 
 [body.102]
 model = car11.dof-00.joe
 texture = bus01.bmp.png
 collidable = false
-surface = 1
 
 [body.103]
 model = car11.dof-01.joe
 texture = 2cv02.bmp.png
 collidable = false
-surface = 1
 
 [body.104]
 model = car11.dof-02.joe
 texture = fiat02.bmp.png
 collidable = false
-surface = 1
 
 [body.105]
 model = car11.dof-03.joe
 texture = fiat01.bmp.png
 collidable = false
-surface = 1
 
 [body.106]
 model = car11.dof-04.joe
 texture = bus02.bmp.png
 collidable = false
-surface = 1
 
 [body.107]
 model = car12.dof-00.joe
 texture = ds1901.bmp.png
 collidable = false
-surface = 1
 
 [body.108]
 model = car12.dof-01.joe
 texture = golf01.bmp.png
 collidable = false
-surface = 1
 
 [body.109]
 model = car12.dof-02.joe
 texture = 2cv01.bmp.png
 collidable = false
-surface = 1
 
 [body.110]
 model = car12.dof-03.joe
 texture = bus02.bmp.png
 collidable = false
-surface = 1
 
 [body.111]
 model = car12.dof-04.joe
 texture = golf02.bmp.png
 collidable = false
-surface = 1
 
 [body.112]
 model = car13.dof-00.joe
 texture = fiat02.bmp.png
 collidable = false
-surface = 1
 
 [body.113]
 model = car13.dof-01.joe
 texture = ds1902.bmp.png
 collidable = false
-surface = 1
 
 [body.114]
 model = car13.dof-02.joe
 texture = 2cv01.bmp.png
 collidable = false
-surface = 1
 
 [body.115]
 model = car13.dof-03.joe
 texture = bus02.bmp.png
 collidable = false
-surface = 1
 
 [body.116]
 model = car13.dof-04.joe
 texture = fiat02.bmp.png
 collidable = false
-surface = 1
 
 [body.117]
 model = car14.dof-00.joe
 texture = golf01.bmp.png
 collidable = false
-surface = 1
 
 [body.118]
 model = car14.dof-01.joe
 texture = bus02.bmp.png
 collidable = false
-surface = 1
 
 [body.119]
 model = car14.dof-02.joe
 texture = 2cv02.bmp.png
 collidable = false
-surface = 1
 
 [body.120]
 model = car14.dof-03.joe
 texture = ds1902.bmp.png
 collidable = false
-surface = 1
 
 [body.121]
 model = car14.dof-04.joe
 texture = fiat02.bmp.png
 collidable = false
-surface = 1
 
 [body.122]
 model = car15.dof-00.joe
 texture = ds1901.bmp.png
 collidable = false
-surface = 1
 
 [body.123]
 model = car15.dof-01.joe
 texture = golf01.bmp.png
 collidable = false
-surface = 1
 
 [body.124]
 model = car15.dof-02.joe
 texture = fiat01.bmp.png
 collidable = false
-surface = 1
 
 [body.125]
 model = car15.dof-03.joe
 texture = 2cv01.bmp.png
 collidable = false
-surface = 1
 
 [body.126]
 model = car15.dof-04.joe
 texture = bus01.bmp.png
 collidable = false
-surface = 1
 
 [body.127]
 model = car15.dof-05.joe
 texture = 2cv02.bmp.png
 collidable = false
-surface = 1
 
 [body.128]
 model = car16.dof-00.joe
 texture = ds1901.bmp.png
 collidable = false
-surface = 1
 
 [body.129]
 model = car16.dof-01.joe
 texture = fiat01.bmp.png
 collidable = false
-surface = 1
 
 [body.130]
 model = car16.dof-02.joe
 texture = fiat02.bmp.png
 collidable = false
-surface = 1
 
 [body.131]
 model = car16.dof-03.joe
 texture = bus02.bmp.png
 collidable = false
-surface = 1
 
 [body.132]
 model = car16.dof-04.joe
 texture = 2cv02.bmp.png
 collidable = false
-surface = 1
 
 [body.133]
 model = car17.dof-00.joe
 texture = ds1902.bmp.png
 collidable = false
-surface = 1
 
 [body.134]
 model = car17.dof-01.joe
 texture = fiat02.bmp.png
 collidable = false
-surface = 1
 
 [body.135]
 model = car17.dof-02.joe
 texture = golf02.bmp.png
 collidable = false
-surface = 1
 
 [body.136]
 model = car17.dof-03.joe
 texture = fiat02.bmp.png
 collidable = false
-surface = 1
 
 [body.137]
 model = car17.dof-04.joe
 texture = bus02.bmp.png
 collidable = false
-surface = 1
 
 [body.138]
 model = car18.dof-00.joe
 texture = 2cv01.bmp.png
 collidable = false
-surface = 1
 
 [body.139]
 model = car18.dof-01.joe
 texture = 2cv01.bmp.png
 collidable = false
-surface = 1
 
 [body.140]
 model = car18.dof-02.joe
 texture = ds1902.bmp.png
 collidable = false
-surface = 1
 
 [body.141]
 model = car18.dof-03.joe
 texture = fiat01.bmp.png
 collidable = false
-surface = 1
 
 [body.142]
 model = car18.dof-04.joe
 texture = golf01.bmp.png
 collidable = false
-surface = 1
 
 [body.143]
 model = car19.dof-00.joe
 texture = ds1901.bmp.png
 collidable = false
-surface = 1
 
 [body.144]
 model = car19.dof-01.joe
 texture = fiat01.bmp.png
 collidable = false
-surface = 1
 
 [body.145]
 model = car19.dof-02.joe
 texture = bus01.bmp.png
 collidable = false
-surface = 1
 
 [body.146]
 model = car19.dof-03.joe
 texture = 2cv02.bmp.png
 collidable = false
-surface = 1
 
 [body.147]
 model = car19.dof-04.joe
 texture = fiat02.bmp.png
 collidable = false
-surface = 1
 
 [body.148]
 model = car20.dof-00.joe
 texture = golf02.bmp.png
 collidable = false
-surface = 1
 
 [body.149]
 model = car20.dof-01.joe
 texture = golf01.bmp.png
 collidable = false
-surface = 1
 
 [body.150]
 model = car20.dof-02.joe
 texture = bus01.bmp.png
 collidable = false
-surface = 1
 
 [body.151]
 model = car20.dof-03.joe
 texture = 2cv02.bmp.png
 collidable = false
-surface = 1
 
 [body.152]
 model = car20.dof-04.joe
 texture = 2cv02.bmp.png
 collidable = false
-surface = 1
 
 [body.153]
 model = car20.dof-05.joe
 texture = bus01.bmp.png
 collidable = false
-surface = 1
 
 [body.154]
 model = car21.dof-00.joe
 texture = bus01.bmp.png
 collidable = false
-surface = 1
 
 [body.155]
 model = car21.dof-01.joe
 texture = 2cv02.bmp.png
 collidable = false
-surface = 1
 
 [body.156]
 model = car21.dof-02.joe
 texture = bus01.bmp.png
 collidable = false
-surface = 1
 
 [body.157]
 model = car21.dof-03.joe
 texture = 2cv02.bmp.png
 collidable = false
-surface = 1
 
 [body.158]
 model = car21.dof-04.joe
 texture = fiat02.bmp.png
 collidable = false
-surface = 1
 
 [body.159]
 model = car22.dof-00.joe
 texture = fiat01.bmp.png
 collidable = false
-surface = 1
 
 [body.160]
 model = car22.dof-01.joe
 texture = bus02.bmp.png
 collidable = false
-surface = 1
 
 [body.161]
 model = car22.dof-02.joe
 texture = ds1901.bmp.png
 collidable = false
-surface = 1
 
 [body.162]
 model = car22.dof-03.joe
 texture = golf01.bmp.png
 collidable = false
-surface = 1
 
 [body.163]
 model = car22.dof-04.joe
 texture = 2cv01.bmp.png
 collidable = false
-surface = 1
 
 [body.164]
 model = car23.dof-00.joe
 texture = bus02.bmp.png
 collidable = false
-surface = 1
 
 [body.165]
 model = car23.dof-01.joe
 texture = golf02.bmp.png
 collidable = false
-surface = 1
 
 [body.166]
 model = car23.dof-02.joe
 texture = fiat02.bmp.png
 collidable = false
-surface = 1
 
 [body.167]
 model = car23.dof-03.joe
 texture = ds1902.bmp.png
 collidable = false
-surface = 1
 
 [body.168]
 model = car23.dof-04.joe
 texture = 2cv01.bmp.png
 collidable = false
-surface = 1
 
 [body.169]
 model = car24.dof-00.joe
 texture = bus02.bmp.png
 collidable = false
-surface = 1
 
 [body.170]
 model = car24.dof-01.joe
 texture = fiat02.bmp.png
 collidable = false
-surface = 1
 
 [body.171]
 model = car24.dof-02.joe
 texture = golf01.bmp.png
 collidable = false
-surface = 1
 
 [body.172]
 model = car24.dof-03.joe
 texture = bus02.bmp.png
 collidable = false
-surface = 1
 
 [body.173]
 model = car24.dof-04.joe
 texture = 2cv02.bmp.png
 collidable = false
-surface = 1
 
 [body.174]
 model = car25.dof-00.joe
 texture = ds1902.bmp.png
 collidable = false
-surface = 1
 
 [body.175]
 model = car25.dof-01.joe
 texture = fiat02.bmp.png
 collidable = false
-surface = 1
 
 [body.176]
 model = car25.dof-02.joe
 texture = ds1901.bmp.png
 collidable = false
-surface = 1
 
 [body.177]
 model = car25.dof-03.joe
 texture = golf01.bmp.png
 collidable = false
-surface = 1
 
 [body.178]
 model = car25.dof-04.joe
 texture = fiat01.bmp.png
 collidable = false
-surface = 1
 
 [body.179]
 model = car25.dof-05.joe
 texture = 2cv01.bmp.png
 collidable = false
-surface = 1
 
 [body.180]
 model = clouds.dof-00.joe
@@ -1030,7 +904,6 @@ texture = skygrade.bmp.png
 nolighting = true
 skybox = true
 collidable = false
-surface = 1
 
 [body.181]
 model = crowd01.dof-00.joe
@@ -1038,7 +911,6 @@ texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.182]
 model = crowd01.dof-01.joe
@@ -1046,7 +918,6 @@ texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.183]
 model = crowd02.dof-00.joe
@@ -1054,7 +925,6 @@ texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.184]
 model = crowd02.dof-01.joe
@@ -1062,7 +932,6 @@ texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.185]
 model = crowd03.dof-00.joe
@@ -1070,7 +939,6 @@ texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.186]
 model = crowd04.dof-00.joe
@@ -1078,7 +946,6 @@ texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.187]
 model = crowd05.dof-00.joe
@@ -1086,7 +953,6 @@ texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.188]
 model = crowd06.dof-00.joe
@@ -1094,7 +960,6 @@ texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.189]
 model = crowd06.dof-01.joe
@@ -1102,7 +967,6 @@ texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.190]
 model = crowd07.dof-00.joe
@@ -1110,7 +974,6 @@ texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.191]
 model = crowd07.dof-01.joe
@@ -1118,7 +981,6 @@ texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.192]
 model = crowd08.dof-00.joe
@@ -1126,7 +988,6 @@ texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.193]
 model = crowd08.dof-01.joe
@@ -1134,7 +995,6 @@ texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.194]
 model = crowd09.dof-00.joe
@@ -1142,7 +1002,6 @@ texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.195]
 model = crowd09.dof-01.joe
@@ -1150,7 +1009,6 @@ texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.196]
 model = crowd10.dof-00.joe
@@ -1158,7 +1016,6 @@ texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.197]
 model = crowd10.dof-01.joe
@@ -1166,7 +1023,6 @@ texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.198]
 model = crowd11.dof-00.joe
@@ -1174,7 +1030,6 @@ texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.199]
 model = crowd11.dof-01.joe
@@ -1182,7 +1037,6 @@ texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.200]
 model = crowd12.dof-00.joe
@@ -1190,7 +1044,6 @@ texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.201]
 model = crowd12.dof-01.joe
@@ -1198,7 +1051,6 @@ texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.202]
 model = crowd13.dof-00.joe
@@ -1206,7 +1058,6 @@ texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.203]
 model = crowd13.dof-01.joe
@@ -1214,7 +1065,6 @@ texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.204]
 model = crowd14.dof-00.joe
@@ -1222,7 +1072,6 @@ texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.205]
 model = crowd14.dof-01.joe
@@ -1230,7 +1079,6 @@ texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.206]
 model = crowd15.dof-00.joe
@@ -1238,7 +1086,6 @@ texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.207]
 model = crowd15.dof-01.joe
@@ -1246,7 +1093,6 @@ texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.208]
 model = crowd16.dof-00.joe
@@ -1254,7 +1100,6 @@ texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.209]
 model = crowd16.dof-01.joe
@@ -1262,7 +1107,6 @@ texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.210]
 model = crowd17.dof-00.joe
@@ -1270,7 +1114,6 @@ texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.211]
 model = crowd17.dof-01.joe
@@ -1278,7 +1121,6 @@ texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.212]
 model = crowd18.dof-00.joe
@@ -1286,7 +1128,6 @@ texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.213]
 model = crowd18.dof-01.joe
@@ -1294,7 +1135,6 @@ texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.214]
 model = crowd19.dof-00.joe
@@ -1302,7 +1142,6 @@ texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.215]
 model = crowd19.dof-01.joe
@@ -1310,7 +1149,6 @@ texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.216]
 model = crowd20.dof-00.joe
@@ -1318,7 +1156,6 @@ texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.217]
 model = crowd20.dof-01.joe
@@ -1326,7 +1163,6 @@ texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.218]
 model = crowd21.dof-00.joe
@@ -1334,7 +1170,6 @@ texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.219]
 model = crowd21.dof-01.joe
@@ -1342,7 +1177,6 @@ texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.220]
 model = crowd22.dof-00.joe
@@ -1350,7 +1184,6 @@ texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.221]
 model = crowd22.dof-01.joe
@@ -1358,7 +1191,6 @@ texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.222]
 model = crowd23.dof-00.joe
@@ -1366,7 +1198,6 @@ texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.223]
 model = crowd23.dof-01.joe
@@ -1374,7 +1205,6 @@ texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.224]
 model = crowd24.dof-00.joe
@@ -1382,7 +1212,6 @@ texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.225]
 model = crowd24.dof-01.joe
@@ -1390,7 +1219,6 @@ texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.226]
 model = crowd25.dof-00.joe
@@ -1398,7 +1226,6 @@ texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.227]
 model = crowd25.dof-01.joe
@@ -1406,7 +1233,6 @@ texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 collidable = false
-surface = 1
 
 [body.228]
 model = cwallogo01.dof-00.joe
@@ -2526,73 +2352,73 @@ surface = 1
 [body.450]
 model = logo01.dof-00.joe
 texture = banner02.bmp.png
-transparent = 1
+alphablend = true
 surface = 1
 
 [body.451]
 model = logo02.dof-00.joe
 texture = banner01.bmp.png
-transparent = 1
+alphablend = true
 surface = 1
 
 [body.452]
 model = logo03.dof-00.joe
 texture = banner04.bmp.png
-transparent = 1
+alphablend = true
 surface = 1
 
 [body.453]
 model = logo04.dof-00.joe
 texture = banner02.bmp.png
-transparent = 1
+alphablend = true
 surface = 1
 
 [body.454]
 model = logo05.dof-00.joe
 texture = lobp1.bmp.png
-transparent = 1
+alphablend = true
 surface = 1
 
 [body.455]
 model = logo06.dof-00.joe
 texture = banner01.bmp.png
-transparent = 1
+alphablend = true
 surface = 1
 
 [body.456]
 model = logo07.dof-00.joe
 texture = banner02.bmp.png
-transparent = 1
+alphablend = true
 surface = 1
 
 [body.457]
 model = logo08.dof-00.joe
 texture = lobp1.bmp.png
-transparent = 1
+alphablend = true
 surface = 1
 
 [body.458]
 model = logo09.dof-00.joe
 texture = banner04.bmp.png
-transparent = 1
+alphablend = true
 surface = 1
 
 [body.459]
 model = logo10.dof-00.joe
 texture = banner02.bmp.png
-transparent = 1
+alphablend = true
 surface = 1
 
 [body.460]
 model = logo11.dof-00.joe
 texture = bpl2.bmp.png
-transparent = 1
+alphablend = true
 surface = 1
 
 [body.461]
 model = logo12.dof-00.joe
 texture = bpl2.bmp.png
-transparent = 1
+alphablend = true
 surface = 1
 
 [body.462]
@@ -2611,7 +2437,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.465]
 model = lptreeaa142.dof-00.joe
@@ -2619,7 +2444,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.466]
 model = lptreeaa143.dof-00.joe
@@ -2627,7 +2451,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.467]
 model = lptreeaa144.dof-00.joe
@@ -2635,7 +2458,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.468]
 model = lptreeba137.dof-00.joe
@@ -2643,7 +2465,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.469]
 model = lptreeba138.dof-00.joe
@@ -2651,7 +2472,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.470]
 model = lptreeba139.dof-00.joe
@@ -2659,7 +2479,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.471]
 model = lptreebb01.dof-00.joe
@@ -2667,7 +2486,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.472]
 model = lptreeca137.dof-00.joe
@@ -2675,7 +2493,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.473]
 model = lptreeca138.dof-00.joe
@@ -2683,7 +2500,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.474]
 model = lptreeca139.dof-00.joe
@@ -2691,7 +2507,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.475]
 model = lptreecb11.dof-00.joe
@@ -2699,7 +2514,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.476]
 model = lptreeda113.dof-00.joe
@@ -2707,7 +2521,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.477]
 model = lptreeda114.dof-00.joe
@@ -2715,7 +2528,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.478]
 model = lptreeda115.dof-00.joe
@@ -2723,7 +2535,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.479]
 model = lptreedb01.dof-00.joe
@@ -2731,7 +2542,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.480]
 model = lptreedb12.dof-00.joe
@@ -2739,7 +2549,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.481]
 model = lptreeea74.dof-00.joe
@@ -2747,7 +2556,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.482]
 model = lptreeea75.dof-00.joe
@@ -2755,7 +2563,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.483]
 model = lptreeea76.dof-00.joe
@@ -2763,7 +2570,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.484]
 model = lptreeeb27.dof-00.joe
@@ -2771,93 +2577,79 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.485]
 model = mack01.dof-00.joe
 texture = mack01.bmp.png
 collidable = false
-surface = 1
 
 [body.486]
 model = mack01.dof-01.joe
 texture = mack02.bmp.png
 collidable = false
-surface = 1
 
 [body.487]
 model = mack02.dof-00.joe
 texture = mack02.bmp.png
 collidable = false
-surface = 1
 
 [body.488]
 model = mack02.dof-01.joe
 texture = mack02.bmp.png
 collidable = false
-surface = 1
 
 [body.489]
 model = mack02.dof-02.joe
 texture = mack01.bmp.png
 collidable = false
-surface = 1
 
 [body.490]
 model = marshal01.dof-00.joe
 texture = marshal.bmp.png
 nolighting = true
 collidable = false
-surface = 1
 
 [body.491]
 model = marshal02.dof-00.joe
 texture = marshal.bmp.png
 nolighting = true
 collidable = false
-surface = 1
 
 [body.492]
 model = marshal03.dof-00.joe
 texture = marshal.bmp.png
 nolighting = true
 collidable = false
-surface = 1
 
 [body.493]
 model = marshal05.dof-00.joe
 texture = marshal.bmp.png
 nolighting = true
 collidable = false
-surface = 1
 
 [body.494]
 model = marshal06.dof-00.joe
 texture = marshal.bmp.png
 nolighting = true
 collidable = false
-surface = 1
 
 [body.495]
 model = marshal07.dof-00.joe
 texture = marshal.bmp.png
 nolighting = true
 collidable = false
-surface = 1
 
 [body.496]
 model = marshal08.dof-00.joe
 texture = marshal.bmp.png
 nolighting = true
 collidable = false
-surface = 1
 
 [body.497]
 model = marshal10.dof-00.joe
 texture = marshal.bmp.png
 nolighting = true
 collidable = false
-surface = 1
 
 [body.498]
 model = mast01.dof-00.joe
@@ -3379,7 +3171,6 @@ texture = shrub01.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.601]
 model = shrub02.dof-00.joe
@@ -3387,7 +3178,6 @@ texture = shrub01.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.602]
 model = shrub03.dof-00.joe
@@ -3395,7 +3185,6 @@ texture = shrub01.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.603]
 model = shrub04.dof-00.joe
@@ -3403,7 +3192,6 @@ texture = shrub01.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.604]
 model = shrub05.dof-00.joe
@@ -3411,7 +3199,6 @@ texture = shrub01.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.605]
 model = sign03.dof-00.joe
@@ -3905,7 +3692,6 @@ clampuv = 1
 nolighting = true
 skybox = true
 collidable = false
-surface = 1
 
 [body.703]
 model = skyboxi.dof-01.joe
@@ -3914,7 +3700,6 @@ clampuv = 1
 nolighting = true
 skybox = true
 collidable = false
-surface = 1
 
 [body.704]
 model = skyboxi.dof-02.joe
@@ -3923,7 +3708,6 @@ clampuv = 1
 nolighting = true
 skybox = true
 collidable = false
-surface = 1
 
 [body.705]
 model = skyboxi.dof-03.joe
@@ -3932,7 +3716,6 @@ clampuv = 1
 nolighting = true
 skybox = true
 collidable = false
-surface = 1
 
 [body.706]
 model = speaker01.dof-00.joe
@@ -4068,49 +3851,41 @@ surface = 1
 model = trailer01.dof-00.joe
 texture = trailer01.bmp.png
 collidable = false
-surface = 1
 
 [body.733]
 model = trailer01.dof-01.joe
 texture = trailer01.bmp.png
 collidable = false
-surface = 1
 
 [body.734]
 model = trailer01.dof-02.joe
 texture = trailer01.bmp.png
 collidable = false
-surface = 1
 
 [body.735]
 model = trailer02.dof-00.joe
 texture = trailer01.bmp.png
 collidable = false
-surface = 1
 
 [body.736]
 model = trailer02.dof-01.joe
 texture = trailer01.bmp.png
 collidable = false
-surface = 1
 
 [body.737]
 model = trailer02.dof-02.joe
 texture = trailer01.bmp.png
 collidable = false
-surface = 1
 
 [body.738]
 model = trailer03.dof-00.joe
 texture = trailer01.bmp.png
 collidable = false
-surface = 1
 
 [body.739]
 model = trailer03.dof-01.joe
 texture = trailer01.bmp.png
 collidable = false
-surface = 1
 
 [body.740]
 model = tree01.dof-00.joe
@@ -4118,7 +3893,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.741]
 model = tree01.dof-01.joe
@@ -4126,7 +3900,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.742]
 model = tree01.dof-02.joe
@@ -4134,7 +3907,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.743]
 model = tree01.dof-03.joe
@@ -4142,7 +3914,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.744]
 model = tree01.dof-04.joe
@@ -4150,7 +3921,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.745]
 model = tree02.dof-00.joe
@@ -4158,7 +3928,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.746]
 model = tree02.dof-01.joe
@@ -4166,7 +3935,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.747]
 model = tree02.dof-02.joe
@@ -4174,7 +3942,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.748]
 model = tree02.dof-03.joe
@@ -4182,7 +3949,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.749]
 model = tree02.dof-04.joe
@@ -4190,7 +3956,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.750]
 model = tree03.dof-00.joe
@@ -4198,7 +3963,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.751]
 model = tree03.dof-01.joe
@@ -4206,7 +3970,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.752]
 model = tree03.dof-02.joe
@@ -4214,7 +3977,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.753]
 model = tree03.dof-03.joe
@@ -4222,7 +3984,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.754]
 model = tree03.dof-04.joe
@@ -4230,7 +3991,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.755]
 model = tree04.dof-00.joe
@@ -4238,7 +3998,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.756]
 model = tree04.dof-01.joe
@@ -4246,7 +4005,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.757]
 model = tree04.dof-02.joe
@@ -4254,7 +4012,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.758]
 model = tree04.dof-03.joe
@@ -4262,7 +4019,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.759]
 model = tree04.dof-04.joe
@@ -4270,7 +4026,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.760]
 model = tree05.dof-00.joe
@@ -4278,7 +4033,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.761]
 model = tree05.dof-01.joe
@@ -4286,7 +4040,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.762]
 model = tree05.dof-02.joe
@@ -4294,7 +4047,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.763]
 model = tree05.dof-03.joe
@@ -4302,7 +4054,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.764]
 model = tree05.dof-04.joe
@@ -4310,7 +4061,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.765]
 model = tree07.dof-00.joe
@@ -4318,7 +4068,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.766]
 model = tree07.dof-01.joe
@@ -4326,7 +4075,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.767]
 model = tree07.dof-02.joe
@@ -4334,7 +4082,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.768]
 model = tree07.dof-03.joe
@@ -4342,7 +4089,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.769]
 model = tree07.dof-04.joe
@@ -4350,7 +4096,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.770]
 model = tree08.dof-00.joe
@@ -4358,7 +4103,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.771]
 model = tree08.dof-01.joe
@@ -4366,7 +4110,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.772]
 model = tree08.dof-02.joe
@@ -4374,7 +4117,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.773]
 model = tree08.dof-03.joe
@@ -4382,7 +4124,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.774]
 model = tree08.dof-04.joe
@@ -4390,7 +4131,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.775]
 model = tree09.dof-00.joe
@@ -4398,7 +4138,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.776]
 model = tree09.dof-01.joe
@@ -4406,7 +4145,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.777]
 model = tree09.dof-02.joe
@@ -4414,7 +4152,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.778]
 model = tree09.dof-03.joe
@@ -4422,7 +4159,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.779]
 model = tree09.dof-04.joe
@@ -4430,7 +4166,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.780]
 model = tree10.dof-00.joe
@@ -4438,7 +4173,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.781]
 model = tree10.dof-01.joe
@@ -4446,7 +4180,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.782]
 model = tree10.dof-02.joe
@@ -4454,7 +4187,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.783]
 model = tree10.dof-03.joe
@@ -4462,7 +4194,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.784]
 model = tree10.dof-04.joe
@@ -4470,7 +4201,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.785]
 model = tree11.dof-00.joe
@@ -4478,7 +4208,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.786]
 model = tree11.dof-01.joe
@@ -4486,7 +4215,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.787]
 model = tree11.dof-02.joe
@@ -4494,7 +4222,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.788]
 model = tree11.dof-03.joe
@@ -4502,7 +4229,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.789]
 model = tree11.dof-04.joe
@@ -4510,7 +4236,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.790]
 model = tree12.dof-00.joe
@@ -4518,7 +4243,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.791]
 model = tree12.dof-01.joe
@@ -4526,7 +4250,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.792]
 model = tree12.dof-02.joe
@@ -4534,7 +4257,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.793]
 model = tree12.dof-03.joe
@@ -4542,7 +4264,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.794]
 model = tree12.dof-04.joe
@@ -4550,7 +4271,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.795]
 model = tree13.dof-00.joe
@@ -4558,7 +4278,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.796]
 model = tree13.dof-01.joe
@@ -4566,7 +4285,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.797]
 model = tree13.dof-02.joe
@@ -4574,7 +4292,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.798]
 model = tree13.dof-03.joe
@@ -4582,7 +4299,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.799]
 model = tree13.dof-04.joe
@@ -4590,7 +4306,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.800]
 model = tree14.dof-00.joe
@@ -4598,7 +4313,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.801]
 model = tree14.dof-01.joe
@@ -4606,7 +4320,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.802]
 model = tree14.dof-02.joe
@@ -4614,7 +4327,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.803]
 model = tree14.dof-03.joe
@@ -4622,7 +4334,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.804]
 model = tree14.dof-04.joe
@@ -4630,7 +4341,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.805]
 model = tree15.dof-00.joe
@@ -4638,7 +4348,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.806]
 model = tree15.dof-01.joe
@@ -4646,7 +4355,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.807]
 model = tree15.dof-02.joe
@@ -4654,7 +4362,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.808]
 model = tree15.dof-03.joe
@@ -4662,7 +4369,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.809]
 model = tree15.dof-04.joe
@@ -4670,7 +4376,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.810]
 model = tree16.dof-00.joe
@@ -4678,7 +4383,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.811]
 model = tree16.dof-01.joe
@@ -4686,7 +4390,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.812]
 model = tree16.dof-02.joe
@@ -4694,7 +4397,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.813]
 model = tree16.dof-03.joe
@@ -4702,7 +4404,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.814]
 model = tree16.dof-04.joe
@@ -4710,7 +4411,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.815]
 model = tree17.dof-00.joe
@@ -4718,7 +4418,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.816]
 model = tree17.dof-01.joe
@@ -4726,7 +4425,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.817]
 model = tree17.dof-02.joe
@@ -4734,7 +4432,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.818]
 model = tree17.dof-03.joe
@@ -4742,7 +4439,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.819]
 model = tree17.dof-04.joe
@@ -4750,7 +4446,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.820]
 model = tree18.dof-00.joe
@@ -4758,7 +4453,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.821]
 model = tree18.dof-01.joe
@@ -4766,7 +4460,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.822]
 model = tree18.dof-02.joe
@@ -4774,7 +4467,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.823]
 model = tree18.dof-03.joe
@@ -4782,7 +4474,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.824]
 model = tree18.dof-04.joe
@@ -4790,7 +4481,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.825]
 model = tree19.dof-00.joe
@@ -4798,7 +4488,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.826]
 model = tree19.dof-01.joe
@@ -4806,7 +4495,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.827]
 model = tree19.dof-02.joe
@@ -4814,7 +4502,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.828]
 model = tree19.dof-03.joe
@@ -4822,7 +4509,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.829]
 model = tree19.dof-04.joe
@@ -4830,7 +4516,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.830]
 model = tree20.dof-00.joe
@@ -4838,7 +4523,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.831]
 model = tree20.dof-01.joe
@@ -4846,7 +4530,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.832]
 model = tree20.dof-02.joe
@@ -4854,7 +4537,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.833]
 model = tree20.dof-03.joe
@@ -4862,7 +4544,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.834]
 model = tree21.dof-00.joe
@@ -4870,7 +4551,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.835]
 model = tree21.dof-01.joe
@@ -4878,7 +4558,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.836]
 model = tree21.dof-02.joe
@@ -4886,7 +4565,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.837]
 model = tree21.dof-03.joe
@@ -4894,7 +4572,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.838]
 model = tree22.dof-00.joe
@@ -4902,7 +4579,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.839]
 model = tree22.dof-01.joe
@@ -4910,7 +4586,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.840]
 model = tree22.dof-02.joe
@@ -4918,7 +4593,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.841]
 model = tree22.dof-03.joe
@@ -4926,7 +4600,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.842]
 model = tree22.dof-04.joe
@@ -4934,7 +4607,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.843]
 model = tree23.dof-00.joe
@@ -4942,7 +4614,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.844]
 model = tree23.dof-01.joe
@@ -4950,7 +4621,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.845]
 model = tree23.dof-02.joe
@@ -4958,7 +4628,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.846]
 model = tree23.dof-03.joe
@@ -4966,7 +4635,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.847]
 model = tree24.dof-00.joe
@@ -4974,7 +4642,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.848]
 model = tree24.dof-01.joe
@@ -4982,7 +4649,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.849]
 model = tree24.dof-02.joe
@@ -4990,7 +4656,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.850]
 model = tree24.dof-03.joe
@@ -4998,7 +4663,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.851]
 model = tree24.dof-04.joe
@@ -5006,7 +4670,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.852]
 model = tree25.dof-00.joe
@@ -5014,7 +4677,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.853]
 model = tree25.dof-01.joe
@@ -5022,7 +4684,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.854]
 model = tree25.dof-02.joe
@@ -5030,7 +4691,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.855]
 model = tree25.dof-03.joe
@@ -5038,7 +4698,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.856]
 model = tree25.dof-04.joe
@@ -5046,7 +4705,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.857]
 model = tree26.dof-00.joe
@@ -5054,7 +4712,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.858]
 model = tree26.dof-01.joe
@@ -5062,7 +4719,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.859]
 model = tree26.dof-02.joe
@@ -5070,7 +4726,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.860]
 model = tree26.dof-03.joe
@@ -5078,7 +4733,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.861]
 model = tree26.dof-04.joe
@@ -5086,7 +4740,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.862]
 model = treee06.dof-00.joe
@@ -5094,7 +4747,6 @@ texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.863]
 model = treee06.dof-01.joe
@@ -5102,7 +4754,6 @@ texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.864]
 model = treee06.dof-02.joe
@@ -5110,7 +4761,6 @@ texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.865]
 model = treee06.dof-03.joe
@@ -5118,7 +4768,6 @@ texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.866]
 model = treee06.dof-04.joe
@@ -5126,7 +4775,6 @@ texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 collidable = false
-surface = 1
 
 [body.867]
 model = treewall03.dof-00.joe
@@ -5134,7 +4782,6 @@ texture = treewalm.bmp.png
 clampuv = 2
 nolighting = true
 collidable = false
-surface = 1
 
 [body.868]
 model = treewall04.dof-00.joe
@@ -5142,7 +4789,6 @@ texture = treewalm.bmp.png
 clampuv = 2
 nolighting = true
 collidable = false
-surface = 1
 
 [body.869]
 model = treewall05.dof-00.joe
@@ -5150,7 +4796,6 @@ texture = treewalm.bmp.png
 clampuv = 2
 nolighting = true
 collidable = false
-surface = 1
 
 [body.870]
 model = treewall06.dof-00.joe
@@ -5158,7 +4803,6 @@ texture = treewalm.bmp.png
 clampuv = 2
 nolighting = true
 collidable = false
-surface = 1
 
 [body.871]
 model = treewall07.dof-00.joe
@@ -5166,7 +4810,6 @@ texture = treewalm.bmp.png
 clampuv = 2
 nolighting = true
 collidable = false
-surface = 1
 
 [body.872]
 model = treewall1a.dof-00.joe
@@ -5174,7 +4817,6 @@ texture = treewalm.bmp.png
 clampuv = 2
 nolighting = true
 collidable = false
-surface = 1
 
 [body.873]
 model = treewall1b.dof-00.joe
@@ -5182,7 +4824,6 @@ texture = treewalm.bmp.png
 clampuv = 2
 nolighting = true
 collidable = false
-surface = 1
 
 [body.874]
 model = treewall1c.dof-00.joe
@@ -5190,7 +4831,6 @@ texture = treewalm.bmp.png
 clampuv = 2
 nolighting = true
 collidable = false
-surface = 1
 
 [body.875]
 model = treewall2a.dof-00.joe
@@ -5198,7 +4838,6 @@ texture = treewalm.bmp.png
 clampuv = 2
 nolighting = true
 collidable = false
-surface = 1
 
 [body.876]
 model = treewall2b.dof-00.joe
@@ -5206,7 +4845,6 @@ texture = treewalm.bmp.png
 clampuv = 2
 nolighting = true
 collidable = false
-surface = 1
 
 [body.877]
 model = treewall2c.dof-00.joe
@@ -5214,7 +4852,6 @@ texture = treewalm.bmp.png
 clampuv = 2
 nolighting = true
 collidable = false
-surface = 1
 
 [body.878]
 model = tvarea.dof-00.joe
@@ -5372,164 +5009,163 @@ surface = 1
 [body.906]
 model = cloudsny.dof-00.joe
 texture = cloudsnny.tga.png
-transparent = 1
+alphablend = true
 mipmap = false
 nolighting = true
 skybox = true
 collidable = false
-surface = 1
 
 [body.907]
 model = shadhut01.dof-00.joe
 texture = black.bmp.png
-transparent = 1
+alphablend = true
 isashadow = true
 collidable = false
 
 [body.908]
 model = shadhut02.dof-00.joe
 texture = black.bmp.png
-transparent = 1
+alphablend = true
 isashadow = true
 collidable = false
 
 [body.909]
 model = shadhut03.dof-00.joe
 texture = black.bmp.png
-transparent = 1
+alphablend = true
 isashadow = true
 collidable = false
 
 [body.910]
 model = shadhut04.dof-00.joe
 texture = black.bmp.png
-transparent = 1
+alphablend = true
 isashadow = true
 collidable = false
 
 [body.911]
 model = shadhut05.dof-00.joe
 texture = black.bmp.png
-transparent = 1
+alphablend = true
 isashadow = true
 collidable = false
 
 [body.912]
 model = shadhut06.dof-00.joe
 texture = black.bmp.png
-transparent = 1
+alphablend = true
 isashadow = true
 collidable = false
 
 [body.913]
 model = shadpitb.dof-00.joe
 texture = black.bmp.png
-transparent = 1
+alphablend = true
 isashadow = true
 collidable = false
 
 [body.914]
 model = shadtree01.dof-00.joe
 texture = shadtreeb.tga.png
-transparent = 1
+alphablend = true
 isashadow = true
 collidable = false
 
 [body.915]
 model = shadtree01.dof-01.joe
 texture = shadtreew.tga.png
-transparent = 1
+alphablend = true
 isashadow = true
 collidable = false
 
 [body.916]
 model = shadtree02.dof-00.joe
 texture = shadtreeb.tga.png
-transparent = 1
+alphablend = true
 isashadow = true
 collidable = false
 
 [body.917]
 model = shadtree02.dof-01.joe
 texture = shadtreew.tga.png
-transparent = 1
+alphablend = true
 isashadow = true
 collidable = false
 
 [body.918]
 model = shadtree03.dof-00.joe
 texture = shadtreeb.tga.png
-transparent = 1
+alphablend = true
 isashadow = true
 collidable = false
 
 [body.919]
 model = shadtree03.dof-01.joe
 texture = shadtreew.tga.png
-transparent = 1
+alphablend = true
 isashadow = true
 collidable = false
 
 [body.920]
 model = shadtree04.dof-00.joe
 texture = shadtreeb.tga.png
-transparent = 1
+alphablend = true
 isashadow = true
 collidable = false
 
 [body.921]
 model = shadtree04.dof-01.joe
 texture = shadtreew.tga.png
-transparent = 1
+alphablend = true
 isashadow = true
 collidable = false
 
 [body.922]
 model = shadtree05.dof-00.joe
 texture = shadtreeb.tga.png
-transparent = 1
+alphablend = true
 isashadow = true
 collidable = false
 
 [body.923]
 model = shadtree05.dof-01.joe
 texture = shadtreew.tga.png
-transparent = 1
+alphablend = true
 isashadow = true
 collidable = false
 
 [body.924]
 model = shadtree06.dof-00.joe
 texture = shadtreeb.tga.png
-transparent = 1
+alphablend = true
 isashadow = true
 collidable = false
 
 [body.925]
 model = shadtree06.dof-01.joe
 texture = shadtreew.tga.png
-transparent = 1
+alphablend = true
 isashadow = true
 collidable = false
 
 [body.926]
 model = shadtree07.dof-00.joe
 texture = shadtreew.tga.png
-transparent = 1
+alphablend = true
 isashadow = true
 collidable = false
 
 [body.927]
 model = shadtree07.dof-01.joe
 texture = shadtreeb.tga.png
-transparent = 1
+alphablend = true
 isashadow = true
 collidable = false
 
 [body.928]
 model = shadtt.dof-00.joe
 texture = black.bmp.png
-transparent = 1
+alphablend = true
 isashadow = true
 collidable = false
 
