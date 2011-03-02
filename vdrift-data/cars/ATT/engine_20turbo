@@ -1,0 +1,22 @@
+# didn't spend too much time on this curve
+[engine]
+mass = 140.0
+max-power = 1.52e5
+peak-engine-rpm = 6000.0
+rpm-limit = 6600.0
+inertia = 0.35
+idle = 0.02
+start-rpm = 1000
+stall-rpm = 400
+fuel-consumption = 1e-9
+torque-friction = 0.0006
+torque-curve-0 = 573, 155
+torque-curve-1 = 813, 159
+torque-curve-2 = 1226, 184
+torque-curve-3 = 1800, 207
+torque-curve-4 = 3373, 205
+torque-curve-5 = 5100, 205
+torque-curve-6 = 5373, 191
+torque-curve-7 = 5853, 161
+torque-curve-8 = 5973, 149
+torque-curve-9 = 6559, 90
