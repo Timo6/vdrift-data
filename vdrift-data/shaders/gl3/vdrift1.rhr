@@ -1181,7 +1181,7 @@ passList
           *value
           {
             type = enum
-            enumdata = GL_LINEAR_MIPMAP_LINEAR
+            enumdata = GL_LINEAR
             intdata
             {
             }
