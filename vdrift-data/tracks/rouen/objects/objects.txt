@@ -8116,6 +8116,7 @@ body = 928
 [body.ambulance]
 texture = ambulanc.bmp.png
 model = ambulance.joe
+shape = ambulance_col.joe
 mass = 1200
 surface = 0
 
