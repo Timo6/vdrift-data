@@ -8118,9 +8118,13 @@ texture = ambulanc.bmp.png
 model = ambulance.joe
 shape = ambulance_col.joe
 mass = 1200
-surface = 0
 
 [node.ambulance]
 body = ambulance
 position = 116.7, -587.7, 44
 rotation = 0, 0, 45
+
+[node.trailer]
+body = vehicles/trucks/trailer
+position = 119.7, -585.7, 42
+rotation = 0, 0, 90

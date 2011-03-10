@@ -1,0 +1,4 @@
+texture = trailer_red.png
+model = trailer.joe
+shape = trailer-coll.joe
+mass = 3000
