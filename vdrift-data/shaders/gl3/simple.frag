@@ -5,7 +5,12 @@ uniform vec4 colorTint;
 
 in vec3 normal;
 in vec3 uv;
-out vec4 outputColor;
+
+#define USE_OUTPUTS
+
+#ifdef USE_OUTPUTS
+invariant out vec4 outputColor;
+#endif
 
 void main(void)
 {
@@ -19,5 +24,9 @@ void main(void)
 	albedo = diffuseTexture * colorTint;
 	#endif
 	
+	#ifdef USE_OUTPUTS
 	outputColor.rgba = albedo;
+	#else
+	gl_FragColor = albedo;
+	#endif
 }

@@ -2,6 +2,7 @@
 
 uniform sampler2D diffuseSampler;
 uniform vec4 colorTint;
+uniform float depthOffset;
 
 in vec3 normal;
 #ifdef TANGENTSPACE
@@ -11,9 +12,13 @@ in vec3 bitangent;
 
 in vec3 uv;
 
-out vec4 materialProperties;
-out vec4 normalXY;
-out vec4 diffuseAlbedo;
+#define USE_OUTPUTS
+
+#ifdef USE_OUTPUTS
+invariant out vec4 materialProperties;
+invariant out vec4 normalXY;
+invariant out vec4 diffuseAlbedo;
+#endif
 
 vec2 packFloatToVec2i(const float val)
 {
@@ -89,15 +94,20 @@ void main()
 	vec2 normalY = packFloatToVec2i(normalToPack.y);
 	
 	// compatibility with old miscmap1 packing of gloss on R channel, metallic on G channel
-	float m = 0.1;
+	float m = 0.1/256.0;
 	vec3 Rf0 = vec3(1.0,1.0,1.0)*0.04;
-	m = 1.0;
-	Rf0 = vec3(1,0,0);
+	//m = 1.0;
+	//Rf0 = vec3(1,0,0);
 	
+	#ifdef USE_OUTPUTS
 	materialProperties = vec4(Rf0, m);
 	normalXY = vec4(normalX, normalY);
 	diffuseAlbedo = vec4(albedo.rgb, notshadow);
-	/*gl_FragData[0] = vec4(Rf0, m);
+	#else
+	gl_FragData[0] = vec4(Rf0, m);
 	gl_FragData[1] = vec4(normalX, normalY);
-	gl_FragData[2] = vec4(albedo.rgb, notshadow);*/
+	gl_FragData[2] = vec4(albedo.rgb, notshadow);
+	#endif
+	
+	gl_FragDepth = gl_FragCoord.z + depthOffset;
 }
