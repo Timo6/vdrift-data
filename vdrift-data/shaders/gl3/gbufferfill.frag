@@ -1,6 +1,7 @@
 #version 330
 
 uniform sampler2D diffuseSampler;
+uniform sampler2D materialPropertiesSampler;
 uniform vec4 colorTint;
 uniform float depthOffset;
 
@@ -88,14 +89,16 @@ void main()
 		discard;
 	#endif
 	
+	vec4 materialPropertyMap = texture2D(materialPropertiesSampler, uv.xy);
+	
 	vec3 eyeSpaceNormal = normalize(normal);
 	vec2 normalToPack = vec2(atan(eyeSpaceNormal.y,eyeSpaceNormal.x)/3.14159265358979323846, eyeSpaceNormal.z)*0.5+vec2(0.5,0.5);
 	vec2 normalX = packFloatToVec2i(normalToPack.x);
 	vec2 normalY = packFloatToVec2i(normalToPack.y);
 	
 	// compatibility with old miscmap1 packing of gloss on R channel, metallic on G channel
-	float m = 0.1/256.0;
-	vec3 Rf0 = vec3(1.0,1.0,1.0)*0.04;
+	float m = materialPropertyMap.a;
+	vec3 Rf0 = materialPropertyMap.rgb;
 	//m = 1.0;
 	//Rf0 = vec3(1,0,0);
 	

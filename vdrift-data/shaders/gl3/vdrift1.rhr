@@ -72,7 +72,7 @@ passList
       {
         data
         {
-          *item = 2.29469799995422363281e+00
+          *item = 1.87397003173828125000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
@@ -409,6 +409,93 @@ passList
             }
             floatdata
             {
+            }
+          }
+        }
+      }
+      *key = materialPropertiesSampler
+      *value
+      {
+        textureName = misc1Texture
+        state
+        {
+          *key = GL_TEXTURE_BORDER_COLOR
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 0.00000000000000000000e+00
+              *item = 0.00000000000000000000e+00
+              *item = 0.00000000000000000000e+00
+              *item = 0.00000000000000000000e+00
+            }
+          }
+          *key = GL_TEXTURE_LOD_BIAS
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 0.00000000000000000000e+00
+            }
+          }
+          *key = GL_TEXTURE_MAG_FILTER
+          *value
+          {
+            type = enum
+            enumdata = GL_LINEAR
+            intdata
+            {
+            }
+            floatdata
+            {
+            }
+          }
+          *key = GL_TEXTURE_MAX_LOD
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+03
+            }
+          }
+          *key = GL_TEXTURE_MIN_FILTER
+          *value
+          {
+            type = enum
+            enumdata = GL_LINEAR
+            intdata
+            {
+            }
+            floatdata
+            {
+            }
+          }
+          *key = GL_TEXTURE_MIN_LOD
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = -1.00000000000000000000e+03
             }
           }
         }
@@ -491,7 +578,7 @@ passList
       {
         data
         {
-          *item = 2.29469799995422363281e+00
+          *item = 1.87397003173828125000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
@@ -828,6 +915,93 @@ passList
             }
             floatdata
             {
+            }
+          }
+        }
+      }
+      *key = materialPropertiesSampler
+      *value
+      {
+        textureName = misc1Texture
+        state
+        {
+          *key = GL_TEXTURE_BORDER_COLOR
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 0.00000000000000000000e+00
+              *item = 0.00000000000000000000e+00
+              *item = 0.00000000000000000000e+00
+              *item = 0.00000000000000000000e+00
+            }
+          }
+          *key = GL_TEXTURE_LOD_BIAS
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 0.00000000000000000000e+00
+            }
+          }
+          *key = GL_TEXTURE_MAG_FILTER
+          *value
+          {
+            type = enum
+            enumdata = GL_LINEAR
+            intdata
+            {
+            }
+            floatdata
+            {
+            }
+          }
+          *key = GL_TEXTURE_MAX_LOD
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+03
+            }
+          }
+          *key = GL_TEXTURE_MIN_FILTER
+          *value
+          {
+            type = enum
+            enumdata = GL_LINEAR
+            intdata
+            {
+            }
+            floatdata
+            {
+            }
+          }
+          *key = GL_TEXTURE_MIN_LOD
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = -1.00000000000000000000e+03
             }
           }
         }
@@ -942,8 +1116,8 @@ passList
       {
         data
         {
-          *item = 5.05000000000000000000e+02
-          *item = 4.80000000000000000000e+02
+          *item = 7.15000000000000000000e+02
+          *item = 5.55000000000000000000e+02
         }
       }
     }
@@ -2810,7 +2984,7 @@ passList
       {
         data
         {
-          *item = 2.29469799995422363281e+00
+          *item = 1.87397003173828125000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
@@ -2856,8 +3030,8 @@ passList
       {
         data
         {
-          *item = 5.05000000000000000000e+02
-          *item = 4.80000000000000000000e+02
+          *item = 7.15000000000000000000e+02
+          *item = 5.55000000000000000000e+02
         }
       }
     }
@@ -3547,7 +3721,7 @@ passList
       {
         data
         {
-          *item = 2.29469799995422363281e+00
+          *item = 1.87397003173828125000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
