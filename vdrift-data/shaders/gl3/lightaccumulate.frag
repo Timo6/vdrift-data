@@ -60,7 +60,7 @@ vec3 FresnelEquation(const vec3 Rf0, const float omega_i)
 // equation 7.49, Real-Time Rendering (third edition) by Akenine-Moller, Haines, Hoffman
 vec3 RealTimeRenderingBRDF(const vec3 cdiff, const float m, const vec3 Rf0, const float alpha_h, const float omega_h)
 {
-	return cdiff + ((m+8.0)/8.0)*FresnelEquation(Rf0,alpha_h)*pow(omega_h,m);
+	return cdiff + (m/8.0)*FresnelEquation(Rf0,alpha_h)*pow(omega_h,m);
 }
 
 // 9-coefficient spherical harmonics; see
@@ -133,7 +133,7 @@ void main(void)
 	float notshadow = gbuf_diffuse_albedo.a; // light occlusion multiplier
 	vec3 Rf0 = gbuf_material_properties.rgb; //fresnel reflectance value at zero degrees
 	float mpercent = gbuf_material_properties.a;
-	float m = mpercent*256.0+1.0; //micro-scale roughness
+	float m = mpercent*mpercent*256.0; //micro-scale roughness
 	vec2 normal_spherical = vec2(unpackFloatFromVec2i(gbuf_normal_xy.xy),unpackFloatFromVec2i(gbuf_normal_xy.zw))*2.0-vec2(1.0,1.0);
 	vec3 normal = sphericalToXYZ(normal_spherical);
 	
@@ -155,7 +155,7 @@ void main(void)
 		vec3 E_l = directionalLightColor.rgb;
 		vec3 light_direction = normalize(eyespaceLightDirection);
 		float omega_i = cos_clamped(light_direction,normal); //clamped cosine of angle between incoming light direction and surface normal
-		vec3 H = normalize(V-light_direction);
+		vec3 H = normalize(V+light_direction);
 		float alpha_h = clamp(dot(V,H),-1.0,1.0); //cosine of angle between half vector and view direction
 		float omega_h = cos_clamped(H,normal); //clamped cosine of angle between half vector and normal
 		final = CommonBRDF(RealTimeRenderingBRDF(cdiff, m, Rf0, alpha_h, omega_h),E_l,omega_i);
