@@ -16,9 +16,9 @@ in vec3 uv;
 #define USE_OUTPUTS
 
 #ifdef USE_OUTPUTS
-invariant out vec4 materialProperties;
-invariant out vec4 normalXY;
-invariant out vec4 diffuseAlbedo;
+out vec4 materialProperties;
+out vec4 normalXY;
+out vec4 diffuseAlbedo;
 #endif
 
 vec2 packFloatToVec2i(const float val)

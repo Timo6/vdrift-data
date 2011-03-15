@@ -9,12 +9,13 @@ in vec3 uv;
 #define USE_OUTPUTS
 
 #ifdef USE_OUTPUTS
-invariant out vec4 outputColor;
+out vec4 outputColor;
 #endif
 
 void main(void)
 {
 	vec4 diffuseTexture = texture2D(diffuseSampler, uv.xy);
+	
 	vec4 albedo;
 	
 	#ifdef CARPAINT
@@ -22,6 +23,11 @@ void main(void)
 	albedo.a = 1;
 	#else
 	albedo = diffuseTexture * colorTint;
+	#endif
+	
+	#ifdef ALPHATEST
+	if (diffuseTexture.a < 0.5)
+		discard;
 	#endif
 	
 	#ifdef USE_OUTPUTS

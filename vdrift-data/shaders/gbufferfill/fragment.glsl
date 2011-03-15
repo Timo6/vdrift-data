@@ -92,11 +92,7 @@ void main()
 	vec2 normal_x = packFloatToVec2i(normal_topack.x);
 	vec2 normal_y = packFloatToVec2i(normal_topack.y);
 	
-	// compatibility with old miscmap1 packing of gloss on R channel, metallic on G channel
-	float m = miscmap1.r;
-	vec3 Rf0 = vec3(1.0,1.0,1.0)*(min(1.0,m*2.0));
-	
-	gl_FragData[0] = vec4(Rf0.r,Rf0.g,Rf0.b,m);
+	gl_FragData[0] = miscmap1;
 	gl_FragData[1] = vec4(normal_x.x, normal_x.y, normal_y.x, normal_y.y);
 	gl_FragData[2] = vec4(albedo.rgb,notshadow);
 
