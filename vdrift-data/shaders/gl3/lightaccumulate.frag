@@ -13,6 +13,7 @@ uniform vec4 colorTint;
 uniform vec4 directionalLightColor;
 uniform vec4 ambientLightColor;
 uniform vec3 eyespaceLightDirection;
+uniform mat4 invProjectionMatrix;
 
 in vec3 eyespacePosition;
 in vec3 uv;
@@ -137,9 +138,6 @@ void main(void)
 	vec2 normal_spherical = vec2(unpackFloatFromVec2i(gbuf_normal_xy.xy),unpackFloatFromVec2i(gbuf_normal_xy.zw))*2.0-vec2(1.0,1.0);
 	vec3 normal = sphericalToXYZ(normal_spherical);
 	
-	// determine view vector
-	vec3 V = normalize(-eyespacePosition);
-	
 	// flip back-pointing face normals to point out the other direction
 	//normal *= -sign(dot(V,normal));
 	//normal.z = abs(normal.z);
@@ -152,6 +150,17 @@ void main(void)
 	#endif
 	
 	#ifdef DIRECTIONAL
+		vec3 normalizedDevicePosition = vec3(screencoord.x, screencoord.y, gbuf_depth)*2.0-vec3(1.0);
+		
+		// transform from NDCs to eyespace
+		vec4 reconstructedEyespacePosition = invProjectionMatrix * 
+			vec4(normalizedDevicePosition.x,
+				normalizedDevicePosition.y,
+				normalizedDevicePosition.z,
+				1.0);
+		reconstructedEyespacePosition.xyz /= reconstructedEyespacePosition.w;
+		vec3 V = -normalize(reconstructedEyespacePosition.xyz);
+		
 		vec3 E_l = directionalLightColor.rgb;
 		vec3 light_direction = normalize(eyespaceLightDirection);
 		float omega_i = cos_clamped(light_direction,normal); //clamped cosine of angle between incoming light direction and surface normal
@@ -159,11 +168,18 @@ void main(void)
 		float alpha_h = clamp(dot(V,H),-1.0,1.0); //cosine of angle between half vector and view direction
 		float omega_h = cos_clamped(H,normal); //clamped cosine of angle between half vector and normal
 		final = CommonBRDF(RealTimeRenderingBRDF(cdiff, m, Rf0, alpha_h, omega_h),E_l,omega_i);
+		//final = vec3(reconstructedEyespacePosition.y);
+		//final = normalize(V);
+		//final = normalize(normalizedDevicePosition);
+		//final = vec3(gbuf_depth*2-1);
+		//final = vec3(V.y*.1);
+		//final = vec3(abs(normalize(eyespacePosition).z));
 	#endif
 	
 	#ifdef OMNI
 		float eyespace_z = projectionMatrix[3].z / (gbuf_depth * -2.0 + 1.0 - projectionMatrix[2].z); //http://www.opengl.org/discussion_boards/ubbthreads.php?ubb=showflat&Number=277938
 		vec3 gbuf_eyespace_pos = vec3(eyespacePosition.xy/eyespacePosition.z*eyespace_z,eyespace_z); //http://lumina.sourceforge.net/Tutorials/Deferred_shading/Point_light.html
+		vec3 V = gbuf_eyespace_pos;
 		vec3 light_center = (viewMatrix*modelMatrix[3]).xyz;
 		float light_scale = length(modelMatrix[0].xyz);
 		float attenuation_radius = light_scale*.707;
@@ -184,6 +200,7 @@ void main(void)
 		float alpha_h = clamp(dot(V,H),-1.0,1.0); //cosine of angle between half vector and view direction
 		float omega_h = cos_clamped(H,normal); //clamped cosine of angle between half vector and normal
 		final = CommonBRDF(RealTimeRenderingBRDF(cdiff, m, Rf0, alpha_h, omega_h),E_l,omega_i);
+		//final = V;
 	#endif
 	
 	#ifdef EMISSIVE

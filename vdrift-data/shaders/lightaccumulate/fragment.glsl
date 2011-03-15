@@ -88,7 +88,7 @@ void main()
 	vec3 cdiff = GammaCorrect(gbuf_diffuse_albedo.rgb); //diffuse reflectance
 	float notshadow = gbuf_diffuse_albedo.a; //direct light occlusion multiplier
 	vec3 Rf0 = GammaCorrect(gbuf_material_properties.rgb); //fresnel reflectance value at zero degrees
-	float m = gbuf_material_properties.a*256.0+1.0; //micro-scale roughness
+	float m = gbuf_material_properties.a*gbuf_material_properties.a*256.0; //micro-scale roughness
 	float mpercent = gbuf_material_properties.a;
 	vec2 normal_spherical = vec2(unpackFloatFromVec2i(gbuf_normal_xy.xy),unpackFloatFromVec2i(gbuf_normal_xy.zw))*2.0-vec2(1.0,1.0);
 	vec3 normal = sphericalToXYZ(normal_spherical);
@@ -173,6 +173,12 @@ void main()
 	
 	// add source light
 	final.rgb += CommonBRDF(RealTimeRenderingBRDF(cdiff, m, Rf0, alpha_h, omega_h),E_l,omega_i);
+	
+	/*#ifdef _INITIAL_
+		final.rgb = abs(V);
+	#else
+		final.rgb *= 0;
+	#endif*/
 	
 	gl_FragColor = final;
 }
