@@ -29,10 +29,6 @@ out vec3 bitangent;
 out vec3 uv;
 out vec3 eyespacePosition;
 
-// used for screenspace reconstruction of eyespace view direction
-out float q;
-out float qn;
-
 void main(void)
 {
 	// compute the model view matrix
@@ -55,11 +51,4 @@ void main(void)
 	
 	// transform the position into screen space
 	gl_Position = projectionMatrix*(vec4(eyespacePosition, 1.0));
-	
-	// compute the original view direction from the screenspace position stored in the UV coordinates plus the frustum coordinates
-	eyespacePosition = frustumLL + uv.x * frustumBROffset + uv.y * frustumTLOffset;
-	
-	float depth = zfar - znear;
-	q = -(zfar+znear)/depth;
-	qn = -2.0*(zfar*znear)/depth;
 }

@@ -5,6 +5,7 @@ uniform sampler2D depthSampler;
 uniform sampler2D normalSampler;
 uniform sampler2D materialSampler;
 uniform sampler2D emissiveSampler;
+uniform samplerCube reflectionCubeSampler;
 uniform vec2 viewportSize;
 uniform mat4 projectionMatrix;
 uniform mat4 modelMatrix;
@@ -14,6 +15,8 @@ uniform vec4 directionalLightColor;
 uniform vec4 ambientLightColor;
 uniform vec3 eyespaceLightDirection;
 uniform mat4 invProjectionMatrix;
+uniform mat4 invViewMatrix;
+uniform vec4 reflectedLightColor;
 
 in vec3 eyespacePosition;
 in vec3 uv;
@@ -21,7 +24,7 @@ in vec3 uv;
 #define USE_OUTPUTS
 
 #ifdef USE_OUTPUTS
-invariant out vec4 outputColor;
+out vec4 outputColor;
 #endif
 
 float unpackFloatFromVec2i(const vec2 value)
@@ -118,20 +121,20 @@ void main(void)
 	#endif
 	
 	// retrieve g-buffer
-	float gbuf_depth = texture2D(depthSampler, screencoord).r;
+	float gbuf_depth = texture(depthSampler, screencoord).r;
 	
 	// early discard
 	#ifndef EMISSIVE
 		if (gbuf_depth == 1) discard;
 	#endif
 	
-	vec4 gbuf_material_properties = texture2D(materialSampler, screencoord);
-	vec4 gbuf_normal_xy = texture2D(normalSampler, screencoord);
-	vec4 gbuf_diffuse_albedo = texture2D(diffuseAlbedoSampler, screencoord);
+	vec4 gbuf_material_properties = texture(materialSampler, screencoord);
+	vec4 gbuf_normal_xy = texture(normalSampler, screencoord);
+	vec4 gbuf_diffuse_albedo = texture(diffuseAlbedoSampler, screencoord);
 	
 	// decode g-buffer
 	vec3 cdiff = gbuf_diffuse_albedo.rgb; //diffuse reflectance
-	float notshadow = gbuf_diffuse_albedo.a; // light occlusion multiplier
+	float carpaintMask = gbuf_diffuse_albedo.a; // 1 means this is carpaint
 	vec3 Rf0 = gbuf_material_properties.rgb; //fresnel reflectance value at zero degrees
 	float mpercent = gbuf_material_properties.a;
 	float m = mpercent*mpercent*256.0; //micro-scale roughness
@@ -140,13 +143,42 @@ void main(void)
 	
 	// flip back-pointing face normals to point out the other direction
 	//normal *= -sign(dot(V,normal));
-	//normal.z = abs(normal.z);
+	normal.z = abs(normal.z);
 	//normal.z = -normal.z;
 	
 	vec3 final = vec3(0,0,0);
 	
 	#ifdef AMBIENT
-		final = cdiff*genericAmbient(normal)*ambientLightColor.rgb;
+		vec3 ambientDiffuse = cdiff*genericAmbient(normal)*ambientLightColor.rgb;
+		
+		
+		vec3 normalizedDevicePosition = vec3(screencoord.x, screencoord.y, gbuf_depth)*2.0-vec3(1.0);
+		
+		// transform from NDCs to eyespace
+		vec4 reconstructedEyespacePosition = invProjectionMatrix * 
+			vec4(normalizedDevicePosition.x,
+				normalizedDevicePosition.y,
+				normalizedDevicePosition.z,
+				1.0);
+		reconstructedEyespacePosition.xyz /= reconstructedEyespacePosition.w;
+		vec3 V = -normalize(reconstructedEyespacePosition.xyz);
+		
+		// compute the reflection direction
+		vec3 eyespaceReflectionDirection = reflect(V, normal);
+		vec3 worldspaceReflectionDirection = (invViewMatrix*vec4(eyespaceReflectionDirection,0.0)).xyz;
+		//vec3 reflectedLight = texture(reflectionCubeSampler, worldspaceReflectionDirection.xzy*vec3(1,-1,1)).rgb;
+		vec3 reflectedLight = pow(textureLod(reflectionCubeSampler, worldspaceReflectionDirection.xzy*vec3(1,-1,1), (1-mpercent)*4).rgb,vec3(2.2))*reflectedLightColor.rgb;
+		
+		float alpha_h = clamp(dot(V,normal),-1.0,1.0);
+		reflectedLight *= FresnelEquation(Rf0*0.2,alpha_h)*mpercent;
+		
+		if (carpaintMask > 0.5)
+			ambientDiffuse *= alpha_h+0.5;
+		
+		//final = ambientDiffuse + reflectedLight;//(0.25+cos_clamped(V,normal)*0.25);
+		//final = texture(reflectionCubeSampler, (invViewMatrix*vec4(normal,0.0)).xzy).rgb;
+		//final = abs(vec3(invProjectionMatrix[3].xyz));
+		final = ambientDiffuse+reflectedLight;
 	#endif
 	
 	#ifdef DIRECTIONAL
@@ -161,19 +193,41 @@ void main(void)
 		reconstructedEyespacePosition.xyz /= reconstructedEyespacePosition.w;
 		vec3 V = -normalize(reconstructedEyespacePosition.xyz);
 		
+		// the direct light itself
 		vec3 E_l = directionalLightColor.rgb;
 		vec3 light_direction = normalize(eyespaceLightDirection);
 		float omega_i = cos_clamped(light_direction,normal); //clamped cosine of angle between incoming light direction and surface normal
 		vec3 H = normalize(V+light_direction);
 		float alpha_h = clamp(dot(V,H),-1.0,1.0); //cosine of angle between half vector and view direction
 		float omega_h = cos_clamped(H,normal); //clamped cosine of angle between half vector and normal
-		final = CommonBRDF(RealTimeRenderingBRDF(cdiff, m, Rf0, alpha_h, omega_h),E_l,omega_i);
+		if (carpaintMask > 0.5)
+		//if (false)
+		{
+			final += CommonBRDF(RealTimeRenderingBRDF(cdiff*0, m*1.5, cdiff+Rf0*0.025, alpha_h, omega_h),E_l,omega_i);
+			final += CommonBRDF(RealTimeRenderingBRDF(cdiff*0, m*0.25, (cdiff+Rf0*0.025)*2, alpha_h, omega_h),E_l,omega_i)*0.5;
+			
+			/*const float mmult = 256*2;
+			const float specmult = 1.0;
+			final = CommonBRDF(RealTimeRenderingBRDF(vec3(.0079,.023,.1), 0, vec3(0), alpha_h, omega_h),E_l,omega_i);
+			final += CommonBRDF(RealTimeRenderingBRDF(vec3(0), .15*mmult, vec3(.0011,.0015,.0019)*specmult, alpha_h, omega_h),E_l,omega_i);
+			final += CommonBRDF(RealTimeRenderingBRDF(vec3(0), .043*mmult, vec3(.025,.03,.043)*specmult, alpha_h, omega_h),E_l,omega_i);
+			final += CommonBRDF(RealTimeRenderingBRDF(vec3(0), .02*mmult, vec3(.059,.074,.082)*specmult, alpha_h, omega_h),E_l,omega_i);*/
+		}
+		else
+		{
+			final = CommonBRDF(RealTimeRenderingBRDF(cdiff, m, Rf0, alpha_h, omega_h),E_l,omega_i);
+		}
+		
 		//final = vec3(reconstructedEyespacePosition.y);
 		//final = normalize(V);
 		//final = normalize(normalizedDevicePosition);
 		//final = vec3(gbuf_depth*2-1);
 		//final = vec3(V.y*.1);
 		//final = vec3(abs(normalize(eyespacePosition).z));
+		
+		// throw the specular map lookup into this block since we've already calculated V
+		//final = texture(reflectionCubeSampler, (mat3(invViewMatrix)*normal.xyz).xzy).rgb;
+		//final = texture(reflectionCubeSampler, normal).rgb;
 	#endif
 	
 	#ifdef OMNI
@@ -204,7 +258,7 @@ void main(void)
 	#endif
 	
 	#ifdef EMISSIVE
-		final = texture2D(emissiveSampler, uv.xy).rgb*colorTint.rgb;
+		final = texture(emissiveSampler, uv.xy).rgb*colorTint.rgb;
 	#endif
 	
 	/*#ifndef DIRECTIONAL

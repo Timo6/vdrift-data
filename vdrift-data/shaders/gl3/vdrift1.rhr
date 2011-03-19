@@ -72,7 +72,7 @@ passList
       {
         data
         {
-          *item = 2.09341526031494140625e+00
+          *item = 1.98856711387634277344e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
@@ -242,7 +242,7 @@ passList
       *key = GL_COLOR_ATTACHMENT0
       *value
       {
-        name = gbuffer: material properties
+        name = gbuffer: material properties / final scene
         variable = materialProperties
         format = GL_RGBA8
         target = GL_TEXTURE_2D
@@ -335,6 +335,19 @@ passList
             }
             floatdata
             {
+            }
+          }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.60000000000000000000e+01
             }
           }
           *key = GL_TEXTURE_MAX_LOD
@@ -458,6 +471,19 @@ passList
             }
             floatdata
             {
+            }
+          }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
             }
           }
           *key = GL_TEXTURE_MAX_LOD
@@ -578,7 +604,7 @@ passList
       {
         data
         {
-          *item = 2.09341526031494140625e+00
+          *item = 1.98856711387634277344e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
@@ -748,7 +774,7 @@ passList
       *key = GL_COLOR_ATTACHMENT0
       *value
       {
-        name = gbuffer: material properties
+        name = gbuffer: material properties / final scene
         variable = materialProperties
         format = GL_RGBA8
         target = GL_TEXTURE_2D
@@ -841,6 +867,19 @@ passList
             }
             floatdata
             {
+            }
+          }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.60000000000000000000e+01
             }
           }
           *key = GL_TEXTURE_MAX_LOD
@@ -964,6 +1003,19 @@ passList
             }
             floatdata
             {
+            }
+          }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
             }
           }
           *key = GL_TEXTURE_MAX_LOD
@@ -1116,8 +1168,8 @@ passList
       {
         data
         {
-          *item = 5.87000000000000000000e+02
-          *item = 5.09000000000000000000e+02
+          *item = 7.26000000000000000000e+02
+          *item = 5.98000000000000000000e+02
         }
       }
     }
@@ -1368,6 +1420,19 @@ passList
             {
             }
           }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
+            }
+          }
           *key = GL_TEXTURE_MAX_LOD
           *value
           {
@@ -1459,7 +1524,7 @@ passList
     userDefinedFields
     {
     }
-    vertexShader = simple.vert
+    vertexShader = lightaccumulate.vert
     vertexShaderDefines
     {
     }
@@ -1489,6 +1554,52 @@ passList
           *item = 1.00000000000000000000e+00
           *item = 1.00000000000000000000e+00
           *item = 1.00000000000000000000e+00
+          *item = 1.00000000000000000000e+00
+        }
+      }
+      *key = invProjectionMatrix
+      *value
+      {
+        data
+        {
+          *item = 5.02874672412872314453e-01
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 4.14213567972183227539e-01
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = -4.99500006437301635742e-01
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = -1.00000000000000000000e+00
+          *item = 5.00500023365020751953e-01
+        }
+      }
+      *key = invViewMatrix
+      *value
+      {
+        data
+        {
+          *item = 1.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 1.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 1.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
           *item = 1.00000000000000000000e+00
         }
       }
@@ -1535,6 +1646,17 @@ passList
           *item = -1.00000000000000000000e+00
           *item = 1.00000000000000000000e+00
           *item = -0.00000000000000000000e+00
+          *item = 1.00000000000000000000e+00
+        }
+      }
+      *key = reflectedLightColor
+      *value
+      {
+        data
+        {
+          *item = 1.00000000000000000000e+00
+          *item = 1.00000000000000000000e+00
+          *item = 1.00000000000000000000e+00
           *item = 1.00000000000000000000e+00
         }
       }
@@ -1833,6 +1955,19 @@ passList
             {
             }
           }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
+            }
+          }
           *key = GL_TEXTURE_MAX_LOD
           *value
           {
@@ -1920,6 +2055,19 @@ passList
             {
             }
           }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
+            }
+          }
           *key = GL_TEXTURE_MAX_LOD
           *value
           {
@@ -1999,7 +2147,7 @@ passList
       *key = materialSampler
       *value
       {
-        textureName = gbuffer: material properties
+        textureName = gbuffer: material properties / final scene
         state
         {
           *key = GL_TEXTURE_BORDER_COLOR
@@ -2041,6 +2189,19 @@ passList
             }
             floatdata
             {
+            }
+          }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
             }
           }
           *key = GL_TEXTURE_MAX_LOD
@@ -2130,6 +2291,19 @@ passList
             {
             }
           }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
+            }
+          }
           *key = GL_TEXTURE_MAX_LOD
           *value
           {
@@ -2148,6 +2322,106 @@ passList
           {
             type = enum
             enumdata = GL_NEAREST
+            intdata
+            {
+            }
+            floatdata
+            {
+            }
+          }
+          *key = GL_TEXTURE_MIN_LOD
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = -1.00000000000000000000e+03
+            }
+          }
+        }
+      }
+      *key = reflectionCubeSampler
+      *value
+      {
+        textureName = reflectionCube
+        state
+        {
+          *key = GL_TEXTURE_BORDER_COLOR
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 0.00000000000000000000e+00
+              *item = 0.00000000000000000000e+00
+              *item = 0.00000000000000000000e+00
+              *item = 0.00000000000000000000e+00
+            }
+          }
+          *key = GL_TEXTURE_LOD_BIAS
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 0.00000000000000000000e+00
+            }
+          }
+          *key = GL_TEXTURE_MAG_FILTER
+          *value
+          {
+            type = enum
+            enumdata = GL_LINEAR
+            intdata
+            {
+            }
+            floatdata
+            {
+            }
+          }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
+            }
+          }
+          *key = GL_TEXTURE_MAX_LOD
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+03
+            }
+          }
+          *key = GL_TEXTURE_MIN_FILTER
+          *value
+          {
+            type = enum
+            enumdata = GL_LINEAR_MIPMAP_LINEAR
             intdata
             {
             }
@@ -2233,7 +2507,7 @@ passList
       {
         data
         {
-          *item = 4.77688312530517578125e-01
+          *item = 5.02874672412872314453e-01
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
@@ -2592,6 +2866,19 @@ passList
             {
             }
           }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
+            }
+          }
           *key = GL_TEXTURE_MAX_LOD
           *value
           {
@@ -2679,6 +2966,19 @@ passList
             {
             }
           }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
+            }
+          }
           *key = GL_TEXTURE_MAX_LOD
           *value
           {
@@ -2758,7 +3058,7 @@ passList
       *key = materialSampler
       *value
       {
-        textureName = gbuffer: material properties
+        textureName = gbuffer: material properties / final scene
         state
         {
           *key = GL_TEXTURE_BORDER_COLOR
@@ -2800,6 +3100,19 @@ passList
             }
             floatdata
             {
+            }
+          }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
             }
           }
           *key = GL_TEXTURE_MAX_LOD
@@ -2887,6 +3200,19 @@ passList
             }
             floatdata
             {
+            }
+          }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
             }
           }
           *key = GL_TEXTURE_MAX_LOD
@@ -3007,7 +3333,7 @@ passList
       {
         data
         {
-          *item = 2.09341526031494140625e+00
+          *item = 1.98856711387634277344e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
@@ -3053,8 +3379,8 @@ passList
       {
         data
         {
-          *item = 5.87000000000000000000e+02
-          *item = 5.09000000000000000000e+02
+          *item = 7.26000000000000000000e+02
+          *item = 5.98000000000000000000e+02
         }
       }
     }
@@ -3329,6 +3655,19 @@ passList
             {
             }
           }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
+            }
+          }
           *key = GL_TEXTURE_MAX_LOD
           *value
           {
@@ -3416,6 +3755,19 @@ passList
             {
             }
           }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
+            }
+          }
           *key = GL_TEXTURE_MAX_LOD
           *value
           {
@@ -3495,7 +3847,7 @@ passList
       *key = materialSampler
       *value
       {
-        textureName = gbuffer: material properties
+        textureName = gbuffer: material properties / final scene
         state
         {
           *key = GL_TEXTURE_BORDER_COLOR
@@ -3537,6 +3889,19 @@ passList
             }
             floatdata
             {
+            }
+          }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
             }
           }
           *key = GL_TEXTURE_MAX_LOD
@@ -3624,6 +3989,19 @@ passList
             }
             floatdata
             {
+            }
+          }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
             }
           }
           *key = GL_TEXTURE_MAX_LOD
@@ -3744,7 +4122,7 @@ passList
       {
         data
         {
-          *item = 2.09341526031494140625e+00
+          *item = 1.98856711387634277344e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
@@ -4057,6 +4435,19 @@ passList
             {
             }
           }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
+            }
+          }
           *key = GL_TEXTURE_MAX_LOD
           *value
           {
@@ -4142,6 +4533,19 @@ passList
             }
             floatdata
             {
+            }
+          }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
             }
           }
           *key = GL_TEXTURE_MAX_LOD
@@ -4267,6 +4671,19 @@ passList
             {
             }
           }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
+            }
+          }
           *key = GL_TEXTURE_MAX_LOD
           *value
           {
@@ -4310,7 +4727,7 @@ passList
       *key = materialSampler
       *value
       {
-        textureName = gbuffer: material properties
+        textureName = gbuffer: material properties / final scene
         state
         {
           *key = GL_TEXTURE_BORDER_COLOR
@@ -4352,6 +4769,19 @@ passList
             }
             floatdata
             {
+            }
+          }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
             }
           }
           *key = GL_TEXTURE_MAX_LOD
@@ -4439,6 +4869,19 @@ passList
             }
             floatdata
             {
+            }
+          }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
             }
           }
           *key = GL_TEXTURE_MAX_LOD
@@ -4772,6 +5215,30 @@ passList
     }
     renderTargets
     {
+      *key = GL_COLOR_ATTACHMENT0
+      *value
+      {
+        name = gbuffer: material properties / final scene
+        variable = outputColor
+        format = GL_RGBA8
+        target = GL_TEXTURE_2D
+        autoMipmap = 0
+        width = 1.00000000000000000000e+00
+        height = 1.00000000000000000000e+00
+        widthHeightAreMultiples = 1
+      }
+      *key = GL_DEPTH_ATTACHMENT
+      *value
+      {
+        name = depth copy
+        variable = depth
+        format = GL_DEPTH_COMPONENT24
+        target = GL_TEXTURE_2D
+        autoMipmap = 0
+        width = 1.00000000000000000000e+00
+        height = 1.00000000000000000000e+00
+        widthHeightAreMultiples = 1
+      }
     }
     samplers
     {
@@ -4822,7 +5289,7 @@ passList
             {
             }
           }
-          *key = GL_TEXTURE_MAX_LOD
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
           *value
           {
             type = float
@@ -4832,420 +5299,7 @@ passList
             }
             floatdata
             {
-              *item = 1.00000000000000000000e+03
-            }
-          }
-          *key = GL_TEXTURE_MIN_FILTER
-          *value
-          {
-            type = enum
-            enumdata = GL_NEAREST
-            intdata
-            {
-            }
-            floatdata
-            {
-            }
-          }
-          *key = GL_TEXTURE_MIN_LOD
-          *value
-          {
-            type = float
-            enumdata = 
-            intdata
-            {
-            }
-            floatdata
-            {
-              *item = -1.00000000000000000000e+03
-            }
-          }
-          *key = GL_TEXTURE_WRAP_R
-          *value
-          {
-            type = enum
-            enumdata = GL_CLAMP_TO_EDGE
-            intdata
-            {
-            }
-            floatdata
-            {
-            }
-          }
-          *key = GL_TEXTURE_WRAP_S
-          *value
-          {
-            type = enum
-            enumdata = GL_CLAMP_TO_EDGE
-            intdata
-            {
-            }
-            floatdata
-            {
-            }
-          }
-          *key = GL_TEXTURE_WRAP_T
-          *value
-          {
-            type = enum
-            enumdata = GL_CLAMP_TO_EDGE
-            intdata
-            {
-            }
-            floatdata
-            {
-            }
-          }
-        }
-      }
-    }
-  }
-  *item
-  {
-    name = depth copy to framebuffer
-    clearColor = 0
-    clearDepth = 1
-    clearStencil = 1
-    drawGroups
-    {
-      *item = full screen rect
-    }
-    userDefinedFields
-    {
-    }
-    vertexShader = simple.vert
-    vertexShaderDefines
-    {
-    }
-    fragmentShader = depthcopy.frag
-    fragmentShaderDefines
-    {
-    }
-    shaderAttributeBindings
-    {
-      *item = vertexPosition
-      *item = vertexNormal
-      *item = vertexTangent
-      *item = vertexBitangent
-      *item = vertexColor
-      *item = vertexUv0
-      *item = vertexUv1
-      *item = vertexUv2
-    }
-    uniforms
-    {
-      *key = modelMatrix
-      *value
-      {
-        data
-        {
-          *item = 1.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 1.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 1.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 1.00000000000000000000e+00
-        }
-      }
-      *key = projectionMatrix
-      *value
-      {
-        data
-        {
-          *item = 2.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = -2.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = -1.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = -1.00000000000000000000e+00
-          *item = 1.00000000000000000000e+00
-          *item = -0.00000000000000000000e+00
-          *item = 1.00000000000000000000e+00
-        }
-      }
-      *key = viewMatrix
-      *value
-      {
-        data
-        {
-          *item = 1.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 1.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 1.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-          *item = 1.00000000000000000000e+00
-        }
-      }
-      *key = viewportSize
-      *value
-      {
-        data
-        {
-          *item = 5.87000000000000000000e+02
-          *item = 5.09000000000000000000e+02
-        }
-      }
-    }
-    stateEnable
-    {
-      *item = GL_DEPTH_TEST
-    }
-    stateDisable
-    {
-      *item = GL_CULL_FACE
-      *item = GL_FRAMEBUFFER_SRGB
-      *item = GL_POLYGON_OFFSET_FILL
-      *item = GL_POLYGON_OFFSET_LINE
-      *item = GL_POLYGON_OFFSET_POINT
-      *item = GL_SAMPLE_ALPHA_TO_COVERAGE
-      *item = GL_SAMPLE_ALPHA_TO_ONE
-      *item = GL_SAMPLE_COVERAGE
-      *item = GL_SAMPLE_MASK
-    }
-    stateEnablei
-    {
-      *item
-      {
-        *first = GL_BLEND
-        *second = 0
-      }
-    }
-    stateDisablei
-    {
-      *item
-      {
-        *first = GL_BLEND
-        *second = 1
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 2
-      }
-      *item
-      {
-        *first = GL_BLEND
-        *second = 3
-      }
-    }
-    stateEnum
-    {
-      *key = GL_BLEND_DST_ALPHA
-      *value
-      {
-        type = enum
-        enumdata = GL_ONE
-        intdata
-        {
-        }
-        floatdata
-        {
-        }
-      }
-      *key = GL_BLEND_DST_RGB
-      *value
-      {
-        type = enum
-        enumdata = GL_ONE
-        intdata
-        {
-        }
-        floatdata
-        {
-        }
-      }
-      *key = GL_BLEND_EQUATION_ALPHA
-      *value
-      {
-        type = enum
-        enumdata = GL_FUNC_ADD
-        intdata
-        {
-        }
-        floatdata
-        {
-        }
-      }
-      *key = GL_BLEND_EQUATION_RGB
-      *value
-      {
-        type = enum
-        enumdata = GL_FUNC_ADD
-        intdata
-        {
-        }
-        floatdata
-        {
-        }
-      }
-      *key = GL_BLEND_SRC_ALPHA
-      *value
-      {
-        type = enum
-        enumdata = GL_ZERO
-        intdata
-        {
-        }
-        floatdata
-        {
-        }
-      }
-      *key = GL_BLEND_SRC_RGB
-      *value
-      {
-        type = enum
-        enumdata = GL_ZERO
-        intdata
-        {
-        }
-        floatdata
-        {
-        }
-      }
-      *key = GL_DEPTH_FUNC
-      *value
-      {
-        type = enum
-        enumdata = GL_ALWAYS
-        intdata
-        {
-        }
-        floatdata
-        {
-        }
-      }
-      *key = GL_DEPTH_WRITEMASK
-      *value
-      {
-        type = int
-        enumdata = 
-        intdata
-        {
-          *item = 1
-        }
-        floatdata
-        {
-        }
-      }
-      *key = GL_POLYGON_OFFSET_FACTOR
-      *value
-      {
-        type = float
-        enumdata = 
-        intdata
-        {
-        }
-        floatdata
-        {
-          *item = 0.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-        }
-      }
-      *key = GL_SAMPLE_COVERAGE_VALUE
-      *value
-      {
-        type = float
-        enumdata = 
-        intdata
-        {
-        }
-        floatdata
-        {
-          *item = 1.00000000000000000000e+00
-          *item = 0.00000000000000000000e+00
-        }
-      }
-      *key = GL_SAMPLE_MASK_VALUE
-      *value
-      {
-        type = int
-        enumdata = 
-        intdata
-        {
-          *item = 0
-        }
-        floatdata
-        {
-        }
-      }
-    }
-    renderTargets
-    {
-    }
-    samplers
-    {
-      *key = depthSampler
-      *value
-      {
-        textureName = gbuffer: depth
-        state
-        {
-          *key = GL_TEXTURE_BORDER_COLOR
-          *value
-          {
-            type = float
-            enumdata = 
-            intdata
-            {
-            }
-            floatdata
-            {
-              *item = 0.00000000000000000000e+00
-              *item = 0.00000000000000000000e+00
-              *item = 0.00000000000000000000e+00
-              *item = 0.00000000000000000000e+00
-            }
-          }
-          *key = GL_TEXTURE_LOD_BIAS
-          *value
-          {
-            type = float
-            enumdata = 
-            intdata
-            {
-            }
-            floatdata
-            {
-              *item = 0.00000000000000000000e+00
-            }
-          }
-          *key = GL_TEXTURE_MAG_FILTER
-          *value
-          {
-            type = enum
-            enumdata = GL_NEAREST
-            intdata
-            {
-            }
-            floatdata
-            {
+              *item = 1.00000000000000000000e+00
             }
           }
           *key = GL_TEXTURE_MAX_LOD
@@ -5402,7 +5456,7 @@ passList
       {
         data
         {
-          *item = 2.09341526031494140625e+00
+          *item = 1.98856711387634277344e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
@@ -5641,6 +5695,30 @@ passList
     }
     renderTargets
     {
+      *key = GL_COLOR_ATTACHMENT0
+      *value
+      {
+        name = gbuffer: material properties / final scene
+        variable = outputColor
+        format = GL_RGBA8
+        target = GL_TEXTURE_2D
+        autoMipmap = 0
+        width = 1.00000000000000000000e+00
+        height = 1.00000000000000000000e+00
+        widthHeightAreMultiples = 1
+      }
+      *key = GL_DEPTH_ATTACHMENT
+      *value
+      {
+        name = depth copy
+        variable = depth
+        format = GL_DEPTH_COMPONENT24
+        target = GL_TEXTURE_2D
+        autoMipmap = 0
+        width = 1.00000000000000000000e+00
+        height = 1.00000000000000000000e+00
+        widthHeightAreMultiples = 1
+      }
     }
     samplers
     {
@@ -5689,6 +5767,19 @@ passList
             }
             floatdata
             {
+            }
+          }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
             }
           }
           *key = GL_TEXTURE_MAX_LOD
@@ -5845,7 +5936,7 @@ passList
       {
         data
         {
-          *item = 2.09341526031494140625e+00
+          *item = 1.98856711387634277344e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
@@ -6084,6 +6175,30 @@ passList
     }
     renderTargets
     {
+      *key = GL_COLOR_ATTACHMENT0
+      *value
+      {
+        name = gbuffer: material properties / final scene
+        variable = outputColor
+        format = GL_RGBA8
+        target = GL_TEXTURE_2D
+        autoMipmap = 0
+        width = 1.00000000000000000000e+00
+        height = 1.00000000000000000000e+00
+        widthHeightAreMultiples = 1
+      }
+      *key = GL_DEPTH_ATTACHMENT
+      *value
+      {
+        name = depth copy
+        variable = depth
+        format = GL_DEPTH_COMPONENT24
+        target = GL_TEXTURE_2D
+        autoMipmap = 0
+        width = 1.00000000000000000000e+00
+        height = 1.00000000000000000000e+00
+        widthHeightAreMultiples = 1
+      }
     }
     samplers
     {
@@ -6132,6 +6247,19 @@ passList
             }
             floatdata
             {
+            }
+          }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
             }
           }
           *key = GL_TEXTURE_MAX_LOD
@@ -6287,7 +6415,7 @@ passList
       {
         data
         {
-          *item = 2.09341526031494140625e+00
+          *item = 1.98856711387634277344e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
           *item = 0.00000000000000000000e+00
@@ -6526,6 +6654,30 @@ passList
     }
     renderTargets
     {
+      *key = GL_COLOR_ATTACHMENT0
+      *value
+      {
+        name = gbuffer: material properties / final scene
+        variable = outputColor
+        format = GL_RGBA8
+        target = GL_TEXTURE_2D
+        autoMipmap = 0
+        width = 1.00000000000000000000e+00
+        height = 1.00000000000000000000e+00
+        widthHeightAreMultiples = 1
+      }
+      *key = GL_DEPTH_ATTACHMENT
+      *value
+      {
+        name = depth copy
+        variable = depth
+        format = GL_DEPTH_COMPONENT24
+        target = GL_TEXTURE_2D
+        autoMipmap = 0
+        width = 1.00000000000000000000e+00
+        height = 1.00000000000000000000e+00
+        widthHeightAreMultiples = 1
+      }
     }
     samplers
     {
@@ -6574,6 +6726,19 @@ passList
             }
             floatdata
             {
+            }
+          }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
             }
           }
           *key = GL_TEXTURE_MAX_LOD
@@ -6643,6 +6808,449 @@ passList
           {
             type = enum
             enumdata = GL_REPEAT
+            intdata
+            {
+            }
+            floatdata
+            {
+            }
+          }
+        }
+      }
+    }
+  }
+  *item
+  {
+    name = deferred aa
+    clearColor = 1
+    clearDepth = 1
+    clearStencil = 1
+    drawGroups
+    {
+      *item = full screen rect
+    }
+    userDefinedFields
+    {
+    }
+    vertexShader = simple.vert
+    vertexShaderDefines
+    {
+    }
+    fragmentShader = deferredaa.frag
+    fragmentShaderDefines
+    {
+    }
+    shaderAttributeBindings
+    {
+      *item = vertexPosition
+      *item = vertexNormal
+      *item = vertexTangent
+      *item = vertexBitangent
+      *item = vertexColor
+      *item = vertexUv0
+      *item = vertexUv1
+      *item = vertexUv2
+    }
+    uniforms
+    {
+      *key = maxNorm
+      *value
+      {
+        data
+        {
+          *item = 7.50000000000000000000e-01
+        }
+      }
+      *key = modelMatrix
+      *value
+      {
+        data
+        {
+          *item = 1.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 1.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 1.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 1.00000000000000000000e+00
+        }
+      }
+      *key = projectionMatrix
+      *value
+      {
+        data
+        {
+          *item = 2.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = -2.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = -1.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = -1.00000000000000000000e+00
+          *item = 1.00000000000000000000e+00
+          *item = -0.00000000000000000000e+00
+          *item = 1.00000000000000000000e+00
+        }
+      }
+      *key = strength
+      *value
+      {
+        data
+        {
+          *item = 3.00000000000000000000e+00
+        }
+      }
+      *key = viewMatrix
+      *value
+      {
+        data
+        {
+          *item = 1.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 1.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 1.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+          *item = 1.00000000000000000000e+00
+        }
+      }
+      *key = viewportSize
+      *value
+      {
+        data
+        {
+          *item = 7.26000000000000000000e+02
+          *item = 5.98000000000000000000e+02
+        }
+      }
+    }
+    stateEnable
+    {
+      *item = GL_FRAMEBUFFER_SRGB
+    }
+    stateDisable
+    {
+      *item = GL_CULL_FACE
+      *item = GL_DEPTH_TEST
+      *item = GL_POLYGON_OFFSET_FILL
+      *item = GL_POLYGON_OFFSET_LINE
+      *item = GL_POLYGON_OFFSET_POINT
+      *item = GL_SAMPLE_ALPHA_TO_COVERAGE
+      *item = GL_SAMPLE_ALPHA_TO_ONE
+      *item = GL_SAMPLE_COVERAGE
+      *item = GL_SAMPLE_MASK
+    }
+    stateEnablei
+    {
+    }
+    stateDisablei
+    {
+      *item
+      {
+        *first = GL_BLEND
+        *second = 0
+      }
+      *item
+      {
+        *first = GL_BLEND
+        *second = 1
+      }
+      *item
+      {
+        *first = GL_BLEND
+        *second = 2
+      }
+      *item
+      {
+        *first = GL_BLEND
+        *second = 3
+      }
+    }
+    stateEnum
+    {
+      *key = GL_BLEND_DST_ALPHA
+      *value
+      {
+        type = enum
+        enumdata = GL_ONE_MINUS_SRC_ALPHA
+        intdata
+        {
+        }
+        floatdata
+        {
+        }
+      }
+      *key = GL_BLEND_DST_RGB
+      *value
+      {
+        type = enum
+        enumdata = GL_ONE_MINUS_SRC_ALPHA
+        intdata
+        {
+        }
+        floatdata
+        {
+        }
+      }
+      *key = GL_BLEND_EQUATION_ALPHA
+      *value
+      {
+        type = enum
+        enumdata = GL_FUNC_ADD
+        intdata
+        {
+        }
+        floatdata
+        {
+        }
+      }
+      *key = GL_BLEND_EQUATION_RGB
+      *value
+      {
+        type = enum
+        enumdata = GL_FUNC_ADD
+        intdata
+        {
+        }
+        floatdata
+        {
+        }
+      }
+      *key = GL_BLEND_SRC_ALPHA
+      *value
+      {
+        type = enum
+        enumdata = GL_SRC_ALPHA
+        intdata
+        {
+        }
+        floatdata
+        {
+        }
+      }
+      *key = GL_BLEND_SRC_RGB
+      *value
+      {
+        type = enum
+        enumdata = GL_SRC_ALPHA
+        intdata
+        {
+        }
+        floatdata
+        {
+        }
+      }
+      *key = GL_DEPTH_WRITEMASK
+      *value
+      {
+        type = int
+        enumdata = 
+        intdata
+        {
+          *item = 0
+        }
+        floatdata
+        {
+        }
+      }
+      *key = GL_POLYGON_OFFSET_FACTOR
+      *value
+      {
+        type = float
+        enumdata = 
+        intdata
+        {
+        }
+        floatdata
+        {
+          *item = 0.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+        }
+      }
+      *key = GL_SAMPLE_COVERAGE_VALUE
+      *value
+      {
+        type = float
+        enumdata = 
+        intdata
+        {
+        }
+        floatdata
+        {
+          *item = 1.00000000000000000000e+00
+          *item = 0.00000000000000000000e+00
+        }
+      }
+      *key = GL_SAMPLE_MASK_VALUE
+      *value
+      {
+        type = int
+        enumdata = 
+        intdata
+        {
+          *item = 0
+        }
+        floatdata
+        {
+        }
+      }
+    }
+    renderTargets
+    {
+    }
+    samplers
+    {
+      *key = samplerScene
+      *value
+      {
+        textureName = gbuffer: material properties / final scene
+        state
+        {
+          *key = GL_TEXTURE_BORDER_COLOR
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 0.00000000000000000000e+00
+              *item = 0.00000000000000000000e+00
+              *item = 0.00000000000000000000e+00
+              *item = 0.00000000000000000000e+00
+            }
+          }
+          *key = GL_TEXTURE_LOD_BIAS
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 0.00000000000000000000e+00
+            }
+          }
+          *key = GL_TEXTURE_MAG_FILTER
+          *value
+          {
+            type = enum
+            enumdata = GL_LINEAR
+            intdata
+            {
+            }
+            floatdata
+            {
+            }
+          }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
+            }
+          }
+          *key = GL_TEXTURE_MAX_LOD
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+03
+            }
+          }
+          *key = GL_TEXTURE_MIN_FILTER
+          *value
+          {
+            type = enum
+            enumdata = GL_LINEAR
+            intdata
+            {
+            }
+            floatdata
+            {
+            }
+          }
+          *key = GL_TEXTURE_MIN_LOD
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = -1.00000000000000000000e+03
+            }
+          }
+          *key = GL_TEXTURE_WRAP_R
+          *value
+          {
+            type = enum
+            enumdata = GL_CLAMP_TO_EDGE
+            intdata
+            {
+            }
+            floatdata
+            {
+            }
+          }
+          *key = GL_TEXTURE_WRAP_S
+          *value
+          {
+            type = enum
+            enumdata = GL_CLAMP_TO_EDGE
+            intdata
+            {
+            }
+            floatdata
+            {
+            }
+          }
+          *key = GL_TEXTURE_WRAP_T
+          *value
+          {
+            type = enum
+            enumdata = GL_CLAMP_TO_EDGE
             intdata
             {
             }
@@ -6990,6 +7598,19 @@ passList
             }
             floatdata
             {
+            }
+          }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
             }
           }
           *key = GL_TEXTURE_MAX_LOD
@@ -7408,6 +8029,19 @@ passList
             {
             }
           }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
+            }
+          }
           *key = GL_TEXTURE_MAX_LOD
           *value
           {
@@ -7605,12 +8239,12 @@ passList
     }
     stateEnable
     {
+      *item = GL_FRAMEBUFFER_SRGB
     }
     stateDisable
     {
       *item = GL_CULL_FACE
       *item = GL_DEPTH_TEST
-      *item = GL_FRAMEBUFFER_SRGB
       *item = GL_POLYGON_OFFSET_FILL
       *item = GL_POLYGON_OFFSET_LINE
       *item = GL_POLYGON_OFFSET_POINT
@@ -7824,6 +8458,19 @@ passList
             }
             floatdata
             {
+            }
+          }
+          *key = GL_TEXTURE_MAX_ANISOTROPY_EXT
+          *value
+          {
+            type = float
+            enumdata = 
+            intdata
+            {
+            }
+            floatdata
+            {
+              *item = 1.00000000000000000000e+00
             }
           }
           *key = GL_TEXTURE_MAX_LOD

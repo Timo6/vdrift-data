@@ -34,7 +34,7 @@ vec3 hableTonemap(vec3 x)
 
 void main(void)
 {
-	vec4 lightBuffer = texture2D(lightBufferSampler, uv.xy);
+	vec4 lightBuffer = texture(lightBufferSampler, uv.xy);
 	
 	vec4 final = vec4(0,0,0,1);
 	
