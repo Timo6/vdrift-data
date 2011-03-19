@@ -78,8 +78,8 @@ mat3 GetTangentBasis(vec3 normal, vec3 viewdir, vec2 tucoord)
 
 void main()
 {
-	vec4 albedo = texture2D(diffuseSampler, uv.xy);
-	float notshadow = 1.0;
+	vec4 albedo = texture(diffuseSampler, uv.xy);
+	float carpaintMask = 0.0;
 	
 	#ifdef CARPAINT
 	albedo.rgb = mix(colorTint.rgb, albedo.rgb, albedo.a); // albedo is mixed from diffuse and object color
@@ -89,7 +89,7 @@ void main()
 		discard;
 	#endif
 	
-	vec4 materialPropertyMap = texture2D(materialPropertiesSampler, uv.xy);
+	vec4 materialPropertyMap = texture(materialPropertiesSampler, uv.xy);
 	
 	vec3 eyeSpaceNormal = normalize(normal);
 	vec2 normalToPack = vec2(atan(eyeSpaceNormal.y,eyeSpaceNormal.x)/3.14159265358979323846, eyeSpaceNormal.z)*0.5+vec2(0.5,0.5);
@@ -102,14 +102,18 @@ void main()
 	//m = 1.0;
 	//Rf0 = vec3(1,0,0);
 	
+	#ifdef CARPAINT
+	carpaintMask = 1-albedo.a;
+	#endif
+	
 	#ifdef USE_OUTPUTS
 	materialProperties = vec4(Rf0, m);
 	normalXY = vec4(normalX, normalY);
-	diffuseAlbedo = vec4(albedo.rgb, notshadow);
+	diffuseAlbedo = vec4(albedo.rgb, carpaintMask);
 	#else
 	gl_FragData[0] = vec4(Rf0, m);
 	gl_FragData[1] = vec4(normalX, normalY);
-	gl_FragData[2] = vec4(albedo.rgb, notshadow);
+	gl_FragData[2] = vec4(albedo.rgb, carpaintMask);
 	#endif
 	
 	gl_FragDepth = gl_FragCoord.z + depthOffset;
