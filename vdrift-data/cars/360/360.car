@@ -116,11 +116,11 @@ gear-ratio-3 = 1.61
 gear-ratio-4 = 1.27
 gear-ratio-5 = 1.03
 gear-ratio-6 = 0.85
-shift-time=0.15
+shift-time = 0.15
 
 [differential-rear]
 final-drive = 4.44
-anti-slip =750.0
+anti-slip = 750.0
 anti-slip-torque = 0.01
 anti-slip-torque-deceleration-factor = 0
 
@@ -167,7 +167,7 @@ rebound = 10000.0
 travel = 0.12
 anti-roll = 12000
 
-[wheel.fr.coilover
+[wheel.fr.coilover]
 spring-constant = 79865
 bounce = 3000.0
 rebound = 10000.0
@@ -222,68 +222,76 @@ radius = 0.165 # 330mm
 area = 0.000448 # 16mm x 28mm
 handbrake = 1.0
 
-#---------- F R O N T
+[wheel.fl.hinge]
+wheel = -0.85, 1.12, -0.27
+chassis = 0.50, 0.90, -0.20
+
+[wheel.fr.hinge]
+wheel = 0.85, 1.12, -0.27
+chassis = -0.50, 0.90, -0.20
+
+[wheel.rl.hinge]
+wheel = -0.8085, -1.51, -0.28
+chassis = 1.00, -0.0, -0.0
+
+[wheel.rr.hinge]
+wheel = 0.8085, -1.51, -0.28
+chassis = -1.00, 0.0, -0.0
 
 [wheel.fl.tire]
 texture = touring.png
-size = 215,45,18
+size = 215, 45, 18
+type = tire-competition
+
+[wheel.fr.tire]
+texture = touring.png
+size = 215, 45, 18
+type = tire-competition
+
+[wheel.rl.tire]
+texture = touring.png
+size = 275, 40, 18
+type = tire-competition
+
+[wheel.rr.tire]
+texture = touring.png
+size = 275, 40, 18
 type = tire-competition
 
 [wheel.fl]
 texture = wheel/pentagonal_hub.png
 mesh = wheel/pentagonal_hub.joe
 position = -0.85, 1.12, -0.27			# track +-Y = 1669/2
-hinge = 0.50, 0.90, -0.20
 camber = -1.0
 caster = 6.12
 toe = -0.2
 ackermann = 8.96	# 50% ackermann
 steering = 33
 
-[wheel.fr.tire]
-texture = touring.png
-size = 215,45,18
-type = tire-competition
-
 [wheel.fr]
 texture = wheel/pentagonal_hub.png
 mesh = wheel/pentagonal_hub.joe
-scale = -1,1,1
+scale = -1, 1, 1
 position = 0.85, 1.12, -0.27
-hinge = -0.50, 0.90, -0.20
 camber = 1.0
 caster = 6.12
 toe = 0.2
 ackermann = -8.96
 steering = 33
 
-#---------- R E A R
-
-[wheel.rl.tire]
-texture = touring.png
-size = 275,40,18
-type = tire-competition
-
 [wheel.rl]
 texture = wheel/pentagonal_hub.png
 mesh = wheel/pentagonal_hub.joe
 position = -0.8085, -1.51, -0.28		# track +-Y = 1617/2
-hinge = 1.00 , -0.0, -0.0
 camber = -0.45
 caster = 0.28
 toe = -0.1
 
-[wheel.rr.tire]
-texture = touring.png
-size = 275,40,18
-type = tire-competition
-
 [wheel.rr]
 texture = wheel/pentagonal_hub.png
 mesh = wheel/pentagonal_hub.joe
-scale = -1,1,1
+scale = -1, 1, 1
 position = 0.8085, -1.51, -0.28
-hinge = -1.00 , 0.0, -0.0
 camber = 0.45
 caster = 0.28
 toe = 0.1
@@ -326,46 +334,46 @@ draw = emissive
 
 # these are used to calculate the weight distribution and balance
 
-[particle-00]	# Chassis Front
+[particle.00]# Chassis Front
 mass = 130
 position = 0.0, 1.5, -0.15
 
-[particle-01]	#	Cooler front
+[particle.01]#	Cooler front
 mass = 100
 position = -0.0, 1.5, -0.25
 
-[particle-02]	#	Chassis left
+[particle.02]#	Chassis left
 mass = 160
 position = 0.75, 0, -0.10
 
-[particle-03]	#	Chassis right
+[particle.03]#	Chassis right
 mass = 160
-position = -0.75, 0, -0.10 
+position = -0.75, 0, -0.10
 
-[particle-04]	#	Motor Env. left
+[particle.04]#	Motor Env. left
 mass = 60
 position = 0.7, -1.10, -0.0
 
-[particle-05]		# Motor Env. right
+[particle.05]# Motor Env. right
 mass = 60
 position = -0.7, -1.10, -0.0
 
-[particle-06]		# Interieur
+[particle.06]# Interieur
 mass = 120
 position = 0.00, 0.60, -0.10
 
-[particle-07]		# Chassis top
+[particle.07]# Chassis top
 mass = 80
 position = 0.00, -0.30, 0.30
 
-[particle-08]		# Joker
+[particle.08]# Joker
 mass = 60
 position = -0.00, 1.0, -0.20
 
-[particle-09]		# gearbox
+[particle.09]# gearbox
 mass = 50.0
 position = 0.00, -1.75, -0.25
 
-[particle-10]		# Chassis rear
+[particle.10]# Chassis rear
 mass = 80.0
 position = 0.00, -1.80, -0.0

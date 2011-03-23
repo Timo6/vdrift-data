@@ -26,7 +26,7 @@
 include ../../carparts/slick
 
 [engine]
-position = 0.0, -0.50,  -0.24
+position = 0.0, -0.50, -0.24
 mass = 140.0
 max-power = 633844
 peak-engine-rpm = 10500.0
@@ -70,7 +70,7 @@ shift-delay = 0.15
 shift-time = 0.15
 
 [differential-rear]
-final-drive = 2.2   # max ca 300 km/h (final-drive = 3.7)
+final-drive = 2.2	# max ca 300 km/h (final-drive = 3.7)
 anti-slip = 300.0
 
 #[fuel-tank]
@@ -174,29 +174,44 @@ handbrake = 1.0
 
 [wheel.fl.tire]
 texture = touring.png
-size = 245,30,10
+size = 245, 30, 10
 type = tire-slick
 
 [wheel.fr.tire]
 texture = touring.png
-size = 245,30,10
+size = 245, 30, 10
 type = tire-slick
 
 [wheel.rl.tire]
 texture = touring.png
-size = 475,35,13
+size = 475, 35, 13
 type = tire-slick
 
 [wheel.rr.tire]
 texture = touring.png
-size = 475,35,13
+size = 475, 35, 13
 type = tire-slick
+
+[wheel.fl.hinge]
+wheel = -0.73, 1.48, -0.51
+chassis = 0, 0, 0
+
+[wheel.fr.hinge]
+wheel = 0.73, 1.48, -0.51
+chassis = 0, 0, 0
+
+[wheel.rl.hinge]
+wheel = -0.73, -1.12, -0.40
+chassis = 0, -1.0, 0
+
+[wheel.rr.hinge]
+wheel = 0.73, -1.12, -0.40
+chassis = 0, -1.0, 0
 
 [wheel.fl]
 texture = oem_wheel.png
 mesh = oem_wheel.joe
 position = -0.73, 1.48, -0.51
-hinge = 0,0,0
 camber = -1.33
 caster = 0.12
 toe = -0.9
@@ -206,9 +221,8 @@ steering = 35
 [wheel.fr]
 texture = oem_wheel.png
 mesh = oem_wheel.joe
-scale = -1,1,1
+scale = -1, 1, 1
 position = 0.73, 1.48, -0.51
-hinge = 0,0,0
 camber = 1.33
 caster = 0.12
 toe = 0.9
@@ -219,7 +233,6 @@ steering = 35
 texture = oem_wheel_rear.png
 mesh = oem_wheel_rear.joe
 position = -0.73, -1.12, -0.40
-hinge = 0,-1.0,0
 camber = -0.45
 caster = 0.28
 toe = 0.0
@@ -227,9 +240,8 @@ toe = 0.0
 [wheel.rr]
 texture = oem_wheel_rear.png
 mesh = oem_wheel_rear.joe
-scale = -1,1,1
+scale = -1, 1, 1
 position = 0.73, -1.12, -0.40
-hinge = 0,-1.0,0
 camber = 0.45
 caster = 0.28
 toe = 0.0
@@ -252,57 +264,57 @@ texture = body00.png
 mesh = body.joe
 
 # these are used to calculate the weight distribution and balance
-[particle-00]
+[particle.00]
 # Front-Wing/Nose
 mass = 25.0
 position = 0.0, -1.60, -0.47
 
-[particle-01]
+[particle.01]
 # Chassis
 mass = 90.0
 position = 0.0, 0.60, -0.47
 
-[particle-02]
+[particle.02]
 # Cooler left
 mass = 20.0
 position = 0.5, -0.6, 0.09
 
-[particle-03]
+[particle.03]
 # Cooler right
 mass = 20.0
 position = -0.5, -0.6, 0.09
 
-[particle-04]
+[particle.04]
 # Exhaust left
 mass = 100.0
 position = 0.45, 0.8, -0.13
 
-[particle-05]
+[particle.05]
 # Exhaust right
 mass = 100.0
 position = -0.45, 0.8, -0.13
 
-[particle-06]
+[particle.06]
 # Covering rear
 mass = 0.0
 position = -0.45, 0.8, -0.13
 
-[particle-07]
+[particle.07]
 # Ballast
 mass = 0.0
 position = -0.45, 0.8, -0.13
 
-[particle-08]
+[particle.08]
 # Reserve
 mass = 0.0
 position = -0.45, 0.8, -0.13
 
-[particle-09]
+[particle.09]
 # Gearbox
 mass = 40.0
 position = 0, 1.5, -0.55
 
-[particle-10]
+[particle.10]
 # Rear-Wing/Diffusor
 mass = 25.0
 position = 0, -1.8, -0.13

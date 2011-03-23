@@ -229,11 +229,26 @@ lower-chassis-rear = 0.34, -1.38, -0.5
 lower-chassis-front = 0.34, -1.1, -0.5
 lower-hub = 0.755, -1.33, -0.55
 
+[wheel.fl.hinge]
+wheel = -0.736, 1.14, -0.47
+chassis = 0.0, 0.99, -0.55
+
+[wheel.fr.hinge]
+wheel = 0.736, 1.14, -0.47
+chassis = 0.0, 0.99, -0.55
+
+[wheel.rl.hinge]
+wheel = -0.755, -1.26, -0.48
+chassis = 0.0, -1.24, -0.5
+
+[wheel.rr.hinge]
+wheel = 0.755, -1.26, -0.48
+chassis = 0.0, -1.24, -0.5
+
 [wheel.fl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 position = -0.736, 1.14, -0.47	#track front/rear 1471/1509
-hinge = 0.0, 0.99, -0.55 # fallback, double-wishbone broken
 camber = 0.5
 caster = 6.0
 toe = -0.16
@@ -245,7 +260,6 @@ texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 scale = -1,1,1
 position = 0.736, 1.14, -0.47
-hinge = 0.0, 0.99, -0.55 # fallback, double-wishbone broken
 camber = -0.5
 caster = 6.0
 toe = 0.16
@@ -256,7 +270,6 @@ steering = 30
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 position = -0.755, -1.26, -0.48
-hinge = 0.0, -1.24, -0.5 # fallback, double-wishbone broken
 camber = -1.5
 caster = 0.0
 toe = -0.5
@@ -266,7 +279,6 @@ texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 scale = -1,1,1
 position = 0.755, -1.26, -0.48
-hinge = 0.0, -1.24, -0.5 # fallback, double-wishbone broken
 camber = 1.5
 caster = 0.0
 toe = 0.5
@@ -319,26 +331,26 @@ color = 0.8, 0.1, 0.1
 radius = 1.5
 
 # these are used to calculate the weight distribution and balance
-[particle-00]
+[particle.00]
 mass = 30.0
 position = 0.0, -1.28, -0.36
 
-[particle-01]
+[particle.01]
 mass = 60.0
 position = 0.0, 0.11, -0.36
 
-[particle-02]
+[particle.02]
 mass = 235.0
 position = -0.39, -1.5, -0.2
 
-[particle-03]
+[particle.03]
 mass = 235.0
 position = 0.39, -1.5, -0.2
 
-[particle-04]
+[particle.04]
 mass = 220.0
 position = -0.39, 1.3, -0.25
 
-[particle-05]
+[particle.05]
 mass = 220.0
 position = 0.39, 1.3, -0.25

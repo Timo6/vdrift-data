@@ -12,7 +12,7 @@ start-rpm = 1000
 stall-rpm = 350
 fuel-consumption = 1e-9
 torque-friction = 0.0013
-torque-curve-00 = 0, 
+torque-curve-00 = 0,
 torque-curve-01 = 2000, 264
 torque-curve-02 = 2600, 257
 torque-curve-03 = 3200, 278
@@ -171,29 +171,44 @@ handbrake = 1.0
 
 [wheel.fl.tire]
 texture = touring.png
-size = 275,55,15
+size = 275, 55, 15
 type = tire-touring
 
 [wheel.fr.tire]
 texture = touring.png
-size = 275,55,15
+size = 275, 55, 15
 type = tire-touring
 
 [wheel.rl.tire]
 texture = touring.png
-size = 275,55,15
+size = 275, 55, 15
 type = tire-touring
 
 [wheel.rr.tire]
 texture = touring.png
-size = 275,55,15
+size = 275, 55, 15
 type = tire-touring
+
+[wheel.fl.hinge]
+wheel = -0.70, 1.2, -0.247
+chassis = 0, 0, -0.3
+
+[wheel.fr.hinge]
+wheel = 0.70, 1.2, -0.247
+chassis = 0, 0, -0.3
+
+[wheel.rl.hinge]
+wheel = -0.75, -1.28, -0.3
+chassis = 0, -2.4, -0.3
+
+[wheel.rr.hinge]
+wheel = 0.75, -1.28, -0.3
+chassis = 0, -2.4, -0.3
 
 [wheel.fl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 position = -0.70, 1.2, -0.247	# front track 1410 mm
-hinge = 0,0,-.3
 camber = -1.33
 caster = 6.12
 toe = 0.0
@@ -203,9 +218,8 @@ steering = 20
 [wheel.fr]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
-scale = -1,1,1
+scale = -1, 1, 1
 position = 0.70, 1.2, -0.247
-hinge = 0, 0, -0.3
 camber = 1.33
 caster = 6.12
 toe = 0.0
@@ -216,7 +230,6 @@ steering = 20
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 position = -0.75, -1.28, -0.3	# rear track 1540 mm
-hinge = 0,-2.4,-.3
 camber = -0.45
 caster = 0.28
 toe = 0.0
@@ -224,9 +237,8 @@ toe = 0.0
 [wheel.rr]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
-scale = -1,1,1
+scale = -1, 1, 1
 position = 0.75, -1.28, -0.3
-hinge = 0,-2.4,-.3
 camber = 0.45
 caster = 0.28
 toe = 0.0
@@ -268,26 +280,26 @@ mesh = body.joe
 draw = emissive
 
 # these are used to calculate the weight distribution and balance
-[particle-00]
+[particle.00]
 mass = 30.0
 position = 0.0, -1.28, -0.36
 
-[particle-01]
+[particle.01]
 mass = 60.0
 position = 0.0, 0.11, -0.36
 
-[particle-02]
+[particle.02]
 mass = 235.0
 position = -0.39, -1.7, 0.0
 
-[particle-03]
+[particle.03]
 mass = 235.0
 position = 0.39, -1.7, 0.0
 
-[particle-04]
+[particle.04]
 mass = 195.0
 position = -0.39, 1.32, -0.07
 
-[particle-05]
+[particle.05]
 mass = 195.0
 position = 0.39, 1.32, -0.07

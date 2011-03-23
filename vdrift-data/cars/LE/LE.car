@@ -166,22 +166,22 @@ handbrake = 1.0
 
 [wheel.fl.tire]
 texture = touring.png
-size = 175,55,16
+size = 175, 55, 16
 type = tire-touring
 
 [wheel.fr.tire]
 texture = touring.png
-size = 175,55,16
+size = 175, 55, 16
 type = tire-touring
 
 [wheel.rl.tire]
 texture = touring.png
-size = 225,45,17
+size = 225, 45, 17
 type = tire-touring
 
 [wheel.rr.tire]
 texture = touring.png
-size = 225,45,17
+size = 225, 45, 17
 type = tire-touring
 
 [wheel.fl.double-wishbone]
@@ -216,11 +216,26 @@ lower-chassis-rear = 0.32, -1.4, -0.60
 lower-chassis-front = 0.32, -0.8, -0.60
 lower-hub = 0.70, -1.15, -0.60
 
+[wheel.fl.hinge]
+wheel = -0.706, 1.108, -0.460
+chassis = 0.0, 1.07, -0.60
+
+[wheel.fr.hinge]
+wheel = 0.706, 1.108, -0.460
+chassis = 0.0, 1.07, -0.60
+
+[wheel.rl.hinge]
+wheel = -0.730, -1.183, -0.480
+chassis = 0.0, -1.1, -0.60
+
+[wheel.rr.hinge]
+wheel = 0.730, -1.183, -0.480
+chassis = 0.0, -1.1, -0.60
+
 [wheel.fl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 position = -0.706, 1.108, -0.460
-hinge = 0.0, 1.07, -0.60 # fallback, double-wishbone broken
 camber = -0.1
 caster = 3.8
 toe = 0.0
@@ -230,9 +245,8 @@ steering = 30
 [wheel.fr]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
-scale = -1,1,1
+scale = -1, 1, 1
 position = 0.706, 1.108, -0.460
-hinge = 0.0, 1.07, -0.60
 camber = 0.1
 caster = 3.8
 toe = 0.0
@@ -243,7 +257,6 @@ steering = 30
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 position = -0.730, -1.183, -0.480
-hinge = 0.0, -1.1, -0.60
 camber = -1.8
 caster = 0.
 toe = -0.18 # toe-in
@@ -251,35 +264,34 @@ toe = -0.18 # toe-in
 [wheel.rr]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
-scale = -1,1,1
+scale = -1, 1, 1
 position = 0.730, -1.183, -0.480
-hinge = 0.0, -1.1, -0.60
 camber = 1.8
 caster = 0.0
 toe = 0.18
 
 # these are used to calculate the weight distribution and balance
-[particle-00]
+[particle.00]
 mass = 30.0
 position = 0.0, -1.28, -0.26
 
-[particle-01]
+[particle.01]
 mass = 60.0
 position = 0.0, 0.11, -0.26
 
-[particle-02]
+[particle.02]
 mass = 116.0
 position = -0.39, -1.7, -0.28
 
-[particle-03]
+[particle.03]
 mass = 116.0
 position = 0.39, -1.7, -0.28
 
-[particle-04]
+[particle.04]
 mass = 166.0
 position = -0.39, 1.32, -0.28
 
-[particle-05]
+[particle.05]
 mass = 166.0
 position = 0.39, 1.32, -0.28
 
@@ -312,14 +324,14 @@ draw = transparent
 [seat_driver]
 texture = seat.png
 mesh = seat.joe
-position = 0.292,-0.256,-0.313
+position = 0.292, -0.256, -0.313
 #rotation = 0,0,0
 #color = 1,1,1,1
 
 [seat_passenger]
 texture = seat.png
 mesh = seat.joe
-position = -0.292,-0.256,-0.313
+position = -0.292, -0.256, -0.313
 #rotation = 0,0,0
 #color = 1,1,1,1
 
@@ -347,7 +359,7 @@ mesh = side_mirror_rr.joe
 [side_mirror_l]
 texture = side_mirror.png, side_mirror-misc1.png
 mesh = side_mirror_rr.joe
-scale = -1,1,1
+scale = -1, 1, 1
 #position = 0,0,0
 #rotation = 0,0,0
 #color = 1,1,1,1
@@ -363,15 +375,15 @@ scale = -1,1,1
 [foglight.r]
 texture = foglight.png
 mesh = foglight.joe
-position = 0.288,1.819,-0.390
-rotation = 0,0,0
-color = 1,1,1,1
+position = 0.288, 1.819, -0.390
+rotation = 0, 0, 0
+color = 1, 1, 1, 1
 draw = transparent
 
 [foglight.l]
 texture = foglight.png
 mesh = foglight.joe
-position = -0.288,1.819,-0.390
-rotation = 0,0,0
-color = 1,1,1,1
+position = -0.288, 1.819, -0.390
+rotation = 0, 0, 0
+color = 1, 1, 1, 1
 draw = transparent

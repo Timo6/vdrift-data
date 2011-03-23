@@ -151,29 +151,44 @@ handbrake = 1.0
 
 [wheel.fl.tire]
 texture = touring.png
-size = 225,50,17
+size = 225, 50, 17
 type = tire-touring
 
 [wheel.fr.tire]
 texture = touring.png
-size = 225,50,17
+size = 225, 50, 17
 type = tire-touring
 
 [wheel.rl.tire]
 texture = touring.png
-size = 225,50,17
+size = 225, 50, 17
 type = tire-touring
 
 [wheel.rr.tire]
 texture = touring.png
-size = 225,50,17
+size = 225, 50, 17
 type = tire-touring
+
+[wheel.fl.hinge]
+wheel = -0.82, 1.37, -0.45
+chassis = 0, 0, 0
+
+[wheel.fr.hinge]
+wheel = 0.82, 1.37, -0.45
+chassis = 0, 0, 0
+
+[wheel.rl.hinge]
+wheel = -0.84, -1.37, -0.45
+chassis = 0.0, -0.6, 0.0
+
+[wheel.rr.hinge]
+wheel = 0.84, -1.37, -0.45
+chassis = 0.0, -0.6, 0.0
 
 [wheel.fl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 position = -0.82, 1.37, -0.45	#-0.74, 1.37, -0.45
-hinge = 0,0,0
 camber = -1.0
 caster = 0.0
 toe = -0.5
@@ -185,7 +200,6 @@ texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 scale = -1,1,1
 position = 0.82, 1.37, -0.45	#0.74, 1.37, -0.45
-hinge = 0,0,0
 camber = 1.0
 caster = 0.0
 toe = 0.5
@@ -196,7 +210,6 @@ steering = 30
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 position = -0.84, -1.37, -0.45	#-0.74, -1.37, -0.45
-hinge = 0.0, -0.6, 0.0
 camber = -0.5
 caster = 0.0
 toe = 1.0
@@ -204,9 +217,8 @@ toe = 1.0
 [wheel.rr]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
-scale = -1,1,1
+scale = -1, 1, 1
 position = 0.84, -1.37, -0.45	#0.74, -1.37, -0.45
-hinge = 0.0, -0.6, 0.0
 camber = 0.5
 caster = 0.0
 toe = -1.0
@@ -248,22 +260,22 @@ mesh = body.joe
 draw = emissive
 
 # these are used to calculate the weight distribution and balance
-[particle-00]
+[particle.00]
 mass = 65.0
 position = 0.0, 1.008, -0.45
 
-[particle-01]
+[particle.01]
 mass = 192.5
 position = 0.4, -1.48, 0.1
 
-[particle-02]
+[particle.02]
 mass = 192.5
 position = -0.4, -1.48, 0.1
 
-[particle-03]
+[particle.03]
 mass = 368.0
 position = 0.4, 1.08, 0.0
 
-[particle-04]
+[particle.04]
 mass = 368.0
 position = -0.4, 1.08, 0.0
