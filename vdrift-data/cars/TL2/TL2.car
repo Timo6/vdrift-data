@@ -162,11 +162,26 @@ texture = touring.png
 size = 185,60,14
 type = tire-touring
 
+[wheel.fl.hinge]
+wheel = -0.673, 1.16, -0.43
+chassis = 0.0, 1.21, -0.47
+
+[wheel.fr.hinge]
+wheel = 0.673, 1.16, -0.43
+chassis = 0.0, 1.21, -0.47
+
+[wheel.rl.hinge]
+wheel = -0.703, -1.12, -0.46
+chassis = -0.5, -1.20, -0.47
+
+[wheel.rr.hinge]
+wheel = 0.703, -1.12, -0.46
+chassis = -0.5, -1.20, -0.47
+
 [wheel.fl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 position = -0.723, 1.21, -0.43	#front track 1445mm
-hinge = 0.0, 1.21, -0.47
 camber = -0.5
 caster = 0.00
 toe = 0.0
@@ -178,7 +193,6 @@ texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 scale = -1,1,1
 position = 0.723, 1.21, -0.43
-hinge = 0.0, 1.21, -0.47
 camber = 0.5
 caster = 0.00
 toe = 0.0
@@ -189,7 +203,6 @@ steering = 40
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 position = -0.713, -1.20, -0.46	#rear track 1425mm
-hinge = -0.5, -1.20, -0.47
 camber = 0.00
 caster = 0.00
 toe = -0.2
@@ -199,7 +212,6 @@ texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 scale = -1,1,1
 position = 0.713, -1.20, -0.46
-hinge = -0.5, -1.20, -0.47
 camber = 0.00
 caster = 0.00
 toe = 0.2
@@ -242,26 +254,26 @@ draw = emissive
 
 # these are used to calculate the weight distribution and balance
 # weight distribution: 53:47 (%) front:rear
-[particle-00]
+[particle.00]
 mass = 20.0
 position = 0.0, -1.28, -0.36
 
-[particle-01]
+[particle.01]
 mass = 40.0
 position = 0.0, 0.11, -0.36
 
-[particle-02]
+[particle.02]
 mass = 142.0
 position =  0.39, -1.30, -0.2
 
-[particle-03]
+[particle.03]
 mass = 142.0
 position = -0.39, -1.30, -0.2
 
-[particle-04]
+[particle.04]
 mass = 140.0
 position =  0.39, 1.32, -0.2
 
-[particle-05]
+[particle.05]
 mass = 140.0
 position = -0.39, 1.32, -0.2

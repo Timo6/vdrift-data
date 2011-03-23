@@ -40,7 +40,7 @@ gear-ratio-2 = 2.14
 gear-ratio-3 = 1.72
 gear-ratio-4 = 1.40
 gear-ratio-5 = 1.19
-shift-delay=0.6
+shift-delay = 0.6
 
 [differential-front]
 final-drive = 3.85
@@ -137,29 +137,44 @@ hood-mounted-view-position = 0.0, 0.7, 0.35
 
 [wheel.fl.tire]
 texture = touring.png
-size = 155,75,13
+size = 155, 75, 13
 type = tire-touring
 
 [wheel.fr.tire]
 texture = touring.png
-size = 155,75,13
+size = 155, 75, 13
 type = tire-touring
 
 [wheel.rl.tire]
 texture = touring.png
-size = 155,75,13
+size = 155, 75, 13
 type = tire-touring
 
 [wheel.rr.tire]
 texture = touring.png
-size = 155,75,13
+size = 155, 75, 13
 type = tire-touring
+
+[wheel.fl.hinge]
+wheel = -0.67, 1.27, -0.48
+chassis = 0.71, 0.55, 0.0
+
+[wheel.fr.hinge]
+wheel = 0.67, 1.27, -0.48
+chassis = -0.71, 0.55, -0.0
+
+[wheel.rl.hinge]
+wheel = -0.67, -1.28, -0.52
+chassis = 0.25, -1.94, 0.0
+
+[wheel.rr.hinge]
+wheel = 0.67, -1.28, -0.52
+chassis = -0.25, -1.94, 0.0
 
 [wheel.fl]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 position = -0.67, 1.27, -0.48
-hinge = 0.71, 0.55, 0.0
 camber = -1.33
 caster = 6.12
 toe = 0.0
@@ -169,9 +184,8 @@ steering = 33
 [wheel.fr]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
-scale = -1,1,1
+scale = -1, 1, 1
 position = 0.67, 1.27, -0.48
-hinge = -0.71, 0.55, -0.0
 camber = 1.33
 caster = 6.12
 toe = 0.0
@@ -182,7 +196,6 @@ steering = 33
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 position = -0.67, -1.28, -0.52
-hinge = 0.25, -1.94, 0.0
 camber = -0.45
 caster = 0.28
 toe = -0.2
@@ -190,9 +203,8 @@ toe = -0.2
 [wheel.rr]
 texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
-scale = -1,1,1
+scale = -1, 1, 1
 position = 0.67, -1.28, -0.52
-hinge = -0.25, -1.94, 0.0
 camber = 0.45
 caster = 0.28
 toe = 0.2
@@ -229,34 +241,34 @@ mesh = body.joe
 draw = emissive
 
 # these are used to calculate the weight distribution and balance
-[particle-00]
+[particle.00]
 mass = 122
 position = 1.11, -2.3, -0.22
 
-[particle-01]
+[particle.01]
 mass = 122
 position = -1.11, -2.3, -0.22
 
-[particle-02]
+[particle.02]
 mass = 92
 position = 1.11, 2.3, -0.22
 
-[particle-03]
+[particle.03]
 mass = 92
 position = -1.11, 2.3, -0.22
 
-[particle-04]
+[particle.04]
 mass = 33
 position = 1.11, -2.32, -0.62
 
-[particle-05]
+[particle.05]
 mass = 33
 position = -1.11, -2.32, -0.62
 
-[particle-06]
+[particle.06]
 mass = 33
 position = 1.11, 2.32, -0.62
 
-[particle-07]
+[particle.07]
 mass = 33
 position = -1.11, 2.32, -0.62

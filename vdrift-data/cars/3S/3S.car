@@ -3,7 +3,6 @@ include ../../carparts/touring
 [engine]
 position = 0.0, 1.4, -0.1
 mass = 200.0
-#max-power = 1.193e5
 max-power = 119360
 peak-engine-rpm = 6500
 rpm-limit = 8000.0
@@ -41,7 +40,7 @@ gear-ratio-2 = 1.84
 gear-ratio-3 = 1.31
 gear-ratio-4 = 0.97
 gear-ratio-5 = 0.76
-shift-delay=0.25
+shift-delay = 0.25
 
 [differential-front]
 final-drive = 4.11
@@ -142,29 +141,44 @@ handbrake = 1.0
 
 [wheel.fl.tire]
 texture = touring.png
-size = 205,50,17
+size = 205, 50, 17
 type = tire-touring
 
 [wheel.fr.tire]
 texture = touring.png
-size = 205,50,17
+size = 205, 50, 17
 type = tire-touring
 
 [wheel.rl.tire]
 texture = touring.png
-size = 205,50,17
+size = 205, 50, 17
 type = tire-touring
 
 [wheel.rr.tire]
 texture = touring.png
-size = 205,50,17
+size = 205, 50, 17
 type = tire-touring
+
+[wheel.fl.hinge]
+wheel = -0.73, 1.28, -0.48
+chassis = 0.71, 0.55, 0.0
+
+[wheel.fr.hinge]
+wheel = 0.73, 1.28, -0.48
+chassis = -0.71, 0.55, -0.0
+
+[wheel.rl.hinge]
+wheel = -0.73, -1.31, -0.49
+chassis = 0.25, -1.94, 0.0
+
+[wheel.rr.hinge]
+wheel = 0.73, -1.31, -0.49
+chassis = -0.25, -1.94, 0.0
 
 [wheel.fl]
 texture = wheel/5_spoke_m.png
 mesh = wheel/5_spoke_m.joe
 position = -0.73, 1.28, -0.48
-hinge = 0.71, 0.55, 0.0
 camber = -1.33
 caster = 6.12
 toe = 0
@@ -174,9 +188,8 @@ steering = 33
 [wheel.fr]
 texture = wheel/5_spoke_m.png
 mesh = wheel/5_spoke_m.joe
-scale = -1,1,1
+scale = -1, 1, 1
 position = 0.73, 1.28, -0.48
-hinge = -0.71, 0.55, -0.0
 camber = 1.33
 caster = 6.12
 toe = 0
@@ -187,7 +200,6 @@ steering = 33
 texture = wheel/5_spoke_m.png
 mesh = wheel/5_spoke_m.joe
 position = -0.73, -1.31, -0.49
-hinge = 0.25, -1.94, 0.0
 camber = -0.45
 caster = 0.28
 toe = -0.2
@@ -195,9 +207,8 @@ toe = -0.2
 [wheel.rr]
 texture = wheel/5_spoke_m.png
 mesh = wheel/5_spoke_m.joe
-scale = -1,1,1
+scale = -1, 1, 1
 position = 0.73, -1.31, -0.49
-hinge = -0.25, -1.94, 0.0
 camber = 0.45
 caster = 0.28
 toe = 0.2
@@ -239,34 +250,34 @@ mesh = body.joe
 draw = emissive
 
 # these are used to calculate the weight distribution and balance
-[particle-00]
+[particle.00]
 mass = 219
 position = 1.11, -2.3, -0.22
 
-[particle-01]
+[particle.01]
 mass = 219
 position = -1.11, -2.3, -0.22
 
-[particle-02]
+[particle.02]
 mass = 195
 position = 1.11, 2.3, -0.22
 
-[particle-03]
+[particle.03]
 mass = 195
 position = -1.11, 2.3, -0.22
 
-[particle-04]
+[particle.04]
 mass = 33
 position = 1.11, -2.32, -0.62
 
-[particle-05]
+[particle.05]
 mass = 33
 position = 1.11, 2.32, -0.62
 
-[particle-06]
+[particle.06]
 mass = 33
 position = -1.11, -2.32, -0.62
 
-[particle-07]
+[particle.07]
 mass = 33
 position = -1.11, 2.32, -0.62

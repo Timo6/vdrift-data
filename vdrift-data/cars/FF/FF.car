@@ -3,7 +3,7 @@ include ../../carparts/slick
 [engine]
 position = 0.15, -1.10, -0.45
 mass = 84.0
-max-power = 85755 
+max-power = 85755
 peak-engine-rpm = 7000.0
 rpm-limit = 7800
 inertia = 0.1
@@ -35,7 +35,7 @@ max-pressure = 10000.00
 
 [transmission]
 gears = 4
-gear-ratio-r = -4.5 
+gear-ratio-r = -4.5
 gear-ratio-1 = 2.8
 gear-ratio-2 = 1.7
 gear-ratio-3 = 1.35
@@ -121,29 +121,44 @@ handbrake = 1.5
 
 [wheel.fl.tire]
 texture = touring.png
-size = 185,55,13
+size = 185, 55, 13
 type = tire-slick
 
 [wheel.fr.tire]
 texture = touring.png
-size = 185,55,13
+size = 185, 55, 13
 type = tire-slick
 
 [wheel.rl.tire]
 texture = touring.png
-size = 185,55,13
+size = 185, 55, 13
 type = tire-slick
 
 [wheel.rr.tire]
 texture = touring.png
-size = 185,55,13
+size = 185, 55, 13
 type = tire-slick
+
+[wheel.fl.hinge]
+wheel = -0.74, 1.20, -0.48
+chassis = 0, 0, 0
+
+[wheel.fr.hinge]
+wheel = 0.74, 1.20, -0.48
+chassis = 0, 0, 0
+
+[wheel.rl.hinge]
+wheel = -0.74, -1.18, -0.48
+chassis = 0, 0, 0
+
+[wheel.rr.hinge]
+wheel = 0.74, -1.18, -0.48
+chassis = 0, 0, 0
 
 [wheel.fl]
 texture = wheel/5_spoke_m.png
 mesh = wheel/5_spoke_m.joe
 position = -0.74, 1.20, -0.48
-hinge = 0,0,0
 camber = -1.0
 caster = 0.0
 toe = 0.5
@@ -153,9 +168,8 @@ steering = 20
 [wheel.fr]
 texture = wheel/5_spoke_m.png
 mesh = wheel/5_spoke_m.joe
-scale = -1,1,1
+scale = -1, 1, 1
 position = 0.74, 1.20, -0.48
-hinge = 0,0,0
 camber = 1.0
 caster = 0.0
 toe = -0.5
@@ -166,7 +180,6 @@ steering = 20
 texture = wheel/5_spoke_m.png
 mesh = wheel/5_spoke_m.joe
 position = -0.74, -1.18, -0.48
-hinge = 0,0,0
 camber = -0.5
 caster = 0.0
 toe = -1.0
@@ -174,9 +187,8 @@ toe = -1.0
 [wheel.rr]
 texture = wheel/5_spoke_m.png
 mesh = wheel/5_spoke_m.joe
-scale = -1,1,1
+scale = -1, 1, 1
 position = 0.74, -1.18, -0.48
-hinge = 0,0,0
 camber = 0.5
 caster = 0.0
 toe = 1.0
@@ -204,22 +216,22 @@ mesh = interior.joe
 
 # these are used to calculate the weight distribution and balance
 # car median -0.4 z-axis
-[particle-00]
+[particle.00]
 mass = 17.0
 position = 0.1, 0.5, -0.45
 
-[particle-01]
+[particle.01]
 mass = 35.0
 position = 0.4, -1.06, -0.4
 
-[particle-02]
+[particle.02]
 mass = 35.0
 position = -0.4, -1.06, -0.4
 
-[particle-03]
+[particle.03]
 mass = 56.0
 position = 0.4, 1.35, -0.4
 
-[particle-04]
+[particle.04]
 mass = 56.0
 position = -0.4, 1.35, -0.4

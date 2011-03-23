@@ -144,29 +144,44 @@ handbrake = 1.0
 
 [wheel.fl.tire]
 texture = touring.png
-size = 325,30,18
+size = 325, 30, 18
 type = tire-slick
 
 [wheel.fr.tire]
 texture = touring.png
-size = 325,30,18
+size = 325, 30, 18
 type = tire-slick
 
 [wheel.rl.tire]
 texture = touring.png
-size = 375,30,18
+size = 375, 30, 18
 type = tire-slick
 
 [wheel.rr.tire]
 texture = touring.png
-size = 375,30,18
+size = 375, 30, 18
 type = tire-slick
+
+[wheel.fl.hinge]
+wheel = -0.81, 1.46, -0.4
+chassis = 0, 0, 0
+
+[wheel.fr.hinge]
+wheel = 0.81, 1.46, -0.4
+chassis = 0, 0, 0
+
+[wheel.rl.hinge]
+wheel = -0.81, -1.3, -0.4
+chassis = 0, -1.0, 0
+
+[wheel.rr.hinge]
+wheel = 0.81, -1.3, -0.4
+chassis = 0, -1.0, 0
 
 [wheel.fl]
 texture = oem_wheel.png
 mesh = oem_wheel.joe
 position = -0.81, 1.46, -0.4
-hinge = 0,0,0
 camber = -1.33
 caster = 0.12
 toe = -0.9
@@ -176,9 +191,8 @@ steering = 27
 [wheel.fr]
 texture = oem_wheel.png
 mesh = oem_wheel.joe
-scale = -1,1,1
+scale = -1, 1, 1
 position = 0.81, 1.46, -0.4
-hinge = 0, 0, 0
 camber = 1.33
 caster = 0.12
 toe = 0.9
@@ -189,7 +203,6 @@ steering = 27
 texture = oem_wheel.png
 mesh = oem_wheel.joe
 position = -0.81, -1.3, -0.4
-hinge = 0, -1.0, 0
 camber = -0.45
 caster = 0.28
 toe = 0.0
@@ -197,9 +210,8 @@ toe = 0.0
 [wheel.rr]
 texture = oem_wheel.png
 mesh = oem_wheel.joe
-scale = -1,1,1
+scale = -1, 1, 1
 position = 0.81, -1.3, -0.4
-hinge = 0, -1.0, 0
 camber = 0.45
 caster = 0.28
 toe = 0.0
@@ -241,26 +253,26 @@ mesh = body.joe
 draw = emissive
 
 # these are used to calculate the weight distribution and balance
-[particle-00]
+[particle.00]
 mass = 25.0
 position = 0.0, -1.35, -0.47
 
-[particle-01]
+[particle.01]
 mass = 50.0
 position = 0.0, 0.96, -0.47
 
-[particle-02]
+[particle.02]
 mass = 140.0
 position = 0.5, -0.3, 0.09
 
-[particle-03]
+[particle.03]
 mass = 140.0
 position = -0.5, -0.3, 0.09
 
-[particle-04]
+[particle.04]
 mass = 143.0
 position = 0.45, 1.2, -0.13
 
-[particle-05]
+[particle.05]
 mass = 143.0
 position = -0.45, 1.2, -0.13
