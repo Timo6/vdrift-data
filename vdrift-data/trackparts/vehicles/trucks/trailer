@@ -1,4 +1,5 @@
 texture = trailer_red.png
 model = trailer.joe
 shape = trailer-coll.joe
+mass-center = 0.0, -4.5, 2.25
 mass = 3000
