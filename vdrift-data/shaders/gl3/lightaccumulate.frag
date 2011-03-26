@@ -136,7 +136,7 @@ void main(void)
 	vec3 cdiff = gbuf_diffuse_albedo.rgb; //diffuse reflectance
 	float carpaintMask = gbuf_diffuse_albedo.a; // 1 means this is carpaint
 	vec3 Rf0 = gbuf_material_properties.rgb; //fresnel reflectance value at zero degrees
-	float mpercent = gbuf_material_properties.a;
+	float mpercent = clamp(gbuf_material_properties.a,0.001,0.999);
 	float m = mpercent*mpercent*256.0; //micro-scale roughness
 	vec2 normal_spherical = vec2(unpackFloatFromVec2i(gbuf_normal_xy.xy),unpackFloatFromVec2i(gbuf_normal_xy.zw))*2.0-vec2(1.0,1.0);
 	vec3 normal = sphericalToXYZ(normal_spherical);
