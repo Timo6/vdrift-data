@@ -8113,20 +8113,9 @@ body = 927
 [node.928]
 body = 928
 
-[body.ambulance]
-texture = ambulanc.bmp.png
-model = ambulance.joe
-shape = ambulance_col.joe
-mass = 1200
-
-[node.ambulance]
-body = ambulance
-position = 107, -591, 42.5
-rotation = 0, 0, 25
-
 [node.trailer]
 body = vehicles/trucks/trailer
-position = 121, -585, 42
+position = 121, -585, 42.5
 rotation = 0, 0, 100
 
 #[body.trailer0]
@@ -8135,6 +8124,17 @@ rotation = 0, 0, 100
 
 #[node.trailer0]
 #body = trailer0
-#position = 121, -585, 42
+#position = 121, -585, 42.5
 #rotation = 0, 0, 100
+
+#[body.ambulance]
+#texture = ambulanc.bmp.png
+#model = ambulance.joe
+#shape = ambulance_col.joe
+#mass = 1200
+
+#[node.ambulance]
+#body = ambulance
+#position = 107, -591, 42.5
+#rotation = 0, 0, 25
 
