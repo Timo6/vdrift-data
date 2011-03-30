@@ -9,7 +9,7 @@ out vec4 outputColor;
 
 void main()
 {
-	vec4 texcolor = texture2D(diffuseSampler, uv.xy);
+	vec4 texcolor = texture(diffuseSampler, uv.xy);
 	texcolor.rgb *= colorTint.rgb;
 	float distanceFactor = texcolor.a;
 	
