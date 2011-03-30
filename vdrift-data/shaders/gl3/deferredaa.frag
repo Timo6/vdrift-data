@@ -18,7 +18,7 @@ float GetColorLuminance( vec3 color )
 
 void main(void)
 {
-	//color.rgb = texture2D(samplerScene, uv.xy).rgb;
+	//color.rgb = texture(samplerScene, uv.xy).rgb;
 	
 	vec2 filterStrength = vec2(strength);
 	vec2 maxNormal = vec2(maxNorm);
@@ -30,14 +30,14 @@ void main(void)
 	vec2 upOffset = vec2( 0.0, pixelViewport.y ) * filterStrength.x;
 	vec2 rightOffset = vec2( pixelViewport.x, 0.0 ) * filterStrength.x;
 
-	float topHeight = GetColorLuminance( texture2D( samplerScene, uv.xy+upOffset).rgb );
-	float bottomHeight = GetColorLuminance( texture2D( samplerScene, uv.xy-upOffset).rgb );
-	float rightHeight = GetColorLuminance( texture2D( samplerScene, uv.xy+rightOffset).rgb );
-	float leftHeight = GetColorLuminance( texture2D( samplerScene, uv.xy-rightOffset).rgb );
-	float leftTopHeight = GetColorLuminance( texture2D( samplerScene, uv.xy-rightOffset+upOffset).rgb );
-	float leftBottomHeight = GetColorLuminance( texture2D( samplerScene, uv.xy-rightOffset-upOffset).rgb );
-	float rightBottomHeight = GetColorLuminance( texture2D( samplerScene, uv.xy+rightOffset-upOffset).rgb );
-	float rightTopHeight = GetColorLuminance( texture2D( samplerScene, uv.xy+rightOffset+upOffset).rgb );
+	float topHeight = GetColorLuminance( texture( samplerScene, uv.xy+upOffset).rgb );
+	float bottomHeight = GetColorLuminance( texture( samplerScene, uv.xy-upOffset).rgb );
+	float rightHeight = GetColorLuminance( texture( samplerScene, uv.xy+rightOffset).rgb );
+	float leftHeight = GetColorLuminance( texture( samplerScene, uv.xy-rightOffset).rgb );
+	float leftTopHeight = GetColorLuminance( texture( samplerScene, uv.xy-rightOffset+upOffset).rgb );
+	float leftBottomHeight = GetColorLuminance( texture( samplerScene, uv.xy-rightOffset-upOffset).rgb );
+	float rightBottomHeight = GetColorLuminance( texture( samplerScene, uv.xy+rightOffset-upOffset).rgb );
+	float rightTopHeight = GetColorLuminance( texture( samplerScene, uv.xy+rightOffset+upOffset).rgb );
 	
 	// Normal map creation
 	/*float sum0 = rightTopHeight+ topHeight + rightBottomHeight;
@@ -62,11 +62,11 @@ void main(void)
 	
 	// Color
 	Normal.xy *= pixelViewport*toggleFilter;
-	vec4 Scene0 = texture2D( samplerScene, uv.xy );
-	vec4 Scene1 = texture2D( samplerScene, uv.xy + Normal.xy );
-	vec4 Scene2 = texture2D( samplerScene, uv.xy - Normal.xy );
-	vec4 Scene3 = texture2D( samplerScene, uv.xy + vec2(Normal.x, -Normal.y) );
-	vec4 Scene4 = texture2D( samplerScene, uv.xy - vec2(Normal.x, -Normal.y) );
+	vec4 Scene0 = texture( samplerScene, uv.xy );
+	vec4 Scene1 = texture( samplerScene, uv.xy + Normal.xy );
+	vec4 Scene2 = texture( samplerScene, uv.xy - Normal.xy );
+	vec4 Scene3 = texture( samplerScene, uv.xy + vec2(Normal.x, -Normal.y) );
+	vec4 Scene4 = texture( samplerScene, uv.xy - vec2(Normal.x, -Normal.y) );
 
 	// Final color
 	color.rgb = ((Scene0 + Scene1 + Scene2 + Scene3 + Scene4) * 0.2).rgb;

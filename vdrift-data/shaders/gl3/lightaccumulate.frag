@@ -18,6 +18,10 @@ uniform mat4 invProjectionMatrix;
 uniform mat4 invViewMatrix;
 uniform vec4 reflectedLightColor;
 
+#ifdef DIRECTIONAL
+uniform sampler2D shadowSampler;
+#endif
+
 in vec3 eyespacePosition;
 in vec3 uv;
 
@@ -193,6 +197,8 @@ void main(void)
 		reconstructedEyespacePosition.xyz /= reconstructedEyespacePosition.w;
 		vec3 V = -normalize(reconstructedEyespacePosition.xyz);
 		
+		float notShadow = texture(shadowSampler, screencoord).r;
+		
 		// the direct light itself
 		vec3 E_l = directionalLightColor.rgb;
 		vec3 light_direction = normalize(eyespaceLightDirection);
@@ -217,13 +223,22 @@ void main(void)
 		{
 			final = CommonBRDF(RealTimeRenderingBRDF(cdiff, m, Rf0, alpha_h, omega_h),E_l,omega_i);
 		}
+		final *= notShadow;
 		
-		//final = vec3(reconstructedEyespacePosition.y);
+		//final = vec3(reconstructedEyespacePosition);
 		//final = normalize(V);
 		//final = normalize(normalizedDevicePosition);
 		//final = vec3(gbuf_depth*2-1);
 		//final = vec3(V.y*.1);
 		//final = vec3(abs(normalize(eyespacePosition).z));
+		//final = vec3(notShadow);
+		//final = vec3(shadowMap1.x,shadowMap1.y,0);
+		//final = vec3(shadowLinearz1-shadowMap1.x,shadowMap1.x-shadowLinearz1,0);
+		//final = shadowMatrix1[0].xyz;
+		//final = vec3((shadowClipspacePosition.xy+vec2(1,1))*0.5*vec2(1,1),0);
+		//final = vec3(shadowClipspacePosition.xy,0);
+		//final = vec3(shadowLinearz1);
+		//final = shadowClipspacePosition.xyz;
 		
 		// throw the specular map lookup into this block since we've already calculated V
 		//final = texture(reflectionCubeSampler, (mat3(invViewMatrix)*normal.xyz).xzy).rgb;
@@ -261,9 +276,9 @@ void main(void)
 		final = texture(emissiveSampler, uv.xy).rgb*colorTint.rgb;
 	#endif
 	
-	/*#ifndef DIRECTIONAL
-		final *= 0;
-	#endif*/
+	#ifndef DIRECTIONAL
+		//final *= 0;
+	#endif
 	
 	// add source light
 	#ifdef USE_OUTPUTS

@@ -14,7 +14,7 @@ out vec4 outputColor;
 
 void main(void)
 {
-	vec4 diffuseTexture = texture2D(diffuseSampler, uv.xy);
+	vec4 diffuseTexture = texture(diffuseSampler, uv.xy);
 	
 	vec4 albedo;
 	
