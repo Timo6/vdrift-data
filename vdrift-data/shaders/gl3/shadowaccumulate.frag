@@ -58,7 +58,7 @@ void main(void)
 	vec2 shadowSampleUV = shadowClipspacePosition.xy*0.5+vec2(0.5,0.5);
 	vec4 shadowMap1 = texture(shadowSampler, shadowSampleUV);
 	
-	const float exponentialWarpConstant = 20;
+	const float exponentialWarpConstant = 42;
 	const float shadowBiasLinear = 0.00001;
 	const float shadowBias = exponentialWarpConstant*exp(exponentialWarpConstant*shadowBiasLinear);
 	//const float shadowBias = shadowBiasLinear;
