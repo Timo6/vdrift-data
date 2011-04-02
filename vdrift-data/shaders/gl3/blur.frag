@@ -1,7 +1,7 @@
 #version 330
 
 uniform sampler2D diffuseSampler;
-uniform vec2 viewportSize;
+uniform vec2 textureSize;
 
 in vec3 uv;
 
@@ -29,17 +29,18 @@ vec4 sample(vec2 uv, vec2 invViewportSize, float weight, float offset)
 
 //#define BOX
 //#define DISABLE
+//#undef BOX
 
 void main(void)
 {
-	vec2 invViewportSize = vec2(1,1)/viewportSize;
+	vec2 invViewportSize = vec2(1,1)/textureSize;
 	
 	vec4 final = vec4(0,0,0,0);
 	
 	#ifndef DISABLE
 		#ifdef BOX
 		{
-			const int taps = 9; // we actually end up sampling twice this due to linear texture filtering
+			const int taps = 5; // we get the effect of twice this due to linear texture filtering
 			
 			// sample in first direction (right/down)
 			for (int i = 0; i < taps/2+1; i++)
