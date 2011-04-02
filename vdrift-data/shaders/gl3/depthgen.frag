@@ -42,7 +42,7 @@ void main(void)
 	//albedo = vec4(computeMoments(linearz),0,1);
 	
 	// exponentially-warped VSM
-	const float exponentialWarpConstant = 20;
+	const float exponentialWarpConstant = 42;
 	float warpedz = exp(linearz*exponentialWarpConstant);
 	albedo = vec4(computeMoments(warpedz),0,1);
 	
