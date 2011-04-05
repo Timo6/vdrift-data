@@ -1,5192 +1,5192 @@
-[body.0]
+[object.0.body]
 model = ambula01.dof-00.joe
 texture = ambulanc.bmp.png
 
-[body.1]
+[object.1.body]
 model = ambula02.dof-00.joe
 texture = ambulanc.bmp.png
 
-[body.2]
+[object.2.body]
 model = ambula05.dof-00.joe
 texture = ambulanc.bmp.png
 
-[body.3]
+[object.3.body]
 model = ambula06.dof-00.joe
 texture = ambulanc.bmp.png
 
-[body.4]
+[object.4.body]
 model = bell.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.5]
+[object.5.body]
 model = bell.dof-01.joe
 texture = bell.bmp.png
 mass = 0
 surface = 1
 
-[body.6]
+[object.6.body]
 model = bell.dof-02.joe
 texture = lobp1.bmp.png
 mass = 0
 surface = 1
 
-[body.7]
+[object.7.body]
 model = bpfence01.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.8]
+[object.8.body]
 model = bpfence02.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.9]
+[object.9.body]
 model = bpfence03.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.10]
+[object.10.body]
 model = bpfence04.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.11]
+[object.11.body]
 model = bpfence05.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.12]
+[object.12.body]
 model = bpfence06.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.13]
+[object.13.body]
 model = bpfence07.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.14]
+[object.14.body]
 model = bpfence08.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.15]
+[object.15.body]
 model = bpfence09.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.16]
+[object.16.body]
 model = bpfence10.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.17]
+[object.17.body]
 model = bpfence11.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.18]
+[object.18.body]
 model = bpfence12.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.19]
+[object.19.body]
 model = bpfence13.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.20]
+[object.20.body]
 model = bpfence14.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.21]
+[object.21.body]
 model = bpfence15.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.22]
+[object.22.body]
 model = bpfence16.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.23]
+[object.23.body]
 model = bpfence17.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.24]
+[object.24.body]
 model = bpfence18.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.25]
+[object.25.body]
 model = bpfence19.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.26]
+[object.26.body]
 model = bpfence20.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.27]
+[object.27.body]
 model = bpfence21.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.28]
+[object.28.body]
 model = bplogo02.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.29]
+[object.29.body]
 model = bplogo02.dof-01.joe
 texture = bp7km.bmp.png
 mass = 0
 surface = 1
 
-[body.30]
+[object.30.body]
 model = bplogo02.dof-02.joe
 texture = house02.bmp.png
 mass = 0
 surface = 1
 
-[body.31]
+[object.31.body]
 model = bplogo02.dof-03.joe
 texture = house03.bmp.png
 mass = 0
 surface = 1
 
-[body.32]
+[object.32.body]
 model = bplogobig02.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.33]
+[object.33.body]
 model = bplogobig02.dof-01.joe
 texture = lobp1.bmp.png
 mass = 0
 surface = 1
 
-[body.34]
+[object.34.body]
 model = bplogobig02.dof-02.joe
 texture = house02.bmp.png
 mass = 0
 surface = 1
 
-[body.35]
+[object.35.body]
 model = bplogobig03.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.36]
+[object.36.body]
 model = bplogobig03.dof-01.joe
 texture = lobp1.bmp.png
 mass = 0
 surface = 1
 
-[body.37]
+[object.37.body]
 model = bplogobig03.dof-02.joe
 texture = house02.bmp.png
 mass = 0
 surface = 1
 
-[body.38]
+[object.38.body]
 model = bplogobig08.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.39]
+[object.39.body]
 model = bplogobig08.dof-01.joe
 texture = lobp1.bmp.png
 mass = 0
 surface = 1
 
-[body.40]
+[object.40.body]
 model = bplogobig08.dof-02.joe
 texture = house02.bmp.png
 mass = 0
 surface = 1
 
-[body.41]
+[object.41.body]
 model = bplogobig09.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.42]
+[object.42.body]
 model = bplogobig09.dof-01.joe
 texture = lobp1.bmp.png
 mass = 0
 surface = 1
 
-[body.43]
+[object.43.body]
 model = bplogobig09.dof-02.joe
 texture = house02.bmp.png
 mass = 0
 surface = 1
 
-[body.44]
+[object.44.body]
 model = bplogobig09.dof-03.joe
 texture = house03.bmp.png
 mass = 0
 surface = 1
 
-[body.45]
+[object.45.body]
 model = bpsign01.dof-00.joe
 texture = bp2.bmp.png
 mass = 0
 surface = 1
 
-[body.46]
+[object.46.body]
 model = bpsign01.dof-01.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.47]
+[object.47.body]
 model = bpsign02.dof-00.joe
 texture = bp2.bmp.png
 mass = 0
 surface = 1
 
-[body.48]
+[object.48.body]
 model = bpsign02.dof-01.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.49]
+[object.49.body]
 model = bpsign02.dof-02.joe
 texture = bpfence3.bmp.png
 mass = 0
 surface = 1
 
-[body.50]
+[object.50.body]
 model = bpsign02.dof-03.joe
 texture = bpfence5.bmp.png
 mass = 0
 surface = 1
 
-[body.51]
+[object.51.body]
 model = bpsign03.dof-00.joe
 texture = bpfence4.bmp.png
 mass = 0
 surface = 1
 
-[body.52]
+[object.52.body]
 model = bpsign03.dof-01.joe
 texture = bpfence3.bmp.png
 mass = 0
 surface = 1
 
-[body.53]
+[object.53.body]
 model = bpsign03.dof-02.joe
 texture = bpfence5.bmp.png
 mass = 0
 surface = 1
 
-[body.54]
+[object.54.body]
 model = bpsign03.dof-03.joe
 texture = bp2.bmp.png
 mass = 0
 surface = 1
 
-[body.55]
+[object.55.body]
 model = bpsign03.dof-04.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.56]
+[object.56.body]
 model = bpsign04.dof-00.joe
 texture = bp2.bmp.png
 mass = 0
 surface = 1
 
-[body.57]
+[object.57.body]
 model = bpsign04.dof-01.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.58]
+[object.58.body]
 model = car01.dof-00.joe
 texture = ds1902.bmp.png
 
-[body.59]
+[object.59.body]
 model = car01.dof-01.joe
 texture = 2cv02.bmp.png
 
-[body.60]
+[object.60.body]
 model = car01.dof-02.joe
 texture = bus02.bmp.png
 
-[body.61]
+[object.61.body]
 model = car01.dof-03.joe
 texture = golf02.bmp.png
 
-[body.62]
+[object.62.body]
 model = car01.dof-04.joe
 texture = 2cv01.bmp.png
 
-[body.63]
+[object.63.body]
 model = car01.dof-05.joe
 texture = bus01.bmp.png
 
-[body.64]
+[object.64.body]
 model = car02.dof-00.joe
 texture = fiat01.bmp.png
 
-[body.65]
+[object.65.body]
 model = car02.dof-01.joe
 texture = golf02.bmp.png
 
-[body.66]
+[object.66.body]
 model = car02.dof-02.joe
 texture = bus01.bmp.png
 
-[body.67]
+[object.67.body]
 model = car02.dof-03.joe
 texture = 2cv02.bmp.png
 
-[body.68]
+[object.68.body]
 model = car02.dof-04.joe
 texture = fiat01.bmp.png
 
-[body.69]
+[object.69.body]
 model = car03.dof-00.joe
 texture = bus02.bmp.png
 
-[body.70]
+[object.70.body]
 model = car04.dof-00.joe
 texture = 2cv02.bmp.png
 
-[body.71]
+[object.71.body]
 model = car05.dof-00.joe
 texture = ds1902.bmp.png
 
-[body.72]
+[object.72.body]
 model = car05.dof-01.joe
 texture = bus01.bmp.png
 
-[body.73]
+[object.73.body]
 model = car05.dof-02.joe
 texture = 2cv01.bmp.png
 
-[body.74]
+[object.74.body]
 model = car05.dof-03.joe
 texture = fiat01.bmp.png
 
-[body.75]
+[object.75.body]
 model = car05.dof-04.joe
 texture = bus01.bmp.png
 
-[body.76]
+[object.76.body]
 model = car06.dof-00.joe
 texture = fiat02.bmp.png
 
-[body.77]
+[object.77.body]
 model = car06.dof-01.joe
 texture = fiat01.bmp.png
 
-[body.78]
+[object.78.body]
 model = car06.dof-02.joe
 texture = ds1901.bmp.png
 
-[body.79]
+[object.79.body]
 model = car06.dof-03.joe
 texture = bus01.bmp.png
 
-[body.80]
+[object.80.body]
 model = car06.dof-04.joe
 texture = 2cv02.bmp.png
 
-[body.81]
+[object.81.body]
 model = car07.dof-00.joe
 texture = 2cv02.bmp.png
 
-[body.82]
+[object.82.body]
 model = car07.dof-01.joe
 texture = bus01.bmp.png
 
-[body.83]
+[object.83.body]
 model = car07.dof-02.joe
 texture = golf01.bmp.png
 
-[body.84]
+[object.84.body]
 model = car07.dof-03.joe
 texture = golf02.bmp.png
 
-[body.85]
+[object.85.body]
 model = car07.dof-04.joe
 texture = fiat02.bmp.png
 
-[body.86]
+[object.86.body]
 model = car08.dof-00.joe
 texture = 2cv02.bmp.png
 
-[body.87]
+[object.87.body]
 model = car08.dof-01.joe
 texture = bus01.bmp.png
 
-[body.88]
+[object.88.body]
 model = car08.dof-02.joe
 texture = fiat01.bmp.png
 
-[body.89]
+[object.89.body]
 model = car08.dof-03.joe
 texture = ds1901.bmp.png
 
-[body.90]
+[object.90.body]
 model = car08.dof-04.joe
 texture = golf01.bmp.png
 
-[body.91]
+[object.91.body]
 model = car09.dof-00.joe
 texture = fiat01.bmp.png
 
-[body.92]
+[object.92.body]
 model = car09.dof-01.joe
 texture = ds1902.bmp.png
 
-[body.93]
+[object.93.body]
 model = car09.dof-02.joe
 texture = 2cv01.bmp.png
 
-[body.94]
+[object.94.body]
 model = car09.dof-03.joe
 texture = 2cv01.bmp.png
 
-[body.95]
+[object.95.body]
 model = car09.dof-04.joe
 texture = bus02.bmp.png
 
-[body.96]
+[object.96.body]
 model = car10.dof-00.joe
 texture = fiat02.bmp.png
 
-[body.97]
+[object.97.body]
 model = car10.dof-01.joe
 texture = golf02.bmp.png
 
-[body.98]
+[object.98.body]
 model = car10.dof-02.joe
 texture = fiat02.bmp.png
 
-[body.99]
+[object.99.body]
 model = car10.dof-03.joe
 texture = ds1902.bmp.png
 
-[body.100]
+[object.100.body]
 model = car10.dof-04.joe
 texture = 2cv02.bmp.png
 
-[body.101]
+[object.101.body]
 model = car10.dof-05.joe
 texture = bus02.bmp.png
 
-[body.102]
+[object.102.body]
 model = car11.dof-00.joe
 texture = bus01.bmp.png
 
-[body.103]
+[object.103.body]
 model = car11.dof-01.joe
 texture = 2cv02.bmp.png
 
-[body.104]
+[object.104.body]
 model = car11.dof-02.joe
 texture = fiat02.bmp.png
 
-[body.105]
+[object.105.body]
 model = car11.dof-03.joe
 texture = fiat01.bmp.png
 
-[body.106]
+[object.106.body]
 model = car11.dof-04.joe
 texture = bus02.bmp.png
 
-[body.107]
+[object.107.body]
 model = car12.dof-00.joe
 texture = ds1901.bmp.png
 
-[body.108]
+[object.108.body]
 model = car12.dof-01.joe
 texture = golf01.bmp.png
 
-[body.109]
+[object.109.body]
 model = car12.dof-02.joe
 texture = 2cv01.bmp.png
 
-[body.110]
+[object.110.body]
 model = car12.dof-03.joe
 texture = bus02.bmp.png
 
-[body.111]
+[object.111.body]
 model = car12.dof-04.joe
 texture = golf02.bmp.png
 
-[body.112]
+[object.112.body]
 model = car13.dof-00.joe
 texture = fiat02.bmp.png
 
-[body.113]
+[object.113.body]
 model = car13.dof-01.joe
 texture = ds1902.bmp.png
 
-[body.114]
+[object.114.body]
 model = car13.dof-02.joe
 texture = 2cv01.bmp.png
 
-[body.115]
+[object.115.body]
 model = car13.dof-03.joe
 texture = bus02.bmp.png
 
-[body.116]
+[object.116.body]
 model = car13.dof-04.joe
 texture = fiat02.bmp.png
 
-[body.117]
+[object.117.body]
 model = car14.dof-00.joe
 texture = golf01.bmp.png
 
-[body.118]
+[object.118.body]
 model = car14.dof-01.joe
 texture = bus02.bmp.png
 
-[body.119]
+[object.119.body]
 model = car14.dof-02.joe
 texture = 2cv02.bmp.png
 
-[body.120]
+[object.120.body]
 model = car14.dof-03.joe
 texture = ds1902.bmp.png
 
-[body.121]
+[object.121.body]
 model = car14.dof-04.joe
 texture = fiat02.bmp.png
 
-[body.122]
+[object.122.body]
 model = car15.dof-00.joe
 texture = ds1901.bmp.png
 
-[body.123]
+[object.123.body]
 model = car15.dof-01.joe
 texture = golf01.bmp.png
 
-[body.124]
+[object.124.body]
 model = car15.dof-02.joe
 texture = fiat01.bmp.png
 
-[body.125]
+[object.125.body]
 model = car15.dof-03.joe
 texture = 2cv01.bmp.png
 
-[body.126]
+[object.126.body]
 model = car15.dof-04.joe
 texture = bus01.bmp.png
 
-[body.127]
+[object.127.body]
 model = car15.dof-05.joe
 texture = 2cv02.bmp.png
 
-[body.128]
+[object.128.body]
 model = car16.dof-00.joe
 texture = ds1901.bmp.png
 
-[body.129]
+[object.129.body]
 model = car16.dof-01.joe
 texture = fiat01.bmp.png
 
-[body.130]
+[object.130.body]
 model = car16.dof-02.joe
 texture = fiat02.bmp.png
 
-[body.131]
+[object.131.body]
 model = car16.dof-03.joe
 texture = bus02.bmp.png
 
-[body.132]
+[object.132.body]
 model = car16.dof-04.joe
 texture = 2cv02.bmp.png
 
-[body.133]
+[object.133.body]
 model = car17.dof-00.joe
 texture = ds1902.bmp.png
 
-[body.134]
+[object.134.body]
 model = car17.dof-01.joe
 texture = fiat02.bmp.png
 
-[body.135]
+[object.135.body]
 model = car17.dof-02.joe
 texture = golf02.bmp.png
 
-[body.136]
+[object.136.body]
 model = car17.dof-03.joe
 texture = fiat02.bmp.png
 
-[body.137]
+[object.137.body]
 model = car17.dof-04.joe
 texture = bus02.bmp.png
 
-[body.138]
+[object.138.body]
 model = car18.dof-00.joe
 texture = 2cv01.bmp.png
 
-[body.139]
+[object.139.body]
 model = car18.dof-01.joe
 texture = 2cv01.bmp.png
 
-[body.140]
+[object.140.body]
 model = car18.dof-02.joe
 texture = ds1902.bmp.png
 
-[body.141]
+[object.141.body]
 model = car18.dof-03.joe
 texture = fiat01.bmp.png
 
-[body.142]
+[object.142.body]
 model = car18.dof-04.joe
 texture = golf01.bmp.png
 
-[body.143]
+[object.143.body]
 model = car19.dof-00.joe
 texture = ds1901.bmp.png
 
-[body.144]
+[object.144.body]
 model = car19.dof-01.joe
 texture = fiat01.bmp.png
 
-[body.145]
+[object.145.body]
 model = car19.dof-02.joe
 texture = bus01.bmp.png
 
-[body.146]
+[object.146.body]
 model = car19.dof-03.joe
 texture = 2cv02.bmp.png
 
-[body.147]
+[object.147.body]
 model = car19.dof-04.joe
 texture = fiat02.bmp.png
 
-[body.148]
+[object.148.body]
 model = car20.dof-00.joe
 texture = golf02.bmp.png
 
-[body.149]
+[object.149.body]
 model = car20.dof-01.joe
 texture = golf01.bmp.png
 
-[body.150]
+[object.150.body]
 model = car20.dof-02.joe
 texture = bus01.bmp.png
 
-[body.151]
+[object.151.body]
 model = car20.dof-03.joe
 texture = 2cv02.bmp.png
 
-[body.152]
+[object.152.body]
 model = car20.dof-04.joe
 texture = 2cv02.bmp.png
 
-[body.153]
+[object.153.body]
 model = car20.dof-05.joe
 texture = bus01.bmp.png
 
-[body.154]
+[object.154.body]
 model = car21.dof-00.joe
 texture = bus01.bmp.png
 
-[body.155]
+[object.155.body]
 model = car21.dof-01.joe
 texture = 2cv02.bmp.png
 
-[body.156]
+[object.156.body]
 model = car21.dof-02.joe
 texture = bus01.bmp.png
 
-[body.157]
+[object.157.body]
 model = car21.dof-03.joe
 texture = 2cv02.bmp.png
 
-[body.158]
+[object.158.body]
 model = car21.dof-04.joe
 texture = fiat02.bmp.png
 
-[body.159]
+[object.159.body]
 model = car22.dof-00.joe
 texture = fiat01.bmp.png
 
-[body.160]
+[object.160.body]
 model = car22.dof-01.joe
 texture = bus02.bmp.png
 
-[body.161]
+[object.161.body]
 model = car22.dof-02.joe
 texture = ds1901.bmp.png
 
-[body.162]
+[object.162.body]
 model = car22.dof-03.joe
 texture = golf01.bmp.png
 
-[body.163]
+[object.163.body]
 model = car22.dof-04.joe
 texture = 2cv01.bmp.png
 
-[body.164]
+[object.164.body]
 model = car23.dof-00.joe
 texture = bus02.bmp.png
 
-[body.165]
+[object.165.body]
 model = car23.dof-01.joe
 texture = golf02.bmp.png
 
-[body.166]
+[object.166.body]
 model = car23.dof-02.joe
 texture = fiat02.bmp.png
 
-[body.167]
+[object.167.body]
 model = car23.dof-03.joe
 texture = ds1902.bmp.png
 
-[body.168]
+[object.168.body]
 model = car23.dof-04.joe
 texture = 2cv01.bmp.png
 
-[body.169]
+[object.169.body]
 model = car24.dof-00.joe
 texture = bus02.bmp.png
 
-[body.170]
+[object.170.body]
 model = car24.dof-01.joe
 texture = fiat02.bmp.png
 
-[body.171]
+[object.171.body]
 model = car24.dof-02.joe
 texture = golf01.bmp.png
 
-[body.172]
+[object.172.body]
 model = car24.dof-03.joe
 texture = bus02.bmp.png
 
-[body.173]
+[object.173.body]
 model = car24.dof-04.joe
 texture = 2cv02.bmp.png
 
-[body.174]
+[object.174.body]
 model = car25.dof-00.joe
 texture = ds1902.bmp.png
 
-[body.175]
+[object.175.body]
 model = car25.dof-01.joe
 texture = fiat02.bmp.png
 
-[body.176]
+[object.176.body]
 model = car25.dof-02.joe
 texture = ds1901.bmp.png
 
-[body.177]
+[object.177.body]
 model = car25.dof-03.joe
 texture = golf01.bmp.png
 
-[body.178]
+[object.178.body]
 model = car25.dof-04.joe
 texture = fiat01.bmp.png
 
-[body.179]
+[object.179.body]
 model = car25.dof-05.joe
 texture = 2cv01.bmp.png
 
-[body.180]
+[object.180.body]
 model = clouds.dof-00.joe
 texture = skygrade.bmp.png
 nolighting = true
 skybox = true
 
-[body.181]
+[object.181.body]
 model = crowd01.dof-00.joe
 texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 
-[body.182]
+[object.182.body]
 model = crowd01.dof-01.joe
 texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 
-[body.183]
+[object.183.body]
 model = crowd02.dof-00.joe
 texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 
-[body.184]
+[object.184.body]
 model = crowd02.dof-01.joe
 texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 
-[body.185]
+[object.185.body]
 model = crowd03.dof-00.joe
 texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 
-[body.186]
+[object.186.body]
 model = crowd04.dof-00.joe
 texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 
-[body.187]
+[object.187.body]
 model = crowd05.dof-00.joe
 texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 
-[body.188]
+[object.188.body]
 model = crowd06.dof-00.joe
 texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 
-[body.189]
+[object.189.body]
 model = crowd06.dof-01.joe
 texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 
-[body.190]
+[object.190.body]
 model = crowd07.dof-00.joe
 texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 
-[body.191]
+[object.191.body]
 model = crowd07.dof-01.joe
 texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 
-[body.192]
+[object.192.body]
 model = crowd08.dof-00.joe
 texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 
-[body.193]
+[object.193.body]
 model = crowd08.dof-01.joe
 texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 
-[body.194]
+[object.194.body]
 model = crowd09.dof-00.joe
 texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 
-[body.195]
+[object.195.body]
 model = crowd09.dof-01.joe
 texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 
-[body.196]
+[object.196.body]
 model = crowd10.dof-00.joe
 texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 
-[body.197]
+[object.197.body]
 model = crowd10.dof-01.joe
 texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 
-[body.198]
+[object.198.body]
 model = crowd11.dof-00.joe
 texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 
-[body.199]
+[object.199.body]
 model = crowd11.dof-01.joe
 texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 
-[body.200]
+[object.200.body]
 model = crowd12.dof-00.joe
 texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 
-[body.201]
+[object.201.body]
 model = crowd12.dof-01.joe
 texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 
-[body.202]
+[object.202.body]
 model = crowd13.dof-00.joe
 texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 
-[body.203]
+[object.203.body]
 model = crowd13.dof-01.joe
 texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 
-[body.204]
+[object.204.body]
 model = crowd14.dof-00.joe
 texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 
-[body.205]
+[object.205.body]
 model = crowd14.dof-01.joe
 texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 
-[body.206]
+[object.206.body]
 model = crowd15.dof-00.joe
 texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 
-[body.207]
+[object.207.body]
 model = crowd15.dof-01.joe
 texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 
-[body.208]
+[object.208.body]
 model = crowd16.dof-00.joe
 texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 
-[body.209]
+[object.209.body]
 model = crowd16.dof-01.joe
 texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 
-[body.210]
+[object.210.body]
 model = crowd17.dof-00.joe
 texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 
-[body.211]
+[object.211.body]
 model = crowd17.dof-01.joe
 texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 
-[body.212]
+[object.212.body]
 model = crowd18.dof-00.joe
 texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 
-[body.213]
+[object.213.body]
 model = crowd18.dof-01.joe
 texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 
-[body.214]
+[object.214.body]
 model = crowd19.dof-00.joe
 texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 
-[body.215]
+[object.215.body]
 model = crowd19.dof-01.joe
 texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 
-[body.216]
+[object.216.body]
 model = crowd20.dof-00.joe
 texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 
-[body.217]
+[object.217.body]
 model = crowd20.dof-01.joe
 texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 
-[body.218]
+[object.218.body]
 model = crowd21.dof-00.joe
 texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 
-[body.219]
+[object.219.body]
 model = crowd21.dof-01.joe
 texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 
-[body.220]
+[object.220.body]
 model = crowd22.dof-00.joe
 texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 
-[body.221]
+[object.221.body]
 model = crowd22.dof-01.joe
 texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 
-[body.222]
+[object.222.body]
 model = crowd23.dof-00.joe
 texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 
-[body.223]
+[object.223.body]
 model = crowd23.dof-01.joe
 texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 
-[body.224]
+[object.224.body]
 model = crowd24.dof-00.joe
 texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 
-[body.225]
+[object.225.body]
 model = crowd24.dof-01.joe
 texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 
-[body.226]
+[object.226.body]
 model = crowd25.dof-00.joe
 texture = peopleb.bmp.png
 mipmap = false
 nolighting = true
 
-[body.227]
+[object.227.body]
 model = crowd25.dof-01.joe
 texture = peoplea.bmp.png
 mipmap = false
 nolighting = true
 
-[body.228]
+[object.228.body]
 model = cwallogo01.dof-00.joe
 texture = bosch01.bmp.png
 mass = 0
 surface = 1
 
-[body.229]
+[object.229.body]
 model = cwallogo01.dof-01.joe
 texture = dunlop01.bmp.png
 mass = 0
 surface = 1
 
-[body.230]
+[object.230.body]
 model = cwallogo02.dof-00.joe
 texture = bosch01.bmp.png
 mass = 0
 surface = 1
 
-[body.231]
+[object.231.body]
 model = cwallogo02.dof-01.joe
 texture = dunlop01.bmp.png
 mass = 0
 surface = 1
 
-[body.232]
+[object.232.body]
 model = fence01.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.233]
+[object.233.body]
 model = fence02.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.234]
+[object.234.body]
 model = fence03.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.235]
+[object.235.body]
 model = fence04.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.236]
+[object.236.body]
 model = fence05.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.237]
+[object.237.body]
 model = fence06.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.238]
+[object.238.body]
 model = fence07.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.239]
+[object.239.body]
 model = fence08.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.240]
+[object.240.body]
 model = fence09.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.241]
+[object.241.body]
 model = fence10.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.242]
+[object.242.body]
 model = fence11.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.243]
+[object.243.body]
 model = fence12.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.244]
+[object.244.body]
 model = fence13.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.245]
+[object.245.body]
 model = fence14.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.246]
+[object.246.body]
 model = fence15.dof-00.joe
 texture = bpfence2.bmp.png
 mass = 0
 surface = 1
 
-[body.247]
+[object.247.body]
 model = fencea01.dof-00.joe
 texture = bpfence3.bmp.png
 mass = 0
 surface = 1
 
-[body.248]
+[object.248.body]
 model = fencea02.dof-00.joe
 texture = fence1.bmp.png
 mipmap = false
 mass = 0
 surface = 1
 
-[body.249]
+[object.249.body]
 model = fencea03.dof-00.joe
 texture = fence1.bmp.png
 mipmap = false
 mass = 0
 surface = 1
 
-[body.250]
+[object.250.body]
 model = grandst1.dof-00.joe
 texture = grandst1.bmp.png
 mass = 0
 surface = 1
 
-[body.251]
+[object.251.body]
 model = grandst2.dof-00.joe
 texture = wall06.bmp.png
 mass = 0
 surface = 1
 
-[body.252]
+[object.252.body]
 model = grandst2.dof-01.joe
 texture = wall01.bmp.png
 mass = 0
 surface = 1
 
-[body.253]
+[object.253.body]
 model = grandst2.dof-02.joe
 texture = wall02.bmp.png
 mass = 0
 surface = 1
 
-[body.254]
+[object.254.body]
 model = grandst2.dof-03.joe
 texture = wall05.bmp.png
 mass = 0
 surface = 1
 
-[body.255]
+[object.255.body]
 model = grandst2.dof-04.joe
 texture = gstmet.bmp.png
 mass = 0
 surface = 1
 
-[body.256]
+[object.256.body]
 model = grandst2.dof-05.joe
 texture = gstmet2.bmp.png
 mipmap = false
 mass = 0
 surface = 1
 
-[body.257]
+[object.257.body]
 model = grandst2.dof-06.joe
 texture = gstroof1.bmp.png
 mass = 0
 surface = 1
 
-[body.258]
+[object.258.body]
 model = grandst2.dof-07.joe
 texture = cestshel.bmp.png
 mass = 0
 surface = 1
 
-[body.259]
+[object.259.body]
 model = grandst3.dof-00.joe
 texture = chaigst3.bmp.png
 mass = 0
 surface = 1
 
-[body.260]
+[object.260.body]
 model = grandst3.dof-01.joe
 texture = roofgst3.bmp.png
 mass = 0
 surface = 1
 
-[body.261]
+[object.261.body]
 model = grandst3.dof-02.joe
 texture = railgst3.bmp.png
 mass = 0
 surface = 1
 
-[body.262]
+[object.262.body]
 model = grandst3.dof-03.joe
 texture = mast01.bmp.png
 mass = 0
 surface = 1
 
-[body.263]
+[object.263.body]
 model = grandst3.dof-04.joe
 texture = backgst3.bmp.png
 mass = 0
 surface = 1
 
-[body.264]
+[object.264.body]
 model = grass01.dof-00.joe
 texture = fldgrass.bmp.png
 mass = 0
 surface = 2
 
-[body.265]
+[object.265.body]
 model = grass01.dof-01.joe
 texture = grass2a.bmp.png
 mass = 0
 surface = 2
 
-[body.266]
+[object.266.body]
 model = grass01.dof-02.joe
 texture = rmbl3a.bmp.png
 mass = 0
 surface = 1
 
-[body.267]
+[object.267.body]
 model = grass01.dof-03.joe
 texture = hillside.bmp.png
 mass = 0
 surface = 1
 
-[body.268]
+[object.268.body]
 model = grass02.dof-00.joe
 texture = fldgrass.bmp.png
 mass = 0
 surface = 2
 
-[body.269]
+[object.269.body]
 model = grass02.dof-01.joe
 texture = grass2a.bmp.png
 mass = 0
 surface = 2
 
-[body.270]
+[object.270.body]
 model = grass02.dof-02.joe
 texture = rmbl3a.bmp.png
 mass = 0
 surface = 1
 
-[body.271]
+[object.271.body]
 model = grass02.dof-03.joe
 texture = hillside.bmp.png
 mass = 0
 surface = 1
 
-[body.272]
+[object.272.body]
 model = grass03.dof-00.joe
 texture = fldgrass.bmp.png
 mass = 0
 surface = 2
 
-[body.273]
+[object.273.body]
 model = grass03.dof-01.joe
 texture = grass2a.bmp.png
 mass = 0
 surface = 2
 
-[body.274]
+[object.274.body]
 model = grass03.dof-02.joe
 texture = rmbl3a.bmp.png
 mass = 0
 surface = 1
 
-[body.275]
+[object.275.body]
 model = grass03.dof-03.joe
 texture = hillside.bmp.png
 mass = 0
 surface = 1
 
-[body.276]
+[object.276.body]
 model = grass04.dof-00.joe
 texture = fldgrass.bmp.png
 mass = 0
 surface = 2
 
-[body.277]
+[object.277.body]
 model = grass04.dof-01.joe
 texture = grass2a.bmp.png
 mass = 0
 surface = 2
 
-[body.278]
+[object.278.body]
 model = grass04.dof-02.joe
 texture = rmbl3a.bmp.png
 mass = 0
 surface = 1
 
-[body.279]
+[object.279.body]
 model = grass04.dof-03.joe
 texture = hillside.bmp.png
 mass = 0
 surface = 1
 
-[body.280]
+[object.280.body]
 model = grass05.dof-00.joe
 texture = fldgrass.bmp.png
 mass = 0
 surface = 2
 
-[body.281]
+[object.281.body]
 model = grass05.dof-01.joe
 texture = grass2a.bmp.png
 mass = 0
 surface = 2
 
-[body.282]
+[object.282.body]
 model = grass05.dof-02.joe
 texture = rmbl3a.bmp.png
 mass = 0
 surface = 1
 
-[body.283]
+[object.283.body]
 model = grass05.dof-03.joe
 texture = hillside.bmp.png
 mass = 0
 surface = 1
 
-[body.284]
+[object.284.body]
 model = grass06.dof-00.joe
 texture = fldgrass.bmp.png
 mass = 0
 surface = 2
 
-[body.285]
+[object.285.body]
 model = grass06.dof-01.joe
 texture = grass2a.bmp.png
 mass = 0
 surface = 2
 
-[body.286]
+[object.286.body]
 model = grass06.dof-02.joe
 texture = rmbl3a.bmp.png
 mass = 0
 surface = 1
 
-[body.287]
+[object.287.body]
 model = grass06.dof-03.joe
 texture = hillside.bmp.png
 mass = 0
 surface = 1
 
-[body.288]
+[object.288.body]
 model = grass07.dof-00.joe
 texture = fldgrass.bmp.png
 mass = 0
 surface = 2
 
-[body.289]
+[object.289.body]
 model = grass07.dof-01.joe
 texture = grass2a.bmp.png
 mass = 0
 surface = 2
 
-[body.290]
+[object.290.body]
 model = grass07.dof-02.joe
 texture = rmbl3a.bmp.png
 mass = 0
 surface = 1
 
-[body.291]
+[object.291.body]
 model = grass07.dof-03.joe
 texture = hillside.bmp.png
 mass = 0
 surface = 1
 
-[body.292]
+[object.292.body]
 model = grass08.dof-00.joe
 texture = fldgrass.bmp.png
 mass = 0
 surface = 2
 
-[body.293]
+[object.293.body]
 model = grass08.dof-01.joe
 texture = grass2a.bmp.png
 mass = 0
 surface = 2
 
-[body.294]
+[object.294.body]
 model = grass08.dof-02.joe
 texture = rmbl3a.bmp.png
 mass = 0
 surface = 1
 
-[body.295]
+[object.295.body]
 model = grass08.dof-03.joe
 texture = hillside.bmp.png
 mass = 0
 surface = 1
 
-[body.296]
+[object.296.body]
 model = grass09.dof-00.joe
 texture = fldgrass.bmp.png
 mass = 0
 surface = 2
 
-[body.297]
+[object.297.body]
 model = grass09.dof-01.joe
 texture = grass2a.bmp.png
 mass = 0
 surface = 2
 
-[body.298]
+[object.298.body]
 model = grass09.dof-02.joe
 texture = rmbl3a.bmp.png
 mass = 0
 surface = 1
 
-[body.299]
+[object.299.body]
 model = grass09.dof-03.joe
 texture = hillside.bmp.png
 mass = 0
 surface = 1
 
-[body.300]
+[object.300.body]
 model = grass10.dof-00.joe
 texture = fldgrass.bmp.png
 mass = 0
 surface = 2
 
-[body.301]
+[object.301.body]
 model = grass10.dof-01.joe
 texture = grass2a.bmp.png
 mass = 0
 surface = 2
 
-[body.302]
+[object.302.body]
 model = grass10.dof-02.joe
 texture = rmbl3a.bmp.png
 mass = 0
 surface = 1
 
-[body.303]
+[object.303.body]
 model = grass10.dof-03.joe
 texture = hillside.bmp.png
 mass = 0
 surface = 1
 
-[body.304]
+[object.304.body]
 model = grass11.dof-00.joe
 texture = fldgrass.bmp.png
 mass = 0
 surface = 2
 
-[body.305]
+[object.305.body]
 model = grass11.dof-01.joe
 texture = grass2a.bmp.png
 mass = 0
 surface = 2
 
-[body.306]
+[object.306.body]
 model = grass11.dof-02.joe
 texture = rmbl3a.bmp.png
 mass = 0
 surface = 1
 
-[body.307]
+[object.307.body]
 model = grass11.dof-03.joe
 texture = hillside.bmp.png
 mass = 0
 surface = 1
 
-[body.308]
+[object.308.body]
 model = grass12.dof-00.joe
 texture = fldgrass.bmp.png
 mass = 0
 surface = 2
 
-[body.309]
+[object.309.body]
 model = grass12.dof-01.joe
 texture = grass2a.bmp.png
 mass = 0
 surface = 2
 
-[body.310]
+[object.310.body]
 model = grass12.dof-02.joe
 texture = rmbl3a.bmp.png
 mass = 0
 surface = 1
 
-[body.311]
+[object.311.body]
 model = grass12.dof-03.joe
 texture = hillside.bmp.png
 mass = 0
 surface = 1
 
-[body.312]
+[object.312.body]
 model = grass13.dof-00.joe
 texture = fldgrass.bmp.png
 mass = 0
 surface = 2
 
-[body.313]
+[object.313.body]
 model = grass13.dof-01.joe
 texture = grass2a.bmp.png
 mass = 0
 surface = 2
 
-[body.314]
+[object.314.body]
 model = grass13.dof-02.joe
 texture = rmbl3a.bmp.png
 mass = 0
 surface = 1
 
-[body.315]
+[object.315.body]
 model = grass13.dof-03.joe
 texture = hillside.bmp.png
 mass = 0
 surface = 1
 
-[body.316]
+[object.316.body]
 model = grass14.dof-00.joe
 texture = fldgrass.bmp.png
 mass = 0
 surface = 2
 
-[body.317]
+[object.317.body]
 model = grass14.dof-01.joe
 texture = grass2a.bmp.png
 mass = 0
 surface = 2
 
-[body.318]
+[object.318.body]
 model = grass14.dof-02.joe
 texture = rmbl3a.bmp.png
 mass = 0
 surface = 1
 
-[body.319]
+[object.319.body]
 model = grass14.dof-03.joe
 texture = hillside.bmp.png
 mass = 0
 surface = 1
 
-[body.320]
+[object.320.body]
 model = grass15.dof-00.joe
 texture = fldgrass.bmp.png
 mass = 0
 surface = 2
 
-[body.321]
+[object.321.body]
 model = grass15.dof-01.joe
 texture = grass2a.bmp.png
 mass = 0
 surface = 2
 
-[body.322]
+[object.322.body]
 model = grass15.dof-02.joe
 texture = rmbl3a.bmp.png
 mass = 0
 surface = 1
 
-[body.323]
+[object.323.body]
 model = grass15.dof-03.joe
 texture = hillside.bmp.png
 mass = 0
 surface = 1
 
-[body.324]
+[object.324.body]
 model = grass16.dof-00.joe
 texture = fldgrass.bmp.png
 mass = 0
 surface = 2
 
-[body.325]
+[object.325.body]
 model = grass16.dof-01.joe
 texture = grass2a.bmp.png
 mass = 0
 surface = 2
 
-[body.326]
+[object.326.body]
 model = grass16.dof-02.joe
 texture = rmbl3a.bmp.png
 mass = 0
 surface = 1
 
-[body.327]
+[object.327.body]
 model = grass16.dof-03.joe
 texture = hillside.bmp.png
 mass = 0
 surface = 1
 
-[body.328]
+[object.328.body]
 model = grass17.dof-00.joe
 texture = fldgrass.bmp.png
 mass = 0
 surface = 2
 
-[body.329]
+[object.329.body]
 model = grass17.dof-01.joe
 texture = grass2a.bmp.png
 mass = 0
 surface = 2
 
-[body.330]
+[object.330.body]
 model = grass17.dof-02.joe
 texture = rmbl3a.bmp.png
 mass = 0
 surface = 1
 
-[body.331]
+[object.331.body]
 model = grass17.dof-03.joe
 texture = hillside.bmp.png
 mass = 0
 surface = 1
 
-[body.332]
+[object.332.body]
 model = grass18.dof-00.joe
 texture = fldgrass.bmp.png
 mass = 0
 surface = 2
 
-[body.333]
+[object.333.body]
 model = grass18.dof-01.joe
 texture = grass2a.bmp.png
 mass = 0
 surface = 2
 
-[body.334]
+[object.334.body]
 model = grass18.dof-02.joe
 texture = rmbl3a.bmp.png
 mass = 0
 surface = 1
 
-[body.335]
+[object.335.body]
 model = grass19.dof-00.joe
 texture = fldgrass.bmp.png
 mass = 0
 surface = 2
 
-[body.336]
+[object.336.body]
 model = grass19.dof-01.joe
 texture = grass2a.bmp.png
 mass = 0
 surface = 2
 
-[body.337]
+[object.337.body]
 model = grass19.dof-02.joe
 texture = rmbl3a.bmp.png
 mass = 0
 surface = 1
 
-[body.338]
+[object.338.body]
 model = grass19.dof-03.joe
 texture = hillside.bmp.png
 mass = 0
 surface = 1
 
-[body.339]
+[object.339.body]
 model = grass20.dof-00.joe
 texture = fldgrass.bmp.png
 mass = 0
 surface = 2
 
-[body.340]
+[object.340.body]
 model = grass20.dof-01.joe
 texture = grass2a.bmp.png
 mass = 0
 surface = 2
 
-[body.341]
+[object.341.body]
 model = grass20.dof-02.joe
 texture = rmbl3a.bmp.png
 mass = 0
 surface = 1
 
-[body.342]
+[object.342.body]
 model = grass20.dof-03.joe
 texture = hillside.bmp.png
 mass = 0
 surface = 1
 
-[body.343]
+[object.343.body]
 model = grass21.dof-00.joe
 texture = fldgrass.bmp.png
 mass = 0
 surface = 2
 
-[body.344]
+[object.344.body]
 model = grass21.dof-01.joe
 texture = grass2a.bmp.png
 mass = 0
 surface = 2
 
-[body.345]
+[object.345.body]
 model = grass21.dof-02.joe
 texture = rmbl3a.bmp.png
 mass = 0
 surface = 1
 
-[body.346]
+[object.346.body]
 model = grass21.dof-03.joe
 texture = roadlane.bmp.png
 mass = 0
 surface = 1
 
-[body.347]
+[object.347.body]
 model = grass21.dof-04.joe
 texture = rmbl1a.bmp.png
 mass = 0
 surface = 1
 
-[body.348]
+[object.348.body]
 model = grass22.dof-00.joe
 texture = fldgrass.bmp.png
 mass = 0
 surface = 2
 
-[body.349]
+[object.349.body]
 model = grass22.dof-01.joe
 texture = grass2a.bmp.png
 mass = 0
 surface = 2
 
-[body.350]
+[object.350.body]
 model = grass22.dof-02.joe
 texture = rmbl3a.bmp.png
 mass = 0
 surface = 1
 
-[body.351]
+[object.351.body]
 model = grass23.dof-00.joe
 texture = fldgrass.bmp.png
 mass = 0
 surface = 2
 
-[body.352]
+[object.352.body]
 model = grass23.dof-01.joe
 texture = grass2a.bmp.png
 mass = 0
 surface = 2
 
-[body.353]
+[object.353.body]
 model = grass23.dof-02.joe
 texture = rmbl3a.bmp.png
 mass = 0
 surface = 1
 
-[body.354]
+[object.354.body]
 model = grdr01.dof-00.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.355]
+[object.355.body]
 model = grdr01.dof-01.joe
 texture = grdrlatp.bmp.png
 mass = 0
 surface = 1
 
-[body.356]
+[object.356.body]
 model = grdr01.dof-02.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.357]
+[object.357.body]
 model = grdr02.dof-00.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.358]
+[object.358.body]
 model = grdr02.dof-01.joe
 texture = grdrlatp.bmp.png
 mass = 0
 surface = 1
 
-[body.359]
+[object.359.body]
 model = grdr02.dof-02.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.360]
+[object.360.body]
 model = grdr03.dof-00.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.361]
+[object.361.body]
 model = grdr03.dof-01.joe
 texture = grdrlatp.bmp.png
 mass = 0
 surface = 1
 
-[body.362]
+[object.362.body]
 model = grdr03.dof-02.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.363]
+[object.363.body]
 model = grdr04.dof-00.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.364]
+[object.364.body]
 model = grdr04.dof-01.joe
 texture = grdrlatp.bmp.png
 mass = 0
 surface = 1
 
-[body.365]
+[object.365.body]
 model = grdr04.dof-02.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.366]
+[object.366.body]
 model = grdr05.dof-00.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.367]
+[object.367.body]
 model = grdr05.dof-01.joe
 texture = grdrlatp.bmp.png
 mass = 0
 surface = 1
 
-[body.368]
+[object.368.body]
 model = grdr05.dof-02.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.369]
+[object.369.body]
 model = grdr06.dof-00.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.370]
+[object.370.body]
 model = grdr06.dof-01.joe
 texture = grdrlatp.bmp.png
 mass = 0
 surface = 1
 
-[body.371]
+[object.371.body]
 model = grdr06.dof-02.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.372]
+[object.372.body]
 model = grdr07.dof-00.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.373]
+[object.373.body]
 model = grdr07.dof-01.joe
 texture = grdrlatp.bmp.png
 mass = 0
 surface = 1
 
-[body.374]
+[object.374.body]
 model = grdr07.dof-02.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.375]
+[object.375.body]
 model = grdr08.dof-00.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.376]
+[object.376.body]
 model = grdr08.dof-01.joe
 texture = grdrlatp.bmp.png
 mass = 0
 surface = 1
 
-[body.377]
+[object.377.body]
 model = grdr08.dof-02.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.378]
+[object.378.body]
 model = grdr09.dof-00.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.379]
+[object.379.body]
 model = grdr09.dof-01.joe
 texture = grdrlatp.bmp.png
 mass = 0
 surface = 1
 
-[body.380]
+[object.380.body]
 model = grdr09.dof-02.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.381]
+[object.381.body]
 model = grdr10.dof-00.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.382]
+[object.382.body]
 model = grdr10.dof-01.joe
 texture = grdrlatp.bmp.png
 mass = 0
 surface = 1
 
-[body.383]
+[object.383.body]
 model = grdr10.dof-02.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.384]
+[object.384.body]
 model = grdr11.dof-00.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.385]
+[object.385.body]
 model = grdr11.dof-01.joe
 texture = grdrlatp.bmp.png
 mass = 0
 surface = 1
 
-[body.386]
+[object.386.body]
 model = grdr11.dof-02.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.387]
+[object.387.body]
 model = grdr12.dof-00.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.388]
+[object.388.body]
 model = grdr12.dof-01.joe
 texture = grdrlatp.bmp.png
 mass = 0
 surface = 1
 
-[body.389]
+[object.389.body]
 model = grdr12.dof-02.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.390]
+[object.390.body]
 model = grdr13.dof-00.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.391]
+[object.391.body]
 model = grdr13.dof-01.joe
 texture = grdrlatp.bmp.png
 mass = 0
 surface = 1
 
-[body.392]
+[object.392.body]
 model = grdr13.dof-02.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.393]
+[object.393.body]
 model = grdr14.dof-00.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.394]
+[object.394.body]
 model = grdr14.dof-01.joe
 texture = grdrlatp.bmp.png
 mass = 0
 surface = 1
 
-[body.395]
+[object.395.body]
 model = grdr14.dof-02.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.396]
+[object.396.body]
 model = grdr15.dof-00.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.397]
+[object.397.body]
 model = grdr15.dof-01.joe
 texture = grdrlatp.bmp.png
 mass = 0
 surface = 1
 
-[body.398]
+[object.398.body]
 model = grdr15.dof-02.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.399]
+[object.399.body]
 model = grdr16.dof-00.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.400]
+[object.400.body]
 model = grdr16.dof-01.joe
 texture = grdrlatp.bmp.png
 mass = 0
 surface = 1
 
-[body.401]
+[object.401.body]
 model = grdr16.dof-02.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.402]
+[object.402.body]
 model = grdr17.dof-00.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.403]
+[object.403.body]
 model = grdr17.dof-01.joe
 texture = grdrlatp.bmp.png
 mass = 0
 surface = 1
 
-[body.404]
+[object.404.body]
 model = grdr17.dof-02.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.405]
+[object.405.body]
 model = grdr18.dof-00.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.406]
+[object.406.body]
 model = grdr18.dof-01.joe
 texture = grdrlatp.bmp.png
 mass = 0
 surface = 1
 
-[body.407]
+[object.407.body]
 model = grdr18.dof-02.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.408]
+[object.408.body]
 model = grdr19.dof-00.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.409]
+[object.409.body]
 model = grdr19.dof-01.joe
 texture = grdrlatp.bmp.png
 mass = 0
 surface = 1
 
-[body.410]
+[object.410.body]
 model = grdr19.dof-02.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.411]
+[object.411.body]
 model = grdr20.dof-00.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.412]
+[object.412.body]
 model = grdr20.dof-01.joe
 texture = grdrlatp.bmp.png
 mass = 0
 surface = 1
 
-[body.413]
+[object.413.body]
 model = grdr20.dof-02.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.414]
+[object.414.body]
 model = grdr21.dof-00.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.415]
+[object.415.body]
 model = grdr21.dof-01.joe
 texture = grdrlatp.bmp.png
 mass = 0
 surface = 1
 
-[body.416]
+[object.416.body]
 model = grdr21.dof-02.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.417]
+[object.417.body]
 model = grdr22.dof-00.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.418]
+[object.418.body]
 model = grdr22.dof-01.joe
 texture = grdrlatp.bmp.png
 mass = 0
 surface = 1
 
-[body.419]
+[object.419.body]
 model = grdr22.dof-02.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.420]
+[object.420.body]
 model = grdr23.dof-00.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.421]
+[object.421.body]
 model = grdr23.dof-01.joe
 texture = grdrlatp.bmp.png
 mass = 0
 surface = 1
 
-[body.422]
+[object.422.body]
 model = grdr23.dof-02.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.423]
+[object.423.body]
 model = grdr24.dof-00.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.424]
+[object.424.body]
 model = grdr24.dof-01.joe
 texture = grdrlatp.bmp.png
 mass = 0
 surface = 1
 
-[body.425]
+[object.425.body]
 model = grdr24.dof-02.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.426]
+[object.426.body]
 model = grdr25.dof-00.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.427]
+[object.427.body]
 model = grdr25.dof-01.joe
 texture = grdrlatp.bmp.png
 mass = 0
 surface = 1
 
-[body.428]
+[object.428.body]
 model = grdr25.dof-02.joe
 texture = grdrla.bmp.png
 mass = 0
 surface = 1
 
-[body.429]
+[object.429.body]
 model = gst2fence.dof-00.joe
 texture = gstfence.bmp.png
 mipmap = false
 mass = 0
 surface = 1
 
-[body.430]
+[object.430.body]
 model = gstfence.dof-00.joe
 texture = gstfence.bmp.png
 mipmap = false
 mass = 0
 surface = 1
 
-[body.431]
+[object.431.body]
 model = hayball01.dof-00.joe
 texture = hayball.bmp.png
 mass = 0
 surface = 1
 
-[body.432]
+[object.432.body]
 model = hayball02.dof-00.joe
 texture = hayball.bmp.png
 mass = 0
 surface = 1
 
-[body.433]
+[object.433.body]
 model = hayball03.dof-00.joe
 texture = hayball.bmp.png
 mass = 0
 surface = 1
 
-[body.434]
+[object.434.body]
 model = hayball04.dof-00.joe
 texture = hayball.bmp.png
 mass = 0
 surface = 1
 
-[body.435]
+[object.435.body]
 model = hayball05.dof-00.joe
 texture = hayball.bmp.png
 mass = 0
 surface = 1
 
-[body.436]
+[object.436.body]
 model = house1.dof-00.joe
 texture = house01.bmp.png
 mass = 0
 surface = 1
 
-[body.437]
+[object.437.body]
 model = house1.dof-01.joe
 texture = house02.bmp.png
 mass = 0
 surface = 1
 
-[body.438]
+[object.438.body]
 model = house1.dof-02.joe
 texture = house03.bmp.png
 mass = 0
 surface = 1
 
-[body.439]
+[object.439.body]
 model = house1.dof-03.joe
 texture = house04.bmp.png
 mass = 0
 surface = 1
 
-[body.440]
+[object.440.body]
 model = hut01.dof-00.joe
 texture = hut.bmp.png
 mass = 0
 surface = 1
 
-[body.441]
+[object.441.body]
 model = hut02.dof-00.joe
 texture = hut.bmp.png
 mass = 0
 surface = 1
 
-[body.442]
+[object.442.body]
 model = hut03.dof-00.joe
 texture = hut.bmp.png
 mass = 0
 surface = 1
 
-[body.443]
+[object.443.body]
 model = hut04.dof-00.joe
 texture = hut.bmp.png
 mass = 0
 surface = 1
 
-[body.444]
+[object.444.body]
 model = hut05.dof-00.joe
 texture = hut.bmp.png
 mass = 0
 surface = 1
 
-[body.445]
+[object.445.body]
 model = hut06.dof-00.joe
 texture = hut.bmp.png
 mass = 0
 surface = 1
 
-[body.446]
+[object.446.body]
 model = hut07.dof-00.joe
 texture = hut.bmp.png
 mass = 0
 surface = 1
 
-[body.447]
+[object.447.body]
 model = hut08.dof-00.joe
 texture = hut.bmp.png
 mass = 0
 surface = 1
 
-[body.448]
+[object.448.body]
 model = lobp1.dof-00.joe
 texture = lobp1.bmp.png
 mass = 0
 surface = 1
 
-[body.449]
+[object.449.body]
 model = lobp1.dof-01.joe
 texture = logoback.bmp.png
 mass = 0
 surface = 1
 
-[body.450]
+[object.450.body]
 model = logo01.dof-00.joe
 texture = banner02.bmp.png
 alphablend = true
 mass = 0
 surface = 1
 
-[body.451]
+[object.451.body]
 model = logo02.dof-00.joe
 texture = banner01.bmp.png
 alphablend = true
 mass = 0
 surface = 1
 
-[body.452]
+[object.452.body]
 model = logo03.dof-00.joe
 texture = banner04.bmp.png
 alphablend = true
 mass = 0
 surface = 1
 
-[body.453]
+[object.453.body]
 model = logo04.dof-00.joe
 texture = banner02.bmp.png
 alphablend = true
 mass = 0
 surface = 1
 
-[body.454]
+[object.454.body]
 model = logo05.dof-00.joe
 texture = lobp1.bmp.png
 alphablend = true
 mass = 0
 surface = 1
 
-[body.455]
+[object.455.body]
 model = logo06.dof-00.joe
 texture = banner01.bmp.png
 alphablend = true
 mass = 0
 surface = 1
 
-[body.456]
+[object.456.body]
 model = logo07.dof-00.joe
 texture = banner02.bmp.png
 alphablend = true
 mass = 0
 surface = 1
 
-[body.457]
+[object.457.body]
 model = logo08.dof-00.joe
 texture = lobp1.bmp.png
 alphablend = true
 mass = 0
 surface = 1
 
-[body.458]
+[object.458.body]
 model = logo09.dof-00.joe
 texture = banner04.bmp.png
 alphablend = true
 mass = 0
 surface = 1
 
-[body.459]
+[object.459.body]
 model = logo10.dof-00.joe
 texture = banner02.bmp.png
 alphablend = true
 mass = 0
 surface = 1
 
-[body.460]
+[object.460.body]
 model = logo11.dof-00.joe
 texture = bpl2.bmp.png
 alphablend = true
 mass = 0
 surface = 1
 
-[body.461]
+[object.461.body]
 model = logo12.dof-00.joe
 texture = bpl2.bmp.png
 alphablend = true
 mass = 0
 surface = 1
 
-[body.462]
+[object.462.body]
 model = losh1.dof-00.joe
 texture = loshell2.bmp.png
 mass = 0
 surface = 1
 
-[body.463]
+[object.463.body]
 model = losh1.dof-01.joe
 texture = logoback.bmp.png
 mass = 0
 surface = 1
 
-[body.464]
+[object.464.body]
 model = lptreeaa139.dof-00.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.465]
+[object.465.body]
 model = lptreeaa142.dof-00.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.466]
+[object.466.body]
 model = lptreeaa143.dof-00.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.467]
+[object.467.body]
 model = lptreeaa144.dof-00.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.468]
+[object.468.body]
 model = lptreeba137.dof-00.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.469]
+[object.469.body]
 model = lptreeba138.dof-00.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.470]
+[object.470.body]
 model = lptreeba139.dof-00.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.471]
+[object.471.body]
 model = lptreebb01.dof-00.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.472]
+[object.472.body]
 model = lptreeca137.dof-00.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.473]
+[object.473.body]
 model = lptreeca138.dof-00.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.474]
+[object.474.body]
 model = lptreeca139.dof-00.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.475]
+[object.475.body]
 model = lptreecb11.dof-00.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.476]
+[object.476.body]
 model = lptreeda113.dof-00.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.477]
+[object.477.body]
 model = lptreeda114.dof-00.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.478]
+[object.478.body]
 model = lptreeda115.dof-00.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.479]
+[object.479.body]
 model = lptreedb01.dof-00.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.480]
+[object.480.body]
 model = lptreedb12.dof-00.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.481]
+[object.481.body]
 model = lptreeea74.dof-00.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.482]
+[object.482.body]
 model = lptreeea75.dof-00.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.483]
+[object.483.body]
 model = lptreeea76.dof-00.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.484]
+[object.484.body]
 model = lptreeeb27.dof-00.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.485]
+[object.485.body]
 model = mack01.dof-00.joe
 texture = mack01.bmp.png
 
-[body.486]
+[object.486.body]
 model = mack01.dof-01.joe
 texture = mack02.bmp.png
 
-[body.487]
+[object.487.body]
 model = mack02.dof-00.joe
 texture = mack02.bmp.png
 
-[body.488]
+[object.488.body]
 model = mack02.dof-01.joe
 texture = mack02.bmp.png
 
-[body.489]
+[object.489.body]
 model = mack02.dof-02.joe
 texture = mack01.bmp.png
 
-[body.490]
+[object.490.body]
 model = marshal01.dof-00.joe
 texture = marshal.bmp.png
 nolighting = true
 
-[body.491]
+[object.491.body]
 model = marshal02.dof-00.joe
 texture = marshal.bmp.png
 nolighting = true
 
-[body.492]
+[object.492.body]
 model = marshal03.dof-00.joe
 texture = marshal.bmp.png
 nolighting = true
 
-[body.493]
+[object.493.body]
 model = marshal05.dof-00.joe
 texture = marshal.bmp.png
 nolighting = true
 
-[body.494]
+[object.494.body]
 model = marshal06.dof-00.joe
 texture = marshal.bmp.png
 nolighting = true
 
-[body.495]
+[object.495.body]
 model = marshal07.dof-00.joe
 texture = marshal.bmp.png
 nolighting = true
 
-[body.496]
+[object.496.body]
 model = marshal08.dof-00.joe
 texture = marshal.bmp.png
 nolighting = true
 
-[body.497]
+[object.497.body]
 model = marshal10.dof-00.joe
 texture = marshal.bmp.png
 nolighting = true
 
-[body.498]
+[object.498.body]
 model = mast01.dof-00.joe
 texture = mast01.bmp.png
 mass = 0
 surface = 1
 
-[body.499]
+[object.499.body]
 model = mast02.dof-00.joe
 texture = mast01.bmp.png
 mass = 0
 surface = 1
 
-[body.500]
+[object.500.body]
 model = mast03.dof-00.joe
 texture = mast01.bmp.png
 mass = 0
 surface = 1
 
-[body.501]
+[object.501.body]
 model = mast04.dof-00.joe
 texture = mast01.bmp.png
 mass = 0
 surface = 1
 
-[body.502]
+[object.502.body]
 model = mast05.dof-00.joe
 texture = mast01.bmp.png
 mass = 0
 surface = 1
 
-[body.503]
+[object.503.body]
 model = mast06.dof-00.joe
 texture = mast01.bmp.png
 mass = 0
 surface = 1
 
-[body.504]
+[object.504.body]
 model = mast07.dof-00.joe
 texture = mast01.bmp.png
 mass = 0
 surface = 1
 
-[body.505]
+[object.505.body]
 model = masta.dof-00.joe
 texture = mast01.bmp.png
 mass = 0
 surface = 1
 
-[body.506]
+[object.506.body]
 model = mastb.dof-00.joe
 texture = mast01.bmp.png
 mass = 0
 surface = 1
 
-[body.507]
+[object.507.body]
 model = mondebar.dof-00.joe
 texture = logoback.bmp.png
 mass = 0
 surface = 1
 
-[body.508]
+[object.508.body]
 model = mondebar.dof-01.joe
 texture = loshell1.bmp.png
 mass = 0
 surface = 1
 
-[body.509]
+[object.509.body]
 model = number01.dof-00.joe
 texture = numbers.bmp.png
 mass = 0
 surface = 1
 
-[body.510]
+[object.510.body]
 model = number01.dof-01.joe
 texture = mast01.bmp.png
 mass = 0
 surface = 1
 
-[body.511]
+[object.511.body]
 model = parkroad.dof-00.joe
 texture = grass2a.bmp.png
 mass = 0
 surface = 2
 
-[body.512]
+[object.512.body]
 model = pbzaun01.dof-00.joe
 texture = fence1.bmp.png
 mipmap = false
 mass = 0
 surface = 1
 
-[body.513]
+[object.513.body]
 model = pbzaun02.dof-00.joe
 texture = fence1.bmp.png
 mipmap = false
 mass = 0
 surface = 1
 
-[body.514]
+[object.514.body]
 model = pbzaun03.dof-00.joe
 texture = fence1.bmp.png
 mipmap = false
 mass = 0
 surface = 1
 
-[body.515]
+[object.515.body]
 model = pitbuild1.dof-00.joe
 texture = wall01.bmp.png
 mass = 0
 surface = 1
 
-[body.516]
+[object.516.body]
 model = pitbuild1.dof-01.joe
 texture = wall04.bmp.png
 mass = 0
 surface = 1
 
-[body.517]
+[object.517.body]
 model = pitbuild1.dof-02.joe
 texture = garwall.bmp.png
 mass = 0
 surface = 1
 
-[body.518]
+[object.518.body]
 model = pitbuild1.dof-03.joe
 texture = wall03.bmp.png
 mass = 0
 surface = 1
 
-[body.519]
+[object.519.body]
 model = pitbuild1.dof-04.joe
 texture = wall02.bmp.png
 mass = 0
 surface = 1
 
-[body.520]
+[object.520.body]
 model = pitbuild1.dof-05.joe
 texture = pitbfron.bmp.png
 mass = 0
 surface = 1
 
-[body.521]
+[object.521.body]
 model = pitbuild2.dof-00.joe
 texture = wall01.bmp.png
 mass = 0
 surface = 1
 
-[body.522]
+[object.522.body]
 model = pitbuild2.dof-01.joe
 texture = wall04.bmp.png
 mass = 0
 surface = 1
 
-[body.523]
+[object.523.body]
 model = pitbuild2.dof-02.joe
 texture = garwall.bmp.png
 mass = 0
 surface = 1
 
-[body.524]
+[object.524.body]
 model = pitbuild2.dof-03.joe
 texture = wall03.bmp.png
 mass = 0
 surface = 1
 
-[body.525]
+[object.525.body]
 model = pitbuild2.dof-04.joe
 texture = wall02.bmp.png
 mass = 0
 surface = 1
 
-[body.526]
+[object.526.body]
 model = pitbuild2.dof-05.joe
 texture = pitcfron.bmp.png
 mass = 0
 surface = 1
 
-[body.527]
+[object.527.body]
 model = pitbuild3.dof-00.joe
 texture = wall01.bmp.png
 mass = 0
 surface = 1
 
-[body.528]
+[object.528.body]
 model = pitbuild3.dof-01.joe
 texture = pitbfron.bmp.png
 mass = 0
 surface = 1
 
-[body.529]
+[object.529.body]
 model = pitbuild3.dof-02.joe
 texture = wall03.bmp.png
 mass = 0
 surface = 1
 
-[body.530]
+[object.530.body]
 model = pitbuild3.dof-03.joe
 texture = wall02.bmp.png
 mass = 0
 surface = 1
 
-[body.531]
+[object.531.body]
 model = pitbuild3.dof-04.joe
 texture = garwall.bmp.png
 mass = 0
 surface = 1
 
-[body.532]
+[object.532.body]
 model = pitbuild3.dof-05.joe
 texture = wall04.bmp.png
 mass = 0
 surface = 1
 
-[body.533]
+[object.533.body]
 model = pitbuild4.dof-00.joe
 texture = wall01.bmp.png
 mass = 0
 surface = 1
 
-[body.534]
+[object.534.body]
 model = pitbuild4.dof-01.joe
 texture = garwall.bmp.png
 mass = 0
 surface = 1
 
-[body.535]
+[object.535.body]
 model = pitbuild4.dof-02.joe
 texture = wall04.bmp.png
 mass = 0
 surface = 1
 
-[body.536]
+[object.536.body]
 model = pitbuild4.dof-03.joe
 texture = wall03.bmp.png
 mass = 0
 surface = 1
 
-[body.537]
+[object.537.body]
 model = pitbuild4.dof-04.joe
 texture = wall02.bmp.png
 mass = 0
 surface = 1
 
-[body.538]
+[object.538.body]
 model = pitbuild5.dof-00.joe
 texture = wall01.bmp.png
 mass = 0
 surface = 1
 
-[body.539]
+[object.539.body]
 model = pitbuild5.dof-01.joe
 texture = wall04.bmp.png
 mass = 0
 surface = 1
 
-[body.540]
+[object.540.body]
 model = pitfence.dof-00.joe
 texture = fence2.bmp.png
 mipmap = false
 mass = 0
 surface = 1
 
-[body.541]
+[object.541.body]
 model = pitlogo01.dof-00.joe
 texture = pitlogo.bmp.png
 mass = 0
 surface = 1
 
-[body.542]
+[object.542.body]
 model = pitlogo02.dof-00.joe
 texture = bpfence5.bmp.png
 mass = 0
 surface = 1
 
-[body.543]
+[object.543.body]
 model = pitlogo02.dof-01.joe
 texture = bpfence3.bmp.png
 mass = 0
 surface = 1
 
-[body.544]
+[object.544.body]
 model = pitlogo03.dof-00.joe
 texture = pitlogo.bmp.png
 mass = 0
 surface = 1
 
-[body.545]
+[object.545.body]
 model = pitlogo04.dof-00.joe
 texture = bpfence3.bmp.png
 mass = 0
 surface = 1
 
-[body.546]
+[object.546.body]
 model = ptlit01.dof-00.joe
 texture = mast01.bmp.png
 mass = 0
 surface = 1
 
-[body.547]
+[object.547.body]
 model = ptlit01.dof-01.joe
 texture = rmbl1a.bmp.png
 mass = 0
 surface = 1
 
-[body.548]
+[object.548.body]
 model = ptlit01.dof-05.joe
 texture = ptblit00.bmp.png
 mass = 0
 surface = 1
 
-[body.549]
+[object.549.body]
 model = ptlit02.dof-00.joe
 texture = mast01.bmp.png
 mass = 0
 surface = 1
 
-[body.550]
+[object.550.body]
 model = ptlit02.dof-02.joe
 texture = rmbl1a.bmp.png
 mass = 0
 surface = 1
 
-[body.551]
+[object.551.body]
 model = road01.dof-00.joe
 texture = road1a.bmp.png
 mass = 0
 surface = 1
 
-[body.552]
+[object.552.body]
 model = road01.dof-01.joe
 texture = road2a.bmp.png
 mass = 0
 surface = 1
 
-[body.553]
+[object.553.body]
 model = road01.dof-02.joe
 texture = roadlane.bmp.png
 mass = 0
 surface = 1
 
-[body.554]
+[object.554.body]
 model = road01.dof-03.joe
 texture = road1s.bmp.png
 mass = 0
 surface = 1
 
-[body.555]
+[object.555.body]
 model = road01.dof-04.joe
 texture = roadchec.bmp.png
 mass = 0
 surface = 1
 
-[body.556]
+[object.556.body]
 model = road02.dof-00.joe
 texture = road1a.bmp.png
 mass = 0
 surface = 1
 
-[body.557]
+[object.557.body]
 model = road03.dof-00.joe
 texture = road1a.bmp.png
 mass = 0
 surface = 1
 
-[body.558]
+[object.558.body]
 model = road03.dof-01.joe
 texture = road2a.bmp.png
 mass = 0
 surface = 1
 
-[body.559]
+[object.559.body]
 model = road04.dof-00.joe
 texture = road2a.bmp.png
 mass = 0
 surface = 1
 
-[body.560]
+[object.560.body]
 model = road04.dof-01.joe
 texture = roadlane.bmp.png
 mass = 0
 surface = 1
 
-[body.561]
+[object.561.body]
 model = road04.dof-02.joe
 texture = rmbl4a.bmp.png
 mass = 0
 surface = 1
 
-[body.562]
+[object.562.body]
 model = road05.dof-00.joe
 texture = road2a.bmp.png
 mass = 0
 surface = 1
 
-[body.563]
+[object.563.body]
 model = road05.dof-01.joe
 texture = road1a.bmp.png
 mass = 0
 surface = 1
 
-[body.564]
+[object.564.body]
 model = road05.dof-02.joe
 texture = roadcob.bmp.png
 mass = 0
 surface = 1
 
-[body.565]
+[object.565.body]
 model = road05.dof-03.joe
 texture = rmbl1a.bmp.png
 mass = 0
 surface = 1
 
-[body.566]
+[object.566.body]
 model = road05.dof-04.joe
 texture = rmbl4a.bmp.png
 mass = 0
 surface = 1
 
-[body.567]
+[object.567.body]
 model = road06.dof-00.joe
 texture = road1a.bmp.png
 mass = 0
 surface = 1
 
-[body.568]
+[object.568.body]
 model = road06.dof-01.joe
 texture = road2a.bmp.png
 mass = 0
 surface = 1
 
-[body.569]
+[object.569.body]
 model = road07.dof-00.joe
 texture = road2a.bmp.png
 mass = 0
 surface = 1
 
-[body.570]
+[object.570.body]
 model = road07.dof-01.joe
 texture = road1a.bmp.png
 mass = 0
 surface = 1
 
-[body.571]
+[object.571.body]
 model = road08.dof-00.joe
 texture = road1a.bmp.png
 mass = 0
 surface = 1
 
-[body.572]
+[object.572.body]
 model = road09.dof-00.joe
 texture = road1a.bmp.png
 mass = 0
 surface = 1
 
-[body.573]
+[object.573.body]
 model = road09.dof-01.joe
 texture = road2a.bmp.png
 mass = 0
 surface = 1
 
-[body.574]
+[object.574.body]
 model = road10.dof-00.joe
 texture = road2a.bmp.png
 mass = 0
 surface = 1
 
-[body.575]
+[object.575.body]
 model = road10.dof-01.joe
 texture = roadlane.bmp.png
 mass = 0
 surface = 1
 
-[body.576]
+[object.576.body]
 model = road11.dof-00.joe
 texture = road2a.bmp.png
 mass = 0
 surface = 1
 
-[body.577]
+[object.577.body]
 model = road12.dof-00.joe
 texture = road2a.bmp.png
 mass = 0
 surface = 1
 
-[body.578]
+[object.578.body]
 model = road12.dof-01.joe
 texture = roadswit.bmp.png
 mass = 0
 surface = 1
 
-[body.579]
+[object.579.body]
 model = road12.dof-02.joe
 texture = roa4a.bmp.png
 mass = 0
 surface = 1
 
-[body.580]
+[object.580.body]
 model = road12.dof-03.joe
 texture = road1a.bmp.png
 mass = 0
 surface = 1
 
-[body.581]
+[object.581.body]
 model = road12.dof-04.joe
 texture = roadlane.bmp.png
 mass = 0
 surface = 1
 
-[body.582]
+[object.582.body]
 model = road12.dof-05.joe
 texture = rmbl4a.bmp.png
 mass = 0
 surface = 1
 
-[body.583]
+[object.583.body]
 model = road13.dof-00.joe
 texture = roa4a.bmp.png
 mass = 0
 surface = 1
 
-[body.584]
+[object.584.body]
 model = road13.dof-01.joe
 texture = roadswit.bmp.png
 mass = 0
 surface = 1
 
-[body.585]
+[object.585.body]
 model = road13.dof-02.joe
 texture = road2a.bmp.png
 mass = 0
 surface = 1
 
-[body.586]
+[object.586.body]
 model = roadpi.dof-00.joe
 texture = roadd.bmp.png
 mass = 0
 surface = 1
 
-[body.587]
+[object.587.body]
 model = roadpit.dof-00.joe
 texture = roadlane.bmp.png
 mass = 0
 surface = 1
 
-[body.588]
+[object.588.body]
 model = roadpit.dof-01.joe
 texture = roadpart.bmp.png
 mass = 0
 surface = 1
 
-[body.589]
+[object.589.body]
 model = roadpit.dof-02.joe
 texture = roadpit.bmp.png
 mass = 0
 surface = 1
 
-[body.590]
+[object.590.body]
 model = roadpit.dof-03.joe
 texture = paddock.bmp.png
 mass = 0
 surface = 1
 
-[body.591]
+[object.591.body]
 model = roadpit.dof-04.joe
 texture = wall01.bmp.png
 mass = 0
 surface = 1
 
-[body.592]
+[object.592.body]
 model = roadpo.dof-00.joe
 texture = roadd.bmp.png
 mass = 0
 surface = 1
 
-[body.593]
+[object.593.body]
 model = scheune.dof-00.joe
 texture = scheune.bmp.png
 mass = 0
 surface = 1
 
-[body.594]
+[object.594.body]
 model = shell03.dof-00.joe
 texture = banner02.bmp.png
 mass = 0
 surface = 1
 
-[body.595]
+[object.595.body]
 model = shell03.dof-01.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.596]
+[object.596.body]
 model = shell04.dof-00.joe
 texture = banner02.bmp.png
 mass = 0
 surface = 1
 
-[body.597]
+[object.597.body]
 model = shell04.dof-01.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.598]
+[object.598.body]
 model = shell05.dof-00.joe
 texture = banner02.bmp.png
 mass = 0
 surface = 1
 
-[body.599]
+[object.599.body]
 model = shell05.dof-01.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.600]
+[object.600.body]
 model = shrub01.dof-00.joe
 texture = shrub01.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.601]
+[object.601.body]
 model = shrub02.dof-00.joe
 texture = shrub01.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.602]
+[object.602.body]
 model = shrub03.dof-00.joe
 texture = shrub01.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.603]
+[object.603.body]
 model = shrub04.dof-00.joe
 texture = shrub01.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.604]
+[object.604.body]
 model = shrub05.dof-00.joe
 texture = shrub01.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.605]
+[object.605.body]
 model = sign03.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.606]
+[object.606.body]
 model = sign04.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.607]
+[object.607.body]
 model = sign05.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.608]
+[object.608.body]
 model = sign06.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.609]
+[object.609.body]
 model = sign07.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.610]
+[object.610.body]
 model = sign08.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.611]
+[object.611.body]
 model = sign09.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.612]
+[object.612.body]
 model = sign100a.dof-00.joe
 texture = brakep.bmp.png
 mass = 0
 surface = 1
 
-[body.613]
+[object.613.body]
 model = sign100b.dof-00.joe
 texture = brakep.bmp.png
 mass = 0
 surface = 1
 
-[body.614]
+[object.614.body]
 model = sign10.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.615]
+[object.615.body]
 model = sign11.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.616]
+[object.616.body]
 model = sign12.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.617]
+[object.617.body]
 model = sign13.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.618]
+[object.618.body]
 model = sign14.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.619]
+[object.619.body]
 model = sign15.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.620]
+[object.620.body]
 model = sign16.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.621]
+[object.621.body]
 model = sign17.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.622]
+[object.622.body]
 model = sign18.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.623]
+[object.623.body]
 model = sign19.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.624]
+[object.624.body]
 model = sign200a.dof-00.joe
 texture = brakep.bmp.png
 mass = 0
 surface = 1
 
-[body.625]
+[object.625.body]
 model = sign200b.dof-00.joe
 texture = brakep.bmp.png
 mass = 0
 surface = 1
 
-[body.626]
+[object.626.body]
 model = sign20.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.627]
+[object.627.body]
 model = sign21.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.628]
+[object.628.body]
 model = sign22.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.629]
+[object.629.body]
 model = sign24.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.630]
+[object.630.body]
 model = sign25.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.631]
+[object.631.body]
 model = sign26.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.632]
+[object.632.body]
 model = sign28.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.633]
+[object.633.body]
 model = sign300a.dof-00.joe
 texture = brakep.bmp.png
 mass = 0
 surface = 1
 
-[body.634]
+[object.634.body]
 model = sign300b.dof-00.joe
 texture = brakep.bmp.png
 mass = 0
 surface = 1
 
-[body.635]
+[object.635.body]
 model = sign30.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.636]
+[object.636.body]
 model = sign32.dof-00.joe
 texture = bloc.bmp.png
 mass = 0
 surface = 1
 
-[body.637]
+[object.637.body]
 model = signb26.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.638]
+[object.638.body]
 model = signb26.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.639]
+[object.639.body]
 model = signba02.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.640]
+[object.640.body]
 model = signba02.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.641]
+[object.641.body]
 model = signba03.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.642]
+[object.642.body]
 model = signba03.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.643]
+[object.643.body]
 model = signba04.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.644]
+[object.644.body]
 model = signba04.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.645]
+[object.645.body]
 model = signba05.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.646]
+[object.646.body]
 model = signba05.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.647]
+[object.647.body]
 model = signba06.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.648]
+[object.648.body]
 model = signba06.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.649]
+[object.649.body]
 model = signba07.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.650]
+[object.650.body]
 model = signba07.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.651]
+[object.651.body]
 model = signba08.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.652]
+[object.652.body]
 model = signba08.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.653]
+[object.653.body]
 model = signba09.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.654]
+[object.654.body]
 model = signba09.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.655]
+[object.655.body]
 model = signba10.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.656]
+[object.656.body]
 model = signba10.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.657]
+[object.657.body]
 model = signba11.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.658]
+[object.658.body]
 model = signba11.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.659]
+[object.659.body]
 model = signba12.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.660]
+[object.660.body]
 model = signba12.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.661]
+[object.661.body]
 model = signba13.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.662]
+[object.662.body]
 model = signba13.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.663]
+[object.663.body]
 model = signba14.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.664]
+[object.664.body]
 model = signba14.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.665]
+[object.665.body]
 model = signba15.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.666]
+[object.666.body]
 model = signba15.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.667]
+[object.667.body]
 model = signba16.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.668]
+[object.668.body]
 model = signba16.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.669]
+[object.669.body]
 model = signba17.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.670]
+[object.670.body]
 model = signba17.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.671]
+[object.671.body]
 model = signba18.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.672]
+[object.672.body]
 model = signba18.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.673]
+[object.673.body]
 model = signba19.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.674]
+[object.674.body]
 model = signba19.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.675]
+[object.675.body]
 model = signba20.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.676]
+[object.676.body]
 model = signba20.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.677]
+[object.677.body]
 model = signba21.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.678]
+[object.678.body]
 model = signba21.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.679]
+[object.679.body]
 model = signba22.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.680]
+[object.680.body]
 model = signba22.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.681]
+[object.681.body]
 model = signba23.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.682]
+[object.682.body]
 model = signba23.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.683]
+[object.683.body]
 model = signba27.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.684]
+[object.684.body]
 model = signba27.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.685]
+[object.685.body]
 model = signba28.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.686]
+[object.686.body]
 model = signba28.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.687]
+[object.687.body]
 model = signba29.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.688]
+[object.688.body]
 model = signba29.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.689]
+[object.689.body]
 model = signba30.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.690]
+[object.690.body]
 model = signba30.dof-01.joe
 texture = bande01.bmp.png
 mass = 0
 surface = 1
 
-[body.691]
+[object.691.body]
 model = signbb03.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.692]
+[object.692.body]
 model = signbb03.dof-01.joe
 texture = bande02.bmp.png
 mass = 0
 surface = 1
 
-[body.693]
+[object.693.body]
 model = signbb04.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.694]
+[object.694.body]
 model = signbb04.dof-01.joe
 texture = bande02.bmp.png
 mass = 0
 surface = 1
 
-[body.695]
+[object.695.body]
 model = signbb05.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.696]
+[object.696.body]
 model = signbb05.dof-01.joe
 texture = bande02.bmp.png
 mass = 0
 surface = 1
 
-[body.697]
+[object.697.body]
 model = signbb06.dof-00.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.698]
+[object.698.body]
 model = signbb06.dof-01.joe
 texture = bande02.bmp.png
 mass = 0
 surface = 1
 
-[body.699]
+[object.699.body]
 model = signr301.dof-00.joe
 texture = brakep.bmp.png
 mass = 0
 surface = 1
 
-[body.700]
+[object.700.body]
 model = signr302.dof-00.joe
 texture = brakep.bmp.png
 mass = 0
 surface = 1
 
-[body.701]
+[object.701.body]
 model = signr303.dof-00.joe
 texture = brakep.bmp.png
 mass = 0
 surface = 1
 
-[body.702]
+[object.702.body]
 model = skyboxi.dof-00.joe
 texture = bkc.bmp.png
 clampuv = 1
 nolighting = true
 skybox = true
 
-[body.703]
+[object.703.body]
 model = skyboxi.dof-01.joe
 texture = bkd.bmp.png
 clampuv = 1
 nolighting = true
 skybox = true
 
-[body.704]
+[object.704.body]
 model = skyboxi.dof-02.joe
 texture = bkb.bmp.png
 clampuv = 1
 nolighting = true
 skybox = true
 
-[body.705]
+[object.705.body]
 model = skyboxi.dof-03.joe
 texture = bka.bmp.png
 clampuv = 1
 nolighting = true
 skybox = true
 
-[body.706]
+[object.706.body]
 model = speaker01.dof-00.joe
 texture = mast02.bmp.png
 mass = 0
 surface = 1
 
-[body.707]
+[object.707.body]
 model = speaker01.dof-01.joe
 texture = speaker.bmp.png
 mass = 0
 surface = 1
 
-[body.708]
+[object.708.body]
 model = speaker02.dof-00.joe
 texture = mast02.bmp.png
 mass = 0
 surface = 1
 
-[body.709]
+[object.709.body]
 model = speaker02.dof-01.joe
 texture = speaker.bmp.png
 mass = 0
 surface = 1
 
-[body.710]
+[object.710.body]
 model = speaker03.dof-00.joe
 texture = mast02.bmp.png
 mass = 0
 surface = 1
 
-[body.711]
+[object.711.body]
 model = speaker03.dof-01.joe
 texture = speaker.bmp.png
 mass = 0
 surface = 1
 
-[body.712]
+[object.712.body]
 model = stlite.dof-00.joe
 texture = mast01.bmp.png
 mass = 0
 surface = 1
 
-[body.713]
+[object.713.body]
 model = stlite.dof-01.joe
 texture = rmbl1a.bmp.png
 mass = 0
 surface = 1
 
-[body.714]
+[object.714.body]
 model = tent01.dof-00.joe
 texture = tent02.bmp.png
 mass = 0
 surface = 1
 
-[body.715]
+[object.715.body]
 model = tent02.dof-00.joe
 texture = tent02.bmp.png
 mass = 0
 surface = 1
 
-[body.716]
+[object.716.body]
 model = tent03.dof-00.joe
 texture = tent02.bmp.png
 mass = 0
 surface = 1
 
-[body.717]
+[object.717.body]
 model = tent04.dof-00.joe
 texture = tent02.bmp.png
 mass = 0
 surface = 1
 
-[body.718]
+[object.718.body]
 model = tent05.dof-00.joe
 texture = tent02.bmp.png
 mass = 0
 surface = 1
 
-[body.719]
+[object.719.body]
 model = tent06.dof-00.joe
 texture = tent02.bmp.png
 mass = 0
 surface = 1
 
-[body.720]
+[object.720.body]
 model = timetake2.dof-00.joe
 texture = timetak2.bmp.png
 mass = 0
 surface = 1
 
-[body.721]
+[object.721.body]
 model = timetake2.dof-01.joe
 texture = wall05.bmp.png
 mass = 0
 surface = 1
 
-[body.722]
+[object.722.body]
 model = timetake2.dof-02.joe
 texture = stripe1.bmp.png
 mass = 0
 surface = 1
 
-[body.723]
+[object.723.body]
 model = timetake2.dof-03.joe
 texture = wall03.bmp.png
 mass = 0
 surface = 1
 
-[body.724]
+[object.724.body]
 model = timetake2.dof-04.joe
 texture = wood01.bmp.png
 mass = 0
 surface = 1
 
-[body.725]
+[object.725.body]
 model = timetake2.dof-05.joe
 texture = wall01.bmp.png
 mass = 0
 surface = 1
 
-[body.726]
+[object.726.body]
 model = timetake2.dof-06.joe
 texture = stair2.bmp.png
 mass = 0
 surface = 1
 
-[body.727]
+[object.727.body]
 model = timetake2.dof-07.joe
 texture = ttfence.bmp.png
 mass = 0
 surface = 1
 
-[body.728]
+[object.728.body]
 model = timetake2.dof-08.joe
 texture = window.tga.png
 mass = 0
 surface = 1
 
-[body.729]
+[object.729.body]
 model = timetake2.dof-09.joe
 texture = wood02.bmp.png
 mass = 0
 surface = 1
 
-[body.730]
+[object.730.body]
 model = tower.dof-00.joe
 texture = tower.bmp.png
 mass = 0
 surface = 1
 
-[body.731]
+[object.731.body]
 model = tower.dof-01.joe
 texture = mast02.bmp.png
 mass = 0
 surface = 1
 
-[body.732]
+[object.732.body]
 model = trailer01.dof-00.joe
 texture = trailer01.bmp.png
 
-[body.733]
+[object.733.body]
 model = trailer01.dof-01.joe
 texture = trailer01.bmp.png
 
-[body.734]
+[object.734.body]
 model = trailer01.dof-02.joe
 texture = trailer01.bmp.png
 
-[body.735]
+[object.735.body]
 model = trailer02.dof-00.joe
 texture = trailer01.bmp.png
 
-[body.736]
+[object.736.body]
 model = trailer02.dof-01.joe
 texture = trailer01.bmp.png
 
-[body.737]
+[object.737.body]
 model = trailer02.dof-02.joe
 texture = trailer01.bmp.png
 
-[body.738]
+[object.738.body]
 model = trailer03.dof-00.joe
 texture = trailer01.bmp.png
 
-[body.739]
+[object.739.body]
 model = trailer03.dof-01.joe
 texture = trailer01.bmp.png
 
-[body.740]
+[object.740.body]
 model = tree01.dof-00.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.741]
+[object.741.body]
 model = tree01.dof-01.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.742]
+[object.742.body]
 model = tree01.dof-02.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.743]
+[object.743.body]
 model = tree01.dof-03.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.744]
+[object.744.body]
 model = tree01.dof-04.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.745]
+[object.745.body]
 model = tree02.dof-00.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.746]
+[object.746.body]
 model = tree02.dof-01.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.747]
+[object.747.body]
 model = tree02.dof-02.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.748]
+[object.748.body]
 model = tree02.dof-03.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.749]
+[object.749.body]
 model = tree02.dof-04.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.750]
+[object.750.body]
 model = tree03.dof-00.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.751]
+[object.751.body]
 model = tree03.dof-01.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.752]
+[object.752.body]
 model = tree03.dof-02.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.753]
+[object.753.body]
 model = tree03.dof-03.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.754]
+[object.754.body]
 model = tree03.dof-04.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.755]
+[object.755.body]
 model = tree04.dof-00.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.756]
+[object.756.body]
 model = tree04.dof-01.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.757]
+[object.757.body]
 model = tree04.dof-02.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.758]
+[object.758.body]
 model = tree04.dof-03.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.759]
+[object.759.body]
 model = tree04.dof-04.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.760]
+[object.760.body]
 model = tree05.dof-00.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.761]
+[object.761.body]
 model = tree05.dof-01.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.762]
+[object.762.body]
 model = tree05.dof-02.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.763]
+[object.763.body]
 model = tree05.dof-03.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.764]
+[object.764.body]
 model = tree05.dof-04.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.765]
+[object.765.body]
 model = tree07.dof-00.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.766]
+[object.766.body]
 model = tree07.dof-01.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.767]
+[object.767.body]
 model = tree07.dof-02.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.768]
+[object.768.body]
 model = tree07.dof-03.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.769]
+[object.769.body]
 model = tree07.dof-04.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.770]
+[object.770.body]
 model = tree08.dof-00.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.771]
+[object.771.body]
 model = tree08.dof-01.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.772]
+[object.772.body]
 model = tree08.dof-02.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.773]
+[object.773.body]
 model = tree08.dof-03.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.774]
+[object.774.body]
 model = tree08.dof-04.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.775]
+[object.775.body]
 model = tree09.dof-00.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.776]
+[object.776.body]
 model = tree09.dof-01.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.777]
+[object.777.body]
 model = tree09.dof-02.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.778]
+[object.778.body]
 model = tree09.dof-03.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.779]
+[object.779.body]
 model = tree09.dof-04.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.780]
+[object.780.body]
 model = tree10.dof-00.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.781]
+[object.781.body]
 model = tree10.dof-01.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.782]
+[object.782.body]
 model = tree10.dof-02.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.783]
+[object.783.body]
 model = tree10.dof-03.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.784]
+[object.784.body]
 model = tree10.dof-04.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.785]
+[object.785.body]
 model = tree11.dof-00.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.786]
+[object.786.body]
 model = tree11.dof-01.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.787]
+[object.787.body]
 model = tree11.dof-02.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.788]
+[object.788.body]
 model = tree11.dof-03.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.789]
+[object.789.body]
 model = tree11.dof-04.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.790]
+[object.790.body]
 model = tree12.dof-00.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.791]
+[object.791.body]
 model = tree12.dof-01.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.792]
+[object.792.body]
 model = tree12.dof-02.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.793]
+[object.793.body]
 model = tree12.dof-03.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.794]
+[object.794.body]
 model = tree12.dof-04.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.795]
+[object.795.body]
 model = tree13.dof-00.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.796]
+[object.796.body]
 model = tree13.dof-01.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.797]
+[object.797.body]
 model = tree13.dof-02.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.798]
+[object.798.body]
 model = tree13.dof-03.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.799]
+[object.799.body]
 model = tree13.dof-04.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.800]
+[object.800.body]
 model = tree14.dof-00.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.801]
+[object.801.body]
 model = tree14.dof-01.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.802]
+[object.802.body]
 model = tree14.dof-02.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.803]
+[object.803.body]
 model = tree14.dof-03.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.804]
+[object.804.body]
 model = tree14.dof-04.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.805]
+[object.805.body]
 model = tree15.dof-00.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.806]
+[object.806.body]
 model = tree15.dof-01.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.807]
+[object.807.body]
 model = tree15.dof-02.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.808]
+[object.808.body]
 model = tree15.dof-03.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.809]
+[object.809.body]
 model = tree15.dof-04.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.810]
+[object.810.body]
 model = tree16.dof-00.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.811]
+[object.811.body]
 model = tree16.dof-01.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.812]
+[object.812.body]
 model = tree16.dof-02.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.813]
+[object.813.body]
 model = tree16.dof-03.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.814]
+[object.814.body]
 model = tree16.dof-04.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.815]
+[object.815.body]
 model = tree17.dof-00.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.816]
+[object.816.body]
 model = tree17.dof-01.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.817]
+[object.817.body]
 model = tree17.dof-02.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.818]
+[object.818.body]
 model = tree17.dof-03.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.819]
+[object.819.body]
 model = tree17.dof-04.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.820]
+[object.820.body]
 model = tree18.dof-00.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.821]
+[object.821.body]
 model = tree18.dof-01.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.822]
+[object.822.body]
 model = tree18.dof-02.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.823]
+[object.823.body]
 model = tree18.dof-03.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.824]
+[object.824.body]
 model = tree18.dof-04.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.825]
+[object.825.body]
 model = tree19.dof-00.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.826]
+[object.826.body]
 model = tree19.dof-01.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.827]
+[object.827.body]
 model = tree19.dof-02.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.828]
+[object.828.body]
 model = tree19.dof-03.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.829]
+[object.829.body]
 model = tree19.dof-04.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.830]
+[object.830.body]
 model = tree20.dof-00.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.831]
+[object.831.body]
 model = tree20.dof-01.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.832]
+[object.832.body]
 model = tree20.dof-02.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.833]
+[object.833.body]
 model = tree20.dof-03.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.834]
+[object.834.body]
 model = tree21.dof-00.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.835]
+[object.835.body]
 model = tree21.dof-01.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.836]
+[object.836.body]
 model = tree21.dof-02.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.837]
+[object.837.body]
 model = tree21.dof-03.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.838]
+[object.838.body]
 model = tree22.dof-00.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.839]
+[object.839.body]
 model = tree22.dof-01.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.840]
+[object.840.body]
 model = tree22.dof-02.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.841]
+[object.841.body]
 model = tree22.dof-03.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.842]
+[object.842.body]
 model = tree22.dof-04.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.843]
+[object.843.body]
 model = tree23.dof-00.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.844]
+[object.844.body]
 model = tree23.dof-01.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.845]
+[object.845.body]
 model = tree23.dof-02.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.846]
+[object.846.body]
 model = tree23.dof-03.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.847]
+[object.847.body]
 model = tree24.dof-00.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.848]
+[object.848.body]
 model = tree24.dof-01.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.849]
+[object.849.body]
 model = tree24.dof-02.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.850]
+[object.850.body]
 model = tree24.dof-03.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.851]
+[object.851.body]
 model = tree24.dof-04.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.852]
+[object.852.body]
 model = tree25.dof-00.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.853]
+[object.853.body]
 model = tree25.dof-01.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.854]
+[object.854.body]
 model = tree25.dof-02.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.855]
+[object.855.body]
 model = tree25.dof-03.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.856]
+[object.856.body]
 model = tree25.dof-04.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.857]
+[object.857.body]
 model = tree26.dof-00.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.858]
+[object.858.body]
 model = tree26.dof-01.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.859]
+[object.859.body]
 model = tree26.dof-02.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.860]
+[object.860.body]
 model = tree26.dof-03.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.861]
+[object.861.body]
 model = tree26.dof-04.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.862]
+[object.862.body]
 model = treee06.dof-00.joe
 texture = treee.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.863]
+[object.863.body]
 model = treee06.dof-01.joe
 texture = treea.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.864]
+[object.864.body]
 model = treee06.dof-02.joe
 texture = treeb.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.865]
+[object.865.body]
 model = treee06.dof-03.joe
 texture = treec.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.866]
+[object.866.body]
 model = treee06.dof-04.joe
 texture = treed.bmp.png
 clampuv = 1
 nolighting = true
 
-[body.867]
+[object.867.body]
 model = treewall03.dof-00.joe
 texture = treewalm.bmp.png
 clampuv = 2
 nolighting = true
 
-[body.868]
+[object.868.body]
 model = treewall04.dof-00.joe
 texture = treewalm.bmp.png
 clampuv = 2
 nolighting = true
 
-[body.869]
+[object.869.body]
 model = treewall05.dof-00.joe
 texture = treewalm.bmp.png
 clampuv = 2
 nolighting = true
 
-[body.870]
+[object.870.body]
 model = treewall06.dof-00.joe
 texture = treewalm.bmp.png
 clampuv = 2
 nolighting = true
 
-[body.871]
+[object.871.body]
 model = treewall07.dof-00.joe
 texture = treewalm.bmp.png
 clampuv = 2
 nolighting = true
 
-[body.872]
+[object.872.body]
 model = treewall1a.dof-00.joe
 texture = treewalm.bmp.png
 clampuv = 2
 nolighting = true
 
-[body.873]
+[object.873.body]
 model = treewall1b.dof-00.joe
 texture = treewalm.bmp.png
 clampuv = 2
 nolighting = true
 
-[body.874]
+[object.874.body]
 model = treewall1c.dof-00.joe
 texture = treewalm.bmp.png
 clampuv = 2
 nolighting = true
 
-[body.875]
+[object.875.body]
 model = treewall2a.dof-00.joe
 texture = treewalm.bmp.png
 clampuv = 2
 nolighting = true
 
-[body.876]
+[object.876.body]
 model = treewall2b.dof-00.joe
 texture = treewalm.bmp.png
 clampuv = 2
 nolighting = true
 
-[body.877]
+[object.877.body]
 model = treewall2c.dof-00.joe
 texture = treewalm.bmp.png
 clampuv = 2
 nolighting = true
 
-[body.878]
+[object.878.body]
 model = tvarea.dof-00.joe
 texture = tvarea.bmp.png
 mass = 0
 surface = 1
 
-[body.879]
+[object.879.body]
 model = tvbuildings.dof-00.joe
 texture = wall03.bmp.png
 mass = 0
 surface = 1
 
-[body.880]
+[object.880.body]
 model = tvbuildings.dof-01.joe
 texture = tvbuild1.bmp.png
 mass = 0
 surface = 1
 
-[body.881]
+[object.881.body]
 model = tvbuildings.dof-02.joe
 texture = tvbuild2.bmp.png
 mass = 0
 surface = 1
 
-[body.882]
+[object.882.body]
 model = tvbuildings.dof-03.joe
 texture = tvbuild3.bmp.png
 mass = 0
 surface = 1
 
-[body.883]
+[object.883.body]
 model = tvfence01.dof-00.joe
 texture = fence2.bmp.png
 mipmap = false
 mass = 0
 surface = 1
 
-[body.884]
+[object.884.body]
 model = tvfence1.dof-00.joe
 texture = wall01.bmp.png
 mass = 0
 surface = 1
 
-[body.885]
+[object.885.body]
 model = tvmast02.dof-00.joe
 texture = wall01.bmp.png
 mass = 0
 surface = 1
 
-[body.886]
+[object.886.body]
 model = tvmast03.dof-00.joe
 texture = wall01.bmp.png
 mass = 0
 surface = 1
 
-[body.887]
+[object.887.body]
 model = tvmast04.dof-00.joe
 texture = wall01.bmp.png
 mass = 0
 surface = 1
 
-[body.888]
+[object.888.body]
 model = tvmast05.dof-00.joe
 texture = wall01.bmp.png
 mass = 0
 surface = 1
 
-[body.889]
+[object.889.body]
 model = vilfence.dof-00.joe
 texture = vilfence.bmp.png
 mass = 0
 surface = 1
 
-[body.890]
+[object.890.body]
 model = wall02.dof-00.joe
 texture = cwla.bmp.png
 mass = 0
 surface = 1
 
-[body.891]
+[object.891.body]
 model = wall02.dof-01.joe
 texture = cwta.bmp.png
 mass = 0
 surface = 1
 
-[body.892]
+[object.892.body]
 model = wall03.dof-00.joe
 texture = cwla.bmp.png
 mass = 0
 surface = 1
 
-[body.893]
+[object.893.body]
 model = wall03.dof-01.joe
 texture = cwta.bmp.png
 mass = 0
 surface = 1
 
-[body.894]
+[object.894.body]
 model = zaun01.dof-00.joe
 texture = fence1.bmp.png
 mipmap = false
 mass = 0
 surface = 1
 
-[body.895]
+[object.895.body]
 model = zaun02.dof-00.joe
 texture = fence1.bmp.png
 mipmap = false
 mass = 0
 surface = 1
 
-[body.896]
+[object.896.body]
 model = zaun031.dof-00.joe
 texture = fence1.bmp.png
 mipmap = false
 mass = 0
 surface = 1
 
-[body.897]
+[object.897.body]
 model = zaun032.dof-00.joe
 texture = fence1.bmp.png
 mipmap = false
 mass = 0
 surface = 1
 
-[body.898]
+[object.898.body]
 model = zaun033.dof-00.joe
 texture = fence1.bmp.png
 mipmap = false
 mass = 0
 surface = 1
 
-[body.899]
+[object.899.body]
 model = zaun034.dof-00.joe
 texture = fence1.bmp.png
 mipmap = false
 mass = 0
 surface = 1
 
-[body.900]
+[object.900.body]
 model = zaun03.dof-00.joe
 texture = fence1.bmp.png
 mipmap = false
 mass = 0
 surface = 1
 
-[body.901]
+[object.901.body]
 model = zaun04.dof-00.joe
 texture = fence1.bmp.png
 mipmap = false
 mass = 0
 surface = 1
 
-[body.902]
+[object.902.body]
 model = zaun05.dof-00.joe
 texture = fence2.bmp.png
 mipmap = false
 mass = 0
 surface = 1
 
-[body.903]
+[object.903.body]
 model = zaun061.dof-00.joe
 texture = fence2.bmp.png
 mipmap = false
 mass = 0
 surface = 1
 
-[body.904]
+[object.904.body]
 model = zaun06.dof-00.joe
 texture = fence2.bmp.png
 mipmap = false
 mass = 0
 surface = 1
 
-[body.905]
+[object.905.body]
 model = zaun07.dof-00.joe
 texture = fence2.bmp.png
 mipmap = false
 mass = 0
 surface = 1
 
-[body.906]
+[object.906.body]
 model = cloudsny.dof-00.joe
 texture = cloudsnny.tga.png
 alphablend = true
@@ -5194,2927 +5194,140 @@ mipmap = false
 nolighting = true
 skybox = true
 
-[body.907]
+[object.907.body]
 model = shadhut01.dof-00.joe
 texture = black.bmp.png
 alphablend = true
 isashadow = true
 
-[body.908]
+[object.908.body]
 model = shadhut02.dof-00.joe
 texture = black.bmp.png
 alphablend = true
 isashadow = true
 
-[body.909]
+[object.909.body]
 model = shadhut03.dof-00.joe
 texture = black.bmp.png
 alphablend = true
 isashadow = true
 
-[body.910]
+[object.910.body]
 model = shadhut04.dof-00.joe
 texture = black.bmp.png
 alphablend = true
 isashadow = true
 
-[body.911]
+[object.911.body]
 model = shadhut05.dof-00.joe
 texture = black.bmp.png
 alphablend = true
 isashadow = true
 
-[body.912]
+[object.912.body]
 model = shadhut06.dof-00.joe
 texture = black.bmp.png
 alphablend = true
 isashadow = true
 
-[body.913]
+[object.913.body]
 model = shadpitb.dof-00.joe
 texture = black.bmp.png
 alphablend = true
 isashadow = true
 
-[body.914]
+[object.914.body]
 model = shadtree01.dof-00.joe
 texture = shadtreeb.tga.png
 alphablend = true
 isashadow = true
 
-[body.915]
+[object.915.body]
 model = shadtree01.dof-01.joe
 texture = shadtreew.tga.png
 alphablend = true
 isashadow = true
 
-[body.916]
+[object.916.body]
 model = shadtree02.dof-00.joe
 texture = shadtreeb.tga.png
 alphablend = true
 isashadow = true
 
-[body.917]
+[object.917.body]
 model = shadtree02.dof-01.joe
 texture = shadtreew.tga.png
 alphablend = true
 isashadow = true
 
-[body.918]
+[object.918.body]
 model = shadtree03.dof-00.joe
 texture = shadtreeb.tga.png
 alphablend = true
 isashadow = true
 
-[body.919]
+[object.919.body]
 model = shadtree03.dof-01.joe
 texture = shadtreew.tga.png
 alphablend = true
 isashadow = true
 
-[body.920]
+[object.920.body]
 model = shadtree04.dof-00.joe
 texture = shadtreeb.tga.png
 alphablend = true
 isashadow = true
 
-[body.921]
+[object.921.body]
 model = shadtree04.dof-01.joe
 texture = shadtreew.tga.png
 alphablend = true
 isashadow = true
 
-[body.922]
+[object.922.body]
 model = shadtree05.dof-00.joe
 texture = shadtreeb.tga.png
 alphablend = true
 isashadow = true
 
-[body.923]
+[object.923.body]
 model = shadtree05.dof-01.joe
 texture = shadtreew.tga.png
 alphablend = true
 isashadow = true
 
-[body.924]
+[object.924.body]
 model = shadtree06.dof-00.joe
 texture = shadtreeb.tga.png
 alphablend = true
 isashadow = true
 
-[body.925]
+[object.925.body]
 model = shadtree06.dof-01.joe
 texture = shadtreew.tga.png
 alphablend = true
 isashadow = true
 
-[body.926]
+[object.926.body]
 model = shadtree07.dof-00.joe
 texture = shadtreew.tga.png
 alphablend = true
 isashadow = true
 
-[body.927]
+[object.927.body]
 model = shadtree07.dof-01.joe
 texture = shadtreeb.tga.png
 alphablend = true
 isashadow = true
 
-[body.928]
+[object.928.body]
 model = shadtt.dof-00.joe
 texture = black.bmp.png
 alphablend = true
 isashadow = true
 
-[node.0]
-body = 0
-
-[node.1]
-body = 1
-
-[node.2]
-body = 2
-
-[node.3]
-body = 3
-
-[node.4]
-body = 4
-
-[node.5]
-body = 5
-
-[node.6]
-body = 6
-
-[node.7]
-body = 7
-
-[node.8]
-body = 8
-
-[node.9]
-body = 9
-
-[node.10]
-body = 10
-
-[node.11]
-body = 11
-
-[node.12]
-body = 12
-
-[node.13]
-body = 13
-
-[node.14]
-body = 14
-
-[node.15]
-body = 15
-
-[node.16]
-body = 16
-
-[node.17]
-body = 17
-
-[node.18]
-body = 18
-
-[node.19]
-body = 19
-
-[node.20]
-body = 20
-
-[node.21]
-body = 21
-
-[node.22]
-body = 22
-
-[node.23]
-body = 23
-
-[node.24]
-body = 24
-
-[node.25]
-body = 25
-
-[node.26]
-body = 26
-
-[node.27]
-body = 27
-
-[node.28]
-body = 28
-
-[node.29]
-body = 29
-
-[node.30]
-body = 30
-
-[node.31]
-body = 31
-
-[node.32]
-body = 32
-
-[node.33]
-body = 33
-
-[node.34]
-body = 34
-
-[node.35]
-body = 35
-
-[node.36]
-body = 36
-
-[node.37]
-body = 37
-
-[node.38]
-body = 38
-
-[node.39]
-body = 39
-
-[node.40]
-body = 40
-
-[node.41]
-body = 41
-
-[node.42]
-body = 42
-
-[node.43]
-body = 43
-
-[node.44]
-body = 44
-
-[node.45]
-body = 45
-
-[node.46]
-body = 46
-
-[node.47]
-body = 47
-
-[node.48]
-body = 48
-
-[node.49]
-body = 49
-
-[node.50]
-body = 50
-
-[node.51]
-body = 51
-
-[node.52]
-body = 52
-
-[node.53]
-body = 53
-
-[node.54]
-body = 54
-
-[node.55]
-body = 55
-
-[node.56]
-body = 56
-
-[node.57]
-body = 57
-
-[node.58]
-body = 58
-
-[node.59]
-body = 59
-
-[node.60]
-body = 60
-
-[node.61]
-body = 61
-
-[node.62]
-body = 62
-
-[node.63]
-body = 63
-
-[node.64]
-body = 64
-
-[node.65]
-body = 65
-
-[node.66]
-body = 66
-
-[node.67]
-body = 67
-
-[node.68]
-body = 68
-
-[node.69]
-body = 69
-
-[node.70]
-body = 70
-
-[node.71]
-body = 71
-
-[node.72]
-body = 72
-
-[node.73]
-body = 73
-
-[node.74]
-body = 74
-
-[node.75]
-body = 75
-
-[node.76]
-body = 76
-
-[node.77]
-body = 77
-
-[node.78]
-body = 78
-
-[node.79]
-body = 79
-
-[node.80]
-body = 80
-
-[node.81]
-body = 81
-
-[node.82]
-body = 82
-
-[node.83]
-body = 83
-
-[node.84]
-body = 84
-
-[node.85]
-body = 85
-
-[node.86]
-body = 86
-
-[node.87]
-body = 87
-
-[node.88]
-body = 88
-
-[node.89]
-body = 89
-
-[node.90]
-body = 90
-
-[node.91]
-body = 91
-
-[node.92]
-body = 92
-
-[node.93]
-body = 93
-
-[node.94]
-body = 94
-
-[node.95]
-body = 95
-
-[node.96]
-body = 96
-
-[node.97]
-body = 97
-
-[node.98]
-body = 98
-
-[node.99]
-body = 99
-
-[node.100]
-body = 100
-
-[node.101]
-body = 101
-
-[node.102]
-body = 102
-
-[node.103]
-body = 103
-
-[node.104]
-body = 104
-
-[node.105]
-body = 105
-
-[node.106]
-body = 106
-
-[node.107]
-body = 107
-
-[node.108]
-body = 108
-
-[node.109]
-body = 109
-
-[node.110]
-body = 110
-
-[node.111]
-body = 111
-
-[node.112]
-body = 112
-
-[node.113]
-body = 113
-
-[node.114]
-body = 114
-
-[node.115]
-body = 115
-
-[node.116]
-body = 116
-
-[node.117]
-body = 117
-
-[node.118]
-body = 118
-
-[node.119]
-body = 119
-
-[node.120]
-body = 120
-
-[node.121]
-body = 121
-
-[node.122]
-body = 122
-
-[node.123]
-body = 123
-
-[node.124]
-body = 124
-
-[node.125]
-body = 125
-
-[node.126]
-body = 126
-
-[node.127]
-body = 127
-
-[node.128]
-body = 128
-
-[node.129]
-body = 129
-
-[node.130]
-body = 130
-
-[node.131]
-body = 131
-
-[node.132]
-body = 132
-
-[node.133]
-body = 133
-
-[node.134]
-body = 134
-
-[node.135]
-body = 135
-
-[node.136]
-body = 136
-
-[node.137]
-body = 137
-
-[node.138]
-body = 138
-
-[node.139]
-body = 139
-
-[node.140]
-body = 140
-
-[node.141]
-body = 141
-
-[node.142]
-body = 142
-
-[node.143]
-body = 143
-
-[node.144]
-body = 144
-
-[node.145]
-body = 145
-
-[node.146]
-body = 146
-
-[node.147]
-body = 147
-
-[node.148]
-body = 148
-
-[node.149]
-body = 149
-
-[node.150]
-body = 150
-
-[node.151]
-body = 151
-
-[node.152]
-body = 152
-
-[node.153]
-body = 153
-
-[node.154]
-body = 154
-
-[node.155]
-body = 155
-
-[node.156]
-body = 156
-
-[node.157]
-body = 157
-
-[node.158]
-body = 158
-
-[node.159]
-body = 159
-
-[node.160]
-body = 160
-
-[node.161]
-body = 161
-
-[node.162]
-body = 162
-
-[node.163]
-body = 163
-
-[node.164]
-body = 164
-
-[node.165]
-body = 165
-
-[node.166]
-body = 166
-
-[node.167]
-body = 167
-
-[node.168]
-body = 168
-
-[node.169]
-body = 169
-
-[node.170]
-body = 170
-
-[node.171]
-body = 171
-
-[node.172]
-body = 172
-
-[node.173]
-body = 173
-
-[node.174]
-body = 174
-
-[node.175]
-body = 175
-
-[node.176]
-body = 176
-
-[node.177]
-body = 177
-
-[node.178]
-body = 178
-
-[node.179]
-body = 179
-
-[node.180]
-body = 180
-
-[node.181]
-body = 181
-
-[node.182]
-body = 182
-
-[node.183]
-body = 183
-
-[node.184]
-body = 184
-
-[node.185]
-body = 185
-
-[node.186]
-body = 186
-
-[node.187]
-body = 187
-
-[node.188]
-body = 188
-
-[node.189]
-body = 189
-
-[node.190]
-body = 190
-
-[node.191]
-body = 191
-
-[node.192]
-body = 192
-
-[node.193]
-body = 193
-
-[node.194]
-body = 194
-
-[node.195]
-body = 195
-
-[node.196]
-body = 196
-
-[node.197]
-body = 197
-
-[node.198]
-body = 198
-
-[node.199]
-body = 199
-
-[node.200]
-body = 200
-
-[node.201]
-body = 201
-
-[node.202]
-body = 202
-
-[node.203]
-body = 203
-
-[node.204]
-body = 204
-
-[node.205]
-body = 205
-
-[node.206]
-body = 206
-
-[node.207]
-body = 207
-
-[node.208]
-body = 208
-
-[node.209]
-body = 209
-
-[node.210]
-body = 210
-
-[node.211]
-body = 211
-
-[node.212]
-body = 212
-
-[node.213]
-body = 213
-
-[node.214]
-body = 214
-
-[node.215]
-body = 215
-
-[node.216]
-body = 216
-
-[node.217]
-body = 217
-
-[node.218]
-body = 218
-
-[node.219]
-body = 219
-
-[node.220]
-body = 220
-
-[node.221]
-body = 221
-
-[node.222]
-body = 222
-
-[node.223]
-body = 223
-
-[node.224]
-body = 224
-
-[node.225]
-body = 225
-
-[node.226]
-body = 226
-
-[node.227]
-body = 227
-
-[node.228]
-body = 228
-
-[node.229]
-body = 229
-
-[node.230]
-body = 230
-
-[node.231]
-body = 231
-
-[node.232]
-body = 232
-
-[node.233]
-body = 233
-
-[node.234]
-body = 234
-
-[node.235]
-body = 235
-
-[node.236]
-body = 236
-
-[node.237]
-body = 237
-
-[node.238]
-body = 238
-
-[node.239]
-body = 239
-
-[node.240]
-body = 240
-
-[node.241]
-body = 241
-
-[node.242]
-body = 242
-
-[node.243]
-body = 243
-
-[node.244]
-body = 244
-
-[node.245]
-body = 245
-
-[node.246]
-body = 246
-
-[node.247]
-body = 247
-
-[node.248]
-body = 248
-
-[node.249]
-body = 249
-
-[node.250]
-body = 250
-
-[node.251]
-body = 251
-
-[node.252]
-body = 252
-
-[node.253]
-body = 253
-
-[node.254]
-body = 254
-
-[node.255]
-body = 255
-
-[node.256]
-body = 256
-
-[node.257]
-body = 257
-
-[node.258]
-body = 258
-
-[node.259]
-body = 259
-
-[node.260]
-body = 260
-
-[node.261]
-body = 261
-
-[node.262]
-body = 262
-
-[node.263]
-body = 263
-
-[node.264]
-body = 264
-
-[node.265]
-body = 265
-
-[node.266]
-body = 266
-
-[node.267]
-body = 267
-
-[node.268]
-body = 268
-
-[node.269]
-body = 269
-
-[node.270]
-body = 270
-
-[node.271]
-body = 271
-
-[node.272]
-body = 272
-
-[node.273]
-body = 273
-
-[node.274]
-body = 274
-
-[node.275]
-body = 275
-
-[node.276]
-body = 276
-
-[node.277]
-body = 277
-
-[node.278]
-body = 278
-
-[node.279]
-body = 279
-
-[node.280]
-body = 280
-
-[node.281]
-body = 281
-
-[node.282]
-body = 282
-
-[node.283]
-body = 283
-
-[node.284]
-body = 284
-
-[node.285]
-body = 285
-
-[node.286]
-body = 286
-
-[node.287]
-body = 287
-
-[node.288]
-body = 288
-
-[node.289]
-body = 289
-
-[node.290]
-body = 290
-
-[node.291]
-body = 291
-
-[node.292]
-body = 292
-
-[node.293]
-body = 293
-
-[node.294]
-body = 294
-
-[node.295]
-body = 295
-
-[node.296]
-body = 296
-
-[node.297]
-body = 297
-
-[node.298]
-body = 298
-
-[node.299]
-body = 299
-
-[node.300]
-body = 300
-
-[node.301]
-body = 301
-
-[node.302]
-body = 302
-
-[node.303]
-body = 303
-
-[node.304]
-body = 304
-
-[node.305]
-body = 305
-
-[node.306]
-body = 306
-
-[node.307]
-body = 307
-
-[node.308]
-body = 308
-
-[node.309]
-body = 309
-
-[node.310]
-body = 310
-
-[node.311]
-body = 311
-
-[node.312]
-body = 312
-
-[node.313]
-body = 313
-
-[node.314]
-body = 314
-
-[node.315]
-body = 315
-
-[node.316]
-body = 316
-
-[node.317]
-body = 317
-
-[node.318]
-body = 318
-
-[node.319]
-body = 319
-
-[node.320]
-body = 320
-
-[node.321]
-body = 321
-
-[node.322]
-body = 322
-
-[node.323]
-body = 323
-
-[node.324]
-body = 324
-
-[node.325]
-body = 325
-
-[node.326]
-body = 326
-
-[node.327]
-body = 327
-
-[node.328]
-body = 328
-
-[node.329]
-body = 329
-
-[node.330]
-body = 330
-
-[node.331]
-body = 331
-
-[node.332]
-body = 332
-
-[node.333]
-body = 333
-
-[node.334]
-body = 334
-
-[node.335]
-body = 335
-
-[node.336]
-body = 336
-
-[node.337]
-body = 337
-
-[node.338]
-body = 338
-
-[node.339]
-body = 339
-
-[node.340]
-body = 340
-
-[node.341]
-body = 341
-
-[node.342]
-body = 342
-
-[node.343]
-body = 343
-
-[node.344]
-body = 344
-
-[node.345]
-body = 345
-
-[node.346]
-body = 346
-
-[node.347]
-body = 347
-
-[node.348]
-body = 348
-
-[node.349]
-body = 349
-
-[node.350]
-body = 350
-
-[node.351]
-body = 351
-
-[node.352]
-body = 352
-
-[node.353]
-body = 353
-
-[node.354]
-body = 354
-
-[node.355]
-body = 355
-
-[node.356]
-body = 356
-
-[node.357]
-body = 357
-
-[node.358]
-body = 358
-
-[node.359]
-body = 359
-
-[node.360]
-body = 360
-
-[node.361]
-body = 361
-
-[node.362]
-body = 362
-
-[node.363]
-body = 363
-
-[node.364]
-body = 364
-
-[node.365]
-body = 365
-
-[node.366]
-body = 366
-
-[node.367]
-body = 367
-
-[node.368]
-body = 368
-
-[node.369]
-body = 369
-
-[node.370]
-body = 370
-
-[node.371]
-body = 371
-
-[node.372]
-body = 372
-
-[node.373]
-body = 373
-
-[node.374]
-body = 374
-
-[node.375]
-body = 375
-
-[node.376]
-body = 376
-
-[node.377]
-body = 377
-
-[node.378]
-body = 378
-
-[node.379]
-body = 379
-
-[node.380]
-body = 380
-
-[node.381]
-body = 381
-
-[node.382]
-body = 382
-
-[node.383]
-body = 383
-
-[node.384]
-body = 384
-
-[node.385]
-body = 385
-
-[node.386]
-body = 386
-
-[node.387]
-body = 387
-
-[node.388]
-body = 388
-
-[node.389]
-body = 389
-
-[node.390]
-body = 390
-
-[node.391]
-body = 391
-
-[node.392]
-body = 392
-
-[node.393]
-body = 393
-
-[node.394]
-body = 394
-
-[node.395]
-body = 395
-
-[node.396]
-body = 396
-
-[node.397]
-body = 397
-
-[node.398]
-body = 398
-
-[node.399]
-body = 399
-
-[node.400]
-body = 400
-
-[node.401]
-body = 401
-
-[node.402]
-body = 402
-
-[node.403]
-body = 403
-
-[node.404]
-body = 404
-
-[node.405]
-body = 405
-
-[node.406]
-body = 406
-
-[node.407]
-body = 407
-
-[node.408]
-body = 408
-
-[node.409]
-body = 409
-
-[node.410]
-body = 410
-
-[node.411]
-body = 411
-
-[node.412]
-body = 412
-
-[node.413]
-body = 413
-
-[node.414]
-body = 414
-
-[node.415]
-body = 415
-
-[node.416]
-body = 416
-
-[node.417]
-body = 417
-
-[node.418]
-body = 418
-
-[node.419]
-body = 419
-
-[node.420]
-body = 420
-
-[node.421]
-body = 421
-
-[node.422]
-body = 422
-
-[node.423]
-body = 423
-
-[node.424]
-body = 424
-
-[node.425]
-body = 425
-
-[node.426]
-body = 426
-
-[node.427]
-body = 427
-
-[node.428]
-body = 428
-
-[node.429]
-body = 429
-
-[node.430]
-body = 430
-
-[node.431]
-body = 431
-
-[node.432]
-body = 432
-
-[node.433]
-body = 433
-
-[node.434]
-body = 434
-
-[node.435]
-body = 435
-
-[node.436]
-body = 436
-
-[node.437]
-body = 437
-
-[node.438]
-body = 438
-
-[node.439]
-body = 439
-
-[node.440]
-body = 440
-
-[node.441]
-body = 441
-
-[node.442]
-body = 442
-
-[node.443]
-body = 443
-
-[node.444]
-body = 444
-
-[node.445]
-body = 445
-
-[node.446]
-body = 446
-
-[node.447]
-body = 447
-
-[node.448]
-body = 448
-
-[node.449]
-body = 449
-
-[node.450]
-body = 450
-
-[node.451]
-body = 451
-
-[node.452]
-body = 452
-
-[node.453]
-body = 453
-
-[node.454]
-body = 454
-
-[node.455]
-body = 455
-
-[node.456]
-body = 456
-
-[node.457]
-body = 457
-
-[node.458]
-body = 458
-
-[node.459]
-body = 459
-
-[node.460]
-body = 460
-
-[node.461]
-body = 461
-
-[node.462]
-body = 462
-
-[node.463]
-body = 463
-
-[node.464]
-body = 464
-
-[node.465]
-body = 465
-
-[node.466]
-body = 466
-
-[node.467]
-body = 467
-
-[node.468]
-body = 468
-
-[node.469]
-body = 469
-
-[node.470]
-body = 470
-
-[node.471]
-body = 471
-
-[node.472]
-body = 472
-
-[node.473]
-body = 473
-
-[node.474]
-body = 474
-
-[node.475]
-body = 475
-
-[node.476]
-body = 476
-
-[node.477]
-body = 477
-
-[node.478]
-body = 478
-
-[node.479]
-body = 479
-
-[node.480]
-body = 480
-
-[node.481]
-body = 481
-
-[node.482]
-body = 482
-
-[node.483]
-body = 483
-
-[node.484]
-body = 484
-
-[node.485]
-body = 485
-
-[node.486]
-body = 486
-
-[node.487]
-body = 487
-
-[node.488]
-body = 488
-
-[node.489]
-body = 489
-
-[node.490]
-body = 490
-
-[node.491]
-body = 491
-
-[node.492]
-body = 492
-
-[node.493]
-body = 493
-
-[node.494]
-body = 494
-
-[node.495]
-body = 495
-
-[node.496]
-body = 496
-
-[node.497]
-body = 497
-
-[node.498]
-body = 498
-
-[node.499]
-body = 499
-
-[node.500]
-body = 500
-
-[node.501]
-body = 501
-
-[node.502]
-body = 502
-
-[node.503]
-body = 503
-
-[node.504]
-body = 504
-
-[node.505]
-body = 505
-
-[node.506]
-body = 506
-
-[node.507]
-body = 507
-
-[node.508]
-body = 508
-
-[node.509]
-body = 509
-
-[node.510]
-body = 510
-
-[node.511]
-body = 511
-
-[node.512]
-body = 512
-
-[node.513]
-body = 513
-
-[node.514]
-body = 514
-
-[node.515]
-body = 515
-
-[node.516]
-body = 516
-
-[node.517]
-body = 517
-
-[node.518]
-body = 518
-
-[node.519]
-body = 519
-
-[node.520]
-body = 520
-
-[node.521]
-body = 521
-
-[node.522]
-body = 522
-
-[node.523]
-body = 523
-
-[node.524]
-body = 524
-
-[node.525]
-body = 525
-
-[node.526]
-body = 526
-
-[node.527]
-body = 527
-
-[node.528]
-body = 528
-
-[node.529]
-body = 529
-
-[node.530]
-body = 530
-
-[node.531]
-body = 531
-
-[node.532]
-body = 532
-
-[node.533]
-body = 533
-
-[node.534]
-body = 534
-
-[node.535]
-body = 535
-
-[node.536]
-body = 536
-
-[node.537]
-body = 537
-
-[node.538]
-body = 538
-
-[node.539]
-body = 539
-
-[node.540]
-body = 540
-
-[node.541]
-body = 541
-
-[node.542]
-body = 542
-
-[node.543]
-body = 543
-
-[node.544]
-body = 544
-
-[node.545]
-body = 545
-
-[node.546]
-body = 546
-
-[node.547]
-body = 547
-
-[node.548]
-body = 548
-
-[node.549]
-body = 549
-
-[node.550]
-body = 550
-
-[node.551]
-body = 551
-
-[node.552]
-body = 552
-
-[node.553]
-body = 553
-
-[node.554]
-body = 554
-
-[node.555]
-body = 555
-
-[node.556]
-body = 556
-
-[node.557]
-body = 557
-
-[node.558]
-body = 558
-
-[node.559]
-body = 559
-
-[node.560]
-body = 560
-
-[node.561]
-body = 561
-
-[node.562]
-body = 562
-
-[node.563]
-body = 563
-
-[node.564]
-body = 564
-
-[node.565]
-body = 565
-
-[node.566]
-body = 566
-
-[node.567]
-body = 567
-
-[node.568]
-body = 568
-
-[node.569]
-body = 569
-
-[node.570]
-body = 570
-
-[node.571]
-body = 571
-
-[node.572]
-body = 572
-
-[node.573]
-body = 573
-
-[node.574]
-body = 574
-
-[node.575]
-body = 575
-
-[node.576]
-body = 576
-
-[node.577]
-body = 577
-
-[node.578]
-body = 578
-
-[node.579]
-body = 579
-
-[node.580]
-body = 580
-
-[node.581]
-body = 581
-
-[node.582]
-body = 582
-
-[node.583]
-body = 583
-
-[node.584]
-body = 584
-
-[node.585]
-body = 585
-
-[node.586]
-body = 586
-
-[node.587]
-body = 587
-
-[node.588]
-body = 588
-
-[node.589]
-body = 589
-
-[node.590]
-body = 590
-
-[node.591]
-body = 591
-
-[node.592]
-body = 592
-
-[node.593]
-body = 593
-
-[node.594]
-body = 594
-
-[node.595]
-body = 595
-
-[node.596]
-body = 596
-
-[node.597]
-body = 597
-
-[node.598]
-body = 598
-
-[node.599]
-body = 599
-
-[node.600]
-body = 600
-
-[node.601]
-body = 601
-
-[node.602]
-body = 602
-
-[node.603]
-body = 603
-
-[node.604]
-body = 604
-
-[node.605]
-body = 605
-
-[node.606]
-body = 606
-
-[node.607]
-body = 607
-
-[node.608]
-body = 608
-
-[node.609]
-body = 609
-
-[node.610]
-body = 610
-
-[node.611]
-body = 611
-
-[node.612]
-body = 612
-
-[node.613]
-body = 613
-
-[node.614]
-body = 614
-
-[node.615]
-body = 615
-
-[node.616]
-body = 616
-
-[node.617]
-body = 617
-
-[node.618]
-body = 618
-
-[node.619]
-body = 619
-
-[node.620]
-body = 620
-
-[node.621]
-body = 621
-
-[node.622]
-body = 622
-
-[node.623]
-body = 623
-
-[node.624]
-body = 624
-
-[node.625]
-body = 625
-
-[node.626]
-body = 626
-
-[node.627]
-body = 627
-
-[node.628]
-body = 628
-
-[node.629]
-body = 629
-
-[node.630]
-body = 630
-
-[node.631]
-body = 631
-
-[node.632]
-body = 632
-
-[node.633]
-body = 633
-
-[node.634]
-body = 634
-
-[node.635]
-body = 635
-
-[node.636]
-body = 636
-
-[node.637]
-body = 637
-
-[node.638]
-body = 638
-
-[node.639]
-body = 639
-
-[node.640]
-body = 640
-
-[node.641]
-body = 641
-
-[node.642]
-body = 642
-
-[node.643]
-body = 643
-
-[node.644]
-body = 644
-
-[node.645]
-body = 645
-
-[node.646]
-body = 646
-
-[node.647]
-body = 647
-
-[node.648]
-body = 648
-
-[node.649]
-body = 649
-
-[node.650]
-body = 650
-
-[node.651]
-body = 651
-
-[node.652]
-body = 652
-
-[node.653]
-body = 653
-
-[node.654]
-body = 654
-
-[node.655]
-body = 655
-
-[node.656]
-body = 656
-
-[node.657]
-body = 657
-
-[node.658]
-body = 658
-
-[node.659]
-body = 659
-
-[node.660]
-body = 660
-
-[node.661]
-body = 661
-
-[node.662]
-body = 662
-
-[node.663]
-body = 663
-
-[node.664]
-body = 664
-
-[node.665]
-body = 665
-
-[node.666]
-body = 666
-
-[node.667]
-body = 667
-
-[node.668]
-body = 668
-
-[node.669]
-body = 669
-
-[node.670]
-body = 670
-
-[node.671]
-body = 671
-
-[node.672]
-body = 672
-
-[node.673]
-body = 673
-
-[node.674]
-body = 674
-
-[node.675]
-body = 675
-
-[node.676]
-body = 676
-
-[node.677]
-body = 677
-
-[node.678]
-body = 678
-
-[node.679]
-body = 679
-
-[node.680]
-body = 680
-
-[node.681]
-body = 681
-
-[node.682]
-body = 682
-
-[node.683]
-body = 683
-
-[node.684]
-body = 684
-
-[node.685]
-body = 685
-
-[node.686]
-body = 686
-
-[node.687]
-body = 687
-
-[node.688]
-body = 688
-
-[node.689]
-body = 689
-
-[node.690]
-body = 690
-
-[node.691]
-body = 691
-
-[node.692]
-body = 692
-
-[node.693]
-body = 693
-
-[node.694]
-body = 694
-
-[node.695]
-body = 695
-
-[node.696]
-body = 696
-
-[node.697]
-body = 697
-
-[node.698]
-body = 698
-
-[node.699]
-body = 699
-
-[node.700]
-body = 700
-
-[node.701]
-body = 701
-
-[node.702]
-body = 702
-
-[node.703]
-body = 703
-
-[node.704]
-body = 704
-
-[node.705]
-body = 705
-
-[node.706]
-body = 706
-
-[node.707]
-body = 707
-
-[node.708]
-body = 708
-
-[node.709]
-body = 709
-
-[node.710]
-body = 710
-
-[node.711]
-body = 711
-
-[node.712]
-body = 712
-
-[node.713]
-body = 713
-
-[node.714]
-body = 714
-
-[node.715]
-body = 715
-
-[node.716]
-body = 716
-
-[node.717]
-body = 717
-
-[node.718]
-body = 718
-
-[node.719]
-body = 719
-
-[node.720]
-body = 720
-
-[node.721]
-body = 721
-
-[node.722]
-body = 722
-
-[node.723]
-body = 723
-
-[node.724]
-body = 724
-
-[node.725]
-body = 725
-
-[node.726]
-body = 726
-
-[node.727]
-body = 727
-
-[node.728]
-body = 728
-
-[node.729]
-body = 729
-
-[node.730]
-body = 730
-
-[node.731]
-body = 731
-
-[node.732]
-body = 732
-
-[node.733]
-body = 733
-
-[node.734]
-body = 734
-
-[node.735]
-body = 735
-
-[node.736]
-body = 736
-
-[node.737]
-body = 737
-
-[node.738]
-body = 738
-
-[node.739]
-body = 739
-
-[node.740]
-body = 740
-
-[node.741]
-body = 741
-
-[node.742]
-body = 742
-
-[node.743]
-body = 743
-
-[node.744]
-body = 744
-
-[node.745]
-body = 745
-
-[node.746]
-body = 746
-
-[node.747]
-body = 747
-
-[node.748]
-body = 748
-
-[node.749]
-body = 749
-
-[node.750]
-body = 750
-
-[node.751]
-body = 751
-
-[node.752]
-body = 752
-
-[node.753]
-body = 753
-
-[node.754]
-body = 754
-
-[node.755]
-body = 755
-
-[node.756]
-body = 756
-
-[node.757]
-body = 757
-
-[node.758]
-body = 758
-
-[node.759]
-body = 759
-
-[node.760]
-body = 760
-
-[node.761]
-body = 761
-
-[node.762]
-body = 762
-
-[node.763]
-body = 763
-
-[node.764]
-body = 764
-
-[node.765]
-body = 765
-
-[node.766]
-body = 766
-
-[node.767]
-body = 767
-
-[node.768]
-body = 768
-
-[node.769]
-body = 769
-
-[node.770]
-body = 770
-
-[node.771]
-body = 771
-
-[node.772]
-body = 772
-
-[node.773]
-body = 773
-
-[node.774]
-body = 774
-
-[node.775]
-body = 775
-
-[node.776]
-body = 776
-
-[node.777]
-body = 777
-
-[node.778]
-body = 778
-
-[node.779]
-body = 779
-
-[node.780]
-body = 780
-
-[node.781]
-body = 781
-
-[node.782]
-body = 782
-
-[node.783]
-body = 783
-
-[node.784]
-body = 784
-
-[node.785]
-body = 785
-
-[node.786]
-body = 786
-
-[node.787]
-body = 787
-
-[node.788]
-body = 788
-
-[node.789]
-body = 789
-
-[node.790]
-body = 790
-
-[node.791]
-body = 791
-
-[node.792]
-body = 792
-
-[node.793]
-body = 793
-
-[node.794]
-body = 794
-
-[node.795]
-body = 795
-
-[node.796]
-body = 796
-
-[node.797]
-body = 797
-
-[node.798]
-body = 798
-
-[node.799]
-body = 799
-
-[node.800]
-body = 800
-
-[node.801]
-body = 801
-
-[node.802]
-body = 802
-
-[node.803]
-body = 803
-
-[node.804]
-body = 804
-
-[node.805]
-body = 805
-
-[node.806]
-body = 806
-
-[node.807]
-body = 807
-
-[node.808]
-body = 808
-
-[node.809]
-body = 809
-
-[node.810]
-body = 810
-
-[node.811]
-body = 811
-
-[node.812]
-body = 812
-
-[node.813]
-body = 813
-
-[node.814]
-body = 814
-
-[node.815]
-body = 815
-
-[node.816]
-body = 816
-
-[node.817]
-body = 817
-
-[node.818]
-body = 818
-
-[node.819]
-body = 819
-
-[node.820]
-body = 820
-
-[node.821]
-body = 821
-
-[node.822]
-body = 822
-
-[node.823]
-body = 823
-
-[node.824]
-body = 824
-
-[node.825]
-body = 825
-
-[node.826]
-body = 826
-
-[node.827]
-body = 827
-
-[node.828]
-body = 828
-
-[node.829]
-body = 829
-
-[node.830]
-body = 830
-
-[node.831]
-body = 831
-
-[node.832]
-body = 832
-
-[node.833]
-body = 833
-
-[node.834]
-body = 834
-
-[node.835]
-body = 835
-
-[node.836]
-body = 836
-
-[node.837]
-body = 837
-
-[node.838]
-body = 838
-
-[node.839]
-body = 839
-
-[node.840]
-body = 840
-
-[node.841]
-body = 841
-
-[node.842]
-body = 842
-
-[node.843]
-body = 843
-
-[node.844]
-body = 844
-
-[node.845]
-body = 845
-
-[node.846]
-body = 846
-
-[node.847]
-body = 847
-
-[node.848]
-body = 848
-
-[node.849]
-body = 849
-
-[node.850]
-body = 850
-
-[node.851]
-body = 851
-
-[node.852]
-body = 852
-
-[node.853]
-body = 853
-
-[node.854]
-body = 854
-
-[node.855]
-body = 855
-
-[node.856]
-body = 856
-
-[node.857]
-body = 857
-
-[node.858]
-body = 858
-
-[node.859]
-body = 859
-
-[node.860]
-body = 860
-
-[node.861]
-body = 861
-
-[node.862]
-body = 862
-
-[node.863]
-body = 863
-
-[node.864]
-body = 864
-
-[node.865]
-body = 865
-
-[node.866]
-body = 866
-
-[node.867]
-body = 867
-
-[node.868]
-body = 868
-
-[node.869]
-body = 869
-
-[node.870]
-body = 870
-
-[node.871]
-body = 871
-
-[node.872]
-body = 872
-
-[node.873]
-body = 873
-
-[node.874]
-body = 874
-
-[node.875]
-body = 875
-
-[node.876]
-body = 876
-
-[node.877]
-body = 877
-
-[node.878]
-body = 878
-
-[node.879]
-body = 879
-
-[node.880]
-body = 880
-
-[node.881]
-body = 881
-
-[node.882]
-body = 882
-
-[node.883]
-body = 883
-
-[node.884]
-body = 884
-
-[node.885]
-body = 885
-
-[node.886]
-body = 886
-
-[node.887]
-body = 887
-
-[node.888]
-body = 888
-
-[node.889]
-body = 889
-
-[node.890]
-body = 890
-
-[node.891]
-body = 891
-
-[node.892]
-body = 892
-
-[node.893]
-body = 893
-
-[node.894]
-body = 894
-
-[node.895]
-body = 895
-
-[node.896]
-body = 896
-
-[node.897]
-body = 897
-
-[node.898]
-body = 898
-
-[node.899]
-body = 899
-
-[node.900]
-body = 900
-
-[node.901]
-body = 901
-
-[node.902]
-body = 902
-
-[node.903]
-body = 903
-
-[node.904]
-body = 904
-
-[node.905]
-body = 905
-
-[node.906]
-body = 906
-
-[node.907]
-body = 907
-
-[node.908]
-body = 908
-
-[node.909]
-body = 909
-
-[node.910]
-body = 910
-
-[node.911]
-body = 911
-
-[node.912]
-body = 912
-
-[node.913]
-body = 913
-
-[node.914]
-body = 914
-
-[node.915]
-body = 915
-
-[node.916]
-body = 916
-
-[node.917]
-body = 917
-
-[node.918]
-body = 918
-
-[node.919]
-body = 919
-
-[node.920]
-body = 920
-
-[node.921]
-body = 921
-
-[node.922]
-body = 922
-
-[node.923]
-body = 923
-
-[node.924]
-body = 924
-
-[node.925]
-body = 925
-
-[node.926]
-body = 926
-
-[node.927]
-body = 927
-
-[node.928]
-body = 928
-
-[node.trailer]
-body = vehicles/trucks/trailer
+[object.trailer]
+body = &vehicles/trucks/trailer
 position = 121, -585, 42.5
 rotation = 0, 0, 100
 
@@ -8122,8 +5335,8 @@ rotation = 0, 0, 100
 #texture = vehicles/trucks/trailer_red.png
 #model = vehicles/trucks/trailer.joe
 
-#[node.trailer0]
-#body = trailer0
+#[object.trailer0]
+#body = &body.trailer0
 #position = 121, -585, 42.5
 #rotation = 0, 0, 100
 
@@ -8133,8 +5346,8 @@ rotation = 0, 0, 100
 #shape = ambulance_col.joe
 #mass = 1200
 
-#[node.ambulance]
-#body = ambulance
+#[object.ambulance]
+#body = &body.ambulance
 #position = 107, -591, 42.5
 #rotation = 0, 0, 25
 

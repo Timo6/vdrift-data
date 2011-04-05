@@ -1,4 +1,3 @@
-include ../../carparts/competition
 
 [engine]
 position = 0.0, -1.0, -0.1
@@ -149,24 +148,24 @@ area = 0.01
 handbrake = 1.0
 
 [wheel.fl.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 250, 60, 15
-type = tire-competition
+type = &tire/competition
 
 [wheel.fr.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 250, 60, 15
-type = tire-competition
+type = &tire/competition
 
 [wheel.rl.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 325, 55, 15
-type = tire-competition
+type = &tire/competition
 
 [wheel.rr.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 325, 55, 15
-type = tire-competition
+type = &tire/competition
 
 [wheel.fl.hinge]
 wheel = -0.80, 1.45, -0.45

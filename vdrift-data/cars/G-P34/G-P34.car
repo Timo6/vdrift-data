@@ -23,8 +23,6 @@
 # my fastest time 1:48 ...
 # torque * rpm * ( 2 * pi /60 ) = p [kW]; 2 * pi / 60 = 0,10471975511966; hp * 1.36 = p;
 
-include ../../carparts/slick
-
 [engine]
 position = 0.0, -0.50, -0.24
 mass = 140.0
@@ -173,24 +171,24 @@ area = 0.015
 handbrake = 1.0
 
 [wheel.fl.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 245, 30, 10
-type = tire-slick
+type = &tire/slick
 
 [wheel.fr.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 245, 30, 10
-type = tire-slick
+type = &tire/slick
 
 [wheel.rl.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 475, 35, 13
-type = tire-slick
+type = &tire/slick
 
 [wheel.rr.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 475, 35, 13
-type = tire-slick
+type = &tire/slick
 
 [wheel.fl.hinge]
 wheel = -0.73, 1.48, -0.51

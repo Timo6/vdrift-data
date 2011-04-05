@@ -65,7 +65,6 @@
 #	Downforce by ground effect: 180 kg  at 290 km/h
 #
 #---------------------------------------
-include ../../carparts/competition
 
 [engine]
 position = 0.0, -1.0, -0.05
@@ -239,24 +238,24 @@ wheel = 0.8085, -1.51, -0.28
 chassis = -1.00, 0.0, -0.0
 
 [wheel.fl.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 215, 45, 18
-type = tire-competition
+type = &tire/competition
 
 [wheel.fr.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 215, 45, 18
-type = tire-competition
+type = &tire/competition
 
 [wheel.rl.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 275, 40, 18
-type = tire-competition
+type = &tire/competition
 
 [wheel.rr.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 275, 40, 18
-type = tire-competition
+type = &tire/competition
 
 [wheel.fl]
 texture = wheel/pentagonal_hub.png

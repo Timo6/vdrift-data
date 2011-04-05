@@ -1,5 +1,4 @@
 #ref: "Development of Toyota 1ZZ-FE Engine"
-[engine]
 mass = 107.0 # 102.0 dry
 max-power = 89E3
 peak-engine-rpm = 6400.0

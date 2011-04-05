@@ -1,4 +1,3 @@
-include ../../carparts/slick
 
 [engine]
 position = 0.0, -1.16, -0.42
@@ -131,24 +130,24 @@ area = 0.01
 handbrake = 1.0
 
 [wheel.fl.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 285, 50, 15
-type = tire-slick
+type = &tire/slick
 
 [wheel.fr.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 285, 50, 15
-type = tire-slick
+type = &tire/slick
 
 [wheel.rl.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 285, 50, 15
-type = tire-slick
+type = &tire/slick
 
 [wheel.rr.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 285, 50, 15
-type = tire-slick
+type = &tire/slick
 
 [wheel.fl.hinge]
 wheel = -0.76, 1.40, -0.45

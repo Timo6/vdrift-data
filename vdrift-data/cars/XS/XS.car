@@ -1,4 +1,3 @@
-include ../../carparts/touring
 
 [engine]
 position = 0.0, 0.9, -0.3
@@ -178,24 +177,24 @@ area = 0.015
 handbrake = 1.0
 
 [wheel.fl.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 215,45,17
-type = tire-touring
+type = &tire/touring
 
 [wheel.fr.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 215,45,17
-type = tire-touring
+type = &tire/touring
 
 [wheel.rl.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 245,40,17
-type = tire-touring
+type = &tire/touring
 
 [wheel.rr.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 245,40,17
-type = tire-touring
+type = &tire/touring
 
 [wheel.fl.double-wishbone]
 upper-chassis-rear = -0.42, 1.0, -0.31

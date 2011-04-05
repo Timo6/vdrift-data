@@ -1,4 +1,3 @@
-include ../../carparts/competition
 
 [engine]
 position = 0.13, -1.46, -0.18
@@ -148,24 +147,24 @@ area = 0.015
 handbrake = 1.0
 
 [wheel.fl.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 225,40,18	# 996 GT3
-type = tire-competition
+type = &tire/competition
 
 [wheel.fr.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 225, 40, 18
-type = tire-competition
+type = &tire/competition
 
 [wheel.rl.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 285, 30, 18
-type = tire-competition
+type = &tire/competition
 
 [wheel.rr.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 285, 30, 18
-type = tire-competition
+type = &tire/competition
 
 [wheel.fl.hinge]
 wheel = -0.721, 1.193, -0.47

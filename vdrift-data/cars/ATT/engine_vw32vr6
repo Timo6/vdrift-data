@@ -1,5 +1,4 @@
 #spent a bit of time on this curve
-[engine]
 mesh = engine.joe
 texture = engine.png
 mass = 180.0
