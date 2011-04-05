@@ -12,9 +12,6 @@
 #
 # width, length, height :: X(+left), Y(+front), Z(+up)
 
-include ../../carparts/f1_front
-include ../../carparts/f1_rear
-
 [engine]
 position = 0.0, -0.70, -0.40
 mass = 95.0
@@ -180,24 +177,24 @@ handbrake = 1.0
 # FIA: max 660mm in diameter (670mm with wet-weather tyres)
 
 [wheel.fl.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 355, 46, 13
-type = tire-f1-front
+type = &tire_front
 
 [wheel.fr.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 355, 46, 13
-type = tire-f1-front
+type = &tire_front
 
 [wheel.rl.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 355, 46, 13
-type = tire-f1-rear
+type = &tire_rear
 
 [wheel.rr.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 355, 46, 13
-type = tire-f1-rear
+type = &tire_rear
 
 [wheel.fl.hinge]
 wheel = -0.725, 1.60, -0.37

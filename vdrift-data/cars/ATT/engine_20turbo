@@ -1,5 +1,4 @@
 # didn't spend too much time on this curve
-[engine]
 mass = 140.0
 max-power = 1.52e5
 peak-engine-rpm = 6000.0

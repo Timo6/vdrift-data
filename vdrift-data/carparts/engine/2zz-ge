@@ -1,5 +1,4 @@
 #ref: "Development of the High Speed 2ZZ-GE Engine"
-[engine]
 mass = 120.0 # 115.0 dry
 max-power = 135E3
 peak-engine-rpm = 7600.0

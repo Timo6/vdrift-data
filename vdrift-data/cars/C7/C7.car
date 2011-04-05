@@ -1,4 +1,3 @@
-include ../../carparts/competition
 
 [clutch]
 area = 0.75
@@ -175,24 +174,24 @@ radius = 0.14
 # Caterham, Avon CR500 tyres, Front:195/45R15, Rear:255/40R15
 
 [wheel.fl.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 195, 45, 15
-type = tire-competition
+type = &tire/competition
 
 [wheel.fr.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 195, 45, 15
-type = tire-competition
+type = &tire/competition
 
 [wheel.rl.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 255, 40, 15
-type = tire-competition
+type = &tire/competition
 
 [wheel.rr.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 255, 40, 15
-type = tire-competition
+type = &tire/competition
 
 [wheel.fl.hinge]
 wheel = -0.60, 1.175, -0.42

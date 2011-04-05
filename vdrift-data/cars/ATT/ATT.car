@@ -1,10 +1,8 @@
-include ../../carparts/touring
 
-include engine_vw32vr6
+engine = &engine_vw32vr6
 
 [engine]
 position = 0.0, 1.342, -0.113
-
 
 [clutch]
 sliding = 0.27
@@ -129,24 +127,24 @@ area = 0.015
 handbrake = 1.1
 
 [wheel.fl.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 245, 40, 18
-type = tire-touring
+type = &tire/touring
 
 [wheel.fr.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 245, 40, 18
-type = tire-touring
+type = &tire/touring
 
 [wheel.rl.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 245, 40, 18
-type = tire-touring
+type = &tire/touring
 
 [wheel.rr.tire]
-texture = touring.png
+texture = tire/touring.png
 size = 245, 40, 18
-type = tire-touring
+type = &tire/touring
 
 [wheel.fl.hinge]
 wheel = -0.797, 1.185, -0.42
