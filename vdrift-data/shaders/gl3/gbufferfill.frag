@@ -65,7 +65,7 @@ mat3 GetTangentBasis(vec3 normal, vec3 viewdir, vec2 tucoord)
 	vec3 T = inverseM * vec3(duv1.x, duv2.x, 0.0);
 	vec3 B = inverseM * vec3(duv1.y, duv2.y, 0.0);
 
-	// construct tangent frame  
+	// construct tangent frame
 	float maxLength = max(length(T), length(B));
 	T = T / maxLength;
 	B = B / maxLength;

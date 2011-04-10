@@ -257,7 +257,7 @@ passList
       {
         name = gbuffer: material properties / final scene
         variable = materialProperties
-        format = GL_RGBA8
+        format = GL_SRGB8_ALPHA8
         target = GL_TEXTURE_2D
         autoMipmap = 0
         width = 1.00000000000000000000e+00
@@ -281,7 +281,7 @@ passList
       {
         name = gbuffer: diffuse albedo
         variable = diffuseAlbedo
-        format = GL_RGBA8
+        format = GL_SRGB8_ALPHA8
         target = GL_TEXTURE_2D
         autoMipmap = 0
         width = 1.00000000000000000000e+00
@@ -794,7 +794,7 @@ passList
       {
         name = gbuffer: material properties / final scene
         variable = materialProperties
-        format = GL_RGBA8
+        format = GL_SRGB8_ALPHA8
         target = GL_TEXTURE_2D
         autoMipmap = 0
         width = 1.00000000000000000000e+00
@@ -818,7 +818,7 @@ passList
       {
         name = gbuffer: diffuse albedo
         variable = diffuseAlbedo
-        format = GL_RGBA8
+        format = GL_SRGB8_ALPHA8
         target = GL_TEXTURE_2D
         autoMipmap = 0
         width = 1.00000000000000000000e+00
@@ -10835,12 +10835,12 @@ passList
     }
     stateEnable
     {
-      *item = GL_FRAMEBUFFER_SRGB
     }
     stateDisable
     {
       *item = GL_CULL_FACE
       *item = GL_DEPTH_TEST
+      *item = GL_FRAMEBUFFER_SRGB
       *item = GL_POLYGON_OFFSET_FILL
       *item = GL_POLYGON_OFFSET_LINE
       *item = GL_POLYGON_OFFSET_POINT
@@ -11023,7 +11023,7 @@ passList
       {
         name = gbuffer: material properties / final scene
         variable = outputColor
-        format = GL_RGBA8
+        format = GL_SRGB8_ALPHA8
         target = GL_TEXTURE_2D
         autoMipmap = 0
         width = 1.00000000000000000000e+00
@@ -11512,7 +11512,7 @@ passList
       {
         name = gbuffer: material properties / final scene
         variable = outputColor
-        format = GL_RGBA8
+        format = GL_SRGB8_ALPHA8
         target = GL_TEXTURE_2D
         autoMipmap = 0
         width = 1.00000000000000000000e+00
@@ -12001,7 +12001,7 @@ passList
       {
         name = gbuffer: material properties / final scene
         variable = outputColor
-        format = GL_RGBA8
+        format = GL_SRGB8_ALPHA8
         target = GL_TEXTURE_2D
         autoMipmap = 0
         width = 1.00000000000000000000e+00
@@ -12489,7 +12489,7 @@ passList
       {
         name = gbuffer: material properties / final scene
         variable = outputColor
-        format = GL_RGBA8
+        format = GL_SRGB8_ALPHA8
         target = GL_TEXTURE_2D
         autoMipmap = 0
         width = 1.00000000000000000000e+00
@@ -12977,7 +12977,7 @@ passList
       {
         name = gbuffer: material properties / final scene
         variable = outputColor
-        format = GL_RGBA8
+        format = GL_SRGB8_ALPHA8
         target = GL_TEXTURE_2D
         autoMipmap = 0
         width = 1.00000000000000000000e+00
