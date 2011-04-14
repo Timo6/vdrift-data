@@ -142,6 +142,8 @@ void main(void)
 	vec3 Rf0 = gbuf_material_properties.rgb; //fresnel reflectance value at zero degrees
 	float mpercent = clamp(gbuf_material_properties.a,0.001,0.999);
 	float m = mpercent*mpercent*256.0; //micro-scale roughness
+	//m = max(2.*dot(vec3(0.299,0.587,0.114),cdiff),m);
+	//Rf0 = max(vec3(0.06),Rf0);
 	vec2 normal_spherical = vec2(unpackFloatFromVec2i(gbuf_normal_xy.xy),unpackFloatFromVec2i(gbuf_normal_xy.zw))*2.0-vec2(1.0,1.0);
 	vec3 normal = sphericalToXYZ(normal_spherical);
 	
