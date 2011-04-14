@@ -171,18 +171,6 @@ passList
     }
     stateEnum
     {
-      *key = GL_CULL_FACE_MODE
-      *value
-      {
-        type = enum
-        enumdata = GL_BACK
-        intdata
-        {
-        }
-        floatdata
-        {
-        }
-      }
       *key = GL_DEPTH_FUNC
       *value
       {
@@ -666,11 +654,11 @@ passList
     }
     stateEnable
     {
-      *item = GL_CULL_FACE
       *item = GL_DEPTH_TEST
     }
     stateDisable
     {
+      *item = GL_CULL_FACE
       *item = GL_FRAMEBUFFER_SRGB
       *item = GL_POLYGON_OFFSET_FILL
       *item = GL_POLYGON_OFFSET_LINE
@@ -708,18 +696,6 @@ passList
     }
     stateEnum
     {
-      *key = GL_CULL_FACE_MODE
-      *value
-      {
-        type = enum
-        enumdata = GL_BACK
-        intdata
-        {
-        }
-        floatdata
-        {
-        }
-      }
       *key = GL_DEPTH_FUNC
       *value
       {
@@ -11312,12 +11288,12 @@ passList
     }
     stateEnable
     {
-      *item = GL_CULL_FACE
       *item = GL_DEPTH_TEST
       *item = GL_FRAMEBUFFER_SRGB
     }
     stateDisable
     {
+      *item = GL_CULL_FACE
       *item = GL_POLYGON_OFFSET_FILL
       *item = GL_POLYGON_OFFSET_LINE
       *item = GL_POLYGON_OFFSET_POINT
@@ -11419,18 +11395,6 @@ passList
       {
         type = enum
         enumdata = GL_SRC_ALPHA
-        intdata
-        {
-        }
-        floatdata
-        {
-        }
-      }
-      *key = GL_CULL_FACE_MODE
-      *value
-      {
-        type = enum
-        enumdata = GL_BACK
         intdata
         {
         }
@@ -12289,12 +12253,12 @@ passList
     }
     stateEnable
     {
-      *item = GL_CULL_FACE
       *item = GL_DEPTH_TEST
       *item = GL_FRAMEBUFFER_SRGB
     }
     stateDisable
     {
+      *item = GL_CULL_FACE
       *item = GL_POLYGON_OFFSET_FILL
       *item = GL_POLYGON_OFFSET_LINE
       *item = GL_POLYGON_OFFSET_POINT
@@ -12396,18 +12360,6 @@ passList
       {
         type = enum
         enumdata = GL_SRC_ALPHA
-        intdata
-        {
-        }
-        floatdata
-        {
-        }
-      }
-      *key = GL_CULL_FACE_MODE
-      *value
-      {
-        type = enum
-        enumdata = GL_BACK
         intdata
         {
         }
@@ -12884,18 +12836,6 @@ passList
       {
         type = enum
         enumdata = GL_SRC_ALPHA
-        intdata
-        {
-        }
-        floatdata
-        {
-        }
-      }
-      *key = GL_CULL_FACE_MODE
-      *value
-      {
-        type = enum
-        enumdata = GL_BACK
         intdata
         {
         }
