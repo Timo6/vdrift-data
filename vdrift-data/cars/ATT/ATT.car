@@ -200,7 +200,6 @@ camber = 0.45
 caster = 0.28
 toe = 0.0
 
-
 [driver]
 texture = driver2.png, driver-misc1.png
 mesh = driver.joe
@@ -210,6 +209,7 @@ mass = 90.0
 
 #################################################
 ## body - exterior
+
 [body]
 texture = body00.png, body-misc1.png
 mesh = body.joe
@@ -226,47 +226,46 @@ mesh = hood.joe
 texture = hatch.png, spec-misc1.png
 mesh = hatch.joe
 
-[bumper.front]
+[bumper_front]
 mesh = front_bumper.joe
 texture = front_bumper.png, spec-misc1.png
 
-[bumper.rear]
+[bumper_rear]
 mesh = rear_bumper.joe
 texture = rear_bumper.png, spec-misc1.png
 
-
-[fender.r]
+[fender_r]
 texture = fender.png, spec-misc1.png
 mesh = fender_r.joe
 
-[fender.l]
+[fender_l]
 texture = fender.png, spec-misc1.png
 mesh = fender_r.joe
 scale = -1, 1, 1
 
-[door.r]
+[door_r]
 texture = door.png, door-misc1.png
 mesh = door_r.joe
 
-#[door.r.shadow]
+#[door_r_shadow]
 #texture = dark_shadow.png
 #mesh = door_shadow.joe
 
-[door.l]
+[door_l]
 texture = door.png, door-misc1.png
 mesh = door_r.joe
 scale = -1, 1, 1
 
-#[door.l.shadow]
+#[door_l_shadow]
 #scale = -1,1,1
 #texture = dark_shadow.png
 #mesh = door_shadow.joe
 
-[side_mirror.r]
+[side_mirror_r]
 texture = side_mirror.png, spec-misc1.png
 mesh = side_mirror_r.joe
 
-[side_mirror.l]
+[side_mirror_l]
 texture = side_mirror.png, spec-misc1.png
 mesh = side_mirror_r.joe
 scale = -1, 1, 1
@@ -275,9 +274,6 @@ scale = -1, 1, 1
 texture = front_grill.png
 mesh = front_grill.joe
 
-
-
-
 #[glass]
 #texture = glass.png
 #mesh = glass.joe
@@ -285,51 +281,52 @@ mesh = front_grill.joe
 
 
 #################################################
-## windows
-[windshield.glass]
+## windows: door_window.png and rear_quarter_window.png are missing
+
+[windshield_glass]
 texture = windshield.png, spec-misc1.png
 mesh = windshield.joe
 draw = transparent
 
-[hatch.glass]
+[hatch_glass]
 texture = hatch_glass.png, spec-misc1.png
 mesh = hatch_glass.joe
 draw = transparent
 
-[rear_quarter.r.glass]
-texture = rear_quarter_window.png, spec-misc1.png
-mesh = rear_quarter_window_r.joe
-draw = transparent
+#[rear_quarter_r_glass]
+#texture = rear_quarter_window.png, spec-misc1.png
+#mesh = rear_quarter_window_r.joe
+#draw = transparent
 
-[rear_quarter.l.glass]
-texture = rear_quarter_window.png, spec-misc1.png
-mesh = rear_quarter_window_r.joe
-scale = -1, 1, 1
-draw = transparent
+#[rear_quarter_l_glass]
+#texture = rear_quarter_window.png, spec-misc1.png
+#mesh = rear_quarter_window_r.joe
+#scale = -1, 1, 1
+#draw = transparent
 
-[door.r.glass]
-texture = door_window.png, spec-misc1.png
-mesh = door_window_r.joe
-draw = transparent
+#[door_r_glass]
+#texture = door_window.png, spec-misc1.png
+#mesh = door_window_r.joe
+#draw = transparent
 
-[door.l.glass]
-texture = door_window.png, spec-misc1.png
-mesh = door_window_r.joe
-scale = -1, 1, 1
-draw = transparent
-
+#[door_l_glass]
+#texture = door_window.png, spec-misc1.png
+#mesh = door_window_r.joe
+#scale = -1, 1, 1
+#draw = transparent
 
 #################################################
 ## mechanical detail
+
 [radiator]
 mesh = radiator.joe
 texture = radiator.png
 
-[air_intake.r]
+[air_intake_r]
 mesh = air_intake_r.joe
 texture = air_intake.png
 
-[air_intake.l]
+[air_intake_l]
 mesh = air_intake_r.joe
 scale = -1, 1, 1
 texture = air_intake.png
@@ -337,6 +334,7 @@ texture = air_intake.png
 
 #################################################
 ## interior
+
 [interior]
 texture = interior.png
 mesh = interior.joe
@@ -349,123 +347,109 @@ mesh = dashboard_lhd.joe
 texture = gauge_pod.png
 mesh = gauge_pod.joe
 
-[seat.driver]
+[seat_driver]
 position = -0.4, -0.137, -0.429
 texture = seat.png
 mesh = seat.joe
 
-[seat.passenger]
+[seat_passenger]
 position = 0.4, -0.137, -0.429
 texture = seat.png
 mesh = seat.joe
 
-[seat.rear]
+[seat_rear]
 position = 0, -0.945, -0.242
 texture = rear_seat.png
 mesh = rear_seat.joe
 
-
-
-
-[vent.0]
+[vent_0]
 position = -0.638, 0.425, 0.215
 texture = vent.png
 mesh = vent.joe
 
-[vent.1]
+[vent_1]
 position = -0.099, 0.423, 0.215
 texture = vent.png
 mesh = vent.joe
 
-[vent.2]
+[vent_2]
 position = 0.0, 0.416, 0.215
 texture = vent.png
 mesh = vent.joe
 
-[vent.3]
+[vent_3]
 position = 0.094, 0.408, 0.215
 texture = vent.png
 mesh = vent.joe
 
-[vent.4]
+[vent_4]
 position = 0.606, 0.429, 0.215
 texture = vent.png
 mesh = vent.joe
 
 
-
-
-
-
-
-
 #################################################
 ## lights
 
-[headlight.r]
+[headlight_r]
 mesh = lights/headlight_r.joe
 texture = lights/headlight.png
 
-[headlight.l]
+[headlight_l]
 mesh = lights/headlight_r.joe
 scale = -1, 1, 1
 texture = lights/headlight.png
 
-[foglight.r]
+[foglight_r]
 mesh = lights/foglight_r.joe
 texture = lights/foglight.png
 
-[foglight.l]
+[foglight_l]
 mesh = lights/foglight_r.joe
 scale = -1, 1, 1
 texture = lights/foglight.png
 
-[taillight.r]
+[taillight_r]
 mesh = lights/taillight_r.joe
 texture = lights/taillight.png
 
-[taillight.l]
+[taillight_l]
 mesh = lights/taillight_r.joe
 scale = -1, 1, 1
 texture = lights/taillight.png
 
-
-
-[headlight.r.lens]
+[headlight_r_lens]
 mesh = lights/headlight_r_lens.joe
 texture = lights/headlight_lens.png
 draw = transparent
 
-[headlight.l.lens]
+[headlight_l_lens]
 mesh = lights/headlight_r_lens.joe
 scale = -1, 1, 1
 texture = lights/headlight_lens.png
 draw = transparent
 
-[foglight.r.lens]
+[foglight_r_lens]
 mesh = lights/foglight_r_lens.joe
 texture = lights/foglight_lens.png
 draw = transparent
 
-[foglight.l.lens]
+[foglight_l_lens]
 mesh = lights/foglight_r_lens.joe
 scale = -1, 1, 1
 texture = lights/foglight_lens.png
 draw = transparent
 
-[taillight.r.lens]
+[taillight_r_lens]
 mesh = lights/taillight_r_lens.joe
 texture = lights/taillight_lens.png
 draw = transparent
 
-[taillight.l.lens]
+[taillight_l_lens]
 mesh = lights/taillight_r_lens.joe
 scale = -1, 1, 1
 texture = lights/taillight_lens.png
 draw = transparent
-
-
-
 
 #[light-brake]
 #texture = brake.png
@@ -476,7 +460,6 @@ draw = transparent
 #texture = reverse.png
 #mesh = body.joe
 #draw = emissive
-
 
 # these are used to calculate the weight distribution and balance
 [particle.00]
