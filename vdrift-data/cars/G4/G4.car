@@ -43,7 +43,7 @@ gear-ratio-1 = 2.32
 gear-ratio-2 = 1.69
 gear-ratio-3 = 1.29
 gear-ratio-4 = 1.00
-shift-delay = 0.10
+shift-time = 0.10
 
 [differential-rear]
 # Standard Rear
