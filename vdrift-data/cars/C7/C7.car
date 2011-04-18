@@ -17,7 +17,7 @@ gear-ratio-4 = 1.22
 gear-ratio-5 = 1.00
 gear-ratio-r = -2.96
 gears = 5
-shift-delay = 1.0
+shift-time = 1.0
 
 [engine]
 fuel-consumption = 1e-9

@@ -38,7 +38,7 @@ gear-ratio-3 = 2.03
 gear-ratio-4 = 1.59
 gear-ratio-5 = 1.24
 gear-ratio-6 = 1.04
-shift-delay = 0.08
+shift-time = 0.08
 
 [differential-front]
 final-drive = 2.74
