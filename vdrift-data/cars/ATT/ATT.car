@@ -349,13 +349,13 @@ mesh = gauge_pod.joe
 
 [seat_driver]
 position = -0.4, -0.137, -0.429
-texture = seat.png
-mesh = seat.joe
+texture = seat/sport_luxury.png
+mesh = seat/sport_luxury.joe
 
 [seat_passenger]
 position = 0.4, -0.137, -0.429
-texture = seat.png
-mesh = seat.joe
+texture = seat/sport_luxury.png
+mesh = seat/sport_luxury.joe
 
 [seat_rear]
 position = 0, -0.945, -0.242
@@ -458,6 +458,7 @@ draw = transparent
 
 #[light-reverse]
 #texture = reverse.png
+
 #mesh = body.joe
 #draw = emissive
 
