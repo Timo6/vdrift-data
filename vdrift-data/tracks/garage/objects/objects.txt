@@ -1,5 +1,148 @@
-#[object.toolbox]
-#body = &garage/toolbox
-#position = 2, 2, 0
-#rotation = 0, 0, 100
+[object.toolbox]
+body = &garage/toolbox
+position = 2, 2, 0
+rotation = 0, 0, 100
 
+[object.0.body]
+model = Wall.001.joe
+texture = drywall.png
+
+[object.1.body]
+model = Cube.009.joe
+texture = timber.png
+
+[object.2.body]
+model = Floor.003.joe
+texture = fence.png
+mass = 0
+surface = 1
+
+[object.3.body]
+model = cinderblock.002.joe
+texture = cinderblock.png
+mass = 0
+surface = 1
+
+[object.4.body]
+model = cinderblock.003.joe
+texture = cinderblock.png
+mass = 0
+surface = 1
+
+[object.5.body]
+model = cinderblock.005.joe
+texture = cinderblock.png
+mass = 0
+surface = 1
+
+[object.6.body]
+model = Wall.004.joe
+texture = plywood.png
+
+[object.7.body]
+model = Floor.joe
+texture = concrete_floor.png
+mass = 0
+surface = 1
+
+[object.8.body]
+model = Wall.007.joe
+texture = drywall.png
+
+[object.9.body]
+model = Floor.002.joe
+texture = grass.png
+mass = 0
+surface = 1
+
+[object.10.body]
+model = cinderblock.001.joe
+texture = cinderblock.png
+mass = 0
+surface = 1
+
+[object.11.body]
+model = Wall.005.joe
+texture = plywood.png
+
+[object.12.body]
+model = Floor.001.joe
+texture = asphalt.png
+mass = 0
+surface = 1
+
+[object.13.body]
+model = Cube.015.joe
+texture = timber.png
+
+[object.14.body]
+model = cinderblock.004.joe
+texture = cinderblock.png
+mass = 0
+surface = 1
+
+[object.15.body]
+model = Cube.002.joe
+texture = sky.png
+
+[object.16.body]
+model = Cube.001.joe
+texture = timber.png
+
+[object.17.body]
+model = Wall.003.joe
+texture = plywood.png
+
+[object.18.body]
+model = Cube.017.joe
+texture = timber.png
+
+[object.19.body]
+model = Cube.011.joe
+texture = timber.png
+
+[object.20.body]
+model = cinderblock.joe
+texture = cinderblock.png
+mass = 0
+surface = 1
+
+[object.21.body]
+model = Wall.002.joe
+texture = drywall.png
+
+[object.22.body]
+model = Cube.003.joe
+texture = timber.png
+
+[object.23.body]
+model = Cube.005.joe
+texture = timber.png
+
+[object.24.body]
+model = Cube.013.joe
+texture = timber.png
+
+[object.25.body]
+model = Cube.joe
+texture = timber.png
+
+[object.26.body]
+model = Wall.joe
+texture = drywall.png
+
+[object.27.body]
+model = Cube.019.joe
+texture = timber.png
+
+[object.28.body]
+model = Wall.006.joe
+texture = plywood.png
+
+[object.29.body]
+model = Cube.007.joe
+texture = timber.png
+
+[object.30.body]
+model = Cube.020.joe
+texture = timber.png
