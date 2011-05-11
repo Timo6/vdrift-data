@@ -48,6 +48,22 @@ selected = 0
 default = 0
 cancel = 0
 
+[ widget-02a ]
+type = controlgrab
+name = ReloadGuiControl
+text = Reload GUI
+tip = Reload user interface.
+setting = reload_gui
+center = 0.5, 0.38
+spacing = 0.2
+width = auto
+height = auto
+fontsize = 0.03
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
 [ widget-03 ]
 type = button
 name = ToolsControlsOKButton
