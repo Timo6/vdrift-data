@@ -261,12 +261,27 @@ selected = 0
 default = 0
 cancel = 0
 
+[ widget-15a ]
+type = toggle
+name = DynamicTrackToggle
+setting = game.track_dynamic
+values = options
+center = 0.85, 0.64
+spacing = 0.3
+width = auto
+height = auto
+fontsize = 0.03
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
 [ widget-16 ]
 type = toggle
 name = ReverseTrackToggle
 setting = game.reverse
 values = options
-center = 0.85, 0.64
+center = 0.85, 0.68
 spacing = 0.3
 width = auto
 height = auto
@@ -281,7 +296,7 @@ type = intwheel
 name = LapWheel
 setting = game.number_of_laps
 values = options
-center = 0.85, 0.68
+center = 0.85, 0.72
 spacing = 0.3
 width = auto
 height = auto

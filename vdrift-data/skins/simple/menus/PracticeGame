@@ -115,7 +115,7 @@ type = toggle
 name = ABSToggle
 setting = game.antilock
 values = options
-center = 0.5, 0.62
+center = 0.35, 0.62
 spacing = 0.3
 width = auto
 height = auto
@@ -130,7 +130,7 @@ type = toggle
 name = TCSToggle
 setting = game.traction_control
 values = options
-center = 0.5, 0.66
+center = 0.35, 0.66
 spacing = 0.3
 width = auto
 height = auto
@@ -142,10 +142,25 @@ cancel = 0
 
 [ widget-09 ]
 type = toggle
-name = RecordReplayToggle
-setting = game.record
+name = DynamicTrackToggle
+setting = game.track_dynamic
 values = options
-center = 0.5, 0.7
+center = 0.75, 0.62
+spacing = 0.3
+width = auto
+height = auto
+fontsize = 0.03
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-09a ]
+type = toggle
+name = ReverseTrackToggle
+setting = game.reverse
+values = options
+center = 0.75, 0.66
 spacing = 0.3
 width = auto
 height = auto
@@ -157,10 +172,10 @@ cancel = 0
 
 [ widget-10 ]
 type = toggle
-name = ReverseTrackToggle
-setting = game.reverse
+name = RecordReplayToggle
+setting = game.record
 values = options
-center = 0.5, 0.74
+center = 0.75, 0.70
 spacing = 0.3
 width = auto
 height = auto
