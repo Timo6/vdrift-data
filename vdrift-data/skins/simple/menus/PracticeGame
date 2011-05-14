@@ -140,6 +140,21 @@ selected = 0
 default = 0
 cancel = 0
 
+[ widget-08a ]
+type = toggle
+name = DamageToggle
+setting = game.vehicle_damage
+values = options
+center = 0.35, 0.70
+spacing = 0.3
+width = auto
+height = auto
+fontsize = 0.03
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
 [ widget-09 ]
 type = toggle
 name = DynamicTrackToggle
