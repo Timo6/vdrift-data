@@ -266,6 +266,15 @@ mass = 80.0
 texture = body00.png, body-misc1.png
 mesh = body.joe
 
+# coord systems mess
+[body.shape.box.0]
+center = 0.275, 0.0, -0.3	#0.0, 0.275, -0.3
+size = 4.0, 0.5, 0.4		#0.5, 4.0, 0.4
+
+[body.shape.box.1]
+center = -0.2, 0.0, -0.3	#0.0, -0.2, -0.3
+size = 1.5, 1.25, 0.4		#1.25, 1.5, 0.4
+
 # these are used to calculate the weight distribution and balance
 [particle.00]	# Front-Wing/Nose
 mass = 31.0
