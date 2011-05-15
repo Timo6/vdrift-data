@@ -5328,7 +5328,7 @@ isashadow = true
 
 [object.trailer]
 body = &vehicles/trucks/trailer
-position = 121, -588, 43
+position = 121, -588, 42.5
 rotation = 0, 0, 100
 
 #[body.ambulance]
