@@ -5328,17 +5328,8 @@ isashadow = true
 
 [object.trailer]
 body = &vehicles/trucks/trailer
-position = 121, -585, 42.5
+position = 121, -588, 43
 rotation = 0, 0, 100
-
-#[body.trailer0]
-#texture = vehicles/trucks/trailer_red.png
-#model = vehicles/trucks/trailer.joe
-
-#[object.trailer0]
-#body = &body.trailer0
-#position = 121, -585, 42.5
-#rotation = 0, 0, 100
 
 #[body.ambulance]
 #texture = ambulanc.bmp.png
@@ -5350,4 +5341,3 @@ rotation = 0, 0, 100
 #body = &body.ambulance
 #position = 107, -591, 42.5
 #rotation = 0, 0, 25
-
