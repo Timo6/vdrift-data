@@ -3,19 +3,19 @@ model = trailer.joe
 mass-center = 0.0, -4.5, 2.25
 mass = 3000
 
-[shape.box.container]
+[shape.box.0]
 center = 0.0, -4.47, 2.45
 size = 2.36, 10.98, 2.7
 
-[shape.box.wheels]
+[shape.box.1]
 center = 0.0, -8.02, 0.56
 size = 2.36, 2.21, 1.1
 
-[shape.box.gear]
+[shape.box.2]
 center = 0.0, -1.85, 0.56
 size = 1.38, 0.18, 1.1
 
-#[shape.hull.trailer]
+#[shape.hull.0]
 #0 = -1.176580, -6.594260, 0.324940
 #1 = 1.183840, -9.965520, 0.324940
 #2 = -1.167250, -9.968500, 3.816870
