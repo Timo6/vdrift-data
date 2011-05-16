@@ -1,26 +1,7 @@
 17
 
 #entry 0
-Wall.001.joe
-drywall.png
-0
-0
-0
-0
-1.0
-0.0
-0
-0
-1.0
-0.9
-1.0
-0.0
-0
-0
-01
-
-#entry 1
-Cube.009.joe
+joist.007.joe
 timber.png
 0
 0
@@ -36,11 +17,68 @@ timber.png
 0.0
 0
 0
-01
+1
+
+#entry 1
+Wall.017.joe
+trim_soffet.png
+0
+0
+0
+0
+1.0
+0.0
+0
+0
+1.0
+0.9
+1.0
+0.0
+0
+0
+1
 
 #entry 2
-Floor.003.joe
-fence.png
+joist.006.joe
+timber.png
+0
+0
+0
+0
+1.0
+0.0
+0
+0
+1.0
+0.9
+1.0
+0.0
+0
+0
+1
+
+#entry 3
+joist.005.joe
+timber.png
+0
+0
+0
+0
+1.0
+0.0
+0
+0
+1.0
+0.9
+1.0
+0.0
+0
+0
+1
+
+#entry 4
+cinderblock.002.joe
+cinderblock.png
 0
 0
 0
@@ -55,11 +93,11 @@ fence.png
 0.0
 0
 0
-01
+1
 
-#entry 3
-cinderblock.002.joe
-cinderblock.png
+#entry 5
+Wall.009.joe
+roof_shingles.png
 0
 0
 0
@@ -74,9 +112,9 @@ cinderblock.png
 0.0
 0
 0
-01
+1
 
-#entry 4
+#entry 6
 cinderblock.003.joe
 cinderblock.png
 0
@@ -93,9 +131,9 @@ cinderblock.png
 0.0
 0
 0
-01
+1
 
-#entry 5
+#entry 7
 cinderblock.005.joe
 cinderblock.png
 0
@@ -112,9 +150,9 @@ cinderblock.png
 0.0
 0
 0
-01
+1
 
-#entry 6
+#entry 8
 Wall.004.joe
 plywood.png
 0
@@ -131,9 +169,47 @@ plywood.png
 0.0
 0
 0
-01
+1
 
-#entry 7
+#entry 9
+Wall.010.joe
+vinyl_siding.png
+0
+0
+0
+0
+1.0
+0.0
+0
+1
+1.0
+0.9
+1.0
+0.0
+0
+0
+1
+
+#entry 10
+Floor.003.joe
+fence.png
+0
+0
+0
+0
+1.0
+0.0
+0
+1
+1.0
+0.9
+1.0
+0.0
+0
+0
+1
+
+#entry 11
 Floor.joe
 concrete_floor.png
 0
@@ -150,9 +226,9 @@ concrete_floor.png
 0.0
 0
 0
-01
+1
 
-#entry 8
+#entry 12
 Wall.007.joe
 drywall.png
 0
@@ -169,9 +245,9 @@ drywall.png
 0.0
 0
 0
-01
+1
 
-#entry 9
+#entry 13
 Floor.002.joe
 grass.png
 0
@@ -188,9 +264,28 @@ grass.png
 0.0
 0
 0
-01
+1
 
-#entry 10
+#entry 14
+joist.001.joe
+timber.png
+0
+0
+0
+0
+1.0
+0.0
+0
+0
+1.0
+0.9
+1.0
+0.0
+0
+0
+1
+
+#entry 15
 cinderblock.001.joe
 cinderblock.png
 0
@@ -207,9 +302,9 @@ cinderblock.png
 0.0
 0
 0
-01
+1
 
-#entry 11
+#entry 16
 Wall.005.joe
 plywood.png
 0
@@ -226,29 +321,10 @@ plywood.png
 0.0
 0
 0
-01
-
-#entry 12
-Floor.001.joe
-asphalt.png
-0
-0
-0
-0
-1.0
-0.0
-0
 1
-1.0
-0.9
-1.0
-0.0
-0
-0
-01
 
-#entry 13
-Cube.015.joe
+#entry 17
+joist.004.joe
 timber.png
 0
 0
@@ -264,9 +340,47 @@ timber.png
 0.0
 0
 0
-01
+1
 
-#entry 14
+#entry 18
+joist.joe
+timber.png
+0
+0
+0
+0
+1.0
+0.0
+0
+0
+1.0
+0.9
+1.0
+0.0
+0
+0
+1
+
+#entry 19
+joist.003.joe
+timber.png
+0
+0
+0
+0
+1.0
+0.0
+0
+0
+1.0
+0.9
+1.0
+0.0
+0
+0
+1
+
+#entry 20
 cinderblock.004.joe
 cinderblock.png
 0
@@ -283,13 +397,13 @@ cinderblock.png
 0.0
 0
 0
-01
+1
 
-#entry 15
+#entry 21
 Cube.002.joe
 sky.png
 0
-1
+0
 1
 0
 1.0
@@ -302,9 +416,9 @@ sky.png
 0.0
 0
 0
-01
+1
 
-#entry 16
+#entry 22
 Cube.001.joe
 timber.png
 0
@@ -321,9 +435,9 @@ timber.png
 0.0
 0
 0
-01
+1
 
-#entry 17
+#entry 23
 Wall.003.joe
 plywood.png
 0
@@ -340,11 +454,30 @@ plywood.png
 0.0
 0
 0
-01
+1
 
-#entry 18
-Cube.017.joe
-timber.png
+#entry 24
+Floor.001.joe
+asphalt.png
+0
+0
+0
+0
+1.0
+0.0
+0
+1
+1.0
+0.9
+1.0
+0.0
+0
+0
+1
+
+#entry 25
+Floor.004.joe
+fence.png
 0
 0
 0
@@ -359,28 +492,9 @@ timber.png
 0.0
 0
 0
-01
+1
 
-#entry 19
-Cube.011.joe
-timber.png
-0
-0
-0
-0
-1.0
-0.0
-0
-0
-1.0
-0.9
-1.0
-0.0
-0
-0
-01
-
-#entry 20
+#entry 26
 cinderblock.joe
 cinderblock.png
 0
@@ -397,10 +511,48 @@ cinderblock.png
 0.0
 0
 0
-01
+1
 
-#entry 21
-Wall.002.joe
+#entry 27
+Wall.012.joe
+roof_shingles.png
+0
+0
+0
+0
+1.0
+0.0
+0
+0
+1.0
+0.9
+1.0
+0.0
+0
+0
+1
+
+#entry 28
+Wall.011.joe
+timber.png
+0
+0
+0
+0
+1.0
+0.0
+0
+0
+1.0
+0.9
+1.0
+0.0
+0
+0
+1
+
+#entry 29
+Wall.008.joe
 drywall.png
 0
 0
@@ -416,10 +568,29 @@ drywall.png
 0.0
 0
 0
-01
+1
 
-#entry 22
-Cube.003.joe
+#entry 30
+Wall.001.joe
+drywall.png
+0
+0
+0
+0
+1.0
+0.0
+0
+0
+1.0
+0.9
+1.0
+0.0
+0
+0
+1
+
+#entry 31
+joist.008.joe
 timber.png
 0
 0
@@ -435,52 +606,14 @@ timber.png
 0.0
 0
 0
-01
+1
 
-#entry 23
-Cube.005.joe
-timber.png
-0
-0
-0
-0
-1.0
-0.0
-0
-0
-1.0
-0.9
-1.0
-0.0
-0
-0
-01
-
-#entry 24
-Cube.013.joe
-timber.png
-0
-0
-0
-0
-1.0
-0.0
-0
-0
-1.0
-0.9
-1.0
-0.0
-0
-0
-01
-
-#entry 25
+#entry 32
 Cube.joe
-timber.png
+grass.png
 0
 0
-0
+1
 0
 1.0
 0.0
@@ -492,9 +625,9 @@ timber.png
 0.0
 0
 0
-01
+1
 
-#entry 26
+#entry 33
 Wall.joe
 drywall.png
 0
@@ -511,10 +644,10 @@ drywall.png
 0.0
 0
 0
-01
+1
 
-#entry 27
-Cube.019.joe
+#entry 34
+joist.002.joe
 timber.png
 0
 0
@@ -530,11 +663,11 @@ timber.png
 0.0
 0
 0
-01
+1
 
-#entry 28
+#entry 35
 Wall.006.joe
-plywood.png
+vinyl_siding.png
 0
 0
 0
@@ -549,28 +682,9 @@ plywood.png
 0.0
 0
 0
-01
+1
 
-#entry 29
-Cube.007.joe
-timber.png
-0
-0
-0
-0
-1.0
-0.0
-0
-0
-1.0
-0.9
-1.0
-0.0
-0
-0
-01
-
-#entry 30
+#entry 36
 Cube.020.joe
 timber.png
 0
@@ -587,5 +701,5 @@ timber.png
 0.0
 0
 0
-01
+1
 
