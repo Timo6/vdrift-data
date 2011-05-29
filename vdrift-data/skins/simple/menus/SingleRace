@@ -108,6 +108,21 @@ selected = 0
 default = 0
 cancel = 0
 
+[ widget-06a ]
+type = toggle
+name = DamageToggle
+setting = game.vehicle_damage
+values = options
+center = 0.3, 0.72
+spacing = 0.3
+width = auto
+height = auto
+fontsize = 0.03
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
 [ widget-07 ]
 type = spinningcar
 name = OpponentSpinningCar
