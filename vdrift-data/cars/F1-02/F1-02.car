@@ -112,7 +112,7 @@ mass = 20
 
 [wing.front.shape.box.0]
 center = 0.0, 0.0, 0.0
-size = 0.6, 1.25, 0.28
+size = 1.25, 0.6, 0.28
 
 [wing.front.link]
 strength = 1000
@@ -131,7 +131,7 @@ mass = 20
 
 [wing.rear.shape.box.0]
 center = 0.0, 0.0, 0.0
-size = 0.36, 1.0, 0.62
+size = 1.0, 0.36, 0.62
 
 [wing.rear.link]
 strength = 1000
@@ -292,7 +292,7 @@ texture = steering_wheel.png
 mesh = steering_wheel.joe
 position = 0.00, 0.55, -0.26
 rotation = 87.5, 0.0, 0.0
-max-angle = 320
+max-angle = 60
 
 [driver]
 texture = driver2.png, driver-misc1.png
@@ -305,14 +305,13 @@ texture = body00.png, body-misc1.png
 mesh = body.joe
 mass = 90
 
-# coord systems mess
 [body.shape.box.0]
-center = 0.275, 0.0, -0.3	#0.0, 0.275, -0.3
-size = 4.0, 0.5, 0.4		#0.5, 4.0, 0.4
+center = 0.0, 0.275, -0.3
+size = 0.5, 4.0, 0.4
 
-#[body.shape.box.1]
-center = -0.2, 0.0, -0.3	#0.0, -0.2, -0.3
-size = 1.5, 1.25, 0.4		#1.25, 1.5, 0.4
+[body.shape.box.1]
+center = 0.0, -0.2, -0.3
+size = 1.25, 1.5, 0.4
 
 # these are used to calculate the weight distribution and balance
 #[particle.00]	# Front-Wing/Nose
