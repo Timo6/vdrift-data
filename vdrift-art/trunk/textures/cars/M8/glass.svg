@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024"
+   height="1024"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.44"
+   version="1.0"
+   inkscape:export-filename="/home/thelusiv/games/vdrift/data/cars/M8/textures/glass.png"
+   inkscape:export-xdpi="45"
+   inkscape:export-ydpi="45"
+   sodipodi:docbase="/home/thelusiv/games/vdrift-art/textures/cars/M8"
+   sodipodi:docname="glass.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#fafafa"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.1372549"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="584.81643"
+     inkscape:cy="517.65101"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer3"
+     width="1024px"
+     height="1024px"
+     showguides="true"
+     inkscape:guide-bbox="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="1025"
+     inkscape:window-x="0"
+     inkscape:window-y="0">
+    <sodipodi:guide
+       orientation="vertical"
+       position="0"
+       id="guide1954" />
+    <sodipodi:guide
+       orientation="horizontal"
+       position="0"
+       id="guide1956" />
+    <sodipodi:guide
+       orientation="horizontal"
+       position="1024"
+       id="guide1958" />
+    <sodipodi:guide
+       orientation="vertical"
+       position="1024"
+       id="guide1960" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="uv"
+     style="display:none">
+    <image
+       y="8.8817842e-16"
+       x="0"
+       id="image1951"
+       height="1024"
+       width="1024"
+       sodipodi:absref="/home/thelusiv/games/vdrift-art/models/cars/M8/M8.blend.pngPlane.001.tga"
+       xlink:href="/home/thelusiv/games/vdrift-art/models/cars/M8/M8.blend.pngPlane.001.tga" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="black"
+     style="display:inline">
+    <path
+       style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 591.21875,3.40625 C 543.30622,3.3823086 506.53125,4.28125 497.15625,4.28125 C 467.15625,4.28125 357.85947,19.076139 322.15625,44 C 265.05803,83.859382 227.00787,109.29964 207.84375,220.4375 C 203.97403,242.87902 233.56036,274.67091 245,288.28125 C 262.25134,308.80608 307.47239,340.34886 319.28125,346.84375 C 347.85268,362.55804 877.44524,365.52346 904.28125,351.15625 C 926.75789,339.12292 925.55208,342.82117 955,318.28125 C 980.71429,296.85269 1000.0089,268.28571 1011.4375,254 C 1022.866,239.71429 1019.0201,209.44277 1000,158.28125 C 977.42857,97.566961 919.63519,53.877026 895,36.15625 C 855.81779,7.9713965 696.62631,3.4589211 591.21875,3.40625 z M 586.6875,25.5625 C 682.44124,25.439107 833.15512,29.000115 869.625,54.25 C 892.04531,69.772673 944.64543,108.03552 965.1875,161.21875 C 982.49756,206.03414 985.99472,232.5488 975.59375,245.0625 C 965.19266,257.5762 947.62115,282.60446 924.21875,301.375 C 897.4184,322.87096 898.51831,319.61555 878.0625,330.15625 C 853.63924,342.74134 371.6589,340.14006 345.65625,326.375 C 334.90909,320.68574 293.76281,293.07267 278.0625,275.09375 C 267.65136,263.17165 240.7282,235.3141 244.25,215.65625 C 261.69113,118.30404 296.31655,96.008934 348.28125,61.09375 C 380.7745,39.26147 480.22846,26.312501 507.53125,26.3125 C 514.35695,26.3125 537.13926,25.814397 568.3125,25.625 C 574.15749,25.589488 580.30392,25.570726 586.6875,25.5625 z "
+       id="path1962" />
+    <path
+       style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 197.625,417.15625 C 184.57612,417.35112 129.60715,423.61607 128.9375,423.28125 C 91.437498,427.56697 25.004464,441.13392 18.21875,447.5625 C 11.433034,453.99106 11.080358,456.5 11.4375,466.5 C 11.794643,476.5 14.633929,590.4375 18.5625,605.4375 C 22.491072,620.43748 37.861607,700.4375 48.21875,707.9375 C 58.575892,715.43748 63.200893,719.00893 72.84375,717.9375 C 82.486611,716.86605 129.64732,694.72767 143.21875,681.15625 C 156.79018,667.5848 184.99107,637.56697 191.0625,600.78125 C 197.13393,563.99554 210.34375,448.29911 210.34375,438.65625 C 210.34374,429.0134 207.15625,417.93304 199.65625,417.21875 C 199.1875,417.17411 198.49493,417.14326 197.625,417.15625 z M 169.6875,444.3125 C 175.94971,444.30988 180.9375,445.25893 182.5,447.9375 C 187.5,456.50893 176.22089,562.96471 174.28125,589.34375 C 172.49553,613.62947 161.60778,621.28421 131.4375,651.84375 C 105.34417,678.27376 93.017645,679.99648 80.71875,685.4375 C 62.842434,693.34594 57.71571,664.71376 52.5,644.71875 C 46.29654,620.93709 38.210196,577.15367 36.4375,549.71875 C 34.66056,522.21818 31.080355,487.22323 33.9375,477.9375 C 36.512358,469.56921 58.571429,465.43303 97.5,457.21875 C 97.5,457.21875 127.5,450.05803 132.5,449.34375 C 135.9375,448.85268 155.91064,444.31826 169.6875,444.3125 z "
+       id="path2865" />
+    <path
+       style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 887.65625,438.65625 C 884.98363,438.70253 882.18304,438.82143 879.28125,439 C 843.6059,441.1954 674.29679,459 556.4375,459 C 437.86392,459 329.52498,444.03268 284.28125,440.4375 C 250.73221,437.77161 212.97619,445.2957 202.84375,475.4375 C 195.4023,497.57419 127.14286,856.15177 125,870.4375 C 122.85714,884.72322 120.72321,901.14285 131.4375,914 C 146.65863,932.26536 186.56315,957.24484 235.71875,977.5625 C 289.29019,999.7054 432.12948,1034 587.84375,1034 C 743.55804,1034 866.4152,993.99109 927.84375,972.5625 C 989.27233,951.13393 1025.7187,925.42411 1030.7188,913.28125 C 1035.7188,901.13839 1034.2857,876.85714 1030,859 C 1025.7143,841.14286 964.17539,482.46172 954.28125,468.28125 C 942.75557,451.76241 927.74553,437.96208 887.65625,438.65625 z M 876.34375,470.0625 C 910.74726,470.28626 924.09149,482.31143 934.40625,496.59375 C 943.56623,509.27705 992.53232,830.09069 996.5,846.0625 C 1000.4677,862.03433 1001.7853,883.73291 997.15625,894.59375 C 992.52725,905.4546 958.8079,928.45882 901.9375,947.625 C 845.0671,966.7912 731.31608,1002.5625 587.15625,1002.5625 C 442.99641,1002.5625 310.75253,971.89884 261.15625,952.09375 C 215.64813,933.9212 178.68543,911.58694 164.59375,895.25 C 154.6745,883.75027 156.6724,869.0587 158.65625,856.28125 C 160.6401,843.5038 215.86072,522.76829 222.75,502.96875 C 232.13059,476.00927 267.0654,469.27182 298.125,471.65625 C 340.0115,474.87185 448.28743,488.28125 558.0625,488.28125 C 667.17631,488.28125 831.94061,472.33861 864.96875,470.375 C 868.99845,470.13542 872.78477,470.03935 876.34375,470.0625 z "
+       id="path2874" />
+  </g>
+</svg>

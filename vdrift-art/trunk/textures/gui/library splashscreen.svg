@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024.0000px"
+   height="768.00000px"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.42.2"
+   sodipodi:docbase="/home/thelusiv/pics/vdrift"
+   sodipodi:docname="library splashscreen.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="540.80836"
+     inkscape:cy="373.28675"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1280"
+     inkscape:window-height="1001"
+     inkscape:window-x="0"
+     inkscape:window-y="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g6804"
+       transform="translate(4.088112,0.000000)">
+      <image
+         y="514.48975"
+         x="128.07158"
+         xlink:href="/home/thelusiv/pics/ogl_jpg/ogl.jpg"
+         sodipodi:absref="/home/thelusiv/pics/ogl_jpg/ogl.jpg"
+         width="339.85886"
+         height="165.29498"
+         id="image4891" />
+      <image
+         y="505.70050"
+         x="566.43121"
+         xlink:href="/home/thelusiv/pics/clug/openal_c.png"
+         sodipodi:absref="/home/thelusiv/pics/clug/openal_c.png"
+         width="321.32098"
+         height="174.07613"
+         id="image6737" />
+    </g>
+    <image
+       id="image6795"
+       height="374.39108"
+       width="542.76801"
+       sodipodi:absref="/home/thelusiv/pics/vdrift/sdl_powered.png"
+       xlink:href="sdl_powered.png"
+       x="240.61600"
+       y="64.629395" />
+  </g>
+</svg>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1280.0000px"
+   height="1024.0000px"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.42.2"
+   sodipodi:docbase="/home/thelusiv/pics/vdrift"
+   sodipodi:docname="mousepointer.svg"
+   inkscape:export-filename="/home/thelusiv/games/vdrift-branches/menus-v2/data/textures/large/gui/mouse.png"
+   inkscape:export-xdpi="90.000000"
+   inkscape:export-ydpi="90.000000">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.79806164"
+     inkscape:cx="643.43904"
+     inkscape:cy="524.80049"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:guide-points="true"
+     inkscape:window-width="1274"
+     inkscape:window-height="1002"
+     inkscape:window-x="0"
+     inkscape:window-y="0">
+    <sodipodi:guide
+       orientation="horizontal"
+       position="1024.0000"
+       id="guide1367" />
+    <sodipodi:guide
+       orientation="vertical"
+       position="0.0000000"
+       id="guide1369" />
+    <sodipodi:guide
+       orientation="vertical"
+       position="1280.0000"
+       id="guide1371" />
+    <sodipodi:guide
+       orientation="horizontal"
+       position="0.0000000"
+       id="guide1373" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       id="image1372"
+       height="1024.0000"
+       width="1280.0000"
+       sodipodi:absref="/home/thelusiv/games/vdrift/runtime/shots/stang_drift_1.jpeg"
+       xlink:href="/home/thelusiv/games/vdrift/runtime/shots/stang_drift_1.jpeg"
+       x="0.0000000"
+       y="1215.4449" />
+    <g
+       id="g3004"
+       inkscape:export-filename="/home/thelusiv/games/vdrift-branches/menus-v2/data/textures/large/gui/mouse.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000">
+      <path
+         d="M 629.65625,285.71875 L 628.84375,514.71875 L 686.21875,476.81250 C 691.70422,473.18621 698.34972,471.74784 704.84375,472.78125 L 774.56250,483.87500 L 629.65625,285.71875 z "
+         id="path2271"
+         style="font-size:36.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;writing-mode:lr-tb;text-anchor:start;fill:#5a5aff;fill-opacity:0.82485878;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Contour Generator"
+         inkscape:original="M 603.65625 205.65625 L 602.37500 563.71875 L 700.71875 498.75000 L 833.43750 519.87500 L 603.65625 205.65625 z "
+         inkscape:radius="-26.280853"
+         sodipodi:type="inkscape:offset" />
+      <path
+         d="M 603.64351,205.64398 L 833.43168,519.87504 L 700.70583,498.73844 L 602.39048,563.73130M 629.65625,285.71875 L 628.84375,514.71875 L 686.21875,476.81250 C 691.70422,473.18621 698.34972,471.74784 704.84375,472.78125 L 774.56250,483.87500 L 629.65625,285.71875 z "
+         style="font-size:36.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Contour Generator"
+         id="text1080" />
+    </g>
+  </g>
+</svg>

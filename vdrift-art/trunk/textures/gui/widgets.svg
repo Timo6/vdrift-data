@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.42.2"
+   sodipodi:docbase="/home/thelusiv/pics/vdrift"
+   sodipodi:docname="widgets.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient2112">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop2114" />
+      <stop
+         id="stop2120"
+         offset="0.60714287"
+         style="stop-color:#afafaf;stop-opacity:1.0000000;" />
+      <stop
+         style="stop-color:#666666;stop-opacity:1.0000000;"
+         offset="1.0000000"
+         id="stop2116" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2093">
+      <stop
+         id="stop2095"
+         offset="0.0000000"
+         style="stop-color:#ffffff;stop-opacity:1.0000000;" />
+      <stop
+         style="stop-color:#afafaf;stop-opacity:1.0000000;"
+         offset="0.60714287"
+         id="stop2101" />
+      <stop
+         id="stop2099"
+         offset="1.0000000"
+         style="stop-color:#666666;stop-opacity:1.0000000;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2077">
+      <stop
+         style="stop-color:#666666;stop-opacity:1.0000000;"
+         offset="0.0000000"
+         id="stop2079" />
+      <stop
+         id="stop2085"
+         offset="0.60714287"
+         style="stop-color:#afafaf;stop-opacity:1.0000000;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1.0000000;"
+         offset="1.0000000"
+         id="stop2081" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2044">
+      <stop
+         style="stop-color:#000000;stop-opacity:1.0000000;"
+         offset="0.0000000"
+         id="stop2046" />
+      <stop
+         style="stop-color:#f0f000;stop-opacity:1.0000000;"
+         offset="1.0000000"
+         id="stop2048" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2044"
+       id="linearGradient2050"
+       x1="260.21429"
+       y1="399.86218"
+       x2="377.64286"
+       y2="399.86218"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2077"
+       id="radialGradient2083"
+       cx="266.78571"
+       cy="323.43362"
+       fx="266.78571"
+       fy="323.43362"
+       r="19.642857"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2093"
+       id="radialGradient2091"
+       gradientUnits="userSpaceOnUse"
+       cx="266.78571"
+       cy="323.43362"
+       fx="266.78571"
+       fy="323.43362"
+       r="19.642857" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2112"
+       id="linearGradient2118"
+       x1="320.71875"
+       y1="484.49106"
+       x2="320.71875"
+       y2="518.06250"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2077"
+       id="linearGradient2126"
+       gradientUnits="userSpaceOnUse"
+       x1="320.71875"
+       y1="484.49106"
+       x2="320.71875"
+       y2="518.06250" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2077"
+       id="linearGradient2128"
+       gradientUnits="userSpaceOnUse"
+       x1="260.21429"
+       y1="399.86218"
+       x2="377.64285"
+       y2="399.86218"
+       gradientTransform="matrix(1.251534,0.000000,0.000000,1.000000,-68.07844,3.571429)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2077"
+       id="linearGradient2133"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.251534,0.000000,0.000000,1.000000,-65.57844,0.000000)"
+       x1="260.21429"
+       y1="399.86218"
+       x2="377.64285"
+       y2="399.86218" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2093"
+       id="linearGradient2141"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.251534,0.000000,0.000000,1.000000,-226.6724,82.86840)"
+       x1="363.72430"
+       y1="394.50504"
+       x2="363.72430"
+       y2="419.50504" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2077"
+       id="linearGradient2151"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.251534,0.000000,0.000000,1.000000,887.3139,82.86840)"
+       x1="363.72430"
+       y1="419.50504"
+       x2="363.72430"
+       y2="397.71933" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2077"
+       id="linearGradient2161"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.251534,0.000000,0.000000,1.000000,-226.6724,152.8684)"
+       x1="363.72430"
+       y1="419.50504"
+       x2="363.72430"
+       y2="397.71933" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2077"
+       id="linearGradient2163"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.251534,0.000000,0.000000,1.000000,887.3139,152.8684)"
+       x1="363.72433"
+       y1="380.21933"
+       x2="363.72433"
+       y2="404.50507" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2093"
+       id="linearGradient2169"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.251534,0.000000,0.000000,1.000000,889.4568,82.86840)"
+       x1="363.72430"
+       y1="394.50504"
+       x2="363.72430"
+       y2="419.50504" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2077"
+       id="linearGradient2179"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.251534,0.000000,0.000000,1.000000,-226.6724,152.8684)"
+       x1="363.72430"
+       y1="394.50504"
+       x2="363.72430"
+       y2="419.50504" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2077"
+       id="linearGradient2181"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.251534,0.000000,0.000000,1.000000,889.4568,152.8684)"
+       x1="363.72430"
+       y1="386.64789"
+       x2="363.72430"
+       y2="408.79074" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2077"
+       id="linearGradient2187"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.251534,0.000000,0.000000,1.000000,-226.3153,152.8684)"
+       x1="363.72430"
+       y1="386.64789"
+       x2="363.72430"
+       y2="408.79074" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2077"
+       id="linearGradient2236"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.251534,0.000000,0.000000,1.000000,-226.3153,152.8684)"
+       x1="363.72430"
+       y1="386.64789"
+       x2="363.72430"
+       y2="415.21930" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2093"
+       id="linearGradient2238"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.251534,0.000000,0.000000,1.000000,-226.6724,82.86840)"
+       x1="363.72430"
+       y1="394.50504"
+       x2="363.72430"
+       y2="419.50504" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2077"
+       id="linearGradient2244"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.251534,0.000000,0.000000,1.000000,889.4568,152.8684)"
+       x1="363.72430"
+       y1="386.64789"
+       x2="363.72430"
+       y2="414.50504" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2093"
+       id="linearGradient2246"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.251534,0.000000,0.000000,1.000000,889.4568,82.86840)"
+       x1="363.72430"
+       y1="394.50504"
+       x2="363.72430"
+       y2="419.50504" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2077"
+       id="linearGradient2254"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.251534,0.000000,0.000000,1.000000,-226.3153,152.8684)"
+       x1="363.72430"
+       y1="386.64789"
+       x2="363.72430"
+       y2="415.21930" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2077"
+       id="linearGradient2256"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.251534,0.000000,0.000000,1.000000,-68.07844,3.571429)"
+       x1="260.21429"
+       y1="399.86218"
+       x2="377.64285"
+       y2="399.86218" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2077"
+       id="linearGradient2260"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.251534,0.000000,0.000000,1.000000,-68.07844,3.571429)"
+       x1="260.21429"
+       y1="399.86218"
+       x2="377.64285"
+       y2="399.86218" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2093"
+       id="linearGradient1393"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.251534,0.000000,0.000000,1.000000,-226.6724,82.86840)"
+       x1="363.72430"
+       y1="394.50504"
+       x2="363.72430"
+       y2="419.50504" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2093"
+       id="linearGradient1395"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.251534,0.000000,0.000000,1.000000,889.4568,82.86840)"
+       x1="363.72430"
+       y1="394.50504"
+       x2="363.72430"
+       y2="419.50504" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4000000"
+     inkscape:cx="357.94530"
+     inkscape:cy="468.02441"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="931"
+     inkscape:window-height="838"
+     inkscape:window-x="166"
+     inkscape:window-y="54" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2263"
+       inkscape:export-filename="/home/thelusiv/games/vdrift-branches/menus-v2/data/textures/large/gui/widgets/sld_wedge.png"
+       inkscape:export-xdpi="150.01190"
+       inkscape:export-ydpi="150.01190">
+      <path
+         transform="translate(-2.500000,3.571429)"
+         d="M 406.34375,377.46875 C 406.13250,377.47580 405.92277,377.50725 405.71875,377.56250 L 260.00000,416.84375 C 258.63087,417.16835 257.72996,418.47698 257.91539,419.87180 C 258.10083,421.26661 259.31236,422.29440 260.71875,422.25000 C 291.11314,422.25000 406.43750,422.25000 406.43750,422.25000 C 407.16760,422.25246 407.86850,421.96352 408.38476,421.44726 C 408.90102,420.93100 409.18996,420.23010 409.18750,419.50000 L 409.18750,380.21875 C 409.19054,379.47205 408.88879,378.75644 408.35202,378.23736 C 407.81525,377.71829 407.08993,377.44069 406.34375,377.46875 z "
+         id="path2135"
+         style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+         inkscape:original="M 406.43750 380.21875 L 260.71875 419.50000 C 291.11314 419.50000 406.43750 419.50000 406.43750 419.50000 L 406.43750 380.21875 z "
+         inkscape:radius="2.7404952"
+         sodipodi:type="inkscape:offset" />
+      <path
+         id="path1308"
+         d="M 258.21429,423.07647 C 288.60868,423.07647 403.92857,423.07647 403.92857,423.07647 L 403.92857,383.79075 L 258.21429,423.07647 z "
+         style="fill:url(#linearGradient2260);fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000" />
+    </g>
+    <path
+       sodipodi:type="inkscape:offset"
+       inkscape:radius="7.1282916"
+       inkscape:original="M 367.84375 370.93750 L 367.84375 427.37500 L 392.84375 427.37500 L 392.84375 370.93750 L 367.84375 370.93750 z "
+       style="fill:#ffffff;fill-opacity:1.0000000;stroke:none;stroke-width:3.4000001;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000"
+       id="path1313"
+       d="M 367.84375,363.81250 C 363.90964,363.81471 360.72096,367.00339 360.71875,370.93750 L 360.71875,427.37500 C 360.72096,431.30911 363.90964,434.49779 367.84375,434.50000 L 392.84375,434.50000 C 396.77786,434.49779 399.96654,431.30911 399.96875,427.37500 L 399.96875,370.93750 C 399.96654,367.00339 396.77786,363.81471 392.84375,363.81250 L 367.84375,363.81250 z "
+       transform="matrix(0.284278,0.000000,0.000000,0.652795,308.1740,142.6462)"
+       inkscape:export-filename="/home/thelusiv/games/vdrift-branches/menus-v2/data/textures/large/gui/widgets/sld_wedge.png"
+       inkscape:export-xdpi="150.01190"
+       inkscape:export-ydpi="150.01190" />
+    <g
+       id="g2220"
+       inkscape:export-filename="/home/thelusiv/games/vdrift-branches/menus-v2/data/textures/large/gui/widgets/tog_on_up.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000">
+      <path
+         d="M 286.42856 323.43362 A 19.642857 19.642857 0 1 1  247.14285,323.43362 A 19.642857 19.642857 0 1 1  286.42856 323.43362 z"
+         sodipodi:ry="19.642857"
+         sodipodi:rx="19.642857"
+         sodipodi:cy="323.43362"
+         sodipodi:cx="266.78571"
+         id="path2065"
+         style="fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:3.4000001;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.872727,0.000000,0.000000,0.872727,33.95458,41.16433)"
+         d="M 286.42856 323.43362 A 19.642857 19.642857 0 1 1  247.14285,323.43362 A 19.642857 19.642857 0 1 1  286.42856 323.43362 z"
+         sodipodi:ry="19.642857"
+         sodipodi:rx="19.642857"
+         sodipodi:cy="323.43362"
+         sodipodi:cx="266.78571"
+         id="path2067"
+         style="fill:#666666;fill-opacity:1.0000000;stroke:none;stroke-width:3.4000001;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g2224"
+       inkscape:export-filename="/home/thelusiv/games/vdrift-branches/menus-v2/data/textures/large/gui/widgets/tog_on_up.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000">
+      <path
+         transform="translate(89.28571,0.000000)"
+         d="M 286.42856 323.43362 A 19.642857 19.642857 0 1 1  247.14285,323.43362 A 19.642857 19.642857 0 1 1  286.42856 323.43362 z"
+         sodipodi:ry="19.642857"
+         sodipodi:rx="19.642857"
+         sodipodi:cy="323.43362"
+         sodipodi:cx="266.78571"
+         id="path2069"
+         style="fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:3.4000001;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.872727,0.000000,0.000000,0.872727,123.2403,41.16433)"
+         d="M 286.42856 323.43362 A 19.642857 19.642857 0 1 1  247.14285,323.43362 A 19.642857 19.642857 0 1 1  286.42856 323.43362 z"
+         sodipodi:ry="19.642857"
+         sodipodi:rx="19.642857"
+         sodipodi:cy="323.43362"
+         sodipodi:cx="266.78571"
+         id="path2071"
+         style="fill:#ffffff;fill-opacity:1.0000000;stroke:none;stroke-width:3.4000001;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g2232"
+       inkscape:export-filename="/home/thelusiv/games/vdrift-branches/menus-v2/data/textures/large/gui/widgets/tog_on_up.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000">
+      <path
+         transform="translate(137.5000,0.000000)"
+         d="M 286.42856 323.43362 A 19.642857 19.642857 0 1 1  247.14285,323.43362 A 19.642857 19.642857 0 1 1  286.42856 323.43362 z"
+         sodipodi:ry="19.642857"
+         sodipodi:rx="19.642857"
+         sodipodi:cy="323.43362"
+         sodipodi:cx="266.78571"
+         id="path2073"
+         style="fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:3.4000001;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.872727,0.000000,0.000000,0.872727,171.4546,41.16433)"
+         d="M 286.42856 323.43362 A 19.642857 19.642857 0 1 1  247.14285,323.43362 A 19.642857 19.642857 0 1 1  286.42856 323.43362 z"
+         sodipodi:ry="19.642857"
+         sodipodi:rx="19.642857"
+         sodipodi:cy="323.43362"
+         sodipodi:cx="266.78571"
+         id="path2075"
+         style="fill:url(#radialGradient2083);fill-opacity:1.0;stroke:none;stroke-width:3.4000001;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g2228"
+       inkscape:export-filename="/home/thelusiv/games/vdrift-branches/menus-v2/data/textures/large/gui/widgets/tog_on_up.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000">
+      <path
+         transform="translate(44.28571,0.000000)"
+         d="M 286.42856 323.43362 A 19.642857 19.642857 0 1 1  247.14285,323.43362 A 19.642857 19.642857 0 1 1  286.42856 323.43362 z"
+         sodipodi:ry="19.642857"
+         sodipodi:rx="19.642857"
+         sodipodi:cy="323.43362"
+         sodipodi:cx="266.78571"
+         id="path2087"
+         style="fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:3.4000001;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.872727,0.000000,0.000000,0.872727,78.24031,41.16433)"
+         d="M 286.42856 323.43362 A 19.642857 19.642857 0 1 1  247.14285,323.43362 A 19.642857 19.642857 0 1 1  286.42856 323.43362 z"
+         sodipodi:ry="19.642857"
+         sodipodi:rx="19.642857"
+         sodipodi:cy="323.43362"
+         sodipodi:cx="266.78571"
+         id="path2089"
+         style="fill:url(#radialGradient2091);fill-opacity:1.0;stroke:none;stroke-width:3.4000001;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+         sodipodi:type="arc" />
+    </g>
+    <path
+       sodipodi:type="inkscape:offset"
+       inkscape:radius="2.8750000"
+       inkscape:original="M 245.00000 478.06250 L 245.00000 518.06250 L 396.43750 518.06250 L 396.43750 478.06250 L 245.00000 478.06250 z "
+       style="fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:3.4000001;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000"
+       id="path2110"
+       d="M 244.71875,475.18750 C 243.24175,475.33280 242.11802,476.57838 242.12500,478.06250 L 242.12500,518.06250 C 242.12516,519.65025 243.41225,520.93734 245.00000,520.93750 L 396.43750,520.93750 C 398.02525,520.93734 399.31234,519.65025 399.31250,518.06250 L 399.31250,478.06250 C 399.31234,476.47475 398.02525,475.18766 396.43750,475.18750 L 245.00000,475.18750 C 244.90631,475.18291 244.81244,475.18291 244.71875,475.18750 z "
+       transform="translate(10.00000,-15.71429)"
+       inkscape:export-filename="/home/thelusiv/games/vdrift-branches/menus-v2/data/textures/large/gui/widgets/btn_up_l.png"
+       inkscape:export-xdpi="150.01190"
+       inkscape:export-ydpi="150.01190" />
+    <path
+       sodipodi:type="inkscape:offset"
+       inkscape:radius="0.0000000"
+       inkscape:original="M 245.00000 478.06250 L 245.00000 518.06250 L 396.43750 518.06250 L 396.43750 478.06250 L 245.00000 478.06250 z "
+       style="fill:url(#linearGradient2118);fill-opacity:1.0000000;stroke:none;stroke-width:3.4000001;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000"
+       id="path2106"
+       d="M 245.00000,478.06250 L 245.00000,518.06250 L 396.43750,518.06250 L 396.43750,478.06250 L 245.00000,478.06250 z "
+       transform="translate(10.00000,-15.71600)"
+       inkscape:export-filename="/home/thelusiv/games/vdrift-branches/menus-v2/data/textures/large/gui/widgets/btn_up_l.png"
+       inkscape:export-xdpi="150.01190"
+       inkscape:export-ydpi="150.01190" />
+    <g
+       id="g2197"
+       inkscape:export-filename="/home/thelusiv/games/vdrift-branches/menus-v2/data/textures/large/gui/widgets/btn_up_l.png"
+       inkscape:export-xdpi="150.01190"
+       inkscape:export-ydpi="150.01190">
+      <path
+         transform="translate(10.00000,55.00000)"
+         d="M 244.71875,475.18750 C 243.24175,475.33280 242.11802,476.57838 242.12500,478.06250 L 242.12500,518.06250 C 242.12516,519.65025 243.41225,520.93734 245.00000,520.93750 L 396.43750,520.93750 C 398.02525,520.93734 399.31234,519.65025 399.31250,518.06250 L 399.31250,478.06250 C 399.31234,476.47475 398.02525,475.18766 396.43750,475.18750 L 245.00000,475.18750 C 244.90631,475.18291 244.81244,475.18291 244.71875,475.18750 z "
+         id="path2122"
+         style="fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:3.4000001;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000"
+         inkscape:original="M 245.00000 478.06250 L 245.00000 518.06250 L 396.43750 518.06250 L 396.43750 478.06250 L 245.00000 478.06250 z "
+         inkscape:radius="2.8750000"
+         sodipodi:type="inkscape:offset" />
+      <path
+         transform="translate(10.00000,55.00000)"
+         d="M 245.00000,478.06250 L 245.00000,518.06250 L 396.43750,518.06250 L 396.43750,478.06250 L 245.00000,478.06250 z "
+         id="path2124"
+         style="fill:url(#linearGradient2126);fill-opacity:1.0;stroke:none;stroke-width:3.4000001;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000"
+         inkscape:original="M 245.00000 478.06250 L 245.00000 518.06250 L 396.43750 518.06250 L 396.43750 478.06250 L 245.00000 478.06250 z "
+         inkscape:radius="0.0000000"
+         sodipodi:type="inkscape:offset" />
+    </g>
+    <g
+       id="g2201"
+       transform="translate(34.46428,134.6153)"
+       inkscape:export-filename="/home/thelusiv/games/vdrift-branches/menus-v2/data/textures/large/gui/widgets/wheel_up_l.png"
+       inkscape:export-xdpi="150.01190"
+       inkscape:export-ydpi="150.01190">
+      <path
+         d="M 245.00000,460.34375 C 244.59982,460.39532 244.21580,460.53399 243.87500,460.75000 L 210.28125,481.84375 C 209.44254,482.36425 208.94556,483.29296 208.97780,484.27952 C 209.01004,485.26609 209.56659,486.16037 210.43750,486.62500 L 244.03125,504.81250 C 244.88734,505.27035 245.92100,505.24487 246.75348,504.74538 C 247.58596,504.24589 248.09488,503.34583 248.09375,502.37500 L 248.09375,463.09375 C 248.09650,462.30188 247.75907,461.54696 247.16722,461.02087 C 246.57536,460.49477 245.78608,460.24818 245.00000,460.34375 L 245.00000,460.34375 z "
+         id="path2145"
+         style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+         inkscape:original="M 245.34375 463.09375 L 211.75000 484.18750 L 245.34375 502.37500 L 245.34375 463.09375 z "
+         inkscape:radius="2.7603056"
+         sodipodi:type="inkscape:offset" />
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path2139"
+         d="M 211.74727,484.19070 L 245.33462,502.37345 L 245.33462,463.08773 L 211.74727,484.19070 z "
+         style="fill:url(#linearGradient2238);fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000" />
+    </g>
+    <g
+       id="g2205"
+       transform="translate(-125.6250,134.6153)"
+       inkscape:export-filename="/home/thelusiv/games/vdrift-branches/menus-v2/data/textures/large/gui/widgets/wheel_up_l.png"
+       inkscape:export-xdpi="150.01190"
+       inkscape:export-ydpi="150.01190">
+      <path
+         transform="matrix(-1.000000,0.000000,0.000000,1.000000,662.7844,0.000000)"
+         d="M 245.00000,460.34375 C 244.59982,460.39532 244.21580,460.53399 243.87500,460.75000 L 210.28125,481.84375 C 209.44254,482.36425 208.94556,483.29296 208.97780,484.27952 C 209.01004,485.26609 209.56659,486.16037 210.43750,486.62500 L 244.03125,504.81250 C 244.88734,505.27035 245.92100,505.24487 246.75348,504.74538 C 247.58596,504.24589 248.09488,503.34583 248.09375,502.37500 L 248.09375,463.09375 C 248.09650,462.30188 247.75907,461.54696 247.16722,461.02087 C 246.57536,460.49477 245.78608,460.24818 245.00000,460.34375 L 245.00000,460.34375 z "
+         id="path2165"
+         style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+         inkscape:original="M 245.34375 463.09375 L 211.75000 484.18750 L 245.34375 502.37500 L 245.34375 463.09375 z "
+         inkscape:radius="2.7603056"
+         sodipodi:type="inkscape:offset" />
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path2167"
+         d="M 451.03713,484.19070 L 417.44978,502.37345 L 417.44978,463.08773 L 451.03713,484.19070 z "
+         style="fill:url(#linearGradient2246);fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000" />
+    </g>
+    <g
+       id="g2189"
+       transform="translate(125.5357,64.61530)"
+       inkscape:export-filename="/home/thelusiv/games/vdrift-branches/menus-v2/data/textures/large/gui/widgets/wheel_up_l.png"
+       inkscape:export-xdpi="150.01190"
+       inkscape:export-ydpi="150.01190">
+      <path
+         transform="translate(0.357143,70.00000)"
+         d="M 245.00000,460.34375 C 244.59982,460.39532 244.21580,460.53399 243.87500,460.75000 L 210.28125,481.84375 C 209.44254,482.36425 208.94556,483.29296 208.97780,484.27952 C 209.01004,485.26609 209.56659,486.16037 210.43750,486.62500 L 244.03125,504.81250 C 244.88734,505.27035 245.92100,505.24487 246.75348,504.74538 C 247.58596,504.24589 248.09488,503.34583 248.09375,502.37500 L 248.09375,463.09375 C 248.09650,462.30188 247.75907,461.54696 247.16722,461.02087 C 246.57536,460.49477 245.78608,460.24818 245.00000,460.34375 L 245.00000,460.34375 z "
+         id="path2183"
+         style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+         inkscape:original="M 245.34375 463.09375 L 211.75000 484.18750 L 245.34375 502.37500 L 245.34375 463.09375 z "
+         inkscape:radius="2.7603056"
+         sodipodi:type="inkscape:offset" />
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path2185"
+         d="M 212.10438,554.19070 L 245.69173,572.37345 L 245.69173,533.08773 L 212.10438,554.19070 z "
+         style="fill:url(#linearGradient2236);fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000" />
+    </g>
+    <g
+       id="g2248"
+       transform="matrix(-1.000000,0.000000,0.000000,1.000000,628.9451,64.61530)"
+       inkscape:export-filename="/home/thelusiv/games/vdrift-branches/menus-v2/data/textures/large/gui/widgets/wheel_up_l.png"
+       inkscape:export-xdpi="150.01190"
+       inkscape:export-ydpi="150.01190">
+      <path
+         transform="translate(0.357143,70.00000)"
+         d="M 245.00000,460.34375 C 244.59982,460.39532 244.21580,460.53399 243.87500,460.75000 L 210.28125,481.84375 C 209.44254,482.36425 208.94556,483.29296 208.97780,484.27952 C 209.01004,485.26609 209.56659,486.16037 210.43750,486.62500 L 244.03125,504.81250 C 244.88734,505.27035 245.92100,505.24487 246.75348,504.74538 C 247.58596,504.24589 248.09488,503.34583 248.09375,502.37500 L 248.09375,463.09375 C 248.09650,462.30188 247.75907,461.54696 247.16722,461.02087 C 246.57536,460.49477 245.78608,460.24818 245.00000,460.34375 L 245.00000,460.34375 z "
+         id="path2250"
+         style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+         inkscape:original="M 245.34375 463.09375 L 211.75000 484.18750 L 245.34375 502.37500 L 245.34375 463.09375 z "
+         inkscape:radius="2.7603056"
+         sodipodi:type="inkscape:offset" />
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path2252"
+         d="M 212.10438,554.19070 L 245.69173,572.37345 L 245.69173,533.08773 L 212.10438,554.19070 z "
+         style="fill:url(#linearGradient2254);fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000" />
+    </g>
+    <g
+       id="g1381"
+       transform="translate(81.50959,202.4882)"
+       inkscape:export-filename="/home/thelusiv/games/vdrift-branches/menus-v2/data/textures/large/gui/widgets/wheel_up_l_disabled.png"
+       inkscape:export-xdpi="150.01190"
+       inkscape:export-ydpi="150.01190"
+       style="opacity:0.40000000">
+      <path
+         d="M 245.00000,460.34375 C 244.59982,460.39532 244.21580,460.53399 243.87500,460.75000 L 210.28125,481.84375 C 209.44254,482.36425 208.94556,483.29296 208.97780,484.27952 C 209.01004,485.26609 209.56659,486.16037 210.43750,486.62500 L 244.03125,504.81250 C 244.88734,505.27035 245.92100,505.24487 246.75348,504.74538 C 247.58596,504.24589 248.09488,503.34583 248.09375,502.37500 L 248.09375,463.09375 C 248.09650,462.30188 247.75907,461.54696 247.16722,461.02087 C 246.57536,460.49477 245.78608,460.24818 245.00000,460.34375 L 245.00000,460.34375 z "
+         id="path1383"
+         style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+         inkscape:original="M 245.34375 463.09375 L 211.75000 484.18750 L 245.34375 502.37500 L 245.34375 463.09375 z "
+         inkscape:radius="2.7603056"
+         sodipodi:type="inkscape:offset" />
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path1385"
+         d="M 211.74727,484.19070 L 245.33462,502.37345 L 245.33462,463.08773 L 211.74727,484.19070 z "
+         style="fill:url(#linearGradient1393);fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000" />
+    </g>
+    <g
+       id="g1387"
+       transform="translate(-78.57969,202.4882)"
+       inkscape:export-filename="/home/thelusiv/games/vdrift-branches/menus-v2/data/textures/large/gui/widgets/wheel_up_l_disabled.png"
+       inkscape:export-xdpi="150.01190"
+       inkscape:export-ydpi="150.01190"
+       style="opacity:0.40000000">
+      <path
+         transform="matrix(-1.000000,0.000000,0.000000,1.000000,662.7844,0.000000)"
+         d="M 245.00000,460.34375 C 244.59982,460.39532 244.21580,460.53399 243.87500,460.75000 L 210.28125,481.84375 C 209.44254,482.36425 208.94556,483.29296 208.97780,484.27952 C 209.01004,485.26609 209.56659,486.16037 210.43750,486.62500 L 244.03125,504.81250 C 244.88734,505.27035 245.92100,505.24487 246.75348,504.74538 C 247.58596,504.24589 248.09488,503.34583 248.09375,502.37500 L 248.09375,463.09375 C 248.09650,462.30188 247.75907,461.54696 247.16722,461.02087 C 246.57536,460.49477 245.78608,460.24818 245.00000,460.34375 L 245.00000,460.34375 z "
+         id="path1389"
+         style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+         inkscape:original="M 245.34375 463.09375 L 211.75000 484.18750 L 245.34375 502.37500 L 245.34375 463.09375 z "
+         inkscape:radius="2.7603056"
+         sodipodi:type="inkscape:offset" />
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path1391"
+         d="M 451.03713,484.19070 L 417.44978,502.37345 L 417.44978,463.08773 L 451.03713,484.19070 z "
+         style="fill:url(#linearGradient1395);fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000" />
+    </g>
+  </g>
+</svg>

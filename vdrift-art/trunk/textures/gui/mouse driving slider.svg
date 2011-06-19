@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.42"
+   sodipodi:docbase="/home/thelusiv/pics/vdrift"
+   sodipodi:docname="mouse driving slider.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient2418">
+      <stop
+         style="stop-color:#0000b6;stop-opacity:1.0000000;"
+         offset="0.0000000"
+         id="stop2420" />
+      <stop
+         id="stop2426"
+         offset="0.50000000"
+         style="stop-color:#000000;stop-opacity:1.0000000;" />
+      <stop
+         style="stop-color:#0000b5;stop-opacity:1.0000000;"
+         offset="1.0000000"
+         id="stop2422" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2386">
+      <stop
+         style="stop-color:#00f000;stop-opacity:1.0000000;"
+         offset="0.0000000"
+         id="stop2388" />
+      <stop
+         id="stop2394"
+         offset="0.50000000"
+         style="stop-color:#000000;stop-opacity:1.0000000;" />
+      <stop
+         style="stop-color:#cd0000;stop-opacity:1.0000000;"
+         offset="1.0000000"
+         id="stop2390" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2112">
+      <stop
+         style="stop-color:#000000;stop-opacity:0.0000000;"
+         offset="0.0000000"
+         id="stop2114" />
+      <stop
+         id="stop2120"
+         offset="0.50000000"
+         style="stop-color:#000000;stop-opacity:0.092783503;" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.42268041;"
+         offset="1.0000000"
+         id="stop2116" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2073">
+      <stop
+         style="stop-color:#050505;stop-opacity:0.80784315;"
+         offset="0.0000000"
+         id="stop2075" />
+      <stop
+         style="stop-color:#464646;stop-opacity:0.80784315;"
+         offset="1.0000000"
+         id="stop2077" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2055">
+      <stop
+         style="stop-color:#1e1e1e;stop-opacity:1;"
+         offset="0"
+         id="stop2057" />
+      <stop
+         style="stop-color:#1e1e1e;stop-opacity:1.0000000;"
+         offset="1.0000000"
+         id="stop2059" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2112"
+       id="radialGradient2350"
+       gradientUnits="userSpaceOnUse"
+       cx="395.97980"
+       cy="594.76306"
+       fx="395.97980"
+       fy="594.76306"
+       r="17.172594" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2073"
+       id="linearGradient2362"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.669622,0.000000,0.000000,0.669622,23.83826,204.4660)"
+       x1="398.74167"
+       y1="608.35620"
+       x2="398.74167"
+       y2="591.24310" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2386"
+       id="linearGradient2392"
+       x1="369.96970"
+       y1="589.07526"
+       x2="369.96970"
+       y2="623.62238"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(8.220116,0.000000)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2386"
+       id="linearGradient2408"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.507886,0.000000,0.000000,1.507886,-179.6512,-307.8323)"
+       x1="369.96970"
+       y1="596.13776"
+       x2="369.96970"
+       y2="615.95459" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2418"
+       id="linearGradient2424"
+       x1="248.16173"
+       y1="606.34711"
+       x2="351.31735"
+       y2="606.34711"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2386"
+       id="linearGradient2438"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.507886,0.000000,0.000000,1.507886,-179.6512,-307.8323)"
+       x1="369.96970"
+       y1="596.13776"
+       x2="369.96970"
+       y2="615.95459" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.0000000"
+     inkscape:cx="391.80128"
+     inkscape:cy="441.86640"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="925"
+     inkscape:window-height="1003"
+     inkscape:window-x="241"
+     inkscape:window-y="0"
+     inkscape:guide-points="true">
+    <sodipodi:guide
+       orientation="vertical"
+       position="300.00000"
+       id="guide2269" />
+    <sodipodi:guide
+       orientation="vertical"
+       position="250.00000"
+       id="guide2271" />
+    <sodipodi:guide
+       orientation="vertical"
+       position="350.00000"
+       id="guide2273" />
+    <sodipodi:guide
+       orientation="horizontal"
+       position="464.92271"
+       id="guide2378" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:0.0000000;color:#000000;fill:#1e1e1e;fill-opacity:0.079096027;fill-rule:nonzero;stroke:none;stroke-width:1.4060000;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;visibility:visible;display:block"
+       id="rect2432"
+       width="32.000000"
+       height="32.000000"
+       x="363.14703"
+       y="590.10522"
+       inkscape:export-filename="/home/thelusiv/games/vdrift/data/tex/accdec-marker.png"
+       inkscape:export-xdpi="180.00000"
+       inkscape:export-ydpi="180.00000" />
+    <rect
+       style="opacity:0.0000000;color:#000000;fill:#1e1e1e;fill-opacity:0.079096027;fill-rule:nonzero;stroke:none;stroke-width:1.4060000;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;visibility:visible;display:block"
+       id="rect2354"
+       width="32.000000"
+       height="32.000000"
+       x="407.64703"
+       y="591.50189"
+       inkscape:export-filename="/home/thelusiv/games/vdrift/data/tex/ball2.png"
+       inkscape:export-xdpi="180.00000"
+       inkscape:export-ydpi="180.00000" />
+    <rect
+       style="opacity:0.0000000;color:#000000;fill:#1e1e1e;fill-opacity:0.079096027;fill-rule:nonzero;stroke:none;stroke-width:1.4060000;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;visibility:visible;display:block"
+       id="rect2352"
+       width="128.00000"
+       height="128.00000"
+       x="236.00000"
+       y="542.17096"
+       inkscape:export-filename="/home/thelusiv/games/vdrift/data/tex/slider2.png"
+       inkscape:export-xdpi="180.00000"
+       inkscape:export-ydpi="180.00000" />
+    <path
+       style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.2490196;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 298.87334,594.65967 L 298.87334,599.66091 L 300.04187,599.66091 L 301.21037,599.66091 L 301.21037,594.65967 L 298.87334,594.65967 z "
+       id="path2154"
+       inkscape:export-filename="/home/thelusiv/games/vdrift/data/tex/slider2.png"
+       inkscape:export-xdpi="180.00000"
+       inkscape:export-ydpi="180.00000" />
+    <path
+       style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.2490196;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 298.87334,613.05335 L 298.87334,618.38940 L 301.21037,618.38940 L 301.21037,613.05335 L 300.04187,613.05335 L 298.87334,613.05335 z "
+       id="path2163"
+       inkscape:export-filename="/home/thelusiv/games/vdrift/data/tex/slider2.png"
+       inkscape:export-xdpi="180.00000"
+       inkscape:export-ydpi="180.00000" />
+    <path
+       style="color:#000000;fill:#f0f0f0;fill-opacity:1.0000000;fill-rule:nonzero;stroke:none;stroke-width:3.2632525;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4.0000000;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;visibility:visible;display:block"
+       d="M 250.08371,599.65044 C 248.18049,599.66687 246.45813,600.50746 245.16617,601.72208 C 243.87421,602.93670 242.96605,604.56532 242.96897,606.34666 C 242.96807,606.37456 242.96807,606.40247 242.96897,606.43036 C 243.17076,609.87992 246.01344,612.72061 250.00000,613.04288 C 250.01743,613.04359 250.03488,613.04394 250.05231,613.04394 C 250.06976,613.04394 250.08720,613.04359 250.10463,613.04288 L 300.04688,613.04288 L 349.97907,613.04288 C 353.78226,613.11586 356.88521,609.99640 357.09381,606.43036 C 357.09471,606.40247 357.09471,606.37456 357.09381,606.34666 C 357.09673,604.56873 356.20437,602.93778 354.91753,601.72208 C 353.63069,600.50639 351.90324,599.66686 350.00000,599.65044 C 349.99651,599.65041 349.99302,599.65040 349.98953,599.65040 C 349.98605,599.65040 349.98256,599.65041 349.97907,599.65044 L 300.04688,599.65044 L 250.10463,599.65044 C 250.10114,599.65041 250.09765,599.65040 250.09417,599.65040 C 250.09068,599.65040 250.08720,599.65041 250.08371,599.65044 z M 250.10463,600.94783 L 349.97907,600.94783 C 353.01861,600.97406 355.80077,603.69931 355.79641,606.34666 C 355.63166,609.16312 353.01860,611.80381 349.97907,611.74549 L 250.10463,611.74549 C 246.64233,611.46559 244.43112,609.16312 244.26637,606.34666 C 244.26201,603.69930 247.06509,600.97406 250.10463,600.94783 z "
+       id="path2043"
+       sodipodi:nodetypes="cssscscccssssscccscccccccc"
+       inkscape:export-filename="/home/thelusiv/games/vdrift/data/tex/slider2.png"
+       inkscape:export-xdpi="180.00000"
+       inkscape:export-ydpi="180.00000" />
+    <path
+       style="color:#000000;fill:url(#linearGradient2424);fill-opacity:1.0;fill-rule:nonzero;stroke:none;stroke-width:3.2632525;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4.0000000;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;visibility:visible;display:block"
+       d="M 250.00000,600.94780 C 246.96046,600.97403 244.15738,603.69927 244.16174,606.34663 C 244.32649,609.16309 246.53770,611.46556 250.00000,611.74545 L 350.00000,611.74545 C 353.03953,611.80378 355.65259,609.16308 355.81734,606.34663 C 355.82170,603.69928 353.03954,600.97402 350.00000,600.94780 L 250.00000,600.94780 z "
+       id="path2079"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="/home/thelusiv/games/vdrift/data/tex/slider2.png"
+       inkscape:export-xdpi="180.00000"
+       inkscape:export-ydpi="180.00000" />
+    <g
+       id="g2134"
+       transform="matrix(0.669622,0.000000,0.000000,0.669622,247.5072,135.3027)"
+       style="opacity:0.85000000"
+       inkscape:export-filename="/home/thelusiv/games/vdrift/data/tex/ball2.png"
+       inkscape:export-xdpi="180.00000"
+       inkscape:export-ydpi="180.00000">
+      <path
+         transform="matrix(0.854419,0.000000,0.000000,0.854419,-75.28894,196.9959)"
+         d="M 413.15239 594.76306 A 17.172594 17.172594 0 1 1  378.80720,594.76306 A 17.172594 17.172594 0 1 1  413.15239 594.76306 z"
+         sodipodi:ry="17.172594"
+         sodipodi:rx="17.172594"
+         sodipodi:cy="594.76306"
+         sodipodi:cx="395.97980"
+         id="path2090"
+         style="opacity:1.0000000;color:#000000;fill:#e00000;fill-opacity:1.0000000;fill-rule:nonzero;stroke:none;stroke-width:5.1999998;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;visibility:visible;display:block"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.854419,0.000000,0.000000,0.854419,-75.28894,196.9959)"
+         d="M 413.15239 594.76306 A 17.172594 17.172594 0 1 1  378.80720,594.76306 A 17.172594 17.172594 0 1 1  413.15239 594.76306 z"
+         sodipodi:ry="17.172594"
+         sodipodi:rx="17.172594"
+         sodipodi:cy="594.76306"
+         sodipodi:cx="395.97980"
+         id="path2110"
+         style="opacity:1.0000000;color:#000000;fill:url(#radialGradient2350);fill-opacity:1.0000000;fill-rule:nonzero;stroke:none;stroke-width:5.1999998;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;visibility:visible;display:block"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g2434"
+       transform="matrix(0.861068,0.000000,0.000000,0.861068,53.47292,84.20703)"
+       inkscape:export-filename="/home/thelusiv/games/vdrift/data/tex/accdec-slider.png"
+       inkscape:export-xdpi="180.00000"
+       inkscape:export-ydpi="180.00000">
+      <path
+         sodipodi:nodetypes="cssscscccssssscccscccccccc"
+         id="path2372"
+         d="M 381.59305,591.87452 C 381.58477,590.91615 381.16149,590.04885 380.54987,589.39827 C 379.93824,588.74769 379.11813,588.29040 378.22113,588.29186 C 378.20708,588.29141 378.19302,588.29141 378.17899,588.29186 C 376.44193,588.39348 375.01149,589.82493 374.84921,591.83238 C 374.84885,591.84115 374.84868,591.84994 374.84868,591.85872 C 374.84868,591.86751 374.84885,591.87629 374.84921,591.88506 L 374.84921,606.70137 L 374.84921,620.33587 C 374.81246,622.25099 376.38329,623.81349 378.17899,623.91853 C 378.19302,623.91898 378.20708,623.91898 378.22113,623.91853 C 379.11641,623.92001 379.93769,623.47066 380.54987,622.82266 C 381.16204,622.17466 381.58477,621.30479 381.59305,620.34641 C 381.59307,620.34465 381.59307,620.34290 381.59307,620.34113 C 381.59307,620.33938 381.59307,620.33763 381.59305,620.33587 L 381.59305,606.70137 L 381.59305,591.88506 C 381.59307,591.88331 381.59307,591.88155 381.59307,591.87980 C 381.59307,591.87804 381.59307,591.87629 381.59305,591.87452 z M 380.93974,591.88506 L 380.93974,620.33587 C 380.92654,621.86645 379.55422,623.26743 378.22113,623.26522 C 376.80289,623.18226 375.47314,621.86645 375.50252,620.33587 L 375.50252,591.88506 C 375.64346,590.14160 376.80289,589.02813 378.22113,588.94518 C 379.55422,588.94298 380.92654,590.35448 380.93974,591.88506 z "
+         style="color:#000000;fill:#f0f0f0;fill-opacity:1.0000000;fill-rule:nonzero;stroke:none;stroke-width:3.2632525;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4.0000000;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;visibility:visible;display:block" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         id="path2374"
+         d="M 380.93976,591.88507 C 380.92655,590.35449 379.55424,588.94298 378.22115,588.94517 C 376.80290,589.02813 375.64348,590.14160 375.50253,591.88507 L 375.50253,620.34641 C 375.47316,621.87698 376.80290,623.19280 378.22115,623.27577 C 379.55424,623.27797 380.92655,621.87699 380.93976,620.34641 L 380.93976,591.88507 z "
+         style="color:#000000;fill:url(#linearGradient2438);fill-opacity:1.0000000;fill-rule:nonzero;stroke:none;stroke-width:3.2632525;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4.0000000;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;visibility:visible;display:block" />
+    </g>
+    <g
+       id="g2428"
+       transform="matrix(0.861068,0.000000,0.000000,0.861068,53.55231,84.51348)"
+       inkscape:export-filename="/home/thelusiv/games/vdrift/data/tex/accdec-marker.png"
+       inkscape:export-xdpi="180.00000"
+       inkscape:export-ydpi="180.00000">
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path2368"
+         d="M 380.92138,604.21119 L 380.92138,605.74923 L 380.92138,607.28724 L 383.43979,607.28724 L 380.92138,604.21119 z "
+         style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.2490196;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path2370"
+         d="M 375.50443,604.21119 L 372.81744,607.28724 L 375.50443,607.28724 L 375.50443,605.74923 L 375.50443,604.21119 z "
+         style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.2490196;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000" />
+    </g>
+  </g>
+</svg>

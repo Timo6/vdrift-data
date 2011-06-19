@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="612.00000pt"
+   height="792.00000pt"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.42.2"
+   sodipodi:docbase="/home/thelusiv/pics/vdrift"
+   sodipodi:docname="win installer gfx.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4000000"
+     inkscape:cx="232.97932"
+     inkscape:cy="549.01254"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1280"
+     inkscape:window-height="1001"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       orientation="vertical"
+       position="479.82246"
+       id="guide6153" />
+    <sodipodi:guide
+       orientation="horizontal"
+       position="778.32254"
+       id="guide6155" />
+    <sodipodi:guide
+       orientation="vertical"
+       position="629.83011"
+       id="guide6157" />
+    <sodipodi:guide
+       orientation="horizontal"
+       position="721.24892"
+       id="guide6159" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1.0000000;fill:#ffffff;fill-opacity:1.0000000;stroke:none;stroke-width:1.0087500;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000"
+       id="rect6151"
+       width="150.00000"
+       height="57.000000"
+       x="479.82245"
+       y="211.75108"
+       inkscape:export-filename="/home/thelusiv/pics/vdrift/win-installer-license.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <image
+       id="image2038"
+       height="314.00000"
+       width="164.00000"
+       sodipodi:absref="/home/thelusiv/.vdrift/screenshots/bar.png"
+       xlink:href="/home/thelusiv/.vdrift/screenshots/bar.png"
+       x="106.44167"
+       y="289.58719"
+       inkscape:export-filename="/home/thelusiv/pics/vdrift/win-installer-install.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <path
+       id="text1080"
+       style="font-size:36.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Contour Generator"
+       d="M 146.01939,597.76821 L 124.34381,597.76821 L 110.55026,570.18112 L 125.39474,570.18112 L 130.25533,580.03366 L 134.19635,587.83818 L 134.19635,570.18112 L 146.01939,570.18112 L 264.25002,570.16768 L 264.25002,572.81407 L 146.01939,572.80063 L 146.01939,597.76821 M 172.92894,591.19556 C 172.92891,593.19170 172.33250,594.78618 171.13971,595.97900 C 169.94688,597.17182 168.35240,597.76821 166.35627,597.76821 L 148.28146,597.76821 L 148.28146,574.76391 L 166.35627,574.76391 C 168.35240,574.76393 169.94688,575.36034 171.13971,576.55313 C 172.33250,577.74598 172.92891,579.34044 172.92894,581.33656 L 172.92894,591.19556 M 162.08405,594.48189 L 162.08405,578.05023 L 158.79771,578.05023 L 158.79771,594.48189 L 162.08405,594.48189 M 204.48656,597.76821 L 192.10805,597.76821 L 188.05491,589.55240 L 188.05491,578.05023 L 184.76858,578.05023 L 184.76858,597.76821 L 174.90959,597.76821 L 174.90959,574.76391 L 192.98441,574.76391 C 195.61345,574.76393 197.81651,575.29948 199.59358,576.37056 C 201.71140,577.66077 202.77033,579.54735 202.77037,582.03035 C 202.77033,583.22318 202.52691,584.39165 202.04007,585.53577 C 201.48015,586.85031 200.73769,587.76318 199.81267,588.27438 L 204.48656,597.76821 M 216.54592,597.76821 L 206.68692,597.76821 L 206.68692,574.76391 L 216.54592,574.76391 L 216.54592,597.76821 M 242.27366,582.97974 L 232.41467,582.97974 L 232.41467,578.05023 L 229.12833,578.05023 L 229.12833,586.26606 L 238.98733,586.26606 L 238.98733,589.55240 L 229.12833,589.55240 L 229.12833,597.76821 L 219.26934,597.76821 L 219.26934,574.76391 L 242.27366,574.76391 L 242.27366,582.97974 M 264.31274,578.05023 L 259.38326,578.05023 L 259.38326,597.76821 L 249.52426,597.76821 L 249.52426,578.05023 L 244.59476,578.05023 L 244.59476,574.76391 L 264.31274,574.76391 L 264.31274,578.05023"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:export-filename="/home/thelusiv/pics/vdrift/win-installer-install.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <path
+       sodipodi:type="inkscape:offset"
+       inkscape:radius="4.0406103"
+       inkscape:original="M 92.625000 383.40625 C 86.641800 383.40625 81.812500 388.23556 81.812500 394.21875 L 81.812500 422.03125 C 81.812500 428.01445 86.641797 432.81251 92.625000 432.81250 L 127.59375 432.81250 C 133.57695 432.81250 138.40625 428.01445 138.40625 422.03125 L 138.40625 394.21875 C 138.40625 388.23555 133.57695 383.40625 127.59375 383.40625 L 92.625000 383.40625 z "
+       style="fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0087500;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000"
+       id="path6099"
+       d="M 92.625000,379.37500 C 84.467561,379.37500 77.781250,386.06132 77.781250,394.21875 L 77.781250,422.03125 C 77.781250,430.18868 84.481625,436.84376 92.625000,436.84375 L 127.59375,436.84375 C 135.73712,436.84375 142.43750,430.18868 142.43750,422.03125 L 142.43750,394.21875 C 142.43750,386.06132 135.75118,379.37500 127.59375,379.37500 L 92.625000,379.37500 z "
+       transform="translate(111.6701,-70.66141)"
+       inkscape:export-filename="/home/thelusiv/pics/vdrift/win-installer-install.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <rect
+       style="opacity:1.0000000;fill:#ffffff;fill-opacity:1.0000000;stroke:none;stroke-width:1.0087500;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000"
+       id="rect5345"
+       width="56.568546"
+       height="49.419685"
+       x="193.49243"
+       y="312.74203"
+       ry="10.800000"
+       rx="10.800000"
+       inkscape:export-filename="/home/thelusiv/pics/vdrift/win-installer-install.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <path
+       style="font-size:36.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Contour Generator"
+       d="M 245.01434,357.12742 L 214.38769,357.12742 L 194.89800,318.14806 L 215.87262,318.14806 L 222.74041,332.06927 L 228.30890,343.09672 L 228.30890,318.14806 L 245.01434,318.14806 L 245.01434,357.12742"
+       id="path6080"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/thelusiv/pics/vdrift/win-installer-install.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <image
+       id="image6146"
+       height="314.00000"
+       width="164.00000"
+       sodipodi:absref="/home/thelusiv/.vdrift/screenshots/bar2.png"
+       xlink:href="/home/thelusiv/.vdrift/screenshots/bar2.png"
+       x="284.22855"
+       y="289.58719"
+       inkscape:export-filename="/home/thelusiv/pics/vdrift/win-installer-uninstall.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <path
+       sodipodi:type="inkscape:offset"
+       inkscape:radius="4.0406103"
+       inkscape:original="M 92.625000 383.40625 C 86.641800 383.40625 81.812500 388.23556 81.812500 394.21875 L 81.812500 422.03125 C 81.812500 428.01445 86.641797 432.81251 92.625000 432.81250 L 127.59375 432.81250 C 133.57695 432.81250 138.40625 428.01445 138.40625 422.03125 L 138.40625 394.21875 C 138.40625 388.23555 133.57695 383.40625 127.59375 383.40625 L 92.625000 383.40625 z "
+       style="fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0087500;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000"
+       id="path6101"
+       d="M 92.625000,379.37500 C 84.467561,379.37500 77.781250,386.06132 77.781250,394.21875 L 77.781250,422.03125 C 77.781250,430.18868 84.481625,436.84376 92.625000,436.84375 L 127.59375,436.84375 C 135.73712,436.84375 142.43750,430.18868 142.43750,422.03125 L 142.43750,394.21875 C 142.43750,386.06132 135.75118,379.37500 127.59375,379.37500 L 92.625000,379.37500 z "
+       transform="translate(292.4873,-71.67161)"
+       inkscape:export-filename="/home/thelusiv/pics/vdrift/win-installer-uninstall.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <rect
+       style="opacity:1.0000000;fill:#ffffff;fill-opacity:1.0000000;stroke:none;stroke-width:1.0087500;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000"
+       id="rect6103"
+       width="56.568546"
+       height="49.419685"
+       x="374.30972"
+       y="311.73187"
+       ry="10.800000"
+       rx="10.800000"
+       inkscape:export-filename="/home/thelusiv/pics/vdrift/win-installer-uninstall.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <path
+       style="font-size:36.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Contour Generator"
+       d="M 425.83165,356.11727 L 395.20500,356.11727 L 375.71531,317.13791 L 396.68993,317.13791 L 403.55772,331.05912 L 409.12621,342.08657 L 409.12621,317.13791 L 425.83165,317.13791 L 425.83165,356.11727"
+       id="path6105"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/thelusiv/pics/vdrift/win-installer-uninstall.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <path
+       id="path6107"
+       style="font-size:36.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Contour Generator"
+       d="M 514.35951,252.85367 L 493.25352,252.85367 L 479.82246,225.99151 L 494.27686,225.99151 L 499.00970,235.58515 L 502.84717,243.18458 L 502.84717,225.99151 L 514.35951,225.99151 L 629.48325,225.97842 L 629.48325,228.55527 L 514.35951,228.54219 L 514.35951,252.85367 M 540.56192,246.45373 C 540.56189,248.39742 539.98116,249.94999 538.81971,251.11147 C 537.65823,252.27294 536.10566,252.85367 534.16199,252.85367 L 516.56214,252.85367 L 516.56214,230.45388 L 534.16199,230.45388 C 536.10566,230.45389 537.65823,231.03464 538.81971,232.19607 C 539.98116,233.35758 540.56189,234.91014 540.56192,236.85381 L 540.56192,246.45373 M 530.00203,249.65371 L 530.00203,233.65384 L 526.80205,233.65384 L 526.80205,249.65371 L 530.00203,249.65371 M 571.29027,252.85367 L 559.23704,252.85367 L 555.29042,244.85375 L 555.29042,233.65384 L 552.09044,233.65384 L 552.09044,252.85367 L 542.49053,252.85367 L 542.49053,230.45388 L 560.09037,230.45388 C 562.65034,230.45389 564.79550,230.97538 566.52587,232.01831 C 568.58804,233.27461 569.61915,235.11162 569.61919,237.52936 C 569.61915,238.69085 569.38212,239.82862 568.90808,240.94267 C 568.36287,242.22267 567.63991,243.11155 566.73920,243.60931 L 571.29027,252.85367 M 583.03274,252.85367 L 573.43282,252.85367 L 573.43282,230.45388 L 583.03274,230.45388 L 583.03274,252.85367 M 608.08440,238.45380 L 598.48449,238.45380 L 598.48449,233.65384 L 595.28450,233.65384 L 595.28450,241.65377 L 604.88443,241.65377 L 604.88443,244.85375 L 595.28450,244.85375 L 595.28450,252.85367 L 585.68459,252.85367 L 585.68459,230.45388 L 608.08440,230.45388 L 608.08440,238.45380 M 629.54433,233.65384 L 624.74439,233.65384 L 624.74439,252.85367 L 615.14447,252.85367 L 615.14447,233.65384 L 610.34450,233.65384 L 610.34450,230.45388 L 629.54433,230.45388 L 629.54433,233.65384"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:export-filename="/home/thelusiv/pics/vdrift/win-installer-license.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <path
+       id="path6149"
+       style="font-size:36.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Contour Generator"
+       d="M 323.80624,596.75806 L 302.13066,596.75806 L 288.33711,569.17097 L 303.18160,569.17097 L 308.04218,579.02351 L 311.98320,586.82803 L 311.98320,569.17097 L 323.80624,569.17097 L 442.03687,569.15753 L 442.03687,571.80392 L 323.80624,571.79048 L 323.80624,596.75806 M 350.71579,590.18541 C 350.71576,592.18155 350.11934,593.77603 348.92656,594.96885 C 347.73373,596.16167 346.13925,596.75806 344.14312,596.75806 L 326.06831,596.75806 L 326.06831,573.75376 L 344.14312,573.75376 C 346.13925,573.75378 347.73373,574.35019 348.92656,575.54298 C 350.11934,576.73583 350.71576,578.33029 350.71579,580.32641 L 350.71579,590.18541 M 339.87090,593.47174 L 339.87090,577.04008 L 336.58457,577.04008 L 336.58457,593.47174 L 339.87090,593.47174 M 382.27341,596.75806 L 369.89490,596.75806 L 365.84176,588.54225 L 365.84176,577.04008 L 362.55543,577.04008 L 362.55543,596.75806 L 352.69644,596.75806 L 352.69644,573.75376 L 370.77125,573.75376 C 373.40030,573.75378 375.60336,574.28933 377.38043,575.36041 C 379.49825,576.65062 380.55718,578.53720 380.55722,581.02020 C 380.55718,582.21303 380.31376,583.38150 379.82692,584.52562 C 379.26700,585.84016 378.52454,586.75303 377.59952,587.26423 L 382.27341,596.75806 M 394.33277,596.75806 L 384.47377,596.75806 L 384.47377,573.75376 L 394.33277,573.75376 L 394.33277,596.75806 M 420.06051,581.96959 L 410.20152,581.96959 L 410.20152,577.04008 L 406.91518,577.04008 L 406.91518,585.25591 L 416.77418,585.25591 L 416.77418,588.54225 L 406.91518,588.54225 L 406.91518,596.75806 L 397.05619,596.75806 L 397.05619,573.75376 L 420.06051,573.75376 L 420.06051,581.96959 M 442.09959,577.04008 L 437.17011,577.04008 L 437.17011,596.75806 L 427.31111,596.75806 L 427.31111,577.04008 L 422.38161,577.04008 L 422.38161,573.75376 L 442.09959,573.75376 L 442.09959,577.04008"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:export-filename="/home/thelusiv/pics/vdrift/win-installer-uninstall.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <path
+       id="path1327"
+       style="fill:#0000b9;fill-opacity:0.67796612;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       d="M 132.43872,346.34192 L 132.43872,330.07922 L 165.29586,330.07922 L 165.29586,315.79351 L 188.15301,338.21057 L 165.29586,360.62763 L 165.29586,346.34192 L 132.43872,346.34192 z "
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="/home/thelusiv/pics/vdrift/win-installer-install.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <path
+       style="opacity:1.0000000;fill:#ff0000;fill-opacity:0.69491524;fill-rule:evenodd;stroke:none;stroke-width:7.7440000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 375.50000 304.43750 L 370.03125 309.90625 L 397.12500 337.00000 L 370.03125 364.09375 L 375.50000 369.56250 L 402.59375 342.46875 L 429.68750 369.56250 L 435.15625 364.09375 L 408.06250 337.00000 L 435.15625 309.90625 L 429.68750 304.43750 L 402.59375 331.53125 L 375.50000 304.43750 z "
+       id="path3359"
+       inkscape:export-filename="/home/thelusiv/pics/vdrift/win-installer-uninstall.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+  </g>
+</svg>
