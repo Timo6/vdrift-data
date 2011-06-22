@@ -290,14 +290,14 @@ elastic-limit = 3000
 [steering]
 texture = steering_wheel.png
 mesh = steering_wheel.joe
-position = 0.00, 0.55, -0.26
+position = 0.00, 0.55, -0.15
 rotation = 87.5, 0.0, 0.0
 max-angle = 60
 
 [driver]
 texture = driver2.png, driver-misc1.png
 mesh = driver.joe
-position = 0.00, 0.18, -0.30
+position = 0.00, 0.20, -0.17
 mass = 80.0
 
 [body]
