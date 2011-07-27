@@ -6,7 +6,7 @@ dialog = true
 [ widget-00 ]
 type = label
 name = ConnectionErrorMessage
-text = There was an error connecting to the VDrift data server.
+text = You must update to the latest VDrift release
 color = 0.8, 0.3, 0.3
 center = 0.5, 0.45
 width = auto

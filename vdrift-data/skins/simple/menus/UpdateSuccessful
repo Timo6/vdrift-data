@@ -1,13 +1,10 @@
-name = DataConnectionError
-widgets = 3
+name = UpdateSuccessful
 background = box.png
 dialog = true
 
 [ widget-00 ]
 type = label
-name = ConnectionErrorMessage
-text = There was an error connecting to the VDrift data server.
-color = 0.8, 0.3, 0.3
+text = Update Successful
 center = 0.5, 0.45
 width = auto
 height = auto
@@ -21,8 +18,8 @@ cancel = 0
 type = button
 name = BackButton
 text = Back
-tip = Go back to the main menu.
-action = Main
+tip = Go back to the Cars and Tracks page.
+action = CarsTracks
 center = 0.5, 0.55
 color = 0.8, 0.0, 0.0
 width = auto
