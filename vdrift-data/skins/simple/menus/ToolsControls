@@ -95,3 +95,19 @@ enabled = 1
 selected = 0
 default = 0
 cancel = 1
+
+[ widget-05 ]
+type = controlgrab
+name = ReloadGUIControl
+text = Reload GUI
+tip = Reload the graphical user interface.
+setting = reload_gui
+center = 0.5, 0.38
+spacing = 0.2
+width = auto
+height = auto
+fontsize = 0.03
+enabled = 1
+selected = 0
+default = 0
+cancel = 0

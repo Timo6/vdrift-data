@@ -94,6 +94,22 @@ selected = 0
 default = 0
 cancel = 0
 
+[ cars-tracks ]
+type = button
+name = CarsTracksButton
+text = Cars and Tracks
+tip = Keep your cars and tracks up to date
+action = CarsTracks
+center = 0.5, 0.66
+color = 0.0, 0.0, 0.8
+width = auto
+height = 0.05
+fontsize = 0.04
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
 [ widget-06 ]
 type = button
 name = QuitButton
