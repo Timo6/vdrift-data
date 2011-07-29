@@ -153,7 +153,7 @@ travel = 0.07				## Federweg
 anti-roll = 5000			## Stabilisator
 
 [wheel.fr.coilover]
-spring-constant = 180000
+spring-constant = 150000
 spring-factor-0 = 0.02, 1.0
 spring-factor-1 = 0.03, 2.0
 spring-factor-2 = 0.04, 3.0 
@@ -179,7 +179,7 @@ travel = 0.09				## Federweg
 anti-roll = 0			## Stabilisator
 
 [wheel.rr.coilover]
-spring-constant = 250000
+spring-constant = 200000
 spring-factor-0 = 0.02, 1.0
 spring-factor-1 = 0.03, 2.0
 spring-factor-2 = 0.04, 3.0 
