@@ -5,12 +5,10 @@
 # FIA-Regulations: Front wheels must be between 305 and 355mm wide, the rears between 365 and 380mm.
 # With tyres fitted the wheels must be no more than 660mm in diameter (670mm with wet-weather tyres).
 # "Cars must weight at least 605kg (including the driver) at all times"
-#
-# total weight	673,00 at start ?
-# wheelbase:	3,13
-# weight distribution	(front/rear))		44% / 56% ?
-# centre of mass -0,22 ?
-# centre of downforce -0,20 ?
+# minimum weight: 640kg	http://www.formula1.com/inside_f1/rules_and_regulations/sporting_regulations/8688/
+# total weight: 673,00 at start ?
+# wheelbase: 3,13
+# weight distribution: 44/56
 #
 # width, length, height :: X(+left), Y(+front), Z(+up)
 
@@ -349,13 +347,9 @@ center = 0.0, -0.2, -0.3
 size = 1.25, 1.5, 0.4
 
 # these are used to calculate the weight distribution and balance
-[particle.00]		# Front-Wing/Nose
-mass = 31.0
-position = 0.00, 2.00, -0.30
-
-[particle.01]		# Chassis
-mass = 90.0
-position = 0.00, 0.50, -0.30
+#[particle.01]		# Chassis -> body.mass
+#mass = 90.0
+#position = 0.00, 0.50, -0.30
 
 [particle.02]	# Cooler left
 mass = 35.0
@@ -388,7 +382,3 @@ position = 0.00, 1.60, -0.55
 [particle.09]	# gearbox
 mass = 20.0
 position = 0.00, -1.40, -0.35
-
-#[particle.10]	# rear-wing
-#mass = 20.0
-#position = 0.00, -1.70, -0.10
