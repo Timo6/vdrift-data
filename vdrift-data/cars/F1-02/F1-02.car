@@ -104,7 +104,7 @@ drag-coefficient = 0.69
 [wing.front]
 frontal-area = 0.20
 drag-coefficient = 0.5
-surface-area = 1.00			# including body downforce; 0.7
+surface-area = 1.25			# tire load front/rear 44/56
 lift-coefficient = -2
 efficiency = 0.99
 texture = body00.png, body-misc1.png
@@ -123,7 +123,7 @@ elastic-limit = 1000
 [wing.rear]
 frontal-area = 0.3
 drag-coefficient = 0.6
-surface-area = 2.00			# including body downforce; 0.5
+surface-area = 1.75			# tire load front/rear 44/56
 lift-coefficient = -2
 efficiency = 0.99
 texture = body00.png, body-misc1.png
