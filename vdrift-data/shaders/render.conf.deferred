@@ -487,6 +487,7 @@ blendmode = alphatest
 draw = normal_blend
 output = full_scene_color full_scene_depth
 shader = simple_gamma_premult
+write_depth = false
 blendmode = alphablend_premultiplied
 
 [pass]
