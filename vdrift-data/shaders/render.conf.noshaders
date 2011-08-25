@@ -46,6 +46,7 @@ blendmode = add
 [pass]
 draw = normal_blend
 output = framebuffer
+write_depth = false
 blendmode = alphablend
 
 

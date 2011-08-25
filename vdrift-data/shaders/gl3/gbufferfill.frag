@@ -92,6 +92,18 @@ void main()
 	vec4 materialPropertyMap = texture(materialPropertiesSampler, uv.xy);
 	
 	vec3 eyeSpaceNormal = normalize(normal);
+	
+	#ifdef NORMALMAPS
+	// TODO
+	vec4 miscmap2 = texture2D(tu2_2D, tu0coord);
+	if (length(miscmap2.xyz) > 0.25)
+	{
+		vec3 bumpnormal = miscmap2.xyz*2.0-1.0;
+		mat3 tangentBasis = GetTangentBasis(normal, normalize(-V), tu0coord);
+		normal = tangentBasis*bumpnormal;
+	}
+	#endif
+	
 	vec2 normalToPack = vec2(atan(eyeSpaceNormal.y,eyeSpaceNormal.x)/3.14159265358979323846, eyeSpaceNormal.z)*0.5+vec2(0.5,0.5);
 	vec2 normalX = packFloatToVec2i(normalToPack.x);
 	vec2 normalY = packFloatToVec2i(normalToPack.y);
