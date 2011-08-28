@@ -180,6 +180,8 @@ void main(void)
 		
 		if (carpaintMask > 0.5)
 			ambientDiffuse *= alpha_h+0.5;
+		else
+			reflectedLight *= 0;
 		
 		//final = ambientDiffuse + reflectedLight;//(0.25+cos_clamped(V,normal)*0.25);
 		//final = texture(reflectionCubeSampler, (invViewMatrix*vec4(normal,0.0)).xzy).rgb;
