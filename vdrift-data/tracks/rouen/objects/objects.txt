@@ -1827,7 +1827,7 @@ surface = 1
 
 [object.346.body]
 model = grass21.dof-03.joe
-texture = roadlane.bmp.png
+texture = roadlane.bmp.png, roadlane.bmp-misc1.png, roadlane.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -3057,7 +3057,7 @@ surface = 1
 
 [object.551.body]
 model = road01.dof-00.joe
-texture = road1a.bmp.png
+texture = road1a.bmp.png, road1a.bmp-misc1.png, road1a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -3069,7 +3069,7 @@ surface = 1
 
 [object.553.body]
 model = road01.dof-02.joe
-texture = roadlane.bmp.png
+texture = roadlane.bmp.png, roadlane.bmp-misc1.png, roadlane.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -3087,13 +3087,13 @@ surface = 1
 
 [object.556.body]
 model = road02.dof-00.joe
-texture = road1a.bmp.png
+texture = road1a.bmp.png, road1a.bmp-misc1.png, road1a.bmp-misc2.png
 mass = 0
 surface = 1
 
 [object.557.body]
 model = road03.dof-00.joe
-texture = road1a.bmp.png
+texture = road1a.bmp.png, road1a.bmp-misc1.png, road1a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -3111,7 +3111,7 @@ surface = 1
 
 [object.560.body]
 model = road04.dof-01.joe
-texture = roadlane.bmp.png
+texture = roadlane.bmp.png, roadlane.bmp-misc1.png, roadlane.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -3129,7 +3129,7 @@ surface = 1
 
 [object.563.body]
 model = road05.dof-01.joe
-texture = road1a.bmp.png
+texture = road1a.bmp.png, road1a.bmp-misc1.png, road1a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -3153,7 +3153,7 @@ surface = 1
 
 [object.567.body]
 model = road06.dof-00.joe
-texture = road1a.bmp.png
+texture = road1a.bmp.png, road1a.bmp-misc1.png, road1a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -3171,19 +3171,19 @@ surface = 1
 
 [object.570.body]
 model = road07.dof-01.joe
-texture = road1a.bmp.png
+texture = road1a.bmp.png, road1a.bmp-misc1.png, road1a.bmp-misc2.png
 mass = 0
 surface = 1
 
 [object.571.body]
 model = road08.dof-00.joe
-texture = road1a.bmp.png
+texture = road1a.bmp.png, road1a.bmp-misc1.png, road1a.bmp-misc2.png
 mass = 0
 surface = 1
 
 [object.572.body]
 model = road09.dof-00.joe
-texture = road1a.bmp.png
+texture = road1a.bmp.png, road1a.bmp-misc1.png, road1a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -3201,7 +3201,7 @@ surface = 1
 
 [object.575.body]
 model = road10.dof-01.joe
-texture = roadlane.bmp.png
+texture = roadlane.bmp.png, roadlane.bmp-misc1.png, roadlane.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -3231,13 +3231,13 @@ surface = 1
 
 [object.580.body]
 model = road12.dof-03.joe
-texture = road1a.bmp.png
+texture = road1a.bmp.png, road1a.bmp-misc1.png, road1a.bmp-misc2.png
 mass = 0
 surface = 1
 
 [object.581.body]
 model = road12.dof-04.joe
-texture = roadlane.bmp.png
+texture = roadlane.bmp.png, roadlane.bmp-misc1.png, roadlane.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -3273,7 +3273,7 @@ surface = 1
 
 [object.587.body]
 model = roadpit.dof-00.joe
-texture = roadlane.bmp.png
+texture = roadlane.bmp.png, roadlane.bmp-misc1.png, roadlane.bmp-misc2.png
 mass = 0
 surface = 1
 

@@ -2,6 +2,9 @@
 
 uniform sampler2D diffuseSampler;
 uniform sampler2D materialPropertiesSampler;
+#ifdef NORMALMAPS
+uniform sampler2D normalMapSampler;
+#endif
 uniform vec4 colorTint;
 uniform float depthOffset;
 
@@ -12,6 +15,7 @@ in vec3 bitangent;
 #endif
 
 in vec3 uv;
+in vec3 eyespacePosition;
 
 #define USE_OUTPUTS
 
@@ -76,6 +80,45 @@ mat3 GetTangentBasis(vec3 normal, vec3 viewdir, vec2 tucoord)
 	return mat3(T, B, normal);
 }
 
+mat3 GetTangentBasis2(vec3 normal, vec3 viewdir, vec2 tucoord)
+{
+	// get edge vectors of the pixel triangle
+	vec3 dp1  = dFdx(viewdir);
+	vec3 dp2  = dFdy(viewdir);
+	vec2 duv1 = dFdx(tucoord);
+	vec2 duv2 = dFdy(tucoord);
+	
+	vec3 v1 = vec3(0,0,0);
+	vec3 v2 = dp1;
+	vec3 v3 = dp2;
+
+	vec2 w1 = vec2(0,0);
+	vec2 w2 = duv1;
+	vec2 w3 = duv2;
+
+	float x1 = v2.x - v1.x;
+	float x2 = v3.x - v1.x;
+	float y1 = v2.y - v1.y;
+	float y2 = v3.y - v1.y;
+	float z1 = v2.z - v1.z;
+	float z2 = v3.z - v1.z;
+
+	float s1 = w2.x - w1.x;
+	float s2 = w3.x - w1.x;
+	float t1 = w2.y - w1.y;
+	float t2 = w3.y - w1.y;
+
+	float r = 1.0F / (s1 * t2 - s2 * t1);
+	vec3 T = vec3((t2 * x1 - t1 * x2) * r,
+				  (t2 * y1 - t1 * y2) * r,
+				  (t2 * z1 - t1 * z2) * r);
+	vec3 B = vec3((s1 * x2 - s2 * x1) * r, 
+				  (s1 * y2 - s2 * y1) * r,
+				  (s1 * z2 - s2 * z1) * r);
+	
+	return mat3(normalize(T), normalize(B), normal);
+}
+
 void main()
 {
 	vec4 albedo = texture(diffuseSampler, uv.xy);
@@ -94,25 +137,36 @@ void main()
 	vec3 eyeSpaceNormal = normalize(normal);
 	
 	#ifdef NORMALMAPS
-	// TODO
-	vec4 miscmap2 = texture2D(tu2_2D, tu0coord);
-	if (length(miscmap2.xyz) > 0.25)
+	vec4 normalMap = texture(normalMapSampler, uv.xy);
+	//vec4 normalMap = textureLod(normalMapSampler, uv.xy, 0);
+	
+	//albedo.xyz = eyeSpaceNormal.xyz;
+	
+	if (length(normalMap.xyz) > 0.25)
 	{
-		vec3 bumpnormal = miscmap2.xyz*2.0-1.0;
-		mat3 tangentBasis = GetTangentBasis(normal, normalize(-V), tu0coord);
-		normal = tangentBasis*bumpnormal;
+		vec3 bumpNormal = normalMap.xyz*2.0-vec3(1,1,1);
+		//bumpNormal.xy *= 0.1;
+		bumpNormal = normalize(bumpNormal);
+		//mat3 tangentBasis = GetTangentBasis(normal, normalize(-eyespacePosition), uv.xy);
+		mat3 tangentBasis = GetTangentBasis2(normal, eyespacePosition, uv.xy);
+		//eyeSpaceNormal = bumpNormal.x*tangentBasis[0] + bumpNormal.y*tangentBasis[1] + bumpNormal.z*tangentBasis[2]; 
+		eyeSpaceNormal = tangentBasis*bumpNormal;
+		
+		//albedo.xyz = abs(cross(tangentBasis[0],tangentBasis[1]));
+		//albedo.xyz = eyeSpaceNormal.xyz;
+		//albedo.xyz = vec3(abs(bumpNormal));
 	}
-	#endif
+	//eyeSpaceNormal = vec3(0,0,-1);
+	#endif // NORMALMAPS
 	
 	vec2 normalToPack = vec2(atan(eyeSpaceNormal.y,eyeSpaceNormal.x)/3.14159265358979323846, eyeSpaceNormal.z)*0.5+vec2(0.5,0.5);
 	vec2 normalX = packFloatToVec2i(normalToPack.x);
 	vec2 normalY = packFloatToVec2i(normalToPack.y);
 	
-	// compatibility with old miscmap1 packing of gloss on R channel, metallic on G channel
 	float m = materialPropertyMap.a;
 	vec3 Rf0 = materialPropertyMap.rgb;
 	//m = 1.0;
-	//Rf0 = vec3(1,0,0);
+	//Rf0 = vec3(1,1,1);
 	
 	#ifdef CARPAINT
 	carpaintMask = 1-albedo.a;
