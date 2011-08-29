@@ -1335,19 +1335,19 @@ surface = 1
 
 [object.264.body]
 model = grass01.dof-00.joe
-texture = fldgrass.bmp.png
+texture = fldgrass.bmp.png, fldgrass.bmp-misc1.png, fldgrass.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.265.body]
 model = grass01.dof-01.joe
-texture = grass2a.bmp.png
+texture = grass2a.bmp.png, grass2a.bmp-misc1.png, grass2a.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.266.body]
 model = grass01.dof-02.joe
-texture = rmbl3a.bmp.png
+texture = rmbl3a.bmp.png, rmbl3a.bmp-misc1.png, rmbl3a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -1359,19 +1359,19 @@ surface = 1
 
 [object.268.body]
 model = grass02.dof-00.joe
-texture = fldgrass.bmp.png
+texture = fldgrass.bmp.png, fldgrass.bmp-misc1.png, fldgrass.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.269.body]
 model = grass02.dof-01.joe
-texture = grass2a.bmp.png
+texture = grass2a.bmp.png, grass2a.bmp-misc1.png, grass2a.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.270.body]
 model = grass02.dof-02.joe
-texture = rmbl3a.bmp.png
+texture = rmbl3a.bmp.png, rmbl3a.bmp-misc1.png, rmbl3a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -1383,19 +1383,19 @@ surface = 1
 
 [object.272.body]
 model = grass03.dof-00.joe
-texture = fldgrass.bmp.png
+texture = fldgrass.bmp.png, fldgrass.bmp-misc1.png, fldgrass.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.273.body]
 model = grass03.dof-01.joe
-texture = grass2a.bmp.png
+texture = grass2a.bmp.png, grass2a.bmp-misc1.png, grass2a.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.274.body]
 model = grass03.dof-02.joe
-texture = rmbl3a.bmp.png
+texture = rmbl3a.bmp.png, rmbl3a.bmp-misc1.png, rmbl3a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -1407,19 +1407,19 @@ surface = 1
 
 [object.276.body]
 model = grass04.dof-00.joe
-texture = fldgrass.bmp.png
+texture = fldgrass.bmp.png, fldgrass.bmp-misc1.png, fldgrass.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.277.body]
 model = grass04.dof-01.joe
-texture = grass2a.bmp.png
+texture = grass2a.bmp.png, grass2a.bmp-misc1.png, grass2a.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.278.body]
 model = grass04.dof-02.joe
-texture = rmbl3a.bmp.png
+texture = rmbl3a.bmp.png, rmbl3a.bmp-misc1.png, rmbl3a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -1431,19 +1431,19 @@ surface = 1
 
 [object.280.body]
 model = grass05.dof-00.joe
-texture = fldgrass.bmp.png
+texture = fldgrass.bmp.png, fldgrass.bmp-misc1.png, fldgrass.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.281.body]
 model = grass05.dof-01.joe
-texture = grass2a.bmp.png
+texture = grass2a.bmp.png, grass2a.bmp-misc1.png, grass2a.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.282.body]
 model = grass05.dof-02.joe
-texture = rmbl3a.bmp.png
+texture = rmbl3a.bmp.png, rmbl3a.bmp-misc1.png, rmbl3a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -1455,19 +1455,19 @@ surface = 1
 
 [object.284.body]
 model = grass06.dof-00.joe
-texture = fldgrass.bmp.png
+texture = fldgrass.bmp.png, fldgrass.bmp-misc1.png, fldgrass.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.285.body]
 model = grass06.dof-01.joe
-texture = grass2a.bmp.png
+texture = grass2a.bmp.png, grass2a.bmp-misc1.png, grass2a.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.286.body]
 model = grass06.dof-02.joe
-texture = rmbl3a.bmp.png
+texture = rmbl3a.bmp.png, rmbl3a.bmp-misc1.png, rmbl3a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -1479,19 +1479,19 @@ surface = 1
 
 [object.288.body]
 model = grass07.dof-00.joe
-texture = fldgrass.bmp.png
+texture = fldgrass.bmp.png, fldgrass.bmp-misc1.png, fldgrass.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.289.body]
 model = grass07.dof-01.joe
-texture = grass2a.bmp.png
+texture = grass2a.bmp.png, grass2a.bmp-misc1.png, grass2a.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.290.body]
 model = grass07.dof-02.joe
-texture = rmbl3a.bmp.png
+texture = rmbl3a.bmp.png, rmbl3a.bmp-misc1.png, rmbl3a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -1503,19 +1503,19 @@ surface = 1
 
 [object.292.body]
 model = grass08.dof-00.joe
-texture = fldgrass.bmp.png
+texture = fldgrass.bmp.png, fldgrass.bmp-misc1.png, fldgrass.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.293.body]
 model = grass08.dof-01.joe
-texture = grass2a.bmp.png
+texture = grass2a.bmp.png, grass2a.bmp-misc1.png, grass2a.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.294.body]
 model = grass08.dof-02.joe
-texture = rmbl3a.bmp.png
+texture = rmbl3a.bmp.png, rmbl3a.bmp-misc1.png, rmbl3a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -1527,19 +1527,19 @@ surface = 1
 
 [object.296.body]
 model = grass09.dof-00.joe
-texture = fldgrass.bmp.png
+texture = fldgrass.bmp.png, fldgrass.bmp-misc1.png, fldgrass.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.297.body]
 model = grass09.dof-01.joe
-texture = grass2a.bmp.png
+texture = grass2a.bmp.png, grass2a.bmp-misc1.png, grass2a.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.298.body]
 model = grass09.dof-02.joe
-texture = rmbl3a.bmp.png
+texture = rmbl3a.bmp.png, rmbl3a.bmp-misc1.png, rmbl3a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -1551,19 +1551,19 @@ surface = 1
 
 [object.300.body]
 model = grass10.dof-00.joe
-texture = fldgrass.bmp.png
+texture = fldgrass.bmp.png, fldgrass.bmp-misc1.png, fldgrass.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.301.body]
 model = grass10.dof-01.joe
-texture = grass2a.bmp.png
+texture = grass2a.bmp.png, grass2a.bmp-misc1.png, grass2a.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.302.body]
 model = grass10.dof-02.joe
-texture = rmbl3a.bmp.png
+texture = rmbl3a.bmp.png, rmbl3a.bmp-misc1.png, rmbl3a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -1575,19 +1575,19 @@ surface = 1
 
 [object.304.body]
 model = grass11.dof-00.joe
-texture = fldgrass.bmp.png
+texture = fldgrass.bmp.png, fldgrass.bmp-misc1.png, fldgrass.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.305.body]
 model = grass11.dof-01.joe
-texture = grass2a.bmp.png
+texture = grass2a.bmp.png, grass2a.bmp-misc1.png, grass2a.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.306.body]
 model = grass11.dof-02.joe
-texture = rmbl3a.bmp.png
+texture = rmbl3a.bmp.png, rmbl3a.bmp-misc1.png, rmbl3a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -1599,19 +1599,19 @@ surface = 1
 
 [object.308.body]
 model = grass12.dof-00.joe
-texture = fldgrass.bmp.png
+texture = fldgrass.bmp.png, fldgrass.bmp-misc1.png, fldgrass.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.309.body]
 model = grass12.dof-01.joe
-texture = grass2a.bmp.png
+texture = grass2a.bmp.png, grass2a.bmp-misc1.png, grass2a.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.310.body]
 model = grass12.dof-02.joe
-texture = rmbl3a.bmp.png
+texture = rmbl3a.bmp.png, rmbl3a.bmp-misc1.png, rmbl3a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -1623,19 +1623,19 @@ surface = 1
 
 [object.312.body]
 model = grass13.dof-00.joe
-texture = fldgrass.bmp.png
+texture = fldgrass.bmp.png, fldgrass.bmp-misc1.png, fldgrass.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.313.body]
 model = grass13.dof-01.joe
-texture = grass2a.bmp.png
+texture = grass2a.bmp.png, grass2a.bmp-misc1.png, grass2a.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.314.body]
 model = grass13.dof-02.joe
-texture = rmbl3a.bmp.png
+texture = rmbl3a.bmp.png, rmbl3a.bmp-misc1.png, rmbl3a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -1647,19 +1647,19 @@ surface = 1
 
 [object.316.body]
 model = grass14.dof-00.joe
-texture = fldgrass.bmp.png
+texture = fldgrass.bmp.png, fldgrass.bmp-misc1.png, fldgrass.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.317.body]
 model = grass14.dof-01.joe
-texture = grass2a.bmp.png
+texture = grass2a.bmp.png, grass2a.bmp-misc1.png, grass2a.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.318.body]
 model = grass14.dof-02.joe
-texture = rmbl3a.bmp.png
+texture = rmbl3a.bmp.png, rmbl3a.bmp-misc1.png, rmbl3a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -1671,19 +1671,19 @@ surface = 1
 
 [object.320.body]
 model = grass15.dof-00.joe
-texture = fldgrass.bmp.png
+texture = fldgrass.bmp.png, fldgrass.bmp-misc1.png, fldgrass.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.321.body]
 model = grass15.dof-01.joe
-texture = grass2a.bmp.png
+texture = grass2a.bmp.png, grass2a.bmp-misc1.png, grass2a.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.322.body]
 model = grass15.dof-02.joe
-texture = rmbl3a.bmp.png
+texture = rmbl3a.bmp.png, rmbl3a.bmp-misc1.png, rmbl3a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -1695,19 +1695,19 @@ surface = 1
 
 [object.324.body]
 model = grass16.dof-00.joe
-texture = fldgrass.bmp.png
+texture = fldgrass.bmp.png, fldgrass.bmp-misc1.png, fldgrass.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.325.body]
 model = grass16.dof-01.joe
-texture = grass2a.bmp.png
+texture = grass2a.bmp.png, grass2a.bmp-misc1.png, grass2a.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.326.body]
 model = grass16.dof-02.joe
-texture = rmbl3a.bmp.png
+texture = rmbl3a.bmp.png, rmbl3a.bmp-misc1.png, rmbl3a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -1719,19 +1719,19 @@ surface = 1
 
 [object.328.body]
 model = grass17.dof-00.joe
-texture = fldgrass.bmp.png
+texture = fldgrass.bmp.png, fldgrass.bmp-misc1.png, fldgrass.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.329.body]
 model = grass17.dof-01.joe
-texture = grass2a.bmp.png
+texture = grass2a.bmp.png, grass2a.bmp-misc1.png, grass2a.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.330.body]
 model = grass17.dof-02.joe
-texture = rmbl3a.bmp.png
+texture = rmbl3a.bmp.png, rmbl3a.bmp-misc1.png, rmbl3a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -1743,37 +1743,37 @@ surface = 1
 
 [object.332.body]
 model = grass18.dof-00.joe
-texture = fldgrass.bmp.png
+texture = fldgrass.bmp.png, fldgrass.bmp-misc1.png, fldgrass.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.333.body]
 model = grass18.dof-01.joe
-texture = grass2a.bmp.png
+texture = grass2a.bmp.png, grass2a.bmp-misc1.png, grass2a.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.334.body]
 model = grass18.dof-02.joe
-texture = rmbl3a.bmp.png
+texture = rmbl3a.bmp.png, rmbl3a.bmp-misc1.png, rmbl3a.bmp-misc2.png
 mass = 0
 surface = 1
 
 [object.335.body]
 model = grass19.dof-00.joe
-texture = fldgrass.bmp.png
+texture = fldgrass.bmp.png, fldgrass.bmp-misc1.png, fldgrass.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.336.body]
 model = grass19.dof-01.joe
-texture = grass2a.bmp.png
+texture = grass2a.bmp.png, grass2a.bmp-misc1.png, grass2a.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.337.body]
 model = grass19.dof-02.joe
-texture = rmbl3a.bmp.png
+texture = rmbl3a.bmp.png, rmbl3a.bmp-misc1.png, rmbl3a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -1785,19 +1785,19 @@ surface = 1
 
 [object.339.body]
 model = grass20.dof-00.joe
-texture = fldgrass.bmp.png
+texture = fldgrass.bmp.png, fldgrass.bmp-misc1.png, fldgrass.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.340.body]
 model = grass20.dof-01.joe
-texture = grass2a.bmp.png
+texture = grass2a.bmp.png, grass2a.bmp-misc1.png, grass2a.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.341.body]
 model = grass20.dof-02.joe
-texture = rmbl3a.bmp.png
+texture = rmbl3a.bmp.png, rmbl3a.bmp-misc1.png, rmbl3a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -1809,19 +1809,19 @@ surface = 1
 
 [object.343.body]
 model = grass21.dof-00.joe
-texture = fldgrass.bmp.png
+texture = fldgrass.bmp.png, fldgrass.bmp-misc1.png, fldgrass.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.344.body]
 model = grass21.dof-01.joe
-texture = grass2a.bmp.png
+texture = grass2a.bmp.png, grass2a.bmp-misc1.png, grass2a.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.345.body]
 model = grass21.dof-02.joe
-texture = rmbl3a.bmp.png
+texture = rmbl3a.bmp.png, rmbl3a.bmp-misc1.png, rmbl3a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -1839,37 +1839,37 @@ surface = 1
 
 [object.348.body]
 model = grass22.dof-00.joe
-texture = fldgrass.bmp.png
+texture = fldgrass.bmp.png, fldgrass.bmp-misc1.png, fldgrass.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.349.body]
 model = grass22.dof-01.joe
-texture = grass2a.bmp.png
+texture = grass2a.bmp.png, grass2a.bmp-misc1.png, grass2a.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.350.body]
 model = grass22.dof-02.joe
-texture = rmbl3a.bmp.png
+texture = rmbl3a.bmp.png, rmbl3a.bmp-misc1.png, rmbl3a.bmp-misc2.png
 mass = 0
 surface = 1
 
 [object.351.body]
 model = grass23.dof-00.joe
-texture = fldgrass.bmp.png
+texture = fldgrass.bmp.png, fldgrass.bmp-misc1.png, fldgrass.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.352.body]
 model = grass23.dof-01.joe
-texture = grass2a.bmp.png
+texture = grass2a.bmp.png, grass2a.bmp-misc1.png, grass2a.bmp-misc2.png
 mass = 0
 surface = 2
 
 [object.353.body]
 model = grass23.dof-02.joe
-texture = rmbl3a.bmp.png
+texture = rmbl3a.bmp.png, rmbl3a.bmp-misc1.png, rmbl3a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -2813,7 +2813,7 @@ surface = 1
 
 [object.511.body]
 model = parkroad.dof-00.joe
-texture = grass2a.bmp.png
+texture = grass2a.bmp.png, grass2a.bmp-misc1.png, grass2a.bmp-misc2.png
 mass = 0
 surface = 2
 
@@ -3075,13 +3075,13 @@ surface = 1
 
 [object.554.body]
 model = road01.dof-03.joe
-texture = road1s.bmp.png
+texture = road1s.bmp.png, road1s.bmp-misc1.png, road1s.bmp-misc2.png
 mass = 0
 surface = 1
 
 [object.555.body]
 model = road01.dof-04.joe
-texture = roadchec.bmp.png
+texture = roadchec.bmp.png, roadchec.bmp-misc1.png, roadchec.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -3117,7 +3117,7 @@ surface = 1
 
 [object.561.body]
 model = road04.dof-02.joe
-texture = rmbl4a.bmp.png
+texture = rmbl4a.bmp.png, rmbl4a.bmp-misc1.png, rmbl4a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -3135,7 +3135,7 @@ surface = 1
 
 [object.564.body]
 model = road05.dof-02.joe
-texture = roadcob.bmp.png
+texture = roadcob.bmp.png, roadcob.bmp-misc1.png, roadcob.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -3147,7 +3147,7 @@ surface = 1
 
 [object.566.body]
 model = road05.dof-04.joe
-texture = rmbl4a.bmp.png
+texture = rmbl4a.bmp.png, rmbl4a.bmp-misc1.png, rmbl4a.bmp-misc2.png
 mass = 0
 surface = 1
 
@@ -3243,7 +3243,7 @@ surface = 1
 
 [object.582.body]
 model = road12.dof-05.joe
-texture = rmbl4a.bmp.png
+texture = rmbl4a.bmp.png, rmbl4a.bmp-misc1.png, rmbl4a.bmp-misc2.png
 mass = 0
 surface = 1
 
