@@ -1,0 +1,9 @@
+cull faces = true
+lap sequences = 2
+non-treaded friction coefficient = 1.000000
+treaded friction coefficient = 0.900000
+start position 0 = -487.811462,0.077808,-92.950012
+start orientation 0 = -3, -42, 0
+lap sequence 0 = 0.000000,5.000000,0.000000
+lap sequence 1 = 0.000000,697.000000,0.000000
+vertical tracking skyboxes = no
