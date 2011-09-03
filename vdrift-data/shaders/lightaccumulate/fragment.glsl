@@ -125,7 +125,7 @@ void main()
 		#ifndef _REFLECTIONDISABLED_
 		float reflection_lod = mix(ambient_reflection_lod,0.0,mpercent);
 		vec3 ref_blurry = textureCube(tu5_cube, R).rgb;
-		vec3 ref_sharpish = textureCubeLod(tu4_cube, refmapdir, reflection_lod).rgb;
+		vec3 ref_sharpish = textureCube(tu4_cube, refmapdir, reflection_lod).rgb;
 		reflection = GammaCorrect(mix(ref_blurry,ref_sharpish,mpercent));
 		vec3 worldnormal = mat3(gl_TextureMatrix[2])*normal;
 		ambient = GammaCorrect(textureCube(tu5_cube, worldnormal).rgb);

@@ -23,13 +23,13 @@ name = simplecar
 folder = simple
 defines = _CARPAINT_
 
-[shader]
-name = logluminance
+;[shader]
+;name = logluminance
 
-[shader]
-name = logluminance_tiny
-folder = logluminance
-defines = _TINY_
+;[shader]
+;name = logluminance_tiny
+;folder = logluminance
+;defines = _TINY_
 
 [shader]
 name = tonemap
