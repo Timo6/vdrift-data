@@ -471,3 +471,27 @@ Time Trial
 Very High (10 km)
 Very Low (0.25 km)
 Wide
+
+# new srings
+Cars and Tracks
+Keep your cars and tracks up to date
+Check for updates
+Check for updates to your existing cars and tracks
+Previous
+Next
+Back to Cars and Tracks
+Return to the Cars and Tracks menu.
+Update Successful
+Go back to the Cars and Tracks page.
+Apply Update
+Manage Cars
+Car Manager
+Updates
+Update this car to the latest version
+Browse cars and apply updates
+Return to the Cars and Tracks page.
+Go back to the last car
+Advance to the next car
+Menu Language
+Change the language of the VDrift menus.
+Reload GUI
