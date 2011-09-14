@@ -472,7 +472,7 @@ Very High (10 km)
 Very Low (0.25 km)
 Wide
 
-# new srings
+# new strings
 Cars and Tracks
 Keep your cars and tracks up to date
 Check for updates
