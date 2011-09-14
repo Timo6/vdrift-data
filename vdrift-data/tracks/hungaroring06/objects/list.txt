@@ -96902,3 +96902,41 @@ page_023.tga.png
 0
 0
 
+#entry 5100
+sfline.joe
+wall_sf.dds.png
+1
+0
+0
+1
+2.0
+0
+0
+1
+1.0
+0.9
+1.0
+0.0
+0
+0
+0
+
+#entry 5101
+startgrid.joe
+grid.dds.png
+1
+0
+0
+1
+2.0
+0
+0
+1
+1.0
+0.9
+1.0
+0.0
+0
+0
+0
+
