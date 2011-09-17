@@ -264,7 +264,7 @@ Turn the camera view upwards. = Kamera nach oben schwenken.
 Up/Down = Hoch/Runter
 Yes = Ja
 #You must quit the game, and start VDrift again for changes to take effect.
-Zoom camera in.
-Zoom camera out.
-Zoom In
-Zoom Out
+Zoom camera in. = Kamera heranzoomen.
+Zoom camera out. = Kamera herauszoomen.
+Zoom In = Heranzoomen
+Zoom Out = Herauszoomen
