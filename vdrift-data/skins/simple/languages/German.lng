@@ -3,11 +3,18 @@ texture = FreeSansBold1252.png
 info = FreeSansBold1252.fnt
 
 [strings]
+#->
+#1
 1st = Erster
+#2
 2nd = Zweiter
+#3
 3rd = Dritter
+#4
 4th = Vierter
+#5
 5th = Fünfter
+#6
 6th = Sechster
 ABS Toggle = ABS Kontrolle
 Add = Hinzufügen
@@ -18,14 +25,28 @@ Analog Clutch = Manuelle Kupplung
 Are you sure you want to end this network game? = Möchtest du das Netzwerkspiel wirklich beenden?
 Are you sure you want to leave this game? = Möchtest du das Spiel wirklich verlassen?
 Are you sure you want to quit? = Möchtest du das Spiel wirklich beenden?
-Are you sure you want to restart? = Möchtest du wirklich neustarten?
+Are you sure you want to restart? = Möchtest du wirklich neu starten?
 Are you sure you want to stop the race? = Möchtest du das Rennen wirklich abbrechen?
+#Assign Camera Movement Controls
+#Assign Camera View Controls
+#Assign Car Controls
+#Assign Controls
+#Assign Game Controls
+#Assign Gear Controls
+#Assign inputs to actions related to replays.
+#Assign inputs to actions related to the transmission.
+#Assign inputs to actions that affect the car.
+#Assign inputs to actions that affect the game.
+#Assign inputs to camera movement controls.
+#Assign inputs to camera view selection controls.
+#Assign inputs to each of the gear actions.
+#Assign inputs to miscellaneous helpful actions.
 Assign Replay Controls = Wiedergabe-Kontrollen zuweisen
 Assign Tool Controls = Werkzeug-Kontrollen zuweisen.
 Assign Transmission Controls = Getriebe-Kontrollen zuweisen
 Back = Zurück
 Back to Main = Zurück zum Hauptmenü
-Back to Pause Menu = Zurück zum Pausenmenü
+Back to Pause Menu = Zurück zum Pause Menü
 Before starting the race, click "Add" to add opponents. = Vor Rennstart bitte Gegner "Hinzufügen".
 Begin playing the last recorded replay. = Letzte Aufnahme abspielen.
 Best Lap = Schnellste Zeit
@@ -37,42 +58,213 @@ Camera Views = Kameras
 Cancel = Abbrechen
 Car = Fahrzeug
 Car Controls = Fahrzeug-Kontrollen
+Car1 = Auto 1
+Car2 = Auto 2
+Car3 = Auto 3
+Car4 = Auto 4
+#Change detail levels and other advanced display options. 
+#Change input and control settings.
+#Change some of the options while the game is running.
+Change sound settings. = Toneinstellungen ändern.
+Change video, display and detail settings. = Video, Bild und Detail Einstellungen.
+Chase (Loose) = Verfolgeransicht (lose)
+Chase (Rigid) = Verfolgeransicht (fest)
+Configure your display, sound and controls. = Bild, Ton und Eingaben konfigurieren.
+#Control
+#Controls
+#Controls Options
+#Deadzone
 Delete = Löschen
+#Delete this control and return to the previous menu.
+#Delete this control.
 Display = Darstellung
 Display Options = Darstellungsoptionen
+#Edit Analog Control
+#Edit Button Control
+#Edit Joystick Axis Control
+#Edit Joystick Button Control
+#Edit Keyboard Control
+#Edit Mouse Button Control
+#Edit Mouse Motion Control
 End Race = Rennen beenden.
 End race and return to the Main menu. = Rennen abbrechen und zum Hauptmenü zurückkehren.
 Engage Clutch = Kupplung
+Exponent = Exponent
+External Fixed = Extern befestigt
+External Follow = Extern folgend
+#Extra options for gamepad, joystick and steering wheel controls.
+#Focus Next
+#Focus Previous
+#Focus the camera on next car.
+#Focus the camera on previous car.
+#Forget changes and return to Assign Controls menu.
+#Forget changes and return to Car Controls menu.
+#Forget changes and return to Controls Options menu.
+#Forget changes and return to Display Options menu.
+#Forget changes and return to Game Controls menu.
+#Forget changes and return to in-game Assign Controls menu.
+#Forget changes and return to in-game Game Controls menu.
+#Forget changes and return to Options menu.
+#Forget changes and return to the previous menu.
+#Forget changes and return to Transmission Controls menu.
+Free = Frei
+#Gain
+#Game Controls
+Gas = Gaspedal
 Gears = Gänge
+Go back to the Network Game menu. = Zurück zum Netzwerkspiel Menü 
+#Go back to the race menu.
+#Go back to the Replays menu.
 Handbrake = Handbremse
+Held/Once = Halten/Druecken
 Hood = Motorhaube
-Menu Language = Menü Sprache
+In-Car = Fahrer
+Joy Axis = Joystick Axe
+Joy Btn = Joystick Taste
+Joy Motion = Joystick Bewegung
+Joystick Info = Joystick Info
+Joystick Options = Joystick Optionen
+Key = Taste
+Leave Game = Spiel verlassen
+Leave game and return to the Main menu. = Spiel verlassen und zum Hauptmenü zurückkehren.
+Leave the menu and unpause the game. = Menü verlassen und Spiel fortsetzen.
+Looks behind you during driving. = Nach hinten sehen.
+Main Menu = Hauptmenü
+Map keys, buttons and axes to actions in the game. = Tasten- und Axenbelegung ändern. 
+Mouse Btn = Maustaste
 Neutral = Leerlauf
 Next Camera = Nächste Kamera
 No = Nein
+Note: Some options will not take effect until the game is restarted = Einige Einstellungen benoetigen einen Nuestart.
 OK = OK
 Opponents: = Gegner:
 Options = Optionen
-Pause Menu = Pausenmenü
+Orbit = Umkreisen
+Pan Down = Schwenke nach unten
+Pan Left = Schwenke nach links
+Pan Right = Schwenke nach rechts
+Pan Up = Schwenke nach oben
+Pause = Pause
+Pause Menu = Pause Menü
 Play back recorded games. = Aufgezeichnete Rennen abpielen.
-Practice Game = Testfahrt
+Practice Game = Übungsfahrt
+#Press a key, press a joystick button, move a joystick axis, move the mouse, or click a mouse button.
+Press the ESCAPE key to abort. = Zum Abbrechen Esc druecken.
 Previous Camera = Vorherige Kamera
+Quit = Verlassen
+Quit Now = Verlassen
+Quit the game now. = Spiel verlassen.
 Quit VDrift. = VDrift verlassen.
 Race Results = Rennergebnisse
-Rear View = Rücksicht
-Reload Shaders = Shader laden.
+Rear View = Rückwärtskamera
+Reload Shaders = Lade Shader
 Reload the vertex and fragment shader source files. = Lade Pixel- und Vertex-Shader.
 Replays = Aufgezeichnete Rennen
+Restart Game = Spiel neu starten.
+Restart this game using the same car and track settings.
 Restart Game = Spiel neu starten
 Retry = Nochmal versuchen
+Return = Zurück
+Return to Controls Options menu. = Zurück zum Eingaben Menü
+Return to Game = Spiel fortsetzen
+#Return to In Game Controls Options menu.
+Return to the Main menu. = Zurück zum Hauptmenü
+Return to the Options menu. = Zurück zum Optionen Menü
+Return to the Pause menu. = Zurück zum Pause Menü
 Reverse = Rückwärtsgang
 Rollover Recover = Überschlag zurücksetzen
-Rotate car back onto its wheels after rollover. = Fahrzeugorientierung nach Überschlag zurücksetzen.
+Rotate car back onto its wheels after rollover. = Fahrzeug nach Überschlag zurücksetzen.
+#Save changes and return to Assign Controls menu.
+#Save changes and return to Car Controls menu.
+#Save changes and return to Controls Options menu.
+#Save changes and return to Display Options menu.
+#Save changes and return to Game Controls menu.
+#Save changes and return to in-game Assign Controls menu.
+#Save changes and return to in-game Game Controls menu.
+#Save changes and return to Options menu.
+#Save changes and return to the previous menu.
+#Save changes and return to Transmission Controls menu.
 Screen Shot = Bildschirmfoto
+#Set the deadzone for the axis between 0.0 and 1.0.
+#Set the deadzone for the input between 0.0 and 0.5.
+#Set the deadzone for the Motion between 0.0 and 1.0.
+#Set the exponent for the axis between 0.0 and 3.0.
+#Set the exponent for the input between 1.0 and 5.0.
+#Set the exponent for the Motion between 0.0 and 3.0.
+#Set the gain for the axis between 0.0 and 3.0.
+#Set the gain for the input between 0.5 and 3.0.
+#Set the gain for the Motion between 0.0 and 3.0.
+Shift Down = Hochschalten
+Shift Up = Runterschalten
+Simulation Engine Error = Simulationsfehler
 Single Race = Einzelrennen
+Skip Backward = Zurück-Springen
+Skip Forward = Vorwärts-Springen
+Sound = Ton
+Sound Options = Ton Optionen
+Start a practice game using the selected car and track. = Übungsfahrt mit ausgewählten Fahrzeug und Strecke starten.
+Start a practice game. = Übungsfahrt starten.
+Start a race using the selected car and track. = Rennen mit ausgewählten Fahrzeug und Strecke starten.
+Start a race. = Rennen starten.
+Start Engine = Starte den Motor
+Start Practice = Starte Übungsfahrt
+Start Race = Starte das Rennen
+Start Replay = Starte Wiedergabe
+Steer Left = Nach links lenken
+Steer Right = Nach rechts lenken
 TCS Toggle = TCS Kontrolle
+#The ABS Toggle turns anti-lock braking on or off while playing.
+#The analog clutch control can allow you to use an external clutch pedal.
+#The brake control causes the car to slow down.
+#The engage clutch control lets out the clutch. This must be done after every shift.
+#The external follow camera flies between each of the external cameras.
+#The fifth gear control shifts the car into fifth gear.
+#The first gear control shifts the car into first gear.
+#The fixed external camera follows the car from a set of fixed locations.
+#The fourth gear control shifts the car into fourth gear.
+#The free camera control can be moved anywhere using the arrow keys.
+#The gas control causes the car to speed up.
+#The handbrake brakes only on the back wheels.
+#The hood camera control moves the camera to the car's hood.
+#The in-car camera control moves the camera to driver's view.
+#The joystick info control shows debugging info for available joysticks.
+#The loose chase camera control moves the camera to follow the car like a helicopter.
+#The neutral control shifts the car into neutral.
+#The orbit camera control swings around the car as the mouse moves.
+#The pause control freezes the game (except in multiplayer).
+#The reverse control puts the car into reverse gear.
+#The rigid chase camera control moves the camera to a fixed distance behind the car.
+#The screen shot control saves a snapshot of the game while playing.
+#The second gear control shifts the car into second gear.
+#The shift down control changes the car's gear to the previous one.
+#The shift up control changes the car's gear to the next one.
+#The sixth gear control shifts the car into sixth gear.
+#The skip backward control goes back ten seconds during a replay.
+#The skip forward control skips ahead ten seconds during a replay.
+#The start engine control will restart the engine if it stalls.
+#The steer left control causes the car to turn left.
+#The steer right control causes the car to turn right.
+#The TCS Toggle turns traction control on or off while playing.
+#The third gear control shifts the car into third gear.
+#There was an error connecting to the server.
+#There was an error when trying to play this replay.
+#This moves to the next camera in the set (hood, in-car, chase rigid, chase loose).
+#This moves to the previous camera in the set (hood, in-car, chase rigid, chase loose).
 Time = Zeit
+Tools = Werkzeuge
 Transmission = Getriebe
+#Trigger the control when the button is pressed down or let up?
+#Trigger the control when the key is pressed down or let up?
+#Trigger the control when the key is pressed down or released?
+#Try to connect to the server again.
+Turn the camera view downwards. = Kamera nach unten schwenken.
+Turn the camera view to the left. = Kamera nach links schwenken.
+Turn the camera view to the right. = Kamera nach rechts schwenken.
+Turn the camera view upwards. = Kamera nach oben schwenken.
 Up/Down = Hoch/Runter
 Yes = Ja
-Quit = Verlassen
+#You must quit the game, and start VDrift again for changes to take effect.
+Zoom camera in.
+Zoom camera out.
+Zoom In
+Zoom Out
