@@ -52,22 +52,22 @@ volume = 0.0200
 view-position = -0.208, -0.57, 0.15
 hood-mounted-view-position = 0.0, 0.24, 0.12
 
-[wing.front]
+[wing-front]
 drag-coefficient = 0.3
 frontal-area = 2
 position = 0.0, 0.0, 0.2
 
-[wing.center]
+[wing-center]
 drag-coefficient = 0.0
-efficiency = 0.95
+lift-efficiency = 0.95
 frontal-area = 0.2
 lift-coefficient = 0.075
 position = 0.0, 1.9, 0.60
 surface-area = 0.3
 
-[wing.rear]
+[wing-rear]
 drag-coefficient = 0.0
-efficiency = 0.95
+lift-efficiency = 0.95
 frontal-area = 0.05
 lift-coefficient = 0.1
 position = 0.0, -2.14, 0.37
@@ -288,26 +288,26 @@ texture = reverse.png
 mesh = body.joe
 draw = emissive
 
-[particle.00]
+[particle-00]
 mass = 20.0
 position = 0.0, -1.35, -0.37
 
-[particle.01]
+[particle-01]
 mass = 30.0
 position = 0.0, 0.96, -0.27
 
-[particle.02]
+[particle-02]
 mass = 90.0
 position = 0.5, -0.75, -0.25
 
-[particle.03]
+[particle-03]
 mass = 90.0
 position = -0.5, -0.75, -0.25
 
-[particle.04]
+[particle-04]
 mass = 90.0
 position = 0.45, 0.75, -0.25
 
-[particle.05]
+[particle-05]
 mass = 90.0
 position = -0.45, 0.75, -0.25

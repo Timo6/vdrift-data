@@ -138,26 +138,26 @@ name = wheel/front-right	# observe wheel and chassis moves
 position = 3.0, 1.0, 0.75	# X(+right), Y(+front), Z(+up)
 angle = 20.0, 90.0			# +down/-up, +left/-right
 
-[wing.front]
+[wing-front]
 position = 0.0, 0.15, 0.00
 frontal-area = 2.03
 drag-coefficient = 0.29
 
-[wing.center]
+[wing-center]
 position = 0, 1.15, -0.3
 frontal-area = 0.0
 drag-coefficient = 0
 surface-area = 1.0
 lift-coefficient = -0.22
-efficiency = 1
+lift-efficiency = 1
 
-[wing.rear]
+[wing-rear]
 position = 0, -1.50, -0.3
 frontal-area = 0.0
 drag-coefficient = 0
 surface-area = 1.0
 lift-coefficient = -0.20
-efficiency = 1
+lift-efficiency = 1
 
 [wheel.fl.coilover]
 spring-constant = 79865 # assuming 0.75 to 1 lever arm ratio
@@ -333,46 +333,46 @@ draw = emissive
 
 # these are used to calculate the weight distribution and balance
 
-[particle.00]# Chassis Front
+[particle-00]# Chassis Front
 mass = 130
 position = 0.0, 1.5, -0.15
 
-[particle.01]#	Cooler front
+[particle-01]#	Cooler front
 mass = 100
 position = -0.0, 1.5, -0.25
 
-[particle.02]#	Chassis left
+[particle-02]#	Chassis left
 mass = 160
 position = 0.75, 0, -0.10
 
-[particle.03]#	Chassis right
+[particle-03]#	Chassis right
 mass = 160
 position = -0.75, 0, -0.10
 
-[particle.04]#	Motor Env. left
+[particle-04]#	Motor Env. left
 mass = 60
 position = 0.7, -1.10, -0.0
 
-[particle.05]# Motor Env. right
+[particle-05]# Motor Env. right
 mass = 60
 position = -0.7, -1.10, -0.0
 
-[particle.06]# Interieur
+[particle-06]# Interieur
 mass = 120
 position = 0.00, 0.60, -0.10
 
-[particle.07]# Chassis top
+[particle-07]# Chassis top
 mass = 80
 position = 0.00, -0.30, 0.30
 
-[particle.08]# Joker
+[particle-08]# Joker
 mass = 60
 position = -0.00, 1.0, -0.20
 
-[particle.09]# gearbox
+[particle-09]# gearbox
 mass = 50.0
 position = 0.00, -1.75, -0.25
 
-[particle.10]# Chassis rear
+[particle-10]# Chassis rear
 mass = 80.0
 position = 0.00, -1.80, -0.0

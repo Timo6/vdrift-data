@@ -11,7 +11,7 @@ start-rpm = 1000
 stall-rpm = 350
 fuel-consumption = 1e-9
 torque-friction = 0.0006
-# The following values are from a BNR32 GT-R dyno chart.
+# The following-values are from a BNR32 GT-R dyno chart.
 torque-curve-00 = 1000, 213.4
 torque-curve-01 = 2000, 315.2
 torque-curve-02 = 2500, 341.8
@@ -65,26 +65,26 @@ fuel-density = 1.0
 view-position = -0.38, 0.05, 0.53
 hood-mounted-view-position = 0.0, 0.8, 0.4
 
-[wing.front]
+[wing-front]
 position = 0.0, 0.0, 0.2
 frontal-area = 2.37
 drag-coefficient = 0.52
 
-[wing.center]
+[wing-center]
 position = 0.0, 1.9, 0.60
 frontal-area = 0.2
 drag-coefficient = 0.0
 surface-area = 0.3
 lift-coefficient = -0.5
-efficiency = 0.95
+lift-efficiency = 0.95
 
-[wing.rear]
+[wing-rear]
 position = 0.0, -2.14, 0.37
 frontal-area = 0.05
 drag-coefficient = 0.0
 surface-area = 0.5
 lift-coefficient = -2
-efficiency = 0.95
+lift-efficiency = 0.95
 
 [wheel.fl.coilover]
 spring-constant = 50000
@@ -259,22 +259,22 @@ mesh = body.joe
 draw = emissive
 
 # these are used to calculate the weight distribution and balance
-[particle.00]
+[particle-00]
 mass = 65.0
 position = 0.0, 1.008, -0.45
 
-[particle.01]
+[particle-01]
 mass = 192.5
 position = 0.4, -1.48, 0.1
 
-[particle.02]
+[particle-02]
 mass = 192.5
 position = -0.4, -1.48, 0.1
 
-[particle.03]
+[particle-03]
 mass = 368.0
 position = 0.4, 1.08, 0.0
 
-[particle.04]
+[particle-04]
 mass = 368.0
 position = -0.4, 1.08, 0.0

@@ -34,26 +34,26 @@ fuel-density = 730.0
 view-position = 0.292, -0.18, 0.2
 hood-mounted-view-position = 0, 0.55, 0.17
 
-[wing.front]
+[wing-front]
 position = 0.0, 0.0, 0.2
 frontal-area = 2
 drag-coefficient = 0.3
 
-[wing.center]
+[wing-center]
 position = 1.9, 0.0, 0.60
 frontal-area = 0.2
 drag-coefficient = 0.0
 surface-area = 0.3
 lift-coefficient = -0.5
-efficiency = 0.95
+lift-efficiency = 0.95
 
-[wing.rear]
+[wing-rear]
 position = 0.0, -2.14, 0.37
 frontal-area = 0.05
 drag-coefficient = 0.0
 surface-area = 0.5
 lift-coefficient = -0.7
-efficiency = 0.95
+lift-efficiency = 0.95
 
 [wheel.fl.coilover]
 spring-constant = 35000
@@ -254,27 +254,27 @@ caster = 0.0
 toe = 0.18
 
 # these are used to calculate the weight distribution and balance
-[particle.00]
+[particle-00]
 mass = 30.0
 position = 0.0, -1.28, -0.26
 
-[particle.01]
+[particle-01]
 mass = 60.0
 position = 0.0, 0.11, -0.26
 
-[particle.02]
+[particle-02]
 mass = 116.0
 position = -0.39, -1.7, -0.28
 
-[particle.03]
+[particle-03]
 mass = 116.0
 position = 0.39, -1.7, -0.28
 
-[particle.04]
+[particle-04]
 mass = 166.0
 position = -0.39, 1.32, -0.28
 
-[particle.05]
+[particle-05]
 mass = 166.0
 position = 0.39, 1.32, -0.28
 

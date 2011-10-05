@@ -93,32 +93,48 @@ hood-mounted-view-position = -0.25, -0.50, 0.30
 #hood-mounted-view-position = 1.00, -2.00, -0.00	# lwft  wheel
 #hood-mounted-view-position = 0.00, 0.45, 0.1	# normal driver position
 
-[wing.center]
+[wing-center]
 position = 0.00, 0.00, -0.40
 frontal-area = 1.15
 drag-coefficient = 0.69
 
-[wing.front]
+[wing-front]
 frontal-area = 0.20
 drag-coefficient = 0.5
 surface-area = 1.25			# tire load front/rear 44/56
 lift-coefficient = -2
-efficiency = 0.99
+lift-efficiency = 0.99
 texture = body00.png, body-misc1.png
 mesh = wing_front.joe
 position = 0.0, 2.25, -0.44
 mass = 20
 
-[wing.rear]
+[wing-front.box]
+center = 0.0, 0.0, 0.0
+size = 1.25, 0.6, 0.28
+
+[wing-front.mount]
+elastic-limit = 1000
+plastic-limit = 2000
+
+[wing-rear]
 frontal-area = 0.3
 drag-coefficient = 0.6
 surface-area = 1.75			# tire load front/rear 44/56
 lift-coefficient = -2
-efficiency = 0.99
+lift-efficiency = 0.99
 texture = body00.png, body-misc1.png
 mesh = wing_rear.joe
 position = 0.0, -1.84, -0.1
 mass = 20
+
+[wing-rear.box]
+center = 0.0, 0.0, 0.0
+size = 1.0, 0.36, 0.62
+
+[wing-rear.mount]
+elastic-limit = 1000
+plastic-limit = 2000
 
 [wheel.fl.coilover]
 spring-constant = 150000
@@ -236,6 +252,22 @@ chassis = 0, -1.0, 0
 wheel = 0.71, -1.53, -0.37
 chassis = 0, -1.0, 0
 
+[wheel.fl.mount]
+elastic-limit = 3000
+plastic-limit = 5000
+
+[wheel.fr.mount]
+elastic-limit = 3000
+plastic-limit = 5000
+
+[wheel.rl.mount]
+elastic-limit = 3000
+plastic-limit = 5000
+
+[wheel.rr.mount]
+elastic-limit = 3000
+plastic-limit = 5000
+
 [wheel.fl]
 texture = oem_wheel.png
 mesh = oem_wheel.joe
@@ -292,35 +324,53 @@ texture = body00.png, body-misc1.png
 mesh = body.joe
 mass = 90.0
 
+[center.capsule]
+center = 0.0, 0.275, -0.3
+size = 0.5, 4.0, 0.4
+
+[sides.box]
+center = 0.0, -0.2, -0.3
+size = 1.25, 1.5, 0.4
+
+# wheel tunneling fix
+[front.capsule]
+center = 0, 1.60, -0.37
+size = 1.25, 0.1, 0.1
+
+# wheel tunneling fix
+[rear.capsule]
+center = 0, -1.53, -0.37
+size = 1.25, 0.1, 0.1
+
 # these are used to calculate the weight distribution and balance
-[particle.02]	# Cooler left
+[particle-02]	# Cooler left
 mass = 35.0
 position = 0.20, -0.10, -0.35
 
-[particle.03]	# Cooler right
+[particle-03]	# Cooler right
 mass = 35.0
 position = -0.20, -0.10, -0.35
 
-[particle.04]	# Exhaust left
+[particle-04]	# Exhaust left
 mass = 40.0
 position = 0.30, -0.60, -0.30
 
-[particle.05]	# Exhaust right
+[particle-05]	# Exhaust right
 mass = 40.0
 position = -0.30, -0.60, -0.30
 
-[particle.06]	# Covering rear
+[particle-06]	# Covering rear
 mass = 15.0
 position = 0.00, -0.80, -0.15
 
-[particle.07]	# Ballast
+[particle-07]	# Ballast
 mass = 30.0
 position = 0.00, 1.60, -0.55
 
-[particle.08]	# Ballast
+[particle-08]	# Ballast
 mass = 85.0
 position = 0.00, -0.33, -0.55
 
-[particle.09]	# gearbox
+[particle-09]	# gearbox
 mass = 20.0
 position = 0.00, -1.40, -0.35
