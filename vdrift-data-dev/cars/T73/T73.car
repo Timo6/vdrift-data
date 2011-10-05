@@ -63,13 +63,13 @@ view-position = 0.0, 0.1, 0.1
 hood-mounted-view-position = 0.0, 0.4, 0.1
 
 # body downforce/drag
-[wing.front]
+[wing-front]
 position = 0.0, 0.0, -0.4
 frontal-area = 1.5
 drag-coefficient = 0.3
 surface-area = 0.3
 lift-coefficient = -0.3
-efficiency = 0.95
+lift-efficiency = 0.95
 
 [wheel.fl.coilover]
 spring-constant = 50000
@@ -231,22 +231,22 @@ draw = transparent
 
 # these are used to calculate the weight distribution and balance
 # car vertical center is at -0.42
-[particle.00]
+[particle-00]
 mass = 20.0
 position = 0.0, 0.5, -0.45
 
-[particle.01]
+[particle-01]
 mass = 40.0
 position = 0.4, -1.06, -0.42
 
-[particle.02]
+[particle-02]
 mass = 40.0
 position = -0.4, -1.06, -0.42
 
-[particle.03]
+[particle-03]
 mass = 69.0
 position = 0.4, 1.35, -0.42
 
-[particle.04]
+[particle-04]
 mass = 69.0
 position = -0.4, 1.35, -0.42
