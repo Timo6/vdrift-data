@@ -160,6 +160,9 @@ void main()
 	#endif // NORMALMAPS
 	
 	vec2 normalToPack = vec2(atan(eyeSpaceNormal.y,eyeSpaceNormal.x)/3.14159265358979323846, eyeSpaceNormal.z)*0.5+vec2(0.5,0.5);
+    #ifdef SIMPLE_NORMAL_ENCODING
+    vec3 normalXYZ = eyeSpaceNormal.xyz*0.5+vec3(0.5,0.5,0.5);
+    #endif
 	vec2 normalX = packFloatToVec2i(normalToPack.x);
 	vec2 normalY = packFloatToVec2i(normalToPack.y);
 	
@@ -175,10 +178,16 @@ void main()
 	#ifdef USE_OUTPUTS
 	materialProperties = vec4(Rf0, m);
 	normalXY = vec4(normalX, normalY);
+    #ifdef SIMPLE_NORMAL_ENCODING
+	normalXY = vec4(normalXYZ, 0);
+    #endif
 	diffuseAlbedo = vec4(albedo.rgb, carpaintMask);
 	#else
 	gl_FragData[0] = vec4(Rf0, m);
 	gl_FragData[1] = vec4(normalX, normalY);
+    #ifdef SIMPLE_NORMAL_ENCODING
+	gl_FragData[1] = vec4(normalXYZ, 0);
+    #endif
 	gl_FragData[2] = vec4(albedo.rgb, carpaintMask);
 	#endif
 	
