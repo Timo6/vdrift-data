@@ -16,6 +16,7 @@ uniform vec4 ambientLightColor;
 uniform vec3 eyespaceLightDirection;
 uniform mat4 invProjectionMatrix;
 uniform mat4 invViewMatrix;
+uniform mat4 defaultViewMatrix;
 uniform vec4 reflectedLightColor;
 
 #ifdef DIRECTIONAL
@@ -146,10 +147,13 @@ void main(void)
 	//Rf0 = max(vec3(0.06),Rf0);
 	vec2 normal_spherical = vec2(unpackFloatFromVec2i(gbuf_normal_xy.xy),unpackFloatFromVec2i(gbuf_normal_xy.zw))*2.0-vec2(1.0,1.0);
 	vec3 normal = sphericalToXYZ(normal_spherical);
+    #ifdef SIMPLE_NORMAL_ENCODING
+    normal = gbuf_normal_xy.xyz*2.0-vec3(1,1,1);
+    #endif
 	
 	// flip back-pointing face normals to point out the other direction
 	//normal *= -sign(dot(V,normal));
-	normal.z = abs(normal.z);
+	//normal.z = abs(normal.z);
 	//normal.z = -normal.z;
 	
 	vec3 final = vec3(0,0,0);
@@ -171,9 +175,14 @@ void main(void)
 		
 		// compute the reflection direction
 		vec3 eyespaceReflectionDirection = reflect(V, normal);
-		vec3 worldspaceReflectionDirection = (invViewMatrix*vec4(eyespaceReflectionDirection,0.0)).xyz;
+		//vec3 eyespaceReflectionDirection = reflect(V, vec3(0,1,0)*mat3(defaultViewMatrix));
+        //mat3 invViewMatrix3 = transpose(mat3(defaultViewMatrix));
+        mat3 invViewMatrix3 = mat3(invViewMatrix);
+		vec3 worldspaceReflectionDirection = (invViewMatrix3*eyespaceReflectionDirection).xyz;
+		//vec3 worldspaceReflectionDirection = reflect(invViewMatrix3*V, vec3(0,0,-1));
+        
 		//vec3 reflectedLight = texture(reflectionCubeSampler, worldspaceReflectionDirection.xzy*vec3(1,-1,1)).rgb;
-		vec3 reflectedLight = pow(textureLod(reflectionCubeSampler, worldspaceReflectionDirection.xzy*vec3(1,-1,1), (1-mpercent)*4).rgb,vec3(2.2))*reflectedLightColor.rgb;
+		vec3 reflectedLight = pow(textureLod(reflectionCubeSampler, worldspaceReflectionDirection.xzy*vec3(1,-1,1), (1-mpercent)*7).rgb,vec3(2.2))*reflectedLightColor.rgb;
 		
 		float alpha_h = clamp(dot(V,normal),-1.0,1.0);
 		reflectedLight *= FresnelEquation(Rf0*0.2,alpha_h)*mpercent;
@@ -181,12 +190,16 @@ void main(void)
 		if (carpaintMask > 0.5)
 			ambientDiffuse *= alpha_h+0.5;
 		else
-			reflectedLight *= 0;
+			reflectedLight *= max(0,mpercent-0.5)*2.0;
 		
 		//final = ambientDiffuse + reflectedLight;//(0.25+cos_clamped(V,normal)*0.25);
 		//final = texture(reflectionCubeSampler, (invViewMatrix*vec4(normal,0.0)).xzy).rgb;
 		//final = abs(vec3(invProjectionMatrix[3].xyz));
 		final = ambientDiffuse+reflectedLight;
+        //final = abs(reflect(invViewMatrix3*V,vec3(0,1,0)));
+        //final = reflectedLight*100;
+        //final = abs(invViewMatrix3*normal);
+        //final = normal;
 	#endif
 	
 	#ifdef DIRECTIONAL
