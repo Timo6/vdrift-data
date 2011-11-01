@@ -1,0 +1,64 @@
+name = CarsTracks
+background = box.png
+dialog = false
+
+[ title ]
+type = label
+name = Title
+text = Cars and Tracks
+center = 0.5, 0.1
+width = auto
+height = auto
+fontsize = 0.06
+enabled = 0
+selected = 0
+default = 0
+cancel = 0
+
+[ updatecheck ]
+type = button
+name = UpdateButton
+text = Check for updates
+tip = Check for updates to your existing cars and tracks
+action = StartCheckForUpdates
+center = 0.5, 0.3
+color = 0.0, 0.0, 0.8
+width = auto
+height = 0.05
+fontsize = 0.04
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ carmanage ]
+type = button
+name = CarManageButton
+text = Manage Cars
+tip = Browse cars and apply updates
+action = StartCarManager
+center = 0.5, 0.39
+color = 0.0, 0.0, 0.8
+width = auto
+height = 0.05
+fontsize = 0.04
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-02 ]
+type = button
+name = BackButton
+text = Back to Main
+tip = Return to the Main menu.
+action = Main
+center = 0.5, 0.84
+color = 0.8, 0.0, 0.0
+width = auto
+height = 0.05
+fontsize = 0.04
+enabled = 1
+selected = 0
+default = 0
+cancel = 1
