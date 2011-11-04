@@ -32,7 +32,7 @@ torque-curve-17 = 7600, 190.49
 torque-curve-18 = 8000, 184.39
 torque-curve-19 = 8200, 183.04
 torque-curve-20 = 8300, 146.43
-torque-curve-21 = 9500, 146.43
+torque-curve-21 = 9000, 146.43
 
 [clutch]
 sliding = 0.27
@@ -52,7 +52,7 @@ gear-ratio-6 = 0.763
 shift-time = 0.08
 
 [differential-rear]
-final-drive = 4.100
+final-drive = 4.9528	# 4.100 * 1.208 final drive plus secondary gear reduction
 anti-slip = 600.0
 
 [fuel-tank]
