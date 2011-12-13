@@ -189,6 +189,23 @@ default = 0
 cancel = 0
 
 [ widget-11 ]
+type = controlgrab
+name = NOS
+text = Nitrous Oxide
+tip = Inject Nitrous Oxide to provide a speed boost.
+setting = nos
+center = 0.5, 0.65
+spacing = 0.2
+width = auto
+height = auto
+fontsize = 0.03
+analog = 1
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-12 ]
 type = button
 name = TransmissionButton
 text = Transmission
@@ -204,7 +221,7 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-12 ]
+[ widget-13 ]
 type = button
 name = CarControlsOKButton
 text = OK
@@ -220,7 +237,7 @@ selected = 0
 default = 1
 cancel = 0
 
-[ widget-13 ]
+[ widget-14 ]
 type = button
 name = CarControlsCancelButton
 text = Cancel
