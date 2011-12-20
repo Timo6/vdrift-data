@@ -15,10 +15,23 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-00 ]
+[ widget-01 ]
 type = label
-name = LabelText
-text = Error: update summary not set
+name = cars
+text = No updates found.
+center = 0.5, 0.4
+width = auto
+height = auto
+fontsize = 0.04
+enabled = 0
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-02 ]
+type = label
+name = tracks
+text = No updates found.
 center = 0.5, 0.45
 width = auto
 height = auto
@@ -28,10 +41,10 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-01 ]
+[ widget-03 ]
 type = label
 name = HelpText
-text = You can apply updates on the car's management screen
+text = You can apply updates on the car or track management screen
 center = 0.5, 0.5
 color = .75, .75, .75
 width = auto
@@ -42,12 +55,12 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-02 ]
+[ widget-04 ]
 type = button
 name = BackButton
-text = Back to Cars and Tracks
-tip = Return to the Cars and Tracks menu.
-action = CarsTracks
+text = Back to Updates
+tip = Return to the Updates menu.
+action = Updates
 center = 0.5, 0.84
 color = 0.8, 0.0, 0.0
 width = auto

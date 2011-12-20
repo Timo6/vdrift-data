@@ -66,8 +66,8 @@ cancel = 0
 type = button
 name = BackButton
 text = Back
-tip = Return to the Cars and Tracks page.
-action = CarsTracks
+tip = Return to the Updates page.
+action = Updates
 center = 0.5, 0.85
 color = 0.8, 0.0, 0.0
 width = auto
@@ -80,7 +80,7 @@ cancel = 0
 
 [ carlabel ]
 type = label
-name = carlabel
+name = name
 text = Car Name
 center = 0.5, 0.25
 color = .8,1,.8
