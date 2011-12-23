@@ -109,6 +109,14 @@ mesh = wing_front.joe
 position = 0.0, 2.25, -0.44
 mass = 20
 
+[wing.front.shape.box.0]
+center = 0.0, 0.0, 0.0
+size = 1.25, 0.6, 0.28
+
+[wing.front.link]
+strength = 1000
+elastic-limit = 1000
+
 [wing.rear]
 frontal-area = 0.3
 drag-coefficient = 0.6
@@ -119,6 +127,14 @@ texture = body00.png, body-misc1.png
 mesh = wing_rear.joe
 position = 0.0, -1.84, -0.1
 mass = 20
+
+[wing.rear.shape.box.0]
+center = 0.0, 0.0, 0.0
+size = 1.0, 0.36, 0.62
+
+[wing.rear.link]
+strength = 1000
+elastic-limit = 1000
 
 [wheel.fl.coilover]
 spring-constant = 150000
@@ -274,6 +290,22 @@ camber = 0.50
 caster = 0.28
 toe = 0
 
+[wheel.fl.link]
+strength = 2000
+elastic-limit = 3000
+
+[wheel.fr.link]
+strength = 2000
+elastic-limit = 3000
+
+[wheel.rl.link]
+strength = 2000
+elastic-limit = 3000
+
+[wheel.rr.link]
+strength = 2000
+elastic-limit = 3000
+
 [steering]
 texture = steering_wheel.png
 mesh = steering_wheel.joe
@@ -291,6 +323,14 @@ mass = 80.0
 texture = body00.png, body-misc1.png
 mesh = body.joe
 mass = 90.0
+
+[body.shape.box.0]
+center = 0.0, 0.275, -0.3
+size = 0.5, 4.0, 0.4
+
+[body.shape.box.1]
+center = 0.0, -0.2, -0.3
+size = 1.25, 1.5, 0.4
 
 # these are used to calculate the weight distribution and balance
 [particle.02]	# Cooler left
