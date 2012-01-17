@@ -51,10 +51,13 @@ gear-ratio-3 = 1.39
 gear-ratio-4 = 1.00
 gear-ratio-5 = 0.862
 shift-time = 0.06
+link = differential.rear
 
-[differential-rear]
+[differential.rear]
 final-drive = 4.100
 anti-slip = 600.0
+link-a = wheel.rl
+link-b = wheel.rr
 
 [fuel-tank]
 position = -0.1, -0.8, -0.26
@@ -86,6 +89,54 @@ drag-coefficient = 0.0
 surface-area = 0.5
 lift-coefficient = -3
 lift-efficiency = 0.95
+
+[wheel.fl]
+size = 225, 50, 16
+position = -0.77, 1.26, -0.48
+camber = -1.33
+caster = 6.12
+toe = -0.5
+ackermann = 8.5	# 50% Ackermann
+steering = 30
+
+[wheel.fr]
+size = 225, 50, 16
+position = 0.77, 1.26, -0.48
+camber = 1.33
+caster = 6.12
+toe = 0.5
+ackermann = -8.5
+steering = 30
+
+[wheel.rl]
+size = 225, 50, 16
+position = -0.77, -1.26, -0.48
+camber = -0.45
+caster = 0.28
+toe = 0.0
+
+[wheel.rr]
+size = 225, 50, 16
+position = 0.77, -1.26, -0.48
+camber = 0.45
+caster = 0.28
+toe = 0.0
+
+[wheel.fl.lower-arm]
+chassis = 0, 0, 0
+hub = -0.77, 1.26, -0.48
+
+[wheel.fr.lower-arm]
+chassis = 0, 0, 0
+hub = 0.77, 1.26, -0.48
+
+[wheel.rl.lower-arm]
+chassis = 0, -0.85, 0
+hub = -0.77, -1.26, -0.48
+
+[wheel.rr.lower-arm]
+chassis = 0, -0.85, 0
+hub = 0.77, -1.26, -0.48
 
 [wheel.fl.coilover]
 spring-constant = 50000
@@ -150,78 +201,40 @@ area = 0.015
 handbrake = 1.0
 
 [wheel.fl.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 225, 50, 16
-type = &tire/touring
 
 [wheel.fr.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 225, 50, 16
-type = &tire/touring
+scale = -1, 1, 1
 
 [wheel.rl.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 225, 50, 16
-type = &tire/touring
 
 [wheel.rr.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 225, 50, 16
-type = &tire/touring
-
-[wheel.fl.hinge]
-wheel = -0.77, 1.26, -0.48
-chassis = 0, 0, 0
-
-[wheel.fr.hinge]
-wheel = 0.77, 1.26, -0.48
-chassis = 0, 0, 0
-
-[wheel.rl.hinge]
-wheel = -0.77, -1.26, -0.48
-chassis = 0, -0.85, 0
-
-[wheel.rr.hinge]
-wheel = 0.77, -1.26, -0.48
-chassis = 0, -0.85, 0
-
-[wheel.fl]
-texture = wheel/5_spoke_m.png
-mesh = wheel/5_spoke_m.joe
-position = -0.77, 1.26, -0.48
-camber = -1.33
-caster = 6.12
-toe = -0.5
-ackermann = 8.5	# 50% Ackermann
-steering = 30
-
-[wheel.fr]
-texture = wheel/5_spoke_m.png
-mesh = wheel/5_spoke_m.joe
 scale = -1, 1, 1
-position = 0.77, 1.26, -0.48
-camber = 1.33
-caster = 6.12
-toe = 0.5
-ackermann = -8.5
-steering = 30
 
-[wheel.rl]
+[wheel.fl.rim]
 texture = wheel/5_spoke_m.png
-mesh = wheel/5_spoke_m.joe
-position = -0.77, -1.26, -0.48
-camber = -0.45
-caster = 0.28
-toe = 0.0
+hubmesh = wheel/5_spoke_m.joe
 
-[wheel.rr]
+[wheel.fr.rim]
 texture = wheel/5_spoke_m.png
-mesh = wheel/5_spoke_m.joe
+hubmesh = wheel/5_spoke_m.joe
 scale = -1, 1, 1
-position = 0.77, -1.26, -0.48
-camber = 0.45
-caster = 0.28
-toe = 0.0
+
+[wheel.rl.rim]
+texture = wheel/5_spoke_m.png
+hubmesh = wheel/5_spoke_m.joe
+
+[wheel.rr.rim]
+texture = wheel/5_spoke_m.png
+hubmesh = wheel/5_spoke_m.joe
+scale = -1, 1, 1
 
 [steering]
 texture = steering_wheel.png

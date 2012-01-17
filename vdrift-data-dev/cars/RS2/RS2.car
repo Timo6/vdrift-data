@@ -11,7 +11,7 @@ start-rpm = 1000
 stall-rpm = 350
 fuel-consumption = 1e-9
 torque-friction = 0.0006
-# The following-values are a stock RS as meassured at the wheels.
+# The following values are a stock RS as meassured at the wheels.
 torque-curve-00 = 1000, 143.7
 torque-curve-01 = 1200, 139.6
 torque-curve-02 = 1400, 138.3
@@ -79,18 +79,25 @@ gear-ratio-3 = 1.448
 gear-ratio-4 = 1.088
 gear-ratio-5 = 0.780
 shift-time = 0.05
+link = differential.center
 
-[differential-front]
-final-drive = 1.0
-anti-slip = 600.0
-
-[differential-rear]
-final-drive = 1.0
-anti-slip = 600.0
-
-[differential-center]
+[differential.center]
 final-drive = 4.111
 anti-slip = 600.0
+link-a = differential.front
+link-b = differential.rear
+
+[differential.front]
+final-drive = 1.0
+anti-slip = 600.0
+link-a = wheel.fl
+link-b = wheel.fr
+
+[differential.rear]
+final-drive = 1.0
+anti-slip = 600.0
+link-a = wheel.rl
+link-b = wheel.rr
 
 [fuel-tank]
 position = -0.17, -0.26, -0.56
@@ -122,6 +129,54 @@ drag-coefficient = 0.0
 surface-area = 0.5
 lift-coefficient = -2
 lift-efficiency = 0.95
+
+[wheel.fl]
+size = 225, 50, 16
+position = -0.76, 1.25, -0.55
+camber = -1.0
+caster = 0.0
+toe = -0.5
+ackermann = 8.58	# 50% Ackermann
+steering = 30
+
+[wheel.fr]
+size = 225, 50, 16
+position = 0.76, 1.25, -0.55
+camber = 1.0
+caster = 0.0
+toe = 0.5
+ackermann = -8.58
+steering = 30
+
+[wheel.rl]
+size = 225, 50, 16
+position = -0.76, -1.21, -0.55
+camber = -0.5
+caster = 0.0
+toe = 1.0
+
+[wheel.rr]
+size = 225, 50, 16
+position = 0.76, -1.21, -0.55
+camber = 0.5
+caster = 0.0
+toe = -1.0
+
+[wheel.fl.lower-arm]
+chassis = 0.76, 0.25, -0.48
+hub = -0.76, 1.25, -0.55
+
+[wheel.fr.lower-arm]
+chassis = -0.76, 0.25, -0.48
+hub = 0.76, 1.25, -0.55
+
+[wheel.rl.lower-arm]
+chassis = 0.76, 0.21, -0.48
+hub = -0.76, -1.21, -0.55
+
+[wheel.rr.lower-arm]
+chassis = -0.76, 0.21, -0.48
+hub = 0.76, -1.21, -0.55
 
 [wheel.fl.coilover]
 spring-constant = 40000
@@ -186,78 +241,40 @@ area = 0.015
 handbrake = 1.0
 
 [wheel.fl.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 225, 50, 16
-type = &tire/touring
 
 [wheel.fr.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 225, 50, 16
-type = &tire/touring
+scale = -1, 1, 1
 
 [wheel.rl.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 225, 50, 16
-type = &tire/touring
 
 [wheel.rr.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 225, 50, 16
-type = &tire/touring
-
-[wheel.fl.hinge]
-wheel = -0.76, 1.25, -0.55
-chassis = 0.76, 0.25, -0.48
-
-[wheel.fr.hinge]
-wheel = 0.76, 1.25, -0.55
-chassis = -0.76, 0.25, -0.48
-
-[wheel.rl.hinge]
-wheel = -0.76, -1.21, -0.55
-chassis = 0.76, 0.21, -0.48
-
-[wheel.rr.hinge]
-wheel = 0.76, -1.21, -0.55
-chassis = -0.76, 0.21, -0.48
-
-[wheel.fl]
-texture = oem_wheel.png, oem_wheel-misc1.png
-mesh = oem_wheel.joe
-position = -0.76, 1.25, -0.55
-camber = -1.0
-caster = 0.0
-toe = -0.5
-ackermann = 8.58	# 50% Ackermann
-steering = 30
-
-[wheel.fr]
-texture = oem_wheel.png, oem_wheel-misc1.png
-mesh = oem_wheel.joe
 scale = -1, 1, 1
-position = 0.76, 1.25, -0.55
-camber = 1.0
-caster = 0.0
-toe = 0.5
-ackermann = -8.58
-steering = 30
 
-[wheel.rl]
+[wheel.fl.rim]
 texture = oem_wheel.png, oem_wheel-misc1.png
-mesh = oem_wheel.joe
-position = -0.76, -1.21, -0.55
-camber = -0.5
-caster = 0.0
-toe = 1.0
+hubmesh = oem_wheel.joe
 
-[wheel.rr]
+[wheel.fr.rim]
 texture = oem_wheel.png, oem_wheel-misc1.png
-mesh = oem_wheel.joe
+hubmesh = oem_wheel.joe
 scale = -1, 1, 1
-position = 0.76, -1.21, -0.55
-camber = 0.5
-caster = 0.0
-toe = -1.0
+
+[wheel.rl.rim]
+texture = oem_wheel.png, oem_wheel-misc1.png
+hubmesh = oem_wheel.joe
+
+[wheel.rr.rim]
+texture = oem_wheel.png, oem_wheel-misc1.png
+hubmesh = oem_wheel.joe
+scale = -1, 1, 1
 
 [steering]
 texture = steering_wheel.png
