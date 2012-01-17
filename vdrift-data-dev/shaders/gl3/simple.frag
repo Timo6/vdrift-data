@@ -1,6 +1,8 @@
 #version 330
 
+#ifndef NOTEXTURE
 uniform sampler2D diffuseSampler;
+#endif
 uniform vec4 colorTint;
 
 in vec3 normal;
@@ -14,7 +16,11 @@ out vec4 outputColor;
 
 void main(void)
 {
+    #ifdef NOTEXTURE
+	vec4 diffuseTexture = vec4(1,1,1,1);
+    #else
 	vec4 diffuseTexture = texture(diffuseSampler, uv.xy);
+    #endif
 	
 	vec4 albedo;
 	

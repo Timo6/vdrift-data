@@ -2,8 +2,13 @@ cull faces = true
 lap sequences = 2
 non-treaded friction coefficient = 1.000000
 treaded friction coefficient = 0.900000
-start position 0 = 193.596710,2.041451,-268.990906
-start orientation 0 = -178, -20, 179
 lap sequence 0 = 0.000000,908.000000,0.000000
 lap sequence 1 = 0.000000,508.000000,0.000000
-
+start position 0 = 193.28,2,-270.25
+start orientation 0 = 0,199.5,0
+start position 1 = 185.94,2,-274.48
+start orientation 1 = 0,199.5,0
+start position 2 = 188.65,2,-283.0
+start orientation 2 = 0,200,0
+start position 3 = 181.22,2,-287.2
+start orientation 3 = 0,200,0

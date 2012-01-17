@@ -484,6 +484,12 @@ shader = simple_gamma
 blendmode = alphatest
 
 [pass]
+draw = debug_lines
+output = full_scene_color full_scene_depth
+shader = simple_gamma
+blendmode = alphatest
+
+[pass]
 draw = normal_blend
 output = full_scene_color full_scene_depth
 shader = simple_gamma_premult

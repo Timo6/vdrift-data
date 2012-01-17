@@ -23,6 +23,10 @@ uniform vec4 reflectedLightColor;
 uniform sampler2D shadowSampler;
 #endif
 
+#ifdef AMBIENT
+uniform sampler2D aoSampler;
+#endif
+
 in vec3 eyespacePosition;
 in vec3 uv;
 
@@ -159,7 +163,17 @@ void main(void)
 	vec3 final = vec3(0,0,0);
 	
 	#ifdef AMBIENT
-		vec3 ambientDiffuse = cdiff*genericAmbient(normal)*ambientLightColor.rgb;
+		float notAO = texture(aoSampler, screencoord).r;
+		vec3 light_direction = normalize(eyespaceLightDirection);
+		float omega_i = cos_clamped(light_direction,normal); //clamped cosine of angle between incoming light direction and surface normal
+        notAO *= omega_i;
+        notAO = max(0.2,notAO);
+
+		vec3 ambientDiffuse = cdiff*(genericAmbient(normal)*ambientLightColor.rgb*0 + notAO);
+
+        vec3 reconstructedEyespacePosition = screenToEyespace(screencoord, gbuf_depth);
+
+		vec3 V = normalize(reconstructedEyespacePosition.xyz);
 		
 		
 		vec3 normalizedDevicePosition = vec3(screencoord.x, screencoord.y, gbuf_depth)*2.0-vec3(1.0);
@@ -196,6 +210,8 @@ void main(void)
 		//final = texture(reflectionCubeSampler, (invViewMatrix*vec4(normal,0.0)).xzy).rgb;
 		//final = abs(vec3(invProjectionMatrix[3].xyz));
 		final = ambientDiffuse+reflectedLight;
+        //final = vec3(notAO);
+        //final = genericAmbient(normal)*ambientLightColor.rgb;
         //final = abs(reflect(invViewMatrix3*V,vec3(0,1,0)));
         //final = reflectedLight*100;
         //final = abs(invViewMatrix3*normal);
