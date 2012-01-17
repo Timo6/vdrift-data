@@ -322,13 +322,13 @@ mesh = glass.joe
 draw = transparent
 
 [light-brake]
-texture = brake.png
-mesh = body.joe
+texture = body00.png
+mesh = brakelight.joe
 draw = emissive
 
 [light-reverse]
-texture = reverse.png
-mesh = body.joe
+texture = body00.png
+mesh = revlight.joe
 draw = emissive
 
 # these are used to calculate the weight distribution and balance

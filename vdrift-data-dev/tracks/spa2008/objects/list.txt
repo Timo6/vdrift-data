@@ -535,42 +535,42 @@ page_030.tga.png
 0
 
 #entry 28
-bridge_pitentrance.dof-01.joe
-page_315.tga.png
-1
-0
-0
-0
-0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-0
-0
-0
+#bridge_pitentrance.dof-01.joe
+#page_315.tga.png
+#1
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#1.0
+#0.9
+#1.0
+#0.0
+#0
+#0
+#0
 
 #entry 29
-bridge_pitentrance.dof-02.joe
-page_314.tga.png
-1
-0
-0
-0
-0
-0
-0
-0
-1.0
-0.9
-1.0
-0.0
-0
-0
-0
+#bridge_pitentrance.dof-02.joe
+#page_314.tga.png
+#1
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#1.0
+#0.9
+#1.0
+#0.0
+#0
+#0
+#0
 
 #entry 30
 bridge_pitentrance.dof-03.joe
