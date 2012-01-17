@@ -1,8 +1,14 @@
 # Elise S
-engine = &engine/1zz-fe
 
 [engine]
+include = engine/1zz-fe
 position = 0.0, -0.8, -0.20
+
+[clutch]
+sliding = 0.27
+radius = 0.15
+area = 0.75
+max-pressure = 11079.26
 
 [transmission]
 gears = 5
@@ -13,16 +19,13 @@ gear-ratio-3 = 1.392
 gear-ratio-4 = 1.031
 gear-ratio-5 = 0.815
 shift-time = 0.08
+link = differential.rear
 
-[differential-rear]
+[differential.rear]
 final-drive = 4.312
 anti-slip = 600.0
-
-[clutch]
-sliding = 0.27
-radius = 0.15
-area = 0.75
-max-pressure = 11079.26
+link-a = wheel.rl
+link-b = wheel.rr
 
 [fuel-tank]
 position = 0.0, -0.75, -0.26
@@ -54,6 +57,80 @@ drag-coefficient = 0.0
 surface-area = 0.5
 lift-coefficient = -0.7
 lift-efficiency = 0.95
+
+# Bridgestone Potenza RE040 tyres 175/55R16 front and 225/45R17 rear
+
+[wheel.fl]
+size = 175, 55, 16
+position = -0.706, 1.108, -0.460
+camber = -0.1
+caster = 3.8
+toe = 0.0
+ackermann = 8.56	# 50% ackermann
+steering = 30
+
+[wheel.fr]
+size = 175, 55, 16
+position = 0.706, 1.108, -0.460
+camber = 0.1
+caster = 3.8
+toe = 0.0
+ackermann = -8.56
+steering = 30
+
+[wheel.rl]
+size = 225, 45, 17
+position = -0.730, -1.183, -0.480
+camber = -1.8
+caster = 0.
+toe = -0.18 # toe-in
+
+[wheel.rr]
+size = 225, 45, 17
+position = 0.730, -1.183, -0.480
+camber = 1.8
+caster = 0.0
+toe = 0.18
+
+[wheel.fl.upper-arm]
+chassis-rear = -0.40, 0.92, -0.30
+chassis-front = -0.40, 1.22, -0.30
+hub = -0.67, 1.10, -0.30
+
+[wheel.fl.lower-arm]
+chassis-rear = -0.40, 0.92, -0.60
+chassis-front = -0.40, 1.22, -0.60
+hub = -0.70, 1.10, -0.60
+
+[wheel.fr.upper-arm]
+chassis-rear = 0.40, 0.92, -0.30
+chassis-front = 0.40, 1.22, -0.30
+hub = 0.67, 1.10, -0.30
+
+[wheel.fr.lower-arm]
+chassis-rear = 0.40, 0.92, -0.60
+chassis-front = 0.40, 1.22, -0.60
+hub = 0.70, 1.10, -0.60
+
+[wheel.rl.lower-arm]
+chassis-rear = -0.42, -1.40, -0.40
+chassis-front = -0.42, -1.15, -0.40
+hub = -0.70, -1.15, -0.30
+
+[wheel.rl.lower-arm]
+chassis-rear = -0.32, -1.40, -0.60
+chassis-front = -0.32, -0.8, -0.60
+hub = -0.70, -1.15, -0.60
+
+[wheel.rr.upper-arm]
+chassis-rear = 0.42, -1.40, -0.40
+chassis-front = 0.42, -1.15, -0.40
+hub = 0.70, -1.15, -0.30
+
+[wheel.rr.lower-arm]
+chassis-rear = 0.32, -1.4, -0.60
+chassis-front = 0.32, -0.8, -0.60
+hub = 0.70, -1.15, -0.60
 
 [wheel.fl.coilover]
 spring-constant = 35000
@@ -145,113 +222,41 @@ radius = 0.14
 area = 0.015
 handbrake = 1.0
 
-# Bridgestone Potenza RE040 tyres 175/55R16 front and 225/45R17 rear
-
 [wheel.fl.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 175, 55, 16
-type = &tire/touring
 
 [wheel.fr.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 175, 55, 16
-type = &tire/touring
+scale = -1, 1, 1
 
 [wheel.rl.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 225, 45, 17
-type = &tire/touring
 
 [wheel.rr.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 225, 45, 17
-type = &tire/touring
-
-[wheel.fl.double-wishbone]
-upper-chassis-rear = -0.40, 0.92, -0.30
-upper-chassis-front = -0.40, 1.22, -0.30
-upper-hub = -0.67, 1.10, -0.30
-lower-chassis-rear = -0.40, 0.92, -0.60
-lower-chassis-front = -0.40, 1.22, -0.60
-lower-hub = -0.70, 1.10, -0.60
-
-[wheel.fr.double-wishbone]
-upper-chassis-rear = 0.40, 0.92, -0.30
-upper-chassis-front = 0.40, 1.22, -0.30
-upper-hub = 0.67, 1.10, -0.30
-lower-chassis-rear = 0.40, 0.92, -0.60
-lower-chassis-front = 0.40, 1.22, -0.60
-lower-hub = 0.7, 1.10, -0.60
-
-[wheel.rl.double-wishbone]
-upper-chassis-rear = -0.42, -1.40, -0.40
-upper-chassis-front = -0.42, -1.15, -0.40
-upper-hub = -0.70, -1.15, -0.30
-lower-chassis-rear = -0.32, -1.40, -0.60
-lower-chassis-front = -0.32, -0.8, -0.60
-lower-hub = -0.70, -1.15, -0.60
-
-[wheel.rr.double-wishbone]
-upper-chassis-rear = 0.42, -1.40, -0.40
-upper-chassis-front = 0.42, -1.15, -0.40
-upper-hub = 0.70, -1.15, -0.30
-lower-chassis-rear = 0.32, -1.4, -0.60
-lower-chassis-front = 0.32, -0.8, -0.60
-lower-hub = 0.70, -1.15, -0.60
-
-[wheel.fl.hinge]
-wheel = -0.706, 1.108, -0.460
-chassis = 0.0, 1.07, -0.60
-
-[wheel.fr.hinge]
-wheel = 0.706, 1.108, -0.460
-chassis = 0.0, 1.07, -0.60
-
-[wheel.rl.hinge]
-wheel = -0.730, -1.183, -0.480
-chassis = 0.0, -1.1, -0.60
-
-[wheel.rr.hinge]
-wheel = 0.730, -1.183, -0.480
-chassis = 0.0, -1.1, -0.60
-
-[wheel.fl]
-texture = oem_wheel.png, oem_wheel-misc1.png
-mesh = oem_wheel.joe
-position = -0.706, 1.108, -0.460
-camber = -0.1
-caster = 3.8
-toe = 0.0
-ackermann = 8.56	# 50% ackermann
-steering = 30
-
-[wheel.fr]
-texture = oem_wheel.png, oem_wheel-misc1.png
-mesh = oem_wheel.joe
 scale = -1, 1, 1
-position = 0.706, 1.108, -0.460
-camber = 0.1
-caster = 3.8
-toe = 0.0
-ackermann = -8.56
-steering = 30
 
-[wheel.rl]
+[wheel.fl.rim]
 texture = oem_wheel.png, oem_wheel-misc1.png
-mesh = oem_wheel.joe
-position = -0.730, -1.183, -0.480
-camber = -1.8
-caster = 0.
-toe = -0.18 # toe-in
+hubmesh = oem_wheel.joe
 
-[wheel.rr]
+[wheel.fr.rim]
 texture = oem_wheel.png, oem_wheel-misc1.png
-mesh = oem_wheel.joe
+hubmesh = oem_wheel.joe
 scale = -1, 1, 1
-position = 0.730, -1.183, -0.480
-camber = 1.8
-caster = 0.0
-toe = 0.18
+
+[wheel.rl.rim]
+texture = oem_wheel.png, oem_wheel-misc1.png
+hubmesh = oem_wheel.joe
+
+[wheel.rr.rim]
+texture = oem_wheel.png, oem_wheel-misc1.png
+hubmesh = oem_wheel.joe
+scale = -1, 1, 1
 
 # these are used to calculate the weight distribution and balance
 [particle-00]
