@@ -24,7 +24,7 @@
 # torque * rpm * ( 2 * pi /60 ) = p [kW]; 2 * pi / 60 = 0,10471975511966; hp * 1.36 = p;
 
 [engine]
-position = 0.0, -0.50, -0.24
+position = 0.0, -0.50, -0.5
 mass = 140.0
 max-power = 633844
 peak-engine-rpm = 10500.0
@@ -148,17 +148,17 @@ steering = 29.5
 
 [wheel.rl]
 size = 475, 35, 13
-position = -0.73, -1.12, -0.40
+position = -0.73, -1.12, -0.38
 camber = -0.45
 caster = 0.28
-toe = 0.0
+toe = -0.15
 
 [wheel.rr]
 size = 475, 35, 13
-position = 0.73, -1.12, -0.40
+position = 0.73, -1.12, -0.38
 camber = 0.45
 caster = 0.28
-toe = 0.0
+toe = 0.15
 
 [wheel.fla.lower-arm]
 chassis = 0, 0, 0
@@ -334,6 +334,10 @@ scale = -1, 1, 1
 texture = body00.png
 mesh = body.joe
 
+[body.box]
+center = 0, 0.15, -0.30
+size = 1.4, 3.5, 0.6
+
 [steering]
 texture = steering_wheel.png
 mesh = steering_wheel.joe
@@ -351,54 +355,39 @@ mass = 80.0
 [particle-00]
 # Front-Wing/Nose
 mass = 25.0
-position = 0.0, -1.60, -0.47
+position = 0.0, 1.70, -0.5
 
 [particle-01]
 # Chassis
 mass = 90.0
-position = 0.0, 0.60, -0.47
+position = 0.0, 0.60, -0.45
 
 [particle-02]
-# Cooler left
-mass = 20.0
-position = 0.5, -0.6, 0.09
+# Side left
+mass = 60.0
+position = 0.6, -0.4, -0.45
 
 [particle-03]
-# Cooler right
-mass = 20.0
-position = -0.5, -0.6, 0.09
+# Side right
+mass = 60.0
+position = -0.6, -0.4, -0.45
 
 [particle-04]
-# Exhaust left
-mass = 100.0
-position = 0.45, 0.8, -0.13
+# Side left
+mass = 60.0
+position = 0.6, 0.4, -0.45
 
 [particle-05]
-# Exhaust right
-mass = 100.0
-position = -0.45, 0.8, -0.13
+# Side right
+mass = 60.0
+position = -0.6, 0.4, -0.45
 
 [particle-06]
-# Covering rear
-mass = 0.0
-position = -0.45, 0.8, -0.13
-
-[particle-07]
-# Ballast
-mass = 0.0
-position = -0.45, 0.8, -0.13
-
-[particle-08]
-# Reserve
-mass = 0.0
-position = -0.45, 0.8, -0.13
-
-[particle-09]
 # Gearbox
 mass = 40.0
-position = 0, 1.5, -0.55
+position = 0, -1.0, -0.55
 
-[particle-10]
+[particle-7]
 # Rear-Wing/Diffusor
 mass = 25.0
-position = 0, -1.8, -0.13
+position = 0, -1.5, -0.13
