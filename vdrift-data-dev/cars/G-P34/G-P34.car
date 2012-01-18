@@ -126,7 +126,7 @@ camber = 1.33
 caster = 0.12
 toe = 0.9
 ackermann = -7.84
-steering = 40
+steering = 35
 
 [wheel.flb]
 size = 245, 30, 10
@@ -134,8 +134,8 @@ position = -0.73, 0.98, -0.51
 camber = -1.33
 caster = 0.12
 toe = -0.9
-ackermann = 7.84	# 50% ackermann
-steering = 40
+ackermann = 9.58	# 50% ackermann: 50% * atan(flb.x / (flb.y - rl.y))
+steering = 29.5		# atan((flb.y - rl.y) / (fla.y - rl.y) * tan(fl.steering))
 
 [wheel.frb]
 size = 245, 30, 10
@@ -143,8 +143,8 @@ position = 0.73, 0.98, -0.51
 camber = 1.33
 caster = 0.12
 toe = 0.9
-ackermann = -7.84
-steering = 33
+ackermann = -9.58
+steering = 29.5
 
 [wheel.rl]
 size = 475, 35, 13
