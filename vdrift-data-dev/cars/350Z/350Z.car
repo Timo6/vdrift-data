@@ -41,6 +41,8 @@ link = differential.rear
 [differential.rear]
 final-drive = 3.538
 anti-slip = 250.0
+link-a = wheel.rl
+link-b = wheel.rr
 
 [fuel-tank]
 position = 0.0, -1.0, 0.28
