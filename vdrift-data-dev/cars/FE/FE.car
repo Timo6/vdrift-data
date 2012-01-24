@@ -214,7 +214,7 @@ scale = -1, 1, 1
 texture = wheel/5_spoke_m.png
 hubmesh = wheel/5_spoke_m.joe
 
-[wheel.fr,rim]
+[wheel.fr.rim]
 texture = wheel/5_spoke_m.png
 hubmesh = wheel/5_spoke_m.joe
 scale = -1, 1, 1
@@ -223,7 +223,7 @@ scale = -1, 1, 1
 texture = wheel/5_spoke_m.png
 hubmesh = wheel/5_spoke_m.joe
 
-[wheel.rr,rim]
+[wheel.rr.rim]
 texture = wheel/5_spoke_m.png
 hubmesh = wheel/5_spoke_m.joe
 scale = -1, 1, 1
