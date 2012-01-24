@@ -112,13 +112,13 @@ mesh = wing_front.joe
 position = 0.0, 2.25, -0.44
 mass = 20
 
-#[wing-front.box]
-#center = 0.0, 0.0, 0.0
-#size = 1.25, 0.6, 0.28
+[wing-front.box]
+center = 0.0, 0.0, 0.0
+size = 1.25, 0.6, 0.28
 
-#[wing-front.link]
-#elastic-limit = 1000
-#plastic-limit = 2000
+[wing-front.link]
+elastic-limit = 1000
+plastic-limit = 2000
 
 [wing-rear]
 frontal-area = 0.3
@@ -131,13 +131,13 @@ mesh = wing_rear.joe
 position = 0.0, -1.84, -0.1
 mass = 20
 
-#[wing-rear.box]
-#center = 0.0, 0.0, 0.0
-#size = 1.0, 0.36, 0.62
+[wing-rear.box]
+center = 0.0, 0.0, 0.0
+size = 1.0, 0.36, 0.62
 
-#[wing-rear.link]
-#elastic-limit = 1000
-#plastic-limit = 2000
+[wing-rear.link]
+elastic-limit = 1000
+plastic-limit = 2000
 
 # FIA: max 660mm in diameter (670mm with wet-weather tyres)
 
@@ -337,9 +337,9 @@ texture = body00.png, body-misc1.png
 mesh = body.joe
 mass = 90.0
 
-[center.box]
+[center.capsule]
 center = 0.0, 0.275, -0.3
-size = 0.5, 4.0, 0.4
+size = 0.4, 4.0, 0.4
 
 [sides.box]
 center = 0.0, -0.2, -0.3
