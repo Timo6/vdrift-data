@@ -55,7 +55,7 @@ fuel-density = 1.0
 view-position = 0, 0.3, 0.15
 hood-mounted-view-position = 0, 0.6, 0
 
-[wing.front]
+[wing-front]
 position = 0.0, 0.0, 0.2
 frontal-area = 2
 drag-coefficient = 0.3
@@ -193,19 +193,19 @@ caster = 0.0
 toe = 1.0
 
 [wheel.fl.link]
-strength = 2000
+plastic-limit = 5000
 elastic-limit = 3000
 
 [wheel.fr.link]
-strength = 2000
+plastic-limit = 5000
 elastic-limit = 3000
 
 [wheel.rl.link]
-strength = 2000
+plastic-limit = 5000
 elastic-limit = 3000
 
 [wheel.rr.link]
-strength = 2000
+plastic-limit = 5000
 elastic-limit = 3000
 
 [steering]
@@ -226,11 +226,11 @@ scale = 0.72
 texture = body00.png, body-misc1.png
 mesh = body.joe
 
-[body.shape.box.0]
+[body.box]
 center = 0.0, 0.3, -0.5
 size = 1.4, 3.4, 0.3
 
-[body.shape.box.1]
+[center.box]
 center = 0.0, 0.0, -0.15
 size = 0.5, 3.0, 0.8
 
@@ -240,22 +240,22 @@ mesh = interior.joe
 
 # these are used to calculate the weight distribution and balance
 # car median -0.4 z-axis
-[particle.00]
+[particle-00]
 mass = 17.0
 position = 0.1, 0.5, -0.45
 
-[particle.01]
+[particle-01]
 mass = 35.0
 position = 0.4, -1.06, -0.4
 
-[particle.02]
+[particle-02]
 mass = 35.0
 position = -0.4, -1.06, -0.4
 
-[particle.03]
+[particle-03]
 mass = 56.0
 position = 0.4, 1.35, -0.4
 
-[particle.04]
+[particle-04]
 mass = 56.0
 position = -0.4, 1.35, -0.4
