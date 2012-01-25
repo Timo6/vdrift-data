@@ -51,26 +51,26 @@ capacity = 45.0
 volume = 45.0
 fuel-density = 1.0
 
-[wing.front]
+[wing-front]
 position = 0.0, 0.0, -0.60
 frontal-area = 2.0
 drag-coefficient = 0.35
 
-[wing.center]
+[wing-center]
 position = 0.0, 2.34, -0.6
 frontal-area = 0.2
 drag-coefficient = 0
 surface-area = 0.3
 lift-coefficient = -0.5
-efficiency = 0.95
+lift-efficiency = 0.95
 
-[wing.rear]
+[wing-rear]
 position = 0.0, -2.14, 0.37
 frontal-area = 0.2
 drag-coefficient = 0
 surface-area = 0.5
 lift-coefficient = -0.5
-efficiency = 0.95
+lift-efficiency = 0.95
 
 [wheel.fl.coilover]
 spring-constant = 50000.0
@@ -240,34 +240,34 @@ mesh = body.joe
 draw = emissive
 
 # these are used to calculate the weight distribution and balance
-[particle.00]
+[particle-00]
 mass = 122
 position = 1.11, -2.3, -0.22
 
-[particle.01]
+[particle-01]
 mass = 122
 position = -1.11, -2.3, -0.22
 
-[particle.02]
+[particle-02]
 mass = 92
 position = 1.11, 2.3, -0.22
 
-[particle.03]
+[particle-03]
 mass = 92
 position = -1.11, 2.3, -0.22
 
-[particle.04]
+[particle-04]
 mass = 33
 position = 1.11, -2.32, -0.62
 
-[particle.05]
+[particle-05]
 mass = 33
 position = -1.11, -2.32, -0.62
 
-[particle.06]
+[particle-06]
 mass = 33
 position = 1.11, 2.32, -0.62
 
-[particle.07]
+[particle-07]
 mass = 33
 position = -1.11, 2.32, -0.62

@@ -86,26 +86,26 @@ view-position = 0, 0.19, 0.05
 hood-mounted-view-position = -0.25, -0.60, 0.30
 view-stiffness = 0.8
 
-[wing.front]
+[wing-front]
 position = 0.0, 0.0, 0.2
 frontal-area = 1.2
 drag-coefficient = 0.5
 
-[wing.center]
+[wing-center]
 position = 0.0, 1.5, 0.60
 frontal-area = 0.2
 drag-coefficient = 0.0
 surface-area = 1.0
 lift-coefficient = -0.5
-efficiency = 0.99
+lift-efficiency = 0.99
 
-[wing.rear]
+[wing-rear]
 position = 0.0, -1.80, 0.37
 frontal-area = 0.05
 drag-coefficient = 0.0
 surface-area = 1.0
 lift-coefficient = -1.0
-efficiency = 0.99
+lift-efficiency = 0.99
 
 [wheel.fl.coilover]
 spring-constant = 150000
@@ -261,57 +261,57 @@ texture = body00.png
 mesh = body.joe
 
 # these are used to calculate the weight distribution and balance
-[particle.00]
+[particle-00]
 # Front-Wing/Nose
 mass = 25.0
 position = 0.0, -1.60, -0.47
 
-[particle.01]
+[particle-01]
 # Chassis
 mass = 90.0
 position = 0.0, 0.60, -0.47
 
-[particle.02]
+[particle-02]
 # Cooler left
 mass = 20.0
 position = 0.5, -0.6, 0.09
 
-[particle.03]
+[particle-03]
 # Cooler right
 mass = 20.0
 position = -0.5, -0.6, 0.09
 
-[particle.04]
+[particle-04]
 # Exhaust left
 mass = 100.0
 position = 0.45, 0.8, -0.13
 
-[particle.05]
+[particle-05]
 # Exhaust right
 mass = 100.0
 position = -0.45, 0.8, -0.13
 
-[particle.06]
+[particle-06]
 # Covering rear
 mass = 0.0
 position = -0.45, 0.8, -0.13
 
-[particle.07]
+[particle-07]
 # Ballast
 mass = 0.0
 position = -0.45, 0.8, -0.13
 
-[particle.08]
+[particle-08]
 # Reserve
 mass = 0.0
 position = -0.45, 0.8, -0.13
 
-[particle.09]
+[particle-09]
 # Gearbox
 mass = 40.0
 position = 0, 1.5, -0.55
 
-[particle.10]
+[particle-10]
 # Rear-Wing/Diffusor
 mass = 25.0
 position = 0, -1.8, -0.13
