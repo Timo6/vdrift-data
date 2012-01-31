@@ -207,7 +207,7 @@ area = 0.000688 # 21.5mm x 32mm
 texture = rotor_shiny_slotted_drilled.png
 friction = 15.0
 max-pressure = 2.5e6
-bias = 0.35
+bias = 0.50
 radius = 0.165 # 330mm
 area = 0.000448 # 16mm x 28mm
 handbrake = 1.0
@@ -216,7 +216,7 @@ handbrake = 1.0
 texture = rotor_shiny_slotted_drilled.png
 friction = 15.0
 max-pressure = 2.5e6
-bias = 0.35
+bias = 0.50
 radius = 0.165 # 330mm
 area = 0.000448 # 16mm x 28mm
 handbrake = 1.0
@@ -263,7 +263,7 @@ mesh = wheel/pentagonal_hub.joe
 position = -0.85, 1.12, -0.27			# track +-Y = 1669/2
 camber = -1.0
 caster = 6.12
-toe = -0.2
+toe = 0.0
 ackermann = 8.96	# 50% ackermann
 steering = 33
 
@@ -274,7 +274,7 @@ scale = -1, 1, 1
 position = 0.85, 1.12, -0.27
 camber = 1.0
 caster = 6.12
-toe = 0.2
+toe = 0.0
 ackermann = -8.96
 steering = 33
 
@@ -334,45 +334,45 @@ draw = emissive
 # these are used to calculate the weight distribution and balance
 
 [particle-00]# Chassis Front
-mass = 130
-position = 0.0, 1.5, -0.15
+mass = 50
+position = 0.4, 1.5, -0.25
 
-[particle-01]#	Cooler front
-mass = 100
-position = -0.0, 1.5, -0.25
+[particle-01]# Chassis Front
+mass = 50
+position = -0.4, 1.5, -0.25
 
 [particle-02]#	Chassis left
 mass = 160
-position = 0.75, 0, -0.10
+position = 0.75, -0.3, -0.1
 
 [particle-03]#	Chassis right
 mass = 160
-position = -0.75, 0, -0.10
+position = -0.75, -0.3, -0.1
 
 [particle-04]#	Motor Env. left
-mass = 60
+mass = 100
 position = 0.7, -1.10, -0.0
 
 [particle-05]# Motor Env. right
-mass = 60
+mass = 100
 position = -0.7, -1.10, -0.0
 
 [particle-06]# Interieur
-mass = 120
-position = 0.00, 0.60, -0.10
+mass = 100
+position = 0.7, 0.60, -0.10
 
-[particle-07]# Chassis top
+[particle-07]# Interieur
+mass = 100
+position = -0.7, 0.60, -0.10
+
+[particle-08]# Chassis top
 mass = 80
-position = 0.00, -0.30, 0.30
-
-[particle-08]# Joker
-mass = 60
-position = -0.00, 1.0, -0.20
+position = 0.0, -0.3, 0.3
 
 [particle-09]# gearbox
-mass = 50.0
+mass = 60.0
 position = 0.00, -1.75, -0.25
 
 [particle-10]# Chassis rear
-mass = 80.0
+mass = 100.0
 position = 0.00, -1.80, -0.0
