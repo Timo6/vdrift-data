@@ -67,7 +67,7 @@
 #---------------------------------------
 
 [engine]
-position = 0.0, -1.1, -0.1
+position = 0.0, -1.0, -0.05
 mass = 150.0
 max-power = 313000
 peak-engine-rpm = 8500
@@ -164,7 +164,7 @@ lift-efficiency = 1
 
 [wheel.fl]
 size = 215, 45, 18
-position = -0.85, 1.12, -0.27			# track +-Y = 1669/2
+position = -0.85, 1.12, -0.26			# track +-Y = 1669/2
 camber = -1.0
 caster = 6.12
 toe = -0.2
@@ -173,7 +173,7 @@ steering = 33
 
 [wheel.fr]
 size = 215, 45, 18
-position = 0.85, 1.12, -0.27
+position = 0.85, 1.12, -0.26
 camber = 1.0
 caster = 6.12
 toe = 0.2
@@ -380,7 +380,7 @@ position = -0.7, 0.60, -0.10
 
 [particle-08]# Chassis top
 mass = 80
-position = 0.0, -0.4, 0.3
+position = 0.0, -0.3, 0.3
 
 [particle-09]# gearbox
 mass = 60.0
