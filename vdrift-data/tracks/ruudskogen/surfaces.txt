@@ -8,7 +8,7 @@ RollResistanceCoefficient = 1.0
 RollingDrag = 0.0
 
 [surface-01]
-Type = asphalt
+Type = grass
 BumpWaveLength = 10.0
 BumpAmplitude = 0.1
 FrictionNonTread = 0.6
@@ -26,7 +26,7 @@ RollResistanceCoefficient = 1.0
 RollingDrag = 0.0
 
 [surface-03]
-Type = asphalt
+Type = sand
 BumpWaveLength = 2.0
 BumpAmplitude = 0.05
 FrictionNonTread = 0.8
