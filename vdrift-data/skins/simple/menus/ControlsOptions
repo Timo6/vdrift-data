@@ -1,7 +1,13 @@
 name = ControlsOptions
-widgets = 9
-background = box.png
 dialog = false
+
+[background]
+type = image
+filename = box.png
+center = 0.5, 0.5
+width = 1
+height = 1
+layer = -1
 
 [ widget-00 ]
 type = label

@@ -1,6 +1,13 @@
 name = Main
-background = box.png
 dialog = false
+
+[background]
+type = image
+filename = box.png
+center = 0.5, 0.5
+width = 1
+height = 1
+layer = -1
 
 [ widget-00 ]
 type = image
@@ -45,22 +52,6 @@ enabled = 1
 selected = 0
 default = 0
 cancel = 0
-
-#[ widget-03 ]
-#type = button
-#name = AutoXButton
-#text = Auto-X
-#tip = Play Auto-X.
-#action = AutoX
-#center = 0.5, 0.48
-#color = 0.0, 0.0, 0.8
-#width = auto
-#height = auto
-#fontsize = 0.04
-#enabled = 1
-#selected = 0
-#default = 0
-#cancel = 0
 
 [ widget-04 ]
 type = button
