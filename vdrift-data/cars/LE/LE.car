@@ -30,10 +30,6 @@ capacity = 0.0492
 volume = 0.0492
 fuel-density = 730.0
 
-[camera]
-view-position = 0.292, -0.18, 0.2
-hood-mounted-view-position = 0, 0.55, 0.17
-
 [wing-front]
 position = 0.0, 0.0, 0.2
 frontal-area = 2
@@ -241,7 +237,7 @@ texture = oem_wheel.png, oem_wheel-misc1.png
 mesh = oem_wheel.joe
 position = -0.730, -1.183, -0.480
 camber = -1.8
-caster = 0.
+caster = 0.0
 toe = -0.18 # toe-in
 
 [wheel.rr]
@@ -370,3 +366,34 @@ position = -0.288, 1.819, -0.390
 rotation = 0, 0, 0
 color = 1, 1, 1, 1
 draw = transparent
+
+[camera.0]
+name = hood
+type = mount
+position = 0.0, 0.55, 0.17
+
+[camera.1]
+name = driver
+type = mount
+position = 0.292, -0.18, 0.2
+
+[camera.2]
+name = chase rigid
+type = mount
+position = 0.0, -6.0, 1.5
+lookat = 0, 0, 0
+
+[camera.3]
+name = chase loose
+type = chase
+position = 0.0, -6.0, 2.0
+
+[camera.4]
+name = orbit
+type = orbit
+position = 0.0, -6.0, 2.0
+
+[camera.5]
+name = free
+type = free
+position = 0.0, -8.0, 2.0

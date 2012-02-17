@@ -48,10 +48,6 @@ fuel-density = 730.0
 position = -0.17, -1.26, -0.2
 volume = 0.0200
 
-[camera]
-view-position = -0.208, -0.57, 0.15
-hood-mounted-view-position = 0.0, 0.24, 0.12
-
 [wing-front]
 drag-coefficient = 0.3
 frontal-area = 2
@@ -351,3 +347,34 @@ position = 0.45, 0.75, -0.25
 [particle-05]
 mass = 90.0
 position = -0.45, 0.75, -0.25
+
+[camera.0]
+name = hood
+type = mount
+position = 0.0, 0.24, 0.12
+
+[camera.1]
+name = driver
+type = mount
+position = -0.208, -0.57, 0.15
+
+[camera.2]
+name = chase rigid
+type = mount
+position = 0.0, -6.0, 1.5
+lookat = 0, 0, 0
+
+[camera.3]
+name = chase loose
+type = chase
+position = 0.0, -6.0, 2.0
+
+[camera.4]
+name = orbit
+type = orbit
+position = 0.0, -6.0, 2.0
+
+[camera.5]
+name = free
+type = free
+position = 0.0, -8.0, 2.0
