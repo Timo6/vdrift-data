@@ -86,13 +86,6 @@ capacity = 180
 volume = 76
 fuel-density = 0.8
 
-[camera]
-view-position = 0.00, 0.13, 0.03
-view-stiffness = 1.0
-hood-mounted-view-position = -0.25, -0.50, 0.30
-#hood-mounted-view-position = 1.00, -2.00, -0.00	# lwft  wheel
-#hood-mounted-view-position = 0.00, 0.45, 0.1	# normal driver position
-
 [wing-center]
 position = 0.00, 0.00, -0.40
 frontal-area = 1.15
@@ -364,3 +357,37 @@ position = 0.00, -0.33, -0.55
 [particle-09]	# gearbox
 mass = 20.0
 position = 0.00, -1.40, -0.35
+
+[camera.0]
+name = hood
+type = mount
+position = -0.25, -0.50, 0.30
+stiffness = 1.0
+
+[camera.1]
+name = driver
+type = mount
+position = 0.00, 0.13, 0.03
+stiffness = 1.0
+
+[camera.2]
+name = chase rigid
+type = mount
+position = 0.0, -6.0, 1.5
+lookat = 0, 0, 0
+stiffness = 1.0
+
+[camera.3]
+name = chase loose
+type = chase
+position = 0.0, -6.0, 2.0
+
+[camera.4]
+name = orbit
+type = orbit
+position = 0.0, -6.0, 2.0
+
+[camera.5]
+name = free
+type = free
+position = 0.0, -8.0, 2.0
