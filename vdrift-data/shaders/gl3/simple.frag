@@ -7,6 +7,7 @@ uniform vec4 colorTint;
 
 in vec3 normal;
 in vec3 uv;
+in vec3 eyespacePosition;
 
 #define USE_OUTPUTS
 
@@ -25,6 +26,17 @@ vec3 hableTonemap(vec3 x)
 	float F = 0.30;
 	
 	return ((x*(A*x+C*B)+D*E)/(x*(A*x+B)+D*F))-E/F;
+}
+
+const vec3 scatterBeta = vec3(7.87e-6,1.573e-5,3.63e-5);
+const float scatterDensity = 1.0;
+vec3 inscatter(float worldDepth)
+{
+    return 1-exp(-worldDepth*scatterBeta*scatterDensity);
+}
+vec3 extinction(float worldDepth)
+{
+    return exp(-worldDepth*scatterBeta*scatterDensity);
 }
 
 void main(void)
@@ -48,6 +60,16 @@ void main(void)
 	if (diffuseTexture.a < 0.5)
 		discard;
 	#endif
+
+    #ifdef FOG
+    float depth = length(eyespacePosition);
+    albedo.rgb = albedo.rgb*extinction(depth) + inscatter(depth);
+    #endif
+
+    #ifdef TONEMAP
+	float exposureBias = 10.0;
+	//albedo.rgb = hableTonemap(exposureBias*albedo.rgb);
+    #endif
 
 	#ifdef USE_OUTPUTS
 	outputColor.rgba = albedo;
