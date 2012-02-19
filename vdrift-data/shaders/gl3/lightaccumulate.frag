@@ -227,6 +227,17 @@ float screenFade(vec3 screenPos)
         ;
 }
 
+const vec3 scatterBeta = vec3(7.87e-6,1.573e-5,3.63e-5);
+const float scatterDensity = 1.0;
+vec3 inscatter(float worldDepth)
+{
+    return 1-exp(-worldDepth*scatterBeta*scatterDensity);
+}
+vec3 extinction(float worldDepth)
+{
+    return exp(-worldDepth*scatterBeta*scatterDensity);
+}
+
 void main(void)
 {
 	#ifdef SCREENSPACE
@@ -307,11 +318,15 @@ void main(void)
 			ambientDiffuse *= alpha_h+0.5;
 		else
 			reflectedLight *= max(0,mpercent-0.5)*2.0;
+
+        // fog!
+        float worldDepth = length(reconstructedEyespacePosition);
+        vec3 inscatterLight = inscatter(worldDepth);
 		
 		//final = ambientDiffuse + reflectedLight;//(0.25+cos_clamped(V,normal)*0.25);
 		//final = texture(reflectionCubeSampler, (invViewMatrix*vec4(normal,0.0)).xzy).rgb;
 		//final = abs(vec3(invProjectionMatrix[3].xyz));
-		final = ambientDiffuse+reflectedLight;
+		final = extinction(worldDepth)*(ambientDiffuse+reflectedLight)+inscatterLight;
         //final = vec3(notAO);
         //final = genericAmbient(normal)*ambientLightColor.rgb;
         //final = abs(reflect(invViewMatrix3*V,vec3(0,1,0)));
@@ -359,6 +374,7 @@ void main(void)
 			final = CommonBRDF(RealTimeRenderingBRDF(cdiff, m, Rf0, alpha_h, omega_h),E_l,omega_i);
 		}
 		final *= notShadow;
+        final *= extinction(length(reconstructedEyespacePosition));
 		
 		//final = vec3(reconstructedEyespacePosition);
 		//final = normalize(V);
