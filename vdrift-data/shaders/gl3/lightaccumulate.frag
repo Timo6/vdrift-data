@@ -275,7 +275,7 @@ void main(void)
         notAO *= omega_i;
         notAO = max(0.2,notAO);
 
-		vec3 ambientDiffuse = cdiff*(genericAmbient(normal)*ambientLightColor.rgb*0 + notAO);
+		vec3 ambientDiffuse = cdiff*genericAmbient(normal)*ambientLightColor.rgb*notAO;
 
         vec3 reconstructedEyespacePosition = screenToEyespace(screencoord, gbuf_depth);
 
