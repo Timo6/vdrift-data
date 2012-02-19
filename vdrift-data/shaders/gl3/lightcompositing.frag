@@ -49,7 +49,7 @@ void main(void)
 	
 	//final.rgb = linearTonemap(lightBuffer.rgb);
 	
-	float exposureBias = 12.0;
+	float exposureBias = 10.0;
 	//float exposureBias = 4.0;
 	vec3 curr = pow(hableTonemap(exposureBias*lightBuffer.rgb),vec3(1/2.2));
 	//vec3 curr = hejlTonemap(exposureBias*lightBuffer.rgb);
