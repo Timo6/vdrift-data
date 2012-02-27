@@ -238,7 +238,8 @@ mass = 7.25
 [camera.0]
 name = hood
 type = mount
-position = -0.008, 0.515, 0.18
+position = -0.0, 0.5, 0.3
+lookat = -1.0, 50.0, -15.0
 
 [camera.1]
 name = driver
@@ -249,20 +250,20 @@ lookat = -0.023, 0.32, 0.30
 [camera.2]
 name = chase rigid
 type = mount
-position = 0.0, -6.0, 1.5
-lookat = 0, 0, 0
+position = 0.0, -3.0, 1.0
+lookat = 0, 5, 0
 
 [camera.3]
 name = chase loose
 type = chase
-position = 0.0, -6.0, 2.0
+position = 0.0, -2.5, 1.0
 
 [camera.4]
 name = orbit
 type = orbit
-position = 0.0, -6.0, 2.0
+position = 0.0, -1.5, 2.0
 
 [camera.5]
 name = free
 type = free
-position = 0.0, -8.0, 2.0
+position = 0.0, -2.0, 2.0
