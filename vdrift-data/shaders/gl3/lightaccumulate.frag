@@ -283,8 +283,10 @@ void main(void)
 		float notAO = texture(aoSampler, screencoord).r;
 		vec3 light_direction = normalize(eyespaceLightDirection);
 		float omega_i = cos_clamped(light_direction,normal); //clamped cosine of angle between incoming light direction and surface normal
-        notAO *= omega_i;
-        notAO = max(0.2,notAO);
+        //notAO *= omega_i;
+        //notAO = max(0.2,notAO);
+        notAO = notAO * 0.8+0.2;
+        //notAO = 1;
 
 		vec3 ambientDiffuse = cdiff*genericAmbient(normal)*ambientLightColor.rgb*notAO;
 
