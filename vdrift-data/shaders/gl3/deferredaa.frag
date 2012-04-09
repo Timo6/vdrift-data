@@ -2066,6 +2066,17 @@ float GetColorLuminance( vec3 color )
 	return dot( color, vec3( 0.2126f, 0.7152f, 0.0722f ) );
 }
 
+vec3 adjustSaturation(vec3 val, float saturation)
+{
+    val = mix(vec3(GetColorLuminance(val)), val, saturation);
+    return val;
+}
+
+float vignette(vec2 uvCoord)
+{
+    return 1.0f-length(vec2(0.5,0.5) - uvCoord.xy);
+}
+
 void main(void)
 {
     vec4 unused4 = vec4(0,0,0,0);
@@ -2087,6 +2098,8 @@ void main(void)
             unused,
             unused,
             unused4).rgb;
+
+    color.rgb = vignette(uv.xy)*adjustSaturation(color.rgb, 0.8)*1.4;
 
 	color.a = 1.;
 }
