@@ -1,0 +1,4 @@
+name = Downloading
+widgets = 0
+background = box.png
+dialog = true

@@ -1,0 +1,354 @@
+name = SingleRace
+background = box.png
+dialog = false
+
+[ widget-00 ]
+type = label
+name = SingleRaceLabel
+text = Single Race
+center = 0.5, 0.1
+width = auto
+height = auto
+fontsize = 0.06
+enabled = 0
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-01 ]
+type = spinningcar
+name = PlayerSpinningCar
+setting = game.player
+values = options
+center = 0.2, 0.39
+carpos = -4.5, 0.4, -15
+spacing = 0.10
+width = auto
+height = auto
+fontsize = 0.03
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-02 ]
+type = stringwheel
+name = PlayerPaint
+setting = game.player_paint
+values = options
+hook = PlayerSpinningCar
+center = 0.2, 0.22
+spacing = 0.10
+width = auto
+height = auto
+fontsize = 0.03
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-03 ]
+type = colorpicker
+name = PlayerColor
+setting = game.player_color
+values = options
+hook = PlayerSpinningCar
+center = 0.225, 0.33
+width = 0.15
+height = 0.15
+enabled = 1
+selected = 1
+default = 0
+cancel = 0
+
+[ widget-04 ]
+type = stringwheel
+name = PlayerCar
+setting = game.player
+values = options
+hook = PlayerSpinningCar
+action = PlayerCarChange
+center = 0.2, 0.18
+spacing = 0.10
+width = auto
+height = auto
+fontsize = 0.03
+enabled = 1
+selected = 1
+default = 0
+cancel = 0
+
+[ widget-05 ]
+type = toggle
+name = ABSToggle
+setting = game.antilock
+values = options
+center = 0.3, 0.64
+spacing = 0.3
+width = auto
+height = auto
+fontsize = 0.03
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-06 ]
+type = toggle
+name = TCSToggle
+setting = game.traction_control
+values = options
+center = 0.3, 0.68
+spacing = 0.3
+width = auto
+height = auto
+fontsize = 0.03
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-06a ]
+type = toggle
+name = DamageToggle
+setting = game.vehicle_damage
+values = options
+center = 0.3, 0.72
+spacing = 0.3
+width = auto
+height = auto
+fontsize = 0.03
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-07 ]
+type = spinningcar
+name = OpponentSpinningCar
+setting = game.opponent
+values = options
+center = 0.65, 0.38
+carpos = -0.5, 1, -18
+colorwheel = false
+spacing = 0.10
+width = auto
+height = auto
+fontsize = 0.03
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-08 ]
+type = stringwheel
+name = OpponentPaint
+setting = game.opponent_paint
+values = options
+hook = OpponentSpinningCar
+center = 0.45, 0.22
+spacing = 0.10
+width = auto
+height = auto
+fontsize = 0.03
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-09 ]
+type = colorpicker
+name = OpponentColor
+setting = game.opponent_color
+values = options
+hook = OpponentSpinningCar
+center = 0.475, 0.33
+width = 0.15
+height = 0.15
+enabled = 1
+selected = 1
+default = 0
+cancel = 0
+
+[ widget-10 ]
+type = stringwheel
+name = OpponentCar
+setting = game.opponent
+values = options
+hook = OpponentSpinningCar
+action = OpponentCarChange
+center = 0.45, 0.18
+spacing = 0.10
+width = auto
+height = auto
+fontsize = 0.03
+enabled = 1
+selected = 1
+default = 0
+cancel = 0
+
+[ widget-11 ]
+type = button
+name = AddOpponentButton
+text = Add
+tip = Add an opponent to race against (max 3).
+action = AddOpponent
+center = 0.5, 0.54
+color = 0.0, 0.8, 0.0
+width = auto
+height = 0.05
+fontsize = 0.04
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-12 ]
+type = label
+name = OpponentsLabel
+text = Opponents:
+center = 0.44, 0.64
+width = auto
+height = auto
+fontsize = 0.03
+enabled = 0
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-12a ]
+type = label
+name = OpponentsList
+values = options
+setting = game.opponents
+center = 0.55, 0.64
+width = auto
+height = auto
+fontsize = 0.03
+enabled = 0
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-13 ]
+type = slider
+name = AIDifficultySlider
+setting = game.ai_difficulty
+values = options
+center = 0.7, 0.68
+width = auto
+height = auto
+fontsize = 0.03
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-14 ]
+type = multi-image
+name = TrackMultiImage
+setting = game.track
+values = options
+center = 0.8, 0.38
+width = 0.25
+height = 0.333
+fontsize = 0.04
+enabled = 0
+selected = 0
+default = 0
+cancel = 0
+prefix = tracks/
+postfix = /trackshot.png
+
+[ widget-15 ]
+type = stringwheel
+name = TrackWheel
+setting = game.track
+values = options
+hook = TrackMultiImage
+center = 0.725, 0.18
+spacing = 0.10
+width = auto
+height = auto
+fontsize = 0.03
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-15a ]
+type = toggle
+name = DynamicTrackToggle
+setting = game.track_dynamic
+values = options
+center = 0.85, 0.64
+spacing = 0.3
+width = auto
+height = auto
+fontsize = 0.03
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-16 ]
+type = toggle
+name = ReverseTrackToggle
+setting = game.reverse
+values = options
+center = 0.85, 0.68
+spacing = 0.3
+width = auto
+height = auto
+fontsize = 0.03
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-17 ]
+type = intwheel
+name = LapWheel
+setting = game.number_of_laps
+values = options
+center = 0.85, 0.72
+spacing = 0.3
+width = auto
+height = auto
+fontsize = 0.03
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-18 ]
+type = button
+name = StartRaceButton
+text = Start Race
+tip = Start a race using the selected car and track.
+action = StartRace
+center = 0.3, 0.86
+color = 0.0, 0.8, 0.0
+width = auto
+height = 0.05
+fontsize = 0.04
+enabled = 1
+selected = 0
+default = 1
+cancel = 0
+
+[ widget-19 ]
+type = button
+name = StartRaceBackButton
+text = Back to Main
+tip = Return to the Main menu.
+action = Main
+center = 0.7, 0.86
+color = 0.8, 0.0, 0.0
+width = auto
+height = 0.05
+fontsize = 0.04
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
