@@ -1,0 +1,15 @@
+start position 0 = -103.68,-8.8,14.14
+start position 1 = -111.11,-8.8,9.97
+start position 2 = -116.52,-8.8,16.80
+start position 3 = -124.26,-8.8,12.89
+start orientation 0 = 0, -80.48, 0
+start orientation 1 = 0, -77.24, 0
+start orientation 2 = 0, -77.50, 0
+start orientation 3 = 0, -77.46, 0
+cull faces = true
+lap sequences = 2
+lap sequence 0 = 0.000000,0.000000,0.000000
+lap sequence 1 = 0.000000,788.000000,0.000000
+non-treaded friction coefficient = 1.000000
+treaded friction coefficient = 0.900000
+
