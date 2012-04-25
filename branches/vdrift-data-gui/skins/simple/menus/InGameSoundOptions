@@ -22,12 +22,27 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-01 ]
+[ widget-01a ]
+type = stringwheel
+name = InGameSoundSources
+setting = sound.sources
+values = options
+center = 0.4, 0.22
+spacing = 0.10
+width = auto
+height = auto
+fontsize = 0.03
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-01b ]
 type = slider
 name = InGameFXVolumeSlider
 setting = sound.volume
 values = options
-center = 0.5, 0.25
+center = 0.5, 0.27
 width = auto
 height = auto
 fontsize = 0.03
