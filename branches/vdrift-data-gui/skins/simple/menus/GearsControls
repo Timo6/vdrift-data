@@ -159,7 +159,7 @@ default = 0
 cancel = 0
 
 [ widget-09 ]
-type = toggle
+type = stringwheel
 name = HGateShifter
 setting = joystick.hgateshifter
 values = options

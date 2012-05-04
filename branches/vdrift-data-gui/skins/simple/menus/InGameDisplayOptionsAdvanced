@@ -93,8 +93,8 @@ default = 0
 cancel = 0
 
 [ widget-06 ]
-type = toggle
-name = InGameCarShadowsToggle
+type = stringwheel
+name = InGameCarShadowsWheel
 setting = display.car_shadows
 values = options
 center = 0.5, 0.45

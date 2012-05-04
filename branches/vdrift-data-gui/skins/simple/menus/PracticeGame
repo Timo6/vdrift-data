@@ -116,8 +116,8 @@ default = 0
 cancel = 0
 
 [ widget-07 ]
-type = toggle
-name = ABSToggle
+type = stringwheel
+name = ABSWheel
 setting = game.antilock
 values = options
 center = 0.35, 0.62
@@ -131,8 +131,8 @@ default = 0
 cancel = 0
 
 [ widget-08 ]
-type = toggle
-name = TCSToggle
+type = stringwheel
+name = TCSWheel
 setting = game.traction_control
 values = options
 center = 0.35, 0.66
@@ -146,8 +146,8 @@ default = 0
 cancel = 0
 
 [ widget-08a ]
-type = toggle
-name = DamageToggle
+type = stringwheel
+name = DamageWheel
 setting = game.vehicle_damage
 values = options
 center = 0.35, 0.70
@@ -161,8 +161,8 @@ default = 0
 cancel = 0
 
 [ widget-09 ]
-type = toggle
-name = DynamicTrackToggle
+type = stringwheel
+name = DynamicTrackWheel
 setting = game.track_dynamic
 values = options
 center = 0.75, 0.62
@@ -176,8 +176,8 @@ default = 0
 cancel = 0
 
 [ widget-09a ]
-type = toggle
-name = ReverseTrackToggle
+type = stringwheel
+name = ReverseTrackWheel
 setting = game.reverse
 values = options
 center = 0.75, 0.66
@@ -191,8 +191,8 @@ default = 0
 cancel = 0
 
 [ widget-10 ]
-type = toggle
-name = RecordReplayToggle
+type = stringwheel
+name = RecordReplayWheel
 setting = game.record
 values = options
 center = 0.75, 0.70

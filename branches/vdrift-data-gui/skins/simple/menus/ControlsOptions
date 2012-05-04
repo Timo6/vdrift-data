@@ -37,8 +37,8 @@ default = 0
 cancel = 0
 
 [ widget-02 ]
-type = toggle
-name = AutoTransToggle 
+type = stringwheel
+name = AutoTransWheel
 setting = control.autotrans 
 values = options 
 center = 0.5, 0.29 
@@ -51,8 +51,8 @@ default = 0
 cancel = 0 
  
 [ widget-03 ] 
-type = toggle 
-name = AutoClutchToggle
+type = stringwheel 
+name = AutoClutchWheel
 setting = control.autoclutch
 values = options
 center = 0.5, 0.33

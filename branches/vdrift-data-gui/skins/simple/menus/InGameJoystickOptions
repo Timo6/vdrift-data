@@ -37,8 +37,8 @@ default = 0
 cancel = 0
 
 [ widget-02 ]
-type = toggle
-name = InGame200DegreeToggle
+type = stringwheel
+name = InGame200DegreeWheel
 setting = joystick.two_hundred
 values = options
 center = 0.5, 0.29
@@ -65,8 +65,8 @@ default = 0
 cancel = 0
 
 [ widget-04 ]
-type = toggle
-name = InGameFFInvertToggle
+type = stringwheel
+name = InGameFFInvertWheel
 setting = joystick.ff_invert
 values = options
 center = 0.5, 0.40

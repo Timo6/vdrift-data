@@ -62,15 +62,10 @@ default = 0
 cancel = 0
 
 [ widget-04 ]
-type = toggle
-name = HeldOnceToggle
-text = Held/Once
-tip = Will this key be held (analog controls) or pressed once?
-setting = controledit.key.held_once
-values = manual
-toggleval = true
-true = Once
-false = Held
+type = stringwheel
+name = HeldOnceWheel
+setting = controledit.held_once
+values = options
 center = 0.5, 0.25
 width = auto
 height = auto
@@ -81,15 +76,10 @@ default = 0
 cancel = 0
 
 [ widget-05 ]
-type = toggle
-name = UpDownToggle
-text = Up/Down
-tip = Trigger the control when the key is pressed down or let up?
-setting = controledit.key.up_down
-values = manual
-toggleval = false
-true = Down
-false = Up
+type = stringwheel
+name = UpDownWheel
+setting = controledit.up_down
+values = options
 center = 0.5, 0.29
 width = auto
 height = auto

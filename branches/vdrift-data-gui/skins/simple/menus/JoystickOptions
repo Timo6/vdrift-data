@@ -37,8 +37,8 @@ default = 0
 cancel = 0
 
 #[ widget-02 ]
-#type = toggle
-#name = 200DegreeToggle
+#type = stringwheel
+#name = 200DegreeWheel
 #setting = joystick.two_hundred
 #values = options
 #center = 0.5, 0.29
@@ -65,8 +65,8 @@ default = 0
 cancel = 0
 
 [ widget-04 ]
-type = toggle
-name = FFInvertToggle
+type = stringwheel
+name = FFInvertWheel
 setting = joystick.ff_invert
 values = options
 center = 0.5, 0.40

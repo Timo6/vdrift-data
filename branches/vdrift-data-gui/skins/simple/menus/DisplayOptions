@@ -38,8 +38,8 @@ default = 0
 cancel = 0
 
 [ widget-02 ]
-type = toggle
-name = FullscreenToggle
+type = stringwheel
+name = FullscreenWheel
 setting = display.fullscreen
 values = options
 center = 0.5, 0.25
@@ -52,8 +52,8 @@ default = 0
 cancel = 0
 
 [ widget-03 ]
-type = toggle
-name = SpeedUnitsToggle
+type = stringwheel
+name = SpeedUnitsWheel
 setting = display.mph
 values = options
 center = 0.5, 0.29
@@ -66,8 +66,8 @@ default = 0
 cancel = 0
 
 [ widget-04 ]
-type = toggle
-name = FPSToggle
+type = stringwheel
+name = FPSWheel
 setting = display.show_fps
 values = options
 center = 0.5, 0.33
@@ -80,8 +80,8 @@ default = 0
 cancel = 0
 
 [ widget-05 ]
-type = toggle
-name = HUDToggle
+type = stringwheel
+name = HUDWheel
 setting = display.show_hud
 values = options
 center = 0.5, 0.37
@@ -122,8 +122,8 @@ default = 0
 cancel = 0
 
 [ widget-07 ]
-type = toggle
-name = InputGraphToggle
+type = stringwheel
+name = InputGraphWheel
 setting = display.input_graph
 values = options
 center = 0.5, 0.49
@@ -136,8 +136,8 @@ default = 0
 cancel = 0
 
 [ widget-08 ]
-type = toggle
-name = TrackMapToggle
+type = stringwheel
+name = TrackMapWheel
 setting = display.trackmap
 values = options
 center = 0.5, 0.53
@@ -150,8 +150,8 @@ default = 0
 cancel = 0
 
 [ widget-09 ]
-type = toggle
-name = RacingLineToggle
+type = stringwheel
+name = RacingLineWheel
 setting = display.racingline
 values = options
 center = 0.5, 0.57

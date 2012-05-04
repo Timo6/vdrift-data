@@ -38,8 +38,8 @@ default = 0
 cancel = 0
 
 [ widget-02 ]
-type = toggle
-name = InGameFullscreenToggle
+type = stringwheel
+name = InGameFullscreenWheel
 setting = display.fullscreen
 values = options
 center = 0.5, 0.29
@@ -52,8 +52,8 @@ default = 0
 cancel = 0
 
 [ widget-03 ]
-type = toggle
-name = InGameSpeedUnitsToggle
+type = stringwheel
+name = InGameSpeedUnitsWheel
 setting = display.mph
 values = options
 center = 0.5, 0.33
@@ -66,8 +66,8 @@ default = 0
 cancel = 0
 
 [ widget-04 ]
-type = toggle
-name = InGameFPSToggle
+type = stringwheel
+name = InGameFPSWheel
 setting = display.show_fps
 values = options
 center = 0.5, 0.37
@@ -80,8 +80,8 @@ default = 0
 cancel = 0
 
 [ widget-05 ]
-type = toggle
-name = InGameHUDToggle
+type = stringwheel
+name = InGameHUDWheel
 setting = display.show_hud
 values = options
 center = 0.5, 0.41
@@ -108,8 +108,8 @@ default = 0
 cancel = 0
 
 [ widget-07 ]
-type = toggle
-name = InGameInputGraphToggle
+type = stringwheel
+name = InGameInputGraphWheel
 setting = display.input_graph
 values = options
 center = 0.5, 0.49
@@ -122,8 +122,8 @@ default = 0
 cancel = 0
 
 [ widget-08 ]
-type = toggle
-name = InGameTrackMapToggle
+type = stringwheel
+name = InGameTrackMapWheel
 setting = display.trackmap
 values = options
 center = 0.5, 0.53
