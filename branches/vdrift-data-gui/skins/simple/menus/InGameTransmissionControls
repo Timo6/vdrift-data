@@ -13,69 +13,71 @@ layer = -1
 type = label
 name = InGameTransmissionControls
 text = Assign Transmission Controls
-center = 0.5, 0.1
-width = auto
-height = auto
+center = 0.3, 0.1
+width = 0.2
 fontsize = 0.06
-enabled = 0
-selected = 0
-default = 0
-cancel = 0
+align = left
 
-[ widget-01 ]
+[ widget-01a ]
+type = label
+name = InGameShiftUpControlLabel
+text = Shift Up
+center = 0.1, 0.30
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-01b ]
 type = controlgrab
 name = InGameShiftUpControl
-text = Shift Up
 tip = The shift up control changes the car's gear to the next one.
 setting = disengage_shift_up
-center = 0.5, 0.30
-width = auto
-height = auto
+center = 0.25, 0.30
+width = 0.2
 fontsize = 0.03
 enabled = 1
 selected = 1
 default = 0
 cancel = 0
 
-[ widget-02 ]
+[ widget-02a ]
+type = label
+name = InGameShiftDownControlLabel
+text = Shift Down
+center = 0.1, 0.34
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-02b ]
 type = controlgrab
 name = InGameShiftDownControl
-text = Shift Down
 tip = The shift down control changes the car's gear to the previous one.
 setting = disengage_shift_down
-center = 0.5, 0.34
-width = auto
-height = auto
+center = 0.25, 0.34
+width = 0.2
 fontsize = 0.03
 enabled = 1
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-03 ]
-type = controlgrab
-name = InGameEngageClutchControl
-text = Engage Clutch
-tip = The engage clutch control lets out the clutch. This must be done after every shift.
-setting = engage
-center = 0.5, 0.38
-width = auto
-height = auto
+[ widget-04a ]
+type = label
+name = InGameAnalogClutchControlLabel
+text = Analog Clutch
+center = 0.1, 0.38
+width = 0.2
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
+align = right
 
-[ widget-04 ]
+[ widget-04b ]
 type = controlgrab
 name = InGameAnalogClutchControl
-text = Analog Clutch
 tip = The analog clutch control can allow you to use an external clutch pedal.
 setting = clutch
-center = 0.5, 0.42
-width = auto
-height = auto
+center = 0.25, 0.38
+width = 0.2
 fontsize = 0.03
 enabled = 1
 selected = 0

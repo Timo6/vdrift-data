@@ -13,59 +13,78 @@ layer = -1
 type = label
 name = InGameSoundOptionsLabel
 text = Sound Options
-center = 0.5, 0.1
-width = auto
-height = auto
+center = 0.3, 0.1
+width = 0.2
 fontsize = 0.06
-enabled = 0
-selected = 0
-default = 0
-cancel = 0
+align = left
 
 [ widget-01a ]
+type = label
+name = InGameSoundSourcesLabel
+text = Sound Sources
+center = 0.1, 0.22
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-01b ]
 type = stringwheel
 name = InGameSoundSources
 setting = sound.sources
-values = options
-center = 0.4, 0.22
-spacing = 0.10
-width = auto
-height = auto
+center = 0.3, 0.22
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-01b ]
+[ widget-02a ]
+type = label
+name = InGameFXVolumeLabel
+text = Sound Effects Volume
+center = 0.1, 0.26
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-02b ]
 type = slider
 name = InGameFXVolumeSlider
 setting = sound.volume
-values = options
-center = 0.5, 0.27
-width = auto
-height = auto
+center = 0.3, 0.26
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
 selected = 1
 default = 0
 cancel = 0
 
-[ widget-02 ]
+[ widget-03a ]
+type = label
+name = InGameMusicVolumeLabel
+text = Music Volume
+center = 0.1, 0.30
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-03b ]
 type = slider
 name = InGameMusicVolumeSlider
 setting = sound.music_volume
-values = options
-center = 0.5, 0.32
-width = auto
-height = auto
+center = 0.3, 0.30
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 0
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-03 ]
+[ widget-04 ]
 type = button
 name = InGameSoundOptionsOKButton
 text = OK
@@ -81,7 +100,7 @@ selected = 0
 default = 1
 cancel = 0
 
-[ widget-04 ]
+[ widget-05 ]
 type = button
 name = InGameSoundOptionsCancelButton
 text = Cancel

@@ -13,27 +13,18 @@ layer = -1
 type = label
 name = SingleRaceLabel
 text = Single Race
-center = 0.5, 0.1
-width = auto
-height = auto
+center = 0.3, 0.1
+width = 0.2
 fontsize = 0.06
-enabled = 0
-selected = 0
-default = 0
-cancel = 0
+align = left
 
 [ widget-01 ]
 type = multi-image
 name = TrackMultiImage
 setting = game.track
-values = options
-center = 0.5, 0.33
+center = 0.525, 0.33
 width = 0.25
 height = 0.325
-enabled = 0
-selected = 0
-default = 0
-cancel = 0
 prefix = tracks/
 postfix = /trackshot.png
 
@@ -41,9 +32,8 @@ postfix = /trackshot.png
 type = spinningcar
 name = OpponentSpinningCar
 setting = game.opponent
-values = options
-center = 0.5, 0.5
-carpos = -0.5, -2.0, -15
+center = 0.525, 0.5
+carpos = -0.0, -2.0, -15
 width = auto
 height = auto
 enabled = 1
@@ -51,107 +41,157 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-03 ]
+[ widget-03a ]
+type = label
+name = TrackLabel
+text = Track
+center = 0.1, 0.18
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-03b ]
 type = stringwheel
 name = TrackWheel
 setting = game.track
-values = options
-center = 0.18, 0.18
-spacing = 0.10
-width = auto
-height = auto
+center = 0.3, 0.18
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-04 ]
+[ widget-04a ]
+type = label
+name = LapLabel
+text = Laps
+center = 0.1, 0.22
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-04b ]
 type = intwheel
 name = LapWheel
 setting = game.number_of_laps
-values = options
-center = 0.28, 0.22
-spacing = 0.3
-width = auto
-height = auto
+center = 0.3, 0.22
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-05 ]
+[ widget-05a ]
+type = label
+name = ReverseTrackLabel
+text = Reverse Track
+center = 0.1, 0.26
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-05b ]
 type = stringwheel
 name = ReverseTrackWheel
 setting = game.reverse
-values = options
-center = 0.28, 0.26
-spacing = 0.3
-width = auto
-height = auto
+center = 0.3, 0.26
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-06 ]
+[ widget-06a ]
+type = label
+name = DynamicTrackLabel
+text = Dynamic Objects
+center = 0.1, 0.30
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-06b ]
 type = stringwheel
 name = DynamicTrackWheel
 setting = game.track_dynamic
-values = options
-center = 0.28, 0.30
-spacing = 0.3
-width = auto
-height = auto
+center = 0.3, 0.30
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-07 ]
+[ widget-07a ]
+type = label
+name = OpponentSetLsbel
+text = Driver
+center = 0.1, 0.36
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-07b ]
 type = intwheel
+name = OpponentSet
 setting = game.opponents
-values = options
 action = OpponentsChange
-center = 0.18, 0.36
-spacing = 0.10
-width = auto
-height = auto
+center = 0.3, 0.36
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-09 ]
+[ widget-09a ]
+type = label
+name = OpponentCarLabel
+text = Car
+center = 0.1, 0.40
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-09b ]
 type = stringwheel
 name = OpponentCar
 setting = game.opponent
-values = options
 action = OpponentCarChange
-center = 0.18, 0.40
-spacing = 0.10
-width = auto
-height = auto
+center = 0.3, 0.40
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
-selected = 1
+selected = 0
 default = 0
 cancel = 0
 
-[ widget-10 ]
+[ widget-10a ]
+type = label
+name = OpponentPaintLabel
+text = Paint
+center = 0.1, 0.44
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-10b ]
 type = stringwheel
 name = OpponentPaint
 setting = game.opponent_paint
-values = options
 action = OpponentPaintChange
-center = 0.18, 0.44
-spacing = 0.10
-width = auto
-height = auto
+center = 0.3, 0.44
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
 selected = 0
@@ -162,69 +202,90 @@ cancel = 0
 type = colorpicker
 name = OpponentColor
 setting = game.opponent_color
-values = options
 action = OpponentColorChange
-center = 0.2, 0.54
-width = 0.15
+center = 0.29, 0.54
+width = 0.16
 height = 0.15
-enabled = 1
-selected = 1
-default = 0
-cancel = 0
 
-[ widget-08 ]
+[ widget-08a ]
+type = label
+name = AIDifficultyLabel
+text = AI
+center = 0.1, 0.64
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-08b ]
 type = slider
 name = AIDifficultySlider
 setting = game.ai_difficulty
-values = options
-center = 0.40, 0.64
-width = auto
-height = auto
+center = 0.3, 0.64
+width = 0.16
+height = 0.04
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
-[ widget-12 ]
+[ widget-12a ]
+type = label
+name = ABSLabel
+text = Antilock Brakes
+center = 0.1, 0.68
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-12b ]
 type = stringwheel
 name = ABSWheel
 setting = game.antilock
-values = options
-center = 0.28, 0.68
-spacing = 0.3
-width = auto
-height = auto
+center = 0.3, 0.68
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-13 ]
+[ widget-13a ]
+type = label
+name = TCSLabel
+text = Traction Control
+center = 0.1, 0.72
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-13b ]
 type = stringwheel
 name = TCSWheel
 setting = game.traction_control
-values = options
-center = 0.28, 0.72
-spacing = 0.3
-width = auto
-height = auto
+center = 0.3, 0.72
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-14 ]
+[ widget-14a ]
+type = label
+name = DamageLabel
+text = Car Damage
+center = 0.1, 0.76
+width = 0.2
+height = 0.04
+fontsize = 0.03
+align = right
+
+[ widget-14b ]
 type = stringwheel
 name = DamageWheel
 setting = game.vehicle_damage
-values = options
-center = 0.28, 0.76
-spacing = 0.3
-width = auto
-height = auto
+center = 0.3, 0.76
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
 selected = 0
@@ -236,8 +297,7 @@ type = label
 name = OpponentsLabel
 text = Start List:
 center = 0.72, 0.18
-width = auto
-height = auto
+width = 0.2
 fontsize = 0.03
 enabled = 0
 selected = 0
@@ -249,207 +309,207 @@ type = label
 name = StartNum0
 text = 1.
 center = 0.72, 0.22
-width = auto
-height = auto
+width = 0.04
 fontsize = 0.03
+align = right
 
 [ widget-16b ]
 type = label
 name = StartNum1
 text = 2.
 center = 0.84, 0.22
-width = auto
-height = auto
+width = 0.04
 fontsize = 0.03
+align = right
 
 [ widget-16c ]
 type = label
 name = StartNum2
 text = 3.
 center = 0.72, 0.26
-width = auto
-height = auto
+width = 0.04
 fontsize = 0.03
+align = right
 
 [ widget-16d ]
 type = label
 name = StartNum3
 text = 4.
 center = 0.84, 0.26
-width = auto
-height = auto
+width = 0.04
 fontsize = 0.03
+align = right
 
 [ widget-16e ]
 type = label
 name = StartNum4
 text = 5.
 center = 0.72, 0.30
-width = auto
-height = auto
+width = 0.04
 fontsize = 0.03
+align = right
 
 [ widget-16f ]
 type = label
 name = StartNum5
 text = 6.
 center = 0.84, 0.30
-width = auto
-height = auto
+width = 0.04
 fontsize = 0.03
+align = right
 
 [ widget-16g ]
 type = label
 name = StartNum6
 text = 7.
 center = 0.72, 0.34
-width = auto
-height = auto
+width = 0.04
 fontsize = 0.03
+align = right
 
 [ widget-16h ]
 type = label
 name = StartNum7
 text = 8.
 center = 0.84, 0.34
-width = auto
-height = auto
+width = 0.04
 fontsize = 0.03
+align = right
 
 [ widget-16i ]
 type = label
 name = StartNum8
 text = 9.
 center = 0.72, 0.38
-width = auto
-height = auto
+width = 0.04
 fontsize = 0.03
+align = right
 
 [ widget-16j ]
 type = label
 name = StartNum9
 text = 10.
 center = 0.84, 0.38
-width = auto
-height = auto
+width = 0.04
 fontsize = 0.03
+align = right
 
 [ widget-16k ]
 type = label
 name = StartNum10
 text = 11.
 center = 0.72, 0.42
-width = auto
-height = auto
+width = 0.04
 fontsize = 0.03
+align = right
 
 [ widget-16l ]
 type = label
 name = StartNum11
 text = 12.
 center = 0.84, 0.42
-width = auto
-height = auto
+width = 0.04
 fontsize = 0.03
+align = right
 
 [ widget-16m ]
 type = label
 name = StartNum12
 text = 13.
 center = 0.72, 0.46
-width = auto
-height = auto
+width = 0.04
 fontsize = 0.03
+align = right
 
 [ widget-16n ]
 type = label
 name = StartNum13
 text = 14.
 center = 0.84, 0.46
-width = auto
-height = auto
+width = 0.04
 fontsize = 0.03
+align = right
 
 [ widget-16o ]
 type = label
 name = StartNum14
 text = 15.
 center = 0.72, 0.50
-width = auto
-height = auto
+width = 0.04
 fontsize = 0.03
+align = right
 
 [ widget-16p ]
 type = label
 name = StartNum15
 text = 16.
 center = 0.84, 0.50
-width = auto
-height = auto
+width = 0.04
 fontsize = 0.03
+align = right
 
 [ widget-16q ]
 type = label
 name = StartNum16
 text = 17.
 center = 0.72, 0.54
-width = auto
-height = auto
+width = 0.04
 fontsize = 0.03
+align = right
 
 [ widget-16r ]
 type = label
 name = StartNum17
 text = 18.
 center = 0.84, 0.54
-width = auto
-height = auto
+width = 0.04
 fontsize = 0.03
+align = right
 
 [ widget-16s ]
 type = label
 name = StartNum18
 text = 19.
 center = 0.72, 0.58
-width = auto
-height = auto
+width = 0.04
 fontsize = 0.03
+align = right
 
 [ widget-16t ]
 type = label
 name = StartNum19
 text = 20.
 center = 0.84, 0.58
-width = auto
-height = auto
+width = 0.04
 fontsize = 0.03
+align = right
 
 [ widget-16u ]
 type = label
 name = StartNum20
 text = 21.
 center = 0.72, 0.62
-width = auto
-height = auto
+width = 0.04
 fontsize = 0.03
+align = right
 
 [ widget-16v ]
 type = label
 name = StartNum21
 text = 22.
 center = 0.84, 0.62
-width = auto
-height = auto
+width = 0.04
 fontsize = 0.03
+align = right
 
 [ widget-16w ]
 type = label
 name = StartNum22
 text = 23.
 center = 0.72, 0.66
-width = auto
-height = auto
+width = 0.04
 fontsize = 0.03
+align = right
 
 [ widget-16x ]
 type = label
@@ -459,6 +519,7 @@ center = 0.84, 0.66
 width = auto
 height = auto
 fontsize = 0.03
+align = right
 
 [ widget-17a ]
 type = label

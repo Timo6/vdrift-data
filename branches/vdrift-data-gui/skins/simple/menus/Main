@@ -16,10 +16,6 @@ filename = logo.png
 center = 0.5, 0.15
 width = 0.5
 height = 0.667
-enabled = 0
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-01 ]
 type = button

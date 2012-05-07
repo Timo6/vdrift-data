@@ -12,16 +12,12 @@ layer = -1
 [ widget-00 ]
 type = label
 name = NoOpponentsErrorMessage
-text = Before starting the race, click "Add" to add opponents.
+text = Before starting the race add at least one opponent.
 color = 0.8, 0.3, 0.3
 center = 0.5, 0.45
 width = auto
 height = auto
 fontsize = 0.04
-enabled = 0
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-01 ]
 type = button

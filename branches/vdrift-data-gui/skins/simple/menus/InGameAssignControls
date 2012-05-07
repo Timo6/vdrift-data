@@ -13,14 +13,10 @@ layer = -1
 type = label
 name = InGameAssignControls
 text = Assign Controls
-center = 0.5, 0.1
-width = auto
-height = auto
+center = 0.3, 0.1
+width = 0.2
 fontsize = 0.06
-enabled = 0
-selected = 0
-default = 0
-cancel = 0
+align = left
 
 [ widget-01 ]
 type = button

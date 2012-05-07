@@ -13,14 +13,10 @@ layer = -1
 type = label
 name = EditMouseMotionControlLabel1
 text = Edit Mouse Motion Control
-center = 0.5, 0.1
-width = auto
-height = auto
+center = 0.3, 0.1
+width = 0.2
 fontsize = 0.06
-enabled = 0
-selected = 0
-default = 0
-cancel = 0
+align = left
 
 [ widget-01 ]
 type = label
@@ -61,42 +57,66 @@ selected = 0
 default = 0
 cancel = 0
 
-[ widget-04 ]
+[ widget-04a ]
+type = label
+name = DeadzoneLabel
+text = Deadzone
+center = 0.1, 0.25
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-04b ]
 type = slider
 name = DeadzoneSlider
 setting = controledit.deadzone
-values = options
-center = 0.5, 0.25
-width = auto
-height = auto
+center = 0.3, 0.25
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
 selected = 1
 default = 0
 cancel = 0
 
-[ widget-05 ]
+[ widget-05a ]
+type = label
+name = GainLabel
+text = Gain
+center = 0.1, 0.31
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-05b ]
 type = slider
 name = GainSlider
 setting = controledit.gain
-values = options
-center = 0.5, 0.31
-width = auto
-height = auto
+center = 0.3, 0.31
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-06 ]
+[ widget-06a ]
+type = label
+name = ExponentLabel
+text = Exponent
+center = 0.1, 0.37
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-06b ]
 type = slider
 name = ExponentSlider
 setting = controledit.exponent
-values = options
-center = 0.5, 0.37
-width = auto
-height = auto
+center = 0.3, 0.37
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
 selected = 0

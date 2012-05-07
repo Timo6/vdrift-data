@@ -13,111 +13,142 @@ layer = -1
 type = label
 name = InGameCameraControls
 text = Assign Camera Movement Controls
-center = 0.5, 0.1
-width = auto
-height = auto
+center = 0.3, 0.1
+width = 0.2
 fontsize = 0.06
-enabled = 0
-selected = 0
-default = 0
-cancel = 0
+align = left
 
-[ widget-01 ]
+[ widget-01a ]
+type = label
+name = InGamePanCameraLeftLabel
+text = Pan Left
+center = 0.1, 0.25
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-01b ]
 type = controlgrab
 name = InGamePanCameraLeft
-text = Pan Left
 tip = Turn the camera view to the left.
 setting = pan_left
 analog = 1
-center = 0.5, 0.25
-spacing = 0.2
-width = auto
-height = auto
+center = 0.25, 0.25
+width = 0.2
 fontsize = 0.03
 enabled = 1
 selected = 1
 default = 0
 cancel = 0
 
-[ widget-02 ]
+[ widget-02a ]
+type = label
+name = InGamePanCameraRightLabel
+text = Pan Right
+center = 0.1, 0.29
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-02b ]
 type = controlgrab
 name = InGamePanCameraRight
-text = Pan Right
 tip = Turn the camera view to the right.
 setting = pan_right
 analog = 1
-center = 0.5, 0.29
-spacing = 0.2
-width = auto
-height = auto
+center = 0.25, 0.29
+width = 0.2
 fontsize = 0.03
 enabled = 1
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-03 ]
+[ widget-03a ]
+type = label
+name = InGamePanCameraUpLabel
+text = Pan Up
+center = 0.1, 0.33
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-03b ]
 type = controlgrab
 name = InGamePanCameraUp
-text = Pan Up
 tip = Turn the camera view upwards.
 setting = pan_up
 analog = 1
-center = 0.5, 0.33
-spacing = 0.2
-width = auto
-height = auto
+center = 0.25, 0.33
+width = 0.2
 fontsize = 0.03
 enabled = 1
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-04 ]
+[ widget-04a ]
+type = label
+name = InGamePanCameraDownLabel
+text = Pan Down
+center = 0.1, 0.37
+width = 0.2
+fontsize = 0.03
+
+[ widget-04b ]
 type = controlgrab
 name = InGamePanCameraDown
-text = Pan Down
 tip = Turn the camera view downwards.
 setting = pan_down
 analog = 1
-center = 0.5, 0.37
-spacing = 0.2
-width = auto
-height = auto
+center = 0.25, 0.37
+width = 0.2
 fontsize = 0.03
 enabled = 1
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-05 ]
+[ widget-05a ]
+type = label
+name = InGameZoomCameraInLabel
+text = Zoom In
+center = 0.1, 0.41
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-05b ]
 type = controlgrab
 name = InGameZoomCameraIn
-text = Zoom In
 tip = Zoom camera in.
 setting = zoom_in
 analog = 1
-center = 0.5, 0.41
-spacing = 0.2
-width = auto
-height = auto
+center = 0.25, 0.41
+width = 0.2
 fontsize = 0.03
 enabled = 1
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-06 ]
+[ widget-06a ]
+type = label
+name = InGameZoomCameraOutLabel
+text = Zoom Out
+center = 0.1, 0.45
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-06b ]
 type = controlgrab
 name = InGameZoomCameraOut
-text = Zoom Out
 tip = Zoom camera out.
 setting = zoom_out
 analog = 1
-center = 0.5, 0.45
-spacing = 0.2
-width = auto
-height = auto
+center = 0.25, 0.45
+width = 0.2
 fontsize = 0.03
 enabled = 1
 selected = 0

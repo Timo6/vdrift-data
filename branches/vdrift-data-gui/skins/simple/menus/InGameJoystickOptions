@@ -13,65 +13,93 @@ layer = -1
 type = label
 name = InGameJoystickOptionsLabel
 text = Joystick Options
-center = 0.5, 0.1
-width = auto
-height = auto
+center = 0.3, 0.1
+width = 0.2
 fontsize = 0.06
-enabled = 0
-selected = 0
-default = 0
-cancel = 0
+align = left
 
-[ widget-01 ]
+[ widget-01a ]
+type = label
+name = InGameJoystickTypeLabel
+text = Joystick Type
+center = 0.1, 0.29
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-01b ]
 type = stringwheel
 name = InGameJoystickTypeWheel
 setting = joystick.type
-values = options
-center = 0.5, 0.25
-width = auto
-height = auto
+center = 0.3, 0.29
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
 selected = 1
 default = 0
 cancel = 0
 
-[ widget-02 ]
+[ widget-02a ]
+type = label
+name = 200DegreeLabel
+text = 200 Degree Wheel
+center = 0.1, 0.29
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-02b ]
 type = stringwheel
 name = InGame200DegreeWheel
 setting = joystick.two_hundred
-values = options
-center = 0.5, 0.29
-width = auto
-height = auto
+center = 0.3, 0.29
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-03 ]
+[ widget-03a ]
+type = label
+name = InGameFFGainLabel
+text = Force Feedback Gain
+center = 0.1, 0.34
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-03b ]
 type = slider
 name = InGameFFGainSlider
 setting = joystick.ff_gain
-values = options
-center = 0.5, 0.34
-width = auto
-height = auto
+center = 0.3, 0.34
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 0
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-04 ]
+[ widget-04a ]
+type = label
+name = InGameFFInvertLabel
+text = Invert Feedback Force
+center = 0.1, 0.40
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-04b ]
 type = stringwheel
 name = InGameFFInvertWheel
 setting = joystick.ff_invert
-values = options
-center = 0.5, 0.40
-width = auto
-height = auto
+center = 0.3, 0.40
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 0
 selected = 0

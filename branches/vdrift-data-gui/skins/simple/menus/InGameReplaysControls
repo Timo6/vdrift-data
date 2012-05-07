@@ -13,41 +13,49 @@ layer = -1
 type = label
 name = InGameReplaysControls
 text = Assign Replay Controls
-center = 0.5, 0.1
-width = auto
-height = auto
+center = 0.3, 0.1
+width = 0.2
 fontsize = 0.06
-enabled = 0
-selected = 0
-default = 0
-cancel = 0
+align = left
 
-[ widget-01 ]
+[ widget-01a ]
+type = label
+name = InGameSkipForwardLabel
+text = Skip Forward
+center = 0.1, 0.30
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-01b ]
 type = controlgrab
 name = InGameSkipForwardControl
-text = Skip Forward
 tip = The skip forward control skips ahead ten seconds during a replay.
 setting = replay_ff
-center = 0.5, 0.30
-spacing = 0.2
-width = auto
-height = auto
+center = 0.25, 0.30
+width = 0.2
 fontsize = 0.03
 enabled = 1
 selected = 1
 default = 0
 cancel = 0
 
-[ widget-02 ]
+[ widget-02a ]
+type = label
+name = InGameSkipBackwardLabel
+text = Skip Backward
+center = 0.1, 0.34
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-02b ]
 type = controlgrab
 name = InGameSkipBackwardControl
-text = Skip Backward
 tip = The skip backward control goes back ten seconds during a replay.
 setting = replay_rw
-center = 0.5, 0.34
-spacing = 0.2
-width = auto
-height = auto
+center = 0.25, 0.34
+width = 0.2
 fontsize = 0.03
 enabled = 1
 selected = 0

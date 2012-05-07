@@ -13,137 +13,229 @@ layer = -1
 type = label
 name = CameraControls
 text = Assign Camera View Controls
-center = 0.5, 0.1
-width = auto
-height = auto
+center = 0.3, 0.1
+width = 0.2
 fontsize = 0.06
-enabled = 0
-selected = 0
+align = left
+
+[ widget-01a ]
+type = label
+name = PrevCameraLabel
+text = Previous Camera
+center = 0.1, 0.25
+width = 0.2
+fontsize = 0.03
+align = right
+enabled = 1
+selected = 1
 default = 0
 cancel = 0
 
-[ widget-01 ]
+[ widget-01b ]
 type = controlgrab
 name = PrevCameraControl
-text = Previous Camera
 tip = This moves to the previous camera in the set (hood, in-car, chase rigid, chase loose).
 setting = view_prev
-center = 0.5, 0.25
-spacing = 0.2
-width = auto
-height = auto
+center = 0.25, 0.25
+width = 0.2
 fontsize = 0.03
 enabled = 1
 selected = 1
 default = 0
 cancel = 0
 
-[ widget-02 ]
+[ widget-02a ]
+type = label
+name = NextCameraLabel
+text = Next Camera
+center = 0.1, 0.29
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-02b ]
 type = controlgrab
 name = NextCameraControl
-text = Next Camera
 tip = This moves to the next camera in the set (hood, in-car, chase rigid, chase loose).
 setting = view_next
-center = 0.5, 0.29
-spacing = 0.2
-width = auto
-height = auto
+center = 0.25, 0.29
+width = 0.2
 fontsize = 0.03
 enabled = 1
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-03 ]
+[ widget-03a ]
+type = label
+name = HoodLabel
+text = Hood
+center = 0.1, 0.33
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-03b ]
 type = controlgrab
 name = HoodControl
-text = Hood
 tip = The hood camera control moves the camera to the car's hood.
 setting = view_hood
-center = 0.5, 0.33
-spacing = 0.2
-width = auto
-height = auto
+center = 0.25, 0.33
+width = 0.2
 fontsize = 0.03
 enabled = 1
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-04 ]
+[ widget-04a ]
+type = label
+name = InCarLabel
+text = In-Car
+center = 0.1, 0.37
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-04b ]
 type = controlgrab
 name = InCarControl
-text = In-Car
 tip = The in-car camera control moves the camera to driver's view.
 setting = view_incar
-center = 0.5, 0.37
-spacing = 0.2
-width = auto
-height = auto
+center = 0.25, 0.37
+width = 0.2
 fontsize = 0.03
 enabled = 1
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-05 ]
+[ widget-05a ]
+type = label
+name = ChaseRigidLabel
+text = Chase (Rigid)
+center = 0.1, 0.41
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-05b ]
 type = controlgrab
 name = ChaseRigidControl
-text = Chase (Rigid)
 tip = The rigid chase camera control moves the camera to a fixed distance behind the car.
 setting = view_chaserigid
-center = 0.5, 0.41
-spacing = 0.2
-width = auto
-height = auto
+center = 0.25, 0.41
+width = 0.2
 fontsize = 0.03
 enabled = 1
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-06 ]
+[ widget-06a ]
+type = label
+name = ChaseLabel
+text = Chase (Loose)
+center = 0.1, 0.45
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-06b ]
 type = controlgrab
 name = ChaseControl
-text = Chase (Loose)
 tip = The loose chase camera control moves the camera to follow the car like a helicopter.
 setting = view_chase
-center = 0.5, 0.45
-spacing = 0.2
-width = auto
-height = auto
+center = 0.25, 0.45
+width = 0.2
 fontsize = 0.03
 enabled = 1
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-07 ]
+[ widget-07a ]
+type = label
+name = OrbitLabel
+text = Orbit
+center = 0.1, 0.49
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-07b ]
 type = controlgrab
 name = OrbitControl
-text = Orbit
 tip = The orbit camera control swings around the car as the mouse moves.
 setting = view_orbit
-center = 0.5, 0.49
-spacing = 0.2
-width = auto
-height = auto
+center = 0.25, 0.49
+width = 0.2
 fontsize = 0.03
 enabled = 1
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-08 ]
+[ widget-08a ]
+type = label
+name = FreeLabel
+text = Free
+center = 0.1, 0.53
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-08b ]
 type = controlgrab
 name = FreeControl
-text = Free
 tip = The free camera control can be moved anywhere using the arrow keys.
 setting = view_free
-center = 0.5, 0.53
-spacing = 0.2
-width = auto
-height = auto
+center = 0.25, 0.53
+width = 0.2
+fontsize = 0.03
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-09a ]
+type = label
+name = FocusNextLabel
+text = Focus Next
+center = 0.1, 0.57
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-09b ]
+type = controlgrab
+name = FocusNextControl
+tip = Focus the camera on next car.
+setting = focus_next_car
+center = 0.25, 0.57
+width = 0.2
+fontsize = 0.03
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-10a ]
+type = label
+name = FocusPrevLabel
+text = Focus Previous
+center = 0.1, 0.61
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-10b ]
+type = controlgrab
+name = FocusPrevControl
+tip = Focus the camera on previous car.
+setting = focus_prev_car
+center = 0.25, 0.61
+width = 0.2
 fontsize = 0.03
 enabled = 1
 selected = 0
@@ -151,38 +243,6 @@ default = 0
 cancel = 0
 
 [ widget-11 ]
-type = controlgrab
-name = FocusNextCarControl
-text = Focus Next
-tip = Focus the camera on next car.
-setting = focus_next_car
-center = 0.5, 0.57
-spacing = 0.2
-width = auto
-height = auto
-fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
-
-[ widget-12 ]
-type = controlgrab
-name = FocusPrevCarControl
-text = Focus Previous
-tip = Focus the camera on previous car.
-setting = focus_prev_car
-center = 0.5, 0.61
-spacing = 0.2
-width = auto
-height = auto
-fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
-
-[ widget-13 ]
 type = button
 name = CameraViewControlsOKButton
 text = OK
@@ -198,7 +258,7 @@ selected = 0
 default = 1
 cancel = 0
 
-[ widget-14 ]
+[ widget-12 ]
 type = button
 name = CameraViewControlsCancelButton
 text = Cancel

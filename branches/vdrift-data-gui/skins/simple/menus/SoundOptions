@@ -13,59 +13,79 @@ layer = -1
 type = label
 name = SoundOptionsLabel
 text = Sound Options
-center = 0.5, 0.1
-width = auto
-height = auto
+center = 0.3, 0.1
+width = 0.2
 fontsize = 0.06
-enabled = 0
-selected = 0
-default = 0
-cancel = 0
+align = left
 
 [ widget-01a ]
+type = label
+name = SoundSourcesLabel
+text = Sound Sources
+center = 0.1, 0.22
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-01b ]
 type = stringwheel
 name = SoundSources
 setting = sound.sources
-values = options
-center = 0.4, 0.22
-spacing = 0.10
-width = auto
-height = auto
+center = 0.3, 0.22
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-01b ]
+[ widget-02a ]
+type = label
+name = FXVolumeLabel
+text = Sound Effects Volume
+center = 0.1, 0.26
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-02b ]
 type = slider
 name = FXVolumeSlider
 setting = sound.volume
-values = options
-center = 0.5, 0.27
-width = auto
-height = auto
+center = 0.3, 0.26
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
 selected = 1
 default = 0
 cancel = 0
 
-[ widget-02 ]
+[ widget-03a ]
+type = label
+name = MusicVolumeLabel
+text = Music Volume
+center = 0.1, 0.30
+width = 0.2
+height = 0.04
+fontsize = 0.03
+align = right
+
+[ widget-03b ]
 type = slider
 name = MusicVolumeSlider
 setting = sound.music_volume
-values = options
-center = 0.5, 0.32
-width = auto
-height = auto
+center = 0.3, 0.30
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 0
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-03 ]
+[ widget-04 ]
 type = button
 name = SoundOptionsOKButton
 text = OK
@@ -81,7 +101,7 @@ selected = 0
 default = 1
 cancel = 0
 
-[ widget-04 ]
+[ widget-05 ]
 type = button
 name = SoundOptionsCancelButton
 text = Cancel

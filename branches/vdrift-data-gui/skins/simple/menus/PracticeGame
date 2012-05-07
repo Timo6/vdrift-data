@@ -13,41 +13,38 @@ layer = -1
 type = label
 name = PracticeGameLabel
 text = Practice Game
-center = 0.5, 0.1
-width = auto
-height = auto
+center = 0.3, 0.1
+width = 0.2
 fontsize = 0.06
-enabled = 0
-selected = 0
-default = 0
-cancel = 0
+align = left
 
 [ widget-01 ]
 type = spinningcar
 name = PlayerSpinningCar
 setting = game.player
-values = options
 center = 0.25, 0.39
 carpos = -3.5, 0.5, -15
-spacing = 0.10
 width = auto
 height = auto
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
-[ widget-02 ]
+[ widget-02a ]
+type = label
+name = PlayerPaintLabel
+text = Paint
+center = 0.1, 0.22
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-02b ]
 type = stringwheel
 name = PlayerPaint
 setting = game.player_paint
-values = options
 action = PlayerPaintChange
-center = 0.25, 0.22
-spacing = 0.10
-width = auto
-height = auto
+center = 0.3, 0.22
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
 selected = 0
@@ -58,26 +55,32 @@ cancel = 0
 type = colorpicker
 name = PlayerColor
 setting = game.player_color
-values = options
 action = PlayerColorChange
 center = 0.275, 0.33
-width = 0.15
+width = 0.16
 height = 0.15
 enabled = 1
 selected = 1
 default = 0
 cancel = 0
 
-[ widget-04 ]
+[ widget-04a ]
+type = label
+name = PlayerCarLabel
+text = Car
+center = 0.1, 0.18
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-04b ]
 type = stringwheel
 name = PlayerCar
 setting = game.player
-values = options
 action = PlayerCarChange
-center = 0.25, 0.18
-spacing = 0.10
-width = auto
-height = auto
+center = 0.3, 0.18
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
 selected = 1
@@ -88,57 +91,51 @@ cancel = 0
 type = multi-image
 name = TrackMultiImage
 setting = game.track
-values = options
 center = 0.7, 0.39
 width = 0.25
 height = 0.333
 fontsize = 0.04
-enabled = 0
-selected = 0
-default = 0
-cancel = 0
 prefix = tracks/
 postfix = /trackshot.png
 
-[ widget-06 ]
+[ widget-06a ]
+type = label
+name = TrackLabel
+text = Track
+center = 0.5, 0.18
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-06b ]
 type = stringwheel
 name = TrackWheel
 setting = game.track
-values = options
-center = 0.625, 0.18
-spacing = 0.10
-width = auto
-height = auto
+center = 0.7, 0.18
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-07 ]
+[ widget-07a ]
+type = label
+name = ABSLabel
+text = Antilock Brakes
+center = 0.1, 0.62
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-07b ]
 type = stringwheel
 name = ABSWheel
 setting = game.antilock
-values = options
-center = 0.35, 0.62
-spacing = 0.3
-width = auto
-height = auto
-fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
-
-[ widget-08 ]
-type = stringwheel
-name = TCSWheel
-setting = game.traction_control
-values = options
-center = 0.35, 0.66
-spacing = 0.3
-width = auto
-height = auto
+center = 0.3, 0.62
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
 selected = 0
@@ -146,29 +143,21 @@ default = 0
 cancel = 0
 
 [ widget-08a ]
-type = stringwheel
-name = DamageWheel
-setting = game.vehicle_damage
-values = options
-center = 0.35, 0.70
-spacing = 0.3
-width = auto
-height = auto
+type = label
+name = TCSLabel
+text = Traction Control (TCS)
+center = 0.1, 0.66
+width = 0.2
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
+align = right
 
-[ widget-09 ]
+[ widget-08b ]
 type = stringwheel
-name = DynamicTrackWheel
-setting = game.track_dynamic
-values = options
-center = 0.75, 0.62
-spacing = 0.3
-width = auto
-height = auto
+name = TCSWheel
+setting = game.traction_control
+center = 0.3, 0.66
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
 selected = 0
@@ -176,36 +165,94 @@ default = 0
 cancel = 0
 
 [ widget-09a ]
+type = label
+name = DamageLabel
+text = Car Damage
+center = 0.1, 0.70
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-09b ]
+type = stringwheel
+name = DamageWheel
+setting = game.vehicle_damage
+center = 0.3, 0.70
+width = 0.16
+height = 0.04
+fontsize = 0.03
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-10a ]
+type = label
+name = DynamicTrackLabel
+text = Dynamic Objects
+center = 0.5, 0.62
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-10b ]
+type = stringwheel
+name = DynamicTrackWheel
+setting = game.track_dynamic
+center = 0.7, 0.62
+width = 0.16
+height = 0.04
+fontsize = 0.03
+enabled = 1
+selected = 0
+default = 0
+cancel = 0
+
+[ widget-11a ]
+type = label
+name = ReverseTrackLabel
+text = Reverse Track
+center = 0.5, 0.66
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-11b ]
 type = stringwheel
 name = ReverseTrackWheel
 setting = game.reverse
-values = options
-center = 0.75, 0.66
-spacing = 0.3
-width = auto
-height = auto
+center = 0.7, 0.66
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-10 ]
+[ widget-12a ]
+type = label
+name = RecordReplayLabel
+text = Record Session
+center = 0.5, 0.70
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-12b ]
 type = stringwheel
 name = RecordReplayWheel
 setting = game.record
-values = options
-center = 0.75, 0.70
-spacing = 0.3
-width = auto
-height = auto
+center = 0.7, 0.70
+width = 0.16
+height = 0.04
 fontsize = 0.03
 enabled = 1
 selected = 0
 default = 0
 cancel = 0
 
-[ widget-11 ]
+[ widget-13 ]
 type = button
 name = StartPracticeGameButton
 text = Start Practice
@@ -221,7 +268,7 @@ selected = 0
 default = 1
 cancel = 0
 
-[ widget-12 ]
+[ widget-14 ]
 type = button
 name = PracticeGameBackButton
 text = Back to Main
