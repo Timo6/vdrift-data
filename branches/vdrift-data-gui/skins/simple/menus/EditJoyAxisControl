@@ -12,7 +12,7 @@ layer = -1
 [ widget-00 ]
 type = label
 name = EditJoyAxisControlLabel1
-text = Edit Joystick Axis Control
+text = Controls / Joystick Axis / Edit
 center = 0.3, 0.1
 width = 0.2
 fontsize = 0.06

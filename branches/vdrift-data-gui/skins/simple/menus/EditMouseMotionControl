@@ -23,45 +23,30 @@ type = label
 name = EditMouseMotionControlLabel2
 text = Control
 center = 0.4, 0.2
-width = auto
-height = auto
+width = 0.1
 fontsize = 0.03
-enabled = 0
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-02 ]
 type = label
 name = EditMouseMotionControlLabel3
 text = ->
 center = 0.5, 0.2
-width = auto
-height = auto
+width = 0.1
 fontsize = 0.03
-enabled = 0
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-03 ]
 type = label
 name = EditMouseMotionControlLabel4
 text = Joy Motion
 center = 0.6, 0.2
-width = auto
-height = auto
+width = 0.1
 fontsize = 0.03
-enabled = 0
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-04a ]
 type = label
 name = DeadzoneLabel
 text = Deadzone
-center = 0.1, 0.25
+center = 0.1, 0.24
 width = 0.2
 fontsize = 0.03
 align = right
@@ -70,20 +55,17 @@ align = right
 type = slider
 name = DeadzoneSlider
 setting = controledit.deadzone
-center = 0.3, 0.25
+center = 0.3, 0.24
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
 selected = 1
-default = 0
-cancel = 0
 
 [ widget-05a ]
 type = label
 name = GainLabel
 text = Gain
-center = 0.1, 0.31
+center = 0.1, 0.28
 width = 0.2
 fontsize = 0.03
 align = right
@@ -92,20 +74,16 @@ align = right
 type = slider
 name = GainSlider
 setting = controledit.gain
-center = 0.3, 0.31
+center = 0.3, 0.28
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-06a ]
 type = label
 name = ExponentLabel
 text = Exponent
-center = 0.1, 0.37
+center = 0.1, 0.32
 width = 0.2
 fontsize = 0.03
 align = right
@@ -114,14 +92,10 @@ align = right
 type = slider
 name = ExponentSlider
 setting = controledit.exponent
-center = 0.3, 0.37
+center = 0.3, 0.32
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-07 ]
 type = button
@@ -129,48 +103,33 @@ name = MouseMotionControlDeleteButton
 text = Delete
 tip = Save changes and return to Options menu.
 action = MouseMotionControlDelete
-center = 0.5, 0.7
-color = 1.0, 0.8, 0.0
-width = auto
+center = 0.3, 0.38
+width = 0.16
 height = 0.05
 fontsize = 0.04
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
+align = left
 
 [ widget-08 ]
-type = button
-name = EditMouseMotionControlOKButton
-text = OK
-tip = Save changes and return to Options menu.
-action = MouseMotionControlOK
-center = 0.4, 0.8
-color = 0.0, 0.8, 0.0
-width = auto
-height = 0.05
-fontsize = 0.04
-enabled = 1
-selected = 0
-default = 1
-cancel = 0
-
-[ widget-09 ]
 type = button
 name = EditMouseMotionControlCancelButton
 text = Cancel
 tip = Forget changes and return to Options menu.
 action = MouseMotionControlCancel
-center = 0.6, 0.8
-color = 0.8, 0.0, 0.0
-width = auto
+center = 0.3, 0.44
+width = 0.16
 height = 0.05
 fontsize = 0.04
-enabled = 1
-selected = 0
-default = 0
+align = left
 cancel = 1
 
-
-
-
+[ widget-09 ]
+type = button
+name = EditMouseMotionControlOKButton
+text = OK
+tip = Save changes and return to Options menu.
+action = MouseMotionControlOK
+center = 0.3, 0.50
+width = 0.16
+height = 0.05
+fontsize = 0.04
+align = left

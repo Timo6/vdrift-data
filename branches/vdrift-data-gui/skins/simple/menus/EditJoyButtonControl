@@ -12,7 +12,7 @@ layer = -1
 [ widget-00 ]
 type = label
 name = EditJoyButtonControlLabel1
-text = Edit Joystick Button Control
+text = Controls / Joystick Button / Edit
 center = 0.3, 0.1
 width = 0.2
 fontsize = 0.06
@@ -23,8 +23,7 @@ type = label
 name = EditJoyButtonControlLabel2
 text = Control
 center = 0.4, 0.2
-width = auto
-height = auto
+width = 0.1
 fontsize = 0.03
 
 [ widget-02 ]
@@ -32,8 +31,7 @@ type = label
 name = EditJoyButtonControlLabel3
 text = ->
 center = 0.5, 0.2
-width = auto
-height = auto
+width = 0.1
 fontsize = 0.03
 
 [ widget-03 ]
@@ -41,37 +39,34 @@ type = label
 name = EditJoyButtonControlLabel4
 text = Joy Btn
 center = 0.6, 0.2
-width = auto
-height = auto
+width = 0.1
 fontsize = 0.03
 
 [ widget-04a ]
 type = label
 name = HeldOnceLabel
 text = Input event type
-center = 0.1, 0.25
+center = 0.1, 0.24
 width = 0.2
 fontsize = 0.03
 align = right
+selected = 1
 
 [ widget-04b ]
 type = stringwheel
 name = HeldOnceWheel
 setting = controledit.held_once
-center = 0.3, 0.25
+center = 0.3, 0.24
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
 selected = 1
-default = 0
-cancel = 0
 
 [ widget-05a ]
 type = label
 name = UpDownLabel
 text = Input event trigger
-center = 0.1, 0.29
+center = 0.1, 0.30
 width = 0.2
 fontsize = 0.03
 align = right
@@ -80,14 +75,10 @@ align = right
 type = stringwheel
 name = UpDownWheel
 setting = controledit.up_down
-center = 0.3, 0.29
+center = 0.3, 0.30
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-06 ]
 type = button
@@ -95,48 +86,33 @@ name = JoyButtonControlDeleteButton
 text = Delete
 tip = Delete this control.
 action = JoyButtonControlDelete
-center = 0.5, 0.7
-color = 1.0, 0.8, 0.0
-width = auto
+center = 0.3, 0.36
+width = 0.16
 height = 0.05
 fontsize = 0.04
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
+align = left
 
 [ widget-07 ]
-type = button
-name = EditJoyButtonControlOKButton
-text = OK
-tip = Save changes and return to Options menu.
-action = JoyButtonControlOK
-center = 0.4, 0.8
-color = 0.0, 0.8, 0.0
-width = auto
-height = 0.05
-fontsize = 0.04
-enabled = 1
-selected = 0
-default = 1
-cancel = 0
-
-[ widget-08 ]
 type = button
 name = EditJoyButtonControlCancelButton
 text = Cancel
 tip = Forget changes and return to Options menu.
 action = JoyButtonControlCancel
-center = 0.6, 0.8
-color = 0.8, 0.0, 0.0
-width = auto
+center = 0.3, 0.42
+width = 0.16
 height = 0.05
 fontsize = 0.04
-enabled = 1
-selected = 0
-default = 0
+align = left
 cancel = 1
 
-
-
-
+[ widget-08 ]
+type = button
+name = EditJoyButtonControlOKButton
+text = OK
+tip = Save changes and return to Options menu.
+action = JoyButtonControlOK
+center = 0.3, 0.48
+width = 0.16
+height = 0.05
+fontsize = 0.04
+align = left

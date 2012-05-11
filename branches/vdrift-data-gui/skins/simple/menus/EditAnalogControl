@@ -12,7 +12,7 @@ layer = -1
 [ widget-00 ]
 type = label
 name = EditAnalogControlLabel1
-text = Edit Analog Control
+text = Controls / Analog / Edit
 center = 0.3, 0.1
 width = 0.2
 fontsize = 0.06
