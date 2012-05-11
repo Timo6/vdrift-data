@@ -11,8 +11,8 @@ layer = -1
 
 [ widget-00 ]
 type = label
-name = ControlsOptionsLabel
-text = Controls Options
+name = OptionsControlsLabel
+text = Options / Controls
 center = 0.3, 0.1
 width = 0.2
 fontsize = 0.06
@@ -20,18 +20,18 @@ align = left
 
 [ widget-01a ]
 type = label
-name = SpeedSensSteeringLabel
-text = Steering Speed Effect
-center = 0.1, 0.22
+name = JoystickTypeLabel
+text = Type
+center = 0.1, 0.20
 width = 0.2
 fontsize = 0.03
 align = right
 
 [ widget-01b ]
-type = slider
-name = SpeedSensSteeringSlider
-setting = control.speed_sens_steering
-center = 0.3, 0.22
+type = stringwheel
+name = JoystickTypeWheel
+setting = joystick.type
+center = 0.3, 0.20
 width = 0.16
 height = 0.04
 fontsize = 0.03
@@ -39,118 +39,178 @@ selected = 1
 
 [ widget-02a ]
 type = label
-name = AutoTransLabel
-text = Automatic Shift
-center = 0.1, 0.26
+name = 200DegreeLabel
+text = 200 Degree Wheel
+center = 0.1, 0.24
 width = 0.2
 fontsize = 0.03
 align = right
 
 [ widget-02b ]
 type = stringwheel
-name = AutoTransWheel
-setting = control.autotrans
-center = 0.3, 0.26
+name = 200DegreeWheel
+setting = joystick.two_hundred
+center = 0.3, 0.24
 width = 0.16
 height = 0.04
 fontsize = 0.03
 
 [ widget-03a ]
 type = label
-name = AutoClutchLabel
-text = Automatic Clutch
-center = 0.1, 0.30
+name = FFInvertLabel
+text = Force Feedback Invert 
+center = 0.1, 0.28
 width = 0.2
 fontsize = 0.03
 align = right
 
 [ widget-03b ]
 type = stringwheel
-name = AutoClutchWheel
-setting = control.autoclutch
-center = 0.3, 0.30
+name = FFInvertWheel
+setting = joystick.ff_invert
+center = 0.3, 0.28
 width = 0.16
 height = 0.04
 fontsize = 0.03
 
 [ widget-04a ]
 type = label
-name = ButtonRampLabel
-text = Button Control Delay
-center = 0.1, 0.34
+name = FFGainLabel
+text = Force Feedback Gain
+center = 0.1, 0.32
 width = 0.2
 fontsize = 0.03
 align = right
 
 [ widget-04b ]
-type = floatwheel
-name = ButtonRampWheel
-setting = control.button_ramp
-center = 0.3, 0.34
+type = slider
+name = FFGainSlider
+setting = joystick.ff_gain
+fill = true
+center = 0.3, 0.32
 width = 0.16
 height = 0.04
 fontsize = 0.03
 
-[ widget-05 ]
+[ widget-05a ]
+type = label
+name = SpeedSensSteeringLabel
+text = Steering Speed Effect
+center = 0.1, 0.36
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-05b ]
+type = slider
+name = SpeedSensSteeringSlider
+setting = control.speed_sens_steering
+fill = true
+center = 0.3, 0.36
+width = 0.16
+height = 0.04
+fontsize = 0.03
+selected = 1
+
+[ widget-06a ]
+type = label
+name = ButtonRampLabel
+text = Button Control Delay
+center = 0.1, 0.40
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-06b ]
+type = floatwheel
+name = ButtonRampWheel
+setting = control.button_ramp
+center = 0.3, 0.40
+width = 0.16
+height = 0.04
+fontsize = 0.03
+
+[ widget-07a ]
+type = label
+name = AutoTransLabel
+text = Automatic Shift
+center = 0.1, 0.44
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-07b ]
+type = stringwheel
+name = AutoTransWheel
+setting = control.autotrans
+center = 0.3, 0.44
+width = 0.16
+height = 0.04
+fontsize = 0.03
+
+[ widget-08a ]
+type = label
+name = AutoClutchLabel
+text = Automatic Clutch
+center = 0.1, 0.48
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-08b ]
+type = stringwheel
+name = AutoClutchWheel
+setting = control.autoclutch
+center = 0.3, 0.48
+width = 0.16
+height = 0.04
+fontsize = 0.03
+
+[ widget-09]
 type = button
-name = ActionControlMapButton
-text = Assign Controls
-tip = Map keys, buttons and axes to actions in the game.
-action = AssignControls
-center = 0.5, 0.55
-color = 0.0, 0.0, 0.8
-width = auto
+name = GameControlsButton
+text = Game Controls
+tip = Assign inputs to actions that affect the game.
+action = GameControls
+center = 0.3, 0.54
+width = 0.16
 height = 0.05
 fontsize = 0.04
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
+align = left
 
-[ widget-06 ]
+[ widget-10 ]
 type = button
-name = JoystickOptionsButton
-text = Joystick Options
-tip = Extra options for gamepad, joystick and steering wheel controls.
-action = JoystickOptions
-center = 0.5, 0.65
-color = 0.0, 0.0, 0.8
-width = auto
+name = CarControlsButton
+text = Car Controls
+tip = Assign inputs to actions that affect the car.
+action = CarControls
+center = 0.3, 0.60
+width = 0.16
 height = 0.05
 fontsize = 0.04
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
+align = left
 
-[ widget-07 ]
+[ widget-11 ]
 type = button
-name = ControlsOptionsOKButton
-text = OK
-tip = Save changes and return to Options menu.
-action = Options
-center = 0.4, 0.85
-color = 0.0, 0.8, 0.0
-width = auto
-height = 0.05
-fontsize = 0.04
-enabled = 1
-selected = 0
-default = 1
-cancel = 0
-
-[ widget-08 ]
-type = button
-name = ControlsOptionsCancelButton
+name = OptionsControlsCancelButton
 text = Cancel
 tip = Forget changes and return to Options menu.
 action = Options
-center = 0.6, 0.85
-color = 0.8, 0.0, 0.0
-width = auto
+center = 0.3, 0.66
+width = 0.16
 height = 0.05
 fontsize = 0.04
-enabled = 1
-selected = 0
-default = 0
+align = left
 cancel = 1
+
+[ widget-12 ]
+type = button
+name = OptionsControlsOKButton
+text = OK
+tip = Save changes and return to Options menu.
+action = Options
+center = 0.3, 0.72
+width = 0.16
+height = 0.05
+fontsize = 0.04
+align = left

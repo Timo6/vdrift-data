@@ -12,7 +12,7 @@ layer = -1
 [ widget-00 ]
 type = label
 name = CameraControls
-text = Assign Camera Movement Controls
+text = Options / Controls / Game / Camera Movement
 center = 0.3, 0.1
 width = 0.2
 fontsize = 0.06
@@ -22,7 +22,7 @@ align = left
 type = label
 name = PanCameraLeftLabel
 text = Pan Left
-center = 0.1, 0.25
+center = 0.1, 0.20
 width = 0.2
 fontsize = 0.03
 align = right
@@ -33,19 +33,16 @@ name = PanCameraLeft
 tip = Turn the camera view to the left.
 setting = pan_left
 analog = 1
-center = 0.25, 0.25
+center = 0.25, 0.20
 width = 0.2
 fontsize = 0.03
-enabled = 1
 selected = 1
-default = 0
-cancel = 0
 
 [ widget-02a ]
 type = label
 name = PanCameraRightLabel
 text = Pan Right
-center = 0.1, 0.29
+center = 0.1, 0.24
 width = 0.2
 fontsize = 0.03
 align = right
@@ -56,19 +53,15 @@ name = PanCameraRight
 tip = Turn the camera view to the right.
 setting = pan_right
 analog = 1
-center = 0.25, 0.29
+center = 0.25, 0.24
 width = 0.2
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-03a ]
 type = label
 name = PanCameraUpLabel
 text = Pan Up
-center = 0.1, 0.33
+center = 0.1, 0.28
 width = 0.2
 fontsize = 0.03
 align = right
@@ -79,21 +72,18 @@ name = PanCameraUp
 tip = Turn the camera view upwards.
 setting = pan_up
 analog = 1
-center = 0.25, 0.33
+center = 0.25, 0.28
 width = 0.2
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-04a ]
 type = label
 name = PanCameraDownLabel
 text = Pan Down
-center = 0.1, 0.37
+center = 0.1, 0.32
 width = 0.2
 fontsize = 0.03
+align = right
 
 [ widget-04b ]
 type = controlgrab
@@ -101,19 +91,15 @@ name = PanCameraDown
 tip = Turn the camera view downwards.
 setting = pan_down
 analog = 1
-center = 0.25, 0.37
+center = 0.25, 0.32
 width = 0.2
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-05a ]
 type = label
 name = ZoomCameraInLabel
 text = Zoom In
-center = 0.1, 0.41
+center = 0.1, 0.36
 width = 0.2
 fontsize = 0.03
 align = right
@@ -124,19 +110,15 @@ name = ZoomCameraIn
 tip = Zoom camera in.
 setting = zoom_in
 analog = 1
-center = 0.25, 0.41
+center = 0.25, 0.36
 width = 0.2
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-06a ]
 type = label
 name = ZoomCameraOutLabel
 text = Zoom Out
-center = 0.1, 0.45
+center = 0.1, 0.40
 width = 0.2
 fontsize = 0.03
 align = right
@@ -147,42 +129,31 @@ name = ZoomCameraOut
 tip = Zoom camera out.
 setting = zoom_out
 analog = 1
-center = 0.25, 0.45
+center = 0.25, 0.40
 width = 0.2
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-07 ]
-type = button
-name = CameraMovementControlsOKButton
-text = OK
-tip = Save changes and return to Game Controls menu.
-action = GameControls
-center = 0.4, 0.85
-color = 0.0, 0.8, 0.0
-width = auto
-height = 0.05
-fontsize = 0.04
-enabled = 1
-selected = 0
-default = 1
-cancel = 0
-
-[ widget-08 ]
 type = button
 name = CameraMovementControlsCancelButton
 text = Cancel
 tip = Forget changes and return to Game Controls menu.
 action = GameControls
-center = 0.6, 0.85
-color = 0.8, 0.0, 0.0
-width = auto
+center = 0.3, 0.46
+width = 0.16
 height = 0.05
 fontsize = 0.04
-enabled = 1
-selected = 0
-default = 0
+align = left
 cancel = 1
+
+[ widget-08 ]
+type = button
+name = CameraMovementControlsOKButton
+text = OK
+tip = Save changes and return to Game Controls menu.
+action = GameControls
+center = 0.3, 0.52
+width = 0.16
+height = 0.05
+fontsize = 0.04
+align = left

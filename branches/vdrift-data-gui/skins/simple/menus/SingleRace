@@ -34,12 +34,7 @@ name = OpponentSpinningCar
 setting = game.opponent
 center = 0.525, 0.5
 carpos = -0.0, -2.0, -15
-width = auto
-height = auto
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
+width = 0.08
 
 [ widget-03a ]
 type = label
@@ -58,10 +53,6 @@ center = 0.3, 0.18
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-04a ]
 type = label
@@ -80,10 +71,6 @@ center = 0.3, 0.22
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-05a ]
 type = label
@@ -102,10 +89,6 @@ center = 0.3, 0.26
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-06a ]
 type = label
@@ -124,14 +107,10 @@ center = 0.3, 0.30
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-07a ]
 type = label
-name = OpponentSetLsbel
+name = OpponentSetLabel
 text = Driver
 center = 0.1, 0.36
 width = 0.2
@@ -147,16 +126,31 @@ center = 0.3, 0.36
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
+
+[ widget-08a ]
+type = label
+name = AIDifficultyLabel
+text = AI
+center = 0.1, 0.40
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-08b ]
+type = slider
+name = AIDifficultySlider
+setting = game.ai_difficulty
+fill = true
+center = 0.3, 0.40
+width = 0.16
+height = 0.04
+fontsize = 0.03
 
 [ widget-09a ]
 type = label
 name = OpponentCarLabel
 text = Car
-center = 0.1, 0.40
+center = 0.1, 0.44
 width = 0.2
 fontsize = 0.03
 align = right
@@ -166,20 +160,16 @@ type = stringwheel
 name = OpponentCar
 setting = game.opponent
 action = OpponentCarChange
-center = 0.3, 0.40
+center = 0.3, 0.44
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-10a ]
 type = label
 name = OpponentPaintLabel
 text = Paint
-center = 0.1, 0.44
+center = 0.1, 0.48
 width = 0.2
 fontsize = 0.03
 align = right
@@ -189,41 +179,19 @@ type = stringwheel
 name = OpponentPaint
 setting = game.opponent_paint
 action = OpponentPaintChange
-center = 0.3, 0.44
+center = 0.3, 0.48
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-11 ]
 type = colorpicker
 name = OpponentColor
 setting = game.opponent_color
 action = OpponentColorChange
-center = 0.29, 0.54
+center = 0.29, 0.58
 width = 0.16
 height = 0.15
-
-[ widget-08a ]
-type = label
-name = AIDifficultyLabel
-text = AI
-center = 0.1, 0.64
-width = 0.2
-fontsize = 0.03
-align = right
-
-[ widget-08b ]
-type = slider
-name = AIDifficultySlider
-setting = game.ai_difficulty
-center = 0.3, 0.64
-width = 0.16
-height = 0.04
-fontsize = 0.03
 
 [ widget-12a ]
 type = label
@@ -242,10 +210,6 @@ center = 0.3, 0.68
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-13a ]
 type = label
@@ -264,10 +228,6 @@ center = 0.3, 0.72
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-14a ]
 type = label
@@ -287,460 +247,443 @@ center = 0.3, 0.76
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-15 ]
-type = label
-name = OpponentsLabel
-text = Start List:
-center = 0.72, 0.18
-width = 0.2
-fontsize = 0.03
-enabled = 0
-selected = 0
-default = 0
-cancel = 0
-
-[ widget-16a ]
-type = label
-name = StartNum0
-text = 1.
-center = 0.72, 0.22
-width = 0.04
-fontsize = 0.03
-align = right
-
-[ widget-16b ]
-type = label
-name = StartNum1
-text = 2.
-center = 0.84, 0.22
-width = 0.04
-fontsize = 0.03
-align = right
-
-[ widget-16c ]
-type = label
-name = StartNum2
-text = 3.
-center = 0.72, 0.26
-width = 0.04
-fontsize = 0.03
-align = right
-
-[ widget-16d ]
-type = label
-name = StartNum3
-text = 4.
-center = 0.84, 0.26
-width = 0.04
-fontsize = 0.03
-align = right
-
-[ widget-16e ]
-type = label
-name = StartNum4
-text = 5.
-center = 0.72, 0.30
-width = 0.04
-fontsize = 0.03
-align = right
-
-[ widget-16f ]
-type = label
-name = StartNum5
-text = 6.
-center = 0.84, 0.30
-width = 0.04
-fontsize = 0.03
-align = right
-
-[ widget-16g ]
-type = label
-name = StartNum6
-text = 7.
-center = 0.72, 0.34
-width = 0.04
-fontsize = 0.03
-align = right
-
-[ widget-16h ]
-type = label
-name = StartNum7
-text = 8.
-center = 0.84, 0.34
-width = 0.04
-fontsize = 0.03
-align = right
-
-[ widget-16i ]
-type = label
-name = StartNum8
-text = 9.
-center = 0.72, 0.38
-width = 0.04
-fontsize = 0.03
-align = right
-
-[ widget-16j ]
-type = label
-name = StartNum9
-text = 10.
-center = 0.84, 0.38
-width = 0.04
-fontsize = 0.03
-align = right
-
-[ widget-16k ]
-type = label
-name = StartNum10
-text = 11.
-center = 0.72, 0.42
-width = 0.04
-fontsize = 0.03
-align = right
-
-[ widget-16l ]
-type = label
-name = StartNum11
-text = 12.
-center = 0.84, 0.42
-width = 0.04
-fontsize = 0.03
-align = right
-
-[ widget-16m ]
-type = label
-name = StartNum12
-text = 13.
-center = 0.72, 0.46
-width = 0.04
-fontsize = 0.03
-align = right
-
-[ widget-16n ]
-type = label
-name = StartNum13
-text = 14.
-center = 0.84, 0.46
-width = 0.04
-fontsize = 0.03
-align = right
-
-[ widget-16o ]
-type = label
-name = StartNum14
-text = 15.
-center = 0.72, 0.50
-width = 0.04
-fontsize = 0.03
-align = right
-
-[ widget-16p ]
-type = label
-name = StartNum15
-text = 16.
-center = 0.84, 0.50
-width = 0.04
-fontsize = 0.03
-align = right
-
-[ widget-16q ]
-type = label
-name = StartNum16
-text = 17.
-center = 0.72, 0.54
-width = 0.04
-fontsize = 0.03
-align = right
-
-[ widget-16r ]
-type = label
-name = StartNum17
-text = 18.
-center = 0.84, 0.54
-width = 0.04
-fontsize = 0.03
-align = right
-
-[ widget-16s ]
-type = label
-name = StartNum18
-text = 19.
-center = 0.72, 0.58
-width = 0.04
-fontsize = 0.03
-align = right
-
-[ widget-16t ]
-type = label
-name = StartNum19
-text = 20.
-center = 0.84, 0.58
-width = 0.04
-fontsize = 0.03
-align = right
-
-[ widget-16u ]
-type = label
-name = StartNum20
-text = 21.
-center = 0.72, 0.62
-width = 0.04
-fontsize = 0.03
-align = right
-
-[ widget-16v ]
-type = label
-name = StartNum21
-text = 22.
-center = 0.84, 0.62
-width = 0.04
-fontsize = 0.03
-align = right
-
-[ widget-16w ]
-type = label
-name = StartNum22
-text = 23.
-center = 0.72, 0.66
-width = 0.04
-fontsize = 0.03
-align = right
-
-[ widget-16x ]
-type = label
-name = StartNum23
-text = 24.
-center = 0.84, 0.66
-width = auto
-height = auto
-fontsize = 0.03
-align = right
-
-[ widget-17a ]
-type = label
-name = Racer0
-center = 0.76, 0.22
-width = auto
-height = auto
-fontsize = 0.03
-
-[ widget-17b ]
-type = label
-name = Racer1
-center = 0.88, 0.22
-width = auto
-height = auto
-fontsize = 0.03
-
-[ widget-17c ]
-type = label
-name = Racer2
-center = 0.76, 0.26
-width = auto
-height = auto
-fontsize = 0.03
-
-[ widget-17d ]
-type = label
-name = Racer3
-center = 0.88, 0.26
-width = auto
-height = auto
-fontsize = 0.03
-
-[ widget-17e ]
-type = label
-name = Racer4
-center = 0.76, 0.30
-width = auto
-height = auto
-fontsize = 0.03
-
-[ widget-17f ]
-type = label
-name = Racer5
-center = 0.88, 0.30
-width = auto
-height = auto
-fontsize = 0.03
-
-[ widget-17g ]
-type = label
-name = Racer6
-center = 0.76, 0.34
-width = auto
-height = auto
-fontsize = 0.03
-
-[ widget-17h ]
-type = label
-name = Racer7
-center = 0.88, 0.34
-width = auto
-height = auto
-fontsize = 0.03
-
-[ widget-17i ]
-type = label
-name = Racer8
-center = 0.76, 0.38
-width = auto
-height = auto
-fontsize = 0.03
-
-[ widget-17j ]
-type = label
-name = Racer9
-center = 0.88, 0.38
-width = auto
-height = auto
-fontsize = 0.03
-
-[ widget-17k ]
-type = label
-name = Racer10
-center = 0.76, 0.42
-width = auto
-height = auto
-fontsize = 0.03
-
-[ widget-17l ]
-type = label
-name = Racer11
-center = 0.88, 0.42
-width = auto
-height = auto
-fontsize = 0.03
-
-[ widget-17m ]
-type = label
-name = Racer12
-center = 0.76, 0.46
-width = auto
-height = auto
-fontsize = 0.03
-
-[ widget-17n ]
-type = label
-name = Racer13
-center = 0.88, 0.46
-width = auto
-height = auto
-fontsize = 0.03
-
-[ widget-17o ]
-type = label
-name = Racer14
-center = 0.76, 0.50
-width = auto
-height = auto
-fontsize = 0.03
-
-[ widget-17p ]
-type = label
-name = Racer15
-center = 0.88, 0.50
-width = auto
-height = auto
-fontsize = 0.03
-
-[ widget-17q ]
-type = label
-name = Racer16
-center = 0.76, 0.54
-width = auto
-height = auto
-fontsize = 0.03
-
-[ widget-17r ]
-type = label
-name = Racer17
-center = 0.88, 0.54
-width = auto
-height = auto
-fontsize = 0.03
-
-[ widget-17s ]
-type = label
-name = Racer18
-center = 0.76, 0.58
-width = auto
-height = auto
-fontsize = 0.03
-
-[ widget-17t ]
-type = label
-name = Racer19
-center = 0.88, 0.58
-width = auto
-height = auto
-fontsize = 0.03
-
-[ widget-17u ]
-type = label
-name = Racer20
-center = 0.76, 0.62
-width = auto
-height = auto
-fontsize = 0.03
-
-[ widget-17v ]
-type = label
-name = Racer21
-center = 0.88, 0.62
-width = auto
-height = auto
-fontsize = 0.03
-
-[ widget-17w ]
-type = label
-name = Racer22
-center = 0.76, 0.66
-width = auto
-height = auto
-fontsize = 0.03
-
-[ widget-17x ]
-type = label
-name = Racer23
-center = 0.88, 0.66
-width = auto
-height = auto
-fontsize = 0.03
-
-[ widget-18 ]
 type = button
 name = StartRaceButton
 text = Start Race
 tip = Start a race using the selected car and track.
 action = StartRace
-center = 0.3, 0.86
-color = 0.0, 0.8, 0.0
-width = auto
+center = 0.3, 0.82
+width = 0.16
 height = 0.05
 fontsize = 0.04
-enabled = 1
-selected = 0
-default = 1
-cancel = 0
+align = left
 
-[ widget-19 ]
+[ widget-16 ]
 type = button
 name = StartRaceBackButton
-text = Back to Main
+text = Back
 tip = Return to the Main menu.
 action = Main
-center = 0.7, 0.86
-color = 0.8, 0.0, 0.0
-width = auto
+center = 0.3, 0.88
+width = 0.16
 height = 0.05
 fontsize = 0.04
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
+align = left
+
+[ widget-17 ]
+type = label
+name = OpponentsLabel
+text = Start List:
+center = 0.75, 0.18
+width = 0.2
+fontsize = 0.03
+
+[ widget-18a ]
+type = label
+name = StartNum0
+text = 1.
+center = 0.75, 0.22
+width = 0.04
+fontsize = 0.03
+align = left
+
+[ widget-18b ]
+type = label
+name = StartNum1
+text = 2.
+center = 0.87, 0.22
+width = 0.04
+fontsize = 0.03
+align = left
+
+[ widget-18c ]
+type = label
+name = StartNum2
+text = 3.
+center = 0.75, 0.26
+width = 0.04
+fontsize = 0.03
+align = left
+
+[ widget-18d ]
+type = label
+name = StartNum3
+text = 4.
+center = 0.87, 0.26
+width = 0.04
+fontsize = 0.03
+align = left
+
+[ widget-18e ]
+type = label
+name = StartNum4
+text = 5.
+center = 0.75, 0.30
+width = 0.04
+fontsize = 0.03
+align = left
+
+[ widget-18f ]
+type = label
+name = StartNum5
+text = 6.
+center = 0.87, 0.30
+width = 0.04
+fontsize = 0.03
+align = left
+
+[ widget-18g ]
+type = label
+name = StartNum6
+text = 7.
+center = 0.75, 0.34
+width = 0.04
+fontsize = 0.03
+align = left
+
+[ widget-18h ]
+type = label
+name = StartNum7
+text = 8.
+center = 0.87, 0.34
+width = 0.04
+fontsize = 0.03
+align = left
+
+[ widget-18i ]
+type = label
+name = StartNum8
+text = 9.
+center = 0.75, 0.38
+width = 0.04
+fontsize = 0.03
+align = left
+
+[ widget-18j ]
+type = label
+name = StartNum9
+text = 10.
+center = 0.87, 0.38
+width = 0.04
+fontsize = 0.03
+align = left
+
+[ widget-18k ]
+type = label
+name = StartNum10
+text = 11.
+center = 0.75, 0.42
+width = 0.04
+fontsize = 0.03
+align = left
+
+[ widget-18l ]
+type = label
+name = StartNum11
+text = 12.
+center = 0.87, 0.42
+width = 0.04
+fontsize = 0.03
+align = left
+
+[ widget-18m ]
+type = label
+name = StartNum12
+text = 13.
+center = 0.75, 0.46
+width = 0.04
+fontsize = 0.03
+align = left
+
+[ widget-18n ]
+type = label
+name = StartNum13
+text = 14.
+center = 0.87, 0.46
+width = 0.04
+fontsize = 0.03
+align = left
+
+[ widget-18o ]
+type = label
+name = StartNum14
+text = 15.
+center = 0.75, 0.50
+width = 0.04
+fontsize = 0.03
+align = left
+
+[ widget-18p ]
+type = label
+name = StartNum15
+text = 16.
+center = 0.87, 0.50
+width = 0.04
+fontsize = 0.03
+align = left
+
+[ widget-18q ]
+type = label
+name = StartNum16
+text = 17.
+center = 0.75, 0.54
+width = 0.04
+fontsize = 0.03
+align = left
+
+[ widget-18r ]
+type = label
+name = StartNum17
+text = 18.
+center = 0.87, 0.54
+width = 0.04
+fontsize = 0.03
+align = left
+
+[ widget-18s ]
+type = label
+name = StartNum18
+text = 19.
+center = 0.75, 0.58
+width = 0.04
+fontsize = 0.03
+align = left
+
+[ widget-18t ]
+type = label
+name = StartNum19
+text = 20.
+center = 0.87, 0.58
+width = 0.04
+fontsize = 0.03
+align = left
+
+[ widget-18u ]
+type = label
+name = StartNum20
+text = 21.
+center = 0.75, 0.62
+width = 0.04
+fontsize = 0.03
+align = left
+
+[ widget-18v ]
+type = label
+name = StartNum21
+text = 22.
+center = 0.87, 0.62
+width = 0.04
+fontsize = 0.03
+align = left
+
+[ widget-18w ]
+type = label
+name = StartNum22
+text = 23.
+center = 0.75, 0.66
+width = 0.04
+fontsize = 0.03
+align = left
+
+[ widget-18x ]
+type = label
+name = StartNum23
+text = 24.
+center = 0.87, 0.66
+width = 0.04
+fontsize = 0.03
+align = left
+
+[ widget-19a ]
+type = label
+name = Racer0
+center = 0.80, 0.22
+width = 0.08
+fontsize = 0.03
+align = left
+
+[ widget-19b ]
+type = label
+name = Racer1
+center = 0.92, 0.22
+width = 0.08
+fontsize = 0.03
+align = left
+
+[ widget-19c ]
+type = label
+name = Racer2
+center = 0.80, 0.26
+width = 0.08
+fontsize = 0.03
+align = left
+
+[ widget-19d ]
+type = label
+name = Racer3
+center = 0.92, 0.26
+width = 0.08
+fontsize = 0.03
+align = left
+
+[ widget-19e ]
+type = label
+name = Racer4
+center = 0.80, 0.30
+width = 0.08
+fontsize = 0.03
+align = left
+
+[ widget-19f ]
+type = label
+name = Racer5
+center = 0.92, 0.30
+width = 0.08
+fontsize = 0.03
+align = left
+
+[ widget-19g ]
+type = label
+name = Racer6
+center = 0.80, 0.34
+width = 0.08
+fontsize = 0.03
+align = left
+
+[ widget-19h ]
+type = label
+name = Racer7
+center = 0.92, 0.34
+width = 0.08
+fontsize = 0.03
+align = left
+
+[ widget-19i ]
+type = label
+name = Racer8
+center = 0.80, 0.38
+width = 0.08
+fontsize = 0.03
+align = left
+
+[ widget-19j ]
+type = label
+name = Racer9
+center = 0.92, 0.38
+width = 0.08
+fontsize = 0.03
+align = left
+
+[ widget-19k ]
+type = label
+name = Racer10
+center = 0.80, 0.42
+width = 0.08
+fontsize = 0.03
+align = left
+
+[ widget-19l ]
+type = label
+name = Racer11
+center = 0.92, 0.42
+width = 0.08
+fontsize = 0.03
+align = left
+
+[ widget-19m ]
+type = label
+name = Racer12
+center = 0.80, 0.46
+width = 0.08
+fontsize = 0.03
+align = left
+
+[ widget-19n ]
+type = label
+name = Racer13
+center = 0.92, 0.46
+width = 0.08
+fontsize = 0.03
+align = left
+
+[ widget-19o ]
+type = label
+name = Racer14
+center = 0.80, 0.50
+width = 0.08
+fontsize = 0.03
+align = left
+
+[ widget-19p ]
+type = label
+name = Racer15
+center = 0.92, 0.50
+width = 0.08
+fontsize = 0.03
+align = left
+
+[ widget-19q ]
+type = label
+name = Racer16
+center = 0.80, 0.54
+width = 0.08
+fontsize = 0.03
+align = left
+
+[ widget-19r ]
+type = label
+name = Racer17
+center = 0.92, 0.54
+width = 0.08
+fontsize = 0.03
+align = left
+
+[ widget-19s ]
+type = label
+name = Racer18
+center = 0.80, 0.58
+width = 0.08
+fontsize = 0.03
+align = left
+
+[ widget-19t ]
+type = label
+name = Racer19
+center = 0.92, 0.58
+width = 0.08
+fontsize = 0.03
+align = left
+
+[ widget-19u ]
+type = label
+name = Racer20
+center = 0.80, 0.62
+width = 0.08
+fontsize = 0.03
+align = left
+
+[ widget-19v ]
+type = label
+name = Racer21
+center = 0.92, 0.62
+width = 0.08
+fontsize = 0.03
+align = left
+
+[ widget-19w ]
+type = label
+name = Racer22
+center = 0.80, 0.66
+width = 0.08
+fontsize = 0.03
+align = left
+
+[ widget-19x ]
+type = label
+name = Racer23
+center = 0.92, 0.66
+width = 0.08
+fontsize = 0.03
+align = left

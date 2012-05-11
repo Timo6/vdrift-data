@@ -12,122 +12,258 @@ layer = -1
 [ widget-00 ]
 type = label
 name = TransmissionControls
-text = Assign Transmission Controls
+text = Options / Controls / Car / Transmission
 center = 0.3, 0.1
 width = 0.2
 fontsize = 0.06
 align = left
 
+[ widget-12a ]
+type = label
+name = HGateShifterLabel
+text = H-Gate Shifter
+center = 0.1, 0.20
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-12b ]
+type = stringwheel
+name = HGateShifterWheel
+setting = joystick.hgateshifter
+center = 0.3, 0.20
+width = 0.16
+height = 0.04
+fontsize = 0.03
+
 [ widget-01a ]
 type = label
-name = ShiftUpControlLabel
-text = Shift Up
-center = 0.1, 0.30
+name = AnalogClutchControlLabel
+text = Analog Clutch
+center = 0.1, 0.24
 width = 0.2
 fontsize = 0.03
 align = right
 
 [ widget-01b ]
 type = controlgrab
-name = ShiftUpControl
-tip = The shift up control changes the car's gear to the next one.
-setting = disengage_shift_up
-center = 0.25, 0.30
+name = AnalogClutchControl
+tip = The analog clutch control can allow you to use an external clutch pedal.
+setting = clutch
+center = 0.25, 0.24
 width = 0.2
 fontsize = 0.03
-enabled = 1
-selected = 1
-default = 0
-cancel = 0
 
 [ widget-02a ]
 type = label
-name = ShiftDownControlLabel
-text = Shift Down
-center = 0.1, 0.34
+name = ShiftUpControlLabel
+text = Shift Up
+center = 0.1, 0.28
 width = 0.2
 fontsize = 0.03
 align = right
 
 [ widget-02b ]
 type = controlgrab
+name = ShiftUpControl
+tip = The shift up control changes the car's gear to the next one.
+setting = disengage_shift_up
+center = 0.25, 0.28
+width = 0.2
+fontsize = 0.03
+selected = 1
+
+[ widget-03a ]
+type = label
+name = ShiftDownControlLabel
+text = Shift Down
+center = 0.1, 0.32
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-03b ]
+type = controlgrab
 name = ShiftDownControl
 tip = The shift down control changes the car's gear to the previous one.
 setting = disengage_shift_down
-center = 0.25, 0.34
+center = 0.25, 0.32
 width = 0.2
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-04a ]
 type = label
-name = AnalogClutchControlLabel
-text = Analog Clutch
-center = 0.1, 0.38
+name = NeutralLabel
+text = Neutral
+center = 0.1, 0.36
 width = 0.2
 fontsize = 0.03
 align = right
 
 [ widget-04b ]
 type = controlgrab
-name = AnalogClutchControl
-tip = The analog clutch control can allow you to use an external clutch pedal.
-setting = clutch
-center = 0.25, 0.38
+name = NeutralControl
+tip = The neutral control shifts the car into neutral.
+setting = neutral
+center = 0.25, 0.36
+width = 0.2
+analog = 1
+fontsize = 0.03
+
+[ widget-05a ]
+type = label
+name = 1stLabel
+text = 1st
+center = 0.1, 0.40
 width = 0.2
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
+align = right
 
-[ widget-05 ]
-type = button
-name = GearsButton
-text = Gears
-tip = Assign inputs to each of the gear actions.
-action = GearsControls
-center = 0.5, 0.52
-color = 0.0, 0.0, 0.8
-width = auto
-height = 0.05
-fontsize = 0.04
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
+[ widget-05b ]
+type = controlgrab
+name = 1stControl
+tip = The first gear control shifts the car into first gear.
+setting = first_gear
+center = 0.25, 0.40
+width = 0.2
+analog = 1
+fontsize = 0.03
 
-[ widget-06 ]
-type = button
-name = TransmissionControlsOKButton
-text = OK
-tip = Save changes and return to Car Controls menu.
-action = CarControls
-center = 0.4, 0.64
-color = 0.0, 0.8, 0.0
-width = auto
-height = 0.05
-fontsize = 0.04
-enabled = 1
-selected = 0
-default = 1
-cancel = 0
+[ widget-06a ]
+type = label
+name = 2ndLabel
+text = 2nd
+center = 0.1, 0.44
+width = 0.2
+fontsize = 0.03
+align = right
 
-[ widget-07 ]
+[ widget-06b ]
+type = controlgrab
+name = 2ndControl
+tip = The second gear control shifts the car into second gear.
+setting = second_gear
+center = 0.25, 0.44
+width = 0.2
+analog = 1
+fontsize = 0.03
+
+[ widget-07a ]
+type = label
+name = 3rdLabel
+text = 3rd
+center = 0.1, 0.48
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-07b ]
+type = controlgrab
+name = 3rdControl
+tip = The third gear control shifts the car into third gear.
+setting = third_gear
+center = 0.25, 0.48
+width = 0.2
+analog = 1
+fontsize = 0.03
+
+[ widget-08a ]
+type = label
+name = 4thLabel
+text = 4th
+center = 0.1, 0.52
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-08b ]
+type = controlgrab
+name = 4thControl
+tip = The fourth gear control shifts the car into fourth gear.
+setting = fourth_gear
+center = 0.25, 0.52
+width = 0.2
+analog = 1
+fontsize = 0.03
+
+[ widget-09a ]
+type = label
+name = 5thLabel
+text = 5th
+center = 0.1, 0.56
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-09b ]
+type = controlgrab
+name = 5thControl
+tip = The fifth gear control shifts the car into fifth gear.
+setting = fifth_gear
+center = 0.25, 0.56
+width = 0.2
+analog = 1
+fontsize = 0.03
+
+[ widget-10a ]
+type = label
+name = 6thLabel
+text = 6th
+center = 0.1, 0.60
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-10b ]
+type = controlgrab
+name = 6thControl
+tip = The sixth gear control shifts the car into sixth gear.
+setting = sixth_gear
+center = 0.25, 0.60
+width = 0.2
+analog = 1
+fontsize = 0.03
+
+[ widget-11a ]
+type = label
+name = ReverseLabel
+text = Reverse
+center = 0.1, 0.64
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-11b ]
+type = controlgrab
+name = ReverseControl
+tip = The reverse control puts the car into reverse gear.
+setting = reverse
+center = 0.25, 0.64
+width = 0.2
+analog = 1
+fontsize = 0.03
+
+[ widget-13 ]
 type = button
 name = TransmissionControlsCancelButton
 text = Cancel
 tip = Forget changes and return to Car Controls menu.
 action = CarControls
-center = 0.6, 0.64
-color = 0.8, 0.0, 0.0
-width = auto
+center = 0.3, 0.70
+width = 0.16
 height = 0.05
 fontsize = 0.04
-enabled = 1
-selected = 0
-default = 0
+align = left
 cancel = 1
+
+[ widget-14 ]
+type = button
+name = TransmissionControlsOKButton
+text = OK
+tip = Save changes and return to Car Controls menu.
+action = CarControls
+center = 0.3, 0.76
+width = 0.16
+height = 0.05
+fontsize = 0.04
+align = left

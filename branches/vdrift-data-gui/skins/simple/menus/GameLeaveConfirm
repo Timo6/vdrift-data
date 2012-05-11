@@ -1,4 +1,4 @@
-name = RestartGameConfirm
+name = GameLeaveConfirm
 dialog = true
 
 [background]
@@ -11,18 +11,18 @@ layer = -1
 
 [ widget-00 ]
 type = label
-name = QuitMessage
-text = Are you sure you want to restart?
-center = 0.3, 0.1
+name = GameLeaveMessage
+text = Are you sure you want to leave this game?
+center = 0.3, 0.10
 width = 0.2
 fontsize = 0.04
 align = left
 
 [ widget-01 ]
 type = button
-name = RestartGameNo
+name = LeaveNo
 text = No
-action = Main
+action = InGameMain
 center = 0.3, 0.20
 width = 0.16
 height = 0.05
@@ -32,9 +32,9 @@ cancel = 1
 
 [ widget-02 ]
 type = button
-name = RestartGameYes
+name = LeaveYes
 text = Yes
-action = RestartGame
+action = LeaveGame
 center = 0.3, 0.26
 width = 0.16
 height = 0.05
