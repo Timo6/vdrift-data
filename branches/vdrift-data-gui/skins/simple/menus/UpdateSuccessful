@@ -12,10 +12,10 @@ layer = -1
 [ widget-00 ]
 type = label
 text = Update Successful
-center = 0.5, 0.45
-width = auto
-height = auto
+center = 0.3, 0.1
+width = 0.2
 fontsize = 0.04
+align = left
 
 [ widget-02 ]
 type = button
@@ -23,12 +23,9 @@ name = BackButton
 text = Back
 tip = Go back to the Updates page.
 action = Updates
-center = 0.5, 0.55
-color = 0.8, 0.0, 0.0
-width = auto
+center = 0.3, 0.20
+width = 0.16
 height = 0.05
 fontsize = 0.04
-enabled = 1
+align = left
 selected = 1
-default = 0
-cancel = 1
