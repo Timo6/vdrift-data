@@ -79,20 +79,19 @@ type = button
 name = ToolsControlsCancelButton
 text = Cancel
 tip = Forget changes and return to Game Controls menu.
-action = GameControls
+action = controls.load GameControls
 center = 0.3, 0.34
 width = 0.16
 height = 0.05
 fontsize = 0.04
 align = left
-cancel = 1
 
 [ widget-05 ]
 type = button
 name = ToolsControlsOKButton
 text = OK
 tip = Save changes and return to Game Controls menu.
-action = GameControls
+action = controls.save GameControls
 center = 0.3, 0.40
 width = 0.16
 height = 0.05

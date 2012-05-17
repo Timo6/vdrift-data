@@ -81,12 +81,11 @@ type = button
 name = OptionsSoundCancelButton
 text = Cancel
 tip = Forget changes and return to Options menu.
-action = Options
+action = gui.options.load Options
 center = 0.3, 0.34
 width = 0.16
 height = 0.05
 fontsize = 0.04
-cancel = 1
 align = left
 
 [ widget-05 ]
@@ -94,7 +93,7 @@ type = button
 name = OptionsSoundOKButton
 text = OK
 tip = Save changes and return to Options menu.
-action = Options
+action = gui.options.save Options
 center = 0.3, 0.40
 width = 0.16
 height = 0.05

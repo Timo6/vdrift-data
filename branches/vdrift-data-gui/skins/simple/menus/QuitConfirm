@@ -28,13 +28,12 @@ width = 0.16
 height = 0.05
 fontsize = 0.04
 align = left
-cancel = 1
 
 [ widget-02 ]
 type = button
 name = QuitYes
 text = Yes
-action = Quit
+action = QuitGame
 center = 0.3, 0.26
 width = 0.16
 height = 0.05

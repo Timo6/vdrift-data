@@ -26,10 +26,6 @@ center = 0.1, 0.20
 width = 0.2
 fontsize = 0.03
 align = right
-enabled = 1
-selected = 1
-default = 0
-cancel = 0
 
 [ widget-01b ]
 type = controlgrab
@@ -208,20 +204,19 @@ type = button
 name = CameraViewControlsCancelButton
 text = Cancel
 tip = Forget changes and return to Game Controls menu.
-action = GameControls
+action = controls.load GameControls
 center = 0.3, 0.62
 width = 0.16
 height = 0.05
 fontsize = 0.04
 align = left
-cancel = 1
 
 [ widget-12 ]
 type = button
 name = CameraViewControlsOKButton
 text = OK
 tip = Save changes and return to Game Controls menu.
-action = GameControls
+action = controls.save GameControls
 center = 0.3, 0.68
 width = 0.16
 height = 0.05

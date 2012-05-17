@@ -228,20 +228,19 @@ type = button
 name = CarControlsCancelButton
 text = Cancel
 tip = Forget changes and return to Controls menu.
-action = ControlsOptions
+action = controls.load ControlsOptions
 center = 0.3, 0.68
 width = 0.16
 height = 0.05
 fontsize = 0.04
 align = left
-cancel = 1
 
 [ widget-13 ]
 type = button
 name = CarControlsOKButton
 text = OK
 tip = Save changes and return to Controls menu.
-action = ControlsOptions
+action = controls.save ControlsOptions
 center = 0.3, 0.74
 width = 0.16
 height = 0.05

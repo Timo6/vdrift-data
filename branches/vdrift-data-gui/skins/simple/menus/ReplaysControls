@@ -54,30 +54,25 @@ setting = replay_rw
 center = 0.25, 0.24
 width = 0.2
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-03 ]
 type = button
 name = ReplaysControlsCancelButton
 text = Cancel
 tip = Forget changes and return to Game Controls menu.
-action = GameControls
+action = controls.load GameControls
 center = 0.3, 0.30
 width = 0.16
 height = 0.05
 fontsize = 0.04
 align = left
-cancel = 1
 
 [ widget-04 ]
 type = button
 name = ReplaysControlsOKButton
 text = OK
 tip = Save changes and return to Game Controls menu.
-action = GameControls
+action = controls.save GameControls
 center = 0.3, 0.36
 width = 0.16
 height = 0.05

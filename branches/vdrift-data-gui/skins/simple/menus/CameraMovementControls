@@ -138,20 +138,19 @@ type = button
 name = CameraMovementControlsCancelButton
 text = Cancel
 tip = Forget changes and return to Game Controls menu.
-action = GameControls
+action = controls.load GameControls
 center = 0.3, 0.46
 width = 0.16
 height = 0.05
 fontsize = 0.04
 align = left
-cancel = 1
 
 [ widget-08 ]
 type = button
 name = CameraMovementControlsOKButton
 text = OK
 tip = Save changes and return to Game Controls menu.
-action = GameControls
+action = controls.save GameControls
 center = 0.3, 0.52
 width = 0.16
 height = 0.05

@@ -166,25 +166,31 @@ width = 0.16
 height = 0.04
 fontsize = 0.03
 
-[ widget-09]
+[ widget-09a ]
+type = label
+name = HGateShifterLabel
+text = H-Gate Shifter
+center = 0.1, 0.52
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-09b ]
+type = stringwheel
+name = HGateShifterWheel
+setting = joystick.hgateshifter
+center = 0.3, 0.52
+width = 0.16
+height = 0.04
+fontsize = 0.03
+
+[ widget-10]
 type = button
 name = GameControlsButton
-text = Game Controls
+text = Game
 tip = Assign inputs to actions that affect the game.
 action = GameControls
-center = 0.3, 0.54
-width = 0.16
-height = 0.05
-fontsize = 0.04
-align = left
-
-[ widget-10 ]
-type = button
-name = CarControlsButton
-text = Car Controls
-tip = Assign inputs to actions that affect the car.
-action = CarControls
-center = 0.3, 0.60
+center = 0.3, 0.58
 width = 0.16
 height = 0.05
 fontsize = 0.04
@@ -192,24 +198,35 @@ align = left
 
 [ widget-11 ]
 type = button
-name = OptionsControlsCancelButton
-text = Cancel
-tip = Forget changes and return to Options menu.
-action = Options
-center = 0.3, 0.66
+name = CarControlsButton
+text = Car
+tip = Assign inputs to actions that affect the car.
+action = CarControls
+center = 0.3, 0.64
 width = 0.16
 height = 0.05
 fontsize = 0.04
 align = left
-cancel = 1
 
 [ widget-12 ]
+type = button
+name = OptionsControlsCancelButton
+text = Cancel
+tip = Forget changes and return to Options menu.
+action = gui.options.load Options
+center = 0.3, 0.70
+width = 0.16
+height = 0.05
+fontsize = 0.04
+align = left
+
+[ widget-13 ]
 type = button
 name = OptionsControlsOKButton
 text = OK
 tip = Save changes and return to Options menu.
-action = Options
-center = 0.3, 0.72
+action = gui.options.save Options
+center = 0.3, 0.76
 width = 0.16
 height = 0.05
 fontsize = 0.04

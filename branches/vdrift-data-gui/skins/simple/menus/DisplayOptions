@@ -28,18 +28,14 @@ fontsize = 0.03
 align = right
 
 [ widget-01b ]
-type = intintwheel
+type = stringwheel
 name = ResolutionWheel
-setting1 = display.width
-setting2 = display.height
+setting = display.resolution
 center = 0.3, 0.2
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
 selected = 1
-default = 0
-cancel = 0
 
 [ widget-02a ]
 type = label
@@ -58,10 +54,6 @@ center = 0.3, 0.24
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-03a ]
 type = label
@@ -80,10 +72,6 @@ center = 0.3, 0.28
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-04a ]
 type = label
@@ -102,10 +90,6 @@ center = 0.3, 0.32
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-05a ]
 type = label
@@ -124,10 +108,6 @@ center = 0.3, 0.36
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-06a ]
 type = label
@@ -146,10 +126,6 @@ center = 0.3, 0.40
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-07a ]
 type = label
@@ -168,10 +144,6 @@ center = 0.3, 0.44
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-08a ]
 type = label
@@ -190,10 +162,6 @@ center = 0.3, 0.48
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-09a ]
 type = label
@@ -212,10 +180,6 @@ center = 0.3, 0.52
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-10a ]
 type = label
@@ -234,10 +198,6 @@ center = 0.3, 0.56
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
 [ widget-11a ]
 type = label
@@ -257,10 +217,6 @@ center = 0.3, 0.60
 width = 0.16
 height = 0.04
 fontsize = 0.03
-enabled = 1
-selected = 1
-default = 0
-cancel = 0
 
 [ widget-12a ]
 type = label
@@ -286,20 +242,19 @@ type = button
 name = DisplayOptionsCancelButton
 text = Cancel
 tip = Forget changes and return to Options menu.
-action = Options
+action = gui.options.load Options
 center = 0.3, 0.70
 width = 0.16
 height = 0.05
 fontsize = 0.04
 align = left
-cancel = 1
 
 [ widget-14 ]
 type = button
 name = DisplayOptionsOKButton
 text = OK
 tip = Save changes and return to Options menu.
-action = Options
+action = gui.options.save Options
 center = 0.3, 0.76
 width = 0.16
 height = 0.05

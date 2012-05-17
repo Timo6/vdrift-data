@@ -294,20 +294,19 @@ type = button
 name = OptionsGraphicsCancelButton
 text = Cancel
 tip = Forget changes and return to Options menu.
-action = Options
+action = gui.options.load Options
 center = 0.3, 0.82
 width = 0.16
 height = 0.05
 fontsize = 0.04
 align = left
-cancel = 1
 
 [ widget-17 ]
 type = button
 name = OptionsGraphicsOKButton
 text = OK
 tip = Save changes and return to Options menu.
-action = Options
+action = gui.options.save Options
 center = 0.3, 0.88
 width = 0.16
 height = 0.05

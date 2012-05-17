@@ -28,7 +28,7 @@ width = 0.16
 height = 0.05
 fontsize = 0.04
 align = left
-cancel = 1
+selected = 1
 
 [ widget-02 ]
 type = button
