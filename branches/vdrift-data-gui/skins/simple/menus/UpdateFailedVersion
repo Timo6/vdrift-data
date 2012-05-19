@@ -1,5 +1,6 @@
 name = DataConnectionError
 dialog = true
+oncancel = Main
 
 [background]
 type = image
@@ -23,7 +24,7 @@ type = button
 name = BackButton
 text = Back
 tip = Go back to the main menu.
-action = Main
+onselect = Main
 center = 0.3, 0.20
 width = 0.16
 height = 0.05

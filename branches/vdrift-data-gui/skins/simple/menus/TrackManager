@@ -1,5 +1,6 @@
 name = TrackManager
 dialog = false
+oncancel = Updates
 
 [background]
 type = image
@@ -18,12 +19,14 @@ width = 0.2
 fontsize = 0.06
 align = left
 
-[ widget-11 ]
+[ widget-01 ]
 type = button
 name = prev
 text = Previous
 tip = Go back to the last track
-action = TrackManagerPrev
+onselect = TrackManagerPrev
+onmoveup = widget-04
+onmovedown = widget-02
 center = 0.3, 0.20
 width = 0.16
 height = 0.05
@@ -31,36 +34,42 @@ fontsize = 0.04
 align = left
 selected = 1
 
-[ widget-12 ]
+[ widget-02 ]
 type = button
 name = next
 text = Next
 tip = Advance to the next track
-action = TrackManagerNext
+onselect = TrackManagerNext
+onmoveup = widget-01
+onmovedown = widget-03
 center = 0.3, 0.26
 width = 0.16
 height = 0.05
 fontsize = 0.04
 align = left
 
-[ updatebutton ]
+[ widget-03 ]
 type = button
 name = Updatebutton
 text = Apply Update
 tip = Update this track to the latest version
-action = ApplyTrackUpdate
+onselect = ApplyTrackUpdate
+onmoveup = widget-02
+onmovedown = widget-04
 center = 0.3, 0.32
 width = 0.16
 height = 0.05
 fontsize = 0.04
 align = left
 
-[ widget-back ]
+[ widget-04 ]
 type = button
 name = BackButton
 text = Back
 tip = Return to the Updates page.
-action = Updates
+onselect = Updates
+onmoveup = widget-03
+onmovedown = widget-01
 center = 0.3, 0.38
 width = 0.16
 height = 0.05

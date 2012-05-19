@@ -1,5 +1,6 @@
 name = UpdatesFound
 dialog = false
+oncancel = Updates
 
 [background]
 type = image
@@ -51,9 +52,10 @@ type = button
 name = BackButton
 text = Back
 tip = Return to the Updates menu.
-action = Updates
+onselect = Updates
 center = 0.3, 0.32
 width = 0.16
 height = 0.05
 fontsize = 0.04
 align = left
+selected = 1

@@ -1,5 +1,6 @@
 name = RestartGameConfirm
 dialog = true
+oncancel = InGameMain
 
 [background]
 type = image
@@ -22,7 +23,9 @@ align = left
 type = button
 name = RestartGameNo
 text = No
-action = Main
+onselect = InGameMain
+onmoveup = widget-02
+onmovedown = widget-02
 center = 0.3, 0.20
 width = 0.16
 height = 0.05
@@ -34,7 +37,9 @@ selected = 1
 type = button
 name = RestartGameYes
 text = Yes
-action = RestartGame
+onselect = RestartGame
+onmoveup = widget-01
+onmovedown = widget-01
 center = 0.3, 0.26
 width = 0.16
 height = 0.05

@@ -1,5 +1,6 @@
 name = CarManager
 dialog = false
+oncancel = Updates
 
 [background]
 type = image
@@ -23,7 +24,9 @@ type = button
 name = prev
 text = Previous
 tip = Go back to the last car
-action = CarManagerPrev
+onselect = CarManagerPrev
+onmoveup = widget-04
+onmovedown = widget-02
 center = 0.3, 0.20
 width = 0.16
 height = 0.05
@@ -36,31 +39,35 @@ type = button
 name = next
 text = Next
 tip = Advance to the next car
-action = CarManagerNext
+onselect = CarManagerNext
+onmoveup = widget-01
+onmovedown = widget-03
 center = 0.3, 0.26
 width = 0.16
 height = 0.05
 fontsize = 0.04
 align = left
 
-[ updatebutton ]
+[ widget-03 ]
 type = button
 name = Updatebutton
 text = Apply Update
 tip = Update this car to the latest version
-action = ApplyCarUpdate
+onselect = ApplyCarUpdate
+onmoveup = widget-02
+onmovedown = widget-01
 center = 0.3, 0.32
 width = 0.16
 height = 0.05
 fontsize = 0.04
 align = left
 
-[ widget-back ]
+[ widget-04 ]
 type = button
 name = BackButton
 text = Back
 tip = Return to the Updates page.
-action = Updates
+onselect = Updates
 center = 0.3, 0.38
 width = 0.16
 height = 0.05
