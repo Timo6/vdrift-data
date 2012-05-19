@@ -359,3 +359,17 @@ enabled = 1
 selected = 0
 default = 0
 cancel = 0
+
+[ widget-20 ]
+type = stringwheel
+name = OpponentTypeWheel
+setting = game.opponent_type
+values = options
+center = 0.445, 0.72
+spacing = 0.10
+width = auto
+height = auto
+fontsize = 0.03
+enabled = 1
+selected = 0
+default = 0
