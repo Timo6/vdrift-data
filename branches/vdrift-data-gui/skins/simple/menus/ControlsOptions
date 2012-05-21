@@ -235,12 +235,12 @@ height = 0.05
 fontsize = 0.04
 align = left
 
-[ widget-11 ]
+[ widget-11]
 type = button
-name = CarControlsButton
-text = Car
-tip = Assign inputs to actions that affect the car.
-onselect = CarControls
+name = GuiControlsButton
+text = GUI
+tip = Assign inputs to actions that affect the gui.
+onselect = GuiControls
 onmoveup = widget-10
 onmovedown = widget-12
 center = 0.3, 0.64
@@ -251,10 +251,10 @@ align = left
 
 [ widget-12 ]
 type = button
-name = OptionsControlsCancelButton
-text = Cancel
-tip = Forget changes and return to Options menu.
-onselect = gui.options.load Options
+name = CarControlsButton
+text = Car
+tip = Assign inputs to actions that affect the car.
+onselect = CarControls
 onmoveup = widget-11
 onmovedown = widget-13
 center = 0.3, 0.70
@@ -265,13 +265,27 @@ align = left
 
 [ widget-13 ]
 type = button
+name = OptionsControlsCancelButton
+text = Cancel
+tip = Forget changes and return to Options menu.
+onselect = gui.options.load Options
+onmoveup = widget-12
+onmovedown = widget-14
+center = 0.3, 0.76
+width = 0.16
+height = 0.05
+fontsize = 0.04
+align = left
+
+[ widget-14 ]
+type = button
 name = OptionsControlsOKButton
 text = OK
 tip = Save changes and return to Options menu.
 onselect = gui.options.save Options
-onmoveup = widget-12
+onmoveup = widget-13
 onmovedown = widget-01b
-center = 0.3, 0.76
+center = 0.3, 0.82
 width = 0.16
 height = 0.05
 fontsize = 0.04

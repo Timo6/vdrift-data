@@ -1,0 +1,185 @@
+name = GuiControls
+dialog = false
+oncancel = controls.load ControlsOptions
+
+[background]
+type = image
+filename = box.png
+center = 0.5, 0.5
+width = 1
+height = 1
+layer = -1
+
+[ widget-00 ]
+type = label
+name = CarControls
+text = Options / Controls / GUI
+center = 0.3, 0.1
+width = 0.2
+fontsize = 0.06
+align = left
+
+[ widget-01a ]
+type = label
+name = SelectLabel
+text = Select
+center = 0.1, 0.20
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-01b ]
+type = controlgrab
+name = SelectControl
+tip = The select control causes a selection event.
+setting = gui_select
+onselect = UpdateControl
+onmoveup = widget-13
+onmovedown = widget-02b
+center = 0.25, 0.20
+width = 0.2
+fontsize = 0.03
+selected = 1
+
+[ widget-02a ]
+type = label
+name = CancelLabel
+text = Cancel
+center = 0.1, 0.24
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-02b ]
+type = controlgrab
+name = CancelControl
+tip = The cancel control causes a cancel event.
+setting = gui_cancel
+onselect = UpdateControl
+onmoveup = widget-01b
+onmovedown = widget-03b
+center = 0.25, 0.24
+width = 0.2
+fontsize = 0.03
+
+[ widget-03a ]
+type = label
+name = GuiLeftLabel
+text = Left
+center = 0.1, 0.28
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-03b ]
+type = controlgrab
+name = GuiLeftControl
+tip = The left control causes a move left event.
+setting = gui_left
+onselect = UpdateControl
+onmoveup = widget-02b
+onmovedown = widget-04b
+center = 0.25, 0.28
+width = 0.2
+fontsize = 0.03
+
+[ widget-04a ]
+type = label
+name = GuiRightLabel
+text = Right
+center = 0.1, 0.32
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-04b ]
+type = controlgrab
+name = GuiRightControl
+tip = The right control causes move right event.
+setting = gui_right
+onselect = UpdateControl
+onmoveup = widget-03b
+onmovedown = widget-05b
+center = 0.25, 0.32
+width = 0.2
+fontsize = 0.03
+
+[ widget-05a ]
+type = label
+name = GuiUpLabel
+text = Up
+center = 0.1, 0.36
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-05b ]
+type = controlgrab
+name = GuiUpControl
+tip = The up control causes a move up event.
+setting = gui_up
+onselect = UpdateControl
+onmoveup = widget-04b
+onmovedown = widget-06b
+center = 0.25, 0.36
+width = 0.2
+fontsize = 0.03
+
+[ widget-06a ]
+type = label
+name = GuiDownLabel
+text = Down
+center = 0.1, 0.40
+width = 0.2
+fontsize = 0.03
+align = right
+
+[ widget-06b ]
+type = controlgrab
+name = GuiDownControl
+tip = The down control causes a move down event.
+setting = gui_down
+onselect = UpdateControl
+onmoveup = widget-05b
+onmovedown = widget-07
+center = 0.25, 0.40
+width = 0.2
+fontsize = 0.03
+
+[ widget-07 ]
+type = button
+name = GuiControlsCancelButton
+text = Cancel
+tip = Forget changes and return to Controls menu.
+onselect = controls.load ControlsOptions
+onmoveup = widget-06b
+onmovedown = widget-08
+center = 0.3, 0.46
+width = 0.16
+height = 0.05
+fontsize = 0.04
+align = left
+
+[ widget-08 ]
+type = button
+name = GuiControlsOKButton
+text = OK
+tip = Save changes and return to Controls menu.
+onselect = controls.save ControlsOptions
+onmoveup = widget-07
+onmovedown = widget-01b
+center = 0.3, 0.52
+width = 0.16
+height = 0.05
+fontsize = 0.04
+align = left
+
+[ widget-09 ]
+type = label
+name = DisclaimerLabel
+text = Make sure that each GUI control is mapped to at least one input at any time!
+center = 0.3, 0.14
+color = 0.7, 0.7, 0.7
+width = 0.2
+fontsize = 0.03
+align = left
