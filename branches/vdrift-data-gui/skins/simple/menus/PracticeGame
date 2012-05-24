@@ -52,7 +52,7 @@ name = TrackWheel
 setting = game.track
 onmoveleft = game.track.prev
 onmoveright = game.track.next
-onmoveup = widget-16
+onmoveup = widget-14
 onmovedown = widget-04b
 center = 0.3, 0.18
 width = 0.16
@@ -61,19 +61,19 @@ fontsize = 0.03
 
 [ widget-04a ]
 type = label
-name = LapLabel
-text = Laps
+name = ReverseTrackLabel
+text = Reverse Track
 center = 0.1, 0.22
 width = 0.2
 fontsize = 0.03
 align = right
 
 [ widget-04b ]
-type = intwheel
-name = LapWheel
-setting = game.number_of_laps
-onmoveleft = game.number_of_laps.prev
-onmoveright = game.number_of_laps.next
+type = stringwheel
+name = ReverseTrackWheel
+setting = game.reverse
+onmoveleft = game.reverse.prev
+onmoveright = game.reverse.next
 onmoveup = widget-03b
 onmovedown = widget-05b
 center = 0.3, 0.22
@@ -83,8 +83,8 @@ fontsize = 0.03
 
 [ widget-05a ]
 type = label
-name = ReverseTrackLabel
-text = Reverse Track
+name = DynamicTrackLabel
+text = Dynamic Objects
 center = 0.1, 0.26
 width = 0.2
 fontsize = 0.03
@@ -92,10 +92,10 @@ align = right
 
 [ widget-05b ]
 type = stringwheel
-name = ReverseTrackWheel
-setting = game.reverse
-onmoveleft = game.reverse.prev
-onmoveright = game.reverse.next
+name = DynamicTrackWheel
+setting = game.track_dynamic
+onmoveleft = game.track_dynamic.prev
+onmoveright = game.track_dynamic.next
 onmoveup = widget-04b
 onmovedown = widget-06b
 center = 0.3, 0.26
@@ -105,173 +105,175 @@ fontsize = 0.03
 
 [ widget-06a ]
 type = label
-name = DynamicTrackLabel
-text = Dynamic Objects
-center = 0.1, 0.30
+name = PlayerCarLabel
+text = Car
+center = 0.1, 0.34
 width = 0.2
 fontsize = 0.03
 align = right
 
 [ widget-06b ]
 type = stringwheel
-name = DynamicTrackWheel
-setting = game.track_dynamic
-onmoveleft = game.track_dynamic.prev
-onmoveright = game.track_dynamic.next
-onmoveup = widget-05b
-onmovedown = widget-09b
-center = 0.3, 0.30
-width = 0.16
-height = 0.04
-fontsize = 0.03
-
-[ widget-09a ]
-type = label
-name = PlayerCarLabel
-text = Car
-center = 0.1, 0.44
-width = 0.2
-fontsize = 0.03
-align = right
-
-[ widget-09b ]
-type = stringwheel
 name = PlayerCar
 setting = game.player
 onmoveleft = game.player.prev PlayerCarChange
 onmoveright = game.player.next PlayerCarChange
 #onselect = PlayerCarChange
-onmoveup = widget-06b
-onmovedown = widget-10b
-center = 0.3, 0.44
+onmoveup = widget-05b
+onmovedown = widget-07b
+center = 0.3, 0.34
 width = 0.16
 height = 0.04
 fontsize = 0.03
 
-[ widget-10a ]
+[ widget-07a ]
 type = label
 name = PlayerPaintLabel
 text = Paint
-center = 0.1, 0.48
+center = 0.1, 0.38
 width = 0.2
 fontsize = 0.03
 align = right
 
-[ widget-10b ]
+[ widget-07b ]
 type = stringwheel
 name = PlayerPaint
 setting = game.player_paint
 onmoveleft = game.player_paint.prev PlayerPaintChange
 onmoveright = game.player_paint.next PlayerPaintChange
 #onselect = PlayerPaintChange
-onmoveup = widget-09b
-onmovedown = widget-11
-center = 0.3, 0.48
+onmoveup = widget-06b
+onmovedown = widget-08
+center = 0.3, 0.38
 width = 0.16
 height = 0.04
 fontsize = 0.03
 
-[ widget-11 ]
+[ widget-08 ]
 type = colorpicker
 name = PlayerColor
 setting = game.player_color
 onmoveleft = game.player_color.prev PlayerColorChange
 onmoveright = game.player_color.next PlayerColorChange
 #onselect = PlayerColorChange
-onmoveup = widget-10b
-onmovedown = widget-12b
-center = 0.29, 0.58
+onmoveup = widget-07b
+onmovedown = widget-09b
+center = 0.29, 0.48
 width = 0.16
 height = 0.15
 
-[ widget-12a ]
+[ widget-09a ]
 type = label
 name = ABSLabel
 text = Antilock Brakes
-center = 0.1, 0.68
+center = 0.1, 0.58
 width = 0.2
 fontsize = 0.03
 align = right
 
-[ widget-12b ]
+[ widget-09b ]
 type = stringwheel
 name = ABSWheel
 setting = game.antilock
 onmoveleft = game.antilock.prev
 onmoveright = game.antilock.next
-onmoveup = widget-11
-onmovedown = widget-13b
-center = 0.3, 0.68
+onmoveup = widget-08
+onmovedown = widget-10b
+center = 0.3, 0.58
 width = 0.16
 height = 0.04
 fontsize = 0.03
 
-[ widget-13a ]
+[ widget-10a ]
 type = label
 name = TCSLabel
 text = Traction Control
-center = 0.1, 0.72
+center = 0.1, 0.62
 width = 0.2
 fontsize = 0.03
 align = right
 
-[ widget-13b ]
+[ widget-10b ]
 type = stringwheel
 name = TCSWheel
 setting = game.traction_control
 onmoveleft = game.traction_control.prev
 onmoveright = game.traction_control.next
-onmoveup = widget-12b
-onmovedown = widget-14b
-center = 0.3, 0.72
+onmoveup = widget-09b
+onmovedown = widget-11b
+center = 0.3, 0.62
 width = 0.16
 height = 0.04
 fontsize = 0.03
 
-[ widget-14a ]
+[ widget-11a ]
 type = label
 name = DamageLabel
 text = Car Damage
-center = 0.1, 0.76
+center = 0.1, 0.66
 width = 0.2
 height = 0.04
 fontsize = 0.03
 align = right
 
-[ widget-14b ]
+[ widget-11b ]
 type = stringwheel
 name = DamageWheel
 setting = game.vehicle_damage
 onmoveleft = game.vehicle_damage.prev
 onmoveright = game.vehicle_damage.next
-onmoveup = widget-13b
-onmovedown = widget-15
-center = 0.3, 0.76
+onmoveup = widget-10b
+onmovedown = widget-12b
+center = 0.3, 0.66
 width = 0.16
 height = 0.04
 fontsize = 0.03
 
-[ widget-15 ]
+[ widget-12a ]
+type = label
+name = RecordLabel
+text= Record Session
+center = 0.1, 0.74
+width = 0.2
+height = 0.04
+fontsize = 0.03
+align = right
+
+[ widget-12b ]
+type = stringwheel
+name = RecordWheel
+setting = game.record
+onmoveleft = game.record.prev
+onmoveright = game.record.next
+onmoveup = widget-11b
+onmovedown = widget-13
+center = 0.3, 0.74
+width = 0.16
+height = 0.04
+fontsize = 0.03
+align = right
+
+[ widget-13 ]
 type = button
 name = StartPracticeButton
 text = Start Practice
 tip = Start practice using the selected car and track.
 onselect = gui.options.save StartPractice
-onmoveup = widget-14b
-onmovedown = widget-16
+onmoveup = widget-12b
+onmovedown = widget-14
 center = 0.3, 0.82
 width = 0.16
 height = 0.05
 fontsize = 0.04
 align = left
 
-[ widget-16 ]
+[ widget-14 ]
 type = button
 name = StartPracticeBackButton
 text = Back
 tip = Return to the Main menu.
 onselect = gui.options.save Main
-onmoveup = widget-15
+onmoveup = widget-13
 onmovedown = widget-03b
 center = 0.3, 0.88
 width = 0.16
