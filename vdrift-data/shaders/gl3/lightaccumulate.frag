@@ -109,9 +109,9 @@ vec3 genericAmbient(vec3 n)
 	float yz = y*z;
 	float xz = x*z;
 
-	return c1*L22*(x2-y2) + c3*L20*z2 + c4*L00 - c5*L20 
+	return (c1*L22*(x2-y2) + c3*L20*z2 + c4*L00 - c5*L20 
 		+ 2*c1*(L2_2*xy + L21*xz + L2_1*yz) 
-		+ 2*c2*(L11*x+L1_1*y+L10*z);
+		+ 2*c2*(L11*x+L1_1*y+L10*z))/0.143;
 }
 
 #ifdef AMBIENT
@@ -317,7 +317,9 @@ void main(void)
 		reflectedLight *= FresnelEquation(Rf0*0.2,alpha_h)*mpercent;
 		
 		if (carpaintMask > 0.5)
-			ambientDiffuse *= alpha_h+0.5;
+        {
+			ambientDiffuse *= (alpha_h*alpha_h*0.25+0.05);
+        }
 		else
 			reflectedLight *= max(0,mpercent-0.5)*2.0;
 
@@ -328,7 +330,7 @@ void main(void)
 		//final = ambientDiffuse + reflectedLight;//(0.25+cos_clamped(V,normal)*0.25);
 		//final = texture(reflectionCubeSampler, (invViewMatrix*vec4(normal,0.0)).xzy).rgb;
 		//final = abs(vec3(invProjectionMatrix[3].xyz));
-		final = extinction(worldDepth)*(ambientDiffuse+reflectedLight)+inscatterLight;
+		final = extinction(worldDepth)*(ambientDiffuse+reflectedLight*notAO)+inscatterLight;
         //final = vec3(notAO);
         //final = genericAmbient(normal)*ambientLightColor.rgb;
         //final = abs(reflect(invViewMatrix3*V,vec3(0,1,0)));
@@ -361,8 +363,8 @@ void main(void)
 		if (carpaintMask > 0.5)
 		//if (false)
 		{
-			final += CommonBRDF(RealTimeRenderingBRDF(cdiff*0, m*1.5, cdiff+Rf0*0.025, alpha_h, omega_h),E_l,omega_i);
-			final += CommonBRDF(RealTimeRenderingBRDF(cdiff*0, m*0.25, (cdiff+Rf0*0.025)*2, alpha_h, omega_h),E_l,omega_i)*0.5;
+			final += CommonBRDF(RealTimeRenderingBRDF(cdiff*0.5, m, cdiff, alpha_h, omega_h),E_l,omega_i)*0.25;
+			final += CommonBRDF(RealTimeRenderingBRDF(cdiff*0, m*4, Rf0, alpha_h, omega_h),E_l,omega_i)*0.001;
 			
 			/*const float mmult = 256*2;
 			const float specmult = 1.0;
