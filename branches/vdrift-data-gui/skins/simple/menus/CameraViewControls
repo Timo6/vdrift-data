@@ -373,7 +373,7 @@ onmoveup = widget-06b
 onmovedown = widget-08b
 onfocus = widget-07b.val:0.8
 onblur = widget-07b.val:1.0
-focus = true
+focus = false
 center = 0.28, 0.44
 width = 0.12
 
