@@ -1,126 +1,121 @@
 name = GameControls
-dialog = false
-oncancel = controls.load ControlsOptions
+oncancel = LoadControls ControlsOptions
 
-[background]
-type = image
-filename = box.png
+
+[ background ] 
+#image = box.png
 center = 0.5, 0.5
 width = 1
 height = 1
 layer = -1
 
+
 [ widget-00 ]
-type = label
-name = GameControls
 text = Options / Controls / Game
-center = 0.3, 0.1
-width = 0.2
 fontsize = 0.06
 align = left
-
-[ widget-01a ]
-type = label
-name = PauseLabel
-text = Pause
-center = 0.1, 0.20
+center = 0.3, 0.1
 width = 0.2
-fontsize = 0.03
-align = right
 
-[ widget-01b ]
-type = controlgrab
-name = PauseControl
-tip = The pause control freezes the game (except in multiplayer).
-setting = pause
-onselect = UpdateControl
-onmoveup = widget-07
-onmovedown = widget-02
-center = 0.25, 0.20
-width = 0.2
-fontsize = 0.03
-selected = 1
 
-[ widget-02 ]
-type = button
-name = CameraViewControlsButton
+[ widget-02b ]
 text = Camera Views
+fontsize = 0.04
+align = left
 tip = Assign inputs to camera view selection controls.
 onselect = CameraViewControls
-onmoveup = widget-01b
-onmovedown = widget-03
+onmoveup = widget-07b
+onmovedown = widget-03b
+onfocus = widget-02b.val:0.8
+onblur = widget-02b.val:1.0
+focus = false
+center = 0.3, 0.20
+width = 0.16
+height = 0.05
+
+
+[ widget-03b ]
+text = Camera Movement
+fontsize = 0.04
+align = left
+tip = Assign inputs to camera movement controls.
+onselect = CameraMovementControls
+onmoveup = widget-02b
+onmovedown = widget-04b
+onfocus = widget-03b.val:0.8
+onblur = widget-03b.val:1.0
+focus = false
 center = 0.3, 0.26
 width = 0.16
 height = 0.05
+
+
+[ widget-04b ]
+text = Replays
 fontsize = 0.04
 align = left
-
-[ widget-03 ]
-type = button
-name = CameraMovementControlsButton
-text = Camera Movement
-tip = Assign inputs to camera movement controls.
-onselect = CameraMovementControls
-onmoveup = widget-02
-onmovedown = widget-04
+tip = Assign inputs to actions related to replays.
+onselect = ReplaysControls
+onmoveup = widget-03b
+onmovedown = widget-05b
+onfocus = widget-04b.val:0.8
+onblur = widget-04b.val:1.0
+focus = false
 center = 0.3, 0.32
 width = 0.16
 height = 0.05
+
+
+[ widget-05b ]
+text = Tools
 fontsize = 0.04
 align = left
-
-[ widget-04 ]
-type = button
-name = ReplaysControlsButton
-text = Replays
-tip = Assign inputs to actions related to replays.
-onselect = ReplaysControls
-onmoveup = widget-03
-onmovedown = widget-05
+tip = Assign inputs to miscellaneous helpful actions.
+onselect = ToolsControls
+onmoveup = widget-04b
+onmovedown = widget-06b
+onfocus = widget-05b.val:0.8
+onblur = widget-05b.val:1.0
+focus = false
 center = 0.3, 0.38
 width = 0.16
 height = 0.05
+
+
+[ widget-06b ]
+text = Cancel
 fontsize = 0.04
 align = left
-
-[ widget-05 ]
-type = button
-name = ToolsControlsButton
-text = Tools
-tip = Assign inputs to miscellaneous helpful actions.
-onselect = ToolsControls
-onmoveup = widget-04
-onmovedown = widget-06
+tip = Forget changes and return to Controls menu.
+onselect = LoadControls ControlsOptions
+onmoveup = widget-05b
+onmovedown = widget-07b
+onfocus = widget-06b.val:0.8
+onblur = widget-06b.val:1.0
+focus = false
 center = 0.3, 0.44
 width = 0.16
 height = 0.05
+
+
+[ widget-07b ]
+text = OK
 fontsize = 0.04
 align = left
-
-[ widget-06 ]
-type = button
-name = GameControlsCancelButton
-text = Cancel
-tip = Forget changes and return to Controls menu.
-onselect = controls.load ControlsOptions
-onmoveup = widget-05
-onmovedown = widget-07
+tip = Save changes and return to Controls menu.
+onselect = SaveControls ControlsOptions
+onmoveup = widget-06b
+onmovedown = widget-01b
+onfocus = widget-07b.val:0.8
+onblur = widget-07b.val:1.0
+focus = false
 center = 0.3, 0.50
 width = 0.16
 height = 0.05
-fontsize = 0.04
-align = left
 
-[ widget-07 ]
-type = button
-name = GameControlsOKButton
-text = OK
-tip = Save changes and return to Controls menu.
-onselect = controls.save ControlsOptions
-onmoveup = widget-06
-onmovedown = widget-01b
-center = 0.3, 0.56
-width = 0.16
-height = 0.05
-fontsize = 0.04
-align = left
+
+[ tooltip ]
+text = gui.tooltip
+fontsize = 0.03
+center = 0.5, 0.95
+width = 1.0

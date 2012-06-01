@@ -1,102 +1,116 @@
 name = CarManager
-dialog = false
 oncancel = Updates
 
-[background]
-type = image
-filename = box.png
+
+[ background ]
+#image = box.png
 center = 0.5, 0.5
 width = 1
 height = 1
 layer = -1
 
+
 [ widget-00 ]
-type = label
-name = TitleLabel
 text = Updates / Cars
-center = 0.3, 0.1
-width = 0.2
 fontsize = 0.06
 align = left
+center = 0.3, 0.1
+width = 0.2
+
 
 [ widget-01 ]
-type = button
-name = prev
 text = Previous
+fontsize = 0.04
+align = left
 tip = Go back to the last car
 onselect = CarManagerPrev
 onmoveup = widget-04
 onmovedown = widget-02
+onfocus = widget-01.val:0.8
+onblur = widget-01.val:1.0
+focus = true
 center = 0.3, 0.20
 width = 0.16
 height = 0.05
-fontsize = 0.04
-align = left
-selected = 1
+
 
 [ widget-02 ]
-type = button
-name = next
 text = Next
+fontsize = 0.04
+align = left
 tip = Advance to the next car
 onselect = CarManagerNext
 onmoveup = widget-01
 onmovedown = widget-03
+onfocus = widget-02.val:0.8
+onblur = widget-02.val:1.0
+focus = false
 center = 0.3, 0.26
 width = 0.16
 height = 0.05
-fontsize = 0.04
-align = left
+
 
 [ widget-03 ]
-type = button
-name = Updatebutton
 text = Apply Update
+fontsize = 0.04
+align = left
 tip = Update this car to the latest version
 onselect = ApplyCarUpdate
 onmoveup = widget-02
-onmovedown = widget-01
+onmovedown = widget-04
+onfocus = widget-03.val:0.8
+onblur = widget-03.val:1.0
+focus = false
 center = 0.3, 0.32
 width = 0.16
 height = 0.05
-fontsize = 0.04
-align = left
+
 
 [ widget-04 ]
-type = button
-name = BackButton
 text = Back
+fontsize = 0.04
+align = left
 tip = Return to the Updates page.
 onselect = Updates
+onmoveup = widget-03
+onmovedown = widget-01
+onfocus = widget-04.val:0.8
+onblur = widget-04.val:1.0
+focus = false
 center = 0.3, 0.38
 width = 0.16
 height = 0.05
-fontsize = 0.04
-align = left
+
 
 [ carlabel ]
-type = label
 name = name
 text = Car Name
+fontsize = 0.04
+align = left
 center = 0.6, 0.20
 width = 0.2
-fontsize = 0.04
-align = left
+
 
 [ version ]
-type = label
 name = version
 text = Version
+fontsize = 0.04
+align = left
 center = 0.6, 0.26
 width = 0.2
-fontsize = 0.04
-align = left
+
 
 [ updateinfo ]
-type = label
 name = updateinfo
 text = Update Info
-center = 0.6, 0.32
-width = 0.2
 fontsize = 0.04
 align = left
+center = 0.6, 0.32
+width = 0.2
+
+
+[ tooltip ]
+text = gui.tooltip
+fontsize = 0.03
+center = 0.5, 0.95
+width = 1.0

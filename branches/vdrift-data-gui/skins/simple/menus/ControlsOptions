@@ -1,292 +1,539 @@
 name = ControlsOptions
-dialog = false
 oncancel = gui.options.load Options
 
-[background]
-type = image
-filename = box.png
+
+[ background ]
+#image = box.png
 center = 0.5, 0.5
 width = 1
 height = 1
 layer = -1
 
+
 [ widget-00 ]
-type = label
-name = OptionsControlsLabel
 text = Options / Controls
-center = 0.3, 0.1
-width = 0.2
 fontsize = 0.06
 align = left
+center = 0.3, 0.1
+width = 0.2
+
+
 
 [ widget-01a ]
-type = label
-name = JoystickTypeLabel
 text = Type
+fontsize = 0.03
+align = right
 center = 0.1, 0.20
 width = 0.2
-fontsize = 0.03
-align = right
 
 [ widget-01b ]
-type = stringwheel
-name = JoystickTypeWheel
-setting = joystick.type
+text = <
+fontsize = 0.03
+align = left
+onselect = joystick.type.prev
 onmoveleft = joystick.type.prev
 onmoveright = joystick.type.next
-onmoveup = widget-13
+onmoveup = widget-13b
 onmovedown = widget-02b
-center = 0.3, 0.20
-width = 0.16
+onfocus = widget-01b.alpha:1 widget-01c.alpha:1 widget-01d.val:0.8
+onblur = widget-01b.alpha:0 widget-01c.alpha:0 widget-01d.val:1.0
+focus = true
+color = 0.8, 0.8, 0.8
+alpha = 0
+center = 0.26, 0.20
+width = 0.08
 height = 0.04
-fontsize = 0.03
-selected = 1
 
-[ widget-02a ]
-type = label
-name = 200DegreeLabel
-text = 200 Degree Wheel
-center = 0.1, 0.24
-width = 0.2
+[ widget-01c ]
+text = >
 fontsize = 0.03
 align = right
+onselect = joystick.type.next
+onmoveleft = joystick.type.prev
+onmoveright = joystick.type.next
+onmoveup = widget-13b
+onmovedown = widget-02b
+onfocus = widget-01b.alpha:1 widget-01c.alpha:1 widget-01d.val:0.8
+onblur = widget-01b.alpha:0 widget-01c.alpha:0 widget-01d.val:1.0
+focus = false
+color = 0.8, 0.8, 0.8
+alpha = 0
+center = 0.34, 0.20
+width = 0.08
+height = 0.04
+
+[ widget-01d ]
+text = joystick.type.str
+fontsize = 0.03
+center = 0.3, 0.20
+width = 0.16
+
+
+[ widget-02a ]
+text = 200 Degree Wheel
+fontsize = 0.03
+align = right
+center = 0.1, 0.24
+width = 0.2
 
 [ widget-02b ]
-type = stringwheel
-name = 200DegreeWheel
-setting = joystick.two_hundred
+text = <
+fontsize = 0.03
+align = left
+onselect = joystick.type.prev
 onmoveleft = joystick.two_hundred.prev
 onmoveright = joystick.two_hundred.next
 onmoveup = widget-01b
 onmovedown = widget-03b
-center = 0.3, 0.24
-width = 0.16
+onfocus = widget-02b.alpha:1 widget-02c.alpha:1 widget-02d.val:0.8
+onblur = widget-02b.alpha:0 widget-02c.alpha:0 widget-02d.val:1.0
+focus = false
+color = 0.8, 0.8, 0.8
+alpha = 0
+center = 0.26, 0.24
+width = 0.08
 height = 0.04
-fontsize = 0.03
 
-[ widget-03a ]
-type = label
-name = FFInvertLabel
-text = Force Feedback Invert 
-center = 0.1, 0.28
-width = 0.2
+[ widget-02c ]
+text = >
 fontsize = 0.03
 align = right
+onselect = joystick.type.next
+onmoveleft = joystick.two_hundred.prev
+onmoveright = joystick.two_hundred.next
+onmoveup = widget-01b
+onmovedown = widget-03b
+onfocus = widget-02b.alpha:1 widget-02c.alpha:1 widget-02d.val:0.8
+onblur = widget-02b.alpha:0 widget-02c.alpha:0 widget-02d.val:1.0
+focus = false
+color = 0.8, 0.8, 0.8
+alpha = 0
+center = 0.34, 0.24
+width = 0.08
+height = 0.04
+
+[ widget-02d ]
+text = joystick.two_hundred.str
+fontsize = 0.03
+center = 0.3, 0.24
+width = 0.16
+
+
+[ widget-03a ]
+text = Force Feedback Invert 
+fontsize = 0.03
+align = right
+center = 0.1, 0.28
+width = 0.2
 
 [ widget-03b ]
-type = stringwheel
-name = FFInvertWheel
-setting = joystick.ff_invert
+text = <
+fontsize = 0.03
+align = left
+onselect = joystick.ff_invert.prev
 onmoveleft = joystick.ff_invert.prev
 onmoveright = joystick.ff_invert.next
 onmoveup = widget-02b
 onmovedown = widget-04b
-center = 0.3, 0.28
-width = 0.16
+onfocus = widget-03b.alpha:1 widget-03c.alpha:1 widget-03d.val:0.8
+onblur = widget-03b.alpha:0 widget-03c.alpha:0 widget-03d.val:1.0
+focus = false
+color = 0.8, 0.8, 0.8
+alpha = 0
+center = 0.26, 0.28
+width = 0.08
 height = 0.04
-fontsize = 0.03
 
-[ widget-04a ]
-type = label
-name = FFGainLabel
-text = Force Feedback Gain
-center = 0.1, 0.32
-width = 0.2
+[ widget-03c ]
+text = >
 fontsize = 0.03
 align = right
+onselect = joystick.ff_invert.next
+onmoveleft = joystick.ff_invert.prev
+onmoveright = joystick.ff_invert.next
+onmoveup = widget-02b
+onmovedown = widget-04b
+onfocus = widget-03b.alpha:1 widget-03c.alpha:1 widget-03d.val:0.8
+onblur = widget-03b.alpha:0 widget-03c.alpha:0 widget-03d.val:1.0
+focus = false
+color = 0.8, 0.8, 0.8
+alpha = 0
+center = 0.34, 0.28
+width = 0.08
+height = 0.04
+
+[ widget-03d ]
+text = joystick.ff_invert.str
+fontsize = 0.03
+center = 0.3, 0.28
+width = 0.16
+
+
+[ widget-04a ]
+text = Force Feedback Gain
+fontsize = 0.03
+align = right
+center = 0.1, 0.32
+width = 0.2
 
 [ widget-04b ]
-type = slider
-name = FFGainSlider
-setting = joystick.ff_gain
+text = joystick.ff_gain.str
+fontsize = 0.03
+onselectx = joystick.ff_gain.norm
 onmoveleft = joystick.ff_gain.prev
 onmoveright = joystick.ff_gain.next
 onmoveup = widget-03b
 onmovedown = widget-05b
-fill = true
+onfocus = widget-04c.alpha:1 widget-04d.alpha:1
+onblur = widget-04c.alpha:0 widget-04d.alpha:0
+focus = false
 center = 0.3, 0.32
 width = 0.16
-height = 0.04
-fontsize = 0.03
+height = 0.03
+
+[ widget-04c ]
+slider = joystick.ff_gain.norm
+fill = true
+color = 0.6, 0.6, 0.6
+alpha = 0
+center = 0.3, 0.32
+width = 0.16
+height = 0.028
+layer = 1
+
+[ widget-04d ]
+image = white.png
+color = 0.3, 0.3, 0.3
+alpha = 0
+center = 0.3, 0.32
+width = 0.16
+height = 0.028
+
 
 [ widget-05a ]
-type = label
-name = SpeedSensSteeringLabel
 text = Steering Speed Effect
-center = 0.1, 0.36
-width = 0.2
 fontsize = 0.03
 align = right
+center = 0.1, 0.36
+width = 0.2
 
 [ widget-05b ]
-type = slider
-name = SpeedSensSteeringSlider
-setting = control.speed_sens_steering
+text = control.speed_sens_steering.str
+fontsize = 0.03
+onselectx = control.speed_sens_steering.norm
 onmoveleft = control.speed_sens_steering.prev
 onmoveright = control.speed_sens_steering.next
 onmoveup = widget-04b
 onmovedown = widget-06b
-fill = true
+onfocus = widget-05c.alpha:1 widget-05d.alpha:1
+onblur = widget-05c.alpha:0 widget-05d.alpha:0
+focus = false
 center = 0.3, 0.36
 width = 0.16
-height = 0.04
-fontsize = 0.03
-selected = 1
+height = 0.03
+
+[ widget-05c ]
+slider = control.speed_sens_steering.norm
+fill = true
+color = 0.6, 0.6, 0.6
+alpha = 0
+center = 0.3, 0.36
+width = 0.16
+height = 0.028
+layer = 1
+
+[ widget-05d ]
+image = white.png
+color = 0.3, 0.3, 0.3
+alpha = 0
+center = 0.3, 0.36
+width = 0.16
+height = 0.028
+
 
 [ widget-06a ]
-type = label
-name = ButtonRampLabel
 text = Button Control Delay
-center = 0.1, 0.40
-width = 0.2
 fontsize = 0.03
 align = right
+center = 0.1, 0.40
+width = 0.2
 
 [ widget-06b ]
-type = floatwheel
-name = ButtonRampWheel
-setting = control.button_ramp
+text = <
+fontsize = 0.03
+align = left
+onselect = joystick.button_ramp.prev
 onmoveleft = control.button_ramp.prev
 onmoveright = control.button_ramp.next
 onmoveup = widget-05b
 onmovedown = widget-07b
-center = 0.3, 0.40
-width = 0.16
+onfocus = widget-06b.alpha:1 widget-06c.alpha:1 widget-06d.val:0.8
+onblur = widget-06b.alpha:0 widget-06c.alpha:0 widget-06d.val:1.0
+focus = false
+color = 0.8, 0.8, 0.8
+alpha = 0
+center = 0.26, 0.40
+width = 0.08
 height = 0.04
-fontsize = 0.03
 
-[ widget-07a ]
-type = label
-name = AutoTransLabel
-text = Automatic Shift
-center = 0.1, 0.44
-width = 0.2
+[ widget-06c ]
+text = >
 fontsize = 0.03
 align = right
+onselect = joystick.button_ramp.next
+onmoveleft = control.button_ramp.prev
+onmoveright = control.button_ramp.next
+onmoveup = widget-05b
+onmovedown = widget-07b
+onfocus = widget-06b.alpha:1 widget-06c.alpha:1 widget-06d.val:0.8
+onblur = widget-06b.alpha:0 widget-06c.alpha:0 widget-06d.val:1.0
+focus = false
+color = 0.8, 0.8, 0.8
+alpha = 0
+center = 0.34, 0.40
+width = 0.08
+height = 0.04
+
+[ widget-06d ]
+type = label
+text = control.button_ramp.str
+fontsize = 0.03
+center = 0.3, 0.40
+width = 0.16
+
+
+[ widget-07a ]
+text = Automatic Shift
+fontsize = 0.03
+align = right
+center = 0.1, 0.44
+width = 0.2
 
 [ widget-07b ]
-type = stringwheel
-name = AutoTransWheel
-setting = control.autotrans
+text = <
+fontsize = 0.03
+align = left
+onselect = control.autotrans.prev
 onmoveleft = control.autotrans.prev
 onmoveright = control.autotrans.next
 onmoveup = widget-06b
 onmovedown = widget-08b
-center = 0.3, 0.44
-width = 0.16
+onfocus = widget-07b.alpha:1 widget-07c.alpha:1 widget-07d.val:0.8
+onblur = widget-07b.alpha:0 widget-07c.alpha:0 widget-07d.val:1.0
+focus = false
+color = 0.8, 0.8, 0.8
+alpha = 0
+center = 0.26, 0.44
+width = 0.08
 height = 0.04
-fontsize = 0.03
 
-[ widget-08a ]
-type = label
-name = AutoClutchLabel
-text = Automatic Clutch
-center = 0.1, 0.48
-width = 0.2
+[ widget-07c ]
+text = >
 fontsize = 0.03
 align = right
+onselect = control.autotrans.next
+onmoveleft = control.autotrans.prev
+onmoveright = control.autotrans.next
+onmoveup = widget-06b
+onmovedown = widget-08b
+onfocus = widget-07b.alpha:1 widget-07c.alpha:1 widget-07d.val:0.8
+onblur = widget-07b.alpha:0 widget-07c.alpha:0 widget-07d.val:1.0
+focus = false
+color = 0.8, 0.8, 0.8
+alpha = 0
+center = 0.34, 0.44
+width = 0.08
+height = 0.04
+
+[ widget-07d ]
+text = control.autotrans.str
+fontsize = 0.03
+center = 0.3, 0.44
+width = 0.16
+
+
+[ widget-08a ]
+text = Automatic Clutch
+fontsize = 0.03
+align = right
+center = 0.1, 0.48
+width = 0.2
 
 [ widget-08b ]
-type = stringwheel
-name = AutoClutchWheel
-setting = control.autoclutch
+text = <
+fontsize = 0.03
+align = left
+onselect = control.autoclutch.prev
 onmoveleft = control.autoclutch.prev
 onmoveright = control.autoclutch.next
 onmoveup = widget-07b
 onmovedown = widget-09b
-center = 0.3, 0.48
-width = 0.16
+onfocus = widget-08b.alpha:1 widget-08c.alpha:1 widget-08d.val:0.8
+onblur = widget-08b.alpha:0 widget-08c.alpha:0 widget-08d.val:1.0
+focus = false
+color = 0.8, 0.8, 0.8
+alpha = 0
+center = 0.26, 0.48
+width = 0.08
 height = 0.04
-fontsize = 0.03
 
-[ widget-09a ]
-type = label
-name = HGateShifterLabel
-text = H-Gate Shifter
-center = 0.1, 0.52
-width = 0.2
+[ widget-08c ]
+text = >
 fontsize = 0.03
 align = right
+onselect = control.autoclutch.next
+onmoveleft = control.autoclutch.prev
+onmoveright = control.autoclutch.next
+onmoveup = widget-07b
+onmovedown = widget-09b
+onfocus = widget-08b.alpha:1 widget-08c.alpha:1 widget-08d.val:0.8
+onblur = widget-08b.alpha:0 widget-08c.alpha:0 widget-08d.val:1.0
+focus = false
+color = 0.8, 0.8, 0.8
+alpha = 0
+center = 0.34, 0.48
+width = 0.08
+height = 0.04
+
+[ widget-08d ]
+text = control.autoclutch.str
+fontsize = 0.03
+center = 0.3, 0.48
+width = 0.16
+
+
+[ widget-09a ]
+text = H-Gate Shifter
+fontsize = 0.03
+align = right
+center = 0.1, 0.52
+width = 0.2
 
 [ widget-09b ]
-type = stringwheel
-name = HGateShifterWheel
-setting = joystick.hgateshifter
+text = <
+fontsize = 0.03
+align = left
+onselect = joystick.hgateshifter.prev
 onmoveleft = joystick.hgateshifter.prev
 onmoveright = joystick.hgateshifter.next
 onmoveup = widget-08b
-onmovedown = widget-10
+onmovedown = widget-10b
+onfocus = widget-09b.alpha:1 widget-09c.alpha:1 widget-09d.val:0.8
+onblur = widget-09b.alpha:0 widget-09c.alpha:0 widget-09d.val:1.0
+focus = false
+color = 0.8, 0.8, 0.8
+alpha = 0
+center = 0.26, 0.52
+width = 0.08
+height = 0.04
+
+[ widget-09c ]
+text = >
+fontsize = 0.03
+align = right
+onselect = joystick.hgateshifter.next
+onmoveleft = joystick.hgateshifter.prev
+onmoveright = joystick.hgateshifter.next
+onmoveup = widget-08b
+onmovedown = widget-10b
+onfocus = widget-09b.alpha:1 widget-09c.alpha:1 widget-09d.val:0.8
+onblur = widget-09b.alpha:0 widget-09c.alpha:0 widget-09d.val:1.0
+focus = false
+color = 0.8, 0.8, 0.8
+alpha = 0
+center = 0.34, 0.52
+width = 0.08
+height = 0.04
+
+[ widget-09d ]
+text = joystick.hgateshifter.str
+fontsize = 0.03
 center = 0.3, 0.52
 width = 0.16
-height = 0.04
-fontsize = 0.03
 
-[ widget-10]
-type = button
-name = GameControlsButton
+
+[ widget-10b ]
 text = Game
+fontsize = 0.04
+align = left
 tip = Assign inputs to actions that affect the game.
 onselect = GameControls
 onmoveup = widget-09b
-onmovedown = widget-11
+onmovedown = widget-11b
+onfocus = widget-10b.val:0.8
+onblur = widget-10b.val:1.0
+focus = false
 center = 0.3, 0.58
 width = 0.16
 height = 0.05
+
+
+[ widget-11b ]
+text = GUI
 fontsize = 0.04
 align = left
-
-[ widget-11]
-type = button
-name = GuiControlsButton
-text = GUI
 tip = Assign inputs to actions that affect the gui.
 onselect = GuiControls
-onmoveup = widget-10
-onmovedown = widget-12
+onmoveup = widget-10b
+onmovedown = widget-12b
+onfocus = widget-11b.val:0.8
+onblur = widget-11b.val:1.0
+focus = false
 center = 0.3, 0.64
 width = 0.16
 height = 0.05
+
+
+[ widget-12b ]
+text = Car
 fontsize = 0.04
 align = left
-
-[ widget-12 ]
-type = button
-name = CarControlsButton
-text = Car
 tip = Assign inputs to actions that affect the car.
 onselect = CarControls
-onmoveup = widget-11
-onmovedown = widget-13
+onmoveup = widget-11b
+onmovedown = widget-13b
+onfocus = widget-12b.val:0.8
+onblur = widget-12b.val:1.0
+focus = false
 center = 0.3, 0.70
 width = 0.16
 height = 0.05
+
+
+[ widget-13b ]
+text = Cancel
 fontsize = 0.04
 align = left
-
-[ widget-13 ]
-type = button
-name = OptionsControlsCancelButton
-text = Cancel
 tip = Forget changes and return to Options menu.
 onselect = gui.options.load Options
-onmoveup = widget-12
-onmovedown = widget-14
+onmoveup = widget-12b
+onmovedown = widget-14b
+onfocus = widget-13b.val:0.8
+onblur = widget-13b.val:1.0
+focus = false
 center = 0.3, 0.76
 width = 0.16
 height = 0.05
+
+
+[ widget-14b ]
+text = OK
 fontsize = 0.04
 align = left
-
-[ widget-14 ]
-type = button
-name = OptionsControlsOKButton
-text = OK
 tip = Save changes and return to Options menu.
 onselect = gui.options.save Options
-onmoveup = widget-13
+onmoveup = widget-13b
 onmovedown = widget-01b
+onfocus = widget-14b.val:0.8
+onblur = widget-14b.val:1.0
+focus = false
 center = 0.3, 0.82
 width = 0.16
 height = 0.05
-fontsize = 0.04
-align = left
+
+
+[ tooltip ]
+text = gui.tooltip
+fontsize = 0.03
+center = 0.5, 0.95
+width = 1.0

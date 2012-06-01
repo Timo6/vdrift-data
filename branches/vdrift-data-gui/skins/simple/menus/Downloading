@@ -1,9 +1,8 @@
 name = Downloading
-dialog = true
 
-[background]
-type = image
-filename = box.png
+
+[ background ] 
+#image = box.png
 center = 0.5, 0.5
 width = 1
 height = 1

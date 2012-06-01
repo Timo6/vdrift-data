@@ -1,71 +1,105 @@
 name = Replays
-dialog = false
 oncancel = Main
 
-[background]
-type = image
-filename = box.png
+
+[ background ]
+#image = box.png
 center = 0.5, 0.5
 width = 1
 height = 1
 layer = -1
 
+
 [ widget-00 ]
-type = label
-name = ReplaysLabel
 text = Replays
-center = 0.3, 0.1
-width = 0.2
 fontsize = 0.06
 align = left
+center = 0.3, 0.1
+width = 0.2
+
 
 [ widget-01a ]
-type = label
-name = SelectReplayLabel
 text = Select Replay
-center = 0.1, 0.20
-width = 0.2
 fontsize = 0.03
 align = right
+center = 0.1, 0.20
+width = 0.2
 
 [ widget-01b ]
-type = stringwheel
-name = SelectReplayWheel
-setting = game.selected_replay
+text = <
+fontsize = 0.03
+align = left
 onmoveleft = game.selected_replay.prev
 onmoveright = game.selected_replay.next
-onmoveup = widget-03
-onmovedown = widget-02
-center = 0.4, 0.20
-width = 0.36
+onmoveup = widget-03b
+onmovedown = widget-02b
+onfocus = widget-01b.alpha:1 widget-01c.alpha:1 widget-01d.val:0.8
+onblur = widget-01b.alpha:0 widget-01c.alpha:0 widget-01d.val:1.0
+focus = true
+color = 0.8, 0.8, 0.8
+alpha = 0
+center = 0.26, 0.20
+width = 0.08
 height = 0.04
-fontsize = 0.03
-selected = 1
 
-[ widget-02 ]
-type = button
-name = StartReplayButton
+[ widget-01c ]
+text = >
+fontsize = 0.03
+align = right
+onmoveleft = game.selected_replay.prev
+onmoveright = game.selected_replay.next
+onmoveup = widget-03b
+onmovedown = widget-02b
+onfocus = widget-01b.alpha:1 widget-01c.alpha:1 widget-01d.val:0.8
+onblur = widget-01b.alpha:0 widget-01c.alpha:0 widget-01d.val:1.0
+focus = false
+color = 0.8, 0.8, 0.8
+alpha = 0
+center = 0.34, 0.20
+width = 0.08
+height = 0.04
+
+[ widget-01d ]
+text = game.selected_replay.str
+fontsize = 0.03
+center = 0.3, 0.20
+width = 0.16
+
+
+[ widget-02b ]
 text = Start Replay
+fontsize = 0.04
+align = left
 tip = Begin playing the last recorded replay.
 onselect = gui.options.save StartReplay
 onmoveup = widget-01b
-onmovedown = widget-03
+onmovedown = widget-03b
+onfocus = widget-02b.val:0.8
+onblur = widget-02b.val:1.0
+focus = false
 center = 0.3, 0.26
 width = 0.16
 height = 0.05
+
+
+[ widget-03b ]
+text = Back
 fontsize = 0.04
 align = left
-
-[ widget-03 ]
-type = button
-name = ReplaysMainBackButton
-text = Back
 tip = Return to the Main menu.
 onselect = Main
-onmoveup = widget-02
+onmoveup = widget-02b
 onmovedown = widget-01b
+onfocus = widget-03b.val:0.8
+onblur = widget-03b.val:1.0
+focus = false
 center = 0.3, 0.32
 width = 0.16
 height = 0.05
-fontsize = 0.04
-align = left
+
+
+[ tooltip ]
+text = gui.tooltip
+fontsize = 0.03
+center = 0.5, 0.95
+width = 1.0

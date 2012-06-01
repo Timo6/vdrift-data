@@ -1,26 +1,23 @@
 name = AssignControl
-dialog = false
 
-[background]
-type = image
-filename = box.png
+
+[ background ]
+#image = box.png
 center = 0.5, 0.5
 width = 1
 height = 1
 layer = -1
 
+
 [ widget-00 ]
-type = label
-#name = InfoLabel
 text = Press a key, press a joystick button, move a joystick axis, move the mouse, or click a mouse button.
+fontsize = 0.03
 center = 0.5, 0.5
 width = 1.0
-fontsize = 0.03
+
 
 [ widget-01 ]
-type = label
-#name = InfoLabel
 text = Press the ESCAPE key to abort.
+fontsize = 0.03
 center = 0.5, 0.6
 width = 1.0
-fontsize = 0.03

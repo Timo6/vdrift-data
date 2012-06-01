@@ -1,33 +1,38 @@
 name = DataConnectionError
-dialog = true
 oncancel = Main
 
-[background]
-type = image
-filename = box.png
+
+[ background ]
+#image = box.png
 center = 0.5, 0.5
 width = 1
 height = 1
 layer = -1
 
+
 [ widget-00 ]
-type = label
-name = ConnectionErrorMessage
 text = There was an error connecting to the VDrift data server.
-center = 0.3, 0.1
-width = 0.2
 fontsize = 0.04
 align = left
+center = 0.3, 0.1
+width = 0.2
 
-[ widget-02 ]
-type = button
-name = BackButton
+
+[ widget-02b ]
 text = Back
+fontsize = 0.04
+align = left
 tip = Go back to the main menu.
 onselect = Main
+focus = true
 center = 0.3, 0.20
 width = 0.16
 height = 0.05
-fontsize = 0.04
-align = left
 selected = 1
+
+
+[ tooltip ]
+text = gui.tooltip
+fontsize = 0.03
+center = 0.5, 0.95
+width = 1.0

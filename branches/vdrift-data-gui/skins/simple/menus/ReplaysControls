@@ -1,91 +1,169 @@
 name = ReplaysControls
-dialog = false
-oncancel = controls.load GameControls
+oncancel = LoadControls GameControls
 
-[background]
-type = image
-filename = box.png
+
+[ background ]
+#image = box.png
 center = 0.5, 0.5
 width = 1
 height = 1
 layer = -1
 
+
 [ widget-00 ]
-type = label
-name = ReplaysControls
 text = Options / Controls / Game / Replays
-center = 0.3, 0.1
-width = 0.2
 fontsize = 0.06
 align = left
+center = 0.3, 0.1
+width = 0.2
+
 
 [ widget-01a ]
-type = label
-name = SkipForwardLabel
 text = Skip Forward
+fontsize = 0.03
+align = right
 center = 0.1, 0.20
 width = 0.2
-fontsize = 0.03
-align = right
 
 [ widget-01b ]
-type = controlgrab
-name = SkipForwardControl
-tip = The skip forward control skips ahead ten seconds during a replay.
-setting = replay_ff
-onselect = UpdateControl
-onmoveup = widget-04
-onmovedown = widget-02b
-center = 0.25, 0.20
-width = 0.2
+name = control.replay_ff.0
+text = none
 fontsize = 0.03
-selected = 1
+tip = The skip forward control skips ahead ten seconds during a replay.
+onselect = controledit.string:replay_ff:0
+onmoveleft = widget-01d
+onmoveright = widget-01c
+onmoveup = widget-04b
+onmovedown = widget-02b
+onfocus = widget-01b.val:0.8
+onblur = widget-01b.val:1.0
+focus = true
+center = 0.28, 0.20
+width = 0.12
+
+[ widget-01c ]
+name = control.replay_ff.1
+text = none
+fontsize = 0.03
+tip = The skip forward control skips ahead ten seconds during a replay.
+onselect = controledit.string:replay_ff:1
+onmoveleft = widget-01b
+onmoveright = widget-01d
+onmoveup = widget-04b
+onmovedown = widget-02c
+onfocus = widget-01c.val:0.8
+onblur = widget-01c.val:1.0
+focus = false
+center = 0.40, 0.20
+width = 0.12
+
+[ widget-01d ]
+name = control.replay_ff.2
+text = none
+fontsize = 0.03
+tip = The skip forward control skips ahead ten seconds during a replay.
+onselect = controledit.string:replay_ff:2
+onmoveleft = widget-01c
+onmoveright = widget-01b
+onmoveup = widget-04b
+onmovedown = widget-02d
+onfocus = widget-01d.val:0.8
+onblur = widget-01d.val:1.0
+focus = false
+center = 0.52, 0.20
+width = 0.12
+
 
 [ widget-02a ]
-type = label
-name = SkipBackwardLabel
 text = Skip Backward
-center = 0.1, 0.24
-width = 0.2
 fontsize = 0.03
 align = right
+center = 0.1, 0.24
+width = 0.2
 
 [ widget-02b ]
-type = controlgrab
-name = SkipBackwardControl
-tip = The skip backward control goes back ten seconds during a replay.
-setting = replay_rw
-onselect = UpdateControl
-onmoveup = widget-01b
-onmovedown = widget-03
-center = 0.25, 0.24
-width = 0.2
+name = control.replay_rw.0
+text = none
 fontsize = 0.03
+tip = The skip backward control goes back ten seconds during a replay.
+onselect = controledit.string:replay_rw:0
+onmoveleft = widget-02d
+onmoveright = widget-02c
+onmoveup = widget-01b
+onmovedown = widget-03b
+onfocus = widget-02b.val:0.8
+onblur = widget-02b.val:1.0
+focus = false
+center = 0.28, 0.24
+width = 0.12
 
-[ widget-03 ]
-type = button
-name = ReplaysControlsCancelButton
+[ widget-02c ]
+name = control.replay_rw.1
+text = none
+fontsize = 0.03
+tip = The skip backward control goes back ten seconds during a replay.
+onselect = controledit.string:replay_rw:1
+onmoveleft = widget-02b
+onmoveright = widget-02d
+onmoveup = widget-01c
+onmovedown = widget-03b
+onfocus = widget-02c.val:0.8
+onblur = widget-02c.val:1.0
+focus = false
+center = 0.40, 0.24
+width = 0.12
+
+[ widget-02d ]
+name = control.replay_rw.2
+text = none
+fontsize = 0.03
+tip = The skip backward control goes back ten seconds during a replay.
+onselect = controledit.string:replay_rw:2
+onmoveleft = widget-02c
+onmoveright = widget-02b
+onmoveup = widget-01d
+onmovedown = widget-03b
+onfocus = widget-02d.val:0.8
+onblur = widget-02d.val:1.0
+focus = false
+center = 0.52, 0.24
+width = 0.12
+
+
+[ widget-03b ]
 text = Cancel
+fontsize = 0.04
+align = left
 tip = Forget changes and return to Game Controls menu.
-onselect = controls.load GameControls
+onselect = LoadControls GameControls
 onmoveup = widget-02b
-onmovedown = widget-04
+onmovedown = widget-04b
+onfocus = widget-03b.val:0.8
+onblur = widget-03b.val:1.0
+focus = false
 center = 0.3, 0.30
 width = 0.16
 height = 0.05
+
+
+[ widget-04b ]
+text = OK
 fontsize = 0.04
 align = left
-
-[ widget-04 ]
-type = button
-name = ReplaysControlsOKButton
-text = OK
 tip = Save changes and return to Game Controls menu.
-onselect = controls.save GameControls
-onmoveup = widget-03
+onselect = SaveControls GameControls
+onmoveup = widget-03b
 onmovedown = widget-01b
+onfocus = widget-04b.val:0.8
+onblur = widget-04b.val:1.0
+focus = false
 center = 0.3, 0.36
 width = 0.16
 height = 0.05
-fontsize = 0.04
-align = left
+
+
+[ tooltip ]
+text = gui.tooltip
+fontsize = 0.03
+center = 0.5, 0.95
+width = 1.0

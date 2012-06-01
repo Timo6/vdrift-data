@@ -1,185 +1,384 @@
 name = GuiControls
-dialog = false
-oncancel = controls.load ControlsOptions
+oncancel = LoadControls ControlsOptions
 
-[background]
-type = image
-filename = box.png
+
+[ background ] 
+#image = box.png
 center = 0.5, 0.5
 width = 1
 height = 1
 layer = -1
 
+
 [ widget-00 ]
-type = label
-name = CarControls
 text = Options / Controls / GUI
-center = 0.3, 0.1
-width = 0.2
 fontsize = 0.06
 align = left
+center = 0.3, 0.1
+width = 0.2
+
 
 [ widget-01a ]
-type = label
-name = SelectLabel
 text = Select
+fontsize = 0.03
+align = right
 center = 0.1, 0.20
 width = 0.2
-fontsize = 0.03
-align = right
 
 [ widget-01b ]
-type = controlgrab
-name = SelectControl
-tip = The select control causes a selection event.
-setting = gui_select
-onselect = UpdateControl
-onmoveup = widget-13
-onmovedown = widget-02b
-center = 0.25, 0.20
-width = 0.2
+name = control.gui_select.0
+text = none
 fontsize = 0.03
-selected = 1
+onselect = controledit.string:gui_select:0
+onmoveleft = widget-01d
+onmoveright = widget-01c
+onmoveup = widget-13b
+onmovedown = widget-02b
+onfocus = widget-01b.val:0.8
+onblur = widget-01b.val:1.0
+focus = true
+center = 0.28, 0.20
+width = 0.12
+
+[ widget-01c ]
+name = control.gui_select.1
+text = none
+fontsize = 0.03
+onselect = controledit.string:gui_select:1
+onmoveleft = widget-01b
+onmoveright = widget-01d
+onmoveup = widget-13b
+onmovedown = widget-02c
+onfocus = widget-01c.val:0.8
+onblur = widget-01c.val:1.0
+focus = false
+center = 0.40, 0.20
+width = 0.12
+
+[ widget-01d ]
+name = control.gui_select.2
+text = none
+fontsize = 0.03
+onselect = controledit.string:gui_select:2
+onmoveleft = widget-01c
+onmoveright = widget-01b
+onmoveup = widget-13b
+onmovedown = widget-02d
+onfocus = widget-01d.val:0.8
+onblur = widget-01d.val:1.0
+focus = false
+center = 0.52, 0.20
+width = 0.12
+
 
 [ widget-02a ]
-type = label
-name = CancelLabel
 text = Cancel
+fontsize = 0.03
+align = right
 center = 0.1, 0.24
 width = 0.2
-fontsize = 0.03
-align = right
 
 [ widget-02b ]
-type = controlgrab
-name = CancelControl
-tip = The cancel control causes a cancel event.
-setting = gui_cancel
-onselect = UpdateControl
+name = control.gui_cancel.0
+text = none
+fontsize = 0.03
+onselect = controledit.string:gui_cancel:0
+onmoveleft = widget-02d
+onmoveright = widget-02c
 onmoveup = widget-01b
 onmovedown = widget-03b
-center = 0.25, 0.24
-width = 0.2
+onfocus = widget-02b.val:0.8
+onblur = widget-02b.val:1.0
+focus = false
+center = 0.28, 0.24
+width = 0.12
+
+[ widget-02c ]
+name = control.gui_cancel.1
+text = none
 fontsize = 0.03
+onselect = controledit.string:gui_cancel:1
+onmoveleft = widget-02b
+onmoveright = widget-02d
+onmoveup = widget-01c
+onmovedown = widget-03c
+onfocus = widget-02c.val:0.8
+onblur = widget-02c.val:1.0
+focus = false
+center = 0.40, 0.24
+width = 0.12
+
+[ widget-02d ]
+name = control.gui_cancel.2
+text = none
+fontsize = 0.03
+onselect = controledit.string:gui_cancel:2
+onmoveleft = widget-02c
+onmoveright = widget-02b
+onmoveup = widget-01d
+onmovedown = widget-03d
+onfocus = widget-02d.val:0.8
+onblur = widget-02d.val:1.0
+focus = false
+center = 0.52, 0.24
+width = 0.12
+
 
 [ widget-03a ]
-type = label
-name = GuiLeftLabel
 text = Left
+fontsize = 0.03
+align = right
 center = 0.1, 0.28
 width = 0.2
-fontsize = 0.03
-align = right
 
 [ widget-03b ]
-type = controlgrab
-name = GuiLeftControl
-tip = The left control causes a move left event.
-setting = gui_left
-onselect = UpdateControl
+name = control.gui_left.0
+text = none
+fontsize = 0.03
+onselect = controledit.string:gui_left:0
+onmoveleft = widget-03d
+onmoveright = widget-03c
 onmoveup = widget-02b
 onmovedown = widget-04b
-center = 0.25, 0.28
-width = 0.2
+onfocus = widget-03b.val:0.8
+onblur = widget-03b.val:1.0
+focus = false
+center = 0.28, 0.28
+width = 0.12
+
+[ widget-03c ]
+name = control.gui_left.1
+text = none
 fontsize = 0.03
+onselect = controledit.string:gui_left:1
+onmoveleft = widget-03b
+onmoveright = widget-03d
+onmoveup = widget-02c
+onmovedown = widget-04c
+onfocus = widget-03c.val:0.8
+onblur = widget-03c.val:1.0
+focus = false
+center = 0.40, 0.28
+width = 0.12
+
+[ widget-03d ]
+name = control.gui_left.2
+text = none
+fontsize = 0.03
+onselect = controledit.string:gui_left:2
+onmoveleft = widget-03c
+onmoveright = widget-03b
+onmoveup = widget-02d
+onmovedown = widget-04d
+onfocus = widget-03d.val:0.8
+onblur = widget-03d.val:1.0
+focus = false
+center = 0.52, 0.28
+width = 0.12
+
 
 [ widget-04a ]
-type = label
-name = GuiRightLabel
 text = Right
+fontsize = 0.03
+align = right
 center = 0.1, 0.32
 width = 0.2
-fontsize = 0.03
-align = right
 
 [ widget-04b ]
-type = controlgrab
-name = GuiRightControl
-tip = The right control causes move right event.
-setting = gui_right
-onselect = UpdateControl
+name = control.gui_right.0
+text = none
+fontsize = 0.03
+onselect = controledit.string:gui_right:0
+onmoveleft = widget-04d
+onmoveright = widget-04c
 onmoveup = widget-03b
 onmovedown = widget-05b
-center = 0.25, 0.32
-width = 0.2
+onfocus = widget-04b.val:0.8
+onblur = widget-04b.val:1.0
+focus = false
+center = 0.28, 0.32
+width = 0.12
+
+[ widget-04c ]
+name = control.gui_right.1
+text = none
 fontsize = 0.03
+onselect = controledit.string:gui_right:1
+onmoveleft = widget-04b
+onmoveright = widget-04d
+onmoveup = widget-03c
+onmovedown = widget-05c
+onfocus = widget-04c.val:0.8
+onblur = widget-04c.val:1.0
+focus = false
+center = 0.40, 0.32
+width = 0.12
+
+[ widget-04d ]
+name = control.gui_right.2
+text = none
+fontsize = 0.03
+onselect = controledit.string:gui_right:2
+onmoveleft = widget-04c
+onmoveright = widget-04b
+onmoveup = widget-03d
+onmovedown = widget-05d
+onfocus = widget-04d.val:0.8
+onblur = widget-04d.val:1.0
+focus = false
+center = 0.52, 0.32
+width = 0.12
+
 
 [ widget-05a ]
-type = label
-name = GuiUpLabel
 text = Up
+fontsize = 0.03
+align = right
 center = 0.1, 0.36
 width = 0.2
-fontsize = 0.03
-align = right
 
 [ widget-05b ]
-type = controlgrab
-name = GuiUpControl
-tip = The up control causes a move up event.
-setting = gui_up
-onselect = UpdateControl
+name = control.gui_up.0
+text = none
+fontsize = 0.03
+onselect = controledit.string:gui_up:0
+onmoveleft = widget-05d
+onmoveright = widget-05c
 onmoveup = widget-04b
 onmovedown = widget-06b
-center = 0.25, 0.36
-width = 0.2
+onfocus = widget-05b.val:0.8
+onblur = widget-05b.val:1.0
+focus = false
+center = 0.28, 0.36
+width = 0.12
+
+[ widget-05c ]
+name = control.gui_up.1
+text = none
 fontsize = 0.03
+onselect = controledit.string:gui_up:1
+onmoveleft = widget-05b
+onmoveright = widget-05d
+onmoveup = widget-04c
+onmovedown = widget-06c
+onfocus = widget-05c.val:0.8
+onblur = widget-05c.val:1.0
+focus = false
+center = 0.40, 0.36
+width = 0.12
+
+[ widget-05d ]
+name = control.gui_up.2
+text = none
+fontsize = 0.03
+onselect = controledit.string:gui_up:2
+onmoveleft = widget-05c
+onmoveright = widget-05b
+onmoveup = widget-04d
+onmovedown = widget-06d
+onfocus = widget-05d.val:0.8
+onblur = widget-05d.val:1.0
+focus = false
+center = 0.52, 0.36
+width = 0.12
+
 
 [ widget-06a ]
-type = label
-name = GuiDownLabel
 text = Down
-center = 0.1, 0.40
-width = 0.2
 fontsize = 0.03
 align = right
+center = 0.1, 0.40
+width = 0.2
 
 [ widget-06b ]
-type = controlgrab
-name = GuiDownControl
-tip = The down control causes a move down event.
-setting = gui_down
-onselect = UpdateControl
-onmoveup = widget-05b
-onmovedown = widget-07
-center = 0.25, 0.40
-width = 0.2
+name = control.gui_down.0
+text = none
 fontsize = 0.03
+onselect = controledit.string:gui_down:0
+onmoveleft = widget-06d
+onmoveright = widget-06c
+onmoveup = widget-05b
+onmovedown = widget-07b
+onfocus = widget-06b.val:0.8
+onblur = widget-06b.val:1.0
+focus = false
+center = 0.28, 0.40
+width = 0.12
 
-[ widget-07 ]
-type = button
-name = GuiControlsCancelButton
+[ widget-06c ]
+name = control.gui_down.1
+text = none
+fontsize = 0.03
+onselect = controledit.string:gui_down:1
+onmoveleft = widget-06b
+onmoveright = widget-06d
+onmoveup = widget-05c
+onmovedown = widget-07b
+onfocus = widget-06c.val:0.8
+onblur = widget-06c.val:1.0
+focus = false
+center = 0.40, 0.40
+width = 0.12
+
+[ widget-06d ]
+name = control.gui_down.2
+text = none
+fontsize = 0.03
+onselect = controledit.string:gui_down:2
+onmoveleft = widget-06c
+onmoveright = widget-06b
+onmoveup = widget-05d
+onmovedown = widget-07b
+onfocus = widget-06d.val:0.8
+onblur = widget-06d.val:1.0
+focus = false
+center = 0.52, 0.40
+width = 0.12
+
+
+[ widget-07b ]
 text = Cancel
+fontsize = 0.04
+align = left
 tip = Forget changes and return to Controls menu.
-onselect = controls.load ControlsOptions
+onselect = LoadControls ControlsOptions
 onmoveup = widget-06b
-onmovedown = widget-08
+onmovedown = widget-08b
+onfocus = widget-07b.val:0.8
+onblur = widget-07b.val:1.0
+focus = false
 center = 0.3, 0.46
 width = 0.16
 height = 0.05
+
+
+[ widget-08b ]
+text = OK
 fontsize = 0.04
 align = left
-
-[ widget-08 ]
-type = button
-name = GuiControlsOKButton
-text = OK
 tip = Save changes and return to Controls menu.
-onselect = controls.save ControlsOptions
-onmoveup = widget-07
+onselect = SaveControls ControlsOptions
+onmoveup = widget-07b
 onmovedown = widget-01b
+onfocus = widget-08b.val:0.8
+onblur = widget-08b.val:1.0
+focus = false
 center = 0.3, 0.52
 width = 0.16
 height = 0.05
-fontsize = 0.04
-align = left
+
 
 [ widget-09 ]
-type = label
-name = DisclaimerLabel
 text = Make sure that each GUI control is mapped to at least one input at any time!
-center = 0.3, 0.14
-color = 0.7, 0.7, 0.7
-width = 0.2
 fontsize = 0.03
 align = left
+color = 0.7, 0.7, 0.7
+center = 0.3, 0.14
+width = 0.2
+
+
+[ tooltip ]
+text = gui.tooltip
+fontsize = 0.03
+center = 0.5, 0.95
+width = 1.0

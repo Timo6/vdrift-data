@@ -1,77 +1,89 @@
 name = Updates
-dialog = false
 oncancel = Main
 
-[background]
-type = image
-filename = box.png
+
+[ background ]
+#image = box.png
 center = 0.5, 0.5
 width = 1
 height = 1
 layer = -1
 
+
 [ title ]
-type = label
-name = Title
 text = Updates
-center = 0.3, 0.1
-width = 0.2
 fontsize = 0.06
 align = left
+center = 0.3, 0.1
+width = 0.2
 
-[ widget-01 ]
-type = button
-name = UpdateButton
+
+[ widget-01b ]
 text = Check for updates
+fontsize = 0.04
+align = left
 tip = Check for updates to your existing cars and tracks
 onselect = StartCheckForUpdates
-onmoveup = widget-04
-onmovedown = widget-02
+onmoveup = widget-04b
+onmovedown = widget-02b
+onfocus = widget-01b.val:0.8
+onblur = widget-01b.val:1.0
+focus = true
 center = 0.3, 0.2
 width = 0.16
 height = 0.05
+
+
+[ widget-02b ]
+text = Tracks
 fontsize = 0.04
 align = left
-selected = 1
-
-[ widget-02 ]
-type = button
-name = TrackManageButton
-text = Tracks
 tip = Browse tracks and apply updates
 onselect = StartTrackManager
-onmoveup = widget-01
-onmovedown = widget-03
+onmoveup = widget-01b
+onmovedown = widget-03b
+onfocus = widget-02b.val:0.8
+onblur = widget-02b.val:1.0
+focus = false
 center = 0.3, 0.26
 width = 0.16
 height = 0.05
+
+
+[ widget-03b ]
+text = Cars
 fontsize = 0.04
 align = left
-
-[ widget-03 ]
-type = button
-name = CarManageButton
-text = Cars
 tip = Browse cars and apply updates
 onselect = StartCarManager
-onmoveup = widget-02
-onmovedown = widget-04
+onmoveup = widget-02b
+onmovedown = widget-04b
+onfocus = widget-03b.val:0.8
+onblur = widget-03b.val:1.0
+focus = false
 center = 0.3, 0.32
 width = 0.16
 height = 0.05
+
+
+[ widget-04b ]
+text = Back
 fontsize = 0.04
 align = left
-
-[ widget-04 ]
-type = button
-name = BackButton
-text = Back
 tip = Return to the Main menu.
 onselect = Main
-onmoveup = widget-03
-onmovedown = widget-01
+onmoveup = widget-03b
+onmovedown = widget-01b
+onfocus = widget-04b.val:0.8
+onblur = widget-04b.val:1.0
+focus = false
 center = 0.3, 0.38
 width = 0.16
 height = 0.05
-fontsize = 0.04
-align = left
+
+
+[ tooltip ]
+text = gui.tooltip
+fontsize = 0.03
+center = 0.5, 0.95
+width = 1.0
