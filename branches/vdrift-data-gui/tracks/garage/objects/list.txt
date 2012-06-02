@@ -514,23 +514,23 @@ cinderblock.png
 1
 
 #entry 27
-Wall.012.joe
-roof_shingles.png
-0
-0
-0
-0
-1.0
-0.0
-0
-0
-1.0
-0.9
-1.0
-0.0
-0
-0
-1
+#Wall.012.joe
+#roof_shingles.png
+#0
+#0
+#0
+#0
+#1.0
+#0.0
+#0
+#0
+#1.0
+#0.9
+#1.0
+#0.0
+#0
+#0
+#1
 
 #entry 28
 Wall.011.joe
