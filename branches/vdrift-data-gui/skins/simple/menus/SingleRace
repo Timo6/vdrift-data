@@ -2,14 +2,12 @@ name = SingleRace
 onfocus = EditLastCar
 oncancel = gui.options.save Main
 
-
 [ background ]
 #image = box.png
 center = 0.5, 0.5
 width = 1
 height = 1
 layer = -1
-
 
 [ widget-00 ]
 text = Single Race
@@ -18,7 +16,6 @@ align = left
 center = 0.3, 0.1
 width = 0.2
 
-
 [ widget-01 ]
 image = game.track.image
 path = tracks
@@ -26,25 +23,24 @@ center = 0.825, 0.33
 width = 0.25
 height = 0.325
 
-
-[ widget-03a ]
+[ widget-02a ]
 text = Track
 fontsize = 0.03
 align = right
 center = 0.1, 0.18
 width = 0.2
 
-[ widget-03b ]
+[ widget-02b ]
 text = <
 fontsize = 0.03
 align = left
 onselect = game.track.prev
 onmoveleft = game.track.prev
 onmoveright = game.track.next
-onmoveup = widget-18b
-onmovedown = widget-04b
-onfocus = widget-03b.alpha:1 widget-03c.alpha:1 widget-03d.val:0.8
-onblur = widget-03b.alpha:0 widget-03c.alpha:0 widget-03d.val:1.0
+onmoveup = widget-17
+onmovedown = widget-03b
+onfocus = widget-02b.alpha:1 widget-02c.alpha:1 widget-02d.val:0.8
+onblur = widget-02b.alpha:0 widget-02c.alpha:0 widget-02d.val:1.0
 focus = true
 color = 0.8, 0.8, 0.8
 alpha = 0
@@ -52,49 +48,48 @@ center = 0.26, 0.18
 width = 0.08
 height = 0.04
 
-[ widget-03c ]
+[ widget-02c ]
 text = >
 fontsize = 0.03
 align = right
 onselect = game.track.next
 onmoveleft = game.track.prev
 onmoveright = game.track.next
-onmoveup = widget-18b
-onmovedown = widget-04b
-onfocus = widget-03b.alpha:1 widget-03c.alpha:1 widget-03d.val:0.8
-onblur = widget-03b.alpha:0 widget-03c.alpha:0 widget-03d.val:1.0
+onmoveup = widget-17
+onmovedown = widget-03b
+onfocus = widget-02b.alpha:1 widget-02c.alpha:1 widget-02d.val:0.8
+onblur = widget-02b.alpha:0 widget-02c.alpha:0 widget-02d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.34, 0.18
+center = 0.38, 0.18
 width = 0.08
 height = 0.04
 
-[ widget-03d]
+[ widget-02d]
 text = game.track.str
 fontsize = 0.03
-center = 0.3, 0.18
-width = 0.16
+center = 0.32, 0.18
+width = 0.2
 
-
-[ widget-04a ]
+[ widget-03a ]
 text = Laps
 fontsize = 0.03
 align = right
 center = 0.1, 0.22
 width = 0.2
 
-[ widget-04b ]
+[ widget-03b ]
 text = <
 fontsize = 0.03
 align = left
 onselect = game.number_of_laps.prev
 onmoveleft = game.number_of_laps.prev
 onmoveright = game.number_of_laps.next
-onmoveup = widget-03b
-onmovedown = widget-05b
-onfocus = widget-04b.alpha:1 widget-04c.alpha:1 widget-04d.val:0.8
-onblur = widget-04b.alpha:0 widget-04c.alpha:0 widget-04d.val:1.0
+onmoveup = widget-02b
+onmovedown = widget-04b
+onfocus = widget-03b.alpha:1 widget-03c.alpha:1 widget-03d.val:0.8
+onblur = widget-03b.alpha:0 widget-03c.alpha:0 widget-03d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
@@ -102,13 +97,44 @@ center = 0.26, 0.22
 width = 0.08
 height = 0.04
 
-[ widget-04c ]
+[ widget-03c ]
 text = >
 fontsize = 0.03
 align = right
 onselect = game.number_of_laps.next
 onmoveleft = game.number_of_laps.prev
 onmoveright = game.number_of_laps.next
+onmoveup = widget-02b
+onmovedown = widget-04b
+onfocus = widget-03b.alpha:1 widget-03c.alpha:1 widget-03d.val:0.8
+onblur = widget-03b.alpha:0 widget-03c.alpha:0 widget-03d.val:1.0
+focus = false
+color = 0.8, 0.8, 0.8
+alpha = 0
+center = 0.38, 0.22
+width = 0.08
+height = 0.04
+
+[ widget-03d ]
+text = game.number_of_laps.str
+fontsize = 0.03
+center = 0.32, 0.22
+width = 0.2
+
+[ widget-04a ]
+text = Reverse Track
+fontsize = 0.03
+align = right
+center = 0.1, 0.26
+width = 0.2
+
+[ widget-04b ]
+text = <
+fontsize = 0.03
+align = left
+onselect = game.reverse.prev
+onmoveleft = game.reverse.prev
+onmoveright = game.reverse.next
 onmoveup = widget-03b
 onmovedown = widget-05b
 onfocus = widget-04b.alpha:1 widget-04c.alpha:1 widget-04d.val:0.8
@@ -116,85 +142,52 @@ onblur = widget-04b.alpha:0 widget-04c.alpha:0 widget-04d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.34, 0.22
-width = 0.08
-height = 0.04
-
-[ widget-04d ]
-text = game.number_of_laps.str
-fontsize = 0.03
-center = 0.3, 0.22
-width = 0.16
-
-
-[ widget-05a ]
-text = Reverse Track
-fontsize = 0.03
-align = right
-center = 0.1, 0.26
-width = 0.2
-
-[ widget-05b ]
-text = <
-fontsize = 0.03
-align = left
-onselect = game.reverse.prev
-onmoveleft = game.reverse.prev
-onmoveright = game.reverse.next
-onmoveup = widget-04b
-onmovedown = widget-06b
-onfocus = widget-05b.alpha:1 widget-05c.alpha:1 widget-05d.val:0.8
-onblur = widget-05b.alpha:0 widget-05c.alpha:0 widget-05d.val:1.0
-focus = false
-color = 0.8, 0.8, 0.8
-alpha = 0
 center = 0.26, 0.26
 width = 0.08
 height = 0.04
 
-[ widget-05c ]
+[ widget-04c ]
 text = >
 fontsize = 0.03
 align = right
 onselect = game.reverse.next
 onmoveleft = game.reverse.prev
 onmoveright = game.reverse.next
-onmoveup = widget-04b
-onmovedown = widget-06b
-onfocus = widget-05b.alpha:1 widget-05c.alpha:1 widget-05d.val:0.8
-onblur = widget-05b.alpha:0 widget-05c.alpha:0 widget-05d.val:1.0
+onmoveup = widget-03b
+onmovedown = widget-05b
+onfocus = widget-04b.alpha:1 widget-04c.alpha:1 widget-04d.val:0.8
+onblur = widget-04b.alpha:0 widget-04c.alpha:0 widget-04d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.34, 0.26
+center = 0.38, 0.26
 width = 0.08
 height = 0.04
 
-[ widget-05d ]
+[ widget-04d ]
 text = game.reverse.str
 fontsize = 0.03
-center = 0.3, 0.26
-width = 0.16
+center = 0.32, 0.26
+width = 0.2
 
-
-[ widget-06a ]
+[ widget-05a ]
 text = Dynamic Objects
 fontsize = 0.03
 align = right
 center = 0.1, 0.30
 width = 0.2
 
-[ widget-06b ]
+[ widget-05b ]
 text = <
 fontsize = 0.03
 align = left
 onselect = game.track_dynamic.prev
 onmoveleft = game.track_dynamic.prev
 onmoveright = game.track_dynamic.next
-onmoveup = widget-05b
-onmovedown = widget-07b
-onfocus = widget-06b.alpha:1 widget-06c.alpha:1 widget-06d.val:0.8
-onblur = widget-06b.alpha:0 widget-06c.alpha:0 widget-06d.val:1.0
+onmoveup = widget-04b
+onmovedown = widget-06b
+onfocus = widget-05b.alpha:1 widget-05c.alpha:1 widget-05d.val:0.8
+onblur = widget-05b.alpha:0 widget-05c.alpha:0 widget-05d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
@@ -202,13 +195,44 @@ center = 0.26, 0.30
 width = 0.08
 height = 0.04
 
-[ widget-06c ]
+[ widget-05c ]
 text = >
 fontsize = 0.03
 align = right
 onselect = game.track_dynamic.next
 onmoveleft = game.track_dynamic.prev
 onmoveright = game.track_dynamic.next
+onmoveup = widget-04b
+onmovedown = widget-06b
+onfocus = widget-05b.alpha:1 widget-05c.alpha:1 widget-05d.val:0.8
+onblur = widget-05b.alpha:0 widget-05c.alpha:0 widget-05d.val:1.0
+focus = false
+color = 0.8, 0.8, 0.8
+alpha = 0
+center = 0.38, 0.30
+width = 0.08
+height = 0.04
+
+[ widget-05d ]
+text = game.track_dynamic.str
+fontsize = 0.03
+center = 0.32, 0.30
+width = 0.2
+
+[ widget-06a ]
+text = Driver
+fontsize = 0.03
+align = right
+center = 0.1, 0.38
+width = 0.2
+
+[ widget-06b ]
+text = <
+fontsize = 0.03
+align = left
+onselect = game.cars_num.prev
+onmoveleft = game.cars_num.prev
+onmoveright = game.cars_num.next
 onmoveup = widget-05b
 onmovedown = widget-07b
 onfocus = widget-06b.alpha:1 widget-06c.alpha:1 widget-06d.val:0.8
@@ -216,122 +240,137 @@ onblur = widget-06b.alpha:0 widget-06c.alpha:0 widget-06d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.34, 0.30
+center = 0.26, 0.38
 width = 0.08
 height = 0.04
 
-[ widget-06d ]
-text = game.track_dynamic.str
-fontsize = 0.03
-center = 0.3, 0.30
-width = 0.16
-
-
-[ widget-07a ]
-text = Driver
-fontsize = 0.03
-align = right
-center = 0.1, 0.36
-width = 0.2
-
-[ widget-07b ]
-text = <
-fontsize = 0.03
-align = left
-onselect = game.cars_num.prev
-onmoveleft = game.cars_num.prev
-onmoveright = game.cars_num.next
-onmoveup = widget-06b
-onmovedown = widget-08b
-onfocus = widget-07b.alpha:1 widget-07c.alpha:1 widget-07d.val:0.8
-onblur = widget-07b.alpha:0 widget-07c.alpha:0 widget-07d.val:1.0
-focus = false
-color = 0.8, 0.8, 0.8
-alpha = 0
-center = 0.26, 0.36
-width = 0.08
-height = 0.04
-
-[ widget-07c ]
+[ widget-06c ]
 text = >
 fontsize = 0.03
 align = right
 onselect = game.cars_num.next
 onmoveleft = game.cars_num.prev
 onmoveright = game.cars_num.next
-onmoveup = widget-06b
-onmovedown = widget-08b
-onfocus = widget-07b.alpha:1 widget-07c.alpha:1 widget-07d.val:0.8
-onblur = widget-07b.alpha:0 widget-07c.alpha:0 widget-07d.val:1.0
+onmoveup = widget-05b
+onmovedown = widget-07b
+onfocus = widget-06b.alpha:1 widget-06c.alpha:1 widget-06d.val:0.8
+onblur = widget-06b.alpha:0 widget-06c.alpha:0 widget-06d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.34, 0.36
+center = 0.38, 0.38
 width = 0.08
 height = 0.04
 
-[ widget-07d ]
+[ widget-06d ]
 text = game.cars_num.str
 fontsize = 0.03
-center = 0.3, 0.36
-width = 0.16
+center = 0.32, 0.38
+width = 0.2
 
-
-[ widget-08a ]
+[ widget-07a ]
 text = AI
 fontsize = 0.03
 align = right
-center = 0.1, 0.40
+center = 0.1, 0.42
 width = 0.2
 
-[ widget-08b ]
+[ widget-07b ]
 text = game.ai_difficulty.str
 fontsize = 0.03
 onselectx = game.ai_difficulty.norm
 onmoveleft = game.ai_difficulty.prev
 onmoveright = game.ai_difficulty.next
-onmoveup = widget-07b
-onmovedown = widget-09b
-onfocus = widget-08c.alpha:1 widget-08d.alpha:1
-onblur = widget-08c.alpha:0 widget-08d.alpha:0
+onmoveup = widget-06b
+onmovedown = widget-08b
+onfocus = widget-07c.alpha:1 widget-07d.alpha:1
+onblur = widget-07c.alpha:0 widget-07d.alpha:0
 focus = false
-center = 0.3, 0.40
-width = 0.16
+center = 0.32, 0.42
+width = 0.2
 height = 0.03
 
-[ widget-08c ]
+[ widget-07c ]
 slider = game.ai_difficulty.norm
 fill = true
 color = 0.6, 0.6, 0.6
 alpha = 0
-center = 0.3, 0.40
-width = 0.16
+center = 0.32, 0.42
+width = 0.2
 height = 0.028
 layer = 1
 
-[ widget-08d ]
+[ widget-07d ]
 image = white.png
 color = 0.3, 0.3, 0.3
 alpha = 0
-center = 0.3, 0.40
-width = 0.16
+center = 0.32, 0.42
+width = 0.2
 height = 0.028
 
-
-[ widget-09a ]
+[ widget-08a ]
 text = Car
 fontsize = 0.03
 align = right
-center = 0.1, 0.44
+center = 0.1, 0.46
 width = 0.2
 
-[ widget-09b ]
+[ widget-08b ]
 text = <
 fontsize = 0.03
 align = left
 onselect = game.car.prev
 onmoveleft = game.car.prev
 onmoveright = game.car.next
+onmoveup = widget-07b
+onmovedown = widget-09b
+onfocus = widget-08b.alpha:1 widget-08c.alpha:1 widget-08d.val:0.8
+onblur = widget-08b.alpha:0 widget-08c.alpha:0 widget-08d.val:1.0
+focus = false
+color = 0.8, 0.8, 0.8
+alpha = 0
+center = 0.26, 0.46
+width = 0.08
+height = 0.04
+
+[ widget-08c ]
+text = >
+fontsize = 0.03
+align = right
+onselect = game.car.next
+onmoveleft = game.car.prev
+onmoveright = game.car.next
+onmoveup = widget-07b
+onmovedown = widget-09b
+onfocus = widget-08b.alpha:1 widget-08c.alpha:1 widget-08d.val:0.8
+onblur = widget-08b.alpha:0 widget-08c.alpha:0 widget-08d.val:1.0
+focus = false
+color = 0.8, 0.8, 0.8
+alpha = 0
+center = 0.38, 0.46
+width = 0.08
+height = 0.04
+
+[ widget-08d ]
+text = game.car.str
+fontsize = 0.03
+center = 0.32, 0.46
+width = 0.2
+
+[ widget-09a ]
+text = Paint
+fontsize = 0.03
+align = right
+center = 0.1, 0.50
+width = 0.2
+
+[ widget-09b ]
+text = <
+fontsize = 0.03
+align = left
+onselect = game.car_paint.prev
+onmoveleft = game.car_paint.prev
+onmoveright = game.car_paint.next
 onmoveup = widget-08b
 onmovedown = widget-10b
 onfocus = widget-09b.alpha:1 widget-09c.alpha:1 widget-09d.val:0.8
@@ -339,7 +378,7 @@ onblur = widget-09b.alpha:0 widget-09c.alpha:0 widget-09d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.26, 0.44
+center = 0.26, 0.50
 width = 0.08
 height = 0.04
 
@@ -347,9 +386,9 @@ height = 0.04
 text = >
 fontsize = 0.03
 align = right
-onselect = game.car.next
-onmoveleft = game.car.prev
-onmoveright = game.car.next
+onselect = game.car_paint.next
+onmoveleft = game.car_paint.prev
+onmoveright = game.car_paint.next
 onmoveup = widget-08b
 onmovedown = widget-10b
 onfocus = widget-09b.alpha:1 widget-09c.alpha:1 widget-09d.val:0.8
@@ -357,172 +396,167 @@ onblur = widget-09b.alpha:0 widget-09c.alpha:0 widget-09d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.34, 0.44
+center = 0.38, 0.50
 width = 0.08
 height = 0.04
 
 [ widget-09d ]
-text = game.car.str
-fontsize = 0.03
-center = 0.3, 0.44
-width = 0.16
-
-
-[ widget-10a ]
-text = Paint
-fontsize = 0.03
-align = right
-center = 0.1, 0.48
-width = 0.2
-
-[ widget-10b ]
-text = <
-fontsize = 0.03
-align = left
-onselect = game.car_paint.prev
-onmoveleft = game.car_paint.prev
-onmoveright = game.car_paint.next
-onmoveup = widget-09b
-onmovedown = widget-11b
-onfocus = widget-10b.alpha:1 widget-10c.alpha:1 widget-10d.val:0.8
-onblur = widget-10b.alpha:0 widget-10c.alpha:0 widget-10d.val:1.0
-focus = false
-color = 0.8, 0.8, 0.8
-alpha = 0
-center = 0.26, 0.48
-width = 0.08
-height = 0.04
-
-[ widget-10c ]
-text = >
-fontsize = 0.03
-align = right
-onselect = game.car_paint.next
-onmoveleft = game.car_paint.prev
-onmoveright = game.car_paint.next
-onmoveup = widget-09b
-onmovedown = widget-11b
-onfocus = widget-10b.alpha:1 widget-10c.alpha:1 widget-10d.val:0.8
-onblur = widget-10b.alpha:0 widget-10c.alpha:0 widget-10d.val:1.0
-focus = false
-color = 0.8, 0.8, 0.8
-alpha = 0
-center = 0.34, 0.48
-width = 0.08
-height = 0.04
-
-[ widget-10d ]
 text = game.car_paint.str
 fontsize = 0.03
-center = 0.3, 0.48
-width = 0.16
+center = 0.32, 0.50
+width = 0.2
 
-
-[ widget-11a ]
+[ widget-10a ]
 text = Hue
 fontsize = 0.03
 align = right
-center = 0.1, 0.52
+center = 0.1, 0.54
 width = 0.2
 
-[ widget-11b ]
+[ widget-10b ]
 slider = game.car_color_hue
 onselectx = game.car_color_hue
 onmoveleft = game.car_color_hue.prev
 onmoveright = game.car_color_hue.next
-onmoveup = widget-10b
-onmovedown = widget-12b
+onmoveup = widget-09b
+onmovedown = widget-11b
 focus = false
-center = 0.3, 0.52
-width = 0.16
+center = 0.32, 0.54
+width = 0.2
 height = 0.03
 
-[ widget-11d ]
+[ widget-10d ]
 image = color_hue.png
-center = 0.3, 0.52
-width = 0.16
+center = 0.32, 0.54
+width = 0.2
 height = 0.028
 
-
-[ widget-12a ]
+[ widget-11a ]
 text = Saturation
 fontsize = 0.03
 align = right
-center = 0.1, 0.56
+center = 0.1, 0.58
 width = 0.2
 
-[ widget-12b ]
+[ widget-11b ]
 slider = game.car_color_sat
 onselectx = game.car_color_sat
 onmoveleft = game.car_color_sat.prev
 onmoveright = game.car_color_sat.next
-onmoveup = widget-11b
-onmovedown = widget-13b
+onmoveup = widget-10b
+onmovedown = widget-12b
 focus = false
-center = 0.3, 0.56
-width = 0.16
+center = 0.32, 0.58
+width = 0.2
 height = 0.03
 
-[ widget-12c ]
+[ widget-11c ]
 image = color_saturation.png
 hue = game.car_color_hue
 sat = 1.0
 val = game.car_color_val
-center = 0.3, 0.56
-width = 0.16
+center = 0.32, 0.58
+width = 0.2
 height = 0.028
 
-[ widget-12d ]
+[ widget-11d ]
 image = white.png
-center = 0.3, 0.56
-width = 0.16
+center = 0.32, 0.58
+width = 0.2
 height = 0.028
 layer = -1
 
-
-[ widget-13a ]
+[ widget-12a ]
 text = Value
 fontsize = 0.03
 align = right
-center = 0.1, 0.60
+center = 0.1, 0.62
 width = 0.2
 
-[ widget-13b ]
+[ widget-12b ]
 slider = game.car_color_val
 onselectx = game.car_color_val
 onmoveleft = game.car_color_val.prev
 onmoveright = game.car_color_val.next
-onmoveup = widget-12b
-onmovedown = widget-14b
+onmoveup = widget-11b
+onmovedown = widget-13b
 focus = false
-center = 0.3, 0.60
-width = 0.16
+center = 0.32, 0.62
+width = 0.2
 height = 0.03
 
-[ widget-13c ]
+[ widget-12c ]
 image = color_value.png
 hue = game.car_color_hue
 sat = game.car_color_sat
 val = 1.0
-center = 0.3, 0.60
-width = 0.16
+center = 0.32, 0.62
+width = 0.2
 height = 0.028
 
-
-[ widget-14a ]
+[ widget-13a ]
 text = Antilock Brakes
 fontsize = 0.03
 align = right
-center = 0.1, 0.68
+center = 0.1, 0.66
 width = 0.2
 
-[ widget-14b ]
+[ widget-13b ]
 text = <
 fontsize = 0.03
 align = left
 onselect = game.antilock.prev
 onmoveleft = game.antilock.prev
 onmoveright = game.antilock.next
+onmoveup = widget-12b
+onmovedown = widget-14b
+onfocus = widget-13b.alpha:1 widget-13c.alpha:1 widget-13d.val:0.8
+onblur = widget-13b.alpha:0 widget-13c.alpha:0 widget-13d.val:1.0
+focus = false
+color = 0.8, 0.8, 0.8
+alpha = 0
+center = 0.26, 0.66
+width = 0.08
+height = 0.04
+
+[ widget-13c ]
+text = >
+fontsize = 0.03
+align = right
+onselect = game.antilock.next
+onmoveleft = game.antilock.prev
+onmoveright = game.antilock.next
+onmoveup = widget-12b
+onmovedown = widget-14b
+onfocus = widget-13b.alpha:1 widget-13c.alpha:1 widget-13d.val:0.8
+onblur = widget-13b.alpha:0 widget-13c.alpha:0 widget-13d.val:1.0
+focus = false
+color = 0.8, 0.8, 0.8
+alpha = 0
+center = 0.38, 0.66
+width = 0.08
+height = 0.04
+
+[ widget-13d ]
+text = game.antilock.str
+fontsize = 0.03
+center = 0.32, 0.66
+width = 0.2
+
+[ widget-14a ]
+text = Traction Control
+fontsize = 0.03
+align = right
+center = 0.1, 0.70
+width = 0.2
+
+[ widget-14b ]
+text = <
+fontsize = 0.03
+align = left
+onselect = game.traction_control.prev
+onmoveleft = game.traction_control.prev
+onmoveright = game.traction_control.next
 onmoveup = widget-13b
 onmovedown = widget-15b
 onfocus = widget-14b.alpha:1 widget-14c.alpha:1 widget-14d.val:0.8
@@ -530,7 +564,7 @@ onblur = widget-14b.alpha:0 widget-14c.alpha:0 widget-14d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.26, 0.68
+center = 0.26, 0.70
 width = 0.08
 height = 0.04
 
@@ -538,9 +572,9 @@ height = 0.04
 text = >
 fontsize = 0.03
 align = right
-onselect = game.antilock.next
-onmoveleft = game.antilock.prev
-onmoveright = game.antilock.next
+onselect = game.traction_control.next
+onmoveleft = game.traction_control.prev
+onmoveright = game.traction_control.next
 onmoveup = widget-13b
 onmovedown = widget-15b
 onfocus = widget-14b.alpha:1 widget-14c.alpha:1 widget-14d.val:0.8
@@ -548,39 +582,38 @@ onblur = widget-14b.alpha:0 widget-14c.alpha:0 widget-14d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.34, 0.68
+center = 0.38, 0.70
 width = 0.08
 height = 0.04
 
 [ widget-14d ]
-text = game.antilock.str
+text = game.traction_control.str
 fontsize = 0.03
-center = 0.3, 0.68
-width = 0.16
-
+center = 0.32, 0.70
+width = 0.2
 
 [ widget-15a ]
-text = Traction Control
+text = Car Damage
 fontsize = 0.03
 align = right
-center = 0.1, 0.72
+center = 0.1, 0.74
 width = 0.2
 
 [ widget-15b ]
 text = <
 fontsize = 0.03
 align = left
-onselect = game.traction_control.prev
-onmoveleft = game.traction_control.prev
-onmoveright = game.traction_control.next
+onselect = game.vehicle_damage.prev
+onmoveleft = game.vehicle_damage.prev
+onmoveright = game.vehicle_damage.next
 onmoveup = widget-14b
-onmovedown = widget-16b
+onmovedown = widget-16
 onfocus = widget-15b.alpha:1 widget-15c.alpha:1 widget-15d.val:0.8
 onblur = widget-15b.alpha:0 widget-15c.alpha:0 widget-15d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.26, 0.72
+center = 0.26, 0.74
 width = 0.08
 height = 0.04
 
@@ -588,200 +621,147 @@ height = 0.04
 text = >
 fontsize = 0.03
 align = right
-onselect = game.traction_control.next
-onmoveleft = game.traction_control.prev
-onmoveright = game.traction_control.next
+onselect = game.vehicle_damage.next
+onmoveleft = game.vehicle_damage.prev
+onmoveright = game.vehicle_damage.next
 onmoveup = widget-14b
-onmovedown = widget-16b
+onmovedown = widget-16
 onfocus = widget-15b.alpha:1 widget-15c.alpha:1 widget-15d.val:0.8
 onblur = widget-15b.alpha:0 widget-15c.alpha:0 widget-15d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.34, 0.72
+center = 0.38, 0.74
 width = 0.08
 height = 0.04
 
 [ widget-15d ]
-text = game.traction_control.str
-fontsize = 0.03
-center = 0.3, 0.72
-width = 0.16
-
-
-[ widget-16a ]
-text = Car Damage
-fontsize = 0.03
-align = right
-center = 0.1, 0.76
-width = 0.2
-height = 0.04
-
-[ widget-16b ]
-text = <
-fontsize = 0.03
-align = left
-onmoveleft = game.vehicle_damage.prev
-onmoveright = game.vehicle_damage.next
-onmoveup = widget-15b
-onmovedown = widget-17b
-onfocus = widget-16b.alpha:1 widget-16c.alpha:1 widget-16d.val:0.8
-onblur = widget-16b.alpha:0 widget-16c.alpha:0 widget-16d.val:1.0
-focus = false
-color = 0.8, 0.8, 0.8
-alpha = 0
-center = 0.26, 0.76
-width = 0.08
-height = 0.04
-
-[ widget-16c ]
-text = >
-fontsize = 0.03
-align = right
-onmoveleft = game.vehicle_damage.prev
-onmoveright = game.vehicle_damage.next
-onmoveup = widget-15b
-onmovedown = widget-17b
-onfocus = widget-16b.alpha:1 widget-16c.alpha:1 widget-16d.val:0.8
-onblur = widget-16b.alpha:0 widget-16c.alpha:0 widget-16d.val:1.0
-focus = false
-color = 0.8, 0.8, 0.8
-alpha = 0
-center = 0.34, 0.76
-width = 0.08
-height = 0.04
-
-[ widget-16d ]
 text = game.vehicle_damage.str
 fontsize = 0.03
-center = 0.3, 0.76
-width = 0.16
+center = 0.32, 0.74
+width = 0.2
 
-
-[ widget-17b ]
+[ widget-16 ]
 text = Start Race
 fontsize = 0.04
 align = left
 tip = Start a race using the selected car and track.
 onselect = gui.options.save StartRace
-onmoveup = widget-16b
-onmovedown = widget-18b
-onfocus = widget-17b.val:0.8
-onblur = widget-17b.val:1.0
+onmoveup = widget-15b
+onmovedown = widget-17
+onfocus = widget-16.val:0.8
+onblur = widget-16.val:1.0
 focus = false
 center = 0.3, 0.82
 width = 0.16
 height = 0.05
 
-
-[ widget-18b ]
+[ widget-17 ]
 text = Back
 fontsize = 0.04
 align = left
 tip = Return to the Main menu.
 onselect = gui.options.save Main
-onmoveup = widget-17b
-onmovedown = widget-03b
-onfocus = widget-18b.val:0.8
-onblur = widget-18b.val:1.0
+onmoveup = widget-16
+onmovedown = widget-02b
+onfocus = widget-17.val:0.8
+onblur = widget-17.val:1.0
 focus = false
 center = 0.3, 0.88
 width = 0.16
 height = 0.05
 
-
-[ widget-19 ]
+[ widget-18 ]
 text = Start List:
 fontsize = 0.03
 center = 0.75, 0.52
 width = 0.2
 
-
-[ widget-20a ]
+[ widget-19a ]
 text = 1.
 fontsize = 0.03
 align = left
 center = 0.75, 0.56
 width = 0.04
 
-[ widget-20b ]
+[ widget-19b ]
 text = 2.
 fontsize = 0.03
 align = left
 center = 0.87, 0.56
 width = 0.04
 
-[ widget-20c ]
+[ widget-19c ]
 text = 3.
 fontsize = 0.03
 align = left
 center = 0.75, 0.60
 width = 0.04
 
-[ widget-20d ]
+[ widget-19d ]
 text = 4.
 fontsize = 0.03
 align = left
 center = 0.87, 0.60
 width = 0.04
 
-[ widget-20e ]
+[ widget-19e ]
 text = 5.
 fontsize = 0.03
 align = left
 center = 0.75, 0.64
 width = 0.04
 
-[ widget-20f ]
+[ widget-19f ]
 text = 6.
 fontsize = 0.03
 align = left
 center = 0.87, 0.64
 width = 0.04
 
-[ widget-20g ]
+[ widget-19g ]
 text = 7.
 fontsize = 0.03
 align = left
 center = 0.75, 0.68
 width = 0.04
 
-[ widget-20h ]
+[ widget-19h ]
 text = 8.
 fontsize = 0.03
 align = left
 center = 0.87, 0.68
 width = 0.04
 
-[ widget-20i ]
+[ widget-19i ]
 text = 9.
 fontsize = 0.03
 align = left
 center = 0.75, 0.72
 width = 0.04
 
-[ widget-20j ]
+[ widget-19j ]
 text = 10.
 fontsize = 0.03
 align = left
 center = 0.87, 0.72
 width = 0.04
 
-[ widget-20k ]
+[ widget-19k ]
 text = 11.
 fontsize = 0.03
 align = left
 center = 0.75, 0.76
 width = 0.04
 
-[ widget-20l ]
+[ widget-19l ]
 text = 12.
 fontsize = 0.03
 align = left
 center = 0.87, 0.76
 width = 0.04
 
-[ widget-21a ]
+[ widget-20a ]
 name = Racer0
 text = none
 center = 0.80, 0.56
@@ -789,7 +769,7 @@ width = 0.08
 fontsize = 0.03
 align = left
 
-[ widget-21b ]
+[ widget-20b ]
 name = Racer1
 text = none
 center = 0.92, 0.56
@@ -797,7 +777,7 @@ width = 0.08
 fontsize = 0.03
 align = left
 
-[ widget-21c ]
+[ widget-20c ]
 name = Racer2
 text = none
 center = 0.80, 0.60
@@ -805,7 +785,7 @@ width = 0.08
 fontsize = 0.03
 align = left
 
-[ widget-21d ]
+[ widget-20d ]
 name = Racer3
 text = none
 center = 0.92, 0.60
@@ -813,7 +793,7 @@ width = 0.08
 fontsize = 0.03
 align = left
 
-[ widget-21e ]
+[ widget-20e ]
 name = Racer4
 text = none
 center = 0.80, 0.64
@@ -821,7 +801,7 @@ width = 0.08
 fontsize = 0.03
 align = left
 
-[ widget-21f ]
+[ widget-20f ]
 name = Racer5
 text = none
 center = 0.92, 0.64
@@ -829,7 +809,7 @@ width = 0.08
 fontsize = 0.03
 align = left
 
-[ widget-21g ]
+[ widget-20g ]
 name = Racer6
 text = none
 center = 0.80, 0.68
@@ -837,7 +817,7 @@ width = 0.08
 fontsize = 0.03
 align = left
 
-[ widget-21h ]
+[ widget-20h ]
 name = Racer7
 text = none
 center = 0.92, 0.68
@@ -845,7 +825,7 @@ width = 0.08
 fontsize = 0.03
 align = left
 
-[ widget-21i ]
+[ widget-20i ]
 name = Racer8
 text = none
 center = 0.80, 0.72
@@ -853,7 +833,7 @@ width = 0.08
 fontsize = 0.03
 align = left
 
-[ widget-21j ]
+[ widget-20j ]
 name = Racer9
 text = none
 center = 0.92, 0.72
@@ -861,7 +841,7 @@ width = 0.08
 fontsize = 0.03
 align = left
 
-[ widget-21k ]
+[ widget-20k ]
 name = Racer10
 text = none
 center = 0.80, 0.76
@@ -869,7 +849,7 @@ width = 0.08
 fontsize = 0.03
 align = left
 
-[ widget-21l ]
+[ widget-20l ]
 name = Racer11
 text = none
 center = 0.92, 0.76
