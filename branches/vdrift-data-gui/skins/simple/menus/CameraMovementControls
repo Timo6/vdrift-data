@@ -389,5 +389,5 @@ height = 0.05
 [ tooltip ]
 text = gui.tooltip
 fontsize = 0.03
-center = 0.5, 0.95
+center = 0.5, 0.94
 width = 1.0
