@@ -2,12 +2,14 @@ name = PracticeGame
 onfocus = EditFirstCar
 oncancel = gui.options.save Main
 
+
 [ background ]
 #image = box.png
 center = 0.5, 0.5
 width = 1
 height = 1
 layer = -1
+
 
 [ widget-00 ]
 text = Practice Game
@@ -16,12 +18,14 @@ align = left
 center = 0.3, 0.1
 width = 0.2
 
+
 [ widget-01 ]
 image = game.track.image
 path = tracks
 center = 0.825, 0.33
 width = 0.25
 height = 0.325
+
 
 [ widget-02a ]
 text = Track
@@ -45,8 +49,8 @@ onblur = widget-02b.alpha:0 widget-02c.alpha:0 widget-02d.val:1.0
 focus = true
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.26, 0.18
-width = 0.08
+center = 0.27, 0.18
+width = 0.1
 height = 0.04
 
 [ widget-02c ]
@@ -64,8 +68,8 @@ onblur = widget-02b.alpha:0 widget-02c.alpha:0 widget-02d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.38, 0.18
-width = 0.08
+center = 0.37, 0.18
+width = 0.1
 height = 0.04
 
 [ widget-02d]
@@ -73,6 +77,7 @@ text = game.track.str
 fontsize = 0.03
 center = 0.32, 0.18
 width = 0.2
+
 
 [ widget-03a ]
 text = Reverse Track
@@ -85,6 +90,7 @@ width = 0.2
 text = <
 fontsize = 0.03
 align = left
+tip = Race on this track backwards.
 onselect = game.reverse.prev
 onmoveleft = game.reverse.prev
 onmoveright = game.reverse.next
@@ -95,14 +101,15 @@ onblur = widget-03b.alpha:0 widget-03c.alpha:0 widget-03d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.26, 0.22
-width = 0.08
+center = 0.27, 0.22
+width = 0.1
 height = 0.04
 
 [ widget-03c ]
 text = >
 fontsize = 0.03
 align = right
+tip = Race on this track backwards.
 onselect = game.reverse.next
 onmoveleft = game.reverse.prev
 onmoveright = game.reverse.next
@@ -113,8 +120,8 @@ onblur = widget-03b.alpha:0 widget-03c.alpha:0 widget-03d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.38, 0.22
-width = 0.08
+center = 0.37, 0.22
+width = 0.1
 height = 0.04
 
 [ widget-03d ]
@@ -122,6 +129,7 @@ text = game.reverse.str
 fontsize = 0.03
 center = 0.32, 0.22
 width = 0.2
+
 
 [ widget-04a ]
 text = Dynamic Objects
@@ -134,6 +142,7 @@ width = 0.2
 text = <
 fontsize = 0.03
 align = left
+tip = Enable dynamic track objects.
 onselect = game.track_dynamic.prev
 onmoveleft = game.track_dynamic.prev
 onmoveright = game.track_dynamic.next
@@ -144,14 +153,15 @@ onblur = widget-04b.alpha:0 widget-04c.alpha:0 widget-04d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.26, 0.26
-width = 0.08
+center = 0.27, 0.26
+width = 0.1
 height = 0.04
 
 [ widget-04c ]
 text = >
 fontsize = 0.03
 align = right
+tip = Enable dynamic track objects.
 onselect = game.track_dynamic.next
 onmoveleft = game.track_dynamic.prev
 onmoveright = game.track_dynamic.next
@@ -162,8 +172,8 @@ onblur = widget-04b.alpha:0 widget-04c.alpha:0 widget-04d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.38, 0.26
-width = 0.08
+center = 0.37, 0.26
+width = 0.1
 height = 0.04
 
 [ widget-04d ]
@@ -171,6 +181,7 @@ text = game.track_dynamic.str
 fontsize = 0.03
 center = 0.32, 0.26
 width = 0.2
+
 
 [ widget-05a ]
 text = Car
@@ -183,6 +194,7 @@ width = 0.2
 text = <
 fontsize = 0.03
 align = left
+tip = Choose the car to drive.
 onselect = game.car.prev
 onmoveleft = game.car.prev
 onmoveright = game.car.next
@@ -193,14 +205,15 @@ onblur = widget-05b.alpha:0 widget-05c.alpha:0 widget-05d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.26, 0.34
-width = 0.08
+center = 0.27, 0.34
+width = 0.1
 height = 0.04
 
 [ widget-05c ]
 text = >
 fontsize = 0.03
 align = right
+tip = Choose the car to drive.
 onselect = game.car.next
 onmoveleft = game.car.prev
 onmoveright = game.car.next
@@ -211,8 +224,8 @@ onblur = widget-05b.alpha:0 widget-05c.alpha:0 widget-05d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.38, 0.34
-width = 0.08
+center = 0.37, 0.34
+width = 0.1
 height = 0.04
 
 [ widget-05d ]
@@ -220,6 +233,7 @@ text = game.car.str
 fontsize = 0.03
 center = 0.32, 0.34
 width = 0.2
+
 
 [ widget-06a ]
 text = Paint
@@ -232,6 +246,7 @@ width = 0.2
 text = <
 fontsize = 0.03
 align = left
+tip = Choose the paint job for the car.
 onselect = game.car_paint.prev
 onmoveleft = game.car_paint.prev
 onmoveright = game.car_paint.next
@@ -242,14 +257,15 @@ onblur = widget-06b.alpha:0 widget-06c.alpha:0 widget-06d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.26, 0.38
-width = 0.08
+center = 0.27, 0.38
+width = 0.1
 height = 0.04
 
 [ widget-06c ]
 text = >
 fontsize = 0.03
 align = right
+tip = Choose the paint job for the car.
 onselect = game.car_paint.next
 onmoveleft = game.car_paint.prev
 onmoveright = game.car_paint.next
@@ -260,8 +276,8 @@ onblur = widget-06b.alpha:0 widget-06c.alpha:0 widget-06d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.38, 0.38
-width = 0.08
+center = 0.37, 0.38
+width = 0.1
 height = 0.04
 
 [ widget-06d ]
@@ -269,6 +285,7 @@ text = game.car_paint.str
 fontsize = 0.03
 center = 0.32, 0.38
 width = 0.2
+
 
 [ widget-07a ]
 text = Hue
@@ -279,6 +296,7 @@ width = 0.2
 
 [ widget-07b ]
 slider = game.car_color_hue
+tip = Choose the hue for the car.
 onselectx = game.car_color_hue
 onmoveleft = game.car_color_hue.prev
 onmoveright = game.car_color_hue.next
@@ -295,6 +313,7 @@ center = 0.32, 0.42
 width = 0.2
 height = 0.028
 
+
 [ widget-08a ]
 text = Saturation
 fontsize = 0.03
@@ -304,6 +323,7 @@ width = 0.2
 
 [ widget-08b ]
 slider = game.car_color_sat
+tip = Choose the saturation for the car.
 onselectx = game.car_color_sat
 onmoveleft = game.car_color_sat.prev
 onmoveright = game.car_color_sat.next
@@ -330,8 +350,9 @@ width = 0.2
 height = 0.028
 layer = -1
 
+
 [ widget-09a ]
-text = Value
+text = Brightness
 fontsize = 0.03
 align = right
 center = 0.1, 0.50
@@ -339,6 +360,7 @@ width = 0.2
 
 [ widget-09b ]
 slider = game.car_color_val
+tip = Choose the brightness for the car.
 onselectx = game.car_color_val
 onmoveleft = game.car_color_val.prev
 onmoveright = game.car_color_val.next
@@ -358,6 +380,7 @@ center = 0.32, 0.50
 width = 0.2
 height = 0.028
 
+
 [ widget-10a ]
 text = Antilock Brakes
 fontsize = 0.03
@@ -369,6 +392,7 @@ width = 0.2
 text = <
 fontsize = 0.03
 align = left
+tip = Help reduce wheel lockup on heavy braking (driver aid).
 onselect = game.antilock.prev
 onmoveleft = game.antilock.prev
 onmoveright = game.antilock.next
@@ -379,14 +403,15 @@ onblur = widget-10b.alpha:0 widget-10c.alpha:0 widget-10d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.26, 0.54
-width = 0.08
+center = 0.27, 0.54
+width = 0.1
 height = 0.04
 
 [ widget-10c ]
 text = >
 fontsize = 0.03
 align = right
+tip = Help reduce wheel lockup on heavy braking (driver aid).
 onselect = game.antilock.next
 onmoveleft = game.antilock.prev
 onmoveright = game.antilock.next
@@ -397,8 +422,8 @@ onblur = widget-10b.alpha:0 widget-10c.alpha:0 widget-10d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.38, 0.54
-width = 0.08
+center = 0.37, 0.54
+width = 0.1
 height = 0.04
 
 [ widget-10d ]
@@ -406,6 +431,7 @@ text = game.antilock.str
 fontsize = 0.03
 center = 0.32, 0.54
 width = 0.2
+
 
 [ widget-11a ]
 text = Traction Control
@@ -418,6 +444,7 @@ width = 0.2
 text = <
 fontsize = 0.03
 align = left
+tip = Prevents wheels from spinning during acceleration (driver aid).
 onselect = game.traction_control.prev
 onmoveleft = game.traction_control.prev
 onmoveright = game.traction_control.next
@@ -428,14 +455,15 @@ onblur = widget-11b.alpha:0 widget-11c.alpha:0 widget-11d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.26, 0.58
-width = 0.08
+center = 0.27, 0.58
+width = 0.1
 height = 0.04
 
 [ widget-11c ]
 text = >
 fontsize = 0.03
 align = right
+tip = Prevents wheels from spinning during acceleration (driver aid).
 onselect = game.traction_control.next
 onmoveleft = game.traction_control.prev
 onmoveright = game.traction_control.next
@@ -446,8 +474,8 @@ onblur = widget-11b.alpha:0 widget-11c.alpha:0 widget-11d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.38, 0.58
-width = 0.08
+center = 0.37, 0.58
+width = 0.1
 height = 0.04
 
 [ widget-11d ]
@@ -455,6 +483,7 @@ text = game.traction_control.str
 fontsize = 0.03
 center = 0.32, 0.58
 width = 0.2
+
 
 [ widget-12a ]
 text = Car Damage
@@ -467,6 +496,7 @@ width = 0.2
 text = <
 fontsize = 0.03
 align = left
+tip = Enable car damage model.
 onselect = game.vehicle_damage.prev
 onmoveleft = game.vehicle_damage.prev
 onmoveright = game.vehicle_damage.next
@@ -477,14 +507,15 @@ onblur = widget-12b.alpha:0 widget-12c.alpha:0 widget-12d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.26, 0.62
-width = 0.08
+center = 0.27, 0.62
+width = 0.1
 height = 0.04
 
 [ widget-12c ]
 text = >
 fontsize = 0.03
 align = right
+tip = Enable car damage model.
 onselect = game.vehicle_damage.next
 onmoveleft = game.vehicle_damage.prev
 onmoveright = game.vehicle_damage.next
@@ -495,8 +526,8 @@ onblur = widget-12b.alpha:0 widget-12c.alpha:0 widget-12d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.38, 0.62
-width = 0.08
+center = 0.37, 0.62
+width = 0.1
 height = 0.04
 
 [ widget-12d ]
@@ -504,6 +535,7 @@ text = game.vehicle_damage.str
 fontsize = 0.03
 center = 0.32, 0.62
 width = 0.2
+
 
 [ widget-13a ]
 text = Record Session
@@ -516,6 +548,7 @@ width = 0.2
 text = <
 fontsize = 0.03
 align = left
+tip = Record this game for a replay later.
 onselect = game.record.prev
 onmoveleft = game.record.prev
 onmoveright = game.record.next
@@ -526,14 +559,15 @@ onblur = widget-13b.alpha:0 widget-13c.alpha:0 widget-13d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.26, 0.70
-width = 0.08
+center = 0.27, 0.70
+width = 0.1
 height = 0.04
 
 [ widget-13c ]
 text = >
 fontsize = 0.03
 align = right
+tip = Record this game for a replay later.
 onselect = game.record.next
 onmoveleft = game.record.prev
 onmoveright = game.record.next
@@ -544,8 +578,8 @@ onblur = widget-13b.alpha:0 widget-13c.alpha:0 widget-13d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.38, 0.70
-width = 0.08
+center = 0.37, 0.70
+width = 0.1
 height = 0.04
 
 [ widget-13d ]
@@ -553,6 +587,7 @@ text = game.record.str
 fontsize = 0.03
 center = 0.32, 0.70
 width = 0.2
+
 
 [ widget-14 ]
 text = Start Practice
@@ -569,6 +604,7 @@ center = 0.3, 0.82
 width = 0.16
 height = 0.05
 
+
 [ widget-15 ]
 text = Back
 fontsize = 0.04
@@ -583,6 +619,7 @@ focus = false
 center = 0.3, 0.88
 width = 0.16
 height = 0.05
+
 
 [ tooltip ]
 text = gui.tooltip

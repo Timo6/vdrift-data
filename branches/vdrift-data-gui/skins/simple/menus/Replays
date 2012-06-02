@@ -1,6 +1,7 @@
 name = Replays
 oncancel = gui.options.save Main
 
+
 [ background ]
 #image = box.png
 center = 0.5, 0.5
@@ -8,12 +9,14 @@ width = 1
 height = 1
 layer = -1
 
+
 [ widget-00 ]
 text = Replays
 fontsize = 0.06
 align = left
 center = 0.3, 0.1
 width = 0.2
+
 
 [ widget-01a ]
 text = Select Replay
@@ -26,6 +29,7 @@ width = 0.2
 text = <
 fontsize = 0.03
 align = left
+tip = Select the replay to watch.
 onselect = game.selected_replay.prev
 onmoveleft = game.selected_replay.prev
 onmoveright = game.selected_replay.next
@@ -36,14 +40,15 @@ onblur = widget-01b.alpha:0 widget-01c.alpha:0 widget-01d.val:1.0
 focus = true
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.26, 0.20
-width = 0.08
+center = 0.31, 0.20
+width = 0.18
 height = 0.04
 
 [ widget-01c ]
 text = >
 fontsize = 0.03
 align = right
+tip = Select the replay to watch.
 onselect = game.selected_replay.next
 onmoveleft = game.selected_replay.prev
 onmoveright = game.selected_replay.next
@@ -54,8 +59,8 @@ onblur = widget-01b.alpha:0 widget-01c.alpha:0 widget-01d.val:1.0
 focus = false
 color = 0.8, 0.8, 0.8
 alpha = 0
-center = 0.54, 0.20
-width = 0.08
+center = 0.49, 0.20
+width = 0.18
 height = 0.04
 
 [ widget-01d ]
@@ -63,6 +68,7 @@ text = game.selected_replay.str
 fontsize = 0.03
 center = 0.4, 0.20
 width = 0.36
+
 
 [ widget-02 ]
 text = Start Replay
@@ -79,6 +85,7 @@ center = 0.3, 0.26
 width = 0.16
 height = 0.05
 
+
 [ widget-03 ]
 text = Back
 fontsize = 0.04
@@ -93,6 +100,7 @@ focus = false
 center = 0.3, 0.32
 width = 0.16
 height = 0.05
+
 
 [ tooltip ]
 text = gui.tooltip
