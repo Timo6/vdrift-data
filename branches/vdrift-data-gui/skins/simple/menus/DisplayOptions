@@ -2,11 +2,43 @@ name = DisplayOptions
 oncancel = gui.options.load Options
 
 
-[background]
-#image = box.png
-center = 0.5, 0.5
+[ bg-top ]
+image = white.png
+color = 0.345, 0.321, 0.337
+alpha = 0.5
+center = 0.5, 0.08
 width = 1
-height = 1
+height = 0.16
+layer = -1
+
+
+[ bg-bottom ]
+image = white.png
+color = 0.345, 0.321, 0.337
+alpha = 0.5
+center = 0.5, 0.96
+width = 1
+height = 0.08
+layer = -1
+
+
+[ bg-labels ]
+image = white.png
+color = 0.345, 0.321, 0.337
+alpha = 0.5
+center = 0.108, 0.42
+width = 0.2
+height = 0.48
+layer = -1
+
+
+[ bg-options ]
+image = white.png
+color = 0.345, 0.321, 0.337
+alpha = 0.5
+center = 0.32, 0.42
+width = 0.22
+height = 0.48
 layer = -1
 
 
@@ -14,7 +46,7 @@ layer = -1
 text = Options / Display
 fontsize = 0.06
 align = left
-center = 0.3, 0.1
+center = 0.32, 0.1
 width = 0.2
 
 
@@ -35,13 +67,13 @@ onmoveleft = display.resolution.prev
 onmoveright = display.resolution.next
 onmoveup = widget-14b
 onmovedown = widget-02b
-onfocus = widget-01b.alpha:1 widget-01c.alpha:1 widget-01d.val:0.8
-onblur = widget-01b.alpha:0 widget-01c.alpha:0 widget-01d.val:1.0
+onfocus = widget-01b.alpha:1 widget-01c.alpha:1 widget-01d.sat:0.56
+onblur = widget-01b.alpha:0 widget-01c.alpha:0 widget-01d.sat:0.0
 focus = true
-color = 0.8, 0.8, 0.8
+color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.26, 0.20
-width = 0.08
+center = 0.27, 0.20
+width = 0.1
 height = 0.04
 selected = 1
 
@@ -55,20 +87,21 @@ onmoveleft = display.resolution.prev
 onmoveright = display.resolution.next
 onmoveup = widget-14b
 onmovedown = widget-02b
-onfocus = widget-01b.alpha:1 widget-01c.alpha:1 widget-01d.val:0.8
-onblur = widget-01b.alpha:0 widget-01c.alpha:0 widget-01d.val:1.0
+onfocus = widget-01b.alpha:1 widget-01c.alpha:1 widget-01d.sat:0.56
+onblur = widget-01b.alpha:0 widget-01c.alpha:0 widget-01d.sat:0.0
 focus = false
-color = 0.8, 0.8, 0.8
+color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.34, 0.20
-width = 0.08
+center = 0.37, 0.20
+width = 0.1
 height = 0.04
 
 [ widget-01d ]
 text = display.resolution.str
 fontsize = 0.03
-center = 0.3, 0.20
-width = 0.16
+hue = 0.56
+center = 0.32, 0.20
+width = 0.20
 
 
 [ widget-02a ]
@@ -88,13 +121,13 @@ onmoveleft = display.fullscreen.prev
 onmoveright = display.fullscreen.next
 onmoveup = widget-01b
 onmovedown = widget-03b
-onfocus = widget-02b.alpha:1 widget-02c.alpha:1 widget-02d.val:0.8
-onblur = widget-02b.alpha:0 widget-02c.alpha:0 widget-02d.val:1.0
+onfocus = widget-02b.alpha:1 widget-02c.alpha:1 widget-02d.sat:0.56
+onblur = widget-02b.alpha:0 widget-02c.alpha:0 widget-02d.sat:0.0
 focus = false
-color = 0.8, 0.8, 0.8
+color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.26, 0.24
-width = 0.08
+center = 0.27, 0.24
+width = 0.1
 height = 0.04
 
 [ widget-02c ]
@@ -107,20 +140,21 @@ onmoveleft = display.fullscreen.prev
 onmoveright = display.fullscreen.next
 onmoveup = widget-01b
 onmovedown = widget-03b
-onfocus = widget-02b.alpha:1 widget-02c.alpha:1 widget-02d.val:0.8
-onblur = widget-02b.alpha:0 widget-02c.alpha:0 widget-02d.val:1.0
+onfocus = widget-02b.alpha:1 widget-02c.alpha:1 widget-02d.sat:0.56
+onblur = widget-02b.alpha:0 widget-02c.alpha:0 widget-02d.sat:0.0
 focus = false
-color = 0.8, 0.8, 0.8
+color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.34, 0.24
-width = 0.08
+center = 0.37, 0.24
+width = 0.1
 height = 0.04
 
 [ widget-02d ]
 text = display.fullscreen.str
 fontsize = 0.03
-center = 0.3, 0.24
-width = 0.16
+hue = 0.56
+center = 0.32, 0.24
+width = 0.20
 
 
 [ widget-03a ]
@@ -140,13 +174,13 @@ onmoveleft = display.mph.prev
 onmoveright = display.mph.next
 onmoveup = widget-02b
 onmovedown = widget-04b
-onfocus = widget-03b.alpha:1 widget-03c.alpha:1 widget-03d.val:0.8
-onblur = widget-03b.alpha:0 widget-03c.alpha:0 widget-03d.val:1.0
+onfocus = widget-03b.alpha:1 widget-03c.alpha:1 widget-03d.sat:0.56
+onblur = widget-03b.alpha:0 widget-03c.alpha:0 widget-03d.sat:0.0
 focus = false
-color = 0.8, 0.8, 0.8
+color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.26, 0.28
-width = 0.08
+center = 0.27, 0.28
+width = 0.1
 height = 0.04
 
 [ widget-03c ]
@@ -159,20 +193,21 @@ onmoveleft = display.mph.prev
 onmoveright = display.mph.next
 onmoveup = widget-02b
 onmovedown = widget-04b
-onfocus = widget-03b.alpha:1 widget-03c.alpha:1 widget-03d.val:0.8
-onblur = widget-03b.alpha:0 widget-03c.alpha:0 widget-03d.val:1.0
+onfocus = widget-03b.alpha:1 widget-03c.alpha:1 widget-03d.sat:0.56
+onblur = widget-03b.alpha:0 widget-03c.alpha:0 widget-03d.sat:0.0
 focus = false
-color = 0.8, 0.8, 0.8
+color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.34, 0.28
-width = 0.08
+center = 0.37, 0.28
+width = 0.1
 height = 0.04
 
 [ widget-03d ]
 text = display.mph.str
 fontsize = 0.03
-center = 0.3, 0.28
-width = 0.16
+hue = 0.56
+center = 0.32, 0.28
+width = 0.20
 
 
 [ widget-04a ]
@@ -192,13 +227,13 @@ onmoveleft = display.show_fps.prev
 onmoveright = display.show_fps.next
 onmoveup = widget-03b
 onmovedown = widget-05b
-onfocus = widget-04b.alpha:1 widget-04c.alpha:1 widget-04d.val:0.8
-onblur = widget-04b.alpha:0 widget-04c.alpha:0 widget-04d.val:1.0
+onfocus = widget-04b.alpha:1 widget-04c.alpha:1 widget-04d.sat:0.56
+onblur = widget-04b.alpha:0 widget-04c.alpha:0 widget-04d.sat:0.0
 focus = false
-color = 0.8, 0.8, 0.8
+color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.26, 0.32
-width = 0.08
+center = 0.27, 0.32
+width = 0.1
 height = 0.04
 
 [ widget-04c ]
@@ -211,20 +246,21 @@ onmoveleft = display.show_fps.prev
 onmoveright = display.show_fps.next
 onmoveup = widget-03b
 onmovedown = widget-05b
-onfocus = widget-04b.alpha:1 widget-04c.alpha:1 widget-04d.val:0.8
-onblur = widget-04b.alpha:0 widget-04c.alpha:0 widget-04d.val:1.0
+onfocus = widget-04b.alpha:1 widget-04c.alpha:1 widget-04d.sat:0.56
+onblur = widget-04b.alpha:0 widget-04c.alpha:0 widget-04d.sat:0.0
 focus = false
-color = 0.8, 0.8, 0.8
+color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.34, 0.32
-width = 0.08
+center = 0.37, 0.32
+width = 0.1
 height = 0.04
 
 [ widget-04d ]
 text = display.show_fps.str
 fontsize = 0.03
-center = 0.3, 0.32
-width = 0.16
+hue = 0.56
+center = 0.32, 0.32
+width = 0.20
 
 
 [ widget-05a ]
@@ -244,13 +280,13 @@ onmoveleft = display.show_hud.prev
 onmoveright = display.show_hud.next
 onmoveup = widget-04b
 onmovedown = widget-06b
-onfocus = widget-05b.alpha:1 widget-05c.alpha:1 widget-05d.val:0.8
-onblur = widget-05b.alpha:0 widget-05c.alpha:0 widget-05d.val:1.0
+onfocus = widget-05b.alpha:1 widget-05c.alpha:1 widget-05d.sat:0.56
+onblur = widget-05b.alpha:0 widget-05c.alpha:0 widget-05d.sat:0.0
 focus = false
-color = 0.8, 0.8, 0.8
+color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.26, 0.36
-width = 0.08
+center = 0.27, 0.36
+width = 0.1
 height = 0.04
 
 [ widget-05c ]
@@ -263,20 +299,21 @@ onmoveleft = display.show_hud.prev
 onmoveright = display.show_hud.next
 onmoveup = widget-04b
 onmovedown = widget-06b
-onfocus = widget-05b.alpha:1 widget-05c.alpha:1 widget-05d.val:0.8
-onblur = widget-05b.alpha:0 widget-05c.alpha:0 widget-05d.val:1.0
+onfocus = widget-05b.alpha:1 widget-05c.alpha:1 widget-05d.sat:0.56
+onblur = widget-05b.alpha:0 widget-05c.alpha:0 widget-05d.sat:0.0
 focus = false
-color = 0.8, 0.8, 0.8
+color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.34, 0.36
-width = 0.08
+center = 0.37, 0.36
+width = 0.1
 height = 0.04
 
 [ widget-05d ]
 text = display.show_hud.str
 fontsize = 0.03
-center = 0.3, 0.36
-width = 0.16
+hue = 0.56
+center = 0.32, 0.36
+width = 0.20
 
 
 [ widget-06a ]
@@ -296,13 +333,13 @@ onmoveleft = display.skin.prev
 onmoveright = display.skin.next
 onmoveup = widget-05b
 onmovedown = widget-07b
-onfocus = widget-06b.alpha:1 widget-06c.alpha:1 widget-06d.val:0.8
-onblur = widget-06b.alpha:0 widget-06c.alpha:0 widget-06d.val:1.0
+onfocus = widget-06b.alpha:1 widget-06c.alpha:1 widget-06d.sat:0.56
+onblur = widget-06b.alpha:0 widget-06c.alpha:0 widget-06d.sat:0.0
 focus = false
-color = 0.8, 0.8, 0.8
+color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.26, 0.40
-width = 0.08
+center = 0.27, 0.40
+width = 0.1
 height = 0.04
 
 [ widget-06c ]
@@ -315,20 +352,21 @@ onmoveleft = display.skin.prev
 onmoveright = display.skin.next
 onmoveup = widget-05b
 onmovedown = widget-07b
-onfocus = widget-06b.alpha:1 widget-06c.alpha:1 widget-06d.val:0.8
-onblur = widget-06b.alpha:0 widget-06c.alpha:0 widget-06d.val:1.0
+onfocus = widget-06b.alpha:1 widget-06c.alpha:1 widget-06d.sat:0.56
+onblur = widget-06b.alpha:0 widget-06c.alpha:0 widget-06d.sat:0.0
 focus = false
-color = 0.8, 0.8, 0.8
+color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.34, 0.40
-width = 0.08
+center = 0.37, 0.40
+width = 0.1
 height = 0.04
 
 [ widget-06d]
 text = display.skin.str
 fontsize = 0.03
-center = 0.3, 0.40
-width = 0.16
+hue = 0.56
+center = 0.32, 0.40
+width = 0.20
 
 
 [ widget-07a ]
@@ -348,13 +386,13 @@ onmoveleft = display.language.prev
 onmoveright = display.language.next
 onmoveup = widget-06b
 onmovedown = widget-08b
-onfocus = widget-07b.alpha:1 widget-07c.alpha:1 widget-07d.val:0.8
-onblur = widget-07b.alpha:0 widget-07c.alpha:0 widget-07d.val:1.0
+onfocus = widget-07b.alpha:1 widget-07c.alpha:1 widget-07d.sat:0.56
+onblur = widget-07b.alpha:0 widget-07c.alpha:0 widget-07d.sat:0.0
 focus = false
-color = 0.8, 0.8, 0.8
+color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.26, 0.44
-width = 0.08
+center = 0.27, 0.44
+width = 0.1
 height = 0.04
 
 [ widget-07c ]
@@ -367,20 +405,21 @@ onmoveleft = display.language.prev
 onmoveright = display.language.next
 onmoveup = widget-06b
 onmovedown = widget-08b
-onfocus = widget-07b.alpha:1 widget-07c.alpha:1 widget-07d.val:0.8
-onblur = widget-07b.alpha:0 widget-07c.alpha:0 widget-07d.val:1.0
+onfocus = widget-07b.alpha:1 widget-07c.alpha:1 widget-07d.sat:0.56
+onblur = widget-07b.alpha:0 widget-07c.alpha:0 widget-07d.sat:0.0
 focus = false
-color = 0.8, 0.8, 0.8
+color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.34, 0.44
-width = 0.08
+center = 0.37, 0.44
+width = 0.1
 height = 0.04
 
 [ widget-07d ]
 text = display.language.str
 fontsize = 0.03
-center = 0.3, 0.44
-width = 0.16
+hue = 0.56
+center = 0.32, 0.44
+width = 0.20
 
 
 [ widget-08a ]
@@ -400,13 +439,13 @@ onmoveleft = display.input_graph.prev
 onmoveright = display.input_graph.next
 onmoveup = widget-07b
 onmovedown = widget-09b
-onfocus = widget-08b.alpha:1 widget-08c.alpha:1 widget-08d.val:0.8
-onblur = widget-08b.alpha:0 widget-08c.alpha:0 widget-08d.val:1.0
+onfocus = widget-08b.alpha:1 widget-08c.alpha:1 widget-08d.sat:0.56
+onblur = widget-08b.alpha:0 widget-08c.alpha:0 widget-08d.sat:0.0
 focus = false
-color = 0.8, 0.8, 0.8
+color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.26, 0.48
-width = 0.08
+center = 0.27, 0.48
+width = 0.1
 height = 0.04
 
 [ widget-08c ]
@@ -419,20 +458,21 @@ onmoveleft = display.input_graph.prev
 onmoveright = display.input_graph.next
 onmoveup = widget-07b
 onmovedown = widget-09b
-onfocus = widget-08b.alpha:1 widget-08c.alpha:1 widget-08d.val:0.8
-onblur = widget-08b.alpha:0 widget-08c.alpha:0 widget-08d.val:1.0
+onfocus = widget-08b.alpha:1 widget-08c.alpha:1 widget-08d.sat:0.56
+onblur = widget-08b.alpha:0 widget-08c.alpha:0 widget-08d.sat:0.0
 focus = false
-color = 0.8, 0.8, 0.8
+color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.34, 0.48
-width = 0.08
+center = 0.37, 0.48
+width = 0.1
 height = 0.04
 
 [ widget-08d ]
 text = display.input_graph.str
 fontsize = 0.03
-center = 0.3, 0.48
-width = 0.16
+hue = 0.56
+center = 0.32, 0.48
+width = 0.20
 
 
 [ widget-09a ]
@@ -452,13 +492,13 @@ onmoveleft = display.trackmap.prev
 onmoveright = display.trackmap.next
 onmoveup = widget-08b
 onmovedown = widget-10b
-onfocus = widget-09b.alpha:1 widget-09c.alpha:1 widget-09d.val:0.8
-onblur = widget-09b.alpha:0 widget-09c.alpha:0 widget-09d.val:1.0
+onfocus = widget-09b.alpha:1 widget-09c.alpha:1 widget-09d.sat:0.56
+onblur = widget-09b.alpha:0 widget-09c.alpha:0 widget-09d.sat:0.0
 focus = false
-color = 0.8, 0.8, 0.8
+color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.26, 0.52
-width = 0.08
+center = 0.27, 0.52
+width = 0.1
 height = 0.04
 
 [ widget-09c ]
@@ -471,20 +511,21 @@ onmoveleft = display.trackmap.prev
 onmoveright = display.trackmap.next
 onmoveup = widget-08b
 onmovedown = widget-10b
-onfocus = widget-09b.alpha:1 widget-09c.alpha:1 widget-09d.val:0.8
-onblur = widget-09b.alpha:0 widget-09c.alpha:0 widget-09d.val:1.0
+onfocus = widget-09b.alpha:1 widget-09c.alpha:1 widget-09d.sat:0.56
+onblur = widget-09b.alpha:0 widget-09c.alpha:0 widget-09d.sat:0.0
 focus = false
-color = 0.8, 0.8, 0.8
+color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.34, 0.52
-width = 0.08
+center = 0.37, 0.52
+width = 0.1
 height = 0.04
 
 [ widget-09d ]
 text = display.trackmap.str
 fontsize = 0.03
-center = 0.3, 0.52
-width = 0.16
+hue = 0.56
+center = 0.32, 0.52
+width = 0.20
 
 
 [ widget-10a ]
@@ -504,13 +545,13 @@ onmoveleft = display.racingline.prev
 onmoveright = display.racingline.next
 onmoveup = widget-09b
 onmovedown = widget-11b
-onfocus = widget-10b.alpha:1 widget-10c.alpha:1 widget-10d.val:0.8
-onblur = widget-10b.alpha:0 widget-10c.alpha:0 widget-10d.val:1.0
+onfocus = widget-10b.alpha:1 widget-10c.alpha:1 widget-10d.sat:0.56
+onblur = widget-10b.alpha:0 widget-10c.alpha:0 widget-10d.sat:0.0
 focus = false
-color = 0.8, 0.8, 0.8
+color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.26, 0.56
-width = 0.08
+center = 0.27, 0.56
+width = 0.1
 height = 0.04
 
 [ widget-10c ]
@@ -523,20 +564,21 @@ onmoveleft = display.racingline.prev
 onmoveright = display.racingline.next
 onmoveup = widget-09b
 onmovedown = widget-11b
-onfocus = widget-10b.alpha:1 widget-10c.alpha:1 widget-10d.val:0.8
-onblur = widget-10b.alpha:0 widget-10c.alpha:0 widget-10d.val:1.0
+onfocus = widget-10b.alpha:1 widget-10c.alpha:1 widget-10d.sat:0.56
+onblur = widget-10b.alpha:0 widget-10c.alpha:0 widget-10d.sat:0.0
 focus = false
-color = 0.8, 0.8, 0.8
+color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.34, 0.56
-width = 0.08
+center = 0.37, 0.56
+width = 0.1
 height = 0.04
 
 [ widget-10d ]
 text = display.racingline.str
 fontsize = 0.03
-center = 0.3, 0.56
-width = 0.16
+hue = 0.56
+center = 0.32, 0.56
+width = 0.20
 
 
 [ widget-11a ]
@@ -555,20 +597,21 @@ onmoveleft = display.camerabounce.prev
 onmoveright = display.camerabounce.next
 onmoveup = widget-10b
 onmovedown = widget-12b
-onfocus = widget-11c.alpha:1 widget-11d.alpha:1
-onblur = widget-11c.alpha:0 widget-11d.alpha:0
+onfocus = widget-11c.alpha:1 widget-11d.alpha:1 widget-11b.sat:0.56
+onblur = widget-11c.alpha:0 widget-11d.alpha:0 widget-11b.sat:0.0
 focus = false
-center = 0.3, 0.60
-width = 0.16
+hue = 0.56
+center = 0.32, 0.60
+width = 0.20
 height = 0.03
 
 [ widget-11c ]
 slider = display.camerabounce.norm
 fill = true
-color = 0.6, 0.6, 0.6
+#color = 0.6, 0.6, 0.6
 alpha = 0
-center = 0.3, 0.60
-width = 0.16
+center = 0.32, 0.60
+width = 0.20
 height = 0.028
 layer = 1
 
@@ -576,8 +619,8 @@ layer = 1
 image = white.png
 color = 0.3, 0.3, 0.3
 alpha = 0
-center = 0.3, 0.60
-width = 0.16
+center = 0.32, 0.60
+width = 0.20
 height = 0.028
 
 
@@ -597,20 +640,21 @@ onmoveleft = display.contrast.prev
 onmoveright = display.contrast.next
 onmoveup = widget-11b
 onmovedown = widget-13b
-onfocus = widget-12c.alpha:1 widget-12d.alpha:1
-onblur = widget-12c.alpha:0 widget-12d.alpha:0
+onfocus = widget-12c.alpha:1 widget-12d.alpha:1 widget-12b.sat:0.56
+onblur = widget-12c.alpha:0 widget-12d.alpha:0 widget-12b.sat:0.0
 focus = false
-center = 0.3, 0.64
-width = 0.16
+hue = 0.56
+center = 0.32, 0.64
+width = 0.20
 height = 0.03
 
 [ widget-12c ]
 slider = display.contrast.norm
 fill = true
-color = 0.6, 0.6, 0.6
+#color = 0.6, 0.6, 0.6
 alpha = 0
-center = 0.3, 0.64
-width = 0.16
+center = 0.32, 0.64
+width = 0.2
 height = 0.028
 layer = 1
 
@@ -618,49 +662,68 @@ layer = 1
 image = white.png
 color = 0.3, 0.3, 0.3
 alpha = 0
-center = 0.3, 0.64
-width = 0.16
+center = 0.32, 0.64
+width = 0.20
 height = 0.028
 
 
 [ widget-13b ]
 text = Cancel
-fontsize = 0.04
-align = left
+fontsize = 0.03
+#align = left
 tip = Forget changes and return to Options menu.
 onselect = gui.options.load Options
 onmoveup = widget-12b
 onmovedown = widget-14b
-onfocus = widget-13b.val:0.8
-onblur = widget-13b.val:1.0
+onfocus = widget-13b.sat:0.56
+onblur = widget-13b.sat:0.0
 focus = false
-center = 0.3, 0.70
-width = 0.16
-height = 0.05
+hue = 0.56
+center = 0.32, 0.68
+width = 0.2
+height = 0.04
+
+[ widget-13e ]
+image = white.png
+color = 0.345, 0.321, 0.337
+alpha = 0.5
+center = 0.32, 0.68
+width = 0.22
+height = 0.038
+layer = -1
 
 
 [ widget-14b ]
 text = OK
-fontsize = 0.04
-align = left
+fontsize = 0.03
+#align = left
 tip = Save changes and return to Options menu.
 onselect = gui.options.save Options
 onmoveup = widget-13b
 onmovedown = widget-01b
-onfocus = widget-14b.val:0.8
-onblur = widget-14b.val:1.0
+onfocus = widget-14b.sat:0.56
+onblur = widget-14b.sat:0.0
 focus = false
-center = 0.3, 0.76
-width = 0.16
-height = 0.05
+hue = 0.56
+center = 0.32, 0.72
+width = 0.2
+height = 0.04
+
+[ widget-14e ]
+image = white.png
+color = 0.345, 0.321, 0.337
+alpha = 0.5
+center = 0.32, 0.72
+width = 0.22
+height = 0.038
+layer = -1
 
 
 [ disclaimer ]
 text = Some options will not take effect until the game is restarted
 fontsize = 0.03
 align = left
-color = 0.7, 0.7, 0.7
-center = 0.3, 0.14
+center = 0.32, 0.14
 width = 0.2
 
 
