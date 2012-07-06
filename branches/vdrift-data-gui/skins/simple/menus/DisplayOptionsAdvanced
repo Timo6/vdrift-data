@@ -46,7 +46,7 @@ layer = -1
 text = Options / Graphics
 fontsize = 0.06
 align = left
-center = 0.32, 0.1
+center = 0.3, 0.1
 width = 0.2
 
 
@@ -901,7 +901,7 @@ layer = -1
 text = Some options will not take effect until the game is restarted
 fontsize = 0.03
 align = left
-center = 0.32, 0.14
+center = 0.3, 0.14
 width = 0.2
 
 
