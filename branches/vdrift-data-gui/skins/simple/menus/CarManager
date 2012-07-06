@@ -22,6 +22,26 @@ height = 0.08
 layer = -1
 
 
+[ bg-labels ]
+image = white.png
+color = 0.345, 0.321, 0.337
+alpha = 0.5
+center = 0.108, 0.22
+width = 0.2
+height = 0.08
+layer = -1
+
+
+[ bg-options ]
+image = white.png
+color = 0.345, 0.321, 0.337
+alpha = 0.5
+center = 0.32, 0.22
+width = 0.22
+height = 0.08
+layer = -1
+
+
 [ widget-00 ]
 text = Updates / Cars
 fontsize = 0.06
@@ -30,99 +50,119 @@ center = 0.3, 0.1
 width = 0.2
 
 
-[ widget-01 ]
-text = Previous
-fontsize = 0.04
+[ widget-02a ]
+text = Car
+fontsize = 0.03
+align = right
+center = 0.1, 0.20
+width = 0.20
+
+[ widget-02b ]
+text = <
+fontsize = 0.03
 align = left
-tip = Go back to the last car
+tip = Go back to the last car.
 onselect = CarManagerPrev
-onmoveup = widget-04
-onmovedown = widget-02
-onfocus = widget-01.sat:0.56
-onblur = widget-01.sat:0.0
+onmoveleft = CarManagerPrev
+onmoveright = CarManagerNext
+onmoveup = widget-17b
+onmovedown = widget-03b
+onfocus = widget-02b.alpha:1 widget-02c.alpha:1 widget-02d.sat:0.56
+onblur = widget-02b.alpha:0 widget-02c.alpha:0 widget-02d.sat:0.0
 focus = true
-hue = 0.56
-center = 0.3, 0.20
-width = 0.16
-height = 0.05
+color = 0.439, 0.796, 1.00
+alpha = 0
+center = 0.27, 0.20
+width = 0.1
+height = 0.04
 
-
-[ widget-02 ]
-text = Next
-fontsize = 0.04
-align = left
-tip = Advance to the next car
+[ widget-02c ]
+text = >
+fontsize = 0.03
+align = right
+tip = Advance to the next car.
 onselect = CarManagerNext
-onmoveup = widget-01
-onmovedown = widget-03
-onfocus = widget-02.sat:0.56
-onblur = widget-02.sat:0.0
+onmoveleft = CarManagerPrev
+onmoveright = CarManagerNext
+onmoveup = widget-17b
+onmovedown = widget-03b
+onfocus = widget-02b.alpha:1 widget-02c.alpha:1 widget-02d.sat:0.56
+onblur = widget-02b.alpha:0 widget-02c.alpha:0 widget-02d.sat:0.0
 focus = false
-hue = 0.56 
-center = 0.3, 0.26
-width = 0.16
-height = 0.05
+color = 0.439, 0.796, 1.00
+alpha = 0
+center = 0.37, 0.20
+width = 0.1
+height = 0.04
 
-
-[ widget-03 ]
-text = Apply Update
-fontsize = 0.04
-align = left
-tip = Update this car to the latest version
-onselect = ApplyCarUpdate
-onmoveup = widget-02
-onmovedown = widget-04
-onfocus = widget-03.sat:0.56
-onblur = widget-03.sat:0.0
-focus = false
-hue = 0.56 
-center = 0.3, 0.32
-width = 0.16
-height = 0.05
-
-
-[ widget-04 ]
-text = Back
-fontsize = 0.04
-align = left
-tip = Return to the Updates page.
-onselect = Updates
-onmoveup = widget-03
-onmovedown = widget-01
-onfocus = widget-04.sat:0.56
-onblur = widget-04.sat:0.0
-focus = false
-hue = 0.56 
-center = 0.3, 0.38
-width = 0.16
-height = 0.05
-
-
-[ carlabel ]
+[ widget-02d ]
 name = name
 text = Car Name
-fontsize = 0.04
-align = left
-center = 0.6, 0.20
+fontsize = 0.03
+hue = 0.56
+center = 0.32, 0.20
 width = 0.2
 
 
 [ version ]
 name = version
-text = Version
-fontsize = 0.04
-align = left
-center = 0.6, 0.26
+text = 0
+fontsize = 0.03
+center = 0.32, 0.24
 width = 0.2
+height = 0.04
 
 
-[ updateinfo ]
-name = updateinfo
-text = Update Info
-fontsize = 0.04
-align = left
-center = 0.6, 0.32
-width = 0.2
+[ widget-03b ]
+text = Apply Update
+fontsize = 0.03
+#align = left
+tip = Update this track to the latest version.
+onselect = ApplyCarUpdate
+onmoveup = widget-02b
+onmovedown = widget-04b
+onfocus = widget-03b.sat:0.56
+onblur = widget-03b.sat:0.0
+focus = false
+hue = 0.56
+center = 0.32, 0.28
+width = 0.20
+height = 0.04
+
+[ widget-03e ]
+image = white.png
+color = 0.345, 0.321, 0.337
+alpha = 0.5
+center = 0.32, 0.28
+width = 0.22
+height = 0.038
+layer = -1
+
+
+[ widget-04b ]
+text = Back
+fontsize = 0.03
+#align = left
+tip = Return to the Updates page.
+onselect = Updates
+onmoveup = widget-03b
+onmovedown = widget-01b
+onfocus = widget-04b.sat:0.56
+onblur = widget-04b.sat:0.0
+focus = false
+hue = 0.56
+center = 0.32, 0.32
+width = 0.20
+height = 0.04
+
+[ widget-04e ]
+image = white.png
+color = 0.345, 0.321, 0.337
+alpha = 0.5
+center = 0.32, 0.32
+width = 0.22
+height = 0.038
+layer = -1
 
 
 [ tooltip ]
