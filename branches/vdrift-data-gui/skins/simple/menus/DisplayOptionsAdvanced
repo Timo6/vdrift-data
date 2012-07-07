@@ -4,7 +4,7 @@ oncancel = gui.options.load Options
 
 [ bg-top ]
 image = white.png
-color = 0.345, 0.321, 0.337
+color = 0.172, 0.161, 0.169
 alpha = 0.5
 center = 0.5, 0.08
 width = 1
@@ -14,7 +14,7 @@ layer = -1
 
 [ bg-bottom ]
 image = white.png
-color = 0.345, 0.321, 0.337
+color = 0.172, 0.161, 0.169
 alpha = 0.5
 center = 0.5, 0.96
 width = 1
@@ -24,7 +24,7 @@ layer = -1
 
 [ bg-labels ]
 image = white.png
-color = 0.345, 0.321, 0.337
+color = 0.172, 0.161, 0.169
 alpha = 0.5
 center = 0.108, 0.48
 width = 0.2
@@ -34,7 +34,7 @@ layer = -1
 
 [ bg-options ]
 image = white.png
-color = 0.345, 0.321, 0.337
+color = 0.172, 0.161, 0.169
 alpha = 0.5
 center = 0.32, 0.48
 width = 0.22
@@ -863,7 +863,7 @@ height = 0.04
 
 [ widget-16e ]
 image = white.png
-color = 0.345, 0.321, 0.337
+color = 0.172, 0.161, 0.169
 alpha = 0.5
 center = 0.32, 0.80
 width = 0.22
@@ -889,7 +889,7 @@ height = 0.04
 
 [ widget-17e ]
 image = white.png
-color = 0.345, 0.321, 0.337
+color = 0.172, 0.161, 0.169
 alpha = 0.5
 center = 0.32, 0.84
 width = 0.22
