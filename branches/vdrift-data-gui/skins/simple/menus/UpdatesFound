@@ -28,7 +28,7 @@ color = 0.172, 0.161, 0.169
 alpha = 0.5
 center = 0.35, 0.225
 width = 0.30
-height = 0.10
+height = 0.098
 layer = -1
 
 
@@ -53,7 +53,7 @@ name = cars
 text = No car updates found.
 fontsize = 0.035
 align = left
-center = 0.3, 0.20
+center = 0.31, 0.20
 width = 0.18
 
 
@@ -62,7 +62,7 @@ name = tracks
 text = No track updates found.
 fontsize = 0.035
 align = left
-center = 0.3, 0.25
+center = 0.31, 0.25
 width = 0.18
 
 
@@ -76,7 +76,7 @@ onfocus = widget-04b.sat:0.56
 onblur = widget-04b.sat:0.0
 focus = true
 hue = 0.56
-center = 0.3, 0.30
+center = 0.31, 0.30
 width = 0.18
 height = 0.05
 
@@ -84,7 +84,7 @@ height = 0.05
 image = white.png
 color = 0.172, 0.161, 0.169
 alpha = 0.5
-center = 0.3, 0.30
+center = 0.31, 0.30
 width = 0.2
 height = 0.048
 layer = -1
