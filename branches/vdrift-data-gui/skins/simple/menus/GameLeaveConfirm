@@ -6,8 +6,9 @@ oncancel = InGameMain
 image = white.png
 color = 0.172, 0.161, 0.169
 alpha = 0.5
-center = 0.5, 0.07
-width = 1
+left = 0
+right = 0
+top = 0
 height = 0.14
 layer = -1
 
@@ -16,18 +17,30 @@ layer = -1
 image = white.png
 color = 0.172, 0.161, 0.169
 alpha = 0.5
-center = 0.5, 0.96
-width = 1
+left = 0
+right = 0
+bottom = 0
 height = 0.08
 layer = -1
+
+
+[ tooltip ]
+text = gui.tooltip
+fontsize = 0.03
+left = 0
+right = 0
+bottom = 0.04
+height = 0.04
 
 
 [ widget-00 ]
 text = Are you sure you want to leave this game?
 fontsize = 0.04
 align = left
-center = 0.3, 0.10
-width = 0.2
+left = 0.25
+width = 0.20
+top = 0.07
+height = 0.06
 
 
 [ widget-01b ]
@@ -41,16 +54,18 @@ onfocus = widget-01b.sat:0.56
 onblur = widget-01b.sat:0.0
 focus = true
 hue = 0.56
-center = 0.31, 0.20
-width = 0.18
+left = 0.27
+width = 0.20
+top = 0.175
 height = 0.05
 
 [ widget-01e ]
 image = white.png
 color = 0.172, 0.161, 0.169
 alpha = 0.5
-center = 0.31, 0.20
-width = 0.20
+left = 0.26
+width = 0.22
+top = 0.175
 height = 0.048
 layer = -1
 
@@ -66,22 +81,17 @@ onfocus = widget-02b.sat:0.56
 onblur = widget-02b.sat:0.0
 focus = false
 hue = 0.56
-center = 0.31, 0.25
-width = 0.18
+left = 0.27
+width = 0.20
+top = 0.225
 height = 0.05
 
 [ widget-02e ]
 image = white.png
 color = 0.172, 0.161, 0.169
 alpha = 0.5
-center = 0.31, 0.25
-width = 0.20
+left = 0.26
+width = 0.22
+top = 0.225
 height = 0.048
 layer = -1
-
-
-[ tooltip ]
-text = gui.tooltip
-fontsize = 0.03
-center = 0.5, 0.94
-width = 1.0

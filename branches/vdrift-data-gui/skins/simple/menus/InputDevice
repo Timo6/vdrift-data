@@ -6,8 +6,9 @@ oncancel = gui.options.load ControlsOptions
 image = white.png
 color = 0.172, 0.161, 0.169
 alpha = 0.5
-center = 0.5, 0.07
-width = 1
+left = 0
+right = 0
+top = 0
 height = 0.14
 layer = -1
 
@@ -16,18 +17,29 @@ layer = -1
 image = white.png
 color = 0.172, 0.161, 0.169
 alpha = 0.5
-center = 0.5, 0.96
-width = 1
+left = 0
+right = 0
+bottom = 0
 height = 0.08
 layer = -1
+
+
+[ tooltip ]
+text = gui.tooltip
+fontsize = 0.03
+left = 0
+right = 0
+bottom = 0.04
+height = 0.04
 
 
 [ bg-labels ]
 image = white.png
 color = 0.172, 0.161, 0.169
 alpha = 0.5
-center = 0.108, 0.36
-width = 0.2
+left = 0.008
+width = 0.25
+top = 0.181
 height = 0.358
 layer = -1
 
@@ -36,26 +48,31 @@ layer = -1
 image = white.png
 color = 0.172, 0.161, 0.169
 alpha = 0.5
-center = 0.32, 0.36
-width = 0.22
+left = 0.26
+width = 0.26
+top = 0.181
 height = 0.358
 layer = -1
 
 
-[ widget-00 ]
+[ title ]
 text = Options / Controls / Input Device
 fontsize = 0.06
 align = left
-center = 0.3, 0.1
-width = 0.2
+left = 0.25
+width = 0.20
+top = 0.07
+height = 0.06
 
 
 [ widget-01a ]
 text = Type
 fontsize = 0.03
 align = right
-center = 0.1, 0.20
-width = 0.18
+left = 0.01
+width = 0.24
+top = 0.18
+height = 0.04
 
 [ widget-01b ]
 text = <
@@ -72,8 +89,9 @@ onblur = widget-01b.alpha:0 widget-01c.alpha:0 widget-01d.sat:0.0
 focus = true
 color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.27, 0.20
-width = 0.1
+left = 0.27
+width = 0.12
+top = 0.18
 height = 0.04
 
 [ widget-01c ]
@@ -91,24 +109,29 @@ onblur = widget-01b.alpha:0 widget-01c.alpha:0 widget-01d.sat:0.0
 focus = false
 color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.37, 0.20
-width = 0.1
+left = 0.39
+width = 0.12
+top = 0.18
 height = 0.04
 
 [ widget-01d ]
 text = joystick.type.str
 fontsize = 0.03
 hue = 0.56
-center = 0.32, 0.20
-width = 0.2
+left = 0.27
+width = 0.24
+top = 0.18
+height = 0.04
 
 
 [ widget-02a ]
 text = 200 Degree Wheel
 fontsize = 0.03
 align = right
-center = 0.1, 0.24
-width = 0.18
+left = 0.01
+width = 0.24
+top = 0.22
+height = 0.04
 
 [ widget-02b ]
 text = <
@@ -124,8 +147,9 @@ onblur = widget-02b.alpha:0 widget-02c.alpha:0 widget-02d.sat:0.0
 focus = false
 color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.27, 0.24
-width = 0.1
+left = 0.27
+width = 0.12
+top = 0.22
 height = 0.04
 
 [ widget-02c ]
@@ -142,24 +166,29 @@ onblur = widget-02b.alpha:0 widget-02c.alpha:0 widget-02d.sat:0.0
 focus = false
 color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.37, 0.24
-width = 0.1
+left = 0.39
+width = 0.12
+top = 0.22
 height = 0.04
 
 [ widget-02d ]
 text = joystick.two_hundred.str
 fontsize = 0.03
 hue = 0.56
-center = 0.32, 0.24
-width = 0.2
+left = 0.27
+width = 0.24
+top = 0.22
+height = 0.04
 
 
 [ widget-03a ]
 text = Force Feedback Invert 
 fontsize = 0.03
 align = right
-center = 0.1, 0.28
-width = 0.18
+left = 0.01
+width = 0.24
+top = 0.26
+height = 0.04
 
 [ widget-03b ]
 text = <
@@ -176,8 +205,9 @@ onblur = widget-03b.alpha:0 widget-03c.alpha:0 widget-03d.sat:0.0
 focus = false
 color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.27, 0.28
-width = 0.1
+left = 0.27
+width = 0.12
+top = 0.26
 height = 0.04
 
 [ widget-03c ]
@@ -195,24 +225,29 @@ onblur = widget-03b.alpha:0 widget-03c.alpha:0 widget-03d.sat:0.0
 focus = false
 color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.37, 0.28
-width = 0.1
+left = 0.39
+width = 0.12
+top = 0.26
 height = 0.04
 
 [ widget-03d ]
 text = joystick.ff_invert.str
 fontsize = 0.03
 hue = 0.56
-center = 0.32, 0.28
-width = 0.2
+left = 0.27
+width = 0.24
+top = 0.26
+height = 0.04
 
 
 [ widget-04a ]
 text = Force Feedback Gain
 fontsize = 0.03
 align = right
-center = 0.1, 0.32
-width = 0.18
+left = 0.01
+width = 0.24
+top = 0.30
+height = 0.04
 
 [ widget-04b ]
 text = joystick.ff_gain.str
@@ -227,17 +262,18 @@ onfocus = widget-04c.alpha:1 widget-04d.alpha:1 widget-04b.sat:0.56
 onblur = widget-04c.alpha:0 widget-04d.alpha:0 widget-04b.sat:0.0
 focus = false
 hue = 0.56
-center = 0.32, 0.32
-width = 0.2
-height = 0.03
+left = 0.27
+width = 0.24
+top = 0.30
+height = 0.04
 
 [ widget-04c ]
 slider = joystick.ff_gain.norm
 fill = true
-#color = 0.6, 0.6, 0.6
 alpha = 0
-center = 0.32, 0.32
-width = 0.2
+left = 0.27
+width = 0.24
+top = 0.306
 height = 0.028
 layer = 1
 
@@ -245,8 +281,9 @@ layer = 1
 image = white.png
 color = 0.3, 0.3, 0.3
 alpha = 0
-center = 0.32, 0.32
-width = 0.2
+left = 0.27
+width = 0.24
+top = 0.306
 height = 0.028
 
 
@@ -254,8 +291,10 @@ height = 0.028
 text = Steering Speed Effect
 fontsize = 0.03
 align = right
-center = 0.1, 0.36
-width = 0.18
+left = 0.01
+width = 0.24
+top = 0.34
+height = 0.04
 
 [ widget-05b ]
 text = control.speed_sens_steering.str
@@ -270,17 +309,18 @@ onfocus = widget-05c.alpha:1 widget-05d.alpha:1 widget-05b.sat:0.56
 onblur = widget-05c.alpha:0 widget-05d.alpha:0 widget-05b.sat:0.0
 focus = false
 hue = 0.56
-center = 0.32, 0.36
-width = 0.2
-height = 0.03
+left = 0.27
+width = 0.24
+top = 0.34
+height = 0.04
 
 [ widget-05c ]
 slider = control.speed_sens_steering.norm
 fill = true
-#color = 0.6, 0.6, 0.6
 alpha = 0
-center = 0.32, 0.36
-width = 0.2
+left = 0.27
+width = 0.24
+top = 0.346
 height = 0.028
 layer = 1
 
@@ -288,8 +328,9 @@ layer = 1
 image = white.png
 color = 0.3, 0.3, 0.3
 alpha = 0
-center = 0.32, 0.36
-width = 0.2
+left = 0.27
+width = 0.24
+top = 0.346
 height = 0.028
 
 
@@ -297,8 +338,10 @@ height = 0.028
 text = Button Control Delay
 fontsize = 0.03
 align = right
-center = 0.1, 0.40
-width = 0.18
+left = 0.01
+width = 0.24
+top = 0.38
+height = 0.04
 
 [ widget-06b ]
 text = <
@@ -315,8 +358,9 @@ onblur = widget-06b.alpha:0 widget-06c.alpha:0 widget-06d.sat:0.0
 focus = false
 color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.27, 0.40
-width = 0.1
+left = 0.27
+width = 0.12
+top = 0.38
 height = 0.04
 
 [ widget-06c ]
@@ -334,24 +378,29 @@ onblur = widget-06b.alpha:0 widget-06c.alpha:0 widget-06d.sat:0.0
 focus = false
 color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.37, 0.40
-width = 0.1
+left = 0.39
+width = 0.12
+top = 0.38
 height = 0.04
 
 [ widget-06d ]
 text = control.button_ramp.str
 fontsize = 0.03
 hue = 0.56
-center = 0.32, 0.40
-width = 0.2
+left = 0.27
+width = 0.24
+top = 0.38
+height = 0.04
 
 
 [ widget-07a ]
 text = Automatic Shift
 fontsize = 0.03
 align = right
-center = 0.1, 0.44
-width = 0.18
+left = 0.01
+width = 0.24
+top = 0.42
+height = 0.04
 
 [ widget-07b ]
 text = <
@@ -368,8 +417,9 @@ onblur = widget-07b.alpha:0 widget-07c.alpha:0 widget-07d.sat:0.0
 focus = false
 color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.27, 0.44
-width = 0.1
+left = 0.27
+width = 0.12
+top = 0.42
 height = 0.04
 
 [ widget-07c ]
@@ -387,24 +437,29 @@ onblur = widget-07b.alpha:0 widget-07c.alpha:0 widget-07d.sat:0.0
 focus = false
 color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.37, 0.44
-width = 0.1
+left = 0.39
+width = 0.12
+top = 0.42
 height = 0.04
 
 [ widget-07d ]
 text = control.autotrans.str
 fontsize = 0.03
 hue = 0.56
-center = 0.32, 0.44
-width = 0.2
+left = 0.27
+width = 0.24
+top = 0.42
+height = 0.04
 
 
 [ widget-08a ]
 text = Automatic Clutch
 fontsize = 0.03
 align = right
-center = 0.1, 0.48
-width = 0.18
+left = 0.01
+width = 0.24
+top = 0.46
+height = 0.04
 
 [ widget-08b ]
 text = <
@@ -421,8 +476,9 @@ onblur = widget-08b.alpha:0 widget-08c.alpha:0 widget-08d.sat:0.0
 focus = false
 color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.27, 0.48
-width = 0.1
+left = 0.27
+width = 0.12
+top = 0.46
 height = 0.04
 
 [ widget-08c ]
@@ -439,24 +495,29 @@ onblur = widget-08b.alpha:0 widget-08c.alpha:0 widget-08d.sat:0.0
 focus = false
 color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.37, 0.48
-width = 0.1
+left = 0.39
+width = 0.12
+top = 0.46
 height = 0.04
 
 [ widget-08d ]
 text = control.autoclutch.str
 fontsize = 0.03
 hue = 0.56
-center = 0.32, 0.48
-width = 0.2
+left = 0.27
+width = 0.24
+top = 0.46
+height = 0.04
 
 
 [ widget-09a ]
 text = H-Gate Shifter
 fontsize = 0.03
 align = right
-center = 0.1, 0.52
-width = 0.18
+left = 0.01
+width = 0.24
+top = 0.50
+height = 0.04
 
 [ widget-09b ]
 text = <
@@ -473,8 +534,9 @@ onblur = widget-09b.alpha:0 widget-09c.alpha:0 widget-09d.sat:0.0
 focus = false
 color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.27, 0.52
-width = 0.1
+left = 0.27
+width = 0.12
+top = 0.50
 height = 0.04
 
 [ widget-09c ]
@@ -492,16 +554,19 @@ onblur = widget-09b.alpha:0 widget-09c.alpha:0 widget-09d.sat:0.0
 focus = false
 color = 0.439, 0.796, 1.00
 alpha = 0
-center = 0.37, 0.52
-width = 0.1
+left = 0.39
+width = 0.12
+top = 0.50
 height = 0.04
 
 [ widget-09d ]
 text = joystick.hgateshifter.str
 fontsize = 0.03
 hue = 0.56
-center = 0.32, 0.52
-width = 0.2
+left = 0.27
+width = 0.24
+top = 0.50
+height = 0.04
 
 
 [ widget-10b ]
@@ -516,16 +581,18 @@ onfocus = widget-10b.sat:0.56
 onblur = widget-10b.sat:0.0
 focus = false
 hue = 0.56
-center = 0.32, 0.56
-width = 0.2
+left = 0.27
+width = 0.25
+top = 0.54
 height = 0.04
 
 [ widget-10e ]
 image = white.png
 color = 0.172, 0.161, 0.169
 alpha = 0.5
-center = 0.32, 0.56
-width = 0.22
+left = 0.26
+width = 0.26
+top = 0.541
 height = 0.038
 layer = -1
 
@@ -542,22 +609,17 @@ onfocus = widget-11b.sat:0.56
 onblur = widget-11b.sat:0.0
 focus = false
 hue = 0.56
-center = 0.32, 0.60
-width = 0.2
+left = 0.27
+width = 0.25
+top = 0.58
 height = 0.04
 
 [ widget-11e ]
 image = white.png
 color = 0.172, 0.161, 0.169
 alpha = 0.5
-center = 0.32, 0.60
-width = 0.22
+left = 0.26
+width = 0.26
+top = 0.581
 height = 0.038
 layer = -1
-
-
-[ tooltip ]
-text = gui.tooltip
-fontsize = 0.03
-center = 0.5, 0.94
-width = 1.0
