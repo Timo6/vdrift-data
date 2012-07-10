@@ -405,7 +405,7 @@ focus = false
 hue = 0.56
 left = 0.27
 width = 0.24
-top = 0.42
+top = 0.425
 height = 0.03
 
 [ widget-07c ]
@@ -415,7 +415,7 @@ fill = true
 alpha = 0
 left = 0.27
 width = 0.24
-top = 0.42
+top = 0.426
 height = 0.028
 layer = 1
 
@@ -425,7 +425,7 @@ color = 0.3, 0.3, 0.3
 alpha = 0
 left = 0.27
 width = 0.24
-top = 0.42
+top = 0.426
 height = 0.028
 
 
