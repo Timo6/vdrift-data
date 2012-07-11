@@ -1,134 +1,210 @@
 name = Main
-dialog = false
+onfocus = EditFirstCar
+oncancel = QuitConfirm
 
-[background]
-type = image
-filename = box.png
-center = 0.5, 0.5
-width = 1
-height = 1
+
+[ bg-top ]
+image = white.png
+color = 0.172, 0.161, 0.169
+alpha = 0.5
+left = 0
+right = 0
+top = 0
+height = 0.14
 layer = -1
 
-[ widget-00 ]
-type = image
-name = LogoImage
-filename = logo.png
-center = 0.5, 0.15
-width = 0.5
-height = 0.667
-enabled = 0
-selected = 0
-default = 0
-cancel = 0
+
+[ bg-bottom ]
+image = white.png
+color = 0.172, 0.161, 0.169
+alpha = 0.5
+left = 0
+right = 0
+bottom = 0
+height = 0.08
+layer = -1
+
+
+[ tooltip ]
+text = gui.tooltip
+fontsize = 0.03
+left = 0
+right = 0
+bottom = 0.04
+height = 0.04
+
+
+[ title ]
+image = logo.png
+left = 0.25
+width = 0.30
+top = -0.06
+height = 0.30
+
 
 [ widget-01 ]
-type = button
-name = PracticeGameButton
 text = Practice Game
+fontsize = 0.035
+align = left
 tip = Start a practice game.
-action = PracticeGame
-center = 0.5, 0.3
-color = 0.0, 0.0, 0.8
-width = auto
+onselect = PracticeGame
+onfocus = widget-01.sat:0.56
+onblur = widget-01.sat:0.0
+onmoveup = widget-06
+onmovedown = widget-02
+focus = true
+hue = 0.56
+left = 0.27
+width = 0.20
+top = 0.175
 height = 0.05
-fontsize = 0.04
-enabled = 1
-selected = 1
-default = 0
-cancel = 0
+
+[ widget-01e ]
+image = white.png
+color = 0.172, 0.161, 0.169
+alpha = 0.5
+left = 0.26
+width = 0.22
+top = 0.175
+height = 0.048
+layer = -1
+
 
 [ widget-02 ]
-type = button
-name = SingleRaceButton
 text = Single Race
+fontsize = 0.035
+align = left
 tip = Start a race.
-action = SingleRace
-center = 0.5, 0.39
-color = 0.0, 0.0, 0.8
-width = auto
+onselect = SingleRace
+onfocus = widget-02.sat:0.56
+onblur = widget-02.sat:0.0
+onmoveup = widget-01
+onmovedown = widget-03
+focus = false
+hue = 0.56
+left = 0.27
+width = 0.20
+top = 0.225
 height = 0.05
-fontsize = 0.04
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
+
+[ widget-02e ]
+image = white.png
+color = 0.172, 0.161, 0.169
+alpha = 0.5
+left = 0.26
+width = 0.22
+top = 0.225
+height = 0.048
+layer = -1
+
+
+[ widget-03 ]
+text = Replays
+fontsize = 0.035
+align = left
+tip = Play back recorded games.
+onselect = Replays
+onfocus = widget-03.sat:0.56
+onblur = widget-03.sat:0.0
+onmoveup = widget-02
+onmovedown = widget-04
+focus = false
+hue = 0.56
+left = 0.27
+width = 0.20
+top = 0.275
+height = 0.05
+
+[ widget-03e ]
+image = white.png
+color = 0.172, 0.161, 0.169
+alpha = 0.5
+left = 0.26
+width = 0.22
+top = 0.275
+height = 0.048
+layer = -1
+
 
 [ widget-04 ]
-type = button
-name = ReplaysButton
-text = Replays
-tip = Play back recorded games.
-action = Replays
-center = 0.5, 0.48
-color = 0.0, 0.0, 0.8
-width = auto
+text = Options
+fontsize = 0.035
+align = left
+tip = Configure your display, sound and controls.
+onselect = Options
+onfocus = widget-04.sat:0.56
+onblur = widget-04.sat:0.0
+onmoveup = widget-03
+onmovedown = widget-05
+focus = false
+hue = 0.56
+left = 0.27
+width = 0.20
+top = 0.325
 height = 0.05
-fontsize = 0.04
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
+
+[ widget-04e ]
+image = white.png
+color = 0.172, 0.161, 0.169
+alpha = 0.5
+left = 0.26
+width = 0.22
+top = 0.325
+height = 0.048
+layer = -1
+
 
 [ widget-05 ]
-type = button
-name = OptionsButton
-text = Options
-tip = Configure your display, sound and controls.
-action = Options
-center = 0.5, 0.57
-color = 0.0, 0.0, 0.8
-width = auto
-height = 0.05
-fontsize = 0.04
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
-
-[ cars-tracks ]
-type = button
-name = UpdatesButton
 text = Updates
+fontsize = 0.035
+align = left
 tip = Keep your cars and tracks up to date
-action = Updates
-center = 0.5, 0.66
-color = 0.0, 0.0, 0.8
-width = auto
+onselect = Updates
+onfocus = widget-05.sat:0.56
+onblur = widget-05.sat:0.0
+onmoveup = widget-04
+onmovedown = widget-06
+focus = false
+hue = 0.56
+left = 0.27
+width = 0.20
+top = 0.375
 height = 0.05
-fontsize = 0.04
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
+
+[ widget-05e ]
+image = white.png
+color = 0.172, 0.161, 0.169
+alpha = 0.5
+left = 0.26
+width = 0.22
+top = 0.375
+height = 0.048
+layer = -1
+
 
 [ widget-06 ]
-type = button
-name = QuitButton
 text = Quit
+fontsize = 0.035
+align = left
 tip = Quit VDrift.
-action = QuitConfirm
-center = 0.5, 0.84
-color = 0.8, 0.0, 0.0
-width = auto
+onselect = QuitConfirm
+onfocus = widget-06.sat:0.56
+onblur = widget-06.sat:0.0
+onmoveup = widget-05
+onmovedown = widget-01
+focus = false
+hue = 0.56
+left = 0.27
+width = 0.20
+top = 0.425
 height = 0.05
-fontsize = 0.04
-enabled = 1
-selected = 0
-default = 0
-cancel = 1
 
-[ CarsAndTracks ]
-type = disabled
-name = DataButton
-text = Cars and Tracks
-tip = Get new cars and tracks or update existing data
-action = StartDataManager
-center = 0.5, 0.66
-color = 0.0, 0.0, 0.8
-width = auto
-height = 0.05
-fontsize = 0.04
-enabled = 0
-selected = 0
-default = 0
-cancel = 0
+[ widget-06e ]
+image = white.png
+color = 0.172, 0.161, 0.169
+alpha = 0.5
+left = 0.26
+width = 0.22
+top = 0.425
+height = 0.048
+layer = -1

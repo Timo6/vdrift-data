@@ -1,87 +1,155 @@
 name = Updates
-dialog = false
+oncancel = Main
 
-[background]
-type = image
-filename = box.png
-center = 0.5, 0.5
-width = 1
-height = 1
+
+[ bg-top ]
+image = white.png
+color = 0.172, 0.161, 0.169
+alpha = 0.5
+left = 0
+right = 0
+top = 0
+height = 0.14
 layer = -1
 
+
+[ bg-bottom ]
+image = white.png
+color = 0.172, 0.161, 0.169
+alpha = 0.5
+left = 0
+right = 0
+bottom = 0
+height = 0.08
+layer = -1
+
+
+[ tooltip ]
+text = gui.tooltip
+fontsize = 0.03
+left = 0
+right = 0
+bottom = 0.04
+height = 0.04
+
+
 [ title ]
-type = label
-name = Title
 text = Updates
-center = 0.5, 0.1
-width = auto
-height = auto
 fontsize = 0.06
-enabled = 0
-selected = 0
-default = 0
-cancel = 0
+align = left
+left = 0.25
+width = 0.20
+top = 0.07
+height = 0.06
 
-[ updatecheck ]
-type = button
-name = UpdateButton
-text = Check for updates
+
+[ widget-01b ]
+text = Update
+fontsize = 0.035
+align = left
 tip = Check for updates to your existing cars and tracks
-action = StartCheckForUpdates
-center = 0.5, 0.3
-color = 0.0, 0.0, 0.8
-width = auto
+onselect = StartCheckForUpdates
+onmoveup = widget-04b
+onmovedown = widget-02b
+onfocus = widget-01b.sat:0.56
+onblur = widget-01b.sat:0.0
+focus = true
+hue = 0.56
+left = 0.27
+width = 0.20
+top = 0.175
 height = 0.05
-fontsize = 0.04
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
-[ trackmanager ]
-type = button
-name = TrackManageButton
-text = Manage Tracks
+[ widget-01e ]
+image = white.png
+color = 0.172, 0.161, 0.169
+alpha = 0.5
+left = 0.26
+width = 0.22
+top = 0.175
+height = 0.048
+layer = -1
+
+
+[ widget-02b ]
+text = Tracks
+fontsize = 0.035
+align = left
 tip = Browse tracks and apply updates
-action = StartTrackManager
-center = 0.5, 0.4
-color = 0.0, 0.0, 0.8
-width = auto
+onselect = StartTrackManager
+onmoveup = widget-01b
+onmovedown = widget-03b
+onfocus = widget-02b.sat:0.56
+onblur = widget-02b.sat:0.0
+focus = false
+hue = 0.56
+left = 0.27
+width = 0.20
+top = 0.225
 height = 0.05
-fontsize = 0.04
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
-[ carmanager ]
-type = button
-name = CarManageButton
-text = Manage Cars
+[ widget-02e ]
+image = white.png
+color = 0.172, 0.161, 0.169
+alpha = 0.5
+left = 0.26
+width = 0.22
+top = 0.225
+height = 0.048
+layer = -1
+
+
+[ widget-03b ]
+text = Cars
+fontsize = 0.035
+align = left
 tip = Browse cars and apply updates
-action = StartCarManager
-center = 0.5, 0.5
-color = 0.0, 0.0, 0.8
-width = auto
+onselect = StartCarManager
+onmoveup = widget-02b
+onmovedown = widget-04b
+onfocus = widget-03b.sat:0.56
+onblur = widget-03b.sat:0.0
+focus = false
+hue = 0.56
+left = 0.27
+width = 0.20
+top = 0.275
 height = 0.05
-fontsize = 0.04
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
 
-[ widget-02 ]
-type = button
-name = BackButton
-text = Back to Main
+[ widget-03e ]
+image = white.png
+color = 0.172, 0.161, 0.169
+alpha = 0.5
+left = 0.26
+width = 0.22
+top = 0.275
+height = 0.048
+layer = -1
+
+
+[ widget-04b ]
+text = Back
+fontsize = 0.035
+align = left
 tip = Return to the Main menu.
-action = Main
-center = 0.5, 0.84
-color = 0.8, 0.0, 0.0
-width = auto
+onselect = Main
+onmoveup = widget-03b
+onmovedown = widget-01b
+onfocus = widget-04b.sat:0.56
+onblur = widget-04b.sat:0.0
+focus = false
+hue = 0.56
+left = 0.27
+width = 0.20
+top = 0.325
 height = 0.05
-fontsize = 0.04
-enabled = 1
-selected = 0
-default = 0
-cancel = 1
+
+[ widget-04e ]
+image = white.png
+color = 0.172, 0.161, 0.169
+alpha = 0.5
+left = 0.26
+width = 0.22
+top = 0.325
+height = 0.048
+layer = -1

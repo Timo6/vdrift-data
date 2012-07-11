@@ -1,38 +1,69 @@
 name = UpdateSuccessful
-dialog = true
+oncancel = Updates
 
-[background]
-type = image
-filename = box.png
-center = 0.5, 0.5
-width = 1
-height = 1
+
+[ bg-top ]
+image = white.png
+color = 0.172, 0.161, 0.169
+alpha = 0.5
+left = 0
+right = 0
+top = 0
+height = 0.14
 layer = -1
 
-[ widget-00 ]
-type = label
-text = Update Successful
-center = 0.5, 0.45
-width = auto
-height = auto
-fontsize = 0.04
-enabled = 0
-selected = 0
-default = 0
-cancel = 0
 
-[ widget-02 ]
-type = button
-name = BackButton
-text = Back
-tip = Go back to the Updates page.
-action = Updates
-center = 0.5, 0.55
-color = 0.8, 0.0, 0.0
-width = auto
-height = 0.05
+[ bg-bottom ]
+image = white.png
+color = 0.172, 0.161, 0.169
+alpha = 0.5
+left = 0
+right = 0
+bottom = 0
+height = 0.08
+layer = -1
+
+
+[ tooltip ]
+text = gui.tooltip
+fontsize = 0.03
+left = 0
+right = 0
+bottom = 0.04
+height = 0.04
+
+
+[ title ]
+text = Update Successful
 fontsize = 0.04
-enabled = 1
-selected = 1
-default = 0
-cancel = 1
+align = left
+left = 0.25
+width = 0.20
+top = 0.07
+height = 0.06
+
+
+[ widget-02b ]
+text = Back
+fontsize = 0.035
+align = left
+tip = Go back to the Updates page.
+onselect = Updates
+onfocus = widget-02b.sat:0.56
+onblur = widget-02b.sat:0.0
+focus = true
+hue = 0.56
+left = 0.27
+width = 0.20
+top = 0.175
+height = 0.05
+
+[ widget-02e ]
+image = white.png
+color = 0.172, 0.161, 0.169
+alpha = 0.5
+left = 0.26
+width = 0.22
+top = 0.175
+height = 0.048
+layer = -1
