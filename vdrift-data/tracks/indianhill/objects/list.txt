@@ -17,7 +17,7 @@ grass01.png
 0.0
 0
 0
-0
+2
 
 #entry 1
 ih-object-Plane.001.joe
@@ -36,7 +36,7 @@ grass01.png
 0.0
 0
 0
-0
+2
 
 #entry 2
 ih-object-Plane.002.joe
@@ -55,7 +55,7 @@ grass01.png
 0.0
 0
 0
-0
+2
 
 #entry 3
 ih-object-Plane.003.joe
@@ -74,7 +74,7 @@ blacktop.png
 0.0
 0
 0
-0
+1
 
 #entry 4
 ih-object-Plane.004.joe
@@ -112,7 +112,7 @@ blacktop.png
 0.0
 0
 0
-0
+1
 
 #entry 6
 ih-object-Plane.006.joe
@@ -131,7 +131,7 @@ grass01.png
 0.0
 0
 0
-0
+2
 
 #entry 7
 ih-object-Plane.007.joe
@@ -150,7 +150,7 @@ blacktop.png
 0.0
 0
 0
-0
+1
 
 #entry 8
 ih-object-Plane.008.joe
@@ -169,4 +169,4 @@ blacktop.png
 0.0
 0
 0
-0
+1

@@ -1,133 +1,287 @@
 name = EditAnalogControl
-dialog = true
+oncancel = CancelControl
 
-[background]
-type = image
-filename = box.png
-center = 0.5, 0.5
-width = 1
-height = 1
+
+[ bg-top ]
+image = white.png
+color = 0.172, 0.161, 0.169
+alpha = 0.5
+left = 0
+right = 0
+top = 0
+height = 0.14
 layer = -1
 
-[ widget-00 ]
-type = label
-name = EditAnalogControlLabel1
-text = Edit Analog Control
-center = 0.5, 0.1
-width = auto
-height = auto
+
+[ bg-bottom ]
+image = white.png
+color = 0.172, 0.161, 0.169
+alpha = 0.5
+left = 0
+right = 0
+bottom = 0
+height = 0.08
+layer = -1
+
+
+[ tooltip ]
+text = gui.tooltip
+fontsize = 0.03
+left = 0
+right = 0
+bottom = 0.04
+height = 0.04
+
+
+[ bg-labels ]
+image = white.png
+color = 0.172, 0.161, 0.169
+alpha = 0.5
+left = 0.008
+width = 0.25
+top = 0.181
+height = 0.118
+layer = -1
+
+
+[ bg-options ]
+image = white.png
+color = 0.172, 0.161, 0.169
+alpha = 0.5
+left = 0.26
+width = 0.26
+top = 0.181
+height = 0.118
+layer = -1
+
+
+[ title ]
+text = Options / Controls / Analog / Edit
 fontsize = 0.06
-enabled = 0
-selected = 0
-default = 0
-cancel = 0
+align = left
+left = 0.25
+width = 0.20
+top = 0.07
+height = 0.06
 
-[ widget-01 ]
-type = slider
-name = DeadzoneSlider
+
+[ widget-01a ]
 text = Deadzone
-tip = Set the deadzone for the input between 0.0 and 0.5.
-setting = controledit.analog.deadzone
-values = manual
-sliderval = 0.0
-min = 0.0
-max = 0.5
-center = 0.5, 0.25
-width = auto
-height = auto
 fontsize = 0.03
-enabled = 1
-selected = 1
-default = 0
-cancel = 0
+align = right
+left = 0.01
+width = 0.24
+top = 0.18
+height = 0.04
 
-[ widget-02 ]
-type = slider
-name = GainSlider
+[ widget-01b ]
+text = controledit.deadzone.str
+fontsize = 0.03
+onselectx = controledit.deadzone.norm
+onmoveleft = controledit.deadzone.prev
+onmoveright = controledit.deadzone.next
+onmoveup = widget-06b
+onmovedown = widget-02b
+onfocus = widget-01c.alpha:1 widget-01d.alpha:1 widget-01b.sat:0.56
+onblur = widget-01c.alpha:0 widget-01d.alpha:0 widget-01b.sat:0.0
+focus = true
+hue = 0.56
+left = 0.27
+width = 0.24
+top = 0.185
+height = 0.03
+
+[ widget-01c ]
+slider = controledit.deadzone.norm
+fill = true
+alpha = 0
+left = 0.27
+width = 0.24
+top = 0.186
+height = 0.028
+layer = 1
+
+[ widget-01d ]
+image = white.png
+color = 0.3, 0.3, 0.3
+alpha = 0
+left = 0.27
+width = 0.24
+top = 0.186
+height = 0.028
+
+
+[ widget-02a ]
 text = Gain
-tip = Set the gain for the input between 0.5 and 3.0.
-setting = controledit.analog.gain
-values = manual
-sliderval = 1.0
-min = 0.5
-max = 3.0
-center = 0.5, 0.31
-width = auto
-height = auto
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
+align = right
+left = 0.01
+width = 0.24
+top = 0.22
+height = 0.04
 
-[ widget-03 ]
-type = slider
-name = ExponentSlider
+[ widget-02b ]
+text = controledit.gain.str
+fontsize = 0.03
+onselectx = controledit.gain.norm
+onmoveleft = controledit.gain.prev
+onmoveright = controledit.gain.next
+onmoveup = widget-01b
+onmovedown = widget-03b
+onfocus = widget-02c.alpha:1 widget-02d.alpha:1 widget-02b.sat:0.56
+onblur = widget-02c.alpha:0 widget-02d.alpha:0 widget-02b.sat:0.0
+focus = false
+hue = 0.56
+left = 0.27
+width = 0.24
+top = 0.225
+height = 0.03
+
+[ widget-02c ]
+slider = controledit.gain.norm
+fill = true
+alpha = 0
+left = 0.27
+width = 0.24
+top = 0.226
+height = 0.028
+layer = 1
+
+[ widget-02d ]
+image = white.png
+color = 0.3, 0.3, 0.3
+alpha = 0
+left = 0.27
+width = 0.24
+top = 0.226
+height = 0.028
+
+
+[ widget-03a ]
 text = Exponent
-tip = Set the exponent for the input between 1.0 and 5.0.
-setting = controledit.analog.exponent
-values = manual
-sliderval = 1.0
-min = 1.0
-max = 5.0
-percent = false
-center = 0.5, 0.37
-width = auto
-height = auto
 fontsize = 0.03
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
+align = right
+left = 0.01
+width = 0.24
+top = 0.26
+height = 0.04
 
-[ widget-04 ]
-type = button
-name = AnalogControlDeleteButton
+[ widget-03b ]
+text = controledit.exponent.str
+fontsize = 0.03
+onselectx = controledit.exponent.norm
+onmoveleft = controledit.exponent.prev
+onmoveright = controledit.exponent.next
+onmoveup = widget-02b
+onmovedown = widget-04b
+onfocus = widget-03c.alpha:1 widget-03d.alpha:1 widget-03b.sat:0.56
+onblur = widget-03c.alpha:0 widget-03d.alpha:0 widget-03b.sat:0.0
+focus = false
+hue = 0.56
+left = 0.27
+width = 0.24
+top = 0.265
+height = 0.03
+
+[ widget-03c ]
+slider = controledit.exponent.norm
+fill = true
+alpha = 0
+left = 0.27
+width = 0.24
+top = 0.266
+height = 0.028
+layer = 1
+
+[ widget-03d ]
+image = white.png
+color = 0.3, 0.3, 0.3
+alpha = 0
+left = 0.27
+width = 0.24
+top = 0.266
+height = 0.028
+
+
+[ widget-04b ]
 text = Delete
+fontsize = 0.03
+#align = left
 tip = Delete this control.
-action = AnalogControlDelete
-center = 0.5, 0.7
-color = 1.0, 0.8, 0.0
-width = auto
-height = 0.05
-fontsize = 0.04
-enabled = 1
-selected = 0
-default = 0
-cancel = 0
+onselect = DeleteControl
+onmoveup = widget-03b
+onmovedown = widget-05b
+onfocus = widget-04b.sat:0.56
+onblur = widget-04b.sat:0.0
+focus = false
+hue = 0.56
+left = 0.27
+width = 0.24
+top = 0.30
+height = 0.04
 
-[ widget-05 ]
-type = button
-name = EditAnalogControlOKButton
-text = OK
-tip = Save changes and return to Options menu.
-action = AnalogControlOK
-center = 0.4, 0.8
-color = 0.0, 0.8, 0.0
-width = auto
-height = 0.05
-fontsize = 0.04
-enabled = 1
-selected = 0
-default = 1
-cancel = 0
+[ widget-04e ]
+image = white.png
+color = 0.172, 0.161, 0.169
+alpha = 0.5
+left = 0.26
+width = 0.26
+top = 0.301
+height = 0.038
+layer = -1
 
-[ widget-06 ]
-type = button
-name = EditAnalogControlCancelButton
+
+[ widget-05b ]
 text = Cancel
+fontsize = 0.03
+#align = left
 tip = Forget changes and return to Options menu.
-action = AnalogControlCancel
-center = 0.6, 0.8
-color = 0.8, 0.0, 0.0
-width = auto
-height = 0.05
-fontsize = 0.04
-enabled = 1
-selected = 0
-default = 0
-cancel = 1
+onselect = CancelControl
+onmoveup = widget-04b
+onmovedown = widget-06b
+onfocus = widget-05b.sat:0.56
+onblur = widget-05b.sat:0.0
+focus = false
+hue = 0.56
+left = 0.27
+width = 0.24
+top = 0.34
+height = 0.04
+
+[ widget-05e ]
+image = white.png
+color = 0.172, 0.161, 0.169
+alpha = 0.5
+left = 0.26
+width = 0.26
+top = 0.341
+height = 0.038
+layer = -1
 
 
+[ widget-06b ]
+text = OK
+fontsize = 0.03
+#align = left
+tip = Save changes and return to Options menu.
+onselect = SetAnalogControl
+onmoveup = widget-05b
+onmovedown = widget-01b
+onfocus = widget-06b.sat:0.56
+onblur = widget-06b.sat:0.0
+focus = false
+hue = 0.56
+left = 0.27
+width = 0.24
+top = 0.38
+height = 0.04
 
-
+[ widget-06e ]
+image = white.png
+color = 0.172, 0.161, 0.169
+alpha = 0.5
+left = 0.26
+width = 0.26
+top = 0.381
+height = 0.038
+layer = -1

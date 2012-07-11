@@ -1,5 +1,5 @@
-name = CameraMovementControls
-oncancel = LoadControls CameraViewControls
+name = GuiControls
+oncancel = LoadControls ControlsOptions
 
 
 [ bg-top ]
@@ -56,7 +56,7 @@ layer = -1
 
 
 [ widget-00 ]
-text = Options / Controls / Camera / Movement
+text = Options / Controls / GUI
 fontsize = 0.06
 align = left
 left = 0.25
@@ -66,7 +66,7 @@ height = 0.06
 
 
 [ widget-01a ]
-text = Pan Left
+text = Select
 fontsize = 0.03
 align = right
 left = 0.01
@@ -75,14 +75,14 @@ top = 0.18
 height = 0.04
 
 [ widget-01b ]
-name = control.pan_left.0
+name = control.gui_select.0
 text = none
 fontsize = 0.03
-tip = Turn the camera view to the left.
-onselect = controledit.string:pan_left:0
+tip = Select the currently focused menu item.
+onselect = controledit.string:gui_select:0
 onmoveleft = widget-01d
 onmoveright = widget-01c
-onmoveup = widget-08b
+onmoveup = widget-13b
 onmovedown = widget-02b
 onfocus = widget-01b.sat:0.56
 onblur = widget-01b.sat:0.0
@@ -94,14 +94,14 @@ top = 0.18
 height = 0.04
 
 [ widget-01c ]
-name = control.pan_left.1
+name = control.gui_select.1
 text = none
 fontsize = 0.03
-tip = Turn the camera view to the left.
-onselect = controledit.string:pan_left:1
+tip = Select the currently focused menu item.
+onselect = controledit.string:gui_select:1
 onmoveleft = widget-01b
 onmoveright = widget-01d
-onmoveup = widget-08b
+onmoveup = widget-13b
 onmovedown = widget-02c
 onfocus = widget-01c.sat:0.56
 onblur = widget-01c.sat:0.0
@@ -113,14 +113,14 @@ top = 0.18
 height = 0.04
 
 [ widget-01d ]
-name = control.pan_left.2
+name = control.gui_select.2
 text = none
+tip = Select the currently focused menu item.
 fontsize = 0.03
-tip = Turn the camera view to the left.
-onselect = controledit.string:pan_left:2
+onselect = controledit.string:gui_select:2
 onmoveleft = widget-01c
 onmoveright = widget-01b
-onmoveup = widget-08b
+onmoveup = widget-13b
 onmovedown = widget-02d
 onfocus = widget-01d.sat:0.56
 onblur = widget-01d.sat:0.0
@@ -133,7 +133,7 @@ height = 0.04
 
 
 [ widget-02a ]
-text = Pan Right
+text = Cancel
 fontsize = 0.03
 align = right
 left = 0.01
@@ -142,11 +142,11 @@ top = 0.22
 height = 0.04
 
 [ widget-02b ]
-name = control.pan_right.0
+name = control.gui_cancel.0
 text = none
 fontsize = 0.03
-tip = Turn the camera view to the right.
-onselect = controledit.string:pan_right:0
+tip = Move up a menu level.
+onselect = controledit.string:gui_cancel:0
 onmoveleft = widget-02d
 onmoveright = widget-02c
 onmoveup = widget-01b
@@ -161,11 +161,11 @@ top = 0.22
 height = 0.04
 
 [ widget-02c ]
-name = control.pan_right.1
+name = control.gui_cancel.1
 text = none
 fontsize = 0.03
-tip = Turn the camera view to the right.
-onselect = controledit.string:pan_right:1
+tip = Move up a menu level.
+onselect = controledit.string:gui_cancel:1
 onmoveleft = widget-02b
 onmoveright = widget-02d
 onmoveup = widget-01c
@@ -180,11 +180,11 @@ top = 0.22
 height = 0.04
 
 [ widget-02d ]
-name = control.pan_right.2
+name = control.gui_cancel.2
 text = none
 fontsize = 0.03
-tip = Turn the camera view to the right.
-onselect = controledit.string:pan_right:2
+tip = Move up a menu level.
+onselect = controledit.string:gui_cancel:2
 onmoveleft = widget-02c
 onmoveright = widget-02b
 onmoveup = widget-01d
@@ -200,7 +200,7 @@ height = 0.04
 
 
 [ widget-03a ]
-text = Pan Up
+text = Left
 fontsize = 0.03
 align = right
 left = 0.01
@@ -209,11 +209,11 @@ top = 0.26
 height = 0.04
 
 [ widget-03b ]
-name = control.pan_up.0
+name = control.gui_left.0
 text = none
 fontsize = 0.03
-tip = Turn the camera view upwards.
-onselect = controledit.string:pan_up:0
+tip = Move the currently focused menu item left.
+onselect = controledit.string:gui_left:0
 onmoveleft = widget-03d
 onmoveright = widget-03c
 onmoveup = widget-02b
@@ -228,11 +228,11 @@ top = 0.26
 height = 0.04
 
 [ widget-03c ]
-name = control.pan_up.1
+name = control.gui_left.1
 text = none
 fontsize = 0.03
-tip = Turn the camera view upwards.
-onselect = controledit.string:pan_up:1
+tip = Move the currently focused menu item left.
+onselect = controledit.string:gui_left:1
 onmoveleft = widget-03b
 onmoveright = widget-03d
 onmoveup = widget-02c
@@ -247,11 +247,11 @@ top = 0.26
 height = 0.04
 
 [ widget-03d ]
-name = control.pan_up.2
+name = control.gui_left.2
 text = none
 fontsize = 0.03
-tip = Turn the camera view upwards.
-onselect = controledit.string:pan_up:2
+tip = Move the currently focused menu item left.
+onselect = controledit.string:gui_left:2
 onmoveleft = widget-03c
 onmoveright = widget-03b
 onmoveup = widget-02d
@@ -267,7 +267,7 @@ height = 0.04
 
 
 [ widget-04a ]
-text = Pan Down
+text = Right
 fontsize = 0.03
 align = right
 left = 0.01
@@ -276,11 +276,11 @@ top = 0.30
 height = 0.04
 
 [ widget-04b ]
-name = control.pan_down.0
+name = control.gui_right.0
 text = none
 fontsize = 0.03
-tip = Turn the camera view downwards.
-onselect = controledit.string:pan_down:0
+tip = Move the currently focused menu item right.
+onselect = controledit.string:gui_right:0
 onmoveleft = widget-04d
 onmoveright = widget-04c
 onmoveup = widget-03b
@@ -295,11 +295,11 @@ top = 0.30
 height = 0.04
 
 [ widget-04c ]
-name = control.pan_down.1
+name = control.gui_right.1
 text = none
 fontsize = 0.03
-tip = Turn the camera view downwards.
-onselect = controledit.string:pan_down:1
+tip = Move the currently focused menu item right.
+onselect = controledit.string:gui_right:1
 onmoveleft = widget-04b
 onmoveright = widget-04d
 onmoveup = widget-03c
@@ -314,11 +314,11 @@ top = 0.30
 height = 0.04
 
 [ widget-04d ]
-name = control.pan_down.2
+name = control.gui_right.2
 text = none
 fontsize = 0.03
-tip = Turn the camera view downwards.
-onselect = controledit.string:pan_down:2
+tip = Move the currently focused menu item right.
+onselect = controledit.string:gui_right:2
 onmoveleft = widget-04c
 onmoveright = widget-04b
 onmoveup = widget-03d
@@ -334,7 +334,7 @@ height = 0.04
 
 
 [ widget-05a ]
-text = Zoom In
+text = Up
 fontsize = 0.03
 align = right
 left = 0.01
@@ -343,11 +343,11 @@ top = 0.34
 height = 0.04
 
 [ widget-05b ]
-name = control.zoom_in.0
+name = control.gui_up.0
 text = none
 fontsize = 0.03
-tip = Zoom camera in.
-onselect = controledit.string:zoom_in:0
+tip = Move the currently focused menu item up.
+onselect = controledit.string:gui_up:0
 onmoveleft = widget-05d
 onmoveright = widget-05c
 onmoveup = widget-04b
@@ -362,11 +362,11 @@ top = 0.34
 height = 0.04
 
 [ widget-05c ]
-name = control.zoom_in.1
+name = control.gui_up.1
 text = none
 fontsize = 0.03
-tip = Zoom camera in.
-onselect = controledit.string:zoom_in:1
+tip = Move the currently focused menu item up.
+onselect = controledit.string:gui_up:1
 onmoveleft = widget-05b
 onmoveright = widget-05d
 onmoveup = widget-04c
@@ -381,11 +381,11 @@ top = 0.34
 height = 0.04
 
 [ widget-05d ]
-name = control.zoom_in.2
+name = control.gui_up.2
 text = none
 fontsize = 0.03
-tip = Zoom camera in.
-onselect = controledit.string:zoom_in:2
+tip = Move the currently focused menu item up.
+onselect = controledit.string:gui_up:2
 onmoveleft = widget-05c
 onmoveright = widget-05b
 onmoveup = widget-04d
@@ -401,7 +401,7 @@ height = 0.04
 
 
 [ widget-06a ]
-text = Zoom Out
+text = Down
 fontsize = 0.03
 align = right
 left = 0.01
@@ -410,11 +410,11 @@ top = 0.38
 height = 0.04
 
 [ widget-06b ]
-name = control.zoom_out.0
+name = control.gui_down.0
 text = none
 fontsize = 0.03
-tip = Zoom camera out.
-onselect = controledit.string:zoom_out:0
+tip = Move the currently focused menu item down.
+onselect = controledit.string:gui_down:0
 onmoveleft = widget-06d
 onmoveright = widget-06c
 onmoveup = widget-05b
@@ -429,11 +429,11 @@ top = 0.38
 height = 0.04
 
 [ widget-06c ]
-name = control.zoom_out.1
+name = control.gui_down.1
 text = none
 fontsize = 0.03
-tip = Zoom camera out.
-onselect = controledit.string:zoom_out:1
+tip = Move the currently focused menu item down.
+onselect = controledit.string:gui_down:1
 onmoveleft = widget-06b
 onmoveright = widget-06d
 onmoveup = widget-05c
@@ -448,11 +448,11 @@ top = 0.38
 height = 0.04
 
 [ widget-06d ]
-name = control.zoom_out.2
+name = control.gui_down.2
 text = none
 fontsize = 0.03
-tip = Zoom camera out.
-onselect = controledit.string:zoom_out:2
+tip = Move the currently focused menu item down.
+onselect = controledit.string:gui_down:2
 onmoveleft = widget-06c
 onmoveright = widget-06b
 onmoveup = widget-05d
@@ -471,8 +471,8 @@ height = 0.04
 text = Cancel
 fontsize = 0.03
 #align = left
-tip = Forget changes and return to Camera Controls menu.
-onselect = LoadControls CameraViewControls
+tip = Forget changes and return to Controls menu.
+onselect = LoadControls ControlsOptions
 onmoveup = widget-06b
 onmovedown = widget-08b
 onfocus = widget-07b.sat:0.56
@@ -499,8 +499,8 @@ layer = -1
 text = OK
 fontsize = 0.03
 #align = left
-tip = Save changes and return to Camera Controls menu.
-onselect = SaveControls CameraViewControls
+tip = Save changes and return to Controls menu.
+onselect = SaveControls ControlsOptions
 onmoveup = widget-07b
 onmovedown = widget-01b
 onfocus = widget-08b.sat:0.56

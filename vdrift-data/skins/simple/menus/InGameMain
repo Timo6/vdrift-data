@@ -1,5 +1,5 @@
-name = Options
-oncancel = Main
+name = InGameMenu
+oncancel = ReturnToGame
 
 
 [ bg-top ]
@@ -33,8 +33,8 @@ bottom = 0.04
 height = 0.04
 
 
-[ title ]
-text = Options
+[ widget-00 ]
+text = Pause Menu
 fontsize = 0.06
 align = left
 left = 0.25
@@ -44,11 +44,11 @@ height = 0.06
 
 
 [ widget-01 ]
-text = Display
+text = Return to Game
 fontsize = 0.035
 align = left
-tip = Change video and display settings.
-onselect = DisplayOptions
+tip = Leave the menu and unpause the game.
+onselect = ReturnToGame
 onmoveup = widget-05
 onmovedown = widget-02
 onfocus = widget-01.sat:0.56
@@ -72,11 +72,11 @@ layer = -1
 
 
 [ widget-02 ]
-text = Graphics
+text = Restart Game
 fontsize = 0.035
 align = left
-tip = Change graphics settings.
-onselect = DisplayOptionsAdvanced
+tip = Restart this game using the same car and track settings.
+onselect = RestartGameConfirm
 onmoveup = widget-01
 onmovedown = widget-03
 onfocus = widget-02.sat:0.56
@@ -100,11 +100,11 @@ layer = -1
 
 
 [ widget-03 ]
-text = Sound
+text = Leave Game
 fontsize = 0.035
 align = left
-tip = Change sound settings.
-onselect = SoundOptions
+tip = Leave game and return to the Main menu.
+onselect = GameLeaveConfirm
 onmoveup = widget-02
 onmovedown = widget-04
 onfocus = widget-03.sat:0.56
@@ -128,11 +128,11 @@ layer = -1
 
 
 [ widget-04 ]
-text = Controls
+text = Options
 fontsize = 0.035
 align = left
-tip = Change input and control settings.
-onselect = ControlsOptions
+tip = Change some of the options while the game is running.
+onselect = Options
 onmoveup = widget-03
 onmovedown = widget-05
 onfocus = widget-04.sat:0.56
@@ -156,11 +156,11 @@ layer = -1
 
 
 [ widget-05 ]
-text = Back
+text = Quit
 fontsize = 0.035
 align = left
-tip = Return to the Main menu.
-onselect = Main
+tip = Quit VDrift
+onselect = QuitConfirm
 onmoveup = widget-04
 onmovedown = widget-01
 onfocus = widget-05.sat:0.56
