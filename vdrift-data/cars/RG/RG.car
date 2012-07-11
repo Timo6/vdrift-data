@@ -276,7 +276,8 @@ position = 0.0, 0.7, 0.35
 [camera.1]
 name = driver
 type = mount
-position = -0.33, 0.02, 0.45
+position = -0.33, -0.03, 0.40
+lookat = -0.33, 0.6, 0.35
 
 [camera.2]
 name = chase rigid
