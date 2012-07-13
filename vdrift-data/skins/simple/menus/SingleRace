@@ -323,7 +323,66 @@ height = 0.04
 
 
 [ widget-06a ]
-text = Driver
+text = Cars
+fontsize = 0.03
+align = right
+left = 0.01
+width = 0.24
+top = 0.34
+height = 0.04
+
+[ widget-06b ]
+text = <
+fontsize = 0.03
+align = left
+tip = Choose the car to edit.
+onselect = game.cars_num.prev
+onmoveleft = game.cars_num.prev
+onmoveright = game.cars_num.next
+onmoveup = widget-05b
+onmovedown =  ai-prev
+onfocus = widget-06b.alpha:1 widget-06c.alpha:1 widget-06d.sat:0.56
+onblur = widget-06b.alpha:0 widget-06c.alpha:0 widget-06d.sat:0.0
+focus = false
+color = 0.439, 0.796, 1.00
+alpha = 0
+left = 0.27
+width = 0.12
+top = 0.34
+height = 0.04
+
+[ widget-06c ]
+text = >
+fontsize = 0.03
+align = right
+tip = Choose the car to edit.
+onselect = game.cars_num.next
+onmoveleft = game.cars_num.prev
+onmoveright = game.cars_num.next
+onmoveup = widget-05b
+onmovedown = ai-prev
+onfocus = widget-06b.alpha:1 widget-06c.alpha:1 widget-06d.sat:0.56
+onblur = widget-06b.alpha:0 widget-06c.alpha:0 widget-06d.sat:0.0
+focus = false
+color = 0.439, 0.796, 1.00
+alpha = 0
+left = 0.39
+width = 0.12
+top = 0.34
+height = 0.04
+
+[ widget-06d ]
+text = game.cars_num.str
+fontsize = 0.03
+hue = 0.56
+left = 0.27
+width = 0.24
+top = 0.34
+height = 0.04
+
+
+[ ai-lbl ]
+text = AI type
 fontsize = 0.03
 align = right
 left = 0.01
@@ -331,18 +390,18 @@ width = 0.24
 top = 0.38
 height = 0.04
 
-[ widget-06b ]
+[ ai-prev ]
 text = <
 fontsize = 0.03
 align = left
-tip = Choose the driver to edit.
-onselect = game.cars_num.prev
-onmoveleft = game.cars_num.prev
-onmoveright = game.cars_num.next
-onmoveup = widget-05b
+tip = Choose driver type.
+onselect = game.ai_type.prev
+onmoveleft = game.ai_type.prev
+onmoveright = game.ai_type.next
+onmoveup = widget-06b
 onmovedown = widget-07b
-onfocus = widget-06b.alpha:1 widget-06c.alpha:1 widget-06d.sat:0.56
-onblur = widget-06b.alpha:0 widget-06c.alpha:0 widget-06d.sat:0.0
+onfocus = ai-prev.alpha:1 ai-next.alpha:1 ai-opt.sat:0.56
+onblur = ai-prev.alpha:0 ai-next.alpha:0 ai-opt.sat:0.0
 focus = false
 color = 0.439, 0.796, 1.00
 alpha = 0
@@ -351,18 +410,18 @@ width = 0.12
 top = 0.38
 height = 0.04
 
-[ widget-06c ]
+[ ai-next ]
 text = >
 fontsize = 0.03
 align = right
-tip = Choose the driver to edit.
-onselect = game.cars_num.next
-onmoveleft = game.cars_num.prev
-onmoveright = game.cars_num.next
-onmoveup = widget-05b
+tip = Choose driver type.
+onselect = game.ai_type.next
+onmoveleft = game.ai_type.prev
+onmoveright = game.ai_type.next
+onmoveup = widget-06b
 onmovedown = widget-07b
-onfocus = widget-06b.alpha:1 widget-06c.alpha:1 widget-06d.sat:0.56
-onblur = widget-06b.alpha:0 widget-06c.alpha:0 widget-06d.sat:0.0
+onfocus = ai-prev.alpha:1 ai-next.alpha:1 ai-opt.sat:0.56
+onblur = ai-prev.alpha:0 ai-next.alpha:0 ai-opt.sat:0.0
 focus = false
 color = 0.439, 0.796, 1.00
 alpha = 0
@@ -371,8 +430,8 @@ width = 0.12
 top = 0.38
 height = 0.04
 
-[ widget-06d ]
-text = game.cars_num.str
+[ ai-opt ]
+text = game.ai_type.str
 fontsize = 0.03
 hue = 0.56
 left = 0.27
@@ -382,7 +441,7 @@ height = 0.04
 
 
 [ widget-07a ]
-text = AI
+text = AI level
 fontsize = 0.03
 align = right
 left = 0.01
@@ -391,13 +450,13 @@ top = 0.42
 height = 0.04
 
 [ widget-07b ]
-text = game.ai_difficulty.str
+text = game.ai_level.str
 fontsize = 0.03
 tip = Higher values result in an AI that will drive faster.
-onselectx = game.ai_difficulty.norm
-onmoveleft = game.ai_difficulty.prev
-onmoveright = game.ai_difficulty.next
-onmoveup = widget-06b
+onselectx = game.ai_level.norm
+onmoveleft = game.ai_level.prev
+onmoveright = game.ai_level.next
+onmoveup = ai-prev
 onmovedown = widget-08b
 onfocus = widget-07c.alpha:1 widget-07d.alpha:1 widget-07b.sat:0.56
 onblur = widget-07c.alpha:0 widget-07d.alpha:0 widget-07b.sat:0.0
@@ -409,9 +468,8 @@ top = 0.425
 height = 0.03
 
 [ widget-07c ]
-slider = game.ai_difficulty.norm
+slider = game.ai_level.norm
 fill = true
-#color = 0.6, 0.6, 0.6
 alpha = 0
 left = 0.27
 width = 0.24
