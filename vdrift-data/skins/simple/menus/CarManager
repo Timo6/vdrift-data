@@ -40,7 +40,7 @@ alpha = 0.5
 left = 0.008
 width = 0.25
 top = 0.181
-height = 0.078
+height = 0.158
 layer = -1
 
 
@@ -51,7 +51,7 @@ alpha = 0.5
 left = 0.26
 width = 0.26
 top = 0.181
-height = 0.078
+height = 0.158
 layer = -1
 
 
@@ -125,9 +125,18 @@ top = 0.18
 height = 0.04
 
 
-[ version ]
-name = version
-text = 0
+[ versionl-str ]
+text = Local
+fontsize = 0.03
+align = right
+left = 0.01
+width = 0.24
+top = 0.22
+height = 0.04
+
+[ versionl-val ]
+name = version_local
+text = none
 fontsize = 0.03
 left = 0.27
 width = 0.24
@@ -135,8 +144,37 @@ top = 0.22
 height = 0.04
 
 
+[ versionr-str ]
+text = Remote
+fontsize = 0.03
+align = right
+left = 0.01
+width = 0.24
+top = 0.26
+height = 0.04
+
+[ versionr-val ]
+name = version_remote
+text = none
+fontsize = 0.03
+left = 0.27
+width = 0.24
+top = 0.26
+height = 0.04
+
+
+[ update-nfo ]
+name = update_info
+text = none
+fontsize = 0.03
+left = 0.27
+width = 0.24
+top = 0.30
+height = 0.04
+
+
 [ widget-03b ]
-text = Apply Update
+text = Download
 fontsize = 0.03
 #align = left
 tip = Update this track to the latest version.
@@ -149,7 +187,7 @@ focus = false
 hue = 0.56
 left = 0.27
 width = 0.24
-top = 0.26
+top = 0.34
 height = 0.04
 
 [ widget-03e ]
@@ -158,7 +196,7 @@ color = 0.172, 0.161, 0.169
 alpha = 0.5
 left = 0.26
 width = 0.26
-top = 0.261
+top = 0.341
 height = 0.038
 layer = -1
 
@@ -177,7 +215,7 @@ focus = false
 hue = 0.56
 left = 0.27
 width = 0.24
-top = 0.30
+top = 0.38
 height = 0.04
 
 [ widget-04e ]
@@ -186,6 +224,6 @@ color = 0.172, 0.161, 0.169
 alpha = 0.5
 left = 0.26
 width = 0.26
-top = 0.301
+top = 0.381
 height = 0.038
 layer = -1
