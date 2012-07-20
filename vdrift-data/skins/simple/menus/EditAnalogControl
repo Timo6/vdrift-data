@@ -40,7 +40,7 @@ alpha = 0.5
 left = 0.008
 width = 0.25
 top = 0.181
-height = 0.118
+height = 0.158
 layer = -1
 
 
@@ -51,7 +51,7 @@ alpha = 0.5
 left = 0.26
 width = 0.26
 top = 0.181
-height = 0.118
+height = 0.158
 layer = -1
 
 
@@ -65,13 +65,32 @@ top = 0.07
 height = 0.06
 
 
+[ control-lbl ]
+text = Control
+fontsize = 0.03
+align = right
+left = 0.01
+width = 0.24
+top = 0.18
+height = 0.04
+
+[ control-val ]
+text = controledit.control
+fontsize = 0.03
+hue = 0.56
+left = 0.27
+width = 0.24
+top = 0.18
+height = 0.04
+
+
 [ widget-01a ]
 text = Deadzone
 fontsize = 0.03
 align = right
 left = 0.01
 width = 0.24
-top = 0.18
+top = 0.22
 height = 0.04
 
 [ widget-01b ]
@@ -88,7 +107,7 @@ focus = true
 hue = 0.56
 left = 0.27
 width = 0.24
-top = 0.185
+top = 0.225
 height = 0.03
 
 [ widget-01c ]
@@ -97,7 +116,7 @@ fill = true
 alpha = 0
 left = 0.27
 width = 0.24
-top = 0.186
+top = 0.226
 height = 0.028
 layer = 1
 
@@ -107,7 +126,7 @@ color = 0.3, 0.3, 0.3
 alpha = 0
 left = 0.27
 width = 0.24
-top = 0.186
+top = 0.226
 height = 0.028
 
 
@@ -117,7 +136,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.24
-top = 0.22
+top = 0.26
 height = 0.04
 
 [ widget-02b ]
@@ -134,7 +153,7 @@ focus = false
 hue = 0.56
 left = 0.27
 width = 0.24
-top = 0.225
+top = 0.265
 height = 0.03
 
 [ widget-02c ]
@@ -143,7 +162,7 @@ fill = true
 alpha = 0
 left = 0.27
 width = 0.24
-top = 0.226
+top = 0.266
 height = 0.028
 layer = 1
 
@@ -153,7 +172,7 @@ color = 0.3, 0.3, 0.3
 alpha = 0
 left = 0.27
 width = 0.24
-top = 0.226
+top = 0.266
 height = 0.028
 
 
@@ -163,7 +182,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.24
-top = 0.26
+top = 0.30
 height = 0.04
 
 [ widget-03b ]
@@ -180,7 +199,7 @@ focus = false
 hue = 0.56
 left = 0.27
 width = 0.24
-top = 0.265
+top = 0.305
 height = 0.03
 
 [ widget-03c ]
@@ -189,7 +208,7 @@ fill = true
 alpha = 0
 left = 0.27
 width = 0.24
-top = 0.266
+top = 0.306
 height = 0.028
 layer = 1
 
@@ -199,7 +218,7 @@ color = 0.3, 0.3, 0.3
 alpha = 0
 left = 0.27
 width = 0.24
-top = 0.266
+top = 0.306
 height = 0.028
 
 
@@ -217,7 +236,7 @@ focus = false
 hue = 0.56
 left = 0.27
 width = 0.24
-top = 0.30
+top = 0.34
 height = 0.04
 
 [ widget-04e ]
@@ -226,7 +245,7 @@ color = 0.172, 0.161, 0.169
 alpha = 0.5
 left = 0.26
 width = 0.26
-top = 0.301
+top = 0.341
 height = 0.038
 layer = -1
 
@@ -245,7 +264,7 @@ focus = false
 hue = 0.56
 left = 0.27
 width = 0.24
-top = 0.34
+top = 0.38
 height = 0.04
 
 [ widget-05e ]
@@ -254,7 +273,7 @@ color = 0.172, 0.161, 0.169
 alpha = 0.5
 left = 0.26
 width = 0.26
-top = 0.341
+top = 0.381
 height = 0.038
 layer = -1
 
@@ -273,7 +292,7 @@ focus = false
 hue = 0.56
 left = 0.27
 width = 0.24
-top = 0.38
+top = 0.42
 height = 0.04
 
 [ widget-06e ]
@@ -282,6 +301,6 @@ color = 0.172, 0.161, 0.169
 alpha = 0.5
 left = 0.26
 width = 0.26
-top = 0.381
+top = 0.421
 height = 0.038
 layer = -1

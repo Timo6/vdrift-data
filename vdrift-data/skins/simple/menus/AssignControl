@@ -23,6 +23,16 @@ height = 0.08
 layer = -1
 
 
+[ title ]
+text = Options / Controls / Assign
+fontsize = 0.06
+align = left
+left = 0.25
+width = 0.20
+top = 0.07
+height = 0.06
+
+
 [ widget-00 ]
 text = Press a key, press a joystick button, move a joystick axis, move the mouse, or click a mouse button.
 fontsize = 0.03
@@ -32,10 +42,11 @@ top = 0.48
 height = 0.04
 
 
-[ widget-01 ]
-text = Press the ESCAPE key to abort.
-fontsize = 0.03
-left = 0
-right = 0
-top = 0.58
+[ widget-00b ]
+image = white.png
+color = 0.172, 0.161, 0.169
+alpha = 0.5
+left = 0.2
+right = 0.2
+top = 0.48
 height = 0.04
