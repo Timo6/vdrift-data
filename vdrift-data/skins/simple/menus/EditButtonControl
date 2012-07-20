@@ -85,7 +85,7 @@ height = 0.04
 
 
 [ widget-01a ]
-text = Trigger
+text = Action
 fontsize = 0.03
 align = right
 left = 0.01
@@ -144,7 +144,7 @@ height = 0.04
 
 
 [ widget-02a ]
-text = Trigger Condition
+text = Condition
 fontsize = 0.03
 align = right
 left = 0.01
