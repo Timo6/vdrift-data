@@ -44,7 +44,7 @@ height = 0.06
 
 
 [ widget-01b ]
-text = Update
+text = Check updates
 fontsize = 0.035
 align = left
 tip = Check for updates to your existing cars and tracks
