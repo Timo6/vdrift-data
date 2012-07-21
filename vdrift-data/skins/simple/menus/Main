@@ -6,7 +6,7 @@ oncancel = QuitConfirm
 [ bg-top ]
 image = white.png
 color = 0.172, 0.161, 0.169
-alpha = 0.75
+alpha = 0.7
 left = 0
 right = 0
 top = 0
@@ -17,7 +17,7 @@ layer = -1
 [ bg-bottom ]
 image = white.png
 color = 0.172, 0.161, 0.169
-alpha = 0.75
+alpha = 0.7
 left = 0
 right = 0
 bottom = 0
@@ -62,7 +62,7 @@ height = 0.05
 [ widget-01e ]
 image = white.png
 color = 0.172, 0.161, 0.169
-alpha = 0.75
+alpha = 0.7
 left = 0.26
 width = 0.22
 top = 0.175
@@ -90,7 +90,7 @@ height = 0.05
 [ widget-02e ]
 image = white.png
 color = 0.172, 0.161, 0.169
-alpha = 0.75
+alpha = 0.7
 left = 0.26
 width = 0.22
 top = 0.225
@@ -118,7 +118,7 @@ height = 0.05
 [ widget-03e ]
 image = white.png
 color = 0.172, 0.161, 0.169
-alpha = 0.75
+alpha = 0.7
 left = 0.26
 width = 0.22
 top = 0.275
@@ -146,7 +146,7 @@ height = 0.05
 [ widget-04e ]
 image = white.png
 color = 0.172, 0.161, 0.169
-alpha = 0.75
+alpha = 0.7
 left = 0.26
 width = 0.22
 top = 0.325
@@ -174,7 +174,7 @@ height = 0.05
 [ widget-05e ]
 image = white.png
 color = 0.172, 0.161, 0.169
-alpha = 0.75
+alpha = 0.7
 left = 0.26
 width = 0.22
 top = 0.375
@@ -202,7 +202,7 @@ height = 0.05
 [ widget-06e ]
 image = white.png
 color = 0.172, 0.161, 0.169
-alpha = 0.75
+alpha = 0.7
 left = 0.26
 width = 0.22
 top = 0.425
