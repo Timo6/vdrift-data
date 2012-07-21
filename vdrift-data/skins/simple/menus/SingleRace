@@ -6,7 +6,7 @@ oncancel = gui.options.save Main
 [ bg-top ]
 image = white.png
 color = 0.172, 0.161, 0.169
-alpha = 0.75
+alpha = 0.7
 left = 0
 right = 0
 top = 0
@@ -17,7 +17,7 @@ layer = -1
 [ bg-bottom ]
 image = white.png
 color = 0.172, 0.161, 0.169
-alpha = 0.75
+alpha = 0.7
 left = 0
 right = 0
 bottom = 0
@@ -37,7 +37,7 @@ height = 0.04
 [ bg-labels ]
 image = white.png
 color = 0.172, 0.161, 0.169
-alpha = 0.75
+alpha = 0.7
 left = 0.008
 width = 0.25
 top = 0.181
@@ -48,7 +48,7 @@ layer = -1
 [ bg-options ]
 image = white.png
 color = 0.172, 0.161, 0.169
-alpha = 0.75
+alpha = 0.7
 left = 0.26
 width = 0.26
 top = 0.181
@@ -59,7 +59,7 @@ layer = -1
 [ bg-startlst ]
 image = white.png
 color = 0.172, 0.161, 0.169
-alpha = 0.75
+alpha = 0.7
 right = 0.01
 width = 0.32
 top = 0.54
@@ -921,7 +921,7 @@ height = 0.04
 [ widget-16e ]
 image = white.png
 color = 0.172, 0.161, 0.169
-alpha = 0.75
+alpha = 0.7
 left = 0.26
 width = 0.26
 top = 0.781
@@ -949,7 +949,7 @@ height = 0.04
 [ widget-17e ]
 image = white.png
 color = 0.172, 0.161, 0.169
-alpha = 0.75
+alpha = 0.7
 left = 0.26
 width = 0.26
 top = 0.821
