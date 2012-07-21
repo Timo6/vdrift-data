@@ -453,6 +453,7 @@ left = 0.27
 width = 0.24
 top = 0.545
 height = 0.03
+layer = 1
 
 [ widget-10d ]
 image = color_hue.png
@@ -487,6 +488,7 @@ left = 0.27
 width = 0.24
 top = 0.585
 height = 0.03
+layer = 1
 
 [ widget-11c ]
 image = color_saturation.png
@@ -532,6 +534,7 @@ left = 0.27
 width = 0.24
 top = 0.625
 height = 0.03
+layer = 1
 
 [ widget-12c ]
 image = color_value.png
