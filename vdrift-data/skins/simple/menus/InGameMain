@@ -44,10 +44,10 @@ height = 0.06
 
 
 [ widget-01 ]
-text = Return to Game
+text = Continue
 fontsize = 0.035
 align = left
-tip = Leave the menu and unpause the game.
+tip = Leave the menu and continue the game.
 onselect = ReturnToGame
 onmoveup = widget-05
 onmovedown = widget-02
@@ -72,7 +72,7 @@ layer = -1
 
 
 [ widget-02 ]
-text = Restart Game
+text = Restart
 fontsize = 0.035
 align = left
 tip = Restart this game using the same car and track settings.
@@ -100,7 +100,7 @@ layer = -1
 
 
 [ widget-03 ]
-text = Leave Game
+text = Abort
 fontsize = 0.035
 align = left
 tip = Leave game and return to the Main menu.
