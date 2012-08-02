@@ -21,5 +21,5 @@ env.Distribute (bin_dir, src)
 #--------------------#
 # Install data files #
 #--------------------#
-install = env.Install(Dir(env.subst('$data_directory/skins/simple/fonts')), src)
+install = env.Install(Dir(env.subst('$data_directory/skins/simple/languages')), src)
 env.Alias('install', install)
