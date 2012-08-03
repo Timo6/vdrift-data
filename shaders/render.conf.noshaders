@@ -27,7 +27,7 @@ clear_depth = true
 blendmode = alphatest
 
 [pass]
-draw = car_noblend
+draw = car_noblend debug_lines
 output = framebuffer
 clear_depth = false
 blendmode = disabled

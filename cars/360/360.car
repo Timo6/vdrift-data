@@ -132,15 +132,6 @@ capacity = 95.0
 volume = 40.0
 fuel-density = 0.8
 
-[camera]
-view-position = -0.28, 0.12, 0.42			# moved driver position
-hood-mounted-view-position = 0.0, 0.7, 0.5	# static driver position
-
-[view-0]
-name = wheel/front-right	# observe wheel and chassis moves
-position = 3.0, 1.0, 0.75	# X(+right), Y(+front), Z(+up)
-angle = 20.0, 90.0			# +down/-up, +left/-right
-
 [wing-front]
 position = 0.0, 0.15, 0.00
 frontal-area = 2.03
@@ -258,7 +249,7 @@ area = 0.000688 # 21.5mm x 32mm
 texture = rotor_shiny_slotted_drilled.png
 friction = 15.0
 max-pressure = 2.5e6
-bias = 0.35
+bias = 0.50
 radius = 0.165 # 330mm
 area = 0.000448 # 16mm x 28mm
 handbrake = 1.0
@@ -267,7 +258,7 @@ handbrake = 1.0
 texture = rotor_shiny_slotted_drilled.png
 friction = 15.0
 max-pressure = 2.5e6
-bias = 0.35
+bias = 0.50
 radius = 0.165 # 330mm
 area = 0.000448 # 16mm x 28mm
 handbrake = 1.0
@@ -389,3 +380,44 @@ position = 0.00, -1.75, -0.25
 [particle-10]# Chassis rear
 mass = 100.0
 position = 0.00, -1.80, -0.0
+
+[camera.0]
+name = hood
+type = mount
+position = 0.0, 0.7, 0.5
+stiffness = 0.75
+
+[camera.1]
+name = driver
+type = mount
+position = -0.28, 0.12, 0.42
+stiffness = 0.75
+
+[camera.2]
+name = chase rigid
+type = mount
+position = 0.0, -6.0, 1.5
+lookat = 0, 0, 0
+stiffness = 0.75
+
+[camera.3]
+name = chase loose
+type = chase
+position = 0.0, -6.0, 2.0
+
+[camera.4]
+name = orbit
+type = orbit
+position = 0.0, -6.0, 2.0
+
+[camera.5]
+name = free
+type = free
+position = 0.0, -8.0, 2.0
+
+[camera.6]
+name = wheel front right
+type = mount
+position = 3.0, 1.0, 0.75
+lookat = 0.85, 1.12, -0.2
+stiffness = 0.75

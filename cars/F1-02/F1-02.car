@@ -89,13 +89,6 @@ capacity = 180
 volume = 76
 fuel-density = 0.8
 
-[camera]
-view-position = 0.00, 0.13, 0.03
-view-stiffness = 1.0
-hood-mounted-view-position = -0.25, -0.50, 0.30
-#hood-mounted-view-position = 1.00, -2.00, -0.00	# lwft  wheel
-#hood-mounted-view-position = 0.00, 0.45, 0.1	# normal driver position
-
 [wing-center]
 position = 0.00, 0.00, -0.40
 frontal-area = 1.15
@@ -319,12 +312,13 @@ texture = oem_wheel.png
 hubmesh = oem_wheel.joe
 scale = -1, 1, 1
 
+
 [steering]
 texture = steering_wheel.png
 mesh = steering_wheel.joe
 position = 0.00, 0.55, -0.15
 rotation = 87.5, 0.0, 0.0
-max-angle = 40
+max-angle = 90
 
 [driver]
 texture = driver2.png, driver-misc1.png
@@ -344,6 +338,14 @@ size = 0.4, 4.0, 0.4
 [sides.box]
 center = 0.0, -0.2, -0.3
 size = 1.25, 1.5, 0.4
+
+[front.capsule]
+center = 0.0, 1.60, -0.35
+size = 1.3, 0.2, 0.2
+
+[rear.capsule]
+center = 0.0, -1.53, -0.35
+size = 1.3, 0.2, 0.2
 
 # these are used to calculate the weight distribution and balance
 [particle-02]	# Cooler left
@@ -377,3 +379,37 @@ position = 0.00, -0.33, -0.55
 [particle-09]	# gearbox
 mass = 20.0
 position = 0.00, -1.40, -0.35
+
+[camera.0]
+name = hood
+type = mount
+position = -0.25, -0.50, 0.30
+stiffness = 1.0
+
+[camera.1]
+name = driver
+type = mount
+position = 0.00, 0.13, 0.03
+stiffness = 1.0
+
+[camera.2]
+name = chase rigid
+type = mount
+position = 0.0, -6.0, 1.5
+lookat = 0, 0, 0
+stiffness = 1.0
+
+[camera.3]
+name = chase loose
+type = chase
+position = 0.0, -6.0, 2.0
+
+[camera.4]
+name = orbit
+type = orbit
+position = 0.0, -6.0, 2.0
+
+[camera.5]
+name = free
+type = free
+position = 0.0, -8.0, 2.0
