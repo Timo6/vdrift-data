@@ -6,15 +6,9 @@ Import('*')
 #---------#
 # Sources #
 #---------#
-src = Split("""freesans.txt
-               freesans.png
-               freesans_noshaders.png
-               futuresans.txt
-               futuresans.png
-               futuresans_noshaders.png
-               lcd.txt
-               lcd.png
-               lcd_noshaders.png""")
+import glob
+src = glob.glob('*')
+src.remove('SConscript')
 
 #---------------------------------#
 # Distribute to src_dir & bin_dir #

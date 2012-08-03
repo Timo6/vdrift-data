@@ -54,10 +54,6 @@ capacity = 41.0
 volume = 21.0
 fuel-density = 1.0
 
-[camera]
-view-position = 0, 0.3, 0.15
-hood-mounted-view-position = 0, 0.6, 0
-
 [wing-front]
 position = 0.0, 0.0, 0.2
 frontal-area = 2
@@ -221,6 +217,22 @@ texture = wheel/5_spoke_m.png
 hubmesh = wheel/5_spoke_m.joe
 scale = -1, 1, 1
 
+[wheel.fl.link]
+plastic-limit = 5000
+elastic-limit = 3000
+
+[wheel.fr.link]
+plastic-limit = 5000
+elastic-limit = 3000
+
+[wheel.rl.link]
+plastic-limit = 5000
+elastic-limit = 3000
+
+[wheel.rr.link]
+plastic-limit = 5000
+elastic-limit = 3000
+
 [steering]
 texture = steering_wheel.png
 mesh = steering_wheel.joe
@@ -272,3 +284,34 @@ position = 0.4, 1.35, -0.4
 [particle-04]
 mass = 56.0
 position = -0.4, 1.35, -0.4
+
+[camera.0]
+name = hood
+type = mount
+position = 0.0, 0.6, 0.0
+
+[camera.1]
+name = driver
+type = mount
+position = 0.0, 0.3, 0.15
+
+[camera.2]
+name = chase rigid
+type = mount
+position = 0.0, -6.0, 1.5
+lookat = 0, 0, 0
+
+[camera.3]
+name = chase loose
+type = chase
+position = 0.0, -6.0, 2.0
+
+[camera.4]
+name = orbit
+type = orbit
+position = 0.0, -6.0, 2.0
+
+[camera.5]
+name = free
+type = free
+position = 0.0, -8.0, 2.0

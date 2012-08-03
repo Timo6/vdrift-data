@@ -41,7 +41,7 @@ void main(void)
 	#ifndef DISABLE
 		#ifdef BOX
 		{
-			const int taps = 9; // we get the effect of twice this due to linear texture filtering
+			const int taps = 7; // we get the effect of twice this due to linear texture filtering
 			
 			// sample in first direction (right/down)
 			for (int i = 0; i < taps/2+1; i++)

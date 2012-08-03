@@ -84,11 +84,6 @@ capacity = 0.0492
 volume = 0.0492
 fuel-density = 730.0
 
-[camera]
-view-position = 0, 0.19, 0.05
-hood-mounted-view-position = -0.25, -0.60, 0.30
-view-stiffness = 0.8
-
 [wing-front]
 position = 0.0, 0.0, 0.2
 frontal-area = 1.2
@@ -391,3 +386,37 @@ position = 0, -1.0, -0.55
 # Rear-Wing/Diffusor
 mass = 25.0
 position = 0, -1.5, -0.13
+
+[camera.0]
+name = hood
+type = mount
+position = 0.0, 0.19, 0.05
+stiffness = 0.8
+
+[camera.1]
+name = driver
+type = mount
+position = -0.35, -0.64, 0.25
+stiffness = 0.8
+
+[camera.2]
+name = chase rigid
+type = mount
+position = 0.0, -6.0, 1.5
+lookat = 0, 0, 0
+stiffness = 0.8
+
+[camera.3]
+name = chase loose
+type = chase
+position = 0.0, -6.0, 2.0
+
+[camera.4]
+name = orbit
+type = orbit
+position = 0.0, -6.0, 2.0
+
+[camera.5]
+name = free
+type = free
+position = 0.0, -8.0, 2.0
