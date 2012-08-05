@@ -51,10 +51,6 @@ final-drive = 3.4
 link-a = wheel.rl
 link-b = wheel.rr
 
-[camera]
-view-position = -0.208, -0.57, 0.15
-hood-mounted-view-position = 0.0, 0.24, 0.12
-
 [wing-front]
 drag-coefficient = 0.3
 frontal-area = 2
