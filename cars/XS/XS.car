@@ -215,24 +215,24 @@ anti-roll = 600.0
 
 [wheel.fl.brake]
 texture = rotor_shiny_slotted_drilled.png
-friction = 0.6
-max-pressure = 4.0e6
+friction = 0.7
+max-pressure = 3.0e6
 bias = 0.75
 radius = 0.14
 area = 0.015
 
 [wheel.fr.brake]
 texture = rotor_shiny_slotted_drilled.png
-friction = 0.6
-max-pressure = 4.0e6
+friction = 0.7
+max-pressure = 3.0e6
 bias = 0.75
 radius = 0.14
 area = 0.015
 
 [wheel.rl.brake]
 texture = rotor_shiny_slotted_drilled.png
-friction = 0.6
-max-pressure = 4.0e6
+friction = 0.7
+max-pressure = 3.0e6
 bias = 0.45
 radius = 0.14
 area = 0.015
@@ -240,8 +240,8 @@ handbrake = 1.0
 
 [wheel.rr.brake]
 texture = rotor_shiny_slotted_drilled.png
-friction = 0.6
-max-pressure = 4.0e6
+friction = 0.7
+max-pressure = 3.0e6
 bias = 0.45
 radius = 0.14
 area = 0.015
@@ -288,7 +288,7 @@ texture = steering_wheel.png
 mesh = steering_wheel.joe
 position = -0.35, -0.20, 0.04
 rotation = 87.5, 0.0, 0.0
-max-angle = 320
+max-angle = 90
 
 [driver]
 texture = driver2.png, driver-misc1.png
