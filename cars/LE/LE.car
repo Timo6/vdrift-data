@@ -57,12 +57,12 @@ lift-efficiency = 0.95
 # Bridgestone Potenza RE040 tyres 175/55R16 front and 225/45R17 rear
 
 [antiroll.front]
-stiffness = 800
+stiffness = 4000
 link-a = wheel.fl
 link-b = wheel.fr
 
 [antiroll.rear]
-stiffness = 600
+stiffness = 8000
 link-a = wheel.rl
 link-b = wheel.rr
 
