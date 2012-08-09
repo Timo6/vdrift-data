@@ -126,6 +126,16 @@ surface-area = 0.5
 lift-coefficient = -2
 lift-efficiency = 0.95
 
+[antiroll.front]
+stiffness = 10000
+link-a = wheel.fl
+link-b = wheel.fr
+
+[antiroll.rear]
+stiffness = 20000
+link-a = wheel.rl
+link-b = wheel.rr
+
 [wheel.fl]
 size = 225, 50, 16
 position = -0.76, 1.25, -0.55
@@ -179,28 +189,24 @@ spring-constant = 40000
 bounce = 2300
 rebound = 6900
 travel = 0.17
-anti-roll = 10000
 
 [wheel.fr.coilover]
 spring-constant = 40000
 bounce = 2300
 rebound = 6900
 travel = 0.17
-anti-roll = 10000
 
 [wheel.rl.coilover]
 spring-constant = 55000
 bounce = 3200
 rebound = 9600
 travel = 0.17
-anti-roll = 20000
 
 [wheel.rr.coilover]
 spring-constant = 55000
 bounce = 3200
 rebound = 9600
 travel = 0.17
-anti-roll = 20000
 
 [wheel.fl.brake]
 texture = rotor_shiny_slotted_drilled.png

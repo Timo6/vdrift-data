@@ -63,28 +63,24 @@ spring-constant = 50000
 bounce = 3000
 rebound = 9000
 travel = 0.08
-anti-roll = 0
 
 [wheel.fr.coilover]
 spring-constant = 50000
 bounce = 3000
 rebound = 9000
 travel = 0.08
-anti-roll = 0
 
 [wheel.rl.coilover]
 spring-constant = 50000
 bounce = 3000
 rebound = 9000
 travel = 0.08
-anti-roll = 0
 
 [wheel.rr.coilover]
 spring-constant = 50000
 bounce = 3000
 rebound = 9000
 travel = 0.08
-anti-roll = 0
 
 [wheel.fl.brake]
 friction = 0.5

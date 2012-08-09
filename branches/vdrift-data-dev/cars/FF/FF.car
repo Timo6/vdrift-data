@@ -59,6 +59,16 @@ position = 0.0, 0.0, 0.2
 frontal-area = 2
 drag-coefficient = 0.3
 
+[antiroll.front]
+stiffness = 5000
+link-a = wheel.fl
+link-b = wheel.fr
+
+[antiroll.rear]
+stiffness = 2000
+link-a = wheel.rl
+link-b = wheel.rr
+
 [wheel.fl]
 size = 185, 55, 13
 position = -0.74, 1.20, -0.48
@@ -128,28 +138,24 @@ spring-constant = 30000
 bounce = 1250
 rebound = 3750
 travel = 0.10
-anti-roll = 5000
 
 [wheel.fr.coilover]
 spring-constant = 30000
 bounce = 1250
 rebound = 3750
 travel = 0.10
-anti-roll = 5000
 
 [wheel.rl.coilover]
 spring-constant = 30000
 bounce = 1250
 rebound = 3750
 travel = 0.10
-anti-roll = 2000
 
 [wheel.rr.coilover]
 spring-constant = 30000
 bounce = 1250
 rebound = 3750
 travel = 0.10
-anti-roll = 2000
 
 [wheel.fl.brake]
 friction = 0.3

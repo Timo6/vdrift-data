@@ -84,6 +84,16 @@ lift-efficiency = 0.95
 # track front 1609 mm, rear 1602 mm
 # 50% ackermann
 
+[antiroll.front]
+stiffness = 20000
+link-a = wheel.fl
+link-b = wheel.fr
+
+[antiroll.rear]
+stiffness = 10000
+link-a = wheel.rl
+link-b = wheel.rr
+
 [wheel.fl]
 size = 270, 35, 18
 position = -0.84, 1.51, -0.43	#-0.80, 1.51, -0.43	
@@ -137,28 +147,24 @@ spring-constant = 100000
 bounce = 4000
 rebound = 12000
 travel = 0.15
-anti-roll = 20000
 
 [wheel.fr.coilover]
 spring-constant = 100000
 bounce = 4000
 rebound = 12000
 travel = 0.15
-anti-roll = 20000
 
 [wheel.rl.coilover]
 spring-constant = 90000
 bounce = 3300
 rebound = 10000
 travel = 0.15
-anti-roll = 10000
 
 [wheel.rr.coilover]
 spring-constant = 90000
 bounce = 3300
 rebound = 10000
 travel = 0.15
-anti-roll = 10000
 
 [wheel.fl.brake]
 texture = rotor_shiny_slotted_drilled.png

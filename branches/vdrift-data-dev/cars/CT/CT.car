@@ -83,8 +83,18 @@ surface-area = 0.5
 lift-coefficient = -3.2
 lift-efficiency = 0.95
 
+[antiroll.front]
+stiffness = 18000
+link-a = wheel.fl
+link-b = wheel.fr
+
+[antiroll.rear]
+stiffness = 20000
+link-a = wheel.rl
+link-b = wheel.rr
+
 [wheel.fl]
-size = 225,40,18	# 996 GT3
+size = 225, 40, 18	# 996 GT3
 position = -0.721, 1.193, -0.47
 camber = -1.0
 caster = 1.0
@@ -93,7 +103,7 @@ ackermann = 8.63	# 50% ackermann
 steering = 30
 
 [wheel.fr]
-size = 225,40,18	# 996 GT3
+size = 225, 40, 18	# 996 GT3
 position = 0.721, 1.193, -0.47
 camber = 1.0
 caster = 1.0
@@ -136,28 +146,24 @@ spring-constant = 25000
 bounce = 5000
 rebound = 4500
 travel = 0.24
-anti-roll = 18000
 
 [wheel.fr.coilover]
 spring-constant = 25000
 bounce = 5000
 rebound = 4500
 travel = 0.24
-anti-roll = 18000
 
 [wheel.rl.coilover]
 spring-constant = 29750
 bounce = 5000
 rebound = 4500
 travel = 0.26
-anti-roll = 20000
 
 [wheel.rr.coilover]
 spring-constant = 29750
 bounce = 5000
 rebound = 4500
 travel = 0.26
-anti-roll = 20000
 
 [wheel.fl.brake]
 texture = rotor_shiny_slotted_drilled.png

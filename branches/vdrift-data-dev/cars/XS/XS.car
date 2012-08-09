@@ -85,6 +85,16 @@ surface-area = 0.5
 lift-coefficient = -0.7
 lift-efficiency = 0.95
 
+[antiroll.front]
+stiffness = 1000
+link-a = wheel.fl
+link-b = wheel.fr
+
+[antiroll.rear]
+stiffness = 6000
+link-a = wheel.rl
+link-b = wheel.rr
+
 [wheel.fl]
 size = 215, 45, 17
 position = -0.736, 1.14, -0.47	#track front/rear 1471/1509
@@ -169,7 +179,6 @@ damper-factor-5 = 0.5, 0.5
 damper-factor-6 = 1, 0.3
 damper-factor-7 = 5, 0.1
 travel = 0.19
-anti-roll = 800.0
 
 [wheel.fr.coilover]
 spring-constant = 49131.9
@@ -183,7 +192,6 @@ damper-factor-5 = 0.5, 0.5
 damper-factor-6 = 1, 0.3
 damper-factor-7 = 5, 0.1
 travel = 0.19
-anti-roll = 800.0
 
 [wheel.rl.coilover]
 spring-constant = 51137.3
@@ -197,7 +205,6 @@ damper-factor-5 = 0.5, 0.5
 damper-factor-6 = 1, 0.3
 damper-factor-7 = 5, 0.1
 travel = 0.19
-anti-roll = 600.0
 
 [wheel.rr.coilover]
 spring-constant = 51137.3
@@ -211,7 +218,6 @@ damper-factor-5 = 0.5, 0.5
 damper-factor-6 = 1, 0.3
 damper-factor-7 = 5, 0.1
 travel = 0.19
-anti-roll = 600.0
 
 [wheel.fl.brake]
 texture = rotor_shiny_slotted_drilled.png

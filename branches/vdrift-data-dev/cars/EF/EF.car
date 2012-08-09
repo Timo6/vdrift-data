@@ -77,6 +77,16 @@ surface-area = 0.5
 lift-coefficient = -2
 lift-efficiency = 0.95
 
+[antiroll.front]
+stiffness = 8000
+link-a = wheel.fl
+link-b = wheel.fr
+
+[antiroll.rear]
+stiffness = 10000
+link-a = wheel.rl
+link-b = wheel.rr
+
 [wheel.fl]
 size = 215, 45, 17
 position = -0.9, 1.27, -0.3
@@ -134,7 +144,6 @@ max-compression-velocity = 9.0
 camber = -1.0
 caster = 6.12
 toe = 0.2
-anti-roll = 8000
 
 [wheel.fr.coilover]
 spring-constant = 79865
@@ -145,7 +154,6 @@ max-compression-velocity = 9.0
 camber = -1.0
 caster = 6.12
 toe = 0.2
-anti-roll = 8000
 
 [wheel.rl.coilover]
 spring-constant = 104062
@@ -156,7 +164,6 @@ max-compression-velocity = 9.0
 camber = -0.45
 caster = 0.28
 toe = 0.1
-anti-roll = 10000
 
 [wheel.rr.coilover]
 spring-constant = 104062
@@ -167,7 +174,6 @@ max-compression-velocity = 9.0
 camber = -0.45
 caster = 0.28
 toe = 0.1
-anti-roll = 10000
 
 [wheel.fl.brake]
 texture = rotor_shiny_slotted_drilled.png
