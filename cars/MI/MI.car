@@ -75,6 +75,16 @@ lift-efficiency = 0.95
 
 # wheeltrack: 1234/1203, wheelbase: 2035
 
+[antiroll.front]
+stiffness = 1200
+link-a = wheel.fl
+link-b = wheel.fr
+
+[antiroll.rear]
+stiffness = 1000
+link-a = wheel.rl
+link-b = wheel.rr
+
 [wheel.fl]
 size = 165, 70, 10
 position = -0.617, 1.00, -0.45
@@ -128,28 +138,24 @@ spring-constant = 40000
 bounce = 1900
 rebound = 5700
 travel = 0.16
-anti-roll = 1200.0
 
 [wheel.fr.coilover]
 spring-constant = 40000
 bounce = 1900
 rebound = 5700
 travel = 0.16
-anti-roll = 1200.0
 
 [wheel.rl.coilover]
 spring-constant = 20000
 bounce = 1000
 rebound = 2900
 travel = 0.16
-anti-roll = 1000.0
 
 [wheel.rr.coilover]
 spring-constant = 20000
 bounce = 1000
 rebound = 2900
 travel = 0.16
-anti-roll = 1000.0
 
 [wheel.fl.brake]
 texture = rotor_worn.png

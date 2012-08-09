@@ -70,6 +70,16 @@ surface-area = 0.3
 lift-coefficient = -0.3
 lift-efficiency = 0.95
 
+[antiroll.front]
+stiffness = 20000
+link-a = wheel.fl
+link-b = wheel.fr
+
+[antiroll.rear]
+stiffness = 20000
+link-a = wheel.rl
+link-b = wheel.rr
+
 [wheel.fl]
 size = 285, 50, 15
 position = -0.76, 1.40, -0.45
@@ -123,28 +133,24 @@ spring-constant = 50000
 bounce = 1700
 rebound = 5200
 travel = 0.10
-anti-roll = 20000
 
 [wheel.fr.coilover]
 spring-constant = 50000
 bounce = 1700
 rebound = 5200
 travel = 0.10
-anti-roll = 20000
 
 [wheel.rl.coilover]
 spring-constant = 54000
 bounce = 1900
 rebound = 5700
 travel = 0.10
-anti-roll = 20000
 
 [wheel.rr.coilover]
 spring-constant = 54000
 bounce = 1900
 rebound = 5700
 travel = 0.10
-anti-roll = 20000
 
 [wheel.fl.brake]
 friction = 0.8

@@ -78,6 +78,16 @@ surface-area = 1.9
 lift-coefficient = -3.0
 lift-efficiency = 0.99
 
+[antiroll.front]
+stiffness = 11000
+link-a = wheel.fl
+link-b = wheel.fr
+
+[antiroll.rear]
+stiffness = 7000
+link-a = wheel.rl
+link-b = wheel.rr
+
 [wheel.fl]
 size = 325, 30, 18
 position = -0.81, 1.46, -0.4
@@ -131,28 +141,24 @@ spring-constant = 90000
 bounce = 6050
 rebound = 7000
 travel = 0.10
-anti-roll = 11000
 
 [wheel.fr.coilover]
 spring-constant = 90000
 bounce = 6050
 rebound = 7000
 travel = 0.10
-anti-roll = 11000
 
 [wheel.rl.coilover]
 spring-constant = 100000
 bounce = 7000
 rebound = 8200
 travel = 0.12
-anti-roll = 7000
 
 [wheel.rr.coilover]
 spring-constant = 100000
 bounce = 7000
 rebound = 8200
 travel = 0.12
-anti-roll = 7000
 
 [wheel.fl.brake]
 texture = rotor_carbon_ceramic.png

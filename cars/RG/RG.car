@@ -79,6 +79,16 @@ lift-efficiency = 0.95
 view-position = -0.33, 0.02, 0.45
 hood-mounted-view-position = 0.0, 0.7, 0.35
 
+[antiroll.front]
+stiffness = 15000
+link-a = wheel.fl
+link-b = wheel.fr
+
+[antiroll.rear]
+stiffness = 8000
+link-a = wheel.rl
+link-b = wheel.rr
+
 [wheel.fl]
 size = 155, 75, 13
 position = -0.67, 1.27, -0.48
@@ -132,28 +142,24 @@ spring-constant = 50000.0
 bounce = 2500.0
 rebound = 7500.0
 travel = 0.13
-anti-roll = 25000.0
 
 [wheel.fr.coilover]
 spring-constant = 50000.0
 bounce = 2500.0
 rebound = 7500.0
 travel = 0.13
-anti-roll = 25000.0
 
 [wheel.rl.coilover]
 spring-constant = 40000.0
 bounce = 2000.0
 rebound = 6000.0
 travel = 0.13
-anti-roll = 8000.0
 
 [wheel.rr.coilover]
 spring-constant = 40000.0
 bounce = 2000.0
 rebound = 6000.0
 travel = 0.13
-anti-roll = 8000.0
 
 [wheel.fl.brake]
 friction = 0.6

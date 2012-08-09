@@ -74,6 +74,16 @@ surface-area = 0.5
 
 # Caterham, Avon CR500 tyres, Front:195/45R15, Rear:255/40R15
 
+[antiroll.front]
+stiffness = 5000
+link-a = wheel.fl
+link-b = wheel.fr
+
+[antiroll.rear]
+stiffness = 4500
+link-a = wheel.rl
+link-b = wheel.rr
+
 [wheel.fl]
 size = 195, 45, 15
 position = -0.60, 1.175, -0.42
@@ -139,7 +149,6 @@ chassis = -0.60, -1.17, -0.7
 hub = 0.60, -1.17, -0.42
 
 [wheel.fl.coilover]
-anti-roll = 5000
 bounce = 2000
 damper-factor-1 = 0.02, 2.0
 damper-factor-2 = 0.1, 1.0
@@ -155,7 +164,6 @@ spring-factor-4 = 0.2, 5.0
 travel = 0.3
 
 [wheel.fr.coilover]
-anti-roll = 5000
 bounce = 2000
 damper-factor-1 = 0.02, 2.0
 damper-factor-2 = 0.1, 1.0
@@ -171,7 +179,6 @@ spring-factor-4 = 0.2, 5.0
 travel = 0.3
 
 [wheel.rl.coilover]
-anti-roll = 4500
 bounce = 2000
 damper-factor-1 = 0.02, 2.0
 damper-factor-2 = 0.1, 1.0
@@ -187,7 +194,6 @@ spring-factor-4 = 0.2, 5.0
 travel = 0.3
 
 [wheel.rr.coilover]
-anti-roll = 4500
 bounce = 2000
 damper-factor-1 = 0.02, 2.0
 damper-factor-2 = 0.1, 1.0

@@ -56,6 +56,16 @@ lift-efficiency = 0.95
 
 # Bridgestone Potenza RE040 tyres 175/55R16 front and 225/45R17 rear
 
+[antiroll.front]
+stiffness = 800
+link-a = wheel.fl
+link-b = wheel.fr
+
+[antiroll.rear]
+stiffness = 600
+link-a = wheel.rl
+link-b = wheel.rr
+
 [wheel.fl]
 size = 175, 55, 16
 position = -0.706, 1.108, -0.460
@@ -140,7 +150,6 @@ damper-factor-5 = 0.5, 0.5
 damper-factor-6 = 1, 0.3
 damper-factor-7 = 5, 0.1
 travel = 0.19
-anti-roll = 800.0
 
 [wheel.fr.coilover]
 spring-constant = 35000
@@ -154,7 +163,6 @@ damper-factor-5 = 0.5, 0.5
 damper-factor-6 = 1, 0.3
 damper-factor-7 = 5, 0.1
 travel = 0.19
-anti-roll = 800.0
 
 [wheel.rl.coilover]
 spring-constant = 50000
@@ -168,7 +176,6 @@ damper-factor-5 = 0.5, 0.5
 damper-factor-6 = 1, 0.3
 damper-factor-7 = 5, 0.1
 travel = 0.19
-anti-roll = 600.0
 
 [wheel.rr.coilover]
 spring-constant = 50000
@@ -182,7 +189,6 @@ damper-factor-5 = 0.5, 0.5
 damper-factor-6 = 1, 0.3
 damper-factor-7 = 5, 0.1
 travel = 0.19
-anti-roll = 600.0
 
 [wheel.fl.brake]
 texture = rotor_shiny_slotted_drilled.png
