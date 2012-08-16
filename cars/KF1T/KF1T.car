@@ -42,10 +42,13 @@ gears = 1
 gear-ratio-r = -6.7
 gear-ratio-1 = 6.7
 shift-time = 0.08
+link = differential.rear
 
-[differential-rear]
+[differential.rear]
 final-drive = 1.0
 anti-slip = 200.0
+link-a = wheel.rl
+link-b = wheel.rr
 
 [fuel-tank]
 position = -0.007, 0.189, -0,058
@@ -113,44 +116,59 @@ area = 0.03
 handbrake = 1.0
 
 [wheel.fl.tire]
+include = tire/competition
 texture = tire00.png
-size = 114, 45, 5
-type = &tire/touring
 
 [wheel.fr.tire]
+include = tire/competition
 texture = tire00.png
-size = 114, 45, 5
-type = &tire/touring
+scale = -1, 1, 1
 
 [wheel.rl.tire]
+include = tire/competition
 texture = tire00.png
-size = 200, 32, 5
-type = &tire/touring
 
 [wheel.rr.tire]
+include = tire/competition
 texture = tire00.png
-size = 200, 32, 5
-type = &tire/touring
+scale = -1, 1, 1
 
-[wheel.fl.hinge]
-wheel = -0.492, 0.476, -0.17
+[wheel.fl.rim]
+texture = wheel00.png
+hubmesh = k_wheel.joe
+
+[wheel.fr.rim]
+texture = wheel00.png
+hubmesh = k_wheel.joe
+scale = -1, 1, 1
+
+[wheel.rl.rim]
+texture = wheel00.png
+hubmesh = k_wheel.joe
+
+[wheel.rr.rim]
+texture = wheel00.png
+hubmesh = k_wheel.joe
+scale = -1, 1, 1
+
+[wheel.fl.lower-arm]
+hub = -0.492, 0.476, -0.17
 chassis = 0, 0.4, -0.165
 
-[wheel.fr.hinge]
-wheel = 0.479, 0.476, -0.17
+[wheel.fr.lower-arm]
+hub = 0.479, 0.476, -0.17
 chassis = 0, 0.4, -0.165
 
-[wheel.rl.hinge]
-wheel = -0.5, -0.573, -0.19
+[wheel.rl.lower-arm]
+hub = -0.5, -0.573, -0.19
 chassis = 0, -0.5, -0.185
 
-[wheel.rr.hinge]
-wheel = 0.528, -0.573, -0.19
+[wheel.rr.lower-arm]
+hub = 0.528, -0.573, -0.19
 chassis = 0.028, -0.5, -0.185
 
 [wheel.fl]
-texture = wheel00.png
-mesh = k_wheel.joe
+size = 114, 45, 5
 position = -0.492, 0.476, -0.13
 camber = -0.0
 caster = 0.0
@@ -159,9 +177,7 @@ ackermann = 8.4	# 50% ackermann
 steering = 25
 
 [wheel.fr]
-texture = wheel00.png
-mesh = k_wheel.joe
-scale = -1, 1, 1
+size = 114, 45, 5
 position = 0.479, 0.476, -0.13
 camber = 0.0
 caster = 0.0
@@ -170,17 +186,14 @@ ackermann = -8.4
 steering = 25
 
 [wheel.rl]
-texture = wheel00.png
-mesh = k_wheel.joe
+size = 200, 32, 5
 position = -0.5, -0.573, -0.13
 camber = -0.0
 caster = 0.0
 toe = -0.15
 
 [wheel.rr]
-texture = wheel00.png
-mesh = k_wheel.joe
-scale = -1, 1, 1
+size = 200, 32, 5
 position = 0.528, -0.573, -0.13
 camber = 0.0
 caster = 0.0
@@ -208,7 +221,7 @@ mesh = engine.joe
 
 [chassis.box]
 center = 0, -0.025, 0
-size = 1.1, 1.65, 0.25
+size = 1.1, 1.65, 0.3
 
 # these are used to calculate the weight distribution and balance
 [particle-00] # driver
