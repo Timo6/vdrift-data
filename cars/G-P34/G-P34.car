@@ -120,7 +120,6 @@ stiffness = 5000
 link-a = wheel.rl
 link-b = wheel.rr
 
-[wheel.fl]
 [wheel.fla]
 size = 245, 30, 10
 position = -0.73, 1.48, -0.51
