@@ -46,7 +46,7 @@ gear-ratio-2 = 1.82
 gear-ratio-3 = 1.30
 gear-ratio-4 = 1.07
 gear-ratio-5 = 0.92
-shift-time = 0.07
+shift-time = 0.1
 link = differential.rear
 
 [differential.rear]
