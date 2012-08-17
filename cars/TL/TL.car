@@ -90,7 +90,6 @@ link-b = wheel.rr
 
 [wheel.fl]
 size = 185, 60, 14
-tire = tire/touring
 position = -0.673, 1.16, -0.43	#-0.723, 1.16, -0.43	#front track 1445mm
 camber = -0.5
 caster = 0.00
