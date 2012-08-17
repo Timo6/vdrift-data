@@ -155,21 +155,21 @@ travel = 0.10
 [wheel.fl.brake]
 friction = 0.8
 max-pressure = 2e6
-bias = 0.57
+bias = 0.7
 radius = 0.15
 area = 0.01
 
 [wheel.fr.brake]
 friction = 0.8
 max-pressure = 2e6
-bias = 0.57
+bias = 0.7
 radius = 0.15
 area = 0.01
 
 [wheel.rl.brake]
 friction = 0.8
 max-pressure = 2e6
-bias = 0.37
+bias = 0.4
 radius = 0.15
 area = 0.01
 handbrake = 1.0
@@ -177,7 +177,7 @@ handbrake = 1.0
 [wheel.rr.brake]
 friction = 0.8
 max-pressure = 2e6
-bias = 0.37
+bias = 0.4
 radius = 0.15
 area = 0.01
 handbrake = 1.0
