@@ -1,5 +1,5 @@
 [engine]
-position = 0.0, 1.4, -0.1
+position = 0.0, 1.4, -0.20
 mass = 100.0
 #max-power = 1.193e5
 max-power = 19084
@@ -284,35 +284,35 @@ max-angle = 90
 # these are used to calculate the weight distribution and balance
 [particle-00]
 mass = 130
-position = 1.11, -2.3, -0.22
+position = 1.11, -2.3, -0.25
 
 [particle-01]
 mass = 130
-position = -1.11, -2.3, -0.22
+position = -1.11, -2.3, -0.25
 
 [particle-02]
 mass = 130
-position = 1.11, 2.3, -0.22
+position = 1.11, 2.3, -0.25
 
 [particle-03]
 mass = 130
-position = -1.11, 2.3, -0.22
+position = -1.11, 2.3, -0.25
 
 [particle-04]
 mass = 25
-position = 1.11, -2.32, -0.62
+position = 1.11, -2.32, -0.40
 
 [particle-05]
 mass = 25
-position = 1.11, 2.32, -0.62
+position = 1.11, 2.32, -0.40
 
 [particle-06]
 mass = 25
-position = -1.11, -2.32, -0.62
+position = -1.11, -2.32, -0.40
 
 [particle-07]
 mass = 25
-position = -1.11, 2.32, -0.62
+position = -1.11, 2.32, -0.40
 
 
 [camera.0]
