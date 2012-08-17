@@ -166,34 +166,34 @@ travel = 0.16
 
 [wheel.fl.brake]
 texture = rotor_worn.png
-friction = 1.13
+friction = 0.75
 max-pressure = 2.0e6
-bias = 0.57
+bias = 0.65
 radius = 0.14
 area = 0.015
 
 [wheel.fr.brake]
 texture = rotor_worn.png
-friction = 1.13
+friction = 0.75
 max-pressure = 2.0e6
-bias = 0.57
+bias = 0.65
 radius = 0.14
 area = 0.015
 
 [wheel.rl.brake]
 texture = rotor_worn.png
-friction = 1.13
+friction = 0.75
 max-pressure = 2.0e6
-bias = 0.57
+bias = 0.35
 radius = 0.14
 area = 0.015
 handbrake = 1.0
 
 [wheel.rr.brake]
 texture = rotor_worn.png
-friction = 1.13
+friction = 0.75
 max-pressure = 2.0e6
-bias = 0.57
+bias = 0.35
 radius = 0.14
 area = 0.015
 handbrake = 1.0
@@ -273,19 +273,19 @@ position = 0.1, 0.5, -0.45
 
 [particle-01]
 mass = 130.0
-position = 0.4, -1.07, -0.15
+position = 0.4, -1.07, -0.20
 
 [particle-02]
 mass = 130.0
-position = -0.4, -1.07, -0.15
+position = -0.4, -1.07, -0.20
 
 [particle-03]
 mass = 215.0
-position = 0.4, 1.09, -0.15
+position = 0.4, 1.09, -0.20
 
 [particle-04]
 mass = 215.0
-position = -0.4, 1.09, -0.15
+position = -0.4, 1.09, -0.20
 
 [camera.0]
 name = hood
