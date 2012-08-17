@@ -41,6 +41,7 @@ max-pressure = 5000
 gears = 1
 gear-ratio-r = -6.7
 gear-ratio-1 = 6.7
+shift-time = 0.1
 link = differential.rear
 
 [differential.rear]
