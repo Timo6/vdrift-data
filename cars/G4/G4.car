@@ -1,6 +1,6 @@
 
 [engine]
-position = 0.0, -1.0, -0.1
+position = 0.0, -1.0, -0.35
 mass = 140.0
 max-power = 372900
 peak-engine-rpm = 6200.0
@@ -273,35 +273,35 @@ draw = emissive
 # these are used to calculate the weight distribution and balance
 [particle-00]
 mass = 180
-position = 1.11, -1.8, -0.22
+position = 1.11, -1.8, -0.35
 
 [particle-01]
 mass = 180
-position = -1.11, -1.8, -0.22
+position = -1.11, -1.8, -0.35
 
 [particle-02]
 mass = 158
-position = 1.11, 1.8, -0.22
+position = 1.11, 1.8, -0.35
 
 [particle-03]
 mass = 158
-position = -1.11, 1.8, -0.22
+position = -1.11, 1.8, -0.35
 
 [particle-04]
 mass = 23
-position = 1.11, -2.32, -0.62
+position = 1.11, -2.32, -0.50
 
 [particle-05]
 mass = 23
-position = 1.11, 2.32, -0.62
+position = 1.11, 2.32, -0.50
 
 [particle-06]
 mass = 23
-position = -1.11, -2.32, -0.62
+position = -1.11, -2.32, -0.50
 
 [particle-07]
 mass = 23
-position = -1.11, 2.32, -0.62
+position = -1.11, 2.32, -0.50
 
 [camera.0]
 name = hood
