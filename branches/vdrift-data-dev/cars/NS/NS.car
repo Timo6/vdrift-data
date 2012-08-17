@@ -41,7 +41,7 @@ gear-ratio-2 = 1.925
 gear-ratio-3 = 1.302
 gear-ratio-4 = 1.0
 gear-ratio-5 = 0.752
-shift-time = 0.05
+shift-time = 0.25
 link = differential.center
 
 [differential.center]
