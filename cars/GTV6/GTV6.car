@@ -68,8 +68,8 @@ link-b = wheel.rr
 
 [fuel-tank]
 position = -1.17, 0, -0.15
-capacity = 0.0650
-volume = 0.0650
+capacity = 65
+volume = 65
 fuel-density = 0.773
 
 [wing-front]
