@@ -180,13 +180,13 @@ travel = 0.12
 spring-constant = 61500
 bounce = 2900
 rebound = 8200
-travel = 0.43
+travel = 0.15
 
 [wheel.rr.coilover]
 spring-constant = 61500
 bounce = 2900
 rebound = 8200
-travel = 0.43
+travel = 0.15
 
 [wheel.fl.brake]
 texture = rotor_worn.png
