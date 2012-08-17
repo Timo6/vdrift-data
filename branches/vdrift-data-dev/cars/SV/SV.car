@@ -75,12 +75,12 @@ lift-coefficient = -0.2
 lift-efficiency = 0.95
 
 [antiroll.front]
-stiffness = 6000
+stiffness = 12000
 link-a = wheel.fl
 link-b = wheel.fr
 
 [antiroll.rear]
-stiffness = 4000
+stiffness = 8000
 link-a = wheel.rl
 link-b = wheel.rr
 
@@ -133,59 +133,27 @@ chassis = 0, -2.4, -0.3
 hub = 0.75, -1.28, -0.3
 
 [wheel.fl.coilover]
-bounce = 3000
-damper-factor-1 = 0.02, 2.0
-damper-factor-2 = 0.1, 1.0
-damper-factor-3 = 0.2, 0.8
-damper-factor-4 = 0.5, 0.5
-rebound = 5000
 spring-constant = 40000
-spring-factor-1 = 0.02, 1.0
-spring-factor-2 = 0.1, 1.5
-spring-factor-3 = 0.15, 3.0
-spring-factor-4 = 0.2, 5.0
+bounce = 3000
+rebound = 5000
 travel = 0.3
 
 [wheel.fr.coilover]
-bounce = 3000
-damper-factor-1 = 0.02, 2.0
-damper-factor-2 = 0.1, 1.0
-damper-factor-3 = 0.2, 0.8
-damper-factor-4 = 0.5, 0.5
-rebound = 5000
 spring-constant = 40000
-spring-factor-1 = 0.02, 1.0
-spring-factor-2 = 0.1, 1.5
-spring-factor-3 = 0.15, 3.0
-spring-factor-4 = 0.2, 5.0
+bounce = 3000
+rebound = 5000
 travel = 0.3
 
 [wheel.rl.coilover]
-bounce = 4500
-damper-factor-1 = 0.02, 2.0
-damper-factor-2 = 0.1, 1.0
-damper-factor-3 = 0.2, 0.8
-damper-factor-4 = 0.5, 0.5
-rebound = 7500
 spring-constant = 62000
-spring-factor-1 = 0.02, 1.0
-spring-factor-2 = 0.1, 1.5
-spring-factor-3 = 0.15, 3.0
-spring-factor-4 = 0.2, 5.0
+bounce = 4500
+rebound = 7500
 travel = 0.3
 
 [wheel.rr.coilover]
-bounce = 4500
-damper-factor-1 = 0.02, 2.0
-damper-factor-2 = 0.1, 1.0
-damper-factor-3 = 0.2, 0.8
-damper-factor-4 = 0.5, 0.5
-rebound = 7500
 spring-constant = 62000
-spring-factor-1 = 0.02, 1.0
-spring-factor-2 = 0.1, 1.5
-spring-factor-3 = 0.15, 3.0
-spring-factor-4 = 0.2, 5.0
+bounce = 4500
+rebound = 7500
 travel = 0.3
 
 [wheel.fl.brake]
@@ -305,19 +273,19 @@ position = 0.0, 0.11, -0.36
 
 [particle-02]
 mass = 235.0
-position = -0.39, -1.7, 0.0
+position = -0.39, -1.7, -0.1
 
 [particle-03]
 mass = 235.0
-position = 0.39, -1.7, 0.0
+position = 0.39, -1.7, -0.1
 
 [particle-04]
 mass = 195.0
-position = -0.39, 1.32, -0.07
+position = -0.39, 1.32, -0.1
 
 [particle-05]
 mass = 195.0
-position = 0.39, 1.32, -0.07
+position = 0.39, 1.32, -0.1
 
 [camera.0]
 name = hood
