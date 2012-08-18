@@ -51,7 +51,7 @@ link = differential.rear
 
 [differential.rear]
 final-drive = 3.88
-anti-slip = 600.0
+anti-slip = 200.0
 link-a = wheel.rl
 link-b = wheel.rr
 
