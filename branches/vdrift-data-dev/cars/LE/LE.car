@@ -192,24 +192,24 @@ travel = 0.19
 
 [wheel.fl.brake]
 texture = rotor_shiny_slotted_drilled.png
-friction = 0.4
-max-pressure = 4.0e6
-bias = 0.65
+friction = 0.7
+max-pressure = 2.0e6
+bias = 0.55
 radius = 0.14
 area = 0.015
 
 [wheel.fr.brake]
 texture = rotor_shiny_slotted_drilled.png
-friction = 0.4
-max-pressure = 4.0e6
-bias = 0.65
+friction = 0.7
+max-pressure = 2.0e6
+bias = 0.55
 radius = 0.14
 area = 0.015
 
 [wheel.rl.brake]
 texture = rotor_shiny_slotted_drilled.png
-friction = 0.4
-max-pressure = 4.0e6
+friction = 0.7
+max-pressure = 2.0e6
 bias = 0.35
 radius = 0.14
 area = 0.015
@@ -217,8 +217,8 @@ handbrake = 1.0
 
 [wheel.rr.brake]
 texture = rotor_shiny_slotted_drilled.png
-friction = 0.4
-max-pressure = 4.0e6
+friction = 0.7
+max-pressure = 2.0e6
 bias = 0.35
 radius = 0.14
 area = 0.015
