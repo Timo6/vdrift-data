@@ -2,7 +2,7 @@
 
 #entry 0
 Mesh.112.joe
-BATI9.png
+CURB1.png
 0
 0
 0
@@ -10,7 +10,7 @@ BATI9.png
 1.0
 0.0
 0
-0
+1
 1.0
 0.9
 1.0
@@ -21,7 +21,7 @@ BATI9.png
 
 #entry 1
 Mesh.050.joe
-CONE1.png
+META3.png
 0
 0
 0
@@ -40,7 +40,7 @@ CONE1.png
 
 #entry 2
 Mesh.084.joe
-LINE1.png
+WALL2.png
 0
 0
 0
@@ -48,7 +48,7 @@ LINE1.png
 1.0
 0.0
 0
-0
+1
 1.0
 0.9
 1.0
@@ -59,7 +59,7 @@ LINE1.png
 
 #entry 3
 Mesh.092.joe
-WALL1.png
+BATI1.png
 0
 0
 0
@@ -86,7 +86,7 @@ CURB6.png
 1.0
 0.0
 0
-1
+0
 1.0
 0.9
 1.0
@@ -97,7 +97,7 @@ CURB6.png
 
 #entry 5
 Mesh.089.joe
-CK_BATI7.png
+WALL1.png
 0
 0
 0
@@ -105,7 +105,7 @@ CK_BATI7.png
 1.0
 0.0
 0
-0
+1
 1.0
 0.9
 1.0
@@ -116,7 +116,7 @@ CK_BATI7.png
 
 #entry 6
 Mesh.056.joe
-START.png
+CONC2.png
 0
 0
 0
@@ -124,7 +124,7 @@ START.png
 1.0
 0.0
 0
-0
+1
 1.0
 0.9
 1.0
@@ -173,7 +173,7 @@ marshal1.png
 
 #entry 9
 Mesh.053.joe
-BATI9.png
+META2.png
 0
 0
 0
@@ -192,7 +192,7 @@ BATI9.png
 
 #entry 10
 Mesh.055.joe
-BATI9.png
+START.png
 0
 0
 0
@@ -211,7 +211,7 @@ BATI9.png
 
 #entry 11
 Mesh.077.joe
-WALL1.png
+LINE2.png
 0
 0
 0
@@ -219,7 +219,7 @@ WALL1.png
 1.0
 0.0
 0
-1
+0
 1.0
 0.9
 1.0
@@ -229,8 +229,8 @@ WALL1.png
 1
 
 #entry 12
-Mesh.108.joe
-CONE1.png
+Mesh.067.joe
+CK_BAT10.png
 0
 0
 0
@@ -287,7 +287,7 @@ METAL.png
 
 #entry 15
 Mesh.088.joe
-BAT11.png
+CK_BATI7.png
 0
 0
 0
@@ -325,7 +325,7 @@ WALL1.png
 
 #entry 17
 Mesh.081.joe
-BATI4.png
+DECA1.png
 0
 0
 0
@@ -401,7 +401,7 @@ BATI3.png
 
 #entry 21
 Mesh.086.joe
-marshal1.png
+BAT11.png
 0
 0
 0
@@ -458,7 +458,7 @@ METAL.png
 
 #entry 24
 Mesh.059.joe
-LINE1.png
+LINE4.png
 0
 0
 0
@@ -466,7 +466,7 @@ LINE1.png
 1.0
 0.0
 0
-0
+1
 1.0
 0.9
 1.0
@@ -476,8 +476,8 @@ LINE1.png
 1
 
 #entry 25
-Mesh.109.joe
-CONE1.png
+Mesh.066.joe
+CK_BAT10.png
 0
 0
 0
@@ -496,7 +496,7 @@ CONE1.png
 
 #entry 26
 Mesh.096.joe
-CONE1.png
+marshal1.png
 0
 0
 0
@@ -516,10 +516,10 @@ CONE1.png
 #entry 27
 Mesh.033.joe
 CK_TREE2.png
-1
-1
 0
-2
+0
+0
+0
 1.0
 0.0
 0
@@ -592,10 +592,10 @@ GRID2.png
 #entry 31
 Mesh.031.joe
 CK_TREE4.png
-1
-1
 0
-2
+0
+0
+0
 1.0
 0.0
 0
@@ -609,8 +609,8 @@ CK_TREE4.png
 1
 
 #entry 32
-Mesh.107.joe
-CONE1.png
+Mesh.068.joe
+CK_BAT10.png
 0
 0
 0
@@ -648,7 +648,7 @@ BAT11.png
 
 #entry 34
 Mesh.058.joe
-CURB4.png
+LINE1.png
 0
 0
 0
@@ -656,7 +656,7 @@ CURB4.png
 1.0
 0.0
 0
-1
+0
 1.0
 0.9
 1.0
@@ -686,7 +686,7 @@ CONE1.png
 
 #entry 36
 Mesh.082.joe
-DECA1.png
+CONE1.png
 0
 0
 0
@@ -705,7 +705,7 @@ DECA1.png
 
 #entry 37
 Mesh.111.joe
-CONE1.png
+BATI9.png
 0
 0
 0
@@ -732,7 +732,7 @@ CK_GRID2.png
 1.0
 0.0
 0
-1
+0
 1.0
 0.9
 1.0
@@ -762,7 +762,7 @@ WALL1.png
 
 #entry 40
 Mesh.090.joe
-WALL1.png
+CK_BATI2.png
 0
 0
 0
@@ -800,7 +800,7 @@ CONE1.png
 
 #entry 42
 Mesh.080.joe
-WALL1.png
+BATI4.png
 0
 0
 0
@@ -819,7 +819,7 @@ WALL1.png
 
 #entry 43
 Mesh.052.joe
-CK_GRID1.png
+BATI9.png
 0
 0
 0
@@ -827,7 +827,7 @@ CK_GRID1.png
 1.0
 0.0
 0
-1
+0
 1.0
 0.9
 1.0
@@ -933,7 +933,7 @@ marshal1.png
 
 #entry 49
 Mesh.113.joe
-CURB1.png
+BATI8.png
 0
 0
 0
@@ -941,7 +941,7 @@ CURB1.png
 1.0
 0.0
 0
-1
+0
 1.0
 0.9
 1.0
@@ -990,7 +990,7 @@ CONE1.png
 
 #entry 52
 Mesh.049.joe
-CURB2.png
+CONE1.png
 0
 0
 0
@@ -1047,7 +1047,7 @@ CONE1.png
 
 #entry 55
 Mesh.091.joe
-CK_BATI2.png
+WALL1.png
 0
 0
 0
@@ -1066,7 +1066,7 @@ CK_BATI2.png
 
 #entry 56
 Mesh.079.joe
-CONE1.png
+WALL1.png
 0
 0
 0
@@ -1074,7 +1074,7 @@ CONE1.png
 1.0
 0.0
 0
-0
+1
 1.0
 0.9
 1.0
@@ -1125,7 +1125,7 @@ CONE1.png
 Mesh.015.joe
 DECA1.png
 0
-1
+0
 0
 0
 1.0
@@ -1199,7 +1199,7 @@ WALL1.png
 
 #entry 63
 Mesh.064.joe
-ASPH1.png
+LINE5.png
 0
 0
 0
@@ -1207,7 +1207,7 @@ ASPH1.png
 1.0
 0.0
 0
-1
+0
 1.0
 0.9
 1.0
@@ -1218,7 +1218,7 @@ ASPH1.png
 
 #entry 64
 Mesh.093.joe
-BATI1.png
+BATI5.png
 0
 0
 0
@@ -1275,7 +1275,7 @@ BAT12.png
 
 #entry 67
 Mesh.062.joe
-CONE1.png
+WALL1.png
 0
 0
 0
@@ -1283,7 +1283,7 @@ CONE1.png
 1.0
 0.0
 0
-0
+1
 1.0
 0.9
 1.0
@@ -1295,10 +1295,10 @@ CONE1.png
 #entry 68
 Mesh.032.joe
 CK_TREE5.png
-1
-1
 0
-2
+0
+0
+0
 1.0
 0.0
 0
@@ -1312,8 +1312,8 @@ CK_TREE5.png
 1
 
 #entry 69
-Mesh.068.joe
-CK_BAT10.png
+Mesh.107.joe
+CONE1.png
 0
 0
 0
@@ -1351,7 +1351,7 @@ marshal1.png
 
 #entry 71
 Mesh.063.joe
-WALL1.png
+ASPH1.png
 0
 0
 0
@@ -1359,7 +1359,7 @@ WALL1.png
 1.0
 0.0
 0
-0
+1
 1.0
 0.9
 1.0
@@ -1389,10 +1389,10 @@ WALL1.png
 
 #entry 73
 Mesh.103.joe
-SKY.png
+CONE1.png
 0
 0
-1
+0
 0
 1.0
 0.0
@@ -1408,7 +1408,7 @@ SKY.png
 
 #entry 74
 Mesh.083.joe
-CONE1.png
+LINE1.png
 0
 0
 0
@@ -1427,7 +1427,7 @@ CONE1.png
 
 #entry 75
 Mesh.099.joe
-marshal1.png
+CONE1.png
 0
 0
 0
@@ -1454,7 +1454,7 @@ METAL.png
 1.0
 0.0
 0
-0
+1
 1.0
 0.9
 1.0
@@ -1484,7 +1484,7 @@ CONE1.png
 
 #entry 78
 Mesh.101.joe
-CONE1.png
+CK_BAT10.png
 0
 0
 0
@@ -1502,8 +1502,8 @@ CONE1.png
 1
 
 #entry 79
-Mesh.114.joe
-BATI8.png
+Mesh.054.joe
+BATI9.png
 0
 0
 0
@@ -1521,8 +1521,8 @@ BATI8.png
 1
 
 #entry 80
-Mesh.054.joe
-META2.png
+Mesh.065.joe
+CK_BAT10.png
 0
 0
 0
@@ -1540,8 +1540,8 @@ META2.png
 1
 
 #entry 81
-Mesh.065.joe
-LINE5.png
+Mesh.070.joe
+WALL1.png
 0
 0
 0
@@ -1549,7 +1549,7 @@ LINE5.png
 1.0
 0.0
 0
-0
+1
 1.0
 0.9
 1.0
@@ -1559,25 +1559,6 @@ LINE5.png
 1
 
 #entry 82
-Mesh.070.joe
-CK_BAT10.png
-0
-0
-0
-0
-1.0
-0.0
-0
-1
-1.0
-0.9
-1.0
-0.0
-0
-0
-1
-
-#entry 83
 Mesh.010.joe
 CONE1.png
 0
@@ -1596,9 +1577,28 @@ CONE1.png
 0
 1
 
-#entry 84
+#entry 83
 Mesh.095.joe
-BATI6.png
+CONE1.png
+0
+0
+0
+0
+1.0
+0.0
+0
+0
+1.0
+0.9
+1.0
+0.0
+0
+0
+1
+
+#entry 84
+Mesh.108.joe
+CONE1.png
 0
 0
 0
@@ -1616,8 +1616,8 @@ BATI6.png
 1
 
 #entry 85
-Mesh.067.joe
-CK_BAT10.png
+Mesh.060.joe
+WALL1.png
 0
 0
 0
@@ -1625,7 +1625,7 @@ CK_BAT10.png
 1.0
 0.0
 0
-0
+1
 1.0
 0.9
 1.0
@@ -1635,25 +1635,6 @@ CK_BAT10.png
 1
 
 #entry 86
-Mesh.060.joe
-LINE4.png
-0
-0
-0
-0
-1.0
-0.0
-0
-1
-1.0
-0.9
-1.0
-0.0
-0
-0
-1
-
-#entry 87
 Mesh.007.joe
 CONE1.png
 0
@@ -1672,7 +1653,7 @@ CONE1.png
 0
 1
 
-#entry 88
+#entry 87
 Mesh.069.joe
 CK_BAT10.png
 0
@@ -1691,7 +1672,7 @@ CK_BAT10.png
 0
 1
 
-#entry 89
+#entry 88
 Mesh.009.joe
 CONE1.png
 0
@@ -1710,7 +1691,7 @@ CONE1.png
 0
 1
 
-#entry 90
+#entry 89
 Mesh.104.joe
 CONE1.png
 0
@@ -1729,7 +1710,7 @@ CONE1.png
 0
 1
 
-#entry 91
+#entry 90
 Mesh.074.joe
 WALL1.png
 0
@@ -1739,7 +1720,7 @@ WALL1.png
 1.0
 0.0
 0
-1
+0
 1.0
 0.9
 1.0
@@ -1748,7 +1729,7 @@ WALL1.png
 0
 1
 
-#entry 92
+#entry 91
 Mesh.024.joe
 WALL1.png
 0
@@ -1767,9 +1748,28 @@ WALL1.png
 0
 1
 
+#entry 92
+Mesh.109.joe
+WALL3.png
+0
+0
+0
+0
+1.0
+0.0
+0
+1
+1.0
+0.9
+1.0
+0.0
+0
+0
+1
+
 #entry 93
 Mesh.094.joe
-BATI5.png
+BATI6.png
 0
 0
 0
@@ -1796,7 +1796,7 @@ METAL.png
 1.0
 0.0
 0
-0
+1
 1.0
 0.9
 1.0
@@ -1806,8 +1806,8 @@ METAL.png
 1
 
 #entry 95
-Mesh.066.joe
-CK_BAT10.png
+Mesh.051.joe
+CK_GRID1.png
 0
 0
 0
@@ -1815,7 +1815,7 @@ CK_BAT10.png
 1.0
 0.0
 0
-0
+1
 1.0
 0.9
 1.0
@@ -1825,25 +1825,6 @@ CK_BAT10.png
 1
 
 #entry 96
-Mesh.051.joe
-META3.png
-0
-0
-0
-0
-1.0
-0.0
-0
-0
-1.0
-0.9
-1.0
-0.0
-0
-0
-1
-
-#entry 97
 Mesh.026.joe
 CONC1.png
 0
@@ -1862,7 +1843,7 @@ CONC1.png
 0
 1
 
-#entry 98
+#entry 97
 Mesh.025.joe
 WALL1.png
 0
@@ -1881,7 +1862,7 @@ WALL1.png
 0
 1
 
-#entry 99
+#entry 98
 Mesh.039.joe
 WALL1.png
 0
@@ -1900,7 +1881,7 @@ WALL1.png
 0
 1
 
-#entry 100
+#entry 99
 Mesh.016.joe
 METAL.png
 0
@@ -1919,9 +1900,9 @@ METAL.png
 0
 1
 
-#entry 101
+#entry 100
 Mesh.078.joe
-LINE2.png
+CONE1.png
 0
 0
 0
@@ -1938,7 +1919,7 @@ LINE2.png
 0
 1
 
-#entry 102
+#entry 101
 Mesh.001.joe
 CONE1.png
 0
@@ -1957,8 +1938,27 @@ CONE1.png
 0
 1
 
-#entry 103
+#entry 102
 Mesh.048.joe
+CURB2.png
+0
+0
+0
+0
+1.0
+0.0
+0
+0
+1.0
+0.9
+1.0
+0.0
+0
+0
+1
+
+#entry 103
+Mesh.047.joe
 ASPH2.png
 0
 0
@@ -1977,25 +1977,6 @@ ASPH2.png
 1
 
 #entry 104
-Mesh.047.joe
-CURB2.png
-0
-0
-0
-0
-1.0
-0.0
-0
-1
-1.0
-0.9
-1.0
-0.0
-0
-0
-1
-
-#entry 105
 Mesh.037.joe
 SAND.png
 0
@@ -2014,9 +1995,28 @@ SAND.png
 0
 1
 
-#entry 106
+#entry 105
 Mesh.102.joe
-CK_BAT10.png
+SKY.png
+0
+0
+1
+0
+1.0
+0.0
+0
+0
+1.0
+0.9
+1.0
+0.0
+0
+0
+1
+
+#entry 106
+Mesh.057.joe
+CURB4.png
 0
 0
 0
@@ -2024,7 +2024,7 @@ CK_BAT10.png
 1.0
 0.0
 0
-0
+1
 1.0
 0.9
 1.0
@@ -2034,8 +2034,8 @@ CK_BAT10.png
 1
 
 #entry 107
-Mesh.057.joe
-CONC2.png
+Mesh.085.joe
+marshal1.png
 0
 0
 0
@@ -2043,7 +2043,7 @@ CONC2.png
 1.0
 0.0
 0
-1
+0
 1.0
 0.9
 1.0
@@ -2053,8 +2053,8 @@ CONC2.png
 1
 
 #entry 108
-Mesh.085.joe
-WALL2.png
+Mesh.035.joe
+CK_TREE3.png
 0
 0
 0
@@ -2062,7 +2062,7 @@ WALL2.png
 1.0
 0.0
 0
-1
+0
 1.0
 0.9
 1.0
@@ -2072,25 +2072,6 @@ WALL2.png
 1
 
 #entry 109
-Mesh.035.joe
-CK_TREE3.png
-1
-1
-0
-2
-1.0
-0.0
-0
-0
-1.0
-0.9
-1.0
-0.0
-0
-0
-1
-
-#entry 110
 Mesh.041.joe
 LINE3.png
 0
@@ -2109,9 +2090,9 @@ LINE3.png
 0
 1
 
-#entry 111
+#entry 110
 Mesh.061.joe
-WALL1.png
+CONE1.png
 0
 0
 0
@@ -2119,7 +2100,26 @@ WALL1.png
 1.0
 0.0
 0
+0
+1.0
+0.9
+1.0
+0.0
+0
+0
 1
+
+#entry 111
+Mesh.110.joe
+CONE1.png
+0
+0
+0
+0
+1.0
+0.0
+0
+0
 1.0
 0.9
 1.0
@@ -2129,25 +2129,6 @@ WALL1.png
 1
 
 #entry 112
-Mesh.110.joe
-WALL3.png
-0
-0
-0
-0
-1.0
-0.0
-0
-1
-1.0
-0.9
-1.0
-0.0
-0
-0
-1
-
-#entry 113
 Mesh.100.joe
 CONE1.png
 0
@@ -2166,7 +2147,7 @@ CONE1.png
 0
 1
 
-#entry 114
+#entry 113
 Mesh.028.joe
 LINE5.png
 0
