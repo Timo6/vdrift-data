@@ -168,7 +168,7 @@ size = 215, 45, 18
 position = -0.85, 1.12, -0.26			# track +-Y = 1669/2
 camber = -1.0
 caster = 6.12
-toe = -0.2
+toe = 0.0
 ackermann = 8.96	# 50% ackermann
 steering = 33
 
@@ -177,7 +177,7 @@ size = 215, 45, 18
 position = 0.85, 1.12, -0.26
 camber = 1.0
 caster = 6.12
-toe = 0.2
+toe = 0.0
 ackermann = -8.96
 steering = 33
 
@@ -186,14 +186,14 @@ size = 275, 40, 18
 position = -0.8085, -1.51, -0.28		# track +-Y = 1617/2
 camber = -0.45
 caster = 0.28
-toe = -0.1
+toe = -0.1 # toe-in
 
 [wheel.rr]
 size = 275, 40, 18
 position = 0.8085, -1.51, -0.28
 camber = 0.45
 caster = 0.28
-toe = 0.1
+toe = 0.1 # toe-in
 
 [wheel.fl.lower-arm]
 chassis = 0.50, 0.90, -0.20
