@@ -1,6 +1,6 @@
 
 [engine]
-position = 0.0, 1.1, 0.0
+position = 0.0, 0.7, 0.3
 mass = 160.0
 max-power = 1.79e5
 peak-engine-rpm = 5900
@@ -72,7 +72,7 @@ lift-coefficient = 0.5
 lift-efficiency = 0.95
 
 [antiroll.front]
-stiffness = 7000
+stiffness = 10000
 link-a = wheel.fl
 link-b = wheel.fr
 
@@ -274,19 +274,19 @@ position = 0.0, 0.15, 0.4
 
 [particle-02]
 mass = 255.0
-position = -0.39, -1.7, 0.4
+position = -0.4, -1.5, 0.25
 
 [particle-03]
 mass = 255.0
-position = 0.39, -1.7, 0.4
+position = 0.4, -1.5, 0.25
 
 [particle-04]
 mass = 295.0
-position = -0.39, 1.4, 0.4
+position = -0.4, 1.4, 0.25
 
 [particle-05]
 mass = 295.0
-position = 0.39, 1.4, 0.4
+position = 0.4, 1.4, 0.25
 
 [camera.0]
 name = hood
