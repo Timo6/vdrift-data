@@ -62,12 +62,12 @@ volume = 0.0492
 fuel-density = 730.0
 
 [wing-front]
-position = 0.0, 0.0, 0.2
+position = 0.0, 0.0, 0.0
 frontal-area = 2
 drag-coefficient = 0.3
 
 [wing-center]
-position = 0.0, 1.9, 0.60
+position = 0.0, 1.9, 0.0
 frontal-area = 0.2
 drag-coefficient = 0.0
 surface-area = 0.3
@@ -75,26 +75,26 @@ lift-coefficient = -0.5
 lift-efficiency = 0.95
 
 [wing-rear]
-position = 0.0, -2.14, 0.37
+position = 0.0, -2.1, 0.2
 frontal-area = 0.05
 drag-coefficient = 0.0
 surface-area = 0.5
-lift-coefficient = -2
+lift-coefficient = -1.0
 lift-efficiency = 0.95
 
 [antiroll.front]
-stiffness = 15000
+stiffness = 5000
 link-a = wheel.fl
 link-b = wheel.fr
 
 [antiroll.rear]
-stiffness = 20000
+stiffness = 10000
 link-a = wheel.rl
 link-b = wheel.rr
 
 [wheel.fl]
 size = 205, 55, 15
-position = -0.68, 1.13, -0.48
+position = -0.68, 1.13, -0.46
 camber = -1.0
 caster = 1.0
 toe = 0.5
@@ -103,7 +103,7 @@ steering = 30
 
 [wheel.fr]
 size = 205, 55, 15
-position = 0.68, 1.13, -0.48
+position = 0.68, 1.13, -0.46
 camber = 1.0
 caster = 1.0
 toe = -0.5
@@ -112,14 +112,14 @@ steering = 30
 
 [wheel.rl]
 size = 225, 50, 15
-position = -0.70, -1.10, -0.50
+position = -0.70, -1.10, -0.48
 camber = -0.5
 caster = 0.0
 toe = 0.0
 
 [wheel.rr]
 size = 225, 50, 15
-position = 0.70, -1.10, -0.50
+position = 0.70, -1.10, -0.48
 camber = 0.5
 caster = 0.0
 toe = 0.0
@@ -141,28 +141,28 @@ hub = 0.65, -1.10, -0.55
 chassis = 0.20, -1.10, -0.40
 
 [wheel.fl.coilover]
-spring-constant = 33000
+spring-constant = 43000
 bounce = 5000
-rebound = 4500
-travel = 0.14
+rebound = 8000
+travel = 0.13
 
 [wheel.fr.coilover]
-spring-constant = 33000
+spring-constant = 43000
 bounce = 5000
-rebound = 4500
-travel = 0.14
+rebound = 8000
+travel = 0.13
 
 [wheel.rl.coilover]
-spring-constant = 38750
-bounce = 5000
-rebound = 4500
-travel = 0.16
+spring-constant = 50500
+bounce = 6000
+rebound = 9000
+travel = 0.15
 
 [wheel.rr.coilover]
-spring-constant = 38750
-bounce = 5000
-rebound = 4500
-travel = 0.16
+spring-constant = 50500
+bounce = 6000
+rebound = 9000
+travel = 0.15
 
 [wheel.fl.brake]
 texture = rotor_worn.png
@@ -273,19 +273,19 @@ position = 0.1, 0.5, -0.45
 
 [particle-01]
 mass = 130.0
-position = 0.4, -1.07, -0.20
+position = 0.4, -1.07, -0.25
 
 [particle-02]
 mass = 130.0
-position = -0.4, -1.07, -0.20
+position = -0.4, -1.07, -0.25
 
 [particle-03]
 mass = 215.0
-position = 0.4, 1.09, -0.20
+position = 0.4, 1.09, -0.25
 
 [particle-04]
 mass = 215.0
-position = -0.4, 1.09, -0.20
+position = -0.4, 1.09, -0.25
 
 [camera.0]
 name = hood
