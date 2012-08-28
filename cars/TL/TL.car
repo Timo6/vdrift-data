@@ -278,19 +278,19 @@ position = 0.0, 0.11, -0.36
 
 [particle-02]
 mass = 142.0
-position =  0.45, -1.30, -0.2
+position =  0.45, -1.30, -0.25
 
 [particle-03]
 mass = 142.0
-position = -0.45, -1.30, -0.2
+position = -0.45, -1.30, -0.25
 
 [particle-04]
 mass = 140.0
-position =  0.45, 1.32, -0.2
+position =  0.45, 1.32, -0.25
 
 [particle-05]
 mass = 140.0
-position = -0.45, 1.32, -0.2
+position = -0.45, 1.32, -0.25
 
 [camera.0]
 name = hood
