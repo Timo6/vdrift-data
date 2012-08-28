@@ -76,12 +76,12 @@ lift-coefficient = -0.5
 lift-efficiency = 0.95
 
 [antiroll.front]
-stiffness = 15000
+stiffness = 10000
 link-a = wheel.fl
 link-b = wheel.fr
 
 [antiroll.rear]
-stiffness = 8000
+stiffness = 18000
 link-a = wheel.rl
 link-b = wheel.rr
 
@@ -134,27 +134,27 @@ chassis = -0.25, -1.94, 0.0
 hub = 0.73, -1.31, -0.49
 
 [wheel.fl.coilover]
-spring-constant = 55000.0
-bounce = 2300.0
-rebound = 2500.0
+spring-constant = 61100
+bounce = 3000
+rebound = 5000
 travel = 0.12
 
 [wheel.fr.coilover]
-spring-constant = 55000.0
-bounce = 2300.0
-rebound = 2500.0
+spring-constant = 61100
+bounce = 3000
+rebound = 5000
 travel = 0.12
 
 [wheel.rl.coilover]
-spring-constant = 45000.0
-bounce = 2000.0
-rebound = 2200.0
+spring-constant = 50000
+bounce = 2500
+rebound = 4000
 travel = 0.12
 
 [wheel.rr.coilover]
-spring-constant = 45000.0
-bounce = 2000.0
-rebound = 2200.0
+spring-constant = 50000
+bounce = 2500
+rebound = 4000
 travel = 0.12
 
 [wheel.fl.brake]
@@ -262,6 +262,15 @@ draw = emissive
 texture = reverse.png
 mesh = body.joe
 draw = emissive
+
+# collision shape
+[body.box]
+center = 0.0, 0.0, -0.05
+size = 1.7, 4.4, 0.8
+
+[top.box]
+center = 0.0, -0.45, 0.5
+size = 1.3, 2.0, 0.3
 
 # these are used to calculate the weight distribution and balance
 [particle-00]
