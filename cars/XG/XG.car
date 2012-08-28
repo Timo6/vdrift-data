@@ -1,6 +1,6 @@
 
 [engine]
-position = 0.0, 1.42, -0.24
+position = 0.0, 0.8, -0.3
 mass = 180.0
 max-power = 1.72e5
 peak-engine-rpm = 5900.0
@@ -142,27 +142,27 @@ hub = 0.74, -1.35, -0.43
 
 [wheel.fl.coilover]
 spring-constant = 102000
-bounce = 11050
-rebound = 10700
-travel = 0.32
+bounce = 5000
+rebound = 10000
+travel = 0.15
 
 [wheel.fr.coilover]
 spring-constant = 102000
-bounce = 11050
-rebound = 10700
-travel = 0.32
+bounce = 5000
+rebound = 10000
+travel = 0.15
 
 [wheel.rl.coilover]
 spring-constant = 98000
-bounce = 10000
-rebound = 9992.14
-travel = 0.32
+bounce = 5000
+rebound = 10000
+travel = 0.15
 
 [wheel.rr.coilover]
 spring-constant = 98000
-bounce = 10000
-rebound = 9992.14
-travel = 0.32
+bounce = 5000
+rebound = 10000
+travel = 0.15
 
 [wheel.fl.brake]
 texture = rotor_worn.png
@@ -281,19 +281,19 @@ position = 0.0, 0.96, -0.47
 
 [particle-02]
 mass = 245.0
-position =  0.5, -1.3, 0.09
+position =  0.5, 1.3, -0.15
 
 [particle-03]
 mass = 245.0
-position = -0.5, -1.3, 0.09
+position = -0.5, 1.3, -0.15
 
 [particle-04]
 mass = 225.0
-position =  0.45, 1.6, -0.13
+position =  0.5, -1.4, -0.15
 
 [particle-05]
 mass = 225.0
-position = -0.45, 1.6, -0.13
+position = -0.5, -1.4, -0.15
 
 [camera.0]
 name = hood
