@@ -1,6 +1,6 @@
 
 [engine]
-position = 0.13, -1.46, -0.18
+position = 0.0, -1.40, -0.27
 mass = 210.0
 max-power = 357900
 peak-engine-rpm = 5500.0
@@ -63,39 +63,39 @@ volume = 0.0492
 fuel-density = 730.0
 
 [wing-front]
-position = 0.0, 0.0, 0.2
-frontal-area = 2
-drag-coefficient = 0.3
-
-[wing-center]
-position = 0.0, 1.9, 0.60
+position = 0.0, 1.9, 0.0
 frontal-area = 0.2
 drag-coefficient = 0.0
-surface-area = 0.3
+surface-area = 0.5
 lift-coefficient = -0.5
 lift-efficiency = 0.95
 
+[wing-center]
+position = 0.0, 0.0, 0.1
+frontal-area = 2.0
+drag-coefficient = 0.3
+
 [wing-rear]
-position = 0.0, -2.14, 0.37
+position = 0.0, -2.14, 0.2
 frontal-area = 0.05
 drag-coefficient = 0.0
 surface-area = 0.5
-lift-coefficient = -3.2
+lift-coefficient = -2.0
 lift-efficiency = 0.95
 
 [antiroll.front]
-stiffness = 18000
+stiffness = 10000
 link-a = wheel.fl
 link-b = wheel.fr
 
 [antiroll.rear]
-stiffness = 20000
+stiffness = 15000
 link-a = wheel.rl
 link-b = wheel.rr
 
 [wheel.fl]
 size = 225, 40, 18	# 996 GT3
-position = -0.721, 1.193, -0.47
+position = -0.733, 1.193, -0.40
 camber = -1.0
 caster = 1.0
 toe = 0.5
@@ -104,7 +104,7 @@ steering = 30
 
 [wheel.fr]
 size = 225, 40, 18	# 996 GT3
-position = 0.721, 1.193, -0.47
+position = 0.733, 1.193, -0.40
 camber = 1.0
 caster = 1.0
 toe = -0.5
@@ -113,57 +113,57 @@ steering = 30
 
 [wheel.rl]
 size = 285, 30, 18
-position = -0.721, -1.127, -0.47
+position = -0.761, -1.13, -0.40
 camber = -0.5
 caster = 0.0
 toe = 0.0
 
 [wheel.rr]
 size = 285, 30, 18
-position = 0.721, -1.127, -0.47
+position = 0.761, -1.13, -0.40
 camber = 0.5
 caster = 0.0
 toe = 0.0
 
 [wheel.fl.lower-arm]
-chassis = 0, 0, 0
-hub = -0.721, 1.193, -0.47
+chassis = 0.0, 1.19, -0.46
+hub = -0.72, 1.193, -0.47
 
 [wheel.fr.lower-arm]
-chassis = 0, 0, 0
-hub = 0.721, 1.193, -0.47
+chassis = 0.0, 1.19, -0.46
+hub = 0.72, 1.193, -0.47
 
 [wheel.rl.lower-arm]
-chassis = 0, -0.6, 0
-hub = -0.721, -1.127, -0.47
+chassis = 0.0, -1.10, -0.46
+hub = -0.75, -1.13, -0.47
 
 [wheel.rr.lower-arm]
-chassis = 0, -0.6, 0
-hub = 0.721, -1.127, -0.47
+chassis = 0.0, -1.10, -0.47
+hub = 0.75, -1.13, -0.47
 
 [wheel.fl.coilover]
-spring-constant = 25000
-bounce = 5000
-rebound = 4500
-travel = 0.24
+spring-constant = 65000
+bounce = 7000
+rebound = 15000
+travel = 0.12
 
 [wheel.fr.coilover]
-spring-constant = 25000
-bounce = 5000
-rebound = 4500
-travel = 0.24
+spring-constant = 65000
+bounce = 7000
+rebound = 15000
+travel = 0.12
 
 [wheel.rl.coilover]
-spring-constant = 29750
-bounce = 5000
-rebound = 4500
-travel = 0.26
+spring-constant = 80000
+bounce = 8000
+rebound = 16000
+travel = 0.13
 
 [wheel.rr.coilover]
-spring-constant = 29750
-bounce = 5000
-rebound = 4500
-travel = 0.26
+spring-constant = 80000
+bounce = 8000
+rebound = 16000
+travel = 0.13
 
 [wheel.fl.brake]
 texture = rotor_shiny_slotted_drilled.png
@@ -272,25 +272,26 @@ mesh = body.joe
 draw = emissive
 
 # these are used to calculate the weight distribution and balance
+# weight distribution 44:56
 [particle-00]
 mass = 60.0
 position = 0.1, 0.5, -0.45
 
 [particle-01]
 mass = 130.0
-position = 0.4, -1.07, 0.1
+position = 0.4, -1.07, -0.20
 
 [particle-02]
 mass = 130.0
-position = -0.4, -1.07, 0.1
+position = -0.4, -1.07, -0.20
 
 [particle-03]
 mass = 215.0
-position = 0.4, 1.09, 0.0
+position = 0.4, 1.09, -0.20
 
 [particle-04]
 mass = 215.0
-position = -0.4, 1.09, 0.0
+position = -0.4, 1.09, -0.20
 
 [camera.0]
 name = hood
