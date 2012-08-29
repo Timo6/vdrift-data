@@ -1,5 +1,5 @@
 [engine]
-position = 0.0, 1.4, -0.1
+position = 0.0, 1.55, -0.45
 mass = 90.0
 #max-power = 1.193e5
 max-power = 63000
@@ -73,37 +73,37 @@ lift-coefficient = -0.5
 lift-efficiency = 0.95
 
 [antiroll.front]
-stiffness = 15000
+stiffness = 10000
 link-a = wheel.fl
 link-b = wheel.fr
 
 [antiroll.rear]
-stiffness = 8000
+stiffness = 15000
 link-a = wheel.rl
 link-b = wheel.rr
 
 [wheel.fl.coilover]
 spring-constant = 55000.0
-bounce = 2300.0
-rebound = 2500.0
+bounce = 2500.0
+rebound = 6000.0
 travel = 0.12
 
 [wheel.fr.coilover]
 spring-constant = 55000.0
-bounce = 2300.0
-rebound = 2500.0
+bounce = 2500.0
+rebound = 6000.0
 travel = 0.12
 
 [wheel.rl.coilover]
 spring-constant = 45000.0
 bounce = 2000.0
-rebound = 2200.0
+rebound = 5000.0
 travel = 0.12
 
 [wheel.rr.coilover]
 spring-constant = 45000.0
 bounce = 2000.0
-rebound = 2200.0
+rebound = 5000.0
 travel = 0.12
 
 [wheel.fl.brake]
@@ -194,7 +194,7 @@ hub = 0.80, -1.20, -0.70
 
 [wheel.fl]
 size = 205,50,17
-position = -0.80, 1.53, -0.65
+position = -0.80, 1.53, -0.60
 camber = -1.33
 caster = 6.12
 toe = 0
@@ -203,7 +203,7 @@ steering = 33
 
 [wheel.fr]
 size = 205,50,17
-position = 0.80, 1.53, -0.65
+position = 0.80, 1.53, -0.60
 camber = 1.33
 caster = 6.12
 toe = 0
@@ -212,14 +212,14 @@ steering = 33
 
 [wheel.rl]
 size = 205,50,17
-position = -0.80, -1.27, -0.65
+position = -0.80, -1.27, -0.60
 camber = -0.45
 caster = 0.28
 toe = -0.2
 
 [wheel.rr]
 size = 205,50,17
-position = 0.80, -1.27, -0.65
+position = 0.80, -1.27, -0.60
 camber = 0.45
 caster = 0.28
 toe = 0.2
@@ -254,39 +254,47 @@ position = -0.38, 0.64, 0.12
 rotation = 90, 0, 0 #in degrees 
 max-angle = 90
 
+# collision shape
+[body.box]
+center = 0.0, 0.11, -0.24
+size = 1.8, 4.4, 0.7
+
+[cabin.box]
+center = 0.0, -0.24, 0.41
+size = 1.6, 2.5, 0.6
 
 # these are used to calculate the weight distribution and balance
 [particle-00]
 mass = 180
-position = 1.11, -2.3, -0.22
+position = 1.11, -2.0, -0.25
 
 [particle-01]
 mass = 180
-position = -1.11, -2.3, -0.22
+position = -1.11, -2.0, -0.25
 
 [particle-02]
 mass = 180
-position = 1.11, 2.3, -0.22
+position = 1.11, 2.3, -0.25
 
 [particle-03]
 mass = 180
-position = -1.11, 2.3, -0.22
+position = -1.11, 2.3, -0.25
 
 [particle-04]
 mass = 20
-position = 1.11, -2.32, -0.62
+position = 1.11, -2.32, -0.60
 
 [particle-05]
 mass = 20
-position = 1.11, 2.32, -0.62
+position = 1.11, 2.32, -0.60
 
 [particle-06]
 mass = 20
-position = -1.11, -2.32, -0.62
+position = -1.11, -2.32, -0.60
 
 [particle-07]
 mass = 20
-position = -1.11, 2.32, -0.62
+position = -1.11, 2.32, -0.60
 
 
 [camera.0]
