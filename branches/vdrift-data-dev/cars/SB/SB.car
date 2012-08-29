@@ -1,6 +1,6 @@
 
 [engine]
-position = 0.13, -1.16, -0.18
+position = 0.0, -1.16, -0.20
 mass = 145.0
 max-power = 0.71e5
 peak-engine-rpm = 5000.0
@@ -132,14 +132,14 @@ chassis = -0.70, 0.3, -0.58
 hub = 0.90, -0.95, -0.48
 
 [wheel.fl.coilover]
-spring-constant = 12000
-bounce = 700
+spring-constant = 15000
+bounce = 800
 rebound = 2000
 travel = 0.24
 
 [wheel.fr.coilover]
-spring-constant = 12000
-bounce = 700
+spring-constant = 15000
+bounce = 800
 rebound = 2000
 travel = 0.24
 
@@ -208,21 +208,21 @@ texture = tire/touring.png
 scale = -1, 1, 1
 
 [wheel.fl.rim]
-texture = oem_wheel.png, oem_wheel-misc1.png
-hubmesh = oem_wheel.joe
+texture = wheel/5_spoke_thick.png
+hubmesh = wheel/5_spoke_thick.joe
 
 [wheel.fr.rim]
-texture = oem_wheel.png, oem_wheel-misc1.png
-hubmesh = oem_wheel.joe
+texture = wheel/5_spoke_thick.png
+hubmesh = wheel/5_spoke_thick.joe
 scale = -1, 1, 1
 
 [wheel.rl.rim]
-texture = oem_wheel.png, oem_wheel-misc1.png
-hubmesh = oem_wheel.joe
+texture = wheel/5_spoke_thick.png
+hubmesh = wheel/5_spoke_thick.joe
 
 [wheel.rr.rim]
-texture = oem_wheel.png, oem_wheel-misc1.png
-hubmesh = oem_wheel.joe
+texture = wheel/5_spoke_thick.png
+hubmesh = wheel/5_spoke_thick.joe
 scale = -1, 1, 1
 
 [steering]
@@ -230,7 +230,7 @@ texture = steering_wheel.png
 mesh = steering_wheel.joe
 position = 0.00, 0.22, 0.04
 rotation = 87.5, 0.0, 0.0
-max-angle = 320
+max-angle = 90
 
 [driver]
 texture = driver2.png, driver-misc1.png
@@ -259,23 +259,23 @@ draw = emissive
 # these are used to calculate the weight distribution and balance
 [particle-00]
 mass = 10.0
-position = 0.1, 0.5, -0.45
+position = 0.0, 0.5, -0.45
 
 [particle-01]
 mass = 20.0
-position = 0.4, -1.06, 0.1
+position = 0.4, -1.06, -0.2
 
 [particle-02]
 mass = 20.0
-position = -0.4, -1.06, 0.1
+position = -0.4, -1.06, -0.2
 
 [particle-03]
 mass = 40.0
-position = 0.4, 1.35, 0.0
+position = 0.4, 1.35, -0.2
 
 [particle-04]
 mass = 40.0
-position = -0.4, 1.35, 0.0
+position = -0.4, 1.35, -0.2
 
 [camera.0]
 name = hood
