@@ -17,6 +17,7 @@ uniform vec3 eyespaceLightDirection;
 uniform mat4 invProjectionMatrix;
 uniform mat4 invViewMatrix;
 uniform mat4 defaultViewMatrix;
+uniform mat4 defaultProjectionMatrix;
 uniform vec4 reflectedLightColor;
 
 #ifdef DIRECTIONAL
@@ -121,15 +122,109 @@ vec3 genericAmbient(vec3 n)
 	#define SCREENSPACE
 #endif
 
-const vec3 scatterBeta = vec3(7.87e-6,1.573e-5,3.63e-5);
-const float scatterDensity = 1.0;
-vec3 inscatter(float worldDepth)
+vec3 getNDC(vec2 screencoord, float gbuf_depth)
 {
-    return 1-exp(-worldDepth*scatterBeta*scatterDensity);
+		return vec3(screencoord.x, screencoord.y, gbuf_depth)*2.0-vec3(1.0);
 }
-vec3 extinction(float worldDepth)
+		
+vec3 NDCtoEyespace(vec3 normalizedDevicePosition)
 {
-    return exp(-worldDepth*scatterBeta*scatterDensity);
+		// transform from NDCs to eyespace
+		vec4 reconstructedEyespacePosition = invProjectionMatrix * 
+			vec4(normalizedDevicePosition.x,
+				normalizedDevicePosition.y,
+				normalizedDevicePosition.z,
+				1.0);
+		reconstructedEyespacePosition.xyz /= reconstructedEyespacePosition.w;
+        return reconstructedEyespacePosition.xyz;
+}
+
+vec3 screenToEyespace(vec2 screencoord, float gbuf_depth)
+{
+    return NDCtoEyespace(getNDC(screencoord, gbuf_depth));
+}
+
+vec3 eyespaceToNDC(vec3 eyespacePosition)
+{
+    vec4 projectedpos = defaultProjectionMatrix*(vec4(eyespacePosition, 1.0));
+    return projectedpos.xyz/projectedpos.w;
+}
+
+vec3 NDCtoScreen(vec3 ndc)
+{
+    return (ndc+vec3(1.0))*0.5;
+}
+
+vec3 eyespaceToScreen(vec3 eyespacePosition)
+{
+    return NDCtoScreen(eyespaceToNDC(eyespacePosition));
+}
+
+// returns true if we're done
+bool findReflectionDistanceStep(float curDistance, inout float lastDistance, inout float lastDepth, vec3 screenspacePosition, vec3 reconstructedEyespacePosition, vec3 eyespaceReflectionDirection)
+{
+    vec3 reflectionSampleEyespace = reconstructedEyespacePosition + eyespaceReflectionDirection*curDistance;
+    vec3 reflectionSampleScreen = eyespaceToScreen(reflectionSampleEyespace);
+
+    float gbuf_depth = texture(depthSampler, reflectionSampleScreen.xy).r;
+    vec3 sampleNDC = getNDC(reflectionSampleScreen.xy, gbuf_depth);
+
+    //if (gbuf_depth <= reflectionSampleScreen.z && gbuf_depth > screenspacePosition.z)
+    if (gbuf_depth <= reflectionSampleScreen.z && gbuf_depth >= lastDepth - (reflectionSampleScreen.z-lastDepth))
+    //if (gbuf_depth <= reflectionSampleScreen.z && gbuf_depth >= lastDepth - 0.001)
+    //if (gbuf_depth <= reflectionSampleScreen.z && gbuf_depth >= lastDepth)
+    //if (gbuf_depth <= reflectionSampleScreen.z)
+        return true;
+
+    lastDistance = curDistance;
+    lastDepth = reflectionSampleScreen.z;
+
+    return false;
+}
+
+float findReflectionDistance(vec3 screenspacePosition, vec3 reconstructedEyespacePosition, vec3 eyespaceReflectionDirection)
+{
+    const int numDistances = 16;
+    const float stepDistance = 0.25/numDistances;
+
+    float lastDistance = 0;
+    float curDistance = 0;
+    float lastDepth = screenspacePosition.z;
+
+    float distanceCoeff = max(1.0,length(reconstructedEyespacePosition));
+
+    bool foundHit = false;
+
+    for (int i = 0; i < numDistances; i++)
+    {
+        curDistance = (i+1)*distanceCoeff*stepDistance;
+
+        foundHit = findReflectionDistanceStep(curDistance, lastDistance, lastDepth, screenspacePosition, reconstructedEyespacePosition, eyespaceReflectionDirection);
+        if (foundHit)
+        {
+            return curDistance;
+        }
+    }
+    
+    return 1000.0;
+}
+
+// zero at min, 1 at max
+float fade(float val, float min, float max)
+{
+    float t = clamp((val-min)/(max-min), 0.0, 1.0);
+    return t * t * (3.0 - 2.0 * t);
+}
+
+float screenFade(vec3 screenPos)
+{
+    const float screenFadeStart = 0.75;
+    return fade(screenPos.x, 0, 1-screenFadeStart)
+        * fade(screenPos.x, 1, screenFadeStart)
+        * fade(screenPos.y, 0, 1-screenFadeStart)
+        * fade(screenPos.y, 1, screenFadeStart)
+        * (screenPos.z > 1.0 ? 0.0 : 1.0) 
+        ;
 }
 
 void main(void)
@@ -187,31 +282,31 @@ void main(void)
         vec3 reconstructedEyespacePosition = screenToEyespace(screencoord, gbuf_depth);
 
 		vec3 V = normalize(reconstructedEyespacePosition.xyz);
-		
-		
-		vec3 normalizedDevicePosition = vec3(screencoord.x, screencoord.y, gbuf_depth)*2.0-vec3(1.0);
-		
-		// transform from NDCs to eyespace
-		vec4 reconstructedEyespacePosition = invProjectionMatrix * 
-			vec4(normalizedDevicePosition.x,
-				normalizedDevicePosition.y,
-				normalizedDevicePosition.z,
-				1.0);
-		reconstructedEyespacePosition.xyz /= reconstructedEyespacePosition.w;
-		vec3 V = -normalize(reconstructedEyespacePosition.xyz);
+
+        vec3 reconstructedEyespacePosition = screenToEyespace(screencoord, gbuf_depth);
+
+		vec3 V = normalize(reconstructedEyespacePosition.xyz);
 		
 		// compute the reflection direction
 		vec3 eyespaceReflectionDirection = reflect(V, normal);
-		//vec3 eyespaceReflectionDirection = reflect(V, vec3(0,1,0)*mat3(defaultViewMatrix));
-        //mat3 invViewMatrix3 = transpose(mat3(defaultViewMatrix));
         mat3 invViewMatrix3 = mat3(invViewMatrix);
 		vec3 worldspaceReflectionDirection = (invViewMatrix3*eyespaceReflectionDirection).xyz;
-		//vec3 worldspaceReflectionDirection = reflect(invViewMatrix3*V, vec3(0,0,-1));
-        
-		//vec3 reflectedLight = texture(reflectionCubeSampler, worldspaceReflectionDirection.xzy*vec3(1,-1,1)).rgb;
-		vec3 reflectedLight = pow(textureLod(reflectionCubeSampler, worldspaceReflectionDirection.xzy*vec3(1,-1,1), (1-mpercent)*7).rgb,vec3(2.2))*reflectedLightColor.rgb;
+
+		vec3 reflectedLight = pow(textureLod(reflectionCubeSampler, worldspaceReflectionDirection.xzy*vec3(1,1,1), (1-mpercent)*7).rgb,vec3(2.2))*reflectedLightColor.rgb;
+
+        #ifdef REFLECTIONS_HIGH
+        vec3 screenSpaceReflectedLight = vec3(0);
+        float reflectionDistance = findReflectionDistance(vec3(screencoord, gbuf_depth), reconstructedEyespacePosition, eyespaceReflectionDirection);
+        vec3 reflectionSampleEyespace = reconstructedEyespacePosition + eyespaceReflectionDirection*reflectionDistance;
+        vec3 reflectionSampleScreen = eyespaceToScreen(reflectionSampleEyespace);
+        vec4 reflectedDiffuse = texture(diffuseAlbedoSampler, reflectionSampleScreen.xy);
+        float screenSpaceReflectionAmount = screenFade(vec3(reflectionSampleScreen.xy,reflectionSampleEyespace.z));
+        const vec3 reflectionTint = vec3(0.127828, 0.134996, 0.143064);
+        screenSpaceReflectedLight = reflectedDiffuse.xyz*reflectionTint;
+        reflectedLight = mix(reflectedLight,screenSpaceReflectedLight,screenSpaceReflectionAmount);
+        #endif
 		
-		float alpha_h = clamp(dot(V,normal),-1.0,1.0);
+		float alpha_h = clamp(dot(-V,normal),-1.0,1.0);
 		reflectedLight *= FresnelEquation(Rf0*0.2,alpha_h)*mpercent;
 		
 		if (carpaintMask > 0.5)
