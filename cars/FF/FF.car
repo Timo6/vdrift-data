@@ -257,13 +257,17 @@ scale = 0.72
 texture = body00.png, body-misc1.png
 mesh = body.joe
 
-[body.box]
-center = 0.0, 0.3, -0.5
-size = 1.4, 3.4, 0.3
+[sidepods.box]
+center = 0.0, 0.03, -0.47
+size = 1.4, 2.7, 0.3
 
-[center.box]
-center = 0.0, 0.0, -0.15
-size = 0.5, 3.0, 0.8
+[center.capsule]
+center = 0.0, 0.27, -0.37
+size = 0.5, 3.4, 0.5
+
+[rollover.capsule]
+center = 0.0, -0.20, 0.0
+size = 0.4, 1.0, 0.4
 
 [interior]
 texture = interior.png
