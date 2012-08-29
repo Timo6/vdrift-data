@@ -2,7 +2,7 @@
 
 [engine]
 include = engine/1zz-fe
-position = 0.0, -0.8, -0.20
+position = 0.0, -0.8, -0.35
 
 [clutch]
 sliding = 0.27
@@ -142,52 +142,24 @@ hub = 0.70, -1.15, -0.60
 spring-constant = 35000
 bounce = 2500
 rebound = 7500
-damper-factor-1 = 0.06, 1.2
-damper-factor-2 = 0.08, 1.1
-damper-factor-3 = 0.1, 1
-damper-factor-4 = 0.2, 0.9
-damper-factor-5 = 0.5, 0.5
-damper-factor-6 = 1, 0.3
-damper-factor-7 = 5, 0.1
 travel = 0.19
 
 [wheel.fr.coilover]
 spring-constant = 35000
 bounce = 2500
 rebound = 7500
-damper-factor-1 = 0.06, 1.2
-damper-factor-2 = 0.08, 1.1
-damper-factor-3 = 0.1, 1
-damper-factor-4 = 0.2, 0.9
-damper-factor-5 = 0.5, 0.5
-damper-factor-6 = 1, 0.3
-damper-factor-7 = 5, 0.1
 travel = 0.19
 
 [wheel.rl.coilover]
 spring-constant = 50000
 bounce = 3000
 rebound = 9000
-damper-factor-1 = 0.06, 1.2
-damper-factor-2 = 0.08, 1.1
-damper-factor-3 = 0.1, 1
-damper-factor-4 = 0.2, 0.9
-damper-factor-5 = 0.5, 0.5
-damper-factor-6 = 1, 0.3
-damper-factor-7 = 5, 0.1
 travel = 0.19
 
 [wheel.rr.coilover]
 spring-constant = 50000
 bounce = 3000
 rebound = 9000
-damper-factor-1 = 0.06, 1.2
-damper-factor-2 = 0.08, 1.1
-damper-factor-3 = 0.1, 1
-damper-factor-4 = 0.2, 0.9
-damper-factor-5 = 0.5, 0.5
-damper-factor-6 = 1, 0.3
-damper-factor-7 = 5, 0.1
 travel = 0.19
 
 [wheel.fl.brake]
@@ -263,27 +235,27 @@ scale = -1, 1, 1
 # these are used to calculate the weight distribution and balance
 [particle-00]
 mass = 30.0
-position = 0.0, -1.28, -0.26
+position = 0.0, -1.28, -0.25
 
 [particle-01]
 mass = 60.0
-position = 0.0, 0.11, -0.26
+position = 0.0, 0.11, -0.25
 
 [particle-02]
 mass = 116.0
-position = -0.39, -1.7, -0.28
+position = -0.39, -1.7, -0.32
 
 [particle-03]
 mass = 116.0
-position = 0.39, -1.7, -0.28
+position = 0.39, -1.7, -0.32
 
 [particle-04]
 mass = 166.0
-position = -0.39, 1.32, -0.28
+position = -0.39, 1.32, -0.32
 
 [particle-05]
 mass = 166.0
-position = 0.39, 1.32, -0.28
+position = 0.39, 1.32, -0.32
 
 [body]
 texture = body00.png, body-misc1.png
