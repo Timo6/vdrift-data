@@ -85,7 +85,7 @@ size = 285, 50, 15
 position = -0.76, 1.40, -0.45
 camber = -3.0
 caster = 0.0
-toe = 0.5
+toe = 0.0
 ackermann = 8.2	# 50% ackermann
 steering = 30
 
@@ -94,7 +94,7 @@ size = 285, 50, 15
 position = 0.76, 1.40, -0.45
 camber = 3.0
 caster = 0.0
-toe = -0.5
+toe = 0.0
 ackermann = -8.2
 steering = 30
 
@@ -103,14 +103,14 @@ size = 285, 50, 15
 position = -0.76, -1.18, -0.45
 camber = -3.0
 caster = 0.0
-toe = -0.5
+toe = -0.25
 
 [wheel.rr]
 size = 285, 50, 15
 position = 0.76, -1.18, -0.45
 camber = 3.0
 caster = 0.0
-toe = 0.5
+toe = 0.25
 
 [wheel.fl.lower-arm]
 chassis = 0.65, 1.40, -0.45
@@ -169,7 +169,7 @@ area = 0.01
 [wheel.rl.brake]
 friction = 0.8
 max-pressure = 2e6
-bias = 0.4
+bias = 0.5
 radius = 0.15
 area = 0.01
 handbrake = 1.0
@@ -177,7 +177,7 @@ handbrake = 1.0
 [wheel.rr.brake]
 friction = 0.8
 max-pressure = 2e6
-bias = 0.4
+bias = 0.5
 radius = 0.15
 area = 0.01
 handbrake = 1.0
