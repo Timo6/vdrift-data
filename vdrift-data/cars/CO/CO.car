@@ -5,7 +5,7 @@ mass = 308.0
 max-power = 202084.662
 peak-engine-rpm = 5200.0
 rpm-limit = 7050.0
-inertia = 0.5
+inertia = 0.25
 idle = 0.02
 start-rpm = 1000
 stall-rpm = 350
@@ -42,10 +42,13 @@ gear-ratio-2 = 1.78
 gear-ratio-3 = 1.41
 gear-ratio-4 = 1.00
 shift-time = 0.15
+link = differential.rear
 
-[differential-rear]
+[differential.rear]
 final-drive = 3.77
 anti-slip = 350.0
+link-a = wheel.rl
+link-b = wheel.rr
 
 [fuel-tank]
 position = 0.0, -1.6, -0.35
@@ -74,55 +77,109 @@ surface-area = 0.5
 lift-coefficient = -0.5
 lift-efficiency = 0.95
 
+[antiroll.front]
+stiffness = 6000
+link-a = wheel.fl
+link-b = wheel.fr
+
+[antiroll.rear]
+stiffness = 4000
+link-a = wheel.rl
+link-b = wheel.rr
+
+[wheel.fl]
+size = 225, 65, 15
+position = -0.85, 1.41, -0.43
+camber = -1.33
+caster = 6.12
+toe = 0.0 #0.5
+ackermann = 8.86	# 50% ackermann
+steering = 30
+
+[wheel.fr]
+size = 225, 65, 15
+position = 0.85, 1.41, -0.43
+camber = 1.33
+caster = 6.12
+toe = 0.0 #-0.5
+ackermann = -8.86
+steering = 30
+
+[wheel.rl]
+size = 295, 50, 15
+position = -0.85, -1.25, -0.43
+camber = -0.45
+caster = 0.28
+toe = 0.5 #0.0
+
+[wheel.rr]
+size = 295, 50, 15
+position = 0.85, -1.25, -0.43
+camber = 0.45
+caster = 0.28
+toe = -0.5 #0.0
+
+[wheel.fl.lower-arm]
+chassis = -0.35, 1.41, -0.30
+hub = -0.85, 1.41, -0.43
+
+[wheel.fr.lower-arm]
+chassis = 0.35, 1.41, -0.30
+hub = 0.85, 1.41, -0.43
+
+[wheel.rl.lower-arm]
+chassis = -0.35, -1.25, -0.30
+hub = -0.85, -1.25, -0.43
+
+[wheel.rr.lower-arm]
+chassis = 0.35, -1.25, -0.30
+hub = 0.85, -1.25, -0.43
+
 [wheel.fl.coilover]
 spring-constant = 50000
 bounce = 2500
 rebound = 7600
 travel = 0.15
-anti-roll = 6000
 
 [wheel.fr.coilover]
 spring-constant = 50000
 bounce = 2500
 rebound = 7600
 travel = 0.15
-anti-roll = 6000
 
 [wheel.rl.coilover]
 spring-constant = 40000
 bounce = 2250
 rebound = 6800
 travel = 0.15
-anti-roll = 4000
 
 [wheel.rr.coilover]
 spring-constant = 40000
 bounce = 2250
 rebound = 6800
 travel = 0.15
-anti-roll = 4000
 
 [wheel.fl.brake]
 texture = rotor_worn.png
 friction = 0.73
-max-pressure = 2.5e6
-bias = 0.55
+max-pressure = 2.0e6
+bias = 0.70
 radius = 0.17
 area = 0.015
 
 [wheel.fr.brake]
 texture = rotor_worn.png
 friction = 0.73
-max-pressure = 2.5e6
-bias = 0.55
+max-pressure = 2.0e6
+bias = 0.70
 radius = 0.17
 area = 0.015
 
 [wheel.rl.brake]
 texture = rotor_worn.png
 friction = 0.73
-max-pressure = 2.5e6
-bias = 0.45
+max-pressure = 2.0e6
+bias = 0.30
 radius = 0.14
 area = 0.015
 handbrake = 1.0
@@ -130,92 +187,54 @@ handbrake = 1.0
 [wheel.rr.brake]
 texture = rotor_worn.png
 friction = 0.73
-max-pressure = 2.5e6
-bias = 0.45
+max-pressure = 2.0e6
+bias = 0.30
 radius = 0.14
 area = 0.015
 handbrake = 1.0
 
 [wheel.fl.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 225, 65, 15
-type = &tire/touring
 
 [wheel.fr.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 225, 65, 15
-type = &tire/touring
+scale = -1, 1, 1
 
 [wheel.rl.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 295, 50, 15
-type = &tire/touring
 
 [wheel.rr.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 295, 50, 15
-type = &tire/touring
-
-[wheel.fl.hinge]
-wheel = -0.85, 1.41, -0.43
-chassis = 0.80, 1.41, -0.1
-
-[wheel.fr.hinge]
-wheel = 0.85, 1.41, -0.43
-chassis = -0.80, 1.41, -0.1
-
-[wheel.rl.hinge]
-wheel = -0.85, -1.25, -0.43
-chassis = 0.80, -1.25, -0.1
-
-[wheel.rr.hinge]
-wheel = 0.85, -1.25, -0.43
-chassis = -0.80, -1.25, -0.1
-
-[wheel.fl]
-texture = oem_wheel.png, oem_wheel-misc1.png
-mesh = oem_wheel.joe
-position = -0.85, 1.41, -0.43
-camber = -1.33
-caster = 6.12
-toe = 0.5
-ackermann = 8.86	# 50% ackermann
-steering = 30
-
-[wheel.fr]
-texture = oem_wheel.png, oem_wheel-misc1.png
-mesh = oem_wheel.joe
 scale = -1, 1, 1
-position = 0.85, 1.41, -0.43
-camber = 1.33
-caster = 6.12
-toe = -0.5
-ackermann = -8.86
-steering = 30
 
-[wheel.rl]
+[wheel.fl.rim]
 texture = oem_wheel.png, oem_wheel-misc1.png
-mesh = oem_wheel.joe
-position = -0.85, -1.25, -0.43
-camber = -0.45
-caster = 0.28
-toe = 0.0
+hubmesh = oem_wheel.joe
 
-[wheel.rr]
+[wheel.fr.rim]
 texture = oem_wheel.png, oem_wheel-misc1.png
-mesh = oem_wheel.joe
+hubmesh = oem_wheel.joe
 scale = -1, 1, 1
-position = 0.85, -1.25, -0.43
-camber = 0.45
-caster = 0.28
-toe = 0.0
+
+[wheel.rl.rim]
+texture = oem_wheel.png, oem_wheel-misc1.png
+hubmesh = oem_wheel.joe
+
+[wheel.rr.rim]
+texture = oem_wheel.png, oem_wheel-misc1.png
+hubmesh = oem_wheel.joe
+scale = -1, 1, 1
 
 [steering]
 texture = steering_wheel.png
 mesh = steering_wheel.joe
 position = -0.43, -0.13, 0.14
 rotation = 87.5, 0.0, 0.0
-max-angle = 320
+max-angle = 90
 
 [driver]
 texture = driver2.png, driver-misc1.png

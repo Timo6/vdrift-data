@@ -1,5 +1,5 @@
 [engine]
-position = 0.0, 1.4, -0.1
+position = 0.0, 1.4, -0.50
 mass = 150.0
 #max-power = 1.193e5
 max-power = 55050
@@ -36,11 +36,14 @@ gear-ratio-2 = 2
 gear-ratio-3 = 1.4
 gear-ratio-4 = 1.1
 gear-ratio-5 = 0.85
-shift-delay=0.25
+shift-time = 0.25
+link = differential.front
 
-[differential-front]
+[differential.front]
 final-drive = 3.89
 anti-slip = 220.0
+link-a = wheel.fl
+link-b = wheel.fr
 
 [fuel-tank]
 position = -0.1, -1.2, -0.26
@@ -69,33 +72,39 @@ surface-area = 0.5
 lift-coefficient = -0.5
 lift-efficiency = 0.95
 
+[antiroll.front]
+stiffness = 8000
+link-a = wheel.fl
+link-b = wheel.fr
+
+[antiroll.rear]
+stiffness = 12000
+link-a = wheel.rl
+link-b = wheel.rr
+
 [wheel.fl.coilover]
 spring-constant = 55000.0
 bounce = 2300.0
 rebound = 2500.0
 travel = 0.12
-anti-roll = 15000.0
 
 [wheel.fr.coilover]
 spring-constant = 55000.0
 bounce = 2300.0
 rebound = 2500.0
 travel = 0.12
-anti-roll = 15000.0
 
 [wheel.rl.coilover]
 spring-constant = 45000.0
 bounce = 2000.0
 rebound = 2200.0
 travel = 0.12
-anti-roll = 8000.0
 
 [wheel.rr.coilover]
 spring-constant = 45000.0
 bounce = 2000.0
 rebound = 2200.0
 travel = 0.12
-anti-roll = 8000.0
 
 [wheel.fl.brake]
 texture = rotor_worn.png
@@ -132,76 +141,59 @@ area = 0.01
 handbrake = 1.0
 
 [wheel.fl.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 205,50,17
-type = &tire/touring
 
 [wheel.fr.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 205,50,17
-type = &tire/touring
+scale = -1, 1, 1
 
 [wheel.rl.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 205,50,17
-type = &tire/touring
 
 [wheel.rr.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 205,50,17
-type = &tire/touring
+scale = -1, 1, 1
 
-[wheel.fl.double-wishbone]
-upper-chassis-rear = -0.40, 0.92, -0.30
-upper-chassis-front = -0.40, 1.22, -0.30
-upper-hub = -0.67, 1.10, -0.30
-lower-chassis-rear = -0.40, 0.92, -0.60
-lower-chassis-front = -0.40, 1.22, -0.60
-lower-hub = -0.70, 1.10, -0.60
+[wheel.fl.rim]
+texture = wheel.png
+hubmesh = wheel.joe
 
-[wheel.fr.double-wishbone]
-upper-chassis-rear = 0.40, 0.92, -0.30
-upper-chassis-front = 0.40, 1.22, -0.30
-upper-hub = 0.67, 1.10, -0.30
-lower-chassis-rear = 0.40, 0.92, -0.60
-lower-chassis-front = 0.40, 1.22, -0.60
-lower-hub = 0.7, 1.10, -0.60
+[wheel.fr.rim]
+texture = wheel.png
+hubmesh = wheel.joe
+scale = -1, 1, 1
 
-[wheel.rl.double-wishbone]
-upper-chassis-rear = -0.42, -1.40, -0.40
-upper-chassis-front = -0.42, -1.15, -0.40
-upper-hub = -0.70, -1.15, -0.30
-lower-chassis-rear = -0.32, -1.40, -0.60
-lower-chassis-front = -0.32, -0.8, -0.60
-lower-hub = -0.70, -1.15, -0.60
+[wheel.rl.rim]
+texture = wheel.png
+hubmesh = wheel.joe
 
-[wheel.rr.double-wishbone]
-upper-chassis-rear = 0.42, -1.40, -0.40
-upper-chassis-front = 0.42, -1.15, -0.40
-upper-hub = 0.70, -1.15, -0.30
-lower-chassis-rear = 0.32, -1.4, -0.60
-lower-chassis-front = 0.32, -0.8, -0.60
-lower-hub = 0.70, -1.15, -0.60
+[wheel.rr.rim]
+texture = wheel.png
+hubmesh = wheel.joe
+scale = -1, 1, 1
 
-[wheel.fl.hinge]
-wheel = -0.80, 1.55, -0.70
-chassis = 0.71, 0.55, 0.0
+[wheel.fl.lower-arm]
+chassis = -0.50, 1.55, -0.65
+hub = -0.80, 1.55, -0.75
 
-[wheel.fr.hinge]
-wheel = 0.80, 1.55, -0.70
-chassis = -0.71, 0.55, -0.0
+[wheel.fr.lower-arm]
+chassis = 0.50, 1.55, -0.65
+hub = 0.80, 1.55, -0.75
 
-[wheel.rl.hinge]
-wheel = -0.80, -1.47, -0.70
-chassis = 0.25, -1.94, 0.0
+[wheel.rl.lower-arm]
+chassis = -0.50, -1.47, -0.65
+hub = -0.80, -1.20, -0.75
 
-[wheel.rr.hinge]
-wheel = 0.80, -1.47, -0.70
-chassis = -0.25, -1.94, 0.0
+[wheel.rr.lower-arm]
+chassis = 0.50, -1.47, -0.65
+hub = 0.80, -1.20, -0.75
 
 [wheel.fl]
-texture = wheel.png
-mesh = wheel.joe
+size = 205,50,17
 position = -0.80, 1.55, -0.70
 camber = -1.33
 caster = 6.12
@@ -210,9 +202,7 @@ ackermann = 7.87	# 50% ackermann
 steering = 33
 
 [wheel.fr]
-texture = wheel.png
-mesh = wheel.joe
-scale = -1,1,1
+size = 205,50,17
 position = 0.80, 1.55, -0.70
 camber = 1.33
 caster = 6.12
@@ -221,17 +211,14 @@ ackermann = -7.87
 steering = 33
 
 [wheel.rl]
-texture = wheel.png
-mesh = wheel.joe
+size = 205,50,17
 position = -0.80, -1.47, -0.70
 camber = -0.45
 caster = 0.28
 toe = -0.2
 
 [wheel.rr]
-texture = wheel.png
-mesh = wheel.joe
-scale = -1,1,1
+size = 205,50,17
 position = 0.80, -1.47, -0.70
 camber = 0.45
 caster = 0.28
@@ -279,35 +266,35 @@ max-angle = 90
 # these are used to calculate the weight distribution and balance
 [particle-00]
 mass = 219
-position = 1.11, -2.3, -0.22
+position = 0.6, -1.7, -0.35
 
 [particle-01]
 mass = 219
-position = -1.11, -2.3, -0.22
+position = -0.6, -1.7, -0.35
 
 [particle-02]
 mass = 195
-position = 1.11, 2.3, -0.22
+position = 0.6, 1.7, -0.35
 
 [particle-03]
 mass = 195
-position = -1.11, 2.3, -0.22
+position = -0.6, 1.7, -0.35
 
 [particle-04]
 mass = 16
-position = 1.11, -2.32, -0.62
+position = 0.7, -1.7, -0.60
 
 [particle-05]
 mass = 16
-position = 1.11, 2.32, -0.62
+position = 0.7, 1.7, -0.60
 
 [particle-06]
 mass = 16
-position = -1.11, -2.32, -0.62
+position = -0.7, -1.7, -0.60
 
 [particle-07]
 mass = 16
-position = -1.11, 2.32, -0.62
+position = -0.7, 1.7, -0.60
 
 
 [camera.0]

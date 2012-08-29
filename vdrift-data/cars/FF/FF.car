@@ -40,10 +40,13 @@ gear-ratio-2 = 1.7
 gear-ratio-3 = 1.35
 gear-ratio-4 = 1.15
 shift-time = 0.1
+link = differential.rear
 
-[differential-rear]
+[differential.rear]
 final-drive = 3.32
 anti-slip = 100.0
+link-a = wheel.rl
+link-b = wheel.rr
 
 [fuel-tank]
 position = -0.1, -0.8, -0.26
@@ -56,33 +59,103 @@ position = 0.0, 0.0, 0.2
 frontal-area = 2
 drag-coefficient = 0.3
 
+[antiroll.front]
+stiffness = 5000
+link-a = wheel.fl
+link-b = wheel.fr
+
+[antiroll.rear]
+stiffness = 2000
+link-a = wheel.rl
+link-b = wheel.rr
+
+[wheel.fl]
+size = 185, 55, 13
+position = -0.74, 1.20, -0.48
+camber = -1.0
+caster = 0.0
+toe = 0.5
+ackermann = 8.64	# 50% ackermann
+steering = 20
+
+[wheel.fr]
+size = 185, 55, 13
+position = 0.74, 1.20, -0.48
+camber = 1.0
+caster = 0.0
+toe = -0.5
+ackermann = -8.64
+steering = 20
+
+[wheel.rl]
+size = 185, 55, 13
+position = -0.74, -1.18, -0.48
+camber = -0.5
+caster = 0.0
+toe = -1.0
+
+[wheel.rr]
+size = 185, 55, 13
+position = 0.74, -1.18, -0.48
+camber = 0.5
+caster = 0.0
+toe = 1.0
+
+[wheel.fl.lower-arm]
+chassis = 0, 0, 0
+hub = -0.74, 1.20, -0.48
+
+[wheel.fr.lower-arm]
+chassis = 0, 0, 0
+hub = 0.74, 1.20, -0.48
+
+[wheel.rl.lower-arm]
+chassis = 0, 0, 0
+hub = -0.74, -1.18, -0.48
+
+[wheel.rr.lower-arm]
+chassis = 0, 0, 0
+hub = 0.74, -1.18, -0.48
+
+[wheel.fl.link]
+elastic-limit = 3000
+plastic-limit = 5000
+
+[wheel.fr.link]
+elastic-limit = 3000
+plastic-limit = 5000
+
+[wheel.rl.link]
+elastic-limit = 3000
+plastic-limit = 5000
+
+[wheel.rr.link]
+elastic-limit = 3000
+plastic-limit = 5000
+
 [wheel.fl.coilover]
 spring-constant = 30000
 bounce = 1250
 rebound = 3750
 travel = 0.10
-anti-roll = 5000
 
 [wheel.fr.coilover]
 spring-constant = 30000
 bounce = 1250
 rebound = 3750
 travel = 0.10
-anti-roll = 5000
 
 [wheel.rl.coilover]
 spring-constant = 30000
 bounce = 1250
 rebound = 3750
 travel = 0.10
-anti-roll = 2000
 
 [wheel.rr.coilover]
 spring-constant = 30000
 bounce = 1250
 rebound = 3750
 travel = 0.10
-anti-roll = 2000
 
 [wheel.fl.brake]
 friction = 0.3
@@ -115,78 +188,40 @@ area = 0.015
 handbrake = 1.5
 
 [wheel.fl.tire]
+include = tire/slick
 texture = tire/touring.png
-size = 185, 55, 13
-type = &tire/slick
 
 [wheel.fr.tire]
+include = tire/slick
 texture = tire/touring.png
-size = 185, 55, 13
-type = &tire/slick
+scale = -1, 1, 1
 
 [wheel.rl.tire]
+include = tire/slick
 texture = tire/touring.png
-size = 185, 55, 13
-type = &tire/slick
 
 [wheel.rr.tire]
+include = tire/slick
 texture = tire/touring.png
-size = 185, 55, 13
-type = &tire/slick
-
-[wheel.fl.hinge]
-wheel = -0.74, 1.20, -0.48
-chassis = 0, 0, 0
-
-[wheel.fr.hinge]
-wheel = 0.74, 1.20, -0.48
-chassis = 0, 0, 0
-
-[wheel.rl.hinge]
-wheel = -0.74, -1.18, -0.48
-chassis = 0, 0, 0
-
-[wheel.rr.hinge]
-wheel = 0.74, -1.18, -0.48
-chassis = 0, 0, 0
-
-[wheel.fl]
-texture = wheel/5_spoke_m.png
-mesh = wheel/5_spoke_m.joe
-position = -0.74, 1.20, -0.48
-camber = -1.0
-caster = 0.0
-toe = 0.5
-ackermann = 8.64	# 50% ackermann
-steering = 20
-
-[wheel.fr]
-texture = wheel/5_spoke_m.png
-mesh = wheel/5_spoke_m.joe
 scale = -1, 1, 1
-position = 0.74, 1.20, -0.48
-camber = 1.0
-caster = 0.0
-toe = -0.5
-ackermann = -8.64
-steering = 20
 
-[wheel.rl]
+[wheel.fl.rim]
 texture = wheel/5_spoke_m.png
-mesh = wheel/5_spoke_m.joe
-position = -0.74, -1.18, -0.48
-camber = -0.5
-caster = 0.0
-toe = -1.0
+hubmesh = wheel/5_spoke_m.joe
 
-[wheel.rr]
+[wheel.fr.rim]
 texture = wheel/5_spoke_m.png
-mesh = wheel/5_spoke_m.joe
+hubmesh = wheel/5_spoke_m.joe
 scale = -1, 1, 1
-position = 0.74, -1.18, -0.48
-camber = 0.5
-caster = 0.0
-toe = 1.0
+
+[wheel.rl.rim]
+texture = wheel/5_spoke_m.png
+hubmesh = wheel/5_spoke_m.joe
+
+[wheel.rr.rim]
+texture = wheel/5_spoke_m.png
+hubmesh = wheel/5_spoke_m.joe
+scale = -1, 1, 1
 
 [wheel.fl.link]
 plastic-limit = 5000
@@ -222,13 +257,17 @@ scale = 0.72
 texture = body00.png, body-misc1.png
 mesh = body.joe
 
-[body.box]
-center = 0.0, 0.3, -0.5
-size = 1.4, 3.4, 0.3
+[sidepods.box]
+center = 0.0, 0.03, -0.47
+size = 1.4, 2.7, 0.3
 
-[center.box]
-center = 0.0, 0.0, -0.15
-size = 0.5, 3.0, 0.8
+[center.capsule]
+center = 0.0, 0.27, -0.37
+size = 0.5, 3.4, 0.5
+
+[rollover.capsule]
+center = 0.0, -0.20, 0.0
+size = 0.4, 1.0, 0.4
 
 [interior]
 texture = interior.png

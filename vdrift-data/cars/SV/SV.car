@@ -38,10 +38,14 @@ gear-ratio-2 = 1.735
 gear-ratio-3 = 1.225
 gear-ratio-4 = 1.1
 gear-ratio-5 = 0.815
+shift-time = 0.25
+link = differential.rear
 
-[differential-rear]
+[differential.rear]
 final-drive = 4.09
 anti-slip = 300.0
+link-a = wheel.rl
+link-b = wheel.rr
 
 [fuel-tank]
 position = 0.0, -1.0, -0.26
@@ -70,65 +74,87 @@ surface-area = 0.5
 lift-coefficient = -0.2
 lift-efficiency = 0.95
 
+[antiroll.front]
+stiffness = 12000
+link-a = wheel.fl
+link-b = wheel.fr
+
+[antiroll.rear]
+stiffness = 8000
+link-a = wheel.rl
+link-b = wheel.rr
+
+[wheel.fl]
+size = 275, 55, 15
+position = -0.70, 1.2, -0.247	# front track 1410 mm
+camber = -1.33
+caster = 6.12
+toe = 0.0
+ackermann = 7.88	# 50% Ackermann
+steering = 20
+
+[wheel.fr]
+size = 275, 55, 15
+position = 0.70, 1.2, -0.247
+camber = 1.33
+caster = 6.12
+toe = 0.0
+ackermann = -7.88
+steering = 20
+
+[wheel.rl]
+size = 275, 55, 15
+position = -0.75, -1.28, -0.3	# rear track 1540 mm
+camber = -0.45
+caster = 0.28
+toe = 0.0
+
+[wheel.rr]
+size = 275, 55, 15
+position = 0.75, -1.28, -0.3
+camber = 0.45
+caster = 0.28
+toe = 0.0
+
+[wheel.fl.lower-arm]
+chassis = 0, 0, -0.3
+hub = -0.70, 1.2, -0.247
+
+[wheel.fr.lower-arm]
+chassis = 0, 0, -0.3
+hub = 0.70, 1.2, -0.247
+
+[wheel.rl.lower-arm]
+chassis = 0, -2.4, -0.3
+hub = -0.75, -1.28, -0.3
+
+[wheel.rr.lower-arm]
+chassis = 0, -2.4, -0.3
+hub = 0.75, -1.28, -0.3
+
 [wheel.fl.coilover]
-bounce = 3000
-damper-factor-1 = 0.02, 2.0
-damper-factor-2 = 0.1, 1.0
-damper-factor-3 = 0.2, 0.8
-damper-factor-4 = 0.5, 0.5
-rebound = 5000
 spring-constant = 40000
-spring-factor-1 = 0.02, 1.0
-spring-factor-2 = 0.1, 1.5
-spring-factor-3 = 0.15, 3.0
-spring-factor-4 = 0.2, 5.0
-travel = 0.3
-anti-roll = 6000
+bounce = 3000
+rebound = 5000
+travel = 0.2
 
 [wheel.fr.coilover]
-bounce = 3000
-damper-factor-1 = 0.02, 2.0
-damper-factor-2 = 0.1, 1.0
-damper-factor-3 = 0.2, 0.8
-damper-factor-4 = 0.5, 0.5
-rebound = 5000
 spring-constant = 40000
-spring-factor-1 = 0.02, 1.0
-spring-factor-2 = 0.1, 1.5
-spring-factor-3 = 0.15, 3.0
-spring-factor-4 = 0.2, 5.0
-travel = 0.3
-anti-roll = 6000
+bounce = 3000
+rebound = 5000
+travel = 0.2
 
 [wheel.rl.coilover]
-bounce = 4500
-damper-factor-1 = 0.02, 2.0
-damper-factor-2 = 0.1, 1.0
-damper-factor-3 = 0.2, 0.8
-damper-factor-4 = 0.5, 0.5
-rebound = 7500
 spring-constant = 62000
-spring-factor-1 = 0.02, 1.0
-spring-factor-2 = 0.1, 1.5
-spring-factor-3 = 0.15, 3.0
-spring-factor-4 = 0.2, 5.0
-travel = 0.3
-anti-roll = 4000
+bounce = 4500
+rebound = 7500
+travel = 0.2
 
 [wheel.rr.coilover]
-bounce = 4500
-damper-factor-1 = 0.02, 2.0
-damper-factor-2 = 0.1, 1.0
-damper-factor-3 = 0.2, 0.8
-damper-factor-4 = 0.5, 0.5
-rebound = 7500
 spring-constant = 62000
-spring-factor-1 = 0.02, 1.0
-spring-factor-2 = 0.1, 1.5
-spring-factor-3 = 0.15, 3.0
-spring-factor-4 = 0.2, 5.0
-travel = 0.3
-anti-roll = 4000
+bounce = 4500
+rebound = 7500
+travel = 0.2
 
 [wheel.fl.brake]
 texture = rotor_worn.png
@@ -165,78 +191,40 @@ area = 0.015
 handbrake = 1.0
 
 [wheel.fl.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 275, 55, 15
-type = &tire/touring
 
 [wheel.fr.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 275, 55, 15
-type = &tire/touring
+scale = -1, 1, 1
 
 [wheel.rl.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 275, 55, 15
-type = &tire/touring
 
 [wheel.rr.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 275, 55, 15
-type = &tire/touring
-
-[wheel.fl.hinge]
-wheel = -0.70, 1.2, -0.247
-chassis = 0, 0, -0.3
-
-[wheel.fr.hinge]
-wheel = 0.70, 1.2, -0.247
-chassis = 0, 0, -0.3
-
-[wheel.rl.hinge]
-wheel = -0.75, -1.28, -0.3
-chassis = 0, -2.4, -0.3
-
-[wheel.rr.hinge]
-wheel = 0.75, -1.28, -0.3
-chassis = 0, -2.4, -0.3
-
-[wheel.fl]
-texture = oem_wheel.png, oem_wheel-misc1.png
-mesh = oem_wheel.joe
-position = -0.70, 1.2, -0.247	# front track 1410 mm
-camber = -1.33
-caster = 6.12
-toe = 0.0
-ackermann = 7.88	# 50% Ackermann
-steering = 20
-
-[wheel.fr]
-texture = oem_wheel.png, oem_wheel-misc1.png
-mesh = oem_wheel.joe
 scale = -1, 1, 1
-position = 0.70, 1.2, -0.247
-camber = 1.33
-caster = 6.12
-toe = 0.0
-ackermann = -7.88
-steering = 20
 
-[wheel.rl]
+[wheel.fl.rim]
 texture = oem_wheel.png, oem_wheel-misc1.png
-mesh = oem_wheel.joe
-position = -0.75, -1.28, -0.3	# rear track 1540 mm
-camber = -0.45
-caster = 0.28
-toe = 0.0
+hubmesh = oem_wheel.joe
 
-[wheel.rr]
+[wheel.fr.rim]
 texture = oem_wheel.png, oem_wheel-misc1.png
-mesh = oem_wheel.joe
+hubmesh = oem_wheel.joe
 scale = -1, 1, 1
-position = 0.75, -1.28, -0.3
-camber = 0.45
-caster = 0.28
-toe = 0.0
+
+[wheel.rl.rim]
+texture = oem_wheel.png, oem_wheel-misc1.png
+hubmesh = oem_wheel.joe
+
+[wheel.rr.rim]
+texture = oem_wheel.png, oem_wheel-misc1.png
+hubmesh = oem_wheel.joe
+scale = -1, 1, 1
 
 [steering]
 texture = steering_wheel.png
@@ -285,19 +273,19 @@ position = 0.0, 0.11, -0.36
 
 [particle-02]
 mass = 235.0
-position = -0.39, -1.7, 0.0
+position = -0.39, -1.7, -0.1
 
 [particle-03]
 mass = 235.0
-position = 0.39, -1.7, 0.0
+position = 0.39, -1.7, -0.1
 
 [particle-04]
 mass = 195.0
-position = -0.39, 1.32, -0.07
+position = -0.39, 1.32, -0.1
 
 [particle-05]
 mass = 195.0
-position = 0.39, 1.32, -0.07
+position = 0.39, 1.32, -0.1
 
 [camera.0]
 name = hood
