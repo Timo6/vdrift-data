@@ -1,6 +1,6 @@
 
 [engine]
-position = 0.0, 1.35, -0.22
+position = 0.0, 1.20, -0.35
 mass = 136
 max-power = 1.07e5
 peak-engine-rpm = 5500.0
@@ -314,19 +314,19 @@ position = 0, 1.08, -0.4
 
 [particle-01]
 mass = 320
-position = 0.42, -1.08, 0.02
+position = 0.42, -1.08, -0.25
 
 [particle-02]
 mass = 320
-position = -0.42, -1.08, 0.02
+position = -0.42, -1.08, -0.25
 
 [particle-03]
 mass = 170
-position = 0.5, 0.77, -0.05
+position = 0.5, 0.77, -0.25
 
 [particle-04]
 mass = 170
-position = -0.5, 0.77, -0.05
+position = -0.5, 0.77, -0.25
 
 [camera.0]
 name = hood
