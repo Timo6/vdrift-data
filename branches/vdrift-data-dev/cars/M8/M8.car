@@ -1,6 +1,6 @@
 
 [engine]
-position = 0.0, 0.86, -0.21
+position = 0.0, 0.86, -0.35
 mass = 150.0
 max-power = 177000
 peak-engine-rpm = 8500.0
@@ -94,7 +94,7 @@ link-b = wheel.rr
 
 [wheel.fl]
 size = 225, 45, 18
-position = -0.75, 1.20, -0.48
+position = -0.75, 1.39, -0.50
 camber = -1.33
 caster = 6.12
 toe = 0.5
@@ -103,7 +103,7 @@ steering = 30
 
 [wheel.fr]
 size = 225, 45, 18
-position = 0.75, 1.20, -0.48
+position = 0.75, 1.39, -0.50
 camber = 1.33
 caster = 6.12
 toe = -0.5
@@ -112,54 +112,54 @@ steering = 30
 
 [wheel.rl]
 size = 225, 45, 18
-position = -0.75, -1.20, -0.48
+position = -0.75, -1.31, -0.50
 camber = -0.45
 caster = 0.28
 toe = 0.0
 
 [wheel.rr]
 size = 225, 45, 18
-position = 0.75, -1.20, -0.48
+position = 0.75, -1.31, -0.50
 camber = 0.45
 caster = 0.28
 toe = 0.0
 
 [wheel.fl.lower-arm]
-chassis = 0, 0, 0
-hub = -0.75, 1.20, -0.48
+chassis = -0.45, 1.35, -0.55
+hub = -0.75, 1.39, -0.48
 
 [wheel.fr.lower-arm]
-chassis = 0, 0, 0
-hub = 0.75, 1.20, -0.48
+chassis = 0.45, 1.35, -0.55
+hub = 0.75, 1.39, -0.48
 
 [wheel.rl.lower-arm]
-chassis = 0, -0.85, 0
-hub = -0.75, -1.20, -0.48
+chassis = -0.45, -1.20, -0.55
+hub = -0.75, -1.31, -0.48
 
 [wheel.rr.lower-arm]
-chassis = 0, -0.85, 0
-hub = 0.75, -1.20, -0.48
+chassis = 0.45, -1.20, -0.55
+hub = 0.75, -1.31, -0.48
 
 [wheel.fl.coilover]
-spring-constant = 49131.9
+spring-constant = 49132
 bounce = 2588
 rebound = 2612
 travel = 0.15
 
 [wheel.fr.coilover]
-spring-constant = 49131.9
+spring-constant = 49132
 bounce = 2588
 rebound = 2612
 travel = 0.15
 
 [wheel.rl.coilover]
-spring-constant = 51137.3
+spring-constant = 51137
 bounce = 2788
 rebound = 2912
 travel = 0.15
 
 [wheel.rr.coilover]
-spring-constant = 51137.3
+spring-constant = 51137
 bounce = 2788
 rebound = 2912
 travel = 0.15
@@ -237,7 +237,7 @@ texture = steering_wheel.png
 mesh = steering_wheel.joe
 position = -0.37, 0.27, -0.01
 rotation = 87.5, 0.0, 0.0
-max-angle = 320
+max-angle = 90
 
 [driver]
 texture = driver2.png, driver-misc1.png
@@ -257,27 +257,27 @@ draw = emissive
 # these are used to calculate the weight distribution and balance
 [particle-00]
 mass = 30.0
-position = 0.0, -1.28, -0.36
+position = 0.0, -1.28, -0.35
 
 [particle-01]
 mass = 63.0
-position = 0.0, 0.11, -0.36
+position = 0.0, 0.11, -0.35
 
 [particle-02]
 mass = 276.0
-position = 0.39, -1.7, 0.0
+position = 0.39, -1.35, -0.25
 
 [particle-03]
 mass = 276.0
-position = -0.39, -1.7, 0.0
+position = -0.39, -1.35, -0.25
 
 [particle-04]
 mass = 227.0
-position = 0.39, 1.32, -0.07
+position = 0.39, 1.60, -0.25
 
 [particle-05]
 mass = 227.0
-position = -0.39, 1.32, -0.07
+position = -0.39, 1.60, -0.25
 
 [camera.0]
 name = hood
