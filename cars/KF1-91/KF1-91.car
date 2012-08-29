@@ -9,7 +9,7 @@
 [engine]
 position = 0.245, -0.339, -0.032
 mass = 30.0
-inertia = 0.1
+inertia = 0.02
 max-power = 29828
 fuel-consumption = 1E-5
 stall-rpm = 1000
@@ -45,6 +45,7 @@ shift-time = 0.1
 link = differential.rear
 
 [differential.rear]
+inertia = 0.02
 final-drive = 1.0
 anti-slip = 200.0
 link-a = wheel.rl
