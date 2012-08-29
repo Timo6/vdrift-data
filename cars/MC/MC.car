@@ -1,6 +1,6 @@
 
 [engine]
-position = 0.0, 0.95, -0.12
+position = 0.0, 1.2, -0.35
 mass = 150.0
 max-power = 128260
 peak-engine-rpm = 4500.0
@@ -133,25 +133,25 @@ chassis = 0, 0, 0
 hub = 0.75, -1.29, -0.49
 
 [wheel.fl.coilover]
-spring-constant = 32500.0
+spring-constant = 35000
 bounce = 2100
 rebound = 3250
 travel = 0.20
 
 [wheel.fr.coilover]
-spring-constant = 32500.0
+spring-constant = 35000
 bounce = 2100
 rebound = 3250
 travel = 0.20
 
 [wheel.rl.coilover]
-spring-constant = 27500.0
+spring-constant = 32000
 bounce = 1800
 rebound = 2250
 travel = 0.22
 
 [wheel.rr.coilover]
-spring-constant = 27500.0
+spring-constant = 32000
 bounce = 1800
 rebound = 2250
 travel = 0.22
@@ -269,19 +269,19 @@ position = 0.0, 0.11, -0.36
 
 [particle-02]
 mass = 200.0
-position = 0.39, -1.6, 0.0
+position = 0.39, -1.3, -0.27
 
 [particle-03]
 mass = 200.0
-position = -0.39, -1.6, 0.0
+position = -0.39, -1.3, -0.27
 
 [particle-04]
 mass = 165.0
-position = 0.39, 1.32, -0.07
+position = 0.39, 1.3, -0.27
 
 [particle-05]
 mass = 165.0
-position = -0.39, 1.32, -0.07
+position = -0.39, 1.3, -0.27
 
 [camera.0]
 name = hood
