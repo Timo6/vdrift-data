@@ -1,6 +1,6 @@
 
 [engine]
-position = 0.0, 1.28, -0.24
+position = 0.0, 1.28, -0.25
 mass = 170.0
 max-power = 1.17e5
 peak-engine-rpm = 5600.0
@@ -95,18 +95,18 @@ lift-coefficient = -0.75
 lift-efficiency = 0.98
 
 [antiroll.front]
-stiffness = 12000
+stiffness = 4000
 link-a = wheel.fl
 link-b = wheel.fr
 
 [antiroll.rear]
-stiffness = 8000
+stiffness = 12000
 link-a = wheel.rl
 link-b = wheel.rr
 
 [wheel.fl]
 size = 195, 65, 15
-position = -0.69, 1.27, -0.44
+position = -0.69, 1.27, -0.42
 camber = -1.27
 caster = 4.9
 toe = 1.2
@@ -115,7 +115,7 @@ steering = 32.8
 
 [wheel.fr]
 size = 195, 65, 15
-position = 0.69, 1.27, -0.44
+position = 0.69, 1.27, -0.42
 camber = 1.27
 caster = 4.9
 toe = -1.2
@@ -124,14 +124,14 @@ steering = 32.8
 
 [wheel.rl]
 size = 195, 65, 15
-position = -0.68, -1.13, -0.47
+position = -0.68, -1.13, -0.44
 camber = -0.65
 caster = 0.28
 toe = 0.0
 
 [wheel.rr]
 size = 195, 65, 15
-position = 0.68, -1.13, -0.47
+position = 0.68, -1.13, -0.44
 camber = 0.65
 caster = 0.28
 toe = 0.0
@@ -177,16 +177,16 @@ rebound = 8600
 travel = 0.12
 
 [wheel.rl.coilover]
-spring-constant = 61500
+spring-constant = 62500
 bounce = 2900
 rebound = 8200
-travel = 0.15
+travel = 0.14
 
 [wheel.rr.coilover]
-spring-constant = 61500
+spring-constant = 62500
 bounce = 2900
 rebound = 8200
-travel = 0.15
+travel = 0.14
 
 [wheel.fl.brake]
 texture = rotor_worn.png
@@ -297,43 +297,43 @@ draw = emissive
 # these are used to calculate the weight distribution and balance
 [particle-00]
 mass = 160.0
-position = 0.38, 1.26, -0.42
+position = 0.38, 1.26, -0.40
 
 [particle-01]
 mass = 160.0
-position = -0.38, 1.26, -0.42
+position = -0.38, 1.26, -0.40
 
 [particle-02]
 mass = 130.0
-position = 0.38, -1.22, -0.38
+position = 0.38, -1.22, -0.40
 
 [particle-03]
 mass = 130.0
-position = -0.38, -1.22, -0.38
+position = -0.38, -1.22, -0.40
 
 [particle-04]
 mass = 60.0
-position = 0.38, 0.0, 0.61
+position = 0.38, 0.0, 0.30
 
 [particle-05]
 mass = 60.0
-position = -0.38, 0.0, 0.61
+position = -0.38, 0.0, 0.30
 
 [particle-06]
 mass = 46.0
-position = 0.39, -1.12, 0.59
+position = 0.39, -1.12, 0.30
 
 [particle-07]
 mass = 46.0
-position = -0.39, -1.12, 0.59
+position = -0.39, -1.12, 0.30
 
 [particle-08]
 mass = 108.0
-position = 0.0, 0.6, -0.41
+position = 0.0, 0.6, -0.40
 
 [particle-09]	#transmission
 mass = 160.0
-position = 0.0, -1.12, -0.24
+position = 0.0, -1.12, -0.25
 
 [particle-10]	#driver
 mass = 70
