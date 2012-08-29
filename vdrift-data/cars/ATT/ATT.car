@@ -1,7 +1,5 @@
-
-engine = &engine_vw32vr6
-
 [engine]
+include = engine_vw32vr6
 position = 0.0, 1.342, -0.113
 
 [clutch]
@@ -19,19 +17,26 @@ gear-ratio-3 = 1.47
 gear-ratio-4 = 1.11
 gear-ratio-5 = 1.09
 gear-ratio-6 = 0.91
-shift-time = 0.05
+shift-time = 0.25
+link = differential.center
 
-[differential-front]
-final-drive = 1.0
-anti-slip = 150.0
-
-[differential-rear]
-final-drive = 1.0
-anti-slip = 150.0
-
-[differential-center]
+[differential.center]
 final-drive = 3.27   #4.285
 anti-slip = 150.0
+link-a = differential.front
+link-b = differential.rear
+
+[differential.front]
+final-drive = 1.0
+anti-slip = 150.0
+link-a = wheel.fl
+link-b = wheel.fr
+
+[differential.rear]
+final-drive = 1.0
+anti-slip = 150.0
+link-a = wheel.rl
+link-b = wheel.rr
 
 [fuel-tank]
 position = -0.17, -1.7, -0.34
@@ -60,33 +65,87 @@ surface-area = 0.5
 lift-coefficient = -1.2
 lift-efficiency = 0.95
 
+[antiroll.front]
+stiffness = 3700
+link-a = wheel.fl
+link-b = wheel.fr
+
+[antiroll.rear]
+stiffness = 8000
+link-a = wheel.rl
+link-b = wheel.rr
+
+[wheel.fl]
+size = 245, 40, 18
+position = -0.797, 1.185, -0.42
+camber = -1.33
+caster = 6.12
+toe = 0.0
+ackermann = 8.23	# 50% ackermann
+steering = 26
+
+[wheel.fr]
+size = 245, 40, 18
+position = 0.797, 1.185, -0.42
+camber = 1.33
+caster = 6.12
+toe = 0.0
+ackermann = -8.23
+steering = 26
+
+[wheel.rl]
+size = 245, 40, 18
+position = -0.795, -1.281, -0.42
+camber = -0.45
+caster = 0.28
+toe = 0.0
+
+[wheel.rr]
+size = 245, 40, 18
+position = 0.795, -1.281, -0.42
+camber = 0.45
+caster = 0.28
+toe = 0.0
+
+[wheel.fl.lower-arm]
+chassis = 3.70, 1.1, -0.43
+hub = -0.797, 1.185, -0.42
+
+[wheel.fr.lower-arm]
+chassis = -3.70, 1.1, -0.43
+hub = 0.797, 1.185, -0.42
+
+[wheel.rl.lower-arm]
+chassis = 3.70, -1.0, -0.43
+hub = -0.795, -1.281, -0.42
+
+[wheel.rr.lower-arm]
+chassis = -3.70, -1.0, -0.43
+hub = 0.795, -1.281, -0.42
+
 [wheel.fl.coilover]
 spring-constant = 72000
 bounce = 7500
 rebound = 5000
 travel = 0.32
-anti-roll = 3700
 
 [wheel.fr.coilover]
 spring-constant = 72000
 bounce = 7500
 rebound = 5000
 travel = 0.32
-anti-roll = 3700
 
 [wheel.rl.coilover]
 spring-constant = 68000
 bounce = 7500
 rebound = 5000
 travel = 0.32
-anti-roll = 8000
 
 [wheel.rr.coilover]
 spring-constant = 68000
 bounce = 7500
 rebound = 5000
 travel = 0.32
-anti-roll = 8000
 
 [wheel.fl.brake]
 texture = rotor_worn.png
@@ -123,85 +182,46 @@ area = 0.015
 handbrake = 1.1
 
 [wheel.fl.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 245, 40, 18
-type = &tire/touring
 
 [wheel.fr.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 245, 40, 18
-type = &tire/touring
+scale = -1, 1, 1
 
 [wheel.rl.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 245, 40, 18
-type = &tire/touring
 
 [wheel.rr.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 245, 40, 18
-type = &tire/touring
-
-[wheel.fl.hinge]
-wheel = -0.797, 1.185, -0.42
-chassis = 3.70, 1.1, -0.43
-
-[wheel.fr.hinge]
-wheel = 0.797, 1.185, -0.42
-chassis = -3.70, 1.1, -0.43
-
-[wheel.rl.hinge]
-wheel = -0.795, -1.281, -0.42
-chassis = 3.70, -1.0, -0.43
-
-[wheel.rr.hinge]
-wheel = 0.795, -1.281, -0.42
-chassis = -3.70, -1.0, -0.43
-
-[wheel.fl]
-texture = wheel/10_spoke_f.png
-mesh = wheel/10_spoke_f.joe
-position = -0.797, 1.185, -0.42
-camber = -1.33
-caster = 6.12
-toe = 0.0
-ackermann = 8.23	# 50% ackermann
-steering = 26
-
-[wheel.fr]
-texture = wheel/10_spoke_f.png
-mesh = wheel/10_spoke_f.joe
 scale = -1, 1, 1
-position = 0.797, 1.185, -0.42
-camber = 1.33
-caster = 6.12
-toe = 0.0
-ackermann = -8.23
-steering = 26
 
-[wheel.rl]
+[wheel.fl.rim]
 texture = wheel/10_spoke_f.png
-mesh = wheel/10_spoke_f.joe
-position = -0.795, -1.281, -0.42
-camber = -0.45
-caster = 0.28
-toe = 0.0
+hubmesh = wheel/10_spoke_f.joe
 
-[wheel.rr]
+[wheel.fr.rim]
 texture = wheel/10_spoke_f.png
-mesh = wheel/10_spoke_f.joe
+hubmesh = wheel/10_spoke_f.joe
 scale = -1, 1, 1
-position = 0.795, -1.281, -0.42
-camber = 0.45
-caster = 0.28
-toe = 0.0
+
+[wheel.rl.rim]
+texture = wheel/10_spoke_f.png
+hubmesh = wheel/10_spoke_f.joe
+
+[wheel.rr.rim]
+texture = wheel/10_spoke_f.png
+hubmesh = wheel/10_spoke_f.joe
+scale = -1, 1, 1
 
 [driver]
 texture = driver2.png, driver-misc1.png
 mesh = driver.joe
 position = -0.4, -0.13, 0.05
 mass = 90.0
-
 
 #################################################
 ## body - exterior

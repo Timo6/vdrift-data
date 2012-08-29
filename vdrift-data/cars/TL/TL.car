@@ -1,6 +1,6 @@
 
 [engine]
-position = 0.0, 1.08, -0.2
+position = 0.0, 1.08, -0.25
 mass = 130.0
 max-power = 1.08e5
 peak-engine-rpm = 6500.0
@@ -43,10 +43,13 @@ gear-ratio-3 = 1.384
 gear-ratio-4 = 1.100
 gear-ratio-5 = 0.861
 shift-time = 0.3
+link = differential.rear
 
-[differential-rear]
+[differential.rear]
 final-drive = 4.10
 anti-slip = 600.0
+link-a = wheel.rl
+link-b = wheel.rr
 
 [fuel-tank]
 position = -0.1, -1.04, -0.26
@@ -75,33 +78,87 @@ surface-area = 0.5
 lift-coefficient = -2
 lift-efficiency = 0.95
 
+[antiroll.front]
+stiffness = 15000
+link-a = wheel.fl
+link-b = wheel.fr
+
+[antiroll.rear]
+stiffness = 20000
+link-a = wheel.rl
+link-b = wheel.rr
+
+[wheel.fl]
+size = 185, 60, 14
+position = -0.673, 1.16, -0.43	#-0.723, 1.16, -0.43	#front track 1445mm
+camber = -0.5
+caster = 0.00
+toe = 0.0
+ackermann = 8.22	# 50% ackermann
+steering = 40
+
+[wheel.fr]
+size = 185, 60, 14
+position = 0.673, 1.16, -0.43	#0.723, 1.16, -0.43
+camber = 0.5
+caster = 0.00
+toe = 0.0
+ackermann = -8.22
+steering = 40
+
+[wheel.rl]
+size = 185, 60, 14
+position = -0.703, -1.12, -0.46	#-0.713, -1.12, -0.46	#rear track 1425mm
+camber = 0.00
+caster = 0.00
+toe = -0.2
+
+[wheel.rr]
+size = 185, 60, 14
+position = 0.703, -1.12, -0.46	#0.713, -1.12, -0.46
+camber = 0.00
+caster = 0.00
+toe = 0.2
+
+[wheel.fl.lower-arm]
+chassis = -0.27, 1.20, -0.45
+hub = -0.67, 1.16, -0.46
+
+[wheel.fr.lower-arm]
+chassis = 0.27, 1.20, -0.45
+hub = 0.67, 1.16, -0.46
+
+[wheel.rl.lower-arm]
+chassis = -0.30, -1.00, -0.45
+hub = -0.70, -1.12, -0.46
+
+[wheel.rr.lower-arm]
+chassis = 0.30, -1.00, -0.45
+hub = 0.70, -1.12, -0.46
+
 [wheel.fl.coilover]
-spring-constant = 40000.0
-bounce = 1100.0
-rebound = 2300.0
+spring-constant = 48000.0
+bounce = 1500
+rebound = 3000
 travel = 0.15
-anti-roll = 7000.0
 
 [wheel.fr.coilover]
-spring-constant = 40000.0
-bounce = 1100.0
-rebound = 2300.0
+spring-constant = 48000.0
+bounce = 1500
+rebound = 3000
 travel = 0.15
-anti-roll = 7000.0
 
 [wheel.rl.coilover]
 spring-constant = 40000.0
-bounce = 1250.0
-rebound = 3150.0
-travel = 0.18
-anti-roll = 15500.0
+bounce = 1200
+rebound = 2500
+travel = 0.15
 
 [wheel.rr.coilover]
 spring-constant = 40000.0
-bounce = 1250.0
-rebound = 3150.0
-travel = 0.18
-anti-roll = 15500.0
+bounce = 1200
+rebound = 2500
+travel = 0.15
 
 [wheel.fl.brake]
 texture = rotor_worn.png
@@ -138,78 +195,40 @@ area = 0.015
 handbrake = 1.0
 
 [wheel.fl.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 185,60,14
-type = &tire/touring
 
 [wheel.fr.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 185,60,14
-type = &tire/touring
+scale = -1, 1, 1
 
 [wheel.rl.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 185,60,14
-type = &tire/touring
 
 [wheel.rr.tire]
+include = tire/touring
 texture = tire/touring.png
-size = 185,60,14
-type = &tire/touring
+scale = -1, 1, 1
 
-[wheel.fl.hinge]
-wheel = -0.673, 1.16, -0.43
-chassis = 0.0, 1.21, -0.47
-
-[wheel.fr.hinge]
-wheel = 0.673, 1.16, -0.43
-chassis = 0.0, 1.21, -0.47
-
-[wheel.rl.hinge]
-wheel = -0.703, -1.12, -0.46
-chassis = -0.5, -1.20, -0.47
-
-[wheel.rr.hinge]
-wheel = 0.703, -1.12, -0.46
-chassis = -0.5, -1.20, -0.47
-
-[wheel.fl]
+[wheel.fl.rim]
 texture = wheel/5_spoke_m.png
-mesh = wheel/5_spoke_m.joe
-position = -0.673, 1.16, -0.43	#-0.723, 1.16, -0.43	#front track 1445mm
-camber = -0.5
-caster = 0.00
-toe = 0.0
-ackermann = 8.22	# 50% ackermann
-steering = 40
+hubmesh = wheel/5_spoke_m.joe
 
-[wheel.fr]
+[wheel.fr.rim]
 texture = wheel/5_spoke_m.png
-mesh = wheel/5_spoke_m.joe
-scale = -1,1,1
-position = 0.673, 1.16, -0.43	#0.723, 1.16, -0.43
-camber = 0.5
-caster = 0.00
-toe = 0.0
-ackermann = -8.22
-steering = 40
+hubmesh = wheel/5_spoke_m.joe
+scale = -1, 1, 1
 
-[wheel.rl]
+[wheel.rl.rim]
 texture = wheel/5_spoke_m.png
-mesh = wheel/5_spoke_m.joe
-position = -0.703, -1.12, -0.46	#-0.713, -1.12, -0.46	#rear track 1425mm
-camber = 0.00
-caster = 0.00
-toe = -0.2
+hubmesh = wheel/5_spoke_m.joe
 
-[wheel.rr]
+[wheel.rr.rim]
 texture = wheel/5_spoke_m.png
-mesh = wheel/5_spoke_m.joe
-scale = -1,1,1
-position = 0.703, -1.12, -0.46	#0.713, -1.12, -0.46
-camber = 0.00
-caster = 0.00
-toe = 0.2
+hubmesh = wheel/5_spoke_m.joe
+scale = -1, 1, 1
 
 [steering]
 texture = steering_wheel.png
@@ -259,19 +278,19 @@ position = 0.0, 0.11, -0.36
 
 [particle-02]
 mass = 142.0
-position =  0.39, -1.30, -0.2
+position =  0.45, -1.30, -0.25
 
 [particle-03]
 mass = 142.0
-position = -0.39, -1.30, -0.2
+position = -0.45, -1.30, -0.25
 
 [particle-04]
 mass = 140.0
-position =  0.39, 1.32, -0.2
+position =  0.45, 1.32, -0.25
 
 [particle-05]
 mass = 140.0
-position = -0.39, 1.32, -0.2
+position = -0.45, 1.32, -0.25
 
 [camera.0]
 name = hood

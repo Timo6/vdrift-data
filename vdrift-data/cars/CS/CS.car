@@ -46,11 +46,14 @@ gear-ratio-2 = 2.06
 gear-ratio-3 = 1.41
 gear-ratio-4 = 1.13
 gear-ratio-5 = 0.89
-shift-time = 0.09
+shift-time = 0.1
+link = differential.rear
 
-[differential-rear]
+[differential.rear]
 final-drive = 3.88
-anti-slip = 600.0
+anti-slip = 200.0
+link-a = wheel.rl
+link-b = wheel.rr
 
 [fuel-tank]
 position = -0.1, -0.8, -0.26
@@ -59,12 +62,12 @@ volume = 0.0492
 fuel-density = 730.0
 
 [wing-front]
-position = 0.0, 0.0, 0.2
+position = 0.0, 0.0, 0.0
 frontal-area = 2
 drag-coefficient = 0.3
 
 [wing-center]
-position = 0.0, 1.9, 0.60
+position = 0.0, 1.9, 0.0
 frontal-area = 0.2
 drag-coefficient = 0.0
 surface-area = 0.3
@@ -72,115 +75,26 @@ lift-coefficient = -0.5
 lift-efficiency = 0.95
 
 [wing-rear]
-position = 0.0, -2.14, 0.37
+position = 0.0, -2.1, 0.2
 frontal-area = 0.05
 drag-coefficient = 0.0
 surface-area = 0.5
-lift-coefficient = -2
+lift-coefficient = -1.0
 lift-efficiency = 0.95
 
-[wheel.fl.coilover]
-spring-constant = 23000
-bounce = 5000
-rebound = 4500
-travel = 0.24
-anti-roll = 15000
+[antiroll.front]
+stiffness = 5000
+link-a = wheel.fl
+link-b = wheel.fr
 
-[wheel.fr.coilover]
-spring-constant = 23000
-bounce = 5000
-rebound = 4500
-travel = 0.24
-anti-roll = 15000
-
-[wheel.rl.coilover]
-spring-constant = 28750
-bounce = 5000
-rebound = 4500
-travel = 0.26
-anti-roll = 20000
-
-[wheel.rr.coilover]
-spring-constant = 28750
-bounce = 5000
-rebound = 4500
-travel = 0.26
-anti-roll = 20000
-
-[wheel.fl.brake]
-texture = rotor_worn.png
-friction = 1.13
-max-pressure = 2.0e6
-bias = 0.57
-radius = 0.14
-area = 0.015
-
-[wheel.fr.brake]
-texture = rotor_worn.png
-friction = 1.13
-max-pressure = 2.0e6
-bias = 0.57
-radius = 0.14
-area = 0.015
-
-[wheel.rl.brake]
-texture = rotor_worn.png
-friction = 1.13
-max-pressure = 2.0e6
-bias = 0.57
-radius = 0.14
-area = 0.015
-handbrake = 1.0
-
-[wheel.rr.brake]
-texture = rotor_worn.png
-friction = 1.13
-max-pressure = 2.0e6
-bias = 0.57
-radius = 0.14
-area = 0.015
-handbrake = 1.0
-
-[wheel.fl.tire]
-texture = tire/touring.png
-size = 205, 55, 15
-type = &tire/touring
-
-[wheel.fr.tire]
-texture = tire/touring.png
-size = 205, 55, 15
-type = &tire/touring
-
-[wheel.rl.tire]
-texture = tire/touring.png
-size = 225, 50, 15
-type = &tire/touring
-
-[wheel.rr.tire]
-texture = tire/touring.png
-size = 225, 50, 15
-type = &tire/touring
-
-[wheel.fl.hinge]
-wheel = -0.70, 1.13, -0.48
-chassis = 0, 0, 0
-
-[wheel.fr.hinge]
-wheel = 0.70, 1.13, -0.48
-chassis = 0, 0, 0
-
-[wheel.rl.hinge]
-wheel = -0.70, -1.10, -0.505
-chassis = 0, -0.6, 0
-
-[wheel.rr.hinge]
-wheel = 0.70, -1.10, -0.505
-chassis = 0, -0.6, 0
+[antiroll.rear]
+stiffness = 10000
+link-a = wheel.rl
+link-b = wheel.rr
 
 [wheel.fl]
-texture = oem_wheel.png, oem_wheel-misc1.png
-mesh = oem_wheel.joe
-position = -0.70, 1.13, -0.48
+size = 205, 55, 15
+position = -0.68, 1.13, -0.46
 camber = -1.0
 caster = 1.0
 toe = 0.5
@@ -188,10 +102,8 @@ ackermann = 8.71	# 50% ackermann
 steering = 30
 
 [wheel.fr]
-texture = oem_wheel.png, oem_wheel-misc1.png
-mesh = oem_wheel.joe
-scale = -1, 1, 1
-position = 0.70, 1.13, -0.48
+size = 205, 55, 15
+position = 0.68, 1.13, -0.46
 camber = 1.0
 caster = 1.0
 toe = -0.5
@@ -199,21 +111,128 @@ ackermann = -8.71
 steering = 30
 
 [wheel.rl]
-texture = oem_wheel.png, oem_wheel-misc1.png
-mesh = oem_wheel.joe
-position = -0.70, -1.10, -0.505
+size = 225, 50, 15
+position = -0.70, -1.10, -0.48
 camber = -0.5
 caster = 0.0
 toe = 0.0
 
 [wheel.rr]
-texture = oem_wheel.png, oem_wheel-misc1.png
-mesh = oem_wheel.joe
-scale = -1, 1, 1
-position = 0.70, -1.10, -0.505
+size = 225, 50, 15
+position = 0.70, -1.10, -0.48
 camber = 0.5
 caster = 0.0
 toe = 0.0
+
+[wheel.fl.lower-arm]
+hub = -0.65, 1.13, -0.53
+chassis = -0.20, 1.13, -0.40
+
+[wheel.fr.lower-arm]
+hub = 0.65, 1.13, -0.53
+chassis = 0.20, 1.13, -0.40
+
+[wheel.rl.lower-arm]
+hub = -0.65, -1.10, -0.55
+chassis = -0.20, -1.10, -0.40
+
+[wheel.rr.lower-arm]
+hub = 0.65, -1.10, -0.55
+chassis = 0.20, -1.10, -0.40
+
+[wheel.fl.coilover]
+spring-constant = 43000
+bounce = 5000
+rebound = 8000
+travel = 0.13
+
+[wheel.fr.coilover]
+spring-constant = 43000
+bounce = 5000
+rebound = 8000
+travel = 0.13
+
+[wheel.rl.coilover]
+spring-constant = 50500
+bounce = 6000
+rebound = 9000
+travel = 0.15
+
+[wheel.rr.coilover]
+spring-constant = 50500
+bounce = 6000
+rebound = 9000
+travel = 0.15
+
+[wheel.fl.brake]
+texture = rotor_worn.png
+friction = 0.75
+max-pressure = 2.0e6
+bias = 0.65
+radius = 0.14
+area = 0.015
+
+[wheel.fr.brake]
+texture = rotor_worn.png
+friction = 0.75
+max-pressure = 2.0e6
+bias = 0.65
+radius = 0.14
+area = 0.015
+
+[wheel.rl.brake]
+texture = rotor_worn.png
+friction = 0.75
+max-pressure = 2.0e6
+bias = 0.35
+radius = 0.14
+area = 0.015
+handbrake = 1.0
+
+[wheel.rr.brake]
+texture = rotor_worn.png
+friction = 0.75
+max-pressure = 2.0e6
+bias = 0.35
+radius = 0.14
+area = 0.015
+handbrake = 1.0
+
+[wheel.fl.tire]
+include = tire/touring
+texture = tire/touring.png
+
+[wheel.fr.tire]
+include = tire/touring
+texture = tire/touring.png
+scale = -1, 1, 1
+
+[wheel.rl.tire]
+include = tire/touring
+texture = tire/touring.png
+
+[wheel.rr.tire]
+include = tire/touring
+texture = tire/touring.png
+scale = -1, 1, 1
+
+[wheel.fl.rim]
+texture = oem_wheel.png, oem_wheel-misc1.png
+hubmesh = oem_wheel.joe
+
+[wheel.fr.rim]
+texture = oem_wheel.png, oem_wheel-misc1.png
+hubmesh = oem_wheel.joe
+scale = -1, 1, 1
+
+[wheel.rl.rim]
+texture = oem_wheel.png, oem_wheel-misc1.png
+hubmesh = oem_wheel.joe
+
+[wheel.rr.rim]
+texture = oem_wheel.png, oem_wheel-misc1.png
+hubmesh = oem_wheel.joe
+scale = -1, 1, 1
 
 [steering]
 texture = steering_wheel.png
@@ -254,19 +273,19 @@ position = 0.1, 0.5, -0.45
 
 [particle-01]
 mass = 130.0
-position = 0.4, -1.07, -0.1
+position = 0.4, -1.07, -0.25
 
 [particle-02]
 mass = 130.0
-position = -0.4, -1.07, -0.1
+position = -0.4, -1.07, -0.25
 
 [particle-03]
 mass = 215.0
-position = 0.4, 1.09, -0.0
+position = 0.4, 1.09, -0.25
 
 [particle-04]
 mass = 215.0
-position = -0.4, 1.09, -0.0
+position = -0.4, 1.09, -0.25
 
 [camera.0]
 name = hood
