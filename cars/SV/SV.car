@@ -136,25 +136,25 @@ hub = 0.75, -1.28, -0.3
 spring-constant = 40000
 bounce = 3000
 rebound = 5000
-travel = 0.3
+travel = 0.2
 
 [wheel.fr.coilover]
 spring-constant = 40000
 bounce = 3000
 rebound = 5000
-travel = 0.3
+travel = 0.2
 
 [wheel.rl.coilover]
 spring-constant = 62000
 bounce = 4500
 rebound = 7500
-travel = 0.3
+travel = 0.2
 
 [wheel.rr.coilover]
 spring-constant = 62000
 bounce = 4500
 rebound = 7500
-travel = 0.3
+travel = 0.2
 
 [wheel.fl.brake]
 texture = rotor_worn.png
