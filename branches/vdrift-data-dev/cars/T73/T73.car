@@ -219,11 +219,11 @@ hubmesh = oem_wheel.joe
 scale = -1, 1, 1
 
 [steering]
-texture = steering_wheel.png
+texture = interior.png
 mesh = steering_wheel.joe
-position = 0.00, 0.47, -0.19
-rotation = 87.5, 0.0, 0.0
-max-angle = 320
+position = 0.00, 0.547, -0.179
+rotation = 75.0, 0.0, 0.0
+max-angle = 80
 
 [driver]
 texture = driver2.png, driver-misc1.png
@@ -243,6 +243,19 @@ mesh = interior.joe
 texture = glass.png
 mesh = glass.joe
 draw = transparent
+
+# collision shape
+[center.capsule]
+center = 0.0, 0.2, -0.25
+size = 0.75, 4.25, 0.75
+
+[front.capsule]
+center = 0.0, 1.4, -0.44
+size = 1.5, 0.4, 0.4
+
+[rear.capsule]
+center = 0.0, -1.2, -0.44
+size = 1.5, 0.4, 0.4
 
 # these are used to calculate the weight distribution and balance
 # car vertical center is at -0.42
