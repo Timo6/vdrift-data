@@ -1,6 +1,6 @@
 
 [engine]
-position = 0.0, 0.86, -0.21
+position = 0.0, 0.86, -0.30
 mass = 150.0
 max-power = 1.80e5
 peak-engine-rpm = 6500.0
@@ -98,7 +98,7 @@ link-b = wheel.rr
 
 [wheel.fl]
 size = 225, 50, 16
-position = -0.77, 1.26, -0.48
+position = -0.74, 1.26, -0.48
 camber = -1.33
 caster = 6.12
 toe = -0.5
@@ -107,7 +107,7 @@ steering = 30
 
 [wheel.fr]
 size = 225, 50, 16
-position = 0.77, 1.26, -0.48
+position = 0.74, 1.26, -0.48
 camber = 1.33
 caster = 6.12
 toe = 0.5
@@ -116,33 +116,33 @@ steering = 30
 
 [wheel.rl]
 size = 225, 50, 16
-position = -0.77, -1.26, -0.48
+position = -0.74, -1.26, -0.48
 camber = -0.45
 caster = 0.28
 toe = 0.0
 
 [wheel.rr]
 size = 225, 50, 16
-position = 0.77, -1.26, -0.48
+position = 0.74, -1.26, -0.48
 camber = 0.45
 caster = 0.28
 toe = 0.0
 
 [wheel.fl.lower-arm]
-chassis = 0, 0, 0
-hub = -0.77, 1.26, -0.48
+chassis = -0.34, 1.20, -0.55
+hub = -0.74, 1.26, -0.55
 
 [wheel.fr.lower-arm]
-chassis = 0, 0, 0
-hub = 0.77, 1.26, -0.48
+chassis = 0.34, 1.20, -0.55
+hub = 0.74, 1.26, -0.55
 
 [wheel.rl.lower-arm]
-chassis = 0, -0.85, 0
-hub = -0.77, -1.26, -0.48
+chassis = -0.34, -1.20, -0.55
+hub = -0.74, -1.26, -0.55
 
 [wheel.rr.lower-arm]
-chassis = 0, -0.85, 0
-hub = 0.77, -1.26, -0.48
+chassis = 0.34, -1.20, -0.55
+hub = 0.74, -1.26, -0.55
 
 [wheel.fl.coilover]
 spring-constant = 50000
@@ -285,19 +285,19 @@ position = 0.0, 0.11, -0.36
 
 [particle-02]
 mass = 250.0
-position = 0.39, -1.7, 0.0
+position = 0.39, -1.7, -0.26
 
 [particle-03]
 mass = 250.0
-position = -0.39, -1.7, 0.0
+position = -0.39, -1.7, -0.26
 
 [particle-04]
 mass = 203.0
-position = 0.39, 1.32, -0.07
+position = 0.39, 1.32, -0.26
 
 [particle-05]
 mass = 203.0
-position = -0.39, 1.32, -0.07
+position = -0.39, 1.32, -0.26
 
 [camera.0]
 name = hood
