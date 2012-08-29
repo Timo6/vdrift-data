@@ -9,7 +9,7 @@
 [engine]
 position = 0.245, -0.339, -0.032
 mass = 15.0
-inertia = 0.1
+inertia = 0.02
 max-power = 29828
 fuel-consumption = 1E-6
 stall-rpm = 1000
@@ -45,6 +45,7 @@ shift-time = 0.1
 link = differential.rear
 
 [differential.rear]
+inertia = 0.02
 final-drive = 1.0
 anti-slip = 200.0
 link-a = wheel.rl
@@ -62,25 +63,25 @@ frontal-area = 1
 drag-coefficient = 0.4
 
 [wheel.fl.coilover]
-spring-constant = 50000
+spring-constant = 60000
 bounce = 3000
 rebound = 9000
 travel = 0.08
 
 [wheel.fr.coilover]
-spring-constant = 50000
+spring-constant = 60000
 bounce = 3000
 rebound = 9000
 travel = 0.08
 
 [wheel.rl.coilover]
-spring-constant = 50000
+spring-constant = 70000
 bounce = 3000
 rebound = 9000
 travel = 0.08
 
 [wheel.rr.coilover]
-spring-constant = 50000
+spring-constant = 70000
 bounce = 3000
 rebound = 9000
 travel = 0.08
@@ -225,7 +226,7 @@ size = 1.1, 1.65, 0.3
 
 # these are used to calculate the weight distribution and balance
 [particle-00] # driver
-position = -0.1, 0.08, 0.02
+position = -0.1, 0.0, 0.02
 mass = 80.0
 
 [particle-01]
