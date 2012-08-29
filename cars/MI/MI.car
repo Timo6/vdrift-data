@@ -1,6 +1,6 @@
 
 [engine]
-position = 0.0, 0.95, -0.12
+position = 0.0, 0.95, -0.30
 mass = 100.0
 max-power = 0.47e5
 peak-engine-rpm = 5500.0
@@ -76,18 +76,18 @@ lift-efficiency = 0.95
 # wheeltrack: 1234/1203, wheelbase: 2035
 
 [antiroll.front]
-stiffness = 1200
+stiffness = 8000
 link-a = wheel.fl
 link-b = wheel.fr
 
 [antiroll.rear]
-stiffness = 1000
+stiffness = 8000
 link-a = wheel.rl
 link-b = wheel.rr
 
 [wheel.fl]
 size = 165, 70, 10
-position = -0.617, 1.00, -0.45
+position = -0.617, 1.00, -0.44
 camber = -0.5
 caster = 0.0
 toe = 0.0
@@ -96,7 +96,7 @@ steering = 30
 
 [wheel.fr]
 size = 165, 70, 10
-position = 0.617, 1.00, -0.45
+position = 0.617, 1.00, -0.44
 camber = 0.5
 caster = 0.0
 toe = 0.0
@@ -135,27 +135,27 @@ hub = 0.602, -0.95, -0.42
 
 [wheel.fl.coilover]
 spring-constant = 40000
-bounce = 1900
-rebound = 5700
-travel = 0.16
+bounce = 2000
+rebound = 6000
+travel = 0.13
 
 [wheel.fr.coilover]
 spring-constant = 40000
-bounce = 1900
-rebound = 5700
-travel = 0.16
+bounce = 2000
+rebound = 6000
+travel = 0.13
 
 [wheel.rl.coilover]
-spring-constant = 20000
+spring-constant = 25000
 bounce = 1000
-rebound = 2900
-travel = 0.16
+rebound = 4000
+travel = 0.13
 
 [wheel.rr.coilover]
-spring-constant = 20000
+spring-constant = 25000
 bounce = 1000
-rebound = 2900
-travel = 0.16
+rebound = 4000
+travel = 0.13
 
 [wheel.fl.brake]
 texture = rotor_worn.png
@@ -261,27 +261,27 @@ draw = emissive
 # these are used to calculate the weight distribution and balance
 [particle-00]
 mass = 30.0
-position = 0.0, 0.9, -0.36
+position = 0.0, 0.90, -0.30
 
 [particle-01]
 mass = 20.0
-position = 0.0, -0.7, -0.36
+position = 0.0, -0.70, -0.30
 
 [particle-02]
 mass = 82.0
-position = 0.39, -0.75, -0.25
+position = 0.39, -0.80, -0.35
 
 [particle-03]
 mass = 82.0
-position = -0.39, -0.75, -0.25
+position = -0.39, -0.80, -0.35
 
 [particle-04]
 mass = 115.0
-position = 0.39, 0.95, -0.25
+position = 0.39, 0.90, -0.35
 
 [particle-05]
 mass = 115.0
-position = -0.39, 0.95, -0.25
+position = -0.39, 0.90, -0.35
 
 [camera.0]
 name = hood
