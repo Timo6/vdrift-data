@@ -85,24 +85,24 @@ volume = 0.0492
 fuel-density = 730.0
 
 [wing-front]
-position = 0.0, 0.0, 0.2
-frontal-area = 1.2
-drag-coefficient = 0.5
-
-[wing-center]
-position = 0.0, 1.5, 0.60
+position = 0.0, 1.5, -0.5
 frontal-area = 0.2
 drag-coefficient = 0.0
 surface-area = 1.0
 lift-coefficient = -0.5
 lift-efficiency = 0.99
 
+[wing-center]
+position = 0.0, 0.0, -0.2
+frontal-area = 1.2
+drag-coefficient = 0.5
+
 [wing-rear]
-position = 0.0, -1.80, 0.37
+position = 0.0, -1.60, 0.08
 frontal-area = 0.05
 drag-coefficient = 0.0
 surface-area = 1.0
-lift-coefficient = -1.0
+lift-coefficient = -1.25
 lift-efficiency = 0.99
 
 [antiroll.fa]
@@ -338,22 +338,31 @@ scale = -1, 1, 1
 texture = body00.png
 mesh = body.joe
 
-[body.box]
-center = 0, 0.15, -0.30
-size = 1.4, 3.5, 0.6
-
 [steering]
 texture = steering_wheel.png
 mesh = steering_wheel.joe
 position = 0.00, 0.62, -0.26
 rotation = 87.5, 0.0, 0.0
-max-angle = 320
+max-angle = 90
 
 [driver]
 texture = driver2.png, driver-misc1.png
 mesh = driver.joe
 position = 0, 0.25, -0.30
 mass = 80.0
+
+# collision shape
+[body.box]
+center = 0.0, 0.2, -0.4
+size = 1.4, 3.5, 0.4
+
+[cockpit.capsule]
+center = 0.0, -0.25, -0.15
+size = 0.6, 2.5, 0.6
+
+[wing-rear.box]
+center = 0.0, -0.02, 0.0
+size = 1.1, 0.45, 0.25
 
 # these are used to calculate the weight distribution and balance
 [particle-00]
