@@ -82,6 +82,7 @@ final-drive = 3.8	# max ca 334 km/h (final-drive = 3.8)
 anti-slip = 300.0
 link-a = wheel.rl
 link-b = wheel.rr
+inertia = 0.05
 
 [fuel-tank]
 position = -0.00, -0.30, -0.30
