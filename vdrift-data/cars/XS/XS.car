@@ -1,3 +1,7 @@
+# Suspension spring and sway bar parameters from
+# http://www.s2ki.com/s2000/topic/863751-official-cr-faq
+# Characterization_of_Honda_S2000_OE_Springs_rev1.pdf
+# use 08-09 values
 
 [engine]
 position = 0.0, 0.9, -0.3
@@ -86,12 +90,12 @@ lift-coefficient = -0.7
 lift-efficiency = 0.95
 
 [antiroll.front]
-stiffness = 1000
+stiffness = 62016
 link-a = wheel.fl
 link-b = wheel.fr
 
 [antiroll.rear]
-stiffness = 6000
+stiffness = 54483
 link-a = wheel.rl
 link-b = wheel.rr
 
@@ -168,55 +172,27 @@ chassis-front = 0.34, -1.1, -0.5
 hub = 0.755, -1.33, -0.55
 
 [wheel.fl.coilover]
-spring-constant = 49131.9
+spring-constant = 49052
 bounce = 2600
 rebound = 7900
-damper-factor-1 = 0.06, 1.2
-damper-factor-2 = 0.08, 1.1
-damper-factor-3 = 0.1, 1
-damper-factor-4 = 0.2, 0.9
-damper-factor-5 = 0.5, 0.5
-damper-factor-6 = 1, 0.3
-damper-factor-7 = 5, 0.1
 travel = 0.19
 
 [wheel.fr.coilover]
-spring-constant = 49131.9
+spring-constant = 49052
 bounce = 2600
 rebound = 7900
-damper-factor-1 = 0.06, 1.2
-damper-factor-2 = 0.08, 1.1
-damper-factor-3 = 0.1, 1
-damper-factor-4 = 0.2, 0.9
-damper-factor-5 = 0.5, 0.5
-damper-factor-6 = 1, 0.3
-damper-factor-7 = 5, 0.1
 travel = 0.19
 
 [wheel.rl.coilover]
-spring-constant = 51137.3
+spring-constant = 51505
 bounce = 2700
 rebound = 8100
-damper-factor-1 = 0.06, 1.2
-damper-factor-2 = 0.08, 1.1
-damper-factor-3 = 0.1, 1
-damper-factor-4 = 0.2, 0.9
-damper-factor-5 = 0.5, 0.5
-damper-factor-6 = 1, 0.3
-damper-factor-7 = 5, 0.1
 travel = 0.19
 
 [wheel.rr.coilover]
-spring-constant = 51137.3
+spring-constant = 51505
 bounce = 2700
 rebound = 8100
-damper-factor-1 = 0.06, 1.2
-damper-factor-2 = 0.08, 1.1
-damper-factor-3 = 0.1, 1
-damper-factor-4 = 0.2, 0.9
-damper-factor-5 = 0.5, 0.5
-damper-factor-6 = 1, 0.3
-damper-factor-7 = 5, 0.1
 travel = 0.19
 
 [wheel.fl.brake]
