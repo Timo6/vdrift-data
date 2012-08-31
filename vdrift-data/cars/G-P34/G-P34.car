@@ -105,20 +105,16 @@ surface-area = 1.0
 lift-coefficient = -1.25
 lift-efficiency = 0.99
 
-[antiroll.fa]
-stiffness = 3000
+# abuse anti roll bars to simulate load transfer between front wheel pairs
+[antiroll.fl]
+stiffness = -40000
 link-a = wheel.fla
-link-b = wheel.fra
+link-b = wheel.flb
 
-[antiroll.fb]
-stiffness = 3000
-link-a = wheel.flb
+[antiroll.fr]
+stiffness = -40000
+link-a = wheel.fra
 link-b = wheel.frb
-
-[antiroll.r]
-stiffness = 5000
-link-a = wheel.rl
-link-b = wheel.rr
 
 [wheel.fla]
 size = 245, 30, 10
@@ -233,33 +229,33 @@ travel = 0.12
 [wheel.fla.brake]
 texture = rotor_carbon_ceramic.png
 friction = 1.40
-max-pressure = 2.5e6
-bias = 0.61
-radius = 0.17
+max-pressure = 1e6
+bias = 0.60
+radius = 0.10
 area = 0.020
 
 [wheel.fra.brake]
 texture = rotor_carbon_ceramic.png
 friction = 1.40
-max-pressure = 2.5e6
-bias = 0.61
-radius = 0.17
+max-pressure = 1e6
+bias = 0.60
+radius = 0.10
 area = 0.020
 
 [wheel.flb.brake]
 texture = rotor_carbon_ceramic.png
 friction = 1.40
-max-pressure = 2.5e6
-bias = 0.61
-radius = 0.17
+max-pressure = 1e6
+bias = 0.60
+radius = 0.10
 area = 0.020
 
 [wheel.frb.brake]
 texture = rotor_carbon_ceramic.png
 friction = 1.40
-max-pressure = 2.5e6
-bias = 0.61
-radius = 0.17
+max-pressure = 1e6
+bias = 0.60
+radius = 0.10
 area = 0.020
 
 [wheel.rl.brake]
