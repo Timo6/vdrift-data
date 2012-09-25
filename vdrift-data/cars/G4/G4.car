@@ -83,12 +83,12 @@ lift-coefficient = -0.6
 lift-efficiency = 0.95
 
 [antiroll.front]
-stiffness = 10000
+stiffness = 38000
 link-a = wheel.fl
 link-b = wheel.fr
 
 [antiroll.rear]
-stiffness = 10000
+stiffness = 40000
 link-a = wheel.rl
 link-b = wheel.rr
 
