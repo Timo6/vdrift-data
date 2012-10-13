@@ -1,3 +1,6 @@
+# Weight Distribution: 	53 / 47
+# OEM spring rates from my350z.com forum
+# F/R: 314/342 lbs/in
 
 [engine]
 position = 0.0, 0.7, 0.3
@@ -40,7 +43,7 @@ link = differential.rear
 
 [differential.rear]
 final-drive = 3.538
-anti-slip = 250.0
+anti-slip = 200.0
 link-a = wheel.rl
 link-b = wheel.rr
 
@@ -72,12 +75,12 @@ lift-coefficient = 0.5
 lift-efficiency = 0.95
 
 [antiroll.front]
-stiffness = 10000
+stiffness = 25000
 link-a = wheel.fl
 link-b = wheel.fr
 
 [antiroll.rear]
-stiffness = 6000
+stiffness = 20000
 link-a = wheel.rl
 link-b = wheel.rr
 
@@ -104,14 +107,14 @@ size = 245, 45, 18	# oem size = 235,50,17
 position = -0.8, -1.32, 0.18
 camber = -0.45
 caster = 0.28
-toe = 0.0
+toe = -0.25
 
 [wheel.rr]
 size = 245, 45, 18	# oem size = 235,50,17
 position = 0.8, -1.32, 0.18
 camber = 0.45
 caster = 0.28
-toe = 0.0
+toe = 0.25
 
 [wheel.fl.lower-arm]
 chassis = 0, 0, 0
@@ -130,36 +133,28 @@ chassis = 0, -0.85, 0
 hub = 0.8, -1.32, 0.18
 
 [wheel.fl.coilover]
-spring-constant = 49131.9
-bounce = 2900
-rebound = 8700
-damper-factor-1 = 0.08, 1.0
-damper-factor-2 = 0.1, 0.7
-travel = 0.18
+spring-constant = 55009
+bounce = 3200
+rebound = 8800
+travel = 0.15
 
 [wheel.fr.coilover]
-spring-constant = 49131.9
-bounce = 2900
-rebound = 8700
-damper-factor-1 = 0.08, 1.0
-damper-factor-2 = 0.1, 0.7
-travel = 0.18
+spring-constant = 55009
+bounce = 3200
+rebound = 8800
+travel = 0.15
 
 [wheel.rl.coilover]
-spring-constant = 51137.3
-bounce = 3000
-rebound = 8900
-damper-factor-1 = 0.08, 1.0
-damper-factor-2 = 0.1, 0.7
-travel = 0.18
+spring-constant = 59914
+bounce = 3500
+rebound = 9000
+travel = 0.15
 
 [wheel.rr.coilover]
-spring-constant = 51137.3
-bounce = 3000
-rebound = 8900
-damper-factor-1 = 0.08, 1.0
-damper-factor-2 = 0.1, 0.7
-travel = 0.18
+spring-constant = 59914
+bounce = 3500
+rebound = 9000
+travel = 0.15
 
 [wheel.fl.brake]
 texture = rotor_worn.png
@@ -263,30 +258,29 @@ mesh = body.joe
 draw = emissive
 
 # these are used to calculate the weight distribution and balance
-# Weight Dist: 	53 / 47
 [particle-00]
 mass = 30.0
-position = 0.0, -1.28, 0.4
+position = 0.0, -1.28, 0.40
 
 [particle-01]
 mass = 60.0
-position = 0.0, 0.15, 0.4
+position = 0.0, 0.15, 0.40
 
 [particle-02]
 mass = 255.0
-position = -0.4, -1.5, 0.25
+position = -0.4, -1.40, 0.25
 
 [particle-03]
 mass = 255.0
-position = 0.4, -1.5, 0.25
+position = 0.4, -1.40, 0.25
 
 [particle-04]
 mass = 295.0
-position = -0.4, 1.4, 0.25
+position = -0.4, 1.25, 0.25
 
 [particle-05]
 mass = 295.0
-position = 0.4, 1.4, 0.25
+position = 0.4, 1.25, 0.25
 
 [camera.0]
 name = hood
