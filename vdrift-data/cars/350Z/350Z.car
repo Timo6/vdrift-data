@@ -117,20 +117,20 @@ caster = 0.28
 toe = 0.25
 
 [wheel.fl.lower-arm]
-chassis = 0, 0, 0
-hub = -0.8, 1.33, 0.18
+chassis = -0.30, 1.30, 0.05
+hub = -0.8, 1.33, 0.20
 
 [wheel.fr.lower-arm]
-chassis = 0, 0, 0
-hub = 0.8, 1.33, 0.18
+chassis = 0.30, 1.30, 0.05
+hub = 0.8, 1.33, 0.20
 
 [wheel.rl.lower-arm]
-chassis = 0, -0.85, 0
-hub = -0.8, -1.32, 0.18
+chassis = -0.25, -1.25, 0.05
+hub = -0.8, -1.32, 0.20
 
 [wheel.rr.lower-arm]
-chassis = 0, -0.85, 0
-hub = 0.8, -1.32, 0.18
+chassis = 0.25, -1.25, 0.05
+hub = 0.8, -1.32, 0.20
 
 [wheel.fl.coilover]
 spring-constant = 55009
