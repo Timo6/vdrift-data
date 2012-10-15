@@ -43,26 +43,19 @@ gear-ratio-3 = 1.333
 gear-ratio-4 = 0.972
 gear-ratio-5 = 0.791
 gear-ratio-6 = 0.621
-shift-time = 0.05
-link = differential.center
+shift-time = 0.03
 
-[differential.center]
+[differential-front]
+final-drive = 1.0
+anti-slip = 180.0
+
+[differential-rear]
+final-drive = 1.0
+anti-slip = 180.0
+
+[differential-center]
 final-drive = 4.285
 anti-slip = 180.0
-link-a = differential.front
-link-b = differential.rear
-
-[differential.front]
-final-drive = 1.0
-anti-slip = 180.0
-link-a = wheel.fl
-link-b = wheel.fr
-
-[differential.rear]
-final-drive = 1.0
-anti-slip = 180.0
-link-a = wheel.rl
-link-b = wheel.rr
 
 [fuel-tank]
 position = -0.17, -0.26, -0.56
@@ -91,87 +84,33 @@ surface-area = 0.5
 lift-coefficient = -2
 lift-efficiency = 0.95
 
-[antiroll.front]
-stiffness = 2000
-link-a = wheel.fl
-link-b = wheel.fr
-
-[antiroll.rear]
-stiffness = 5500
-link-a = wheel.rl
-link-b = wheel.rr
-
-[wheel.fl]
-size = 225, 40, 18
-position = -0.782, 1.26, -0.43	#front track 1564mm
-camber = -1.33
-caster = 6.12
-toe = 0.3
-ackermann = 8.56	# 50% ackermann
-steering = 30
-
-[wheel.fr]
-size = 225, 40, 18
-position = 0.782, 1.26, -0.43
-camber = 1.33
-caster = 6.12
-toe = -0.3
-ackermann = -8.56
-steering = 30
-
-[wheel.rl]
-size = 225, 40, 18
-position = -0.778, -1.28, -0.43	#rear track 1556mm
-camber = -0.45
-caster = -0.28
-toe = 0.0
-
-[wheel.rr]
-size = 225, 40, 18
-position = 0.778, -1.28, -0.43
-camber = 0.45
-caster = 0.28
-toe = 0.0
-
-[wheel.fl.lower-arm]
-chassis = 0.70, 0.26, -0.43
-hub = -0.782, 1.26, -0.43
-
-[wheel.fr.lower-arm]
-chassis = -0.70, 0.26, -0.43
-hub = 0.782, 1.26, -0.43
-
-[wheel.rl.lower-arm]
-chassis = 0.70, -2.1, -0.43
-hub = -0.778, -1.28, -0.43
-
-[wheel.rr.lower-arm]
-chassis = -0.70, -2.1, -0.43
-hub = 0.778, -1.28, -0.43
-
 [wheel.fl.coilover]
 spring-constant = 60000
 bounce = 3500
 rebound = 10600
 travel = 0.32
+anti-roll = 2000
 
 [wheel.fr.coilover]
 spring-constant = 60000
 bounce = 3500
 rebound = 10600
 travel = 0.32
+anti-roll = 2000
 
 [wheel.rl.coilover]
 spring-constant = 40000
 bounce = 2400
 rebound = 7200
 travel = 0.32
+anti-roll = 5500
 
 [wheel.rr.coilover]
 spring-constant = 40000
 bounce = 2400
 rebound = 7200
 travel = 0.32
+anti-roll = 5500
 
 [wheel.fl.brake]
 texture = rotor_shiny_slotted_drilled.png
@@ -208,40 +147,78 @@ area = 0.015
 handbrake = 1.1
 
 [wheel.fl.tire]
-include = tire/touring
 texture = tire/touring.png
+size = 225, 40, 18
+type = &tire/touring
 
 [wheel.fr.tire]
-include = tire/touring
 texture = tire/touring.png
-scale = -1, 1, 1
+size = 225, 40, 18
+type = &tire/touring
 
 [wheel.rl.tire]
-include = tire/touring
 texture = tire/touring.png
+size = 225, 40, 18
+type = &tire/touring
 
 [wheel.rr.tire]
-include = tire/touring
 texture = tire/touring.png
+size = 225, 40, 18
+type = &tire/touring
+
+[wheel.fl.hinge]
+wheel = -0.782, 1.26, -0.43
+chassis = 0.70, 0.26, -0.43
+
+[wheel.fr.hinge]
+wheel = 0.782, 1.26, -0.43
+chassis = -0.70, 0.26, -0.43
+
+[wheel.rl.hinge]
+wheel = -0.778, -1.28, -0.43
+chassis = 0.70, -2.1, -0.43
+
+[wheel.rr.hinge]
+wheel = 0.778, -1.28, -0.43
+chassis = -0.70, -2.1, -0.43
+
+[wheel.fl]
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
+position = -0.782, 1.26, -0.43	#front track 1564mm
+camber = -1.33
+caster = 6.12
+toe = 0.3
+ackermann = 8.56	# 50% ackermann
+steering = 30
+
+[wheel.fr]
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 scale = -1, 1, 1
+position = 0.782, 1.26, -0.43
+camber = 1.33
+caster = 6.12
+toe = -0.3
+ackermann = -8.56
+steering = 30
 
-[wheel.fl.rim]
+[wheel.rl]
 texture = oem_wheel.png, oem_wheel-misc1.png
-hubmesh = oem_wheel.joe
+mesh = oem_wheel.joe
+position = -0.778, -1.28, -0.43	#rear track 1556mm
+camber = -0.45
+caster = -0.28
+toe = 0.0
 
-[wheel.fr.rim]
+[wheel.rr]
 texture = oem_wheel.png, oem_wheel-misc1.png
-hubmesh = oem_wheel.joe
+mesh = oem_wheel.joe
 scale = -1, 1, 1
-
-[wheel.rl.rim]
-texture = oem_wheel.png, oem_wheel-misc1.png
-hubmesh = oem_wheel.joe
-
-[wheel.rr.rim]
-texture = oem_wheel.png, oem_wheel-misc1.png
-hubmesh = oem_wheel.joe
-scale = -1, 1, 1
+position = 0.778, -1.28, -0.43
+camber = 0.45
+caster = 0.28
+toe = 0.0
 
 [steering]
 texture = steering_wheel.png
@@ -290,11 +267,11 @@ position = 0.0, 0.96, -0.47
 
 [particle-02]
 mass = 268.0
-position = 0.5, -1.3, -0.05
+position = 0.5, -1.3, 0.09
 
 [particle-03]
 mass = 268.0
-position = -0.5, -1.3, -0.05
+position = -0.5, -1.3, 0.09
 
 [particle-04]
 mass = 247.0

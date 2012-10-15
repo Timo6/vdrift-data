@@ -47,13 +47,10 @@ gear-ratio-4 = 1.19
 gear-ratio-5 = 0.94
 gear-ratio-6 = 0.76
 shift-time = 0.15
-link = differential.rear
 
-[differential.rear]
+[differential-rear]
 final-drive = 4.1
 anti-slip = 600.0
-link-a = wheel.rl
-link-b = wheel.rr
 
 [fuel-tank]
 position = 0.0, -1.0, -0.26
@@ -77,64 +74,6 @@ surface-area = 0.5
 lift-coefficient = -2
 lift-efficiency = 0.95
 
-[antiroll.front]
-stiffness = 8000
-link-a = wheel.fl
-link-b = wheel.fr
-
-[antiroll.rear]
-stiffness = 10000
-link-a = wheel.rl
-link-b = wheel.rr
-
-[wheel.fl]
-size = 215, 45, 17
-position = -0.9, 1.27, -0.3
-camber = -1.33
-caster = 6.12
-toe = 0.0
-ackermann = 8.46
-steering = 24
-
-[wheel.fr]
-size = 215, 45, 17
-position = 0.9, 1.27, -0.3
-camber = 1.33
-caster = 6.12
-toe = 0.0
-ackermann = -8.46
-steering = 24
-
-[wheel.rl]
-size = 245, 40, 17
-position = -0.9, -1.42, -0.3
-camber = -0.45
-caster = 0.28
-toe = 0.0
-
-[wheel.rr]
-size = 245, 40, 17
-position = 0.9, -1.42, -0.3
-camber = 0.45
-caster = 0.28
-toe = 0.0
-
-[wheel.fl.lower-arm]
-chassis = 0, 0, -.3
-hub = -0.9, 1.27, -0.3
-
-[wheel.fr.lower-arm]
-chassis = 0, 0, -.3
-hub = 0.9, 1.27, -0.3
-
-[wheel.rl.lower-arm]
-chassis = 0, -2.4, -.3
-hub = -0.9, -1.42, -0.3
-
-[wheel.rr.lower-arm]
-chassis = 0, -2.4, -.3
-hub = 0.9, -1.42, -0.3
-
 [wheel.fl.coilover]
 spring-constant = 79865
 bounce = 3000.0
@@ -144,6 +83,7 @@ max-compression-velocity = 9.0
 camber = -1.0
 caster = 6.12
 toe = 0.2
+anti-roll = 8000
 
 [wheel.fr.coilover]
 spring-constant = 79865
@@ -154,6 +94,7 @@ max-compression-velocity = 9.0
 camber = -1.0
 caster = 6.12
 toe = 0.2
+anti-roll = 8000
 
 [wheel.rl.coilover]
 spring-constant = 104062
@@ -164,6 +105,7 @@ max-compression-velocity = 9.0
 camber = -0.45
 caster = 0.28
 toe = 0.1
+anti-roll = 10000
 
 [wheel.rr.coilover]
 spring-constant = 104062
@@ -174,6 +116,7 @@ max-compression-velocity = 9.0
 camber = -0.45
 caster = 0.28
 toe = 0.1
+anti-roll = 10000
 
 [wheel.fl.brake]
 texture = rotor_shiny_slotted_drilled.png
@@ -210,40 +153,78 @@ area = 0.015
 handbrake = 2.0
 
 [wheel.fl.tire]
-include = tire/sticky-front
+type = &tire/sticky-front
 texture = tire/touring.png
+size = 215, 45, 17
 
 [wheel.fr.tire]
-include = tire/sticky-front
+type = &tire/sticky-front
 texture = tire/touring.png
-scale = -1, 1, 1
+size = 215, 45, 17
 
 [wheel.rl.tire]
-include = tire/sticky-rear
+type = &tire/sticky-rear
 texture = tire/touring.png
+size = 245, 40, 17
 
 [wheel.rr.tire]
-include = tire/sticky-rear
+type = &tire/sticky-rear
 texture = tire/touring.png
+size = 245, 40, 17
+
+[wheel.fl.hinge]
+wheel = -0.9, 1.27, -0.3
+chassis = 0, 0, -.3
+
+[wheel.fr.hinge]
+wheel = 0.9, 1.27, -0.3
+chassis = 0, 0, -.3
+
+[wheel.rl.hinge]
+wheel = -0.9, -1.42, -0.3
+chassis = 0, -2.4, -.3
+
+[wheel.rr.hinge]
+wheel = 0.9, -1.42, -0.3
+chassis = 0, -2.4, -.3
+
+[wheel.fl]
+texture = wheel/pentagonal_hub.png
+mesh = wheel/pentagonal_hub.joe
+position = -0.9, 1.27, -0.3
+camber = -1.33
+caster = 6.12
+toe = 0.0
+ackermann = 8.46
+steering = 24
+
+[wheel.fr]
+texture = wheel/pentagonal_hub.png
+mesh = wheel/pentagonal_hub.joe
 scale = -1, 1, 1
+position = 0.9, 1.27, -0.3
+camber = 1.33
+caster = 6.12
+toe = 0.0
+ackermann = -8.46
+steering = 24
 
-[wheel.fl.rim]
+[wheel.rl]
 texture = wheel/pentagonal_hub.png
-hubmesh = wheel/pentagonal_hub.joe
+mesh = wheel/pentagonal_hub.joe
+position = -0.9, -1.42, -0.3
+camber = -0.45
+caster = 0.28
+toe = 0.0
 
-[wheel.fr.rim]
+[wheel.rr]
 texture = wheel/pentagonal_hub.png
-hubmesh = wheel/pentagonal_hub.joe
+mesh = wheel/pentagonal_hub.joe
 scale = -1, 1, 1
-
-[wheel.rl.rim]
-texture = wheel/pentagonal_hub.png
-hubmesh = wheel/pentagonal_hub.joe
-
-[wheel.rr.rim]
-texture = wheel/pentagonal_hub.png
-hubmesh = wheel/pentagonal_hub.joe
-scale = -1, 1, 1
+position = 0.9, -1.42, -0.3
+camber = 0.45
+caster = 0.28
+toe = 0.0
 
 [steering]
 texture = steering_wheel.png

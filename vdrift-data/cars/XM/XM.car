@@ -1,6 +1,6 @@
 
 [engine]
-position = 0.0, 0.9, -0.3
+position = 0.0, 1.42, -0.24
 mass = 180.0
 max-power = 309000
 peak-engine-rpm = 8350.0
@@ -44,14 +44,11 @@ gear-ratio-3 = 1.69
 gear-ratio-4 = 1.38
 gear-ratio-5 = 1.18
 gear-ratio-6 = 1.04
-shift-time = 0.1
-link = differential.rear
+shift-time = 0.06
 
-[differential.rear]
+[differential-rear]
 final-drive = 3.87
 anti-slip = 600.0
-link-a = wheel.rl
-link-b = wheel.rr
 
 [fuel-tank]
 position = -0.17, -0.26, -0.56
@@ -80,91 +77,33 @@ surface-area = 0.5
 lift-coefficient = -2
 lift-efficiency = 0.95
 
-# M3 GTR: Michelin 27/65-18 (front) and 27/68-18 (rear)
-# track front 1609 mm, rear 1602 mm
-# 50% ackermann
-
-[antiroll.front]
-stiffness = 20000
-link-a = wheel.fl
-link-b = wheel.fr
-
-[antiroll.rear]
-stiffness = 10000
-link-a = wheel.rl
-link-b = wheel.rr
-
-[wheel.fl]
-size = 270, 35, 18
-position = -0.84, 1.51, -0.43	#-0.80, 1.51, -0.43	
-camber = -0.5
-caster = 0.0
-toe = 0.9
-ackermann = 8.18
-steering = 30
-
-[wheel.fr]
-size = 270, 35, 18
-position = 0.84, 1.51, -0.43	#0.80, 1.51, -0.43
-camber = 0.5
-caster = 0.0
-toe = -0.9
-ackermann = -8.18
-steering = 30
-
-[wheel.rl]
-size = 270, 40, 18
-position = -0.84, -1.35, -0.42	#-0.80, -1.35, -0.42
-camber = -1.5
-caster = 0.0
-toe = 0.0
-
-[wheel.rr]
-size = 270, 40, 18
-position = 0.84, -1.35, -0.42	#0.80, -1.35, -0.42
-camber = 1.5
-caster = 0.0
-toe = 0.0
-
-[wheel.fl.lower-arm]
-chassis = 0, 0, 0
-hub = -0.84, 1.51, -0.43
-
-[wheel.fr.lower-arm]
-chassis = 0, 0, 0
-hub = 0.84, 1.51, -0.43
-
-[wheel.rl.lower-arm]
-chassis = 0, 0, 0
-hub = -0.84, -1.35, -0.42
-
-[wheel.rr.lower-arm]
-chassis = 0, 0, 0
-hub = 0.84, -1.35, -0.42
-
 [wheel.fl.coilover]
 spring-constant = 100000
 bounce = 4000
 rebound = 12000
 travel = 0.15
+anti-roll = 20000
 
 [wheel.fr.coilover]
 spring-constant = 100000
 bounce = 4000
 rebound = 12000
 travel = 0.15
+anti-roll = 20000
 
 [wheel.rl.coilover]
 spring-constant = 90000
 bounce = 3300
 rebound = 10000
 travel = 0.15
+anti-roll = 10000
 
 [wheel.rr.coilover]
 spring-constant = 90000
 bounce = 3300
 rebound = 10000
 travel = 0.15
+anti-roll = 10000
 
 [wheel.fl.brake]
 texture = rotor_shiny_slotted_drilled.png
@@ -200,41 +139,83 @@ radius = 0.14
 area = 0.015
 handbrake = 1.0
 
+#M3 GTR: Michelin 27/65-18 (front) and 27/68-18 (rear)
+#track front 1609 mm, rear 1602 mm
+# 50% ackermann
+
 [wheel.fl.tire]
-include = tire/slick
 texture = tire/touring.png
+size = 270,35,18
+type = &tire/slick
 
 [wheel.fr.tire]
-include = tire/slick
 texture = tire/touring.png
-scale = -1, 1, 1
+size = 270,35,18
+type = &tire/slick
 
 [wheel.rl.tire]
-include = tire/slick
 texture = tire/touring.png
+size = 270,40,18
+type = &tire/slick
 
 [wheel.rr.tire]
-include = tire/slick
 texture = tire/touring.png
-scale = -1, 1, 1
+size = 270,40,18
+type = &tire/slick
 
-[wheel.fl.rim]
-texture = oem_wheel.png, oem_wheel-misc1.png
-hubmesh = oem_wheel.joe
+[wheel.fl.hinge]
+wheel = -0.84, 1.51, -0.43
+chassis = 0, 0, 0
 
-[wheel.fr.rim]
-texture = oem_wheel.png, oem_wheel-misc1.png
-hubmesh = oem_wheel.joe
-scale = -1, 1, 1
+[wheel.fr.hinge]
+wheel = 0.84, 1.51, -0.43
+chassis = 0, 0, 0
 
-[wheel.rl.rim]
-texture = oem_wheel.png, oem_wheel-misc1.png
-hubmesh = oem_wheel.joe
+[wheel.rl.hinge]
+wheel = -0.84, -1.35, -0.42
+chassis = 0, 0, 0
 
-[wheel.rr.rim]
+[wheel.rr.hinge]
+wheel = 0.84, -1.35, -0.42
+chassis = 0, 0, 0
+
+[wheel.fl]
 texture = oem_wheel.png, oem_wheel-misc1.png
-hubmesh = oem_wheel.joe
-scale = -1, 1, 1
+mesh = oem_wheel.joe
+position = -0.84, 1.51, -0.43	#-0.80, 1.51, -0.43	
+camber = -0.5
+caster = 0.0
+toe = 0.9
+ackermann = 8.18
+steering = 30
+
+[wheel.fr]
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
+scale = -1,1,1
+position = 0.84, 1.51, -0.43	#0.80, 1.51, -0.43
+camber = 0.5
+caster = 0.0
+toe = -0.9
+ackermann = -8.18
+steering = 30
+
+[wheel.rl]
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
+position = -0.84, -1.35, -0.42	#-0.80, -1.35, -0.42
+camber = -1.5
+caster = 0.0
+toe = 0.0
+
+[wheel.rr]
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
+scale = -1,1,1
+position = 0.84, -1.35, -0.42	#0.80, -1.35, -0.42
+camber = 1.5
+caster = 0.0
+toe = 0.0
 
 [steering]
 texture = steering_wheel.png
@@ -280,19 +261,19 @@ position = 0.0, 0.96, -0.47
 
 [particle-02]
 mass = 213.0
-position =  0.5, -1.3, -0.25
+position =  0.5, -1.3, 0.09
 
 [particle-03]
 mass = 213.0
-position = -0.5, -1.3, -0.25
+position = -0.5, -1.3, 0.09
 
 [particle-04]
 mass = 183.0
-position =  0.45, 1.6, -0.25
+position =  0.45, 1.6, -0.13
 
 [particle-05]
 mass = 183.0
-position = -0.45, 1.6, -0.25
+position = -0.45, 1.6, -0.13
 
 [camera.0]
 name = hood

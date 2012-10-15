@@ -67,12 +67,12 @@
 #---------------------------------------
 
 [engine]
-position = 0.0, -1.0, -0.15
+position = 0.0, -1.0, -0.05
 mass = 150.0
 max-power = 313000
 peak-engine-rpm = 8500
 rpm-limit = 9000.0
-inertia = 0.5
+inertia = 0.25
 start-rpm = 1000
 stall-rpm = 500
 fuel-consumption = 0.0001
@@ -116,15 +116,12 @@ gear-ratio-4 = 1.27
 gear-ratio-5 = 1.03
 gear-ratio-6 = 0.85
 shift-time = 0.15
-link = differential.rear
 
-[differential.rear]
+[differential-rear]
 final-drive = 4.44
 anti-slip = 750.0
 anti-slip-torque = 0.01
 anti-slip-torque-deceleration-factor = 0
-link-a = wheel.rl
-link-b = wheel.rr
 
 [fuel-tank]
 position = 0.0, -1.50, -0.10
@@ -153,93 +150,39 @@ surface-area = 1.0
 lift-coefficient = -0.20
 lift-efficiency = 1
 
-[antiroll.front]
-stiffness = 40000
-link-a = wheel.fl
-link-b = wheel.fr
-
-[antiroll.rear]
-stiffness = 50000
-link-a = wheel.rl
-link-b = wheel.rr
-
-[wheel.fl]
-size = 215, 45, 18
-position = -0.85, 1.12, -0.26			# track +-Y = 1669/2
-camber = -1.0
-caster = 6.12
-toe = 0.0
-ackermann = 8.96	# 50% ackermann
-steering = 33
-
-[wheel.fr]
-size = 215, 45, 18
-position = 0.85, 1.12, -0.26
-camber = 1.0
-caster = 6.12
-toe = 0.0
-ackermann = -8.96
-steering = 33
-
-[wheel.rl]
-size = 275, 40, 18
-position = -0.8085, -1.51, -0.28		# track +-Y = 1617/2
-camber = -0.45
-caster = 0.28
-toe = -0.1 # toe-in
-
-[wheel.rr]
-size = 275, 40, 18
-position = 0.8085, -1.51, -0.28
-camber = 0.45
-caster = 0.28
-toe = 0.1 # toe-in
-
-[wheel.fl.lower-arm]
-chassis = 0.50, 0.90, -0.20
-hub = -0.85, 1.12, -0.27
-
-[wheel.fr.lower-arm]
-chassis = -0.50, 0.90, -0.20
-hub = 0.85, 1.12, -0.27
-
-[wheel.rl.lower-arm]
-chassis = 1.00, -0.0, -0.0
-hub = -0.8085, -1.51, -0.28
-
-[wheel.rr.lower-arm]
-chassis = -1.00, 0.0, -0.0
-hub = 0.8085, -1.51, -0.28
-
 [wheel.fl.coilover]
 spring-constant = 79865 # assuming 0.75 to 1 lever arm ratio
-bounce = 3000
-rebound = 10000
+bounce = 3000.0
+rebound = 10000.0
 travel = 0.12
+anti-roll = 12000
 
 [wheel.fr.coilover]
 spring-constant = 79865
-bounce = 3000
-rebound = 10000
+bounce = 3000.0
+rebound = 10000.0
 travel = 0.12
+anti-roll = 12000
 
 [wheel.rl.coilover]
 spring-constant = 104062
-bounce = 4000
-rebound = 12000
+bounce = 4000.0
+rebound = 12000.0
 travel = 0.14
+anti-roll = 10000
 
 [wheel.rr.coilover]
 spring-constant = 104062
-bounce = 4000
-rebound = 12000
+bounce = 4000.0
+rebound = 12000.0
 travel = 0.14
+anti-roll = 10000
 
 [wheel.fl.brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 15.0
 max-pressure = 2.5e6
-bias = 0.70
+bias = 0.65
 radius = 0.175 # 350mm
 area = 0.000688 # 21.5mm x 32mm
 
@@ -247,7 +190,7 @@ area = 0.000688 # 21.5mm x 32mm
 texture = rotor_shiny_slotted_drilled.png
 friction = 15.0
 max-pressure = 2.5e6
-bias = 0.70
+bias = 0.65
 radius = 0.175 # 350mm
 area = 0.000688 # 21.5mm x 32mm
 
@@ -255,7 +198,7 @@ area = 0.000688 # 21.5mm x 32mm
 texture = rotor_shiny_slotted_drilled.png
 friction = 15.0
 max-pressure = 2.5e6
-bias = 0.60
+bias = 0.50
 radius = 0.165 # 330mm
 area = 0.000448 # 16mm x 28mm
 handbrake = 1.0
@@ -264,58 +207,96 @@ handbrake = 1.0
 texture = rotor_shiny_slotted_drilled.png
 friction = 15.0
 max-pressure = 2.5e6
-bias = 0.60
+bias = 0.50
 radius = 0.165 # 330mm
 area = 0.000448 # 16mm x 28mm
 handbrake = 1.0
 
+[wheel.fl.hinge]
+wheel = -0.85, 1.12, -0.27
+chassis = 0.50, 0.90, -0.20
+
+[wheel.fr.hinge]
+wheel = 0.85, 1.12, -0.27
+chassis = -0.50, 0.90, -0.20
+
+[wheel.rl.hinge]
+wheel = -0.8085, -1.51, -0.28
+chassis = 1.00, -0.0, -0.0
+
+[wheel.rr.hinge]
+wheel = 0.8085, -1.51, -0.28
+chassis = -1.00, 0.0, -0.0
+
 [wheel.fl.tire]
-include = tire/competition
 texture = tire/touring.png
+size = 215, 45, 18
+type = &tire/competition
 
 [wheel.fr.tire]
-include = tire/competition
 texture = tire/touring.png
-scale = -1, 1, 1
+size = 215, 45, 18
+type = &tire/competition
 
 [wheel.rl.tire]
-include = tire/competition
 texture = tire/touring.png
+size = 275, 40, 18
+type = &tire/competition
 
 [wheel.rr.tire]
-include = tire/competition
 texture = tire/touring.png
+size = 275, 40, 18
+type = &tire/competition
+
+[wheel.fl]
+texture = wheel/pentagonal_hub.png
+mesh = wheel/pentagonal_hub.joe
+position = -0.85, 1.12, -0.27			# track +-Y = 1669/2
+camber = -1.0
+caster = 6.12
+toe = 0.0
+ackermann = 8.96	# 50% ackermann
+steering = 33
+
+[wheel.fr]
+texture = wheel/pentagonal_hub.png
+mesh = wheel/pentagonal_hub.joe
 scale = -1, 1, 1
+position = 0.85, 1.12, -0.27
+camber = 1.0
+caster = 6.12
+toe = 0.0
+ackermann = -8.96
+steering = 33
 
-[wheel.fl.rim]
+[wheel.rl]
 texture = wheel/pentagonal_hub.png
-hubmesh = wheel/pentagonal_hub.joe
+mesh = wheel/pentagonal_hub.joe
+position = -0.8085, -1.51, -0.28		# track +-Y = 1617/2
+camber = -0.45
+caster = 0.28
+toe = -0.1
 
-[wheel.fr.rim]
+[wheel.rr]
 texture = wheel/pentagonal_hub.png
-hubmesh = wheel/pentagonal_hub.joe
+mesh = wheel/pentagonal_hub.joe
 scale = -1, 1, 1
-
-[wheel.rl.rim]
-texture = wheel/pentagonal_hub.png
-hubmesh = wheel/pentagonal_hub.joe
-
-[wheel.rr.rim]
-texture = wheel/pentagonal_hub.png
-hubmesh = wheel/pentagonal_hub.joe
-scale = -1, 1, 1
+position = 0.8085, -1.51, -0.28
+camber = 0.45
+caster = 0.28
+toe = 0.1
 
 [steering]
 texture = steering_wheel.png
 mesh = steering_wheel.joe
-position = -0.28, 0.31, 0.16
+position = -0.28, 0.49, 0.16
 rotation = 87.5, 0.0, 0.0
-max-angle = 90
+max-angle = 320
 
 [driver]
 texture = driver2.png, driver-misc1.png
 mesh = driver.joe
-position = -0.28, -0.06, 0.12
+position = -0.28, 0.12, 0.12
 mass = 90.0
 
 [body]
@@ -341,15 +322,6 @@ texture = body00.png
 mesh = revlight.joe
 draw = emissive
 
-# collision shape
-[body.box]
-center = 0.0, -0.075, 0.0
-size = 2.0, 4.4, 0.7
-
-[cabin.box]
-center = 0.0, -0.45, 0.475
-size = 1.3, 2.0, 0.25
-
 # these are used to calculate the weight distribution and balance
 
 [particle-00]# Chassis Front
@@ -362,27 +334,27 @@ position = -0.4, 1.5, -0.25
 
 [particle-02]#	Chassis left
 mass = 160
-position = 0.75, -0.3, -0.2
+position = 0.75, -0.3, -0.1
 
 [particle-03]#	Chassis right
 mass = 160
-position = -0.75, -0.3, -0.2
+position = -0.75, -0.3, -0.1
 
 [particle-04]#	Motor Env. left
 mass = 100
-position = 0.7, -1.10, -0.2
+position = 0.7, -1.10, -0.0
 
 [particle-05]# Motor Env. right
 mass = 100
-position = -0.7, -1.10, -0.2
+position = -0.7, -1.10, -0.0
 
 [particle-06]# Interieur
 mass = 100
-position = 0.7, 0.60, -0.2
+position = 0.7, 0.60, -0.10
 
 [particle-07]# Interieur
 mass = 100
-position = -0.7, 0.60, -0.2
+position = -0.7, 0.60, -0.10
 
 [particle-08]# Chassis top
 mass = 80
@@ -394,7 +366,7 @@ position = 0.00, -1.75, -0.25
 
 [particle-10]# Chassis rear
 mass = 100.0
-position = 0.00, -1.80, -0.2
+position = 0.00, -1.80, -0.0
 
 [camera.0]
 name = hood
@@ -405,8 +377,7 @@ stiffness = 0.75
 [camera.1]
 name = driver
 type = mount
-position = -0.28, -0.12, 0.43
-lookat = -0.28, 1.2, 0.30
+position = -0.28, 0.12, 0.42
 stiffness = 0.75
 
 [camera.2]
