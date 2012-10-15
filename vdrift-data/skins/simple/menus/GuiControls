@@ -5,7 +5,7 @@ oncancel = LoadControls ControlsOptions
 [ bg-top ]
 image = white.png
 color = 0.172, 0.161, 0.169
-opacity = 0.3
+alpha = 0.7
 left = 0
 right = 0
 top = 0
@@ -16,7 +16,7 @@ layer = -1
 [ bg-bottom ]
 image = white.png
 color = 0.172, 0.161, 0.169
-opacity = 0.3
+alpha = 0.7
 left = 0
 right = 0
 bottom = 0
@@ -36,7 +36,7 @@ height = 0.04
 [ bg-labels ]
 image = white.png
 color = 0.172, 0.161, 0.169
-opacity = 0.3
+alpha = 0.7
 left = 0.008
 width = 0.25
 top = 0.181
@@ -47,7 +47,7 @@ layer = -1
 [ bg-options ]
 image = white.png
 color = 0.172, 0.161, 0.169
-opacity = 0.3
+alpha = 0.7
 left = 0.26
 width = 0.48
 top = 0.181
@@ -487,7 +487,7 @@ height = 0.04
 [ widget-07e ]
 image = white.png
 color = 0.172, 0.161, 0.169
-opacity = 0.3
+alpha = 0.7
 left = 0.26
 width = 0.26
 top = 0.421
@@ -515,7 +515,7 @@ height = 0.04
 [ widget-08e ]
 image = white.png
 color = 0.172, 0.161, 0.169
-opacity = 0.3
+alpha = 0.7
 left = 0.26
 width = 0.26
 top = 0.461

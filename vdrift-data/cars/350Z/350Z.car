@@ -1,9 +1,6 @@
-# Weight Distribution: 	53 / 47
-# OEM spring rates from my350z.com forum
-# F/R: 314/342 lbs/in
 
 [engine]
-position = 0.0, 0.7, 0.3
+position = 0.0, 1.1, 0.0
 mass = 160.0
 max-power = 1.79e5
 peak-engine-rpm = 5900
@@ -38,14 +35,11 @@ gear-ratio-3 = 1.624
 gear-ratio-4 = 1.271
 gear-ratio-5 = 1.0
 gear-ratio-6 = 0.794
-shift-time = 0.1
-link = differential.rear
+shift-time = 0.08
 
-[differential.rear]
+[differential-rear]
 final-drive = 3.538
-anti-slip = 200.0
-link-a = wheel.rl
-link-b = wheel.rr
+anti-slip = 250.0
 
 [fuel-tank]
 position = 0.0, -1.0, 0.28
@@ -74,18 +68,115 @@ surface-area = 0.5
 lift-coefficient = 0.5
 lift-efficiency = 0.95
 
-[antiroll.front]
-stiffness = 25000
-link-a = wheel.fl
-link-b = wheel.fr
+[wheel.fl.coilover]
+spring-constant = 49131.9
+bounce = 2900
+rebound = 8700
+damper-factor-1 = 0.08, 1.0
+damper-factor-2 = 0.1, 0.7
+travel = 0.18
+anti-roll = 7000
 
-[antiroll.rear]
-stiffness = 20000
-link-a = wheel.rl
-link-b = wheel.rr
+[wheel.fr.coilover]
+spring-constant = 49131.9
+bounce = 2900
+rebound = 8700
+damper-factor-1 = 0.08, 1.0
+damper-factor-2 = 0.1, 0.7
+travel = 0.18
+anti-roll = 7000
+
+[wheel.rl.coilover]
+spring-constant = 51137.3
+bounce = 3000
+rebound = 8900
+damper-factor-1 = 0.08, 1.0
+damper-factor-2 = 0.1, 0.7
+travel = 0.18
+anti-roll = 6000
+
+[wheel.rr.coilover]
+spring-constant = 51137.3
+bounce = 3000
+rebound = 8900
+damper-factor-1 = 0.08, 1.0
+damper-factor-2 = 0.1, 0.7
+travel = 0.18
+anti-roll = 6000
+
+[wheel.fl.brake]
+texture = rotor_worn.png
+friction = 0.5
+max-pressure = 2.0e6
+bias = 0.60
+radius = 0.14
+area = 0.07
+
+[wheel.fr.brake]
+texture = rotor_worn.png
+friction = 0.5
+max-pressure = 2.0e6
+bias = 0.60
+radius = 0.14
+area = 0.07
+
+[wheel.rl.brake]
+texture = rotor_worn.png
+friction = 0.5
+max-pressure = 2.0e6
+bias = 0.40
+radius = 0.14
+area = 0.07
+handbrake = 1.0
+
+[wheel.rr.brake]
+texture = rotor_worn.png
+friction = 0.5
+max-pressure = 2.0e6
+bias = 0.40
+radius = 0.14
+area = 0.07
+handbrake = 1.0
+
+[wheel.fl.tire]
+texture = tire/touring.png
+size = 225, 45, 18	# oem size = 225,50,17
+type = &tire/touring
+
+[wheel.fr.tire]
+texture = tire/touring.png
+size = 225, 45, 18
+type = &tire/touring
+
+[wheel.rl.tire]
+texture = tire/touring.png
+size = 245, 45, 18	# oem size = 235,50,17
+type = &tire/touring
+
+[wheel.rr.tire]
+texture = tire/touring.png
+size = 245, 45, 18
+type = &tire/touring
+
+[wheel.fl.hinge]
+wheel = -0.8, 1.33, 0.18
+chassis = 0, 0, 0
+
+[wheel.fr.hinge]
+wheel = 0.8, 1.33, 0.18
+chassis = 0, 0, 0
+
+[wheel.rl.hinge]
+wheel = -0.8, -1.32, 0.18
+chassis = 0, -0.85, 0
+
+[wheel.rr.hinge]
+wheel = 0.8, -1.32, 0.18
+chassis = 0, -0.85, 0
 
 [wheel.fl]
-size = 225, 45, 18	# oem size = 225,50,17
+texture = wheel/pentagonal_hub.png
+mesh = wheel/pentagonal_hub.joe
 position = -0.8, 1.33, 0.18
 camber = -1.33
 caster = 6.12
@@ -94,7 +185,9 @@ ackermann = 8.4	# 50% ackermann
 steering = 30
 
 [wheel.fr]
-size = 225, 45, 18	# oem size = 225,50,17
+texture = wheel/pentagonal_hub.png
+mesh = wheel/pentagonal_hub.joe
+scale = -1, 1, 1
 position = 0.8, 1.33, 0.18
 camber = 1.33
 caster = 6.12
@@ -103,128 +196,21 @@ ackermann = -8.4
 steering = 30
 
 [wheel.rl]
-size = 245, 45, 18	# oem size = 235,50,17
+texture = wheel/pentagonal_hub.png
+mesh = wheel/pentagonal_hub.joe
 position = -0.8, -1.32, 0.18
 camber = -0.45
 caster = 0.28
-toe = -0.25
+toe = 0.0
 
 [wheel.rr]
-size = 245, 45, 18	# oem size = 235,50,17
+texture = wheel/pentagonal_hub.png
+mesh = wheel/pentagonal_hub.joe
+scale = -1, 1, 1
 position = 0.8, -1.32, 0.18
 camber = 0.45
 caster = 0.28
-toe = 0.25
-
-[wheel.fl.lower-arm]
-chassis = -0.30, 1.30, 0.05
-hub = -0.8, 1.33, 0.20
-
-[wheel.fr.lower-arm]
-chassis = 0.30, 1.30, 0.05
-hub = 0.8, 1.33, 0.20
-
-[wheel.rl.lower-arm]
-chassis = -0.25, -1.25, 0.05
-hub = -0.8, -1.32, 0.20
-
-[wheel.rr.lower-arm]
-chassis = 0.25, -1.25, 0.05
-hub = 0.8, -1.32, 0.20
-
-[wheel.fl.coilover]
-spring-constant = 55009
-bounce = 3200
-rebound = 8800
-travel = 0.15
-
-[wheel.fr.coilover]
-spring-constant = 55009
-bounce = 3200
-rebound = 8800
-travel = 0.15
-
-[wheel.rl.coilover]
-spring-constant = 59914
-bounce = 3500
-rebound = 9000
-travel = 0.15
-
-[wheel.rr.coilover]
-spring-constant = 59914
-bounce = 3500
-rebound = 9000
-travel = 0.15
-
-[wheel.fl.brake]
-texture = rotor_worn.png
-friction = 0.5
-max-pressure = 1.0e6
-bias = 0.65
-radius = 0.14
-area = 0.07
-
-[wheel.fr.brake]
-texture = rotor_worn.png
-friction = 0.5
-max-pressure = 1.0e6
-bias = 0.65
-radius = 0.14
-area = 0.07
-
-[wheel.rl.brake]
-texture = rotor_worn.png
-friction = 0.5
-max-pressure = 1.0e6
-bias = 0.30
-radius = 0.14
-area = 0.07
-handbrake = 1.0
-
-[wheel.rr.brake]
-texture = rotor_worn.png
-friction = 0.5
-max-pressure = 1.0e6
-bias = 0.30
-radius = 0.14
-area = 0.07
-handbrake = 1.0
-
-[wheel.fl.tire]
-include = tire/touring
-texture = tire/touring.png
-
-[wheel.fr.tire]
-include = tire/touring
-texture = tire/touring.png
-scale = -1, 1, 1
-
-[wheel.rl.tire]
-include = tire/touring
-texture = tire/touring.png
-
-[wheel.rr.tire]
-include = tire/touring
-texture = tire/touring.png
-scale = -1, 1, 1
-
-[wheel.fl.rim]
-texture = wheel/pentagonal_hub.png
-hubmesh = wheel/pentagonal_hub.joe
-
-[wheel.fr.rim]
-texture = wheel/pentagonal_hub.png
-hubmesh = wheel/pentagonal_hub.joe
-scale = -1, 1, 1
-
-[wheel.rl.rim]
-texture = wheel/pentagonal_hub.png
-hubmesh = wheel/pentagonal_hub.joe
-
-[wheel.rr.rim]
-texture = wheel/pentagonal_hub.png
-hubmesh = wheel/pentagonal_hub.joe
-scale = -1, 1, 1
+toe = 0.0
 
 [steering]
 texture = steering_wheel.png
@@ -260,27 +246,27 @@ draw = emissive
 # these are used to calculate the weight distribution and balance
 [particle-00]
 mass = 30.0
-position = 0.0, -1.28, 0.40
+position = 0.0, -1.28, 0.4
 
 [particle-01]
 mass = 60.0
-position = 0.0, 0.15, 0.40
+position = 0.0, 0.11, 0.4
 
 [particle-02]
-mass = 255.0
-position = -0.4, -1.40, 0.25
+mass = 295.0
+position = -0.39, -1.7, 0.4
 
 [particle-03]
-mass = 255.0
-position = 0.4, -1.40, 0.25
+mass = 295.0
+position = 0.39, -1.7, 0.4
 
 [particle-04]
-mass = 295.0
-position = -0.4, 1.25, 0.25
+mass = 255.0
+position = -0.39, 1.32, 0.4
 
 [particle-05]
-mass = 295.0
-position = 0.4, 1.25, 0.25
+mass = 255.0
+position = 0.39, 1.32, 0.4
 
 [camera.0]
 name = hood

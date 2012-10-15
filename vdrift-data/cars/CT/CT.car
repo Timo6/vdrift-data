@@ -1,6 +1,6 @@
 
 [engine]
-position = 0.0, -1.40, -0.27
+position = 0.13, -1.46, -0.18
 mass = 210.0
 max-power = 357900
 peak-engine-rpm = 5500.0
@@ -47,14 +47,11 @@ gear-ratio-3 = 1.41
 gear-ratio-4 = 1.12
 gear-ratio-5 = 0.92
 gear-ratio-6 = 0.75
-shift-time = 0.1
-link = differential.rear
+shift-time = 0.06
 
-[differential.rear]
+[differential-rear]
 final-drive = 3.44
 anti-slip = 600.0
-link-a = wheel.rl
-link-b = wheel.rr
 
 [fuel-tank]
 position = -0.1, -0.8, -0.26
@@ -63,107 +60,53 @@ volume = 0.0492
 fuel-density = 730.0
 
 [wing-front]
-position = 0.0, 1.9, 0.0
+position = 0.0, 0.0, 0.2
+frontal-area = 2
+drag-coefficient = 0.3
+
+[wing-center]
+position = 0.0, 1.9, 0.60
 frontal-area = 0.2
 drag-coefficient = 0.0
-surface-area = 0.5
+surface-area = 0.3
 lift-coefficient = -0.5
 lift-efficiency = 0.95
 
-[wing-center]
-position = 0.0, 0.0, 0.1
-frontal-area = 2.0
-drag-coefficient = 0.3
-
 [wing-rear]
-position = 0.0, -2.14, 0.2
+position = 0.0, -2.14, 0.37
 frontal-area = 0.05
 drag-coefficient = 0.0
 surface-area = 0.5
-lift-coefficient = -2.0
+lift-coefficient = -3.2
 lift-efficiency = 0.95
 
-[antiroll.front]
-stiffness = 10000
-link-a = wheel.fl
-link-b = wheel.fr
-
-[antiroll.rear]
-stiffness = 15000
-link-a = wheel.rl
-link-b = wheel.rr
-
-[wheel.fl]
-size = 225, 40, 18	# 996 GT3
-position = -0.733, 1.193, -0.40
-camber = -1.0
-caster = 1.0
-toe = 0.5
-ackermann = 8.63	# 50% ackermann
-steering = 30
-
-[wheel.fr]
-size = 225, 40, 18	# 996 GT3
-position = 0.733, 1.193, -0.40
-camber = 1.0
-caster = 1.0
-toe = -0.5
-ackermann = -8.63
-steering = 30
-
-[wheel.rl]
-size = 285, 30, 18
-position = -0.761, -1.13, -0.40
-camber = -0.5
-caster = 0.0
-toe = 0.0
-
-[wheel.rr]
-size = 285, 30, 18
-position = 0.761, -1.13, -0.40
-camber = 0.5
-caster = 0.0
-toe = 0.0
-
-[wheel.fl.lower-arm]
-chassis = 0.0, 1.19, -0.46
-hub = -0.72, 1.193, -0.47
-
-[wheel.fr.lower-arm]
-chassis = 0.0, 1.19, -0.46
-hub = 0.72, 1.193, -0.47
-
-[wheel.rl.lower-arm]
-chassis = 0.0, -1.10, -0.46
-hub = -0.75, -1.13, -0.47
-
-[wheel.rr.lower-arm]
-chassis = 0.0, -1.10, -0.47
-hub = 0.75, -1.13, -0.47
-
 [wheel.fl.coilover]
-spring-constant = 65000
-bounce = 7000
-rebound = 15000
-travel = 0.12
+spring-constant = 25000
+bounce = 5000
+rebound = 4500
+travel = 0.24
+anti-roll = 18000
 
 [wheel.fr.coilover]
-spring-constant = 65000
-bounce = 7000
-rebound = 15000
-travel = 0.12
+spring-constant = 25000
+bounce = 5000
+rebound = 4500
+travel = 0.24
+anti-roll = 18000
 
 [wheel.rl.coilover]
-spring-constant = 80000
-bounce = 8000
-rebound = 16000
-travel = 0.13
+spring-constant = 29750
+bounce = 5000
+rebound = 4500
+travel = 0.26
+anti-roll = 20000
 
 [wheel.rr.coilover]
-spring-constant = 80000
-bounce = 8000
-rebound = 16000
-travel = 0.13
+spring-constant = 29750
+bounce = 5000
+rebound = 4500
+travel = 0.26
+anti-roll = 20000
 
 [wheel.fl.brake]
 texture = rotor_shiny_slotted_drilled.png
@@ -200,40 +143,78 @@ area = 0.015
 handbrake = 1.0
 
 [wheel.fl.tire]
-include = tire/competition
 texture = tire/touring.png
+size = 225,40,18	# 996 GT3
+type = &tire/competition
 
 [wheel.fr.tire]
-include = tire/competition
 texture = tire/touring.png
-scale = -1, 1, 1
+size = 225, 40, 18
+type = &tire/competition
 
 [wheel.rl.tire]
-include = tire/competition
 texture = tire/touring.png
+size = 285, 30, 18
+type = &tire/competition
 
 [wheel.rr.tire]
-include = tire/competition
 texture = tire/touring.png
+size = 285, 30, 18
+type = &tire/competition
+
+[wheel.fl.hinge]
+wheel = -0.721, 1.193, -0.47
+chassis = 0, 0, 0
+
+[wheel.fr.hinge]
+wheel = 0.721, 1.193, -0.47
+chassis = 0, 0, 0
+
+[wheel.rl.hinge]
+wheel = -0.721, -1.127, -0.47
+chassis = 0, -0.6, 0
+
+[wheel.rr.hinge]
+wheel = 0.721, -1.127, -0.47
+chassis = 0, -0.6, 0
+
+[wheel.fl]
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
+position = -0.721, 1.193, -0.47
+camber = -1.0
+caster = 1.0
+toe = 0.5
+ackermann = 8.63	# 50% ackermann
+steering = 30
+
+[wheel.fr]
+texture = oem_wheel.png, oem_wheel-misc1.png
+mesh = oem_wheel.joe
 scale = -1, 1, 1
+position = 0.721, 1.193, -0.47
+camber = 1.0
+caster = 1.0
+toe = -0.5
+ackermann = -8.63
+steering = 30
 
-[wheel.fl.rim]
+[wheel.rl]
 texture = oem_wheel.png, oem_wheel-misc1.png
-hubmesh = oem_wheel.joe
+mesh = oem_wheel.joe
+position = -0.721, -1.127, -0.47
+camber = -0.5
+caster = 0.0
+toe = 0.0
 
-[wheel.fr.rim]
+[wheel.rr]
 texture = oem_wheel.png, oem_wheel-misc1.png
-hubmesh = oem_wheel.joe
+mesh = oem_wheel.joe
 scale = -1, 1, 1
-
-[wheel.rl.rim]
-texture = oem_wheel.png, oem_wheel-misc1.png
-hubmesh = oem_wheel.joe
-
-[wheel.rr.rim]
-texture = oem_wheel.png, oem_wheel-misc1.png
-hubmesh = oem_wheel.joe
-scale = -1, 1, 1
+position = 0.721, -1.127, -0.47
+camber = 0.5
+caster = 0.0
+toe = 0.0
 
 [steering]
 texture = steering_wheel.png
@@ -272,26 +253,25 @@ mesh = body.joe
 draw = emissive
 
 # these are used to calculate the weight distribution and balance
-# weight distribution 44:56
 [particle-00]
 mass = 60.0
 position = 0.1, 0.5, -0.45
 
 [particle-01]
 mass = 130.0
-position = 0.4, -1.07, -0.20
+position = 0.4, -1.07, 0.1
 
 [particle-02]
 mass = 130.0
-position = -0.4, -1.07, -0.20
+position = -0.4, -1.07, 0.1
 
 [particle-03]
 mass = 215.0
-position = 0.4, 1.09, -0.20
+position = 0.4, 1.09, 0.0
 
 [particle-04]
 mass = 215.0
-position = -0.4, 1.09, -0.20
+position = -0.4, 1.09, 0.0
 
 [camera.0]
 name = hood
