@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: VDrift\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-11-25 12:03+0100\n"
-"PO-Revision-Date: 2013-01-07 17:33+0100\n"
+"PO-Revision-Date: 2013-01-08 00:11+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -548,7 +548,7 @@ msgstr "Kamera"
 
 #: data/skins/simple/menus/DisplayOptions:670
 msgid "Camera Bounce"
-msgstr "Kameraerschütterungseffekt"
+msgstr "Kamerawackeln"
 
 #: data/skins/simple/menus/CameraViewControls:739
 msgid "Camera Movement"
@@ -1013,7 +1013,7 @@ msgstr "Blickfeldanzeige"
 #: data/skins/simple/menus/SingleRace:740
 #: data/skins/simple/menus/SingleRace:760
 msgid "Help reduce wheel lockup on heavy braking (driver aid)."
-msgstr ""
+msgstr "Verhindere blockerende Räder bei hartem Bremsen."
 
 #: data/settings/options.config:249 data/settings/options.config:343
 #: data/settings/options.config:547 data/settings/options.config:562
@@ -1023,7 +1023,7 @@ msgstr "Hoch"
 
 #: data/skins/simple/menus/SingleRace:455
 msgid "Higher values result in an AI that will drive faster."
-msgstr ""
+msgstr "Höherer Wert hat eine schnellere KI zur Folge."
 
 #: data/skins/simple/menus/CameraViewControls:203
 msgid "Hood"
@@ -1323,7 +1323,7 @@ msgstr "Eine Eingabe machen."
 #: data/skins/simple/menus/SingleRace:799
 #: data/skins/simple/menus/SingleRace:819
 msgid "Prevents wheels from spinning during acceleration (driver aid)."
-msgstr ""
+msgstr "Verhindert durchdrehende Räder beim Beschleunigen."
 
 #: data/skins/simple/menus/CameraViewControls:69
 msgid "Previous Camera"
@@ -1396,7 +1396,7 @@ msgstr "Server"
 #: data/skins/simple/menus/ControlsOptions:131
 #: data/skins/simple/menus/Main:102 data/skins/simple/menus/Replays:59
 msgid "Replays"
-msgstr "Aufgezeichnete Rennen"
+msgstr "Aufzeichnungen"
 
 #: data/skins/simple/menus/CarControls:684
 #: data/skins/simple/menus/CarControls:703
@@ -1448,7 +1448,7 @@ msgstr "Rückwärts"
 #: data/skins/simple/menus/InputDevice:197
 #: data/skins/simple/menus/InputDevice:217
 msgid "Reverse the force feedback, if necessary for your wheel."
-msgstr ""
+msgstr "Force Feedback Richtung umkehren."
 
 #: data/skins/simple/menus/GuiControls:270
 msgid "Right"
@@ -1545,7 +1545,7 @@ msgstr "Wechsle zur festen Verfolgerkamera."
 #: data/skins/simple/menus/GuiControls:100
 #: data/skins/simple/menus/GuiControls:118
 msgid "Select the currently focused menu item."
-msgstr ""
+msgstr "Gegenwärtig aktives Menüelement betätigen."
 
 #: data/skins/simple/menus/Replays:81 data/skins/simple/menus/Replays:101
 msgid "Select the replay to watch."
@@ -1558,22 +1558,22 @@ msgstr "Tasten zur Bewegung der Kamera zuweisen."
 #: data/skins/simple/menus/DisplayOptionsAdvanced:741
 #: data/skins/simple/menus/DisplayOptionsAdvanced:761
 msgid "Set how good the SSAO looks during gameplay."
-msgstr ""
+msgstr "Ändere die Qualität der Umgebungsschatten."
 
 #: data/skins/simple/menus/DisplayOptionsAdvanced:800
 #: data/skins/simple/menus/DisplayOptionsAdvanced:820
 msgid "Set how good the reflections looks during gameplay."
-msgstr ""
+msgstr "Ändere die Qualität der Reflektionen."
 
 #: data/skins/simple/menus/DisplayOptionsAdvanced:268
 #: data/skins/simple/menus/DisplayOptionsAdvanced:288
 msgid "Set the anisotropic filtering level for textures."
-msgstr ""
+msgstr "Ändere den Level des Anisotropischen Texturfilters."
 
 #: data/skins/simple/menus/DisplayOptionsAdvanced:859
 #: data/skins/simple/menus/DisplayOptionsAdvanced:879
 msgid "Set the distance at which shadows become visible."
-msgstr ""
+msgstr "Ändere den Abstand ab dem Schatten sichtbar werden."
 
 #: data/skins/simple/menus/DisplayOptionsAdvanced:327
 #: data/skins/simple/menus/DisplayOptionsAdvanced:347
@@ -1799,6 +1799,8 @@ msgid ""
 "The higher the value on this setting, the more steering is limited as car "
 "speed increases."
 msgstr ""
+"Je höher der Wert, umso geringer der Lenkausschlag bei steigender "
+"Fahrzeuggeschwindigkeit."
 
 #: data/skins/simple/menus/TransmissionControls:282
 #: data/skins/simple/menus/TransmissionControls:301
