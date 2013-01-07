@@ -31,7 +31,7 @@ def main(argv):
 	output.write('# This file is distributed under the same license as the PACKAGE package.\n')
 	output.write('# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.\n')
 	output.write('msgid \"\"\nmsgstr \"\"\n')
-	output.write('\"Project-Id-Version: PACKAGE VERSION\\n\"\n')
+	output.write('\"Project-Id-Version: VDrift\\n\"\n')
 	output.write('\"Report-Msgid-Bugs-To: \\n\"\n')
 	output.write('\"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\\n\"\n')
 	output.write('\"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n\"\n')
@@ -47,9 +47,11 @@ def main(argv):
 		if not line.startswith('#'):
 			namevalue = line.split('=')
 			if len(namevalue) > 1:
-				name = namevalue[0].strip(' \"\n')
-				value = namevalue[1].strip(' \"\n')
+				name = namevalue[0].strip(' \n')
+				value = namevalue[1].strip(' \n')
 				if name and value:
+					name = name.replace('"', '\\"')
+					value = value.replace('"', '\\"')
 					output.write('msgid \"' + name + '\"\nmsgstr \"' + value + '\"\n\n')
 		line = input.readline()
 	input.close()
