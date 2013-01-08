@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VDrift\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-25 12:03+0100\n"
-"PO-Revision-Date: 2013-01-07 17:39+0100\n"
+"POT-Creation-Date: 2013-01-08 15:53+0100\n"
+"PO-Revision-Date: 2013-01-08 16:08+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -754,6 +754,10 @@ msgstr "Alege vopseaua pentru maşină."
 msgid "Choose the track to drive on."
 msgstr "Alege traseul pe care să conduci."
 
+#: data/settings/options.config:96
+msgid "Client"
+msgstr ""
+
 #: data/skins/simple/menus/DisplayOptionsAdvanced:79
 msgid "Color Depth"
 msgstr "Adâncimea culorii"
@@ -815,7 +819,7 @@ msgstr "Afişează harta traseului."
 msgid "Display the racing line."
 msgstr "Afişează linia traseului."
 
-#: data/skins/simple/menus/GuiControls:404
+#: data/skins/simple/menus/GuiControls:404 data/settings/options.config:874
 #, fuzzy
 msgid "Down"
 msgstr "Sus/Jos"
@@ -1043,6 +1047,11 @@ msgstr "Frâna de mână"
 msgid "Heads Up Display"
 msgstr "Afişare HUD"
 
+#: data/settings/options.config:865
+#, fuzzy
+msgid "Held"
+msgstr "Ţine apăsat/O singură dată"
+
 #: data/skins/simple/menus/PracticeGame:563
 #: data/skins/simple/menus/PracticeGame:583
 #: data/skins/simple/menus/SingleRace:740
@@ -1108,10 +1117,6 @@ msgstr "Părăseşte meniul si revino in joc."
 #, fuzzy
 msgid "Left"
 msgstr "Deplasează la stânga"
-
-#: data/skins/simple/menus/Loading:36
-msgid "Loading"
-msgstr ""
 
 #: data/skins/simple/menus/CarManager:129
 #: data/skins/simple/menus/TrackManager:129
@@ -1206,6 +1211,7 @@ msgstr "Următoarea cameră"
 #: data/skins/simple/menus/GameLeaveConfirm:47
 #: data/skins/simple/menus/QuitConfirm:47
 #: data/skins/simple/menus/RestartGameConfirm:47
+#: data/settings/options.config:361
 msgid "No"
 msgstr "Nu"
 
@@ -1241,10 +1247,42 @@ msgstr "Hărţi normale"
 msgid "OK"
 msgstr "OK"
 
-#: data/settings/options.config:337 data/settings/options.config:473
-#: data/settings/options.config:543 data/settings/options.config:558
+#: data/settings/options.config:188 data/settings/options.config:213
+#: data/settings/options.config:223 data/settings/options.config:303
+#: data/settings/options.config:313 data/settings/options.config:337
+#: data/settings/options.config:380 data/settings/options.config:391
+#: data/settings/options.config:425 data/settings/options.config:435
+#: data/settings/options.config:445 data/settings/options.config:463
+#: data/settings/options.config:473 data/settings/options.config:490
+#: data/settings/options.config:518 data/settings/options.config:543
+#: data/settings/options.config:558 data/settings/options.config:661
+#: data/settings/options.config:671 data/settings/options.config:681
+#: data/settings/options.config:702 data/settings/options.config:712
+#: data/settings/options.config:722 data/settings/options.config:732
+#: data/settings/options.config:742 data/settings/options.config:752
+#: data/settings/options.config:822
 msgid "Off"
 msgstr "Fără"
+
+#: data/settings/options.config:187 data/settings/options.config:212
+#: data/settings/options.config:222 data/settings/options.config:302
+#: data/settings/options.config:312 data/settings/options.config:379
+#: data/settings/options.config:390 data/settings/options.config:424
+#: data/settings/options.config:434 data/settings/options.config:444
+#: data/settings/options.config:462 data/settings/options.config:489
+#: data/settings/options.config:517 data/settings/options.config:660
+#: data/settings/options.config:670 data/settings/options.config:680
+#: data/settings/options.config:701 data/settings/options.config:711
+#: data/settings/options.config:721 data/settings/options.config:731
+#: data/settings/options.config:741 data/settings/options.config:751
+#: data/settings/options.config:821
+msgid "On"
+msgstr ""
+
+#: data/settings/options.config:864
+#, fuzzy
+msgid "Once"
+msgstr "Ţine apăsat/O singură dată"
 
 #: data/skins/simple/menus/InGameMain:131 data/skins/simple/menus/Main:130
 #: data/skins/simple/menus/Options:37
@@ -1610,6 +1648,11 @@ msgstr ""
 #, fuzzy
 msgid "Select the replay to watch."
 msgstr "Alege reluarea"
+
+#: data/settings/options.config:95
+#, fuzzy
+msgid "Server"
+msgstr "IP server"
 
 #: data/skins/simple/menus/CameraViewControls:742
 #, fuzzy
@@ -2079,7 +2122,7 @@ msgstr ""
 msgid "Type"
 msgstr ""
 
-#: data/skins/simple/menus/GuiControls:337
+#: data/skins/simple/menus/GuiControls:337 data/settings/options.config:875
 msgid "Up"
 msgstr ""
 
@@ -2149,6 +2192,7 @@ msgstr ""
 #: data/skins/simple/menus/GameLeaveConfirm:74
 #: data/skins/simple/menus/QuitConfirm:74
 #: data/skins/simple/menus/RestartGameConfirm:74
+#: data/settings/options.config:360
 msgid "Yes"
 msgstr "Da"
 
@@ -2180,6 +2224,10 @@ msgstr "Focalizează camera în interior."
 msgid "Zoom camera out."
 msgstr "Focalizează camera în exterior."
 
+#: data/settings/options.config:233
+msgid "kph"
+msgstr ""
+
 #: data/settings/options.config:475
 msgid "long"
 msgstr "lung"
@@ -2187,6 +2235,10 @@ msgstr "lung"
 #: data/settings/options.config:477
 msgid "medium"
 msgstr "medie"
+
+#: data/settings/options.config:232
+msgid "mph"
+msgstr ""
 
 #: data/settings/options.config:479
 msgid "short"
@@ -2347,9 +2399,6 @@ msgstr "scurt"
 
 #~ msgid "Go back to the Network Game menu."
 #~ msgstr "Întoarce-te la meniul Joc de reţea."
-
-#~ msgid "Held/Once"
-#~ msgstr "Ţine apăsat/O singură dată"
 
 #~ msgid "In-Car"
 #~ msgstr "Din maşină"
@@ -2726,9 +2775,6 @@ msgstr "scurt"
 
 #~ msgid "Joystick Calibrated"
 #~ msgstr "Joystick calibrat"
-
-#~ msgid "Server IP"
-#~ msgstr "IP server"
 
 #~ msgid "Ghost Car"
 #~ msgstr "Maşină fantomă"

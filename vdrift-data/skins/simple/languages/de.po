@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VDrift\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-25 12:03+0100\n"
-"PO-Revision-Date: 2013-01-08 00:11+0100\n"
+"POT-Creation-Date: 2013-01-08 15:53+0100\n"
+"PO-Revision-Date: 2013-01-08 16:06+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -729,6 +729,10 @@ msgstr "Ändere Farbsättigung."
 msgid "Choose the track to drive on."
 msgstr "Wähle Strecke."
 
+#: data/settings/options.config:96
+msgid "Client"
+msgstr "Client"
+
 #: data/skins/simple/menus/DisplayOptionsAdvanced:79
 msgid "Color Depth"
 msgstr "Farbtiefe"
@@ -789,7 +793,7 @@ msgstr "Streckenkarte anzeigen."
 msgid "Display the racing line."
 msgstr "Ideallinie anzeigen."
 
-#: data/skins/simple/menus/GuiControls:404
+#: data/skins/simple/menus/GuiControls:404 data/settings/options.config:874
 msgid "Down"
 msgstr "Runter"
 
@@ -1008,6 +1012,10 @@ msgstr "Handbremse"
 msgid "Heads Up Display"
 msgstr "Blickfeldanzeige"
 
+#: data/settings/options.config:865
+msgid "Held"
+msgstr "Halten"
+
 #: data/skins/simple/menus/PracticeGame:563
 #: data/skins/simple/menus/PracticeGame:583
 #: data/skins/simple/menus/SingleRace:740
@@ -1069,10 +1077,6 @@ msgstr "Menü verlassen und Spiel fortsetzen."
 #: data/skins/simple/menus/GuiControls:203
 msgid "Left"
 msgstr "Links"
-
-#: data/skins/simple/menus/Loading:36
-msgid "Loading"
-msgstr "Lade"
 
 #: data/skins/simple/menus/CarManager:129
 #: data/skins/simple/menus/TrackManager:129
@@ -1166,6 +1170,7 @@ msgstr "Nächste Kamera"
 #: data/skins/simple/menus/GameLeaveConfirm:47
 #: data/skins/simple/menus/QuitConfirm:47
 #: data/skins/simple/menus/RestartGameConfirm:47
+#: data/settings/options.config:361
 msgid "No"
 msgstr "Nein"
 
@@ -1201,10 +1206,41 @@ msgstr "Normalmaps"
 msgid "OK"
 msgstr "OK"
 
-#: data/settings/options.config:337 data/settings/options.config:473
-#: data/settings/options.config:543 data/settings/options.config:558
+#: data/settings/options.config:188 data/settings/options.config:213
+#: data/settings/options.config:223 data/settings/options.config:303
+#: data/settings/options.config:313 data/settings/options.config:337
+#: data/settings/options.config:380 data/settings/options.config:391
+#: data/settings/options.config:425 data/settings/options.config:435
+#: data/settings/options.config:445 data/settings/options.config:463
+#: data/settings/options.config:473 data/settings/options.config:490
+#: data/settings/options.config:518 data/settings/options.config:543
+#: data/settings/options.config:558 data/settings/options.config:661
+#: data/settings/options.config:671 data/settings/options.config:681
+#: data/settings/options.config:702 data/settings/options.config:712
+#: data/settings/options.config:722 data/settings/options.config:732
+#: data/settings/options.config:742 data/settings/options.config:752
+#: data/settings/options.config:822
 msgid "Off"
 msgstr "Aus"
+
+#: data/settings/options.config:187 data/settings/options.config:212
+#: data/settings/options.config:222 data/settings/options.config:302
+#: data/settings/options.config:312 data/settings/options.config:379
+#: data/settings/options.config:390 data/settings/options.config:424
+#: data/settings/options.config:434 data/settings/options.config:444
+#: data/settings/options.config:462 data/settings/options.config:489
+#: data/settings/options.config:517 data/settings/options.config:660
+#: data/settings/options.config:670 data/settings/options.config:680
+#: data/settings/options.config:701 data/settings/options.config:711
+#: data/settings/options.config:721 data/settings/options.config:731
+#: data/settings/options.config:741 data/settings/options.config:751
+#: data/settings/options.config:821
+msgid "On"
+msgstr "An"
+
+#: data/settings/options.config:864
+msgid "Once"
+msgstr "Einmal"
 
 #: data/skins/simple/menus/InGameMain:131 data/skins/simple/menus/Main:130
 #: data/skins/simple/menus/Options:37
@@ -1550,6 +1586,10 @@ msgstr "Gegenwärtig aktives Menüelement betätigen."
 #: data/skins/simple/menus/Replays:81 data/skins/simple/menus/Replays:101
 msgid "Select the replay to watch."
 msgstr "Wähle die zu wiedergebende Aufzeichnung."
+
+#: data/settings/options.config:95
+msgid "Server"
+msgstr "Server"
 
 #: data/skins/simple/menus/CameraViewControls:742
 msgid "Set camera movement controls."
@@ -1988,7 +2028,7 @@ msgstr ""
 msgid "Type"
 msgstr "Typ"
 
-#: data/skins/simple/menus/GuiControls:337
+#: data/skins/simple/menus/GuiControls:337 data/settings/options.config:875
 msgid "Up"
 msgstr "Hoch"
 
@@ -2052,6 +2092,7 @@ msgstr ""
 #: data/skins/simple/menus/GameLeaveConfirm:74
 #: data/skins/simple/menus/QuitConfirm:74
 #: data/skins/simple/menus/RestartGameConfirm:74
+#: data/settings/options.config:360
 msgid "Yes"
 msgstr "Ja"
 
@@ -2083,6 +2124,10 @@ msgstr "Kamera heranzoomen."
 msgid "Zoom camera out."
 msgstr "Kamera herauszoomen."
 
+#: data/settings/options.config:233
+msgid "kph"
+msgstr "kmh"
+
 #: data/settings/options.config:475
 msgid "long"
 msgstr "lang"
@@ -2091,9 +2136,16 @@ msgstr "lang"
 msgid "medium"
 msgstr "mittel"
 
+#: data/settings/options.config:232
+msgid "mph"
+msgstr "mph"
+
 #: data/settings/options.config:479
 msgid "short"
 msgstr "kurz"
+
+#~ msgid "Loading"
+#~ msgstr "Lade"
 
 #~ msgid "Add"
 #~ msgstr "Hinzufügen"
@@ -2244,9 +2296,6 @@ msgstr "kurz"
 
 #~ msgid "Go back to the Network Game menu."
 #~ msgstr "Zurück zu Menu 'Netzwerkspiel'"
-
-#~ msgid "Held/Once"
-#~ msgstr "Halten/Druecken"
 
 #~ msgid "In-Car"
 #~ msgstr "Fahrer"

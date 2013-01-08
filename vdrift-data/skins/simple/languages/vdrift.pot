@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VDrift\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-25 12:03+0100\n"
+"POT-Creation-Date: 2013-01-08 15:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -742,6 +742,10 @@ msgstr ""
 msgid "Choose the track to drive on."
 msgstr ""
 
+#: data/settings/options.config:96
+msgid "Client"
+msgstr ""
+
 #: data/skins/simple/menus/DisplayOptionsAdvanced:79
 msgid "Color Depth"
 msgstr ""
@@ -803,6 +807,7 @@ msgid "Display the racing line."
 msgstr ""
 
 #: data/skins/simple/menus/GuiControls:404
+#: data/settings/options.config:874
 msgid "Down"
 msgstr ""
 
@@ -1021,6 +1026,10 @@ msgstr ""
 msgid "Heads Up Display"
 msgstr ""
 
+#: data/settings/options.config:865
+msgid "Held"
+msgstr ""
+
 #: data/skins/simple/menus/PracticeGame:563
 #: data/skins/simple/menus/PracticeGame:583
 #: data/skins/simple/menus/SingleRace:740
@@ -1083,10 +1092,6 @@ msgstr ""
 
 #: data/skins/simple/menus/GuiControls:203
 msgid "Left"
-msgstr ""
-
-#: data/skins/simple/menus/Loading:36
-msgid "Loading"
 msgstr ""
 
 #: data/skins/simple/menus/CarManager:129
@@ -1185,6 +1190,7 @@ msgstr ""
 #: data/skins/simple/menus/GameLeaveConfirm:47
 #: data/skins/simple/menus/QuitConfirm:47
 #: data/skins/simple/menus/RestartGameConfirm:47
+#: data/settings/options.config:361
 msgid "No"
 msgstr ""
 
@@ -1220,11 +1226,64 @@ msgstr ""
 msgid "OK"
 msgstr ""
 
+#: data/settings/options.config:188
+#: data/settings/options.config:213
+#: data/settings/options.config:223
+#: data/settings/options.config:303
+#: data/settings/options.config:313
 #: data/settings/options.config:337
+#: data/settings/options.config:380
+#: data/settings/options.config:391
+#: data/settings/options.config:425
+#: data/settings/options.config:435
+#: data/settings/options.config:445
+#: data/settings/options.config:463
 #: data/settings/options.config:473
+#: data/settings/options.config:490
+#: data/settings/options.config:518
 #: data/settings/options.config:543
 #: data/settings/options.config:558
+#: data/settings/options.config:661
+#: data/settings/options.config:671
+#: data/settings/options.config:681
+#: data/settings/options.config:702
+#: data/settings/options.config:712
+#: data/settings/options.config:722
+#: data/settings/options.config:732
+#: data/settings/options.config:742
+#: data/settings/options.config:752
+#: data/settings/options.config:822
 msgid "Off"
+msgstr ""
+
+#: data/settings/options.config:187
+#: data/settings/options.config:212
+#: data/settings/options.config:222
+#: data/settings/options.config:302
+#: data/settings/options.config:312
+#: data/settings/options.config:379
+#: data/settings/options.config:390
+#: data/settings/options.config:424
+#: data/settings/options.config:434
+#: data/settings/options.config:444
+#: data/settings/options.config:462
+#: data/settings/options.config:489
+#: data/settings/options.config:517
+#: data/settings/options.config:660
+#: data/settings/options.config:670
+#: data/settings/options.config:680
+#: data/settings/options.config:701
+#: data/settings/options.config:711
+#: data/settings/options.config:721
+#: data/settings/options.config:731
+#: data/settings/options.config:741
+#: data/settings/options.config:751
+#: data/settings/options.config:821
+msgid "On"
+msgstr ""
+
+#: data/settings/options.config:864
+msgid "Once"
 msgstr ""
 
 #: data/skins/simple/menus/InGameMain:131
@@ -1574,6 +1633,10 @@ msgstr ""
 #: data/skins/simple/menus/Replays:81
 #: data/skins/simple/menus/Replays:101
 msgid "Select the replay to watch."
+msgstr ""
+
+#: data/settings/options.config:95
+msgid "Server"
 msgstr ""
 
 #: data/skins/simple/menus/CameraViewControls:742
@@ -1996,6 +2059,7 @@ msgid "Type"
 msgstr ""
 
 #: data/skins/simple/menus/GuiControls:337
+#: data/settings/options.config:875
 msgid "Up"
 msgstr ""
 
@@ -2059,6 +2123,7 @@ msgstr ""
 #: data/skins/simple/menus/GameLeaveConfirm:74
 #: data/skins/simple/menus/QuitConfirm:74
 #: data/skins/simple/menus/RestartGameConfirm:74
+#: data/settings/options.config:360
 msgid "Yes"
 msgstr ""
 
@@ -2090,6 +2155,10 @@ msgstr ""
 msgid "Zoom camera out."
 msgstr ""
 
+#: data/settings/options.config:233
+msgid "kph"
+msgstr ""
+
 #: data/settings/options.config:475
 msgid "long"
 msgstr ""
@@ -2098,6 +2167,11 @@ msgstr ""
 msgid "medium"
 msgstr ""
 
+#: data/settings/options.config:232
+msgid "mph"
+msgstr ""
+
 #: data/settings/options.config:479
 msgid "short"
 msgstr ""
+

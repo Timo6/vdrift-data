@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VDrift\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-25 12:03+0100\n"
-"PO-Revision-Date: 2013-01-07 17:57+0100\n"
+"POT-Creation-Date: 2013-01-08 15:53+0100\n"
+"PO-Revision-Date: 2013-01-08 16:07+0100\n"
 "Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
 "Language-Team: Fòram na Gàidhlig http://www.foramnagaidhlig.net\n"
 "Language: gd\n"
@@ -737,6 +737,10 @@ msgstr "Tagh an t-sàthachd a bhios air a' chàr."
 msgid "Choose the track to drive on."
 msgstr "Tagh an t-slighe gus draibheadh oirre."
 
+#: data/settings/options.config:96
+msgid "Client"
+msgstr ""
+
 #: data/skins/simple/menus/DisplayOptionsAdvanced:79
 msgid "Color Depth"
 msgstr "Doimhne datha"
@@ -797,7 +801,7 @@ msgstr "Seall mapa an t-slighe."
 msgid "Display the racing line."
 msgstr "Seall loidhne-rèisidh."
 
-#: data/skins/simple/menus/GuiControls:404
+#: data/skins/simple/menus/GuiControls:404 data/settings/options.config:874
 msgid "Down"
 msgstr "Sìos"
 
@@ -1028,6 +1032,10 @@ msgstr "Brèig-làimhe"
 msgid "Heads Up Display"
 msgstr "Heads Up Display"
 
+#: data/settings/options.config:865
+msgid "Held"
+msgstr "Ga chumail"
+
 #: data/skins/simple/menus/PracticeGame:563
 #: data/skins/simple/menus/PracticeGame:583
 #: data/skins/simple/menus/SingleRace:740
@@ -1091,11 +1099,6 @@ msgstr "Fàg an clàr-taice is lean air a' gheama."
 #: data/skins/simple/menus/GuiControls:203
 msgid "Left"
 msgstr "Gu clì"
-
-#: data/skins/simple/menus/Loading:36
-#, fuzzy
-msgid "Loading"
-msgstr "ga luchdadh a-nuas"
 
 #: data/skins/simple/menus/CarManager:129
 #: data/skins/simple/menus/TrackManager:129
@@ -1189,6 +1192,7 @@ msgstr "An t-ath chamara"
 #: data/skins/simple/menus/GameLeaveConfirm:47
 #: data/skins/simple/menus/QuitConfirm:47
 #: data/skins/simple/menus/RestartGameConfirm:47
+#: data/settings/options.config:361
 msgid "No"
 msgstr "Chan eil"
 
@@ -1224,10 +1228,41 @@ msgstr "Mapaichean àbhaisteach"
 msgid "OK"
 msgstr "Ceart ma-thà"
 
-#: data/settings/options.config:337 data/settings/options.config:473
-#: data/settings/options.config:543 data/settings/options.config:558
+#: data/settings/options.config:188 data/settings/options.config:213
+#: data/settings/options.config:223 data/settings/options.config:303
+#: data/settings/options.config:313 data/settings/options.config:337
+#: data/settings/options.config:380 data/settings/options.config:391
+#: data/settings/options.config:425 data/settings/options.config:435
+#: data/settings/options.config:445 data/settings/options.config:463
+#: data/settings/options.config:473 data/settings/options.config:490
+#: data/settings/options.config:518 data/settings/options.config:543
+#: data/settings/options.config:558 data/settings/options.config:661
+#: data/settings/options.config:671 data/settings/options.config:681
+#: data/settings/options.config:702 data/settings/options.config:712
+#: data/settings/options.config:722 data/settings/options.config:732
+#: data/settings/options.config:742 data/settings/options.config:752
+#: data/settings/options.config:822
 msgid "Off"
 msgstr "Dheth"
+
+#: data/settings/options.config:187 data/settings/options.config:212
+#: data/settings/options.config:222 data/settings/options.config:302
+#: data/settings/options.config:312 data/settings/options.config:379
+#: data/settings/options.config:390 data/settings/options.config:424
+#: data/settings/options.config:434 data/settings/options.config:444
+#: data/settings/options.config:462 data/settings/options.config:489
+#: data/settings/options.config:517 data/settings/options.config:660
+#: data/settings/options.config:670 data/settings/options.config:680
+#: data/settings/options.config:701 data/settings/options.config:711
+#: data/settings/options.config:721 data/settings/options.config:731
+#: data/settings/options.config:741 data/settings/options.config:751
+#: data/settings/options.config:821
+msgid "On"
+msgstr "Air"
+
+#: data/settings/options.config:864
+msgid "Once"
+msgstr "Aon turas"
 
 #: data/skins/simple/menus/InGameMain:131 data/skins/simple/menus/Main:130
 #: data/skins/simple/menus/Options:37
@@ -1584,6 +1619,10 @@ msgstr "Tagh an nì clàir-thaice air a bheil am fòcas."
 #: data/skins/simple/menus/Replays:81 data/skins/simple/menus/Replays:101
 msgid "Select the replay to watch."
 msgstr "Tagh an ath-chluiche a tha thu airson coimhead air."
+
+#: data/settings/options.config:95
+msgid "Server"
+msgstr ""
 
 #: data/skins/simple/menus/CameraViewControls:742
 msgid "Set camera movement controls."
@@ -2046,7 +2085,7 @@ msgstr ""
 msgid "Type"
 msgstr "Seòrsa"
 
-#: data/skins/simple/menus/GuiControls:337
+#: data/skins/simple/menus/GuiControls:337 data/settings/options.config:875
 msgid "Up"
 msgstr "Suas"
 
@@ -2112,6 +2151,7 @@ msgstr ""
 #: data/skins/simple/menus/GameLeaveConfirm:74
 #: data/skins/simple/menus/QuitConfirm:74
 #: data/skins/simple/menus/RestartGameConfirm:74
+#: data/settings/options.config:360
 msgid "Yes"
 msgstr "Tha"
 
@@ -2145,6 +2185,10 @@ msgstr "Sùm an camara a-steach."
 msgid "Zoom camera out."
 msgstr "Sùm an camara a-mach."
 
+#: data/settings/options.config:233
+msgid "kph"
+msgstr "kph"
+
 #: data/settings/options.config:475
 msgid "long"
 msgstr "fada"
@@ -2153,9 +2197,17 @@ msgstr "fada"
 msgid "medium"
 msgstr "meadhanach"
 
+#: data/settings/options.config:232
+msgid "mph"
+msgstr "mph"
+
 #: data/settings/options.config:479
 msgid "short"
 msgstr "goirid"
+
+#, fuzzy
+#~ msgid "Loading"
+#~ msgstr "ga luchdadh a-nuas"
 
 #~ msgid "Add"
 #~ msgstr "Cuir ris"
@@ -2608,9 +2660,6 @@ msgstr "goirid"
 #~ "Feumaidh tu an geama fhàgail is VDrift ath-thòiseachadh mus tèid na h-"
 #~ "atharraichean a chur an sàs."
 
-#~ msgid "On"
-#~ msgstr "Air"
-
 #~ msgid "default"
 #~ msgstr "bunaiteach"
 
@@ -2661,12 +2710,6 @@ msgstr "goirid"
 
 #~ msgid "None"
 #~ msgstr "Gin"
-
-#~ msgid "mph"
-#~ msgstr "mph"
-
-#~ msgid "kph"
-#~ msgstr "kph"
 
 #~ msgid "simple"
 #~ msgstr "simplidh"
@@ -2727,12 +2770,6 @@ msgstr "goirid"
 
 #~ msgid "MOUSE3"
 #~ msgstr "LUCHAG 3"
-
-#~ msgid "Once"
-#~ msgstr "Aon turas"
-
-#~ msgid "Held"
-#~ msgstr "Ga chumail"
 
 #~ msgid "once"
 #~ msgstr "Aon turas"
