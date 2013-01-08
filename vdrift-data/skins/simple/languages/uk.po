@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VDrift\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-25 12:03+0100\n"
-"PO-Revision-Date: 2013-01-07 17:49+0100\n"
+"POT-Creation-Date: 2013-01-08 15:53+0100\n"
+"PO-Revision-Date: 2013-01-08 16:08+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -759,6 +759,10 @@ msgstr "Виберіть колір автомобіля."
 msgid "Choose the track to drive on."
 msgstr "Виберіть трасу."
 
+#: data/settings/options.config:96
+msgid "Client"
+msgstr ""
+
 #: data/skins/simple/menus/DisplayOptionsAdvanced:79
 msgid "Color Depth"
 msgstr "Глибина кольору"
@@ -820,7 +824,7 @@ msgstr "відображення карти."
 msgid "Display the racing line."
 msgstr "Показувати найкращу траекторію."
 
-#: data/skins/simple/menus/GuiControls:404
+#: data/skins/simple/menus/GuiControls:404 data/settings/options.config:874
 #, fuzzy
 msgid "Down"
 msgstr "Вверх/вниз"
@@ -1048,6 +1052,10 @@ msgstr "Ручні гальма"
 msgid "Heads Up Display"
 msgstr "Показ дод. інформації"
 
+#: data/settings/options.config:865
+msgid "Held"
+msgstr ""
+
 #: data/skins/simple/menus/PracticeGame:563
 #: data/skins/simple/menus/PracticeGame:583
 #: data/skins/simple/menus/SingleRace:740
@@ -1112,10 +1120,6 @@ msgstr "Повернутись в гру."
 #, fuzzy
 msgid "Left"
 msgstr "Змістити вліво"
-
-#: data/skins/simple/menus/Loading:36
-msgid "Loading"
-msgstr ""
 
 #: data/skins/simple/menus/CarManager:129
 #: data/skins/simple/menus/TrackManager:129
@@ -1210,6 +1214,7 @@ msgstr "Наступна камера"
 #: data/skins/simple/menus/GameLeaveConfirm:47
 #: data/skins/simple/menus/QuitConfirm:47
 #: data/skins/simple/menus/RestartGameConfirm:47
+#: data/settings/options.config:361
 msgid "No"
 msgstr "Ні"
 
@@ -1245,10 +1250,41 @@ msgstr "Карти нормалей"
 msgid "OK"
 msgstr "ОК"
 
-#: data/settings/options.config:337 data/settings/options.config:473
-#: data/settings/options.config:543 data/settings/options.config:558
+#: data/settings/options.config:188 data/settings/options.config:213
+#: data/settings/options.config:223 data/settings/options.config:303
+#: data/settings/options.config:313 data/settings/options.config:337
+#: data/settings/options.config:380 data/settings/options.config:391
+#: data/settings/options.config:425 data/settings/options.config:435
+#: data/settings/options.config:445 data/settings/options.config:463
+#: data/settings/options.config:473 data/settings/options.config:490
+#: data/settings/options.config:518 data/settings/options.config:543
+#: data/settings/options.config:558 data/settings/options.config:661
+#: data/settings/options.config:671 data/settings/options.config:681
+#: data/settings/options.config:702 data/settings/options.config:712
+#: data/settings/options.config:722 data/settings/options.config:732
+#: data/settings/options.config:742 data/settings/options.config:752
+#: data/settings/options.config:822
 msgid "Off"
 msgstr "Вимкнено"
+
+#: data/settings/options.config:187 data/settings/options.config:212
+#: data/settings/options.config:222 data/settings/options.config:302
+#: data/settings/options.config:312 data/settings/options.config:379
+#: data/settings/options.config:390 data/settings/options.config:424
+#: data/settings/options.config:434 data/settings/options.config:444
+#: data/settings/options.config:462 data/settings/options.config:489
+#: data/settings/options.config:517 data/settings/options.config:660
+#: data/settings/options.config:670 data/settings/options.config:680
+#: data/settings/options.config:701 data/settings/options.config:711
+#: data/settings/options.config:721 data/settings/options.config:731
+#: data/settings/options.config:741 data/settings/options.config:751
+#: data/settings/options.config:821
+msgid "On"
+msgstr ""
+
+#: data/settings/options.config:864
+msgid "Once"
+msgstr ""
 
 #: data/skins/simple/menus/InGameMain:131 data/skins/simple/menus/Main:130
 #: data/skins/simple/menus/Options:37
@@ -1614,6 +1650,11 @@ msgstr ""
 #, fuzzy
 msgid "Select the replay to watch."
 msgstr "Выберіть повтор"
+
+#: data/settings/options.config:95
+#, fuzzy
+msgid "Server"
+msgstr "IP-адреса сервера"
 
 #: data/skins/simple/menus/CameraViewControls:742
 #, fuzzy
@@ -2061,7 +2102,7 @@ msgstr ""
 msgid "Type"
 msgstr ""
 
-#: data/skins/simple/menus/GuiControls:337
+#: data/skins/simple/menus/GuiControls:337 data/settings/options.config:875
 msgid "Up"
 msgstr ""
 
@@ -2134,6 +2175,7 @@ msgstr ""
 #: data/skins/simple/menus/GameLeaveConfirm:74
 #: data/skins/simple/menus/QuitConfirm:74
 #: data/skins/simple/menus/RestartGameConfirm:74
+#: data/settings/options.config:360
 msgid "Yes"
 msgstr "Так"
 
@@ -2165,6 +2207,10 @@ msgstr "Наблизити камеру"
 msgid "Zoom camera out."
 msgstr "Віддалити камеру"
 
+#: data/settings/options.config:233
+msgid "kph"
+msgstr ""
+
 #: data/settings/options.config:475
 msgid "long"
 msgstr "велика"
@@ -2172,6 +2218,10 @@ msgstr "велика"
 #: data/settings/options.config:477
 msgid "medium"
 msgstr "середня"
+
+#: data/settings/options.config:232
+msgid "mph"
+msgstr ""
 
 #: data/settings/options.config:479
 msgid "short"
@@ -2664,9 +2714,6 @@ msgstr "маленька"
 
 #~ msgid "Joystick Calibrated"
 #~ msgstr "Відкалібрований джойстік"
-
-#~ msgid "Server IP"
-#~ msgstr "IP-адреса сервера"
 
 #~ msgid "Ghost Car"
 #~ msgstr "Привид"
