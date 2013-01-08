@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: VDrift\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-01-08 15:53+0100\n"
-"PO-Revision-Date: 2013-01-08 16:06+0100\n"
+"PO-Revision-Date: 2013-01-08 16:53+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -427,7 +427,7 @@ msgstr "Analoge Kupplung"
 
 #: data/skins/simple/menus/DisplayOptionsAdvanced:256
 msgid "Anisotropic Filtering"
-msgstr "Anisotropische Filterung"
+msgstr "Anisotropischer Filter"
 
 #: data/skins/simple/menus/DisplayOptionsAdvanced:315
 msgid "Antialiasing"
@@ -515,7 +515,7 @@ msgstr "Vor Rennstart bitte mindestens einen Gegner hinzufügen."
 
 #: data/skins/simple/menus/Replays:131
 msgid "Begin playing the last recorded replay."
-msgstr "Die letzte Aufnahme abspielen."
+msgstr "Die letzte Aufzeichnung abspielen."
 
 #: data/skins/simple/menus/DisplayOptionsAdvanced:492
 msgid "Bloom"
@@ -581,7 +581,7 @@ msgstr "Auto"
 #: data/skins/simple/menus/PracticeGame:669
 #: data/skins/simple/menus/SingleRace:846
 msgid "Car Damage"
-msgstr "Schaden am Auto"
+msgstr "Fahrzeugschaden"
 
 #: data/skins/simple/menus/CarManager:119
 msgid "Car Name"
@@ -601,7 +601,7 @@ msgstr "Einstellungen der Eingabe und Steuerung ändern."
 
 #: data/skins/simple/menus/InGameMain:134
 msgid "Change some of the options while the game is running."
-msgstr "Optionen ändern während ein Rennen läuft."
+msgstr "Einstellungen ändern während ein Rennen läuft."
 
 #: data/skins/simple/menus/Options:106
 msgid "Change sound settings."
@@ -681,7 +681,7 @@ msgstr ""
 
 #: data/skins/simple/menus/Updates:47
 msgid "Check updates"
-msgstr "Auf Aktualisierungen prüfen."
+msgstr "Aktualisieren"
 
 #: data/skins/simple/menus/SingleRace:397
 #: data/skins/simple/menus/SingleRace:417
@@ -760,7 +760,7 @@ msgstr "Steuerung"
 
 #: data/skins/simple/menus/Options:131
 msgid "Controls"
-msgstr "Steuerungen"
+msgstr "Eingabe"
 
 #: data/skins/simple/menus/EditAnalogControl:88
 msgid "Deadzone"
@@ -773,7 +773,7 @@ msgstr "Löschen"
 
 #: data/skins/simple/menus/EditButtonControl:209
 msgid "Delete this control and return to the previous menu."
-msgstr "Diese Steuerung löschen und zum vorherigen Menu zurückkehren"
+msgstr "Diese Steuerung löschen und zum vorherigen Menü zurückkehren"
 
 #: data/skins/simple/menus/EditAnalogControl:229
 msgid "Delete this control."
@@ -914,34 +914,34 @@ msgstr "Force Feedback Umkehren"
 
 #: data/skins/simple/menus/CameraMovementControls:474
 msgid "Forget changes and return to Camera Controls menu."
-msgstr "Änderungen verwerfen und zu Menu 'Eingabe / Kamera' zurückkehren."
+msgstr "Änderungen verwerfen und zum Menü 'Eingabe / Kamera' zurückkehren."
 
 #: data/skins/simple/menus/TransmissionControls:809
 msgid "Forget changes and return to Car Controls menu."
-msgstr "Änderungen verwerfen und zu Menu 'Autosteuerung' zurückkehren."
+msgstr "Änderungen verwerfen und zum Menü 'Autosteuerung' zurückkehren."
 
 #: data/skins/simple/menus/CarControls:770
 #: data/skins/simple/menus/GuiControls:474
 #: data/skins/simple/menus/InputDevice:576
 msgid "Forget changes and return to Controls menu."
-msgstr "Änderungen verwerfen und zu Menu 'Eingabe' zurückkehren."
+msgstr "Änderungen verwerfen und zum Menü 'Eingabe' zurückkehren."
 
 #: data/skins/simple/menus/CameraViewControls:770
 #: data/skins/simple/menus/ReplaysControls:206
 #: data/skins/simple/menus/ToolsControls:340
 msgid "Forget changes and return to Game Controls menu."
-msgstr "Änderungen verwerfen und zu Menu 'Spielsteuerung' zurückkehren."
+msgstr "Änderungen verwerfen und zum Menü 'Spielsteuerung' zurückkehren."
 
 #: data/skins/simple/menus/DisplayOptions:767
 #: data/skins/simple/menus/DisplayOptionsAdvanced:968
 #: data/skins/simple/menus/EditAnalogControl:257
 #: data/skins/simple/menus/SoundOptions:225
 msgid "Forget changes and return to Options menu."
-msgstr "Änderungen verwerfen und zu Menu 'Optionen' zurückkehren."
+msgstr "Änderungen verwerfen und zum Menü 'Einstellungen' zurückkehren."
 
 #: data/skins/simple/menus/EditButtonControl:237
 msgid "Forget changes and return to the previous menu."
-msgstr "Änderungen verwerfen und zu vorherigen Menu zurückkehren."
+msgstr "Änderungen verwerfen und zum vorherigen Menü zurückkehren."
 
 #: data/skins/simple/menus/DisplayOptions:257
 msgid "Framerate Counter"
@@ -973,11 +973,11 @@ msgstr "Gas"
 
 #: data/skins/simple/menus/ReplayStartError:50
 msgid "Go back to the Replays menu."
-msgstr "Zurück zu Menu 'Replays'"
+msgstr "Zurück zum Menü 'Replays'."
 
 #: data/skins/simple/menus/UpdateSuccessful:50
 msgid "Go back to the Updates page."
-msgstr "Zurück zur Aktualisierung-Seite."
+msgstr "Zurück zum Menü 'Aktualisierung'."
 
 #: data/skins/simple/menus/CarManager:81
 msgid "Go back to the last car."
@@ -1107,7 +1107,7 @@ msgstr "Sprache"
 
 #: data/skins/simple/menus/DisplayOptions:375
 msgid "Menu Skin"
-msgstr "Menü Erscheinungsbild"
+msgstr "Menügrafik"
 
 #: data/skins/simple/menus/DisplayOptionsAdvanced:610
 msgid "Motion Blur"
@@ -1245,11 +1245,11 @@ msgstr "Einmal"
 #: data/skins/simple/menus/InGameMain:131 data/skins/simple/menus/Main:130
 #: data/skins/simple/menus/Options:37
 msgid "Options"
-msgstr "Optionen"
+msgstr "Einstellungen"
 
 #: data/skins/simple/menus/ControlsOptions:37
 msgid "Options / Controls"
-msgstr "Optionen / Eingabe"
+msgstr "Einstellungen / Eingabe"
 
 #: data/skins/simple/menus/EditAnalogControl:59
 msgid "Options / Controls / Analog / Edit"
@@ -1305,7 +1305,7 @@ msgstr "Einstellungen / Grafik"
 
 #: data/skins/simple/menus/SoundOptions:59
 msgid "Options / Sound"
-msgstr "Optionen / Audio"
+msgstr "Einstellungen / Audio"
 
 #: data/skins/simple/menus/CameraViewControls:471
 msgid "Orbit"
@@ -1410,7 +1410,7 @@ msgstr "GUI neu laden"
 
 #: data/skins/simple/menus/ToolsControls:203
 msgid "Reload Shaders"
-msgstr "Lade Shader neu"
+msgstr "Shader neu laden"
 
 #: data/skins/simple/menus/ToolsControls:282
 #: data/skins/simple/menus/ToolsControls:301
@@ -1524,7 +1524,7 @@ msgstr "Änderungen speichern und zurück zum Menü 'Spielsteuerung'."
 #: data/skins/simple/menus/EditAnalogControl:285
 #: data/skins/simple/menus/SoundOptions:253
 msgid "Save changes and return to Options menu."
-msgstr "Änderungen speichern und zurück zum Menu 'Optionen'."
+msgstr "Änderungen speichern und zurück zum Menü 'Einstellungen'."
 
 #: data/skins/simple/menus/EditButtonControl:265
 msgid "Save changes and return to the previous menu."
