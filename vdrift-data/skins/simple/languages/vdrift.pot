@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VDrift\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-08 15:53+0100\n"
+"POT-Creation-Date: 2013-01-11 22:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,6 +14,14 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: src/hud.cpp:116
+msgid "KPH"
+msgstr ""
+
+#: src/hud.cpp:115
+msgid "MPH"
+msgstr ""
 
 #: data/settings/options.config:608
 #: data/settings/options.config:832
@@ -529,6 +537,10 @@ msgstr ""
 msgid "Begin playing the last recorded replay."
 msgstr ""
 
+#: src/hud.cpp:107
+msgid "Best lap:"
+msgstr ""
+
 #: data/skins/simple/menus/DisplayOptionsAdvanced:492
 msgid "Bloom"
 msgstr ""
@@ -973,6 +985,10 @@ msgstr ""
 msgid "Fullscreen"
 msgstr ""
 
+#: src/hud.cpp:112
+msgid "GO"
+msgstr ""
+
 #: data/skins/simple/menus/ControlsOptions:187
 msgid "GUI"
 msgstr ""
@@ -1074,12 +1090,24 @@ msgstr ""
 msgid "Keep your cars and tracks up to date"
 msgstr ""
 
+#: src/hud.cpp:109
+msgid "Lap"
+msgstr ""
+
+#: src/hud.cpp:105
+msgid "Lap time:"
+msgstr ""
+
 #: data/skins/simple/menus/SingleRace:149
 msgid "Laps"
 msgstr ""
 
 #: data/settings/options.config:202
 msgid "Large"
+msgstr ""
+
+#: src/hud.cpp:106
+msgid "Last lap:"
 msgstr ""
 
 #: data/skins/simple/menus/InGameMain:106
@@ -1385,6 +1413,10 @@ msgstr ""
 msgid "Pause Menu"
 msgstr ""
 
+#: src/hud.cpp:110
+msgid "Place"
+msgstr ""
+
 #: data/skins/simple/menus/Main:105
 msgid "Play back recorded games."
 msgstr ""
@@ -1431,6 +1463,10 @@ msgstr ""
 
 #: data/skins/simple/menus/DisplayOptions:611
 msgid "Racing Line"
+msgstr ""
+
+#: src/hud.cpp:111
+msgid "Ready"
 msgstr ""
 
 #: data/skins/simple/menus/CarControls:605
@@ -1575,6 +1611,10 @@ msgstr ""
 
 #: data/skins/simple/menus/EditButtonControl:265
 msgid "Save changes and return to the previous menu."
+msgstr ""
+
+#: src/hud.cpp:108
+msgid "Score"
 msgstr ""
 
 #: data/skins/simple/menus/ToolsControls:136
@@ -2131,8 +2171,16 @@ msgstr ""
 msgid "You can apply updates on the car or track management screen"
 msgstr ""
 
+#: src/hud.cpp:114
+msgid "You lost"
+msgstr ""
+
 #: data/skins/simple/menus/UpdateFailedVersion:37
 msgid "You must update to the latest VDrift release."
+msgstr ""
+
+#: src/hud.cpp:113
+msgid "You won!"
 msgstr ""
 
 #: data/skins/simple/menus/CameraMovementControls:337
