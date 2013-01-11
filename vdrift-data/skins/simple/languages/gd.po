@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# GunChleoc <fios@foramnagaidhlig.net>, 2012.
+# GunChleoc <fios@foramnagaidhlig.net>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: VDrift\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-01-08 15:53+0100\n"
-"PO-Revision-Date: 2013-01-08 16:07+0100\n"
-"Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
+"PO-Revision-Date: 2013-01-11 20:59+0100\n"
+"Last-Translator: \n"
 "Language-Team: Fòram na Gàidhlig http://www.foramnagaidhlig.net\n"
 "Language: gd\n"
 "MIME-Version: 1.0\n"
@@ -96,7 +96,7 @@ msgstr "1440 x 900"
 
 #: data/settings/options.config:785
 msgid "16-bit"
-msgstr ""
+msgstr "16-biod"
 
 #: data/settings/options.config:154
 msgid "1600 x 1200"
@@ -112,7 +112,7 @@ msgstr "1680 x 1050"
 
 #: data/settings/options.config:175
 msgid "16bpp"
-msgstr ""
+msgstr "16bpp"
 
 #: data/settings/options.config:158
 msgid "1920 x 1080"
@@ -139,13 +139,12 @@ msgid "200 Degree Wheel"
 msgstr "Cuibhle 200 cheum"
 
 #: data/settings/options.config:345
-#, fuzzy
 msgid "200 degree mode"
-msgstr "Cuibhle 200 cheum"
+msgstr "Modh 200 cheum"
 
 #: data/settings/options.config:787
 msgid "24-bit"
-msgstr ""
+msgstr "24-biod"
 
 #: data/settings/options.config:162
 msgid "2560 x 1440"
@@ -173,7 +172,7 @@ msgstr "32"
 
 #: data/settings/options.config:177
 msgid "32bpp"
-msgstr ""
+msgstr "32bpp"
 
 #: data/skins/simple/menus/TransmissionControls:471
 msgid "3rd"
@@ -397,7 +396,7 @@ msgstr "Ìre na IF"
 
 #: data/skins/simple/menus/SingleRace:385
 msgid "AI type"
-msgstr ""
+msgstr "Seòrsa IF"
 
 #: data/skins/simple/menus/InGameMain:103
 msgid "Abort"
@@ -589,9 +588,8 @@ msgid "Car Damage"
 msgstr "Milleadh càir"
 
 #: data/skins/simple/menus/CarManager:119
-#, fuzzy
 msgid "Car Name"
-msgstr "Milleadh càir"
+msgstr "Ainm a' chàir"
 
 #: data/skins/simple/menus/SingleRace:326 data/skins/simple/menus/Updates:103
 msgid "Cars"
@@ -739,7 +737,7 @@ msgstr "Tagh an t-slighe gus draibheadh oirre."
 
 #: data/settings/options.config:96
 msgid "Client"
-msgstr ""
+msgstr "Cliant"
 
 #: data/skins/simple/menus/DisplayOptionsAdvanced:79
 msgid "Color Depth"
@@ -970,9 +968,8 @@ msgid "Free"
 msgstr "Saor"
 
 #: data/settings/options.config:9
-#, fuzzy
 msgid "Free Drive"
-msgstr "Draibhear"
+msgstr "Draibheadh saor"
 
 #: data/skins/simple/menus/DisplayOptions:139
 msgid "Fullscreen"
@@ -1008,9 +1005,8 @@ msgstr "Air ais dhan t-shlighe roimhe."
 
 #: data/skins/simple/menus/DataConnectionError:50
 #: data/skins/simple/menus/UpdateFailedVersion:50
-#, fuzzy
 msgid "Go back to the main menu."
-msgstr "Till dhan chlàr-taice \"Rèis.\""
+msgstr "Till dhan phrìomh chlàr-taice."
 
 #: data/skins/simple/menus/NoOpponentsError:50
 msgid "Go back to the race menu."
@@ -1179,7 +1175,7 @@ msgstr "Faisg"
 
 #: data/settings/options.config:13
 msgid "Networked"
-msgstr ""
+msgstr "Lìonraichte"
 
 #: data/skins/simple/menus/TransmissionControls:270
 msgid "Neutral"
@@ -1198,11 +1194,11 @@ msgstr "Chan eil"
 
 #: data/skins/simple/menus/UpdatesFound:69
 msgid "No car updates found."
-msgstr ""
+msgstr "Cha deach ùrachadh càir a lorg."
 
 #: data/skins/simple/menus/UpdatesFound:80
 msgid "No track updates found."
-msgstr ""
+msgstr "Cha deach ùrachadh slighe a lorg."
 
 #: data/settings/options.config:528
 msgid "Normal"
@@ -1622,7 +1618,7 @@ msgstr "Tagh an ath-chluiche a tha thu airson coimhead air."
 
 #: data/settings/options.config:95
 msgid "Server"
-msgstr ""
+msgstr "Frithealaiche"
 
 #: data/skins/simple/menus/CameraViewControls:742
 msgid "Set camera movement controls."
@@ -1631,7 +1627,7 @@ msgstr "Suidhich uidheaman-smachd airson gluasad a' chamara."
 #: data/skins/simple/menus/DisplayOptionsAdvanced:741
 #: data/skins/simple/menus/DisplayOptionsAdvanced:761
 msgid "Set how good the SSAO looks during gameplay."
-msgstr ""
+msgstr "Suidhich dè cho snasail 's a bhios SSAO sa gheama."
 
 #: data/skins/simple/menus/DisplayOptionsAdvanced:800
 #: data/skins/simple/menus/DisplayOptionsAdvanced:820
@@ -1734,14 +1730,12 @@ msgid "Speed Units"
 msgstr "Aonadan luaiths"
 
 #: data/settings/options.config:349
-#, fuzzy
 msgid "Speed sensitive Hi"
-msgstr "Aonadan luaiths"
+msgstr "Mothachadh àrd air luaths"
 
 #: data/settings/options.config:347
-#, fuzzy
 msgid "Speed sensitive Lo"
-msgstr "Aonadan luaiths"
+msgstr "Mothachadh ìseal air luaths"
 
 #: data/settings/options.config:798
 msgid "Standard"
@@ -1994,9 +1988,8 @@ msgid "The third gear control shifts the car into third gear."
 msgstr "Cuiridh an t-uidheam-smachd '3s' an càr san treas gèar."
 
 #: data/skins/simple/menus/DataConnectionError:37
-#, fuzzy
 msgid "There was an error connecting to the VDrift data server."
-msgstr "Thachair mearachd a' ceangal dhan fhrithealaiche."
+msgstr "Thachair mearachd a' ceangal dhan fhrithealaiche dàta VDrift."
 
 #: data/skins/simple/menus/ReplayStartError:37
 msgid "There was an error when trying to play this replay."
@@ -2004,7 +1997,7 @@ msgstr "Thachair mearachd a' fheuchainn ris an ath-chluiche seo ath-chluiche."
 
 #: data/settings/options.config:11
 msgid "Time Trial"
-msgstr ""
+msgstr "An aghaidh na h-ùine"
 
 #: data/skins/simple/menus/DisplayOptions:151
 #: data/skins/simple/menus/DisplayOptions:171
@@ -2026,9 +2019,8 @@ msgid "Track Map"
 msgstr "Mapa na slighe"
 
 #: data/skins/simple/menus/TrackManager:119
-#, fuzzy
 msgid "Track Name"
-msgstr "Mapa na slighe"
+msgstr "Ainm na slighe"
 
 #: data/skins/simple/menus/Updates:75
 msgid "Tracks"
@@ -2163,7 +2155,7 @@ msgstr ""
 
 #: data/skins/simple/menus/UpdateFailedVersion:37
 msgid "You must update to the latest VDrift release."
-msgstr ""
+msgstr "Feumaidh tu ùrachadh a dhèanamh dhan tionndadh as uire aig VDrift."
 
 #: data/skins/simple/menus/CameraMovementControls:337
 msgid "Zoom In"
