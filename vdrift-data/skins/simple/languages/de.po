@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VDrift\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-08 15:53+0100\n"
-"PO-Revision-Date: 2013-01-11 20:50+0100\n"
+"POT-Creation-Date: 2013-01-11 22:17+0100\n"
+"PO-Revision-Date: 2013-01-11 22:30+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -15,6 +15,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
+
+#: src/hud.cpp:116
+msgid "KPH"
+msgstr "KMH"
+
+#: src/hud.cpp:115
+msgid "MPH"
+msgstr "MPH"
 
 #: data/settings/options.config:608 data/settings/options.config:832
 msgid "1"
@@ -519,6 +527,10 @@ msgstr "Vor Rennstart bitte mindestens einen Gegner hinzufügen."
 msgid "Begin playing the last recorded replay."
 msgstr "Die letzte Aufzeichnung abspielen."
 
+#: src/hud.cpp:107
+msgid "Best lap:"
+msgstr "Beste Zeit:"
+
 #: data/skins/simple/menus/DisplayOptionsAdvanced:492
 msgid "Bloom"
 msgstr "Überstrahlungseffekt"
@@ -961,6 +973,10 @@ msgstr "Testfahrt"
 msgid "Fullscreen"
 msgstr "Vollbild"
 
+#: src/hud.cpp:112
+msgid "GO"
+msgstr "LOS"
+
 #: data/skins/simple/menus/ControlsOptions:187
 msgid "GUI"
 msgstr "GUI"
@@ -1060,6 +1076,14 @@ msgstr "Joystick/Gamepad"
 msgid "Keep your cars and tracks up to date"
 msgstr "Aktualisiere Autos und Strecken"
 
+#: src/hud.cpp:109
+msgid "Lap"
+msgstr "Runde"
+
+#: src/hud.cpp:105
+msgid "Lap time:"
+msgstr "Zeit:"
+
 #: data/skins/simple/menus/SingleRace:149
 msgid "Laps"
 msgstr "Runden"
@@ -1067,6 +1091,10 @@ msgstr "Runden"
 #: data/settings/options.config:202
 msgid "Large"
 msgstr "Groß"
+
+#: src/hud.cpp:106
+msgid "Last lap:"
+msgstr "Letzte Zeit:"
 
 #: data/skins/simple/menus/InGameMain:106
 msgid "Leave game and return to the Main menu."
@@ -1342,6 +1370,10 @@ msgstr "Pause"
 msgid "Pause Menu"
 msgstr "Pause Menü"
 
+#: src/hud.cpp:110
+msgid "Place"
+msgstr "Platz"
+
 #: data/skins/simple/menus/Main:105
 msgid "Play back recorded games."
 msgstr "Aufgezeichnete Rennen abpielen."
@@ -1389,6 +1421,10 @@ msgstr "Strecke in Rückwärtsrichtung befahren."
 #: data/skins/simple/menus/DisplayOptions:611
 msgid "Racing Line"
 msgstr "Ideallinie"
+
+#: src/hud.cpp:111
+msgid "Ready"
+msgstr "Fertig"
 
 #: data/skins/simple/menus/CarControls:605
 msgid "Rear View"
@@ -1531,6 +1567,10 @@ msgstr "Änderungen speichern und zurück zum Menü 'Einstellungen'."
 #: data/skins/simple/menus/EditButtonControl:265
 msgid "Save changes and return to the previous menu."
 msgstr "Änderungen speichern und zurück zum vorherigen Menü."
+
+#: src/hud.cpp:108
+msgid "Score"
+msgstr "Punkte"
 
 #: data/skins/simple/menus/ToolsControls:136
 msgid "Screen Shot"
@@ -2105,9 +2145,17 @@ msgstr ""
 "Zum Aktualisieren der einzelnen Strecken oder Fahrzeuge in die ensprechenden "
 "Menüs wechseln."
 
+#: src/hud.cpp:114
+msgid "You lost"
+msgstr "Du hast verloren"
+
 #: data/skins/simple/menus/UpdateFailedVersion:37
 msgid "You must update to the latest VDrift release."
 msgstr "Bitte VDrift auf neueste Version aktualisieren."
+
+#: src/hud.cpp:113
+msgid "You won!"
+msgstr "Du hast gewonnen!"
 
 #: data/skins/simple/menus/CameraMovementControls:337
 msgid "Zoom In"
@@ -2205,9 +2253,6 @@ msgstr "kurz"
 
 #~ msgid "Back to Pause Menu"
 #~ msgstr "Zurück zum Pause Menü"
-
-#~ msgid "Best Lap"
-#~ msgstr "Schnellste Runde"
 
 #~ msgid "Calibrate"
 #~ msgstr "Kalibrieren"
