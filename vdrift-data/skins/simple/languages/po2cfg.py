@@ -26,14 +26,23 @@ def main(argv):
 	strings = []
 	i = ''
 	s = ''
+	id = 'n'
 	line = input.readline()
 	while line != '':
 		if line.startswith('msgid'):
 			i = line.split('"', 1)[1].rsplit('"', 1)[0]
+			id = 'i'
 		elif len(i) and line.startswith('msgstr'):
 			s = line.split('"', 1)[1].rsplit('"', 1)[0]
-		elif len(i) and line.startswith('"'):
-			s = s + line.split('"', 1)[1].rsplit('"', 1)[0]
+			id = 's'
+		elif line.startswith('"'):
+			line = line.split('"', 1)[1].rsplit('"', 1)[0]
+			if (id == 'i'):
+				i = i + line
+			elif (id == 's'):
+				s = s + line
+			else:
+				id = 'n'
 		else:
 			if len(i):
 				i = i.replace('\\"', '"')
@@ -44,6 +53,7 @@ def main(argv):
 					strings.append('#' + i + ' = \n')
 			i = ''
 			s = ''
+			id = 'n'
 		line = input.readline()
 	input.close()
     
