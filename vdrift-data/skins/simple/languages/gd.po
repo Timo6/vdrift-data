@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VDrift\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-08 15:53+0100\n"
-"PO-Revision-Date: 2013-01-11 20:59+0100\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2013-01-11 22:17+0100\n"
+"PO-Revision-Date: 2013-01-13 20:55+0100\n"
+"Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
 "Language-Team: Fòram na Gàidhlig http://www.foramnagaidhlig.net\n"
 "Language: gd\n"
 "MIME-Version: 1.0\n"
@@ -17,6 +17,14 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
 "(n > 2 && n < 20) ? 2 : 3;\n"
 "X-Generator: Poedit 1.5.4\n"
+
+#: src/hud.cpp:116
+msgid "KPH"
+msgstr "KPH"
+
+#: src/hud.cpp:115
+msgid "MPH"
+msgstr "MPH"
 
 #: data/settings/options.config:608 data/settings/options.config:832
 msgid "1"
@@ -421,7 +429,7 @@ msgstr "Lean air adhart dhan ath-shlighe."
 
 #: data/skins/simple/menus/DisplayOptionsAdvanced:729
 msgid "Ambient Occlusion"
-msgstr ""
+msgstr "Ambient Occlusion"
 
 #: data/skins/simple/menus/TransmissionControls:69
 msgid "Analog Clutch"
@@ -429,7 +437,7 @@ msgstr "Cluids analogach"
 
 #: data/skins/simple/menus/DisplayOptionsAdvanced:256
 msgid "Anisotropic Filtering"
-msgstr ""
+msgstr "Criathradh an-iosa-tropach"
 
 #: data/skins/simple/menus/DisplayOptionsAdvanced:315
 msgid "Antialiasing"
@@ -520,6 +528,10 @@ msgstr "Cuir co-dhiù aon fharpaisiche ris mus tòisicheas tu air a' gheama."
 #: data/skins/simple/menus/Replays:131
 msgid "Begin playing the last recorded replay."
 msgstr "Tòisich air an ath-chluiche mu dheireadh a chaidh a chlàradh."
+
+#: src/hud.cpp:107
+msgid "Best lap:"
+msgstr "A' chuairt as fhearr:"
 
 #: data/skins/simple/menus/DisplayOptionsAdvanced:492
 msgid "Bloom"
@@ -913,11 +925,11 @@ msgstr "Taomhaich an camara air a' chàr roimhe."
 
 #: data/skins/simple/menus/InputDevice:244
 msgid "Force Feedback Gain"
-msgstr ""
+msgstr "Meudachadh na freagairte-forsa"
 
 #: data/skins/simple/menus/InputDevice:185
 msgid "Force Feedback Invert"
-msgstr ""
+msgstr "Ais-tionndadh na freagairte-forsa"
 
 #: data/skins/simple/menus/CameraMovementControls:474
 msgid "Forget changes and return to Camera Controls menu."
@@ -974,6 +986,10 @@ msgstr "Draibheadh saor"
 #: data/skins/simple/menus/DisplayOptions:139
 msgid "Fullscreen"
 msgstr "Làn-sgrìn"
+
+#: src/hud.cpp:112
+msgid "GO"
+msgstr "Siuthad"
 
 #: data/skins/simple/menus/ControlsOptions:187
 msgid "GUI"
@@ -1076,6 +1092,14 @@ msgstr "Joystick/Pada-geama"
 msgid "Keep your cars and tracks up to date"
 msgstr "Cùm na càraichean ia slighean agad cho ùr 's a ghabhas"
 
+#: src/hud.cpp:109
+msgid "Lap"
+msgstr "Cuairt"
+
+#: src/hud.cpp:105
+msgid "Lap time:"
+msgstr "Ùine na cuairte:"
+
 #: data/skins/simple/menus/SingleRace:149
 msgid "Laps"
 msgstr "Cuairtean"
@@ -1083,6 +1107,10 @@ msgstr "Cuairtean"
 #: data/settings/options.config:202
 msgid "Large"
 msgstr "Mòr"
+
+#: src/hud.cpp:106
+msgid "Last lap:"
+msgstr "A' chuairt roimhe:"
 
 #: data/skins/simple/menus/InGameMain:106
 msgid "Leave game and return to the Main menu."
@@ -1163,7 +1191,7 @@ msgstr "Gluais suas leibheil clàir-thaice."
 
 #: data/skins/simple/menus/InputDevice:255
 msgid "Multiplier to adjust strength of force feedback."
-msgstr ""
+msgstr "Iomadaichear gus leud an na freagairte-forsa a ghleusadh."
 
 #: data/skins/simple/menus/SoundOptions:175
 msgid "Music Volume"
@@ -1358,6 +1386,10 @@ msgstr "Cuir na stad"
 msgid "Pause Menu"
 msgstr "Clàr-taice stada"
 
+#: src/hud.cpp:110
+msgid "Place"
+msgstr "Àite"
+
 #: data/skins/simple/menus/Main:105
 msgid "Play back recorded games."
 msgstr "Ath-chluich geamannan air an sàbhaladh."
@@ -1409,6 +1441,10 @@ msgstr "Dèan rèis contrarra air an t-slighe seo."
 #: data/skins/simple/menus/DisplayOptions:611
 msgid "Racing Line"
 msgstr "Loidhne rèisidh"
+
+#: src/hud.cpp:111
+msgid "Ready"
+msgstr "Deiseil"
 
 #: data/skins/simple/menus/CarControls:605
 msgid "Rear View"
@@ -1501,12 +1537,14 @@ msgstr "Contrarra"
 #: data/skins/simple/menus/PracticeGame:196
 #: data/skins/simple/menus/SingleRace:208
 msgid "Reverse Track"
-msgstr "Slighe contrarra"
+msgstr "Slighe chontrarra"
 
 #: data/skins/simple/menus/InputDevice:197
 #: data/skins/simple/menus/InputDevice:217
 msgid "Reverse the force feedback, if necessary for your wheel."
 msgstr ""
+"Ais-thionndaidh an fhreagairt-fhorsa, ma tha seo riatanach leis a' chuibhle "
+"agad."
 
 #: data/skins/simple/menus/GuiControls:270
 msgid "Right"
@@ -1558,6 +1596,10 @@ msgstr "Sàbhail na h-atharraichean is till dhan chlàr-taice \"Roghainnean.\""
 #: data/skins/simple/menus/EditButtonControl:265
 msgid "Save changes and return to the previous menu."
 msgstr "Sàbhail na h-atharraichean is till dhan chlàr-taice roimhe."
+
+#: src/hud.cpp:108
+msgid "Score"
+msgstr "Sgòr"
 
 #: data/skins/simple/menus/ToolsControls:136
 msgid "Screen Shot"
@@ -1637,7 +1679,7 @@ msgstr "Suidhich dè cho snasail 's a bhios ath-thilgeil sa gheama."
 #: data/skins/simple/menus/DisplayOptionsAdvanced:268
 #: data/skins/simple/menus/DisplayOptionsAdvanced:288
 msgid "Set the anisotropic filtering level for textures."
-msgstr ""
+msgstr "Suidhich ìre a' chriathraidh an-iosa-tropach aig na h-innich."
 
 #: data/skins/simple/menus/DisplayOptionsAdvanced:859
 #: data/skins/simple/menus/DisplayOptionsAdvanced:879
@@ -1647,7 +1689,7 @@ msgstr "Suidhich an t-astar a thig faileasan am follais."
 #: data/skins/simple/menus/DisplayOptionsAdvanced:327
 #: data/skins/simple/menus/DisplayOptionsAdvanced:347
 msgid "Set the full scene antialiasing level."
-msgstr ""
+msgstr "Suidhich ìre an antialiasing airson seallaidhean slàna."
 
 #: data/skins/simple/menus/PracticeGame:169
 #: data/skins/simple/menus/SingleRace:161
@@ -2153,9 +2195,17 @@ msgstr ""
 "'S urrainn dhut ùrachaidhean a chur an sàs air sgrìn stiùireadh nan "
 "càraichean no nan slighean"
 
+#: src/hud.cpp:114
+msgid "You lost"
+msgstr "Chaill thu"
+
 #: data/skins/simple/menus/UpdateFailedVersion:37
 msgid "You must update to the latest VDrift release."
 msgstr "Feumaidh tu ùrachadh a dhèanamh dhan tionndadh as uire aig VDrift."
+
+#: src/hud.cpp:113
+msgid "You won!"
+msgstr "Buannaich thu!"
 
 #: data/skins/simple/menus/CameraMovementControls:337
 msgid "Zoom In"
@@ -2655,50 +2705,14 @@ msgstr "goirid"
 #~ msgid "default"
 #~ msgstr "bunaiteach"
 
-#~ msgid "Lap time:"
-#~ msgstr "Ùine na cuairte:"
-
-#~ msgid "Last lap:"
-#~ msgstr "A' chuairt roimhe:"
-
-#~ msgid "Best lap:"
-#~ msgstr "A' chuairt as fhearr:"
-
-#~ msgid "MPH"
-#~ msgstr "MPH"
-
-#~ msgid "KPH"
-#~ msgstr "KPH"
-
 #~ msgid "ABS"
 #~ msgstr "ABS"
 
 #~ msgid "TCS"
 #~ msgstr "TCS"
 
-#~ msgid "Score"
-#~ msgstr "Sgòr"
-
 #~ msgid "AI Type"
 #~ msgstr "Seòrsa IF"
-
-#~ msgid "Ready"
-#~ msgstr "Deiseil"
-
-#~ msgid "GO"
-#~ msgstr "Siuthad"
-
-#~ msgid "Lap"
-#~ msgstr "Cuairt"
-
-#~ msgid "Place"
-#~ msgstr "Àite"
-
-#~ msgid "You won!"
-#~ msgstr "Buannaich thu!"
-
-#~ msgid "You lost"
-#~ msgstr "Chaill thu"
 
 #~ msgid "None"
 #~ msgstr "Gin"
