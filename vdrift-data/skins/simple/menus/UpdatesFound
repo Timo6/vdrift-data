@@ -44,8 +44,8 @@ height = 0.06
 
 
 [ widget-02a ]
-tip = Browse cars and apply updates
-onselect = StartCarManager
+tip = Browse tracks and apply updates
+onselect = StartTrackManager
 onfocus = widget-02b.sat:0.56 widget-02c.sat:0.56
 onblur = widget-02b.sat:0.0 widget-02c.sat:0.0
 focus = true
@@ -55,7 +55,7 @@ top = 0.18
 height = 0.05
 
 [ widget-02b ]
-text = Car updates
+text = Track updates
 fontsize = 0.035
 align = left
 hue = 0.56
@@ -65,7 +65,7 @@ top = 0.18
 height = 0.05
 
 [ widget-02c ]
-text = update.cars
+text = update.tracks
 fontsize = 0.035
 align = right
 hue = 0.56
@@ -86,8 +86,8 @@ layer = -1
 
 
 [ widget-03a ]
-tip = Browse tracks and apply updates
-onselect = StartTrackManager
+tip = Browse cars and apply updates
+onselect = StartCarManager
 onfocus = widget-03b.sat:0.56 widget-03c.sat:0.56
 onblur = widget-03b.sat:0.0 widget-03c.sat:0.0
 focus = false
@@ -97,7 +97,7 @@ top = 0.23
 height = 0.05
 
 [ widget-03c ]
-text = Track updates
+text = Car updates
 fontsize = 0.035
 align = left
 hue = 0.56
@@ -107,7 +107,7 @@ top = 0.23
 height = 0.05
 
 [ widget-03b ]
-text = update.tracks
+text = update.cars
 fontsize = 0.035
 align = right
 hue = 0.56
