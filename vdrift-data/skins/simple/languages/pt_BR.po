@@ -1081,8 +1081,8 @@ msgid "Keep your cars and tracks up to date"
 msgstr "Mantenha seus carros e pistas atualizados"
 
 #: src/hud.cpp:109
-msgid "Lap"
-msgstr "Volta"
+msgid "Lap:"
+msgstr "Volta:"
 
 #: src/hud.cpp:105
 msgid "Lap time:"
@@ -1375,7 +1375,7 @@ msgid "Pause Menu"
 msgstr "Menu da Pausa"
 
 #: src/hud.cpp:110
-msgid "Place"
+msgid "Place:"
 msgstr "Posição"
 
 #: data/skins/simple/menus/Main:105
@@ -1576,8 +1576,8 @@ msgid "Save changes and return to the previous menu."
 msgstr "Salvar mudanças e retornar ao menu anterior."
 
 #: src/hud.cpp:108
-msgid "Score"
-msgstr "Pontuação"
+msgid "Score:"
+msgstr "Pontuação:"
 
 #: data/skins/simple/menus/ToolsControls:136
 msgid "Screen Shot"

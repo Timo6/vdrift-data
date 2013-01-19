@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: VDrift\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-01-15 19:32+0100\n"
-"PO-Revision-Date: 2013-01-15 19:36+0100\n"
+"PO-Revision-Date: 2013-01-19 14:33+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -522,7 +522,7 @@ msgstr "Die letzte Aufzeichnung abspielen."
 
 #: src/hud.cpp:107
 msgid "Best lap:"
-msgstr "Beste Zeit:"
+msgstr "Beste Runde:"
 
 #: data/skins/simple/menus/DisplayOptionsAdvanced:492
 msgid "Bloom"
@@ -1079,12 +1079,12 @@ msgid "Keep your cars and tracks up to date"
 msgstr "Aktualisiere Autos und Strecken"
 
 #: src/hud.cpp:109
-msgid "Lap"
-msgstr "Runde"
+msgid "Lap:"
+msgstr "Runde:"
 
 #: src/hud.cpp:105
 msgid "Lap time:"
-msgstr "Zeit:"
+msgstr "Laufende Runde:"
 
 #: data/skins/simple/menus/SingleRace:149
 msgid "Laps"
@@ -1096,7 +1096,7 @@ msgstr "Groß"
 
 #: src/hud.cpp:106
 msgid "Last lap:"
-msgstr "Letzte Zeit:"
+msgstr "Letzte Runde:"
 
 #: data/skins/simple/menus/InGameMain:106
 msgid "Leave game and return to the Main menu."
@@ -1376,8 +1376,8 @@ msgid "Pause Menu"
 msgstr "Pause Menü"
 
 #: src/hud.cpp:110
-msgid "Place"
-msgstr "Platz"
+msgid "Place:"
+msgstr "Platz:"
 
 #: data/skins/simple/menus/Main:105
 msgid "Play back recorded games."
@@ -1574,8 +1574,8 @@ msgid "Save changes and return to the previous menu."
 msgstr "Änderungen speichern und zurück zum vorherigen Menü."
 
 #: src/hud.cpp:108
-msgid "Score"
-msgstr "Punkte"
+msgid "Score:"
+msgstr "Punkte:"
 
 #: data/skins/simple/menus/ToolsControls:136
 msgid "Screen Shot"
@@ -2199,6 +2199,9 @@ msgstr "mph"
 #: data/settings/options.config:479
 msgid "short"
 msgstr "kurz"
+
+#~ msgid "Lap"
+#~ msgstr "Runde"
 
 #~ msgid "No car updates found."
 #~ msgstr "Autos sind auf dem aktuellsten Stand."
