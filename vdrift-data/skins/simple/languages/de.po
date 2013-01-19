@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: VDrift\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-01-15 19:32+0100\n"
-"PO-Revision-Date: 2013-01-19 14:33+0100\n"
+"PO-Revision-Date: 2013-01-19 15:30+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -792,7 +792,7 @@ msgstr "Diese Steuerung löschen."
 
 #: data/skins/simple/menus/Options:47
 msgid "Display"
-msgstr "Video"
+msgstr "Bild"
 
 #: data/skins/simple/menus/DisplayOptions:564
 #: data/skins/simple/menus/DisplayOptions:584
@@ -1385,7 +1385,7 @@ msgstr "Aufgezeichnete Rennen abpielen."
 
 #: data/skins/simple/menus/Main:46 data/skins/simple/menus/PracticeGame:59
 msgid "Practice Game"
-msgstr "Übungsfahrt"
+msgstr "Testfahrt"
 
 #: data/skins/simple/menus/AssignControl:37
 msgid ""
@@ -1766,7 +1766,7 @@ msgstr "Startaufstellung:"
 
 #: data/skins/simple/menus/PracticeGame:728
 msgid "Start Practice"
-msgstr "Übungsfahrt starten"
+msgstr "Testfahrt starten"
 
 #: data/skins/simple/menus/SingleRace:905
 msgid "Start Race"
@@ -1778,7 +1778,7 @@ msgstr "Aufzeichnung abspielen"
 
 #: data/skins/simple/menus/Main:49
 msgid "Start a practice game."
-msgstr "Übungsfahrt starten."
+msgstr "Eine Testfahrt starten."
 
 #: data/skins/simple/menus/SingleRace:908
 msgid "Start a race using the selected car and track."
@@ -1790,7 +1790,7 @@ msgstr "Rennen starten."
 
 #: data/skins/simple/menus/PracticeGame:731
 msgid "Start practice using the selected car and track."
-msgstr "Übungsfahrt mit ausgewählten Fahrzeug und Strecke starten."
+msgstr "Testfahrt mit ausgewählten Fahrzeug und Strecke starten."
 
 #: data/skins/simple/menus/CarControls:203
 msgid "Steer Left"
