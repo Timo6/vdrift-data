@@ -1093,8 +1093,8 @@ msgid "Keep your cars and tracks up to date"
 msgstr "Cùm na càraichean ia slighean agad cho ùr 's a ghabhas"
 
 #: src/hud.cpp:109
-msgid "Lap"
-msgstr "Cuairt"
+msgid "Lap:"
+msgstr "Cuairt:"
 
 #: src/hud.cpp:105
 msgid "Lap time:"
@@ -1387,8 +1387,8 @@ msgid "Pause Menu"
 msgstr "Clàr-taice stada"
 
 #: src/hud.cpp:110
-msgid "Place"
-msgstr "Àite"
+msgid "Place:"
+msgstr "Àite:"
 
 #: data/skins/simple/menus/Main:105
 msgid "Play back recorded games."
@@ -1598,8 +1598,8 @@ msgid "Save changes and return to the previous menu."
 msgstr "Sàbhail na h-atharraichean is till dhan chlàr-taice roimhe."
 
 #: src/hud.cpp:108
-msgid "Score"
-msgstr "Sgòr"
+msgid "Score:"
+msgstr "Sgòr:"
 
 #: data/skins/simple/menus/ToolsControls:136
 msgid "Screen Shot"

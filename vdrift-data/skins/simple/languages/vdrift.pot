@@ -1094,7 +1094,7 @@ msgid "Keep your cars and tracks up to date"
 msgstr ""
 
 #: src/hud.cpp:109
-msgid "Lap"
+msgid "Lap:"
 msgstr ""
 
 #: src/hud.cpp:105
@@ -1418,7 +1418,7 @@ msgid "Pause Menu"
 msgstr ""
 
 #: src/hud.cpp:110
-msgid "Place"
+msgid "Place:"
 msgstr ""
 
 #: data/skins/simple/menus/Main:105
@@ -1618,7 +1618,7 @@ msgid "Save changes and return to the previous menu."
 msgstr ""
 
 #: src/hud.cpp:108
-msgid "Score"
+msgid "Score:"
 msgstr ""
 
 #: data/skins/simple/menus/ToolsControls:136
