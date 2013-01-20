@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VDrift\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-11 22:17+0100\n"
-"PO-Revision-Date: 2013-01-14 20:37+0100\n"
-"Last-Translator: Brian Chalega da Silva <chalegabrian@gmail.com>\n"
+"POT-Creation-Date: 2013-01-15 19:32+0100\n"
+"PO-Revision-Date: 2013-01-20 20:06+0100\n"
+"Last-Translator: \n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -16,14 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 1.5.4\n"
-
-#: src/hud.cpp:116
-msgid "KPH"
-msgstr "Km/h"
-
-#: src/hud.cpp:115
-msgid "MPH"
-msgstr "MPH"
 
 #: data/settings/options.config:608 data/settings/options.config:832
 msgid "1"
@@ -303,11 +295,11 @@ msgstr "96"
 #: data/skins/simple/menus/EditButtonControl:156
 #: data/skins/simple/menus/InputDevice:78
 #: data/skins/simple/menus/InputDevice:137
-#: data/skins/simple/menus/InputDevice:194
-#: data/skins/simple/menus/InputDevice:347
-#: data/skins/simple/menus/InputDevice:406
-#: data/skins/simple/menus/InputDevice:465
-#: data/skins/simple/menus/InputDevice:523
+#: data/skins/simple/menus/InputDevice:196
+#: data/skins/simple/menus/InputDevice:349
+#: data/skins/simple/menus/InputDevice:408
+#: data/skins/simple/menus/InputDevice:467
+#: data/skins/simple/menus/InputDevice:526
 #: data/skins/simple/menus/PracticeGame:87
 #: data/skins/simple/menus/PracticeGame:146
 #: data/skins/simple/menus/PracticeGame:205
@@ -362,12 +354,12 @@ msgstr "<"
 #: data/skins/simple/menus/EditButtonControl:117
 #: data/skins/simple/menus/EditButtonControl:176
 #: data/skins/simple/menus/InputDevice:98
-#: data/skins/simple/menus/InputDevice:156
-#: data/skins/simple/menus/InputDevice:214
-#: data/skins/simple/menus/InputDevice:367
-#: data/skins/simple/menus/InputDevice:426
-#: data/skins/simple/menus/InputDevice:485
-#: data/skins/simple/menus/InputDevice:543
+#: data/skins/simple/menus/InputDevice:157
+#: data/skins/simple/menus/InputDevice:216
+#: data/skins/simple/menus/InputDevice:369
+#: data/skins/simple/menus/InputDevice:428
+#: data/skins/simple/menus/InputDevice:487
+#: data/skins/simple/menus/InputDevice:546
 #: data/skins/simple/menus/PracticeGame:107
 #: data/skins/simple/menus/PracticeGame:166
 #: data/skins/simple/menus/PracticeGame:225
@@ -391,7 +383,7 @@ msgstr "<"
 #: data/skins/simple/menus/SoundOptions:98
 #: data/skins/simple/menus/TrackManager:98
 msgid ">"
-msgstr "Y"
+msgstr ">"
 
 #: data/skins/simple/menus/CarControls:471
 msgid "ABS Toggle"
@@ -487,16 +479,16 @@ msgstr "Atribuir entradas para controles de câmera."
 msgid "Assign inputs to miscellaneous helpful actions."
 msgstr "Atribuir entradas para ações de ajuda diversas."
 
-#: data/skins/simple/menus/InputDevice:456
+#: data/skins/simple/menus/InputDevice:458
 msgid "Automatic Clutch"
 msgstr "Embreagem Automática"
 
-#: data/skins/simple/menus/InputDevice:397
+#: data/skins/simple/menus/InputDevice:399
 msgid "Automatic Shift"
 msgstr "Câmbio Automático"
 
-#: data/skins/simple/menus/InputDevice:526
-#: data/skins/simple/menus/InputDevice:546
+#: data/skins/simple/menus/InputDevice:529
+#: data/skins/simple/menus/InputDevice:549
 msgid ""
 "Automatically shift to neutral when no gear button is active, as with H-Gate "
 "shifters."
@@ -515,7 +507,8 @@ msgstr ""
 #: data/skins/simple/menus/SingleRace:933
 #: data/skins/simple/menus/TrackManager:195
 #: data/skins/simple/menus/UpdateFailedVersion:47
-#: data/skins/simple/menus/Updates:131 data/skins/simple/menus/UpdatesFound:90
+#: data/skins/simple/menus/Updates:131
+#: data/skins/simple/menus/UpdatesFound:131
 #: data/skins/simple/menus/UpdateSuccessful:47
 msgid "Back"
 msgstr "Voltar"
@@ -546,14 +539,16 @@ msgid "Brightness"
 msgstr "Brilho"
 
 #: data/skins/simple/menus/Updates:106
+#: data/skins/simple/menus/UpdatesFound:89
 msgid "Browse cars and apply updates"
 msgstr "Navegar pelos carros e aplicar atualizações"
 
 #: data/skins/simple/menus/Updates:78
+#: data/skins/simple/menus/UpdatesFound:47
 msgid "Browse tracks and apply updates"
 msgstr "Navegar pelas pistas e aplicar atualizações"
 
-#: data/skins/simple/menus/InputDevice:338
+#: data/skins/simple/menus/InputDevice:340
 msgid "Button Control Delay"
 msgstr "Atraso do Botão de Controle"
 
@@ -578,7 +573,7 @@ msgstr "Movimento de Câmera"
 #: data/skins/simple/menus/EditButtonControl:234
 #: data/skins/simple/menus/GuiControls:136
 #: data/skins/simple/menus/GuiControls:471
-#: data/skins/simple/menus/InputDevice:573
+#: data/skins/simple/menus/InputDevice:576
 #: data/skins/simple/menus/ReplaysControls:203
 #: data/skins/simple/menus/SoundOptions:222
 #: data/skins/simple/menus/ToolsControls:337
@@ -601,6 +596,10 @@ msgstr "Dano do Carro"
 #: data/skins/simple/menus/CarManager:119
 msgid "Car Name"
 msgstr "Nome do Carro"
+
+#: data/skins/simple/menus/UpdatesFound:100
+msgid "Car updates"
+msgstr "Atualizações de carros"
 
 #: data/skins/simple/menus/SingleRace:326 data/skins/simple/menus/Updates:103
 msgid "Cars"
@@ -850,13 +849,14 @@ msgstr "Habilitar modelo de dano do carro."
 msgid "Enable dynamic track objects."
 msgstr "Habilitar objetos dinâmicos da pista."
 
-#: data/skins/simple/menus/InputDevice:468
+#: data/skins/simple/menus/InputDevice:470
+#: data/skins/simple/menus/InputDevice:490
 msgid "Enable/disable automatic clutching (prevents car from stalling)."
 msgstr ""
 "Habilitar/desabilitar a embreagem automática (evita que o carro falhe)."
 
-#: data/skins/simple/menus/InputDevice:409
-#: data/skins/simple/menus/InputDevice:429
+#: data/skins/simple/menus/InputDevice:411
+#: data/skins/simple/menus/InputDevice:431
 msgid "Enable/disable automatic transmission shifting."
 msgstr "Habilitar/desabilitar mudança automática de marcha."
 
@@ -920,11 +920,11 @@ msgstr "Focar a câmera no próximo carro."
 msgid "Focus the camera on previous car."
 msgstr "Focar a câmera no carro anterior."
 
-#: data/skins/simple/menus/InputDevice:244
+#: data/skins/simple/menus/InputDevice:246
 msgid "Force Feedback Gain"
 msgstr "Ganho do Force Feedback"
 
-#: data/skins/simple/menus/InputDevice:185
+#: data/skins/simple/menus/InputDevice:187
 msgid "Force Feedback Invert"
 msgstr "Inverter Force Feedback"
 
@@ -938,7 +938,7 @@ msgstr "Descartar mudanças e retornar ao menu de controles do carro."
 
 #: data/skins/simple/menus/CarControls:770
 #: data/skins/simple/menus/GuiControls:474
-#: data/skins/simple/menus/InputDevice:576
+#: data/skins/simple/menus/InputDevice:579
 msgid "Forget changes and return to Controls menu."
 msgstr "Descartar mudanças e retornar ao menu de controles."
 
@@ -1020,7 +1020,7 @@ msgstr "Voltar ao menu de corrida."
 msgid "Graphics"
 msgstr "Gráficos"
 
-#: data/skins/simple/menus/InputDevice:514
+#: data/skins/simple/menus/InputDevice:517
 msgid "H-Gate Shifter"
 msgstr "Câmbio tipo H"
 
@@ -1076,6 +1076,10 @@ msgstr "Gráfico de entrada"
 msgid "Joystick/Gamepad"
 msgstr ""
 
+#: src/hud.cpp:116
+msgid "KPH"
+msgstr "Km/h"
+
 #: data/skins/simple/menus/Main:161
 msgid "Keep your cars and tracks up to date"
 msgstr "Mantenha seus carros e pistas atualizados"
@@ -1112,6 +1116,15 @@ msgstr "Sair do menu e continuar a corrida."
 msgid "Left"
 msgstr "Esquerda"
 
+#: data/skins/simple/menus/InputDevice:140
+#: data/skins/simple/menus/InputDevice:160
+msgid ""
+"Limit steering range to 200 degrees, gives a realistic feel to limited range "
+"wheels."
+msgstr ""
+"Limitar o alcance da direção a 200 graus, dá uma sensação realística para "
+"volantes de alcance limitado. "
+
 #: data/skins/simple/menus/CarManager:129
 #: data/skins/simple/menus/TrackManager:129
 msgid "Local"
@@ -1128,6 +1141,10 @@ msgstr "Olhar para trás enquanto dirige."
 #: data/settings/options.config:589
 msgid "Low"
 msgstr "Baixo"
+
+#: src/hud.cpp:115
+msgid "MPH"
+msgstr "MPH"
 
 #: data/settings/options.config:200 data/settings/options.config:247
 #: data/settings/options.config:341 data/settings/options.config:575
@@ -1177,7 +1194,7 @@ msgstr "Mover o item de menu atualmente em foco para cima."
 msgid "Move up a menu level."
 msgstr "Subir um nível de menu."
 
-#: data/skins/simple/menus/InputDevice:255
+#: data/skins/simple/menus/InputDevice:257
 msgid "Multiplier to adjust strength of force feedback."
 msgstr "Multiplicador para ajustar a intensidade do force feedback."
 
@@ -1208,14 +1225,6 @@ msgstr "Próxima Câmera"
 msgid "No"
 msgstr "Não"
 
-#: data/skins/simple/menus/UpdatesFound:69
-msgid "No car updates found."
-msgstr "Nenhuma atualização de carro encontrada."
-
-#: data/skins/simple/menus/UpdatesFound:80
-msgid "No track updates found."
-msgstr "Nenhuma atualização de pista encontrada."
-
 #: data/settings/options.config:528
 msgid "Normal"
 msgstr "Normal"
@@ -1232,7 +1241,7 @@ msgstr ""
 #: data/skins/simple/menus/EditAnalogControl:282
 #: data/skins/simple/menus/EditButtonControl:262
 #: data/skins/simple/menus/GuiControls:499
-#: data/skins/simple/menus/InputDevice:601
+#: data/skins/simple/menus/InputDevice:604
 #: data/skins/simple/menus/ReplaysControls:231
 #: data/skins/simple/menus/SoundOptions:250
 #: data/skins/simple/menus/ToolsControls:365
@@ -1508,7 +1517,7 @@ msgstr "Retornar ao menu de opções."
 msgid "Return to the Main menu."
 msgstr "Retornar ao menu principal."
 
-#: data/skins/simple/menus/UpdatesFound:93
+#: data/skins/simple/menus/UpdatesFound:134
 msgid "Return to the Updates menu."
 msgstr "Retornar ao menu de atualizações."
 
@@ -1526,8 +1535,8 @@ msgstr "Ré"
 msgid "Reverse Track"
 msgstr "Inverter Pista"
 
-#: data/skins/simple/menus/InputDevice:197
-#: data/skins/simple/menus/InputDevice:217
+#: data/skins/simple/menus/InputDevice:199
+#: data/skins/simple/menus/InputDevice:219
 msgid "Reverse the force feedback, if necessary for your wheel."
 msgstr "Reverte o force feedback, caso necessário para o seu volante."
 
@@ -1554,7 +1563,7 @@ msgstr "Salvar mudanças e retornar ao menu de controles do carro."
 
 #: data/skins/simple/menus/CarControls:798
 #: data/skins/simple/menus/GuiControls:502
-#: data/skins/simple/menus/InputDevice:604
+#: data/skins/simple/menus/InputDevice:607
 msgid "Save changes and return to Controls menu."
 msgstr "Salvar mudanças e retornar ao menu de controles."
 
@@ -1716,8 +1725,8 @@ msgstr "Pular para Trás"
 msgid "Skip Forward"
 msgstr "Pular para Frente"
 
-#: data/skins/simple/menus/InputDevice:350
-#: data/skins/simple/menus/InputDevice:370
+#: data/skins/simple/menus/InputDevice:352
+#: data/skins/simple/menus/InputDevice:372
 msgid "Slow down the application of button inputs on analogue controls."
 msgstr "Atrasa a aplicação dos botões de entrada em controles analógicos."
 
@@ -1802,7 +1811,7 @@ msgstr "Virar para Esquerda"
 msgid "Steer Right"
 msgstr "Virar para Direita"
 
-#: data/skins/simple/menus/InputDevice:291
+#: data/skins/simple/menus/InputDevice:293
 msgid "Steering Speed Effect"
 msgstr "Efeito da velocidade na direção"
 
@@ -1886,7 +1895,7 @@ msgstr "O controle acelerador faz com que o carro acelere."
 msgid "The handbrake brakes only on the back wheels."
 msgstr "O freio de mão freia apenas as rodas traseiras."
 
-#: data/skins/simple/menus/InputDevice:302
+#: data/skins/simple/menus/InputDevice:304
 msgid ""
 "The higher the value on this setting, the more steering is limited as car "
 "speed increases."
@@ -2024,6 +2033,10 @@ msgstr "Mapa da Pista"
 msgid "Track Name"
 msgstr "Nome da Pista"
 
+#: data/skins/simple/menus/UpdatesFound:58
+msgid "Track updates"
+msgstr "Atualizações de pistas"
+
 #: data/skins/simple/menus/Updates:75
 msgid "Tracks"
 msgstr "Pistas"
@@ -2102,7 +2115,7 @@ msgstr "Atualizações / Carros"
 msgid "Updates / Tracks"
 msgstr "Atualizações / Pistas"
 
-#: data/skins/simple/menus/UpdatesFound:48
+#: data/skins/simple/menus/UpdatesFound:37
 msgid "Updates / Update"
 msgstr "Atualizações / Atualizar"
 
@@ -2146,11 +2159,6 @@ msgstr ""
 #: data/settings/options.config:360
 msgid "Yes"
 msgstr "Sim"
-
-#: data/skins/simple/menus/UpdatesFound:58
-msgid "You can apply updates on the car or track management screen"
-msgstr ""
-"Você pode aplicar atualizações na tela de gerenciamento de carro ou de pista"
 
 #: src/hud.cpp:114
 msgid "You lost"
@@ -2203,6 +2211,20 @@ msgstr "mph"
 #: data/settings/options.config:479
 msgid "short"
 msgstr "curto"
+
+#~ msgid "Lap"
+#~ msgstr "Volta"
+
+#~ msgid "No car updates found."
+#~ msgstr "Nenhuma atualização de carro encontrada."
+
+#~ msgid "No track updates found."
+#~ msgstr "Nenhuma atualização de pista encontrada."
+
+#~ msgid "You can apply updates on the car or track management screen"
+#~ msgstr ""
+#~ "Você pode aplicar atualizações na tela de gerenciamento de carro ou de "
+#~ "pista"
 
 #~ msgid "Loading"
 #~ msgstr "Carregando"
