@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: VDrift\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-01-11 22:17+0100\n"
-"PO-Revision-Date: 2013-01-13 20:55+0100\n"
+"PO-Revision-Date: 2013-01-20 12:30+0100\n"
 "Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
 "Language-Team: Fòram na Gàidhlig http://www.foramnagaidhlig.net\n"
 "Language: gd\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
 "(n > 2 && n < 20) ? 2 : 3;\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Virtaal 0.7.1\n"
 
 #: src/hud.cpp:116
 msgid "KPH"
@@ -531,7 +531,7 @@ msgstr "Tòisich air an ath-chluiche mu dheireadh a chaidh a chlàradh."
 
 #: src/hud.cpp:107
 msgid "Best lap:"
-msgstr "A' chuairt as fhearr:"
+msgstr "As fhearr:"
 
 #: data/skins/simple/menus/DisplayOptionsAdvanced:492
 msgid "Bloom"
@@ -1098,7 +1098,7 @@ msgstr "Cuairt:"
 
 #: src/hud.cpp:105
 msgid "Lap time:"
-msgstr "Ùine na cuairte:"
+msgstr "An-dràsta:"
 
 #: data/skins/simple/menus/SingleRace:149
 msgid "Laps"
@@ -1110,7 +1110,7 @@ msgstr "Mòr"
 
 #: src/hud.cpp:106
 msgid "Last lap:"
-msgstr "A' chuairt roimhe:"
+msgstr "An tè roimhe:"
 
 #: data/skins/simple/menus/InGameMain:106
 msgid "Leave game and return to the Main menu."
