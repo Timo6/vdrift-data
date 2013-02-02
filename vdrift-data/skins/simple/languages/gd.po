@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: VDrift\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-01-11 22:17+0100\n"
-"PO-Revision-Date: 2013-01-20 12:30+0100\n"
+"PO-Revision-Date: 2013-01-25 18:14+0100\n"
 "Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
 "Language-Team: Fòram na Gàidhlig http://www.foramnagaidhlig.net\n"
 "Language: gd\n"
@@ -531,7 +531,7 @@ msgstr "Tòisich air an ath-chluiche mu dheireadh a chaidh a chlàradh."
 
 #: src/hud.cpp:107
 msgid "Best lap:"
-msgstr "As fhearr:"
+msgstr "An tè as fhearr:"
 
 #: data/skins/simple/menus/DisplayOptionsAdvanced:492
 msgid "Bloom"
@@ -905,11 +905,11 @@ msgstr "Raon seallaidh an comhair inghearach."
 
 #: data/skins/simple/menus/CameraViewControls:605
 msgid "Focus Next"
-msgstr "Taomhaich air an ath-fhear"
+msgstr "Fòcas air an ath-fhear"
 
 #: data/skins/simple/menus/CameraViewControls:672
 msgid "Focus Previous"
-msgstr "Taomhaich air an fhear roimhe"
+msgstr "Fòcas air an fhear roimhe"
 
 #: data/skins/simple/menus/CameraViewControls:617
 #: data/skins/simple/menus/CameraViewControls:636
@@ -925,11 +925,11 @@ msgstr "Taomhaich an camara air a' chàr roimhe."
 
 #: data/skins/simple/menus/InputDevice:244
 msgid "Force Feedback Gain"
-msgstr "Meudachadh na freagairte-forsa"
+msgstr "Meudachadh freagairt-forsa"
 
 #: data/skins/simple/menus/InputDevice:185
 msgid "Force Feedback Invert"
-msgstr "Ais-tionndadh na freagairte-forsa"
+msgstr "Ais-tionndadh freagairt-forsa"
 
 #: data/skins/simple/menus/CameraMovementControls:474
 msgid "Forget changes and return to Camera Controls menu."
@@ -1098,7 +1098,7 @@ msgstr "Cuairt:"
 
 #: src/hud.cpp:105
 msgid "Lap time:"
-msgstr "An-dràsta:"
+msgstr "Ùine na cuairte:"
 
 #: data/skins/simple/menus/SingleRace:149
 msgid "Laps"
@@ -1110,7 +1110,7 @@ msgstr "Mòr"
 
 #: src/hud.cpp:106
 msgid "Last lap:"
-msgstr "An tè roimhe:"
+msgstr "An tè roimhpe:"
 
 #: data/skins/simple/menus/InGameMain:106
 msgid "Leave game and return to the Main menu."
@@ -1335,7 +1335,7 @@ msgstr "Roghainnean / Uidheaman-smachd / Ion-chur"
 
 #: data/skins/simple/menus/ReplaysControls:59
 msgid "Options / Controls / Replays"
-msgstr "Roghainnean / Uidheaman-smachd / Ath-chluichean"
+msgstr "Roghainnean / Uidh.-smachd / Ath-chluichean"
 
 #: data/skins/simple/menus/ToolsControls:59
 msgid "Options / Controls / Tools"
@@ -1468,7 +1468,7 @@ msgstr "Ath-luchdaich GUI"
 
 #: data/skins/simple/menus/ToolsControls:203
 msgid "Reload Shaders"
-msgstr "Ath-luchdaich sgàileadairean"
+msgstr "Ath-luchd. sgàileadairean"
 
 #: data/skins/simple/menus/ToolsControls:282
 #: data/skins/simple/menus/ToolsControls:301
@@ -2071,7 +2071,7 @@ msgstr "Slighean"
 #: data/skins/simple/menus/PracticeGame:610
 #: data/skins/simple/menus/SingleRace:787
 msgid "Traction Control"
-msgstr "Dìon an aghaidh sleamhnachadh"
+msgstr "Dìon bho shleamhnachadh"
 
 #: data/skins/simple/menus/CarControls:739
 msgid "Transmission"
@@ -2233,11 +2233,11 @@ msgstr "kph"
 
 #: data/settings/options.config:475
 msgid "long"
-msgstr "fada"
+msgstr "Fada"
 
 #: data/settings/options.config:477
 msgid "medium"
-msgstr "meadhanach"
+msgstr "Meadhanach"
 
 #: data/settings/options.config:232
 msgid "mph"
@@ -2245,7 +2245,7 @@ msgstr "mph"
 
 #: data/settings/options.config:479
 msgid "short"
-msgstr "goirid"
+msgstr "Goirid"
 
 #, fuzzy
 #~ msgid "Loading"
