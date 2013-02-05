@@ -50,6 +50,15 @@ write_depth = false
 blendmode = alphablend
 
 
+; particles
+
+[pass]
+draw = particle
+output = framebuffer
+write_depth = false
+blendmode = add
+
+
 ; 2D UI elements
 
 [pass]

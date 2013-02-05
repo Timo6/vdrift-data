@@ -40,7 +40,7 @@ opacity = 0.3
 left = 0.008
 width = 0.29
 top = 0.181
-height = 0.478
+height = 0.518
 layer = -1
 
 
@@ -51,7 +51,7 @@ opacity = 0.3
 left = 0.30
 width = 0.30
 top = 0.181
-height = 0.478
+height = 0.518
 layer = -1
 
 
@@ -667,7 +667,7 @@ height = 0.04
 
 
 [ widget-11a ]
-text = Camera Bounce
+text = Field of View
 fontsize = 0.03
 align = right
 left = 0.01
@@ -676,40 +676,99 @@ top = 0.58
 height = 0.04
 
 [ widget-11b ]
+text = <
+fontsize = 0.03
+align = left
+tip = Field of view in the vertical direction.
+onselect = display.FOV.prev
+onmoveleft = display.FOV.prev
+onmoveright = display.FOV.next
+onmoveup = widget-10b
+onmovedown = widget-110b
+onfocus = widget-11b.opacity:0 widget-11c.opacity:0 widget-11d.sat:0.56
+onblur = widget-11b.opacity:1 widget-11c.opacity:1 widget-11d.sat:0.0
+focus = false
+color = 0.439, 0.796, 1.00
+opacity = 1.0
+left = 0.31
+width = 0.14
+top = 0.58
+height = 0.04
+
+[ widget-11c ]
+text = >
+fontsize = 0.03
+align = right
+tip = Field of view in the vertical direction.
+onselect = display.FOV.next
+onmoveleft = display.FOV.prev
+onmoveright = display.FOV.next
+onmoveup = widget-10b
+onmovedown = widget-110b
+onfocus = widget-11b.opacity:0 widget-11c.opacity:0 widget-11d.sat:0.56
+onblur = widget-11b.opacity:1 widget-11c.opacity:1 widget-11d.sat:0.0
+focus = false
+color = 0.439, 0.796, 1.00
+opacity = 1.0
+left = 0.45
+width = 0.14
+top = 0.58
+height = 0.04
+
+[ widget-11d ]
+text = display.FOV.str
+fontsize = 0.03
+hue = 0.56
+left = 0.31
+width = 0.28
+top = 0.58
+height = 0.04
+
+
+[ widget-110a ]
+text = Camera Bounce
+fontsize = 0.03
+align = right
+left = 0.01
+width = 0.28
+top = 0.62
+height = 0.04
+
+[ widget-110b ]
 text = display.camerabounce.str
 fontsize = 0.03
 tip = Change the strength of the camera bounce effect.
 onselectx = display.camerabounce.norm
 onmoveleft = display.camerabounce.prev
 onmoveright = display.camerabounce.next
-onmoveup = widget-10b
+onmoveup = widget-11b
 onmovedown = widget-12b
-onfocus = widget-11c.opacity:0 widget-11d.opacity:0 widget-11b.sat:0.56
-onblur = widget-11c.opacity:1 widget-11d.opacity:1 widget-11b.sat:0.0
+onfocus = widget-110c.opacity:0 widget-110d.opacity:0 widget-110b.sat:0.56
+onblur = widget-110c.opacity:1 widget-110d.opacity:1 widget-110b.sat:0.0
 focus = false
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.585
+top = 0.625
 height = 0.03
 
-[ widget-11c ]
+[ widget-110c ]
 slider = display.camerabounce.norm
 fill = true
 opacity = 1.0
 left = 0.31
 width = 0.28
-top = 0.586
+top = 0.626
 height = 0.028
 layer = 1
 
-[ widget-11d ]
+[ widget-110d ]
 image = white.png
 color = 0.3, 0.3, 0.3
 opacity = 1.0
 left = 0.31
 width = 0.28
-top = 0.586
+top = 0.626
 height = 0.028
 
 
@@ -719,7 +778,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.62
+top = 0.66
 height = 0.04
 
 [ widget-12b ]
@@ -729,7 +788,7 @@ tip = Change the contrast of the display.
 onselectx = display.contrast.norm
 onmoveleft = display.contrast.prev
 onmoveright = display.contrast.next
-onmoveup = widget-11b
+onmoveup = widget-110b
 onmovedown = widget-13b
 onfocus = widget-12c.opacity:0 widget-12d.opacity:0 widget-12b.sat:0.56
 onblur = widget-12c.opacity:1 widget-12d.opacity:1 widget-12b.sat:0.0
@@ -737,7 +796,7 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.625
+top = 0.665
 height = 0.03
 
 [ widget-12c ]
@@ -746,7 +805,7 @@ fill = true
 opacity = 1.0
 left = 0.31
 width = 0.28
-top = 0.626
+top = 0.666
 height = 0.028
 layer = 1
 
@@ -756,7 +815,7 @@ color = 0.3, 0.3, 0.3
 opacity = 1.0
 left = 0.31
 width = 0.28
-top = 0.626
+top = 0.666
 height = 0.028
 
 
@@ -774,7 +833,7 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.29
-top = 0.66
+top = 0.70
 height = 0.04
 
 [ widget-13e ]
@@ -783,7 +842,7 @@ color = 0.172, 0.161, 0.169
 opacity = 0.3
 left = 0.30
 width = 0.30
-top = 0.661
+top = 0.701
 height = 0.038
 layer = -1
 
@@ -802,7 +861,7 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.29
-top = 0.70
+top = 0.74
 height = 0.04
 
 [ widget-14e ]
@@ -811,6 +870,6 @@ color = 0.172, 0.161, 0.169
 opacity = 0.3
 left = 0.30
 width = 0.30
-top = 0.701
+top = 0.741
 height = 0.038
 layer = -1
