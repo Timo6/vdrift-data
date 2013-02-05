@@ -666,7 +666,7 @@ height = 0.04
 
 
 [ widget-11a ]
-text = Field of View
+text = Particles
 fontsize = 0.03
 align = right
 left = 0.01
@@ -678,10 +678,10 @@ height = 0.04
 text = <
 fontsize = 0.03
 align = left
-tip = Field of view in the vertical direction.
-onselect = display.FOV.prev
-onmoveleft = display.FOV.prev
-onmoveright = display.FOV.next
+tip = Change the amount of particles used for smoke and dust effects.
+onselect = display.particles.prev
+onmoveleft = display.particles.prev
+onmoveright = display.particles.next
 onmoveup = widget-10b
 onmovedown = widget-12b
 onfocus = widget-11b.opacity:0 widget-11c.opacity:0 widget-11d.sat:0.56
@@ -698,10 +698,10 @@ height = 0.04
 text = >
 fontsize = 0.03
 align = right
-tip = Field of view in the vertical direction.
-onselect = display.FOV.next
-onmoveleft = display.FOV.prev
-onmoveright = display.FOV.next
+tip = Change the amount of particles used for smoke and dust effects.
+onselect = display.particles.next
+onmoveleft = display.particles.prev
+onmoveright = display.particles.next
 onmoveup = widget-10b
 onmovedown = widget-12b
 onfocus = widget-11b.opacity:0 widget-11c.opacity:0 widget-11d.sat:0.56
@@ -716,7 +716,7 @@ height = 0.04
 
 
 [ widget-11d ]
-text = display.FOV.str
+text = display.particles.str
 fontsize = 0.03
 hue = 0.56
 left = 0.31
