@@ -40,7 +40,7 @@ opacity = 0.3
 left = 0.008
 width = 0.32
 top = 0.181
-height = 0.358
+height = 0.398
 layer = -1
 
 
@@ -51,7 +51,7 @@ opacity = 0.3
 left = 0.33
 width = 0.30
 top = 0.181
-height = 0.358
+height = 0.398
 layer = -1
 
 
@@ -572,42 +572,73 @@ top = 0.50
 height = 0.04
 
 
+[ widget-10a ]
+text = Grab Mouse
+fontsize = 0.03
+align = right
+left = 0.01
+width = 0.31
+top = 0.54
+height = 0.04
+
 [ widget-10b ]
+text = <
+fontsize = 0.03
+align = left
+tip = Confine mouse to the application window and hide cursor when playing.
+onselect = control.mousegrab.prev
+onmoveleft = control.mousegrab.prev
+onmoveright = control.mousegrab.next
+onmoveup = widget-09b
+onmovedown = widget-11b
+onfocus = widget-10b.opacity:0 widget-10c.opacity:0 widget-10d.sat:0.56
+onblur = widget-10b.opacity:1 widget-10c.opacity:1 widget-10d.sat:0.0
+focus = false
+color = 0.439, 0.796, 1.00
+opacity = 1.0
+left = 0.34
+width = 0.14
+top = 0.54
+height = 0.04
+
+[ widget-10c ]
+text = >
+fontsize = 0.03
+align = right
+tip = Confine mouse to the application window and hide cursor when playing.
+onselect = control.mousegrab.next
+onmoveleft = control.mousegrab.prev
+onmoveright = control.mousegrab.next
+onmoveup = widget-09b
+onmovedown = widget-11b
+onfocus = widget-10b.opacity:0 widget-10c.opacity:0 widget-10d.sat:0.56
+onblur = widget-10b.opacity:1 widget-10c.opacity:1 widget-10d.sat:0.0
+focus = false
+color = 0.439, 0.796, 1.00
+opacity = 1.0
+left = 0.48
+width = 0.14
+top = 0.54
+height = 0.04
+
+[ widget-10d ]
+text = control.mousegrab.str
+fontsize = 0.03
+hue = 0.56
+left = 0.34
+width = 0.28
+top = 0.54
+height = 0.04
+
+
+[ widget-11b ]
 text = Cancel
 fontsize = 0.03
 #align = left
 tip = Forget changes and return to Controls menu.
 onselect = gui.options.load ControlsOptions
-onmoveup = widget-09b
-onmovedown = widget-11b
-onfocus = widget-10b.sat:0.56
-onblur = widget-10b.sat:0.0
-focus = false
-hue = 0.56
-left = 0.34
-width = 0.29
-top = 0.54
-height = 0.04
-
-[ widget-10e ]
-image = white.png
-color = 0.172, 0.161, 0.169
-opacity = 0.3
-left = 0.33
-width = 0.30
-top = 0.541
-height = 0.038
-layer = -1
-
-
-[ widget-11b ]
-text = OK
-fontsize = 0.03
-#align = left
-tip = Save changes and return to Controls menu.
-onselect = gui.options.save ControlsOptions
 onmoveup = widget-10b
-onmovedown = widget-01b
+onmovedown = widget-12b
 onfocus = widget-11b.sat:0.56
 onblur = widget-11b.sat:0.0
 focus = false
@@ -624,5 +655,33 @@ opacity = 0.3
 left = 0.33
 width = 0.30
 top = 0.581
+height = 0.038
+layer = -1
+
+
+[ widget-12b ]
+text = OK
+fontsize = 0.03
+#align = left
+tip = Save changes and return to Controls menu.
+onselect = gui.options.save ControlsOptions
+onmoveup = widget-11b
+onmovedown = widget-01b
+onfocus = widget-12b.sat:0.56
+onblur = widget-12b.sat:0.0
+focus = false
+hue = 0.56
+left = 0.34
+width = 0.29
+top = 0.62
+height = 0.04
+
+[ widget-12e ]
+image = white.png
+color = 0.172, 0.161, 0.169
+opacity = 0.3
+left = 0.33
+width = 0.30
+top = 0.621
 height = 0.038
 layer = -1
