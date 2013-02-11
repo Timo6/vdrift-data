@@ -10,7 +10,7 @@ in vec3 vertexPosition;
 in vec3 vertexNormal;
 in vec3 vertexTangent;
 in vec3 vertexBitangent;
-in vec3 vertexColor;
+in vec4 vertexColor;
 in vec3 vertexUv0;
 in vec3 vertexUv1;
 in vec3 vertexUv2;
@@ -19,6 +19,7 @@ out vec3 normal;
 out vec3 tangent;
 out vec3 bitangent;
 #endif
+out vec4 vcolor;
 out vec3 uv;
 out vec3 eyespacePosition;
 
@@ -38,6 +39,9 @@ void main(void)
 	
 	// pass along the uv unmodified
 	uv = vertexUv0;
+	
+	// pass along the color
+	vcolor = vertexColor;
 	
 	// transform the position into eye space
 	eyespacePosition = (modelViewMatrix*vec4(vertexPosition, 1.0)).xyz;

@@ -15178,6 +15178,7 @@ passList
     fragmentShader = simple.frag
     fragmentShaderDefines
     {
+      *item = VCOLOR
     }
     shaderAttributeBindings
     {

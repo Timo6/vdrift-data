@@ -5,6 +5,10 @@ uniform sampler2D diffuseSampler;
 #endif
 uniform vec4 colorTint;
 
+#ifdef VCOLOR
+in vec4 vcolor;
+#endif
+
 in vec3 normal;
 in vec3 uv;
 in vec3 eyespacePosition;
@@ -53,7 +57,11 @@ void main(void)
 	albedo.rgb = mix(colorTint.rgb, diffuseTexture.rgb, diffuseTexture.a); // albedo is mixed from diffuse and object color
 	albedo.a = 1;
 	#else
+	#ifdef VCOLOR
+	albedo = diffuseTexture * vcolor;
+	#else
 	albedo = diffuseTexture * colorTint;
+	#endif
 	#endif
 	
 	#ifdef ALPHATEST
