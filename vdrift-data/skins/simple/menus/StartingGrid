@@ -1,5 +1,5 @@
 name = StartingGrid
-oncancel = gui.options.save SingleRace
+oncancel = gui.options.save EditPlayerCar SingleRace
 
 
 [ bg-top ]
@@ -626,7 +626,7 @@ text = Back
 fontsize = 0.03
 #align = left
 tip = Return to the Main menu.
-onselect = gui.options.save SingleRace
+onselect = gui.options.save EditPlayerCar SingleRace
 onmoveup = widget-16b
 onmovedown = widget-06b
 onfocus = widget-17b.sat:0.56
