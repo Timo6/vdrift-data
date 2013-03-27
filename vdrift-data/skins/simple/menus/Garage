@@ -75,48 +75,15 @@ top = 0.18
 height = 0.04
 
 [ widget-08b ]
-text = <
-fontsize = 0.03
-align = left
-tip = Choose the car to drive.
-onselect = game.car.prev
-onmoveleft = game.car.prev
-onmoveright = game.car.next
-onmoveup = widget-17b
-onmovedown = widget-09b
-onfocus = widget-08b.opacity:0 widget-08c.opacity:0 widget-08d.sat:0.56
-onblur = widget-08b.opacity:1 widget-08c.opacity:1 widget-08d.sat:0.0
-focus = false
-color = 0.439, 0.796, 1.00
-opacity = 1.0
-left = 0.31
-width = 0.14
-top = 0.18
-height = 0.04
-
-[ widget-08c ]
-text = >
-fontsize = 0.03
-align = right
-tip = Choose the car to drive.
-onselect = game.car.next
-onmoveleft = game.car.prev
-onmoveright = game.car.next
-onmoveup = widget-07b
-onmovedown = widget-09b
-onfocus = widget-08b.opacity:0 widget-08c.opacity:0 widget-08d.sat:0.56
-onblur = widget-08b.opacity:1 widget-08c.opacity:1 widget-08d.sat:0.0
-focus = false
-color = 0.439, 0.796, 1.00
-opacity = 1.0
-left = 0.45
-width = 0.14
-top = 0.18
-height = 0.04
-
-[ widget-08d ]
 text = game.car.str
 fontsize = 0.03
+tip = Choose the car to drive.
+onselect = Cars
+onmoveup = widget-17b
+onmovedown = widget-09b
+onfocus = widget-08b.sat:0.56
+onblur = widget-08b.sat:0.0
+focus = true
 hue = 0.56
 left = 0.31
 width = 0.28

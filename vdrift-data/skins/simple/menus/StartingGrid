@@ -66,7 +66,7 @@ height = 0.06
 
 
 [ widget-01 ]
-image = game.track.image
+image = game.track_image
 path = tracks
 right = 0.01
 width = 0.32
@@ -676,6 +676,10 @@ rows = 6
 cols = 2
 vertical = false
 padding-rl = 0.01
+onfocus = start-list.sat:0.56
+onblur = start-list.sat:0.0
+focus = false
+hue = 0.56
 right = 0.01
 width = 0.32
 top = 0.58
