@@ -95,6 +95,7 @@ width = 0.04
 
 [ list ]
 image = white.png
+tip = Choose the track to drive on.
 list = game.track
 rows = 3
 cols = 5

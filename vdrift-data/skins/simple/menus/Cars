@@ -95,6 +95,7 @@ width = 0.04
 
 [ list ]
 image = white.png
+tip = Choose the car to drive.
 list = game.car
 rows = 4
 cols = 4
