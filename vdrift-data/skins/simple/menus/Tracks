@@ -96,14 +96,14 @@ width = 0.04
 [ list ]
 image = white.png
 list = game.track
-rows = 4
-cols = 4
+rows = 3
+cols = 5
 #vertical = false
-padding-rl = 0.01
+padding-lr = 0.01
 padding-tb = 0.01
 onselect = game.track.nth SingleRace
-onscrollf = list-txt.scroll:fwd
-onscrollr = list-txt.scroll:rev
+onscrollf = list-txt.scroll:fwd list-img.scroll:fwd
+onscrollr = list-txt.scroll:rev list-img.scroll:rev
 onfocus = list-txt.sat:0.56
 onblur = list-txt.sat:0.0
 focus = true
@@ -115,14 +115,31 @@ top = 0.14
 height = 0.78
 layer = -1
 
-[ list-txt ]
-text = game.track
-fontsize = 0.03
-rows = 4
-cols = 4
+[ list-img ]
+image = game.track
+path = tracks
+ext = /trackshot.png
+rows = 3
+cols = 5
 #vertical = false
-padding-rl = 0.01
-padding-tb = 0.01
+padding-lr = 0.01
+padding-top = 0.01
+padding-bottom = 0.06
+hue = 0.56
+right = 0.06
+left = 0.06
+top = 0.14
+height = 0.78
+
+[ list-txt ]
+text = game.track.str
+fontsize = 0.03
+rows = 3
+cols = 5
+#vertical = false
+padding-lr = 0.01
+padding-top = 0.20
+padding-bottom = 0.01
 hue = 0.56
 right = 0.06
 left = 0.06

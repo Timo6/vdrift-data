@@ -99,7 +99,7 @@ list = game.car
 rows = 4
 cols = 4
 #vertical = false
-padding-rl = 0.01
+padding-lr = 0.01
 padding-tb = 0.01
 onselect = game.car.nth Garage
 onscrollf = list-txt.scroll:fwd
@@ -116,12 +116,12 @@ height = 0.78
 layer = -1
 
 [ list-txt ]
-text = game.car
+text = game.car.str
 fontsize = 0.03
 rows = 4
 cols = 4
 #vertical = false
-padding-rl = 0.01
+padding-lr = 0.01
 padding-tb = 0.01
 hue = 0.56
 right = 0.06
