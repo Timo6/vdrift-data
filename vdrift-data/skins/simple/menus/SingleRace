@@ -606,7 +606,7 @@ top = 0.54
 height = 0.04
 
 [ track-list ]
-text = game.startlist
+text = game.startlist.str
 fontsize = 0.03
 align = left
 rows = 6
