@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VDrift\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-15 19:32+0100\n"
-"PO-Revision-Date: 2013-01-20 20:06+0100\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2013-03-30 21:47+0100\n"
+"PO-Revision-Date: 2013-03-31 20:32-0300\n"
+"Last-Translator: Brian Chalega da Silva <chalegabrian@gmail.com>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -17,107 +17,96 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: data/settings/options.config:608 data/settings/options.config:832
+#: data/settings/options.config:659
+msgid "0"
+msgstr ""
+
+#: data/settings/options.config:484 data/settings/options.config:661
+#: data/settings/options.config:690
 msgid "1"
 msgstr "1"
 
-#: data/skins/simple/menus/SingleRace:970
-msgid "1."
-msgstr "1."
-
-#: data/settings/options.config:626 data/settings/options.config:850
+#: data/settings/options.config:502 data/settings/options.config:679
 msgid "10"
 msgstr "10"
 
-#: data/skins/simple/menus/SingleRace:1051
-msgid "10."
-msgstr "10."
-
-#: data/settings/options.config:130
+#: data/settings/options.config:61
 msgid "1024 x 768"
 msgstr "1024 x 768"
 
-#: data/settings/options.config:628 data/settings/options.config:852
+#: data/settings/options.config:504 data/settings/options.config:681
 msgid "11"
 msgstr "11"
 
-#: data/skins/simple/menus/SingleRace:1060
-msgid "11."
-msgstr "11."
-
-#: data/settings/options.config:132
+#: data/settings/options.config:63
 msgid "1152 x 720"
 msgstr "1152 x 720"
 
-#: data/settings/options.config:134
+#: data/settings/options.config:65
 msgid "1152 x 864"
 msgstr "1152 x 864"
 
-#: data/settings/options.config:630 data/settings/options.config:854
+#: data/settings/options.config:506
 msgid "12"
 msgstr "12"
 
-#: data/skins/simple/menus/SingleRace:1069
-msgid "12."
-msgstr "12."
-
-#: data/settings/options.config:144
+#: data/settings/options.config:75
 msgid "1280 x 1024"
 msgstr "1280 x 1024"
 
-#: data/settings/options.config:136
+#: data/settings/options.config:67
 msgid "1280 x 720"
 msgstr "1280 x 720"
 
-#: data/settings/options.config:138
+#: data/settings/options.config:69
 msgid "1280 x 768"
 msgstr "1280 x 768"
 
-#: data/settings/options.config:140
+#: data/settings/options.config:71
 msgid "1280 x 800"
 msgstr "1280 x 800"
 
-#: data/settings/options.config:142
+#: data/settings/options.config:73
 msgid "1280 x 960"
 msgstr "1280 x 960"
 
-#: data/settings/options.config:146
+#: data/settings/options.config:77
 msgid "1360 x 768"
 msgstr "1360 x 768"
 
-#: data/settings/options.config:148
+#: data/settings/options.config:79
 msgid "1366 x 768"
 msgstr "1366 x 768"
 
-#: data/settings/options.config:150
+#: data/settings/options.config:81
 msgid "1440 x 900"
 msgstr "1440 x 900"
 
-#: data/settings/options.config:785
+#: data/settings/options.config:631
 msgid "16-bit"
 msgstr ""
 
-#: data/settings/options.config:154
+#: data/settings/options.config:85
 msgid "1600 x 1200"
 msgstr "1600 x 1200"
 
-#: data/settings/options.config:152
+#: data/settings/options.config:83
 msgid "1600 x 900"
 msgstr "1600 x 900"
 
-#: data/settings/options.config:156
+#: data/settings/options.config:87
 msgid "1680 x 1050"
 msgstr "1680 x 1050"
 
-#: data/settings/options.config:175
+#: data/settings/options.config:104
 msgid "16bpp"
 msgstr ""
 
-#: data/settings/options.config:158
+#: data/settings/options.config:89
 msgid "1920 x 1080"
 msgstr "1920 x 1080"
 
-#: data/settings/options.config:160
+#: data/settings/options.config:91
 msgid "1920 x 1200"
 msgstr "1920 x 1200"
 
@@ -125,31 +114,27 @@ msgstr "1920 x 1200"
 msgid "1st"
 msgstr ""
 
-#: data/settings/options.config:610 data/settings/options.config:834
+#: data/settings/options.config:486 data/settings/options.config:663
 msgid "2"
 msgstr "2"
-
-#: data/skins/simple/menus/SingleRace:979
-msgid "2."
-msgstr "2."
 
 #: data/skins/simple/menus/InputDevice:128
 msgid "200 Degree Wheel"
 msgstr "Volante de 200 graus"
 
-#: data/settings/options.config:345
+#: data/settings/options.config:263
 msgid "200 degree mode"
 msgstr "modo de 200 graus"
 
-#: data/settings/options.config:787
+#: data/settings/options.config:633
 msgid "24-bit"
 msgstr ""
 
-#: data/settings/options.config:162
+#: data/settings/options.config:93
 msgid "2560 x 1440"
 msgstr "2560 x 1440"
 
-#: data/settings/options.config:164
+#: data/settings/options.config:95
 msgid "2560 x 1600"
 msgstr "2560 x 1600"
 
@@ -157,19 +142,15 @@ msgstr "2560 x 1600"
 msgid "2nd"
 msgstr ""
 
-#: data/settings/options.config:612 data/settings/options.config:836
+#: data/settings/options.config:488 data/settings/options.config:665
 msgid "3"
 msgstr "3"
 
-#: data/skins/simple/menus/SingleRace:988
-msgid "3."
-msgstr "3."
-
-#: data/settings/options.config:262
+#: data/settings/options.config:200
 msgid "32"
 msgstr "32"
 
-#: data/settings/options.config:177
+#: data/settings/options.config:106
 msgid "32bpp"
 msgstr ""
 
@@ -177,15 +158,11 @@ msgstr ""
 msgid "3rd"
 msgstr ""
 
-#: data/settings/options.config:614 data/settings/options.config:838
+#: data/settings/options.config:490 data/settings/options.config:667
 msgid "4"
 msgstr "4"
 
-#: data/skins/simple/menus/SingleRace:997
-msgid "4."
-msgstr "4."
-
-#: data/settings/options.config:264
+#: data/settings/options.config:202
 msgid "48"
 msgstr "48"
 
@@ -193,31 +170,23 @@ msgstr "48"
 msgid "4th"
 msgstr ""
 
-#: data/settings/options.config:616 data/settings/options.config:840
+#: data/settings/options.config:492 data/settings/options.config:669
 msgid "5"
 msgstr "5"
-
-#: data/skins/simple/menus/SingleRace:1006
-msgid "5."
-msgstr "5."
 
 #: data/skins/simple/menus/TransmissionControls:605
 msgid "5th"
 msgstr ""
 
-#: data/settings/options.config:618 data/settings/options.config:842
+#: data/settings/options.config:494 data/settings/options.config:671
 msgid "6"
 msgstr "6"
 
-#: data/skins/simple/menus/SingleRace:1015
-msgid "6."
-msgstr "6."
-
-#: data/settings/options.config:266
+#: data/settings/options.config:204
 msgid "64"
 msgstr "64"
 
-#: data/settings/options.config:124
+#: data/settings/options.config:55
 msgid "640 x 480"
 msgstr "640 x 480"
 
@@ -225,47 +194,35 @@ msgstr "640 x 480"
 msgid "6th"
 msgstr ""
 
-#: data/settings/options.config:620 data/settings/options.config:844
+#: data/settings/options.config:496 data/settings/options.config:673
 msgid "7"
 msgstr "7"
 
-#: data/skins/simple/menus/SingleRace:1024
-msgid "7."
-msgstr "7."
-
-#: data/settings/options.config:622 data/settings/options.config:846
+#: data/settings/options.config:498 data/settings/options.config:675
 msgid "8"
 msgstr "8"
 
-#: data/skins/simple/menus/SingleRace:1033
-msgid "8."
-msgstr "8."
-
-#: data/settings/options.config:268
+#: data/settings/options.config:206
 msgid "80"
 msgstr "80"
 
-#: data/settings/options.config:126
+#: data/settings/options.config:57
 msgid "800 x 480"
 msgstr "800 x 480"
 
-#: data/settings/options.config:128
+#: data/settings/options.config:59
 msgid "800 x 600"
 msgstr "800 x 600"
 
-#: data/settings/options.config:624 data/settings/options.config:848
+#: data/settings/options.config:500 data/settings/options.config:677
 msgid "9"
 msgstr "9"
 
-#: data/skins/simple/menus/SingleRace:1042
-msgid "9."
-msgstr "9."
-
-#: data/settings/options.config:270
+#: data/settings/options.config:208
 msgid "96"
 msgstr "96"
 
-#: data/skins/simple/menus/CarManager:78
+#: data/skins/simple/menus/CarManager:78 data/skins/simple/menus/Cars:62
 #: data/skins/simple/menus/DisplayOptions:88
 #: data/skins/simple/menus/DisplayOptions:148
 #: data/skins/simple/menus/DisplayOptions:207
@@ -276,6 +233,7 @@ msgstr "96"
 #: data/skins/simple/menus/DisplayOptions:502
 #: data/skins/simple/menus/DisplayOptions:561
 #: data/skins/simple/menus/DisplayOptions:620
+#: data/skins/simple/menus/DisplayOptions:679
 #: data/skins/simple/menus/DisplayOptionsAdvanced:88
 #: data/skins/simple/menus/DisplayOptionsAdvanced:147
 #: data/skins/simple/menus/DisplayOptionsAdvanced:206
@@ -293,39 +251,33 @@ msgstr "96"
 #: data/skins/simple/menus/DisplayOptionsAdvanced:915
 #: data/skins/simple/menus/EditButtonControl:97
 #: data/skins/simple/menus/EditButtonControl:156
-#: data/skins/simple/menus/InputDevice:78
+#: data/skins/simple/menus/Garage:104 data/skins/simple/menus/Garage:281
+#: data/skins/simple/menus/Garage:340 data/skins/simple/menus/InputDevice:78
 #: data/skins/simple/menus/InputDevice:137
 #: data/skins/simple/menus/InputDevice:196
 #: data/skins/simple/menus/InputDevice:349
 #: data/skins/simple/menus/InputDevice:408
 #: data/skins/simple/menus/InputDevice:467
 #: data/skins/simple/menus/InputDevice:526
-#: data/skins/simple/menus/PracticeGame:87
-#: data/skins/simple/menus/PracticeGame:146
-#: data/skins/simple/menus/PracticeGame:205
-#: data/skins/simple/menus/PracticeGame:264
-#: data/skins/simple/menus/PracticeGame:323
-#: data/skins/simple/menus/PracticeGame:382
-#: data/skins/simple/menus/PracticeGame:560
-#: data/skins/simple/menus/PracticeGame:619
-#: data/skins/simple/menus/PracticeGame:678 data/skins/simple/menus/Replays:78
-#: data/skins/simple/menus/SingleRace:99
-#: data/skins/simple/menus/SingleRace:158
-#: data/skins/simple/menus/SingleRace:217
-#: data/skins/simple/menus/SingleRace:276
-#: data/skins/simple/menus/SingleRace:335
-#: data/skins/simple/menus/SingleRace:394
-#: data/skins/simple/menus/SingleRace:500
-#: data/skins/simple/menus/SingleRace:559
-#: data/skins/simple/menus/SingleRace:737
-#: data/skins/simple/menus/SingleRace:796
-#: data/skins/simple/menus/SingleRace:855
+#: data/skins/simple/menus/InputDevice:585 data/skins/simple/menus/Replays:78
+#: data/skins/simple/menus/SingleRace:114
+#: data/skins/simple/menus/SingleRace:173
+#: data/skins/simple/menus/SingleRace:232
+#: data/skins/simple/menus/SingleRace:291
+#: data/skins/simple/menus/SingleRace:350
+#: data/skins/simple/menus/SingleRace:456
 #: data/skins/simple/menus/SoundOptions:78
-#: data/skins/simple/menus/TrackManager:78
+#: data/skins/simple/menus/StartingGrid:88
+#: data/skins/simple/menus/StartingGrid:147
+#: data/skins/simple/menus/StartingGrid:253
+#: data/skins/simple/menus/StartingGrid:312
+#: data/skins/simple/menus/StartingGrid:489
+#: data/skins/simple/menus/StartingGrid:548
+#: data/skins/simple/menus/TrackManager:78 data/skins/simple/menus/Tracks:62
 msgid "<"
 msgstr "<"
 
-#: data/skins/simple/menus/CarManager:98
+#: data/skins/simple/menus/CarManager:98 data/skins/simple/menus/Cars:87
 #: data/skins/simple/menus/DisplayOptions:109
 #: data/skins/simple/menus/DisplayOptions:168
 #: data/skins/simple/menus/DisplayOptions:227
@@ -336,6 +288,7 @@ msgstr "<"
 #: data/skins/simple/menus/DisplayOptions:522
 #: data/skins/simple/menus/DisplayOptions:581
 #: data/skins/simple/menus/DisplayOptions:640
+#: data/skins/simple/menus/DisplayOptions:699
 #: data/skins/simple/menus/DisplayOptionsAdvanced:108
 #: data/skins/simple/menus/DisplayOptionsAdvanced:167
 #: data/skins/simple/menus/DisplayOptionsAdvanced:226
@@ -353,35 +306,29 @@ msgstr "<"
 #: data/skins/simple/menus/DisplayOptionsAdvanced:935
 #: data/skins/simple/menus/EditButtonControl:117
 #: data/skins/simple/menus/EditButtonControl:176
-#: data/skins/simple/menus/InputDevice:98
+#: data/skins/simple/menus/Garage:124 data/skins/simple/menus/Garage:301
+#: data/skins/simple/menus/Garage:360 data/skins/simple/menus/InputDevice:98
 #: data/skins/simple/menus/InputDevice:157
 #: data/skins/simple/menus/InputDevice:216
 #: data/skins/simple/menus/InputDevice:369
 #: data/skins/simple/menus/InputDevice:428
 #: data/skins/simple/menus/InputDevice:487
 #: data/skins/simple/menus/InputDevice:546
-#: data/skins/simple/menus/PracticeGame:107
-#: data/skins/simple/menus/PracticeGame:166
-#: data/skins/simple/menus/PracticeGame:225
-#: data/skins/simple/menus/PracticeGame:284
-#: data/skins/simple/menus/PracticeGame:343
-#: data/skins/simple/menus/PracticeGame:402
-#: data/skins/simple/menus/PracticeGame:580
-#: data/skins/simple/menus/PracticeGame:639
-#: data/skins/simple/menus/PracticeGame:698 data/skins/simple/menus/Replays:98
-#: data/skins/simple/menus/SingleRace:119
-#: data/skins/simple/menus/SingleRace:178
-#: data/skins/simple/menus/SingleRace:237
-#: data/skins/simple/menus/SingleRace:296
-#: data/skins/simple/menus/SingleRace:355
-#: data/skins/simple/menus/SingleRace:414
-#: data/skins/simple/menus/SingleRace:520
-#: data/skins/simple/menus/SingleRace:579
-#: data/skins/simple/menus/SingleRace:757
-#: data/skins/simple/menus/SingleRace:816
-#: data/skins/simple/menus/SingleRace:875
+#: data/skins/simple/menus/InputDevice:605 data/skins/simple/menus/Replays:98
+#: data/skins/simple/menus/SingleRace:134
+#: data/skins/simple/menus/SingleRace:193
+#: data/skins/simple/menus/SingleRace:252
+#: data/skins/simple/menus/SingleRace:311
+#: data/skins/simple/menus/SingleRace:370
+#: data/skins/simple/menus/SingleRace:476
 #: data/skins/simple/menus/SoundOptions:98
-#: data/skins/simple/menus/TrackManager:98
+#: data/skins/simple/menus/StartingGrid:108
+#: data/skins/simple/menus/StartingGrid:167
+#: data/skins/simple/menus/StartingGrid:273
+#: data/skins/simple/menus/StartingGrid:332
+#: data/skins/simple/menus/StartingGrid:509
+#: data/skins/simple/menus/StartingGrid:568
+#: data/skins/simple/menus/TrackManager:98 data/skins/simple/menus/Tracks:87
 msgid ">"
 msgstr ">"
 
@@ -389,13 +336,10 @@ msgstr ">"
 msgid "ABS Toggle"
 msgstr "Alternar ABS"
 
-#: data/skins/simple/menus/SingleRace:444
-msgid "AI level"
+#: data/skins/simple/menus/SingleRace:400
+#: data/skins/simple/menus/StartingGrid:197
+msgid "AI Level"
 msgstr "Nível da IA"
-
-#: data/skins/simple/menus/SingleRace:385
-msgid "AI type"
-msgstr "Tipo de IA"
 
 #: data/skins/simple/menus/InGameMain:103
 msgid "Abort"
@@ -434,8 +378,7 @@ msgstr "Filtragem Anisotrópica"
 msgid "Antialiasing"
 msgstr ""
 
-#: data/skins/simple/menus/PracticeGame:551
-#: data/skins/simple/menus/SingleRace:728
+#: data/skins/simple/menus/Garage:272 data/skins/simple/menus/StartingGrid:480
 msgid "Antilock Brakes"
 msgstr "Freios Antitravamento"
 
@@ -499,12 +442,12 @@ msgstr ""
 #: data/skins/simple/menus/CarManager:195
 #: data/skins/simple/menus/ControlsOptions:215
 #: data/skins/simple/menus/DataConnectionError:47
+#: data/skins/simple/menus/Garage:418
 #: data/skins/simple/menus/NoOpponentsError:47
-#: data/skins/simple/menus/Options:159
-#: data/skins/simple/menus/PracticeGame:755
-#: data/skins/simple/menus/Replays:156
+#: data/skins/simple/menus/Options:159 data/skins/simple/menus/Replays:156
 #: data/skins/simple/menus/ReplayStartError:47
-#: data/skins/simple/menus/SingleRace:933
+#: data/skins/simple/menus/SingleRace:562
+#: data/skins/simple/menus/StartingGrid:626
 #: data/skins/simple/menus/TrackManager:195
 #: data/skins/simple/menus/UpdateFailedVersion:47
 #: data/skins/simple/menus/Updates:131
@@ -521,7 +464,7 @@ msgstr "Antes de começar a corrida adicione pelo menos um oponente."
 msgid "Begin playing the last recorded replay."
 msgstr "Começar mostrando o último replay gravado."
 
-#: src/hud.cpp:107
+#: src/hud.cpp:106
 msgid "Best lap:"
 msgstr "Melhor volta:"
 
@@ -533,18 +476,15 @@ msgstr ""
 msgid "Brake"
 msgstr "Freio"
 
-#: data/skins/simple/menus/PracticeGame:513
-#: data/skins/simple/menus/SingleRace:690
+#: data/skins/simple/menus/Garage:235 data/skins/simple/menus/StartingGrid:443
 msgid "Brightness"
 msgstr "Brilho"
 
-#: data/skins/simple/menus/Updates:106
-#: data/skins/simple/menus/UpdatesFound:89
+#: data/skins/simple/menus/Updates:106 data/skins/simple/menus/UpdatesFound:89
 msgid "Browse cars and apply updates"
 msgstr "Navegar pelos carros e aplicar atualizações"
 
-#: data/skins/simple/menus/Updates:78
-#: data/skins/simple/menus/UpdatesFound:47
+#: data/skins/simple/menus/Updates:78 data/skins/simple/menus/UpdatesFound:47
 msgid "Browse tracks and apply updates"
 msgstr "Navegar pelas pistas e aplicar atualizações"
 
@@ -556,7 +496,7 @@ msgstr "Atraso do Botão de Controle"
 msgid "Camera"
 msgstr "Câmera"
 
-#: data/skins/simple/menus/DisplayOptions:670
+#: data/skins/simple/menus/DisplayOptions:729
 msgid "Camera Bounce"
 msgstr "Salto da Câmera"
 
@@ -567,13 +507,13 @@ msgstr "Movimento de Câmera"
 #: data/skins/simple/menus/CameraMovementControls:471
 #: data/skins/simple/menus/CameraViewControls:767
 #: data/skins/simple/menus/CarControls:767
-#: data/skins/simple/menus/DisplayOptions:764
+#: data/skins/simple/menus/DisplayOptions:823
 #: data/skins/simple/menus/DisplayOptionsAdvanced:965
 #: data/skins/simple/menus/EditAnalogControl:254
 #: data/skins/simple/menus/EditButtonControl:234
 #: data/skins/simple/menus/GuiControls:136
 #: data/skins/simple/menus/GuiControls:471
-#: data/skins/simple/menus/InputDevice:576
+#: data/skins/simple/menus/InputDevice:635
 #: data/skins/simple/menus/ReplaysControls:203
 #: data/skins/simple/menus/SoundOptions:222
 #: data/skins/simple/menus/ToolsControls:337
@@ -583,13 +523,11 @@ msgstr "Cancelar"
 
 #: data/skins/simple/menus/CarManager:69
 #: data/skins/simple/menus/ControlsOptions:75
-#: data/skins/simple/menus/PracticeGame:314
-#: data/skins/simple/menus/SingleRace:491
+#: data/skins/simple/menus/Garage:69 data/skins/simple/menus/StartingGrid:244
 msgid "Car"
 msgstr "Carro"
 
-#: data/skins/simple/menus/PracticeGame:669
-#: data/skins/simple/menus/SingleRace:846
+#: data/skins/simple/menus/SingleRace:447
 msgid "Car Damage"
 msgstr "Dano do Carro"
 
@@ -601,7 +539,7 @@ msgstr "Nome do Carro"
 msgid "Car updates"
 msgstr "Atualizações de carros"
 
-#: data/skins/simple/menus/SingleRace:326 data/skins/simple/menus/Updates:103
+#: data/skins/simple/menus/Updates:103
 msgid "Cars"
 msgstr "Carros"
 
@@ -621,7 +559,13 @@ msgstr "Modificar algumas das opções enquanto o jogo está rodando."
 msgid "Change sound settings."
 msgstr "Alterar configurações de som."
 
-#: data/skins/simple/menus/DisplayOptions:728
+#: data/skins/simple/menus/DisplayOptionsAdvanced:681
+#: data/skins/simple/menus/DisplayOptionsAdvanced:701
+msgid "Change the amount of particles used for smoke and dust effects."
+msgstr ""
+"Alterar a quantidade de partículas usadas para efeitos de fumaça e poeira."
+
+#: data/skins/simple/menus/DisplayOptions:787
 msgid "Change the contrast of the display."
 msgstr "Alterar o contraste da tela."
 
@@ -655,7 +599,7 @@ msgstr "Alterar o número de fontes de som no jogo."
 msgid "Change the size of the textures displayed."
 msgstr "Alterar o tamanho das texturas exibidas."
 
-#: data/skins/simple/menus/DisplayOptions:681
+#: data/skins/simple/menus/DisplayOptions:740
 msgid "Change the strength of the camera bounce effect."
 msgstr "Alterar a força do efeito de salto da câmera."
 
@@ -697,55 +641,33 @@ msgstr "Verificar se há atualizações para os seus carros e pistas"
 msgid "Check updates"
 msgstr "Verificar atualizações"
 
-#: data/skins/simple/menus/SingleRace:397
-#: data/skins/simple/menus/SingleRace:417
-msgid "Choose driver type."
-msgstr "Escolher tipo de piloto."
-
-#: data/skins/simple/menus/PracticeGame:523
-#: data/skins/simple/menus/SingleRace:700
+#: data/skins/simple/menus/Garage:245 data/skins/simple/menus/StartingGrid:453
 msgid "Choose the brightness for the car."
 msgstr "Escolher brilho do carro."
 
-#: data/skins/simple/menus/PracticeGame:326
-#: data/skins/simple/menus/PracticeGame:346
-#: data/skins/simple/menus/SingleRace:503
-#: data/skins/simple/menus/SingleRace:523
+#: data/skins/simple/menus/Cars:98 data/skins/simple/menus/Garage:80
+#: data/skins/simple/menus/StartingGrid:256
+#: data/skins/simple/menus/StartingGrid:276
 msgid "Choose the car to drive."
 msgstr "Escolher o carro a dirigir."
 
-#: data/skins/simple/menus/SingleRace:338
-#: data/skins/simple/menus/SingleRace:358
-msgid "Choose the car to edit."
-msgstr "Escolher o carro a editar."
-
-#: data/skins/simple/menus/PracticeGame:442
-#: data/skins/simple/menus/SingleRace:619
+#: data/skins/simple/menus/Garage:164 data/skins/simple/menus/StartingGrid:372
 msgid "Choose the hue for the car."
 msgstr "Escolher o tom do carro."
 
-#: data/skins/simple/menus/PracticeGame:385
-#: data/skins/simple/menus/PracticeGame:405
-#: data/skins/simple/menus/SingleRace:562
-#: data/skins/simple/menus/SingleRace:582
+#: data/skins/simple/menus/Garage:107 data/skins/simple/menus/Garage:127
+#: data/skins/simple/menus/StartingGrid:315
+#: data/skins/simple/menus/StartingGrid:335
 msgid "Choose the paint job for the car."
 msgstr "Escolher a pintura do carro."
 
-#: data/skins/simple/menus/PracticeGame:477
-#: data/skins/simple/menus/SingleRace:654
+#: data/skins/simple/menus/Garage:199 data/skins/simple/menus/StartingGrid:407
 msgid "Choose the saturation for the car."
 msgstr "Escolher a saturação do carro."
 
-#: data/skins/simple/menus/PracticeGame:90
-#: data/skins/simple/menus/PracticeGame:110
-#: data/skins/simple/menus/SingleRace:102
-#: data/skins/simple/menus/SingleRace:122
+#: data/skins/simple/menus/SingleRace:90 data/skins/simple/menus/Tracks:98
 msgid "Choose the track to drive on."
 msgstr "Escolher a pista onde dirigir."
-
-#: data/settings/options.config:96
-msgid "Client"
-msgstr "Cliente"
 
 #: data/skins/simple/menus/DisplayOptionsAdvanced:79
 msgid "Color Depth"
@@ -755,15 +677,21 @@ msgstr "Profundidade da Cor"
 msgid "Condition"
 msgstr "Condição"
 
-#: data/skins/simple/menus/Main:133
+#: data/skins/simple/menus/Main:134
 msgid "Configure your display, sound and controls."
 msgstr "Configure a exibição, som e controles."
+
+#: data/skins/simple/menus/InputDevice:588
+#: data/skins/simple/menus/InputDevice:608
+msgid "Confine mouse to the application window and hide cursor when playing."
+msgstr ""
+"Confina o mouse à janela da aplicação e esconde o cursor durante o jogo."
 
 #: data/skins/simple/menus/InGameMain:47
 msgid "Continue"
 msgstr "Continuar"
 
-#: data/skins/simple/menus/DisplayOptions:717
+#: data/skins/simple/menus/DisplayOptions:776
 msgid "Contrast"
 msgstr "Contraste"
 
@@ -779,6 +707,10 @@ msgstr "Controles"
 #: data/skins/simple/menus/EditAnalogControl:88
 msgid "Deadzone"
 msgstr "Zona morta"
+
+#: data/settings/options.config:189
+msgid "Default"
+msgstr "Padrão"
 
 #: data/skins/simple/menus/EditAnalogControl:226
 #: data/skins/simple/menus/EditButtonControl:206
@@ -807,7 +739,7 @@ msgstr "Mostrar um mapa da pista."
 msgid "Display the racing line."
 msgstr "Mostrar a linha ideal."
 
-#: data/skins/simple/menus/GuiControls:404 data/settings/options.config:874
+#: data/skins/simple/menus/GuiControls:404 data/settings/options.config:712
 msgid "Down"
 msgstr "Pressionada"
 
@@ -827,27 +759,23 @@ msgid "Draw highlights."
 msgstr "Desenhar luzes."
 
 #: data/skins/simple/menus/CameraViewControls:270
+#: data/skins/simple/menus/StartingGrid:138
 msgid "Driver"
 msgstr "Piloto"
 
-#: data/skins/simple/menus/PracticeGame:255
-#: data/skins/simple/menus/SingleRace:267
-msgid "Dynamic Objects"
-msgstr "Objetos Dinâmicos"
+#: data/skins/simple/menus/SingleRace:509
+msgid "Edit cars, drivers and starting positions."
+msgstr "Editar carros, pilotos e posições de largada."
 
-#: data/skins/simple/menus/PracticeGame:681
-#: data/skins/simple/menus/PracticeGame:701
-#: data/skins/simple/menus/SingleRace:858
-#: data/skins/simple/menus/SingleRace:878
+#: data/skins/simple/menus/SingleRace:459
+#: data/skins/simple/menus/SingleRace:479
 msgid "Enable car damage model."
-msgstr "Habilitar modelo de dano do carro."
+msgstr ""
 
-#: data/skins/simple/menus/PracticeGame:267
-#: data/skins/simple/menus/PracticeGame:287
-#: data/skins/simple/menus/SingleRace:279
-#: data/skins/simple/menus/SingleRace:299
-msgid "Enable dynamic track objects."
-msgstr "Habilitar objetos dinâmicos da pista."
+#: data/skins/simple/menus/SingleRace:294
+#: data/skins/simple/menus/SingleRace:314
+msgid "Enable track objects damage."
+msgstr "Habilitar dano nos objetos da pista."
 
 #: data/skins/simple/menus/InputDevice:470
 #: data/skins/simple/menus/InputDevice:490
@@ -870,19 +798,15 @@ msgstr "Habilitar/desabilitar o contador da taxa de frames."
 msgid "Enable/disable the heads up display."
 msgstr "Habilitar/desabilitar o 'heads up display'."
 
-#: data/settings/options.config:800
-msgid "Experimental"
-msgstr "Experimental"
-
 #: data/skins/simple/menus/EditAnalogControl:180
 msgid "Exponent"
 msgstr "Expoente"
 
-#: data/settings/options.config:532
+#: data/settings/options.config:418
 msgid "Extra-wide"
 msgstr "Extra largo"
 
-#: data/settings/options.config:577
+#: data/settings/options.config:457
 msgid "Far"
 msgstr "Longe"
 
@@ -891,12 +815,16 @@ msgstr "Longe"
 msgid "Fast moving objects blur slightly."
 msgstr "Objetos movendo-se rápido desfocam levemente."
 
-#: data/skins/simple/menus/DisplayOptionsAdvanced:669
+#: data/settings/options.config:187
+msgid "Few"
+msgstr "Poucas"
+
+#: data/skins/simple/menus/DisplayOptions:670
 msgid "Field of View"
 msgstr "Campo de Visão"
 
-#: data/skins/simple/menus/DisplayOptionsAdvanced:681
-#: data/skins/simple/menus/DisplayOptionsAdvanced:701
+#: data/skins/simple/menus/DisplayOptions:682
+#: data/skins/simple/menus/DisplayOptions:702
 msgid "Field of view in the vertical direction."
 msgstr "Campo de visão na direção vertical."
 
@@ -938,7 +866,7 @@ msgstr "Descartar mudanças e retornar ao menu de controles do carro."
 
 #: data/skins/simple/menus/CarControls:770
 #: data/skins/simple/menus/GuiControls:474
-#: data/skins/simple/menus/InputDevice:579
+#: data/skins/simple/menus/InputDevice:638
 msgid "Forget changes and return to Controls menu."
 msgstr "Descartar mudanças e retornar ao menu de controles."
 
@@ -948,7 +876,7 @@ msgstr "Descartar mudanças e retornar ao menu de controles."
 msgid "Forget changes and return to Game Controls menu."
 msgstr "Descartar mudanças e retornar ao menu de controles do jogo."
 
-#: data/skins/simple/menus/DisplayOptions:767
+#: data/skins/simple/menus/DisplayOptions:826
 #: data/skins/simple/menus/DisplayOptionsAdvanced:968
 #: data/skins/simple/menus/EditAnalogControl:257
 #: data/skins/simple/menus/SoundOptions:225
@@ -967,15 +895,11 @@ msgstr "Contador da Taxa de Frames"
 msgid "Free"
 msgstr "Livre"
 
-#: data/settings/options.config:9
-msgid "Free Drive"
-msgstr "Corrida livre"
-
 #: data/skins/simple/menus/DisplayOptions:139
 msgid "Fullscreen"
 msgstr "Tela cheia"
 
-#: src/hud.cpp:112
+#: src/hud.cpp:111
 msgid "GO"
 msgstr "VAI"
 
@@ -986,6 +910,10 @@ msgstr ""
 #: data/skins/simple/menus/EditAnalogControl:134
 msgid "Gain"
 msgstr "Ganho"
+
+#: data/skins/simple/menus/Garage:59 data/skins/simple/menus/Main:47
+msgid "Garage"
+msgstr "Garagem"
 
 #: data/skins/simple/menus/CarControls:69
 msgid "Gas"
@@ -1016,6 +944,10 @@ msgstr "Voltar ao menu principal."
 msgid "Go back to the race menu."
 msgstr "Voltar ao menu de corrida."
 
+#: data/skins/simple/menus/InputDevice:576
+msgid "Grab Mouse"
+msgstr "Prender o Mouse"
+
 #: data/skins/simple/menus/Options:75
 msgid "Graphics"
 msgstr "Gráficos"
@@ -1032,26 +964,26 @@ msgstr "Freio de mão"
 msgid "Heads Up Display"
 msgstr ""
 
-#: data/settings/options.config:865
+#: data/settings/options.config:705
 msgid "Held"
 msgstr "Pressionada"
 
-#: data/skins/simple/menus/PracticeGame:563
-#: data/skins/simple/menus/PracticeGame:583
-#: data/skins/simple/menus/SingleRace:740
-#: data/skins/simple/menus/SingleRace:760
+#: data/skins/simple/menus/Garage:284 data/skins/simple/menus/Garage:304
+#: data/skins/simple/menus/StartingGrid:492
+#: data/skins/simple/menus/StartingGrid:512
 msgid "Help reduce wheel lockup on heavy braking (driver aid)."
 msgstr ""
 "Ajuda a reduzir o travamento das rodas em frenagens intensas (auxílio ao "
 "motorista)."
 
-#: data/settings/options.config:249 data/settings/options.config:343
-#: data/settings/options.config:547 data/settings/options.config:562
-#: data/settings/options.config:593
+#: data/settings/options.config:174 data/settings/options.config:261
+#: data/settings/options.config:431 data/settings/options.config:444
+#: data/settings/options.config:471
 msgid "High"
 msgstr "Alto"
 
-#: data/skins/simple/menus/SingleRace:455
+#: data/skins/simple/menus/SingleRace:411
+#: data/skins/simple/menus/StartingGrid:208
 msgid "Higher values result in an AI that will drive faster."
 msgstr "Valores mais altos resultarão numa IA que pilotará mais rápido."
 
@@ -1059,8 +991,7 @@ msgstr "Valores mais altos resultarão numa IA que pilotará mais rápido."
 msgid "Hood"
 msgstr "Capô"
 
-#: data/skins/simple/menus/PracticeGame:432
-#: data/skins/simple/menus/SingleRace:609
+#: data/skins/simple/menus/Garage:154 data/skins/simple/menus/StartingGrid:362
 msgid "Hue"
 msgstr "Tom"
 
@@ -1072,35 +1003,35 @@ msgstr "Dispositivo de Entrada"
 msgid "Input Graph"
 msgstr "Gráfico de entrada"
 
-#: data/settings/options.config:323
+#: data/settings/options.config:244
 msgid "Joystick/Gamepad"
 msgstr ""
 
-#: src/hud.cpp:116
+#: src/hud.cpp:115
 msgid "KPH"
 msgstr "Km/h"
 
-#: data/skins/simple/menus/Main:161
+#: data/skins/simple/menus/Main:162
 msgid "Keep your cars and tracks up to date"
 msgstr "Mantenha seus carros e pistas atualizados"
 
-#: src/hud.cpp:109
-msgid "Lap:"
-msgstr "Volta:"
-
-#: src/hud.cpp:105
+#: src/hud.cpp:104
 msgid "Lap time:"
 msgstr "Tempo da volta:"
 
-#: data/skins/simple/menus/SingleRace:149
+#: src/hud.cpp:108
+msgid "Lap:"
+msgstr "Volta:"
+
+#: data/skins/simple/menus/SingleRace:105
 msgid "Laps"
 msgstr "Voltas"
 
-#: data/settings/options.config:202
+#: data/settings/options.config:127
 msgid "Large"
 msgstr "Grande"
 
-#: src/hud.cpp:106
+#: src/hud.cpp:105
 msgid "Last lap:"
 msgstr "Última volta:"
 
@@ -1136,19 +1067,23 @@ msgstr ""
 msgid "Look behind you during driving."
 msgstr "Olhar para trás enquanto dirige."
 
-#: data/settings/options.config:245 data/settings/options.config:339
-#: data/settings/options.config:545 data/settings/options.config:560
-#: data/settings/options.config:589
+#: data/settings/options.config:170 data/settings/options.config:257
+#: data/settings/options.config:429 data/settings/options.config:442
+#: data/settings/options.config:467
 msgid "Low"
 msgstr "Baixo"
 
-#: src/hud.cpp:115
+#: src/hud.cpp:114
 msgid "MPH"
 msgstr "MPH"
 
-#: data/settings/options.config:200 data/settings/options.config:247
-#: data/settings/options.config:341 data/settings/options.config:575
-#: data/settings/options.config:591
+#: data/settings/options.config:191
+msgid "Many"
+msgstr "Muitas"
+
+#: data/settings/options.config:125 data/settings/options.config:172
+#: data/settings/options.config:259 data/settings/options.config:455
+#: data/settings/options.config:469
 msgid "Medium"
 msgstr "Médio"
 
@@ -1202,13 +1137,9 @@ msgstr "Multiplicador para ajustar a intensidade do force feedback."
 msgid "Music Volume"
 msgstr "Volume da Música"
 
-#: data/settings/options.config:573
+#: data/settings/options.config:453
 msgid "Near"
 msgstr "Perto"
-
-#: data/settings/options.config:13
-msgid "Networked"
-msgstr "Em rede"
 
 #: data/skins/simple/menus/TransmissionControls:270
 msgid "Neutral"
@@ -1221,11 +1152,11 @@ msgstr "Próxima Câmera"
 #: data/skins/simple/menus/GameLeaveConfirm:47
 #: data/skins/simple/menus/QuitConfirm:47
 #: data/skins/simple/menus/RestartGameConfirm:47
-#: data/settings/options.config:361
+#: data/settings/options.config:276 data/settings/options.config:377
 msgid "No"
 msgstr "Não"
 
-#: data/settings/options.config:528
+#: data/settings/options.config:414
 msgid "Normal"
 msgstr "Normal"
 
@@ -1236,12 +1167,12 @@ msgstr ""
 #: data/skins/simple/menus/CameraMovementControls:499
 #: data/skins/simple/menus/CameraViewControls:795
 #: data/skins/simple/menus/CarControls:795
-#: data/skins/simple/menus/DisplayOptions:792
+#: data/skins/simple/menus/DisplayOptions:851
 #: data/skins/simple/menus/DisplayOptionsAdvanced:993
 #: data/skins/simple/menus/EditAnalogControl:282
 #: data/skins/simple/menus/EditButtonControl:262
 #: data/skins/simple/menus/GuiControls:499
-#: data/skins/simple/menus/InputDevice:604
+#: data/skins/simple/menus/InputDevice:663
 #: data/skins/simple/menus/ReplaysControls:231
 #: data/skins/simple/menus/SoundOptions:250
 #: data/skins/simple/menus/ToolsControls:365
@@ -1249,43 +1180,47 @@ msgstr ""
 msgid "OK"
 msgstr "OK"
 
-#: data/settings/options.config:188 data/settings/options.config:213
-#: data/settings/options.config:223 data/settings/options.config:303
-#: data/settings/options.config:313 data/settings/options.config:337
-#: data/settings/options.config:380 data/settings/options.config:391
-#: data/settings/options.config:425 data/settings/options.config:435
-#: data/settings/options.config:445 data/settings/options.config:463
-#: data/settings/options.config:473 data/settings/options.config:490
-#: data/settings/options.config:518 data/settings/options.config:543
-#: data/settings/options.config:558 data/settings/options.config:661
-#: data/settings/options.config:671 data/settings/options.config:681
-#: data/settings/options.config:702 data/settings/options.config:712
-#: data/settings/options.config:722 data/settings/options.config:732
-#: data/settings/options.config:742 data/settings/options.config:752
-#: data/settings/options.config:822
+#: data/settings/options.config:115 data/settings/options.config:136
+#: data/settings/options.config:144 data/settings/options.config:152
+#: data/settings/options.config:185 data/settings/options.config:236
+#: data/settings/options.config:255 data/settings/options.config:290
+#: data/settings/options.config:298 data/settings/options.config:324
+#: data/settings/options.config:332 data/settings/options.config:340
+#: data/settings/options.config:354 data/settings/options.config:362
+#: data/settings/options.config:385 data/settings/options.config:406
+#: data/settings/options.config:427 data/settings/options.config:440
+#: data/settings/options.config:531 data/settings/options.config:539
+#: data/settings/options.config:547 data/settings/options.config:564
+#: data/settings/options.config:572 data/settings/options.config:580
+#: data/settings/options.config:588 data/settings/options.config:596
+#: data/settings/options.config:604 data/settings/options.config:651
 msgid "Off"
 msgstr "Desligado"
 
-#: data/settings/options.config:187 data/settings/options.config:212
-#: data/settings/options.config:222 data/settings/options.config:302
-#: data/settings/options.config:312 data/settings/options.config:379
-#: data/settings/options.config:390 data/settings/options.config:424
-#: data/settings/options.config:434 data/settings/options.config:444
-#: data/settings/options.config:462 data/settings/options.config:489
-#: data/settings/options.config:517 data/settings/options.config:660
-#: data/settings/options.config:670 data/settings/options.config:680
-#: data/settings/options.config:701 data/settings/options.config:711
-#: data/settings/options.config:721 data/settings/options.config:731
-#: data/settings/options.config:741 data/settings/options.config:751
-#: data/settings/options.config:821
+#: data/settings/options.config:114 data/settings/options.config:135
+#: data/settings/options.config:143 data/settings/options.config:151
+#: data/settings/options.config:235 data/settings/options.config:289
+#: data/settings/options.config:297 data/settings/options.config:323
+#: data/settings/options.config:331 data/settings/options.config:339
+#: data/settings/options.config:353 data/settings/options.config:384
+#: data/settings/options.config:405 data/settings/options.config:530
+#: data/settings/options.config:538 data/settings/options.config:546
+#: data/settings/options.config:563 data/settings/options.config:571
+#: data/settings/options.config:579 data/settings/options.config:587
+#: data/settings/options.config:595 data/settings/options.config:603
+#: data/settings/options.config:650
 msgid "On"
 msgstr "Ligado"
 
-#: data/settings/options.config:864
+#: data/settings/options.config:704
 msgid "Once"
 msgstr "Uma vez"
 
-#: data/skins/simple/menus/InGameMain:131 data/skins/simple/menus/Main:130
+#: data/skins/simple/menus/SingleRace:341
+msgid "Opponents"
+msgstr "Oponentes"
+
+#: data/skins/simple/menus/InGameMain:131 data/skins/simple/menus/Main:131
 #: data/skins/simple/menus/Options:37
 msgid "Options"
 msgstr "Opções"
@@ -1354,8 +1289,7 @@ msgstr "Opções / Som"
 msgid "Orbit"
 msgstr "Orbital"
 
-#: data/skins/simple/menus/PracticeGame:373
-#: data/skins/simple/menus/SingleRace:550
+#: data/skins/simple/menus/Garage:95 data/skins/simple/menus/StartingGrid:303
 msgid "Paint"
 msgstr "Pintura"
 
@@ -1375,6 +1309,10 @@ msgstr "Mover para a direita"
 msgid "Pan Up"
 msgstr "Mover para cima"
 
+#: data/skins/simple/menus/DisplayOptionsAdvanced:669
+msgid "Particles"
+msgstr "Partículas"
+
 #: data/skins/simple/menus/ToolsControls:69
 msgid "Pause"
 msgstr "Pausa"
@@ -1383,17 +1321,21 @@ msgstr "Pausa"
 msgid "Pause Menu"
 msgstr "Menu da Pausa"
 
-#: src/hud.cpp:110
+#: src/hud.cpp:109
 msgid "Place:"
-msgstr "Posição"
+msgstr "Posição:"
 
-#: data/skins/simple/menus/Main:105
+#: data/skins/simple/menus/Main:106
 msgid "Play back recorded games."
 msgstr "Reproduzir corridas gravadas."
 
-#: data/skins/simple/menus/Main:46 data/skins/simple/menus/PracticeGame:59
-msgid "Practice Game"
-msgstr "Corrida Treino"
+#: data/skins/simple/menus/Main:50
+msgid "Player car and driver settings."
+msgstr "Configurações de piloto e carro do jogador."
+
+#: data/skins/simple/menus/StartingGrid:79
+msgid "Position"
+msgstr "Posição"
 
 #: data/skins/simple/menus/AssignControl:37
 msgid ""
@@ -1403,10 +1345,9 @@ msgstr ""
 "Pressione uma tecla, pressione um botão do joystick, mova um eixo do "
 "joystick, mova o mouse, ou clique com o mouse."
 
-#: data/skins/simple/menus/PracticeGame:622
-#: data/skins/simple/menus/PracticeGame:642
-#: data/skins/simple/menus/SingleRace:799
-#: data/skins/simple/menus/SingleRace:819
+#: data/skins/simple/menus/Garage:343 data/skins/simple/menus/Garage:363
+#: data/skins/simple/menus/StartingGrid:551
+#: data/skins/simple/menus/StartingGrid:571
 msgid "Prevents wheels from spinning during acceleration (driver aid)."
 msgstr ""
 "Evita que as rodas percam tração durante a aceleração (auxílio ao motorista)."
@@ -1415,7 +1356,7 @@ msgstr ""
 msgid "Previous Camera"
 msgstr "Câmera Anterior"
 
-#: data/skins/simple/menus/InGameMain:159 data/skins/simple/menus/Main:186
+#: data/skins/simple/menus/InGameMain:159 data/skins/simple/menus/Main:187
 msgid "Quit"
 msgstr "Sair"
 
@@ -1423,14 +1364,29 @@ msgstr "Sair"
 msgid "Quit VDrift"
 msgstr "Sair do VDrift"
 
-#: data/skins/simple/menus/Main:189
+#: data/skins/simple/menus/Main:190
 msgid "Quit VDrift."
 msgstr "Sair do VDrift."
 
-#: data/skins/simple/menus/PracticeGame:208
-#: data/skins/simple/menus/PracticeGame:228
-#: data/skins/simple/menus/SingleRace:220
-#: data/skins/simple/menus/SingleRace:240
+#: data/skins/simple/menus/Garage:390 data/skins/simple/menus/Main:75
+#: data/skins/simple/menus/SingleRace:59
+msgid "Race"
+msgstr "Corrida"
+
+#: data/skins/simple/menus/Cars:37
+msgid "Race / Cars"
+msgstr "Corrida / Carros"
+
+#: data/skins/simple/menus/StartingGrid:59
+msgid "Race / Starting Grid"
+msgstr "Corrida / Grid de Largada"
+
+#: data/skins/simple/menus/Tracks:37
+msgid "Race / Tracks"
+msgstr "Corrida / Pistas"
+
+#: data/skins/simple/menus/SingleRace:176
+#: data/skins/simple/menus/SingleRace:196
 msgid "Race on this track backwards."
 msgstr "Correr nessa pista no sentido inverso."
 
@@ -1438,7 +1394,7 @@ msgstr "Correr nessa pista no sentido inverso."
 msgid "Racing Line"
 msgstr "Linha ideal"
 
-#: src/hud.cpp:111
+#: src/hud.cpp:110
 msgid "Ready"
 msgstr "Preparar"
 
@@ -1446,13 +1402,13 @@ msgstr "Preparar"
 msgid "Rear View"
 msgstr "Retrovisor"
 
-#: data/skins/simple/menus/PracticeGame:137
+#: data/skins/simple/menus/SingleRace:223
 msgid "Record Session"
 msgstr "Gravar Sessão"
 
-#: data/skins/simple/menus/PracticeGame:149
+#: data/skins/simple/menus/SingleRace:235
 msgid "Record this game for a replay later."
-msgstr "Gravar esse jogo para assistir ao replay depois"
+msgstr "Gravar esse jogo para assistir ao replay depois."
 
 #: data/skins/simple/menus/DisplayOptionsAdvanced:788
 msgid "Reflection Quality"
@@ -1484,7 +1440,7 @@ msgid "Remote"
 msgstr "Remoto"
 
 #: data/skins/simple/menus/ControlsOptions:131
-#: data/skins/simple/menus/Main:102 data/skins/simple/menus/Replays:59
+#: data/skins/simple/menus/Main:103 data/skins/simple/menus/Replays:59
 msgid "Replays"
 msgstr ""
 
@@ -1510,9 +1466,9 @@ msgstr "Reiniciar essa corrida usando as mesmas configurações de carro e pista
 msgid "Return to Options menu."
 msgstr "Retornar ao menu de opções."
 
-#: data/skins/simple/menus/Options:162
-#: data/skins/simple/menus/PracticeGame:758
-#: data/skins/simple/menus/Replays:159 data/skins/simple/menus/SingleRace:936
+#: data/skins/simple/menus/Garage:421 data/skins/simple/menus/Options:162
+#: data/skins/simple/menus/Replays:159 data/skins/simple/menus/SingleRace:565
+#: data/skins/simple/menus/StartingGrid:629
 #: data/skins/simple/menus/Updates:134
 msgid "Return to the Main menu."
 msgstr "Retornar ao menu principal."
@@ -1530,8 +1486,7 @@ msgstr "Retornar à página de atualizações."
 msgid "Reverse"
 msgstr "Ré"
 
-#: data/skins/simple/menus/PracticeGame:196
-#: data/skins/simple/menus/SingleRace:208
+#: data/skins/simple/menus/SingleRace:164
 msgid "Reverse Track"
 msgstr "Inverter Pista"
 
@@ -1548,8 +1503,7 @@ msgstr "Direita"
 msgid "Rollover Recover"
 msgstr "Recuperação de Capotagem"
 
-#: data/skins/simple/menus/PracticeGame:467
-#: data/skins/simple/menus/SingleRace:644
+#: data/skins/simple/menus/Garage:189 data/skins/simple/menus/StartingGrid:397
 msgid "Saturation"
 msgstr "Saturação"
 
@@ -1563,7 +1517,7 @@ msgstr "Salvar mudanças e retornar ao menu de controles do carro."
 
 #: data/skins/simple/menus/CarControls:798
 #: data/skins/simple/menus/GuiControls:502
-#: data/skins/simple/menus/InputDevice:607
+#: data/skins/simple/menus/InputDevice:666
 msgid "Save changes and return to Controls menu."
 msgstr "Salvar mudanças e retornar ao menu de controles."
 
@@ -1573,7 +1527,7 @@ msgstr "Salvar mudanças e retornar ao menu de controles."
 msgid "Save changes and return to Game Controls menu."
 msgstr "Salvar mudanças e retornar ao menu de controles do jogo."
 
-#: data/skins/simple/menus/DisplayOptions:795
+#: data/skins/simple/menus/DisplayOptions:854
 #: data/skins/simple/menus/DisplayOptionsAdvanced:996
 #: data/skins/simple/menus/EditAnalogControl:285
 #: data/skins/simple/menus/SoundOptions:253
@@ -1584,7 +1538,7 @@ msgstr "Salvar mudanças e retornar ao menu de opções."
 msgid "Save changes and return to the previous menu."
 msgstr "Salvar mudanças e retornar ao menu anterior."
 
-#: src/hud.cpp:108
+#: src/hud.cpp:107
 msgid "Score:"
 msgstr "Pontuação:"
 
@@ -1599,6 +1553,16 @@ msgstr "Selecionar"
 #: data/skins/simple/menus/Replays:69
 msgid "Select Replay"
 msgstr "Selecionar Replay"
+
+#: data/skins/simple/menus/StartingGrid:150
+#: data/skins/simple/menus/StartingGrid:170
+msgid "Select car driver."
+msgstr "Selecionar o piloto do carro."
+
+#: data/skins/simple/menus/StartingGrid:91
+#: data/skins/simple/menus/StartingGrid:111
+msgid "Select car to edit."
+msgstr "Escolher o carro a editar."
 
 #: data/skins/simple/menus/CameraViewControls:215
 #: data/skins/simple/menus/CameraViewControls:234
@@ -1645,10 +1609,6 @@ msgstr "Selecionar o item de menu atualmente em foco."
 msgid "Select the replay to watch."
 msgstr "Selecione o replay a assistir."
 
-#: data/settings/options.config:95
-msgid "Server"
-msgstr "Servidor"
-
 #: data/skins/simple/menus/CameraViewControls:742
 msgid "Set camera movement controls."
 msgstr "Configurar controles de movimento da câmera"
@@ -1662,6 +1622,11 @@ msgstr "Configura quão bom o SSAO vai parecer durante o jogo."
 #: data/skins/simple/menus/DisplayOptionsAdvanced:820
 msgid "Set how good the reflections looks during gameplay."
 msgstr "Configura quão bons os reflexos vão parecer durante o jogo. "
+
+#: data/skins/simple/menus/SingleRace:353
+#: data/skins/simple/menus/SingleRace:373
+msgid "Set number of opponents. Zero to run a practice session."
+msgstr "Configura número de oponentes. Zero para iniciar uma sessão de treino."
 
 #: data/skins/simple/menus/DisplayOptionsAdvanced:268
 #: data/skins/simple/menus/DisplayOptionsAdvanced:288
@@ -1678,9 +1643,9 @@ msgstr "Configura a distância em que as sombras se tornam visíveis."
 msgid "Set the full scene antialiasing level."
 msgstr "Configura o nível de antialiasing de cena completa."
 
-#: data/skins/simple/menus/PracticeGame:169
-#: data/skins/simple/menus/SingleRace:161
-#: data/skins/simple/menus/SingleRace:181
+#: data/skins/simple/menus/SingleRace:117
+#: data/skins/simple/menus/SingleRace:137
+#: data/skins/simple/menus/SingleRace:255
 msgid "Set the number of laps for a single race."
 msgstr "Configura o número de voltas para uma corrida simples."
 
@@ -1713,10 +1678,6 @@ msgstr "Marcha abaixo"
 msgid "Shift Up"
 msgstr "Marcha acima"
 
-#: data/skins/simple/menus/Main:74 data/skins/simple/menus/SingleRace:71
-msgid "Single Race"
-msgstr "Corrida Simples"
-
 #: data/skins/simple/menus/ReplaysControls:136
 msgid "Skip Backward"
 msgstr "Pular para Trás"
@@ -1730,7 +1691,7 @@ msgstr "Pular para Frente"
 msgid "Slow down the application of button inputs on analogue controls."
 msgstr "Atrasa a aplicação dos botões de entrada em controles analógicos."
 
-#: data/settings/options.config:198
+#: data/settings/options.config:123
 msgid "Small"
 msgstr "Pequeno"
 
@@ -1755,31 +1716,25 @@ msgstr "Volume dos Sons"
 msgid "Speed Units"
 msgstr "Unidades de Velocidade"
 
-#: data/settings/options.config:349
+#: data/settings/options.config:267
 msgid "Speed sensitive Hi"
 msgstr ""
 
-#: data/settings/options.config:347
+#: data/settings/options.config:265
 msgid "Speed sensitive Lo"
 msgstr ""
-
-#: data/settings/options.config:798
-msgid "Standard"
-msgstr "Padrão"
 
 #: data/skins/simple/menus/CarControls:337
 msgid "Start Engine"
 msgstr "Ligar Motor"
 
-#: data/skins/simple/menus/SingleRace:961
+#: data/skins/simple/menus/SingleRace:600
+#: data/skins/simple/menus/StartingGrid:664
 msgid "Start List:"
 msgstr "Grid de largada:"
 
-#: data/skins/simple/menus/PracticeGame:728
-msgid "Start Practice"
-msgstr "Começar Treino"
-
-#: data/skins/simple/menus/SingleRace:905
+#: data/skins/simple/menus/SingleRace:534
+#: data/skins/simple/menus/StartingGrid:598
 msgid "Start Race"
 msgstr "Iniciar Corrida"
 
@@ -1787,21 +1742,18 @@ msgstr "Iniciar Corrida"
 msgid "Start Replay"
 msgstr "Iniciar Replay"
 
-#: data/skins/simple/menus/Main:49
-msgid "Start a practice game."
-msgstr "Começar uma corrida de treino."
-
-#: data/skins/simple/menus/SingleRace:908
+#: data/skins/simple/menus/SingleRace:537
+#: data/skins/simple/menus/StartingGrid:601
 msgid "Start a race using the selected car and track."
 msgstr "Começar corrida usando o carro e pista selecionados."
 
-#: data/skins/simple/menus/Main:77
+#: data/skins/simple/menus/Garage:393 data/skins/simple/menus/Main:78
 msgid "Start a race."
 msgstr "Começar uma corrida."
 
-#: data/skins/simple/menus/PracticeGame:731
-msgid "Start practice using the selected car and track."
-msgstr "Começar treino usando o carro e pista selecionados."
+#: data/skins/simple/menus/SingleRace:506
+msgid "Starting Grid"
+msgstr "Grid de Largada"
 
 #: data/skins/simple/menus/CarControls:203
 msgid "Steer Left"
@@ -1815,7 +1767,7 @@ msgstr "Virar para Direita"
 msgid "Steering Speed Effect"
 msgstr "Efeito da velocidade na direção"
 
-#: data/settings/options.config:325
+#: data/settings/options.config:246
 msgid "Steering Wheel"
 msgstr "Volante"
 
@@ -2006,10 +1958,6 @@ msgstr "Ocorreu um erro ao conectar com o servidor de dados do VDrift."
 msgid "There was an error when trying to play this replay."
 msgstr "Ocorreu um erro ao tentar exibir esse replay."
 
-#: data/settings/options.config:11
-msgid "Time Trial"
-msgstr "Contra o Relógio"
-
 #: data/skins/simple/menus/DisplayOptions:151
 #: data/skins/simple/menus/DisplayOptions:171
 msgid "Toggle fullscreen mode on and off."
@@ -2019,11 +1967,14 @@ msgstr "Alterna o modo tela cheia entre ligado e desligado."
 msgid "Tools"
 msgstr "Ferramentas"
 
-#: data/skins/simple/menus/PracticeGame:78
-#: data/skins/simple/menus/SingleRace:90
+#: data/skins/simple/menus/SingleRace:79
 #: data/skins/simple/menus/TrackManager:69
 msgid "Track"
 msgstr "Pista"
+
+#: data/skins/simple/menus/SingleRace:282
+msgid "Track Damage"
+msgstr "Dano da Pista"
 
 #: data/skins/simple/menus/DisplayOptions:552
 msgid "Track Map"
@@ -2041,8 +1992,7 @@ msgstr "Atualizações de pistas"
 msgid "Tracks"
 msgstr "Pistas"
 
-#: data/skins/simple/menus/PracticeGame:610
-#: data/skins/simple/menus/SingleRace:787
+#: data/skins/simple/menus/Garage:331 data/skins/simple/menus/StartingGrid:539
 msgid "Traction Control"
 msgstr "Controle de Tração"
 
@@ -2090,7 +2040,7 @@ msgstr ""
 msgid "Type"
 msgstr "Tipo"
 
-#: data/skins/simple/menus/GuiControls:337 data/settings/options.config:875
+#: data/skins/simple/menus/GuiControls:337 data/settings/options.config:713
 msgid "Up"
 msgstr "Solta"
 
@@ -2103,7 +2053,7 @@ msgstr "Atualização Efetuada Com Sucesso"
 msgid "Update this track to the latest version."
 msgstr "Atualizar essa pista para a última versão."
 
-#: data/skins/simple/menus/Main:158 data/skins/simple/menus/Updates:37
+#: data/skins/simple/menus/Main:159 data/skins/simple/menus/Updates:37
 msgid "Updates"
 msgstr "Atualizações"
 
@@ -2124,11 +2074,11 @@ msgstr "Atualizações / Atualizar"
 msgid "Use normal maps."
 msgstr "Usar normal maps."
 
-#: data/settings/options.config:251
+#: data/settings/options.config:176
 msgid "Very High"
 msgstr "Muito Alto"
 
-#: data/settings/options.config:243
+#: data/settings/options.config:168
 msgid "Very Low"
 msgstr "Muito Baixo"
 
@@ -2141,7 +2091,7 @@ msgstr "Distância de visão"
 msgid "Visualise the steering and acceleration/braking on screen."
 msgstr "Visualizar a direção e aceleração/frenagem na tela."
 
-#: data/settings/options.config:530
+#: data/settings/options.config:416
 msgid "Wide"
 msgstr "Largo"
 
@@ -2156,11 +2106,11 @@ msgstr ""
 #: data/skins/simple/menus/GameLeaveConfirm:74
 #: data/skins/simple/menus/QuitConfirm:74
 #: data/skins/simple/menus/RestartGameConfirm:74
-#: data/settings/options.config:360
+#: data/settings/options.config:275 data/settings/options.config:376
 msgid "Yes"
 msgstr "Sim"
 
-#: src/hud.cpp:114
+#: src/hud.cpp:113
 msgid "You lost"
 msgstr "Você perdeu"
 
@@ -2168,7 +2118,7 @@ msgstr "Você perdeu"
 msgid "You must update to the latest VDrift release."
 msgstr "Você precisa atualizar para a versão mais recente do VDrift."
 
-#: src/hud.cpp:113
+#: src/hud.cpp:112
 msgid "You won!"
 msgstr "Você ganhou!"
 
@@ -2192,25 +2142,106 @@ msgstr "Aumentar zoom da câmera."
 msgid "Zoom camera out."
 msgstr "Diminuir zoom da câmera."
 
-#: data/settings/options.config:233
+#: data/settings/options.config:160
 msgid "kph"
 msgstr "km/h"
 
-#: data/settings/options.config:475
+#: data/settings/options.config:364
 msgid "long"
 msgstr "longo"
 
-#: data/settings/options.config:477
+#: data/settings/options.config:366
 msgid "medium"
 msgstr "médio"
 
-#: data/settings/options.config:232
+#: data/settings/options.config:159
 msgid "mph"
 msgstr "mph"
 
-#: data/settings/options.config:479
+#: data/settings/options.config:368
 msgid "short"
 msgstr "curto"
+
+#~ msgid "1."
+#~ msgstr "1."
+
+#~ msgid "10."
+#~ msgstr "10."
+
+#~ msgid "11."
+#~ msgstr "11."
+
+#~ msgid "12."
+#~ msgstr "12."
+
+#~ msgid "2."
+#~ msgstr "2."
+
+#~ msgid "3."
+#~ msgstr "3."
+
+#~ msgid "4."
+#~ msgstr "4."
+
+#~ msgid "5."
+#~ msgstr "5."
+
+#~ msgid "6."
+#~ msgstr "6."
+
+#~ msgid "7."
+#~ msgstr "7."
+
+#~ msgid "8."
+#~ msgstr "8."
+
+#~ msgid "9."
+#~ msgstr "9."
+
+#~ msgid "AI type"
+#~ msgstr "Tipo de IA"
+
+#~ msgid "Choose driver type."
+#~ msgstr "Escolher tipo de piloto."
+
+#~ msgid "Client"
+#~ msgstr "Cliente"
+
+#~ msgid "Dynamic Objects"
+#~ msgstr "Objetos Dinâmicos"
+
+#~ msgid "Experimental"
+#~ msgstr "Experimental"
+
+#~ msgid "Free Drive"
+#~ msgstr "Corrida livre"
+
+#~ msgid "Networked"
+#~ msgstr "Em rede"
+
+#~ msgid "Practice Game"
+#~ msgstr "Corrida Treino"
+
+#~ msgid "Server"
+#~ msgstr "Servidor"
+
+#~ msgid "Single Race"
+#~ msgstr "Corrida Simples"
+
+#~ msgid "Standard"
+#~ msgstr "Padrão"
+
+#~ msgid "Start Practice"
+#~ msgstr "Começar Treino"
+
+#~ msgid "Start a practice game."
+#~ msgstr "Começar uma corrida de treino."
+
+#~ msgid "Start practice using the selected car and track."
+#~ msgstr "Começar treino usando o carro e pista selecionados."
+
+#~ msgid "Time Trial"
+#~ msgstr "Contra o Relógio"
 
 #~ msgid "Lap"
 #~ msgstr "Volta"
