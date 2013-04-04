@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VDrift\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-11 22:17+0100\n"
-"PO-Revision-Date: 2013-01-25 18:14+0100\n"
+"POT-Creation-Date: 2013-03-30 21:47+0100\n"
+"PO-Revision-Date: 2013-04-01 19:44+0100\n"
 "Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
 "Language-Team: Fòram na Gàidhlig http://www.foramnagaidhlig.net\n"
 "Language: gd\n"
@@ -18,115 +18,96 @@ msgstr ""
 "(n > 2 && n < 20) ? 2 : 3;\n"
 "X-Generator: Virtaal 0.7.1\n"
 
-#: src/hud.cpp:116
-msgid "KPH"
-msgstr "KPH"
+#: data/settings/options.config:659
+msgid "0"
+msgstr "0"
 
-#: src/hud.cpp:115
-msgid "MPH"
-msgstr "MPH"
-
-#: data/settings/options.config:608 data/settings/options.config:832
+#: data/settings/options.config:484 data/settings/options.config:661
+#: data/settings/options.config:690
 msgid "1"
 msgstr "1"
 
-#: data/skins/simple/menus/SingleRace:970
-msgid "1."
-msgstr "1."
-
-#: data/settings/options.config:626 data/settings/options.config:850
+#: data/settings/options.config:502 data/settings/options.config:679
 msgid "10"
 msgstr "10"
 
-#: data/skins/simple/menus/SingleRace:1051
-msgid "10."
-msgstr "10."
-
-#: data/settings/options.config:130
+#: data/settings/options.config:61
 msgid "1024 x 768"
 msgstr "1024 x 768"
 
-#: data/settings/options.config:628 data/settings/options.config:852
+#: data/settings/options.config:504 data/settings/options.config:681
 msgid "11"
 msgstr "11"
 
-#: data/skins/simple/menus/SingleRace:1060
-msgid "11."
-msgstr "11."
-
-#: data/settings/options.config:132
+#: data/settings/options.config:63
 msgid "1152 x 720"
 msgstr "1152 x 720"
 
-#: data/settings/options.config:134
+#: data/settings/options.config:65
 msgid "1152 x 864"
 msgstr "1152 x 864"
 
-#: data/settings/options.config:630 data/settings/options.config:854
+#: data/settings/options.config:506
 msgid "12"
 msgstr "12"
 
-#: data/skins/simple/menus/SingleRace:1069
-msgid "12."
-msgstr "12."
-
-#: data/settings/options.config:144
+#: data/settings/options.config:75
 msgid "1280 x 1024"
 msgstr "1280 x 1024"
 
-#: data/settings/options.config:136
+#: data/settings/options.config:67
 msgid "1280 x 720"
 msgstr "1280 x 720"
 
-#: data/settings/options.config:138
+#: data/settings/options.config:69
 msgid "1280 x 768"
 msgstr "1280 x 768"
 
-#: data/settings/options.config:140
+#: data/settings/options.config:71
 msgid "1280 x 800"
 msgstr "1280 x 800"
 
-#: data/settings/options.config:142
+#: data/settings/options.config:73
 msgid "1280 x 960"
 msgstr "1280 x 960"
 
-#: data/settings/options.config:146
+#: data/settings/options.config:77
 msgid "1360 x 768"
 msgstr "1360 x 768"
 
-#: data/settings/options.config:148
+#: data/settings/options.config:79
 msgid "1366 x 768"
 msgstr "1366 x 768"
 
-#: data/settings/options.config:150
+#: data/settings/options.config:81
 msgid "1440 x 900"
 msgstr "1440 x 900"
 
-#: data/settings/options.config:785
+#: data/settings/options.config:631
 msgid "16-bit"
 msgstr "16-biod"
 
-#: data/settings/options.config:154
+#: data/settings/options.config:85
 msgid "1600 x 1200"
 msgstr "1600 x 1200"
 
-#: data/settings/options.config:152
+#: data/settings/options.config:83
 msgid "1600 x 900"
 msgstr "1600 x 1200"
 
-#: data/settings/options.config:156
+#: data/settings/options.config:87
 msgid "1680 x 1050"
 msgstr "1680 x 1050"
 
-#: data/settings/options.config:175
+#: data/settings/options.config:104
 msgid "16bpp"
 msgstr "16bpp"
 
-#: data/settings/options.config:158
+#: data/settings/options.config:89
 msgid "1920 x 1080"
 msgstr "1920 x 1080"
 
-#: data/settings/options.config:160
+#: data/settings/options.config:91
 msgid "1920 x 1200"
 msgstr "1920 x 1200"
 
@@ -134,31 +115,27 @@ msgstr "1920 x 1200"
 msgid "1st"
 msgstr "1d"
 
-#: data/settings/options.config:610 data/settings/options.config:834
+#: data/settings/options.config:486 data/settings/options.config:663
 msgid "2"
 msgstr "2"
-
-#: data/skins/simple/menus/SingleRace:979
-msgid "2."
-msgstr "2."
 
 #: data/skins/simple/menus/InputDevice:128
 msgid "200 Degree Wheel"
 msgstr "Cuibhle 200 cheum"
 
-#: data/settings/options.config:345
+#: data/settings/options.config:263
 msgid "200 degree mode"
 msgstr "Modh 200 cheum"
 
-#: data/settings/options.config:787
+#: data/settings/options.config:633
 msgid "24-bit"
 msgstr "24-biod"
 
-#: data/settings/options.config:162
+#: data/settings/options.config:93
 msgid "2560 x 1440"
 msgstr "2560 x 1440"
 
-#: data/settings/options.config:164
+#: data/settings/options.config:95
 msgid "2560 x 1600"
 msgstr "2560 x 1600"
 
@@ -166,19 +143,15 @@ msgstr "2560 x 1600"
 msgid "2nd"
 msgstr "2na"
 
-#: data/settings/options.config:612 data/settings/options.config:836
+#: data/settings/options.config:488 data/settings/options.config:665
 msgid "3"
 msgstr "3"
 
-#: data/skins/simple/menus/SingleRace:988
-msgid "3."
-msgstr "3."
-
-#: data/settings/options.config:262
+#: data/settings/options.config:200
 msgid "32"
 msgstr "32"
 
-#: data/settings/options.config:177
+#: data/settings/options.config:106
 msgid "32bpp"
 msgstr "32bpp"
 
@@ -186,15 +159,11 @@ msgstr "32bpp"
 msgid "3rd"
 msgstr "3s"
 
-#: data/settings/options.config:614 data/settings/options.config:838
+#: data/settings/options.config:490 data/settings/options.config:667
 msgid "4"
 msgstr "4"
 
-#: data/skins/simple/menus/SingleRace:997
-msgid "4."
-msgstr "4."
-
-#: data/settings/options.config:264
+#: data/settings/options.config:202
 msgid "48"
 msgstr "48"
 
@@ -202,31 +171,23 @@ msgstr "48"
 msgid "4th"
 msgstr "3mh"
 
-#: data/settings/options.config:616 data/settings/options.config:840
+#: data/settings/options.config:492 data/settings/options.config:669
 msgid "5"
 msgstr "5"
-
-#: data/skins/simple/menus/SingleRace:1006
-msgid "5."
-msgstr "5."
 
 #: data/skins/simple/menus/TransmissionControls:605
 msgid "5th"
 msgstr "5mh"
 
-#: data/settings/options.config:618 data/settings/options.config:842
+#: data/settings/options.config:494 data/settings/options.config:671
 msgid "6"
 msgstr "6"
 
-#: data/skins/simple/menus/SingleRace:1015
-msgid "6."
-msgstr "6."
-
-#: data/settings/options.config:266
+#: data/settings/options.config:204
 msgid "64"
 msgstr "64"
 
-#: data/settings/options.config:124
+#: data/settings/options.config:55
 msgid "640 x 480"
 msgstr "640 x 480"
 
@@ -234,47 +195,35 @@ msgstr "640 x 480"
 msgid "6th"
 msgstr "6mh"
 
-#: data/settings/options.config:620 data/settings/options.config:844
+#: data/settings/options.config:496 data/settings/options.config:673
 msgid "7"
 msgstr "7"
 
-#: data/skins/simple/menus/SingleRace:1024
-msgid "7."
-msgstr "7."
-
-#: data/settings/options.config:622 data/settings/options.config:846
+#: data/settings/options.config:498 data/settings/options.config:675
 msgid "8"
 msgstr "8"
 
-#: data/skins/simple/menus/SingleRace:1033
-msgid "8."
-msgstr "8."
-
-#: data/settings/options.config:268
+#: data/settings/options.config:206
 msgid "80"
 msgstr "80"
 
-#: data/settings/options.config:126
+#: data/settings/options.config:57
 msgid "800 x 480"
 msgstr "800 x 480"
 
-#: data/settings/options.config:128
+#: data/settings/options.config:59
 msgid "800 x 600"
 msgstr "800 x 600"
 
-#: data/settings/options.config:624 data/settings/options.config:848
+#: data/settings/options.config:500 data/settings/options.config:677
 msgid "9"
 msgstr "9"
 
-#: data/skins/simple/menus/SingleRace:1042
-msgid "9."
-msgstr "9."
-
-#: data/settings/options.config:270
+#: data/settings/options.config:208
 msgid "96"
 msgstr "96"
 
-#: data/skins/simple/menus/CarManager:78
+#: data/skins/simple/menus/CarManager:78 data/skins/simple/menus/Cars:62
 #: data/skins/simple/menus/DisplayOptions:88
 #: data/skins/simple/menus/DisplayOptions:148
 #: data/skins/simple/menus/DisplayOptions:207
@@ -285,6 +234,7 @@ msgstr "96"
 #: data/skins/simple/menus/DisplayOptions:502
 #: data/skins/simple/menus/DisplayOptions:561
 #: data/skins/simple/menus/DisplayOptions:620
+#: data/skins/simple/menus/DisplayOptions:679
 #: data/skins/simple/menus/DisplayOptionsAdvanced:88
 #: data/skins/simple/menus/DisplayOptionsAdvanced:147
 #: data/skins/simple/menus/DisplayOptionsAdvanced:206
@@ -302,39 +252,33 @@ msgstr "96"
 #: data/skins/simple/menus/DisplayOptionsAdvanced:915
 #: data/skins/simple/menus/EditButtonControl:97
 #: data/skins/simple/menus/EditButtonControl:156
-#: data/skins/simple/menus/InputDevice:78
+#: data/skins/simple/menus/Garage:104 data/skins/simple/menus/Garage:281
+#: data/skins/simple/menus/Garage:340 data/skins/simple/menus/InputDevice:78
 #: data/skins/simple/menus/InputDevice:137
-#: data/skins/simple/menus/InputDevice:194
-#: data/skins/simple/menus/InputDevice:347
-#: data/skins/simple/menus/InputDevice:406
-#: data/skins/simple/menus/InputDevice:465
-#: data/skins/simple/menus/InputDevice:523
-#: data/skins/simple/menus/PracticeGame:87
-#: data/skins/simple/menus/PracticeGame:146
-#: data/skins/simple/menus/PracticeGame:205
-#: data/skins/simple/menus/PracticeGame:264
-#: data/skins/simple/menus/PracticeGame:323
-#: data/skins/simple/menus/PracticeGame:382
-#: data/skins/simple/menus/PracticeGame:560
-#: data/skins/simple/menus/PracticeGame:619
-#: data/skins/simple/menus/PracticeGame:678 data/skins/simple/menus/Replays:78
-#: data/skins/simple/menus/SingleRace:99
-#: data/skins/simple/menus/SingleRace:158
-#: data/skins/simple/menus/SingleRace:217
-#: data/skins/simple/menus/SingleRace:276
-#: data/skins/simple/menus/SingleRace:335
-#: data/skins/simple/menus/SingleRace:394
-#: data/skins/simple/menus/SingleRace:500
-#: data/skins/simple/menus/SingleRace:559
-#: data/skins/simple/menus/SingleRace:737
-#: data/skins/simple/menus/SingleRace:796
-#: data/skins/simple/menus/SingleRace:855
+#: data/skins/simple/menus/InputDevice:196
+#: data/skins/simple/menus/InputDevice:349
+#: data/skins/simple/menus/InputDevice:408
+#: data/skins/simple/menus/InputDevice:467
+#: data/skins/simple/menus/InputDevice:526
+#: data/skins/simple/menus/InputDevice:585 data/skins/simple/menus/Replays:78
+#: data/skins/simple/menus/SingleRace:114
+#: data/skins/simple/menus/SingleRace:173
+#: data/skins/simple/menus/SingleRace:232
+#: data/skins/simple/menus/SingleRace:291
+#: data/skins/simple/menus/SingleRace:350
+#: data/skins/simple/menus/SingleRace:456
 #: data/skins/simple/menus/SoundOptions:78
-#: data/skins/simple/menus/TrackManager:78
+#: data/skins/simple/menus/StartingGrid:88
+#: data/skins/simple/menus/StartingGrid:147
+#: data/skins/simple/menus/StartingGrid:253
+#: data/skins/simple/menus/StartingGrid:312
+#: data/skins/simple/menus/StartingGrid:489
+#: data/skins/simple/menus/StartingGrid:548
+#: data/skins/simple/menus/TrackManager:78 data/skins/simple/menus/Tracks:62
 msgid "<"
 msgstr "<"
 
-#: data/skins/simple/menus/CarManager:98
+#: data/skins/simple/menus/CarManager:98 data/skins/simple/menus/Cars:87
 #: data/skins/simple/menus/DisplayOptions:109
 #: data/skins/simple/menus/DisplayOptions:168
 #: data/skins/simple/menus/DisplayOptions:227
@@ -345,6 +289,7 @@ msgstr "<"
 #: data/skins/simple/menus/DisplayOptions:522
 #: data/skins/simple/menus/DisplayOptions:581
 #: data/skins/simple/menus/DisplayOptions:640
+#: data/skins/simple/menus/DisplayOptions:699
 #: data/skins/simple/menus/DisplayOptionsAdvanced:108
 #: data/skins/simple/menus/DisplayOptionsAdvanced:167
 #: data/skins/simple/menus/DisplayOptionsAdvanced:226
@@ -362,35 +307,29 @@ msgstr "<"
 #: data/skins/simple/menus/DisplayOptionsAdvanced:935
 #: data/skins/simple/menus/EditButtonControl:117
 #: data/skins/simple/menus/EditButtonControl:176
-#: data/skins/simple/menus/InputDevice:98
-#: data/skins/simple/menus/InputDevice:156
-#: data/skins/simple/menus/InputDevice:214
-#: data/skins/simple/menus/InputDevice:367
-#: data/skins/simple/menus/InputDevice:426
-#: data/skins/simple/menus/InputDevice:485
-#: data/skins/simple/menus/InputDevice:543
-#: data/skins/simple/menus/PracticeGame:107
-#: data/skins/simple/menus/PracticeGame:166
-#: data/skins/simple/menus/PracticeGame:225
-#: data/skins/simple/menus/PracticeGame:284
-#: data/skins/simple/menus/PracticeGame:343
-#: data/skins/simple/menus/PracticeGame:402
-#: data/skins/simple/menus/PracticeGame:580
-#: data/skins/simple/menus/PracticeGame:639
-#: data/skins/simple/menus/PracticeGame:698 data/skins/simple/menus/Replays:98
-#: data/skins/simple/menus/SingleRace:119
-#: data/skins/simple/menus/SingleRace:178
-#: data/skins/simple/menus/SingleRace:237
-#: data/skins/simple/menus/SingleRace:296
-#: data/skins/simple/menus/SingleRace:355
-#: data/skins/simple/menus/SingleRace:414
-#: data/skins/simple/menus/SingleRace:520
-#: data/skins/simple/menus/SingleRace:579
-#: data/skins/simple/menus/SingleRace:757
-#: data/skins/simple/menus/SingleRace:816
-#: data/skins/simple/menus/SingleRace:875
+#: data/skins/simple/menus/Garage:124 data/skins/simple/menus/Garage:301
+#: data/skins/simple/menus/Garage:360 data/skins/simple/menus/InputDevice:98
+#: data/skins/simple/menus/InputDevice:157
+#: data/skins/simple/menus/InputDevice:216
+#: data/skins/simple/menus/InputDevice:369
+#: data/skins/simple/menus/InputDevice:428
+#: data/skins/simple/menus/InputDevice:487
+#: data/skins/simple/menus/InputDevice:546
+#: data/skins/simple/menus/InputDevice:605 data/skins/simple/menus/Replays:98
+#: data/skins/simple/menus/SingleRace:134
+#: data/skins/simple/menus/SingleRace:193
+#: data/skins/simple/menus/SingleRace:252
+#: data/skins/simple/menus/SingleRace:311
+#: data/skins/simple/menus/SingleRace:370
+#: data/skins/simple/menus/SingleRace:476
 #: data/skins/simple/menus/SoundOptions:98
-#: data/skins/simple/menus/TrackManager:98
+#: data/skins/simple/menus/StartingGrid:108
+#: data/skins/simple/menus/StartingGrid:167
+#: data/skins/simple/menus/StartingGrid:273
+#: data/skins/simple/menus/StartingGrid:332
+#: data/skins/simple/menus/StartingGrid:509
+#: data/skins/simple/menus/StartingGrid:568
+#: data/skins/simple/menus/TrackManager:98 data/skins/simple/menus/Tracks:87
 msgid ">"
 msgstr ">"
 
@@ -398,13 +337,10 @@ msgstr ">"
 msgid "ABS Toggle"
 msgstr "Toglaich ABS"
 
-#: data/skins/simple/menus/SingleRace:444
-msgid "AI level"
-msgstr "Ìre na IF"
-
-#: data/skins/simple/menus/SingleRace:385
-msgid "AI type"
-msgstr "Seòrsa IF"
+#: data/skins/simple/menus/SingleRace:400
+#: data/skins/simple/menus/StartingGrid:197
+msgid "AI Level"
+msgstr "Leibheil na IF"
 
 #: data/skins/simple/menus/InGameMain:103
 msgid "Abort"
@@ -443,8 +379,7 @@ msgstr "Criathradh an-iosa-tropach"
 msgid "Antialiasing"
 msgstr "Antialiasing"
 
-#: data/skins/simple/menus/PracticeGame:551
-#: data/skins/simple/menus/SingleRace:728
+#: data/skins/simple/menus/Garage:272 data/skins/simple/menus/StartingGrid:480
 msgid "Antilock Brakes"
 msgstr "Brèigean ana-chasgaidh"
 
@@ -488,16 +423,16 @@ msgstr "Sònraich ion-chur dha dh'uidheaman-smachd camara."
 msgid "Assign inputs to miscellaneous helpful actions."
 msgstr "Sònraich ion-chur dha ghnìomhan fheumail mheasgaichte."
 
-#: data/skins/simple/menus/InputDevice:456
+#: data/skins/simple/menus/InputDevice:458
 msgid "Automatic Clutch"
 msgstr "Cluids fèin-obrachail"
 
-#: data/skins/simple/menus/InputDevice:397
+#: data/skins/simple/menus/InputDevice:399
 msgid "Automatic Shift"
 msgstr "Sioft fèin-obrachail"
 
-#: data/skins/simple/menus/InputDevice:526
-#: data/skins/simple/menus/InputDevice:546
+#: data/skins/simple/menus/InputDevice:529
+#: data/skins/simple/menus/InputDevice:549
 msgid ""
 "Automatically shift to neutral when no gear button is active, as with H-Gate "
 "shifters."
@@ -508,15 +443,16 @@ msgstr ""
 #: data/skins/simple/menus/CarManager:195
 #: data/skins/simple/menus/ControlsOptions:215
 #: data/skins/simple/menus/DataConnectionError:47
+#: data/skins/simple/menus/Garage:418
 #: data/skins/simple/menus/NoOpponentsError:47
-#: data/skins/simple/menus/Options:159
-#: data/skins/simple/menus/PracticeGame:755
-#: data/skins/simple/menus/Replays:156
+#: data/skins/simple/menus/Options:159 data/skins/simple/menus/Replays:156
 #: data/skins/simple/menus/ReplayStartError:47
-#: data/skins/simple/menus/SingleRace:933
+#: data/skins/simple/menus/SingleRace:562
+#: data/skins/simple/menus/StartingGrid:626
 #: data/skins/simple/menus/TrackManager:195
 #: data/skins/simple/menus/UpdateFailedVersion:47
-#: data/skins/simple/menus/Updates:131 data/skins/simple/menus/UpdatesFound:90
+#: data/skins/simple/menus/Updates:131
+#: data/skins/simple/menus/UpdatesFound:131
 #: data/skins/simple/menus/UpdateSuccessful:47
 msgid "Back"
 msgstr "Air ais"
@@ -529,7 +465,7 @@ msgstr "Cuir co-dhiù aon fharpaisiche ris mus tòisicheas tu air a' gheama."
 msgid "Begin playing the last recorded replay."
 msgstr "Tòisich air an ath-chluiche mu dheireadh a chaidh a chlàradh."
 
-#: src/hud.cpp:107
+#: src/hud.cpp:106
 msgid "Best lap:"
 msgstr "An tè as fhearr:"
 
@@ -541,20 +477,19 @@ msgstr "Snuadhachadh"
 msgid "Brake"
 msgstr "Brèig"
 
-#: data/skins/simple/menus/PracticeGame:513
-#: data/skins/simple/menus/SingleRace:690
+#: data/skins/simple/menus/Garage:235 data/skins/simple/menus/StartingGrid:443
 msgid "Brightness"
 msgstr "Soilleireachd"
 
-#: data/skins/simple/menus/Updates:106
+#: data/skins/simple/menus/Updates:106 data/skins/simple/menus/UpdatesFound:89
 msgid "Browse cars and apply updates"
 msgstr "Brabhsaich na càraichean is cuir ùrachaidhean an sàs."
 
-#: data/skins/simple/menus/Updates:78
+#: data/skins/simple/menus/Updates:78 data/skins/simple/menus/UpdatesFound:47
 msgid "Browse tracks and apply updates"
 msgstr "Brabhsaich na slighean is cuir ùrachaidhean an sàs."
 
-#: data/skins/simple/menus/InputDevice:338
+#: data/skins/simple/menus/InputDevice:340
 msgid "Button Control Delay"
 msgstr "Dàil air uidheaman-smachd putain"
 
@@ -562,7 +497,7 @@ msgstr "Dàil air uidheaman-smachd putain"
 msgid "Camera"
 msgstr "Camara"
 
-#: data/skins/simple/menus/DisplayOptions:670
+#: data/skins/simple/menus/DisplayOptions:729
 msgid "Camera Bounce"
 msgstr "Bocadh a' chamara"
 
@@ -573,13 +508,13 @@ msgstr "Gluasad a' chamara"
 #: data/skins/simple/menus/CameraMovementControls:471
 #: data/skins/simple/menus/CameraViewControls:767
 #: data/skins/simple/menus/CarControls:767
-#: data/skins/simple/menus/DisplayOptions:764
+#: data/skins/simple/menus/DisplayOptions:823
 #: data/skins/simple/menus/DisplayOptionsAdvanced:965
 #: data/skins/simple/menus/EditAnalogControl:254
 #: data/skins/simple/menus/EditButtonControl:234
 #: data/skins/simple/menus/GuiControls:136
 #: data/skins/simple/menus/GuiControls:471
-#: data/skins/simple/menus/InputDevice:573
+#: data/skins/simple/menus/InputDevice:635
 #: data/skins/simple/menus/ReplaysControls:203
 #: data/skins/simple/menus/SoundOptions:222
 #: data/skins/simple/menus/ToolsControls:337
@@ -589,13 +524,11 @@ msgstr "Sguir dheth"
 
 #: data/skins/simple/menus/CarManager:69
 #: data/skins/simple/menus/ControlsOptions:75
-#: data/skins/simple/menus/PracticeGame:314
-#: data/skins/simple/menus/SingleRace:491
+#: data/skins/simple/menus/Garage:69 data/skins/simple/menus/StartingGrid:244
 msgid "Car"
 msgstr "Car"
 
-#: data/skins/simple/menus/PracticeGame:669
-#: data/skins/simple/menus/SingleRace:846
+#: data/skins/simple/menus/SingleRace:447
 msgid "Car Damage"
 msgstr "Milleadh càir"
 
@@ -603,7 +536,11 @@ msgstr "Milleadh càir"
 msgid "Car Name"
 msgstr "Ainm a' chàir"
 
-#: data/skins/simple/menus/SingleRace:326 data/skins/simple/menus/Updates:103
+#: data/skins/simple/menus/UpdatesFound:100
+msgid "Car updates"
+msgstr "Ùraich càraichean"
+
+#: data/skins/simple/menus/Updates:103
 msgid "Cars"
 msgstr "Càraichean"
 
@@ -623,7 +560,12 @@ msgstr "Atharraich cuid dhe na roghainnean fhad 's a bhios an geama a' ruith."
 msgid "Change sound settings."
 msgstr "Atharraich roghainnean fuaime."
 
-#: data/skins/simple/menus/DisplayOptions:728
+#: data/skins/simple/menus/DisplayOptionsAdvanced:681
+#: data/skins/simple/menus/DisplayOptionsAdvanced:701
+msgid "Change the amount of particles used for smoke and dust effects."
+msgstr "Atharraich uiread nam mìrean airson èifeachdan smùid is duslaich."
+
+#: data/skins/simple/menus/DisplayOptions:787
 msgid "Change the contrast of the display."
 msgstr "Atharraich an t-iomsgaradh aig an inneal-taisbeanaidh."
 
@@ -657,7 +599,7 @@ msgstr "Atharraich àireamh nan tùsan fuaime sa gheama."
 msgid "Change the size of the textures displayed."
 msgstr "Atharraich meud nan innich a chì thu."
 
-#: data/skins/simple/menus/DisplayOptions:681
+#: data/skins/simple/menus/DisplayOptions:740
 msgid "Change the strength of the camera bounce effect."
 msgstr "Atharraich an neart aig buaidh bocadh a' chamara."
 
@@ -701,55 +643,33 @@ msgstr "Lorg ùrachaidhean airson nan càraichean is shlighean a th' agad."
 msgid "Check updates"
 msgstr "Lorg ùrachaidhean"
 
-#: data/skins/simple/menus/SingleRace:397
-#: data/skins/simple/menus/SingleRace:417
-msgid "Choose driver type."
-msgstr "Tagh seòrsa an draibheir."
-
-#: data/skins/simple/menus/PracticeGame:523
-#: data/skins/simple/menus/SingleRace:700
+#: data/skins/simple/menus/Garage:245 data/skins/simple/menus/StartingGrid:453
 msgid "Choose the brightness for the car."
 msgstr "Tagh an t-soilleireachd a bhios air a' chàr."
 
-#: data/skins/simple/menus/PracticeGame:326
-#: data/skins/simple/menus/PracticeGame:346
-#: data/skins/simple/menus/SingleRace:503
-#: data/skins/simple/menus/SingleRace:523
+#: data/skins/simple/menus/Cars:98 data/skins/simple/menus/Garage:80
+#: data/skins/simple/menus/StartingGrid:256
+#: data/skins/simple/menus/StartingGrid:276
 msgid "Choose the car to drive."
 msgstr "Tagh an càr agad."
 
-#: data/skins/simple/menus/SingleRace:338
-#: data/skins/simple/menus/SingleRace:358
-msgid "Choose the car to edit."
-msgstr "Tagh càr airson deasachadh."
-
-#: data/skins/simple/menus/PracticeGame:442
-#: data/skins/simple/menus/SingleRace:619
+#: data/skins/simple/menus/Garage:164 data/skins/simple/menus/StartingGrid:372
 msgid "Choose the hue for the car."
 msgstr "Tagh an tuar a bhios air a' chàr."
 
-#: data/skins/simple/menus/PracticeGame:385
-#: data/skins/simple/menus/PracticeGame:405
-#: data/skins/simple/menus/SingleRace:562
-#: data/skins/simple/menus/SingleRace:582
+#: data/skins/simple/menus/Garage:107 data/skins/simple/menus/Garage:127
+#: data/skins/simple/menus/StartingGrid:315
+#: data/skins/simple/menus/StartingGrid:335
 msgid "Choose the paint job for the car."
 msgstr "Tagh am peant a bhios air a' chàr."
 
-#: data/skins/simple/menus/PracticeGame:477
-#: data/skins/simple/menus/SingleRace:654
+#: data/skins/simple/menus/Garage:199 data/skins/simple/menus/StartingGrid:407
 msgid "Choose the saturation for the car."
 msgstr "Tagh an t-sàthachd a bhios air a' chàr."
 
-#: data/skins/simple/menus/PracticeGame:90
-#: data/skins/simple/menus/PracticeGame:110
-#: data/skins/simple/menus/SingleRace:102
-#: data/skins/simple/menus/SingleRace:122
+#: data/skins/simple/menus/SingleRace:90 data/skins/simple/menus/Tracks:98
 msgid "Choose the track to drive on."
 msgstr "Tagh an t-slighe gus draibheadh oirre."
-
-#: data/settings/options.config:96
-msgid "Client"
-msgstr "Cliant"
 
 #: data/skins/simple/menus/DisplayOptionsAdvanced:79
 msgid "Color Depth"
@@ -759,15 +679,22 @@ msgstr "Doimhne datha"
 msgid "Condition"
 msgstr "Cumha"
 
-#: data/skins/simple/menus/Main:133
+#: data/skins/simple/menus/Main:134
 msgid "Configure your display, sound and controls."
 msgstr "Rèitich an sealladh, an fhuaim is na h-uidheaman-smachd."
+
+#: data/skins/simple/menus/InputDevice:588
+#: data/skins/simple/menus/InputDevice:608
+msgid "Confine mouse to the application window and hide cursor when playing."
+msgstr ""
+"Cùm an luchag ann an uinneag na h-aplacaid is falaich an cùrsair fhad 's a "
+"bhios mi a' cluich."
 
 #: data/skins/simple/menus/InGameMain:47
 msgid "Continue"
 msgstr "Lean air adhart"
 
-#: data/skins/simple/menus/DisplayOptions:717
+#: data/skins/simple/menus/DisplayOptions:776
 msgid "Contrast"
 msgstr "Iomsgaradh"
 
@@ -783,6 +710,10 @@ msgstr "Uidheaman-smachd"
 #: data/skins/simple/menus/EditAnalogControl:88
 msgid "Deadzone"
 msgstr "Raon-marbh"
+
+#: data/settings/options.config:189
+msgid "Default"
+msgstr "Bunaiteach"
 
 #: data/skins/simple/menus/EditAnalogControl:226
 #: data/skins/simple/menus/EditButtonControl:206
@@ -811,7 +742,7 @@ msgstr "Seall mapa an t-slighe."
 msgid "Display the racing line."
 msgstr "Seall loidhne-rèisidh."
 
-#: data/skins/simple/menus/GuiControls:404 data/settings/options.config:874
+#: data/skins/simple/menus/GuiControls:404 data/settings/options.config:712
 msgid "Down"
 msgstr "Sìos"
 
@@ -831,35 +762,33 @@ msgid "Draw highlights."
 msgstr "Tarraing soillseachadh."
 
 #: data/skins/simple/menus/CameraViewControls:270
+#: data/skins/simple/menus/StartingGrid:138
 msgid "Driver"
 msgstr "Draibhear"
 
-#: data/skins/simple/menus/PracticeGame:255
-#: data/skins/simple/menus/SingleRace:267
-msgid "Dynamic Objects"
-msgstr "Oibseactan innsgineach"
+#: data/skins/simple/menus/SingleRace:509
+msgid "Edit cars, drivers and starting positions."
+msgstr "Deasaich càraichean, draibhearan is ionadan toisich."
 
-#: data/skins/simple/menus/PracticeGame:681
-#: data/skins/simple/menus/PracticeGame:701
-#: data/skins/simple/menus/SingleRace:858
-#: data/skins/simple/menus/SingleRace:878
+#: data/skins/simple/menus/SingleRace:459
+#: data/skins/simple/menus/SingleRace:479
 msgid "Enable car damage model."
 msgstr "Cuir modail millidh chàir air."
 
-#: data/skins/simple/menus/PracticeGame:267
-#: data/skins/simple/menus/PracticeGame:287
-#: data/skins/simple/menus/SingleRace:279
-#: data/skins/simple/menus/SingleRace:299
-msgid "Enable dynamic track objects."
-msgstr "Cuir oibseactan slighe innsgineach air."
+#: data/skins/simple/menus/SingleRace:294
+#: data/skins/simple/menus/SingleRace:314
+#, fuzzy
+msgid "Enable track objects damage."
+msgstr "Cuir dochann air oibseactan na slighe air."
 
-#: data/skins/simple/menus/InputDevice:468
+#: data/skins/simple/menus/InputDevice:470
+#: data/skins/simple/menus/InputDevice:490
 msgid "Enable/disable automatic clutching (prevents car from stalling)."
 msgstr ""
 "Cuir cluids fèin-obrachail an comas / à comas (cha tèid an t-einnsean dheth)."
 
-#: data/skins/simple/menus/InputDevice:409
-#: data/skins/simple/menus/InputDevice:429
+#: data/skins/simple/menus/InputDevice:411
+#: data/skins/simple/menus/InputDevice:431
 msgid "Enable/disable automatic transmission shifting."
 msgstr "Cuir shioft fèin-obrachail aig an transmission an comas / à comas."
 
@@ -873,19 +802,15 @@ msgstr "Cuir an cunntair reat fhrèaman an comas / à comas."
 msgid "Enable/disable the heads up display."
 msgstr "Cuir an heads up display an comas / à comas."
 
-#: data/settings/options.config:800
-msgid "Experimental"
-msgstr "Probhail"
-
 #: data/skins/simple/menus/EditAnalogControl:180
 msgid "Exponent"
 msgstr "Easponant"
 
-#: data/settings/options.config:532
+#: data/settings/options.config:418
 msgid "Extra-wide"
 msgstr "Glè leathann"
 
-#: data/settings/options.config:577
+#: data/settings/options.config:457
 msgid "Far"
 msgstr "Fada"
 
@@ -894,12 +819,16 @@ msgstr "Fada"
 msgid "Fast moving objects blur slightly."
 msgstr "Bidh beagan sgleò air oibseactan a ghluaiseas gu luath."
 
-#: data/skins/simple/menus/DisplayOptionsAdvanced:669
+#: data/settings/options.config:187
+msgid "Few"
+msgstr "Beagan dhiubh"
+
+#: data/skins/simple/menus/DisplayOptions:670
 msgid "Field of View"
 msgstr "Raon seallaidh"
 
-#: data/skins/simple/menus/DisplayOptionsAdvanced:681
-#: data/skins/simple/menus/DisplayOptionsAdvanced:701
+#: data/skins/simple/menus/DisplayOptions:682
+#: data/skins/simple/menus/DisplayOptions:702
 msgid "Field of view in the vertical direction."
 msgstr "Raon seallaidh an comhair inghearach."
 
@@ -923,11 +852,11 @@ msgstr "Taomhaich an camara air an ath-chàr."
 msgid "Focus the camera on previous car."
 msgstr "Taomhaich an camara air a' chàr roimhe."
 
-#: data/skins/simple/menus/InputDevice:244
+#: data/skins/simple/menus/InputDevice:246
 msgid "Force Feedback Gain"
 msgstr "Meudachadh freagairt-forsa"
 
-#: data/skins/simple/menus/InputDevice:185
+#: data/skins/simple/menus/InputDevice:187
 msgid "Force Feedback Invert"
 msgstr "Ais-tionndadh freagairt-forsa"
 
@@ -945,7 +874,7 @@ msgstr ""
 
 #: data/skins/simple/menus/CarControls:770
 #: data/skins/simple/menus/GuiControls:474
-#: data/skins/simple/menus/InputDevice:576
+#: data/skins/simple/menus/InputDevice:638
 msgid "Forget changes and return to Controls menu."
 msgstr ""
 "Dìochuimhnich na h-atharraichean is till dhan chlàr-taice \"Uidheaman-smachd."
@@ -959,7 +888,7 @@ msgstr ""
 "Dìochuimhnich na h-atharraichean is till dhan chlàr-taice \"Uidheaman-smachd "
 "a' gheama.\""
 
-#: data/skins/simple/menus/DisplayOptions:767
+#: data/skins/simple/menus/DisplayOptions:826
 #: data/skins/simple/menus/DisplayOptionsAdvanced:968
 #: data/skins/simple/menus/EditAnalogControl:257
 #: data/skins/simple/menus/SoundOptions:225
@@ -979,15 +908,11 @@ msgstr "Cunntair reat fhrèaman"
 msgid "Free"
 msgstr "Saor"
 
-#: data/settings/options.config:9
-msgid "Free Drive"
-msgstr "Draibheadh saor"
-
 #: data/skins/simple/menus/DisplayOptions:139
 msgid "Fullscreen"
 msgstr "Làn-sgrìn"
 
-#: src/hud.cpp:112
+#: src/hud.cpp:111
 msgid "GO"
 msgstr "Siuthad"
 
@@ -998,6 +923,10 @@ msgstr "GUI"
 #: data/skins/simple/menus/EditAnalogControl:134
 msgid "Gain"
 msgstr "Iomadaichear"
+
+#: data/skins/simple/menus/Garage:59 data/skins/simple/menus/Main:47
+msgid "Garage"
+msgstr "Garaids"
 
 #: data/skins/simple/menus/CarControls:69
 msgid "Gas"
@@ -1028,11 +957,15 @@ msgstr "Till dhan phrìomh chlàr-taice."
 msgid "Go back to the race menu."
 msgstr "Till dhan chlàr-taice \"Rèis.\""
 
+#: data/skins/simple/menus/InputDevice:576
+msgid "Grab Mouse"
+msgstr "Greim an luchag"
+
 #: data/skins/simple/menus/Options:75
 msgid "Graphics"
 msgstr "Grafaigeachd"
 
-#: data/skins/simple/menus/InputDevice:514
+#: data/skins/simple/menus/InputDevice:517
 msgid "H-Gate Shifter"
 msgstr "Sioftair H-Gate"
 
@@ -1044,26 +977,26 @@ msgstr "Brèig-làimhe"
 msgid "Heads Up Display"
 msgstr "Heads Up Display"
 
-#: data/settings/options.config:865
+#: data/settings/options.config:705
 msgid "Held"
 msgstr "Ga chumail"
 
-#: data/skins/simple/menus/PracticeGame:563
-#: data/skins/simple/menus/PracticeGame:583
-#: data/skins/simple/menus/SingleRace:740
-#: data/skins/simple/menus/SingleRace:760
+#: data/skins/simple/menus/Garage:284 data/skins/simple/menus/Garage:304
+#: data/skins/simple/menus/StartingGrid:492
+#: data/skins/simple/menus/StartingGrid:512
 msgid "Help reduce wheel lockup on heavy braking (driver aid)."
 msgstr ""
 "Lùghdaich casgadh nan cuibhlean nuair a bhios tu trom air a' bhrèig "
 "(cuideachadh draibheir)."
 
-#: data/settings/options.config:249 data/settings/options.config:343
-#: data/settings/options.config:547 data/settings/options.config:562
-#: data/settings/options.config:593
+#: data/settings/options.config:174 data/settings/options.config:261
+#: data/settings/options.config:431 data/settings/options.config:444
+#: data/settings/options.config:471
 msgid "High"
 msgstr "Fada"
 
-#: data/skins/simple/menus/SingleRace:455
+#: data/skins/simple/menus/SingleRace:411
+#: data/skins/simple/menus/StartingGrid:208
 msgid "Higher values result in an AI that will drive faster."
 msgstr "Bheir luachan as àirde IF dhut a dhraibheas nas luaithe."
 
@@ -1071,8 +1004,7 @@ msgstr "Bheir luachan as àirde IF dhut a dhraibheas nas luaithe."
 msgid "Hood"
 msgstr "Bonaid"
 
-#: data/skins/simple/menus/PracticeGame:432
-#: data/skins/simple/menus/SingleRace:609
+#: data/skins/simple/menus/Garage:154 data/skins/simple/menus/StartingGrid:362
 msgid "Hue"
 msgstr "Tuar"
 
@@ -1084,31 +1016,35 @@ msgstr "Uidheam ion-chuir"
 msgid "Input Graph"
 msgstr "Graf ion-chuir"
 
-#: data/settings/options.config:323
+#: data/settings/options.config:244
 msgid "Joystick/Gamepad"
 msgstr "Joystick/Pada-geama"
 
-#: data/skins/simple/menus/Main:161
+#: src/hud.cpp:115
+msgid "KPH"
+msgstr "KPH"
+
+#: data/skins/simple/menus/Main:162
 msgid "Keep your cars and tracks up to date"
 msgstr "Cùm na càraichean ia slighean agad cho ùr 's a ghabhas"
 
-#: src/hud.cpp:109
-msgid "Lap:"
-msgstr "Cuairt:"
-
-#: src/hud.cpp:105
+#: src/hud.cpp:104
 msgid "Lap time:"
 msgstr "Ùine na cuairte:"
 
-#: data/skins/simple/menus/SingleRace:149
+#: src/hud.cpp:108
+msgid "Lap:"
+msgstr "Cuairt:"
+
+#: data/skins/simple/menus/SingleRace:105
 msgid "Laps"
 msgstr "Cuairtean"
 
-#: data/settings/options.config:202
+#: data/settings/options.config:127
 msgid "Large"
 msgstr "Mòr"
 
-#: src/hud.cpp:106
+#: src/hud.cpp:105
 msgid "Last lap:"
 msgstr "An tè roimhpe:"
 
@@ -1124,6 +1060,15 @@ msgstr "Fàg an clàr-taice is lean air a' gheama."
 msgid "Left"
 msgstr "Gu clì"
 
+#: data/skins/simple/menus/InputDevice:140
+#: data/skins/simple/menus/InputDevice:160
+msgid ""
+"Limit steering range to 200 degrees, gives a realistic feel to limited range "
+"wheels."
+msgstr ""
+"Cuingich rainse an stiùiridh gu 200 puing, bheir seo coltas fìrinneach dha "
+"chuibhlean le rainse cuingichte."
+
 #: data/skins/simple/menus/CarManager:129
 #: data/skins/simple/menus/TrackManager:129
 msgid "Local"
@@ -1135,15 +1080,23 @@ msgstr "Ionadail"
 msgid "Look behind you during driving."
 msgstr "Seall air do chùlaibh fhad 's a bhios tu a' dràibheadh."
 
-#: data/settings/options.config:245 data/settings/options.config:339
-#: data/settings/options.config:545 data/settings/options.config:560
-#: data/settings/options.config:589
+#: data/settings/options.config:170 data/settings/options.config:257
+#: data/settings/options.config:429 data/settings/options.config:442
+#: data/settings/options.config:467
 msgid "Low"
 msgstr "Goirid"
 
-#: data/settings/options.config:200 data/settings/options.config:247
-#: data/settings/options.config:341 data/settings/options.config:575
-#: data/settings/options.config:591
+#: src/hud.cpp:114
+msgid "MPH"
+msgstr "MPH"
+
+#: data/settings/options.config:191
+msgid "Many"
+msgstr "Mòran dhiubh"
+
+#: data/settings/options.config:125 data/settings/options.config:172
+#: data/settings/options.config:259 data/settings/options.config:455
+#: data/settings/options.config:469
 msgid "Medium"
 msgstr "Meadhanach"
 
@@ -1189,7 +1142,7 @@ msgstr "Gluais an nì clàir-thaice air a bheil am fòcas suas."
 msgid "Move up a menu level."
 msgstr "Gluais suas leibheil clàir-thaice."
 
-#: data/skins/simple/menus/InputDevice:255
+#: data/skins/simple/menus/InputDevice:257
 msgid "Multiplier to adjust strength of force feedback."
 msgstr "Iomadaichear gus leud an na freagairte-forsa a ghleusadh."
 
@@ -1197,13 +1150,9 @@ msgstr "Iomadaichear gus leud an na freagairte-forsa a ghleusadh."
 msgid "Music Volume"
 msgstr "Àirde a' chiùil:"
 
-#: data/settings/options.config:573
+#: data/settings/options.config:453
 msgid "Near"
 msgstr "Faisg"
-
-#: data/settings/options.config:13
-msgid "Networked"
-msgstr "Lìonraichte"
 
 #: data/skins/simple/menus/TransmissionControls:270
 msgid "Neutral"
@@ -1216,19 +1165,11 @@ msgstr "An t-ath chamara"
 #: data/skins/simple/menus/GameLeaveConfirm:47
 #: data/skins/simple/menus/QuitConfirm:47
 #: data/skins/simple/menus/RestartGameConfirm:47
-#: data/settings/options.config:361
+#: data/settings/options.config:276 data/settings/options.config:377
 msgid "No"
 msgstr "Chan eil"
 
-#: data/skins/simple/menus/UpdatesFound:69
-msgid "No car updates found."
-msgstr "Cha deach ùrachadh càir a lorg."
-
-#: data/skins/simple/menus/UpdatesFound:80
-msgid "No track updates found."
-msgstr "Cha deach ùrachadh slighe a lorg."
-
-#: data/settings/options.config:528
+#: data/settings/options.config:414
 msgid "Normal"
 msgstr "Àbhaisteach"
 
@@ -1239,12 +1180,12 @@ msgstr "Mapaichean àbhaisteach"
 #: data/skins/simple/menus/CameraMovementControls:499
 #: data/skins/simple/menus/CameraViewControls:795
 #: data/skins/simple/menus/CarControls:795
-#: data/skins/simple/menus/DisplayOptions:792
+#: data/skins/simple/menus/DisplayOptions:851
 #: data/skins/simple/menus/DisplayOptionsAdvanced:993
 #: data/skins/simple/menus/EditAnalogControl:282
 #: data/skins/simple/menus/EditButtonControl:262
 #: data/skins/simple/menus/GuiControls:499
-#: data/skins/simple/menus/InputDevice:601
+#: data/skins/simple/menus/InputDevice:663
 #: data/skins/simple/menus/ReplaysControls:231
 #: data/skins/simple/menus/SoundOptions:250
 #: data/skins/simple/menus/ToolsControls:365
@@ -1252,43 +1193,48 @@ msgstr "Mapaichean àbhaisteach"
 msgid "OK"
 msgstr "Ceart ma-thà"
 
-#: data/settings/options.config:188 data/settings/options.config:213
-#: data/settings/options.config:223 data/settings/options.config:303
-#: data/settings/options.config:313 data/settings/options.config:337
-#: data/settings/options.config:380 data/settings/options.config:391
-#: data/settings/options.config:425 data/settings/options.config:435
-#: data/settings/options.config:445 data/settings/options.config:463
-#: data/settings/options.config:473 data/settings/options.config:490
-#: data/settings/options.config:518 data/settings/options.config:543
-#: data/settings/options.config:558 data/settings/options.config:661
-#: data/settings/options.config:671 data/settings/options.config:681
-#: data/settings/options.config:702 data/settings/options.config:712
-#: data/settings/options.config:722 data/settings/options.config:732
-#: data/settings/options.config:742 data/settings/options.config:752
-#: data/settings/options.config:822
+#: data/settings/options.config:115 data/settings/options.config:136
+#: data/settings/options.config:144 data/settings/options.config:152
+#: data/settings/options.config:185 data/settings/options.config:236
+#: data/settings/options.config:255 data/settings/options.config:290
+#: data/settings/options.config:298 data/settings/options.config:324
+#: data/settings/options.config:332 data/settings/options.config:340
+#: data/settings/options.config:354 data/settings/options.config:362
+#: data/settings/options.config:385 data/settings/options.config:406
+#: data/settings/options.config:427 data/settings/options.config:440
+#: data/settings/options.config:531 data/settings/options.config:539
+#: data/settings/options.config:547 data/settings/options.config:564
+#: data/settings/options.config:572 data/settings/options.config:580
+#: data/settings/options.config:588 data/settings/options.config:596
+#: data/settings/options.config:604 data/settings/options.config:651
 msgid "Off"
 msgstr "Dheth"
 
-#: data/settings/options.config:187 data/settings/options.config:212
-#: data/settings/options.config:222 data/settings/options.config:302
-#: data/settings/options.config:312 data/settings/options.config:379
-#: data/settings/options.config:390 data/settings/options.config:424
-#: data/settings/options.config:434 data/settings/options.config:444
-#: data/settings/options.config:462 data/settings/options.config:489
-#: data/settings/options.config:517 data/settings/options.config:660
-#: data/settings/options.config:670 data/settings/options.config:680
-#: data/settings/options.config:701 data/settings/options.config:711
-#: data/settings/options.config:721 data/settings/options.config:731
-#: data/settings/options.config:741 data/settings/options.config:751
-#: data/settings/options.config:821
+#: data/settings/options.config:114 data/settings/options.config:135
+#: data/settings/options.config:143 data/settings/options.config:151
+#: data/settings/options.config:235 data/settings/options.config:289
+#: data/settings/options.config:297 data/settings/options.config:323
+#: data/settings/options.config:331 data/settings/options.config:339
+#: data/settings/options.config:353 data/settings/options.config:384
+#: data/settings/options.config:405 data/settings/options.config:530
+#: data/settings/options.config:538 data/settings/options.config:546
+#: data/settings/options.config:563 data/settings/options.config:571
+#: data/settings/options.config:579 data/settings/options.config:587
+#: data/settings/options.config:595 data/settings/options.config:603
+#: data/settings/options.config:650
 msgid "On"
 msgstr "Air"
 
-#: data/settings/options.config:864
+#: data/settings/options.config:704
 msgid "Once"
 msgstr "Aon turas"
 
-#: data/skins/simple/menus/InGameMain:131 data/skins/simple/menus/Main:130
+#: data/skins/simple/menus/SingleRace:341
+#, fuzzy
+msgid "Opponents"
+msgstr "Co-fharpaisichean:"
+
+#: data/skins/simple/menus/InGameMain:131 data/skins/simple/menus/Main:131
 #: data/skins/simple/menus/Options:37
 msgid "Options"
 msgstr "Roghainnean"
@@ -1357,8 +1303,7 @@ msgstr "Roghainnean / Fuaim"
 msgid "Orbit"
 msgstr "Reul-chuairt"
 
-#: data/skins/simple/menus/PracticeGame:373
-#: data/skins/simple/menus/SingleRace:550
+#: data/skins/simple/menus/Garage:95 data/skins/simple/menus/StartingGrid:303
 msgid "Paint"
 msgstr "Peant"
 
@@ -1378,6 +1323,10 @@ msgstr "Panaich gu deas"
 msgid "Pan Up"
 msgstr "Panaich suas"
 
+#: data/skins/simple/menus/DisplayOptionsAdvanced:669
+msgid "Particles"
+msgstr "Mìrean"
+
 #: data/skins/simple/menus/ToolsControls:69
 msgid "Pause"
 msgstr "Cuir na stad"
@@ -1386,17 +1335,21 @@ msgstr "Cuir na stad"
 msgid "Pause Menu"
 msgstr "Clàr-taice stada"
 
-#: src/hud.cpp:110
+#: src/hud.cpp:109
 msgid "Place:"
 msgstr "Àite:"
 
-#: data/skins/simple/menus/Main:105
+#: data/skins/simple/menus/Main:106
 msgid "Play back recorded games."
 msgstr "Ath-chluich geamannan air an sàbhaladh."
 
-#: data/skins/simple/menus/Main:46 data/skins/simple/menus/PracticeGame:59
-msgid "Practice Game"
-msgstr "Sgrìob cleachdaidh"
+#: data/skins/simple/menus/Main:50
+msgid "Player car and driver settings."
+msgstr "Atharraich roghainnean càir is draibheir."
+
+#: data/skins/simple/menus/StartingGrid:79
+msgid "Position"
+msgstr "Ionad"
 
 #: data/skins/simple/menus/AssignControl:37
 msgid ""
@@ -1406,10 +1359,9 @@ msgstr ""
 "Brùth air iuchair no putan joystick no gluais aiseal joystick no an luchag "
 "no briog air putan luchaige."
 
-#: data/skins/simple/menus/PracticeGame:622
-#: data/skins/simple/menus/PracticeGame:642
-#: data/skins/simple/menus/SingleRace:799
-#: data/skins/simple/menus/SingleRace:819
+#: data/skins/simple/menus/Garage:343 data/skins/simple/menus/Garage:363
+#: data/skins/simple/menus/StartingGrid:551
+#: data/skins/simple/menus/StartingGrid:571
 msgid "Prevents wheels from spinning during acceleration (driver aid)."
 msgstr ""
 "Cuiridh seo casg air na cuibhlichean a' dol mun cuairt cus le luathachadh "
@@ -1419,7 +1371,7 @@ msgstr ""
 msgid "Previous Camera"
 msgstr "An camara roimhe"
 
-#: data/skins/simple/menus/InGameMain:159 data/skins/simple/menus/Main:186
+#: data/skins/simple/menus/InGameMain:159 data/skins/simple/menus/Main:187
 msgid "Quit"
 msgstr "Fàg an-seo"
 
@@ -1427,14 +1379,29 @@ msgstr "Fàg an-seo"
 msgid "Quit VDrift"
 msgstr "Fàg VDrift."
 
-#: data/skins/simple/menus/Main:189
+#: data/skins/simple/menus/Main:190
 msgid "Quit VDrift."
 msgstr "Fàg VDrift."
 
-#: data/skins/simple/menus/PracticeGame:208
-#: data/skins/simple/menus/PracticeGame:228
-#: data/skins/simple/menus/SingleRace:220
-#: data/skins/simple/menus/SingleRace:240
+#: data/skins/simple/menus/Garage:390 data/skins/simple/menus/Main:75
+#: data/skins/simple/menus/SingleRace:59
+msgid "Race"
+msgstr "Rèis"
+
+#: data/skins/simple/menus/Cars:37
+msgid "Race / Cars"
+msgstr "Rèis / Càraichean"
+
+#: data/skins/simple/menus/StartingGrid:59
+msgid "Race / Starting Grid"
+msgstr "Rèis / Griod tòiseachaidh"
+
+#: data/skins/simple/menus/Tracks:37
+msgid "Race / Tracks"
+msgstr "Rèis / Slighean"
+
+#: data/skins/simple/menus/SingleRace:176
+#: data/skins/simple/menus/SingleRace:196
 msgid "Race on this track backwards."
 msgstr "Dèan rèis contrarra air an t-slighe seo."
 
@@ -1442,7 +1409,7 @@ msgstr "Dèan rèis contrarra air an t-slighe seo."
 msgid "Racing Line"
 msgstr "Loidhne rèisidh"
 
-#: src/hud.cpp:111
+#: src/hud.cpp:110
 msgid "Ready"
 msgstr "Deiseil"
 
@@ -1450,11 +1417,11 @@ msgstr "Deiseil"
 msgid "Rear View"
 msgstr "Sealladh cùlaibh"
 
-#: data/skins/simple/menus/PracticeGame:137
+#: data/skins/simple/menus/SingleRace:223
 msgid "Record Session"
 msgstr "Clàraich an seisean"
 
-#: data/skins/simple/menus/PracticeGame:149
+#: data/skins/simple/menus/SingleRace:235
 msgid "Record this game for a replay later."
 msgstr "Clàraich an geama seo gus ath-chluiche an uair sin."
 
@@ -1488,7 +1455,7 @@ msgid "Remote"
 msgstr "Cèin"
 
 #: data/skins/simple/menus/ControlsOptions:131
-#: data/skins/simple/menus/Main:102 data/skins/simple/menus/Replays:59
+#: data/skins/simple/menus/Main:103 data/skins/simple/menus/Replays:59
 msgid "Replays"
 msgstr "Ath-chluichean"
 
@@ -1514,14 +1481,14 @@ msgstr "Ath-thòisich an geama seo leis na h-aon roghainnean càir is slighe."
 msgid "Return to Options menu."
 msgstr "Till dhan chlàr-taice \"Roghainnean.\""
 
-#: data/skins/simple/menus/Options:162
-#: data/skins/simple/menus/PracticeGame:758
-#: data/skins/simple/menus/Replays:159 data/skins/simple/menus/SingleRace:936
+#: data/skins/simple/menus/Garage:421 data/skins/simple/menus/Options:162
+#: data/skins/simple/menus/Replays:159 data/skins/simple/menus/SingleRace:565
+#: data/skins/simple/menus/StartingGrid:629
 #: data/skins/simple/menus/Updates:134
 msgid "Return to the Main menu."
 msgstr "Till dhan phrìomh chlàr-taice."
 
-#: data/skins/simple/menus/UpdatesFound:93
+#: data/skins/simple/menus/UpdatesFound:134
 msgid "Return to the Updates menu."
 msgstr "Till dhan chlàr-taice \"Ùrachaidhean.\""
 
@@ -1534,13 +1501,12 @@ msgstr "Till dhan chlàr-taice \"Ùrachaidhean.\""
 msgid "Reverse"
 msgstr "Contrarra"
 
-#: data/skins/simple/menus/PracticeGame:196
-#: data/skins/simple/menus/SingleRace:208
+#: data/skins/simple/menus/SingleRace:164
 msgid "Reverse Track"
 msgstr "Slighe chontrarra"
 
-#: data/skins/simple/menus/InputDevice:197
-#: data/skins/simple/menus/InputDevice:217
+#: data/skins/simple/menus/InputDevice:199
+#: data/skins/simple/menus/InputDevice:219
 msgid "Reverse the force feedback, if necessary for your wheel."
 msgstr ""
 "Ais-thionndaidh an fhreagairt-fhorsa, ma tha seo riatanach leis a' chuibhle "
@@ -1554,8 +1520,7 @@ msgstr "Gu deas"
 msgid "Rollover Recover"
 msgstr "Aiseag bho char mu char"
 
-#: data/skins/simple/menus/PracticeGame:467
-#: data/skins/simple/menus/SingleRace:644
+#: data/skins/simple/menus/Garage:189 data/skins/simple/menus/StartingGrid:397
 msgid "Saturation"
 msgstr "Sàthachd"
 
@@ -1573,7 +1538,7 @@ msgstr ""
 
 #: data/skins/simple/menus/CarControls:798
 #: data/skins/simple/menus/GuiControls:502
-#: data/skins/simple/menus/InputDevice:604
+#: data/skins/simple/menus/InputDevice:666
 msgid "Save changes and return to Controls menu."
 msgstr ""
 "Sàbhail na h-atharraichean is till dhan chlàr-taice \"Uidheaman-smachd.\""
@@ -1586,7 +1551,7 @@ msgstr ""
 "Sàbhail na h-atharraichean is till dhan chlàr-taice \"Uidheaman-smachd a' "
 "gheama.\""
 
-#: data/skins/simple/menus/DisplayOptions:795
+#: data/skins/simple/menus/DisplayOptions:854
 #: data/skins/simple/menus/DisplayOptionsAdvanced:996
 #: data/skins/simple/menus/EditAnalogControl:285
 #: data/skins/simple/menus/SoundOptions:253
@@ -1597,7 +1562,7 @@ msgstr "Sàbhail na h-atharraichean is till dhan chlàr-taice \"Roghainnean.\""
 msgid "Save changes and return to the previous menu."
 msgstr "Sàbhail na h-atharraichean is till dhan chlàr-taice roimhe."
 
-#: src/hud.cpp:108
+#: src/hud.cpp:107
 msgid "Score:"
 msgstr "Sgòr:"
 
@@ -1612,6 +1577,16 @@ msgstr "Tagh"
 #: data/skins/simple/menus/Replays:69
 msgid "Select Replay"
 msgstr "Tagh ath-chluiche"
+
+#: data/skins/simple/menus/StartingGrid:150
+#: data/skins/simple/menus/StartingGrid:170
+msgid "Select car driver."
+msgstr "Tagh draibhear a' chàir."
+
+#: data/skins/simple/menus/StartingGrid:91
+#: data/skins/simple/menus/StartingGrid:111
+msgid "Select car to edit."
+msgstr "Tagh càr airson deasachadh."
 
 #: data/skins/simple/menus/CameraViewControls:215
 #: data/skins/simple/menus/CameraViewControls:234
@@ -1658,10 +1633,6 @@ msgstr "Tagh an nì clàir-thaice air a bheil am fòcas."
 msgid "Select the replay to watch."
 msgstr "Tagh an ath-chluiche a tha thu airson coimhead air."
 
-#: data/settings/options.config:95
-msgid "Server"
-msgstr "Frithealaiche"
-
 #: data/skins/simple/menus/CameraViewControls:742
 msgid "Set camera movement controls."
 msgstr "Suidhich uidheaman-smachd airson gluasad a' chamara."
@@ -1675,6 +1646,13 @@ msgstr "Suidhich dè cho snasail 's a bhios SSAO sa gheama."
 #: data/skins/simple/menus/DisplayOptionsAdvanced:820
 msgid "Set how good the reflections looks during gameplay."
 msgstr "Suidhich dè cho snasail 's a bhios ath-thilgeil sa gheama."
+
+#: data/skins/simple/menus/SingleRace:353
+#: data/skins/simple/menus/SingleRace:373
+msgid "Set number of opponents. Zero to run a practice session."
+msgstr ""
+"Suidhich an àireamh de cho-fharpaisichean. Tagh 0 gus sgrìob cleachdaidh a "
+"ghabhail."
 
 #: data/skins/simple/menus/DisplayOptionsAdvanced:268
 #: data/skins/simple/menus/DisplayOptionsAdvanced:288
@@ -1691,9 +1669,9 @@ msgstr "Suidhich an t-astar a thig faileasan am follais."
 msgid "Set the full scene antialiasing level."
 msgstr "Suidhich ìre an antialiasing airson seallaidhean slàna."
 
-#: data/skins/simple/menus/PracticeGame:169
-#: data/skins/simple/menus/SingleRace:161
-#: data/skins/simple/menus/SingleRace:181
+#: data/skins/simple/menus/SingleRace:117
+#: data/skins/simple/menus/SingleRace:137
+#: data/skins/simple/menus/SingleRace:255
 msgid "Set the number of laps for a single race."
 msgstr "Tagh an àireamh dhe chuairtean airson an rèis."
 
@@ -1726,10 +1704,6 @@ msgstr "Sioft sìos"
 msgid "Shift Up"
 msgstr "Sioft suas"
 
-#: data/skins/simple/menus/Main:74 data/skins/simple/menus/SingleRace:71
-msgid "Single Race"
-msgstr "Rèis"
-
 #: data/skins/simple/menus/ReplaysControls:136
 msgid "Skip Backward"
 msgstr "Sùird air ais"
@@ -1738,13 +1712,13 @@ msgstr "Sùird air ais"
 msgid "Skip Forward"
 msgstr "Sùird air adhart"
 
-#: data/skins/simple/menus/InputDevice:350
-#: data/skins/simple/menus/InputDevice:370
+#: data/skins/simple/menus/InputDevice:352
+#: data/skins/simple/menus/InputDevice:372
 msgid "Slow down the application of button inputs on analogue controls."
 msgstr ""
 "Cuir maille air cur an sàs aig ion-chur putain le uidheaman-smachd analogach."
 
-#: data/settings/options.config:198
+#: data/settings/options.config:123
 msgid "Small"
 msgstr "Beag"
 
@@ -1771,31 +1745,25 @@ msgstr "Àirde nam fuaimean"
 msgid "Speed Units"
 msgstr "Aonadan luaiths"
 
-#: data/settings/options.config:349
+#: data/settings/options.config:267
 msgid "Speed sensitive Hi"
 msgstr "Mothachadh àrd air luaths"
 
-#: data/settings/options.config:347
+#: data/settings/options.config:265
 msgid "Speed sensitive Lo"
 msgstr "Mothachadh ìseal air luaths"
-
-#: data/settings/options.config:798
-msgid "Standard"
-msgstr "Coitcheann"
 
 #: data/skins/simple/menus/CarControls:337
 msgid "Start Engine"
 msgstr "Tòisich an einnsean"
 
-#: data/skins/simple/menus/SingleRace:961
+#: data/skins/simple/menus/SingleRace:600
+#: data/skins/simple/menus/StartingGrid:664
 msgid "Start List:"
 msgstr "Liosta tòiseachaidh:"
 
-#: data/skins/simple/menus/PracticeGame:728
-msgid "Start Practice"
-msgstr "Tòisich an cleachdadh"
-
-#: data/skins/simple/menus/SingleRace:905
+#: data/skins/simple/menus/SingleRace:534
+#: data/skins/simple/menus/StartingGrid:598
 msgid "Start Race"
 msgstr "Tòisich an rèis"
 
@@ -1803,21 +1771,18 @@ msgstr "Tòisich an rèis"
 msgid "Start Replay"
 msgstr "Tòisich an t-ath-chluiche"
 
-#: data/skins/simple/menus/Main:49
-msgid "Start a practice game."
-msgstr "Tòisich air geama cleachdaidh."
-
-#: data/skins/simple/menus/SingleRace:908
+#: data/skins/simple/menus/SingleRace:537
+#: data/skins/simple/menus/StartingGrid:601
 msgid "Start a race using the selected car and track."
 msgstr "Tòisich air rèis leis a' chàr is slighe a thagh thu."
 
-#: data/skins/simple/menus/Main:77
+#: data/skins/simple/menus/Garage:393 data/skins/simple/menus/Main:78
 msgid "Start a race."
 msgstr "Tòisich air rèis."
 
-#: data/skins/simple/menus/PracticeGame:731
-msgid "Start practice using the selected car and track."
-msgstr "Tòisich air cleachdadh leis a' chàr is slighe a thagh thu."
+#: data/skins/simple/menus/SingleRace:506
+msgid "Starting Grid"
+msgstr "Grid tòiseachaidh"
 
 #: data/skins/simple/menus/CarControls:203
 msgid "Steer Left"
@@ -1827,11 +1792,11 @@ msgstr "Stiùir gu clì"
 msgid "Steer Right"
 msgstr "Stiùir gu deas"
 
-#: data/skins/simple/menus/InputDevice:291
+#: data/skins/simple/menus/InputDevice:293
 msgid "Steering Speed Effect"
 msgstr "Buadh luaths an stiùiridh"
 
-#: data/settings/options.config:325
+#: data/settings/options.config:246
 msgid "Steering Wheel"
 msgstr "Cuibhle stiùiridh"
 
@@ -1912,7 +1877,7 @@ msgstr "Nì an t-uidheam-smachd luaths an càr nas luaithe."
 msgid "The handbrake brakes only on the back wheels."
 msgstr "Cha chur a' bhrèig-làimhe maille ach air na cuilbhlichean deiridh."
 
-#: data/skins/simple/menus/InputDevice:302
+#: data/skins/simple/menus/InputDevice:304
 msgid ""
 "The higher the value on this setting, the more steering is limited as car "
 "speed increases."
@@ -2037,10 +2002,6 @@ msgstr "Thachair mearachd a' ceangal dhan fhrithealaiche dàta VDrift."
 msgid "There was an error when trying to play this replay."
 msgstr "Thachair mearachd a' fheuchainn ris an ath-chluiche seo ath-chluiche."
 
-#: data/settings/options.config:11
-msgid "Time Trial"
-msgstr "An aghaidh na h-ùine"
-
 #: data/skins/simple/menus/DisplayOptions:151
 #: data/skins/simple/menus/DisplayOptions:171
 msgid "Toggle fullscreen mode on and off."
@@ -2050,11 +2011,14 @@ msgstr "Toglaich am modh làn-sgrìn air no dheth."
 msgid "Tools"
 msgstr "Innealan"
 
-#: data/skins/simple/menus/PracticeGame:78
-#: data/skins/simple/menus/SingleRace:90
+#: data/skins/simple/menus/SingleRace:79
 #: data/skins/simple/menus/TrackManager:69
 msgid "Track"
 msgstr "Slighe"
+
+#: data/skins/simple/menus/SingleRace:282
+msgid "Track Damage"
+msgstr "Dochann air an t-slighe"
 
 #: data/skins/simple/menus/DisplayOptions:552
 msgid "Track Map"
@@ -2064,12 +2028,15 @@ msgstr "Mapa na slighe"
 msgid "Track Name"
 msgstr "Ainm na slighe"
 
+#: data/skins/simple/menus/UpdatesFound:58
+msgid "Track updates"
+msgstr "Ùraich slighean"
+
 #: data/skins/simple/menus/Updates:75
 msgid "Tracks"
 msgstr "Slighean"
 
-#: data/skins/simple/menus/PracticeGame:610
-#: data/skins/simple/menus/SingleRace:787
+#: data/skins/simple/menus/Garage:331 data/skins/simple/menus/StartingGrid:539
 msgid "Traction Control"
 msgstr "Dìon bho shleamhnachadh"
 
@@ -2119,7 +2086,7 @@ msgstr ""
 msgid "Type"
 msgstr "Seòrsa"
 
-#: data/skins/simple/menus/GuiControls:337 data/settings/options.config:875
+#: data/skins/simple/menus/GuiControls:337 data/settings/options.config:713
 msgid "Up"
 msgstr "Suas"
 
@@ -2132,7 +2099,7 @@ msgstr "Shoirbhich leis an ùrachadh"
 msgid "Update this track to the latest version."
 msgstr "Ùraich an t-slighe seo dhan tionndadh as ùire."
 
-#: data/skins/simple/menus/Main:158 data/skins/simple/menus/Updates:37
+#: data/skins/simple/menus/Main:159 data/skins/simple/menus/Updates:37
 msgid "Updates"
 msgstr "Ùrachaidhean"
 
@@ -2144,7 +2111,7 @@ msgstr "Ùrachaidhean / Càraichean"
 msgid "Updates / Tracks"
 msgstr "Ùrachaidhean / Slighean"
 
-#: data/skins/simple/menus/UpdatesFound:48
+#: data/skins/simple/menus/UpdatesFound:37
 msgid "Updates / Update"
 msgstr "Ùrachaidhean / Ùrachadh"
 
@@ -2153,11 +2120,11 @@ msgstr "Ùrachaidhean / Ùrachadh"
 msgid "Use normal maps."
 msgstr "Cleachd mapaichean àbhaisteach."
 
-#: data/settings/options.config:251
+#: data/settings/options.config:176
 msgid "Very High"
 msgstr "Glè fhada"
 
-#: data/settings/options.config:243
+#: data/settings/options.config:168
 msgid "Very Low"
 msgstr "Glè ghoirid"
 
@@ -2170,7 +2137,7 @@ msgstr "Astar seallaidh"
 msgid "Visualise the steering and acceleration/braking on screen."
 msgstr "Dèan samhla-sùla air stiùireadh is luathachadh/brèige air an sgrìon."
 
-#: data/settings/options.config:530
+#: data/settings/options.config:416
 msgid "Wide"
 msgstr "Leathann"
 
@@ -2185,17 +2152,11 @@ msgstr ""
 #: data/skins/simple/menus/GameLeaveConfirm:74
 #: data/skins/simple/menus/QuitConfirm:74
 #: data/skins/simple/menus/RestartGameConfirm:74
-#: data/settings/options.config:360
+#: data/settings/options.config:275 data/settings/options.config:376
 msgid "Yes"
 msgstr "Tha"
 
-#: data/skins/simple/menus/UpdatesFound:58
-msgid "You can apply updates on the car or track management screen"
-msgstr ""
-"'S urrainn dhut ùrachaidhean a chur an sàs air sgrìn stiùireadh nan "
-"càraichean no nan slighean"
-
-#: src/hud.cpp:114
+#: src/hud.cpp:113
 msgid "You lost"
 msgstr "Chaill thu"
 
@@ -2203,7 +2164,7 @@ msgstr "Chaill thu"
 msgid "You must update to the latest VDrift release."
 msgstr "Feumaidh tu ùrachadh a dhèanamh dhan tionndadh as uire aig VDrift."
 
-#: src/hud.cpp:113
+#: src/hud.cpp:112
 msgid "You won!"
 msgstr "Buannaich thu!"
 
@@ -2227,25 +2188,117 @@ msgstr "Sùm an camara a-steach."
 msgid "Zoom camera out."
 msgstr "Sùm an camara a-mach."
 
-#: data/settings/options.config:233
+#: data/settings/options.config:160
 msgid "kph"
 msgstr "kph"
 
-#: data/settings/options.config:475
+#: data/settings/options.config:364
 msgid "long"
 msgstr "Fada"
 
-#: data/settings/options.config:477
+#: data/settings/options.config:366
 msgid "medium"
 msgstr "Meadhanach"
 
-#: data/settings/options.config:232
+#: data/settings/options.config:159
 msgid "mph"
 msgstr "mph"
 
-#: data/settings/options.config:479
+#: data/settings/options.config:368
 msgid "short"
 msgstr "Goirid"
+
+#~ msgid "1."
+#~ msgstr "1."
+
+#~ msgid "10."
+#~ msgstr "10."
+
+#~ msgid "11."
+#~ msgstr "11."
+
+#~ msgid "12."
+#~ msgstr "12."
+
+#~ msgid "2."
+#~ msgstr "2."
+
+#~ msgid "3."
+#~ msgstr "3."
+
+#~ msgid "4."
+#~ msgstr "4."
+
+#~ msgid "5."
+#~ msgstr "5."
+
+#~ msgid "6."
+#~ msgstr "6."
+
+#~ msgid "7."
+#~ msgstr "7."
+
+#~ msgid "8."
+#~ msgstr "8."
+
+#~ msgid "9."
+#~ msgstr "9."
+
+#~ msgid "AI type"
+#~ msgstr "Seòrsa IF"
+
+#~ msgid "Choose driver type."
+#~ msgstr "Tagh seòrsa an draibheir."
+
+#~ msgid "Client"
+#~ msgstr "Cliant"
+
+#~ msgid "Dynamic Objects"
+#~ msgstr "Oibseactan innsgineach"
+
+#~ msgid "Experimental"
+#~ msgstr "Probhail"
+
+#~ msgid "Free Drive"
+#~ msgstr "Draibheadh saor"
+
+#~ msgid "Networked"
+#~ msgstr "Lìonraichte"
+
+#~ msgid "No car updates found."
+#~ msgstr "Cha deach ùrachadh càir a lorg."
+
+#~ msgid "No track updates found."
+#~ msgstr "Cha deach ùrachadh slighe a lorg."
+
+#~ msgid "Practice Game"
+#~ msgstr "Sgrìob cleachdaidh"
+
+#~ msgid "Server"
+#~ msgstr "Frithealaiche"
+
+#~ msgid "Single Race"
+#~ msgstr "Rèis"
+
+#~ msgid "Standard"
+#~ msgstr "Coitcheann"
+
+#~ msgid "Start Practice"
+#~ msgstr "Tòisich an cleachdadh"
+
+#~ msgid "Start a practice game."
+#~ msgstr "Tòisich air geama cleachdaidh."
+
+#~ msgid "Start practice using the selected car and track."
+#~ msgstr "Tòisich air cleachdadh leis a' chàr is slighe a thagh thu."
+
+#~ msgid "Time Trial"
+#~ msgstr "An aghaidh na h-ùine"
+
+#~ msgid "You can apply updates on the car or track management screen"
+#~ msgstr ""
+#~ "'S urrainn dhut ùrachaidhean a chur an sàs air sgrìn stiùireadh nan "
+#~ "càraichean no nan slighean"
 
 #, fuzzy
 #~ msgid "Loading"
@@ -2384,9 +2437,6 @@ msgstr "Goirid"
 #~ msgid "Edit Mouse Motion Control"
 #~ msgstr "Deasaich uidheam-smachd gluasad luchaige"
 
-#~ msgid "End Race"
-#~ msgstr "Crìochnaich an reis"
-
 #~ msgid "End race and return to the Main menu."
 #~ msgstr "Crìochnaich an reis is till dhan phrìomh chlar-taice."
 
@@ -2489,9 +2539,6 @@ msgstr "Goirid"
 #~ msgstr ""
 #~ "An aire: Cha tèid cuid dhe na roghainnean a chur an sàs mus ath-"
 #~ "thòisicheas tu an geama."
-
-#~ msgid "Opponents:"
-#~ msgstr "Farpaisichean:"
 
 #~ msgid "Press the ESCAPE key to abort."
 #~ msgstr "Brùth air a' phutan ESCAE airson sgur dheth."
@@ -2702,9 +2749,6 @@ msgstr "Goirid"
 #~ "Feumaidh tu an geama fhàgail is VDrift ath-thòiseachadh mus tèid na h-"
 #~ "atharraichean a chur an sàs."
 
-#~ msgid "default"
-#~ msgstr "bunaiteach"
-
 #~ msgid "ABS"
 #~ msgstr "ABS"
 
@@ -2734,9 +2778,6 @@ msgstr "Goirid"
 
 #~ msgid "16x"
 #~ msgstr "16x"
-
-#~ msgid "new"
-#~ msgstr "ùr"
 
 #~ msgid "UP"
 #~ msgstr "SUAS"
