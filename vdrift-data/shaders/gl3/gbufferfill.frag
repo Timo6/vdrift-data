@@ -122,7 +122,6 @@ mat3 GetTangentBasis2(vec3 normal, vec3 viewdir, vec2 tucoord)
 void main()
 {
 	vec4 albedo = texture(diffuseSampler, uv.xy);
-	float carpaintMask = 0.0;
 	
 	#ifdef CARPAINT
 	albedo.rgb = mix(colorTint.rgb, albedo.rgb, albedo.a); // albedo is mixed from diffuse and object color
@@ -172,7 +171,9 @@ void main()
 	//Rf0 = vec3(1,1,1);
 	
 	#ifdef CARPAINT
-	carpaintMask = 1-albedo.a;
+	float carpaintMask = 1.0;//-albedo.a; car paint mask should not affect reflectivity
+	#else
+	float carpaintMask = 0.0;
 	#endif
 	
 	#ifdef USE_OUTPUTS
