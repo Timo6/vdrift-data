@@ -142,23 +142,23 @@ area = 0.015
 [wheel.fl.tire]
 texture = tire/touring.png
 size = 225, 45, 18
-type = &tire/touring
+type = &tire/touring.tire
 
 [wheel.fr.tire]
 texture = tire/touring.png
 size = 225, 45, 18
-type = &tire/touring
+type = &tire/touring.tire
 
 [wheel.rl.tire]
 texture = tire/touring.png
 size = 225, 45, 18
-type = &tire/touring
+type = &tire/touring.tire
 
 [wheel.rr.tire]
 texture = tire/touring.png
 size = 225, 45, 18
 
-type = &tire/touring
+type = &tire/touring.tire
 [wheel.fl.hinge]
 wheel = -0.75, 1.20, -0.48
 chassis = 0, 0, 0

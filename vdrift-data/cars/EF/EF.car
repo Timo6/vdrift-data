@@ -153,24 +153,24 @@ area = 0.015
 handbrake = 2.0
 
 [wheel.fl.tire]
-type = &tire/sticky-front
 texture = tire/touring.png
 size = 215, 45, 17
+type = &tire/racing.tire
 
 [wheel.fr.tire]
-type = &tire/sticky-front
 texture = tire/touring.png
 size = 215, 45, 17
+type = &tire/racing.tire
 
 [wheel.rl.tire]
-type = &tire/sticky-rear
 texture = tire/touring.png
 size = 245, 40, 17
+type = &tire/racing.tire
 
 [wheel.rr.tire]
-type = &tire/sticky-rear
 texture = tire/touring.png
 size = 245, 40, 17
+type = &tire/racing.tire
 
 [wheel.fl.hinge]
 wheel = -0.9, 1.27, -0.3

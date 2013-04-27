@@ -40,7 +40,7 @@ opacity = 0.3
 left = 0.008
 width = 0.29
 top = 0.181
-height = 0.278
+height = 0.358
 layer = -1
 
 
@@ -51,7 +51,7 @@ opacity = 0.3
 left = 0.30
 width = 0.30
 top = 0.181
-height = 0.278
+height = 0.358
 layer = -1
 
 
@@ -80,7 +80,7 @@ fontsize = 0.03
 tip = Choose the car to drive.
 onselect = Cars
 onmoveup = widget-17b
-onmovedown = widget-09b
+onmovedown = tire-prv
 onfocus = widget-08b.sat:0.56
 onblur = widget-08b.sat:0.0
 focus = true
@@ -91,13 +91,131 @@ top = 0.18
 height = 0.04
 
 
+[ tire-lbl ]
+text = Tire
+fontsize = 0.03
+align = right
+left = 0.01
+width = 0.28
+top = 0.22
+height = 0.04
+
+[ tire-prv ]
+text = <
+fontsize = 0.03
+align = left
+tip = Choose the car tire type.
+onselect = game.car_tire.next
+onmoveleft = game.car_tire.prev
+onmoveright = game.car_tire.next
+onmoveup = widget-08b
+onmovedown = wheel-prv
+onfocus = tire-prv.opacity:0 tire-nxt.opacity:0 tire-val.sat:0.56
+onblur = tire-prv.opacity:1 tire-nxt.opacity:1 tire-val.sat:0.0
+focus = false
+color = 0.439, 0.796, 1.00
+opacity = 1.0
+left = 0.31
+width = 0.14
+top = 0.22
+height = 0.04
+
+[ tire-nxt ]
+text = >
+fontsize = 0.03
+align = right
+tip = Choose the car tire type.
+onselect = game.car_tire.next
+onmoveleft = game.car_tire.prev
+onmoveright = game.car_tire.next
+onmoveup = widget-08b
+onmovedown = wheel-nxt
+onfocus = tire-prv.opacity:0 tire-nxt.opacity:0 tire-val.sat:0.56
+onblur = tire-prv.opacity:1 tire-nxt.opacity:1 tire-val.sat:0.0
+focus = false
+color = 0.439, 0.796, 1.00
+opacity = 1.0
+left = 0.45
+width = 0.14
+top = 0.22
+height = 0.04
+
+[ tire-val ]
+text = game.car_tire.str
+fontsize = 0.03
+hue = 0.56
+left = 0.31
+width = 0.28
+top = 0.22
+height = 0.04
+
+
+[ wheel-lbl ]
+text = Wheel
+fontsize = 0.03
+align = right
+left = 0.01
+width = 0.28
+top = 0.26
+height = 0.04
+
+[ wheel-prv ]
+text = <
+fontsize = 0.03
+align = left
+tip = Choose the car wheel type.
+onselect = game.car_wheel.next
+onmoveleft = game.car_wheel.prev
+onmoveright = game.car_wheel.next
+onmoveup = tire-prv
+onmovedown = widget-09b
+onfocus = wheel-prv.opacity:0 wheel-nxt.opacity:0 wheel-val.sat:0.56
+onblur = wheel-prv.opacity:1 wheel-nxt.opacity:1 wheel-val.sat:0.0
+focus = false
+color = 0.439, 0.796, 1.00
+opacity = 1.0
+left = 0.31
+width = 0.14
+top = 0.26
+height = 0.04
+
+[ wheel-nxt ]
+text = >
+fontsize = 0.03
+align = right
+tip = Choose the car wheel type.
+onselect = game.car_wheel.next
+onmoveleft = game.car_wheel.prev
+onmoveright = game.car_wheel.next
+onmoveup = tire-nxt
+onmovedown = widget-09b
+onfocus = wheel-prv.opacity:0 wheel-nxt.opacity:0 wheel-val.sat:0.56
+onblur = wheel-prv.opacity:1 wheel-nxt.opacity:1 wheel-val.sat:0.0
+focus = false
+color = 0.439, 0.796, 1.00
+opacity = 1.0
+left = 0.45
+width = 0.14
+top = 0.26
+height = 0.04
+
+[ wheel-val ]
+text = game.car_wheel.str
+fontsize = 0.03
+hue = 0.56
+left = 0.31
+width = 0.28
+top = 0.26
+height = 0.04
+
+
 [ widget-09a ]
 text = Paint
 fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.22
+top = 0.30
 height = 0.04
 
 [ widget-09b ]
@@ -108,7 +226,7 @@ tip = Choose the paint job for the car.
 onselect = game.car_paint.prev
 onmoveleft = game.car_paint.prev
 onmoveright = game.car_paint.next
-onmoveup = widget-08b
+onmoveup = wheel-prv
 onmovedown = widget-10b
 onfocus = widget-09b.opacity:0 widget-09c.opacity:0 widget-09d.sat:0.56
 onblur = widget-09b.opacity:1 widget-09c.opacity:1 widget-09d.sat:0.0
@@ -117,7 +235,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.22
+top = 0.30
 height = 0.04
 
 [ widget-09c ]
@@ -128,7 +246,7 @@ tip = Choose the paint job for the car.
 onselect = game.car_paint.next
 onmoveleft = game.car_paint.prev
 onmoveright = game.car_paint.next
-onmoveup = widget-08b
+onmoveup = wheel-nxt
 onmovedown = widget-10b
 onfocus = widget-09b.opacity:0 widget-09c.opacity:0 widget-09d.sat:0.56
 onblur = widget-09b.opacity:1 widget-09c.opacity:1 widget-09d.sat:0.0
@@ -137,7 +255,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.22
+top = 0.30
 height = 0.04
 
 [ widget-09d ]
@@ -146,7 +264,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.22
+top = 0.30
 height = 0.04
 
 
@@ -156,7 +274,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.26
+top = 0.34
 height = 0.04
 
 [ widget-10b ]
@@ -173,7 +291,7 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.265
+top = 0.345
 height = 0.03
 layer = 1
 
@@ -181,7 +299,7 @@ layer = 1
 image = color_hue.png
 left = 0.31
 width = 0.28
-top = 0.266
+top = 0.346
 height = 0.028
 
 
@@ -191,7 +309,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.30
+top = 0.38
 height = 0.04
 
 [ widget-11b ]
@@ -208,7 +326,7 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.305
+top = 0.385
 height = 0.03
 layer = 1
 
@@ -219,14 +337,14 @@ sat = 1.0
 val = game.car_color_val
 left = 0.31
 width = 0.28
-top = 0.306
+top = 0.386
 height = 0.028
 
 [ widget-11d ]
 image = white.png
 left = 0.31
 width = 0.28
-top = 0.306
+top = 0.386
 height = 0.028
 layer = -1
 
@@ -237,7 +355,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.34
+top = 0.42
 height = 0.04
 
 [ widget-12b ]
@@ -254,7 +372,7 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.345
+top = 0.425
 height = 0.03
 layer = 1
 
@@ -265,7 +383,7 @@ sat = game.car_color_sat
 val = 1.0
 left = 0.31
 width = 0.28
-top = 0.346
+top = 0.426
 height = 0.028
 
 [ widget-13a ]
@@ -274,7 +392,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.38
+top = 0.46
 height = 0.04
 
 [ widget-13b ]
@@ -294,7 +412,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.38
+top = 0.46
 height = 0.04
 
 [ widget-13c ]
@@ -314,7 +432,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.38
+top = 0.46
 height = 0.04
 
 [ widget-13d ]
@@ -323,7 +441,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.38
+top = 0.46
 height = 0.04
 
 
@@ -333,7 +451,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.42
+top = 0.50
 height = 0.04
 
 [ widget-14b ]
@@ -353,7 +471,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.42
+top = 0.50
 height = 0.04
 
 [ widget-14c ]
@@ -373,7 +491,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.42
+top = 0.50
 height = 0.04
 
 [ widget-14d ]
@@ -382,7 +500,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.42
+top = 0.50
 height = 0.04
 
 
@@ -400,7 +518,7 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.29
-top = 0.46
+top = 0.54
 height = 0.04
 
 [ widget-16e ]
@@ -409,7 +527,7 @@ color = 0.172, 0.161, 0.169
 opacity = 0.3
 left = 0.30
 width = 0.30
-top = 0.461
+top = 0.541
 height = 0.038
 layer = -1
 
@@ -428,7 +546,7 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.29
-top = 0.50
+top = 0.58
 height = 0.04
 
 [ widget-17e ]
@@ -437,6 +555,6 @@ color = 0.172, 0.161, 0.169
 opacity = 0.3
 left = 0.30
 width = 0.30
-top = 0.501
+top = 0.581
 height = 0.038
 layer = -1

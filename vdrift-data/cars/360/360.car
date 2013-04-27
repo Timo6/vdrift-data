@@ -184,7 +184,7 @@ friction = 15.0
 max-pressure = 2.5e6
 bias = 0.65
 radius = 0.175 # 350mm
-area = 0.000688 # 21.5mm x 32mm
+area = 0.009 # 205mm x 48mm
 
 [wheel.fr.brake]
 texture = rotor_shiny_slotted_drilled.png
@@ -192,67 +192,67 @@ friction = 15.0
 max-pressure = 2.5e6
 bias = 0.65
 radius = 0.175 # 350mm
-area = 0.000688 # 21.5mm x 32mm
+area = 0.009 # 205mm x 48mm
 
 [wheel.rl.brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 15.0
 max-pressure = 2.5e6
-bias = 0.50
+bias = 0.45
 radius = 0.165 # 330mm
-area = 0.000448 # 16mm x 28mm
+area = 0.007 # 146mm x 48mm
 handbrake = 1.0
 
 [wheel.rr.brake]
 texture = rotor_shiny_slotted_drilled.png
 friction = 15.0
 max-pressure = 2.5e6
-bias = 0.50
+bias = 0.45
 radius = 0.165 # 330mm
-area = 0.000448 # 16mm x 28mm
+area = 0.007 # 146mm x 48mm
 handbrake = 1.0
 
 [wheel.fl.hinge]
 wheel = -0.85, 1.12, -0.27
-chassis = 0.50, 0.90, -0.20
+chassis = -0.40, 0.90, -0.20
 
 [wheel.fr.hinge]
 wheel = 0.85, 1.12, -0.27
-chassis = -0.50, 0.90, -0.20
+chassis = 0.40, 0.90, -0.20
 
 [wheel.rl.hinge]
 wheel = -0.8085, -1.51, -0.28
-chassis = 1.00, -0.0, -0.0
+chassis = -0.10, -1.51, -0.20
 
 [wheel.rr.hinge]
 wheel = 0.8085, -1.51, -0.28
-chassis = -1.00, 0.0, -0.0
+chassis = 0.10, -1.51, -0.20
 
 [wheel.fl.tire]
 texture = tire/touring.png
 size = 215, 45, 18
-type = &tire/competition
+type = &sports.tire
 
 [wheel.fr.tire]
 texture = tire/touring.png
 size = 215, 45, 18
-type = &tire/competition
+type = &sports.tire
 
 [wheel.rl.tire]
 texture = tire/touring.png
 size = 275, 40, 18
-type = &tire/competition
+type = &sports.tire
 
 [wheel.rr.tire]
 texture = tire/touring.png
 size = 275, 40, 18
-type = &tire/competition
+type = &sports.tire
 
 [wheel.fl]
 texture = wheel/pentagonal_hub.png
 mesh = wheel/pentagonal_hub.joe
 position = -0.85, 1.12, -0.27			# track +-Y = 1669/2
-camber = -1.0
+camber = 0.0
 caster = 6.12
 toe = 0.0
 ackermann = 8.96	# 50% ackermann
@@ -263,7 +263,7 @@ texture = wheel/pentagonal_hub.png
 mesh = wheel/pentagonal_hub.joe
 scale = -1, 1, 1
 position = 0.85, 1.12, -0.27
-camber = 1.0
+camber = 0.0
 caster = 6.12
 toe = 0.0
 ackermann = -8.96

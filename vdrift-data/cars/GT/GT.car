@@ -142,22 +142,22 @@ handbrake = 1.0
 [wheel.fl.tire]
 texture = tire/touring.png
 size = 255,45,17	# Mustang GT Pirelli P235/55ZR17
-type = &tire/touring
+type = &tire/touring.tire
 
 [wheel.fr.tire]
 texture = tire/touring.png
 size = 255, 45, 17
-type = &tire/touring
+type = &tire/touring.tire
 
 [wheel.rl.tire]
 texture = tire/touring.png
 size = 255, 45, 17
-type = &tire/touring
+type = &tire/touring.tire
 
 [wheel.rr.tire]
 texture = tire/touring.png
 size = 255, 45, 17
-type = &tire/touring
+type = &tire/touring.tire
 
 [wheel.fl.hinge]
 wheel = -0.9, 1.45, -0.48

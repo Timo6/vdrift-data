@@ -118,7 +118,7 @@ radius = 0.17
 area = 0.015
 
 [wheel.fr.brake]
-texture = rotor_worn.png
+#texture = rotor_worn.png
 friction = 0.83
 max-pressure = 2.8e6
 bias = 0.61
@@ -146,22 +146,24 @@ handbrake = 4.0
 [wheel.fl.tire]
 texture = tire/touring.png
 size = 205, 55, 15
-type = &tire/touring
+type = &tire/touring.tire
 
 [wheel.fr.tire]
-texture = tire/touring.png
+#texture = tire/touring.png
+texture = wheel_tire.png
+mesh = tire.joe
 size = 205, 55, 15
-type = &tire/touring
+type = &tire/touring.tire
 
 [wheel.rl.tire]
 texture = tire/touring.png
 size = 205, 55, 15
-type = &tire/touring
+type = &tire/touring.tire
 
 [wheel.rr.tire]
 texture = tire/touring.png
 size = 205, 55, 15
-type = &tire/touring
+type = &tire/touring.tire
 
 #[wheel.fl.macpherson-strut]
 #strut-top = -0.66, 1.34, 0.05
@@ -200,8 +202,10 @@ ackermann = 7.69	# 50% ackermann
 steering = 30
 
 [wheel.fr]
-texture = wheel/5_spoke_m.png
-mesh = wheel/5_spoke_m.joe
+#texture = wheel/5_spoke_m.png
+#mesh = wheel/5_spoke_m.joe
+texture = wheel_tire.png
+mesh = wheel.joe
 scale = -1, 1, 1
 position = 0.71, 1.34, -0.49
 camber = 2.00
@@ -209,6 +213,7 @@ caster = 8.00
 toe = 0.2
 ackermann = -7.69
 steering = 30
+genrim=false
 
 [wheel.rl]
 texture = wheel/5_spoke_m.png
