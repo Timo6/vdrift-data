@@ -172,22 +172,22 @@ radius = 0.14
 [wheel.fl.tire]
 texture = tire/touring.png
 size = 195, 45, 15
-type = &tire/competition
+type = &tire/sports.tire
 
 [wheel.fr.tire]
 texture = tire/touring.png
 size = 195, 45, 15
-type = &tire/competition
+type = &tire/sports.tire
 
 [wheel.rl.tire]
 texture = tire/touring.png
 size = 255, 40, 15
-type = &tire/competition
+type = &tire/sports.tire
 
 [wheel.rr.tire]
 texture = tire/touring.png
 size = 255, 40, 15
-type = &tire/competition
+type = &tire/sports.tire
 
 [wheel.fl.hinge]
 wheel = -0.60, 1.175, -0.42
