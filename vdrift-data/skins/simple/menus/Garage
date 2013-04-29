@@ -1,5 +1,5 @@
 name = Garage
-oncancel = gui.options.save Main
+oncancel = gui.options.save gui.page.prev
 
 
 [ bg-top ]
@@ -40,7 +40,7 @@ opacity = 0.3
 left = 0.008
 width = 0.29
 top = 0.181
-height = 0.358
+height = 0.478
 layer = -1
 
 
@@ -51,7 +51,7 @@ opacity = 0.3
 left = 0.30
 width = 0.30
 top = 0.181
-height = 0.358
+height = 0.478
 layer = -1
 
 
@@ -65,8 +65,8 @@ top = 0.07
 height = 0.06
 
 
-[ widget-08a ]
-text = Car
+[ startpos-lbl ]
+text = Start position
 fontsize = 0.03
 align = right
 left = 0.01
@@ -74,20 +74,218 @@ width = 0.28
 top = 0.18
 height = 0.04
 
-[ widget-08b ]
-text = game.car.str
+[ startpos-prv ]
+text = <
 fontsize = 0.03
-tip = Choose the car to drive.
-onselect = Cars
+align = left
+tip = Change car start position.
+onselect = game.car_startpos.prev
+onmoveleft = game.car_startpos.prev
+onmoveright = game.car_startpos.next
 onmoveup = widget-17b
-onmovedown = tire-prv
-onfocus = widget-08b.sat:0.56
-onblur = widget-08b.sat:0.0
+onmovedown = driver-prv
+onfocus = startpos-prv.opacity:0 startpos-nxt.opacity:0 startpos-val.sat:0.56
+onblur = startpos-prv.opacity:1 startpos-nxt.opacity:1 startpos-val.sat:0.0
 focus = true
+color = 0.439, 0.796, 1.00
+opacity = 1.0
+left = 0.31
+width = 0.14
+top = 0.18
+height = 0.04
+
+[ startpos-nxt ]
+text = >
+fontsize = 0.03
+align = right
+tip = Change car start position.
+onselect = game.car_startpos.next
+onmoveleft = game.car_startpos.prev
+onmoveright = game.car_startpos.next
+onmoveup = widget-17b
+onmovedown = driver-nxt
+onfocus = startpos-prv.opacity:0 startpos-nxt.opacity:0 startpos-val.sat:0.56
+onblur = startpos-prv.opacity:1 startpos-nxt.opacity:1 startpos-val.sat:0.0
+focus = false
+color = 0.439, 0.796, 1.00
+opacity = 1.0
+left = 0.45
+width = 0.14
+top = 0.18
+height = 0.04
+
+[ startpos-val ]
+text = game.car_startpos.str
+fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
 top = 0.18
+height = 0.04
+
+
+[ driver-lbl ]
+text = Driver
+fontsize = 0.03
+align = right
+left = 0.01
+width = 0.28
+top = 0.22
+height = 0.04
+
+[ driver-prv ]
+text = <
+fontsize = 0.03
+align = left
+tip = Select car driver.
+onselect = game.driver.prev
+onmoveleft = game.driver.prev
+onmoveright = game.driver.next
+onmoveup = startpos-prv
+onmovedown =  widget-08b
+onfocus = driver-prv.opacity:0 driver-nxt.opacity:0 driver-val.sat:0.56
+onblur = driver-prv.opacity:1 driver-nxt.opacity:1 driver-val.sat:0.0
+focus = false
+color = 0.439, 0.796, 1.00
+opacity = 1.0
+left = 0.31
+width = 0.14
+top = 0.22
+height = 0.04
+
+[ driver-nxt ]
+text = >
+fontsize = 0.03
+align = right
+tip = Select car driver.
+onselect = game.driver.next
+onmoveleft = game.driver.prev
+onmoveright = game.driver.next
+onmoveup = startpos-nxt
+onmovedown = ailevel-val
+onfocus = driver-prv.opacity:0 driver-nxt.opacity:0 driver-val.sat:0.56
+onblur = driver-prv.opacity:1 driver-nxt.opacity:1 driver-val.sat:0.0
+focus = false
+color = 0.439, 0.796, 1.00
+opacity = 1.0
+left = 0.45
+width = 0.14
+top = 0.22
+height = 0.04
+
+[ driver-val ]
+text = game.driver.str
+fontsize = 0.03
+hue = 0.56
+left = 0.31
+width = 0.28
+top = 0.22
+height = 0.04
+
+
+[ ailevel-lbl ]
+text = AI Level
+fontsize = 0.03
+align = right
+left = 0.01
+width = 0.28
+top = 0.26
+height = 0.04
+
+[ ailevel-val ]
+text = game.ai_level.str
+fontsize = 0.03
+tip = Higher values result in an AI that will drive faster.
+onselectx = game.ai_level.norm
+onmoveleft = game.ai_level.prev
+onmoveright = game.ai_level.next
+onmoveup = driver-prv
+onmovedown = widget-08b
+onfocus = ailevel-bar.opacity:0 ailevel-bg.opacity:0 ailevel-val.sat:0.56
+onblur = ailevel-bar.opacity:1 ailevel-bg.opacity:1 ailevel-val.sat:0.0
+focus = false
+hue = 0.56
+left = 0.31
+width = 0.28
+top = 0.265
+height = 0.03
+
+[ ailevel-bar ]
+slider = game.ai_level.norm
+fill = true
+opacity = 1.0
+left = 0.31
+width = 0.28
+top = 0.266
+height = 0.028
+layer = 1
+
+[ ailevel-bg ]
+image = white.png
+color = 0.3, 0.3, 0.3
+opacity = 1.0
+left = 0.31
+width = 0.28
+top = 0.266
+height = 0.028
+
+
+[ widget-08a ]
+text = Car
+fontsize = 0.03
+align = right
+left = 0.01
+width = 0.28
+top = 0.30
+height = 0.04
+
+[ widget-08b ]
+text = <
+fontsize = 0.03
+align = left
+tip = Choose the car to drive.
+onselect = game.car.prev
+onmoveleft = game.car.prev
+onmoveright = game.car.next
+onmoveup = ailevel-val
+onmovedown = tire-prv
+onfocus = widget-08b.opacity:0 widget-08c.opacity:0 widget-08d.sat:0.56
+onblur = widget-08b.opacity:1 widget-08c.opacity:1 widget-08d.sat:0.0
+focus = false
+color = 0.439, 0.796, 1.00
+opacity = 1.0
+left = 0.31
+width = 0.14
+top = 0.30
+height = 0.04
+
+[ widget-08c ]
+text = >
+fontsize = 0.03
+align = right
+tip = Choose the car to drive.
+onselect = game.car.next
+onmoveleft = game.car.prev
+onmoveright = game.car.next
+onmoveup = ailevel-val
+onmovedown = tire-prv
+onfocus = widget-08b.opacity:0 widget-08c.opacity:0 widget-08d.sat:0.56
+onblur = widget-08b.opacity:1 widget-08c.opacity:1 widget-08d.sat:0.0
+focus = false
+color = 0.439, 0.796, 1.00
+opacity = 1.0
+left = 0.45
+width = 0.14
+top = 0.30
+height = 0.04
+
+[ widget-08d ]
+text = game.car.str
+fontsize = 0.03
+hue = 0.56
+left = 0.31
+width = 0.28
+top = 0.30
 height = 0.04
 
 
@@ -97,7 +295,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.22
+top = 0.34
 height = 0.04
 
 [ tire-prv ]
@@ -117,7 +315,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.22
+top = 0.34
 height = 0.04
 
 [ tire-nxt ]
@@ -137,7 +335,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.22
+top = 0.34
 height = 0.04
 
 [ tire-val ]
@@ -146,7 +344,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.22
+top = 0.34
 height = 0.04
 
 
@@ -156,7 +354,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.26
+top = 0.38
 height = 0.04
 
 [ wheel-prv ]
@@ -176,7 +374,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.26
+top = 0.38
 height = 0.04
 
 [ wheel-nxt ]
@@ -196,7 +394,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.26
+top = 0.38
 height = 0.04
 
 [ wheel-val ]
@@ -205,7 +403,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.26
+top = 0.38
 height = 0.04
 
 
@@ -215,7 +413,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.30
+top = 0.42
 height = 0.04
 
 [ widget-09b ]
@@ -235,7 +433,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.30
+top = 0.42
 height = 0.04
 
 [ widget-09c ]
@@ -255,7 +453,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.30
+top = 0.42
 height = 0.04
 
 [ widget-09d ]
@@ -264,7 +462,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.30
+top = 0.42
 height = 0.04
 
 
@@ -274,7 +472,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.34
+top = 0.46
 height = 0.04
 
 [ widget-10b ]
@@ -291,7 +489,7 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.345
+top = 0.465
 height = 0.03
 layer = 1
 
@@ -299,7 +497,7 @@ layer = 1
 image = color_hue.png
 left = 0.31
 width = 0.28
-top = 0.346
+top = 0.466
 height = 0.028
 
 
@@ -309,7 +507,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.38
+top = 0.50
 height = 0.04
 
 [ widget-11b ]
@@ -326,7 +524,7 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.385
+top = 0.505
 height = 0.03
 layer = 1
 
@@ -337,14 +535,14 @@ sat = 1.0
 val = game.car_color_val
 left = 0.31
 width = 0.28
-top = 0.386
+top = 0.506
 height = 0.028
 
 [ widget-11d ]
 image = white.png
 left = 0.31
 width = 0.28
-top = 0.386
+top = 0.506
 height = 0.028
 layer = -1
 
@@ -355,7 +553,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.42
+top = 0.54
 height = 0.04
 
 [ widget-12b ]
@@ -372,7 +570,7 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.425
+top = 0.545
 height = 0.03
 layer = 1
 
@@ -383,7 +581,7 @@ sat = game.car_color_sat
 val = 1.0
 left = 0.31
 width = 0.28
-top = 0.426
+top = 0.546
 height = 0.028
 
 [ widget-13a ]
@@ -392,7 +590,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.46
+top = 0.58
 height = 0.04
 
 [ widget-13b ]
@@ -412,7 +610,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.46
+top = 0.58
 height = 0.04
 
 [ widget-13c ]
@@ -432,7 +630,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.46
+top = 0.58
 height = 0.04
 
 [ widget-13d ]
@@ -441,7 +639,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.46
+top = 0.58
 height = 0.04
 
 
@@ -451,7 +649,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.50
+top = 0.62
 height = 0.04
 
 [ widget-14b ]
@@ -471,7 +669,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.50
+top = 0.62
 height = 0.04
 
 [ widget-14c ]
@@ -491,7 +689,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.50
+top = 0.62
 height = 0.04
 
 [ widget-14d ]
@@ -500,7 +698,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.50
+top = 0.62
 height = 0.04
 
 
@@ -509,7 +707,7 @@ text = Race
 fontsize = 0.03
 #align = left
 tip = Start a race.
-onselect = gui.options.save SingleRace
+onselect = gui.options.save SelectPlayerCar SingleRace
 onmoveup = widget-14b
 onmovedown = widget-17b
 onfocus = widget-16b.sat:0.56
@@ -518,7 +716,7 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.29
-top = 0.54
+top = 0.66
 height = 0.04
 
 [ widget-16e ]
@@ -527,7 +725,7 @@ color = 0.172, 0.161, 0.169
 opacity = 0.3
 left = 0.30
 width = 0.30
-top = 0.541
+top = 0.661
 height = 0.038
 layer = -1
 
@@ -536,17 +734,17 @@ layer = -1
 text = Back
 fontsize = 0.03
 #align = left
-tip = Return to the Main menu.
-onselect = gui.options.save Main
+tip = Return to previous menu.
+onselect = gui.options.save gui.page.prev
 onmoveup = widget-16b
-onmovedown = widget-08b
+onmovedown = widget-06b
 onfocus = widget-17b.sat:0.56
 onblur = widget-17b.sat:0.0
 focus = false
 hue = 0.56
 left = 0.31
 width = 0.29
-top = 0.58
+top = 0.70
 height = 0.04
 
 [ widget-17e ]
@@ -555,6 +753,6 @@ color = 0.172, 0.161, 0.169
 opacity = 0.3
 left = 0.30
 width = 0.30
-top = 0.581
+top = 0.701
 height = 0.038
 layer = -1
