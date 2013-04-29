@@ -75,8 +75,8 @@ top = 0.18
 height = 0.32
 
 
-[ widget-06a ]
-text = Position
+[ start-pos-1 ]
+text = 1
 fontsize = 0.03
 align = right
 left = 0.01
@@ -84,58 +84,8 @@ width = 0.28
 top = 0.18
 height = 0.04
 
-[ widget-06b ]
-text = <
-fontsize = 0.03
-align = left
-tip = Select car to edit.
-onselect = game.car_edit.prev
-onmoveleft = game.car_edit.prev
-onmoveright = game.car_edit.next
-onmoveup = widget-17b
-onmovedown =  widget-07b
-onfocus = widget-06b.opacity:0 widget-06c.opacity:0 widget-06d.sat:0.56
-onblur = widget-06b.opacity:1 widget-06c.opacity:1 widget-06d.sat:0.0
-focus = true
-color = 0.439, 0.796, 1.00
-opacity = 1.0
-left = 0.31
-width = 0.14
-top = 0.18
-height = 0.04
-
-[ widget-06c ]
-text = >
-fontsize = 0.03
-align = right
-tip = Select car to edit.
-onselect = game.car_edit.next
-onmoveleft = game.car_edit.prev
-onmoveright = game.car_edit.next
-onmoveup = widget-17b
-onmovedown = widget-07b
-onfocus = widget-06b.opacity:0 widget-06c.opacity:0 widget-06d.sat:0.56
-onblur = widget-06b.opacity:1 widget-06c.opacity:1 widget-06d.sat:0.0
-focus = false
-color = 0.439, 0.796, 1.00
-opacity = 1.0
-left = 0.45
-width = 0.14
-top = 0.18
-height = 0.04
-
-[ widget-06d ]
-text = game.car_edit.str
-fontsize = 0.03
-hue = 0.56
-left = 0.31
-width = 0.28
-top = 0.18
-height = 0.04
-
-
-[ widget-07a ]
-text = Driver
+[ start-pos-2 ]
+text = 2
 fontsize = 0.03
 align = right
 left = 0.01
@@ -143,58 +93,8 @@ width = 0.28
 top = 0.22
 height = 0.04
 
-[ widget-07b ]
-text = <
-fontsize = 0.03
-align = left
-tip = Select car driver.
-onselect = game.driver.prev
-onmoveleft = game.driver.prev
-onmoveright = game.driver.next
-onmoveup = widget-06b
-onmovedown =  widget-08b
-onfocus = widget-07b.opacity:0 widget-07c.opacity:0 widget-07d.sat:0.56
-onblur = widget-07b.opacity:1 widget-07c.opacity:1 widget-07d.sat:0.0
-focus = false
-color = 0.439, 0.796, 1.00
-opacity = 1.0
-left = 0.31
-width = 0.14
-top = 0.22
-height = 0.04
-
-[ widget-07c ]
-text = >
-fontsize = 0.03
-align = right
-tip = Select car driver.
-onselect = game.driver.next
-onmoveleft = game.driver.prev
-onmoveright = game.driver.next
-onmoveup = widget-06b
-onmovedown = ailevel-val
-onfocus = widget-07b.opacity:0 widget-07c.opacity:0 widget-07d.sat:0.56
-onblur = widget-07b.opacity:1 widget-07c.opacity:1 widget-07d.sat:0.0
-focus = false
-color = 0.439, 0.796, 1.00
-opacity = 1.0
-left = 0.45
-width = 0.14
-top = 0.22
-height = 0.04
-
-[ widget-07d ]
-text = game.driver.str
-fontsize = 0.03
-hue = 0.56
-left = 0.31
-width = 0.28
-top = 0.22
-height = 0.04
-
-
-[ ailevel-lbl ]
-text = AI Level
+[ start-pos-3 ]
+text = 3
 fontsize = 0.03
 align = right
 left = 0.01
@@ -202,46 +102,8 @@ width = 0.28
 top = 0.26
 height = 0.04
 
-[ ailevel-val ]
-text = game.ai_level.str
-fontsize = 0.03
-tip = Higher values result in an AI that will drive faster.
-onselectx = game.ai_level.norm
-onmoveleft = game.ai_level.prev
-onmoveright = game.ai_level.next
-onmoveup = widget-07b
-onmovedown = widget-08b
-onfocus = ailevel-bar.opacity:0 ailevel-bg.opacity:0 ailevel-val.sat:0.56
-onblur = ailevel-bar.opacity:1 ailevel-bg.opacity:1 ailevel-val.sat:0.0
-focus = false
-hue = 0.56
-left = 0.31
-width = 0.28
-top = 0.265
-height = 0.03
-
-[ ailevel-bar ]
-slider = game.ai_level.norm
-fill = true
-opacity = 1.0
-left = 0.31
-width = 0.28
-top = 0.266
-height = 0.028
-layer = 1
-
-[ ailevel-bg ]
-image = white.png
-color = 0.3, 0.3, 0.3
-opacity = 1.0
-left = 0.31
-width = 0.28
-top = 0.266
-height = 0.028
-
-
-[ widget-08a ]
-text = Car
+[ start-pos-4 ]
+text = 4
 fontsize = 0.03
 align = right
 left = 0.01
@@ -249,58 +111,8 @@ width = 0.28
 top = 0.30
 height = 0.04
 
-[ widget-08b ]
-text = <
-fontsize = 0.03
-align = left
-tip = Choose the car to drive.
-onselect = game.car.prev
-onmoveleft = game.car.prev
-onmoveright = game.car.next
-onmoveup = ailevel-val
-onmovedown = tire-prv
-onfocus = widget-08b.opacity:0 widget-08c.opacity:0 widget-08d.sat:0.56
-onblur = widget-08b.opacity:1 widget-08c.opacity:1 widget-08d.sat:0.0
-focus = false
-color = 0.439, 0.796, 1.00
-opacity = 1.0
-left = 0.31
-width = 0.14
-top = 0.30
-height = 0.04
-
-[ widget-08c ]
-text = >
-fontsize = 0.03
-align = right
-tip = Choose the car to drive.
-onselect = game.car.next
-onmoveleft = game.car.prev
-onmoveright = game.car.next
-onmoveup = widget-07b
-onmovedown = tire-prv
-onfocus = widget-08b.opacity:0 widget-08c.opacity:0 widget-08d.sat:0.56
-onblur = widget-08b.opacity:1 widget-08c.opacity:1 widget-08d.sat:0.0
-focus = false
-color = 0.439, 0.796, 1.00
-opacity = 1.0
-left = 0.45
-width = 0.14
-top = 0.30
-height = 0.04
-
-[ widget-08d ]
-text = game.car.str
-fontsize = 0.03
-hue = 0.56
-left = 0.31
-width = 0.28
-top = 0.30
-height = 0.04
-
-
-[ tire-lbl ]
-text = Tire
+[ start-pos-5 ]
+text = 5
 fontsize = 0.03
 align = right
 left = 0.01
@@ -308,58 +120,8 @@ width = 0.28
 top = 0.34
 height = 0.04
 
-[ tire-prv ]
-text = <
-fontsize = 0.03
-align = left
-tip = Choose the car tire type.
-onselect = game.car_tire.prev
-onmoveleft = game.car_tire.prev
-onmoveright = game.car_tire.next
-onmoveup = widget-08b
-onmovedown = wheel-prv
-onfocus = tire-prv.opacity:0 tire-nxt.opacity:0 tire-val.sat:0.56
-onblur = tire-prv.opacity:1 tire-nxt.opacity:1 tire-val.sat:0.0
-focus = false
-color = 0.439, 0.796, 1.00
-opacity = 1.0
-left = 0.31
-width = 0.14
-top = 0.34
-height = 0.04
-
-[ tire-nxt ]
-text = >
-fontsize = 0.03
-align = right
-tip = Choose the car tire type.
-onselect = game.car_tire.next
-onmoveleft = game.car_tire.prev
-onmoveright = game.car_tire.next
-onmoveup = widget-08b
-onmovedown = wheel-nxt
-onfocus = tire-prv.opacity:0 tire-nxt.opacity:0 tire-val.sat:0.56
-onblur = tire-prv.opacity:1 tire-nxt.opacity:1 tire-val.sat:0.0
-focus = false
-color = 0.439, 0.796, 1.00
-opacity = 1.0
-left = 0.45
-width = 0.14
-top = 0.34
-height = 0.04
-
-[ tire-val ]
-text = game.car_tire.str
-fontsize = 0.03
-hue = 0.56
-left = 0.31
-width = 0.28
-top = 0.34
-height = 0.04
-
-
-[ wheel-lbl ]
-text = Wheel
+[ start-pos-6 ]
+text = 6
 fontsize = 0.03
 align = right
 left = 0.01
@@ -367,58 +129,8 @@ width = 0.28
 top = 0.38
 height = 0.04
 
-[ wheel-prv ]
-text = <
-fontsize = 0.03
-align = left
-tip = Choose the car wheel type.
-onselect = game.car_wheel.prev
-onmoveleft = game.car_wheel.prev
-onmoveright = game.car_wheel.next
-onmoveup = tire-prv
-onmovedown = widget-09b
-onfocus = wheel-prv.opacity:0 wheel-nxt.opacity:0 wheel-val.sat:0.56
-onblur = wheel-prv.opacity:1 wheel-nxt.opacity:1 wheel-val.sat:0.0
-focus = false
-color = 0.439, 0.796, 1.00
-opacity = 1.0
-left = 0.31
-width = 0.14
-top = 0.38
-height = 0.04
-
-[ wheel-nxt ]
-text = >
-fontsize = 0.03
-align = right
-tip = Choose the car wheel type.
-onselect = game.car_wheel.next
-onmoveleft = game.car_wheel.prev
-onmoveright = game.car_wheel.next
-onmoveup = tire-nxt
-onmovedown = widget-09b
-onfocus = wheel-prv.opacity:0 wheel-nxt.opacity:0 wheel-val.sat:0.56
-onblur = wheel-prv.opacity:1 wheel-nxt.opacity:1 wheel-val.sat:0.0
-focus = false
-color = 0.439, 0.796, 1.00
-opacity = 1.0
-left = 0.45
-width = 0.14
-top = 0.38
-height = 0.04
-
-[ wheel-val ]
-text = game.car_wheel.str
-fontsize = 0.03
-hue = 0.56
-left = 0.31
-width = 0.28
-top = 0.38
-height = 0.04
-
-
-[ widget-09a ]
-text = Paint
+[ start-pos-7 ]
+text = 7
 fontsize = 0.03
 align = right
 left = 0.01
@@ -426,58 +138,8 @@ width = 0.28
 top = 0.42
 height = 0.04
 
-[ widget-09b ]
-text = <
-fontsize = 0.03
-align = left
-tip = Choose the paint job for the car.
-onselect = game.car_paint.prev
-onmoveleft = game.car_paint.prev
-onmoveright = game.car_paint.next
-onmoveup = wheel-prv
-onmovedown = widget-10b
-onfocus = widget-09b.opacity:0 widget-09c.opacity:0 widget-09d.sat:0.56
-onblur = widget-09b.opacity:1 widget-09c.opacity:1 widget-09d.sat:0.0
-focus = false
-color = 0.439, 0.796, 1.00
-opacity = 1.0
-left = 0.31
-width = 0.14
-top = 0.42
-height = 0.04
-
-[ widget-09c ]
-text = >
-fontsize = 0.03
-align = right
-tip = Choose the paint job for the car.
-onselect = game.car_paint.next
-onmoveleft = game.car_paint.prev
-onmoveright = game.car_paint.next
-onmoveup = wheel-nxt
-onmovedown = widget-10b
-onfocus = widget-09b.opacity:0 widget-09c.opacity:0 widget-09d.sat:0.56
-onblur = widget-09b.opacity:1 widget-09c.opacity:1 widget-09d.sat:0.0
-focus = false
-color = 0.439, 0.796, 1.00
-opacity = 1.0
-left = 0.45
-width = 0.14
-top = 0.42
-height = 0.04
-
-[ widget-09d ]
-text = game.car_paint.str
-fontsize = 0.03
-hue = 0.56
-left = 0.31
-width = 0.28
-top = 0.42
-height = 0.04
-
-
-[ widget-10a ]
-text = Hue
+[ start-pos-8 ]
+text = 8
 fontsize = 0.03
 align = right
 left = 0.01
@@ -485,34 +147,8 @@ width = 0.28
 top = 0.46
 height = 0.04
 
-[ widget-10b ]
-slider = game.car_color_hue
-tip = Choose the hue for the car.
-onselectx = game.car_color_hue
-onmoveleft = game.car_color_hue.prev
-onmoveright = game.car_color_hue.next
-onmoveup = widget-09b
-onmovedown = widget-11b
-onfocus = widget-10b.sat:0.56
-onblur = widget-10b.sat:0.0
-focus = false
-hue = 0.56
-left = 0.31
-width = 0.28
-top = 0.465
-height = 0.03
-layer = 1
-
-[ widget-10d ]
-image = color_hue.png
-left = 0.31
-width = 0.28
-top = 0.466
-height = 0.028
-
-
-[ widget-11a ]
-text = Saturation
+[ start-pos-9 ]
+text = 9
 fontsize = 0.03
 align = right
 left = 0.01
@@ -520,45 +156,8 @@ width = 0.28
 top = 0.50
 height = 0.04
 
-[ widget-11b ]
-slider = game.car_color_sat
-tip = Choose the saturation for the car.
-onselectx = game.car_color_sat
-onmoveleft = game.car_color_sat.prev
-onmoveright = game.car_color_sat.next
-onmoveup = widget-10b
-onmovedown = widget-12b
-onfocus = widget-11b.sat:0.56
-onblur = widget-11b.sat:0.0
-focus = false
-hue = 0.56
-left = 0.31
-width = 0.28
-top = 0.505
-height = 0.03
-layer = 1
-
-[ widget-11c ]
-image = color_saturation.png
-hue = game.car_color_hue
-sat = 1.0
-val = game.car_color_val
-left = 0.31
-width = 0.28
-top = 0.506
-height = 0.028
-
-[ widget-11d ]
-image = white.png
-left = 0.31
-width = 0.28
-top = 0.506
-height = 0.028
-layer = -1
-
-
-[ widget-12a ]
-text = Brightness
+[ start-pos-10 ]
+text = 10
 fontsize = 0.03
 align = right
 left = 0.01
@@ -566,95 +165,17 @@ width = 0.28
 top = 0.54
 height = 0.04
 
-[ widget-12b ]
-slider = game.car_color_val
-tip = Choose the brightness for the car.
-onselectx = game.car_color_val
-onmoveleft = game.car_color_val.prev
-onmoveright = game.car_color_val.next
-onmoveup = widget-11b
-onmovedown = widget-13b
-onfocus = widget-12b.sat:0.56
-onblur = widget-12b.sat:0.0
-focus = false
-hue = 0.56
-left = 0.31
-width = 0.28
-top = 0.545
-height = 0.03
-layer = 1
-
-[ widget-12c ]
-image = color_value.png
-hue = game.car_color_hue
-sat = game.car_color_sat
-val = 1.0
-left = 0.31
-width = 0.28
-top = 0.546
-height = 0.028
-
-[ widget-13a ]
-text = Antilock Brakes
+[ start-pos-11 ]
+text = 11
 fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.60
+top = 0.58
 height = 0.04
 
-[ widget-13b ]
-text = <
-fontsize = 0.03
-align = left
-tip = Help reduce wheel lockup on heavy braking (driver aid).
-onselect = game.antilock.prev
-onmoveleft = game.antilock.prev
-onmoveright = game.antilock.next
-onmoveup = widget-12b
-onmovedown = widget-14b
-onfocus = widget-13b.opacity:0 widget-13c.opacity:0 widget-13d.sat:0.56
-onblur = widget-13b.opacity:1 widget-13c.opacity:1 widget-13d.sat:0.0
-focus = false
-color = 0.439, 0.796, 1.00
-opacity = 1.0
-left = 0.31
-width = 0.14
-top = 0.60
-height = 0.04
-
-[ widget-13c ]
-text = >
-fontsize = 0.03
-align = right
-tip = Help reduce wheel lockup on heavy braking (driver aid).
-onselect = game.antilock.next
-onmoveleft = game.antilock.prev
-onmoveright = game.antilock.next
-onmoveup = widget-12b
-onmovedown = widget-14b
-onfocus = widget-13b.opacity:0 widget-13c.opacity:0 widget-13d.sat:0.56
-onblur = widget-13b.opacity:1 widget-13c.opacity:1 widget-13d.sat:0.0
-focus = false
-color = 0.439, 0.796, 1.00
-opacity = 1.0
-left = 0.45
-width = 0.14
-top = 0.60
-height = 0.04
-
-[ widget-13d ]
-text = game.antilock.str
-fontsize = 0.03
-hue = 0.56
-left = 0.31
-width = 0.28
-top = 0.60
-height = 0.04
-
-
-[ widget-14a ]
-text = Traction Control
+[ start-pos-12 ]
+text = 12
 fontsize = 0.03
 align = right
 left = 0.01
@@ -662,54 +183,26 @@ width = 0.28
 top = 0.62
 height = 0.04
 
-[ widget-14b ]
-text = <
-fontsize = 0.03
-align = left
-tip = Prevents wheels from spinning during acceleration (driver aid).
-onselect = game.traction_control.prev
-onmoveleft = game.traction_control.prev
-onmoveright = game.traction_control.next
-onmoveup = widget-13b
-onmovedown = widget-16b
-onfocus = widget-14b.opacity:0 widget-14c.opacity:0 widget-14d.sat:0.56
-onblur = widget-14b.opacity:1 widget-14c.opacity:1 widget-14d.sat:0.0
-focus = false
-color = 0.439, 0.796, 1.00
-opacity = 1.0
-left = 0.31
-width = 0.14
-top = 0.62
-height = 0.04
 
-[ widget-14c ]
-text = >
+[ start-list ]
+text = game.startlist.str
 fontsize = 0.03
-align = right
-tip = Prevents wheels from spinning during acceleration (driver aid).
-onselect = game.traction_control.next
-onmoveleft = game.traction_control.prev
-onmoveright = game.traction_control.next
-onmoveup = widget-13b
+align = center
+list = game.startlist
+rows = 12
+cols = 1
+padding-lr = 0.01
+onselect = game.startlist.nth Garage
+onmoveup = widget-17b
 onmovedown = widget-16b
-onfocus = widget-14b.opacity:0 widget-14c.opacity:0 widget-14d.sat:0.56
-onblur = widget-14b.opacity:1 widget-14c.opacity:1 widget-14d.sat:0.0
-focus = false
-color = 0.439, 0.796, 1.00
-opacity = 1.0
-left = 0.45
-width = 0.14
-top = 0.62
-height = 0.04
-
-[ widget-14d ]
-text = game.traction_control.str
-fontsize = 0.03
+onfocus = start-list.sat:0.56
+onblur = start-list.sat:0.0
+focus = true
 hue = 0.56
-left = 0.31
-width = 0.28
-top = 0.62
-height = 0.04
+left = 0.30
+width = 0.30
+top = 0.18
+height = 0.48
 
 
 [ widget-16b ]
@@ -718,7 +211,7 @@ fontsize = 0.03
 #align = left
 tip = Start a race using the selected car and track.
 onselect = gui.options.save StartRace
-onmoveup = widget-14b
+onmoveup = start-list
 onmovedown = widget-17b
 onfocus = widget-16b.sat:0.56
 onblur = widget-16b.sat:0.0
@@ -744,10 +237,10 @@ layer = -1
 text = Back
 fontsize = 0.03
 #align = left
-tip = Return to the Main menu.
-onselect = gui.options.save EditPlayerCar SingleRace
+tip = Return to the Race menu.
+onselect = gui.options.save SelectPlayerCar SingleRace
 onmoveup = widget-16b
-onmovedown = widget-06b
+onmovedown = start-list
 onfocus = widget-17b.sat:0.56
 onblur = widget-17b.sat:0.0
 focus = false
@@ -766,40 +259,3 @@ width = 0.30
 top = 0.701
 height = 0.038
 layer = -1
-
-
-[ start-list-bg ]
-image = white.png
-color = 0.172, 0.161, 0.169
-opacity = 0.3
-right = 0.01
-width = 0.32
-top = 0.54
-height = 0.32
-layer = -1
-
-[ start-list-lbl ]
-text = Start List:
-fontsize = 0.03
-align = left
-right = 0.02
-width = 0.30
-top = 0.54
-height = 0.04
-
-[ start-list ]
-text = game.startlist.str
-fontsize = 0.03
-align = left
-rows = 6
-cols = 2
-vertical = false
-padding-lr = 0.01
-onfocus = start-list.sat:0.56
-onblur = start-list.sat:0.0
-focus = false
-hue = 0.56
-right = 0.01
-width = 0.32
-top = 0.58
-height = 0.28
