@@ -1,5 +1,5 @@
 name = StartingGrid
-oncancel = gui.options.save EditPlayerCar SingleRace
+oncancel = gui.options.save SelectPlayerCar SingleRace
 
 
 [ bg-top ]
@@ -192,7 +192,7 @@ list = game.startlist
 rows = 12
 cols = 1
 padding-lr = 0.01
-onselect = game.startlist.nth Garage
+onselect = game.startlist.nth CarSetup
 onmoveup = widget-17b
 onmovedown = widget-16b
 onfocus = start-list.sat:0.56

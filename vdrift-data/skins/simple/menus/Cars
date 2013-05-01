@@ -1,5 +1,5 @@
 name = Cars
-oncancel = gui.prev.page
+oncancel = gui.page.prev
 
 
 [ bg-top ]
@@ -102,7 +102,7 @@ cols = 5
 #vertical = false
 padding-lr = 0.01
 padding-tb = 0.01
-onselect = game.car.nth gui.prev.page
+onselect = game.car.nth gui.page.prev
 onscrollf = list-txt.scroll:fwd
 onscrollr = list-txt.scroll:rev
 onfocus = list-txt.sat:0.56
