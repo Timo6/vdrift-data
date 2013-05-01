@@ -1,5 +1,5 @@
-name = Garage
-oncancel = gui.options.save Main
+name = CarSetup
+oncancel = gui.options.save StartingGrid
 
 
 [ bg-top ]
@@ -56,7 +56,7 @@ layer = -1
 
 
 [ title ]
-text = Garage
+text = Race / Starting Grid / Car
 fontsize = 0.06
 align = left
 left = 0.29
@@ -707,7 +707,7 @@ text = Race
 fontsize = 0.03
 #align = left
 tip = Start a race.
-onselect = gui.options.save SingleRace
+onselect = gui.options.save SelectPlayerCar SingleRace
 onmoveup = widget-14b
 onmovedown = widget-17b
 onfocus = widget-16b.sat:0.56
@@ -735,7 +735,7 @@ text = Back
 fontsize = 0.03
 #align = left
 tip = Return to previous menu.
-onselect = gui.options.save Main
+onselect = gui.options.save StartingGrid
 onmoveup = widget-16b
 onmovedown = widget-06b
 onfocus = widget-17b.sat:0.56
