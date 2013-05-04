@@ -231,22 +231,22 @@ chassis = 0.10, -1.51, -0.20
 [wheel.fl.tire]
 texture = tire/touring.png
 size = 215, 45, 18
-type = &sports.tire
+type = &tire/sports.tire
 
 [wheel.fr.tire]
 texture = tire/touring.png
 size = 215, 45, 18
-type = &sports.tire
+type = &tire/sports.tire
 
 [wheel.rl.tire]
 texture = tire/touring.png
 size = 275, 40, 18
-type = &sports.tire
+type = &tire/sports.tire
 
 [wheel.rr.tire]
 texture = tire/touring.png
 size = 275, 40, 18
-type = &sports.tire
+type = &tire/sports.tire
 
 [wheel.fl]
 texture = wheel/pentagonal_hub.png
