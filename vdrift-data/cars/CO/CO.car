@@ -211,11 +211,11 @@ caster = 0.28
 toe = 0.0
 
 [steering]
-texture = steering_wheel.png
+texture = interior.png
 mesh = steering_wheel.joe
-position = -0.43, -0.13, 0.14
-rotation = 87.5, 0.0, 0.0
-max-angle = 320
+position = -0.43, -0.09, 0.07
+rotation = 70.35, 0.0, 0.0
+max-angle = 200
 
 [driver]
 texture = driver2.png, driver-misc1.png
@@ -274,7 +274,7 @@ position = 0.0, 0.1, 0.40
 [camera.1]
 name = driver
 type = mount
-position = -0.43, -0.50, 0.50
+position = -0.43, -0.55, 0.40
 
 [camera.2]
 name = chase rigid
