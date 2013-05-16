@@ -397,6 +397,7 @@ shader = deferredshadows
 write_color = false
 write_alpha = true
 blendmode = disabled
+conditions = shadows_near
 
 
 ; ssao
