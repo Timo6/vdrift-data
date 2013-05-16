@@ -180,36 +180,36 @@ anti-roll = 10000
 
 [wheel.fl.brake]
 texture = rotor_shiny_slotted_drilled.png
-friction = 15.0
-max-pressure = 2.5e6
-bias = 0.65
+friction = 0.7
+max-pressure = 15e6
+bias = 0.5
 radius = 0.175 # 350mm
 area = 0.009 # 205mm x 48mm
 
 [wheel.fr.brake]
 texture = rotor_shiny_slotted_drilled.png
-friction = 15.0
-max-pressure = 2.5e6
-bias = 0.65
+friction = 0.7
+max-pressure = 15e6
+bias = 0.5
 radius = 0.175 # 350mm
 area = 0.009 # 205mm x 48mm
 
 [wheel.rl.brake]
 texture = rotor_shiny_slotted_drilled.png
-friction = 15.0
-max-pressure = 2.5e6
-bias = 0.45
-radius = 0.165 # 330mm
-area = 0.007 # 146mm x 48mm
+friction = 0.7
+max-pressure = 15e6
+bias = 0.5
+radius = 0.125 # 230mm
+area = 0.005 # 105mm x 48mm
 handbrake = 1.0
 
 [wheel.rr.brake]
 texture = rotor_shiny_slotted_drilled.png
-friction = 15.0
-max-pressure = 2.5e6
-bias = 0.45
-radius = 0.165 # 330mm
-area = 0.007 # 146mm x 48mm
+friction = 0.7
+max-pressure = 15e6
+bias = 0.5
+radius = 0.125 # 230mm
+area = 0.005 # 105mm x 48mm
 handbrake = 1.0
 
 [wheel.fl.hinge]
@@ -231,22 +231,22 @@ chassis = 0.10, -1.51, -0.20
 [wheel.fl.tire]
 texture = tire/touring.png
 size = 215, 45, 18
-type = &tire/sports.tire
+type = tire/sports.tire
 
 [wheel.fr.tire]
 texture = tire/touring.png
 size = 215, 45, 18
-type = &tire/sports.tire
+type = tire/sports.tire
 
 [wheel.rl.tire]
 texture = tire/touring.png
 size = 275, 40, 18
-type = &tire/sports.tire
+type = tire/sports.tire
 
 [wheel.rr.tire]
 texture = tire/touring.png
 size = 275, 40, 18
-type = &tire/sports.tire
+type = tire/sports.tire
 
 [wheel.fl]
 texture = wheel/pentagonal_hub.png
@@ -349,24 +349,28 @@ mass = 100
 position = -0.7, -1.10, -0.0
 
 [particle-06]# Interieur
-mass = 100
+mass = 60
 position = 0.7, 0.60, -0.10
 
 [particle-07]# Interieur
-mass = 100
+mass = 60
 position = -0.7, 0.60, -0.10
 
 [particle-08]# Chassis top
 mass = 80
 position = 0.0, -0.3, 0.3
 
-[particle-09]# gearbox
+[particle-09]# Gearbox
 mass = 60.0
 position = 0.00, -1.75, -0.25
 
 [particle-10]# Chassis rear
 mass = 100.0
 position = 0.00, -1.80, -0.0
+
+[particle-11]# Driver compensating weight
+position = 0.28, 0.12, 0.12
+mass = 90.0
 
 [camera.0]
 name = hood

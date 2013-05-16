@@ -146,22 +146,22 @@ handbrake = 4.0
 [wheel.fl.tire]
 texture = tire/touring.png
 size = 205, 55, 15
-type = &tire/touring.tire
+type = tire/touring.tire
 
 [wheel.fr.tire]
 texture = tire/touring.png
 size = 205, 55, 15
-type = &tire/touring.tire
+type = tire/touring.tire
 
 [wheel.rl.tire]
 texture = tire/touring.png
 size = 205, 55, 15
-type = &tire/touring.tire
+type = tire/touring.tire
 
 [wheel.rr.tire]
 texture = tire/touring.png
 size = 205, 55, 15
-type = &tire/touring.tire
+type = tire/touring.tire
 
 #[wheel.fl.macpherson-strut]
 #strut-top = -0.66, 1.34, 0.05
