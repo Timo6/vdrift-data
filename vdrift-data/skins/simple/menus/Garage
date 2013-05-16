@@ -703,7 +703,7 @@ height = 0.04
 
 
 [ widget-16b ]
-text = Race
+text = Single Race
 fontsize = 0.03
 #align = left
 tip = Start a race.
@@ -737,7 +737,7 @@ fontsize = 0.03
 tip = Return to previous menu.
 onselect = gui.options.save Main
 onmoveup = widget-16b
-onmovedown = widget-06b
+onmovedown = startpos-prv
 onfocus = widget-17b.sat:0.56
 onblur = widget-17b.sat:0.0
 focus = false
