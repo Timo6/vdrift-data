@@ -175,22 +175,22 @@ handbrake = 1.0
 [wheel.fl.tire]
 texture = tire/touring.png
 size = 215,45,17
-type = &tire/touring.tire
+type = tire/touring.tire
 
 [wheel.fr.tire]
 texture = tire/touring.png
 size = 215,45,17
-type = &tire/touring.tire
+type = tire/touring.tire
 
 [wheel.rl.tire]
 texture = tire/touring.png
 size = 245,40,17
-type = &tire/touring.tire
+type = tire/touring.tire
 
 [wheel.rr.tire]
 texture = tire/touring.png
 size = 245,40,17
-type = &tire/touring.tire
+type = tire/touring.tire
 
 [wheel.fl.double-wishbone]
 upper-chassis-rear = -0.42, 1.0, -0.31

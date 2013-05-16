@@ -140,22 +140,22 @@ handbrake = 1.0
 [wheel.fl.tire]
 texture = tire/touring.png
 size = 185,60,14
-type = &tire/touring.tire
+type = tire/touring.tire
 
 [wheel.fr.tire]
 texture = tire/touring.png
 size = 185,60,14
-type = &tire/touring.tire
+type = tire/touring.tire
 
 [wheel.rl.tire]
 texture = tire/touring.png
 size = 185,60,14
-type = &tire/touring.tire
+type = tire/touring.tire
 
 [wheel.rr.tire]
 texture = tire/touring.png
 size = 185,60,14
-type = &tire/touring.tire
+type = tire/touring.tire
 
 [wheel.fl.hinge]
 wheel = -0.673, 1.16, -0.43
