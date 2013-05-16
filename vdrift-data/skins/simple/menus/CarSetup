@@ -703,11 +703,11 @@ height = 0.04
 
 
 [ widget-16b ]
-text = Race
+text = Start Race
 fontsize = 0.03
 #align = left
-tip = Start a race.
-onselect = gui.options.save SelectPlayerCar SingleRace
+tip = Start a race using the selcted car and track.
+onselect = gui.options.save StartRace
 onmoveup = widget-14b
 onmovedown = widget-17b
 onfocus = widget-16b.sat:0.56

@@ -355,7 +355,7 @@ onselect = game.cars_num.prev
 onmoveleft = game.cars_num.prev
 onmoveright = game.cars_num.next
 onmoveup = widget-05b
-onmovedown =  ai-prev
+onmovedown =  ailevel-val
 onfocus = widget-06b.opacity:0 widget-06c.opacity:0 widget-06d.sat:0.56
 onblur = widget-06b.opacity:1 widget-06c.opacity:1 widget-06d.sat:0.0
 focus = false
@@ -375,7 +375,7 @@ onselect = game.cars_num.next
 onmoveleft = game.cars_num.prev
 onmoveright = game.cars_num.next
 onmoveup = widget-05b
-onmovedown = ai-next
+onmovedown = ailevel-val
 onfocus = widget-06b.opacity:0 widget-06c.opacity:0 widget-06d.sat:0.56
 onblur = widget-06b.opacity:1 widget-06c.opacity:1 widget-06d.sat:0.0
 focus = false
@@ -396,7 +396,7 @@ top = 0.42
 height = 0.04
 
 
-[ widget-07a ]
+[ ailevel-lbl ]
 text = AI Level
 fontsize = 0.03
 align = right
@@ -405,17 +405,17 @@ width = 0.28
 top = 0.46
 height = 0.04
 
-[ widget-07b ]
+[ ailevel-val ]
 text = game.ai_level.str
 fontsize = 0.03
 tip = Higher values result in an AI that will drive faster.
 onselectx = game.ai_level.norm
 onmoveleft = game.ai_level.prev
 onmoveright = game.ai_level.next
-onmoveup = ai-prev
+onmoveup = driver-prv
 onmovedown = widget-15b
-onfocus = widget-07c.opacity:0 widget-07d.opacity:0 widget-07b.sat:0.56
-onblur = widget-07c.opacity:1 widget-07d.opacity:1 widget-07b.sat:0.0
+onfocus = ailevel-bar.opacity:0 ailevel-bg.opacity:0 ailevel-val.sat:0.56
+onblur = ailevel-bar.opacity:1 ailevel-bg.opacity:1 ailevel-val.sat:0.0
 focus = false
 hue = 0.56
 left = 0.31
@@ -423,7 +423,7 @@ width = 0.28
 top = 0.465
 height = 0.03
 
-[ widget-07c ]
+[ ailevel-bar ]
 slider = game.ai_level.norm
 fill = true
 opacity = 1.0
@@ -433,7 +433,7 @@ top = 0.466
 height = 0.028
 layer = 1
 
-[ widget-07d ]
+[ ailevel-bg ]
 image = white.png
 color = 0.3, 0.3, 0.3
 opacity = 1.0
@@ -460,7 +460,7 @@ tip = Enable car damage model.
 onselect = game.vehicle_damage.prev
 onmoveleft = game.vehicle_damage.prev
 onmoveright = game.vehicle_damage.next
-onmoveup = widget-07b
+onmoveup = ailevel-val
 onmovedown = grid-btn
 onfocus = widget-15b.opacity:0 widget-15c.opacity:0 widget-15d.sat:0.56
 onblur = widget-15b.opacity:1 widget-15c.opacity:1 widget-15d.sat:0.0
