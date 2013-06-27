@@ -101,6 +101,12 @@ name = ssao_blur
 [shader]
 name = deferredaa
 
+[shader]
+name = skygen
+
+[shader]
+name = skydraw
+
 
 ; RENDER OUTPUTS
 
@@ -158,22 +164,22 @@ filter = nearest
 format = RGBA8
 
 ; log luminance map
-[output]
-name = log_luminance
-width = 512
-height = 512
-type = 2D
-filter = linear
-format = RGB8
-mipmap = true
+;[output]
+;name = log_luminance
+;width = 512
+;height = 512
+;type = 2D
+;filter = linear
+;format = RGB8
+;mipmap = true
 
-[output]
-name = log_luminance_tiny
-width = 2
-height = 2
-type = 2D
-filter = linear
-format = RGB8
+;[output]
+;name = log_luminance_tiny
+;width = 2
+;height = 2
+;type = 2D
+;filter = linear
+;format = RGB8
 
 ; ssao surfaces
 
@@ -200,8 +206,7 @@ height = 256
 type = cube
 format = RGB8
 conditions = reflection_dynamic
-;mipmap = true
-
+;mipmap = truesky
 
 ; shadows: low quality
 
@@ -284,6 +289,16 @@ conditions = shadows_far shadow_quality_high
 
 ; DRAWING PASSES
 
+
+; prepass for dynamic sky
+;[pass]
+;draw = postprocess
+;output = sky
+;shader = skygen
+;cull = false
+;conditions = sky_dynamic
+;blendmode = disabled
+
 ; prepasses for shadows
 
 [pass]
@@ -339,6 +354,7 @@ blendmode = disabled
 
 
 ; prepass for dynamic reflections
+
 [pass]
 draw = skybox_noblend
 camera = dynamic_reflection_skybox
@@ -439,6 +455,18 @@ cull = false
 clear_color = true
 clear_depth = true
 blendmode = disabled
+conditions = !sky_dynamic
+
+[pass]
+draw = postprocess
+inputs = sky
+output = full_scene_color
+shader = skydraw
+cull = false
+clear_color = true
+clear_depth = true
+blendmode = disabled
+conditions = sky_dynamic
 
 [pass]
 camera = skybox
