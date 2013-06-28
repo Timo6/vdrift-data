@@ -430,7 +430,7 @@ height = 0.04
 
 
 [ widget-07a ]
-text = Shaders
+text = Renderer
 fontsize = 0.03
 align = right
 left = 0.01
@@ -442,10 +442,10 @@ height = 0.04
 text = <
 fontsize = 0.03
 align = left
-tip = Turning off shaders will speed up rendering at the cost of visual quality.
-onselect = display.shaders.prev
-onmoveleft = display.shaders.prev
-onmoveright = display.shaders.next
+tip = Lower renderer version will speed up rendering at the cost of visual quality.
+onselect = display.renderer.prev
+onmoveleft = display.renderer.prev
+onmoveright = display.renderer.next
 onmoveup = widget-06b
 onmovedown = widget-08b
 onfocus = widget-07b.opacity:0 widget-07c.opacity:0 widget-07d.sat:0.56
@@ -462,10 +462,10 @@ height = 0.04
 text = >
 fontsize = 0.03
 align = right
-tip = Turning off shaders will speed up rendering at the cost of visual quality.
-onselect = display.shaders.next
-onmoveleft = display.shaders.prev
-onmoveright = display.shaders.next
+tip = Lower renderer version will speed up rendering at the cost of visual quality.
+onselect = display.renderer.next
+onmoveleft = display.renderer.prev
+onmoveright = display.renderer.next
 onmoveup = widget-06b
 onmovedown = widget-08b
 onfocus = widget-07b.opacity:0 widget-07c.opacity:0 widget-07d.sat:0.56
@@ -479,7 +479,7 @@ top = 0.42
 height = 0.04
 
 [ widget-07d ]
-text = display.shaders.str
+text = display.renderer.str
 fontsize = 0.03
 hue = 0.56
 left = 0.31
