@@ -9,7 +9,7 @@ const float g = -0.990;
 
 // air, aerosol density scale (turbidity)
 //uniform vec2 RayleighMieScaleHeight;// = {0.25, 0.1};
-const vec2 RayleighMieScaleHeight = {0.25, 0.1};
+const vec2 RayleighMieScaleHeight = vec2(0.25, 0.1);
 
 // rgb wavelength(rayleigh and mie)
 //const vec3 WaveLength = vec3(0.65, 0.57, 0.475);
