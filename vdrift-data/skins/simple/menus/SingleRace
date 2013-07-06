@@ -85,15 +85,48 @@ top = 0.18
 height = 0.04
 
 [ widget-02b ]
-text = game.track.str
+text = <
 fontsize = 0.03
+align = left
 tip = Choose the track to drive on.
 onselect = Tracks
+onmoveleft = game.track.prev
+onmoveright = game.track.next
 onmoveup = widget-17b
 onmovedown = widget-03b
-onfocus = widget-02b.sat:0.56
-onblur = widget-02b.sat:0.0
+onfocus = widget-02b.opacity:0 widget-02c.opacity:0 widget-02d.sat:0.56
+onblur = widget-02b.opacity:1 widget-02c.opacity:1 widget-02d.sat:0.0
 focus = true
+color = 0.439, 0.796, 1.00
+opacity = 1.0
+left = 0.31
+width = 0.14
+top = 0.18
+height = 0.04
+
+[ widget-02c ]
+text = >
+fontsize = 0.03
+align = right
+tip = Choose the track to drive on.
+onselect = Tracks
+onmoveleft = game.track.prev
+onmoveright = game.track.next
+onmoveup = widget-17b
+onmovedown = widget-03b
+onfocus = widget-02b.opacity:0 widget-02c.opacity:0 widget-02d.sat:0.56
+onblur = widget-02b.opacity:1 widget-02c.opacity:1 widget-02d.sat:0.0
+focus = false
+color = 0.439, 0.796, 1.00
+opacity = 1.0
+left = 0.45
+width = 0.14
+top = 0.18
+height = 0.04
+
+[ widget-02d]
+text = game.track.str
+fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
