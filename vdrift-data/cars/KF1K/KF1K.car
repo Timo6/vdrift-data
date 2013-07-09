@@ -216,7 +216,7 @@ size = 1.1, 1.65, 0.25
 
 # these are used to calculate the weight distribution and balance
 [particle-00] # driver
-position = -0.1, 0.08, 0.02
+position = -0.045, 0.08, 0.02
 mass = 80.0
 
 [particle-01]

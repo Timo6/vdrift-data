@@ -256,6 +256,10 @@ mesh = driver.joe
 position = -0.33, -0.1, 0.12
 mass = 70.0
 
+[balance-weight]
+position = 0.33, -0.1, 0.12
+mass = 70.0
+
 [body]
 texture = body00.png
 mesh = body.joe
@@ -319,10 +323,6 @@ position = 0.0, 0.6, -0.41
 [particle-09]	#transmission
 mass = 160.0
 position = 0.0, -1.12, -0.24
-
-[particle-10]	#driver
-mass = 70
-position = -0.33, -0.1, 0.27
 
 [camera.0]
 name = hood

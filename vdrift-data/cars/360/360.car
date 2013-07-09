@@ -297,7 +297,11 @@ max-angle = 320
 texture = driver2.png, driver-misc1.png
 mesh = driver.joe
 position = -0.28, 0.12, 0.12
-mass = 90.0
+mass = 80.0
+
+[balance-weight]
+position = 0.28, 0.12, 0.12
+mass = 80.0
 
 [body]
 texture = body00.png, body-misc1.png
@@ -367,10 +371,6 @@ position = 0.00, -1.75, -0.25
 [particle-10]# Chassis rear
 mass = 100.0
 position = 0.00, -1.80, -0.0
-
-[particle-11]# Driver compensating weight
-position = 0.28, 0.12, 0.12
-mass = 90.0
 
 [camera.0]
 name = hood

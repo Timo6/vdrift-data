@@ -289,7 +289,11 @@ max-angle = 320
 texture = driver2.png, driver-misc1.png
 mesh = driver.joe
 position = 0.292, -0.210, -0.125
-mass = 90.0
+mass = 80.0
+
+[balance-weight]
+position = -0.292, -0.210, -0.125
+mass = 80.0
 
 [interior]
 texture = interior.png
