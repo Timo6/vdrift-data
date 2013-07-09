@@ -210,7 +210,7 @@ max-angle = 80
 texture = driver2.png, driver-misc1.png
 mesh = driver.joe
 position = 0.0, 0.1, -0.23 #-0.45
-mass = 90.0
+mass = 80.0
 
 [body]
 texture = body00.png, body-misc1.png

@@ -227,7 +227,11 @@ max-angle = 320
 texture = driver2.png, driver-misc1.png
 mesh = driver.joe
 position = -0.35, -0.15, 0.08
-mass = 90.0
+mass = 80.0
+
+[balance-weight]
+position = 0.35, -0.15, 0.08
+mass = 80.0
 
 [body]
 texture = body00.png, body-misc1.png
@@ -253,10 +257,6 @@ mesh = body.joe
 draw = emissive
 
 # these are used to calculate the weight distribution and balance
-[particle-00]
-mass = 60.0
-position = 0.1, 0.5, -0.45
-
 [particle-01]
 mass = 130.0
 position = 0.4, -1.07, 0.1

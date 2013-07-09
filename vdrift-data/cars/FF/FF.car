@@ -1,6 +1,6 @@
 
 [engine]
-position = 0.15, -1.10, -0.45
+position = 0.0, -1.10, -0.45
 mass = 84.0
 max-power = 85755
 peak-engine-rpm = 7000.0
@@ -215,7 +215,7 @@ max-angle = 320
 texture = driver2.png, driver-misc1.png
 mesh = driver.joe
 position = 0, 0.3, -0.35
-mass = 90.0
+mass = 80.0
 scale = 0.72
 
 [body]

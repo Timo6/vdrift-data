@@ -224,7 +224,11 @@ max-angle = 320
 texture = driver2.png, driver-misc1.png
 mesh = driver.joe
 position = -0.45, -0.20, 0.05
-mass = 90.0
+mass = 80.0
+
+[balance-weight]
+position = 0.45, -0.20, 0.05
+mass = 80.0
 
 [body]
 texture = body00.png, body-misc1.png
@@ -271,7 +275,7 @@ mass = 33
 position = 1.11, -2.32, -0.62
 
 [particle-05]
-mass = 3
+mass = 33
 position = 1.11, 2.3, -0.62
 
 [particle-06]
