@@ -19,19 +19,6 @@ folder = simple
 defines = _GAMMA_
 
 [shader]
-name = simplecar
-folder = simple
-defines = _CARPAINT_
-
-;[shader]
-;name = logluminance
-
-;[shader]
-;name = logluminance_tiny
-;folder = logluminance
-;defines = _TINY_
-
-[shader]
 name = tonemap
 
 [shader]
@@ -66,28 +53,7 @@ folder = depthgen
 name = distancefield
 
 [shader]
-name = deferredskybox
-
-[shader]
-name = deferredskyboxblend
-
-[shader]
 name = softparticle
-
-[shader]
-name = ppdepthadjust
-folder = ppdepthadjust
-defines = _DEPTH_TO_ONE_
-
-[shader]
-name = ppcopy
-folder = ppdepthadjust
-defines = _WITH_COLOR_
-
-[shader]
-name = ppcopy_gamma
-folder = ppdepthadjust
-defines = _WITH_COLOR_ _GAMMA_
 
 [shader]
 name = deferredshadows
@@ -135,6 +101,7 @@ height = framebuffer
 type = 2D
 filter = linear
 format = RGBA8
+conditions = fsaa
 
 ; RG: 16-bit packed X component of eye-space normal, BA: 16-bit packed Y component
 [output]
@@ -163,24 +130,6 @@ type = 2D
 filter = nearest
 format = RGBA8
 
-; log luminance map
-;[output]
-;name = log_luminance
-;width = 512
-;height = 512
-;type = 2D
-;filter = linear
-;format = RGB8
-;mipmap = true
-
-;[output]
-;name = log_luminance_tiny
-;width = 2
-;height = 2
-;type = 2D
-;filter = linear
-;format = RGB8
-
 ; ssao surfaces
 
 [output]
@@ -206,7 +155,6 @@ height = 256
 type = cube
 format = RGB8
 conditions = reflection_dynamic
-;mipmap = truesky
 
 ; shadows: low quality
 
@@ -289,15 +237,6 @@ conditions = shadows_far shadow_quality_high
 
 ; DRAWING PASSES
 
-
-; prepass for dynamic sky
-;[pass]
-;draw = postprocess
-;output = sky
-;shader = skygen
-;cull = false
-;conditions = sky_dynamic
-;blendmode = disabled
 
 ; prepasses for shadows
 
@@ -536,19 +475,6 @@ blendmode = add
 
 ; postprocessing phase
 
-;[pass]
-;draw = postprocess
-;output = log_luminance
-;inputs = full_scene_color
-;shader = logluminance
-
-;[pass]
-;draw = postprocess
-;output = log_luminance_tiny
-;inputs = log_luminance
-;shader = logluminance_tiny
-;blendmode = alphablend
-
 [pass]
 draw = postprocess
 output = framebuffer
@@ -597,24 +523,6 @@ blendmode = alphablend
 depthtest = disabled
 write_depth = false
 
-
-; 3D UI elements
-
-[pass]
-draw = nocamtrans_noblend
-output = framebuffer
-shader = simplecar
-clear_depth = true
-camera = ui3d
-cull = false
-
-[pass]
-draw = nocamtrans_blend
-output = framebuffer
-shader = simple_premult
-camera = ui3d
-cull = false
-blendmode = alphablend_premultiplied
 
 
 ; DEBUG STUFF

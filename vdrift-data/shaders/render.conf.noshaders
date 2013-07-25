@@ -78,22 +78,3 @@ cull = false
 blendmode = alphablend
 depthtest = disabled
 write_depth = false
-
-
-; 3D UI elements
-
-[pass]
-draw = nocamtrans_noblend
-output = framebuffer
-clear_depth = true
-camera = ui3d
-cull = false
-blendmode = disabled
-
-[pass]
-draw = nocamtrans_blend
-output = framebuffer
-clear_depth = true
-camera = ui3d
-cull = false
-blendmode = alphablend
