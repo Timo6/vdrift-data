@@ -341,24 +341,6 @@ shader = distancefield
 cull = false
 
 
-; 3D UI elements
-
-[pass]
-draw = nocamtrans_noblend
-output = framebuffer
-shader = full_noblend
-clear_depth = true
-camera = ui3d
-cull = false
-
-[pass]
-draw = nocamtrans_blend
-output = framebuffer
-shader = full
-camera = ui3d
-cull = false
-
-
 ; DEBUG STUFF
 
 [pass]
