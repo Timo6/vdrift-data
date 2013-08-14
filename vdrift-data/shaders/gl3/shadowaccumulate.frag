@@ -14,11 +14,7 @@ uniform mat4 shadowMatrix;
 in vec3 eyespacePosition;
 in vec3 uv;
 
-#define USE_OUTPUTS
-
-#ifdef USE_OUTPUTS
 out vec4 outputColor;
-#endif
 
 float chebyshevUpperBound(vec2 moments, float t, float minVariance)
 {
@@ -99,11 +95,6 @@ void main(void)
 	
 	final = vec3(notShadow);
 	
-	#ifdef USE_OUTPUTS
 	outputColor.a = 1;
 	outputColor.rgb = final;
-	#else
-	gl_FragColor.a = 1;
-	gl_FragColor.rgb = final;
-	#endif
 }

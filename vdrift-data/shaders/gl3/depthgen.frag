@@ -7,11 +7,7 @@ in vec3 normal;
 in vec3 uv;
 in vec3 eyespacePosition;
 
-#define USE_OUTPUTS
-
-#ifdef USE_OUTPUTS
 out vec4 outputDepth;
-#endif
 
 vec2 computeMoments(float Depth)  
 {
@@ -46,9 +42,5 @@ void main(void)
 	float warpedz = exp(linearz*exponentialWarpConstant);
 	albedo = vec4(computeMoments(warpedz),0,1);
 	
-	#ifdef USE_OUTPUTS
 	outputDepth.rgba = albedo;
-	#else
-	gl_FragColor = albedo;
-	#endif
 }

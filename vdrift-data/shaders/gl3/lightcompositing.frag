@@ -4,11 +4,7 @@ uniform sampler2D lightBufferSampler;
 
 in vec3 uv;
 
-#define USE_OUTPUTS
-
-#ifdef USE_OUTPUTS
 invariant out vec4 outputColor;
-#endif
 
 vec3 linearTonemap(vec3 color)
 {
@@ -80,9 +76,5 @@ void main(void)
 	final.rgb = pow(curr*whiteScale,vec3(1/2.2));*/
 	final.rgb = curr;
 	
-	#ifdef USE_OUTPUTS
 	outputColor.rgba = final;
-	#else
-	gl_FragColor = final;
-	#endif
 }
