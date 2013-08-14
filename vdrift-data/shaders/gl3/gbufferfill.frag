@@ -17,13 +17,9 @@ in vec3 bitangent;
 in vec3 uv;
 in vec3 eyespacePosition;
 
-#define USE_OUTPUTS
-
-#ifdef USE_OUTPUTS
 out vec4 materialProperties;
 out vec4 normalXY;
 out vec4 diffuseAlbedo;
-#endif
 
 vec2 packFloatToVec2i(const float val)
 {
@@ -176,21 +172,12 @@ void main()
 	float carpaintMask = 0.0;
 	#endif
 	
-	#ifdef USE_OUTPUTS
 	materialProperties = vec4(Rf0, m);
 	normalXY = vec4(normalX, normalY);
     #ifdef SIMPLE_NORMAL_ENCODING
 	normalXY = vec4(normalXYZ, 0);
     #endif
 	diffuseAlbedo = vec4(albedo.rgb, carpaintMask);
-	#else
-	gl_FragData[0] = vec4(Rf0, m);
-	gl_FragData[1] = vec4(normalX, normalY);
-    #ifdef SIMPLE_NORMAL_ENCODING
-	gl_FragData[1] = vec4(normalXYZ, 0);
-    #endif
-	gl_FragData[2] = vec4(albedo.rgb, carpaintMask);
-	#endif
 	
 	gl_FragDepth = gl_FragCoord.z + depthOffset;
 }

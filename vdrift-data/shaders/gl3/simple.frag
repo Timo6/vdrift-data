@@ -13,11 +13,7 @@ in vec3 normal;
 in vec3 uv;
 in vec3 eyespacePosition;
 
-#define USE_OUTPUTS
-
-#ifdef USE_OUTPUTS
 out vec4 outputColor;
-#endif
 
 // doesn't include pow(x,1/2.2)
 vec3 hableTonemap(vec3 x)
@@ -79,9 +75,5 @@ void main(void)
 	//albedo.rgb = hableTonemap(exposureBias*albedo.rgb);
     #endif
 
-	#ifdef USE_OUTPUTS
 	outputColor.rgba = albedo;
-	#else
-	gl_FragColor = albedo;
-	#endif
 }

@@ -31,11 +31,7 @@ uniform sampler2D aoSampler;
 in vec3 eyespacePosition;
 in vec3 uv;
 
-#define USE_OUTPUTS
-
-#ifdef USE_OUTPUTS
 out vec4 outputColor;
-#endif
 
 float unpackFloatFromVec2i(const vec2 value)
 {
@@ -436,16 +432,6 @@ void main(void)
 	#endif
 	
 	// add source light
-	#ifdef USE_OUTPUTS
 	outputColor.a = 1;
 	outputColor.rgb = final;
-	//outputColor.rgb = gbuf_material_properties.rgb;
-		#ifdef OMNI
-		//outputColor.rgb = cos_clamped(light_direction,normal)*vec3(1,1,1);
-		#endif
-	#else
-	gl_FragColor.a = 1;
-	gl_FragColor.rgb = final;
-	//gl_FragColor.rgb = gbuf_material_properties.rgb;
-	#endif
 }

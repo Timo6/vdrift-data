@@ -5,11 +5,7 @@ uniform vec2 textureSize;
 
 in vec3 uv;
 
-#define USE_OUTPUTS
-
-#ifdef USE_OUTPUTS
 out vec4 outputColor;
-#endif
 
 // construct a vec2 offset from a float offset depending on whether or not this is a horizontal or vertical blur
 vec2 getOffset2(float offset)
@@ -77,9 +73,5 @@ void main(void)
 		final = texture(diffuseSampler, uv.xy);
 	#endif
 	
-	#ifdef USE_OUTPUTS
 	outputColor.rgba = final;
-	#else
-	gl_FragColor = final;
-	#endif
 }
