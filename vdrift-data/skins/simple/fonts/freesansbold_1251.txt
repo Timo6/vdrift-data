@@ -1,4 +1,5 @@
 info face="FreeSans"
+scale=512
 size=57 #41
 ascent=43
 descent=-14
