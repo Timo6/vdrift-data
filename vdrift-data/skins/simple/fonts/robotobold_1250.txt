@@ -1,4 +1,5 @@
 info face="Roboto"
+scale=512
 size=63
 ascent=47
 descent=-16
