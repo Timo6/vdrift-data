@@ -9,6 +9,7 @@ varying vec4 projshadow_2;
 #endif
 
 uniform vec3 lightposition;
+uniform mat3 reflection_matrix;
 
 varying vec2 texcoord_2d;
 varying vec3 V, N;
@@ -43,10 +44,10 @@ void main()
     //R = normalize(reflect(pos3,N));
     
     #ifndef _REFLECTIONDISABLED_
-    refmapdir = vec3(gl_TextureMatrix[2] * vec4(reflect(pos3, N),0));
+    refmapdir = reflection_matrix * reflect(pos3, N);
     #else
     refmapdir = vec3(0.);
     #endif
     
-    ambientmapdir = mat3(gl_TextureMatrix[2]) * N;
+    ambientmapdir = reflection_matrix * N;
 }
