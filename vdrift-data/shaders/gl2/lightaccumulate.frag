@@ -7,6 +7,7 @@ uniform sampler2D tu2_2D;
 uniform sampler2D tu3_2D;
 
 #ifndef _REFLECTIONDISABLED_
+uniform mat3 reflection_matrix;
 uniform samplerCube tu4_cube; //reflection map
 #endif
 
@@ -110,25 +111,24 @@ void main()
 	
 	#ifdef _INITIAL_
 		// determine reflection vector and lookup into reflection texture
-		vec3 R = reflect(-V,normal);
-		vec3 reflection = vec3(0,0,0);
-		vec3 ambient = vec3(0.46,0.46,0.5);
-		float ambient_reflection_lod = 5;
-		vec3 Rworld = mat3(gl_TextureMatrix[2])*R;
-		vec3 refmapdir = Rworld;
-		
-		#ifdef _REFLECTIONDYNAMIC_
-		//refmapdir = vec3(-R.z, R.x, -R.y);
-		refmapdir = vec3(-refmapdir.z, refmapdir.x, -refmapdir.y);
-		#endif
-		
+		vec3 R = reflect(-V, normal);
+		vec3 reflection = vec3(0, 0, 0);
+		vec3 ambient = vec3(0.46, 0.46, 0.5);
+
 		#ifndef _REFLECTIONDISABLED_
-		float reflection_lod = mix(ambient_reflection_lod,0.0,mpercent);
-		vec3 ref_blurry = textureCube(tu5_cube, R).rgb;
-		vec3 ref_sharpish = textureCube(tu4_cube, refmapdir, reflection_lod).rgb;
-		reflection = GammaCorrect(mix(ref_blurry,ref_sharpish,mpercent));
-		vec3 worldnormal = mat3(gl_TextureMatrix[2])*normal;
-		ambient = GammaCorrect(textureCube(tu5_cube, worldnormal).rgb);
+			vec3 refmapdir = reflection_matrix * R;
+
+			#ifdef _REFLECTIONDYNAMIC_
+				refmapdir = vec3(-refmapdir.z, refmapdir.x, -refmapdir.y);
+			#endif
+
+			float ambient_reflection_lod = 5;
+			float reflection_lod = mix(ambient_reflection_lod,0.0,mpercent);
+			vec3 ref_blurry = textureCube(tu5_cube, R).rgb;
+			vec3 ref_sharpish = textureCube(tu4_cube, refmapdir, reflection_lod).rgb;
+			reflection = GammaCorrect(mix(ref_blurry,ref_sharpish,mpercent));
+			vec3 worldnormal = reflection_matrix * normal;
+			ambient = GammaCorrect(textureCube(tu5_cube, worldnormal).rgb);
 		#endif
 		
 		const float reflectionstrength = 0.5;
