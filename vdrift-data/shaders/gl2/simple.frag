@@ -1,5 +1,10 @@
-varying vec2 tu0coord;
 uniform sampler2D tu0_2D;
+varying vec2 tu0coord;
+
+#ifdef _LIGHTING_
+uniform vec3 lightposition;
+varying vec3 normal;
+#endif
 
 #ifdef _GAMMA_
 #define GAMMA 2.2
@@ -17,6 +22,12 @@ vec3 GammaCorrect(vec3 color)
 void main()
 {
 	vec4 color = texture2D(tu0_2D, tu0coord);
+
+	#ifdef _ALPHATEST_
+	if (color.a < 0.5)
+		discard;
+	#endif
+
 	#ifdef _GAMMA_
 	color.rgb = GammaCorrect(color.rgb);
 	#endif
@@ -27,7 +38,13 @@ void main()
 	color.a = 1;
 	#else
 	// albedo modulated by object color
-	color = color * gl_Color;
+	color *= gl_Color;
+	#endif
+
+	#ifdef _LIGHTING_
+	// lambert diffuse + const ambient
+	float nl = max(dot(normalize(normal), lightposition), 0.0);
+	color.rgb = color.rgb * nl + color.rgb * vec3(0.46, 0.46, 0.5);
 	#endif
 
 	#ifdef _PREMULTIPLY_ALPHA_
