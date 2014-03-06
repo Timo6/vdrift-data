@@ -1,7 +1,7 @@
 varying vec2 tu0coord;
 
 uniform sampler2D tu0_2D; // diffuse texture
-uniform sampler2D tu2_2D; // existing depth
+uniform sampler2D tu3_2D; // existing depth
 
 void main()
 {
