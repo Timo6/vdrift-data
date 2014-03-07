@@ -15,7 +15,7 @@ uniform samplerCube tu5_cube; //ambient map
 uniform sampler2D tu6_2D; //ssao
 
 // shadowed directional light
-uniform vec3 directlight_eyespace_direction;
+uniform vec3 light_direction;
 
 float unpackFloatFromVec2i(const vec2 value)
 {
@@ -102,7 +102,7 @@ void main()
 	normal.z = abs(normal.z);
 	
 	// determine half vector
-	vec3 H = normalize(V+directlight_eyespace_direction);
+	vec3 H = normalize(V+light_direction);
 	
 	float alpha_h = clamp(dot(V,H),-1.0,1.0); //cosine of angle between half vector and view direction
 	float omega_h = cos_clamped(H,normal); //clamped cosine of angle between half vector and normal
@@ -144,7 +144,7 @@ void main()
 		// generate parameters for directional light
 		const float sunstrength = 2.0;
 		vec3 E_l = vec3(1.,1.,0.8)*notshadow*sunstrength; //incoming light intensity/color
-		float omega_i = cos_clamped(directlight_eyespace_direction,normal); //clamped cosine of angle between incoming light direction and surface normal
+		float omega_i = cos_clamped(light_direction,normal); //clamped cosine of angle between incoming light direction and surface normal
 		
 		//final.rgb = ambient*ambientstrength;
 		//final.rgb = reflection.rgb;

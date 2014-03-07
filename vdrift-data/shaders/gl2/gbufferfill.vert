@@ -1,4 +1,4 @@
-uniform vec3 lightposition;
+uniform vec3 light_direction;
 
 varying vec2 tu0coord;
 varying vec3 N;

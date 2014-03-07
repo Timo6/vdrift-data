@@ -1,4 +1,4 @@
-uniform vec3 lightposition;
+uniform vec3 light_direction;
 //varying float lightdotnorm;
 varying vec2 texcoord;
 varying vec3 eyespacenormal;
@@ -11,15 +11,15 @@ void main()
 	texcoord = vec2(gl_MultiTexCoord0);
 	
 	//correct surface acne
-	/*float ldo = dot(gl_Normal.xyz,lightposition);
+	/*float ldo = dot(gl_Normal.xyz,light_direction);
 	ldo = max(ldo,0.0);
 	ldo = ldo * 0.95 + 0.999;
 	gl_Position.w = gl_Position.w * ldo;*/
 	
 	/*vec4 ldo;
-	ldo.x = dot(gl_ModelViewMatrix[0].xyz,lightposition);
-	ldo.y = dot(gl_ModelViewMatrix[1].xyz,lightposition);
-	ldo.z = dot(gl_ModelViewMatrix[2].xyz,lightposition);
+	ldo.x = dot(gl_ModelViewMatrix[0].xyz,light_direction);
+	ldo.y = dot(gl_ModelViewMatrix[1].xyz,light_direction);
+	ldo.z = dot(gl_ModelViewMatrix[2].xyz,light_direction);
 	ldo.w = dot((gl_NormalMatrix*gl_Normal).xyz,ldo.xyz);
 	ldo.w = max(ldo.w,0.0);
 	ldo.w = ldo.w * 0.95 + 0.999;

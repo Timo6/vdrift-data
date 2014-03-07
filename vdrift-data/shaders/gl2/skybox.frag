@@ -1,7 +1,7 @@
 varying vec2 tu0coord;
 uniform sampler2D tu0_2D;
 varying vec4 ecposition;
-uniform vec3 lightposition;
+uniform vec3 light_direction;
 varying vec3 normal_eye;
 
 uniform float contrast;
