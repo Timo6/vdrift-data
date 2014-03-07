@@ -6,7 +6,7 @@ uniform sampler2D tu3_2D; // existing depth
 void main()
 {
 	vec3 screen = gl_FragCoord.xyz/vec3(SCREENRESX,SCREENRESY,1.0);
-	float gbuf_depth = texture2D(tu2_2D, screen.xy).r;
+	float gbuf_depth = texture2D(tu3_2D, screen.xy).r;
 	
 	//if (screen.z > gbuf_depth) discard;
 	
