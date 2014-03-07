@@ -2,7 +2,7 @@ uniform sampler2D tu0_2D;
 varying vec2 tu0coord;
 
 #ifdef _LIGHTING_
-uniform vec3 lightposition;
+uniform vec3 light_direction;
 varying vec3 normal;
 #endif
 
@@ -43,7 +43,7 @@ void main()
 
 	#ifdef _LIGHTING_
 	// lambert diffuse + const ambient
-	float nl = max(dot(normalize(normal), lightposition), 0.0);
+	float nl = max(dot(normalize(normal), light_direction), 0.0);
 	color.rgb = color.rgb * nl + color.rgb * vec3(0.46, 0.46, 0.5);
 	#endif
 

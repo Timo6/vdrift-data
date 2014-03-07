@@ -8,7 +8,7 @@ varying vec4 projshadow_2;
 #endif
 #endif
 
-uniform vec3 lightposition;
+uniform vec3 light_direction;
 uniform mat3 reflection_matrix;
 
 varying vec2 texcoord_2d;

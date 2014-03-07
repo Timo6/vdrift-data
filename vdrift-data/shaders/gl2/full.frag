@@ -36,7 +36,7 @@ uniform sampler2DShadow tu9_2D; //edge contrast enhancement depth map
 varying vec2 texcoord_2d;
 varying vec3 V, N;
 varying vec3 refmapdir, ambientmapdir;
-uniform vec3 lightposition;
+uniform vec3 light_direction;
 
 const float PI = 3.141593;
 const float ONE_OVER_PI = 1.0 / PI;
@@ -467,10 +467,10 @@ void main()
     float gloss = tu1_2D_val.r;
     float metallic = tu1_2D_val.g;
 	float ambient = 1.0;//tu1_2D_val.a;
-    vec3 L = lightposition;
+    vec3 L = light_direction;
     vec3 Nn = normalize(N);
     vec3 Vn = normalize(V);
-    vec3 H = normalize(lightposition+V);
+    vec3 H = normalize(light_direction+V);
     
     vec3 diffuse = surfacecolor * ambient * (BRDF_Lambert(N,L) * notshadowfinal + ambient_light) * 0.5;
     

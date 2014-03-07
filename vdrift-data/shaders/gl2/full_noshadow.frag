@@ -7,7 +7,7 @@ uniform samplerCube tu2_cube; //reflection map
 #endif
 uniform sampler2D tu6_2D; //additive map (for brake lights)
 
-uniform vec3 lightposition;
+uniform vec3 light_direction;
 
 varying vec2 texcoord_2d;
 varying vec3 normal_eye;
@@ -21,7 +21,7 @@ void main()
 	
 	vec3 normnormal = normalize(normal_eye);
 	vec3 normviewdir = normalize(viewdir);
-	vec3 normlightposition = normalize(lightposition);
+	vec3 normlight_direction = normalize(light_direction);
 	
 	vec4 tu0_2D_val = texture2D(tu0_2D, texcoord_2d);
 	vec4 tu1_2D_val = texture2D(tu1_2D, texcoord_2d);
@@ -31,14 +31,14 @@ void main()
 	float gloss = tu1_2D_val.r;
 	float metallic = tu1_2D_val.g;
 	
-	float difdot = dot(normnormal,normlightposition);
+	float difdot = dot(normnormal,normlight_direction);
 	
 	vec3 diffuse = texcolor*max(difdot,0.0)*notshadowfinal;
 	
 	vec3 ambient = texcolor;//*(1.0+min(difdot,0.0));
 	
-	float specval = max(dot(reflect(normviewdir,normnormal),normlightposition),0.0);
-	//vec3 halfvec = normalize(normviewdir + normlightposition);
+	float specval = max(dot(reflect(normviewdir,normnormal),normlight_direction),0.0);
+	//vec3 halfvec = normalize(normviewdir + normlight_direction);
 	//float specval = max(0.0,dot(normnormal,halfvec));
 	
 	float env_factor = min(pow(1.0-max(0.0,dot(-normviewdir,normnormal)),3.0),0.6)*0.75+0.2;
@@ -68,8 +68,8 @@ void main()
 	//gl_FragColor.rgb = normviewdir;
 	//gl_FragColor.rgb = normnormal;
 	//gl_FragColor.rgb = vec3(max(dot(normnormal,normalize(vec3(gl_LightSource[0].position))),0.0));
-	//gl_FragColor.rgb = normlightposition;
-	//gl_FragColor.rgb = vec3(max(dot(normnormal,normlightposition),0.0));
+	//gl_FragColor.rgb = normlight_direction;
+	//gl_FragColor.rgb = vec3(max(dot(normnormal,normlight_direction),0.0));
 	//gl_FragColor.rgb = tu0_2D_val.rgb;
 	//gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);
 	
