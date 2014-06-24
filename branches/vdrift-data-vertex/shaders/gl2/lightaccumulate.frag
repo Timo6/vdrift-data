@@ -1,6 +1,3 @@
-varying vec2 tu0coord;
-varying vec3 eyespace_view_direction;
-
 uniform sampler2D tu0_2D;
 uniform sampler2D tu1_2D;
 uniform sampler2D tu2_2D;
@@ -14,8 +11,11 @@ uniform samplerCube tu4_cube; //reflection map
 uniform samplerCube tu5_cube; //ambient map
 uniform sampler2D tu6_2D; //ssao
 
-// shadowed directional light
-uniform vec3 light_direction;
+uniform vec3 light_direction; // shadowed directional light
+uniform vec4 color_tint;
+
+varying vec2 tu0coord;
+varying vec3 eyespace_view_direction;
 
 float unpackFloatFromVec2i(const vec2 value)
 {
@@ -163,12 +163,12 @@ void main()
 		float falloff_radius = 1.0;
 		float dist = max(0.01,distance(gbuf_eyespace_pos,light_center));
 		float attenuation = max(0.0,(-dist/falloff_radius+1.0)*attenuation_radius/dist);
-		vec3 E_l = gl_Color.rgb*attenuation;
+		vec3 E_l = color_tint.rgb*attenuation;
 		vec3 light_direction = -normalize(gbuf_eyespace_pos - light_center);
 		float omega_i = cos_clamped(light_direction,normal); //clamped cosine of angle between incoming light direction and surface normal
 		
 		//alpha_h = clamp(dot(V,H),-1,1);
-		//final.rgb = gl_Color.rgb;
+		//final.rgb = color_tint.rgb;
 	#endif
 	
 	// add source light

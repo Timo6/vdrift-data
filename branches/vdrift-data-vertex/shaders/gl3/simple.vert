@@ -10,10 +10,9 @@ in vec3 vertexPosition;
 in vec3 vertexNormal;
 in vec3 vertexTangent;
 in vec3 vertexBitangent;
+in vec3 vertexTexCoord;
 in vec4 vertexColor;
-in vec3 vertexUv0;
-in vec3 vertexUv1;
-in vec3 vertexUv2;
+
 out vec3 normal;
 #ifdef NORMALMAPS
 out vec3 tangent;
@@ -38,7 +37,7 @@ void main(void)
 	#endif
 	
 	// pass along the uv unmodified
-	uv = vertexUv0;
+	uv = vertexTexCoord;
 	
 	// pass along the color
 	vcolor = vertexColor;
