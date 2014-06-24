@@ -1,0 +1,2855 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# GunChleoc <fios@foramnagaidhlig.net>, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: VDrift\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-30 21:47+0100\n"
+"PO-Revision-Date: 2013-04-01 19:44+0100\n"
+"Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
+"Language-Team: Fòram na Gàidhlig http://www.foramnagaidhlig.net\n"
+"Language: gd\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
+"(n > 2 && n < 20) ? 2 : 3;\n"
+"X-Generator: Virtaal 0.7.1\n"
+
+#: data/settings/options.config:659
+msgid "0"
+msgstr "0"
+
+#: data/settings/options.config:484 data/settings/options.config:661
+#: data/settings/options.config:690
+msgid "1"
+msgstr "1"
+
+#: data/settings/options.config:502 data/settings/options.config:679
+msgid "10"
+msgstr "10"
+
+#: data/settings/options.config:61
+msgid "1024 x 768"
+msgstr "1024 x 768"
+
+#: data/settings/options.config:504 data/settings/options.config:681
+msgid "11"
+msgstr "11"
+
+#: data/settings/options.config:63
+msgid "1152 x 720"
+msgstr "1152 x 720"
+
+#: data/settings/options.config:65
+msgid "1152 x 864"
+msgstr "1152 x 864"
+
+#: data/settings/options.config:506
+msgid "12"
+msgstr "12"
+
+#: data/settings/options.config:75
+msgid "1280 x 1024"
+msgstr "1280 x 1024"
+
+#: data/settings/options.config:67
+msgid "1280 x 720"
+msgstr "1280 x 720"
+
+#: data/settings/options.config:69
+msgid "1280 x 768"
+msgstr "1280 x 768"
+
+#: data/settings/options.config:71
+msgid "1280 x 800"
+msgstr "1280 x 800"
+
+#: data/settings/options.config:73
+msgid "1280 x 960"
+msgstr "1280 x 960"
+
+#: data/settings/options.config:77
+msgid "1360 x 768"
+msgstr "1360 x 768"
+
+#: data/settings/options.config:79
+msgid "1366 x 768"
+msgstr "1366 x 768"
+
+#: data/settings/options.config:81
+msgid "1440 x 900"
+msgstr "1440 x 900"
+
+#: data/settings/options.config:631
+msgid "16-bit"
+msgstr "16-biod"
+
+#: data/settings/options.config:85
+msgid "1600 x 1200"
+msgstr "1600 x 1200"
+
+#: data/settings/options.config:83
+msgid "1600 x 900"
+msgstr "1600 x 1200"
+
+#: data/settings/options.config:87
+msgid "1680 x 1050"
+msgstr "1680 x 1050"
+
+#: data/settings/options.config:104
+msgid "16bpp"
+msgstr "16bpp"
+
+#: data/settings/options.config:89
+msgid "1920 x 1080"
+msgstr "1920 x 1080"
+
+#: data/settings/options.config:91
+msgid "1920 x 1200"
+msgstr "1920 x 1200"
+
+#: data/skins/simple/menus/TransmissionControls:337
+msgid "1st"
+msgstr "1d"
+
+#: data/settings/options.config:486 data/settings/options.config:663
+msgid "2"
+msgstr "2"
+
+#: data/skins/simple/menus/InputDevice:128
+msgid "200 Degree Wheel"
+msgstr "Cuibhle 200 cheum"
+
+#: data/settings/options.config:263
+msgid "200 degree mode"
+msgstr "Modh 200 cheum"
+
+#: data/settings/options.config:633
+msgid "24-bit"
+msgstr "24-biod"
+
+#: data/settings/options.config:93
+msgid "2560 x 1440"
+msgstr "2560 x 1440"
+
+#: data/settings/options.config:95
+msgid "2560 x 1600"
+msgstr "2560 x 1600"
+
+#: data/skins/simple/menus/TransmissionControls:404
+msgid "2nd"
+msgstr "2na"
+
+#: data/settings/options.config:488 data/settings/options.config:665
+msgid "3"
+msgstr "3"
+
+#: data/settings/options.config:200
+msgid "32"
+msgstr "32"
+
+#: data/settings/options.config:106
+msgid "32bpp"
+msgstr "32bpp"
+
+#: data/skins/simple/menus/TransmissionControls:471
+msgid "3rd"
+msgstr "3s"
+
+#: data/settings/options.config:490 data/settings/options.config:667
+msgid "4"
+msgstr "4"
+
+#: data/settings/options.config:202
+msgid "48"
+msgstr "48"
+
+#: data/skins/simple/menus/TransmissionControls:538
+msgid "4th"
+msgstr "3mh"
+
+#: data/settings/options.config:492 data/settings/options.config:669
+msgid "5"
+msgstr "5"
+
+#: data/skins/simple/menus/TransmissionControls:605
+msgid "5th"
+msgstr "5mh"
+
+#: data/settings/options.config:494 data/settings/options.config:671
+msgid "6"
+msgstr "6"
+
+#: data/settings/options.config:204
+msgid "64"
+msgstr "64"
+
+#: data/settings/options.config:55
+msgid "640 x 480"
+msgstr "640 x 480"
+
+#: data/skins/simple/menus/TransmissionControls:672
+msgid "6th"
+msgstr "6mh"
+
+#: data/settings/options.config:496 data/settings/options.config:673
+msgid "7"
+msgstr "7"
+
+#: data/settings/options.config:498 data/settings/options.config:675
+msgid "8"
+msgstr "8"
+
+#: data/settings/options.config:206
+msgid "80"
+msgstr "80"
+
+#: data/settings/options.config:57
+msgid "800 x 480"
+msgstr "800 x 480"
+
+#: data/settings/options.config:59
+msgid "800 x 600"
+msgstr "800 x 600"
+
+#: data/settings/options.config:500 data/settings/options.config:677
+msgid "9"
+msgstr "9"
+
+#: data/settings/options.config:208
+msgid "96"
+msgstr "96"
+
+#: data/skins/simple/menus/CarManager:78 data/skins/simple/menus/Cars:62
+#: data/skins/simple/menus/DisplayOptions:88
+#: data/skins/simple/menus/DisplayOptions:148
+#: data/skins/simple/menus/DisplayOptions:207
+#: data/skins/simple/menus/DisplayOptions:266
+#: data/skins/simple/menus/DisplayOptions:325
+#: data/skins/simple/menus/DisplayOptions:384
+#: data/skins/simple/menus/DisplayOptions:443
+#: data/skins/simple/menus/DisplayOptions:502
+#: data/skins/simple/menus/DisplayOptions:561
+#: data/skins/simple/menus/DisplayOptions:620
+#: data/skins/simple/menus/DisplayOptions:679
+#: data/skins/simple/menus/DisplayOptionsAdvanced:88
+#: data/skins/simple/menus/DisplayOptionsAdvanced:147
+#: data/skins/simple/menus/DisplayOptionsAdvanced:206
+#: data/skins/simple/menus/DisplayOptionsAdvanced:265
+#: data/skins/simple/menus/DisplayOptionsAdvanced:324
+#: data/skins/simple/menus/DisplayOptionsAdvanced:383
+#: data/skins/simple/menus/DisplayOptionsAdvanced:442
+#: data/skins/simple/menus/DisplayOptionsAdvanced:501
+#: data/skins/simple/menus/DisplayOptionsAdvanced:560
+#: data/skins/simple/menus/DisplayOptionsAdvanced:619
+#: data/skins/simple/menus/DisplayOptionsAdvanced:678
+#: data/skins/simple/menus/DisplayOptionsAdvanced:738
+#: data/skins/simple/menus/DisplayOptionsAdvanced:797
+#: data/skins/simple/menus/DisplayOptionsAdvanced:856
+#: data/skins/simple/menus/DisplayOptionsAdvanced:915
+#: data/skins/simple/menus/EditButtonControl:97
+#: data/skins/simple/menus/EditButtonControl:156
+#: data/skins/simple/menus/Garage:104 data/skins/simple/menus/Garage:281
+#: data/skins/simple/menus/Garage:340 data/skins/simple/menus/InputDevice:78
+#: data/skins/simple/menus/InputDevice:137
+#: data/skins/simple/menus/InputDevice:196
+#: data/skins/simple/menus/InputDevice:349
+#: data/skins/simple/menus/InputDevice:408
+#: data/skins/simple/menus/InputDevice:467
+#: data/skins/simple/menus/InputDevice:526
+#: data/skins/simple/menus/InputDevice:585 data/skins/simple/menus/Replays:78
+#: data/skins/simple/menus/SingleRace:114
+#: data/skins/simple/menus/SingleRace:173
+#: data/skins/simple/menus/SingleRace:232
+#: data/skins/simple/menus/SingleRace:291
+#: data/skins/simple/menus/SingleRace:350
+#: data/skins/simple/menus/SingleRace:456
+#: data/skins/simple/menus/SoundOptions:78
+#: data/skins/simple/menus/StartingGrid:88
+#: data/skins/simple/menus/StartingGrid:147
+#: data/skins/simple/menus/StartingGrid:253
+#: data/skins/simple/menus/StartingGrid:312
+#: data/skins/simple/menus/StartingGrid:489
+#: data/skins/simple/menus/StartingGrid:548
+#: data/skins/simple/menus/TrackManager:78 data/skins/simple/menus/Tracks:62
+msgid "<"
+msgstr "<"
+
+#: data/skins/simple/menus/CarManager:98 data/skins/simple/menus/Cars:87
+#: data/skins/simple/menus/DisplayOptions:109
+#: data/skins/simple/menus/DisplayOptions:168
+#: data/skins/simple/menus/DisplayOptions:227
+#: data/skins/simple/menus/DisplayOptions:286
+#: data/skins/simple/menus/DisplayOptions:345
+#: data/skins/simple/menus/DisplayOptions:404
+#: data/skins/simple/menus/DisplayOptions:463
+#: data/skins/simple/menus/DisplayOptions:522
+#: data/skins/simple/menus/DisplayOptions:581
+#: data/skins/simple/menus/DisplayOptions:640
+#: data/skins/simple/menus/DisplayOptions:699
+#: data/skins/simple/menus/DisplayOptionsAdvanced:108
+#: data/skins/simple/menus/DisplayOptionsAdvanced:167
+#: data/skins/simple/menus/DisplayOptionsAdvanced:226
+#: data/skins/simple/menus/DisplayOptionsAdvanced:285
+#: data/skins/simple/menus/DisplayOptionsAdvanced:344
+#: data/skins/simple/menus/DisplayOptionsAdvanced:403
+#: data/skins/simple/menus/DisplayOptionsAdvanced:462
+#: data/skins/simple/menus/DisplayOptionsAdvanced:521
+#: data/skins/simple/menus/DisplayOptionsAdvanced:580
+#: data/skins/simple/menus/DisplayOptionsAdvanced:639
+#: data/skins/simple/menus/DisplayOptionsAdvanced:698
+#: data/skins/simple/menus/DisplayOptionsAdvanced:758
+#: data/skins/simple/menus/DisplayOptionsAdvanced:817
+#: data/skins/simple/menus/DisplayOptionsAdvanced:876
+#: data/skins/simple/menus/DisplayOptionsAdvanced:935
+#: data/skins/simple/menus/EditButtonControl:117
+#: data/skins/simple/menus/EditButtonControl:176
+#: data/skins/simple/menus/Garage:124 data/skins/simple/menus/Garage:301
+#: data/skins/simple/menus/Garage:360 data/skins/simple/menus/InputDevice:98
+#: data/skins/simple/menus/InputDevice:157
+#: data/skins/simple/menus/InputDevice:216
+#: data/skins/simple/menus/InputDevice:369
+#: data/skins/simple/menus/InputDevice:428
+#: data/skins/simple/menus/InputDevice:487
+#: data/skins/simple/menus/InputDevice:546
+#: data/skins/simple/menus/InputDevice:605 data/skins/simple/menus/Replays:98
+#: data/skins/simple/menus/SingleRace:134
+#: data/skins/simple/menus/SingleRace:193
+#: data/skins/simple/menus/SingleRace:252
+#: data/skins/simple/menus/SingleRace:311
+#: data/skins/simple/menus/SingleRace:370
+#: data/skins/simple/menus/SingleRace:476
+#: data/skins/simple/menus/SoundOptions:98
+#: data/skins/simple/menus/StartingGrid:108
+#: data/skins/simple/menus/StartingGrid:167
+#: data/skins/simple/menus/StartingGrid:273
+#: data/skins/simple/menus/StartingGrid:332
+#: data/skins/simple/menus/StartingGrid:509
+#: data/skins/simple/menus/StartingGrid:568
+#: data/skins/simple/menus/TrackManager:98 data/skins/simple/menus/Tracks:87
+msgid ">"
+msgstr ">"
+
+#: data/skins/simple/menus/CarControls:471
+msgid "ABS Toggle"
+msgstr "Toglaich ABS"
+
+#: data/skins/simple/menus/SingleRace:400
+#: data/skins/simple/menus/StartingGrid:197
+msgid "AI Level"
+msgstr "Leibheil na IF"
+
+#: data/skins/simple/menus/InGameMain:103
+msgid "Abort"
+msgstr "Sguir dheth"
+
+#: data/skins/simple/menus/EditButtonControl:88
+msgid "Action"
+msgstr "Gnìomh"
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:91
+#: data/skins/simple/menus/DisplayOptionsAdvanced:111
+msgid "Adjust the amount of colours available."
+msgstr "Gleus cò mheud dath a tha ri làimh."
+
+#: data/skins/simple/menus/CarManager:101
+msgid "Advance to the next car."
+msgstr "Lean air adhart dhan ath-chàr."
+
+#: data/skins/simple/menus/TrackManager:101
+msgid "Advance to the next track."
+msgstr "Lean air adhart dhan ath-shlighe."
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:729
+msgid "Ambient Occlusion"
+msgstr "Ambient Occlusion"
+
+#: data/skins/simple/menus/TransmissionControls:69
+msgid "Analog Clutch"
+msgstr "Cluids analogach"
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:256
+msgid "Anisotropic Filtering"
+msgstr "Criathradh an-iosa-tropach"
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:315
+msgid "Antialiasing"
+msgstr "Antialiasing"
+
+#: data/skins/simple/menus/Garage:272 data/skins/simple/menus/StartingGrid:480
+msgid "Antilock Brakes"
+msgstr "Brèigean ana-chasgaidh"
+
+#: data/skins/simple/menus/GameLeaveConfirm:37
+msgid "Are you sure you want to leave this game?"
+msgstr "A bheil thu cinnteach gu bheil thu airson an geama seo fhàgail?"
+
+#: data/skins/simple/menus/QuitConfirm:37
+msgid "Are you sure you want to quit?"
+msgstr "A bheil thu cinnteach gu bheil thu airson fàgail?"
+
+#: data/skins/simple/menus/RestartGameConfirm:37
+msgid "Are you sure you want to restart?"
+msgstr "A bheil thu cinnteach gu bheil thu airson ath-thòiseachadh?"
+
+#: data/skins/simple/menus/ControlsOptions:134
+msgid "Assign inputs to actions related to replays."
+msgstr "Sònraich ion-chur dha ghnìomhan co-cheangailte ri ath-chluichean."
+
+#: data/skins/simple/menus/CarControls:742
+msgid "Assign inputs to actions related to the transmission."
+msgstr "Sònraich ion-chur dha ghnìomhan co-cheangailte ris an transmission."
+
+#: data/skins/simple/menus/ControlsOptions:78
+msgid "Assign inputs to actions that affect the car."
+msgstr "Sònraich ion-chur dha ghnìomhan le buaidh air a' chàr."
+
+#: data/skins/simple/menus/ControlsOptions:50
+msgid "Assign inputs to actions that affect the game."
+msgstr "Sònraich ion-chur dha ghnìomhan le buaidh air a' gheama."
+
+#: data/skins/simple/menus/ControlsOptions:190
+msgid "Assign inputs to actions that affect the gui."
+msgstr "Sònraich ion-chur dha ghnìomhan le buaidh air a' GUI."
+
+#: data/skins/simple/menus/ControlsOptions:106
+msgid "Assign inputs to camera controls."
+msgstr "Sònraich ion-chur dha dh'uidheaman-smachd camara."
+
+#: data/skins/simple/menus/ControlsOptions:162
+msgid "Assign inputs to miscellaneous helpful actions."
+msgstr "Sònraich ion-chur dha ghnìomhan fheumail mheasgaichte."
+
+#: data/skins/simple/menus/InputDevice:458
+msgid "Automatic Clutch"
+msgstr "Cluids fèin-obrachail"
+
+#: data/skins/simple/menus/InputDevice:399
+msgid "Automatic Shift"
+msgstr "Sioft fèin-obrachail"
+
+#: data/skins/simple/menus/InputDevice:529
+#: data/skins/simple/menus/InputDevice:549
+msgid ""
+"Automatically shift to neutral when no gear button is active, as with H-Gate "
+"shifters."
+msgstr ""
+"Dèan sioft gu neodrach gu fèin-obrachail mura h-eil putan gèar gnìomach mar "
+"a nìthear le sioftair \"Sioftair H-Gate.\""
+
+#: data/skins/simple/menus/CarManager:195
+#: data/skins/simple/menus/ControlsOptions:215
+#: data/skins/simple/menus/DataConnectionError:47
+#: data/skins/simple/menus/Garage:418
+#: data/skins/simple/menus/NoOpponentsError:47
+#: data/skins/simple/menus/Options:159 data/skins/simple/menus/Replays:156
+#: data/skins/simple/menus/ReplayStartError:47
+#: data/skins/simple/menus/SingleRace:562
+#: data/skins/simple/menus/StartingGrid:626
+#: data/skins/simple/menus/TrackManager:195
+#: data/skins/simple/menus/UpdateFailedVersion:47
+#: data/skins/simple/menus/Updates:131
+#: data/skins/simple/menus/UpdatesFound:131
+#: data/skins/simple/menus/UpdateSuccessful:47
+msgid "Back"
+msgstr "Air ais"
+
+#: data/skins/simple/menus/NoOpponentsError:37
+msgid "Before starting the race add at least one opponent."
+msgstr "Cuir co-dhiù aon fharpaisiche ris mus tòisicheas tu air a' gheama."
+
+#: data/skins/simple/menus/Replays:131
+msgid "Begin playing the last recorded replay."
+msgstr "Tòisich air an ath-chluiche mu dheireadh a chaidh a chlàradh."
+
+#: src/hud.cpp:106
+msgid "Best lap:"
+msgstr "An tè as fhearr:"
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:492
+msgid "Bloom"
+msgstr "Snuadhachadh"
+
+#: data/skins/simple/menus/CarControls:136
+msgid "Brake"
+msgstr "Brèig"
+
+#: data/skins/simple/menus/Garage:235 data/skins/simple/menus/StartingGrid:443
+msgid "Brightness"
+msgstr "Soilleireachd"
+
+#: data/skins/simple/menus/Updates:106 data/skins/simple/menus/UpdatesFound:89
+msgid "Browse cars and apply updates"
+msgstr "Brabhsaich na càraichean is cuir ùrachaidhean an sàs."
+
+#: data/skins/simple/menus/Updates:78 data/skins/simple/menus/UpdatesFound:47
+msgid "Browse tracks and apply updates"
+msgstr "Brabhsaich na slighean is cuir ùrachaidhean an sàs."
+
+#: data/skins/simple/menus/InputDevice:340
+msgid "Button Control Delay"
+msgstr "Dàil air uidheaman-smachd putain"
+
+#: data/skins/simple/menus/ControlsOptions:103
+msgid "Camera"
+msgstr "Camara"
+
+#: data/skins/simple/menus/DisplayOptions:729
+msgid "Camera Bounce"
+msgstr "Bocadh a' chamara"
+
+#: data/skins/simple/menus/CameraViewControls:739
+msgid "Camera Movement"
+msgstr "Gluasad a' chamara"
+
+#: data/skins/simple/menus/CameraMovementControls:471
+#: data/skins/simple/menus/CameraViewControls:767
+#: data/skins/simple/menus/CarControls:767
+#: data/skins/simple/menus/DisplayOptions:823
+#: data/skins/simple/menus/DisplayOptionsAdvanced:965
+#: data/skins/simple/menus/EditAnalogControl:254
+#: data/skins/simple/menus/EditButtonControl:234
+#: data/skins/simple/menus/GuiControls:136
+#: data/skins/simple/menus/GuiControls:471
+#: data/skins/simple/menus/InputDevice:635
+#: data/skins/simple/menus/ReplaysControls:203
+#: data/skins/simple/menus/SoundOptions:222
+#: data/skins/simple/menus/ToolsControls:337
+#: data/skins/simple/menus/TransmissionControls:806
+msgid "Cancel"
+msgstr "Sguir dheth"
+
+#: data/skins/simple/menus/CarManager:69
+#: data/skins/simple/menus/ControlsOptions:75
+#: data/skins/simple/menus/Garage:69 data/skins/simple/menus/StartingGrid:244
+msgid "Car"
+msgstr "Car"
+
+#: data/skins/simple/menus/SingleRace:447
+msgid "Car Damage"
+msgstr "Milleadh càir"
+
+#: data/skins/simple/menus/CarManager:119
+msgid "Car Name"
+msgstr "Ainm a' chàir"
+
+#: data/skins/simple/menus/UpdatesFound:100
+msgid "Car updates"
+msgstr "Ùraich càraichean"
+
+#: data/skins/simple/menus/Updates:103
+msgid "Cars"
+msgstr "Càraichean"
+
+#: data/skins/simple/menus/Options:78
+msgid "Change graphics settings."
+msgstr "Atharraich roghainnean a' ghrafaigeachd."
+
+#: data/skins/simple/menus/Options:134
+msgid "Change input and control settings."
+msgstr "Atharraich roghainnean an ion-chuir is nan uidheaman-smachd."
+
+#: data/skins/simple/menus/InGameMain:134
+msgid "Change some of the options while the game is running."
+msgstr "Atharraich cuid dhe na roghainnean fhad 's a bhios an geama a' ruith."
+
+#: data/skins/simple/menus/Options:106
+msgid "Change sound settings."
+msgstr "Atharraich roghainnean fuaime."
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:681
+#: data/skins/simple/menus/DisplayOptionsAdvanced:701
+msgid "Change the amount of particles used for smoke and dust effects."
+msgstr "Atharraich uiread nam mìrean airson èifeachdan smùid is duslaich."
+
+#: data/skins/simple/menus/DisplayOptions:787
+msgid "Change the contrast of the display."
+msgstr "Atharraich an t-iomsgaradh aig an inneal-taisbeanaidh."
+
+#: data/skins/simple/menus/DisplayOptions:91
+#: data/skins/simple/menus/DisplayOptions:112
+msgid "Change the game resolution."
+msgstr "Atharraich dùmhlachd-bhreacaidh a' gheama."
+
+#: data/skins/simple/menus/DisplayOptions:387
+#: data/skins/simple/menus/DisplayOptions:407
+msgid "Change the graphics and layout of the VDrift menus."
+msgstr "Atharraich grafaigeachd is co-dhealbhachd nan clàran-taice VDrift."
+
+#: data/skins/simple/menus/DisplayOptions:446
+#: data/skins/simple/menus/DisplayOptions:466
+msgid "Change the language of the VDrift menus."
+msgstr "Atharraich cànan nan clàran-taice VDrift."
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:209
+#: data/skins/simple/menus/DisplayOptionsAdvanced:229
+msgid "Change the maximum view distance."
+msgstr "Atharraich an t-astar seallaidh as motha."
+
+#: data/skins/simple/menus/SoundOptions:81
+#: data/skins/simple/menus/SoundOptions:101
+msgid "Change the number of sound sources in the game."
+msgstr "Atharraich àireamh nan tùsan fuaime sa gheama."
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:150
+#: data/skins/simple/menus/DisplayOptionsAdvanced:170
+msgid "Change the size of the textures displayed."
+msgstr "Atharraich meud nan innich a chì thu."
+
+#: data/skins/simple/menus/DisplayOptions:740
+msgid "Change the strength of the camera bounce effect."
+msgstr "Atharraich an neart aig buaidh bocadh a' chamara."
+
+#: data/skins/simple/menus/InputDevice:81
+#: data/skins/simple/menus/InputDevice:101
+msgid "Change the type of joystick device."
+msgstr "Atharraich an seòrsa dhe dh'uidheam joystick."
+
+#: data/skins/simple/menus/DisplayOptions:210
+#: data/skins/simple/menus/DisplayOptions:230
+msgid "Change the units that speed is displayed in between MPH and KPH."
+msgstr ""
+"Atharraich na h-aonadan a thèid a chleachdadh gus luaths a shealltainn eadar "
+"MPH is KPH."
+
+#: data/skins/simple/menus/SoundOptions:186
+msgid "Change the volume of the music in the game."
+msgstr "Atharraich àirde a' chiùil sa gheama."
+
+#: data/skins/simple/menus/SoundOptions:139
+msgid "Change the volume of the sound effects in the game."
+msgstr "Atharraich àirde nam buadhan fuaime sa gheama."
+
+#: data/skins/simple/menus/Options:50
+msgid "Change video and display settings."
+msgstr "Atharraich roghainnean video is taisbeanaidh."
+
+#: data/skins/simple/menus/CameraViewControls:404
+msgid "Chase Loose"
+msgstr "Sealg fuasgailte"
+
+#: data/skins/simple/menus/CameraViewControls:337
+msgid "Chase Rigid"
+msgstr "Sealg teann"
+
+#: data/skins/simple/menus/Updates:50
+msgid "Check for updates to your existing cars and tracks"
+msgstr "Lorg ùrachaidhean airson nan càraichean is shlighean a th' agad."
+
+#: data/skins/simple/menus/Updates:47
+msgid "Check updates"
+msgstr "Lorg ùrachaidhean"
+
+#: data/skins/simple/menus/Garage:245 data/skins/simple/menus/StartingGrid:453
+msgid "Choose the brightness for the car."
+msgstr "Tagh an t-soilleireachd a bhios air a' chàr."
+
+#: data/skins/simple/menus/Cars:98 data/skins/simple/menus/Garage:80
+#: data/skins/simple/menus/StartingGrid:256
+#: data/skins/simple/menus/StartingGrid:276
+msgid "Choose the car to drive."
+msgstr "Tagh an càr agad."
+
+#: data/skins/simple/menus/Garage:164 data/skins/simple/menus/StartingGrid:372
+msgid "Choose the hue for the car."
+msgstr "Tagh an tuar a bhios air a' chàr."
+
+#: data/skins/simple/menus/Garage:107 data/skins/simple/menus/Garage:127
+#: data/skins/simple/menus/StartingGrid:315
+#: data/skins/simple/menus/StartingGrid:335
+msgid "Choose the paint job for the car."
+msgstr "Tagh am peant a bhios air a' chàr."
+
+#: data/skins/simple/menus/Garage:199 data/skins/simple/menus/StartingGrid:407
+msgid "Choose the saturation for the car."
+msgstr "Tagh an t-sàthachd a bhios air a' chàr."
+
+#: data/skins/simple/menus/SingleRace:90 data/skins/simple/menus/Tracks:98
+msgid "Choose the track to drive on."
+msgstr "Tagh an t-slighe gus draibheadh oirre."
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:79
+msgid "Color Depth"
+msgstr "Doimhne datha"
+
+#: data/skins/simple/menus/EditButtonControl:147
+msgid "Condition"
+msgstr "Cumha"
+
+#: data/skins/simple/menus/Main:134
+msgid "Configure your display, sound and controls."
+msgstr "Rèitich an sealladh, an fhuaim is na h-uidheaman-smachd."
+
+#: data/skins/simple/menus/InputDevice:588
+#: data/skins/simple/menus/InputDevice:608
+msgid "Confine mouse to the application window and hide cursor when playing."
+msgstr ""
+"Cùm an luchag ann an uinneag na h-aplacaid is falaich an cùrsair fhad 's a "
+"bhios mi a' cluich."
+
+#: data/skins/simple/menus/InGameMain:47
+msgid "Continue"
+msgstr "Lean air adhart"
+
+#: data/skins/simple/menus/DisplayOptions:776
+msgid "Contrast"
+msgstr "Iomsgaradh"
+
+#: data/skins/simple/menus/EditAnalogControl:69
+#: data/skins/simple/menus/EditButtonControl:69
+msgid "Control"
+msgstr "Uidheam-smachd"
+
+#: data/skins/simple/menus/Options:131
+msgid "Controls"
+msgstr "Uidheaman-smachd"
+
+#: data/skins/simple/menus/EditAnalogControl:88
+msgid "Deadzone"
+msgstr "Raon-marbh"
+
+#: data/settings/options.config:189
+msgid "Default"
+msgstr "Bunaiteach"
+
+#: data/skins/simple/menus/EditAnalogControl:226
+#: data/skins/simple/menus/EditButtonControl:206
+msgid "Delete"
+msgstr "Sguab às"
+
+#: data/skins/simple/menus/EditButtonControl:209
+msgid "Delete this control and return to the previous menu."
+msgstr "Sguab às dhan uidheam-smachd seo is till dhan chlàr-taice roimhe."
+
+#: data/skins/simple/menus/EditAnalogControl:229
+msgid "Delete this control."
+msgstr "Sguab às dhan uidheam-smachd seo."
+
+#: data/skins/simple/menus/Options:47
+msgid "Display"
+msgstr "Sealladh"
+
+#: data/skins/simple/menus/DisplayOptions:564
+#: data/skins/simple/menus/DisplayOptions:584
+msgid "Display a track map."
+msgstr "Seall mapa an t-slighe."
+
+#: data/skins/simple/menus/DisplayOptions:623
+#: data/skins/simple/menus/DisplayOptions:643
+msgid "Display the racing line."
+msgstr "Seall loidhne-rèisidh."
+
+#: data/skins/simple/menus/GuiControls:404 data/settings/options.config:712
+msgid "Down"
+msgstr "Sìos"
+
+#: data/skins/simple/menus/CarManager:167
+#: data/skins/simple/menus/TrackManager:167
+msgid "Download"
+msgstr "Luchdaich a-nuas"
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:386
+#: data/skins/simple/menus/DisplayOptionsAdvanced:406
+msgid "Draw dynamic shadows."
+msgstr "Tarraing sgàilean innsgineach."
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:504
+#: data/skins/simple/menus/DisplayOptionsAdvanced:524
+msgid "Draw highlights."
+msgstr "Tarraing soillseachadh."
+
+#: data/skins/simple/menus/CameraViewControls:270
+#: data/skins/simple/menus/StartingGrid:138
+msgid "Driver"
+msgstr "Draibhear"
+
+#: data/skins/simple/menus/SingleRace:509
+msgid "Edit cars, drivers and starting positions."
+msgstr "Deasaich càraichean, draibhearan is ionadan toisich."
+
+#: data/skins/simple/menus/SingleRace:459
+#: data/skins/simple/menus/SingleRace:479
+msgid "Enable car damage model."
+msgstr "Cuir modail millidh chàir air."
+
+#: data/skins/simple/menus/SingleRace:294
+#: data/skins/simple/menus/SingleRace:314
+#, fuzzy
+msgid "Enable track objects damage."
+msgstr "Cuir dochann air oibseactan na slighe air."
+
+#: data/skins/simple/menus/InputDevice:470
+#: data/skins/simple/menus/InputDevice:490
+msgid "Enable/disable automatic clutching (prevents car from stalling)."
+msgstr ""
+"Cuir cluids fèin-obrachail an comas / à comas (cha tèid an t-einnsean dheth)."
+
+#: data/skins/simple/menus/InputDevice:411
+#: data/skins/simple/menus/InputDevice:431
+msgid "Enable/disable automatic transmission shifting."
+msgstr "Cuir shioft fèin-obrachail aig an transmission an comas / à comas."
+
+#: data/skins/simple/menus/DisplayOptions:269
+#: data/skins/simple/menus/DisplayOptions:289
+msgid "Enable/disable the framerate counter."
+msgstr "Cuir an cunntair reat fhrèaman an comas / à comas."
+
+#: data/skins/simple/menus/DisplayOptions:328
+#: data/skins/simple/menus/DisplayOptions:348
+msgid "Enable/disable the heads up display."
+msgstr "Cuir an heads up display an comas / à comas."
+
+#: data/skins/simple/menus/EditAnalogControl:180
+msgid "Exponent"
+msgstr "Easponant"
+
+#: data/settings/options.config:418
+msgid "Extra-wide"
+msgstr "Glè leathann"
+
+#: data/settings/options.config:457
+msgid "Far"
+msgstr "Fada"
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:622
+#: data/skins/simple/menus/DisplayOptionsAdvanced:642
+msgid "Fast moving objects blur slightly."
+msgstr "Bidh beagan sgleò air oibseactan a ghluaiseas gu luath."
+
+#: data/settings/options.config:187
+msgid "Few"
+msgstr "Beagan dhiubh"
+
+#: data/skins/simple/menus/DisplayOptions:670
+msgid "Field of View"
+msgstr "Raon seallaidh"
+
+#: data/skins/simple/menus/DisplayOptions:682
+#: data/skins/simple/menus/DisplayOptions:702
+msgid "Field of view in the vertical direction."
+msgstr "Raon seallaidh an comhair inghearach."
+
+#: data/skins/simple/menus/CameraViewControls:605
+msgid "Focus Next"
+msgstr "Fòcas air an ath-fhear"
+
+#: data/skins/simple/menus/CameraViewControls:672
+msgid "Focus Previous"
+msgstr "Fòcas air an fhear roimhe"
+
+#: data/skins/simple/menus/CameraViewControls:617
+#: data/skins/simple/menus/CameraViewControls:636
+#: data/skins/simple/menus/CameraViewControls:655
+msgid "Focus the camera on next car."
+msgstr "Taomhaich an camara air an ath-chàr."
+
+#: data/skins/simple/menus/CameraViewControls:684
+#: data/skins/simple/menus/CameraViewControls:703
+#: data/skins/simple/menus/CameraViewControls:722
+msgid "Focus the camera on previous car."
+msgstr "Taomhaich an camara air a' chàr roimhe."
+
+#: data/skins/simple/menus/InputDevice:246
+msgid "Force Feedback Gain"
+msgstr "Meudachadh freagairt-forsa"
+
+#: data/skins/simple/menus/InputDevice:187
+msgid "Force Feedback Invert"
+msgstr "Ais-tionndadh freagairt-forsa"
+
+#: data/skins/simple/menus/CameraMovementControls:474
+msgid "Forget changes and return to Camera Controls menu."
+msgstr ""
+"Dìochuimhnich na h-atharraichean is till dhan chlàr-taice \"Uidheaman-smachd "
+"a' chamara.\""
+
+#: data/skins/simple/menus/TransmissionControls:809
+msgid "Forget changes and return to Car Controls menu."
+msgstr ""
+"Dìochuimhnich na h-atharraichean is till dhan chlàr-taice \"Uidheaman-smachd "
+"a' chàir.\""
+
+#: data/skins/simple/menus/CarControls:770
+#: data/skins/simple/menus/GuiControls:474
+#: data/skins/simple/menus/InputDevice:638
+msgid "Forget changes and return to Controls menu."
+msgstr ""
+"Dìochuimhnich na h-atharraichean is till dhan chlàr-taice \"Uidheaman-smachd."
+"\""
+
+#: data/skins/simple/menus/CameraViewControls:770
+#: data/skins/simple/menus/ReplaysControls:206
+#: data/skins/simple/menus/ToolsControls:340
+msgid "Forget changes and return to Game Controls menu."
+msgstr ""
+"Dìochuimhnich na h-atharraichean is till dhan chlàr-taice \"Uidheaman-smachd "
+"a' gheama.\""
+
+#: data/skins/simple/menus/DisplayOptions:826
+#: data/skins/simple/menus/DisplayOptionsAdvanced:968
+#: data/skins/simple/menus/EditAnalogControl:257
+#: data/skins/simple/menus/SoundOptions:225
+msgid "Forget changes and return to Options menu."
+msgstr ""
+"Dìochuimhnich na h-atharraichean is till dhan chlàr-taice \"Roghainnean.\""
+
+#: data/skins/simple/menus/EditButtonControl:237
+msgid "Forget changes and return to the previous menu."
+msgstr "Dìochuimhnich na h-atharraichean is till dhan chlàr-taice roimhe."
+
+#: data/skins/simple/menus/DisplayOptions:257
+msgid "Framerate Counter"
+msgstr "Cunntair reat fhrèaman"
+
+#: data/skins/simple/menus/CameraViewControls:538
+msgid "Free"
+msgstr "Saor"
+
+#: data/skins/simple/menus/DisplayOptions:139
+msgid "Fullscreen"
+msgstr "Làn-sgrìn"
+
+#: src/hud.cpp:111
+msgid "GO"
+msgstr "Siuthad"
+
+#: data/skins/simple/menus/ControlsOptions:187
+msgid "GUI"
+msgstr "GUI"
+
+#: data/skins/simple/menus/EditAnalogControl:134
+msgid "Gain"
+msgstr "Iomadaichear"
+
+#: data/skins/simple/menus/Garage:59 data/skins/simple/menus/Main:47
+msgid "Garage"
+msgstr "Garaids"
+
+#: data/skins/simple/menus/CarControls:69
+msgid "Gas"
+msgstr "Luaths"
+
+#: data/skins/simple/menus/ReplayStartError:50
+msgid "Go back to the Replays menu."
+msgstr "Till dhan chlàr-taice \"Ath-chluichean.\""
+
+#: data/skins/simple/menus/UpdateSuccessful:50
+msgid "Go back to the Updates page."
+msgstr "Till dhan chlàr-taice \"Ùrachaidhean.\""
+
+#: data/skins/simple/menus/CarManager:81
+msgid "Go back to the last car."
+msgstr "Air ais dhan chàr roimhe."
+
+#: data/skins/simple/menus/TrackManager:81
+msgid "Go back to the last track."
+msgstr "Air ais dhan t-shlighe roimhe."
+
+#: data/skins/simple/menus/DataConnectionError:50
+#: data/skins/simple/menus/UpdateFailedVersion:50
+msgid "Go back to the main menu."
+msgstr "Till dhan phrìomh chlàr-taice."
+
+#: data/skins/simple/menus/NoOpponentsError:50
+msgid "Go back to the race menu."
+msgstr "Till dhan chlàr-taice \"Rèis.\""
+
+#: data/skins/simple/menus/InputDevice:576
+msgid "Grab Mouse"
+msgstr "Greim an luchag"
+
+#: data/skins/simple/menus/Options:75
+msgid "Graphics"
+msgstr "Grafaigeachd"
+
+#: data/skins/simple/menus/InputDevice:517
+msgid "H-Gate Shifter"
+msgstr "Sioftair H-Gate"
+
+#: data/skins/simple/menus/CarControls:404
+msgid "Handbrake"
+msgstr "Brèig-làimhe"
+
+#: data/skins/simple/menus/DisplayOptions:316
+msgid "Heads Up Display"
+msgstr "Heads Up Display"
+
+#: data/settings/options.config:705
+msgid "Held"
+msgstr "Ga chumail"
+
+#: data/skins/simple/menus/Garage:284 data/skins/simple/menus/Garage:304
+#: data/skins/simple/menus/StartingGrid:492
+#: data/skins/simple/menus/StartingGrid:512
+msgid "Help reduce wheel lockup on heavy braking (driver aid)."
+msgstr ""
+"Lùghdaich casgadh nan cuibhlean nuair a bhios tu trom air a' bhrèig "
+"(cuideachadh draibheir)."
+
+#: data/settings/options.config:174 data/settings/options.config:261
+#: data/settings/options.config:431 data/settings/options.config:444
+#: data/settings/options.config:471
+msgid "High"
+msgstr "Fada"
+
+#: data/skins/simple/menus/SingleRace:411
+#: data/skins/simple/menus/StartingGrid:208
+msgid "Higher values result in an AI that will drive faster."
+msgstr "Bheir luachan as àirde IF dhut a dhraibheas nas luaithe."
+
+#: data/skins/simple/menus/CameraViewControls:203
+msgid "Hood"
+msgstr "Bonaid"
+
+#: data/skins/simple/menus/Garage:154 data/skins/simple/menus/StartingGrid:362
+msgid "Hue"
+msgstr "Tuar"
+
+#: data/skins/simple/menus/ControlsOptions:47
+msgid "Input Device"
+msgstr "Uidheam ion-chuir"
+
+#: data/skins/simple/menus/DisplayOptions:493
+msgid "Input Graph"
+msgstr "Graf ion-chuir"
+
+#: data/settings/options.config:244
+msgid "Joystick/Gamepad"
+msgstr "Joystick/Pada-geama"
+
+#: src/hud.cpp:115
+msgid "KPH"
+msgstr "KPH"
+
+#: data/skins/simple/menus/Main:162
+msgid "Keep your cars and tracks up to date"
+msgstr "Cùm na càraichean ia slighean agad cho ùr 's a ghabhas"
+
+#: src/hud.cpp:104
+msgid "Lap time:"
+msgstr "Ùine na cuairte:"
+
+#: src/hud.cpp:108
+msgid "Lap:"
+msgstr "Cuairt:"
+
+#: data/skins/simple/menus/SingleRace:105
+msgid "Laps"
+msgstr "Cuairtean"
+
+#: data/settings/options.config:127
+msgid "Large"
+msgstr "Mòr"
+
+#: src/hud.cpp:105
+msgid "Last lap:"
+msgstr "An tè roimhpe:"
+
+#: data/skins/simple/menus/InGameMain:106
+msgid "Leave game and return to the Main menu."
+msgstr "Fàg an geama is till dhan phrìomh chlar-taice."
+
+#: data/skins/simple/menus/InGameMain:50
+msgid "Leave the menu and continue the game."
+msgstr "Fàg an clàr-taice is lean air a' gheama."
+
+#: data/skins/simple/menus/GuiControls:203
+msgid "Left"
+msgstr "Gu clì"
+
+#: data/skins/simple/menus/InputDevice:140
+#: data/skins/simple/menus/InputDevice:160
+msgid ""
+"Limit steering range to 200 degrees, gives a realistic feel to limited range "
+"wheels."
+msgstr ""
+"Cuingich rainse an stiùiridh gu 200 puing, bheir seo coltas fìrinneach dha "
+"chuibhlean le rainse cuingichte."
+
+#: data/skins/simple/menus/CarManager:129
+#: data/skins/simple/menus/TrackManager:129
+msgid "Local"
+msgstr "Ionadail"
+
+#: data/skins/simple/menus/CarControls:617
+#: data/skins/simple/menus/CarControls:636
+#: data/skins/simple/menus/CarControls:655
+msgid "Look behind you during driving."
+msgstr "Seall air do chùlaibh fhad 's a bhios tu a' dràibheadh."
+
+#: data/settings/options.config:170 data/settings/options.config:257
+#: data/settings/options.config:429 data/settings/options.config:442
+#: data/settings/options.config:467
+msgid "Low"
+msgstr "Goirid"
+
+#: src/hud.cpp:114
+msgid "MPH"
+msgstr "MPH"
+
+#: data/settings/options.config:191
+msgid "Many"
+msgstr "Mòran dhiubh"
+
+#: data/settings/options.config:125 data/settings/options.config:172
+#: data/settings/options.config:259 data/settings/options.config:455
+#: data/settings/options.config:469
+msgid "Medium"
+msgstr "Meadhanach"
+
+#: data/skins/simple/menus/DisplayOptions:434
+msgid "Menu Language"
+msgstr "Cànan clàir-thaice"
+
+#: data/skins/simple/menus/DisplayOptions:375
+msgid "Menu Skin"
+msgstr "Ùrlar a' chlàir-taice"
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:610
+msgid "Motion Blur"
+msgstr "Sgleò gluasaid"
+
+#: data/skins/simple/menus/GuiControls:416
+#: data/skins/simple/menus/GuiControls:435
+#: data/skins/simple/menus/GuiControls:454
+msgid "Move the currently focused menu item down."
+msgstr "Gluais an nì clàir-thaice air a bheil am fòcas sìos."
+
+#: data/skins/simple/menus/GuiControls:215
+#: data/skins/simple/menus/GuiControls:234
+#: data/skins/simple/menus/GuiControls:253
+msgid "Move the currently focused menu item left."
+msgstr "Gluais an nì clàir-thaice air a bheil am fòcas gu clì."
+
+#: data/skins/simple/menus/GuiControls:282
+#: data/skins/simple/menus/GuiControls:301
+#: data/skins/simple/menus/GuiControls:320
+msgid "Move the currently focused menu item right."
+msgstr "Gluais an nì clàir-thaice air a bheil am fòcas gu deas."
+
+#: data/skins/simple/menus/GuiControls:349
+#: data/skins/simple/menus/GuiControls:368
+#: data/skins/simple/menus/GuiControls:387
+msgid "Move the currently focused menu item up."
+msgstr "Gluais an nì clàir-thaice air a bheil am fòcas suas."
+
+#: data/skins/simple/menus/GuiControls:148
+#: data/skins/simple/menus/GuiControls:167
+#: data/skins/simple/menus/GuiControls:186
+msgid "Move up a menu level."
+msgstr "Gluais suas leibheil clàir-thaice."
+
+#: data/skins/simple/menus/InputDevice:257
+msgid "Multiplier to adjust strength of force feedback."
+msgstr "Iomadaichear gus leud an na freagairte-forsa a ghleusadh."
+
+#: data/skins/simple/menus/SoundOptions:175
+msgid "Music Volume"
+msgstr "Àirde a' chiùil:"
+
+#: data/settings/options.config:453
+msgid "Near"
+msgstr "Faisg"
+
+#: data/skins/simple/menus/TransmissionControls:270
+msgid "Neutral"
+msgstr "Neodrach"
+
+#: data/skins/simple/menus/CameraViewControls:136
+msgid "Next Camera"
+msgstr "An t-ath chamara"
+
+#: data/skins/simple/menus/GameLeaveConfirm:47
+#: data/skins/simple/menus/QuitConfirm:47
+#: data/skins/simple/menus/RestartGameConfirm:47
+#: data/settings/options.config:276 data/settings/options.config:377
+msgid "No"
+msgstr "Chan eil"
+
+#: data/settings/options.config:414
+msgid "Normal"
+msgstr "Àbhaisteach"
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:551
+msgid "Normal Maps"
+msgstr "Mapaichean àbhaisteach"
+
+#: data/skins/simple/menus/CameraMovementControls:499
+#: data/skins/simple/menus/CameraViewControls:795
+#: data/skins/simple/menus/CarControls:795
+#: data/skins/simple/menus/DisplayOptions:851
+#: data/skins/simple/menus/DisplayOptionsAdvanced:993
+#: data/skins/simple/menus/EditAnalogControl:282
+#: data/skins/simple/menus/EditButtonControl:262
+#: data/skins/simple/menus/GuiControls:499
+#: data/skins/simple/menus/InputDevice:663
+#: data/skins/simple/menus/ReplaysControls:231
+#: data/skins/simple/menus/SoundOptions:250
+#: data/skins/simple/menus/ToolsControls:365
+#: data/skins/simple/menus/TransmissionControls:834
+msgid "OK"
+msgstr "Ceart ma-thà"
+
+#: data/settings/options.config:115 data/settings/options.config:136
+#: data/settings/options.config:144 data/settings/options.config:152
+#: data/settings/options.config:185 data/settings/options.config:236
+#: data/settings/options.config:255 data/settings/options.config:290
+#: data/settings/options.config:298 data/settings/options.config:324
+#: data/settings/options.config:332 data/settings/options.config:340
+#: data/settings/options.config:354 data/settings/options.config:362
+#: data/settings/options.config:385 data/settings/options.config:406
+#: data/settings/options.config:427 data/settings/options.config:440
+#: data/settings/options.config:531 data/settings/options.config:539
+#: data/settings/options.config:547 data/settings/options.config:564
+#: data/settings/options.config:572 data/settings/options.config:580
+#: data/settings/options.config:588 data/settings/options.config:596
+#: data/settings/options.config:604 data/settings/options.config:651
+msgid "Off"
+msgstr "Dheth"
+
+#: data/settings/options.config:114 data/settings/options.config:135
+#: data/settings/options.config:143 data/settings/options.config:151
+#: data/settings/options.config:235 data/settings/options.config:289
+#: data/settings/options.config:297 data/settings/options.config:323
+#: data/settings/options.config:331 data/settings/options.config:339
+#: data/settings/options.config:353 data/settings/options.config:384
+#: data/settings/options.config:405 data/settings/options.config:530
+#: data/settings/options.config:538 data/settings/options.config:546
+#: data/settings/options.config:563 data/settings/options.config:571
+#: data/settings/options.config:579 data/settings/options.config:587
+#: data/settings/options.config:595 data/settings/options.config:603
+#: data/settings/options.config:650
+msgid "On"
+msgstr "Air"
+
+#: data/settings/options.config:704
+msgid "Once"
+msgstr "Aon turas"
+
+#: data/skins/simple/menus/SingleRace:341
+#, fuzzy
+msgid "Opponents"
+msgstr "Co-fharpaisichean:"
+
+#: data/skins/simple/menus/InGameMain:131 data/skins/simple/menus/Main:131
+#: data/skins/simple/menus/Options:37
+msgid "Options"
+msgstr "Roghainnean"
+
+#: data/skins/simple/menus/ControlsOptions:37
+msgid "Options / Controls"
+msgstr "Roghainnean / Uidheaman-smachd"
+
+#: data/skins/simple/menus/EditAnalogControl:59
+msgid "Options / Controls / Analog / Edit"
+msgstr "Roghainnean / Uidh.-smachd / Analogach / Deasaich"
+
+#: data/skins/simple/menus/AssignControl:27
+msgid "Options / Controls / Assign"
+msgstr "Roghainnean / Uidheaman-smachd / Sònraich"
+
+#: data/skins/simple/menus/EditButtonControl:59
+msgid "Options / Controls / Button / Edit"
+msgstr "Roghainnean / Uidh.-smachd / Putan / Deasaich"
+
+#: data/skins/simple/menus/CameraViewControls:59
+msgid "Options / Controls / Camera"
+msgstr "Roghainnean / Uidheaman-smachd / Camara"
+
+#: data/skins/simple/menus/CameraMovementControls:59
+msgid "Options / Controls / Camera / Movement"
+msgstr "Roghainnean / Uidh.-smachd / Camara / Gluasad"
+
+#: data/skins/simple/menus/CarControls:59
+msgid "Options / Controls / Car"
+msgstr "Roghainnean / Uidheaman-smachd / Càr"
+
+#: data/skins/simple/menus/TransmissionControls:59
+msgid "Options / Controls / Car / Transmission"
+msgstr "Roghainnean / Uidh.-smachd / Càr / Transmission"
+
+#: data/skins/simple/menus/GuiControls:59
+msgid "Options / Controls / GUI"
+msgstr "Roghainnean / Uidheaman-smachd / GUI"
+
+#: data/skins/simple/menus/InputDevice:59
+msgid "Options / Controls / Input Device"
+msgstr "Roghainnean / Uidheaman-smachd / Ion-chur"
+
+#: data/skins/simple/menus/ReplaysControls:59
+msgid "Options / Controls / Replays"
+msgstr "Roghainnean / Uidh.-smachd / Ath-chluichean"
+
+#: data/skins/simple/menus/ToolsControls:59
+msgid "Options / Controls / Tools"
+msgstr "Roghainnean / Uidheaman-smachd / Innealan"
+
+#: data/skins/simple/menus/DisplayOptions:59
+msgid "Options / Display"
+msgstr "Roghainnean / Sealladh"
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:59
+msgid "Options / Graphics"
+msgstr "Roghainnean / Grafaigeachd"
+
+#: data/skins/simple/menus/SoundOptions:59
+msgid "Options / Sound"
+msgstr "Roghainnean / Fuaim"
+
+#: data/skins/simple/menus/CameraViewControls:471
+msgid "Orbit"
+msgstr "Reul-chuairt"
+
+#: data/skins/simple/menus/Garage:95 data/skins/simple/menus/StartingGrid:303
+msgid "Paint"
+msgstr "Peant"
+
+#: data/skins/simple/menus/CameraMovementControls:270
+msgid "Pan Down"
+msgstr "Panaich sìos"
+
+#: data/skins/simple/menus/CameraMovementControls:69
+msgid "Pan Left"
+msgstr "Panaich gu clì"
+
+#: data/skins/simple/menus/CameraMovementControls:136
+msgid "Pan Right"
+msgstr "Panaich gu deas"
+
+#: data/skins/simple/menus/CameraMovementControls:203
+msgid "Pan Up"
+msgstr "Panaich suas"
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:669
+msgid "Particles"
+msgstr "Mìrean"
+
+#: data/skins/simple/menus/ToolsControls:69
+msgid "Pause"
+msgstr "Cuir na stad"
+
+#: data/skins/simple/menus/InGameMain:37
+msgid "Pause Menu"
+msgstr "Clàr-taice stada"
+
+#: src/hud.cpp:109
+msgid "Place:"
+msgstr "Àite:"
+
+#: data/skins/simple/menus/Main:106
+msgid "Play back recorded games."
+msgstr "Ath-chluich geamannan air an sàbhaladh."
+
+#: data/skins/simple/menus/Main:50
+msgid "Player car and driver settings."
+msgstr "Atharraich roghainnean càir is draibheir."
+
+#: data/skins/simple/menus/StartingGrid:79
+msgid "Position"
+msgstr "Ionad"
+
+#: data/skins/simple/menus/AssignControl:37
+msgid ""
+"Press a key, press a joystick button, move a joystick axis, move the mouse, "
+"or click a mouse button."
+msgstr ""
+"Brùth air iuchair no putan joystick no gluais aiseal joystick no an luchag "
+"no briog air putan luchaige."
+
+#: data/skins/simple/menus/Garage:343 data/skins/simple/menus/Garage:363
+#: data/skins/simple/menus/StartingGrid:551
+#: data/skins/simple/menus/StartingGrid:571
+msgid "Prevents wheels from spinning during acceleration (driver aid)."
+msgstr ""
+"Cuiridh seo casg air na cuibhlichean a' dol mun cuairt cus le luathachadh "
+"(cuideachadh draibheir)."
+
+#: data/skins/simple/menus/CameraViewControls:69
+msgid "Previous Camera"
+msgstr "An camara roimhe"
+
+#: data/skins/simple/menus/InGameMain:159 data/skins/simple/menus/Main:187
+msgid "Quit"
+msgstr "Fàg an-seo"
+
+#: data/skins/simple/menus/InGameMain:162
+msgid "Quit VDrift"
+msgstr "Fàg VDrift."
+
+#: data/skins/simple/menus/Main:190
+msgid "Quit VDrift."
+msgstr "Fàg VDrift."
+
+#: data/skins/simple/menus/Garage:390 data/skins/simple/menus/Main:75
+#: data/skins/simple/menus/SingleRace:59
+msgid "Race"
+msgstr "Rèis"
+
+#: data/skins/simple/menus/Cars:37
+msgid "Race / Cars"
+msgstr "Rèis / Càraichean"
+
+#: data/skins/simple/menus/StartingGrid:59
+msgid "Race / Starting Grid"
+msgstr "Rèis / Griod tòiseachaidh"
+
+#: data/skins/simple/menus/Tracks:37
+msgid "Race / Tracks"
+msgstr "Rèis / Slighean"
+
+#: data/skins/simple/menus/SingleRace:176
+#: data/skins/simple/menus/SingleRace:196
+msgid "Race on this track backwards."
+msgstr "Dèan rèis contrarra air an t-slighe seo."
+
+#: data/skins/simple/menus/DisplayOptions:611
+msgid "Racing Line"
+msgstr "Loidhne rèisidh"
+
+#: src/hud.cpp:110
+msgid "Ready"
+msgstr "Deiseil"
+
+#: data/skins/simple/menus/CarControls:605
+msgid "Rear View"
+msgstr "Sealladh cùlaibh"
+
+#: data/skins/simple/menus/SingleRace:223
+msgid "Record Session"
+msgstr "Clàraich an seisean"
+
+#: data/skins/simple/menus/SingleRace:235
+msgid "Record this game for a replay later."
+msgstr "Clàraich an geama seo gus ath-chluiche an uair sin."
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:788
+msgid "Reflection Quality"
+msgstr "Càileachd an ath-thilgeil"
+
+#: data/skins/simple/menus/ToolsControls:270
+msgid "Reload GUI"
+msgstr "Ath-luchdaich GUI"
+
+#: data/skins/simple/menus/ToolsControls:203
+msgid "Reload Shaders"
+msgstr "Ath-luchd. sgàileadairean"
+
+#: data/skins/simple/menus/ToolsControls:282
+#: data/skins/simple/menus/ToolsControls:301
+#: data/skins/simple/menus/ToolsControls:320
+msgid "Reload graphical user interface."
+msgstr "Ath-luchdaich an t-eadar-aghaidh."
+
+#: data/skins/simple/menus/ToolsControls:215
+#: data/skins/simple/menus/ToolsControls:234
+#: data/skins/simple/menus/ToolsControls:253
+msgid "Reload the vertex and fragment shader source files."
+msgstr "Ath-luchdaich na faidhlichean-tùis sgàileadair guib is mìrein."
+
+#: data/skins/simple/menus/CarManager:148
+#: data/skins/simple/menus/TrackManager:148
+msgid "Remote"
+msgstr "Cèin"
+
+#: data/skins/simple/menus/ControlsOptions:131
+#: data/skins/simple/menus/Main:103 data/skins/simple/menus/Replays:59
+msgid "Replays"
+msgstr "Ath-chluichean"
+
+#: data/skins/simple/menus/CarControls:684
+#: data/skins/simple/menus/CarControls:703
+#: data/skins/simple/menus/CarControls:722
+msgid "Reset car after rollover."
+msgstr "Ath-suidhich an dèidh cair mu char."
+
+#: data/skins/simple/menus/DisplayOptions:79
+msgid "Resolution"
+msgstr "Dùmhlachd-bhreacaidh"
+
+#: data/skins/simple/menus/InGameMain:75
+msgid "Restart"
+msgstr "Ath-thòisich"
+
+#: data/skins/simple/menus/InGameMain:78
+msgid "Restart this game using the same car and track settings."
+msgstr "Ath-thòisich an geama seo leis na h-aon roghainnean càir is slighe."
+
+#: data/skins/simple/menus/ControlsOptions:218
+msgid "Return to Options menu."
+msgstr "Till dhan chlàr-taice \"Roghainnean.\""
+
+#: data/skins/simple/menus/Garage:421 data/skins/simple/menus/Options:162
+#: data/skins/simple/menus/Replays:159 data/skins/simple/menus/SingleRace:565
+#: data/skins/simple/menus/StartingGrid:629
+#: data/skins/simple/menus/Updates:134
+msgid "Return to the Main menu."
+msgstr "Till dhan phrìomh chlàr-taice."
+
+#: data/skins/simple/menus/UpdatesFound:134
+msgid "Return to the Updates menu."
+msgstr "Till dhan chlàr-taice \"Ùrachaidhean.\""
+
+#: data/skins/simple/menus/CarManager:198
+#: data/skins/simple/menus/TrackManager:198
+msgid "Return to the Updates page."
+msgstr "Till dhan chlàr-taice \"Ùrachaidhean.\""
+
+#: data/skins/simple/menus/TransmissionControls:739
+msgid "Reverse"
+msgstr "Contrarra"
+
+#: data/skins/simple/menus/SingleRace:164
+msgid "Reverse Track"
+msgstr "Slighe chontrarra"
+
+#: data/skins/simple/menus/InputDevice:199
+#: data/skins/simple/menus/InputDevice:219
+msgid "Reverse the force feedback, if necessary for your wheel."
+msgstr ""
+"Ais-thionndaidh an fhreagairt-fhorsa, ma tha seo riatanach leis a' chuibhle "
+"agad."
+
+#: data/skins/simple/menus/GuiControls:270
+msgid "Right"
+msgstr "Gu deas"
+
+#: data/skins/simple/menus/CarControls:672
+msgid "Rollover Recover"
+msgstr "Aiseag bho char mu char"
+
+#: data/skins/simple/menus/Garage:189 data/skins/simple/menus/StartingGrid:397
+msgid "Saturation"
+msgstr "Sàthachd"
+
+#: data/skins/simple/menus/CameraMovementControls:502
+msgid "Save changes and return to Camera Controls menu."
+msgstr ""
+"Sàbhail na h-atharraichean is till dhan chlàr-taice \"Uidheaman-smachd a' "
+"chamara.\""
+
+#: data/skins/simple/menus/TransmissionControls:837
+msgid "Save changes and return to Car Controls menu."
+msgstr ""
+"Sàbhail na h-atharraichean is till dhan chlàr-taice \"Uidheaman-smachd a' "
+"chàir.\""
+
+#: data/skins/simple/menus/CarControls:798
+#: data/skins/simple/menus/GuiControls:502
+#: data/skins/simple/menus/InputDevice:666
+msgid "Save changes and return to Controls menu."
+msgstr ""
+"Sàbhail na h-atharraichean is till dhan chlàr-taice \"Uidheaman-smachd.\""
+
+#: data/skins/simple/menus/CameraViewControls:798
+#: data/skins/simple/menus/ReplaysControls:234
+#: data/skins/simple/menus/ToolsControls:368
+msgid "Save changes and return to Game Controls menu."
+msgstr ""
+"Sàbhail na h-atharraichean is till dhan chlàr-taice \"Uidheaman-smachd a' "
+"gheama.\""
+
+#: data/skins/simple/menus/DisplayOptions:854
+#: data/skins/simple/menus/DisplayOptionsAdvanced:996
+#: data/skins/simple/menus/EditAnalogControl:285
+#: data/skins/simple/menus/SoundOptions:253
+msgid "Save changes and return to Options menu."
+msgstr "Sàbhail na h-atharraichean is till dhan chlàr-taice \"Roghainnean.\""
+
+#: data/skins/simple/menus/EditButtonControl:265
+msgid "Save changes and return to the previous menu."
+msgstr "Sàbhail na h-atharraichean is till dhan chlàr-taice roimhe."
+
+#: src/hud.cpp:107
+msgid "Score:"
+msgstr "Sgòr:"
+
+#: data/skins/simple/menus/ToolsControls:136
+msgid "Screen Shot"
+msgstr "Glacadh-sgrìn"
+
+#: data/skins/simple/menus/GuiControls:69
+msgid "Select"
+msgstr "Tagh"
+
+#: data/skins/simple/menus/Replays:69
+msgid "Select Replay"
+msgstr "Tagh ath-chluiche"
+
+#: data/skins/simple/menus/StartingGrid:150
+#: data/skins/simple/menus/StartingGrid:170
+msgid "Select car driver."
+msgstr "Tagh draibhear a' chàir."
+
+#: data/skins/simple/menus/StartingGrid:91
+#: data/skins/simple/menus/StartingGrid:111
+msgid "Select car to edit."
+msgstr "Tagh càr airson deasachadh."
+
+#: data/skins/simple/menus/CameraViewControls:215
+#: data/skins/simple/menus/CameraViewControls:234
+#: data/skins/simple/menus/CameraViewControls:253
+msgid "Select car's hood camera ."
+msgstr "Tagh camara bonaid a' chàir."
+
+#: data/skins/simple/menus/CameraViewControls:282
+#: data/skins/simple/menus/CameraViewControls:301
+#: data/skins/simple/menus/CameraViewControls:320
+msgid "Select driver's view camera."
+msgstr "Tagh camara sealladh an draibheir."
+
+#: data/skins/simple/menus/CameraViewControls:416
+#: data/skins/simple/menus/CameraViewControls:435
+msgid "Select loose chase camera."
+msgstr "Tagh camara seilge fuasgailte."
+
+#: data/skins/simple/menus/CameraViewControls:148
+#: data/skins/simple/menus/CameraViewControls:167
+#: data/skins/simple/menus/CameraViewControls:186
+msgid "Select next camera in the set."
+msgstr "Tagh an t-ath chamara san t-seata."
+
+#: data/skins/simple/menus/CameraViewControls:81
+#: data/skins/simple/menus/CameraViewControls:100
+#: data/skins/simple/menus/CameraViewControls:119
+msgid "Select previous camera in the set."
+msgstr "Tagh an camara roimhe san t-seata."
+
+#: data/skins/simple/menus/CameraViewControls:349
+#: data/skins/simple/menus/CameraViewControls:368
+#: data/skins/simple/menus/CameraViewControls:387
+msgid "Select rigid chase camera."
+msgstr "Tagh camara seilge teinn."
+
+#: data/skins/simple/menus/GuiControls:81
+#: data/skins/simple/menus/GuiControls:100
+#: data/skins/simple/menus/GuiControls:118
+msgid "Select the currently focused menu item."
+msgstr "Tagh an nì clàir-thaice air a bheil am fòcas."
+
+#: data/skins/simple/menus/Replays:81 data/skins/simple/menus/Replays:101
+msgid "Select the replay to watch."
+msgstr "Tagh an ath-chluiche a tha thu airson coimhead air."
+
+#: data/skins/simple/menus/CameraViewControls:742
+msgid "Set camera movement controls."
+msgstr "Suidhich uidheaman-smachd airson gluasad a' chamara."
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:741
+#: data/skins/simple/menus/DisplayOptionsAdvanced:761
+msgid "Set how good the SSAO looks during gameplay."
+msgstr "Suidhich dè cho snasail 's a bhios SSAO sa gheama."
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:800
+#: data/skins/simple/menus/DisplayOptionsAdvanced:820
+msgid "Set how good the reflections looks during gameplay."
+msgstr "Suidhich dè cho snasail 's a bhios ath-thilgeil sa gheama."
+
+#: data/skins/simple/menus/SingleRace:353
+#: data/skins/simple/menus/SingleRace:373
+msgid "Set number of opponents. Zero to run a practice session."
+msgstr ""
+"Suidhich an àireamh de cho-fharpaisichean. Tagh 0 gus sgrìob cleachdaidh a "
+"ghabhail."
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:268
+#: data/skins/simple/menus/DisplayOptionsAdvanced:288
+msgid "Set the anisotropic filtering level for textures."
+msgstr "Suidhich ìre a' chriathraidh an-iosa-tropach aig na h-innich."
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:859
+#: data/skins/simple/menus/DisplayOptionsAdvanced:879
+msgid "Set the distance at which shadows become visible."
+msgstr "Suidhich an t-astar a thig faileasan am follais."
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:327
+#: data/skins/simple/menus/DisplayOptionsAdvanced:347
+msgid "Set the full scene antialiasing level."
+msgstr "Suidhich ìre an antialiasing airson seallaidhean slàna."
+
+#: data/skins/simple/menus/SingleRace:117
+#: data/skins/simple/menus/SingleRace:137
+#: data/skins/simple/menus/SingleRace:255
+msgid "Set the number of laps for a single race."
+msgstr "Tagh an àireamh dhe chuairtean airson an rèis."
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:918
+#: data/skins/simple/menus/DisplayOptionsAdvanced:938
+msgid "Set the quality of shadow rendering."
+msgstr "Suidhich càileachd aig reandaradh nan sgàilean."
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:433
+msgid "Shaders"
+msgstr "Sgàileadairean"
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:847
+msgid "Shadow Distance"
+msgstr "Astar nan sgàilean"
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:906
+msgid "Shadow Quality"
+msgstr "Càileachd nan sgàilean"
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:374
+msgid "Shadows"
+msgstr "Sgàilean"
+
+#: data/skins/simple/menus/TransmissionControls:203
+msgid "Shift Down"
+msgstr "Sioft sìos"
+
+#: data/skins/simple/menus/TransmissionControls:136
+msgid "Shift Up"
+msgstr "Sioft suas"
+
+#: data/skins/simple/menus/ReplaysControls:136
+msgid "Skip Backward"
+msgstr "Sùird air ais"
+
+#: data/skins/simple/menus/ReplaysControls:69
+msgid "Skip Forward"
+msgstr "Sùird air adhart"
+
+#: data/skins/simple/menus/InputDevice:352
+#: data/skins/simple/menus/InputDevice:372
+msgid "Slow down the application of button inputs on analogue controls."
+msgstr ""
+"Cuir maille air cur an sàs aig ion-chur putain le uidheaman-smachd analogach."
+
+#: data/settings/options.config:123
+msgid "Small"
+msgstr "Beag"
+
+#: data/skins/simple/menus/DisplayOptions:69
+#: data/skins/simple/menus/DisplayOptionsAdvanced:69
+msgid "Some options will not take effect until the game is restarted"
+msgstr ""
+"Cha tèid cuid dhe na roghainnean a chur an sàs mus ath-thòisicheas tu an "
+"geama"
+
+#: data/skins/simple/menus/Options:103
+msgid "Sound"
+msgstr "Fuaim"
+
+#: data/skins/simple/menus/SoundOptions:69
+msgid "Sound Sources"
+msgstr "Tùsan fuaime"
+
+#: data/skins/simple/menus/SoundOptions:128
+msgid "Sounds Volume"
+msgstr "Àirde nam fuaimean"
+
+#: data/skins/simple/menus/DisplayOptions:198
+msgid "Speed Units"
+msgstr "Aonadan luaiths"
+
+#: data/settings/options.config:267
+msgid "Speed sensitive Hi"
+msgstr "Mothachadh àrd air luaths"
+
+#: data/settings/options.config:265
+msgid "Speed sensitive Lo"
+msgstr "Mothachadh ìseal air luaths"
+
+#: data/skins/simple/menus/CarControls:337
+msgid "Start Engine"
+msgstr "Tòisich an einnsean"
+
+#: data/skins/simple/menus/SingleRace:600
+#: data/skins/simple/menus/StartingGrid:664
+msgid "Start List:"
+msgstr "Liosta tòiseachaidh:"
+
+#: data/skins/simple/menus/SingleRace:534
+#: data/skins/simple/menus/StartingGrid:598
+msgid "Start Race"
+msgstr "Tòisich an rèis"
+
+#: data/skins/simple/menus/Replays:128
+msgid "Start Replay"
+msgstr "Tòisich an t-ath-chluiche"
+
+#: data/skins/simple/menus/SingleRace:537
+#: data/skins/simple/menus/StartingGrid:601
+msgid "Start a race using the selected car and track."
+msgstr "Tòisich air rèis leis a' chàr is slighe a thagh thu."
+
+#: data/skins/simple/menus/Garage:393 data/skins/simple/menus/Main:78
+msgid "Start a race."
+msgstr "Tòisich air rèis."
+
+#: data/skins/simple/menus/SingleRace:506
+msgid "Starting Grid"
+msgstr "Grid tòiseachaidh"
+
+#: data/skins/simple/menus/CarControls:203
+msgid "Steer Left"
+msgstr "Stiùir gu clì"
+
+#: data/skins/simple/menus/CarControls:270
+msgid "Steer Right"
+msgstr "Stiùir gu deas"
+
+#: data/skins/simple/menus/InputDevice:293
+msgid "Steering Speed Effect"
+msgstr "Buadh luaths an stiùiridh"
+
+#: data/settings/options.config:246
+msgid "Steering Wheel"
+msgstr "Cuibhle stiùiridh"
+
+#: data/skins/simple/menus/CarControls:538
+msgid "TCS Toggle"
+msgstr "Toglaich TCS"
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:138
+msgid "Texture Size"
+msgstr "Meud innich"
+
+#: data/skins/simple/menus/CarControls:483
+#: data/skins/simple/menus/CarControls:502
+#: data/skins/simple/menus/CarControls:521
+msgid "The ABS toggle turns anti-lock braking on or off while playing."
+msgstr ""
+"Cuiridh an suids ABS dìon an aghaidh casgadh nam brèigichean air no dheth "
+"fhad 's a bhios tu a' cluiche."
+
+#: data/skins/simple/menus/CarControls:550
+#: data/skins/simple/menus/CarControls:569
+#: data/skins/simple/menus/CarControls:588
+msgid "The TCS toggle turns traction control on or off while playing."
+msgstr ""
+"Cuiridh an suids TCS dìon an aghaidh sleamhnachadh air no dheth fhad 's a "
+"bhios tu a' cluiche."
+
+#: data/skins/simple/menus/TransmissionControls:81
+#: data/skins/simple/menus/TransmissionControls:100
+#: data/skins/simple/menus/TransmissionControls:119
+msgid ""
+"The analog clutch control can allow you to use an external clutch pedal."
+msgstr ""
+"Leis an t-uidheam-smachd 'Cluids analogach', faodaidh tu troighean cluids on "
+"taobh a-muigh a chleachdadh."
+
+#: data/skins/simple/menus/CarControls:148
+#: data/skins/simple/menus/CarControls:167
+#: data/skins/simple/menus/CarControls:186
+msgid "The brake control causes the car to slow down."
+msgstr "Cuiridh an t-uidheamn-smachd brèige maille air a' chàr."
+
+#: data/skins/simple/menus/TransmissionControls:617
+#: data/skins/simple/menus/TransmissionControls:636
+#: data/skins/simple/menus/TransmissionControls:655
+msgid "The fifth gear control shifts the car into fifth gear."
+msgstr "Cuiridh an t-uidheam-smachd '5mh' an càr sa chòigeamh gèar."
+
+#: data/skins/simple/menus/TransmissionControls:349
+#: data/skins/simple/menus/TransmissionControls:368
+#: data/skins/simple/menus/TransmissionControls:387
+msgid "The first gear control shifts the car into first gear."
+msgstr "Cuiridh an t-uidheam-smachd '1d' an càr sa chiad ghèar."
+
+#: data/skins/simple/menus/TransmissionControls:550
+#: data/skins/simple/menus/TransmissionControls:569
+#: data/skins/simple/menus/TransmissionControls:588
+msgid "The fourth gear control shifts the car into fourth gear."
+msgstr "Cuiridh an t-uidheam-smachd '4mh' an càr sa cheathramh gèar."
+
+#: data/skins/simple/menus/CameraViewControls:550
+#: data/skins/simple/menus/CameraViewControls:569
+#: data/skins/simple/menus/CameraViewControls:588
+msgid "The free camera can be moved anywhere using the arrow keys."
+msgstr ""
+"Gabhaidh an camara saor gluasad gu àite sam bith leis na h-iuchraichean "
+"sàighde."
+
+#: data/skins/simple/menus/CarControls:81
+#: data/skins/simple/menus/CarControls:100
+#: data/skins/simple/menus/CarControls:119
+msgid "The gas control causes the car to speed up."
+msgstr "Nì an t-uidheam-smachd luaths an càr nas luaithe."
+
+#: data/skins/simple/menus/CarControls:416
+#: data/skins/simple/menus/CarControls:435
+#: data/skins/simple/menus/CarControls:454
+msgid "The handbrake brakes only on the back wheels."
+msgstr "Cha chur a' bhrèig-làimhe maille ach air na cuilbhlichean deiridh."
+
+#: data/skins/simple/menus/InputDevice:304
+msgid ""
+"The higher the value on this setting, the more steering is limited as car "
+"speed increases."
+msgstr ""
+"Mar as àirde an luach aig an roghainn seo, 's ann nas cuingichte a tha an "
+"stiùireadh nuair a mheudaicheas luaths a' chàir."
+
+#: data/skins/simple/menus/TransmissionControls:282
+#: data/skins/simple/menus/TransmissionControls:301
+#: data/skins/simple/menus/TransmissionControls:320
+msgid "The neutral control shifts the car into neutral."
+msgstr "Nì an t-uidheam-smachd 'neodrach' sioft gu neodrach."
+
+#: data/skins/simple/menus/CameraViewControls:483
+#: data/skins/simple/menus/CameraViewControls:502
+#: data/skins/simple/menus/CameraViewControls:521
+msgid "The orbit camera swings around the car as the mouse moves."
+msgstr "Cuiridh an camara reul-chuairt car mun chàr le gluasad na luchaige."
+
+#: data/skins/simple/menus/ToolsControls:81
+#: data/skins/simple/menus/ToolsControls:100
+#: data/skins/simple/menus/ToolsControls:119
+msgid "The pause control freezes the game (except in multiplayer)."
+msgstr ""
+"Cuiridh an t-uidheam-smachd 'Cuir na stad' an geama na stad (ach sa mhodh "
+"ioma-chluicheadair)."
+
+#: data/skins/simple/menus/TransmissionControls:751
+#: data/skins/simple/menus/TransmissionControls:770
+#: data/skins/simple/menus/TransmissionControls:789
+msgid "The reverse control puts the car into reverse gear."
+msgstr ""
+"Cuiridh an t-uidheam-smachd 'Contrarra' an càr ann an gèar an comhair a "
+"chùil."
+
+#: data/skins/simple/menus/ToolsControls:148
+#: data/skins/simple/menus/ToolsControls:167
+#: data/skins/simple/menus/ToolsControls:186
+msgid "The screen shot control saves a snapshot of the game while playing."
+msgstr ""
+"Sàbhalaidh an t-uidheam-smachd glacaidh-sgrìn glacadh-sgrìn dhen gheama fhad "
+"'s a bhios tu a' cluiche."
+
+#: data/skins/simple/menus/TransmissionControls:416
+#: data/skins/simple/menus/TransmissionControls:435
+#: data/skins/simple/menus/TransmissionControls:454
+msgid "The second gear control shifts the car into second gear."
+msgstr "Cuiridh an t-uidheam-smachd '2na' an càr san dàrna gèar."
+
+#: data/skins/simple/menus/TransmissionControls:215
+#: data/skins/simple/menus/TransmissionControls:234
+#: data/skins/simple/menus/TransmissionControls:253
+msgid "The shift down control changes the car's gear to the previous one."
+msgstr ""
+"Atharraichidh an t-uidheam-smachd 'Sioft sìos' gèar a' chàir dhan ghèar "
+"roimhe."
+
+#: data/skins/simple/menus/TransmissionControls:148
+#: data/skins/simple/menus/TransmissionControls:167
+#: data/skins/simple/menus/TransmissionControls:186
+msgid "The shift up control changes the car's gear to the next one."
+msgstr ""
+"Atharraichidh an t-uidheam-smachd 'Sioft suas' gèar a' chàir dhan ath-ghèar."
+
+#: data/skins/simple/menus/TransmissionControls:684
+#: data/skins/simple/menus/TransmissionControls:703
+#: data/skins/simple/menus/TransmissionControls:722
+msgid "The sixth gear control shifts the car into sixth gear."
+msgstr "Cuiridh an t-uidheam-smachd '6mh' an càr san t-siathamh gèar."
+
+#: data/skins/simple/menus/ReplaysControls:148
+#: data/skins/simple/menus/ReplaysControls:167
+#: data/skins/simple/menus/ReplaysControls:186
+msgid "The skip backward control goes back ten seconds during a replay."
+msgstr ""
+"Thèid an tuidheam-smachd 'Sùird air ais' deich diog air ais ann an ath-"
+"chluiche."
+
+#: data/skins/simple/menus/ReplaysControls:81
+#: data/skins/simple/menus/ReplaysControls:100
+#: data/skins/simple/menus/ReplaysControls:119
+msgid "The skip forward control skips ahead ten seconds during a replay."
+msgstr ""
+"Thèid an tuidheam-smachd 'Sùird air adhart' deich diog air adhart ann an ath-"
+"chluiche."
+
+#: data/skins/simple/menus/CarControls:349
+#: data/skins/simple/menus/CarControls:368
+#: data/skins/simple/menus/CarControls:387
+msgid "The start engine control will restart the engine if it stalls."
+msgstr ""
+"Cuiridh an t-uidheam-smachd 'Tòisich an einnsean' an einnsean air ma bhios e "
+"air stad."
+
+#: data/skins/simple/menus/CarControls:215
+#: data/skins/simple/menus/CarControls:234
+#: data/skins/simple/menus/CarControls:253
+msgid "The steer left control causes the car to turn left."
+msgstr ""
+"Gluaisidh an càr gu clì nuair a chleachdas tu an t-uidheam-smachd 'Stiùir gu "
+"clì.'"
+
+#: data/skins/simple/menus/CarControls:282
+#: data/skins/simple/menus/CarControls:301
+#: data/skins/simple/menus/CarControls:320
+msgid "The steer right control causes the car to turn right."
+msgstr ""
+"Gluaisidh an càr gu deas nuair a chleachdas tu an t-uidheam-smachd 'Stiùir "
+"gu deas.'"
+
+#: data/skins/simple/menus/TransmissionControls:483
+#: data/skins/simple/menus/TransmissionControls:502
+#: data/skins/simple/menus/TransmissionControls:521
+msgid "The third gear control shifts the car into third gear."
+msgstr "Cuiridh an t-uidheam-smachd '3s' an càr san treas gèar."
+
+#: data/skins/simple/menus/DataConnectionError:37
+msgid "There was an error connecting to the VDrift data server."
+msgstr "Thachair mearachd a' ceangal dhan fhrithealaiche dàta VDrift."
+
+#: data/skins/simple/menus/ReplayStartError:37
+msgid "There was an error when trying to play this replay."
+msgstr "Thachair mearachd a' fheuchainn ris an ath-chluiche seo ath-chluiche."
+
+#: data/skins/simple/menus/DisplayOptions:151
+#: data/skins/simple/menus/DisplayOptions:171
+msgid "Toggle fullscreen mode on and off."
+msgstr "Toglaich am modh làn-sgrìn air no dheth."
+
+#: data/skins/simple/menus/ControlsOptions:159
+msgid "Tools"
+msgstr "Innealan"
+
+#: data/skins/simple/menus/SingleRace:79
+#: data/skins/simple/menus/TrackManager:69
+msgid "Track"
+msgstr "Slighe"
+
+#: data/skins/simple/menus/SingleRace:282
+msgid "Track Damage"
+msgstr "Dochann air an t-slighe"
+
+#: data/skins/simple/menus/DisplayOptions:552
+msgid "Track Map"
+msgstr "Mapa na slighe"
+
+#: data/skins/simple/menus/TrackManager:119
+msgid "Track Name"
+msgstr "Ainm na slighe"
+
+#: data/skins/simple/menus/UpdatesFound:58
+msgid "Track updates"
+msgstr "Ùraich slighean"
+
+#: data/skins/simple/menus/Updates:75
+msgid "Tracks"
+msgstr "Slighean"
+
+#: data/skins/simple/menus/Garage:331 data/skins/simple/menus/StartingGrid:539
+msgid "Traction Control"
+msgstr "Dìon bho shleamhnachadh"
+
+#: data/skins/simple/menus/CarControls:739
+msgid "Transmission"
+msgstr "Transmission"
+
+#: data/skins/simple/menus/EditButtonControl:159
+#: data/skins/simple/menus/EditButtonControl:179
+msgid "Trigger the control when the key is pressed down or released?"
+msgstr ""
+"An tèid e air adhart nuair a bhios an iuchair ga bruthadh no ga leigeil às?"
+
+#: data/skins/simple/menus/CameraMovementControls:282
+#: data/skins/simple/menus/CameraMovementControls:301
+#: data/skins/simple/menus/CameraMovementControls:320
+msgid "Turn the camera view downwards."
+msgstr "Cuairtich sealladh a' chamara sìos."
+
+#: data/skins/simple/menus/CameraMovementControls:81
+#: data/skins/simple/menus/CameraMovementControls:100
+#: data/skins/simple/menus/CameraMovementControls:119
+msgid "Turn the camera view to the left."
+msgstr "Cuairtich sealladh a' chamara gu clì."
+
+#: data/skins/simple/menus/CameraMovementControls:148
+#: data/skins/simple/menus/CameraMovementControls:167
+#: data/skins/simple/menus/CameraMovementControls:186
+msgid "Turn the camera view to the right."
+msgstr "Cuairtich sealladh a' chamara gu deas."
+
+#: data/skins/simple/menus/CameraMovementControls:215
+#: data/skins/simple/menus/CameraMovementControls:234
+#: data/skins/simple/menus/CameraMovementControls:253
+msgid "Turn the camera view upwards."
+msgstr "Cuairtich sealladh a' chamara suas."
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:445
+#: data/skins/simple/menus/DisplayOptionsAdvanced:465
+msgid ""
+"Turning off shaders will speed up rendering at the cost of visual quality."
+msgstr ""
+"Ma chuireas tu na sgàileadairean dheth, bidh an reandaradh nas luaithe ach "
+"caillidh tu càileachd lèirsinne."
+
+#: data/skins/simple/menus/InputDevice:69
+msgid "Type"
+msgstr "Seòrsa"
+
+#: data/skins/simple/menus/GuiControls:337 data/settings/options.config:713
+msgid "Up"
+msgstr "Suas"
+
+#: data/skins/simple/menus/UpdateSuccessful:37
+msgid "Update Successful"
+msgstr "Shoirbhich leis an ùrachadh"
+
+#: data/skins/simple/menus/CarManager:170
+#: data/skins/simple/menus/TrackManager:170
+msgid "Update this track to the latest version."
+msgstr "Ùraich an t-slighe seo dhan tionndadh as ùire."
+
+#: data/skins/simple/menus/Main:159 data/skins/simple/menus/Updates:37
+msgid "Updates"
+msgstr "Ùrachaidhean"
+
+#: data/skins/simple/menus/CarManager:59
+msgid "Updates / Cars"
+msgstr "Ùrachaidhean / Càraichean"
+
+#: data/skins/simple/menus/TrackManager:59
+msgid "Updates / Tracks"
+msgstr "Ùrachaidhean / Slighean"
+
+#: data/skins/simple/menus/UpdatesFound:37
+msgid "Updates / Update"
+msgstr "Ùrachaidhean / Ùrachadh"
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:563
+#: data/skins/simple/menus/DisplayOptionsAdvanced:583
+msgid "Use normal maps."
+msgstr "Cleachd mapaichean àbhaisteach."
+
+#: data/settings/options.config:176
+msgid "Very High"
+msgstr "Glè fhada"
+
+#: data/settings/options.config:168
+msgid "Very Low"
+msgstr "Glè ghoirid"
+
+#: data/skins/simple/menus/DisplayOptionsAdvanced:197
+msgid "View Distance"
+msgstr "Astar seallaidh"
+
+#: data/skins/simple/menus/DisplayOptions:505
+#: data/skins/simple/menus/DisplayOptions:525
+msgid "Visualise the steering and acceleration/braking on screen."
+msgstr "Dèan samhla-sùla air stiùireadh is luathachadh/brèige air an sgrìon."
+
+#: data/settings/options.config:416
+msgid "Wide"
+msgstr "Leathann"
+
+#: data/skins/simple/menus/EditButtonControl:100
+#: data/skins/simple/menus/EditButtonControl:120
+msgid ""
+"Will this input be activated once per press, or whenever it's held down?"
+msgstr ""
+"An tèid an t-ion-chur seo a ghnìomhachadh aon turas gach brùthadh/brìogadh, "
+"no fhad's a thèid a cumail sìos?"
+
+#: data/skins/simple/menus/GameLeaveConfirm:74
+#: data/skins/simple/menus/QuitConfirm:74
+#: data/skins/simple/menus/RestartGameConfirm:74
+#: data/settings/options.config:275 data/settings/options.config:376
+msgid "Yes"
+msgstr "Tha"
+
+#: src/hud.cpp:113
+msgid "You lost"
+msgstr "Chaill thu"
+
+#: data/skins/simple/menus/UpdateFailedVersion:37
+msgid "You must update to the latest VDrift release."
+msgstr "Feumaidh tu ùrachadh a dhèanamh dhan tionndadh as uire aig VDrift."
+
+#: src/hud.cpp:112
+msgid "You won!"
+msgstr "Buannaich thu!"
+
+#: data/skins/simple/menus/CameraMovementControls:337
+msgid "Zoom In"
+msgstr "Sùm a-steach"
+
+#: data/skins/simple/menus/CameraMovementControls:404
+msgid "Zoom Out"
+msgstr "Sùm a-mach"
+
+#: data/skins/simple/menus/CameraMovementControls:349
+#: data/skins/simple/menus/CameraMovementControls:368
+#: data/skins/simple/menus/CameraMovementControls:387
+msgid "Zoom camera in."
+msgstr "Sùm an camara a-steach."
+
+#: data/skins/simple/menus/CameraMovementControls:416
+#: data/skins/simple/menus/CameraMovementControls:435
+#: data/skins/simple/menus/CameraMovementControls:454
+msgid "Zoom camera out."
+msgstr "Sùm an camara a-mach."
+
+#: data/settings/options.config:160
+msgid "kph"
+msgstr "kph"
+
+#: data/settings/options.config:364
+msgid "long"
+msgstr "Fada"
+
+#: data/settings/options.config:366
+msgid "medium"
+msgstr "Meadhanach"
+
+#: data/settings/options.config:159
+msgid "mph"
+msgstr "mph"
+
+#: data/settings/options.config:368
+msgid "short"
+msgstr "Goirid"
+
+#~ msgid "1."
+#~ msgstr "1."
+
+#~ msgid "10."
+#~ msgstr "10."
+
+#~ msgid "11."
+#~ msgstr "11."
+
+#~ msgid "12."
+#~ msgstr "12."
+
+#~ msgid "2."
+#~ msgstr "2."
+
+#~ msgid "3."
+#~ msgstr "3."
+
+#~ msgid "4."
+#~ msgstr "4."
+
+#~ msgid "5."
+#~ msgstr "5."
+
+#~ msgid "6."
+#~ msgstr "6."
+
+#~ msgid "7."
+#~ msgstr "7."
+
+#~ msgid "8."
+#~ msgstr "8."
+
+#~ msgid "9."
+#~ msgstr "9."
+
+#~ msgid "AI type"
+#~ msgstr "Seòrsa IF"
+
+#~ msgid "Choose driver type."
+#~ msgstr "Tagh seòrsa an draibheir."
+
+#~ msgid "Client"
+#~ msgstr "Cliant"
+
+#~ msgid "Dynamic Objects"
+#~ msgstr "Oibseactan innsgineach"
+
+#~ msgid "Experimental"
+#~ msgstr "Probhail"
+
+#~ msgid "Free Drive"
+#~ msgstr "Draibheadh saor"
+
+#~ msgid "Networked"
+#~ msgstr "Lìonraichte"
+
+#~ msgid "No car updates found."
+#~ msgstr "Cha deach ùrachadh càir a lorg."
+
+#~ msgid "No track updates found."
+#~ msgstr "Cha deach ùrachadh slighe a lorg."
+
+#~ msgid "Practice Game"
+#~ msgstr "Sgrìob cleachdaidh"
+
+#~ msgid "Server"
+#~ msgstr "Frithealaiche"
+
+#~ msgid "Single Race"
+#~ msgstr "Rèis"
+
+#~ msgid "Standard"
+#~ msgstr "Coitcheann"
+
+#~ msgid "Start Practice"
+#~ msgstr "Tòisich an cleachdadh"
+
+#~ msgid "Start a practice game."
+#~ msgstr "Tòisich air geama cleachdaidh."
+
+#~ msgid "Start practice using the selected car and track."
+#~ msgstr "Tòisich air cleachdadh leis a' chàr is slighe a thagh thu."
+
+#~ msgid "Time Trial"
+#~ msgstr "An aghaidh na h-ùine"
+
+#~ msgid "You can apply updates on the car or track management screen"
+#~ msgstr ""
+#~ "'S urrainn dhut ùrachaidhean a chur an sàs air sgrìn stiùireadh nan "
+#~ "càraichean no nan slighean"
+
+#, fuzzy
+#~ msgid "Loading"
+#~ msgstr "ga luchdadh a-nuas"
+
+#~ msgid "Add"
+#~ msgstr "Cuir ris"
+
+#~ msgid "Add an opponent to race against (max 3)."
+#~ msgstr ""
+#~ "Cuir farpaiseach ris gus rèiseadh na aghaidh (3 air a char as motha)."
+
+#~ msgid "Advanced"
+#~ msgstr "Adhartach"
+
+#~ msgid "Advanced Display Options"
+#~ msgstr "Roghainnean seallaidh adhartach"
+
+#~ msgid "Are you sure you want to end this network game?"
+#~ msgstr ""
+#~ "A bheil thu cinnteach gu bheil thu airson sgur dhen gheama lìonraidh seo?"
+
+#~ msgid "Are you sure you want to stop the race?"
+#~ msgstr "A bheil thu cinnteach gu bheil thu airson sgur dhen rèis?"
+
+#~ msgid "Assign Camera Movement Controls"
+#~ msgstr "Sònraich uidheaman-smachd gluasaid a' chamara"
+
+#~ msgid "Assign Camera View Controls"
+#~ msgstr "Sònraich uidheaman-smachd seallaidh a' chamara"
+
+#~ msgid "Assign Car Controls"
+#~ msgstr "Sònraich uidheaman-smachd a' chàir"
+
+#~ msgid "Assign Controls"
+#~ msgstr "Sònraich uidheaman-smachd"
+
+#~ msgid "Assign Game Controls"
+#~ msgstr "Sònraich uidheaman-smachd a' gheama"
+
+#~ msgid "Assign Gear Controls"
+#~ msgstr "Sònraich uidheaman-smachd a' ghèar"
+
+#~ msgid "Assign inputs to camera movement controls."
+#~ msgstr "Sònraich ion-chur dha ghnìomhan gluasad camara."
+
+#~ msgid "Assign inputs to camera view selection controls."
+#~ msgstr "Sònraich ion-chur dha ghnìomhan a thaghas an sealladh camara."
+
+#~ msgid "Assign inputs to each of the gear actions."
+#~ msgstr "Sònraich ion-chur dha gach gnìomh gèar."
+
+#~ msgid "Assign Replay Controls"
+#~ msgstr "Sònraich uidheaman-smachd ath-chluiche"
+
+#~ msgid "Assign Tool Controls"
+#~ msgstr "Sònraich uidheaman-smachd nan inneal"
+
+#~ msgid "Assign Transmission Controls"
+#~ msgstr "Sònraich uidheaman-smachd an transmission"
+
+#~ msgid "Back to Main"
+#~ msgstr "Air ais dhan phrìomh chlàr-taice"
+
+#~ msgid "Back to Pause Menu"
+#~ msgstr "Air ais dhan chlàr-taice stada"
+
+#~ msgid "Before starting the race, click 'Add' to add opponents."
+#~ msgstr "Mus tòisich thu an rèis, dèan brùthadh gus farpaisich a chur ris."
+
+#~ msgid "Best Lap"
+#~ msgstr "A' chuairt as fhearr"
+
+#~ msgid "Calibrate"
+#~ msgstr "Cailbhrich"
+
+#~ msgid "Calibrate the joystick device."
+#~ msgstr "Cailbhrich uidheam joystick."
+
+#~ msgid "Camera Views"
+#~ msgstr "Seallaidhean camara"
+
+#~ msgid "Car Controls"
+#~ msgstr "Uidheaman-smachd a' chàir"
+
+#~ msgid "Car1"
+#~ msgstr "Càr 1"
+
+#~ msgid "Car2"
+#~ msgstr "Càr 2"
+
+#~ msgid "Car3"
+#~ msgstr "Càr 3"
+
+#~ msgid "Car4"
+#~ msgstr "Càr 4"
+
+#~ msgid "Change detail levels and other advanced display options."
+#~ msgstr ""
+#~ "Atharraich ìre a' mhion-sheallaidh is roghainnean seallaidh adhartach "
+#~ "eile."
+
+#~ msgid "Change video, display and detail settings."
+#~ msgstr "Atharraich roghainnean video, seallaidh is mion-sheallaidh."
+
+#~ msgid "Chase (Loose)"
+#~ msgstr "Sealg (fuasgailte)"
+
+#~ msgid "Chase (Rigid)"
+#~ msgstr "Sealg (teann)"
+
+#~ msgid "Controls Options"
+#~ msgstr "Roghainnean nan uidheam-smachd"
+
+#~ msgid "Display Options"
+#~ msgstr "Roghainnean an t-seallaidh"
+
+#~ msgid "Edit Analog Control"
+#~ msgstr "Deasaich uidheam-smachd analogach"
+
+#~ msgid "Edit Button Control"
+#~ msgstr "Deasaich uidheam-smachd putain"
+
+#~ msgid "Edit Joystick Axis Control"
+#~ msgstr "Deasaich uidheam-smachd aiseal joystick"
+
+#~ msgid "Edit Joystick Button Control"
+#~ msgstr "Deasaich uidheam-smachd putan joystick"
+
+#~ msgid "Edit Keyboard Control"
+#~ msgstr "Deasaich uidheam-smachd meur-chlàir"
+
+#~ msgid "Edit Mouse Button Control"
+#~ msgstr "Deasaich uidheam-smachd putan luchaige"
+
+#~ msgid "Edit Mouse Motion Control"
+#~ msgstr "Deasaich uidheam-smachd gluasad luchaige"
+
+#~ msgid "End race and return to the Main menu."
+#~ msgstr "Crìochnaich an reis is till dhan phrìomh chlar-taice."
+
+#~ msgid "Engage Clutch"
+#~ msgstr "Teann an cluids"
+
+#~ msgid "External Fixed"
+#~ msgstr "Ceangailte a-muigh"
+
+#~ msgid "External Follow"
+#~ msgstr "Leantainn a-muigh"
+
+#~ msgid "Extra options for gamepad, joystick and steering wheel controls."
+#~ msgstr ""
+#~ "Barrachd roghainnean airson uidheaman-smachd, pada-geama, joystick is "
+#~ "cuibhle-stiùiridh"
+
+#~ msgid "Forget changes and return to Assign Controls menu."
+#~ msgstr ""
+#~ "Dìochuimhnich na h-atharraichean is till dhan chlàr-taice \"Sònraich "
+#~ "uidheaman-smachd.\""
+
+#~ msgid "Forget changes and return to Controls Options menu."
+#~ msgstr ""
+#~ "Dìochuimhnich na h-atharraichean is till dhan chlàr-taice \"Roghainnean "
+#~ "nan uidheam-smachd.\""
+
+#~ msgid "Forget changes and return to Display Options menu."
+#~ msgstr ""
+#~ "Dìochuimhnich na h-atharraichean is till dhan chlàr-taice \"Roghainnean "
+#~ "an t-seallaidh.\""
+
+#~ msgid "Forget changes and return to in-game Assign Controls menu."
+#~ msgstr ""
+#~ "Dìochuimhnich na h-atharraichean is till dhan chlàr-taice \"Sònraich "
+#~ "uidheaman-smachd\" a' gheama seo."
+
+#~ msgid "Forget changes and return to in-game Game Controls menu."
+#~ msgstr ""
+#~ "Dìochuimhnich na h-atharraichean is till dhan chlàr-taice \"Uidheaman-"
+#~ "smachd a' gheama\" a' gheama seo."
+
+#~ msgid "Forget changes and return to Transmission Controls menu."
+#~ msgstr ""
+#~ "Dìochuimhnich na h-atharraichean is till dhan chlàr-taice \"Uidheaman-"
+#~ "smachd an transmission.\""
+
+#~ msgid "Game Controls"
+#~ msgstr "Uidheaman-smachd a' gheama"
+
+#~ msgid "Gears"
+#~ msgstr "Gèaran"
+
+#~ msgid "Go back to the Network Game menu."
+#~ msgstr "Till dhan chlàr-taice \"Geama lìonraidh.\""
+
+#~ msgid "Held/Once"
+#~ msgstr "Cumail/Aon turas"
+
+#~ msgid "In-Car"
+#~ msgstr "A-staigh"
+
+#~ msgid "Joy Axis"
+#~ msgstr "Aiseal an joystick"
+
+#~ msgid "Joy Btn"
+#~ msgstr "Putan an joystick"
+
+#~ msgid "Joy Motion"
+#~ msgstr "Gluasad an joystick"
+
+#~ msgid "Joystick Info"
+#~ msgstr "Fiosrachadh an joystick"
+
+#~ msgid "Joystick Options"
+#~ msgstr "Roghainnean an joystick"
+
+#~ msgid "Key"
+#~ msgstr "Iuchair"
+
+#~ msgid "Leave Game"
+#~ msgstr "Fàg an geama"
+
+#~ msgid "Leave the menu and unpause the game."
+#~ msgstr "Fàg an clàr-taice is lean air a' gheama."
+
+#~ msgid "Looks behind you during driving."
+#~ msgstr "Sealladh tu air do chùlaibh fhad 's a bhios tu a' dràibheadh."
+
+#~ msgid "Main Menu"
+#~ msgstr "A' phrìomh chlàr-taice"
+
+#~ msgid "Map keys, buttons and axes to actions in the game."
+#~ msgstr "Mapach iuchraichean, putanan is aislean ri gnìomhan sa gheama."
+
+#~ msgid "Mouse Btn"
+#~ msgstr "Putan na luchaige"
+
+#~ msgid "Note: Some options will not take effect until the game is restarted"
+#~ msgstr ""
+#~ "An aire: Cha tèid cuid dhe na roghainnean a chur an sàs mus ath-"
+#~ "thòisicheas tu an geama."
+
+#~ msgid "Press the ESCAPE key to abort."
+#~ msgstr "Brùth air a' phutan ESCAE airson sgur dheth."
+
+#~ msgid "Quit Now"
+#~ msgstr "Fàg an-seo an-dràsta"
+
+#~ msgid "Quit the game now."
+#~ msgstr "Fàg an geama an-dràsta."
+
+#~ msgid "Race Results"
+#~ msgstr "Toraidhean na rèise"
+
+#~ msgid "Restart Game"
+#~ msgstr "Ath-thòisich an geama"
+
+#~ msgid "Retry"
+#~ msgstr "Feuch ris a-rithist"
+
+#~ msgid "Return"
+#~ msgstr "Till"
+
+#~ msgid "Return to Controls Options menu."
+#~ msgstr "Till dhan chlàr-taice \"Roghainnean nan uidheam-smachd.\""
+
+#~ msgid "Return to Game"
+#~ msgstr "Till dhan gheama"
+
+#~ msgid "Return to In Game Controls Options menu."
+#~ msgstr ""
+#~ "Till dhan chlàr-taice \"Roghainnean nan uidheam-smachd\" a' gheama seo."
+
+#~ msgid "Return to the Options menu."
+#~ msgstr "Till dhan chlàr-taice \"Roghainnean.\""
+
+#~ msgid "Return to the Pause menu."
+#~ msgstr "Till dhan chlàr-taice stada."
+
+#~ msgid "Rotate car back onto its wheels after rollover."
+#~ msgstr "Gluais an càr air ais air a chuibhlean an dèidh cuir mu char."
+
+#~ msgid "Save changes and return to Assign Controls menu."
+#~ msgstr ""
+#~ "Sàbhail na h-atharraichean is till dhan chlàr-taice \"Sònraich uidheaman-"
+#~ "smachd.\""
+
+#~ msgid "Save changes and return to Controls Options menu."
+#~ msgstr ""
+#~ "Sàbhail na h-atharraichean is till dhan chlàr-taice \"Roghainnean nan "
+#~ "uidheam-smachd.\""
+
+#~ msgid "Save changes and return to Display Options menu."
+#~ msgstr ""
+#~ "Sàbhail na h-atharraichean is till dhan chlàr-taice \"Roghainnean an t-"
+#~ "seallaidh.\""
+
+#~ msgid "Save changes and return to in-game Assign Controls menu."
+#~ msgstr ""
+#~ "Sàbhail na h-atharraichean is till dhan chlàr-taice \"Sònraich uidheaman-"
+#~ "smachd\" a' gheama seo."
+
+#~ msgid "Save changes and return to in-game Game Controls menu."
+#~ msgstr ""
+#~ "Sàbhail na h-atharraichean is till dhan chlàr-taice \"Uidheaman-smachd a' "
+#~ "gheama\" a' gheama seo."
+
+#~ msgid "Save changes and return to Transmission Controls menu."
+#~ msgstr ""
+#~ "Sàbhail na h-atharraichean is till dhan chlàr-taice \"Uidheaman-smachd an "
+#~ "transmission.\""
+
+#~ msgid "Set the deadzone for the axis between 0.0 and 1.0."
+#~ msgstr "Suidhich an raon-marbh airson an aiseil eadar 0.0 is 1.0."
+
+#~ msgid "Set the deadzone for the input between 0.0 and 0.5."
+#~ msgstr "Suidhich an raon-marbh airson an ion-chuir eadar 0.0 is 0.5."
+
+#~ msgid "Set the deadzone for the Motion between 0.0 and 1.0."
+#~ msgstr "Suidhich an raon-marbh airson a' ghluasaid eadar 0.0 is 1.0."
+
+#~ msgid "Set the exponent for the axis between 0.0 and 3.0."
+#~ msgstr "Suidhich an easponant airson an aiseil eadar 0.0 is 3.0."
+
+#~ msgid "Set the exponent for the input between 1.0 and 5.0."
+#~ msgstr "Suidhich an easponant airson an ion-chuir eadar 1.0 is 5.0."
+
+#~ msgid "Set the gain for the axis between 0.0 and 3.0."
+#~ msgstr "Suidhich an t-iomadaichear airson an aiseil eadar 0.0 is 3.0."
+
+#~ msgid "Set the gain for the input between 0.5 and 3.0."
+#~ msgstr "Suidhich an t-iomadaichear airson an ion-chuir eadar 0.5 is 3.0."
+
+#~ msgid "Set the gain for the Motion between 0.0 and 3.0."
+#~ msgstr "Suidhich an t-oiomadaichear airson a' ghluasaid eadar 0.0 is 3.0."
+
+#~ msgid "Simulation Engine Error"
+#~ msgstr "Mearachd leis an inneal-atharrais"
+
+#~ msgid "Sound Options"
+#~ msgstr "Roghainnean fuaime"
+
+#~ msgid "Start a practice game using the selected car and track."
+#~ msgstr "Tòisich air geama cleachdaidh leis a' chàr is slighe a thagh thu."
+
+#~ msgid "The ABS Toggle turns anti-lock braking on or off while playing."
+#~ msgstr ""
+#~ "Cuiridh an suids ABS dìon an aghaidh casgadh nam brèigichean air no dheth "
+#~ "fhad 's a bhios tu a' cluiche."
+
+#~ msgid ""
+#~ "The engage clutch control lets out the clutch. This must be done after "
+#~ "every shift."
+#~ msgstr ""
+#~ "Leigidh an t-uidheam-smachd 'Teann an cluids' an cluids às. Feumaidh tu "
+#~ "seo a dhèanamh an dèidh gach sioft."
+
+#~ msgid ""
+#~ "The external follow camera flies between each of the external cameras."
+#~ msgstr ""
+#~ "Nì an camara leantainn a-muigh itealaich eadar gach fear dhe na "
+#~ "camarathan a-muigh."
+
+#~ msgid ""
+#~ "The fixed external camera follows the car from a set of fixed locations."
+#~ msgstr ""
+#~ "Leanaidh an camara ceangailte a-muigh air a' chàr bho roghainn dhe "
+#~ "dh'àiteachan stèidhichte."
+
+#~ msgid "The free camera control can be moved anywhere using the arrow keys."
+#~ msgstr ""
+#~ "Gabhaidh an camara saor gluasad gu àite sam bith leis na h-iuchraichean "
+#~ "sàighde."
+
+#~ msgid "The hood camera control moves the camera to the car's hood."
+#~ msgstr ""
+#~ "Gluaisidh an t-uidheam-smachd camara bonaide an camara gu bonaid a' chàir."
+
+#~ msgid "The in-car camera control moves the camera to driver's view."
+#~ msgstr ""
+#~ "Gluaisidh an t-uidheam-smachd camara a-staigh an camara gu sealladh an "
+#~ "draibheir."
+
+#~ msgid ""
+#~ "The joystick info control shows debugging info for available joysticks."
+#~ msgstr ""
+#~ "Seallaidh an t-uidheam-smachd fiosrachadh joystick fiosrachadh dì-"
+#~ "bhugachaidh airson joysticks a tha rim faighinn."
+
+#~ msgid ""
+#~ "The loose chase camera control moves the camera to follow the car like a "
+#~ "helicopter."
+#~ msgstr ""
+#~ "Gluaisidh an t-uidheam-smachd camara seilge fuasgailte an camara ach an "
+#~ "lean e air a' chàr mar heileacoptair."
+
+#~ msgid "The orbit camera control swings around the car as the mouse moves."
+#~ msgstr ""
+#~ "Cuiridh an t-uidheam-smachd reul-chuairt car mun chàr le gluasad na "
+#~ "luchaige."
+
+#~ msgid ""
+#~ "The rigid chase camera control moves the camera to a fixed distance "
+#~ "behind the car."
+#~ msgstr ""
+#~ "Gluaisidh an t-uidheam-smachd camara seilge teinne an camara ach an lean "
+#~ "e air a' chàr aig astar stèidhichte."
+
+#~ msgid "The TCS Toggle turns traction control on or off while playing."
+#~ msgstr ""
+#~ "Cuiridh an suids TCS dìon an aghaidh sleamhnachadh air no dheth fhad 's a "
+#~ "bhios tu a' cluiche."
+
+#~ msgid ""
+#~ "This moves to the next camera in the set (hood, in-car, chase rigid, "
+#~ "chase loose)."
+#~ msgstr ""
+#~ "Gluaisidh seo dhan ath chamara san t-seata (bonaid, a-staigh, sealg "
+#~ "teann, sealg fuasgailte)."
+
+#~ msgid ""
+#~ "This moves to the previous camera in the set (hood, in-car, chase rigid, "
+#~ "chase loose)."
+#~ msgstr ""
+#~ "Gluaisidh seo dhan chamara roimhe san t-seata (bonaid, a-staigh, sealg "
+#~ "teann, sealg fuasgailte)."
+
+#~ msgid "Time"
+#~ msgstr "Ùine"
+
+#~ msgid "Trigger the control when the button is pressed down or let up?"
+#~ msgstr ""
+#~ "An tèid e air adhart nuair a bhios am putan ga bhruthadh no ga leigeil às?"
+
+#~ msgid "Trigger the control when the key is pressed down or let up?"
+#~ msgstr ""
+#~ "An tèid e air adhart nuair a bhios an iuchair ga bruthadh no ga leigeil "
+#~ "às?"
+
+#~ msgid "Try to connect to the server again."
+#~ msgstr "Feuch ri ceangal ris an fhrithealaiche a-rithist."
+
+#~ msgid "Up/Down"
+#~ msgstr "Suas/Sìos"
+
+#~ msgid ""
+#~ "You must quit the game, and start VDrift again for changes to take effect."
+#~ msgstr ""
+#~ "Feumaidh tu an geama fhàgail is VDrift ath-thòiseachadh mus tèid na h-"
+#~ "atharraichean a chur an sàs."
+
+#~ msgid "ABS"
+#~ msgstr "ABS"
+
+#~ msgid "TCS"
+#~ msgstr "TCS"
+
+#~ msgid "AI Type"
+#~ msgstr "Seòrsa IF"
+
+#~ msgid "None"
+#~ msgstr "Gin"
+
+#~ msgid "simple"
+#~ msgstr "simplidh"
+
+#~ msgid "x1"
+#~ msgstr "x1"
+
+#~ msgid "1x"
+#~ msgstr "1x"
+
+#~ msgid "2x"
+#~ msgstr "2x"
+
+#~ msgid "4x"
+#~ msgstr "4x"
+
+#~ msgid "16x"
+#~ msgstr "16x"
+
+#~ msgid "UP"
+#~ msgstr "SUAS"
+
+#~ msgid "DOWN"
+#~ msgstr "SÌOS"
+
+#~ msgid "LEFT"
+#~ msgstr "CLÌ"
+
+#~ msgid "RIGHT"
+#~ msgstr "DEAS"
+
+#~ msgid "PAGEUP"
+#~ msgstr "DUILLEAG-SUAS"
+
+#~ msgid "PAGEDOWN"
+#~ msgstr "DUILLEAG-SÌOS"
+
+#~ msgid "MOUSERIGHT"
+#~ msgstr "LUCHAG-GU-CLÌ"
+
+#~ msgid "MOUSELEFT"
+#~ msgstr "LUCHAG-GU-DEAS"
+
+#~ msgid "MOUSEUP"
+#~ msgstr "LUCHAG-GU-SUAS"
+
+#~ msgid "MOUSEDOWN"
+#~ msgstr "LUCHAG-GU-SÌOS"
+
+#~ msgid "MOUSE1"
+#~ msgstr "LUCHAG 1"
+
+#~ msgid "MOUSE2"
+#~ msgstr "LUCHAG 2"
+
+#~ msgid "MOUSE3"
+#~ msgstr "LUCHAG 3"
+
+#~ msgid "once"
+#~ msgstr "Aon turas"
+
+#~ msgid "held"
+#~ msgstr "Ga chumail"
+
+#~ msgid "RETURN"
+#~ msgstr "RETURN"
+
+#~ msgid "ESCAPE"
+#~ msgstr "ESCAPE"
+
+#~ msgid "Move the currently focussed menu item left."
+#~ msgstr "Gluais an nì clàir-thaice air a bheil am fòcas gu clì."
+
+#~ msgid "Move the currently focussed menu item right."
+#~ msgstr "Gluais an nì clàir-thaice air a bheil am fòcas gu deas."
+
+#~ msgid "Move the currently focussed menu item up."
+#~ msgstr "Gluais an nì clàir-thaice air a bheil am fòcas suas."
+
+#~ msgid "Move the currently focussed menu item down."
+#~ msgstr "Gluais an nì clàir-thaice air a bheil am fòcas sìos."
+
+#~ msgid "connecting"
+#~ msgstr "a' ceangal"
+
+#~ msgid "cars updates available"
+#~ msgstr "ùrachaidhean air càraichean rim faighinn"
+
+#~ msgid "tracks updates available"
+#~ msgstr "ùrachaidhean air slighean rim faighinn"
+
+#~ msgid "Update this car to the latest version."
+#~ msgstr "Ùraich an càr seo dhan tionndadh as ùire."
