@@ -1,10 +1,12 @@
-varying vec2 tu0coord;
 uniform sampler2D tu0_2D;
+uniform vec4 color_tint;
+
+varying vec2 tu0coord;
 
 void main()
 {
 	vec4 texcolor = texture2D(tu0_2D, tu0coord);
-	texcolor.rgb *= gl_Color.rgb;
+	texcolor.rgb *= color_tint.rgb;
 	float distanceFactor = texcolor.a;
 	
 	//anti-aliasing
@@ -38,10 +40,10 @@ void main()
 	float glowFactor = smoothstep(0.0, 1.0, distanceFactor);
 	texcolor = mix(vec4(0.0, 0.0, 0.0, glowFactor), texcolor, texcolor.a);
 	
-	texcolor.a *= gl_Color.a;
+	texcolor.a *= color_tint.a;
 	
 	gl_FragColor = vec4(texcolor.rgb,texcolor.a);
-    //gl_FragColor = vec4(texcolor.rgb*gl_Color.a,texcolor.a);
+    //gl_FragColor = vec4(texcolor.rgb*color_tint.a,texcolor.a);
     //gl_FragColor = vec4(texcolor.rgb*texcolor.a,texcolor.a);
 	
 	//gl_FragColor = texture2D(tu0_2D, tu0coord);

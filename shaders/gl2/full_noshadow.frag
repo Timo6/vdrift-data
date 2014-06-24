@@ -8,6 +8,7 @@ uniform samplerCube tu2_cube; //reflection map
 uniform sampler2D tu6_2D; //additive map (for brake lights)
 
 uniform vec3 light_direction;
+uniform vec4 color_tint;
 
 varying vec2 texcoord_2d;
 varying vec3 normal_eye;
@@ -73,5 +74,5 @@ void main()
 	//gl_FragColor.rgb = tu0_2D_val.rgb;
 	//gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);
 	
-	gl_FragColor.a = tu0_2D_val.a*gl_Color.a;
+	gl_FragColor.a = tu0_2D_val.a*color_tint.a;
 }
