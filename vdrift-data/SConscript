@@ -27,3 +27,16 @@ for root, dirs, files in os.walk("."):
 #Export(['env', 'src_dir', 'bin_dir'])
 
 env.Alias('install', install)
+
+# Install locale
+import glob
+src = glob.glob('locale/*')
+po_files = [os.path.basename(po) for po in src if po.endswith('.po')]
+languages = [po[0:-3] for po in po_files]
+for lang in languages:
+    mo_tgt_file = lang + '/LC_MESSAGES/vdrift.mo'
+    mo_file = 'locale/' + mo_tgt_file
+    po_file = 'locale/' + lang + ".po"
+    env.MoBuild(mo_file, po_file)
+    install = env.InstallAs(os.path.join(env.subst('$locale_directory'), mo_tgt_file), mo_file)
+    env.Alias("install", install)
