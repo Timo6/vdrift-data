@@ -85,7 +85,7 @@ height = 0.04
 
 
 [ widget-01a ]
-text = Action
+text = Trigger when
 fontsize = 0.03
 align = right
 left = 0.01
@@ -97,10 +97,10 @@ height = 0.04
 text = <
 fontsize = 0.03
 align = left
-tip = Will this input be activated once per press, or whenever it's held down?
-onselect = controledit.once.prev
-onmoveleft = controledit.once.prev
-onmoveright = controledit.once.next
+tip = Trigger the control when the key is pressed or released?
+onselect = controledit.down.prev
+onmoveleft = controledit.down.prev
+onmoveright = controledit.down.next
 onmoveup = widget-05b
 onmovedown = widget-02b
 onfocus = widget-01b.opacity:0 widget-01c.opacity:0 widget-01d.sat:0.56
@@ -117,10 +117,10 @@ height = 0.04
 text = >
 fontsize = 0.03
 align = right
-tip = Will this input be activated once per press, or whenever it's held down?
-onselect = controledit.once.next
-onmoveleft = controledit.once.prev
-onmoveright = controledit.once.next
+tip = Trigger the control when the key is pressed or released?
+onselect = controledit.down.next
+onmoveleft = controledit.down.prev
+onmoveright = controledit.down.next
 onmoveup = widget-05b
 onmovedown = widget-02b
 onfocus = widget-01b.opacity:0 widget-01c.opacity:0 widget-01d.sat:0.56
@@ -134,7 +134,7 @@ top = 0.22
 height = 0.04
 
 [ widget-01d ]
-text = controledit.once.str
+text = controledit.down.str
 fontsize = 0.03
 hue = 0.56
 left = 0.31
@@ -144,7 +144,7 @@ height = 0.04
 
 
 [ widget-02a ]
-text = Condition
+text = When triggered
 fontsize = 0.03
 align = right
 left = 0.01
@@ -156,10 +156,10 @@ height = 0.04
 text = <
 fontsize = 0.03
 align = left
-tip = Trigger the control when the key is pressed down or released?
-onselect = controledit.down.prev
-onmoveleft = controledit.down.prev
-onmoveright = controledit.down.next
+tip = Will this input be activated once per press, or whenever it's held down?
+onselect = controledit.once.prev
+onmoveleft = controledit.once.prev
+onmoveright = controledit.once.next
 onmoveup = widget-01b
 onmovedown = widget-03b
 onfocus = widget-02b.opacity:0 widget-02c.opacity:0 widget-02d.sat:0.56
@@ -176,10 +176,10 @@ height = 0.04
 text = >
 fontsize = 0.03
 align = right
-tip = Trigger the control when the key is pressed down or released?
-onselect = controledit.down.next
-onmoveleft = controledit.down.prev
-onmoveright = controledit.down.next
+tip = Will this input be activated once per press, or whenever it's held down?
+onselect = controledit.once.next
+onmoveleft = controledit.once.prev
+onmoveright = controledit.once.next
 onmoveup = widget-01b
 onmovedown = widget-03b
 onfocus = widget-02b.opacity:0 widget-02c.opacity:0 widget-02d.sat:0.56
@@ -193,7 +193,7 @@ top = 0.26
 height = 0.04
 
 [ widget-02d ]
-text = controledit.down.str
+text = controledit.once.str
 fontsize = 0.03
 hue = 0.56
 left = 0.31
