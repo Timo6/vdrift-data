@@ -4,7 +4,7 @@ uniform sampler2D lightBufferSampler;
 
 in vec3 uv;
 
-invariant out vec4 outputColor;
+out vec4 outputColor;
 
 vec3 linearTonemap(vec3 color)
 {
