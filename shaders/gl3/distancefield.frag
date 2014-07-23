@@ -22,5 +22,5 @@ void main()
 	
 	texcolor.a *= colorTint.a;
 	
-	gl_FragColor = texcolor;
+	outputColor = texcolor;
 }
