@@ -1,4 +1,4 @@
-#version 130
+#version 330
 
 #define FXAA_PC 1
 #define FXAA_GLSL_130 1
@@ -317,9 +317,11 @@ A. Or use FXAA_GREEN_AS_LUMA.
         #define FXAA_GATHER4_ALPHA 1
     #endif
     #ifdef GL_ARB_gpu_shader5
+        #extension GL_ARB_gpu_shader5 : enable
         #define FXAA_GATHER4_ALPHA 1
     #endif
     #ifdef GL_NV_gpu_shader5
+        #extension GL_NV_gpu_shader5 : enable
         #define FXAA_GATHER4_ALPHA 1
     #endif
     #ifndef FXAA_GATHER4_ALPHA
