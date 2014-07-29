@@ -1,3 +1,6 @@
+uniform mat4 ModelViewProjMatrix;
+uniform mat4 ModelViewMatrix;
+
 attribute vec3 VertexPosition;
 attribute vec3 VertexNormal;
 attribute vec2 VertexTexCoord;
@@ -15,15 +18,15 @@ varying vec4 vcolor;
 
 void main()
 {
-	gl_Position = gl_ProjectionMatrix * (gl_ModelViewMatrix * vec4(VertexPosition, 1.0));
+	gl_Position = ModelViewProjMatrix * vec4(VertexPosition, 1.0);
 
 	tu0coord = VertexTexCoord;
 
-#ifdef _LIGHTING_
-	normal = normalize(gl_NormalMatrix * VertexNormal);
-#endif
+	#ifdef _LIGHTING_
+	normal = normalize(vec3(ModelViewMatrix * vec4(VertexNormal, 0.0)));
+	#endif
 
-#ifdef _VCOLOR_
+	#ifdef _VCOLOR_
 	vcolor = VertexColor;
-#endif
+	#endif
 }

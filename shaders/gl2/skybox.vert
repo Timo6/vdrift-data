@@ -1,3 +1,6 @@
+uniform mat4 ModelViewProjMatrix;
+uniform mat4 ModelViewMatrix;
+
 attribute vec3 VertexPosition;
 attribute vec3 VertexNormal;
 attribute vec2 VertexTexCoord;
@@ -8,9 +11,9 @@ varying vec3 normal_eye;
 
 void main()
 {
-	gl_Position = gl_ProjectionMatrix * (gl_ModelViewMatrix * vec4(VertexPosition, 1.0));
+	gl_Position = ModelViewProjMatrix * vec4(VertexPosition, 1.0);
 
-	normal_eye = gl_NormalMatrix * VertexNormal;
+	normal_eye = vec3(ModelViewMatrix * vec4(VertexNormal, 0.0));
 
 	ecposition = VertexPosition;
 

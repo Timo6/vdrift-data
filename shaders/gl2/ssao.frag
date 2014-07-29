@@ -1,13 +1,13 @@
-varying vec3 eyespace_view_direction;
-varying float q; //equivalent to gl_ProjectionMatrix[2].z
-varying float qn; //equivalent to gl_ProjectionMatrix[3].z
-
-uniform sampler2D tu0_2D; //full scene depth
-uniform sampler2D tu1_2D; //normal XY components
+uniform sampler2D tu0_2D; // full scene depth
+uniform sampler2D tu1_2D; // normal XY components
 
 uniform vec3 frustum_corner_bl;
 uniform vec3 frustum_corner_br_delta;
 uniform vec3 frustum_corner_tl_delta;
+
+varying vec3 eyespace_view_direction;
+varying float q;  // equivalent to ProjectionMatrix[2].z
+varying float qn; // equivalent to ProjectionMatrix[3].z
 
 const float scale = 4.0;
 const float bias = 0.05;

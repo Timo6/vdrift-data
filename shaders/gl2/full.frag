@@ -23,8 +23,6 @@ uniform sampler2DShadow tu6_2D; //far far shadow map
 #ifndef _REFLECTIONDISABLED_
 uniform samplerCube tu2_cube; //reflection map
 #endif
-uniform sampler2D tu7_2D; //additive map (for reverse lights)
-uniform sampler2D tu8_2D; //additive map (for brake lights)
 
 #ifdef _EDGECONTRASTENHANCEMENT_
 uniform sampler2DShadow tu9_2D; //edge contrast enhancement depth map
@@ -460,7 +458,6 @@ void main()
   
     vec4 tu0_2D_val = texture2D(tu0_2D, texcoord_2d);
     vec3 surfacecolor = mix(color_tint.rgb, tu0_2D_val.rgb, tu0_2D_val.a); // surfacecolor is mixed from diffuse and object color
-    vec3 additive = texture2D(tu7_2D, texcoord_2d).rgb + texture2D(tu8_2D, texcoord_2d).rgb;
     vec3 ambient_light = textureCube(tu3_cube, ambientmapdir).rgb;
     vec4 tu1_2D_val = texture2D(tu1_2D, texcoord_2d);
     float gloss = tu1_2D_val.r;
@@ -496,7 +493,7 @@ void main()
         diffuse *= 1.0-(brdf_gloss+brdf_metal)*0.5;
     }
     
-    vec3 finalcolor = diffuse + specular + additive;
+    vec3 finalcolor = diffuse + specular;
     
     //finalcolor = surfacecolor*vec3((BRDF_Lambert(N,L)*notshadowfinal+ambient_light)*0.5);
     //finalcolor = 1.156*(vec3(1.)-exp(-pow(finalcolor,vec3(1.3))*2.));
