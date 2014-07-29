@@ -19,5 +19,5 @@ void main()
 
 	tu0coord = VertexTexCoord;
 
-	gl_Position = ModelViewProjMatrix * vec4(VertexPosition, 1.0));
+	gl_Position = ModelViewProjMatrix * vec4(VertexPosition, 1.0);
 }
