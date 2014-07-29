@@ -1,3 +1,6 @@
+uniform mat4 ModelViewProjMatrix;
+uniform mat4 ModelViewMatrix;
+
 attribute vec3 VertexPosition;
 attribute vec3 VertexNormal;
 attribute vec2 VertexTexCoord;
@@ -11,15 +14,15 @@ void main()
 	//set the texture coordinates
 	texcoord_2d = VertexTexCoord;
 	
-	//compute the eyespace normal
-	normal_eye = gl_NormalMatrix * VertexNormal;
+	//compute the eyespace normal (assuming no non-uniform scale)
+	normal_eye = vec3(ModelViewMatrix * vec4(VertexNormal, 0.0));
 	
 	//compute the eyespace position
-	vec4 ecposition = gl_ModelViewMatrix * vec4(VertexPosition, 1.0);
+	vec4 ecposition = ModelViewMatrix * vec4(VertexPosition, 1.0);
 	
 	//compute the eyespace view direction
-	viewdir = vec3(ecposition)/ecposition.w;
+	viewdir = vec3(ecposition) / ecposition.w;
 	
 	//transform the vertex
-	gl_Position = gl_ProjectionMatrix * ecposition;
+	gl_Position = ModelViewProjMatrix * vec4(VertexPosition, 1.0);
 }

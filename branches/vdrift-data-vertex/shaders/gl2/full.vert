@@ -1,5 +1,7 @@
+uniform mat4 ModelViewProjMatrix;
+uniform mat4 ModelViewMatrix;
+uniform mat3 ReflectionMatrix;
 uniform vec3 light_direction;
-uniform mat3 reflection_matrix;
 
 attribute vec3 VertexPosition;
 attribute vec3 VertexNormal;
@@ -16,15 +18,16 @@ varying vec4 projshadow_2;
 #endif
 
 varying vec2 texcoord_2d;
-varying vec3 V, N;
-varying vec3 refmapdir, ambientmapdir;
+varying vec3 V;
+varying vec3 N;
+varying vec3 refmapdir;
+varying vec3 ambientmapdir;
 
 void main()
 {
-	//transform the vertex
-    vec4 pos = gl_ModelViewMatrix * vec4(VertexPosition, 1.0);
-	gl_Position = gl_ProjectionMatrix * pos;
-    vec3 pos3 = pos.xyz;
+	// transform the vertex
+	gl_Position = ModelViewProjMatrix * vec4(VertexPosition, 1.0);
+    vec3 pos3 = ModelViewMatrix * vec4(VertexPosition, 1.0);
  
 	#ifdef _SHADOWS_
 	projshadow_0 = gl_TextureMatrix[4] * gl_TextureMatrixInverse[3] * pos;
@@ -35,20 +38,19 @@ void main()
 	projshadow_2 = gl_TextureMatrix[6] * gl_TextureMatrixInverse[3] * pos;
 	#endif
 	#endif
-	
-	//set the texture coordinates
+
+	// set the texture coordinates
 	texcoord_2d = VertexTexCoord;
-	
-	//compute the eyespace normal
-	N = normalize(gl_NormalMatrix * VertexNormal);
+
+	// compute the eyespace normal (assuming no non-uniform scale)
+	N = normalize(vec3(ModelViewMatrix * vec4(VertexNormal, 0.0)));
     V = normalize(-pos3);
-    //R = normalize(reflect(pos3,N));
-    
+
     #ifndef _REFLECTIONDISABLED_
-    refmapdir = reflection_matrix * reflect(pos3, N);
+    refmapdir = ReflectionMatrix * reflect(pos3, N);
     #else
     refmapdir = vec3(0.);
     #endif
-    
-    ambientmapdir = reflection_matrix * N;
+
+    ambientmapdir = ReflectionMatrix * N;
 }

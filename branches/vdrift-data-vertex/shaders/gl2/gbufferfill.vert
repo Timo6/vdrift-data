@@ -1,3 +1,6 @@
+uniform mat4 ModelViewProjMatrix;
+uniform mat4 ModelViewMatrix;
+
 attribute vec3 VertexPosition;
 attribute vec3 VertexNormal;
 attribute vec2 VertexTexCoord;
@@ -8,15 +11,13 @@ varying vec3 V;
 
 void main()
 {
-	vec4 pos = gl_ModelViewMatrix * vec4(VertexPosition, 1.0);
-	
 	// position eye-space
-	V = pos.xyz;
+	V = vec3(ModelViewMatrix * vec4(VertexPosition, 1.0));
 
-	// normal in eye-space
-	N = normalize(gl_NormalMatrix * VertexNormal);
+	// normal in eye-space (assuming no non-uniform scale)
+	N = normalize(vec3(ModelViewMatrix * vec4(VertexNormal, 0.0)));
 
 	tu0coord = VertexTexCoord;
 
-	gl_Position = gl_ProjectionMatrix * pos;
+	gl_Position = ModelViewProjMatrix * vec4(VertexPosition, 1.0));
 }

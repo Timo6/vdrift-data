@@ -1,6 +1,6 @@
 varying vec3 eyespace_view_direction;
-varying float q; //equivalent to gl_ProjectionMatrix[2].z
-varying float qn; //equivalent to gl_ProjectionMatrix[3].z
+varying float q; //equivalent to ProjectionMatrix[2].z
+varying float qn; //equivalent to ProjectionMatrix[3].z
 
 #ifdef _SHADOWS_
 uniform mat4 shadowmat0;
