@@ -8,12 +8,14 @@ attribute vec3 VertexNormal;
 attribute vec2 VertexTexCoord;
 
 #ifdef _SHADOWS_
-varying vec4 projshadow_0;
-#ifdef _CSM2_
-varying vec4 projshadow_1;
-#endif
 #ifdef _CSM3_
-varying vec4 projshadow_2;
+uniform mat4 ShadowMatrix[3];
+#else
+#ifdef _CSM2_
+uniform mat4 ShadowMatrix[2];
+#else
+uniform mat4 ShadowMatrix[1];
+#endif
 #endif
 #endif
 
@@ -30,12 +32,12 @@ void main()
     vec3 pos3 = ModelViewMatrix * vec4(VertexPosition, 1.0);
  
 	#ifdef _SHADOWS_
-	projshadow_0 = gl_TextureMatrix[4] * gl_TextureMatrixInverse[3] * pos;
+	projshadow_0 = ShadowMatrix[0] * pos;
 	#ifdef _CSM2_
-	projshadow_1 = gl_TextureMatrix[5] * gl_TextureMatrixInverse[3] * pos;
+	projshadow_1 = ShadowMatrix[1] * pos;
 	#endif
 	#ifdef _CSM3_
-	projshadow_2 = gl_TextureMatrix[6] * gl_TextureMatrixInverse[3] * pos;
+	projshadow_2 = ShadowMatrix[2] * pos;
 	#endif
 	#endif
 
