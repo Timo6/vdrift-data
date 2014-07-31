@@ -1,10 +1,12 @@
 uniform sampler2D tu0_2D;
-varying vec2 tu0coord;
+uniform vec4 color_tint;
 
 #ifdef _LIGHTING_
 uniform vec3 light_direction;
 varying vec3 normal;
 #endif
+
+varying vec2 tu0coord;
 
 #ifdef _GAMMA_
 #define GAMMA 2.2
@@ -34,11 +36,11 @@ void main()
 
 	#ifdef _CARPAINT_
 	// albedo mixed from diffuse and object color
-	color.rgb = mix(gl_Color.rgb, color.rgb, color.a); 
+	color.rgb = mix(color_tint.rgb, color.rgb, color.a); 
 	color.a = 1;
 	#else
 	// albedo modulated by object color
-	color *= gl_Color;
+	color *= color_tint;
 	#endif
 
 	#ifdef _LIGHTING_

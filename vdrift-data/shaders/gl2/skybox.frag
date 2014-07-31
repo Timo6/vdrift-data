@@ -1,14 +1,15 @@
-varying vec2 tu0coord;
 uniform sampler2D tu0_2D;
-varying vec4 ecposition;
 uniform vec3 light_direction;
-varying vec3 normal_eye;
-
+uniform vec4 color_tint;
 uniform float contrast;
 
 #ifdef _EDGECONTRASTENHANCEMENT_
 uniform sampler2DShadow tu9_2D; //edge contrast enhancement depth map
 #endif
+
+varying vec3 ecposition;
+varying vec2 tu0coord;
+varying vec3 normal_eye;
 
 /*float w0(float a)
 {
@@ -173,11 +174,11 @@ void main()
 	finalcolor *= edgefactor*0.5+0.5;
 #endif
 	
-    //outcol.a *= gl_Color.a;
+    //outcol.a *= color_tint.a;
     gl_FragColor = vec4(finalcolor,outcol.a);
-    //gl_FragColor = vec4(finalcolor*gl_Color.a*outcol.a,outcol.a);
+    //gl_FragColor = vec4(finalcolor*color_tint.a*outcol.a,outcol.a);
 	//gl_FragColor = vec4(finalcolor*outcol.a,outcol.a);
-	//gl_FragColor = bicubic_filter(tu0_2D, tu0coord)*gl_Color;
+	//gl_FragColor = bicubic_filter(tu0_2D, tu0coord)*color_tint;
 	
 	//gl_FragColor.rg = tu0coord*0.5+0.5;
 	//gl_FragColor.ba = vec2(1.0);

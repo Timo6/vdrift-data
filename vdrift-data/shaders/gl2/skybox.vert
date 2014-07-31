@@ -1,16 +1,21 @@
+uniform mat4 ModelViewProjMatrix;
+uniform mat4 ModelViewMatrix;
+
+attribute vec3 VertexPosition;
+attribute vec3 VertexNormal;
+attribute vec2 VertexTexCoord;
+
 varying vec2 tu0coord;
-varying vec4 ecposition;
+varying vec3 ecposition;
 varying vec3 normal_eye;
 
 void main()
 {
-	gl_Position = gl_ProjectionMatrix * (gl_ModelViewMatrix * gl_Vertex);
+	gl_Position = ModelViewProjMatrix * vec4(VertexPosition, 1.0);
 
-	gl_FrontColor = gl_Color;
+	normal_eye = vec3(ModelViewMatrix * vec4(VertexNormal, 0.0));
 
-	normal_eye = gl_NormalMatrix * gl_Normal;
+	ecposition = VertexPosition;
 
-	ecposition = gl_Vertex;
-
-	tu0coord = vec2(gl_MultiTexCoord0);
+	tu0coord = VertexTexCoord;
 }

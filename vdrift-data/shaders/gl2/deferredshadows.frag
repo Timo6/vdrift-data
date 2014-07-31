@@ -1,14 +1,16 @@
 varying vec3 eyespace_view_direction;
-varying float q; //equivalent to gl_ProjectionMatrix[2].z
-varying float qn; //equivalent to gl_ProjectionMatrix[3].z
+varying float q; //equivalent to ProjectionMatrix[2].z
+varying float qn; //equivalent to ProjectionMatrix[3].z
 
 #ifdef _SHADOWS_
-uniform mat4 shadowmat0;
-#ifdef _CSM2_
-uniform mat4 shadowmat1;
-#endif
 #ifdef _CSM3_
-uniform mat4 shadowmat2;
+uniform mat4 ShadowMatrix[3];
+#else
+#ifdef _CSM2_
+uniform mat4 ShadowMatrix[2];
+#else
+uniform mat4 ShadowMatrix[1];
+#endif
 #endif
 #endif
 
@@ -45,18 +47,14 @@ float GetShadows(vec4 eyespace_pos)
 	#endif
 	
 	vec3 shadowcoords[numcsm];
-	
-	mat4 shadowmat0 = gl_TextureMatrix[4];
-	vec4 sc0 = shadowmat0*eyespace_pos;
+	vec4 sc0 = ShadowMatrix[0] * eyespace_pos;
 	shadowcoords[0] = sc0.xyz;
 	#ifdef _CSM2_
-	mat4 shadowmat1 = gl_TextureMatrix[5];
-	vec4 sc1 = shadowmat1*eyespace_pos;
+	vec4 sc1 = ShadowMatrix[1] * eyespace_pos;
 	shadowcoords[1] = sc1.xyz;
 	#endif
 	#ifdef _CSM3_
-	mat4 shadowmat2 = gl_TextureMatrix[6];
-	vec4 sc2 = shadowmat2*eyespace_pos;
+	vec4 sc2 = ShadowMatrix[2] * eyespace_pos;
 	shadowcoords[2] = sc2.xyz;
 	#endif
 	

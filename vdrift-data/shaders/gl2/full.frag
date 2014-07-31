@@ -2,9 +2,6 @@ uniform sampler2D tu0_2D; //diffuse map
 uniform sampler2D tu1_2D; //misc map (includes gloss on R channel, metallic on G channel, ...
 uniform samplerCube tu3_cube; //ambient light cube map
 
-//width and height of the diffuse texture, in pixels
-//uniform float diffuse_texture_width;
-
 uniform float contrast;
 
 #ifdef _SHADOWS_
@@ -26,17 +23,17 @@ uniform sampler2DShadow tu6_2D; //far far shadow map
 #ifndef _REFLECTIONDISABLED_
 uniform samplerCube tu2_cube; //reflection map
 #endif
-uniform sampler2D tu7_2D; //additive map (for reverse lights)
-uniform sampler2D tu8_2D; //additive map (for brake lights)
 
 #ifdef _EDGECONTRASTENHANCEMENT_
 uniform sampler2DShadow tu9_2D; //edge contrast enhancement depth map
 #endif
 
+uniform vec3 light_direction;
+uniform vec4 color_tint;
+
 varying vec2 texcoord_2d;
 varying vec3 V, N;
 varying vec3 refmapdir, ambientmapdir;
-uniform vec3 light_direction;
 
 const float PI = 3.141593;
 const float ONE_OVER_PI = 1.0 / PI;
@@ -460,8 +457,7 @@ void main()
 	float notshadowfinal = GetShadows();
   
     vec4 tu0_2D_val = texture2D(tu0_2D, texcoord_2d);
-    vec3 surfacecolor = mix(gl_Color.rgb, tu0_2D_val.rgb, tu0_2D_val.a); // surfacecolor is mixed from diffuse and object color
-    vec3 additive = texture2D(tu7_2D, texcoord_2d).rgb + texture2D(tu8_2D, texcoord_2d).rgb;
+    vec3 surfacecolor = mix(color_tint.rgb, tu0_2D_val.rgb, tu0_2D_val.a); // surfacecolor is mixed from diffuse and object color
     vec3 ambient_light = textureCube(tu3_cube, ambientmapdir).rgb;
     vec4 tu1_2D_val = texture2D(tu1_2D, texcoord_2d);
     float gloss = tu1_2D_val.r;
@@ -497,7 +493,7 @@ void main()
         diffuse *= 1.0-(brdf_gloss+brdf_metal)*0.5;
     }
     
-    vec3 finalcolor = diffuse + specular + additive;
+    vec3 finalcolor = diffuse + specular;
     
     //finalcolor = surfacecolor*vec3((BRDF_Lambert(N,L)*notshadowfinal+ambient_light)*0.5);
     //finalcolor = 1.156*(vec3(1.)-exp(-pow(finalcolor,vec3(1.3))*2.));
@@ -524,8 +520,8 @@ void main()
 #else
 	float alpha = tu0_2D_val.a;
 #endif
-	// gl_Color alpha determines surface transparency, 0.0 fully transparent, 0.5 texture alpha, 1.0 opaque
-	gl_FragColor.a = alpha;// + 2 * gl_Color.a - 1;
+	// color_tint alpha determines surface transparency, 0.0 fully transparent, 0.5 texture alpha, 1.0 opaque
+	gl_FragColor.a = alpha;// + 2 * color_tint.a - 1;
     
 	gl_FragColor.rgb = finalcolor;
 }

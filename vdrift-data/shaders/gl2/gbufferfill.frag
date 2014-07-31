@@ -1,9 +1,9 @@
 uniform sampler2D tu0_2D; // diffuse
-uniform sampler2D tu1_2D; //misc map 1 (specular color in RGB, specular power in A)
-uniform sampler2D tu2_2D; //misc map 2 (RGB is normal map)
+uniform sampler2D tu1_2D; // misc map 1 (specular color in RGB, specular power in A)
+uniform sampler2D tu2_2D; // misc map 2 (RGB is normal map)
+uniform vec4 color_tint;
 
 varying vec2 tu0coord;
-
 varying vec3 N;
 varying vec3 V;
 
@@ -67,7 +67,7 @@ void main()
 	vec4 albedo = texture2D(tu0_2D, tu0coord);
 	
 	#ifdef _CARPAINT_
-	albedo.rgb = mix(gl_Color.rgb, albedo.rgb, albedo.a); // albedo is mixed from diffuse and object color
+	albedo.rgb = mix(color_tint.rgb, albedo.rgb, albedo.a); // albedo is mixed from diffuse and object color
 	#else
 	// emulate alpha testing
 	if (albedo.a < 0.5)

@@ -10,8 +10,7 @@ uniform float depthOffset;
 
 in vec3 normal;
 #ifdef TANGENTSPACE
-in vec3 tangent;
-in vec3 bitangent;
+in vec4 tangent;
 #endif
 
 in vec3 uv;
