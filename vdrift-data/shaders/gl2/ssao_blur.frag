@@ -13,7 +13,7 @@
 #endif
 
 uniform sampler2D tu0_2D;
-varying vec2 tu0coord;
+varying vec2 texcoord;
 
 OUT(vec4 FragColor)
 
@@ -23,7 +23,7 @@ void main()
 {
 	const vec2 pixelsize = vec2(1.0/SCREENRESX,1.0/SCREENRESY);
 	
-	vec2 tc = tu0coord;
+	vec2 tc = texcoord;
 	
 	vec3 final = vec3(0.0, 0.0, 0.0);
 	

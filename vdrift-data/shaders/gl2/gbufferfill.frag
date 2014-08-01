@@ -17,7 +17,7 @@ uniform sampler2D tu1_2D; // misc map 1 (specular color in RGB, specular power i
 uniform sampler2D tu2_2D; // misc map 2 (RGB is normal map)
 uniform vec4 color_tint;
 
-varying vec2 tu0coord;
+varying vec2 texcoord;
 varying vec3 N;
 varying vec3 V;
 
@@ -82,7 +82,7 @@ mat3 GetTangentBasis(vec3 normal, vec3 viewdir, vec2 tucoord)
 
 void main()
 {
-	vec4 albedo = texture2D(tu0_2D, tu0coord);
+	vec4 albedo = texture2D(tu0_2D, texcoord);
 	
 	#ifdef _CARPAINT_
 	albedo.rgb = mix(color_tint.rgb, albedo.rgb, albedo.a); // albedo is mixed from diffuse and object color
@@ -92,9 +92,9 @@ void main()
 		discard;
 	#endif
 	
-	vec4 miscmap1 = texture2D(tu1_2D, tu0coord);
-	//vec4 miscmap2 = texture2D(tu2_2D, TweakTextureCoordinates(tu0coord, 512.0));
-	vec4 miscmap2 = texture2D(tu2_2D, tu0coord);
+	vec4 miscmap1 = texture2D(tu1_2D, texcoord);
+	//vec4 miscmap2 = texture2D(tu2_2D, TweakTextureCoordinates(texcoord, 512.0));
+	vec4 miscmap2 = texture2D(tu2_2D, texcoord);
 	float notshadow = 1.0;
 	
 	vec3 normal = normalize(N);
@@ -102,7 +102,7 @@ void main()
 	if (length(miscmap2.xyz) > 0.25)
 	{
 		vec3 bumpnormal = miscmap2.xyz*2.0-1.0;
-		mat3 tangentBasis = GetTangentBasis(normal, normalize(-V), tu0coord);
+		mat3 tangentBasis = GetTangentBasis(normal, normalize(-V), texcoord);
 		normal = tangentBasis*bumpnormal;
 	}
 	#endif

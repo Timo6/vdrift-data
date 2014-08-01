@@ -11,7 +11,7 @@ attribute vec3 VertexNormal;
 attribute vec2 VertexTexCoord;
 attribute vec4 VertexColor;
 
-varying vec2 tu0coord;
+varying vec2 texcoord;
 
 #ifdef _LIGHTING_
 varying vec3 normal;
@@ -25,7 +25,7 @@ void main()
 {
 	gl_Position = ModelViewProjMatrix * vec4(VertexPosition, 1.0);
 
-	tu0coord = VertexTexCoord;
+	texcoord = VertexTexCoord;
 
 	#ifdef _LIGHTING_
 	normal = normalize(vec3(ModelViewMatrix * vec4(VertexNormal, 0.0)));

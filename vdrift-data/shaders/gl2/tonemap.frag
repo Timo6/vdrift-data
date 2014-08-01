@@ -12,7 +12,7 @@
 #define OUT(x)
 #endif
 
-varying vec2 tu0coord;
+varying vec2 texcoord;
 
 uniform sampler2D tu0_2D; //full scene color
 //uniform sampler2D tu1_2D; //log luminance map
@@ -49,13 +49,13 @@ const float offset = 2.0;
 
 void main()
 {
-	vec3 color = texture2D(tu0_2D, tu0coord).rgb;
+	vec3 color = texture2D(tu0_2D, texcoord).rgb;
 	
 	//float lod = 8;
-	//float geometric_mean = exp((texture2D(tu1_2D, tu0coord).r/scale_tiny-offset_tiny)/scale-offset);
-	//float geometric_mean = exp(texture2D(tu1_2D, tu0coord).r/scale-offset);
+	//float geometric_mean = exp((texture2D(tu1_2D, texcoord).r/scale_tiny-offset_tiny)/scale-offset);
+	//float geometric_mean = exp(texture2D(tu1_2D, texcoord).r/scale-offset);
 	float geometric_mean = 0.25;
-	//FragColor.rgb = texture2DLod(tu0_2D, tu0coord, lod).rgb;
+	//FragColor.rgb = texture2DLod(tu0_2D, texcoord, lod).rgb;
 	
 	// reinhard eq 3
 	//float a = 0.18;
@@ -64,12 +64,12 @@ void main()
 	color *= scalefactor*contrast;
 	
 	/*if (gl_FragCoord.x < 100)
-		color = vec3(1,1,1)*texture2D(tu1_2D, tu0coord).r;
+		color = vec3(1,1,1)*texture2D(tu1_2D, texcoord).r;
 	else if (gl_FragCoord.x < 200)
 		color = vec3(1,1,1)*(geometric_mean);*/
 	
 	FragColor.rgb = UnGammaCorrect(color);
-	//FragColor.rgb = texture2D(tu1_2D, tu0coord).rgb;
+	//FragColor.rgb = texture2D(tu1_2D, texcoord).rgb;
 	FragColor.a = 1.;
 	
 	

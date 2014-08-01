@@ -10,7 +10,7 @@ attribute vec3 VertexPosition;
 attribute vec3 VertexNormal;
 attribute vec2 VertexTexCoord;
 
-varying vec2 tu0coord;
+varying vec2 texcoord;
 varying vec3 ecposition;
 varying vec3 normal_eye;
 
@@ -22,5 +22,5 @@ void main()
 
 	ecposition = VertexPosition;
 
-	tu0coord = VertexTexCoord;
+	texcoord = VertexTexCoord;
 }

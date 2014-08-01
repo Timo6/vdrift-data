@@ -17,14 +17,14 @@
 uniform sampler2DRect tu0_2DRect;
 uniform sampler2D tu1_2D;
 
-varying vec2 tu0coord;
+varying vec2 texcoord;
 
 OUT(vec4 FragColor)
 
 void main()
 {
-	vec2 tc0 = vec2(tu0coord.x, tu0coord.y);
-	vec2 tc1 = vec2(tu0coord.x/SCREENRESX,tu0coord.y/SCREENRESY);
+	vec2 tc0 = vec2(texcoord.x, texcoord.y);
+	vec2 tc1 = vec2(texcoord.x/SCREENRESX,texcoord.y/SCREENRESY);
 	
 	vec4 tu0_2D_val = texture2DRect(tu0_2DRect, tc0);
 	vec4 tu1_2D_val = texture2D(tu1_2D, tc1);

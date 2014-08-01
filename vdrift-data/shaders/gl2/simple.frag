@@ -20,7 +20,7 @@ uniform vec3 light_direction;
 varying vec3 normal;
 #endif
 
-varying vec2 tu0coord;
+varying vec2 texcoord;
 
 OUT(vec4 FragColor)
 
@@ -39,7 +39,7 @@ vec3 GammaCorrect(vec3 color)
 
 void main()
 {
-	vec4 color = texture2D(tu0_2D, tu0coord);
+	vec4 color = texture2D(tu0_2D, texcoord);
 
 	#ifdef _ALPHATEST_
 	if (color.a < 0.5)
