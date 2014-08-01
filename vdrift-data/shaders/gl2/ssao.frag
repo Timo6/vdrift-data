@@ -1,3 +1,17 @@
+#if __VERSION__ > 120
+#define texture2D texture
+#define texture2DRect texture
+#define textureCube texture
+#define varying in
+#define OUT(x) out x;
+#else
+#define FragColor gl_FragColor
+#define FragData0 gl_FragData[0]
+#define FragData1 gl_FragData[1]
+#define FragData2 gl_FragData[2]
+#define OUT(x)
+#endif
+
 uniform sampler2D tu0_2D; // full scene depth
 uniform sampler2D tu1_2D; // normal XY components
 
@@ -8,6 +22,8 @@ uniform vec3 frustum_corner_tl_delta;
 varying vec3 eyespace_view_direction;
 varying float q;  // equivalent to ProjectionMatrix[2].z
 varying float qn; // equivalent to ProjectionMatrix[3].z
+
+OUT(vec4 FragColor)
 
 const float scale = 4.0;
 const float bias = 0.05;
@@ -129,5 +145,5 @@ void main()
 	vec4 final = vec4(1.,1.,1.,1.)*ao;
 	final.a = 1.;
 	
-	gl_FragColor = final;
+	FragColor = final;
 }

@@ -1,3 +1,8 @@
+#if __VERSION__ > 120
+#define attribute in
+#define varying out
+#endif
+
 uniform mat4 ModelViewProjMatrix;
 uniform mat4 ModelViewMatrix;
 

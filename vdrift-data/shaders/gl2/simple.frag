@@ -1,3 +1,17 @@
+#if __VERSION__ > 120
+#define texture2D texture
+#define texture2DRect texture
+#define textureCube texture
+#define varying in
+#define OUT(x) out x;
+#else
+#define FragColor gl_FragColor
+#define FragData0 gl_FragData[0]
+#define FragData1 gl_FragData[1]
+#define FragData2 gl_FragData[2]
+#define OUT(x)
+#endif
+
 uniform sampler2D tu0_2D;
 uniform vec4 color_tint;
 
@@ -7,6 +21,8 @@ varying vec3 normal;
 #endif
 
 varying vec2 tu0coord;
+
+OUT(vec4 FragColor)
 
 #ifdef _GAMMA_
 #define GAMMA 2.2
@@ -53,5 +69,5 @@ void main()
 	color.rgb *= color.a;
 	#endif
 
-	gl_FragColor = color;
+	FragColor = color;
 }

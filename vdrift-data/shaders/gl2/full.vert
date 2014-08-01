@@ -1,11 +1,12 @@
+#if __VERSION__ > 120
+#define attribute in
+#define varying out
+#endif
+
 uniform mat4 ModelViewProjMatrix;
 uniform mat4 ModelViewMatrix;
 uniform mat3 ReflectionMatrix;
 uniform vec3 light_direction;
-
-attribute vec3 VertexPosition;
-attribute vec3 VertexNormal;
-attribute vec2 VertexTexCoord;
 
 #ifdef _SHADOWS_
 #ifdef _CSM3_
@@ -18,6 +19,10 @@ uniform mat4 ShadowMatrix[1];
 #endif
 #endif
 #endif
+
+attribute vec3 VertexPosition;
+attribute vec3 VertexNormal;
+attribute vec2 VertexTexCoord;
 
 varying vec2 texcoord_2d;
 varying vec3 V;

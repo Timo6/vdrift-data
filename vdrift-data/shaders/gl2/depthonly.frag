@@ -1,8 +1,25 @@
-//varying float lightdotnorm;
-//uniform float depthoffset;
+#if __VERSION__ > 120
+#define texture2D texture
+#define texture2DRect texture
+#define textureCube texture
+#define varying in
+#define OUT(x) out x;
+#else
+#define FragColor gl_FragColor
+#define FragData0 gl_FragData[0]
+#define FragData1 gl_FragData[1]
+#define FragData2 gl_FragData[2]
+#define OUT(x)
+#endif
+
 uniform sampler2D tu0_2D;
+//uniform float depthoffset;
+
 varying vec2 texcoord;
 varying vec3 eyespacenormal;
+//varying float lightdotnorm;
+
+OUT(vec4 FragColor)
 
 void main()
 {
@@ -11,7 +28,7 @@ void main()
 	
 	gl_FragDepth = gl_FragCoord.z;
 	vec4 tu0color = texture2D(tu0_2D, texcoord);
-	gl_FragColor = tu0color;
+	FragColor = tu0color;
 	
 	//gl_FragDepth = gl_FragCoord.z + mix(0.007,0.0009,lightdotnorm);
 	//gl_FragDepth = gl_FragCoord.z + mix(0.0009,0.007,lightdotnorm);

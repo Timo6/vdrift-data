@@ -1,3 +1,17 @@
+#if __VERSION__ > 120
+#define texture2D texture
+#define texture2DRect texture
+#define textureCube texture
+#define varying in
+#define OUT(x) out x;
+#else
+#define FragColor gl_FragColor
+#define FragData0 gl_FragData[0]
+#define FragData1 gl_FragData[1]
+#define FragData2 gl_FragData[2]
+#define OUT(x)
+#endif
+
 varying vec3 eyespace_view_direction;
 varying float q; //equivalent to ProjectionMatrix[2].z
 varying float qn; //equivalent to ProjectionMatrix[3].z
@@ -24,6 +38,8 @@ uniform sampler2DShadow tu2_2D; //far shadow map
 uniform sampler2DShadow tu3_2D; //far far shadow map
 #endif
 #endif
+
+OUT(vec4 FragColor)
 
 float shadow_lookup(sampler2DShadow tu, vec3 coords)
 {
@@ -119,5 +135,5 @@ void main()
 	
 	vec4 final = vec4(1.0,1.0,1.0,1.0)*notshadow;
 	
-	gl_FragColor = final;
+	FragColor = final;
 }
