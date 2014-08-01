@@ -23,11 +23,8 @@ OUT(vec4 FragColor)
 
 void main()
 {
-	vec2 tc0 = vec2(texcoord.x, texcoord.y);
-	vec2 tc1 = vec2(texcoord.x/SCREENRESX,texcoord.y/SCREENRESY);
-	
-	vec4 tu0_2D_val = texture2DRect(tu0_2DRect, tc0);
-	vec4 tu1_2D_val = texture2D(tu1_2D, tc1);
+	vec4 tu0_2D_val = texture2DRect(tu0_2DRect, gl_FragCoord.xy);
+	vec4 tu1_2D_val = texture2D(tu1_2D, texcoord);
 	
 	vec3 orig = tu0_2D_val.rgb;
 	vec3 blurred = tu1_2D_val.rgb;
@@ -50,5 +47,5 @@ void main()
 	//vec3 final = orig*(orig + 2.0*blurred*(1.0-orig));
 	
 	FragColor = vec4(final,1.);
-	//FragColor = texture2DRect(tu0_2DRect, tc0);
+	//FragColor = texture2DRect(tu0_2DRect, gl_FragCoord.xy);
 }
