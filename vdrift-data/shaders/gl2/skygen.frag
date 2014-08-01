@@ -1,7 +1,22 @@
+#if __VERSION__ > 120
+#define texture2D texture
+#define texture2DRect texture
+#define textureCube texture
+#define varying in
+#define OUT(x) out x;
+#else
+#define FragColor gl_FragColor
+#define FragData0 gl_FragData[0]
+#define FragData1 gl_FragData[1]
+#define FragData2 gl_FragData[2]
+#define OUT(x)
+#endif
+
+uniform vec3 uLightDirection;
+
 varying vec3 vViewDirection;
 
-// direction towards sun 
-uniform vec3 uLightDirection;
+OUT(vec4 FragColor)
 
 // henyey-greenstein parameter, aerosol scattering (sun disk size)
 //uniform float g;
@@ -104,5 +119,5 @@ void main(void)
    vec3 SunDir = normalize(uLightDirection);
    vec3 Color = Scatter(ViewPos, ViewDir, SunDir);
    vec3 HDR = 1.0 - exp(Color * -2.0);
-   gl_FragColor = vec4(HDR, 1.0f);
+   FragColor = vec4(HDR, 1.0f);
 }

@@ -1,8 +1,25 @@
+#if __VERSION__ > 120
+#define texture2D texture
+#define texture2DRect texture
+#define textureCube texture
+#define varying in
+#define OUT(x) out x;
+#else
+#define FragColor gl_FragColor
+#define FragData0 gl_FragData[0]
+#define FragData1 gl_FragData[1]
+#define FragData2 gl_FragData[2]
+#define OUT(x)
+#endif
+
 #extension GL_ARB_texture_rectangle : enable
 
 uniform sampler2DRect tu0_2DRect;
 uniform sampler2D tu1_2D;
+
 varying vec2 tu0coord;
+
+OUT(vec4 FragColor)
 
 void main()
 {
@@ -32,6 +49,6 @@ void main()
 	//vec3 final = blurred;
 	//vec3 final = orig*(orig + 2.0*blurred*(1.0-orig));
 	
-	gl_FragColor = vec4(final,1.);
-	//gl_FragColor = texture2DRect(tu0_2DRect, tc0);
+	FragColor = vec4(final,1.);
+	//FragColor = texture2DRect(tu0_2DRect, tc0);
 }

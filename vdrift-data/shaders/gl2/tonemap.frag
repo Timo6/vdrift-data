@@ -1,3 +1,17 @@
+#if __VERSION__ > 120
+#define texture2D texture
+#define texture2DRect texture
+#define textureCube texture
+#define varying in
+#define OUT(x) out x;
+#else
+#define FragColor gl_FragColor
+#define FragData0 gl_FragData[0]
+#define FragData1 gl_FragData[1]
+#define FragData2 gl_FragData[2]
+#define OUT(x)
+#endif
+
 varying vec2 tu0coord;
 
 uniform sampler2D tu0_2D; //full scene color
@@ -9,6 +23,8 @@ uniform vec3 frustum_corner_br_delta;
 uniform vec3 frustum_corner_tl_delta;
 
 varying vec3 eyespace_view_direction;*/
+
+OUT(vec4 FragColor)
 
 #define GAMMA 2.2
 vec3 UnGammaCorrect(vec3 color)
@@ -39,7 +55,7 @@ void main()
 	//float geometric_mean = exp((texture2D(tu1_2D, tu0coord).r/scale_tiny-offset_tiny)/scale-offset);
 	//float geometric_mean = exp(texture2D(tu1_2D, tu0coord).r/scale-offset);
 	float geometric_mean = 0.25;
-	//gl_FragColor.rgb = texture2DLod(tu0_2D, tu0coord, lod).rgb;
+	//FragColor.rgb = texture2DLod(tu0_2D, tu0coord, lod).rgb;
 	
 	// reinhard eq 3
 	//float a = 0.18;
@@ -52,16 +68,16 @@ void main()
 	else if (gl_FragCoord.x < 200)
 		color = vec3(1,1,1)*(geometric_mean);*/
 	
-	gl_FragColor.rgb = UnGammaCorrect(color);
-	//gl_FragColor.rgb = texture2D(tu1_2D, tu0coord).rgb;
-	gl_FragColor.a = 1.;
+	FragColor.rgb = UnGammaCorrect(color);
+	//FragColor.rgb = texture2D(tu1_2D, tu0coord).rgb;
+	FragColor.a = 1.;
 	
 	
 	// this is a great shader to put debug stuff into
 	/*vec2 screen = vec2(SCREENRESX,SCREENRESY);
 	vec2 screenspace_uv = gl_FragCoord.xy/screen;
 	vec3 viewdir = frustum_corner_bl + frustum_corner_br_delta*screenspace_uv.x + frustum_corner_tl_delta*screenspace_uv.y;
-	gl_FragColor.rgb = vec3(1,1,1)*distance(viewdir,eyespace_view_direction);*/
+	FragColor.rgb = vec3(1,1,1)*distance(viewdir,eyespace_view_direction);*/
 	// retrieve g-buffer
 	//float gbuf_depth = texture2D(tu0_2D, screenspace_uv).r;
 	//vec3 viewdir = frustum_corner_bl + frustum_corner_br_delta*screenspace_uv.x + frustum_corner_tl_delta*screenspace_uv.y;

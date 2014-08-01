@@ -1,4 +1,20 @@
+#if __VERSION__ > 120
+#define texture2D texture
+#define texture2DRect texture
+#define textureCube texture
+#define varying in
+#define OUT(x) out x;
+#else
+#define FragColor gl_FragColor
+#define FragData0 gl_FragData[0]
+#define FragData1 gl_FragData[1]
+#define FragData2 gl_FragData[2]
+#define OUT(x)
+#endif
+
 uniform sampler2D tu0_2D;
+
+OUT(vec4 FragColor)
 
 float GetColorLuminance( vec3 color )
 {
@@ -59,6 +75,6 @@ void main()
 	vec4 Scene4 = texture2D( tu0_2D, uv.xy - vec2(Normal.x, -Normal.y) );
 
 	// Final color
-	gl_FragColor.rgb = ((Scene0 + Scene1 + Scene2 + Scene3 + Scene4) * 0.2).rgb;
-	gl_FragColor.a = 1.0;
+	FragColor.rgb = ((Scene0 + Scene1 + Scene2 + Scene3 + Scene4) * 0.2).rgb;
+	FragColor.a = 1.0;
 }

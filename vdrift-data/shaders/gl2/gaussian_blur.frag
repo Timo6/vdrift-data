@@ -1,5 +1,22 @@
+#if __VERSION__ > 120
+#define texture2D texture
+#define texture2DRect texture
+#define textureCube texture
+#define varying in
+#define OUT(x) out x;
+#else
+#define FragColor gl_FragColor
+#define FragData0 gl_FragData[0]
+#define FragData1 gl_FragData[1]
+#define FragData2 gl_FragData[2]
+#define OUT(x)
+#endif
+
 uniform sampler2D tu0_2D;
+
 varying vec2 tu0coord;
+
+OUT(vec4 FragColor)
 
 //#define RESOLUTION 512.0
 
@@ -38,7 +55,7 @@ void main()
 	for (int i = 3; i >= 0; i--)
 		final += weights[i] * texture2D(tu0_2D, tc + direction*float(3-i+1)*pixelsize ).rgb; //pixels +1 to +4
 	
-	gl_FragColor = vec4(final,1.0);
+	FragColor = vec4(final,1.0);
 	
-	//gl_FragColor = texture2D(tu0_2D,tc);
+	//FragColor = texture2D(tu0_2D,tc);
 }

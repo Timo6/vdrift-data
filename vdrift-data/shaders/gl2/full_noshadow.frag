@@ -1,3 +1,17 @@
+#if __VERSION__ > 120
+#define texture2D texture
+#define texture2DRect texture
+#define textureCube texture
+#define varying in
+#define OUT(x) out x;
+#else
+#define FragColor gl_FragColor
+#define FragData0 gl_FragData[0]
+#define FragData1 gl_FragData[1]
+#define FragData2 gl_FragData[2]
+#define OUT(x)
+#endif
+
 uniform mat3 ReflectionMatrix;
 
 uniform sampler2D tu0_2D; // diffuse map
@@ -13,6 +27,8 @@ uniform vec4 color_tint;
 varying vec2 texcoord_2d;
 varying vec3 normal_eye;
 varying vec3 viewdir;
+
+OUT(vec4 FragColor)
 
 void main()
 {
@@ -60,5 +76,5 @@ void main()
 	finalcolor = clamp(finalcolor,0.0,1.0);
 	finalcolor = ((finalcolor-0.5)*1.2)+0.5;
 	
-	gl_FragColor = vec4(finalcolor, tu0_2D_val.a * color_tint.a);
+	FragColor = vec4(finalcolor, tu0_2D_val.a * color_tint.a);
 }

@@ -1,3 +1,17 @@
+#if __VERSION__ > 120
+#define texture2D texture
+#define texture2DRect texture
+#define textureCube texture
+#define varying in
+#define OUT(x) out x;
+#else
+#define FragColor gl_FragColor
+#define FragData0 gl_FragData[0]
+#define FragData1 gl_FragData[1]
+#define FragData2 gl_FragData[2]
+#define OUT(x)
+#endif
+
 uniform sampler2D tu0_2D;
 uniform vec3 light_direction;
 uniform vec4 color_tint;
@@ -10,6 +24,8 @@ uniform sampler2DShadow tu9_2D; //edge contrast enhancement depth map
 varying vec3 ecposition;
 varying vec2 tu0coord;
 varying vec3 normal_eye;
+
+OUT(vec4 FragColor)
 
 /*float w0(float a)
 {
@@ -149,7 +165,7 @@ vec3 ColorCorrect(in vec3 val)
 void main()
 {
 	// Setting Each Pixel To Red
-	//gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);
+	//FragColor = vec4(1.0, 0.0, 0.0, 1.0);
 	
 	//vec4 incol = texture2D(tu0_2D, tu0coord);
 	//vec4 outcol = 1.0/(1.0+pow(2.718,-(incol*6.0-3.0)));
@@ -175,13 +191,13 @@ void main()
 #endif
 	
     //outcol.a *= color_tint.a;
-    gl_FragColor = vec4(finalcolor,outcol.a);
-    //gl_FragColor = vec4(finalcolor*color_tint.a*outcol.a,outcol.a);
-	//gl_FragColor = vec4(finalcolor*outcol.a,outcol.a);
-	//gl_FragColor = bicubic_filter(tu0_2D, tu0coord)*color_tint;
+    FragColor = vec4(finalcolor,outcol.a);
+    //FragColor = vec4(finalcolor*color_tint.a*outcol.a,outcol.a);
+	//FragColor = vec4(finalcolor*outcol.a,outcol.a);
+	//FragColor = bicubic_filter(tu0_2D, tu0coord)*color_tint;
 	
-	//gl_FragColor.rg = tu0coord*0.5+0.5;
-	//gl_FragColor.ba = vec2(1.0);
+	//FragColor.rg = tu0coord*0.5+0.5;
+	//FragColor.ba = vec2(1.0);
 	
 	
 	//sky color generation shader; fun to fiddle with.
@@ -219,7 +235,7 @@ void main()
 	Exposure += 1.0-abs(SunPos.x*0.033);
 
 	//Fake HDR Output
-	gl_FragColor = (Exposure * sky) + sunsize*light;
-	//gl_FragColor = sunsize*light;
-	gl_FragColor.a = 1.0;*/
+	FragColor = (Exposure * sky) + sunsize*light;
+	//FragColor = sunsize*light;
+	FragColor.a = 1.0;*/
 }

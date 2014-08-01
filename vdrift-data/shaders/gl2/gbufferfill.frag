@@ -1,3 +1,17 @@
+#if __VERSION__ > 120
+#define texture2D texture
+#define texture2DRect texture
+#define textureCube texture
+#define varying in
+#define OUT(x) out x;
+#else
+#define FragColor gl_FragColor
+#define FragData0 gl_FragData[0]
+#define FragData1 gl_FragData[1]
+#define FragData2 gl_FragData[2]
+#define OUT(x)
+#endif
+
 uniform sampler2D tu0_2D; // diffuse
 uniform sampler2D tu1_2D; // misc map 1 (specular color in RGB, specular power in A)
 uniform sampler2D tu2_2D; // misc map 2 (RGB is normal map)
@@ -6,6 +20,10 @@ uniform vec4 color_tint;
 varying vec2 tu0coord;
 varying vec3 N;
 varying vec3 V;
+
+OUT(vec4 FragData0)
+OUT(vec4 FragData1)
+OUT(vec4 FragData2)
 
 vec2 packFloatToVec2i(const float val)
 {
@@ -92,17 +110,17 @@ void main()
 	vec2 normal_x = packFloatToVec2i(normal_topack.x);
 	vec2 normal_y = packFloatToVec2i(normal_topack.y);
 	
-	gl_FragData[0] = miscmap1;
-	gl_FragData[1] = vec4(normal_x.x, normal_x.y, normal_y.x, normal_y.y);
-	gl_FragData[2] = vec4(albedo.rgb,notshadow);
+	FragData0 = miscmap1;
+	FragData1 = vec4(normal_x.x, normal_x.y, normal_y.x, normal_y.y);
+	FragData2 = vec4(albedo.rgb,notshadow);
 
-	//gl_FragData[2].a = -normal.z*4.0;//;sqrt(1.0-normal.x*normal.x-normal.y*normal.y)*4.0;
-	//gl_FragData[2].a = dot(normal,normalize(-V));
-	//gl_FragData[2].a = normal.z*normalize(-V).z*0.5+0.5;
-	//gl_FragData[2].a = normal.z*0.5+0.5;
-	//gl_FragData[2].rgb = normalize(-V);
+	//FragData2.a = -normal.z*4.0;//;sqrt(1.0-normal.x*normal.x-normal.y*normal.y)*4.0;
+	//FragData2.a = dot(normal,normalize(-V));
+	//FragData2.a = normal.z*normalize(-V).z*0.5+0.5;
+	//FragData2.a = normal.z*0.5+0.5;
+	//FragData2.rgb = normalize(-V);
 
 	/*vec3 Vv = normalize(V);
 	//Vv.b = -Vv.b;
-	gl_FragData[2] = vec4(Vv,1);*/
+	FragData2 = vec4(Vv,1);*/
 }

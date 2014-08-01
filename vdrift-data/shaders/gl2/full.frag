@@ -1,7 +1,20 @@
+#if __VERSION__ > 120
+#define texture2D texture
+#define texture2DRect texture
+#define textureCube texture
+#define varying in
+#define OUT(x) out x;
+#else
+#define FragColor gl_FragColor
+#define FragData0 gl_FragData[0]
+#define FragData1 gl_FragData[1]
+#define FragData2 gl_FragData[2]
+#define OUT(x)
+#endif
+
 uniform sampler2D tu0_2D; //diffuse map
 uniform sampler2D tu1_2D; //misc map (includes gloss on R channel, metallic on G channel, ...
 uniform samplerCube tu3_cube; //ambient light cube map
-
 uniform float contrast;
 
 #ifdef _SHADOWS_
@@ -35,9 +48,6 @@ varying vec2 texcoord_2d;
 varying vec3 V, N;
 varying vec3 refmapdir, ambientmapdir;
 
-const float PI = 3.141593;
-const float ONE_OVER_PI = 1.0 / PI;
-
 #ifdef _SHADOWS_
 varying vec4 projshadow_0;
 #ifdef _CSM2_
@@ -47,6 +57,11 @@ varying vec4 projshadow_1;
 varying vec4 projshadow_2;
 #endif
 #endif
+
+OUT(vec4 FragColor)
+
+const float PI = 3.141593;
+const float ONE_OVER_PI = 1.0 / PI;
 
 #if ( defined (_SHADOWS_) && ( defined (_SHADOWSULTRA_) || defined (_SHADOWSVHIGH_) ) ) || defined (_EDGECONTRASTENHANCEMENT_)
 vec2 poissonDisk[16];
@@ -521,7 +536,7 @@ void main()
 	float alpha = tu0_2D_val.a;
 #endif
 	// color_tint alpha determines surface transparency, 0.0 fully transparent, 0.5 texture alpha, 1.0 opaque
-	gl_FragColor.a = alpha;// + 2 * color_tint.a - 1;
+	FragColor.a = alpha;// + 2 * color_tint.a - 1;
     
-	gl_FragColor.rgb = finalcolor;
+	FragColor.rgb = finalcolor;
 }

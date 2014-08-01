@@ -1,3 +1,17 @@
+#if __VERSION__ > 120
+#define texture2D texture
+#define texture2DRect texture
+#define textureCube texture
+#define varying in
+#define OUT(x) out x;
+#else
+#define FragColor gl_FragColor
+#define FragData0 gl_FragData[0]
+#define FragData1 gl_FragData[1]
+#define FragData2 gl_FragData[2]
+#define OUT(x)
+#endif
+
 uniform sampler2D tu0_2D;
 uniform sampler2D tu1_2D;
 uniform sampler2D tu2_2D;
@@ -21,6 +35,8 @@ uniform vec4 color_tint;
 
 varying vec2 tu0coord;
 varying vec3 eyespace_view_direction;
+
+OUT(vec4 FragColor)
 
 float unpackFloatFromVec2i(const vec2 value)
 {
@@ -167,5 +183,5 @@ void main()
 	// add source light
 	final.rgb += CommonBRDF(RealTimeRenderingBRDF(cdiff, m, Rf0, alpha_h, omega_h),E_l,omega_i);
 	
-	gl_FragColor = final;
+	FragColor = final;
 }

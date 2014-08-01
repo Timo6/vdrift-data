@@ -1,6 +1,23 @@
-//varying float lightdotnorm;
+#if __VERSION__ > 120
+#define texture2D texture
+#define texture2DRect texture
+#define textureCube texture
+#define varying in
+#define OUT(x) out x;
+#else
+#define FragColor gl_FragColor
+#define FragData0 gl_FragData[0]
+#define FragData1 gl_FragData[1]
+#define FragData2 gl_FragData[2]
+#define OUT(x)
+#endif
+
 //uniform float depthoffset;
 //uniform sampler2D tu0_2D;
+
+//varying float lightdotnorm;
+
+OUT(vec4 FragColor)
 
 vec4 packFloatToVec4i(const float value)
 {
@@ -55,17 +72,17 @@ void main()
 	float depthoffset = 0.0025;
 	
 #ifdef _SHADOWSULTRA_
-	//gl_FragColor = packFloatToVec4i(gl_FragCoord.z+depthoffset);
-	//gl_FragColor = vec4(packFloatToVec3i(gl_FragCoord.z+depthoffset),1.0);
+	//FragColor = packFloatToVec4i(gl_FragCoord.z+depthoffset);
+	//FragColor = vec4(packFloatToVec3i(gl_FragCoord.z+depthoffset),1.0);
 	float valtopack = gl_FragCoord.z+depthoffset;
 	if (valtopack < 0.5+1.5/256.0) valtopack -= 1.0/256.0; //fix for bug on my nvidia 7900GT
-	gl_FragColor = vec4(packFloatToVec3i(valtopack),1.0);
-	//gl_FragColor = vec4(vec3(gl_FragCoord.z+depthoffset),1.0);
-	//gl_FragColor = vec4(packFloatToVec2i(gl_FragCoord.z),0.0,1.0);
+	FragColor = vec4(packFloatToVec3i(valtopack),1.0);
+	//FragColor = vec4(vec3(gl_FragCoord.z+depthoffset),1.0);
+	//FragColor = vec4(packFloatToVec2i(gl_FragCoord.z),0.0,1.0);
 #else
 	gl_FragDepth = gl_FragCoord.z+depthoffset;
 	//vec4 tu0color = texture2D(tu0_2D, texcoord);
-	//gl_FragColor = tu0color;
+	//FragColor = tu0color;
 #endif
 	
 	//gl_FragDepth = gl_FragCoord.z + mix(0.007,0.0009,lightdotnorm);

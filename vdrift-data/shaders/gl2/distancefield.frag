@@ -1,7 +1,23 @@
+#if __VERSION__ > 120
+#define texture2D texture
+#define texture2DRect texture
+#define textureCube texture
+#define varying in
+#define OUT(x) out x;
+#else
+#define FragColor gl_FragColor
+#define FragData0 gl_FragData[0]
+#define FragData1 gl_FragData[1]
+#define FragData2 gl_FragData[2]
+#define OUT(x)
+#endif
+
 uniform sampler2D tu0_2D;
 uniform vec4 color_tint;
 
 varying vec2 tu0coord;
+
+OUT(vec4 FragColor)
 
 void main()
 {
@@ -42,12 +58,12 @@ void main()
 	
 	texcolor.a *= color_tint.a;
 	
-	gl_FragColor = vec4(texcolor.rgb,texcolor.a);
-    //gl_FragColor = vec4(texcolor.rgb*color_tint.a,texcolor.a);
-    //gl_FragColor = vec4(texcolor.rgb*texcolor.a,texcolor.a);
+	FragColor = vec4(texcolor.rgb,texcolor.a);
+    //FragColor = vec4(texcolor.rgb*color_tint.a,texcolor.a);
+    //FragColor = vec4(texcolor.rgb*texcolor.a,texcolor.a);
 	
-	//gl_FragColor = texture2D(tu0_2D, tu0coord);
+	//FragColor = texture2D(tu0_2D, tu0coord);
 	
-	//gl_FragColor.rg = tu0coord*0.5+0.5;
-	//gl_FragColor.ba = vec2(1.0);
+	//FragColor.rg = tu0coord*0.5+0.5;
+	//FragColor.ba = vec2(1.0);
 }

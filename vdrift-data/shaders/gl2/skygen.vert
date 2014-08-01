@@ -1,3 +1,8 @@
+#if __VERSION__ > 120
+#define attribute in
+#define varying out
+#endif
+
 attribute vec3 VertexPosition;
 attribute vec3 VertexTexCoord;
 

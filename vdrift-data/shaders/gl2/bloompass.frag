@@ -1,7 +1,24 @@
+#if __VERSION__ > 120
+#define texture2D texture
+#define texture2DRect texture
+#define textureCube texture
+#define varying in
+#define OUT(x) out x;
+#else
+#define FragColor gl_FragColor
+#define FragData0 gl_FragData[0]
+#define FragData1 gl_FragData[1]
+#define FragData2 gl_FragData[2]
+#define OUT(x)
+#endif
+
 #extension GL_ARB_texture_rectangle : enable
 
 uniform sampler2DRect tu0_2DRect;
+
 varying vec2 tu0coord;
+
+OUT(vec4 FragColor)
 
 vec3 ContrastSaturationBrightness(vec3 color, float con, float sat, float brt)
 {
@@ -43,5 +60,5 @@ void main()
 	blurred = vec3(blurred_grey,blurred_grey,blurred_grey);
 	vec3 final = orig*(orig + 2.0*blurred*(1.0-orig)); //"OVERLAY"*/
 	//vec3 final = blurred;
-	gl_FragColor = vec4(final,1.);
+	FragColor = vec4(final,1.);
 }
