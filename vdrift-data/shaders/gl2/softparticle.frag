@@ -16,7 +16,7 @@ uniform sampler2D tu0_2D; // diffuse texture
 uniform sampler2D tu3_2D; // existing depth
 uniform vec4 color_tint;
 
-varying vec2 tu0coord;
+varying vec2 texcoord;
 
 #ifdef _VCOLOR_
 varying vec4 vcolor;
@@ -31,7 +31,7 @@ void main()
 	
 	//if (screen.z > gbuf_depth) discard;
 	
-	vec4 diffuse = texture2D(tu0_2D, tu0coord);
+	vec4 diffuse = texture2D(tu0_2D, texcoord);
 	
 #ifdef _VCOLOR_
 	diffuse *= vcolor;

@@ -10,7 +10,7 @@ attribute vec3 VertexPosition;
 attribute vec2 VertexTexCoord;
 attribute vec3 VertexNormal;
 
-varying vec2 tu0coord;
+varying vec2 texcoord;
 varying vec3 eyespace_view_direction;
 
 void main()
@@ -21,7 +21,7 @@ void main()
 	eyespace_view_direction = vec3(ModelViewMatrix * vec4(VertexPosition, 1.0));
 	#endif
 
-	tu0coord = VertexTexCoord;
+	texcoord = VertexTexCoord;
 
 	gl_Position = ModelViewProjMatrix * vec4(VertexPosition, 1.0);
 }

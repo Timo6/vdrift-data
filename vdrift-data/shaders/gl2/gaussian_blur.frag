@@ -14,7 +14,7 @@
 
 uniform sampler2D tu0_2D;
 
-varying vec2 tu0coord;
+varying vec2 texcoord;
 
 OUT(vec4 FragColor)
 
@@ -24,7 +24,7 @@ void main()
 {
 	vec2 res = vec2(SCREENRESX,SCREENRESY);
 	
-	vec2 tc = tu0coord;
+	vec2 tc = texcoord;
 	
 	vec3 final = vec3(0.0, 0.0, 0.0);
 	

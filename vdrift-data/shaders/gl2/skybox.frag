@@ -22,7 +22,7 @@ uniform sampler2DShadow tu9_2D; //edge contrast enhancement depth map
 #endif
 
 varying vec3 ecposition;
-varying vec2 tu0coord;
+varying vec2 texcoord;
 varying vec3 normal_eye;
 
 OUT(vec4 FragColor)
@@ -167,10 +167,10 @@ void main()
 	// Setting Each Pixel To Red
 	//FragColor = vec4(1.0, 0.0, 0.0, 1.0);
 	
-	//vec4 incol = texture2D(tu0_2D, tu0coord);
+	//vec4 incol = texture2D(tu0_2D, texcoord);
 	//vec4 outcol = 1.0/(1.0+pow(2.718,-(incol*6.0-3.0)));
 	
-	vec4 outcol = texture2D(tu0_2D, tu0coord);
+	vec4 outcol = texture2D(tu0_2D, texcoord);
 	vec3 finalcolor = outcol.rgb;
 	
 	//do post-processing
@@ -194,9 +194,9 @@ void main()
     FragColor = vec4(finalcolor,outcol.a);
     //FragColor = vec4(finalcolor*color_tint.a*outcol.a,outcol.a);
 	//FragColor = vec4(finalcolor*outcol.a,outcol.a);
-	//FragColor = bicubic_filter(tu0_2D, tu0coord)*color_tint;
+	//FragColor = bicubic_filter(tu0_2D, texcoord)*color_tint;
 	
-	//FragColor.rg = tu0coord*0.5+0.5;
+	//FragColor.rg = texcoord*0.5+0.5;
 	//FragColor.ba = vec2(1.0);
 	
 	

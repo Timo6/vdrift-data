@@ -33,7 +33,7 @@ uniform sampler2D tu6_2D; //ssao
 uniform vec3 light_direction; // shadowed directional light
 uniform vec4 color_tint;
 
-varying vec2 tu0coord;
+varying vec2 texcoord;
 varying vec3 eyespace_view_direction;
 
 OUT(vec4 FragColor)
