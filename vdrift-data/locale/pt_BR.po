@@ -7,15 +7,19 @@ msgstr ""
 "Project-Id-Version: VDrift\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-30 21:47+0100\n"
-"PO-Revision-Date: 2013-03-31 20:32-0300\n"
-"Last-Translator: Brian Chalega da Silva <chalegabrian@gmail.com>\n"
+"PO-Revision-Date: 2014-08-02 14:32+0100\n"
+"Last-Translator: \n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.6.7\n"
+
+#. TRANSLATORS: Set this to the language codepage (character encoding). It is used to select the font texture.
+msgid "_CODEPAGE_"
+msgstr "1252"
 
 #: data/settings/options.config:659
 msgid "0"

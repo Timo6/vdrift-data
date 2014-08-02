@@ -15,6 +15,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. TRANSLATORS: Set this to the language codepage (character encoding). It is used to select the font texture.
+msgid "_CODEPAGE_"
+msgstr ""
+
 #: ../settings/options.config:692
 msgid "0"
 msgstr ""
