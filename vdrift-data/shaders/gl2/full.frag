@@ -2,6 +2,7 @@
 #define texture2D texture
 #define texture2DRect texture
 #define textureCube texture
+#define shadow2D texture
 #define varying in
 #define OUT(x) out x;
 #else
