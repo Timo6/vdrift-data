@@ -179,11 +179,11 @@ float shadow_lookup(sampler2DShadow tu, vec3 coords)
 	float notshadowfinal = 0.0;
 	float radius = 3.0/2048.0;
 	for (int i = 0; i < 16; i++)
-		notshadowfinal += float(shadow2D(tu,coords + radius*vec3(poissonDisk[i],0.0)).r);
+		notshadowfinal += shadow2D(tu,coords + radius*vec3(poissonDisk[i],0.0));
 	notshadowfinal *= 1.0/16.0;
 	#else
 	//no PCF
-	float notshadowfinal = float(shadow2D(tu, coords).r);
+	float notshadowfinal = shadow2D(tu, coords);
 	#endif
 	#endif
 	
@@ -196,7 +196,7 @@ float GetEdgeContrastEnhancementFactor(in sampler2DShadow tu, in vec3 coords)
 	float factor = 0.0;
 	float radius = 3.0/1024.0;
 	for (int i = 0; i < 8; i++)
-		factor += float(shadow2D(tu,coords + radius*vec3(poissonDisk[i],0.0)).r);
+		factor += shadow2D(tu,coords + radius*vec3(poissonDisk[i],0.0));
 	factor *= 1.0/8.0;
 	return factor;
 }

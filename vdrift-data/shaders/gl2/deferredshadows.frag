@@ -44,7 +44,7 @@ OUT(vec4 FragColor)
 
 float shadow_lookup(sampler2DShadow tu, vec3 coords)
 {
-	float notshadowfinal = float(shadow2D(tu, coords).r);
+	float notshadowfinal = shadow2D(tu, coords);
 	
 	return notshadowfinal;
 }
