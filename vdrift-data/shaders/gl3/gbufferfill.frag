@@ -30,13 +30,13 @@ vec2 packFloatToVec2i(const float val)
 	return res;
 }
 
-vec2 TweakTextureCoordinates(vec2 incoord, float textureSize)
+vec2 TweakTextureCoordinates(vec2 incoord, float texsize)
 {
-	vec2 t = incoord * textureSize - .5;
+	vec2 t = incoord * texsize - .5;
 	vec2 frc = fract(t);
 	vec2 flr = t - frc;
 	frc = frc*frc*(3.-2.*frc);//frc*frc*frc*(10+frc*(6*frc-15));
-	return (flr + frc + .5)*(1./textureSize);
+	return (flr + frc + .5)*(1./texsize);
 }
 
 mat3 MatrixInverse(mat3 inMatrix)

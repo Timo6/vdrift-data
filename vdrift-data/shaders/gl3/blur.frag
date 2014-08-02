@@ -1,7 +1,7 @@
 #version 330
 
 uniform sampler2D diffuseSampler;
-uniform vec2 textureSize;
+uniform vec2 invViewportSize;
 
 in vec3 uv;
 
@@ -29,9 +29,6 @@ vec4 sample(vec2 uv, vec2 invViewportSize, float weight, float offset)
 
 void main(void)
 {
-	vec2 invViewportSize = vec2(1,1)/textureSize;
-	//vec2 invViewportSize = vec2(1,1)/1024;
-	
 	vec4 final = vec4(0,0,0,0);
 	
 	#ifndef DISABLE
