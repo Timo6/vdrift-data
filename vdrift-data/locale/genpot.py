@@ -91,6 +91,9 @@ file.write('\"Language: \\n\"\n')
 file.write('\"MIME-Version: 1.0\\n\"\n')
 file.write('\"Content-Type: text/plain; charset=UTF-8\\n\"\n')
 file.write('\"Content-Transfer-Encoding: 8bit\\n\"\n\n')
+file.write('#. TRANSLATORS: Set this to the language codepage (character encoding). It is used to select the font texture.\n')
+file.write('msgid \"_CODEPAGE_\"\n')
+file.write('msgstr \"\"\n\n')
 
 # write strings
 for item in sorted(strings.items()):
