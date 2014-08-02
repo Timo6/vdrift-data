@@ -119,7 +119,7 @@ float GetEdgeContrastEnhancementFactor(in sampler2DShadow tu, in vec3 coords)
 	float factor = 0.0;
 	float radius = 3.0/1024.0;
 	for (int i = 0; i < 8; i++)
-		factor += float(shadow2D(tu,coords + radius*vec3(poissonDisk[i],0.0)).r);
+		factor += shadow2D(tu,coords + radius*vec3(poissonDisk[i],0.0));
 	factor *= 1.0/8.0;
 	return factor;
 }
