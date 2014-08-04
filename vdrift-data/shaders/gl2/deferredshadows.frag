@@ -1,11 +1,12 @@
 #if __VERSION__ > 120
+#define shadow2D texture
 #define texture2D texture
 #define texture2DRect texture
 #define textureCube texture
-#define shadow2D texture
 #define varying in
 #define OUT(x) out x;
 #else
+#define shadow2D(s, t) shadow2D(s, t).r
 #define FragColor gl_FragColor
 #define FragData0 gl_FragData[0]
 #define FragData1 gl_FragData[1]
