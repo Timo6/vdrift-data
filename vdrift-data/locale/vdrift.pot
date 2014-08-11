@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VDrift\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-07 17:18+0100\n"
+"POT-Creation-Date: 2014-08-10 13:09+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,148 +19,20 @@ msgstr ""
 msgid "_CODEPAGE_"
 msgstr ""
 
-#: ../settings/options.config:692
-msgid "0"
-msgstr ""
-
-#: ../skins/simple/menus/StartingGrid:79
-#: ../settings/options.config:512
-#: ../settings/options.config:694
-#: ../settings/options.config:723
-msgid "1"
-msgstr ""
-
-#: ../skins/simple/menus/StartingGrid:160
-#: ../settings/options.config:530
-#: ../settings/options.config:712
-msgid "10"
-msgstr ""
-
-#: ../settings/options.config:73
-msgid "1024 x 768"
-msgstr ""
-
-#: ../skins/simple/menus/StartingGrid:169
-#: ../settings/options.config:532
-#: ../settings/options.config:714
-msgid "11"
-msgstr ""
-
-#: ../settings/options.config:75
-msgid "1152 x 720"
-msgstr ""
-
-#: ../settings/options.config:77
-msgid "1152 x 864"
-msgstr ""
-
-#: ../skins/simple/menus/StartingGrid:178
-#: ../settings/options.config:534
-msgid "12"
-msgstr ""
-
-#: ../settings/options.config:87
-msgid "1280 x 1024"
-msgstr ""
-
-#: ../settings/options.config:79
-msgid "1280 x 720"
-msgstr ""
-
-#: ../settings/options.config:81
-msgid "1280 x 768"
-msgstr ""
-
-#: ../settings/options.config:83
-msgid "1280 x 800"
-msgstr ""
-
-#: ../settings/options.config:85
-msgid "1280 x 960"
-msgstr ""
-
-#: ../settings/options.config:89
-msgid "1360 x 768"
-msgstr ""
-
-#: ../settings/options.config:91
-msgid "1366 x 768"
-msgstr ""
-
-#: ../settings/options.config:93
-msgid "1440 x 900"
-msgstr ""
-
-#: ../settings/options.config:664
-msgid "16-bit"
-msgstr ""
-
-#: ../settings/options.config:97
-msgid "1600 x 1200"
-msgstr ""
-
-#: ../settings/options.config:95
-msgid "1600 x 900"
-msgstr ""
-
-#: ../settings/options.config:99
-msgid "1680 x 1050"
-msgstr ""
-
 #: ../settings/options.config:116
 msgid "16bpp"
-msgstr ""
-
-#: ../settings/options.config:101
-msgid "1920 x 1080"
-msgstr ""
-
-#: ../settings/options.config:103
-msgid "1920 x 1200"
 msgstr ""
 
 #: ../skins/simple/menus/TransmissionControls:337
 msgid "1st"
 msgstr ""
 
-#: ../skins/simple/menus/StartingGrid:88
-#: ../settings/options.config:514
-#: ../settings/options.config:696
-msgid "2"
-msgstr ""
-
-#: ../skins/simple/menus/InputDevice:128
-msgid "200 Degree Wheel"
-msgstr ""
-
-#: ../settings/options.config:283
-msgid "200 degree mode"
-msgstr ""
-
-#: ../settings/options.config:666
+#: ../settings/options.config:740
 msgid "24-bit"
-msgstr ""
-
-#: ../settings/options.config:105
-msgid "2560 x 1440"
-msgstr ""
-
-#: ../settings/options.config:107
-msgid "2560 x 1600"
 msgstr ""
 
 #: ../skins/simple/menus/TransmissionControls:404
 msgid "2nd"
-msgstr ""
-
-#: ../skins/simple/menus/StartingGrid:97
-#: ../settings/options.config:516
-#: ../settings/options.config:698
-msgid "3"
-msgstr ""
-
-#: ../settings/options.config:220
-msgid "32"
 msgstr ""
 
 #: ../settings/options.config:118
@@ -171,216 +43,16 @@ msgstr ""
 msgid "3rd"
 msgstr ""
 
-#: ../skins/simple/menus/StartingGrid:106
-#: ../settings/options.config:518
-#: ../settings/options.config:700
-msgid "4"
-msgstr ""
-
-#: ../settings/options.config:222
-msgid "48"
-msgstr ""
-
 #: ../skins/simple/menus/TransmissionControls:538
 msgid "4th"
-msgstr ""
-
-#: ../skins/simple/menus/StartingGrid:115
-#: ../settings/options.config:520
-#: ../settings/options.config:702
-msgid "5"
 msgstr ""
 
 #: ../skins/simple/menus/TransmissionControls:605
 msgid "5th"
 msgstr ""
 
-#: ../skins/simple/menus/StartingGrid:124
-#: ../settings/options.config:522
-#: ../settings/options.config:704
-msgid "6"
-msgstr ""
-
-#: ../settings/options.config:224
-msgid "64"
-msgstr ""
-
-#: ../settings/options.config:67
-msgid "640 x 480"
-msgstr ""
-
 #: ../skins/simple/menus/TransmissionControls:672
 msgid "6th"
-msgstr ""
-
-#: ../skins/simple/menus/StartingGrid:133
-#: ../settings/options.config:524
-#: ../settings/options.config:706
-msgid "7"
-msgstr ""
-
-#: ../skins/simple/menus/StartingGrid:142
-#: ../settings/options.config:526
-#: ../settings/options.config:708
-msgid "8"
-msgstr ""
-
-#: ../settings/options.config:226
-msgid "80"
-msgstr ""
-
-#: ../settings/options.config:69
-msgid "800 x 480"
-msgstr ""
-
-#: ../settings/options.config:71
-msgid "800 x 600"
-msgstr ""
-
-#: ../skins/simple/menus/StartingGrid:151
-#: ../settings/options.config:528
-#: ../settings/options.config:710
-msgid "9"
-msgstr ""
-
-#: ../settings/options.config:228
-msgid "96"
-msgstr ""
-
-#: ../skins/simple/menus/CarManager:78
-#: ../skins/simple/menus/Cars:62
-#: ../skins/simple/menus/CarSetup:78
-#: ../skins/simple/menus/CarSetup:137
-#: ../skins/simple/menus/CarSetup:243
-#: ../skins/simple/menus/CarSetup:302
-#: ../skins/simple/menus/CarSetup:361
-#: ../skins/simple/menus/CarSetup:420
-#: ../skins/simple/menus/CarSetup:597
-#: ../skins/simple/menus/CarSetup:656
-#: ../skins/simple/menus/DisplayOptions:88
-#: ../skins/simple/menus/DisplayOptions:148
-#: ../skins/simple/menus/DisplayOptions:207
-#: ../skins/simple/menus/DisplayOptions:266
-#: ../skins/simple/menus/DisplayOptions:325
-#: ../skins/simple/menus/DisplayOptions:384
-#: ../skins/simple/menus/DisplayOptions:443
-#: ../skins/simple/menus/DisplayOptions:502
-#: ../skins/simple/menus/DisplayOptions:561
-#: ../skins/simple/menus/DisplayOptions:620
-#: ../skins/simple/menus/DisplayOptions:679
-#: ../skins/simple/menus/DisplayOptionsAdvanced:88
-#: ../skins/simple/menus/DisplayOptionsAdvanced:147
-#: ../skins/simple/menus/DisplayOptionsAdvanced:206
-#: ../skins/simple/menus/DisplayOptionsAdvanced:265
-#: ../skins/simple/menus/DisplayOptionsAdvanced:324
-#: ../skins/simple/menus/DisplayOptionsAdvanced:383
-#: ../skins/simple/menus/DisplayOptionsAdvanced:442
-#: ../skins/simple/menus/DisplayOptionsAdvanced:501
-#: ../skins/simple/menus/DisplayOptionsAdvanced:560
-#: ../skins/simple/menus/DisplayOptionsAdvanced:619
-#: ../skins/simple/menus/DisplayOptionsAdvanced:678
-#: ../skins/simple/menus/DisplayOptionsAdvanced:738
-#: ../skins/simple/menus/DisplayOptionsAdvanced:797
-#: ../skins/simple/menus/DisplayOptionsAdvanced:856
-#: ../skins/simple/menus/DisplayOptionsAdvanced:915
-#: ../skins/simple/menus/EditButtonControl:97
-#: ../skins/simple/menus/EditButtonControl:156
-#: ../skins/simple/menus/Garage:78
-#: ../skins/simple/menus/Garage:137
-#: ../skins/simple/menus/Garage:243
-#: ../skins/simple/menus/Garage:302
-#: ../skins/simple/menus/Garage:361
-#: ../skins/simple/menus/Garage:420
-#: ../skins/simple/menus/Garage:597
-#: ../skins/simple/menus/Garage:656
-#: ../skins/simple/menus/InputDevice:78
-#: ../skins/simple/menus/InputDevice:137
-#: ../skins/simple/menus/InputDevice:196
-#: ../skins/simple/menus/InputDevice:349
-#: ../skins/simple/menus/InputDevice:408
-#: ../skins/simple/menus/InputDevice:467
-#: ../skins/simple/menus/InputDevice:526
-#: ../skins/simple/menus/InputDevice:585
-#: ../skins/simple/menus/Replays:78
-#: ../skins/simple/menus/SingleRace:88
-#: ../skins/simple/menus/SingleRace:147
-#: ../skins/simple/menus/SingleRace:206
-#: ../skins/simple/menus/SingleRace:265
-#: ../skins/simple/menus/SingleRace:324
-#: ../skins/simple/menus/SingleRace:383
-#: ../skins/simple/menus/SingleRace:489
-#: ../skins/simple/menus/SoundOptions:78
-#: ../skins/simple/menus/TrackManager:78
-#: ../skins/simple/menus/Tracks:62
-msgid "<"
-msgstr ""
-
-#: ../skins/simple/menus/CarManager:98
-#: ../skins/simple/menus/Cars:87
-#: ../skins/simple/menus/CarSetup:98
-#: ../skins/simple/menus/CarSetup:157
-#: ../skins/simple/menus/CarSetup:263
-#: ../skins/simple/menus/CarSetup:322
-#: ../skins/simple/menus/CarSetup:381
-#: ../skins/simple/menus/CarSetup:440
-#: ../skins/simple/menus/CarSetup:617
-#: ../skins/simple/menus/CarSetup:676
-#: ../skins/simple/menus/DisplayOptions:109
-#: ../skins/simple/menus/DisplayOptions:168
-#: ../skins/simple/menus/DisplayOptions:227
-#: ../skins/simple/menus/DisplayOptions:286
-#: ../skins/simple/menus/DisplayOptions:345
-#: ../skins/simple/menus/DisplayOptions:404
-#: ../skins/simple/menus/DisplayOptions:463
-#: ../skins/simple/menus/DisplayOptions:522
-#: ../skins/simple/menus/DisplayOptions:581
-#: ../skins/simple/menus/DisplayOptions:640
-#: ../skins/simple/menus/DisplayOptions:699
-#: ../skins/simple/menus/DisplayOptionsAdvanced:108
-#: ../skins/simple/menus/DisplayOptionsAdvanced:167
-#: ../skins/simple/menus/DisplayOptionsAdvanced:226
-#: ../skins/simple/menus/DisplayOptionsAdvanced:285
-#: ../skins/simple/menus/DisplayOptionsAdvanced:344
-#: ../skins/simple/menus/DisplayOptionsAdvanced:403
-#: ../skins/simple/menus/DisplayOptionsAdvanced:462
-#: ../skins/simple/menus/DisplayOptionsAdvanced:521
-#: ../skins/simple/menus/DisplayOptionsAdvanced:580
-#: ../skins/simple/menus/DisplayOptionsAdvanced:639
-#: ../skins/simple/menus/DisplayOptionsAdvanced:698
-#: ../skins/simple/menus/DisplayOptionsAdvanced:758
-#: ../skins/simple/menus/DisplayOptionsAdvanced:817
-#: ../skins/simple/menus/DisplayOptionsAdvanced:876
-#: ../skins/simple/menus/DisplayOptionsAdvanced:935
-#: ../skins/simple/menus/EditButtonControl:117
-#: ../skins/simple/menus/EditButtonControl:176
-#: ../skins/simple/menus/Garage:98
-#: ../skins/simple/menus/Garage:157
-#: ../skins/simple/menus/Garage:263
-#: ../skins/simple/menus/Garage:322
-#: ../skins/simple/menus/Garage:381
-#: ../skins/simple/menus/Garage:440
-#: ../skins/simple/menus/Garage:617
-#: ../skins/simple/menus/Garage:676
-#: ../skins/simple/menus/InputDevice:98
-#: ../skins/simple/menus/InputDevice:157
-#: ../skins/simple/menus/InputDevice:216
-#: ../skins/simple/menus/InputDevice:369
-#: ../skins/simple/menus/InputDevice:428
-#: ../skins/simple/menus/InputDevice:487
-#: ../skins/simple/menus/InputDevice:546
-#: ../skins/simple/menus/InputDevice:605
-#: ../skins/simple/menus/Replays:98
-#: ../skins/simple/menus/SingleRace:108
-#: ../skins/simple/menus/SingleRace:167
-#: ../skins/simple/menus/SingleRace:226
-#: ../skins/simple/menus/SingleRace:285
-#: ../skins/simple/menus/SingleRace:344
-#: ../skins/simple/menus/SingleRace:403
-#: ../skins/simple/menus/SingleRace:509
-#: ../skins/simple/menus/SoundOptions:98
-#: ../skins/simple/menus/TrackManager:98
-#: ../skins/simple/menus/Tracks:87
-msgid ">"
 msgstr ""
 
 #: ../skins/simple/menus/CarControls:471
@@ -395,10 +67,6 @@ msgstr ""
 
 #: ../skins/simple/menus/InGameMain:103
 msgid "Abort"
-msgstr ""
-
-#: ../skins/simple/menus/EditButtonControl:88
-msgid "Action"
 msgstr ""
 
 #: ../skins/simple/menus/DisplayOptionsAdvanced:91
@@ -743,10 +411,6 @@ msgstr ""
 msgid "Color Depth"
 msgstr ""
 
-#: ../skins/simple/menus/EditButtonControl:147
-msgid "Condition"
-msgstr ""
-
 #: ../skins/simple/menus/Main:134
 msgid "Configure your display, sound and controls."
 msgstr ""
@@ -809,7 +473,6 @@ msgid "Display the racing line."
 msgstr ""
 
 #: ../skins/simple/menus/GuiControls:404
-#: ../settings/options.config:745
 msgid "Down"
 msgstr ""
 
@@ -969,18 +632,6 @@ msgstr ""
 msgid "Fullscreen"
 msgstr ""
 
-#: ../settings/options.config:616
-msgid "GL1"
-msgstr ""
-
-#: ../settings/options.config:618
-msgid "GL2"
-msgstr ""
-
-#: ../settings/options.config:620
-msgid "GL3"
-msgstr ""
-
 #: ../../src/hud.cpp:111
 msgid "GO"
 msgstr ""
@@ -1041,10 +692,6 @@ msgstr ""
 
 #: ../skins/simple/menus/DisplayOptions:316
 msgid "Heads Up Display"
-msgstr ""
-
-#: ../settings/options.config:738
-msgid "Held"
 msgstr ""
 
 #: ../skins/simple/menus/CarSetup:600
@@ -1290,15 +937,15 @@ msgstr ""
 #: ../settings/options.config:447
 #: ../settings/options.config:460
 #: ../settings/options.config:504
-#: ../settings/options.config:559
-#: ../settings/options.config:567
-#: ../settings/options.config:575
-#: ../settings/options.config:592
-#: ../settings/options.config:600
-#: ../settings/options.config:608
-#: ../settings/options.config:629
-#: ../settings/options.config:637
-#: ../settings/options.config:684
+#: ../settings/options.config:633
+#: ../settings/options.config:641
+#: ../settings/options.config:649
+#: ../settings/options.config:666
+#: ../settings/options.config:674
+#: ../settings/options.config:682
+#: ../settings/options.config:703
+#: ../settings/options.config:711
+#: ../settings/options.config:758
 msgid "Off"
 msgstr ""
 
@@ -1318,20 +965,16 @@ msgstr ""
 #: ../settings/options.config:404
 #: ../settings/options.config:425
 #: ../settings/options.config:503
-#: ../settings/options.config:558
-#: ../settings/options.config:566
-#: ../settings/options.config:574
-#: ../settings/options.config:591
-#: ../settings/options.config:599
-#: ../settings/options.config:607
-#: ../settings/options.config:628
-#: ../settings/options.config:636
-#: ../settings/options.config:683
+#: ../settings/options.config:632
+#: ../settings/options.config:640
+#: ../settings/options.config:648
+#: ../settings/options.config:665
+#: ../settings/options.config:673
+#: ../settings/options.config:681
+#: ../settings/options.config:702
+#: ../settings/options.config:710
+#: ../settings/options.config:757
 msgid "On"
-msgstr ""
-
-#: ../settings/options.config:737
-msgid "Once"
 msgstr ""
 
 #: ../skins/simple/menus/SingleRace:374
@@ -1474,9 +1117,6 @@ msgid "Quit"
 msgstr ""
 
 #: ../skins/simple/menus/InGameMain:162
-msgid "Quit VDrift"
-msgstr ""
-
 #: ../skins/simple/menus/Main:190
 msgid "Quit VDrift."
 msgstr ""
@@ -1697,7 +1337,7 @@ msgstr ""
 #: ../skins/simple/menus/CameraViewControls:215
 #: ../skins/simple/menus/CameraViewControls:234
 #: ../skins/simple/menus/CameraViewControls:253
-msgid "Select car's hood camera ."
+msgid "Select car's hood camera."
 msgstr ""
 
 #: ../skins/simple/menus/CameraViewControls:282
@@ -1869,9 +1509,6 @@ msgid "Start Replay"
 msgstr ""
 
 #: ../skins/simple/menus/CarSetup:709
-msgid "Start a race using the selcted car and track."
-msgstr ""
-
 #: ../skins/simple/menus/SingleRace:570
 #: ../skins/simple/menus/StartingGrid:212
 msgid "Start a race using the selected car and track."
@@ -2125,9 +1762,13 @@ msgstr ""
 msgid "Transmission"
 msgstr ""
 
-#: ../skins/simple/menus/EditButtonControl:159
-#: ../skins/simple/menus/EditButtonControl:179
-msgid "Trigger the control when the key is pressed down or released?"
+#: ../skins/simple/menus/EditButtonControl:100
+#: ../skins/simple/menus/EditButtonControl:120
+msgid "Trigger the control when the key is pressed or released?"
+msgstr ""
+
+#: ../skins/simple/menus/EditButtonControl:88
+msgid "Trigger when"
 msgstr ""
 
 #: ../skins/simple/menus/CameraMovementControls:282
@@ -2159,7 +1800,6 @@ msgid "Type"
 msgstr ""
 
 #: ../skins/simple/menus/GuiControls:337
-#: ../settings/options.config:746
 msgid "Up"
 msgstr ""
 
@@ -2216,12 +1856,16 @@ msgstr ""
 msgid "Wheel"
 msgstr ""
 
+#: ../skins/simple/menus/EditButtonControl:147
+msgid "When triggered"
+msgstr ""
+
 #: ../settings/options.config:436
 msgid "Wide"
 msgstr ""
 
-#: ../skins/simple/menus/EditButtonControl:100
-#: ../skins/simple/menus/EditButtonControl:120
+#: ../skins/simple/menus/EditButtonControl:159
+#: ../skins/simple/menus/EditButtonControl:179
 msgid "Will this input be activated once per press, or whenever it's held down?"
 msgstr ""
 
@@ -2262,6 +1906,22 @@ msgstr ""
 msgid "Zoom camera out."
 msgstr ""
 
+#: ../settings/options.config:690
+msgid "gl2 basic"
+msgstr ""
+
+#: ../settings/options.config:692
+msgid "gl2 deferred"
+msgstr ""
+
+#: ../settings/options.config:694
+msgid "gl3 deferred"
+msgstr ""
+
+#: ../settings/options.config:812
+msgid "hold value"
+msgstr ""
+
 #: ../settings/options.config:180
 msgid "kph"
 msgstr ""
@@ -2276,6 +1936,18 @@ msgstr ""
 
 #: ../settings/options.config:179
 msgid "mph"
+msgstr ""
+
+#: ../settings/options.config:819
+msgid "pressed"
+msgstr ""
+
+#: ../settings/options.config:811
+msgid "pulse once"
+msgstr ""
+
+#: ../settings/options.config:820
+msgid "released"
 msgstr ""
 
 #: ../settings/options.config:388
