@@ -20,12 +20,16 @@ uniform mat4 defaultViewMatrix;
 uniform mat4 defaultProjectionMatrix;
 uniform vec4 reflectedLightColor;
 
+#ifdef SHADOWS
+
 #ifdef DIRECTIONAL
 uniform sampler2D shadowSampler;
 #endif
 
 #ifdef AMBIENT
 uniform sampler2D aoSampler;
+#endif
+
 #endif
 
 in vec3 eyespacePosition;
@@ -276,7 +280,11 @@ void main(void)
 	vec3 final = vec3(0,0,0);
 	
 	#ifdef AMBIENT
-		float notAO = texture(aoSampler, screencoord).r;
+		#ifdef SHADOWS
+			float notAO = texture(aoSampler, screencoord).r;
+		#else
+			float notAO = 1.0;
+		#endif
 		vec3 light_direction = normalize(eyespaceLightDirection);
 		float omega_i = cos_clamped(light_direction,normal); //clamped cosine of angle between incoming light direction and surface normal
         //notAO *= omega_i;
@@ -347,7 +355,11 @@ void main(void)
 		reconstructedEyespacePosition.xyz /= reconstructedEyespacePosition.w;
 		vec3 V = -normalize(reconstructedEyespacePosition.xyz);
 		
-		float notShadow = texture(shadowSampler, screencoord).r;
+		#ifdef SHADOWS
+			float notShadow = texture(shadowSampler, screencoord).r;
+		#else
+			float notShadow = 1.0;
+		#endif
 		
 		// the direct light itself
 		vec3 E_l = directionalLightColor.rgb;
