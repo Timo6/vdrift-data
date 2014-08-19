@@ -153,7 +153,7 @@ onselect = display.fullscreen.prev
 onmoveleft = display.fullscreen.prev
 onmoveright = display.fullscreen.next
 onmoveup = widget-01b
-onmovedown = widget-03b
+onmovedown = widget-020b
 onfocus = widget-02b.opacity:0 widget-02c.opacity:0 widget-02d.sat:0.56
 onblur = widget-02b.opacity:1 widget-02c.opacity:1 widget-02d.sat:0.0
 focus = false
@@ -173,7 +173,7 @@ onselect = display.fullscreen.next
 onmoveleft = display.fullscreen.prev
 onmoveright = display.fullscreen.next
 onmoveup = widget-01b
-onmovedown = widget-03b
+onmovedown = widget-020b
 onfocus = widget-02b.opacity:0 widget-02c.opacity:0 widget-02d.sat:0.56
 onblur = widget-02b.opacity:1 widget-02c.opacity:1 widget-02d.sat:0.0
 focus = false
@@ -194,13 +194,72 @@ top = 0.22
 height = 0.04
 
 
+[ widget-020a ]
+text = Vertical Sync
+fontsize = 0.03
+align = right
+left = 0.01
+width = 0.28
+top = 0.26
+height = 0.04
+
+[ widget-020b ]
+text = <
+fontsize = 0.03
+align = left
+tip = Toggle vertical synchronization on and off.
+onselect = display.vsync.prev
+onmoveleft = display.vsync.prev
+onmoveright = display.vsync.next
+onmoveup = widget-02b
+onmovedown = widget-03b
+onfocus = widget-020b.opacity:0 widget-020c.opacity:0 widget-020d.sat:0.56
+onblur = widget-020b.opacity:1 widget-020c.opacity:1 widget-020d.sat:0.0
+focus = false
+color = 0.439, 0.796, 1.00
+opacity = 1.0
+left = 0.31
+width = 0.14
+top = 0.26
+height = 0.04
+
+[ widget-020c ]
+text = >
+fontsize = 0.03
+align = right
+tip = Toggle vertical synchronization on and off.
+onselect = display.vsync.next
+onmoveleft = display.vsync.prev
+onmoveright = display.vsync.next
+onmoveup = widget-02b
+onmovedown = widget-03b
+onfocus = widget-020b.opacity:0 widget-020c.opacity:0 widget-020d.sat:0.56
+onblur = widget-020b.opacity:1 widget-020c.opacity:1 widget-020d.sat:0.0
+focus = false
+color = 0.439, 0.796, 1.00
+opacity = 1.0
+left = 0.45
+width = 0.14
+top = 0.26
+height = 0.04
+
+[ widget-020d ]
+text = display.vsync.str
+fontsize = 0.03
+hue = 0.56
+left = 0.31
+width = 0.28
+top = 0.26
+height = 0.04
+
+
 [ widget-03a ]
 text = Speed Units
 fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.26
+top = 0.30
 height = 0.04
 
 [ widget-03b ]
@@ -211,7 +270,7 @@ tip = Change the units that speed is displayed in between MPH and KPH.
 onselect = display.mph.prev
 onmoveleft = display.mph.prev
 onmoveright = display.mph.next
-onmoveup = widget-02b
+onmoveup = widget-020b
 onmovedown = widget-04b
 onfocus = widget-03b.opacity:0 widget-03c.opacity:0 widget-03d.sat:0.56
 onblur = widget-03b.opacity:1 widget-03c.opacity:1 widget-03d.sat:0.0
@@ -220,7 +279,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.26
+top = 0.30
 height = 0.04
 
 [ widget-03c ]
@@ -231,7 +290,7 @@ tip = Change the units that speed is displayed in between MPH and KPH.
 onselect = display.mph.next
 onmoveleft = display.mph.prev
 onmoveright = display.mph.next
-onmoveup = widget-02b
+onmoveup = widget-020b
 onmovedown = widget-04b
 onfocus = widget-03b.opacity:0 widget-03c.opacity:0 widget-03d.sat:0.56
 onblur = widget-03b.opacity:1 widget-03c.opacity:1 widget-03d.sat:0.0
@@ -240,7 +299,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.26
+top = 0.30
 height = 0.04
 
 [ widget-03d ]
@@ -249,7 +308,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.26
+top = 0.30
 height = 0.04
 
 
@@ -259,7 +318,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.30
+top = 0.34
 height = 0.04
 
 [ widget-04b ]
@@ -279,7 +338,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.30
+top = 0.34
 height = 0.04
 
 [ widget-04c ]
@@ -299,7 +358,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.30
+top = 0.34
 height = 0.04
 
 [ widget-04d ]
@@ -308,7 +367,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.30
+top = 0.34
 height = 0.04
 
 
@@ -318,7 +377,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.34
+top = 0.38
 height = 0.04
 
 [ widget-05b ]
@@ -338,7 +397,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.34
+top = 0.38
 height = 0.04
 
 [ widget-05c ]
@@ -358,7 +417,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.34
+top = 0.38
 height = 0.04
 
 [ widget-05d ]
@@ -367,7 +426,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.34
+top = 0.38
 height = 0.04
 
 
@@ -377,7 +436,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.38
+top = 0.42
 height = 0.04
 
 [ widget-06b ]
@@ -397,7 +456,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.38
+top = 0.42
 height = 0.04
 
 [ widget-06c ]
@@ -417,7 +476,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.38
+top = 0.42
 height = 0.04
 
 [ widget-06d]
@@ -426,7 +485,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.38
+top = 0.42
 height = 0.04
 
 
@@ -436,7 +495,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.42
+top = 0.46
 height = 0.04
 
 [ widget-07b ]
@@ -456,7 +515,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.42
+top = 0.46
 height = 0.04
 
 [ widget-07c ]
@@ -476,7 +535,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.42
+top = 0.46
 height = 0.04
 
 [ widget-07d ]
@@ -485,7 +544,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.42
+top = 0.46
 height = 0.04
 
 
@@ -495,7 +554,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.46
+top = 0.50
 height = 0.04
 
 [ widget-08b ]
@@ -515,7 +574,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.46
+top = 0.50
 height = 0.04
 
 [ widget-08c ]
@@ -535,7 +594,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.46
+top = 0.50
 height = 0.04
 
 [ widget-08d ]
@@ -544,7 +603,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.46
+top = 0.50
 height = 0.04
 
 
@@ -554,7 +613,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.50
+top = 0.54
 height = 0.04
 
 [ widget-09b ]
@@ -574,7 +633,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.50
+top = 0.54
 height = 0.04
 
 [ widget-09c ]
@@ -594,7 +653,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.50
+top = 0.54
 height = 0.04
 
 [ widget-09d ]
@@ -603,7 +662,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.50
+top = 0.54
 height = 0.04
 
 
@@ -613,7 +672,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.54
+top = 0.58
 height = 0.04
 
 [ widget-10b ]
@@ -633,7 +692,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.54
+top = 0.58
 height = 0.04
 
 [ widget-10c ]
@@ -653,7 +712,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.54
+top = 0.58
 height = 0.04
 
 [ widget-10d ]
@@ -662,7 +721,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.54
+top = 0.58
 height = 0.04
 
 
@@ -672,7 +731,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.58
+top = 0.62
 height = 0.04
 
 [ widget-11b ]
@@ -692,7 +751,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.58
+top = 0.62
 height = 0.04
 
 [ widget-11c ]
@@ -712,7 +771,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.58
+top = 0.62
 height = 0.04
 
 [ widget-11d ]
@@ -721,7 +780,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.58
+top = 0.62
 height = 0.04
 
 
@@ -731,7 +790,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.62
+top = 0.66
 height = 0.04
 
 [ widget-110b ]
@@ -749,7 +808,7 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.625
+top = 0.665
 height = 0.03
 
 [ widget-110c ]
@@ -758,7 +817,7 @@ fill = true
 opacity = 1.0
 left = 0.31
 width = 0.28
-top = 0.626
+top = 0.666
 height = 0.028
 layer = 1
 
@@ -768,7 +827,7 @@ color = 0.3, 0.3, 0.3
 opacity = 1.0
 left = 0.31
 width = 0.28
-top = 0.626
+top = 0.666
 height = 0.028
 
 
@@ -778,7 +837,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.66
+top = 0.70
 height = 0.04
 
 [ widget-12b ]
@@ -796,7 +855,7 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.665
+top = 0.705
 height = 0.03
 
 [ widget-12c ]
@@ -805,7 +864,7 @@ fill = true
 opacity = 1.0
 left = 0.31
 width = 0.28
-top = 0.666
+top = 0.706
 height = 0.028
 layer = 1
 
@@ -815,7 +874,7 @@ color = 0.3, 0.3, 0.3
 opacity = 1.0
 left = 0.31
 width = 0.28
-top = 0.666
+top = 0.706
 height = 0.028
 
 
@@ -833,7 +892,7 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.29
-top = 0.70
+top = 0.74
 height = 0.04
 
 [ widget-13e ]
@@ -842,7 +901,7 @@ color = 0.172, 0.161, 0.169
 opacity = 0.5
 left = 0.30
 width = 0.30
-top = 0.701
+top = 0.741
 height = 0.038
 layer = -1
 
@@ -861,7 +920,7 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.29
-top = 0.74
+top = 0.78
 height = 0.04
 
 [ widget-14e ]
@@ -870,6 +929,6 @@ color = 0.172, 0.161, 0.169
 opacity = 0.5
 left = 0.30
 width = 0.30
-top = 0.741
+top = 0.781
 height = 0.038
 layer = -1
