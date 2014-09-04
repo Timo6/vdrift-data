@@ -227,7 +227,6 @@ caster = 6.9
 toe = 0.04
 ackermann = -8
 steering = 33
-genrim = false
 
 [wheel.rl]
 texture = oem_wheel.png, oem_wheel-misc1.png
