@@ -248,6 +248,16 @@ texture = reverse.png
 mesh = body.joe
 draw = emissive
 
+# main collision shape
+[body.hull]
+00 = -0.54,  1.74, -0.21, 0.30
+01 =  0.54,  1.74, -0.21, 0.30
+02 = -0.46, -1.84, -0.10, 0.40
+03 =  0.46, -1.84, -0.10, 0.40
+04 = -0.37, -0.44,  0.40, 0.30
+05 =  0.37, -0.44,  0.40, 0.30
+06 =  0.00,  1.97, -0.22, 0.25
+
 # these are used to calculate the weight distribution and balance
 [particle-00]
 mass = 219

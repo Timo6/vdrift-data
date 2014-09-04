@@ -245,6 +245,15 @@ texture = brake.png
 mesh = body.joe
 draw = emissive
 
+# main collision shape
+[body.hull]
+00 = -0.63,  1.88, -0.21, 0.35
+01 =  0.63,  1.88, -0.21, 0.35
+02 = -0.54, -2.00, -0.21, 0.35
+03 =  0.54, -2.00, -0.21, 0.35
+04 = -0.40, -0.89,  0.30, 0.30
+05 =  0.40, -0.89,  0.30, 0.30
+
 # empty weight: 1044kg
 [particle-00]
 mass = 36.0

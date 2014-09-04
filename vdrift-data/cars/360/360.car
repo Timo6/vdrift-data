@@ -326,6 +326,16 @@ texture = body00.png
 mesh = revlight.joe
 draw = emissive
 
+# main collision shape
+[body.hull]
+00 = -0.71,  1.67, -0.14, 0.30
+01 =  0.71,  1.67, -0.14, 0.30
+02 = -0.62, -1.97, -0.03, 0.40
+03 =  0.62, -1.97, -0.03, 0.40
+04 = -0.37, -0.36,  0.30, 0.35
+05 =  0.37, -0.36,  0.30, 0.35
+06 =  0.00,  2.03, -0.21, 0.20
+
 # these are used to calculate the weight distribution and balance
 
 [particle-00]# Chassis Front

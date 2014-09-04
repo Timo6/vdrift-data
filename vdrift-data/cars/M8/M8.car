@@ -234,6 +234,16 @@ mass = 80.0
 texture = body00.png
 mesh = body.joe
 
+# main collision shape
+[body.hull]
+00 = -0.54,  1.49, -0.26, 0.30
+01 =  0.54,  1.49, -0.26, 0.30
+02 = -0.44, -1.66, -0.16, 0.40
+03 =  0.44, -1.66, -0.16, 0.40
+04 = -0.26, -0.50,  0.09, 0.40
+05 =  0.26, -0.50,  0.09, 0.40
+06 =  0.00,  1.80, -0.32, 0.20
+
 [light-reverse]
 texture = reverse.png
 mesh = body.joe

@@ -225,6 +225,15 @@ mass = 80.0
 texture = body00.png
 mesh = body.joe
 
+# main collision shape
+[lower.box]
+center = 0.00, -0.15, -0.18
+size = 1.50, 4.30, 0.70
+
+[upper.box]
+center = 0.00, -0.50, 0.42
+size = 1.20, 1.80, 0.50
+
 [interior]
 texture = interior.png
 mesh = interior.joe

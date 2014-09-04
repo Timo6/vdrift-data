@@ -241,6 +241,15 @@ toe = 0.2
 texture = body00.png
 mesh = body.joe
 
+# main collision shape
+[body.hull]
+00 = -0.60,  2.04, -0.37, 0.30
+01 =  0.60,  2.04, -0.37, 0.30
+02 = -0.48, -1.68, -0.24, 0.45
+03 =  0.48, -1.68, -0.24, 0.45
+04 = -0.41, -0.53,  0.33, 0.40
+05 =  0.41, -0.53,  0.33, 0.40
+
 [interior]
 texture = loganinterior.png
 mesh = interior.joe
