@@ -255,6 +255,11 @@ mass = 80.0
 texture = body00.png
 mesh = body.joe
 
+# main collision shape
+[body.box]
+center = 0.00, 0.07, -0.23
+size = 1.50, 3.80, 0.80
+
 # these are used to calculate the weight distribution and balance
 [particle-00]
 # Front-Wing/Nose

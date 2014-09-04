@@ -228,6 +228,15 @@ mass = 80.0
 texture = body00.png, body-misc1.png
 mesh = body.joe
 
+# main collision shape
+[lower.box]
+center = 0.00, 0.00, -0.21
+size = 1.70, 3.70, 0.70
+
+[upper.box]
+center = 0.00, -0.53, 0.40
+size = 1.20, 2.20, 0.60
+
 [glass]
 texture = glass.png, glass-misc1.png
 mesh = glass.joe

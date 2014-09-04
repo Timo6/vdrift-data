@@ -293,6 +293,14 @@ position = -0.27, 0.64, 0.02
 rotation = 90, 0, 0 #in degrees 
 max-angle = 90
 
+# main collision shape
+[lower.box]
+center = 0.00, 0.00, -0.18
+size = 1.30, 3.40, 0.60
+
+[upper.box]
+center = 0.00, -0.25, 0.32
+size = 1.10, 1.60, 0.60
 
 # these are used to calculate the weight distribution and balance
 [particle-00]

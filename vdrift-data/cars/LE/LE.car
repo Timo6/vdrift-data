@@ -278,6 +278,16 @@ position = 0.39, 1.32, -0.28
 texture = body00.png, body-misc1.png
 mesh = body.joe
 
+# main collision shape
+[body.hull]
+00 = -0.52,  1.38, -0.29, 0.30
+01 =  0.52,  1.38, -0.29, 0.30
+02 = -0.48, -1.53, -0.23, 0.35
+03 =  0.48, -1.53, -0.23, 0.35
+04 = -0.20, -0.34,  0.00, 0.40
+05 =  0.20, -0.34,  0.00, 0.40
+06 =  0.00,  1.69, -0.39, 0.20
+
 [steering]
 texture = steering_wheel.png
 mesh = steering_wheel.joe

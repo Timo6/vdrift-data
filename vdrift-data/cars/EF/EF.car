@@ -277,6 +277,16 @@ position = 0.6, -1.9, 0.0
 color = 0.8, 0.1, 0.1
 radius = 1.5
 
+# main collision shape
+[body.hull]
+00 = -0.74,  2.08, -0.23, 0.20
+01 =  0.74,  2.08, -0.23, 0.20
+02 = -0.68, -1.83, -0.08, 0.35
+03 =  0.68, -1.83, -0.08, 0.35
+04 = -0.30,  0.04,  0.14, 0.40
+05 =  0.30,  0.04,  0.14, 0.40
+06 =  0.00,  2.40, -0.29, 0.15
+
 # these are used to calculate the weight distribution and balance
 [particle-00]
 mass = 50.0

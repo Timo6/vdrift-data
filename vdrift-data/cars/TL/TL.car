@@ -232,6 +232,15 @@ mass = 80.0
 texture = body00.png
 mesh = body.joe
 
+# main collision shape
+[body.hull]
+00 = -0.43,  1.67, -0.18, 0.30
+01 =  0.43,  1.67, -0.18, 0.30
+02 = -0.38, -1.64, -0.08, 0.40
+03 =  0.38, -1.64, -0.08, 0.40
+04 = -0.23, -0.60,  0.21, 0.40
+05 =  0.23, -0.60,  0.21, 0.40
+
 [interior]
 texture = interior.png
 mesh = interior.joe
