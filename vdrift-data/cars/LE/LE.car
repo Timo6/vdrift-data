@@ -1,8 +1,33 @@
 # Elise S
-engine = &engine/1zz-fe
 
+# 1ZZ-FE, I4 1794cc
+# 171Nm at 4400rpm, 100kW at 6400rpm
 [engine]
 position = 0.0, -0.8, -0.20
+mass = 107.0 # 102.0 dry
+max-power = 100E3
+peak-engine-rpm = 6400.0
+rpm-limit = 7200.0
+inertia = 0.1
+idle = 0.02
+start-rpm = 1000
+stall-rpm = 400
+fuel-consumption = 1e-9
+torque-friction = 0.0003
+torque-curve-00 = 1000, 138
+torque-curve-01 = 1500, 147
+torque-curve-02 = 2000, 154
+torque-curve-03 = 2500, 159
+torque-curve-04 = 2850, 160
+torque-curve-05 = 3250, 160
+torque-curve-06 = 3500, 166
+torque-curve-07 = 4000, 170
+torque-curve-08 = 4400, 171
+torque-curve-09 = 4800, 169
+torque-curve-10 = 5500, 164
+torque-curve-11 = 6000, 157
+torque-curve-12 = 6400, 149
+torque-curve-13 = 7200, 127
 
 [transmission]
 gears = 5
