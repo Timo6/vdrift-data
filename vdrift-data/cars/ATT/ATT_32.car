@@ -1,10 +1,12 @@
-# I4 Turbo 1984cc
-# 280Nm at 1800rpm, 147kW at 6000rpm
+# VR6 3189cc
+# 320Nm at 2500rpm, 184kW at 6300rpm
 [engine]
 position = 0.0, 1.342, -0.113
-mass = 140.0
-max-power = 147E3
-peak-engine-rpm = 6000.0
+mass = 180.0
+mesh = engine.joe
+texture = engine.png
+max-power = 184E3
+peak-engine-rpm = 6300.0
 rpm-limit = 6600.0
 inertia = 0.35
 idle = 0.02
@@ -12,20 +14,19 @@ start-rpm = 1000
 stall-rpm = 400
 fuel-consumption = 1e-9
 torque-friction = 0.0006
-torque-curve-00 = 600, 100
-torque-curve-01 = 1000, 175
-torque-curve-02 = 1400, 250
-torque-curve-03 = 1600, 270
-torque-curve-04 = 1800, 276
-torque-curve-05 = 2500, 275
-torque-curve-06 = 3000, 280
-torque-curve-07 = 3500, 280
-torque-curve-08 = 4000, 275
-torque-curve-09 = 4800, 277
-torque-curve-10 = 5000, 273
-torque-curve-11 = 5500, 250
-torque-curve-12 = 6000, 230
-torque-curve-13 = 6700, 200
+torque-curve-00 = 1000, 240
+torque-curve-01 = 1400, 256
+torque-curve-02 = 2000, 292
+torque-curve-03 = 2440, 320
+torque-curve-04 = 3000, 320
+torque-curve-05 = 3600, 313
+torque-curve-06 = 4230, 307
+torque-curve-07 = 4700, 308
+torque-curve-08 = 5000, 306
+torque-curve-09 = 5500, 297
+torque-curve-10 = 6000, 287
+torque-curve-11 = 6300, 279
+torque-curve-12 = 6600, 260
 
 [clutch]
 sliding = 0.27
