@@ -40,7 +40,7 @@ opacity = 0.5
 left = 0.008
 width = 0.29
 top = 0.181
-height = 0.598
+height = 0.558
 layer = -1
 
 
@@ -51,7 +51,7 @@ opacity = 0.5
 left = 0.30
 width = 0.30
 top = 0.181
-height = 0.598
+height = 0.558
 layer = -1
 
 
@@ -75,72 +75,13 @@ top = 0.12
 height = 0.04
 
 
-[ widget-01a ]
-text = Color Depth
-fontsize = 0.03
-align = right
-left = 0.01
-width = 0.28
-top = 0.18
-height = 0.04
-
-[ widget-01b ]
-text = <
-fontsize = 0.03
-align = left
-tip = Adjust the amount of colours available.
-onselect = display.depth.prev
-onmoveleft = display.depth.prev
-onmoveright = display.depth.next
-onmoveup = widget-17b
-onmovedown = widget-02b
-onfocus = widget-01b.opacity:0 widget-01c.opacity:0 widget-01d.sat:0.56
-onblur = widget-01b.opacity:1 widget-01c.opacity:1 widget-01d.sat:0.0
-focus = true
-color = 0.439, 0.796, 1.00
-opacity = 1.0
-left = 0.31
-width = 0.14
-top = 0.18
-height = 0.04
-
-[ widget-01c ]
-text = >
-fontsize = 0.03
-align = right
-tip = Adjust the amount of colours available.
-onselect = display.depth.next
-onmoveleft = display.depth.prev
-onmoveright = display.depth.next
-onmoveup = widget-17b
-onmovedown = widget-02b
-onfocus = widget-01b.opacity:0 widget-01c.opacity:0 widget-01d.sat:0.56
-onblur = widget-01b.opacity:1 widget-01c.opacity:1 widget-01d.sat:0.0
-focus = false
-color = 0.439, 0.796, 1.00
-opacity = 1.0
-left = 0.45
-width = 0.14
-top = 0.18
-height = 0.04
-
-[ widget-01d ]
-text = display.depth.str
-fontsize = 0.03
-hue = 0.56
-left = 0.31
-width = 0.28
-top = 0.18
-height = 0.04
-
-
 [ widget-02a ]
 text = Texture Size
 fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.22
+top = 0.18
 height = 0.04
 
 [ widget-02b ]
@@ -151,7 +92,7 @@ tip = Change the size of the textures displayed.
 onselect = display.texture_size.prev
 onmoveleft = display.texture_size.prev
 onmoveright = display.texture_size.next
-onmoveup = widget-01b
+onmoveup = widget-17b
 onmovedown = widget-03b
 onfocus = widget-02b.opacity:0 widget-02c.opacity:0 widget-02d.sat:0.56
 onblur = widget-02b.opacity:1 widget-02c.opacity:1 widget-02d.sat:0.0
@@ -160,7 +101,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.22
+top = 0.18
 height = 0.04
 
 [ widget-02c ]
@@ -171,7 +112,7 @@ tip = Change the size of the textures displayed.
 onselect = display.texture_size.next
 onmoveleft = display.texture_size.prev
 onmoveright = display.texture_size.next
-onmoveup = widget-01b
+onmoveup = widget-17b
 onmovedown = widget-03b
 onfocus = widget-02b.opacity:0 widget-02c.opacity:0 widget-02d.sat:0.56
 onblur = widget-02b.opacity:1 widget-02c.opacity:1 widget-02d.sat:0.0
@@ -180,7 +121,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.22
+top = 0.18
 height = 0.04
 
 [ widget-02d ]
@@ -189,7 +130,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.22
+top = 0.18
 height = 0.04
 
 
@@ -199,7 +140,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.26
+top = 0.22
 height = 0.04
 
 [ widget-03b ]
@@ -219,7 +160,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.26
+top = 0.22
 height = 0.04
 
 [ widget-03c ]
@@ -239,7 +180,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.26
+top = 0.22
 height = 0.04
 
 [ widget-03d ]
@@ -248,7 +189,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.26
+top = 0.22
 height = 0.04
 
 
@@ -258,7 +199,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.30
+top = 0.26
 height = 0.04
 
 [ widget-04b ]
@@ -278,7 +219,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.30
+top = 0.26
 height = 0.04
 
 [ widget-04c ]
@@ -298,7 +239,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.30
+top = 0.26
 height = 0.04
 
 [ widget-04d ]
@@ -307,7 +248,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.30
+top = 0.26
 height = 0.04
 
 
@@ -317,7 +258,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.34
+top = 0.30
 height = 0.04
 
 [ widget-05b ]
@@ -337,7 +278,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.34
+top = 0.30
 height = 0.04
 
 [ widget-05c ]
@@ -357,7 +298,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.34
+top = 0.30
 height = 0.04
 
 [ widget-05d]
@@ -366,7 +307,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.34
+top = 0.30
 height = 0.04
 
 
@@ -376,7 +317,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.38
+top = 0.34
 height = 0.04
 
 [ widget-06b ]
@@ -396,7 +337,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.38
+top = 0.34
 height = 0.04
 
 [ widget-06c ]
@@ -416,7 +357,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.38
+top = 0.34
 height = 0.04
 
 [ widget-06d ]
@@ -425,7 +366,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.38
+top = 0.34
 height = 0.04
 
 
@@ -435,7 +376,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.42
+top = 0.38
 height = 0.04
 
 [ widget-07b ]
@@ -455,7 +396,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.42
+top = 0.38
 height = 0.04
 
 [ widget-07c ]
@@ -475,7 +416,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.42
+top = 0.38
 height = 0.04
 
 [ widget-07d ]
@@ -484,7 +425,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.42
+top = 0.38
 height = 0.04
 
 
@@ -494,7 +435,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.46
+top = 0.42
 height = 0.04
 
 [ widget-08b ]
@@ -514,7 +455,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.46
+top = 0.42
 height = 0.04
 
 [ widget-08c ]
@@ -534,7 +475,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.46
+top = 0.42
 height = 0.04
 
 [ widget-08d ]
@@ -543,7 +484,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.46
+top = 0.42
 height = 0.04
 
 
@@ -553,7 +494,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.50
+top = 0.46
 height = 0.04
 
 [ widget-09b ]
@@ -573,7 +514,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.50
+top = 0.46
 height = 0.04
 
 [ widget-09c ]
@@ -593,7 +534,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.50
+top = 0.46
 height = 0.04
 
 [ widget-09d ]
@@ -602,7 +543,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.50
+top = 0.46
 height = 0.04
 
 
@@ -612,7 +553,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.54
+top = 0.50
 height = 0.04
 
 [ widget-10b ]
@@ -632,7 +573,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.54
+top = 0.50
 height = 0.04
 
 [ widget-10c ]
@@ -652,7 +593,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.54
+top = 0.50
 height = 0.04
 
 [ widget-10d ]
@@ -661,7 +602,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.54
+top = 0.50
 height = 0.04
 
 
@@ -671,7 +612,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.58
+top = 0.54
 height = 0.04
 
 [ widget-11b ]
@@ -691,7 +632,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.58
+top = 0.54
 height = 0.04
 
 [ widget-11c ]
@@ -711,7 +652,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.58
+top = 0.54
 height = 0.04
 
 
@@ -721,7 +662,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.58
+top = 0.54
 height = 0.04
 
 
@@ -731,7 +672,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.62
+top = 0.58
 height = 0.04
 
 [ widget-12b]
@@ -751,7 +692,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.62
+top = 0.58
 height = 0.04
 
 [ widget-12c ]
@@ -771,7 +712,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.62
+top = 0.58
 height = 0.04
 
 [ widget-12d ]
@@ -780,7 +721,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.62
+top = 0.58
 height = 0.04
 
 
@@ -790,7 +731,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.66
+top = 0.62
 height = 0.04
 
 [ widget-13b ]
@@ -810,7 +751,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.66
+top = 0.62
 height = 0.04
 
 [ widget-13c ]
@@ -830,7 +771,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.66
+top = 0.62
 height = 0.04
 
 [ widget-13d ]
@@ -839,7 +780,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.66
+top = 0.62
 height = 0.04
 
 
@@ -849,7 +790,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.70
+top = 0.66
 height = 0.04
 
 [ widget-14b ]
@@ -869,7 +810,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.70
+top = 0.66
 height = 0.04
 
 [ widget-14c ]
@@ -889,7 +830,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.70
+top = 0.66
 height = 0.04
 
 [ widget-14d ]
@@ -898,7 +839,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.70
+top = 0.66
 height = 0.04
 
 
@@ -908,7 +849,7 @@ fontsize = 0.03
 align = right
 left = 0.01
 width = 0.28
-top = 0.74
+top = 0.70
 height = 0.04
 
 [ widget-15b ]
@@ -928,7 +869,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.31
 width = 0.14
-top = 0.74
+top = 0.70
 height = 0.04
 
 [ widget-15c ]
@@ -948,7 +889,7 @@ color = 0.439, 0.796, 1.00
 opacity = 1.0
 left = 0.45
 width = 0.14
-top = 0.74
+top = 0.70
 height = 0.04
 
 [ widget-15d ]
@@ -957,7 +898,7 @@ fontsize = 0.03
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.74
+top = 0.70
 height = 0.04
 
 
@@ -975,7 +916,7 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.29
-top = 0.78
+top = 0.74
 height = 0.04
 
 [ widget-16e ]
@@ -984,7 +925,7 @@ color = 0.172, 0.161, 0.169
 opacity = 0.5
 left = 0.30
 width = 0.30
-top = 0.781
+top = 0.741
 height = 0.038
 layer = -1
 
@@ -996,14 +937,14 @@ fontsize = 0.03
 tip = Save changes and return to Options menu.
 onselect = gui.options.save Options
 onmoveup = widget-16b
-onmovedown = widget-01b
+onmovedown = widget-02b
 onfocus = widget-17b.sat:0.56
 onblur = widget-17b.sat:0.0
 focus = false
 hue = 0.56
 left = 0.31
 width = 0.29
-top = 0.82
+top = 0.78
 height = 0.04
 
 [ widget-17e ]
@@ -1012,6 +953,6 @@ color = 0.172, 0.161, 0.169
 opacity = 0.5
 left = 0.30
 width = 0.30
-top = 0.821
+top = 0.781
 height = 0.038
 layer = -1
