@@ -1,5 +1,5 @@
 name = TransmissionControls
-oncancel = gui.options.load LoadControls CarControls
+oncancel = gui.options.load LoadControls gui.page:CarControls
 
 
 [ bg-top ]
@@ -807,7 +807,7 @@ text = Cancel
 fontsize = 0.03
 #align = left
 tip = Forget changes and return to Car Controls menu.
-onselect = gui.options.load LoadControls CarControls
+onselect = gui.options.load LoadControls gui.page:CarControls
 onmoveup = widget-11b
 onmovedown = widget-13b
 onfocus = widget-12b.sat:0.56
@@ -835,7 +835,7 @@ text = OK
 fontsize = 0.03
 #align = left
 tip = Save changes and return to Car Controls menu.
-onselect = gui.options.save SaveControls CarControls
+onselect = gui.options.save SaveControls gui.page:CarControls
 onmoveup = widget-12b
 onmovedown = widget-01b
 onfocus = widget-13b.sat:0.56

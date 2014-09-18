@@ -1,5 +1,5 @@
 name = CarControls
-oncancel = LoadControls ControlsOptions
+oncancel = LoadControls gui.page:ControlsOptions
 
 
 [ bg-top ]
@@ -740,7 +740,7 @@ text = Transmission
 fontsize = 0.03
 #align = left
 tip = Assign inputs to actions related to the transmission.
-onselect = TransmissionControls
+onselect = gui.page:TransmissionControls
 onmoveup = widget-10b
 onmovedown = widget-12b
 onfocus = widget-11b.sat:0.56
@@ -768,7 +768,7 @@ text = Cancel
 fontsize = 0.03
 #align = left
 tip = Forget changes and return to Controls menu.
-onselect = LoadControls ControlsOptions
+onselect = LoadControls gui.page:ControlsOptions
 onmoveup = widget-11b
 onmovedown = widget-13b
 onfocus = widget-12b.sat:0.56
@@ -796,7 +796,7 @@ text = OK
 fontsize = 0.03
 #align = left
 tip = Save changes and return to Controls menu.
-onselect = SaveControls ControlsOptions
+onselect = SaveControls gui.page:ControlsOptions
 onmoveup = widget-12b
 onmovedown = widget-01b
 onfocus = widget-13b.sat:0.56

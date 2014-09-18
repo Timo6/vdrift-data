@@ -1,5 +1,5 @@
 name = SingleRace
-oncancel = gui.options.save Main
+oncancel = gui.options.save gui.page:Main
 
 
 [ bg-top ]
@@ -89,7 +89,7 @@ text = <
 fontsize = 0.03
 align = left
 tip = Choose the track to drive on.
-onselect = Tracks
+onselect = gui.page:Tracks
 onmoveleft = game.track.prev
 onmoveright = game.track.next
 onmoveup = widget-17b
@@ -109,7 +109,7 @@ text = >
 fontsize = 0.03
 align = right
 tip = Choose the track to drive on.
-onselect = Tracks
+onselect = gui.page:Tracks
 onmoveleft = game.track.prev
 onmoveright = game.track.next
 onmoveup = widget-17b

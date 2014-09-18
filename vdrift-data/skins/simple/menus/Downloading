@@ -1,5 +1,5 @@
 name = Downloading
-oncancel = AbortDownload Updates
+oncancel = AbortDownload gui.page:Updates
 
 [ bg-top ]
 image = white.png

@@ -1,5 +1,5 @@
 name = DisplayOptions
-oncancel = gui.options.load Options
+oncancel = gui.options.load gui.page:Options
 
 
 [ bg-top ]
@@ -883,7 +883,7 @@ text = Cancel
 fontsize = 0.03
 #align = left
 tip = Forget changes and return to Options menu.
-onselect = gui.options.load Options
+onselect = gui.options.load gui.page:Options
 onmoveup = widget-12b
 onmovedown = widget-14b
 onfocus = widget-13b.sat:0.56
@@ -911,7 +911,7 @@ text = OK
 fontsize = 0.03
 #align = left
 tip = Save changes and return to Options menu.
-onselect = gui.options.save Options
+onselect = gui.options.save gui.page:Options
 onmoveup = widget-13b
 onmovedown = widget-01b
 onfocus = widget-14b.sat:0.56

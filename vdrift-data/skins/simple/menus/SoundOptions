@@ -1,5 +1,5 @@
 name = SoundOptions
-oncancel = gui.options.load Options
+oncancel = gui.options.load gui.page:Options
 
 
 [ bg-top ]
@@ -223,7 +223,7 @@ text = Cancel
 fontsize = 0.03
 #align = left
 tip = Forget changes and return to Options menu.
-onselect = gui.options.load Options
+onselect = gui.options.load gui.page:Options
 onmoveup = widget-03b
 onmovedown = widget-05b
 onfocus = widget-04b.sat:0.56
@@ -251,7 +251,7 @@ text = OK
 fontsize = 0.03
 #align = left
 tip = Save changes and return to Options menu.
-onselect = gui.options.save Options
+onselect = gui.options.save gui.page:Options
 onmoveup = widget-04b
 onmovedown = widget-01b
 onfocus = widget-05b.sat:0.56

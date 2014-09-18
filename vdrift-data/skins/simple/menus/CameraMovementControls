@@ -1,5 +1,5 @@
 name = CameraMovementControls
-oncancel = LoadControls CameraViewControls
+oncancel = LoadControls gui.page:CameraViewControls
 
 
 [ bg-top ]
@@ -472,7 +472,7 @@ text = Cancel
 fontsize = 0.03
 #align = left
 tip = Forget changes and return to Camera Controls menu.
-onselect = LoadControls CameraViewControls
+onselect = LoadControls gui.page:CameraViewControls
 onmoveup = widget-06b
 onmovedown = widget-08b
 onfocus = widget-07b.sat:0.56
@@ -500,7 +500,7 @@ text = OK
 fontsize = 0.03
 #align = left
 tip = Save changes and return to Camera Controls menu.
-onselect = SaveControls CameraViewControls
+onselect = SaveControls gui.page:CameraViewControls
 onmoveup = widget-07b
 onmovedown = widget-01b
 onfocus = widget-08b.sat:0.56

@@ -1,5 +1,5 @@
 name = InputDevice
-oncancel = gui.options.load ControlsOptions
+oncancel = gui.options.load gui.page:ControlsOptions
 
 
 [ bg-top ]

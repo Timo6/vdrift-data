@@ -1,5 +1,5 @@
 name = UpdateSuccessful
-oncancel = Updates
+oncancel = gui.page:Updates
 
 
 [ bg-top ]
@@ -48,7 +48,7 @@ text = Back
 fontsize = 0.035
 align = left
 tip = Go back to the Updates page.
-onselect = Updates
+onselect = gui.page:Updates
 onfocus = widget-02b.sat:0.56
 onblur = widget-02b.sat:0.0
 focus = true

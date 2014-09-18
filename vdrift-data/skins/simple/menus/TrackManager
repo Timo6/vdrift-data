@@ -1,5 +1,5 @@
 name = TrackManager
-oncancel = Updates
+oncancel = gui.page:Updates
 
 
 [ bg-top ]
@@ -196,7 +196,7 @@ text = Back
 fontsize = 0.03
 #align = left
 tip = Return to the Updates page.
-onselect = Updates
+onselect = gui.page:Updates
 onmoveup = widget-03b
 onmovedown = widget-01b
 onfocus = widget-04b.sat:0.56
