@@ -1,5 +1,5 @@
 name = QuitConfirm
-oncancel = Main
+oncancel = gui.page:Main
 
 
 [ bg-top ]
@@ -47,7 +47,7 @@ height = 0.06
 text = No
 fontsize = 0.035
 align = left
-onselect = Main
+onselect = gui.page:Main
 onmoveup = widget-02
 onmovedown = widget-02
 onfocus = widget-01.sat:0.56

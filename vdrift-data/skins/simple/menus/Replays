@@ -1,5 +1,5 @@
 name = Replays
-oncancel = gui.options.save Main
+oncancel = gui.options.save gui.page:Main
 
 
 [ bg-top ]
@@ -157,7 +157,7 @@ text = Back
 fontsize = 0.03
 #align = left
 tip = Return to the Main menu.
-onselect = Main
+onselect = gui.page:Main
 onmoveup = widget-02
 onmovedown = widget-01b
 onfocus = widget-03.sat:0.56

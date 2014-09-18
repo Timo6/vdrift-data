@@ -1,5 +1,5 @@
 name = ToolsControls
-oncancel = LoadControls ControlsOptions
+oncancel = LoadControls gui.page:ControlsOptions
 
 
 [ bg-top ]
@@ -338,7 +338,7 @@ text = Cancel
 fontsize = 0.03
 #align = left
 tip = Forget changes and return to Game Controls menu.
-onselect = LoadControls ControlsOptions
+onselect = LoadControls gui.page:ControlsOptions
 onmoveup = widget-04b
 onmovedown = widget-06b
 onfocus = widget-05b.sat:0.56
@@ -366,7 +366,7 @@ text = OK
 fontsize = 0.03
 #align = left
 tip = Save changes and return to Game Controls menu.
-onselect = SaveControls ControlsOptions
+onselect = SaveControls gui.page:ControlsOptions
 onmoveup = widget-05b
 onmovedown = widget-01b
 onfocus = widget-06b.sat:0.56

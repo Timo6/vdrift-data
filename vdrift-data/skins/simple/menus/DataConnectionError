@@ -1,5 +1,5 @@
 name = DataConnectionError
-oncancel = Main
+oncancel = gui.page:Main
 
 
 [ bg-top ]
@@ -48,7 +48,7 @@ text = Back
 fontsize = 0.035
 align = left
 tip = Go back to the main menu.
-onselect = Main
+onselect = gui.page:Main
 onfocus = widget-02b.sat:0.56
 onblur = widget-02b.sat:0.0
 focus = true

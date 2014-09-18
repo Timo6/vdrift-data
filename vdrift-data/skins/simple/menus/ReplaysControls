@@ -1,5 +1,5 @@
 name = ReplaysControls
-oncancel = LoadControls ControlsOptions
+oncancel = LoadControls gui.page:ControlsOptions
 
 
 [ bg-top ]
@@ -204,7 +204,7 @@ text = Cancel
 fontsize = 0.03
 #align = left
 tip = Forget changes and return to Game Controls menu.
-onselect = LoadControls ControlsOptions
+onselect = LoadControls gui.page:ControlsOptions
 onmoveup = widget-02b
 onmovedown = widget-04b
 onfocus = widget-03b.sat:0.56
@@ -232,7 +232,7 @@ text = OK
 fontsize = 0.03
 #align = left
 tip = Save changes and return to Game Controls menu.
-onselect = SaveControls ControlsOptions
+onselect = SaveControls gui.page:ControlsOptions
 onmoveup = widget-03b
 onmovedown = widget-01b
 onfocus = widget-04b.sat:0.56

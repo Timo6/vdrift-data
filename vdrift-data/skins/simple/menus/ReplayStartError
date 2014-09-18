@@ -1,5 +1,5 @@
 name = ReplayStartError
-oncancel = Replays
+oncancel = gui.page:Replays
 
 
 [ bg-top ]
@@ -48,7 +48,7 @@ text = Back
 fontsize = 0.035
 align = left
 tip = Go back to the Replays menu.
-onselect = Replays
+onselect = gui.page:Replays
 focus = true
 left = 0.31
 width = 0.24

@@ -1,5 +1,5 @@
 name = Updates
-oncancel = Main
+oncancel = gui.page:Main
 
 
 [ bg-top ]

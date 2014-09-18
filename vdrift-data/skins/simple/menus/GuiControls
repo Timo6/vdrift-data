@@ -1,5 +1,5 @@
 name = GuiControls
-oncancel = LoadControls ControlsOptions
+oncancel = LoadControls gui.page:ControlsOptions
 
 
 [ bg-top ]

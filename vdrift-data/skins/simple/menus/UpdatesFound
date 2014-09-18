@@ -1,5 +1,5 @@
 name = UpdatesFound
-oncancel = Updates
+oncancel = gui.page:Updates
 
 
 [ bg-top ]
@@ -132,7 +132,7 @@ text = Back
 fontsize = 0.035
 align = left
 tip = Return to the Updates menu.
-onselect = Updates
+onselect = gui.page:Updates
 onfocus = widget-04b.sat:0.56
 onblur = widget-04b.sat:0.0
 focus = false

@@ -1,5 +1,5 @@
 name = ControlsOptions
-oncancel = Options
+oncancel = gui.page:Options
 
 
 [ bg-top ]
@@ -216,7 +216,7 @@ text = Back
 fontsize = 0.035
 align = left
 tip = Return to Options menu.
-onselect = Options
+onselect = gui.page:Options
 onmoveup = widget-12b
 onmovedown = widget-01b
 onfocus = widget-13b.sat:0.56

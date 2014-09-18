@@ -1,5 +1,5 @@
 name = Tracks
-oncancel = SingleRace
+oncancel = gui.page:SingleRace
 
 
 [ bg-top ]
@@ -105,7 +105,7 @@ col-width = 0.20
 padding-lr = 0.01
 padding-top = 0.01
 padding-bottom = 0.01
-onselect = game.track.nth SingleRace
+onselect = game.track.nth gui.page:SingleRace
 onscrollf = list-txt.scroll:fwd list-img.scroll:fwd
 onscrollr = list-txt.scroll:rev list-img.scroll:rev
 onfocus = list-txt.sat:0.56
