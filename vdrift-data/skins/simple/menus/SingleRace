@@ -40,7 +40,7 @@ opacity = 0.5
 left = 0.008
 width = 0.29
 top = 0.181
-height = 0.358
+height = 0.318
 layer = -1
 
 
@@ -51,7 +51,7 @@ opacity = 0.5
 left = 0.30
 width = 0.30
 top = 0.181
-height = 0.358
+height = 0.318
 layer = -1
 
 
@@ -270,7 +270,7 @@ onselect = game.record.prev
 onmoveleft = game.record.prev
 onmoveright = game.record.next
 onmoveup = widget-04b
-onmovedown = widget-05b
+onmovedown = widget-06b
 onfocus = record-prev.opacity:0 record-next.opacity:0 record-opt.sat:0.56
 onblur = record-prev.opacity:1 record-next.opacity:1 record-opt.sat:0.0
 focus = false
@@ -290,7 +290,7 @@ onselect = game.record.next
 onmoveleft = game.record.prev
 onmoveright = game.record.next
 onmoveup = widget-04c
-onmovedown = widget-05c
+onmovedown = widget-06c
 onfocus = record-prev.opacity:0 record-next.opacity:0 record-opt.sat:0.56
 onblur = record-prev.opacity:1 record-next.opacity:1 record-opt.sat:0.0
 focus = false
@@ -311,65 +311,6 @@ top = 0.30
 height = 0.04
 
 
-[ widget-05a ]
-text = Track Damage
-fontsize = 0.03
-align = right
-left = 0.01
-width = 0.28
-top = 0.34
-height = 0.04
-
-[ widget-05b ]
-text = <
-fontsize = 0.03
-align = left
-tip = Enable track objects damage.
-onselect = game.track_dynamic.prev
-onmoveleft = game.track_dynamic.prev
-onmoveright = game.track_dynamic.next
-onmoveup = record-prev
-onmovedown = widget-06b
-onfocus = widget-05b.opacity:0 widget-05c.opacity:0 widget-05d.sat:0.56
-onblur = widget-05b.opacity:1 widget-05c.opacity:1 widget-05d.sat:0.0
-focus = false
-color = 0.439, 0.796, 1.00
-opacity = 1.0
-left = 0.31
-width = 0.14
-top = 0.34
-height = 0.04
-
-[ widget-05c ]
-text = >
-fontsize = 0.03
-align = right
-tip = Enable track objects damage.
-onselect = game.track_dynamic.next
-onmoveleft = game.track_dynamic.prev
-onmoveright = game.track_dynamic.next
-onmoveup = record-next
-onmovedown = widget-06c
-onfocus = widget-05b.opacity:0 widget-05c.opacity:0 widget-05d.sat:0.56
-onblur = widget-05b.opacity:1 widget-05c.opacity:1 widget-05d.sat:0.0
-focus = false
-color = 0.439, 0.796, 1.00
-opacity = 1.0
-left = 0.45
-width = 0.14
-top = 0.34
-height = 0.04
-
-[ widget-05d ]
-text = game.track_dynamic.str
-fontsize = 0.03
-hue = 0.56
-left = 0.31
-width = 0.28
-top = 0.34
-height = 0.04
-
-
 [ widget-06a ]
 text = Opponents
 fontsize = 0.03
@@ -387,7 +328,7 @@ tip = Set number of opponents. Zero to run a practice session.
 onselect = game.cars_num.prev
 onmoveleft = game.cars_num.prev
 onmoveright = game.cars_num.next
-onmoveup = widget-05b
+onmoveup = record-prev
 onmovedown =  ailevel-val
 onfocus = widget-06b.opacity:0 widget-06c.opacity:0 widget-06d.sat:0.56
 onblur = widget-06b.opacity:1 widget-06c.opacity:1 widget-06d.sat:0.0
@@ -407,7 +348,7 @@ tip = Set number of opponents. Zero to run a practice session.
 onselect = game.cars_num.next
 onmoveleft = game.cars_num.prev
 onmoveright = game.cars_num.next
-onmoveup = widget-05b
+onmoveup = record-next
 onmovedown = ailevel-val
 onfocus = widget-06b.opacity:0 widget-06c.opacity:0 widget-06d.sat:0.56
 onblur = widget-06b.opacity:1 widget-06c.opacity:1 widget-06d.sat:0.0
@@ -445,8 +386,8 @@ tip = Higher values result in an AI that will drive faster.
 onselectx = game.ai_level.norm
 onmoveleft = game.ai_level.prev
 onmoveright = game.ai_level.next
-onmoveup = driver-prv
-onmovedown = widget-15b
+onmoveup = widget-06b
+onmovedown = grid-btn
 onfocus = ailevel-bar.opacity:0 ailevel-bg.opacity:0 ailevel-val.sat:0.56
 onblur = ailevel-bar.opacity:1 ailevel-bg.opacity:1 ailevel-val.sat:0.0
 focus = false
@@ -476,72 +417,13 @@ top = 0.466
 height = 0.028
 
 
-[ widget-15a ]
-text = Car Damage
-fontsize = 0.03
-align = right
-left = 0.01
-width = 0.28
-top = 0.50
-height = 0.04
-
-[ widget-15b ]
-text = <
-fontsize = 0.03
-align = left
-tip = Enable car damage model.
-onselect = game.vehicle_damage.prev
-onmoveleft = game.vehicle_damage.prev
-onmoveright = game.vehicle_damage.next
-onmoveup = ailevel-val
-onmovedown = grid-btn
-onfocus = widget-15b.opacity:0 widget-15c.opacity:0 widget-15d.sat:0.56
-onblur = widget-15b.opacity:1 widget-15c.opacity:1 widget-15d.sat:0.0
-focus = false
-color = 0.439, 0.796, 1.00
-opacity = 1.0
-left = 0.31
-width = 0.14
-top = 0.50
-height = 0.04
-
-[ widget-15c ]
-text = >
-fontsize = 0.03
-align = right
-tip = Enable car damage model.
-onselect = game.vehicle_damage.next
-onmoveleft = game.vehicle_damage.prev
-onmoveright = game.vehicle_damage.next
-onmoveup = widget-07b
-onmovedown = grid-btn
-onfocus = widget-15b.opacity:0 widget-15c.opacity:0 widget-15d.sat:0.56
-onblur = widget-15b.opacity:1 widget-15c.opacity:1 widget-15d.sat:0.0
-focus = false
-color = 0.439, 0.796, 1.00
-opacity = 1.0
-left = 0.45
-width = 0.14
-top = 0.50
-height = 0.04
-
-[ widget-15d ]
-text = game.vehicle_damage.str
-fontsize = 0.03
-hue = 0.56
-left = 0.31
-width = 0.28
-top = 0.50
-height = 0.04
-
-
 [ grid-btn ]
 text = Starting Grid
 fontsize = 0.03
 #align = left
 tip = Edit cars, drivers and starting positions.
 onselect = gui.options.save gui.page:StartingGrid
-onmoveup = widget-15b
+onmoveup = ailevel-val
 onmovedown = widget-16b
 onfocus = grid-btn.sat:0.56
 onblur = grid-btn.sat:0.0
@@ -549,7 +431,7 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.29
-top = 0.54
+top = 0.50
 height = 0.04
 
 [ grid-bg ]
@@ -558,7 +440,7 @@ color = 0.172, 0.161, 0.169
 opacity = 0.5
 left = 0.30
 width = 0.30
-top = 0.541
+top = 0.501
 height = 0.038
 layer = -1
 
@@ -577,7 +459,7 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.29
-top = 0.58
+top = 0.54
 height = 0.04
 
 [ widget-16e ]
@@ -586,7 +468,7 @@ color = 0.172, 0.161, 0.169
 opacity = 0.5
 left = 0.30
 width = 0.30
-top = 0.581
+top = 0.541
 height = 0.038
 layer = -1
 
@@ -605,7 +487,7 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.29
-top = 0.62
+top = 0.58
 height = 0.04
 
 [ widget-17e ]
@@ -614,6 +496,6 @@ color = 0.172, 0.161, 0.169
 opacity = 0.5
 left = 0.30
 width = 0.30
-top = 0.621
+top = 0.581
 height = 0.038
 layer = -1
