@@ -2,13 +2,15 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Translators:
+# sefox <core13@gmx.net>, 2014
+# Ettore Atalan <atalanttore@googlemail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: VDrift\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-10 13:09+0100\n"
-"PO-Revision-Date: 2014-08-11 17:26+0000\n"
-"Last-Translator: sefox <core13@gmx.net>\n"
+"POT-Creation-Date: 2014-08-21 15:30+0100\n"
+"PO-Revision-Date: 2014-08-21 18:03+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/vdrift/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,9 +31,9 @@ msgstr "16bpp"
 msgid "1st"
 msgstr "1."
 
-#: ../settings/options.config:740
+#: ../settings/options.config:748
 msgid "24-bit"
-msgstr "24-bit"
+msgstr "24 Bit"
 
 #: ../skins/simple/menus/TransmissionControls:404
 msgid "2nd"
@@ -77,7 +79,7 @@ msgstr "Farbtiefe ändern."
 
 #: ../skins/simple/menus/CarManager:101
 msgid "Advance to the next car."
-msgstr "Nächstes Auto anzeigen."
+msgstr "Nächstes Fahrzeug anzeigen."
 
 #: ../skins/simple/menus/TrackManager:101
 msgid "Advance to the next track."
@@ -93,7 +95,7 @@ msgstr "Analoge Kupplung"
 
 #: ../skins/simple/menus/DisplayOptionsAdvanced:256
 msgid "Anisotropic Filtering"
-msgstr "Anisotropischer Filter"
+msgstr "Anisotrope Filterung"
 
 #: ../skins/simple/menus/DisplayOptionsAdvanced:315
 msgid "Antialiasing"
@@ -105,11 +107,11 @@ msgstr "Antiblockiersystem"
 
 #: ../skins/simple/menus/QuitConfirm:37
 msgid "Are you sure you want to quit?"
-msgstr "VDrift wirklich beenden?"
+msgstr "Sind Sie sicher, dass Sie beenden wollen?"
 
 #: ../skins/simple/menus/ControlsOptions:134
 msgid "Assign inputs to actions related to replays."
-msgstr "Tasten für die Replays betreffende Aktionen zuweisen."
+msgstr "Tasten für die Wiederholungen betreffende Aktionen zuweisen."
 
 #: ../skins/simple/menus/CarControls:742
 msgid "Assign inputs to actions related to the transmission."
@@ -117,7 +119,7 @@ msgstr "Tasten für die Schaltung betreffende Aktionen zuweisen."
 
 #: ../skins/simple/menus/ControlsOptions:78
 msgid "Assign inputs to actions that affect the car."
-msgstr "Tasten für das Auto betreffende Aktionen zuweisen."
+msgstr "Tasten für das Fahrzeug betreffende Aktionen zuweisen."
 
 #: ../skins/simple/menus/ControlsOptions:50
 msgid "Assign inputs to actions that affect the game."
@@ -184,11 +186,11 @@ msgstr "Helligkeit"
 
 #: ../skins/simple/menus/Updates:106 ../skins/simple/menus/UpdatesFound:89
 msgid "Browse cars and apply updates"
-msgstr "Fahrzeuge aktualisieren."
+msgstr "Fahrzeuge durchsuchen und Aktualisierungen übernehmen"
 
 #: ../skins/simple/menus/Updates:78 ../skins/simple/menus/UpdatesFound:47
 msgid "Browse tracks and apply updates"
-msgstr "Strecken aktualisieren."
+msgstr "Strecken durchsuchen und Aktualisierungen übernehmen"
 
 #: ../skins/simple/menus/InputDevice:340
 msgid "Button Control Delay"
@@ -198,18 +200,18 @@ msgstr "Tastenempfindlichkeit"
 msgid "Camera"
 msgstr "Kamera"
 
-#: ../skins/simple/menus/DisplayOptions:729
+#: ../skins/simple/menus/DisplayOptions:788
 msgid "Camera Bounce"
 msgstr "Kamerawackeln"
 
 #: ../skins/simple/menus/CameraViewControls:739
 msgid "Camera Movement"
-msgstr "Bewegung der Kamera"
+msgstr "Kamerabewegung"
 
 #: ../skins/simple/menus/CameraMovementControls:471
 #: ../skins/simple/menus/CameraViewControls:767
 #: ../skins/simple/menus/CarControls:767
-#: ../skins/simple/menus/DisplayOptions:823
+#: ../skins/simple/menus/DisplayOptions:882
 #: ../skins/simple/menus/DisplayOptionsAdvanced:965
 #: ../skins/simple/menus/EditAnalogControl:254
 #: ../skins/simple/menus/EditButtonControl:234
@@ -225,7 +227,7 @@ msgstr "Abbrechen"
 #: ../skins/simple/menus/CarManager:69 ../skins/simple/menus/CarSetup:234
 #: ../skins/simple/menus/ControlsOptions:75 ../skins/simple/menus/Garage:234
 msgid "Car"
-msgstr "Auto"
+msgstr "Fahrzeug"
 
 #: ../skins/simple/menus/SingleRace:480
 msgid "Car Damage"
@@ -233,20 +235,20 @@ msgstr "Fahrzeugschaden"
 
 #: ../skins/simple/menus/CarManager:119
 msgid "Car Name"
-msgstr "Auto"
+msgstr "Fahrzeugname"
 
 #: ../skins/simple/menus/UpdatesFound:100
 msgid "Car updates"
-msgstr "Autos"
+msgstr "Fahrzeugaktualisierungen"
 
 #: ../skins/simple/menus/Updates:103
 msgid "Cars"
-msgstr "Autos"
+msgstr "Fahrzeuge"
 
 #: ../skins/simple/menus/CarSetup:81 ../skins/simple/menus/CarSetup:101
 #: ../skins/simple/menus/Garage:81 ../skins/simple/menus/Garage:101
 msgid "Change car start position."
-msgstr "Ändere Startposition."
+msgstr "Fahrzeug-Startposition ändern."
 
 #: ../skins/simple/menus/Options:78
 msgid "Change graphics settings."
@@ -262,71 +264,71 @@ msgstr "Einstellungen ändern während ein Rennen läuft."
 
 #: ../skins/simple/menus/Options:106
 msgid "Change sound settings."
-msgstr "Audioeinstellungen ändern."
+msgstr "Die Audioeinstellungen ändern."
 
 #: ../skins/simple/menus/DisplayOptionsAdvanced:681
 #: ../skins/simple/menus/DisplayOptionsAdvanced:701
 msgid "Change the amount of particles used for smoke and dust effects."
-msgstr "Ändere die für Qualm- und Staubeffekte verwendete Partikelmenge."
+msgstr "Die für Qualm- und Staubeffekte verwendete Partikelmenge ändern."
 
-#: ../skins/simple/menus/DisplayOptions:787
+#: ../skins/simple/menus/DisplayOptions:846
 msgid "Change the contrast of the display."
-msgstr "Ändere Bildkontrast."
+msgstr "Den Bildschirmkontrast ändern."
 
 #: ../skins/simple/menus/DisplayOptions:91
 #: ../skins/simple/menus/DisplayOptions:112
 msgid "Change the game resolution."
-msgstr "Ändere Auflösung."
-
-#: ../skins/simple/menus/DisplayOptions:387
-#: ../skins/simple/menus/DisplayOptions:407
-msgid "Change the graphics and layout of the VDrift menus."
-msgstr "Ändere Menügrafik und Layout."
+msgstr "Die Spielauflösung ändern."
 
 #: ../skins/simple/menus/DisplayOptions:446
 #: ../skins/simple/menus/DisplayOptions:466
+msgid "Change the graphics and layout of the VDrift menus."
+msgstr "Die Grafik und Anordnung der VDrift-Menüs ändern."
+
+#: ../skins/simple/menus/DisplayOptions:505
+#: ../skins/simple/menus/DisplayOptions:525
 msgid "Change the language of the VDrift menus."
-msgstr "Ändere Sprache."
+msgstr "Die Sprache der VDrift-Menüs ändern."
 
 #: ../skins/simple/menus/DisplayOptionsAdvanced:209
 #: ../skins/simple/menus/DisplayOptionsAdvanced:229
 msgid "Change the maximum view distance."
-msgstr "Ändere maximale Sichtweite."
+msgstr "Die maximale Sichtweite ändern."
 
 #: ../skins/simple/menus/SoundOptions:81
 #: ../skins/simple/menus/SoundOptions:101
 msgid "Change the number of sound sources in the game."
-msgstr "Ändere die maximale Anzahl an Geräuschquellen."
+msgstr "Die maximale Anzahl an Geräuschquellen ändern."
 
 #: ../skins/simple/menus/DisplayOptionsAdvanced:150
 #: ../skins/simple/menus/DisplayOptionsAdvanced:170
 msgid "Change the size of the textures displayed."
-msgstr "Ändere maximale Texturgröße."
+msgstr "Die Größe der angezeigten Texturen ändern."
 
-#: ../skins/simple/menus/DisplayOptions:740
+#: ../skins/simple/menus/DisplayOptions:799
 msgid "Change the strength of the camera bounce effect."
-msgstr "Ändere die Stärke des Kamera-Erschütterungseffekts."
+msgstr "Die Stärke des Kamera-Erschütterungseffekts ändern."
 
 #: ../skins/simple/menus/InputDevice:81 ../skins/simple/menus/InputDevice:101
 msgid "Change the type of joystick device."
-msgstr "Eingabegerät ändern."
+msgstr "Die Art des Eingabegeräts ändern."
 
-#: ../skins/simple/menus/DisplayOptions:210
-#: ../skins/simple/menus/DisplayOptions:230
+#: ../skins/simple/menus/DisplayOptions:269
+#: ../skins/simple/menus/DisplayOptions:289
 msgid "Change the units that speed is displayed in between MPH and KPH."
-msgstr "Tacho umstellen auf mph oder kmh."
+msgstr "Die angezeigten Geschwindigkeitseinheiten zwischen KM/H und MPH ändern."
 
 #: ../skins/simple/menus/SoundOptions:186
 msgid "Change the volume of the music in the game."
-msgstr "Ändere Musiklautstärke."
+msgstr "Die Musiklautstärke im Spiel ändern."
 
 #: ../skins/simple/menus/SoundOptions:139
 msgid "Change the volume of the sound effects in the game."
-msgstr "Ändere Geräuschlautstärke."
+msgstr "Die Effektlautstärke im Spiel ändern."
 
 #: ../skins/simple/menus/Options:50
 msgid "Change video and display settings."
-msgstr "Bild-Einstellungen ändern."
+msgstr "Video- und Anzeige-Einstellungen ändern."
 
 #: ../skins/simple/menus/CameraViewControls:404
 msgid "Chase Loose"
@@ -338,49 +340,49 @@ msgstr "Feste Verfolgerkamera"
 
 #: ../skins/simple/menus/Updates:50
 msgid "Check for updates to your existing cars and tracks"
-msgstr "Fahrzeuge und Strecken auf Aktualisierungen prüfen."
+msgstr "Nach Aktualisierungen für Fahrzeuge und Strecken suchen"
 
 #: ../skins/simple/menus/Updates:47
 msgid "Check updates"
-msgstr "Aktualisieren"
+msgstr "Nach Aktualisierungen suchen"
 
 #: ../skins/simple/menus/CarSetup:561 ../skins/simple/menus/Garage:561
 msgid "Choose the brightness for the car."
-msgstr "Ändere Farbhelligkeit."
+msgstr "Die Fahrzeughelligkeit ändern."
 
 #: ../skins/simple/menus/CarSetup:305 ../skins/simple/menus/CarSetup:325
 #: ../skins/simple/menus/Garage:305 ../skins/simple/menus/Garage:325
 msgid "Choose the car tire type."
-msgstr "Wähle Reifen."
+msgstr "Wählen Sie den Reifentyp."
 
 #: ../skins/simple/menus/Cars:98 ../skins/simple/menus/CarSetup:246
 #: ../skins/simple/menus/CarSetup:266 ../skins/simple/menus/Garage:246
 #: ../skins/simple/menus/Garage:266
 msgid "Choose the car to drive."
-msgstr "Wähle Auto."
+msgstr "Wählen Sie das Fahrzeug."
 
 #: ../skins/simple/menus/CarSetup:364 ../skins/simple/menus/CarSetup:384
 #: ../skins/simple/menus/Garage:364 ../skins/simple/menus/Garage:384
 msgid "Choose the car wheel type."
-msgstr "Wähle Felge."
+msgstr "Wählen Sie die Felge."
 
 #: ../skins/simple/menus/CarSetup:480 ../skins/simple/menus/Garage:480
 msgid "Choose the hue for the car."
-msgstr "Ändere Farbton."
+msgstr "Wählen Sie den Farbton des Fahrzeugs."
 
 #: ../skins/simple/menus/CarSetup:423 ../skins/simple/menus/CarSetup:443
 #: ../skins/simple/menus/Garage:423 ../skins/simple/menus/Garage:443
 msgid "Choose the paint job for the car."
-msgstr "Wähle Autolakierung."
+msgstr "Wählen Sie eine Fahrzeuglackierung."
 
 #: ../skins/simple/menus/CarSetup:515 ../skins/simple/menus/Garage:515
 msgid "Choose the saturation for the car."
-msgstr "Ändere Farbsättigung."
+msgstr "Wählen Sie die Fahrzeugsättigung."
 
 #: ../skins/simple/menus/SingleRace:91 ../skins/simple/menus/SingleRace:111
 #: ../skins/simple/menus/Tracks:98
 msgid "Choose the track to drive on."
-msgstr "Wähle Strecke."
+msgstr "Wählen Sie die zu fahrende Strecke."
 
 #: ../skins/simple/menus/DisplayOptionsAdvanced:79
 msgid "Color Depth"
@@ -398,7 +400,7 @@ msgstr "Maus auf das Anwendungsfenster beschränken und währed der Rennen ausbl
 msgid "Continue"
 msgstr "Fortsetzen"
 
-#: ../skins/simple/menus/DisplayOptions:776
+#: ../skins/simple/menus/DisplayOptions:835
 msgid "Contrast"
 msgstr "Kontrast"
 
@@ -415,7 +417,7 @@ msgstr "Eingabe"
 msgid "Deadzone"
 msgstr "Totzone"
 
-#: ../settings/options.config:209
+#: ../settings/options.config:217
 msgid "Default"
 msgstr "Standard"
 
@@ -436,19 +438,19 @@ msgstr "Diese Steuerung löschen."
 msgid "Display"
 msgstr "Bild"
 
-#: ../skins/simple/menus/DisplayOptions:564
-#: ../skins/simple/menus/DisplayOptions:584
+#: ../skins/simple/menus/DisplayOptions:623
+#: ../skins/simple/menus/DisplayOptions:643
 msgid "Display a track map."
 msgstr "Streckenkarte anzeigen."
 
-#: ../skins/simple/menus/DisplayOptions:623
-#: ../skins/simple/menus/DisplayOptions:643
+#: ../skins/simple/menus/DisplayOptions:682
+#: ../skins/simple/menus/DisplayOptions:702
 msgid "Display the racing line."
 msgstr "Ideallinie anzeigen."
 
 #: ../skins/simple/menus/GuiControls:404
 msgid "Down"
-msgstr "Runter"
+msgstr "Herunter"
 
 #: ../skins/simple/menus/CarManager:167 ../skins/simple/menus/TrackManager:167
 msgid "Download"
@@ -489,13 +491,13 @@ msgstr "Aktiviere automatische Kupplung."
 msgid "Enable/disable automatic transmission shifting."
 msgstr "Aktiviere Schaltautomatik."
 
-#: ../skins/simple/menus/DisplayOptions:269
-#: ../skins/simple/menus/DisplayOptions:289
+#: ../skins/simple/menus/DisplayOptions:328
+#: ../skins/simple/menus/DisplayOptions:348
 msgid "Enable/disable the framerate counter."
 msgstr "Aktiviere FPS-Zähler Anzeige."
 
-#: ../skins/simple/menus/DisplayOptions:328
-#: ../skins/simple/menus/DisplayOptions:348
+#: ../skins/simple/menus/DisplayOptions:387
+#: ../skins/simple/menus/DisplayOptions:407
 msgid "Enable/disable the heads up display."
 msgstr "Aktiviere Blickfeldanzeige."
 
@@ -503,11 +505,11 @@ msgstr "Aktiviere Blickfeldanzeige."
 msgid "Exponent"
 msgstr "Exponent"
 
-#: ../settings/options.config:438
+#: ../settings/options.config:446
 msgid "Extra-wide"
 msgstr "Extra-Weit"
 
-#: ../settings/options.config:477
+#: ../settings/options.config:485
 msgid "Far"
 msgstr "Weit"
 
@@ -516,16 +518,16 @@ msgstr "Weit"
 msgid "Fast moving objects blur slightly."
 msgstr "Sich schnell bewegende Objekte werden leicht unscharf dargestellt."
 
-#: ../settings/options.config:207
+#: ../settings/options.config:215
 msgid "Few"
 msgstr "Wenige"
 
-#: ../skins/simple/menus/DisplayOptions:670
+#: ../skins/simple/menus/DisplayOptions:729
 msgid "Field of View"
 msgstr "Sichtfeld"
 
-#: ../skins/simple/menus/DisplayOptions:682
-#: ../skins/simple/menus/DisplayOptions:702
+#: ../skins/simple/menus/DisplayOptions:741
+#: ../skins/simple/menus/DisplayOptions:761
 msgid "Field of view in the vertical direction."
 msgstr "Vertikaler Sichtfeldwinkel"
 
@@ -541,13 +543,13 @@ msgstr "Vorherigen anvisieren"
 #: ../skins/simple/menus/CameraViewControls:636
 #: ../skins/simple/menus/CameraViewControls:655
 msgid "Focus the camera on next car."
-msgstr "Die Kamera auf das nächste Auto ausrichten."
+msgstr "Die Kamera auf das nächste Fahrzeug ausrichten."
 
 #: ../skins/simple/menus/CameraViewControls:684
 #: ../skins/simple/menus/CameraViewControls:703
 #: ../skins/simple/menus/CameraViewControls:722
 msgid "Focus the camera on previous car."
-msgstr "Die Kamera auf das vorherige Auto ausrichten."
+msgstr "Die Kamera auf das vorherige Fahrzeug ausrichten."
 
 #: ../skins/simple/menus/InputDevice:246
 msgid "Force Feedback Gain"
@@ -576,7 +578,7 @@ msgstr "Änderungen verwerfen und zum Menü 'Eingabe' zurückkehren."
 msgid "Forget changes and return to Game Controls menu."
 msgstr "Änderungen verwerfen und zum Menü 'Eingabe' zurückkehren."
 
-#: ../skins/simple/menus/DisplayOptions:826
+#: ../skins/simple/menus/DisplayOptions:885
 #: ../skins/simple/menus/DisplayOptionsAdvanced:968
 #: ../skins/simple/menus/EditAnalogControl:257
 #: ../skins/simple/menus/SoundOptions:225
@@ -587,9 +589,9 @@ msgstr "Änderungen verwerfen und zum Menü 'Einstellungen' zurückkehren."
 msgid "Forget changes and return to the previous menu."
 msgstr "Änderungen verwerfen und zum vorherigen Menü zurückkehren."
 
-#: ../skins/simple/menus/DisplayOptions:257
+#: ../skins/simple/menus/DisplayOptions:316
 msgid "Framerate Counter"
-msgstr "FPS Anzeige"
+msgstr "Bildwiederholratenanzeige"
 
 #: ../skins/simple/menus/CameraViewControls:538
 msgid "Free"
@@ -629,7 +631,7 @@ msgstr "Zurück zum Menü 'Aktualisierung'."
 
 #: ../skins/simple/menus/CarManager:81
 msgid "Go back to the last car."
-msgstr "Zurück zum vorherigen Auto."
+msgstr "Zurück zum vorherigen Fahrzeug."
 
 #: ../skins/simple/menus/TrackManager:81
 msgid "Go back to the last track."
@@ -656,18 +658,18 @@ msgstr "H-Schaltung"
 msgid "Handbrake"
 msgstr "Handbremse"
 
-#: ../skins/simple/menus/DisplayOptions:316
+#: ../skins/simple/menus/DisplayOptions:375
 msgid "Heads Up Display"
 msgstr "Blickfeldanzeige"
 
 #: ../skins/simple/menus/CarSetup:600 ../skins/simple/menus/CarSetup:620
 #: ../skins/simple/menus/Garage:600 ../skins/simple/menus/Garage:620
 msgid "Help reduce wheel lockup on heavy braking (driver aid)."
-msgstr "Verhindere blockerende Räder bei hartem Bremsen."
+msgstr "Reduziere blockierende Räder bei hartem Bremsen (Fahrerhilfe)."
 
-#: ../settings/options.config:194 ../settings/options.config:281
-#: ../settings/options.config:451 ../settings/options.config:464
-#: ../settings/options.config:491
+#: ../settings/options.config:202 ../settings/options.config:289
+#: ../settings/options.config:459 ../settings/options.config:472
+#: ../settings/options.config:499
 msgid "High"
 msgstr "Hoch"
 
@@ -688,25 +690,25 @@ msgstr "Farbton"
 msgid "Input Device"
 msgstr "Eingabegerät"
 
-#: ../skins/simple/menus/DisplayOptions:493
+#: ../skins/simple/menus/DisplayOptions:552
 msgid "Input Graph"
 msgstr "Eingaben Anzeige"
 
-#: ../settings/options.config:264
+#: ../settings/options.config:272
 msgid "Joystick/Gamepad"
 msgstr "Joystick/Gamepad"
 
 #: ../../src/hud.cpp:115
 msgid "KPH"
-msgstr "KMH"
+msgstr "KM/H"
 
 #: ../skins/simple/menus/Main:162
 msgid "Keep your cars and tracks up to date"
-msgstr "Aktualisiere Autos und Strecken"
+msgstr "Fahrzeug und Strecken auf dem neuesten Stand halten"
 
 #: ../../src/hud.cpp:104
 msgid "Lap time:"
-msgstr "Laufende Runde:"
+msgstr "Rundenzeit:"
 
 #: ../../src/hud.cpp:108
 msgid "Lap:"
@@ -716,7 +718,7 @@ msgstr "Runde:"
 msgid "Laps"
 msgstr "Runden"
 
-#: ../settings/options.config:139
+#: ../settings/options.config:147
 msgid "Large"
 msgstr "Groß"
 
@@ -740,7 +742,7 @@ msgstr "Links"
 msgid ""
 "Limit steering range to 200 degrees, gives a realistic feel to limited range"
 " wheels."
-msgstr "Den Lenkeinschlag auf 200 Grad begrenzen."
+msgstr "Den Lenkeinschlag auf 200 Grad begrenzen, dies gibt ein realistisches Gefühl zum begrenzten Lenkeinschlag."
 
 #: ../skins/simple/menus/Loading:36
 msgid "Loading"
@@ -755,9 +757,9 @@ msgstr "Lokal"
 msgid "Look behind you during driving."
 msgstr "Nach hinten sehen."
 
-#: ../settings/options.config:190 ../settings/options.config:277
-#: ../settings/options.config:449 ../settings/options.config:462
-#: ../settings/options.config:487
+#: ../settings/options.config:198 ../settings/options.config:285
+#: ../settings/options.config:457 ../settings/options.config:470
+#: ../settings/options.config:495
 msgid "Low"
 msgstr "Niedrig"
 
@@ -772,21 +774,21 @@ msgstr "Niedrigere Renderer-Version erlaubt flüssigere Spielwiedergabe auf Kost
 msgid "MPH"
 msgstr "MPH"
 
-#: ../settings/options.config:211
+#: ../settings/options.config:219
 msgid "Many"
 msgstr "Viele"
 
-#: ../settings/options.config:137 ../settings/options.config:192
-#: ../settings/options.config:279 ../settings/options.config:475
-#: ../settings/options.config:489
+#: ../settings/options.config:145 ../settings/options.config:200
+#: ../settings/options.config:287 ../settings/options.config:483
+#: ../settings/options.config:497
 msgid "Medium"
 msgstr "Mittel"
 
-#: ../skins/simple/menus/DisplayOptions:434
+#: ../skins/simple/menus/DisplayOptions:493
 msgid "Menu Language"
-msgstr "Sprache"
+msgstr "Menüsprache"
 
-#: ../skins/simple/menus/DisplayOptions:375
+#: ../skins/simple/menus/DisplayOptions:434
 msgid "Menu Skin"
 msgstr "Menügrafik"
 
@@ -827,7 +829,7 @@ msgstr "Force Feedback Stärke-Multiplikator."
 msgid "Music Volume"
 msgstr "Musiklautstärke"
 
-#: ../settings/options.config:473
+#: ../settings/options.config:481
 msgid "Near"
 msgstr "Nah"
 
@@ -839,11 +841,11 @@ msgstr "Leerlauf"
 msgid "Next Camera"
 msgstr "Nächste Kamera"
 
-#: ../skins/simple/menus/QuitConfirm:47 ../settings/options.config:296
+#: ../skins/simple/menus/QuitConfirm:47 ../settings/options.config:304
 msgid "No"
 msgstr "Nein"
 
-#: ../settings/options.config:434
+#: ../settings/options.config:442
 msgid "Normal"
 msgstr "Normal"
 
@@ -854,7 +856,7 @@ msgstr "Normalmaps"
 #: ../skins/simple/menus/CameraMovementControls:499
 #: ../skins/simple/menus/CameraViewControls:795
 #: ../skins/simple/menus/CarControls:795
-#: ../skins/simple/menus/DisplayOptions:851
+#: ../skins/simple/menus/DisplayOptions:910
 #: ../skins/simple/menus/DisplayOptionsAdvanced:993
 #: ../skins/simple/menus/EditAnalogControl:282
 #: ../skins/simple/menus/EditButtonControl:262
@@ -866,39 +868,40 @@ msgstr "Normalmaps"
 msgid "OK"
 msgstr "OK"
 
-#: ../settings/options.config:127 ../settings/options.config:148
+#: ../settings/options.config:127 ../settings/options.config:135
 #: ../settings/options.config:156 ../settings/options.config:164
-#: ../settings/options.config:172 ../settings/options.config:205
-#: ../settings/options.config:256 ../settings/options.config:275
-#: ../settings/options.config:310 ../settings/options.config:318
-#: ../settings/options.config:344 ../settings/options.config:352
-#: ../settings/options.config:360 ../settings/options.config:374
-#: ../settings/options.config:382 ../settings/options.config:397
-#: ../settings/options.config:405 ../settings/options.config:426
-#: ../settings/options.config:447 ../settings/options.config:460
-#: ../settings/options.config:504 ../settings/options.config:633
+#: ../settings/options.config:172 ../settings/options.config:180
+#: ../settings/options.config:213 ../settings/options.config:264
+#: ../settings/options.config:283 ../settings/options.config:318
+#: ../settings/options.config:326 ../settings/options.config:352
+#: ../settings/options.config:360 ../settings/options.config:368
+#: ../settings/options.config:382 ../settings/options.config:390
+#: ../settings/options.config:405 ../settings/options.config:413
+#: ../settings/options.config:434 ../settings/options.config:455
+#: ../settings/options.config:468 ../settings/options.config:512
 #: ../settings/options.config:641 ../settings/options.config:649
-#: ../settings/options.config:666 ../settings/options.config:674
-#: ../settings/options.config:682 ../settings/options.config:703
-#: ../settings/options.config:711 ../settings/options.config:758
+#: ../settings/options.config:657 ../settings/options.config:674
+#: ../settings/options.config:682 ../settings/options.config:690
+#: ../settings/options.config:711 ../settings/options.config:719
+#: ../settings/options.config:766
 msgid "Off"
 msgstr "Aus"
 
-#: ../settings/options.config:126 ../settings/options.config:147
+#: ../settings/options.config:126 ../settings/options.config:134
 #: ../settings/options.config:155 ../settings/options.config:163
-#: ../settings/options.config:171 ../settings/options.config:255
-#: ../settings/options.config:309 ../settings/options.config:317
-#: ../settings/options.config:343 ../settings/options.config:351
-#: ../settings/options.config:359 ../settings/options.config:373
-#: ../settings/options.config:396 ../settings/options.config:404
-#: ../settings/options.config:425 ../settings/options.config:503
-#: ../settings/options.config:632 ../settings/options.config:640
-#: ../settings/options.config:648 ../settings/options.config:665
+#: ../settings/options.config:171 ../settings/options.config:179
+#: ../settings/options.config:263 ../settings/options.config:317
+#: ../settings/options.config:325 ../settings/options.config:351
+#: ../settings/options.config:359 ../settings/options.config:367
+#: ../settings/options.config:381 ../settings/options.config:404
+#: ../settings/options.config:412 ../settings/options.config:433
+#: ../settings/options.config:511 ../settings/options.config:640
+#: ../settings/options.config:648 ../settings/options.config:656
 #: ../settings/options.config:673 ../settings/options.config:681
-#: ../settings/options.config:702 ../settings/options.config:710
-#: ../settings/options.config:757
+#: ../settings/options.config:689 ../settings/options.config:710
+#: ../settings/options.config:718 ../settings/options.config:765
 msgid "On"
-msgstr "An"
+msgstr "Ein"
 
 #: ../skins/simple/menus/SingleRace:374
 msgid "Opponents"
@@ -979,19 +982,19 @@ msgstr "Lackierung"
 
 #: ../skins/simple/menus/CameraMovementControls:270
 msgid "Pan Down"
-msgstr "Schwenke nach unten"
+msgstr "Nach unten schwenken"
 
 #: ../skins/simple/menus/CameraMovementControls:69
 msgid "Pan Left"
-msgstr "Schwenke nach links"
+msgstr "Nach links schwenken"
 
 #: ../skins/simple/menus/CameraMovementControls:136
 msgid "Pan Right"
-msgstr "Schwenke nach rechts"
+msgstr "Nach rechts schwenken"
 
 #: ../skins/simple/menus/CameraMovementControls:203
 msgid "Pan Up"
-msgstr "Schwenke nach oben"
+msgstr "Nach oben schwenken"
 
 #: ../skins/simple/menus/DisplayOptionsAdvanced:669
 msgid "Particles"
@@ -1003,7 +1006,7 @@ msgstr "Pause"
 
 #: ../skins/simple/menus/InGameMain:37
 msgid "Pause Menu"
-msgstr "Pause Menü"
+msgstr "Pausenmenü"
 
 #: ../../src/hud.cpp:109
 msgid "Place:"
@@ -1015,7 +1018,7 @@ msgstr "Aufgezeichnete Rennen abpielen."
 
 #: ../skins/simple/menus/Main:50
 msgid "Player car and driver settings."
-msgstr "Fahrzeug und Fahrer-Einstellungen."
+msgstr "Fahrzeug- und Fahrereinstellungen."
 
 #: ../skins/simple/menus/AssignControl:37
 msgid ""
@@ -1046,7 +1049,7 @@ msgstr "Rennen"
 
 #: ../skins/simple/menus/Cars:37
 msgid "Race / Cars"
-msgstr "Rennen / Autos"
+msgstr "Rennen / Fahrzeuge"
 
 #: ../skins/simple/menus/StartingGrid:59
 msgid "Race / Starting Grid"
@@ -1054,7 +1057,7 @@ msgstr "Rennen / Startaufstellung"
 
 #: ../skins/simple/menus/CarSetup:59
 msgid "Race / Starting Grid / Car"
-msgstr "Rennen / Startaufstellung / Auto"
+msgstr "Rennen / Startaufstellung / Fahrzeug"
 
 #: ../skins/simple/menus/Tracks:37
 msgid "Race / Tracks"
@@ -1064,7 +1067,7 @@ msgstr "Rennen / Strecken"
 msgid "Race on this track backwards."
 msgstr "Strecke in Rückwärtsrichtung befahren."
 
-#: ../skins/simple/menus/DisplayOptions:611
+#: ../skins/simple/menus/DisplayOptions:670
 msgid "Racing Line"
 msgstr "Ideallinie"
 
@@ -1206,7 +1209,7 @@ msgstr "Änderungen speichern und zurück zum Menü 'Eingabe'."
 msgid "Save changes and return to Game Controls menu."
 msgstr "Änderungen speichern und zurück zum Menü 'Eingabe'."
 
-#: ../skins/simple/menus/DisplayOptions:854
+#: ../skins/simple/menus/DisplayOptions:913
 #: ../skins/simple/menus/DisplayOptionsAdvanced:996
 #: ../skins/simple/menus/EditAnalogControl:285
 #: ../skins/simple/menus/SoundOptions:253
@@ -1236,13 +1239,13 @@ msgstr "Verfügbare Aufzeichnungen"
 #: ../skins/simple/menus/CarSetup:140 ../skins/simple/menus/CarSetup:160
 #: ../skins/simple/menus/Garage:140 ../skins/simple/menus/Garage:160
 msgid "Select car driver."
-msgstr "Wähle Fahrer."
+msgstr "Wählen Sie einen Fahrer."
 
 #: ../skins/simple/menus/CameraViewControls:215
 #: ../skins/simple/menus/CameraViewControls:234
 #: ../skins/simple/menus/CameraViewControls:253
 msgid "Select car's hood camera."
-msgstr ""
+msgstr "Zur Motorhaubenkamera wechseln"
 
 #: ../skins/simple/menus/CameraViewControls:282
 #: ../skins/simple/menus/CameraViewControls:301
@@ -1289,48 +1292,48 @@ msgstr "Tasten zur Bewegung der Kamera zuweisen."
 #: ../skins/simple/menus/DisplayOptionsAdvanced:741
 #: ../skins/simple/menus/DisplayOptionsAdvanced:761
 msgid "Set how good the SSAO looks during gameplay."
-msgstr "Ändere die Qualität der Umgebungsschatten."
+msgstr "Die Qualität der Umgebungsschatten festlegen."
 
 #: ../skins/simple/menus/DisplayOptionsAdvanced:800
 #: ../skins/simple/menus/DisplayOptionsAdvanced:820
 msgid "Set how good the reflections looks during gameplay."
-msgstr "Ändere die Qualität der Reflektionen."
+msgstr "Die Qualität der Reflektionen festlegen."
 
 #: ../skins/simple/menus/SingleRace:386 ../skins/simple/menus/SingleRace:406
 msgid "Set number of opponents. Zero to run a practice session."
-msgstr "Setze Gegneranzahl. Um eine Testfahrt zu starten setze Gegnerzahl auf null. "
+msgstr "Die Anzahl der Gegner festlegen. Null Gegner, um eine Testfahrt zu starten."
 
 #: ../skins/simple/menus/DisplayOptionsAdvanced:268
 #: ../skins/simple/menus/DisplayOptionsAdvanced:288
 msgid "Set the anisotropic filtering level for textures."
-msgstr "Ändere den Level des Anisotropischen Texturfilters."
+msgstr "Das Level der Anisotropen Filterung für Texturen festlegen."
 
 #: ../skins/simple/menus/DisplayOptionsAdvanced:859
 #: ../skins/simple/menus/DisplayOptionsAdvanced:879
 msgid "Set the distance at which shadows become visible."
-msgstr "Ändere den Abstand ab dem Schatten sichtbar werden."
+msgstr "Den Abstand, ab dem Schatten sichtbar werden, festlegen."
 
 #: ../skins/simple/menus/DisplayOptionsAdvanced:327
 #: ../skins/simple/menus/DisplayOptionsAdvanced:347
 msgid "Set the full scene antialiasing level."
-msgstr "Ändere Kantenglättungsstärke."
+msgstr "Vollbild-Kantenglättungsstärke festlegen."
 
 #: ../skins/simple/menus/SingleRace:150 ../skins/simple/menus/SingleRace:170
 msgid "Set the number of laps for a single race."
-msgstr "Ändere Rundenanzahl für dieses Rennen."
+msgstr "Anzahl der Runden für ein einzelnes Rennen festlegen."
 
 #: ../skins/simple/menus/DisplayOptionsAdvanced:918
 #: ../skins/simple/menus/DisplayOptionsAdvanced:938
 msgid "Set the quality of shadow rendering."
-msgstr "Ändere die Qualität der Schattendarstellung."
+msgstr "Die Qualität der Schattendarstellung festlegen."
 
 #: ../skins/simple/menus/DisplayOptionsAdvanced:847
 msgid "Shadow Distance"
-msgstr "Schatten Sichtweite"
+msgstr "Schattensichtweite"
 
 #: ../skins/simple/menus/DisplayOptionsAdvanced:906
 msgid "Shadow Quality"
-msgstr "Schatten Qualität"
+msgstr "Schattenqualität"
 
 #: ../skins/simple/menus/DisplayOptionsAdvanced:374
 msgid "Shadows"
@@ -1338,7 +1341,7 @@ msgstr "Schatten"
 
 #: ../skins/simple/menus/TransmissionControls:203
 msgid "Shift Down"
-msgstr "Runterschalten"
+msgstr "Herunterschalten"
 
 #: ../skins/simple/menus/TransmissionControls:136
 msgid "Shift Up"
@@ -1360,7 +1363,7 @@ msgstr "Vorwärts springen"
 msgid "Slow down the application of button inputs on analogue controls."
 msgstr "Tastenempfindlichkeit (Dauer zum Erreichen des Maximalwerts) ändern."
 
-#: ../settings/options.config:135
+#: ../settings/options.config:143
 msgid "Small"
 msgstr "Klein"
 
@@ -1381,17 +1384,17 @@ msgstr "Audioquellen"
 msgid "Sounds Volume"
 msgstr "Geräuschlautstärke"
 
-#: ../skins/simple/menus/DisplayOptions:198
+#: ../skins/simple/menus/DisplayOptions:257
 msgid "Speed Units"
-msgstr "Tacho"
+msgstr "Geschwindigkeitseinheiten"
 
-#: ../settings/options.config:287
+#: ../settings/options.config:295
 msgid "Speed sensitive Hi"
-msgstr "Starker Effekt"
+msgstr "Starker Geschwindigkeitseffekt"
 
-#: ../settings/options.config:285
+#: ../settings/options.config:293
 msgid "Speed sensitive Lo"
-msgstr "Schwacher Effekt"
+msgstr "Schwacher Geschwindigkeitseffekt"
 
 #: ../skins/simple/menus/CarControls:337
 msgid "Start Engine"
@@ -1417,7 +1420,7 @@ msgstr "Rennen starten."
 
 #: ../skins/simple/menus/CarSetup:69 ../skins/simple/menus/Garage:69
 msgid "Start position"
-msgstr "Startaufstellung"
+msgstr "Startposition"
 
 #: ../skins/simple/menus/SingleRace:539
 msgid "Starting Grid"
@@ -1425,17 +1428,17 @@ msgstr "Startaufstellung"
 
 #: ../skins/simple/menus/CarControls:203
 msgid "Steer Left"
-msgstr "links lenken"
+msgstr "Links lenken"
 
 #: ../skins/simple/menus/CarControls:270
 msgid "Steer Right"
-msgstr "rechts lenken"
+msgstr "Rechts lenken"
 
 #: ../skins/simple/menus/InputDevice:293
 msgid "Steering Speed Effect"
 msgstr "Aktivlenkung"
 
-#: ../settings/options.config:266
+#: ../settings/options.config:274
 msgid "Steering Wheel"
 msgstr "Lenkrad"
 
@@ -1462,30 +1465,30 @@ msgstr "Der TCS-Schalter (de-)aktiviert während der Fahrt die Traktionskontroll
 #: ../skins/simple/menus/TransmissionControls:119
 msgid ""
 "The analog clutch control can allow you to use an external clutch pedal."
-msgstr "Die Analoge-Kupllung ermöglicht die Benutzung eines Pedals zum Kuppeln."
+msgstr "Die analoge Kupplung ermöglicht die Benutzung eines Pedals zum Kuppeln."
 
 #: ../skins/simple/menus/CarControls:148 ../skins/simple/menus/CarControls:167
 #: ../skins/simple/menus/CarControls:186
 msgid "The brake control causes the car to slow down."
-msgstr "Die Bremsen-Taste lässt das Auto langsamer werden"
+msgstr "Die Bremsen-Taste lässt das Fahrzeug langsamer werden"
 
 #: ../skins/simple/menus/TransmissionControls:617
 #: ../skins/simple/menus/TransmissionControls:636
 #: ../skins/simple/menus/TransmissionControls:655
 msgid "The fifth gear control shifts the car into fifth gear."
-msgstr "Die Taste '5. Gang' schaltet das Auto in den fünften Gang."
+msgstr "Die Taste '5. Gang' schaltet das Fahrzeug in den fünften Gang."
 
 #: ../skins/simple/menus/TransmissionControls:349
 #: ../skins/simple/menus/TransmissionControls:368
 #: ../skins/simple/menus/TransmissionControls:387
 msgid "The first gear control shifts the car into first gear."
-msgstr "Die Taste '1. Gang' schaltet das Auto in den niedrigsten Gang."
+msgstr "Die Taste '1. Gang' schaltet das Fahrzeug in den ersten Gang."
 
 #: ../skins/simple/menus/TransmissionControls:550
 #: ../skins/simple/menus/TransmissionControls:569
 #: ../skins/simple/menus/TransmissionControls:588
 msgid "The fourth gear control shifts the car into fourth gear."
-msgstr "Die Taste '4. Gang' schaltet das Auto in den 4. Gang."
+msgstr "Die Taste '4. Gang' schaltet das Fahrzeug in den vierten Gang."
 
 #: ../skins/simple/menus/CameraViewControls:550
 #: ../skins/simple/menus/CameraViewControls:569
@@ -1496,12 +1499,12 @@ msgstr "Die freie Kamera kann mittels der Pfeiltasten beliebig bewegt werden."
 #: ../skins/simple/menus/CarControls:81 ../skins/simple/menus/CarControls:100
 #: ../skins/simple/menus/CarControls:119
 msgid "The gas control causes the car to speed up."
-msgstr "Die Taste 'Gas' beschleunigt das Auto."
+msgstr "Die Taste 'Gas' beschleunigt das Fahrzeug."
 
 #: ../skins/simple/menus/CarControls:416 ../skins/simple/menus/CarControls:435
 #: ../skins/simple/menus/CarControls:454
 msgid "The handbrake brakes only on the back wheels."
-msgstr "Die Taste 'Handbremse' verzögert das Auto nur mit den Hinterrädern."
+msgstr "Die Taste 'Handbremse' verzögert das Fahrzeug nur mit den Hinterrädern."
 
 #: ../skins/simple/menus/InputDevice:304
 msgid ""
@@ -1519,7 +1522,7 @@ msgstr "Die Taste 'Leerlauf' entkoppelt Motor und Fahrwerk."
 #: ../skins/simple/menus/CameraViewControls:502
 #: ../skins/simple/menus/CameraViewControls:521
 msgid "The orbit camera swings around the car as the mouse moves."
-msgstr "Die Orbitkamera kann mit der Maus um das Auto geschwenkt werden."
+msgstr "Die Orbitkamera kann mit der Maus um das Fahrzeug geschwenkt werden."
 
 #: ../skins/simple/menus/ToolsControls:81
 #: ../skins/simple/menus/ToolsControls:100
@@ -1549,7 +1552,7 @@ msgstr "Die Taste '2. Gang' schaltet in den zweiten Gang."
 #: ../skins/simple/menus/TransmissionControls:234
 #: ../skins/simple/menus/TransmissionControls:253
 msgid "The shift down control changes the car's gear to the previous one."
-msgstr "Die Taste 'Runterschalten' schaltet einen Gang runter."
+msgstr "Die Taste 'Herunterschalten' schaltet einen Gang herunter."
 
 #: ../skins/simple/menus/TransmissionControls:148
 #: ../skins/simple/menus/TransmissionControls:167
@@ -1583,12 +1586,12 @@ msgstr "Die Taste 'Motor starten' startet den Motor, sollte er ein Mal ausgehen.
 #: ../skins/simple/menus/CarControls:215 ../skins/simple/menus/CarControls:234
 #: ../skins/simple/menus/CarControls:253
 msgid "The steer left control causes the car to turn left."
-msgstr "Die Taste 'links lenken' lässt das Auto links herum lenken."
+msgstr "Die Taste 'Links lenken' lässt das Fahrzeug links herum lenken."
 
 #: ../skins/simple/menus/CarControls:282 ../skins/simple/menus/CarControls:301
 #: ../skins/simple/menus/CarControls:320
 msgid "The steer right control causes the car to turn right."
-msgstr "Die Taste 'rechts lenken' lässt das Auto rechts herum lenken."
+msgstr "Die Taste 'Rechts lenken' lässt das Fahrzeug rechts herum lenken."
 
 #: ../skins/simple/menus/TransmissionControls:483
 #: ../skins/simple/menus/TransmissionControls:502
@@ -1613,6 +1616,11 @@ msgstr "Reifen"
 msgid "Toggle fullscreen mode on and off."
 msgstr "Vollbildmodus (de-)aktivieren."
 
+#: ../skins/simple/menus/DisplayOptions:210
+#: ../skins/simple/menus/DisplayOptions:230
+msgid "Toggle vertical synchronization on and off."
+msgstr "Umschalten zwischen vertikale Synchronisation ein und aus."
+
 #: ../skins/simple/menus/ControlsOptions:159
 msgid "Tools"
 msgstr "Werkzeuge"
@@ -1625,7 +1633,7 @@ msgstr "Strecke"
 msgid "Track Damage"
 msgstr "Streckenschaden"
 
-#: ../skins/simple/menus/DisplayOptions:552
+#: ../skins/simple/menus/DisplayOptions:611
 msgid "Track Map"
 msgstr "Streckenkarte"
 
@@ -1635,7 +1643,7 @@ msgstr "Streckenname"
 
 #: ../skins/simple/menus/UpdatesFound:58
 msgid "Track updates"
-msgstr "Strecken"
+msgstr "Streckenaktualisierungen"
 
 #: ../skins/simple/menus/Updates:75
 msgid "Tracks"
@@ -1652,11 +1660,11 @@ msgstr "Getriebe"
 #: ../skins/simple/menus/EditButtonControl:100
 #: ../skins/simple/menus/EditButtonControl:120
 msgid "Trigger the control when the key is pressed or released?"
-msgstr ""
+msgstr "Diese Aktion ausführen, wenn die Taste betätigt oder losgelassen wird?"
 
 #: ../skins/simple/menus/EditButtonControl:88
 msgid "Trigger when"
-msgstr ""
+msgstr "Auslösen, wenn"
 
 #: ../skins/simple/menus/CameraMovementControls:282
 #: ../skins/simple/menus/CameraMovementControls:301
@@ -1704,7 +1712,7 @@ msgstr "Aktualisierung"
 
 #: ../skins/simple/menus/CarManager:59
 msgid "Updates / Cars"
-msgstr "Aktualisierung / Autos"
+msgstr "Aktualisierung / Fahrzeuge"
 
 #: ../skins/simple/menus/TrackManager:59
 msgid "Updates / Tracks"
@@ -1719,11 +1727,15 @@ msgstr "Aktualisierung / Aktualisieren"
 msgid "Use normal maps."
 msgstr "Verwende Normalmapping."
 
-#: ../settings/options.config:196
+#: ../skins/simple/menus/DisplayOptions:198
+msgid "Vertical Sync"
+msgstr "Vertikale Synchronisation"
+
+#: ../settings/options.config:204
 msgid "Very High"
 msgstr "Sehr hoch"
 
-#: ../settings/options.config:188
+#: ../settings/options.config:196
 msgid "Very Low"
 msgstr "Sehr niedrig"
 
@@ -1731,8 +1743,8 @@ msgstr "Sehr niedrig"
 msgid "View Distance"
 msgstr "Sichtweite"
 
-#: ../skins/simple/menus/DisplayOptions:505
-#: ../skins/simple/menus/DisplayOptions:525
+#: ../skins/simple/menus/DisplayOptions:564
+#: ../skins/simple/menus/DisplayOptions:584
 msgid "Visualise the steering and acceleration/braking on screen."
 msgstr "Lenk-, Gas- und Bremseingaben anzeigen."
 
@@ -1742,9 +1754,9 @@ msgstr "Felge"
 
 #: ../skins/simple/menus/EditButtonControl:147
 msgid "When triggered"
-msgstr ""
+msgstr "Wenn ausgelöst"
 
-#: ../settings/options.config:436
+#: ../settings/options.config:444
 msgid "Wide"
 msgstr "Weit"
 
@@ -1754,7 +1766,7 @@ msgid ""
 "Will this input be activated once per press, or whenever it's held down?"
 msgstr "Sende Signal einmal bei Tastendruck oder fortlaufend solange die Taste gehalten wird."
 
-#: ../skins/simple/menus/QuitConfirm:74 ../settings/options.config:295
+#: ../skins/simple/menus/QuitConfirm:74 ../settings/options.config:303
 msgid "Yes"
 msgstr "Ja"
 
@@ -1764,7 +1776,7 @@ msgstr "Du hast verloren"
 
 #: ../skins/simple/menus/UpdateFailedVersion:37
 msgid "You must update to the latest VDrift release."
-msgstr "Bitte VDrift auf neueste Version aktualisieren."
+msgstr "Sie müssen VDrift auf die neueste Version aktualisieren."
 
 #: ../../src/hud.cpp:112
 msgid "You won!"
@@ -1772,7 +1784,7 @@ msgstr "Du hast gewonnen!"
 
 #: ../skins/simple/menus/CameraMovementControls:337
 msgid "Zoom In"
-msgstr "Heranzoomen"
+msgstr "Hineinzoomen"
 
 #: ../skins/simple/menus/CameraMovementControls:404
 msgid "Zoom Out"
@@ -1782,7 +1794,7 @@ msgstr "Herauszoomen"
 #: ../skins/simple/menus/CameraMovementControls:368
 #: ../skins/simple/menus/CameraMovementControls:387
 msgid "Zoom camera in."
-msgstr "Kamera heranzoomen."
+msgstr "Kamera hineinzoomen."
 
 #: ../skins/simple/menus/CameraMovementControls:416
 #: ../skins/simple/menus/CameraMovementControls:435
@@ -1790,50 +1802,50 @@ msgstr "Kamera heranzoomen."
 msgid "Zoom camera out."
 msgstr "Kamera herauszoomen."
 
-#: ../settings/options.config:690
+#: ../settings/options.config:698
 msgid "gl2 basic"
-msgstr ""
+msgstr "GL2 Basic"
 
-#: ../settings/options.config:692
+#: ../settings/options.config:700
 msgid "gl2 deferred"
-msgstr ""
+msgstr "GL2 Deferred"
 
-#: ../settings/options.config:694
+#: ../settings/options.config:702
 msgid "gl3 deferred"
-msgstr ""
+msgstr "GL3 Deferred"
 
-#: ../settings/options.config:812
+#: ../settings/options.config:820
 msgid "hold value"
-msgstr ""
+msgstr "Wert halten"
 
-#: ../settings/options.config:180
+#: ../settings/options.config:188
 msgid "kph"
-msgstr "kmh"
+msgstr "km/h"
 
-#: ../settings/options.config:384
+#: ../settings/options.config:392
 msgid "long"
 msgstr "lang"
 
-#: ../settings/options.config:386
+#: ../settings/options.config:394
 msgid "medium"
 msgstr "mittel"
 
-#: ../settings/options.config:179
+#: ../settings/options.config:187
 msgid "mph"
 msgstr "mph"
 
-#: ../settings/options.config:819
+#: ../settings/options.config:827
 msgid "pressed"
-msgstr ""
+msgstr "gedrückt"
 
-#: ../settings/options.config:811
+#: ../settings/options.config:819
 msgid "pulse once"
-msgstr ""
+msgstr "Einzelpuls abgeben"
 
-#: ../settings/options.config:820
+#: ../settings/options.config:828
 msgid "released"
-msgstr ""
+msgstr "losgelassen"
 
-#: ../settings/options.config:388
+#: ../settings/options.config:396
 msgid "short"
 msgstr "kurz"

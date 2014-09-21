@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VDrift\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-10 13:09+0100\n"
-"PO-Revision-Date: 2014-08-11 17:26+0000\n"
-"Last-Translator: sefox <core13@gmx.net>\n"
+"POT-Creation-Date: 2014-08-21 15:30+0100\n"
+"PO-Revision-Date: 2014-09-07 12:30+0000\n"
+"Last-Translator: GunChleoc\n"
 "Language-Team: Gaelic, Scottish (http://www.transifex.com/projects/p/vdrift/language/gd/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,7 +31,7 @@ msgstr "16bpp"
 msgid "1st"
 msgstr "1d"
 
-#: ../settings/options.config:740
+#: ../settings/options.config:748
 msgid "24-bit"
 msgstr "24-biod"
 
@@ -200,7 +200,7 @@ msgstr "Dàil air uidheaman-smachd putain"
 msgid "Camera"
 msgstr "Camara"
 
-#: ../skins/simple/menus/DisplayOptions:729
+#: ../skins/simple/menus/DisplayOptions:788
 msgid "Camera Bounce"
 msgstr "Bocadh a' chamara"
 
@@ -211,7 +211,7 @@ msgstr "Gluasad a' chamara"
 #: ../skins/simple/menus/CameraMovementControls:471
 #: ../skins/simple/menus/CameraViewControls:767
 #: ../skins/simple/menus/CarControls:767
-#: ../skins/simple/menus/DisplayOptions:823
+#: ../skins/simple/menus/DisplayOptions:882
 #: ../skins/simple/menus/DisplayOptionsAdvanced:965
 #: ../skins/simple/menus/EditAnalogControl:254
 #: ../skins/simple/menus/EditButtonControl:234
@@ -271,7 +271,7 @@ msgstr "Atharraich roghainnean fuaime."
 msgid "Change the amount of particles used for smoke and dust effects."
 msgstr "Atharraich uiread nam mìrean airson èifeachdan smùid is duslaich."
 
-#: ../skins/simple/menus/DisplayOptions:787
+#: ../skins/simple/menus/DisplayOptions:846
 msgid "Change the contrast of the display."
 msgstr "Atharraich an t-iomsgaradh aig an inneal-taisbeanaidh."
 
@@ -280,13 +280,13 @@ msgstr "Atharraich an t-iomsgaradh aig an inneal-taisbeanaidh."
 msgid "Change the game resolution."
 msgstr "Atharraich dùmhlachd-bhreacaidh a' gheama."
 
-#: ../skins/simple/menus/DisplayOptions:387
-#: ../skins/simple/menus/DisplayOptions:407
+#: ../skins/simple/menus/DisplayOptions:446
+#: ../skins/simple/menus/DisplayOptions:466
 msgid "Change the graphics and layout of the VDrift menus."
 msgstr "Atharraich grafaigeachd is co-dhealbhachd nan clàran-taice VDrift."
 
-#: ../skins/simple/menus/DisplayOptions:446
-#: ../skins/simple/menus/DisplayOptions:466
+#: ../skins/simple/menus/DisplayOptions:505
+#: ../skins/simple/menus/DisplayOptions:525
 msgid "Change the language of the VDrift menus."
 msgstr "Atharraich cànan nan clàran-taice VDrift."
 
@@ -305,7 +305,7 @@ msgstr "Atharraich àireamh nan tùsan fuaime sa gheama."
 msgid "Change the size of the textures displayed."
 msgstr "Atharraich meud nan innich a chì thu."
 
-#: ../skins/simple/menus/DisplayOptions:740
+#: ../skins/simple/menus/DisplayOptions:799
 msgid "Change the strength of the camera bounce effect."
 msgstr "Atharraich an neart aig buaidh bocadh a' chamara."
 
@@ -313,8 +313,8 @@ msgstr "Atharraich an neart aig buaidh bocadh a' chamara."
 msgid "Change the type of joystick device."
 msgstr "Atharraich an seòrsa dhe dh'uidheam joystick."
 
-#: ../skins/simple/menus/DisplayOptions:210
-#: ../skins/simple/menus/DisplayOptions:230
+#: ../skins/simple/menus/DisplayOptions:269
+#: ../skins/simple/menus/DisplayOptions:289
 msgid "Change the units that speed is displayed in between MPH and KPH."
 msgstr "Atharraich na h-aonadan a thèid a chleachdadh gus luaths a shealltainn eadar MPH is KPH."
 
@@ -400,7 +400,7 @@ msgstr "Cùm an luchag ann an uinneag na h-aplacaid is falaich an cùrsair fhad 
 msgid "Continue"
 msgstr "Lean air adhart"
 
-#: ../skins/simple/menus/DisplayOptions:776
+#: ../skins/simple/menus/DisplayOptions:835
 msgid "Contrast"
 msgstr "Iomsgaradh"
 
@@ -417,7 +417,7 @@ msgstr "Uidheaman-smachd"
 msgid "Deadzone"
 msgstr "Raon-marbh"
 
-#: ../settings/options.config:209
+#: ../settings/options.config:217
 msgid "Default"
 msgstr "Bunaiteach"
 
@@ -438,13 +438,13 @@ msgstr "Sguab às dhan uidheam-smachd seo."
 msgid "Display"
 msgstr "Sealladh"
 
-#: ../skins/simple/menus/DisplayOptions:564
-#: ../skins/simple/menus/DisplayOptions:584
+#: ../skins/simple/menus/DisplayOptions:623
+#: ../skins/simple/menus/DisplayOptions:643
 msgid "Display a track map."
 msgstr "Seall mapa an t-slighe."
 
-#: ../skins/simple/menus/DisplayOptions:623
-#: ../skins/simple/menus/DisplayOptions:643
+#: ../skins/simple/menus/DisplayOptions:682
+#: ../skins/simple/menus/DisplayOptions:702
 msgid "Display the racing line."
 msgstr "Seall loidhne-rèisidh."
 
@@ -491,13 +491,13 @@ msgstr "Cuir cluids fèin-obrachail an comas / à comas (cha tèid an t-einnsean
 msgid "Enable/disable automatic transmission shifting."
 msgstr "Cuir shioft fèin-obrachail aig an transmission an comas / à comas."
 
-#: ../skins/simple/menus/DisplayOptions:269
-#: ../skins/simple/menus/DisplayOptions:289
+#: ../skins/simple/menus/DisplayOptions:328
+#: ../skins/simple/menus/DisplayOptions:348
 msgid "Enable/disable the framerate counter."
 msgstr "Cuir an cunntair reat fhrèaman an comas / à comas."
 
-#: ../skins/simple/menus/DisplayOptions:328
-#: ../skins/simple/menus/DisplayOptions:348
+#: ../skins/simple/menus/DisplayOptions:387
+#: ../skins/simple/menus/DisplayOptions:407
 msgid "Enable/disable the heads up display."
 msgstr "Cuir an heads up display an comas / à comas."
 
@@ -505,11 +505,11 @@ msgstr "Cuir an heads up display an comas / à comas."
 msgid "Exponent"
 msgstr "Easponant"
 
-#: ../settings/options.config:438
+#: ../settings/options.config:446
 msgid "Extra-wide"
 msgstr "Glè leathann"
 
-#: ../settings/options.config:477
+#: ../settings/options.config:485
 msgid "Far"
 msgstr "Fada"
 
@@ -518,16 +518,16 @@ msgstr "Fada"
 msgid "Fast moving objects blur slightly."
 msgstr "Bidh beagan sgleò air oibseactan a ghluaiseas gu luath."
 
-#: ../settings/options.config:207
+#: ../settings/options.config:215
 msgid "Few"
 msgstr "Beagan dhiubh"
 
-#: ../skins/simple/menus/DisplayOptions:670
+#: ../skins/simple/menus/DisplayOptions:729
 msgid "Field of View"
 msgstr "Raon seallaidh"
 
-#: ../skins/simple/menus/DisplayOptions:682
-#: ../skins/simple/menus/DisplayOptions:702
+#: ../skins/simple/menus/DisplayOptions:741
+#: ../skins/simple/menus/DisplayOptions:761
 msgid "Field of view in the vertical direction."
 msgstr "Raon seallaidh an comhair inghearach."
 
@@ -578,7 +578,7 @@ msgstr "Dìochuimhnich na h-atharraichean is till dhan chlàr-taice \"Uidheaman-
 msgid "Forget changes and return to Game Controls menu."
 msgstr "Dìochuimhnich na h-atharraichean is till dhan chlàr-taice \"Uidheaman-smachd a' gheama.\""
 
-#: ../skins/simple/menus/DisplayOptions:826
+#: ../skins/simple/menus/DisplayOptions:885
 #: ../skins/simple/menus/DisplayOptionsAdvanced:968
 #: ../skins/simple/menus/EditAnalogControl:257
 #: ../skins/simple/menus/SoundOptions:225
@@ -589,7 +589,7 @@ msgstr "Dìochuimhnich na h-atharraichean is till dhan chlàr-taice \"Roghainnea
 msgid "Forget changes and return to the previous menu."
 msgstr "Dìochuimhnich na h-atharraichean is till dhan chlàr-taice roimhe."
 
-#: ../skins/simple/menus/DisplayOptions:257
+#: ../skins/simple/menus/DisplayOptions:316
 msgid "Framerate Counter"
 msgstr "Cunntair reat fhrèaman"
 
@@ -658,7 +658,7 @@ msgstr "Sioftair H-Gate"
 msgid "Handbrake"
 msgstr "Brèig-làimhe"
 
-#: ../skins/simple/menus/DisplayOptions:316
+#: ../skins/simple/menus/DisplayOptions:375
 msgid "Heads Up Display"
 msgstr "Heads Up Display"
 
@@ -667,9 +667,9 @@ msgstr "Heads Up Display"
 msgid "Help reduce wheel lockup on heavy braking (driver aid)."
 msgstr "Lùghdaich casgadh nan cuibhlean nuair a bhios tu trom air a' bhrèig (cuideachadh draibheir)."
 
-#: ../settings/options.config:194 ../settings/options.config:281
-#: ../settings/options.config:451 ../settings/options.config:464
-#: ../settings/options.config:491
+#: ../settings/options.config:202 ../settings/options.config:289
+#: ../settings/options.config:459 ../settings/options.config:472
+#: ../settings/options.config:499
 msgid "High"
 msgstr "Fada"
 
@@ -690,11 +690,11 @@ msgstr "Tuar"
 msgid "Input Device"
 msgstr "Uidheam ion-chuir"
 
-#: ../skins/simple/menus/DisplayOptions:493
+#: ../skins/simple/menus/DisplayOptions:552
 msgid "Input Graph"
 msgstr "Graf ion-chuir"
 
-#: ../settings/options.config:264
+#: ../settings/options.config:272
 msgid "Joystick/Gamepad"
 msgstr "Joystick/Pada-geama"
 
@@ -718,7 +718,7 @@ msgstr "Cuairt:"
 msgid "Laps"
 msgstr "Cuairtean"
 
-#: ../settings/options.config:139
+#: ../settings/options.config:147
 msgid "Large"
 msgstr "Mòr"
 
@@ -757,9 +757,9 @@ msgstr "Ionadail"
 msgid "Look behind you during driving."
 msgstr "Seall air do chùlaibh fhad 's a bhios tu a' dràibheadh."
 
-#: ../settings/options.config:190 ../settings/options.config:277
-#: ../settings/options.config:449 ../settings/options.config:462
-#: ../settings/options.config:487
+#: ../settings/options.config:198 ../settings/options.config:285
+#: ../settings/options.config:457 ../settings/options.config:470
+#: ../settings/options.config:495
 msgid "Low"
 msgstr "Goirid"
 
@@ -774,21 +774,21 @@ msgstr "Bidh an reandaradh as luaithe le tionndadh as ìsle ach cha bhi coltas a
 msgid "MPH"
 msgstr "MPH"
 
-#: ../settings/options.config:211
+#: ../settings/options.config:219
 msgid "Many"
 msgstr "Mòran dhiubh"
 
-#: ../settings/options.config:137 ../settings/options.config:192
-#: ../settings/options.config:279 ../settings/options.config:475
-#: ../settings/options.config:489
+#: ../settings/options.config:145 ../settings/options.config:200
+#: ../settings/options.config:287 ../settings/options.config:483
+#: ../settings/options.config:497
 msgid "Medium"
 msgstr "Meadhanach"
 
-#: ../skins/simple/menus/DisplayOptions:434
+#: ../skins/simple/menus/DisplayOptions:493
 msgid "Menu Language"
 msgstr "Cànan clàir-thaice"
 
-#: ../skins/simple/menus/DisplayOptions:375
+#: ../skins/simple/menus/DisplayOptions:434
 msgid "Menu Skin"
 msgstr "Ùrlar a' chlàir-taice"
 
@@ -829,7 +829,7 @@ msgstr "Iomadaichear gus leud an na freagairte-forsa a ghleusadh."
 msgid "Music Volume"
 msgstr "Àirde a' chiùil:"
 
-#: ../settings/options.config:473
+#: ../settings/options.config:481
 msgid "Near"
 msgstr "Faisg"
 
@@ -841,11 +841,11 @@ msgstr "Neodrach"
 msgid "Next Camera"
 msgstr "An t-ath chamara"
 
-#: ../skins/simple/menus/QuitConfirm:47 ../settings/options.config:296
+#: ../skins/simple/menus/QuitConfirm:47 ../settings/options.config:304
 msgid "No"
 msgstr "Chan eil"
 
-#: ../settings/options.config:434
+#: ../settings/options.config:442
 msgid "Normal"
 msgstr "Àbhaisteach"
 
@@ -856,7 +856,7 @@ msgstr "Mapaichean àbhaisteach"
 #: ../skins/simple/menus/CameraMovementControls:499
 #: ../skins/simple/menus/CameraViewControls:795
 #: ../skins/simple/menus/CarControls:795
-#: ../skins/simple/menus/DisplayOptions:851
+#: ../skins/simple/menus/DisplayOptions:910
 #: ../skins/simple/menus/DisplayOptionsAdvanced:993
 #: ../skins/simple/menus/EditAnalogControl:282
 #: ../skins/simple/menus/EditButtonControl:262
@@ -868,37 +868,38 @@ msgstr "Mapaichean àbhaisteach"
 msgid "OK"
 msgstr "Ceart ma-thà"
 
-#: ../settings/options.config:127 ../settings/options.config:148
+#: ../settings/options.config:127 ../settings/options.config:135
 #: ../settings/options.config:156 ../settings/options.config:164
-#: ../settings/options.config:172 ../settings/options.config:205
-#: ../settings/options.config:256 ../settings/options.config:275
-#: ../settings/options.config:310 ../settings/options.config:318
-#: ../settings/options.config:344 ../settings/options.config:352
-#: ../settings/options.config:360 ../settings/options.config:374
-#: ../settings/options.config:382 ../settings/options.config:397
-#: ../settings/options.config:405 ../settings/options.config:426
-#: ../settings/options.config:447 ../settings/options.config:460
-#: ../settings/options.config:504 ../settings/options.config:633
+#: ../settings/options.config:172 ../settings/options.config:180
+#: ../settings/options.config:213 ../settings/options.config:264
+#: ../settings/options.config:283 ../settings/options.config:318
+#: ../settings/options.config:326 ../settings/options.config:352
+#: ../settings/options.config:360 ../settings/options.config:368
+#: ../settings/options.config:382 ../settings/options.config:390
+#: ../settings/options.config:405 ../settings/options.config:413
+#: ../settings/options.config:434 ../settings/options.config:455
+#: ../settings/options.config:468 ../settings/options.config:512
 #: ../settings/options.config:641 ../settings/options.config:649
-#: ../settings/options.config:666 ../settings/options.config:674
-#: ../settings/options.config:682 ../settings/options.config:703
-#: ../settings/options.config:711 ../settings/options.config:758
+#: ../settings/options.config:657 ../settings/options.config:674
+#: ../settings/options.config:682 ../settings/options.config:690
+#: ../settings/options.config:711 ../settings/options.config:719
+#: ../settings/options.config:766
 msgid "Off"
 msgstr "Dheth"
 
-#: ../settings/options.config:126 ../settings/options.config:147
+#: ../settings/options.config:126 ../settings/options.config:134
 #: ../settings/options.config:155 ../settings/options.config:163
-#: ../settings/options.config:171 ../settings/options.config:255
-#: ../settings/options.config:309 ../settings/options.config:317
-#: ../settings/options.config:343 ../settings/options.config:351
-#: ../settings/options.config:359 ../settings/options.config:373
-#: ../settings/options.config:396 ../settings/options.config:404
-#: ../settings/options.config:425 ../settings/options.config:503
-#: ../settings/options.config:632 ../settings/options.config:640
-#: ../settings/options.config:648 ../settings/options.config:665
+#: ../settings/options.config:171 ../settings/options.config:179
+#: ../settings/options.config:263 ../settings/options.config:317
+#: ../settings/options.config:325 ../settings/options.config:351
+#: ../settings/options.config:359 ../settings/options.config:367
+#: ../settings/options.config:381 ../settings/options.config:404
+#: ../settings/options.config:412 ../settings/options.config:433
+#: ../settings/options.config:511 ../settings/options.config:640
+#: ../settings/options.config:648 ../settings/options.config:656
 #: ../settings/options.config:673 ../settings/options.config:681
-#: ../settings/options.config:702 ../settings/options.config:710
-#: ../settings/options.config:757
+#: ../settings/options.config:689 ../settings/options.config:710
+#: ../settings/options.config:718 ../settings/options.config:765
 msgid "On"
 msgstr "Air"
 
@@ -1066,7 +1067,7 @@ msgstr "Rèis / Slighean"
 msgid "Race on this track backwards."
 msgstr "Dèan rèis contrarra air an t-slighe seo."
 
-#: ../skins/simple/menus/DisplayOptions:611
+#: ../skins/simple/menus/DisplayOptions:670
 msgid "Racing Line"
 msgstr "Loidhne rèisidh"
 
@@ -1208,7 +1209,7 @@ msgstr "Sàbhail na h-atharraichean is till dhan chlàr-taice \"Uidheaman-smachd
 msgid "Save changes and return to Game Controls menu."
 msgstr "Sàbhail na h-atharraichean is till dhan chlàr-taice \"Uidheaman-smachd a' gheama.\""
 
-#: ../skins/simple/menus/DisplayOptions:854
+#: ../skins/simple/menus/DisplayOptions:913
 #: ../skins/simple/menus/DisplayOptionsAdvanced:996
 #: ../skins/simple/menus/EditAnalogControl:285
 #: ../skins/simple/menus/SoundOptions:253
@@ -1244,7 +1245,7 @@ msgstr "Tagh draibhear a' chàir."
 #: ../skins/simple/menus/CameraViewControls:234
 #: ../skins/simple/menus/CameraViewControls:253
 msgid "Select car's hood camera."
-msgstr ""
+msgstr "Tagh camara air bonaid a' chàir"
 
 #: ../skins/simple/menus/CameraViewControls:282
 #: ../skins/simple/menus/CameraViewControls:301
@@ -1362,7 +1363,7 @@ msgstr "Sùird air adhart"
 msgid "Slow down the application of button inputs on analogue controls."
 msgstr "Cuir maille air cur an sàs aig ion-chur putain le uidheaman-smachd analogach."
 
-#: ../settings/options.config:135
+#: ../settings/options.config:143
 msgid "Small"
 msgstr "Beag"
 
@@ -1383,15 +1384,15 @@ msgstr "Tùsan fuaime"
 msgid "Sounds Volume"
 msgstr "Àirde nam fuaimean"
 
-#: ../skins/simple/menus/DisplayOptions:198
+#: ../skins/simple/menus/DisplayOptions:257
 msgid "Speed Units"
 msgstr "Aonadan luaiths"
 
-#: ../settings/options.config:287
+#: ../settings/options.config:295
 msgid "Speed sensitive Hi"
 msgstr "Mothachadh àrd air luaths"
 
-#: ../settings/options.config:285
+#: ../settings/options.config:293
 msgid "Speed sensitive Lo"
 msgstr "Mothachadh ìseal air luaths"
 
@@ -1437,7 +1438,7 @@ msgstr "Stiùir gu deas"
 msgid "Steering Speed Effect"
 msgstr "Buadh luaths an stiùiridh"
 
-#: ../settings/options.config:266
+#: ../settings/options.config:274
 msgid "Steering Wheel"
 msgstr "Cuibhle stiùiridh"
 
@@ -1615,6 +1616,11 @@ msgstr "Taidhir"
 msgid "Toggle fullscreen mode on and off."
 msgstr "Toglaich am modh làn-sgrìn air no dheth."
 
+#: ../skins/simple/menus/DisplayOptions:210
+#: ../skins/simple/menus/DisplayOptions:230
+msgid "Toggle vertical synchronization on and off."
+msgstr "Toglaich an sioncronachadh inghearach air 's dheth."
+
 #: ../skins/simple/menus/ControlsOptions:159
 msgid "Tools"
 msgstr "Innealan"
@@ -1627,7 +1633,7 @@ msgstr "Slighe"
 msgid "Track Damage"
 msgstr "Dochann air an t-slighe"
 
-#: ../skins/simple/menus/DisplayOptions:552
+#: ../skins/simple/menus/DisplayOptions:611
 msgid "Track Map"
 msgstr "Mapa na slighe"
 
@@ -1654,11 +1660,11 @@ msgstr "Transmission"
 #: ../skins/simple/menus/EditButtonControl:100
 #: ../skins/simple/menus/EditButtonControl:120
 msgid "Trigger the control when the key is pressed or released?"
-msgstr ""
+msgstr "A bheil thu airson an t-uidheam-smachd a ghnìomhachadh nuair a thèid a bhrùthadh no a leigeil às?"
 
 #: ../skins/simple/menus/EditButtonControl:88
 msgid "Trigger when"
-msgstr ""
+msgstr "Gnìomhaich e nuair a thèid"
 
 #: ../skins/simple/menus/CameraMovementControls:282
 #: ../skins/simple/menus/CameraMovementControls:301
@@ -1721,11 +1727,15 @@ msgstr "Ùrachaidhean / Ùrachadh"
 msgid "Use normal maps."
 msgstr "Cleachd mapaichean àbhaisteach."
 
-#: ../settings/options.config:196
+#: ../skins/simple/menus/DisplayOptions:198
+msgid "Vertical Sync"
+msgstr "Sioncronachadh inghearach"
+
+#: ../settings/options.config:204
 msgid "Very High"
 msgstr "Glè fhada"
 
-#: ../settings/options.config:188
+#: ../settings/options.config:196
 msgid "Very Low"
 msgstr "Glè ghoirid"
 
@@ -1733,8 +1743,8 @@ msgstr "Glè ghoirid"
 msgid "View Distance"
 msgstr "Astar seallaidh"
 
-#: ../skins/simple/menus/DisplayOptions:505
-#: ../skins/simple/menus/DisplayOptions:525
+#: ../skins/simple/menus/DisplayOptions:564
+#: ../skins/simple/menus/DisplayOptions:584
 msgid "Visualise the steering and acceleration/braking on screen."
 msgstr "Dèan samhla-sùla air stiùireadh is luathachadh/brèige air an sgrìon."
 
@@ -1744,9 +1754,9 @@ msgstr "Roth"
 
 #: ../skins/simple/menus/EditButtonControl:147
 msgid "When triggered"
-msgstr ""
+msgstr "Nuair a thèid a ghnìomhachadh"
 
-#: ../settings/options.config:436
+#: ../settings/options.config:444
 msgid "Wide"
 msgstr "Leathann"
 
@@ -1756,7 +1766,7 @@ msgid ""
 "Will this input be activated once per press, or whenever it's held down?"
 msgstr "An tèid an t-ion-chur seo a ghnìomhachadh aon turas gach brùthadh/brìogadh, no fhad's a thèid a cumail sìos?"
 
-#: ../skins/simple/menus/QuitConfirm:74 ../settings/options.config:295
+#: ../skins/simple/menus/QuitConfirm:74 ../settings/options.config:303
 msgid "Yes"
 msgstr "Tha"
 
@@ -1792,50 +1802,50 @@ msgstr "Sùm an camara a-steach."
 msgid "Zoom camera out."
 msgstr "Sùm an camara a-mach."
 
-#: ../settings/options.config:690
+#: ../settings/options.config:698
 msgid "gl2 basic"
-msgstr ""
+msgstr "gl2 bunasach"
 
-#: ../settings/options.config:692
+#: ../settings/options.config:700
 msgid "gl2 deferred"
-msgstr ""
+msgstr "gl2 le dàil air"
 
-#: ../settings/options.config:694
+#: ../settings/options.config:702
 msgid "gl3 deferred"
-msgstr ""
+msgstr "gl3 le dàil air"
 
-#: ../settings/options.config:812
+#: ../settings/options.config:820
 msgid "hold value"
-msgstr ""
+msgstr "cum an luach"
 
-#: ../settings/options.config:180
+#: ../settings/options.config:188
 msgid "kph"
 msgstr "kph"
 
-#: ../settings/options.config:384
+#: ../settings/options.config:392
 msgid "long"
 msgstr "Fada"
 
-#: ../settings/options.config:386
+#: ../settings/options.config:394
 msgid "medium"
 msgstr "Meadhanach"
 
-#: ../settings/options.config:179
+#: ../settings/options.config:187
 msgid "mph"
 msgstr "mph"
 
-#: ../settings/options.config:819
+#: ../settings/options.config:827
 msgid "pressed"
-msgstr ""
+msgstr "a bhrùthadh"
 
-#: ../settings/options.config:811
+#: ../settings/options.config:819
 msgid "pulse once"
-msgstr ""
+msgstr "buail aon turas"
 
-#: ../settings/options.config:820
+#: ../settings/options.config:828
 msgid "released"
-msgstr ""
+msgstr "a leigeil às"
 
-#: ../settings/options.config:388
+#: ../settings/options.config:396
 msgid "short"
 msgstr "Goirid"

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VDrift\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-10 13:09+0100\n"
-"PO-Revision-Date: 2014-08-11 17:26+0000\n"
+"POT-Creation-Date: 2014-08-21 15:30+0100\n"
+"PO-Revision-Date: 2014-08-21 13:47+0000\n"
 "Last-Translator: sefox <core13@gmx.net>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/vdrift/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -30,7 +30,7 @@ msgstr ""
 msgid "1st"
 msgstr ""
 
-#: ../settings/options.config:740
+#: ../settings/options.config:748
 msgid "24-bit"
 msgstr ""
 
@@ -199,7 +199,7 @@ msgstr "Atraso do Botão de Controle"
 msgid "Camera"
 msgstr "Câmera"
 
-#: ../skins/simple/menus/DisplayOptions:729
+#: ../skins/simple/menus/DisplayOptions:788
 msgid "Camera Bounce"
 msgstr "Salto da Câmera"
 
@@ -210,7 +210,7 @@ msgstr "Movimento de Câmera"
 #: ../skins/simple/menus/CameraMovementControls:471
 #: ../skins/simple/menus/CameraViewControls:767
 #: ../skins/simple/menus/CarControls:767
-#: ../skins/simple/menus/DisplayOptions:823
+#: ../skins/simple/menus/DisplayOptions:882
 #: ../skins/simple/menus/DisplayOptionsAdvanced:965
 #: ../skins/simple/menus/EditAnalogControl:254
 #: ../skins/simple/menus/EditButtonControl:234
@@ -270,7 +270,7 @@ msgstr "Alterar configurações de som."
 msgid "Change the amount of particles used for smoke and dust effects."
 msgstr "Alterar a quantidade de partículas usadas para efeitos de fumaça e poeira."
 
-#: ../skins/simple/menus/DisplayOptions:787
+#: ../skins/simple/menus/DisplayOptions:846
 msgid "Change the contrast of the display."
 msgstr "Alterar o contraste da tela."
 
@@ -279,13 +279,13 @@ msgstr "Alterar o contraste da tela."
 msgid "Change the game resolution."
 msgstr "Alterar a resolução do jogo."
 
-#: ../skins/simple/menus/DisplayOptions:387
-#: ../skins/simple/menus/DisplayOptions:407
+#: ../skins/simple/menus/DisplayOptions:446
+#: ../skins/simple/menus/DisplayOptions:466
 msgid "Change the graphics and layout of the VDrift menus."
 msgstr "Alterar os gráficos e leiaute dos menus do VDrift."
 
-#: ../skins/simple/menus/DisplayOptions:446
-#: ../skins/simple/menus/DisplayOptions:466
+#: ../skins/simple/menus/DisplayOptions:505
+#: ../skins/simple/menus/DisplayOptions:525
 msgid "Change the language of the VDrift menus."
 msgstr "Alterar o idioma dos menus do VDrift."
 
@@ -304,7 +304,7 @@ msgstr "Alterar o número de fontes de som no jogo."
 msgid "Change the size of the textures displayed."
 msgstr "Alterar o tamanho das texturas exibidas."
 
-#: ../skins/simple/menus/DisplayOptions:740
+#: ../skins/simple/menus/DisplayOptions:799
 msgid "Change the strength of the camera bounce effect."
 msgstr "Alterar a força do efeito de salto da câmera."
 
@@ -312,8 +312,8 @@ msgstr "Alterar a força do efeito de salto da câmera."
 msgid "Change the type of joystick device."
 msgstr "Alterar o tipo de dispositivo de joystick."
 
-#: ../skins/simple/menus/DisplayOptions:210
-#: ../skins/simple/menus/DisplayOptions:230
+#: ../skins/simple/menus/DisplayOptions:269
+#: ../skins/simple/menus/DisplayOptions:289
 msgid "Change the units that speed is displayed in between MPH and KPH."
 msgstr "Alterar a unidade em que é exibida a velocidade entre MPH e Km/h."
 
@@ -399,7 +399,7 @@ msgstr "Confina o mouse à janela da aplicação e esconde o cursor durante o jo
 msgid "Continue"
 msgstr "Continuar"
 
-#: ../skins/simple/menus/DisplayOptions:776
+#: ../skins/simple/menus/DisplayOptions:835
 msgid "Contrast"
 msgstr "Contraste"
 
@@ -416,7 +416,7 @@ msgstr "Controles"
 msgid "Deadzone"
 msgstr "Zona morta"
 
-#: ../settings/options.config:209
+#: ../settings/options.config:217
 msgid "Default"
 msgstr "Padrão"
 
@@ -437,13 +437,13 @@ msgstr "Deletar esse controle."
 msgid "Display"
 msgstr "Exibição"
 
-#: ../skins/simple/menus/DisplayOptions:564
-#: ../skins/simple/menus/DisplayOptions:584
+#: ../skins/simple/menus/DisplayOptions:623
+#: ../skins/simple/menus/DisplayOptions:643
 msgid "Display a track map."
 msgstr "Mostrar um mapa da pista."
 
-#: ../skins/simple/menus/DisplayOptions:623
-#: ../skins/simple/menus/DisplayOptions:643
+#: ../skins/simple/menus/DisplayOptions:682
+#: ../skins/simple/menus/DisplayOptions:702
 msgid "Display the racing line."
 msgstr "Mostrar a linha ideal."
 
@@ -490,13 +490,13 @@ msgstr "Habilitar/desabilitar a embreagem automática (evita que o carro falhe).
 msgid "Enable/disable automatic transmission shifting."
 msgstr "Habilitar/desabilitar mudança automática de marcha."
 
-#: ../skins/simple/menus/DisplayOptions:269
-#: ../skins/simple/menus/DisplayOptions:289
+#: ../skins/simple/menus/DisplayOptions:328
+#: ../skins/simple/menus/DisplayOptions:348
 msgid "Enable/disable the framerate counter."
 msgstr "Habilitar/desabilitar o contador da taxa de frames."
 
-#: ../skins/simple/menus/DisplayOptions:328
-#: ../skins/simple/menus/DisplayOptions:348
+#: ../skins/simple/menus/DisplayOptions:387
+#: ../skins/simple/menus/DisplayOptions:407
 msgid "Enable/disable the heads up display."
 msgstr "Habilitar/desabilitar o 'heads up display'."
 
@@ -504,11 +504,11 @@ msgstr "Habilitar/desabilitar o 'heads up display'."
 msgid "Exponent"
 msgstr "Expoente"
 
-#: ../settings/options.config:438
+#: ../settings/options.config:446
 msgid "Extra-wide"
 msgstr "Extra largo"
 
-#: ../settings/options.config:477
+#: ../settings/options.config:485
 msgid "Far"
 msgstr "Longe"
 
@@ -517,16 +517,16 @@ msgstr "Longe"
 msgid "Fast moving objects blur slightly."
 msgstr "Objetos movendo-se rápido desfocam levemente."
 
-#: ../settings/options.config:207
+#: ../settings/options.config:215
 msgid "Few"
 msgstr "Poucas"
 
-#: ../skins/simple/menus/DisplayOptions:670
+#: ../skins/simple/menus/DisplayOptions:729
 msgid "Field of View"
 msgstr "Campo de Visão"
 
-#: ../skins/simple/menus/DisplayOptions:682
-#: ../skins/simple/menus/DisplayOptions:702
+#: ../skins/simple/menus/DisplayOptions:741
+#: ../skins/simple/menus/DisplayOptions:761
 msgid "Field of view in the vertical direction."
 msgstr "Campo de visão na direção vertical."
 
@@ -577,7 +577,7 @@ msgstr "Descartar mudanças e retornar ao menu de controles."
 msgid "Forget changes and return to Game Controls menu."
 msgstr "Descartar mudanças e retornar ao menu de controles do jogo."
 
-#: ../skins/simple/menus/DisplayOptions:826
+#: ../skins/simple/menus/DisplayOptions:885
 #: ../skins/simple/menus/DisplayOptionsAdvanced:968
 #: ../skins/simple/menus/EditAnalogControl:257
 #: ../skins/simple/menus/SoundOptions:225
@@ -588,7 +588,7 @@ msgstr "Descartar mudanças e retornar ao menu de opções."
 msgid "Forget changes and return to the previous menu."
 msgstr "Descartar mudanças e retornar ao menu anterior."
 
-#: ../skins/simple/menus/DisplayOptions:257
+#: ../skins/simple/menus/DisplayOptions:316
 msgid "Framerate Counter"
 msgstr "Contador da Taxa de Frames"
 
@@ -657,7 +657,7 @@ msgstr "Câmbio tipo H"
 msgid "Handbrake"
 msgstr "Freio de mão"
 
-#: ../skins/simple/menus/DisplayOptions:316
+#: ../skins/simple/menus/DisplayOptions:375
 msgid "Heads Up Display"
 msgstr ""
 
@@ -666,9 +666,9 @@ msgstr ""
 msgid "Help reduce wheel lockup on heavy braking (driver aid)."
 msgstr "Ajuda a reduzir o travamento das rodas em frenagens intensas (auxílio ao motorista)."
 
-#: ../settings/options.config:194 ../settings/options.config:281
-#: ../settings/options.config:451 ../settings/options.config:464
-#: ../settings/options.config:491
+#: ../settings/options.config:202 ../settings/options.config:289
+#: ../settings/options.config:459 ../settings/options.config:472
+#: ../settings/options.config:499
 msgid "High"
 msgstr "Alto"
 
@@ -689,11 +689,11 @@ msgstr "Tom"
 msgid "Input Device"
 msgstr "Dispositivo de Entrada"
 
-#: ../skins/simple/menus/DisplayOptions:493
+#: ../skins/simple/menus/DisplayOptions:552
 msgid "Input Graph"
 msgstr "Gráfico de entrada"
 
-#: ../settings/options.config:264
+#: ../settings/options.config:272
 msgid "Joystick/Gamepad"
 msgstr ""
 
@@ -717,7 +717,7 @@ msgstr "Volta:"
 msgid "Laps"
 msgstr "Voltas"
 
-#: ../settings/options.config:139
+#: ../settings/options.config:147
 msgid "Large"
 msgstr "Grande"
 
@@ -756,9 +756,9 @@ msgstr ""
 msgid "Look behind you during driving."
 msgstr "Olhar para trás enquanto dirige."
 
-#: ../settings/options.config:190 ../settings/options.config:277
-#: ../settings/options.config:449 ../settings/options.config:462
-#: ../settings/options.config:487
+#: ../settings/options.config:198 ../settings/options.config:285
+#: ../settings/options.config:457 ../settings/options.config:470
+#: ../settings/options.config:495
 msgid "Low"
 msgstr "Baixo"
 
@@ -773,21 +773,21 @@ msgstr ""
 msgid "MPH"
 msgstr "MPH"
 
-#: ../settings/options.config:211
+#: ../settings/options.config:219
 msgid "Many"
 msgstr "Muitas"
 
-#: ../settings/options.config:137 ../settings/options.config:192
-#: ../settings/options.config:279 ../settings/options.config:475
-#: ../settings/options.config:489
+#: ../settings/options.config:145 ../settings/options.config:200
+#: ../settings/options.config:287 ../settings/options.config:483
+#: ../settings/options.config:497
 msgid "Medium"
 msgstr "Médio"
 
-#: ../skins/simple/menus/DisplayOptions:434
+#: ../skins/simple/menus/DisplayOptions:493
 msgid "Menu Language"
 msgstr "Idioma do Menu"
 
-#: ../skins/simple/menus/DisplayOptions:375
+#: ../skins/simple/menus/DisplayOptions:434
 msgid "Menu Skin"
 msgstr "Aparência do Menu"
 
@@ -828,7 +828,7 @@ msgstr "Multiplicador para ajustar a intensidade do force feedback."
 msgid "Music Volume"
 msgstr "Volume da Música"
 
-#: ../settings/options.config:473
+#: ../settings/options.config:481
 msgid "Near"
 msgstr "Perto"
 
@@ -840,11 +840,11 @@ msgstr "Neutro"
 msgid "Next Camera"
 msgstr "Próxima Câmera"
 
-#: ../skins/simple/menus/QuitConfirm:47 ../settings/options.config:296
+#: ../skins/simple/menus/QuitConfirm:47 ../settings/options.config:304
 msgid "No"
 msgstr "Não"
 
-#: ../settings/options.config:434
+#: ../settings/options.config:442
 msgid "Normal"
 msgstr "Normal"
 
@@ -855,7 +855,7 @@ msgstr ""
 #: ../skins/simple/menus/CameraMovementControls:499
 #: ../skins/simple/menus/CameraViewControls:795
 #: ../skins/simple/menus/CarControls:795
-#: ../skins/simple/menus/DisplayOptions:851
+#: ../skins/simple/menus/DisplayOptions:910
 #: ../skins/simple/menus/DisplayOptionsAdvanced:993
 #: ../skins/simple/menus/EditAnalogControl:282
 #: ../skins/simple/menus/EditButtonControl:262
@@ -867,37 +867,38 @@ msgstr ""
 msgid "OK"
 msgstr "OK"
 
-#: ../settings/options.config:127 ../settings/options.config:148
+#: ../settings/options.config:127 ../settings/options.config:135
 #: ../settings/options.config:156 ../settings/options.config:164
-#: ../settings/options.config:172 ../settings/options.config:205
-#: ../settings/options.config:256 ../settings/options.config:275
-#: ../settings/options.config:310 ../settings/options.config:318
-#: ../settings/options.config:344 ../settings/options.config:352
-#: ../settings/options.config:360 ../settings/options.config:374
-#: ../settings/options.config:382 ../settings/options.config:397
-#: ../settings/options.config:405 ../settings/options.config:426
-#: ../settings/options.config:447 ../settings/options.config:460
-#: ../settings/options.config:504 ../settings/options.config:633
+#: ../settings/options.config:172 ../settings/options.config:180
+#: ../settings/options.config:213 ../settings/options.config:264
+#: ../settings/options.config:283 ../settings/options.config:318
+#: ../settings/options.config:326 ../settings/options.config:352
+#: ../settings/options.config:360 ../settings/options.config:368
+#: ../settings/options.config:382 ../settings/options.config:390
+#: ../settings/options.config:405 ../settings/options.config:413
+#: ../settings/options.config:434 ../settings/options.config:455
+#: ../settings/options.config:468 ../settings/options.config:512
 #: ../settings/options.config:641 ../settings/options.config:649
-#: ../settings/options.config:666 ../settings/options.config:674
-#: ../settings/options.config:682 ../settings/options.config:703
-#: ../settings/options.config:711 ../settings/options.config:758
+#: ../settings/options.config:657 ../settings/options.config:674
+#: ../settings/options.config:682 ../settings/options.config:690
+#: ../settings/options.config:711 ../settings/options.config:719
+#: ../settings/options.config:766
 msgid "Off"
 msgstr "Desligado"
 
-#: ../settings/options.config:126 ../settings/options.config:147
+#: ../settings/options.config:126 ../settings/options.config:134
 #: ../settings/options.config:155 ../settings/options.config:163
-#: ../settings/options.config:171 ../settings/options.config:255
-#: ../settings/options.config:309 ../settings/options.config:317
-#: ../settings/options.config:343 ../settings/options.config:351
-#: ../settings/options.config:359 ../settings/options.config:373
-#: ../settings/options.config:396 ../settings/options.config:404
-#: ../settings/options.config:425 ../settings/options.config:503
-#: ../settings/options.config:632 ../settings/options.config:640
-#: ../settings/options.config:648 ../settings/options.config:665
+#: ../settings/options.config:171 ../settings/options.config:179
+#: ../settings/options.config:263 ../settings/options.config:317
+#: ../settings/options.config:325 ../settings/options.config:351
+#: ../settings/options.config:359 ../settings/options.config:367
+#: ../settings/options.config:381 ../settings/options.config:404
+#: ../settings/options.config:412 ../settings/options.config:433
+#: ../settings/options.config:511 ../settings/options.config:640
+#: ../settings/options.config:648 ../settings/options.config:656
 #: ../settings/options.config:673 ../settings/options.config:681
-#: ../settings/options.config:702 ../settings/options.config:710
-#: ../settings/options.config:757
+#: ../settings/options.config:689 ../settings/options.config:710
+#: ../settings/options.config:718 ../settings/options.config:765
 msgid "On"
 msgstr "Ligado"
 
@@ -1065,7 +1066,7 @@ msgstr "Corrida / Pistas"
 msgid "Race on this track backwards."
 msgstr "Correr nessa pista no sentido inverso."
 
-#: ../skins/simple/menus/DisplayOptions:611
+#: ../skins/simple/menus/DisplayOptions:670
 msgid "Racing Line"
 msgstr "Linha ideal"
 
@@ -1207,7 +1208,7 @@ msgstr "Salvar mudanças e retornar ao menu de controles."
 msgid "Save changes and return to Game Controls menu."
 msgstr "Salvar mudanças e retornar ao menu de controles do jogo."
 
-#: ../skins/simple/menus/DisplayOptions:854
+#: ../skins/simple/menus/DisplayOptions:913
 #: ../skins/simple/menus/DisplayOptionsAdvanced:996
 #: ../skins/simple/menus/EditAnalogControl:285
 #: ../skins/simple/menus/SoundOptions:253
@@ -1361,7 +1362,7 @@ msgstr "Pular para Frente"
 msgid "Slow down the application of button inputs on analogue controls."
 msgstr "Atrasa a aplicação dos botões de entrada em controles analógicos."
 
-#: ../settings/options.config:135
+#: ../settings/options.config:143
 msgid "Small"
 msgstr "Pequeno"
 
@@ -1382,15 +1383,15 @@ msgstr "Fontes de Som"
 msgid "Sounds Volume"
 msgstr "Volume dos Sons"
 
-#: ../skins/simple/menus/DisplayOptions:198
+#: ../skins/simple/menus/DisplayOptions:257
 msgid "Speed Units"
 msgstr "Unidades de Velocidade"
 
-#: ../settings/options.config:287
+#: ../settings/options.config:295
 msgid "Speed sensitive Hi"
 msgstr ""
 
-#: ../settings/options.config:285
+#: ../settings/options.config:293
 msgid "Speed sensitive Lo"
 msgstr ""
 
@@ -1436,7 +1437,7 @@ msgstr "Virar para Direita"
 msgid "Steering Speed Effect"
 msgstr "Efeito da velocidade na direção"
 
-#: ../settings/options.config:266
+#: ../settings/options.config:274
 msgid "Steering Wheel"
 msgstr "Volante"
 
@@ -1614,6 +1615,11 @@ msgstr ""
 msgid "Toggle fullscreen mode on and off."
 msgstr "Alterna o modo tela cheia entre ligado e desligado."
 
+#: ../skins/simple/menus/DisplayOptions:210
+#: ../skins/simple/menus/DisplayOptions:230
+msgid "Toggle vertical synchronization on and off."
+msgstr ""
+
 #: ../skins/simple/menus/ControlsOptions:159
 msgid "Tools"
 msgstr "Ferramentas"
@@ -1626,7 +1632,7 @@ msgstr "Pista"
 msgid "Track Damage"
 msgstr "Dano da Pista"
 
-#: ../skins/simple/menus/DisplayOptions:552
+#: ../skins/simple/menus/DisplayOptions:611
 msgid "Track Map"
 msgstr "Mapa da Pista"
 
@@ -1720,11 +1726,15 @@ msgstr "Atualizações / Atualizar"
 msgid "Use normal maps."
 msgstr "Usar normal maps."
 
-#: ../settings/options.config:196
+#: ../skins/simple/menus/DisplayOptions:198
+msgid "Vertical Sync"
+msgstr ""
+
+#: ../settings/options.config:204
 msgid "Very High"
 msgstr "Muito Alto"
 
-#: ../settings/options.config:188
+#: ../settings/options.config:196
 msgid "Very Low"
 msgstr "Muito Baixo"
 
@@ -1732,8 +1742,8 @@ msgstr "Muito Baixo"
 msgid "View Distance"
 msgstr "Distância de visão"
 
-#: ../skins/simple/menus/DisplayOptions:505
-#: ../skins/simple/menus/DisplayOptions:525
+#: ../skins/simple/menus/DisplayOptions:564
+#: ../skins/simple/menus/DisplayOptions:584
 msgid "Visualise the steering and acceleration/braking on screen."
 msgstr "Visualizar a direção e aceleração/frenagem na tela."
 
@@ -1745,7 +1755,7 @@ msgstr ""
 msgid "When triggered"
 msgstr ""
 
-#: ../settings/options.config:436
+#: ../settings/options.config:444
 msgid "Wide"
 msgstr "Largo"
 
@@ -1755,7 +1765,7 @@ msgid ""
 "Will this input be activated once per press, or whenever it's held down?"
 msgstr "Esta entrada vai ser ativada uma vez cada vez que for pressionada, ou sempre que for mantida pressionada?"
 
-#: ../skins/simple/menus/QuitConfirm:74 ../settings/options.config:295
+#: ../skins/simple/menus/QuitConfirm:74 ../settings/options.config:303
 msgid "Yes"
 msgstr "Sim"
 
@@ -1791,50 +1801,50 @@ msgstr "Aumentar zoom da câmera."
 msgid "Zoom camera out."
 msgstr "Diminuir zoom da câmera."
 
-#: ../settings/options.config:690
+#: ../settings/options.config:698
 msgid "gl2 basic"
 msgstr ""
 
-#: ../settings/options.config:692
+#: ../settings/options.config:700
 msgid "gl2 deferred"
 msgstr ""
 
-#: ../settings/options.config:694
+#: ../settings/options.config:702
 msgid "gl3 deferred"
 msgstr ""
 
-#: ../settings/options.config:812
+#: ../settings/options.config:820
 msgid "hold value"
 msgstr ""
 
-#: ../settings/options.config:180
+#: ../settings/options.config:188
 msgid "kph"
 msgstr "km/h"
 
-#: ../settings/options.config:384
+#: ../settings/options.config:392
 msgid "long"
 msgstr "longo"
 
-#: ../settings/options.config:386
+#: ../settings/options.config:394
 msgid "medium"
 msgstr "médio"
 
-#: ../settings/options.config:179
+#: ../settings/options.config:187
 msgid "mph"
 msgstr "mph"
 
-#: ../settings/options.config:819
+#: ../settings/options.config:827
 msgid "pressed"
 msgstr ""
 
-#: ../settings/options.config:811
+#: ../settings/options.config:819
 msgid "pulse once"
 msgstr ""
 
-#: ../settings/options.config:820
+#: ../settings/options.config:828
 msgid "released"
 msgstr ""
 
-#: ../settings/options.config:388
+#: ../settings/options.config:396
 msgid "short"
 msgstr "curto"
