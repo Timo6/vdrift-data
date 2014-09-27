@@ -238,7 +238,7 @@ mesh = interior.joe
 # car median -0.4 z-axis
 [particle-00]
 mass = 17.0
-position = 0.1, 0.5, -0.45
+position = 0.0, 0.5, -0.45
 
 [particle-01]
 mass = 35.0
