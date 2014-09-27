@@ -263,7 +263,7 @@ draw = emissive
 # these are used to calculate the weight distribution and balance
 [particle-00]
 mass = 60.0
-position = 0.1, 0.5, -0.45
+position = 0.0, 0.5, -0.45
 
 [particle-01]
 mass = 130.0

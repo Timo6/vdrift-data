@@ -1,6 +1,6 @@
 
 [engine]
-position = 0.13, -1.46, -0.18
+position = 0.0, -1.46, -0.18
 mass = 210.0
 max-power = 357900
 peak-engine-rpm = 5500.0
