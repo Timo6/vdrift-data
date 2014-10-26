@@ -25,7 +25,7 @@ layer = -1
 
 
 [ tooltip ]
-text = gui.tooltip.str
+text = none
 fontsize = 0.03
 left = 0
 right = 0

@@ -25,7 +25,7 @@ layer = -1
 
 
 [ tooltip ]
-text = gui.tooltip.str
+text = none
 fontsize = 0.03
 left = 0
 right = 0
@@ -46,10 +46,12 @@ height = 0.06
 [ widget-01b ]
 text = Back
 fontsize = 0.035
-align = left
-tip = Go back to the Replays menu.
+#align = left
 onselect = gui.page:Replays
+onfocus = widget-01b.sat:0.56 tooltip.text:"Go back to the Replays menu."
+onblur = widget-01b.sat:0.0
 focus = true
+hue = 0.56
 left = 0.31
 width = 0.24
 top = 0.18
