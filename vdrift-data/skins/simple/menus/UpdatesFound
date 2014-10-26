@@ -25,7 +25,7 @@ layer = -1
 
 
 [ tooltip ]
-text = gui.tooltip.str
+text = none
 fontsize = 0.03
 left = 0
 right = 0
@@ -44,9 +44,8 @@ height = 0.06
 
 
 [ widget-02a ]
-tip = Browse tracks and apply updates
 onselect = StartTrackManager
-onfocus = widget-02b.sat:0.56 widget-02c.sat:0.56
+onfocus = widget-02b.sat:0.56 widget-02c.sat:0.56 tooltip.text:"Browse tracks and apply updates"
 onblur = widget-02b.sat:0.0 widget-02c.sat:0.0
 focus = true
 left = 0.31
@@ -86,23 +85,12 @@ layer = -1
 
 
 [ widget-03a ]
-tip = Browse cars and apply updates
 onselect = StartCarManager
-onfocus = widget-03b.sat:0.56 widget-03c.sat:0.56
+onfocus = widget-03b.sat:0.56 widget-03c.sat:0.56 tooltip.text:"Browse cars and apply updates"
 onblur = widget-03b.sat:0.0 widget-03c.sat:0.0
 focus = false
 left = 0.31
 width = 0.24
-top = 0.23
-height = 0.05
-
-[ widget-03c ]
-text = Car updates
-fontsize = 0.035
-align = left
-hue = 0.56
-left = 0.31
-width = 0.21
 top = 0.23
 height = 0.05
 
@@ -113,6 +101,16 @@ align = right
 hue = 0.56
 left = 0.52
 width = 0.03
+top = 0.23
+height = 0.05
+
+[ widget-03c ]
+text = Car updates
+fontsize = 0.035
+align = left
+hue = 0.56
+left = 0.31
+width = 0.21
 top = 0.23
 height = 0.05
 
@@ -131,9 +129,8 @@ layer = -1
 text = Back
 fontsize = 0.035
 align = left
-tip = Return to the Updates menu.
 onselect = gui.page:Updates
-onfocus = widget-04b.sat:0.56
+onfocus = widget-04b.sat:0.56 tooltip.text:"Return to the Updates menu."
 onblur = widget-04b.sat:0.0
 focus = false
 hue = 0.56

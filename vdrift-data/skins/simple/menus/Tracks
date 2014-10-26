@@ -25,7 +25,7 @@ layer = -1
 
 
 [ tooltip ]
-text = gui.tooltip.str
+text = none
 fontsize = 0.03
 left = 0
 right = 0
@@ -47,7 +47,7 @@ height = 0.06
 image = white.png
 onselect = list.scrollr
 onmoveright = list
-onfocus = scroll-rev-lbl.sat:0.56
+onfocus = scroll-rev-lbl.sat:0.56 tooltip.text:"Scroll the list back."
 onblur = scroll-rev-lbl.sat:0.0
 focus = false
 color = 0.172, 0.161, 0.169
@@ -72,7 +72,7 @@ width = 0.04
 image = white.png
 onselect = list.scrollf
 onmoveleft = list
-onfocus = scroll-fwd-lbl.sat:0.56
+onfocus = scroll-fwd-lbl.sat:0.56 tooltip.text:"Scroll the list forward."
 onblur = scroll-fwd-lbl.sat:0.0
 focus = false
 color = 0.172, 0.161, 0.169
@@ -95,7 +95,6 @@ width = 0.04
 
 [ list ]
 image = white.png
-tip = Choose the track to drive on.
 list = game.track
 #vertical = false
 rows = 3
@@ -108,7 +107,7 @@ padding-bottom = 0.01
 onselect = game.track.nth gui.page:SingleRace
 onscrollf = list-txt.scroll:fwd list-img.scroll:fwd
 onscrollr = list-txt.scroll:rev list-img.scroll:rev
-onfocus = list-txt.sat:0.56
+onfocus = list-txt.sat:0.56 tooltip.text:"Choose the track to drive on."
 onblur = list-txt.sat:0.0
 focus = true
 color = 0.172, 0.161, 0.169

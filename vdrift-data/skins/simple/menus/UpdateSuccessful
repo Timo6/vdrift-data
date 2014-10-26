@@ -25,7 +25,7 @@ layer = -1
 
 
 [ tooltip ]
-text = gui.tooltip.str
+text = none
 fontsize = 0.03
 left = 0
 right = 0
@@ -47,9 +47,8 @@ height = 0.06
 text = Back
 fontsize = 0.035
 align = left
-tip = Go back to the Updates page.
 onselect = gui.page:Updates
-onfocus = widget-02b.sat:0.56
+onfocus = widget-02b.sat:0.56 tooltip.text:"Go back to the Updates page."
 onblur = widget-02b.sat:0.0
 focus = true
 hue = 0.56
