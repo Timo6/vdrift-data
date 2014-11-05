@@ -1,0 +1,353 @@
+name = Hud
+onfocus = ContinueGame
+oncancel = PauseGame gui.page:InGameMain
+
+[time-box-0]
+image = white.png
+color = 0.172, 0.161, 0.169
+opacity = 0.5
+left = 0.05
+width = 0.25
+top = 0.041
+height = 0.038
+layer = -1
+
+[time-txt-0]
+text = Lap Time
+fontsize = 0.035
+align = left
+left = 0.06
+width = 0.12
+top = 0.04
+height = 0.04
+
+[time-val-0]
+text = car.cur_lap_time.str
+fontsize = 0.035
+align = left
+left = 0.18
+width = 0.12
+top = 0.04
+height = 0.04
+
+
+[time-box-1]
+image = white.png
+color = 0.172, 0.161, 0.169
+opacity = 0.5
+left = 0.05
+width = 0.25
+top = 0.081
+height = 0.038
+layer = -1
+
+[time-txt-1]
+text = Last Lap
+fontsize = 0.035
+align = left
+left = 0.06
+width = 0.12
+top = 0.08
+height = 0.04
+
+[time-val-1]
+text = car.last_lap_time.str
+fontsize = 0.035
+align = left
+left = 0.18
+width = 0.12
+top = 0.08
+height = 0.04
+
+
+[time-box-2]
+image = white.png
+color = 0.172, 0.161, 0.169
+opacity = 0.5
+left = 0.05
+width = 0.25
+top = 0.121
+height = 0.038
+layer = -1
+
+[time-txt-2]
+text = Best Lap
+fontsize = 0.035
+align = left
+left = 0.06
+width = 0.12
+top = 0.12
+height = 0.04
+
+[time-val-2]
+text = car.best_lap_time.str
+fontsize = 0.035
+align = left
+left = 0.18
+width = 0.12
+top = 0.12
+height = 0.04
+
+
+[pos-box]
+image = white.png
+color = 0.172, 0.161, 0.169
+opacity = 0.5
+right = 0.10
+width = 0.16
+top = 0.041
+height = 0.038
+layer = -1
+
+[pos-txt]
+text = Pos
+fontsize = 0.035
+align = left
+right = 0.17
+width = 0.08
+top = 0.04
+height = 0.04
+
+[pos-val]
+text = car.pos.str
+fontsize = 0.035
+align = right
+right = 0.11
+width = 0.06
+top = 0.04
+height = 0.04
+
+
+[lap-box]
+image = white.png
+color = 0.172, 0.161, 0.169
+opacity = 0.5
+right = 0.10
+width = 0.16
+top = 0.081
+height = 0.038
+layer = -1
+
+[lap-txt]
+text = Lap
+fontsize = 0.035
+align = left
+right = 0.17
+width = 0.08
+top = 0.08
+height = 0.04
+
+[lap-val]
+text = car.lap.str
+fontsize = 0.035
+align = right
+right = 0.11
+width = 0.06
+top = 0.08
+height = 0.04
+
+
+[score-box]
+image = white.png
+color = 0.172, 0.161, 0.169
+opacity = 0.5
+right = 0.10
+width = 0.16
+top = 0.121
+height = 0.038
+layer = -1
+
+[score-txt]
+text = Score
+fontsize = 0.035
+align = left
+right = 0.17
+width = 0.08
+top = 0.12
+height = 0.04
+
+[score-val]
+text = car.score.str
+fontsize = 0.035
+align = right
+right = 0.11
+width = 0.06
+top = 0.12
+height = 0.04
+
+
+[msg-txt]
+text = car.message.str
+fontsize = 0.05
+color = 1.0, 0.0, 0.0
+align = center
+right = 0
+left = 0
+top = 0.25
+height = 0.05
+
+
+[debug-txt-0]
+text = car.debug0.str
+fontsize = 0.03
+align = left
+left = 0.06
+width = 0.19
+top = 0.20
+height = 0.60
+
+
+[debug-txt-1]
+text = car.debug1.str
+fontsize = 0.03
+align = left
+left = 0.26
+width = 0.19
+top = 0.20
+height = 0.60
+
+
+[debug-txt-2]
+text = car.debug2.str
+fontsize = 0.03
+align = left
+left = 0.46
+width = 0.19
+top = 0.20
+height = 0.60
+
+
+[debug-txt-3]
+text = car.debug3.str
+fontsize = 0.03
+align = left
+left = 0.66
+width = 0.19
+top = 0.20
+height = 0.60
+
+
+[rpm-box]
+image = white.png
+color = 0.172, 0.161, 0.169
+opacity = 0.5
+right = 0.10
+width = 0.26
+bottom = 0.152
+height = 0.025
+layer = -1
+
+
+[rpm-val]
+slider = car.rpm.norm
+fill = true
+opacity = 0.8
+right = 0.10
+width = 0.26
+bottom = 0.154
+height = 0.023
+
+
+[gear-box]
+image = white.png
+color = 0.172, 0.161, 0.169
+opacity = 0.5
+right = 0.28
+width = 0.08
+bottom = 0.06
+height = 0.09
+layer = -1
+
+[gear-val]
+text = car.gear.str
+fontsize = 0.10
+hue = 0.0
+sat = car.shift.val
+val = 1.0
+right = 0.28
+width = 0.08
+bottom = 0.06
+height = 0.09
+
+
+[speed-box]
+image = white.png
+color = 0.172, 0.161, 0.169
+opacity = 0.5
+right = 0.10
+width = 0.178
+bottom = 0.089
+height = 0.061
+layer = -1
+
+[speed-val]
+text = car.speed.val
+fontsize = 0.07
+align = right
+right = 0.18
+width = 0.10
+bottom = 0.08
+height = 0.07
+
+[speed-txt]
+text = display.mph.str
+fontsize = 0.035
+align = left
+right = 0.13
+width = 0.04
+bottom = 0.086
+height = 0.04
+
+
+[misc-box]
+image = white.png
+color = 0.172, 0.161, 0.169
+opacity = 0.5
+right = 0.10
+width = 0.178
+bottom = 0.060
+height = 0.027
+layer = -1
+
+[abs-txt]
+text = ABS
+fontsize = 0.027
+#color = 0.0, 1.0, 0.0
+opacity = car.abs.val
+align = center
+right = 0.228
+width = 0.040
+bottom = 0.06
+height = 0.027
+
+[tcs-txt]
+text = TCS
+fontsize = 0.027
+#color = 1.0, 0.77, 0.23
+opacity = car.tcs.val
+align = center
+right = 0.188
+width = 0.040
+bottom = 0.06
+height = 0.027
+
+[gas-txt]
+text = GAS
+fontsize = 0.027
+#color = 1.0, 0.0, 0.0
+opacity = car.gas.val
+align = center
+right = 0.148
+width = 0.040
+bottom = 0.06
+height = 0.027
+
+[nos-txt]
+text = NOS
+fontsize = 0.027
+opacity = car.nos.val
+align = center
+right = 0.108
+width = 0.040
+bottom = 0.06
+height = 0.027
