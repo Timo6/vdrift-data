@@ -202,10 +202,11 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.265
-height = 0.03
+top = 0.26
+height = 0.04
 
 [ ailevel-bar ]
+image = white.png
 slider = game.ai_level.norm
 fill = true
 opacity = 0.0
@@ -463,15 +464,22 @@ top = 0.46
 height = 0.04
 
 [ widget-10b ]
-slider = game.car_color_hue
 onselectx = game.car_color_hue
 onmoveleft = game.car_color_hue.prev
 onmoveright = game.car_color_hue.next
 onmoveup = widget-09b
 onmovedown = widget-11b
-onfocus = widget-10b.sat:0.56 tooltip.text:"Choose the hue for the car."
-onblur = widget-10b.sat:0.0
+onfocus = widget-10c.sat:0.56 tooltip.text:"Choose the hue for the car."
+onblur = widget-10c.sat:0.0
 focus = false
+left = 0.31
+width = 0.28
+top = 0.46
+height = 0.04
+
+[ widget-10c ]
+image = white.png
+slider = game.car_color_hue
 opacity = 0.7
 hue = 0.56
 left = 0.31
@@ -498,15 +506,22 @@ top = 0.50
 height = 0.04
 
 [ widget-11b ]
-slider = game.car_color_sat
 onselectx = game.car_color_sat
 onmoveleft = game.car_color_sat.prev
 onmoveright = game.car_color_sat.next
 onmoveup = widget-10b
 onmovedown = widget-12b
-onfocus = widget-11b.sat:0.56 tooltip.text:"Choose the saturation for the car."
-onblur = widget-11b.sat:0.0
+onfocus = widget-11c.sat:0.56 tooltip.text:"Choose the saturation for the car."
+onblur = widget-11c.sat:0.0
 focus = false
+left = 0.31
+width = 0.28
+top = 0.50
+height = 0.04
+
+[ widget-11c ]
+image = white.png
+slider = game.car_color_sat
 opacity = 0.7
 hue = 0.56
 left = 0.31
@@ -515,7 +530,7 @@ top = 0.505
 height = 0.03
 layer = 1
 
-[ widget-11c ]
+[ widget-11d ]
 image = color_saturation.png
 hue = game.car_color_hue
 sat = 1.0
@@ -525,7 +540,7 @@ width = 0.28
 top = 0.506
 height = 0.028
 
-[ widget-11d ]
+[ widget-11e ]
 image = white.png
 left = 0.31
 width = 0.28
@@ -544,15 +559,22 @@ top = 0.54
 height = 0.04
 
 [ widget-12b ]
-slider = game.car_color_val
 onselectx = game.car_color_val
 onmoveleft = game.car_color_val.prev
 onmoveright = game.car_color_val.next
 onmoveup = widget-11b
 onmovedown = widget-13b
-onfocus = widget-12b.sat:0.56 tooltip.text:"Choose the brightness for the car."
-onblur = widget-12b.sat:0.0
+onfocus = widget-12c.sat:0.56 tooltip.text:"Choose the brightness for the car."
+onblur = widget-12c.sat:0.0
 focus = false
+left = 0.31
+width = 0.28
+top = 0.54
+height = 0.04
+
+[ widget-12c ]
+image = white.png
+slider = game.car_color_val
 opacity = 0.7
 hue = 0.56
 left = 0.31
@@ -561,7 +583,7 @@ top = 0.545
 height = 0.03
 layer = 1
 
-[ widget-12c ]
+[ widget-12d ]
 image = color_value.png
 hue = game.car_color_hue
 sat = game.car_color_sat

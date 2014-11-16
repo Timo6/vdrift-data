@@ -107,10 +107,11 @@ focus = true
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.225
-height = 0.03
+top = 0.22
+height = 0.04
 
 [ widget-01c ]
+image = white.png
 slider = controledit.deadzone.norm
 fill = true
 opacity = 0.0
@@ -153,10 +154,11 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.265
-height = 0.03
+top = 0.26
+height = 0.04
 
 [ widget-02c ]
+image = white.png
 slider = controledit.gain.norm
 fill = true
 opacity = 0.0
@@ -199,10 +201,11 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.305
-height = 0.03
+top = 0.30
+height = 0.04
 
 [ widget-03c ]
+image = white.png
 slider = controledit.exponent.norm
 fill = true
 opacity = 0.0
