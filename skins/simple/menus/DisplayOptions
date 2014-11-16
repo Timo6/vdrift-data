@@ -840,10 +840,11 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.705
-height = 0.03
+top = 0.70
+height = 0.04
 
 [ widget-110c ]
+image = white.png
 slider = display.camerabounce.norm
 fill = true
 opacity = 0.0
@@ -886,12 +887,13 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.745
-height = 0.03
+top = 0.74
+height = 0.04
 
 [ widget-12c ]
 slider = display.contrast.norm
 fill = true
+image = white.png
 opacity = 0.0
 left = 0.31
 width = 0.28
