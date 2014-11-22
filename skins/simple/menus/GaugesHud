@@ -1,4 +1,4 @@
-name = Hud
+name = GaugesHud
 oncancel = PauseGame
 
 
@@ -228,35 +228,91 @@ height = 0.60
 
 
 [rpm-box]
-image = white.png
+image = tachobg.png
 color = 0.172, 0.161, 0.169
 opacity = 0.5
-right = 0.10
-width = 0.26
-bottom = 0.152
-height = 0.025
+center-right = 0.05
+width = 0.2
+bottom = 0.02
+height = 0.2
+layer = -2
+
+[rpm-lbl]
+image = car.tachometer
+ext = .png
+opacity = 0.8
+center-right = 0.05
+width = 0.2
+bottom = 0.02
+height = 0.2
 layer = -1
 
 
-[rpm-val]
-image = white.png
-slider = car.rpm.norm
-fill = true
+[rpm-ptr]
+image = pointer.png
 opacity = 0.8
-right = 0.10
-width = 0.26
-bottom = 0.154
-height = 0.023
+slider = car.rpm.norm
+start-angle = -135
+end-angle = 135
+radius = 0.04
+center-right = 0.143
+width = 0.014
+bottom = 0.11
+height = 0.1
+
+
+[speed-box]
+image = tachobg.png
+color = 0.172, 0.161, 0.169
+opacity = 0.5
+center-left = 0.05
+width = 0.2
+bottom = 0.02
+height = 0.2
+layer = -2
+
+[speed-lbl]
+image = car.speedometer
+ext = .png
+opacity = 0.8
+center-left = 0.05
+width = 0.2
+bottom = 0.02
+height = 0.2
+layer = -1
+
+
+[speed-ptr]
+image = pointer.png
+opacity = 0.8
+slider = car.speed.norm
+start-angle = -135
+end-angle = 135
+radius = 0.04
+center-left = 0.143
+width = 0.014
+bottom = 0.11
+height = 0.1
+
+[speed-txt]
+text = display.mph.str
+fontsize = 0.03
+align = center
+opacity = 0.8
+center-left = 0.13
+width = 0.04
+bottom = 0.06
+height = 0.03
 
 
 [gear-box]
 image = white.png
 color = 0.172, 0.161, 0.169
 opacity = 0.5
-right = 0.28
+center-left = -0.04
 width = 0.08
-bottom = 0.06
-height = 0.09
+bottom = 0.044
+height = 0.12
 layer = -1
 
 [gear-val]
@@ -265,50 +321,12 @@ fontsize = 0.10
 hue = 0.0
 sat = car.shift
 val = 1.0
-right = 0.28
+opacity = 0.8
+center-left = -0.04
 width = 0.08
-bottom = 0.06
+bottom = 0.054
 height = 0.09
 
-
-[speed-box]
-image = white.png
-color = 0.172, 0.161, 0.169
-opacity = 0.5
-right = 0.10
-width = 0.178
-bottom = 0.089
-height = 0.061
-layer = -1
-
-[speed-val]
-text = car.speed
-fontsize = 0.07
-align = right
-right = 0.18
-width = 0.10
-bottom = 0.08
-height = 0.07
-
-[speed-txt]
-text = display.mph.str
-fontsize = 0.035
-align = left
-right = 0.13
-width = 0.04
-bottom = 0.086
-height = 0.04
-
-
-[misc-box]
-image = white.png
-color = 0.172, 0.161, 0.169
-opacity = 0.5
-right = 0.10
-width = 0.178
-bottom = 0.060
-height = 0.027
-layer = -1
 
 [abs-txt]
 text = ABS
@@ -316,9 +334,9 @@ fontsize = 0.027
 #color = 0.0, 1.0, 0.0
 opacity = car.abs
 align = center
-right = 0.228
-width = 0.040
-bottom = 0.06
+center-right = 0.0
+width = 0.04
+bottom = 0.134
 height = 0.027
 
 [tcs-txt]
@@ -327,9 +345,9 @@ fontsize = 0.027
 #color = 1.0, 0.77, 0.23
 opacity = car.tcs
 align = center
-right = 0.188
-width = 0.040
-bottom = 0.06
+center-left = 0.0
+width = 0.04
+bottom = 0.134
 height = 0.027
 
 [gas-txt]
@@ -338,9 +356,9 @@ fontsize = 0.027
 #color = 1.0, 0.0, 0.0
 opacity = car.gas
 align = center
-right = 0.148
-width = 0.040
-bottom = 0.06
+center-right = 0.0
+width = 0.04
+bottom = 0.044
 height = 0.027
 
 [nos-txt]
@@ -348,7 +366,7 @@ text = NOS
 fontsize = 0.027
 opacity = car.nos
 align = center
-right = 0.108
-width = 0.040
-bottom = 0.06
+center-left = 0.0
+width = 0.04
+bottom = 0.044
 height = 0.027
