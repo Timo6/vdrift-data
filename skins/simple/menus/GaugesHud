@@ -375,9 +375,9 @@ height = 0.027
 
 [steering-box]
 image = steeringbox.png
-hue = 0.1
-sat = 0.6
-opacity = 0.6
+sat = 0.0
+val = 0.4
+opacity = 0.7
 visible = display.input_graph
 center-left = -0.16
 width = 0.32
@@ -387,7 +387,7 @@ layer = -1
 
 [steering-val]
 image = white.png
-opacity = 0.8
+opacity = 0.7
 visible = display.input_graph
 slider = car.steering
 center-left = 0.0
