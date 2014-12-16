@@ -383,10 +383,11 @@ focus = false
 hue = 0.56
 left = 0.31
 width = 0.28
-top = 0.465
-height = 0.03
+top = 0.46
+height = 0.04
 
 [ ailevel-bar ]
+image = white.png
 slider = game.ai_level.norm
 fill = true
 opacity = 0.0

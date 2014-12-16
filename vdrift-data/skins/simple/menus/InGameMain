@@ -1,5 +1,5 @@
 name = InGameMenu
-oncancel = ReturnToGame
+oncancel = ContinueGame
 
 
 [ bg-top ]
@@ -47,7 +47,7 @@ height = 0.06
 text = Continue
 fontsize = 0.035
 align = left
-onselect = ReturnToGame
+onselect = ContinueGame
 onmoveup = widget-05
 onmovedown = widget-02
 onfocus = widget-01.sat:0.56 tooltip.text:"Leave the menu and continue the game."
