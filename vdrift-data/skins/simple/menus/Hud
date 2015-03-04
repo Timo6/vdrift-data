@@ -422,3 +422,13 @@ center-left = 0.001
 width = 0.119
 bottom = 0.060
 height = 0.025
+
+
+[fps-val]
+text = game.fps
+fontsize = 0.035
+visible = display.show_fps
+center-left = -0.04
+width = 0.08
+top = 0.04
+height = 0.04
