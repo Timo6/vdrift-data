@@ -1,0 +1,19 @@
+name = Loading
+
+[ widget-01 ]
+image = white.png
+slider = game.loading
+fill = true
+left = 0.25
+right = 0.25
+top = 0.68
+height = 0.04
+
+[ widget-02 ]
+image = white.png
+val = 0.4
+left = 0.25
+right = 0.25
+top = 0.68
+height = 0.04
+layer = -1
