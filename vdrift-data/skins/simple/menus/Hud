@@ -361,10 +361,10 @@ sat = 0.0
 val = 0.4
 opacity = 0.7
 visible = display.input_graph
-center-left = -0.12
-width = 0.24
-bottom = 0.087
-height = 0.025
+center-left = -0.16
+width = 0.32
+top = 0.076
+height = 0.033
 layer = -1
 
 [steering-val]
@@ -373,9 +373,9 @@ opacity = 0.7
 visible = display.input_graph
 slider = car.steering
 center-left = 0.0
-width = 0.12
-bottom = 0.087
-height = 0.025
+width = 0.16
+top = 0.076
+height = 0.033
 
 
 [brake-box]
@@ -383,10 +383,10 @@ image = white.png
 color = 0.172, 0.161, 0.169
 opacity = 0.5
 visible = display.input_graph
-center-right = 0.12
-width = -0.119
-bottom = 0.060
-height = 0.025
+center-right = 0.16
+width = -0.158
+top = 0.041
+height = 0.033
 layer = -1
 
 [brake-val]
@@ -395,10 +395,10 @@ opacity = 0.8
 visible = display.input_graph
 slider = car.brake
 fill = true
-center-right = 0.12
-width = -0.119
-bottom = 0.060
-height = 0.025
+center-right = 0.16
+width = -0.158
+top = 0.041
+height = 0.033
 
 
 [throttle-box]
@@ -406,10 +406,10 @@ image = white.png
 color = 0.172, 0.161, 0.169
 opacity = 0.5
 visible = display.input_graph
-center-left = 0.001
-width = 0.119
-bottom = 0.060
-height = 0.025
+center-left = 0.002
+width = 0.158
+top = 0.041
+height = 0.033
 layer = -1
 
 [throttle-val]
@@ -418,10 +418,10 @@ opacity = 0.8
 visible = display.input_graph
 slider = car.throttle
 fill = true
-center-left = 0.001
-width = 0.119
-bottom = 0.060
-height = 0.025
+center-left = 0.002
+width = 0.158
+top = 0.041
+height = 0.033
 
 
 [fps-val]
@@ -430,5 +430,5 @@ fontsize = 0.035
 visible = display.show_fps
 center-left = -0.04
 width = 0.08
-top = 0.04
+top = 0.12
 height = 0.04
