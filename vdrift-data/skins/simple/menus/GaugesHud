@@ -260,6 +260,16 @@ width = 0.014
 bottom = 0.11
 height = 0.1
 
+[rpm-txt]
+text = rpm
+fontsize = 0.03
+align = center
+opacity = 0.8
+center-right = 0.13
+width = 0.04
+bottom = 0.06
+height = 0.03
+
 
 [speed-box]
 image = tachobg.png
@@ -312,64 +322,74 @@ opacity = 0.5
 center-left = -0.04
 width = 0.08
 bottom = 0.044
-height = 0.12
+height = 0.090
 layer = -1
 
 [gear-val]
 text = car.gear
-fontsize = 0.10
+fontsize = 0.11
 hue = 0.0
 sat = car.shift
 val = 1.0
 opacity = 0.8
 center-left = -0.04
 width = 0.08
-bottom = 0.054
-height = 0.09
+bottom = 0.036
+height = 0.10
 
+
+[abs-box]
+image = white.png
+color = 0.172, 0.161, 0.169
+opacity = 0.5
+center-left = -0.04
+width = 0.08
+bottom = 0.136
+height = 0.044
+layer = -1
 
 [abs-txt]
 text = ABS
-fontsize = 0.027
+fontsize = 0.025
 #color = 0.0, 1.0, 0.0
 opacity = car.abs
 align = center
 center-right = 0.0
 width = 0.04
-bottom = 0.134
-height = 0.027
+bottom = 0.154
+height = 0.025
 
 [tcs-txt]
 text = TCS
-fontsize = 0.027
+fontsize = 0.025
 #color = 1.0, 0.77, 0.23
 opacity = car.tcs
 align = center
 center-left = 0.0
 width = 0.04
-bottom = 0.134
-height = 0.027
+bottom = 0.154
+height = 0.025
 
 [gas-txt]
 text = GAS
-fontsize = 0.027
+fontsize = 0.025
 #color = 1.0, 0.0, 0.0
 opacity = car.gas
 align = center
 center-right = 0.0
 width = 0.04
-bottom = 0.044
-height = 0.027
+bottom = 0.135
+height = 0.025
 
 [nos-txt]
 text = NOS
-fontsize = 0.027
+fontsize = 0.025
 opacity = car.nos
 align = center
 center-left = 0.0
 width = 0.04
-bottom = 0.044
-height = 0.027
+bottom = 0.135
+height = 0.025
 
 # input graph
 
