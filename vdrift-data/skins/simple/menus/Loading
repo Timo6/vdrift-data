@@ -4,16 +4,17 @@ name = Loading
 image = white.png
 slider = game.loading
 fill = true
-left = 0.25
-right = 0.25
+opacity = 0.8
+left = 0.2
+right = 0.2
 top = 0.68
-height = 0.04
+height = 0.02
 
 [ widget-02 ]
 image = white.png
 val = 0.4
-left = 0.25
-right = 0.25
+left = 0.2
+right = 0.2
 top = 0.68
-height = 0.04
+height = 0.02
 layer = -1
