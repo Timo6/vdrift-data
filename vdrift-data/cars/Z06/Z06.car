@@ -2,6 +2,7 @@
 [engine]
 position = 0.0, 1.1, -0.25
 mass = 200.0
+displacement = 7.0E-3
 max-power = 373000
 peak-engine-rpm = 6000.0
 rpm-limit = 6500.0

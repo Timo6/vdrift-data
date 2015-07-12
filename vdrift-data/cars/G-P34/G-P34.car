@@ -15,7 +15,7 @@
 # http://8w.forix.com/sixwheelers.html
 # 1976 max. 575kg
 
-# Tyrell P34 Engine
+# Tyrrell P34 Engine
 # http://www.research-racing.de/cosworth07-3.htm
 # mass = 168 kg
 # max-power = about 485 hp / 357 kW at 11000rpm
@@ -26,6 +26,7 @@
 [engine]
 position = 0.0, -0.50, -0.24
 mass = 140.0
+displacement = 3.0E-3
 max-power = 633844
 peak-engine-rpm = 10500.0
 rpm-limit = 11000.0
