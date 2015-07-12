@@ -5,6 +5,7 @@ position = 0.0, 1.342, -0.113
 mass = 180.0
 mesh = engine.joe
 texture = engine.png
+displacement = 3.2E-3
 max-power = 184E3
 peak-engine-rpm = 6300.0
 rpm-limit = 6600.0

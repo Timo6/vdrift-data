@@ -10,6 +10,7 @@
 position = 0.245, -0.339, -0.032
 mass = 15.0
 inertia = 0.1
+displacement = 0.125E-3
 max-power = 29828
 fuel-consumption = 1E-6
 stall-rpm = 1000
