@@ -42,7 +42,6 @@ torque-curve-07 = 7000, 172
 torque-curve-08 = 8000, 168
 torque-curve-09 = 9000, 150
 torque-curve-10 = 10000, 100
-torque-friction = 0.0003
 
 [fuel-tank]
 capacity = 0.0492

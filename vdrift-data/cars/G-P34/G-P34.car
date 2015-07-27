@@ -35,7 +35,6 @@ idle = 0.08
 start-rpm = 4000
 stall-rpm = 2500
 fuel-consumption = 6e-9
-torque-friction = 0.0001
 torque-curve-00 = 2000, 200
 torque-curve-01 = 3000, 280
 torque-curve-02 = 4000, 290
