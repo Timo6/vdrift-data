@@ -17,7 +17,6 @@ stall-rpm = 1000
 start-rpm = 3000
 peak-engine-rpm = 14000
 rpm-limit = 16000
-torque-friction = 0.003
 torque-curve-01 = 1000, 32.55
 torque-curve-00 = 3000, 33.17
 torque-curve-01 = 5000, 33.83

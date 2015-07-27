@@ -10,7 +10,6 @@ idle = 0.025
 start-rpm = 800
 stall-rpm = 400
 fuel-consumption = 0.00001
-torque-friction = 0.0005
 torque-curve-00 = 726, 122.8
 torque-curve-01 = 1341, 134.6
 torque-curve-02 = 2013, 143.5
