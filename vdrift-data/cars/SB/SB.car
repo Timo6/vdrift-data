@@ -100,24 +100,24 @@ anti-roll = 20000
 
 [wheel.fl.brake]
 texture = rotor_worn.png
-friction = 0.73
-max-pressure = 1.6e6
+friction = 0.4
+max-pressure = 5.0e6
 bias = 0.55
 radius = 0.12
 area = 0.013
 
 [wheel.fr.brake]
 texture = rotor_worn.png
-friction = 0.73
-max-pressure = 1.6e6
+friction = 0.4
+max-pressure = 5.0e6
 bias = 0.55
 radius = 0.12
 area = 0.013
 
 [wheel.rl.brake]
 texture = rotor_worn.png
-friction = 0.73
-max-pressure = 1.4e6
+friction = 0.4
+max-pressure = 5.0e6
 bias = 0.45
 radius = 0.12
 area = 0.013
@@ -125,8 +125,8 @@ handbrake = 1.0
 
 [wheel.rr.brake]
 texture = rotor_worn.png
-friction = 0.73
-max-pressure = 1.4e6
+friction = 0.4
+max-pressure = 5.0e6
 bias = 0.45
 radius = 0.12
 area = 0.013

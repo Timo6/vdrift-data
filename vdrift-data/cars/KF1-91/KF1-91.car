@@ -88,30 +88,30 @@ anti-roll = 0
 
 [wheel.fl.brake]
 friction = 0.5
-max-pressure = 2.0E5
-bias = 0.60
+max-pressure = 3.0E5
+bias = 0.55
 radius = 0.1
 area = 0.03
 
 [wheel.fr.brake]
 friction = 0.5
-max-pressure = 2.0E5
-bias = 0.60
+max-pressure = 3.0E5
+bias = 0.55
 radius = 0.1
 area = 0.03
 
 [wheel.rl.brake]
 friction = 0.5
-max-pressure = 2.0E5
-bias = 0.40
+max-pressure = 3.0E5
+bias = 0.45
 radius = 0.1
 area = 0.03
 handbrake = 1.0
 
 [wheel.rr.brake]
 friction = 0.5
-max-pressure = 2.0E5
-bias = 0.40
+max-pressure = 3.0E5
+bias = 0.45
 radius = 0.1
 area = 0.03
 handbrake = 1.0
