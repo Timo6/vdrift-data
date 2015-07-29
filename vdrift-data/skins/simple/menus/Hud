@@ -189,42 +189,42 @@ height = 0.05
 
 [debug-txt-0]
 text = car.debug0
-fontsize = 0.03
+fontsize = 0.025
 align = left
 left = 0.06
-width = 0.19
-top = 0.20
-height = 0.60
+width = 0.28
+top = 0.16
+height = 0.03
 
 
 [debug-txt-1]
 text = car.debug1
-fontsize = 0.03
+fontsize = 0.025
 align = left
-left = 0.26
-width = 0.19
-top = 0.20
-height = 0.60
+left = 0.35
+width = 0.28
+top = 0.16
+height = 0.03
 
 
 [debug-txt-2]
 text = car.debug2
-fontsize = 0.03
+fontsize = 0.025
 align = left
-left = 0.46
-width = 0.19
-top = 0.20
-height = 0.60
+left = 0.64
+width = 0.28
+top = 0.16
+height = 0.03
 
 
 [debug-txt-3]
 text = car.debug3
-fontsize = 0.03
+fontsize = 0.025
 align = left
-left = 0.66
-width = 0.19
-top = 0.20
-height = 0.60
+left = 0.93
+width = 0.28
+top = 0.16
+height = 0.03
 
 
 [rpm-box]
