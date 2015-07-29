@@ -101,31 +101,31 @@ travel = 0.13
 anti-roll = 8000.0
 
 [wheel.fl.brake]
-friction = 0.6
-max-pressure = 2.9e6
-bias = 0.6
+friction = 0.4
+max-pressure = 7.2e6
+bias = 0.63
 radius = 0.1375
 area = 0.01
 
 [wheel.fr.brake]
-friction = 0.6
-max-pressure = 2.9e6
-bias = 0.6
+friction = 0.4
+max-pressure = 7.2e6
+bias = 0.63
 radius = 0.1375
 area = 0.01
 
 [wheel.rl.brake]
-friction = 0.6
-max-pressure = 2.6e6
-bias = 0.4
+friction = 0.4
+max-pressure = 7.2e6
+bias = 0.37
 radius = 0.12
 area = 0.01
 handbrake = 2.0
 
 [wheel.rr.brake]
-friction = 0.6
-max-pressure = 2.6e6
-bias = 0.4
+friction = 0.4
+max-pressure = 7.2e6
+bias = 0.37
 radius = 0.12
 area = 0.01
 handbrake = 2.0

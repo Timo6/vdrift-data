@@ -110,34 +110,34 @@ anti-roll = 20000
 
 [wheel.fl.brake]
 texture = rotor_shiny_slotted_drilled.png
-friction = 1.33
-max-pressure = 2.0e6
-bias = 0.57
+friction = 0.5
+max-pressure = 5.5e6
+bias = 0.6
 radius = 0.14
 area = 0.015
 
 [wheel.fr.brake]
 texture = rotor_shiny_slotted_drilled.png
-friction = 1.33
-max-pressure = 2.0e6
-bias = 0.57
+friction = 0.5
+max-pressure = 5.5e6
+bias = 0.6
 radius = 0.14
 area = 0.015
 
 [wheel.rl.brake]
 texture = rotor_shiny_slotted_drilled.png
-friction = 1.33
-max-pressure = 2.0e6
-bias = 0.43
+friction = 0.5
+max-pressure = 5.5e6
+bias = 0.4
 radius = 0.14
 area = 0.015
 handbrake = 1.0
 
 [wheel.rr.brake]
 texture = rotor_shiny_slotted_drilled.png
-friction = 1.33
-max-pressure = 2.0e6
-bias = 0.43
+friction = 0.5
+max-pressure = 5.5e6
+bias = 0.4
 radius = 0.14
 area = 0.015
 handbrake = 1.0

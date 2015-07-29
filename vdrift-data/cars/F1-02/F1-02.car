@@ -179,30 +179,30 @@ travel = 0.09				## Federweg
 anti-roll = 0				## Stabilisator
 
 [wheel.fl.brake]
-friction = 1.40
-max-pressure = 3.0e6
+friction = 0.7
+max-pressure = 6.0e6
 bias = 0.60
 radius = 0.15
 area = 0.025
 
 [wheel.fr.brake]
-friction = 1.40
-max-pressure = 3.0e6
+friction = 0.7
+max-pressure = 6.0e6
 bias = 0.60
 radius = 0.15
 area = 0.025
 
 [wheel.rl.brake]
-friction = 1.40
-max-pressure = 3.0e6
+friction = 0.7
+max-pressure = 6.0e6
 bias = 0.40
 radius = 0.14
 area = 0.015
 handbrake = 1.0
 
 [wheel.rr.brake]
-friction = 1.40
-max-pressure = 3.0e6
+friction = 0.7
+max-pressure = 6.0e6
 bias = 0.40
 radius = 0.14
 area = 0.015

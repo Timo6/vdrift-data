@@ -105,24 +105,24 @@ anti-roll = 7000
 
 [wheel.fl.brake]
 texture = rotor_carbon_ceramic.png
-friction = 1.40
-max-pressure = 2.5e6
+friction = 0.7
+max-pressure = 5.0e6
 bias = 0.61
 radius = 0.17
 area = 0.02
 
 [wheel.fr.brake]
 texture = rotor_carbon_ceramic.png
-friction = 1.40
-max-pressure = 2.5e6
+friction = 0.7
+max-pressure = 5.0e6
 bias = 0.61
 radius = 0.17
 area = 0.02
 
 [wheel.rl.brake]
 texture = rotor_carbon_ceramic.png
-friction = 1.40
-max-pressure = 2.5e6
+friction = 0.7
+max-pressure = 5.0e6
 bias = 0.39
 radius = 0.14
 area = 0.015
@@ -130,8 +130,8 @@ handbrake = 1.0
 
 [wheel.rr.brake]
 texture = rotor_carbon_ceramic.png
-friction = 1.40
-max-pressure = 2.5e6
+friction = 0.7
+max-pressure = 5.0e6
 bias = 0.39
 radius = 0.14
 area = 0.015
