@@ -151,7 +151,7 @@ height = 0.04
 [ widget-02c ]
 image = white.png
 slider = sound.volume
-fill = true
+fill = lower
 opacity = 0.0
 left = 0.31
 width = 0.28
@@ -198,7 +198,7 @@ height = 0.04
 [ widget-03c ]
 image = white.png
 slider = sound.music_volume
-fill = true
+fill = lower
 opacity = 0.0
 left = 0.31
 width = 0.28

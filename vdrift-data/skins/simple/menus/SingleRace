@@ -389,7 +389,7 @@ height = 0.04
 [ ailevel-bar ]
 image = white.png
 slider = game.ai_level.norm
-fill = true
+fill = lower
 opacity = 0.0
 left = 0.31
 width = 0.28
