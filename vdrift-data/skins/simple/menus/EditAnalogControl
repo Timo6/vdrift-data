@@ -113,7 +113,7 @@ height = 0.04
 [ widget-01c ]
 image = white.png
 slider = controledit.deadzone.norm
-fill = true
+fill = lower
 opacity = 0.0
 left = 0.31
 width = 0.28
@@ -160,7 +160,7 @@ height = 0.04
 [ widget-02c ]
 image = white.png
 slider = controledit.gain.norm
-fill = true
+fill = lower
 opacity = 0.0
 left = 0.31
 width = 0.28
@@ -207,7 +207,7 @@ height = 0.04
 [ widget-03c ]
 image = white.png
 slider = controledit.exponent.norm
-fill = true
+fill = lower
 opacity = 0.0
 left = 0.31
 width = 0.28

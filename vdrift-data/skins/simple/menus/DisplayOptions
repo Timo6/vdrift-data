@@ -846,7 +846,7 @@ height = 0.04
 [ widget-110c ]
 image = white.png
 slider = display.camerabounce.norm
-fill = true
+fill = lower
 opacity = 0.0
 left = 0.31
 width = 0.28
@@ -892,7 +892,7 @@ height = 0.04
 
 [ widget-12c ]
 slider = display.contrast.norm
-fill = true
+fill = lower
 image = white.png
 opacity = 0.0
 left = 0.31
