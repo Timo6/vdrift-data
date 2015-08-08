@@ -235,6 +235,21 @@ center-right = 0.05
 width = 0.2
 bottom = 0.02
 height = 0.2
+layer = -3
+
+[rpm-red]
+image = white.png
+color = 1.0, 0.0, 0.0
+opacity = 0.6
+slider = car.rpm.red
+fill = upper
+start-angle = -135
+end-angle = 135
+radius = 0.096
+center-right = 0.143
+width = 0.014
+bottom = 0.212
+height = 0.008
 layer = -2
 
 [rpm-lbl]
