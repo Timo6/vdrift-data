@@ -227,131 +227,143 @@ top = 0.16
 height = 0.03
 
 
-[rpm-box]
-image = white.png
+# dashboard
+
+[rpm-boxa]
+image = tachobg.png
+image-rect = 0, 0, 1, 0.5
 color = 0.172, 0.161, 0.169
 opacity = 0.5
-right = 0.05
-width = 0.26
-bottom = 0.152
-height = 0.025
-layer = -1
+right = 0.10
+width = 0.20
+bottom = 0.14
+height = 0.1
+layer = -3
 
+[rpm-boxb]
+image = tachobg.png
+image-rect = 0, 0.5, 1, 0
+color = 0.172, 0.161, 0.169
+opacity = 0.5
+right = 0.10
+width = 0.20
+bottom = 0.04
+height = 0.1
+layer = -3
+
+[rpm-gray]
+image = white.png
+val = 0.5
+opacity = 0.7
+slider = car.rpm.red
+fill = lower
+start-angle = -135
+end-angle = 135
+radius = 0.092
+right = 0.10
+width = 0.20
+bottom = 0.224
+height = 0.016
+layer = -2
+
+[rpm-red]
+image = white.png
+color = 1.0, 0.0, 0.0
+opacity = 0.7
+slider = car.rpm.red
+fill = upper
+start-angle = -135
+end-angle = 135
+radius = 0.092
+right = 0.10
+width = 0.20
+bottom = 0.224
+height = 0.016
+layer = 0
 
 [rpm-val]
 image = white.png
+opacity = 0.8
 slider = car.rpm.norm
 fill = lower
-opacity = 0.8
-right = 0.05
-width = 0.26
-bottom = 0.153
-height = 0.023
-
-
-[gear-box]
-image = white.png
-color = 0.172, 0.161, 0.169
-opacity = 0.5
-right = 0.23
-width = 0.08
-bottom = 0.06
-height = 0.09
+start-angle = -135
+end-angle = 135
+radius = 0.092
+right = 0.10
+width = 0.20
+bottom = 0.224
+height = 0.016
 layer = -1
 
 [gear-val]
 text = car.gear
-fontsize = 0.10
+fontsize = 0.11
 hue = 0.0
 sat = car.shift
 val = 1.0
-right = 0.23
-width = 0.08
-bottom = 0.06
-height = 0.09
-
-
-[speed-box]
-image = white.png
-color = 0.172, 0.161, 0.169
-opacity = 0.5
-right = 0.05
-width = 0.178
-bottom = 0.089
-height = 0.061
-layer = -1
+right = 0.10
+width = 0.20
+bottom = 0.115
+height = 0.10
 
 [speed-val]
 text = car.speed
 fontsize = 0.07
-align = right
-right = 0.13
-width = 0.10
-bottom = 0.08
+#align = right
+right = 0.10
+width = 0.20
+bottom = 0.06
 height = 0.07
 
 [speed-txt]
 text = display.mph.str
-fontsize = 0.035
-align = left
-right = 0.08
-width = 0.04
-bottom = 0.086
-height = 0.04
-
-
-[misc-box]
-image = white.png
-color = 0.172, 0.161, 0.169
-opacity = 0.5
-right = 0.05
-width = 0.178
-bottom = 0.060
-height = 0.027
-layer = -1
+fontsize = 0.03
+align = center
+right = 0.10
+width = 0.20
+bottom = 0.045
+height = 0.03
 
 [abs-txt]
 text = ABS
-fontsize = 0.027
-#color = 0.0, 1.0, 0.0
+fontsize = 0.025
 opacity = car.abs
 align = center
-right = 0.178
-width = 0.040
-bottom = 0.06
-height = 0.027
+right = 0.225
+width = 0.04
+bottom = 0.16
+height = 0.025
 
 [tcs-txt]
 text = TCS
-fontsize = 0.027
-#color = 1.0, 0.77, 0.23
+fontsize = 0.025
 opacity = car.tcs
 align = center
-right = 0.138
-width = 0.040
-bottom = 0.06
-height = 0.027
+right = 0.225
+width = 0.04
+bottom = 0.135
+height = 0.025
 
 [gas-txt]
 text = GAS
-fontsize = 0.027
-#color = 1.0, 0.0, 0.0
+fontsize = 0.025
 opacity = car.gas
 align = center
-right = 0.098
-width = 0.040
-bottom = 0.06
-height = 0.027
+right = 0.135
+width = 0.04
+bottom = 0.16
+height = 0.025
 
 [nos-txt]
 text = NOS
-fontsize = 0.027
+fontsize = 0.025
 opacity = car.nos
 align = center
-right = 0.058
-width = 0.040
-bottom = 0.06
-height = 0.027
+right = 0.135
+width = 0.04
+bottom = 0.135
+height = 0.025
+
 
 # input graph
 
