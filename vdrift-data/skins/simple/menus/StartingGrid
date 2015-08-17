@@ -75,113 +75,16 @@ top = 0.18
 height = 0.32
 
 
-[ start-pos-1 ]
-text = 1
+[ start-pos ]
+text = game.startlist
 fontsize = 0.03
 align = right
+rows = 12
+cols = 1
 left = 0.01
 width = 0.28
 top = 0.18
-height = 0.04
-
-[ start-pos-2 ]
-text = 2
-fontsize = 0.03
-align = right
-left = 0.01
-width = 0.28
-top = 0.22
-height = 0.04
-
-[ start-pos-3 ]
-text = 3
-fontsize = 0.03
-align = right
-left = 0.01
-width = 0.28
-top = 0.26
-height = 0.04
-
-[ start-pos-4 ]
-text = 4
-fontsize = 0.03
-align = right
-left = 0.01
-width = 0.28
-top = 0.30
-height = 0.04
-
-[ start-pos-5 ]
-text = 5
-fontsize = 0.03
-align = right
-left = 0.01
-width = 0.28
-top = 0.34
-height = 0.04
-
-[ start-pos-6 ]
-text = 6
-fontsize = 0.03
-align = right
-left = 0.01
-width = 0.28
-top = 0.38
-height = 0.04
-
-[ start-pos-7 ]
-text = 7
-fontsize = 0.03
-align = right
-left = 0.01
-width = 0.28
-top = 0.42
-height = 0.04
-
-[ start-pos-8 ]
-text = 8
-fontsize = 0.03
-align = right
-left = 0.01
-width = 0.28
-top = 0.46
-height = 0.04
-
-[ start-pos-9 ]
-text = 9
-fontsize = 0.03
-align = right
-left = 0.01
-width = 0.28
-top = 0.50
-height = 0.04
-
-[ start-pos-10 ]
-text = 10
-fontsize = 0.03
-align = right
-left = 0.01
-width = 0.28
-top = 0.54
-height = 0.04
-
-[ start-pos-11 ]
-text = 11
-fontsize = 0.03
-align = right
-left = 0.01
-width = 0.28
-top = 0.58
-height = 0.04
-
-[ start-pos-12 ]
-text = 12
-fontsize = 0.03
-align = right
-left = 0.01
-width = 0.28
-top = 0.62
-height = 0.04
+height = 0.48
 
 
 [ start-list ]
