@@ -759,3 +759,38 @@ width = 0.30
 top = 0.701
 height = 0.038
 layer = -1
+
+
+[ specs-bg ]
+image = white.png
+color = 0.172, 0.161, 0.169
+opacity = 0.5
+right = 0.008
+width = 0.30
+top = 0.18
+height = 0.32
+layer = -1
+
+[ specs-labels ]
+text = game.car_specs.str
+fontsize = 0.03
+align = left
+list = game.car_specs
+rows = 8
+cols = 1
+right = 0.10
+width = 0.20
+top = 0.18
+height = 0.32
+
+[ specs-values ]
+text = game.car_specs
+fontsize = 0.03
+align = right
+list = game.car_specs
+rows = 8
+cols = 1
+right = 0.02
+width = 0.09
+top = 0.18
+height = 0.32
