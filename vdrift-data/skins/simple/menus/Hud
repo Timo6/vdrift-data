@@ -252,47 +252,47 @@ height = 0.1
 layer = -3
 
 [rpm-gray]
+slider-max = car.rpm.red
+slider-min = 0
+start-angle = -135
+end-angle = 135
+radius = 0.092
 image = white.png
 val = 0.5
 opacity = 0.7
-slider = car.rpm.red
-fill = lower
-start-angle = -135
-end-angle = 135
-radius = 0.092
 right = 0.10
 width = 0.20
-bottom = 0.224
-height = 0.016
+bottom = 0.04
+height = 0.20
 layer = -2
 
 [rpm-red]
+slider-min = car.rpm.red
+slider-max = 1
+start-angle = -135
+end-angle = 135
+radius = 0.092
 image = white.png
 color = 1.0, 0.0, 0.0
 opacity = 0.7
-slider = car.rpm.red
-fill = upper
-start-angle = -135
-end-angle = 135
-radius = 0.092
 right = 0.10
 width = 0.20
-bottom = 0.224
-height = 0.016
+bottom = 0.04
+height = 0.20
 layer = 0
 
 [rpm-val]
-image = white.png
-opacity = 0.8
-slider = car.rpm.norm
-fill = lower
+slider-max = car.rpm.norm
+slider-min = 0
 start-angle = -135
 end-angle = 135
 radius = 0.092
+image = white.png
+opacity = 0.8
 right = 0.10
 width = 0.20
-bottom = 0.224
-height = 0.016
+bottom = 0.04
+height = 0.20
 layer = -1
 
 [gear-val]
@@ -380,10 +380,12 @@ height = 0.033
 layer = -1
 
 [steering-val]
+slider = car.steering
+slider-min = -0.03
+slider-max = 0.03
 image = white.png
 opacity = 0.7
 visible = display.input_graph
-slider = car.steering
 center-left = 0.0
 width = 0.16
 top = 0.076
@@ -402,11 +404,11 @@ height = 0.033
 layer = -1
 
 [brake-val]
+slider-max = car.brake
+slider-min = 0
 image = white.png
 opacity = 0.8
 visible = display.input_graph
-slider = car.brake
-fill = lower
 center-right = 0.16
 width = -0.158
 top = 0.041
@@ -425,11 +427,11 @@ height = 0.033
 layer = -1
 
 [throttle-val]
+slider-max = car.throttle
+slider-min = 0
 image = white.png
 opacity = 0.8
 visible = display.input_graph
-slider = car.throttle
-fill = lower
 center-left = 0.002
 width = 0.158
 top = 0.041

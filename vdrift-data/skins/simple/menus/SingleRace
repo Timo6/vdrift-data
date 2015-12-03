@@ -387,9 +387,9 @@ top = 0.46
 height = 0.04
 
 [ ailevel-bar ]
+slider-max = game.ai_level.norm
+slider-min = 0
 image = white.png
-slider = game.ai_level.norm
-fill = lower
 opacity = 0.0
 left = 0.31
 width = 0.28
