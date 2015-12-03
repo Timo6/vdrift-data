@@ -263,9 +263,9 @@ top = 0.30
 height = 0.04
 
 [ widget-04c ]
+slider-max = joystick.ff_gain.norm
+slider-min = 0
 image = white.png
-slider = joystick.ff_gain.norm
-fill = lower
 opacity = 0.0
 left = 0.34
 width = 0.28
@@ -310,9 +310,9 @@ top = 0.34
 height = 0.04
 
 [ widget-05c ]
+slider-max = control.speed_sens_steering.norm
+slider-min = 0
 image = white.png
-slider = control.speed_sens_steering.norm
-fill = lower
 opacity = 0.0
 left = 0.34
 width = 0.28

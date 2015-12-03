@@ -149,9 +149,9 @@ top = 0.22
 height = 0.04
 
 [ widget-02c ]
+slider-max = sound.volume
+slider-min = 0
 image = white.png
-slider = sound.volume
-fill = lower
 opacity = 0.0
 left = 0.31
 width = 0.28
@@ -196,9 +196,9 @@ top = 0.26
 height = 0.04
 
 [ widget-03c ]
+slider-max = sound.music_volume
+slider-min = 0
 image = white.png
-slider = sound.music_volume
-fill = lower
 opacity = 0.0
 left = 0.31
 width = 0.28

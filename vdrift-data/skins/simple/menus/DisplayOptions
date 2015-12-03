@@ -844,9 +844,9 @@ top = 0.70
 height = 0.04
 
 [ widget-110c ]
+slider-max = display.camerabounce.norm
+slider-min = 0
 image = white.png
-slider = display.camerabounce.norm
-fill = lower
 opacity = 0.0
 left = 0.31
 width = 0.28
@@ -891,8 +891,8 @@ top = 0.74
 height = 0.04
 
 [ widget-12c ]
-slider = display.contrast.norm
-fill = lower
+slider-max = display.contrast.norm
+slider-min = 0
 image = white.png
 opacity = 0.0
 left = 0.31

@@ -1,9 +1,9 @@
 name = Loading
 
 [ widget-01 ]
+slider-max = game.loading
+slider-min = 0
 image = white.png
-slider = game.loading
-fill = lower
 opacity = 0.8
 left = 0.2
 right = 0.2
