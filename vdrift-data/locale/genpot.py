@@ -38,16 +38,25 @@ for filename in locate(path):
 	line = file.readline()
 	lineid = 1
 	while line != '':
-		if line.startswith('text') or line.startswith('tip') :
+		if line.startswith('text'):
 			namevalue = line.split('=')
 			if len(namevalue) == 2:
 				value = namevalue[1].strip();
-				if not value.endswith('.str') and value != "none":
+				if not value.endswith('.str') and value != 'none' and not value.startswith('car.') and not value.startswith('game.'):
 					info = '#: ' + filename.replace('\\', '/') + ':' + str(lineid) + '\n'
 					if value not in strings:
 						strings[value] = info
 					else:
 						strings[value] = strings[value] + info
+		elif line.startswith('on'):
+			values = line.split(':"')
+			if len(values) == 2:
+				value = values[1].rstrip('"\n');
+				info = '#: ' + filename.replace('\\', '/') + ':' + str(lineid) + '\n'
+				if value not in strings:
+					strings[value] = info
+				else:
+					strings[value] = strings[value] + info
 		line = file.readline()
 		lineid = lineid + 1
 	file.close()
