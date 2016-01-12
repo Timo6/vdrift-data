@@ -4,7 +4,7 @@ rolling-resistance = 1.3e-2, 6.5e-6
 # Lateral force
 a0=1.55
 a1=-55
-a2=1750
+a2=1450
 a3=1900
 a4=7.2
 a5=0.014
