@@ -55,4 +55,8 @@ c14=0.14		#	Camber influence on vertical shift (Nm/deg/kN**2) C14
 c15=-1.029		#	Camber influence on vertical shift (Nm/deg/kN)  C15
 c16=0.27		#	Load influence on vertical shift (Nm/kN)  C16
 c17=-1.1		#	Vertical shift at load = 0 (Nm)  C17c0=2.2
-#--------	
+#--------  	Force combining parameters
+gy1 = 11.14388
+gy2 = 10.14162
+gx1 = 24.8565
+gx2 = 22.43545
